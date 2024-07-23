@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.user-manual": {
+    "message": "user-manual",
+    "description": "The label for category user-manual in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Welcome to ExFlow": {
+    "message": "Welcome to ExFlow",
+    "description": "The label for category Welcome to ExFlow in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Business Functionality": {
+    "message": "Business Functionality",
+    "description": "The label for category Business Functionality in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Approval Workflow": {
+    "message": "Approval Workflow",
+    "description": "The label for category Approval Workflow in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Sales Order": {
+    "message": "Sales Order",
+    "description": "The label for category Sales Order in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.CO₂ Insights": {
+    "message": "CO₂ Insights",
+    "description": "The label for category CO₂ Insights in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Localizations and ISV Extensions": {
+    "message": "Localizations and ISV Extensions",
+    "description": "The label for category Localizations and ISV Extensions in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Business Intelligence and reporting": {
+    "message": "Business Intelligence and reporting",
+    "description": "The label for category Business Intelligence and reporting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Help and Support": {
+    "message": "Help and Support",
+    "description": "The label for category Help and Support in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical": {
+    "message": "Technical",
+    "description": "The label for category Technical in sidebar tutorialSidebar"
+  }
+}

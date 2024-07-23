@@ -1,0 +1,194 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  max-width: var(--ifm-container-width-xl);
+}
+
+.row {
+  display: flex;
+  flex-wrap: unset;
+  margin: 0 calc(var(--ifm-spacing-horizontal)* -1);
+}
+
+
+.hero {
+  background-color: white;
+  height: 450px;
+}
+
+.hero--primary {
+  padding-top: 0px!important;
+}
+
+/* Footer overrides */
+.footer {
+  background-color: #feddb8; 
+}
+.footer__link-item {
+  color: #000;
+}
+.footer__title {
+  color: #000;
+}
+
+
+.background_wrap {
+  background-image: url("../../static/img/office_graphs.jpg");
+  background-size: cover;
+  width: 100%;
+  
+  /*
+  flex: 1 0 auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 1;
+  */
+  
+}
+
+
+.office_background {
+  background: linear-gradient(90deg, #278a89f2, #278a8980);
+/*
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  opacity: .99;
+  */
+}
+
+/*
+
+.wave_box {
+  background: url("../../static/img/waves.svg") no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.waves {
+  opacity: .6;
+  fill: #f8f1ea;
+}
+*/
+
+.nectar_shape_divider_rkAg {  
+  opacity: 1;
+  fill: #f8f1ea;
+  height: auto;
+}
+
+.nectar_shape_divider_wrap_xJrz {
+  bottom: 0;
+  /*height: 300px;*/
+  
+  
+  width: 100%;
+  z-index: -1;
+
+
+  /*bottom: 0;*/
+  /*height: inherit;*/
+  /*
+  height: 300px;
+  display: block;
+  */
+  /*background: lightgreen;*/
+
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*z-index: -1*/
+}
+
+.nectar_shape_divider_wrap_xJrz svg path:first-child {
+  opacity: .1;
+}
+
+.nectar_shape_divider_wrap_xJrz svg path:nth-child(2) {
+  opacity: .12;
+}
+
+.nectar_shape_divider_wrap_xJrz svg path:nth-child(3) {
+  opacity: .18;
+}
+
+.nectar_shape_divider_wrap_xJrz svg path:nth-child(4) {
+  opacity: .33;  
+}
+/*
+.nectar_shape_divider_wrap_xJrz svg path:nth-child(5) {
+  opacity: 1;
+  fill: white;
+}
+*/
+[data-theme='dark'] .nectar_shape_divider_wrap_xJrz svg path:nth-child(5) {
+  opacity: 1;
+  fill: #1c1e21;
+}
+[data-theme='light'] .nectar_shape_divider_wrap_xJrz svg path:nth-child(5) {
+  opacity: 1;
+  fill: #f8f1ea;
+}
+[data-theme='dark'] .features_src-components-HomepageFeatures-styles-module {
+  background-color: #1c1e21;
+}
+[data-theme='light'] .features_src-components-HomepageFeatures-styles-module {
+  background-color: #f8f1ea;
+}
+[data-theme='dark'] .features_t9lD {
+  background-color: #1c1e21;
+}
+[data-theme='light'] .features_t9lD {
+  background-color: #f8f1ea;
+}
+.features_t9lD {
+  background-color: #f8f1ea;
+}
+
+
+
+.page_title {
+  position: relative;
+  top: 220px;
+  height: auto;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
