@@ -126,6 +126,11 @@ const config = {
           title: getLang('Other documentation'),
 
           to: '/docs/user-manual/1-welcome-to-exflow/1-introduction.md',
+
+
+                          label: 'ExFlow for FO',
+                to: '/docs/intro',
+
 */
         ],
       },
