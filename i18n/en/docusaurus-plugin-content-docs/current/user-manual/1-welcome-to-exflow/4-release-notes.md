@@ -19,6 +19,10 @@ The issue with deferrals and preliminary posting has been fixed in 23.2.34.17
 
 BC upgrades failing sometimes due to ExFlow data has been fixed in 23.2.34.17
 
+The issue when ExFlow Approval Status report didn't create remaining periodic balance in specified account has been fixed in 23.2.34.20
+
+Expose method ''AddDocumentFromBlobs'' that replaces obsolete method ''AddDocumentFromStreams'' has been added in 23.2.34.20
+
 
 **Improvements/Enhancements**<br/> 
 

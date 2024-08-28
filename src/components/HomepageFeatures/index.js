@@ -30,9 +30,7 @@ const FeatureList = [
     title: <Translate>ExFlow for Finance and Operations</Translate>,
     Svg: require('@site/static/img/gears.svg').default,
     description: (
-      <>
-        ExFlow is easy to use. It is designed to be user-friendly and intuitive.
-      </>
+        <Translate>[Env]ExFlow is easy to use. It is designed to be user-friendly and intuitive.</Translate>
     ),
   },
   {
@@ -40,7 +38,7 @@ const FeatureList = [
     Svg: require('@site/static/img/gears.svg').default,
     description: (
       <>
-        ExFlow allows you to focus on what matters: your business. It takes care of the rest.
+        <Translate>ExFlow allows you to focus on what matters: your business. It takes care of the rest.</Translate>
       </>
     ),
   },
@@ -49,11 +47,12 @@ const FeatureList = [
     Svg: require('@site/static/img/gears.svg').default,
     description: (
       <>
-        ExFlow is build on top of the newest technologies. 
+        <Translate>ExFlow is built on top of the newest technologies.</Translate>
       </>
     ),
   },
 ];
+
 
 function Feature({Svg, title, description}) {
   return (

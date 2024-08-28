@@ -4,6 +4,7 @@ sidebar_position: 1
 hide_title: true
 ---
 ## Introduction
+
 ExFlow Business Central is a built-in AP and invoice process automation module for Dynamics 365 Business Central.
 
 ExFlow automates and enhances the end-to-end invoice process: from scanning and data capture, through data import and validation,

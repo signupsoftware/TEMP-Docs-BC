@@ -47,16 +47,16 @@ occur:
     type **G/L Account** a record is created in the General Journal and
     default batch.
 
-- The line will have the Posting Date set to **2020-01-31**.
+- The line will have the Posting Date set to **2021-03-31**.
 
 - The G/L Account number will be added from the purchasing line and
     the balance for the G/L Account will be set to **2445**.
 
 - There will also be created a reverse posting with posting date
-    **2020-02-01** on the same G/L Account but with opposite signs.
+    **2021-04-01** on the same G/L Account but with opposite signs.
 
 - All lines that have a Deferral Start Date set for accrual after
-    2020-01-31 will not be included. This is because the field
+    2021-03-31 will not be included. This is because the field
     **"Exclude Deferral Amount occurring after Posting Date:"**
     is checked.
 

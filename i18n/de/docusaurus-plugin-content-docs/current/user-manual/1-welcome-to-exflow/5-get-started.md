@@ -1,200 +1,193 @@
 ---
-title: Get Started
+title: Erste Schritte
 sidebar_position: 5
 hide_title: true
 ---
-## Get Started
+## Erste Schritte
 
-### Introduction
+### Einführung
 
-The ExFlow Get Started Wizard is designed to streamline the initial setup process and get users up and running with ExFlow quickly and efficiently. This user manual will guide through the step-by-step process of using the wizard to configure ExFlow according to the organization's specific needs.
+Der ExFlow Erste Schritte-Assistent ist darauf ausgelegt, den anfänglichen Einrichtungsprozess zu vereinfachen und Benutzer schnell und effizient mit ExFlow vertraut zu machen. Dieses Benutzerhandbuch führt Sie Schritt für Schritt durch den Prozess der Verwendung des Assistenten, um ExFlow gemäß den spezifischen Anforderungen Ihrer Organisation zu konfigurieren.
 
-By completing the ExFlow Get Started Wizard, a fully functioning setup of ExFlow will be provided, tailored to the company specific requirements. Users will be able to import invoices, automate approval suggestions based on attributes or roles, and experience the time-saving benefits of ExFlow's intelligent coding and approval assignment.
+Durch das Abschließen des ExFlow Erste Schritte-Assistenten wird eine voll funktionsfähige Einrichtung von ExFlow bereitgestellt, die auf die spezifischen Anforderungen des Unternehmens zugeschnitten ist. Benutzer können Rechnungen importieren, Genehmigungsvorschläge basierend auf Attributen oder Rollen automatisieren und die zeitsparenden Vorteile der intelligenten Kodierung und Genehmigungszuweisung von ExFlow erleben.
 
-This user manual will provide detailed instructions, helpful tips, and insights to ensure a smooth and successful configuration process. It is recommended to read each section carefully, follow the steps sequentially, and feel free to refer to this manual whenever assistance is needed.
-
-
-### Prerequisites
-
-Before running the ExFlow Get Started Wizard, there are a few prerequisites that need to be completed. Follow these initial steps to ensure a smooth setup process:
-
-Download and Install ExFlow: Visit the Microsoft AppSource marketplace and locate the ExFlow extension as a Free Trial. 
-
-![Get Started Wizard - Microsoft AppSource](@site/static/img/media/get-started-001-appsource.png)
-
-Enter company details and select which tenant to install ExFlow in and what language. Once the installation is completed, obtain the ExFlow license key from your authorized ExFlow Partner.
-
-Search for ExFlow License Activation and enter the license key:
-
-![Get Started Wizard - License Activation](@site/static/img/media/get-started-002-license-activation.png)
-
-Once these initial steps are completed, one can proceed to run the Get Started Wizard.
-
-Note: It is essential to have the ExFlow extension installed, and the license key activated to proceed with the ExFlow Get Started Wizard. If any issues are encountered during the installation or activation, refer to the ExFlow documentation or reach out to the ExFlow support team for assistance.
-
-Search for ExFlow Get Started Wizard:
-
-![Get Started Wizard](@site/static/img/media/get-started-003-search.png)
+Dieses Benutzerhandbuch bietet detaillierte Anweisungen, hilfreiche Tipps und Einblicke, um einen reibungslosen und erfolgreichen Konfigurationsprozess zu gewährleisten. Es wird empfohlen, jeden Abschnitt sorgfältig zu lesen, die Schritte nacheinander zu befolgen und bei Bedarf auf dieses Handbuch zurückzugreifen.
 
 
-### Copy Setup from another company
-If ExFlow have been previously installed and configured in other companies within the same tenant, it is possible to utilize the option to copy the ExFlow setup. This feature is particularly valuable when there is a need to apply the same or similar configuration settings to the new company.
+### Voraussetzungen
 
-![Get Started Wizard - Copy ExFlow Setup](@site/static/img/media/get-started-004-do-you-want-to-copy.png)
+Bevor Sie den ExFlow Erste Schritte-Assistenten ausführen, müssen einige Voraussetzungen erfüllt sein. Befolgen Sie diese ersten Schritte, um einen reibungslosen Einrichtungsprozess sicherzustellen:
 
-![Get Started Wizard - Copy ExFlow Setup](@site/static/img/media/get-started-005-copy-exflow-setup.png)
+Laden Sie ExFlow herunter und installieren Sie es: Besuchen Sie den Microsoft AppSource-Marktplatz und finden Sie die ExFlow-Erweiterung als kostenlose Testversion.
 
+![Erste Schritte-Assistent - Microsoft AppSource](@site/static/img/media/get-started-001-appsource.png)
 
-### Get Started
+Geben Sie die Firmendaten ein und wählen Sie aus, in welchem Mandanten ExFlow installiert werden soll und in welcher Sprache. Sobald die Installation abgeschlossen ist, erhalten Sie den ExFlow-Lizenzschlüssel von Ihrem autorisierten ExFlow-Partner.
 
-Firstly, utilize the comprehensive video tutorial that walks through each step of the wizard, explaining the process in a visual and engaging manner. Simply click on the [***Watch Video ***](https://www.signupsoftware.com/get-started-video/) link to access it and follow along with the instructions. 
+Suchen Sie nach ExFlow-Lizenzaktivierung und geben Sie den Lizenzschlüssel ein:
 
-Secondly, we have prepared a detailed step-by-step guide that provides written instructions on executing the wizard. This guide offers clear explanations and helpful tips to ensure a smooth and successful setup experience.
+![Erste Schritte-Assistent - Lizenzaktivierung](@site/static/img/media/get-started-002-license-activation.png)
 
-![Get Stared Wizard](@site/static/img/media/get-started-006-exflow-get-started-wizard.png)
+Sobald diese ersten Schritte abgeschlossen sind, können Sie den Erste Schritte-Assistenten ausführen.
 
+Hinweis: Es ist wichtig, dass die ExFlow-Erweiterung installiert und der Lizenzschlüssel aktiviert ist, um mit dem ExFlow Erste Schritte-Assistenten fortzufahren. Wenn während der Installation oder Aktivierung Probleme auftreten, lesen Sie die ExFlow-Dokumentation oder wenden Sie sich an das ExFlow-Supportteam.
 
-**Approval Assignment**
+Suchen Sie nach ExFlow Erste Schritte-Assistent:
 
-Define the approval assignment and approval order for incoming documents. The approval assignment determines how ExFlow dynamically assigns approvers to the documents based on specific attributes or values found on the document.
+![Erste Schritte-Assistent](@site/static/img/media/get-started-003-search.png)
 
-As an illustration, consider the following example that outlines the desired order of approvers for a document:
-1.	Purchaser
-2.	Dimension owner of the Department dimension
-3.	Dimension owner of the Region dimension
-In this scenario, the approver assignment for a document will follow the specified sequence. First, the purchaser will be assigned as the initial approver. Next, the dimension owner of the Department dimension will review the document. Finally, the dimension owner of the Region dimension will provide their approval.
+### Einrichtung von einem anderen Unternehmen kopieren
+Wenn ExFlow bereits in anderen Unternehmen innerhalb desselben Mandanten installiert und konfiguriert wurde, ist es möglich, die Option zur Kopie der ExFlow-Einrichtung zu nutzen. Diese Funktion ist besonders wertvoll, wenn die gleichen oder ähnlichen Konfigurationseinstellungen auf das neue Unternehmen angewendet werden sollen.
 
-![Get Started Wizard - Approval Assignment](@site/static/img/media/get-started-007-approval-assignment.png)
+![Erste Schritte-Assistent - ExFlow-Einrichtung kopieren](@site/static/img/media/get-started-004-do-you-want-to-copy.png)
 
-
-**Create Users**
-
-Create ExFlow users based on a selection of users from your Business Central environment. The ExFlow Get Started Wizard simplifies the process of adding users to ExFlow and ensures that the appropriate information such as User name, Full name, and Email address are assigned.
-
-Updates or modifications on existing ExFlow users should be executed from “ExFlow Users”. This ensures centralized control and consistency in user management.
-It’s important to note that the user executing the Get Started Wizard will be created as an ExFlow Admin User. This grants them administrative ExFlow privileges within the current company.
+![Erste Schritte-Assistent - ExFlow-Einrichtung kopieren](@site/static/img/media/get-started-005-copy-exflow-setup.png)
 
 
-![Get Started Wizard - Business Central Users](@site/static/img/media/get-started-008-business-central-users.png)
+### Erste Schritte
+
+Erstens, nutzen Sie das umfassende Video-Tutorial, das jeden Schritt des Assistenten durchläuft und den Prozess auf visuelle und ansprechende Weise erklärt. Klicken Sie einfach auf den [***Watch Video ***](https://www.signupsoftware.com/get-started-video/) Link, um darauf zuzugreifen und den Anweisungen zu folgen.
+
+Zweitens haben wir eine detaillierte Schritt-für-Schritt-Anleitung vorbereitet, die schriftliche Anweisungen zur Ausführung des Assistenten bietet. Diese Anleitung enthält klare Erklärungen und hilfreiche Tipps, um eine reibungslose und erfolgreiche Einrichtung zu gewährleisten.
+
+![Erste Schritte-Assistent](@site/static/img/media/get-started-006-exflow-get-started-wizard.png)
+
+**Genehmigungszuweisung**
+
+Definieren Sie die Genehmigungszuweisung und die Genehmigungsreihenfolge für eingehende Dokumente. Die Genehmigungszuweisung bestimmt, wie ExFlow Genehmiger dynamisch den Dokumenten basierend auf spezifischen Attributen oder Werten, die auf dem Dokument gefunden werden, zuweist.
+
+Als Beispiel betrachten Sie das folgende Szenario, das die gewünschte Reihenfolge der Genehmiger für ein Dokument darstellt:
+1. Einkäufer
+2. Dimensionsverantwortlicher der Abteilungsdimension
+3. Dimensionsverantwortlicher der Regionsdimension
+In diesem Szenario folgt die Genehmigungszuweisung für ein Dokument der angegebenen Reihenfolge. Zuerst wird der Einkäufer als erster Genehmiger zugewiesen. Als nächstes überprüft der Dimensionsverantwortliche der Abteilungsdimension das Dokument. Schließlich gibt der Dimensionsverantwortliche der Regionsdimension seine Genehmigung.
+
+![Erste Schritte-Assistent - Genehmigungszuweisung](@site/static/img/media/get-started-007-approval-assignment.png)
 
 
-**ExFlow Users**
+**Benutzer erstellen**
 
-Complete the setup of ExFlow users by finalizing their attributes, email addresses, and permission roles. It is important to accurately assign dimension values, purchaser codes, and other relevant attributes to each user based on the specifications previously defined in the approval assignment.
+Erstellen Sie ExFlow-Benutzer basierend auf einer Auswahl von Benutzern aus Ihrer Business Central-Umgebung. Der ExFlow Erste Schritte-Assistent vereinfacht den Prozess der Benutzererstellung in ExFlow und stellt sicher, dass die entsprechenden Informationen wie Benutzername, vollständiger Name und E-Mail-Adresse zugewiesen werden.
 
-*Approval Roles:*<br/>
-•	Approver: Participates in the approval process without coding change capabilities.<br/>
-•	Approver (Power): Has the capability to make coding changes during the approval process, based on defined Coding Rules.<br/>
-•	Approver (Super): Can make coding changes, search, and view all invoices within the company.<br/>
-•	Admin: Intended for accountants and administrators of ExFlow in Business Central, providing access to setup.
+Aktualisierungen oder Änderungen an bestehenden ExFlow-Benutzern sollten über „ExFlow-Benutzer“ vorgenommen werden. Dies gewährleistet eine zentrale Kontrolle und Konsistenz im Benutzermanagement.
+Es ist wichtig zu beachten, dass der Benutzer, der den Erste Schritte-Assistenten ausführt, als ExFlow-Admin-Benutzer erstellt wird. Dies gewährt ihm administrative ExFlow-Berechtigungen innerhalb des aktuellen Unternehmens.
 
-![Get Started Wizard - Assign Dimensions](@site/static/img/media/get-started-009-assign-dimensions.png)
+![Erste Schritte-Assistent - Business Central-Benutzer](@site/static/img/media/get-started-008-business-central-users.png)
 
 
-**Automated Tasks**
+**ExFlow-Benutzer**
 
-Enter a specific Job Queue Entry User that will be used to run the scheduled jobs, if needed. The user must have the necessary permissions to perform the tasks that the jobs will execute.
+Schließen Sie die Einrichtung der ExFlow-Benutzer ab, indem Sie deren Attribute, E-Mail-Adressen und Berechtigungsrollen finalisieren. Es ist wichtig, die Dimensionswerte, Einkäufercodes und andere relevante Attribute jedem Benutzer genau zuzuweisen, basierend auf den zuvor in der Genehmigungszuweisung definierten Spezifikationen.
 
-Select and schedule the necessary processes and email reminders to automate your invoice workflow process. By setting up recurring jobs, one can ensure that essential tasks such as importing invoices, creating, or posting them, and other relevant processes are performed automatically at specified intervals.
+*Genehmigungsrollen:*<br/>
+• Genehmiger: Nimmt am Genehmigungsprozess teil, ohne die Möglichkeit, Kodierungen zu ändern.<br/>
+• Genehmiger (Power): Hat die Möglichkeit, während des Genehmigungsprozesses Kodierungen basierend auf definierten Kodierungsregeln zu ändern.<br/>
+• Genehmiger (Super): Kann Kodierungen ändern, suchen und alle Rechnungen innerhalb des Unternehmens einsehen.<br/>
+• Admin: Für Buchhalter und Administratoren von ExFlow in Business Central vorgesehen, mit Zugriff auf die Einrichtung.
 
-Additionally, configure email reminders to keep users informed and prompt their attention for pending approvals, approaching deadlines, or any other important events within the workflow. Enhance communication and ensure a smooth flow of invoice processing by leveraging email notifications:
+![Erste Schritte-Assistent - Dimensionen zuweisen](@site/static/img/media/get-started-009-assign-dimensions.png)
 
-![Get Started Wizard – Automated Tasks](@site/static/img/media/get-started-010-automated-tasks.png)
+
+**Automatisierte Aufgaben**
+
+Geben Sie einen spezifischen Job Queue Entry User ein, der verwendet wird, um die geplanten Jobs auszuführen, falls erforderlich. Der Benutzer muss über die notwendigen Berechtigungen verfügen, um die Aufgaben auszuführen, die die Jobs durchführen werden.
+
+Wählen und planen Sie die notwendigen Prozesse und E-Mail-Erinnerungen, um Ihren Rechnungsworkflow zu automatisieren. Durch das Einrichten wiederkehrender Jobs kann sichergestellt werden, dass wesentliche Aufgaben wie das Importieren von Rechnungen, das Erstellen oder Buchen von ihnen und andere relevante Prozesse automatisch in festgelegten Intervallen ausgeführt werden.
+
+Konfigurieren Sie zusätzlich E-Mail-Erinnerungen, um Benutzer zu informieren und deren Aufmerksamkeit auf ausstehende Genehmigungen, bevorstehende Fristen oder andere wichtige Ereignisse im Workflow zu lenken. Verbessern Sie die Kommunikation und stellen Sie einen reibungslosen Ablauf der Rechnungsverarbeitung sicher, indem Sie E-Mail-Benachrichtigungen nutzen:
+
+![Erste Schritte-Assistent – Automatisierte Aufgaben](@site/static/img/media/get-started-010-automated-tasks.png)
 
 
 **ExFlow Data Capture**
 
-This step is relevant for customers who utilize ExFlow Data Capture as their OCR solution. If ExFlow Data Capture is not in use, this step can be skipped.
+Dieser Schritt ist relevant für Kunden, die ExFlow Data Capture als ihre OCR-Lösung nutzen. Wenn ExFlow Data Capture nicht verwendet wird, kann dieser Schritt übersprungen werden.
 
-Establishing a connection to ExFlow Data Capture is essential to enable a integration between ExFlow and the OCR solution. This connection allows ExFlow to import invoices from the designated company and upload master data, such as vendor information, to the ExFlow Data Capture environment.
+Die Einrichtung einer Verbindung zu ExFlow Data Capture ist unerlässlich, um eine Integration zwischen ExFlow und der OCR-Lösung zu ermöglichen. Diese Verbindung erlaubt es ExFlow, Rechnungen vom angegebenen Unternehmen zu importieren und Stammdaten, wie Lieferanteninformationen, in die ExFlow Data Capture-Umgebung hochzuladen.
 
-Click Enable to enter OCR Service Setup where necessary information needs to be entered.
+Klicken Sie auf Aktivieren, um die OCR-Diensteinrichtung zu öffnen, in der die erforderlichen Informationen eingegeben werden müssen.
 
-![Get Started Wizard – ExFlow Data Capture](@site/static/img/media/get-started-011-exflow-data-capture.png)
+![Erste Schritte-Assistent – ExFlow Data Capture](@site/static/img/media/get-started-011-exflow-data-capture.png)
 
-To initiate the connection, you will need the following information provided by SignUp Software:
-1.	User Name: The username associated with your ExFlow Data Capture account.
-2.	Password: The password associated with your ExFlow Data Capture account.
-3.	Authorization Key: A unique key provided by SignUp Software that grants access to your specific ExFlow Data Capture environment.
-4.	OCR Doc. Template: The OCR document template that defines the layout and structure of invoices for extraction and processing.
+Um die Verbindung zu initiieren, benötigen Sie die folgenden Informationen, die von SignUp Software bereitgestellt werden:
+1. Benutzername: Der Benutzername, der mit Ihrem ExFlow Data Capture-Konto verknüpft ist.
+2. Passwort: Das Passwort, das mit Ihrem ExFlow Data Capture-Konto verknüpft ist.
+3. Autorisierungsschlüssel: Ein eindeutiger Schlüssel, der von SignUp Software bereitgestellt wird und Zugriff auf Ihre spezifische ExFlow Data Capture-Umgebung gewährt.
+4. OCR-Dokumentvorlage: Die OCR-Dokumentvorlage, die das Layout und die Struktur der Rechnungen für die Extraktion und Verarbeitung definiert.
 
-Click close to get back to the Get Started Wizard.
+Klicken Sie auf Schließen, um zum Erste Schritte-Assistenten zurückzukehren.
 
-![Get Started Wizard – ExFlow Data Capture Account](@site/static/img/media/get-started-012-exflow-data-capture-account-card.png)
+![Erste Schritte-Assistent – ExFlow Data Capture-Konto](@site/static/img/media/get-started-012-exflow-data-capture-account-card.png)
 
-Schedule the synchronization of master data  and check the ''Enabled''- box to permit synchronization between ExFlow and ExFlow Data Capture.
-The synchronization of vendors from Business Central to ExFlow Data Capture will be scheduled to run every 10 minutes.<br/>
+Planen Sie die Synchronisierung der Stammdaten und aktivieren Sie das Kontrollkästchen ''Aktiviert'', um die Synchronisierung zwischen ExFlow und ExFlow Data Capture zu ermöglichen.
+Die Synchronisierung der Lieferanten von Business Central zu ExFlow Data Capture wird so geplant, dass sie alle 10 Minuten ausgeführt wird.<br/>
 <br/>
 
+**Zusätzliche Optionen**
 
-**Additional Options**
+Konfigurieren Sie zusätzliche Optionen gemäß Ihren spezifischen Anforderungen, um ExFlow weiter zu optimieren und an die Bedürfnisse Ihrer Organisation anzupassen.
 
-Configure additional options according to your specific requirements, you can further optimize and tailor ExFlow to suit your organization's needs.
+• *Vier-Augen-Prinzip*: Aktivieren Sie diese Funktion, um die Genehmigung durch mindestens zwei Personen zu verlangen, bevor ein Dokument gebucht werden kann. Diese zusätzliche Kontrollschicht gewährleistet Genauigkeit und minimiert Fehler in Ihren Finanzprozessen.<br/>
 
-•	*Four Eyes Principle*: Activate this feature to require approval from at least two individuals before a document can be posted. This extra layer of control ensures accuracy and minimizes errors in your financial processes.<br/>
+• *Vordefiniertes Konto*: Vereinfachen Sie die Rechnungsbuchung für neue Lieferanten, indem Sie ein vordefiniertes Konto einrichten. ExFlow wird dieses Konto automatisch vorschlagen, wenn auf Lieferantenebene kein spezifisches Konto definiert wurde.
+Zusätzlich nutzt ExFlow Ihre Historie der gebuchten Einkaufsrechnungen in Business Central, um die wahrscheinlichste Kodierung für eine effiziente Rechnungsverarbeitung vorzuschlagen.<br/>
 
-•	*Predefined Account*: Simplify invoice coding for new vendors by setting up a predefined account. ExFlow will automatically suggest this account if no specific account has been defined on a vendor level.
-Additionally, ExFlow utilizes your Posted Purchase Invoice history in Business Central to suggest the most probable coding for efficient invoice processing.<br/>
+• *URL zu ExFlow Web*: Geben Sie die URL zu Ihrem ExFlow Web an, um Genehmigern einen einfachen Zugang zur Überprüfung und Genehmigung von Rechnungen zu gewähren. Die benutzerfreundliche Weboberfläche bietet eine bequeme und effiziente Möglichkeit, den Genehmigungsprozess zu verwalten.<br/>
 
-•	*URL to ExFlow Web*: Provide the URL to your ExFlow Web, granting easy access for approvers to review and approve invoices. The user-friendly web interface offers a convenient and efficient way to manage the approval process.<br/>
+• *Zusätzliche Spalten für ExFlow Web aktivieren*: Verbessern Sie die ExFlow Web-Oberfläche, indem Sie zusätzliche Spalten wie die MwSt.-Produktbuchungsgruppe und den Abgrenzungscode aktivieren.<br/>
 
-•	*Activate Additional Columns for ExFlow Web*: Enhance the ExFlow Web interface by activating additional columns, such as VAT Prod Posting Group and Deferral Code. <br/>
+Sobald Sie Ihre Auswahl getroffen und die zusätzlichen Optionen finalisiert haben, sind Sie bereit, den ExFlow Erste Schritte-Assistenten abzuschließen und die vollen Vorteile von ExFlow in Ihren Geschäftsabläufen zu genießen.
 
-Once you have made your selections and finalized the additional options, you are ready to complete the ExFlow Get Started Wizard and enjoy the full benefits of ExFlow in your business operations.
+![Erste Schritte-Assistent – Zusätzliche Optionen](@site/static/img/media/get-started-014-additional-options.png)
 
-![Get Started Wizard – Additional Options](@site/static/img/media/get-started-014-additional-options.png)
+**Abschluss**
 
+Herzlichen Glückwunsch! Sie haben erfolgreich alle notwendigen Informationen bereitgestellt, um die Einrichtung gemäß Ihren Präferenzen zu starten. Klicken Sie auf die Schaltfläche "Abschluss", um die Konfiguration abzuschließen und die ExFlow-Einrichtung basierend auf Ihren Auswahlmöglichkeiten zu initiieren.
 
-**Finish**
-
-Congratulations! You have successfully provided all the necessary information to initiate the setup according to your preferences. Click the "Finish" button to finalize the configuration and initiate the ExFlow setup based on your selections.
-
-![Get Started Wizard – Complete](@site/static/img/media/get-started-015-complete.png)
+![Erste Schritte-Assistent – Abschluss](@site/static/img/media/get-started-015-complete.png)
 
 
-**Other**
+**Sonstiges**
 
-If you exit the wizard at any point, don't worry! The system will prompt you with an option to save your entered data, allowing you to continue from where you left off at a later time. This way, you can conveniently pick up the setup process right where you left it without losing any progress or having to start from scratch.
+Wenn Sie den Assistenten zu irgendeinem Zeitpunkt verlassen, keine Sorge! Das System wird Sie auffordern, Ihre eingegebenen Daten zu speichern, sodass Sie später dort weitermachen können, wo Sie aufgehört haben. Auf diese Weise können Sie den Einrichtungsprozess bequem genau dort fortsetzen, wo Sie ihn unterbrochen haben, ohne Fortschritte zu verlieren oder von vorne beginnen zu müssen.
 
-![Get Started Wizard – Keep Data](@site/static/img/media/get-started-016-keep-data.png)
+![Erste Schritte-Assistent – Daten behalten](@site/static/img/media/get-started-016-keep-data.png)
 
+### ExFlow Data Capture-Konten
 
+ExFlow Data Capture-Konten werden verwendet, um eine Verbindung zu ExFlow Data Capture (EDC) für den Import von interpretierten Rechnungen und das Hochladen von Lieferantenstammdaten aus Business Central herzustellen (wenn die OCR-Diensteinrichtung nicht verwendet wird). Dieser Konfigurationsprozess kann entweder während der Ersteinrichtung mit dem Erste Schritte-Assistenten oder manuell abgeschlossen werden.
 
-### ExFlow Data Capture Accounts
+**Konfigurationsschritte:**
+Navigieren Sie zu ExFlow Data Capture-Konten, um auf die Konfiguration zuzugreifen.
+Klicken Sie auf Neu, um eine neue Verbindung zu initiieren.
 
-ExFlow Data Capture Accounts is used to establish a connection to ExFlow Data Capture (EDC) for the importation of interpreted invoices and uploading of vendor master data from Business Central (if OCR Service Setup is not in use). This configuration process can be completed either during the initial setup using the Get Started Wizard or manually.
+Geben Sie der Verbindung einen geeigneten Code und wählen Sie den Verbindungstyp:
+- *Einkauf* ist für Einkaufsrechnungen
+- *Verkauf* ist für Verkaufsaufträge
 
-**Configuration Steps:**
-Navigate to ExFlow Data Capture Accounts to access the configuration.
-Click on New to initiate a new connection.
+**Verbindungsdetails:**
+Um die Verbindung abzuschließen, stellen Sie sicher, dass Sie die folgenden Verbindungsdetails haben, um eine Verbindung zu EDC herzustellen. Diese werden von SignUp Software oder Ihrem vertrauenswürdigen Business Central-Partner bereitgestellt.
 
-Give the connection a proper Code and choose connection Type:
-- *Purchase* is for Purchase Invoices
-- *Sales* is for Sales Orders
+- *Benutzername*
+- *Passwort*
+- *Autorisierungsschlüssel*
 
+**Standard-EDC-Dokumentvorlagen**
+Wählen Sie die Dokumentvorlage, die von EDC zur Interpretation verwendet wird.
 
-**Connection Details:**
-To complete the connection, ensure you have the following connection details to establish a connection to EDC. These are provided by SignUp Software or your trusted Business Central Partner.
+**Datenaustauschtyp**
+Wählen Sie den „EDC2EXF“, der der Standard-Austauschtyp für EDC ist.
 
-- *User Name*
-- *Password*
-- *Authorization Key*
+**Unternehmensauswahl:**
+Im Gegensatz zur "OCR-Diensteinrichtung" ermöglicht die ExFlow Data Capture-Konten-Konfiguration die Verwendung derselben Anmeldeinformationen in allen Unternehmen innerhalb von Business Central.
+Dies liegt daran, dass das Benutzerkonto Zugriff auf alle Unternehmen in EDC hat.
+Wichtig: Wählen Sie das richtige Unternehmen als Käufer und Master Data-Filter während der Konfiguration, um sicherzustellen, dass die Verbindung mit dem vorgesehenen Unternehmen hergestellt wird.
 
-**Default EDC Doc. Templates**
-Choose the document template used for interpretation by EDC.
+![ExFlow Data Capture-Konto](@site/static/img/media/exflow-data-capture-account-card-001.png)
 
-**Data Exchange Type**
-Choose the “EDC2EXF” which is the default Exchange Type used for EDC.
- 
-**Company Selection:**
-Unlike the "OCR Service Setup" the ExFlow Data Capture Accounts configuration allows the use of the same credentials across all companies within Business Central.
-This is due to the user account having access to all companies in EDC.
-Important: Select the correct Company as Buyer and Master Data-filter during configuration to ensure the connection is established with the intended company.
+**Abschluss der Konfiguration:**
+Überprüfen Sie die eingegebenen Details, bevor Sie den Konfigurationsprozess abschließen.
+Aktivieren Sie die Stammdatensynchronisierung, um das Hochladen von Lieferantenstammdaten zu ermöglichen.
+Aktivieren Sie abschließend „aktivieren“ und akzeptieren Sie alle Aufforderungsmeldungen.
+Testen Sie die Verbindung, um eine erfolgreiche Integration zwischen Business Central und ExFlow Data Capture sicherzustellen.
 
-![ExFlow Data Capture Account](@site/static/img/media/exflow-data-capture-account-card-001.png) 
-
-**Finalizing Configuration:**
-Verify the entered details before finalizing the configuration process.
-Activate Master Data Sync to enable upload of Vendor master data.
-Finally activate “enable” and accept any prompt messages.
-Test the connection to ensure successful integration between Business Central and ExFlow Data Capture.

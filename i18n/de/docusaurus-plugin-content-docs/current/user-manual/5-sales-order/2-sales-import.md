@@ -34,6 +34,8 @@ If the Document Create Type was set to ‘’Create and Release’’, then the 
 
 
 ### Handling Imported Sales Orders With Error
+In following example, one Default Sales Batch exist, and another Sales Batch is created for Customer Adatum Corporation.
+
 Imported documents with error will be stuck in the Sales Document Import list until the error is handled manually.
 
 ![Import Sales Document](@site/static/img/media/sales-document-import-list-error-001.png) <br/>

@@ -44,7 +44,7 @@ If a user accidentally got confidential access to all companies instead of one s
 
 ![Confidential Documents](@site/static/img/media/exflow-user-confidential-access-003.png)
 
-Frankie now has access to see all confidential documents in the Signup company only. 
+Below ExFlow user now has access to see all confidential documents in the SignUp company only. 
 
 ![Confidential Documents](@site/static/img/media/exflow-user-confidential-access-004.png)
 

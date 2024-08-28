@@ -129,7 +129,7 @@ The option ''From ExFlow Setup'' is set per default in most settings, meaning th
 
 |Approval|  |
 |:-|:-|
-|**Approve VAT Lines**| 	Specifies if the VAT lines should be included in the approval flow. If using an ExFlow Purchase Code on the header, this setting will be ignored.
+|**Approve VAT Lines**| 	Specifies if the VAT lines should be included in the approval flow. If using an ExFlow Purchase Code on the header, this setting will be ignored. <br/><br/> Read more about this under section [***Approve VAT Lines.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)
 
 <br/>
 

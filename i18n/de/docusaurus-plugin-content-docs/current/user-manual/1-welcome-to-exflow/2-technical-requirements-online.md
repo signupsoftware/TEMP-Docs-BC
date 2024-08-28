@@ -1,53 +1,55 @@
 ---
-title: Technical Requirements for ExFlow Business Central Online
+title: Technische Anforderungen Online
 sidebar_position: 2
 hide_title: true
 ---
-## ExFlow Business Central Online
+## Technische Anforderungen Online
 
-Following information describes the technical requirement for running ExFlow Business Central Online on Dynamics 
-365 Business Central Online using ExFlow Data Capture as the OCR solution.
+Um ExFlow für Dynamics 365 Business Central Online zu verwenden, müssen die folgenden technischen Anforderungen erfüllt sein:
 
-![Technical Requirements for ExFlow Business Central Online](@site/static/img/media/technical-requirements-for-exflow-001.png)
+### Systemanforderungen
 
-The ExFlow Business Central Online runs on the Dynamics 365 Business Central Online platform and follows 
-Microsoft´s technical requirements for Dynamics 365 Business Central Online.
+- **Dynamics 365 Business Central Online**: ExFlow ist kompatibel mit der neuesten Version von Dynamics 365 Business Central Online.
+- **Browser**: Ein moderner Webbrowser wie Google Chrome, Microsoft Edge oder Mozilla Firefox wird empfohlen.
 
-Read about the minimum requirements for using Business Central [***here***](https://docs.microsoft.com/en-us/dynamics365/business-central/product-requirements).<br/>
+### Benutzeranforderungen
 
-### Technical Specifications
+- **Lizenzen**: Benutzer benötigen die entsprechenden Lizenzen für Dynamics 365 Business Central und ExFlow.
+- **Berechtigungen**: Benutzer müssen über die erforderlichen Berechtigungen in Dynamics 365 Business Central verfügen, um auf ExFlow-Funktionen zugreifen zu können.
 
-*Integration ExFlow Data Capture (if applicable):*<br/>
-* Web service to export vendor data<br/>
-* Web service to import scanned invoice images and data.<br/>
+### Netzwerk- und Sicherheitsanforderungen
 
-*Integration ExFlow Cloud (Approval web):*<br/>
-* ExFlow BC Online publishes a web service so that ExFlow Cloud can retrieve invoice and
-vendor data etc.<br/>
-* ExFlow BC Online has a web service to import all data that has been changed during web
-approval process.<br/>
+- **Internetverbindung**: Eine stabile Internetverbindung ist erforderlich, um auf Dynamics 365 Business Central Online und ExFlow zuzugreifen.
+- **Sicherheitsrichtlinien**: Stellen Sie sicher, dass Ihre Sicherheitsrichtlinien den Zugriff auf die erforderlichen Dienste und Endpunkte zulassen.
 
-### Licensing
-Note that Client is responsible for having the correct license and support agreements with Microsoft. 
-If you are unsure, please contact your Dynamics 365 Business Central implementation partner.<br/>
+### Weitere Anforderungen
+
+- **E-Mail**: Für die Genehmigungsworkflows ist ein funktionierendes E-Mail-System erforderlich, um Benachrichtigungen und Genehmigungsanfragen zu senden und zu empfangen.
+- **Support**: Bei Fragen oder Problemen wenden Sie sich bitte an [***ExFlow Support***](https://support.signupsoftware.com).
+
+*Integration ExFlow Cloud (Genehmigungsweb):*<br/>
+* ExFlow BC Online veröffentlicht einen Webdienst, damit ExFlow Cloud Rechnungs- und Lieferantendaten abrufen kann.<br/>
+* ExFlow BC Online verfügt über einen Webdienst zum Importieren aller Daten, die während des Genehmigungsprozesses im Web geändert wurden.<br/>
+
+### Lizenzierung
+Beachten Sie, dass der Kunde dafür verantwortlich ist, die korrekten Lizenz- und Supportvereinbarungen mit Microsoft zu haben. 
+Wenn Sie unsicher sind, wenden Sie sich bitte an Ihren Dynamics 365 Business Central Implementierungspartner.<br/>
 
 ### ExFlow Cloud
-In ExFlow Cloud, end-users can approve invoices on any device, be it mobile, tablet or computer. 
-ExFlow Cloud is a cloud service running on Microsoft Azure. 
+In ExFlow Cloud können Endbenutzer Rechnungen auf jedem Gerät genehmigen, sei es Mobiltelefon, Tablet oder Computer. 
+ExFlow Cloud ist ein Cloud-Dienst, der auf Microsoft Azure läuft.
 
-ExFlow Cloud requires access to ExFlow Business Central Online web services in order to communicate. This 
-communication must be encrypted. 
+ExFlow Cloud benötigt Zugriff auf die ExFlow Business Central Online-Webdienste, um zu kommunizieren. Diese 
+Kommunikation muss verschlüsselt sein.
 
-*The available communication option between ExFlow Cloud and ExFlow Business Central Online is:*
-* HTTPS to a public end-point <br/><br/>
+*Die verfügbare Kommunikationsoption zwischen ExFlow Cloud und ExFlow Business Central Online ist:*
+* HTTPS zu einem öffentlichen Endpunkt <br/><br/>
 
+#### ExFlow Cloud Client-Software
+Clients können Windows 7 oder später, Apple Mac, iPad, iPhone mit iOS, Android-Tablets und -Telefone mit 
+der neuesten Version des Betriebssystems sein.<br/>
 
-#### ExFlow Cloud Client Software
-Clients can be Windows 7 or later, Apple Mac, iPad, iPhone with iOS, Android tablets & phones with 
-the latest release of the operating systems.<br/>
-
-*Supported web browsers (the latest versions)*:<br/>
-* Google Chrome (recommended)<br/>
+*Unterstützte Webbrowser (die neuesten Versionen)*:<br/>
+* Google Chrome (empfohlen)<br/>
 * Microsoft Edge<br/>
 * Safari<br/>
-

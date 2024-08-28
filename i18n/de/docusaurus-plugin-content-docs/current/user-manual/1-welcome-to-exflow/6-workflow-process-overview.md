@@ -1,35 +1,22 @@
 ---
-title: Workflow Process Overview
+title: Überblick über den Workflow-Prozess
 sidebar_position: 6
 hide_title: true
 ---
-## Workflow Process Overview
+## Überblick über den Workflow-Prozess
 
-![Workflow Precess Overview](@site/static/img/media/workflow-process-overview-001.png)
+![Workflow Process Overview](@site/static/img/media/workflow-process-overview-001.png)
 
-1. **Scanning and data capture** - ExFlow support all types of invoices including paper, pdf and other electronic formats. Incoming paper
-    invoices are scanned and imported into an electronic workflow using ExFlow Data Capture *(or a similar OCR-solution)*. Electronic
-    invoices are imported directly into ExFlow.
+1. **Scannen und Datenerfassung** - ExFlow unterstützt alle Arten von Rechnungen, einschließlich Papier, PDF und anderen elektronischen Formaten. Eingehende Papierrechnungen werden gescannt und mithilfe von ExFlow Data Capture *(oder einer ähnlichen OCR-Lösung)* in einen elektronischen Workflow importiert. Elektronische Rechnungen werden direkt in ExFlow importiert.
 
-2. **Data import and validation** - Invoice information is interpreted down to line level. Data such as supplier, quantity, item number,
-    and unit price are captured using OCR and validated. Missing data can be adjusted or added manually.
+2. **Datenimport und Validierung** - Rechnungsinformationen werden bis auf Zeilenebene interpretiert. Daten wie Lieferant, Menge, Artikelnummer und Stückpreis werden mittels OCR erfasst und validiert. Fehlende Daten können manuell angepasst oder hinzugefügt werden.
 
-3. **Pre-coding** - ExFlow provides intuitive pre-coding of all incoming invoices, streamlining the process and minimizing manual
-    labor.
+3. **Vorkodierung** - ExFlow bietet eine intuitive Vorkodierung aller eingehenden Rechnungen, wodurch der Prozess optimiert und manuelle Arbeit minimiert wird.
 
-4. **Invoice matching** - ExFlow can use the captured data to match a purchase order invoice to available purchase orders, contracts
-    and/or goods receipts to determine how the invoice should be processed. ExFlow supports standard Dynamics 3-way matching.
+4. **Rechnungsabgleich** - ExFlow kann die erfassten Daten verwenden, um eine Bestellrechnung mit verfügbaren Bestellungen, Verträgen und/oder Wareneingängen abzugleichen, um zu bestimmen, wie die Rechnung verarbeitet werden soll. ExFlow unterstützt das standardmäßige 3-Wege-Matching von Dynamics.
 
-5. **Approval workflow** - For expense invoices or if a purchase order invoice does not match or discrepancies are identified, it is sent
-    for approval. The workflow is suggested based on pre- defined approval rules. These rules can be based on supplier, accounts,
-    dimensions, amount limits, etc. ExFlow also supports position hierarchies. For invoices needing approval, approvers are notified
-    through email to ensure rapid turnaround.
+5. **Genehmigungsworkflow** - Für Spesenrechnungen oder wenn eine Bestellrechnung nicht übereinstimmt oder Abweichungen festgestellt werden, wird sie zur Genehmigung weitergeleitet. Der Workflow wird basierend auf vordefinierten Genehmigungsregeln vorgeschlagen. Diese Regeln können auf Lieferanten, Konten, Dimensionen, Betragsgrenzen usw. basieren. ExFlow unterstützt auch Positionshierarchien. Für Rechnungen, die eine Genehmigung benötigen, werden die Genehmiger per E-Mail benachrichtigt, um eine schnelle Bearbeitung sicherzustellen.
 
-6. **Final posting and archiving** - Approved invoices are automatically posted into the general ledger before they are
-    archived. AP staff always have a clear overview of all invoices in the invoice process. At any time, any invoice can be accessed
-    directly from the Dynamics 365 Business Central workspace. 
+6. **Endgültige Buchung und Archivierung** - Genehmigte Rechnungen werden automatisch in das Hauptbuch gebucht, bevor sie archiviert werden. Das Kreditorenbuchhaltungspersonal hat jederzeit einen klaren Überblick über alle Rechnungen im Rechnungsprozess. Jede Rechnung kann jederzeit direkt aus dem Dynamics 365 Business Central-Arbeitsbereich aufgerufen werden.
 
-7. **Insights and analytics** - At any time AP staff have a clear overview of all invoices in the invoice process. They can also
-    access historic data for every invoice from their Dynamics 365 Business Central workspace. All data is processed in real-time
-    ensuring that financial reports always have correct figures.
-
+7. **Einblicke und Analysen** - Das Kreditorenbuchhaltungspersonal hat jederzeit einen klaren Überblick über alle Rechnungen im Rechnungsprozess. Sie können auch historische Daten für jede Rechnung aus ihrem Dynamics 365 Business Central-Arbeitsbereich abrufen. Alle Daten werden in Echtzeit verarbeitet, um sicherzustellen, dass Finanzberichte immer korrekte Zahlen enthalten.

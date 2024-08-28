@@ -297,5 +297,42 @@
   },
   "Other documentation": {
     "message": "Other documentation"
+  },
+  "[Env]ExFlow is easy to use. It is designed to be user-friendly and intuitive.": {
+    "message": "[EN]ExFlow is easy to use. It is designed to be user-friendly and intuitive."
+  },
+  "ExFlow allows you to focus on what matters: your business. It takes care of the rest.": {
+    "message": "[EN]ExFlow allows you to focus on what matters: your business. It takes care of the rest."
+  },
+  "ExFlow is built on top of the newest technologies.": {
+    "message": "[EN]ExFlow is built on top of the newest technologies."
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View all authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
   }
 }

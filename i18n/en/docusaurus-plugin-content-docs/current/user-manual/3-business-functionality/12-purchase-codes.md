@@ -46,18 +46,21 @@ Here is an example for splitting costs by department:
  
 ![ExFlow Purchase Code Card](@site/static/img/media/puchase-code-001.png)
  
-In this example VAT on G/L Account is weight with 50 % but Amount Check is always for Gross instead of looking at ExFlow Setup. This can be useful in Sweden where 50% of the VAT is deductible. Interpret total VAT and only 50% will be added as a separate line.
+In this example VAT on G/L Account is weight with 50 % but Amount Check is always for Gross instead of looking at ExFlow Setup. This can be useful in Sweden where 50% of the VAT is deductible. Interpret total VAT and only 50% will be added as a separate line. 
  
 This can be useful when full VAT is not deductible in a specific case, e.g., Car Leasing in Sweden.
  
 ![ExFlow Purchase Code Card](@site/static/img/media/puchase-code-002.png)
  
-Here is an example how to setup an ExFlow Purchase Code if approval on VAT amount is needed. Add requested coding and a separate line with a VAT G/L account and tick the Approval box.
- 
-Lines with a Weigh set will be automatically ticked for Approval. Approval is optional on lines with a VAT Weight, so remember to tick the Approval box if an approval on VAT is wished for.
- 
+Here is an example how to setup an ExFlow Purchase Code if approval on VAT amount is needed. Add requested coding and a separate line with a VAT G/L account and manually tick the Approval box.
+
+Lines with a Weigh set will be automatically ticked for Approval. Approval is optional on lines with a VAT Weight, so remember to tick the Approval box if an approval on VAT is wished for, on the selected ExFLow Purchase Codes. 
+
 Add requested coding for the cost account (NO VAT = Without VAT in VAT Prod posting Group) and a separate line with a VAT G/L account (ONLY = Only manually booked VAT in VAT Prod posting Group). Specify a VAT Prod Posting group on the lines if it differs from setup on the G/L account card.
- 
+
 ![ExFlow Purchase Code Card](@site/static/img/media/puchase-code-003.png)
- 
-If the "Proposed VAT Line" function is ticked from either ExFlow Purchase Code card or from ExFlow Setup, the VAT line will <u>**not**</u> be sent out for approval.
+
+
+Please be informed, If VAT lines always should be sent out for approval, the function ''Approve VAT lines'' can be utilized.
+
+Read more about this under section [***Approve VAT Lines.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)

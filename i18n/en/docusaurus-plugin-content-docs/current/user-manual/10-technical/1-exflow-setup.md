@@ -306,7 +306,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Check Dimensions in Approval**| 	Specifies if ExFlow should check the dimension setup in BC before allowing approval of an invoice line
 |**Always Propose New Approvers**| 	Specifies if ExFlow should evaluate the approval rules and try to find new (if any) approval flow based on new coding. <br/><br/> Read more about this under section  [***Always Propose New Approvers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#always-propose-new-approvers)
 |**Max. Diff. for Gross Amount in Approval (LCY)**| 	Max gross amount difference allowed when approving in Business Central
-|**Approve VAT Lines**| 	Specifies if the VAT lines should be included in the approval flow. In case of usage of ExFlow Purchase Code on the header, this setting is ignored.
+|**Approve VAT Lines**| 	Specifies if the VAT lines should be included in the approval flow. In case of usage of ExFlow Purchase Code on the header, this setting is ignored. <br/><br/> Read more about this under section [***Approve VAT Lines.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)
 |**Check Minimum No. of Approvers before approving**| 	Specifies if a check will be made that minimum no. of approvers will be fulfilled, before the last approver approves the invoice. <br/><br/> Read more about Approval in Business Central under section [***Approval in Business Central***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/approval-in-business-central#approval-in-business-central)
 
 <br/>

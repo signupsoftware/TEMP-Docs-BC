@@ -13,7 +13,7 @@
   },
   "link.item.label.ExFlow for BC": {
     "message": "ExFlow for BC",
-    "description": "The label of footer link with label=ExFlow for BC linking to /docs/intro"
+    "description": "The label of footer link with label=ExFlow for BC linking to /docs/user-manual/welcome-to-exflow/introduction"
   },
   "link.item.label.ExFlow Web": {
     "message": "ExFlow Web",

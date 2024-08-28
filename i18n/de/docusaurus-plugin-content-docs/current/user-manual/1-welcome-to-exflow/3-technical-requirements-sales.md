@@ -1,21 +1,20 @@
 ---
-title: Technical Requirements for ExFlow Business Central Sales Order
+title: Technische Anforderungen für ExFlow Business Central Verkaufsauftrag
 sidebar_position: 3
 hide_title: true
 ---
 
-## ExFlow Business Central Sales Order
-The ExFlow BC Sales order runs on the Dynamics 365 Business Central platform and follows 
-Microsoft´s technical requirements for Dynamics 365 Business Central.
+## ExFlow Business Central Verkaufsauftrag
+Der ExFlow BC Verkaufsauftrag läuft auf der Dynamics 365 Business Central Plattform und folgt den technischen Anforderungen von Microsoft für Dynamics 365 Business Central.
 
-Read about the minimum requirements for using Business Central [***here***](https://docs.microsoft.com/en-us/dynamics365/business-central/product-requirements).<br/>
+Lesen Sie hier über die Mindestanforderungen für die Nutzung von Business Central [***hier***](https://docs.microsoft.com/en-us/dynamics365/business-central/product-requirements).<br/>
 
-### Technical Specifications
+### Technische Spezifikationen
 
-*Integration ExFlow Data Capture (if applicable):*<br/>
-* Web service to export vendor data<br/>
-* Web service to import scanned invoice images and data.<br/>
+*Integration ExFlow Datenerfassung (falls zutreffend):*<br/>
+* Webdienst zum Exportieren von Lieferantendaten<br/>
+* Webdienst zum Importieren gescannter Rechnungsbilder und -daten.<br/>
 
-### Licensing
-Note that Client is responsible for having the correct license and support agreements with Microsoft.
-If you are unsure, please contact your Dynamics 365 Business Central implementation partner.
+### Lizenzierung
+Beachten Sie, dass der Kunde dafür verantwortlich ist, die korrekten Lizenz- und Supportvereinbarungen mit Microsoft zu haben.
+Wenn Sie unsicher sind, wenden Sie sich bitte an Ihren Dynamics 365 Business Central Implementierungspartner.
