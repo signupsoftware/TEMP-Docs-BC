@@ -1,10 +1,11 @@
 ---
-title: Localization France
+title: Lokalisierung Frankreich
 sidebar_position: 9
 hide_title: true
 ---
-## Localization France
+## Lokalisierung Frankreich
 
-### Language
+### Sprache
 
-ExFlow supports French language in Business Central.
+ExFlow unterstützt die französische Sprache in Business Central.
+

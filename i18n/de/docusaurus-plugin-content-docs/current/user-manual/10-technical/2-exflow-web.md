@@ -7,60 +7,60 @@ hide_title: true
 ## ExFlow Web
 
 <br/>
-Interested to read and learn everything about ExFlow web? <br/> <br/>  
+Interessiert daran, alles über ExFlow Web zu lesen und zu lernen? <br/> <br/>  
 
- [***All necessary information about ExFlow Web can be found here!***](https://docs.exflow.cloud/web) <br/><br/> 
+ [***Alle notwendigen Informationen über ExFlow Web finden Sie hier!***](https://docs.exflow.cloud/web) <br/><br/> 
 
-### Edit Web Columns in Business Central
-Use the function **Edit Web Columns** to manage ExFlow Web Columns. <br/>
+### Web-Spalten in Business Central bearbeiten
+Verwenden Sie die Funktion **Web-Spalten bearbeiten**, um ExFlow Web-Spalten zu verwalten. <br/>
 
-Go to **ExFlow Setup --> Edit Web Columns** 
+Gehen Sie zu **ExFlow Setup --> Web-Spalten bearbeiten** 
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-edit-web-columns.png) 
+![ExFlow Setup](./../../images/exflow-setup-edit-web-columns.png) 
 
-|Edit Web Columns|
+|Web-Spalten bearbeiten|
 :-|:-|
-|**Add Column**| Add a new column to ExFlow Web
-|**Modify Column**| Update a current ExFlow Web column
-|**ExFlow Columns**| Handle ExFlow Web column changes
+|**Spalte hinzufügen**| Fügen Sie eine neue Spalte zu ExFlow Web hinzu.
+|**Spalte bearbeiten**| Aktualisieren Sie eine vorhandene ExFlow Web-Spalte.
+|**ExFlow-Spalten**| Verwalten Sie Änderungen an ExFlow Web-Spalten.
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-edit-web-columns-001.png)
-
-
-Web Columns that exist and are visible on ExFlow web, have both the ‘’Current Visibility’’ box and ‘’Exist’’- box ticked. 
-
-If a column needs to be added for the web approvers, then simply stand on the selected web column code and then click on ''Add Column''.
-
-It’s possible to hide an existing web column on ExFlow Web by choosing ‘’Hidden’’ and then click on ‘’Modify Column’’. In this example, the ‘’Current Visibility’’ -box for the ‘’Job Task’’- column will then be unticked.  
-
-![ExFlow Setup](@site/static/img/media/exflow-setup-edit-web-columns-002.png)
+![ExFlow Setup](./../../images/exflow-setup-edit-web-columns-001.png)
 
 
-### ExFlow Columns
+Web-Spalten, die in ExFlow Web vorhanden und sichtbar sind, haben sowohl das Kästchen "Aktuelle Sichtbarkeit" als auch das Kästchen "Vorhanden" angekreuzt. 
+
+Wenn eine Spalte für die Web-Genehmiger hinzugefügt werden muss, stellen Sie sich einfach auf den ausgewählten Web-Spalten-Code und klicken Sie dann auf ''Spalte hinzufügen''.
+
+Es ist möglich, eine vorhandene Web-Spalte in ExFlow Web auszublenden, indem Sie "Ausgeblendet" auswählen und dann auf "Spalte bearbeiten" klicken. In diesem Beispiel wird das Kästchen "Aktuelle Sichtbarkeit" für die Spalte "Job Task" dann nicht angekreuzt sein.  
+
+![ExFlow Setup](./../../images/exflow-setup-edit-web-columns-002.png)
+
+
+### ExFlow-Spalten
  
-Go to **ExFlow Setup --> Edit Web Columns --> ExFlow Columns** 
+Gehen Sie zu **ExFlow Setup --> Web-Spalten bearbeiten --> ExFlow-Spalten** 
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-exflow-columns-001.png)
+![ExFlow Setup](./../../images/exflow-setup-exflow-columns-001.png)
 
-Open ExFlow Columns and edit the list to if any changes needs to be made on the columns.
+Öffnen Sie ExFlow-Spalten und bearbeiten Sie die Liste, wenn Änderungen an den Spalten vorgenommen werden müssen.
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-exflow-columns-002.png)
+![ExFlow Setup](./../../images/exflow-setup-exflow-columns-002.png)
 
-|ExFlow Columns|
+|ExFlow-Spalten|
 :-|:-|
-|**ID**|Specifies column ID.
-|**Code**| Specifies the Code
-|**Dimension**| A dimension from General Ledger Setup can be added as ExFlow web column.
-|**Source**| Copy of Code value.
-|**Format** |The format that the value and description is sent to ExFlow web.
-|**Use Auto Completion**| Ticked box takes specified Data Type. Unticked box = free text like a description.
-|**Sort Order**| Sort order on all web columns (except on LineTypes).
-|**Document Display Expr**| Can determine if column should be usable for certain document types.
-|**Line Display Expr**| Lets ExFlow web know it is a line type and which line type it is.
-|**Data Type**| If it should be a date or decimal displayed in ExFlow web then this needs to have a value (Description has ‘’system.String’’).
-|**Is Autofill Trigger**| Select if i.e., a selected account should send updates of dimension values from standard Business Central account settings (Default BC). It can also be set to ‘’Inactive’’ and ‘’Customized’’.
-|**Copy value when splitting the line**| Specifies if values should be copied when splitting a line.
-|**Update VAT Prod. Posting Group From No.**| Specifies if VAT Prod Posting Group should be taken from the No. card.
-|**Update Gen. Prod. Posting Group From No.**| Specifies if Gen. Prod Posting Group should be taken from the No. card.
-|**Lock Column**| Specifies if values should be locked and not editable.
-|**Number of Values to Send**| Used to improve performance. If selected as 100 then ExFlow will only send the first 100 values according to current filter.
+|**ID**|Gibt die Spalten-ID an.
+|**Code**| Gibt den Code an.
+|**Dimension**| Eine Dimension aus der Allgemeinen Ledger-Konfiguration kann als ExFlow Web-Spalte hinzugefügt werden.
+|**Quelle**| Kopie des Code-Werts.
+|**Format** |Das Format, in dem der Wert und die Beschreibung an ExFlow Web gesendet werden.
+|**Automatische Vervollständigung verwenden**| Angekreuztes Kästchen nimmt den angegebenen Datentyp. Nicht angekreuztes Kästchen = Freitext wie eine Beschreibung.
+|**Sortierreihenfolge**| Sortierreihenfolge für alle Web-Spalten (außer für Linientypen).
+|**Dokumentanzeigeausdruck**| Kann bestimmen, ob die Spalte für bestimmte Dokumenttypen verwendbar sein soll.
+|**Zeilenanzeigeausdruck**| Gibt ExFlow Web an, dass es sich um einen Linientyp handelt und um welchen Linientyp es sich handelt.
+|**Datentyp**| Wenn es sich um ein Datum oder eine Dezimalzahl handeln soll, die in ExFlow Web angezeigt wird, muss dieser Wert angegeben werden (Beschreibung hat "system.String").
+|**Ist Ausfüllauslöser**| Wählen Sie aus, ob z.B. ein ausgewähltes Konto Aktualisierungen von Dimensionen aus den Standard Business Central-Kontoeinstellungen senden soll (Standard-BC). Es kann auch auf "Inaktiv" und "Angepasst" gesetzt werden.
+|**Wert kopieren beim Aufteilen der Zeile**| Gibt an, ob Werte beim Aufteilen einer Zeile kopiert werden sollen.
+|**Umsatzsteuer-Produktbuchungsgruppe aktualisieren von Nr.**| Gibt an, ob die Umsatzsteuer-Produktbuchungsgruppe von der Nr.-Karte übernommen werden soll.
+|**Allgemeine Produktbuchungsgruppe aktualisieren von Nr.**| Gibt an, ob die allgemeine Produktbuchungsgruppe von der Nr.-Karte übernommen werden soll.
+|**Spalte sperren**| Gibt an, ob Werte gesperrt und nicht bearbeitbar sein sollen.
+|**Anzahl der zu sendenden Werte**| Wird zur Verbesserung der Leistung verwendet. Wenn 100 ausgewählt ist, sendet ExFlow nur die ersten 100 Werte gemäß dem aktuellen Filter.

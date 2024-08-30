@@ -1,328 +1,251 @@
 ---
-title: Purchase Order Matching Process
+title: Prozess zur Abgleichung von Bestellungen
 sidebar_position: 7
 hide_title: true
 ---
-## Purchase Order Matching Process
+## Prozess zur Abgleichung von Bestellungen
 
-### Import Purchase Invoice with Order Matching
+### Importieren von Eingangsrechnungen mit Bestellabgleich
 
-Import invoices is done from "ExFlow Import Journals". Use function "Batch Import Documents" to import invoices for all Journals or enter/edit an Import Journal to import documents in one specific journal.
+Der Import von Rechnungen erfolgt über "ExFlow Import Journals". Verwenden Sie die Funktion "Batch Import Documents", um Rechnungen für alle Journale zu importieren, oder geben Sie ein Importjournal ein/bearbeiten Sie es, um Dokumente in einem bestimmten Journal zu importieren.
 
-### Order matching on Header-level
+### Abgleich auf Header-Ebene
 
-If a Purchase Order number has been interpreted on the invoice, it will
-be visible in the column "Order No. (Import)". ExFlow will automatically
-search through the list of available Purchase Orders in Business Central
-based on the vendor and imported Purchase Order number.
+Wenn eine Bestellnummer auf der Rechnung erkannt wurde, wird sie in der Spalte "Order No. (Import)" angezeigt. ExFlow sucht automatisch in der Liste der verfügbaren Bestellungen in Business Central nach der Lieferanten- und importierten Bestellnummer.
 
-ExFlow can match both on the internal Purchase Order number, and the
-Vendors Purchase Order number, but the latter requires that it is set up
-on the actual Purchase Order itself.
+ExFlow kann sowohl anhand der internen Bestellnummer als auch anhand der Bestellnummer des Lieferanten abgleichen, letztere muss jedoch in der tatsächlichen Bestellung selbst eingerichtet sein.
 
-The column "Order No." will show the matched Purchase Order if it is
-found.
+In der Spalte "Order No." wird die abgeglichene Bestellung angezeigt, sofern sie gefunden wurde.
 
-![ExFlow Import Journal - Order No.](@site/static/img/media/image292.png)
+![ExFlow Import Journal - Order No.](./../../images/image292.png)
 
-This procedure can also be triggered manually if the invoice is lacking
-an importer Purchase Order number. Manually enter the Purchase Order
-number in the column "Order No.".
+Dieser Vorgang kann auch manuell ausgelöst werden, wenn auf der Rechnung keine importierte Bestellnummer vorhanden ist. Geben Sie die Bestellnummer manuell in die Spalte "Order No." ein.
 
-Depending on if ExFlow is configured for two-way-matching or
-three-way-matching the next steps of the process will be slightly
-different.
+Je nachdem, ob ExFlow für den Zwei-Wege-Abgleich oder den Drei-Wege-Abgleich konfiguriert ist, unterscheiden sich die nächsten Schritte des Prozesses geringfügig.
 
-More information about this can be found in this manual under the
-section **"Purchase Order Matched Invoices"**.
+Weitere Informationen dazu finden Sie in diesem Handbuch im Abschnitt **"Abgeglichene Bestellrechnungen"**.
 
-#### Three-way-matching
+#### Drei-Wege-Abgleich
 
-Means that ExFlow will match invoice with the Purchase Order and
-associated Posted Purchase Receipt(s).
+Bedeutet, dass ExFlow die Rechnung mit der Bestellung und den zugehörigen gebuchten Wareneingängen abgleicht.
 
-This is done automatically by default, but can also be triggered
-manually by using the function
+Dies erfolgt standardmäßig automatisch, kann jedoch auch manuell durch Verwendung der Funktion "Get Receipt/Return Shpmt./Order Lines" ausgelöst werden.
 
-"Get Receipt/Return Shpmt./Order Lines".
+![ExFlow Import Journal - Get Receipt/Return Shpmt./Order Lines](./../../images/image293.png)
 
-![ExFlow Import Journal - Get Receipt/Return Shpmt./Order Lines](@site/static/img/media/image293.png)
+Der Drei-Wege-Abgleich erfordert, dass die Eingangsrechnung zugehörige gebuchte Bestellungen hat. ExFlow ruft alle verfügbaren gebuchten Wareneingangslinien ab und fügt sie als Rechnungspositionen hinzu.
 
-Three-way-matching requires that the Purchase Invoice has associated
-Posted Purchase Orders. ExFlow will fetch all available Posted Receipt
-lines and add them as Invoice Lines.
+![ExFlow Import Journal - Import Lines](./../../images/image294.png)
 
-![ExFlow Import Journal - Import Lines](@site/static/img/media/image294.png)
+Diese Funktion kann auch nützlich sein, wenn eine Rechnung auf Header-Ebene mit mehreren Bestellungen abgeglichen werden soll.
 
-This function can also be useful when an invoice should be matched to
-multiple Purchase Order on Header-level.
+Beim Auswählen von Wareneingangslinien auf der Seite "Get Receipt Lines" besteht die Möglichkeit, die Linien auszuschließen, die bereits vollständig mit einer anderen Rechnung im Importjournal abgeglichen wurden oder noch nicht im Genehmigungsstatus gebucht wurden. Klicken Sie auf "Exclude fully matched", um solche Wareneingangslinien auszublenden:
 
-When selecting Receipt Lines in the page \"Get Receipt Lines\" there is
-a possibility to exclude the lines that are already fully matched to
-another invoice in Import Journal or not yet posted in Approval Status.
-Click on "Exclude fully matched" to hide such receipt lines:
+![ExFlow Import Journal - Get Receipt Lines](./../../images/image295.png)
 
-![ExFlow Import Journal - Get Receipt Lines](@site/static/img/media/image295.png)
+Im folgenden Bild sind die abgeglichenen Linien ausgeblendet. Klicken Sie auf "Show All", um die Seite zurückzusetzen und alle Wareneingangslinien erneut anzuzeigen. Beide Aktionen in "Get Receipt Lines" gelten auch für Gutschriften und Rücksendebestellungen.
 
-In below picture, the matched lines are hidden. Click on "Show All" to
-reset the page to view all receipt lines again. Both actions in \"Get
-Receipt Lines\" exist for Credit Memos and Purchase Return Orders as
-well.
+![ExFlow Import Journal - Get Receipt Lines - Receipt list after Exclude Fully Matched](./../../images/image296.png)
 
-![ExFlow Import Journal - Get Receipt Lines - Receipt list after Exclude Fully Matched](@site/static/img/media/image296.png)
+Es ist möglich, die Einstellung "Disable Currency Filter in Get Receipt Lines" unter dem Abschnitt "PO Matching" in der ExFlow-Konfiguration zu aktivieren, um die Leistung beim Verwenden von "Get Receipt Lines" im Importjournal zu verbessern. Es wird dann kein Filter für die Währungscodes festgelegt, wenn die Auswahlseite geöffnet wird.
 
-It is possible to tick the setting "Disable Currency Filter in Get Receipt Lines" under the PO Matching-section in ExFlow Setup to improve performance when using Get Receipt Lines in Import Journal. No filter will then be set on Currency Code when opening the selection page.
+#### Zwei-Wege-Abgleich
 
-#### Two-way-matching
+Bedeutet, dass ExFlow die Rechnung direkt mit der Bestellung abgleicht, ohne dass gebuchte Wareneingänge erforderlich sind.
 
-Means that ExFlow will match the invoice directly to the Purchase Order.
-Without the requirement of having associated Posted Purchase Receipt(s).
+![ExFlow Import Journal - Import Lines](./../../images/image297.png)
 
-![ExFlow Import Journal - Import Lines](@site/static/img/media/image297.png)
+Konflikte, Kosten- oder Mengenabweichungen werden als Aktionsnachricht angezeigt und müssen korrigiert werden, bevor die Rechnung erstellt und zur Genehmigung gesendet werden kann.
 
-Any conflicts, cost, or quantity discrepancies will display themselves
-in form of an Action Message and need to be corrected before the invoice
-can be created and sent for approval.
 
-### Order matching on Line-level
+### Bestellabgleich auf Zeilenebene
 
-This requires that the invoice has been interpreted on header- and
-line-level in ExFlow Data Capture or any other OCR-solution that is
-used.
+Hierfür ist es erforderlich, dass die Rechnung auf Header- und Zeilenebene in ExFlow Data Capture oder einer anderen OCR-Lösung interpretiert wurde, die verwendet wird.
 
-Order matching done on line level gives more accurate result when it
-comes to identifying discrepancies. Line level matching also provides a
-lot more configuration when it comes to setting up validations and
-allowed thresholds.
+Der Bestellabgleich auf Zeilenebene liefert genauere Ergebnisse bei der Identifizierung von Abweichungen. Der Zeilenabgleich bietet auch wesentlich mehr Konfigurationsmöglichkeiten für die Einrichtung von Validierungen und zulässigen Schwellenwerten.
 
-A prerequisite to get accurate line matching results is that it's
-possible to extract essential information from the vendor invoices, so
-that ExFlow will be able to understand what order lines to match with.
+Eine Voraussetzung für genaue Ergebnisse beim Zeilenabgleich besteht darin, dass wesentliche Informationen aus den Lieferantenrechnungen extrahiert werden können, damit ExFlow verstehen kann, welche Bestellzeilen mit welchen Rechnungszeilen abgeglichen werden sollen.
 
-Item number, quantity, unit price, and line total amount are some of the
-more important values to extract from the invoice to help ExFlow match
-the correct Invoice lines to Order lines.
+Artikelnummer, Menge, Einzelpreis und Gesamtbetrag der Zeile sind einige der wichtigeren Werte, die aus der Rechnung extrahiert werden sollten, um ExFlow bei der Zuordnung der richtigen Rechnungszeilen zu Bestellzeilen zu unterstützen.
 
-ExFlow is also able to match the vendors item number, if it's set up in
-Business Central as "Vendor Item No." or "Cross references". There is
-also an option to set up specific ExFlow OCR Import mappings, where
-imported values can be translated and mapped to specific G/L Accounts or
-Items.
+ExFlow kann auch die Artikelnummer des Lieferanten abgleichen, wenn sie in Business Central als "Lieferantenartikelnummer" oder "Querverweise" eingerichtet ist. Es besteht auch die Möglichkeit, spezifische ExFlow OCR-Importzuordnungen einzurichten, bei denen importierte Werte übersetzt und bestimmten G/L-Konten oder Artikeln zugeordnet werden können.
 
-Both two-way-matching and three-way-matching is supported with
-Line-level Order matching in ExFlow.
+Sowohl der Zwei-Wege-Abgleich als auch der Drei-Wege-Abgleich werden beim Bestellabgleich auf Zeilenebene in ExFlow unterstützt.
 
-One of the biggest advantages with Line matching compared to Header
-matching is that ExFlow will be able to execute validations on each
-interpreted invoice line and tell exactly what need to be corrected and
-what type of issue it is. While Header matching will only give
-information that there is a conflict or price difference between the
-total of the Order lines and the total Invoice amount.
+Einer der größten Vorteile des Zeilenabgleichs im Vergleich zum Headerabgleich besteht darin, dass ExFlow Validierungen für jede interpretierte Rechnungszeile durchführen und genau angeben kann, was korrigiert werden muss und um welche Art von Problem es sich handelt. Während der Headerabgleich nur Informationen liefert, dass ein Konflikt oder Preisunterschied zwischen der Summe der Bestellzeilen und dem Gesamtbetrag der Rechnung besteht.
 
-Configuration of Line matching can be found in ExFlow Setup.
+Die Konfiguration des Zeilenabgleichs finden Sie in der ExFlow-Setup.
 
-![ExFlow Setup - PO Matching](@site/static/img/media/exflow-setup-po-matching-004.png)
+![ExFlow-Setup - Bestellabgleich](./../../images/exflow-setup-po-matching-004.png)
 
-The example below describes how to import from a journal created to use
-only for "Purchase Order Matched Invoices".
+Das folgende Beispiel beschreibt, wie aus einem Journal importiert wird, das nur für "Bestellabgeglichene Rechnungen" erstellt wurde.
 
-Select the journal and open by click "Edit Journal" or click on Name.
+Wählen Sie das Journal aus und öffnen Sie es durch Klicken auf "Journal bearbeiten" oder auf den Namen.
 
-![ExFlow Import Journal](@site/static/img/media/image299.png)
+![ExFlow Import Journal](./../../images/image299.png)
 
-**Step 1 -- Import document**<br/>
-Go to: ***Actions \--\> Import \--\> Import Documents\...***<br/>
-When the import is done a new line is created.
+**Schritt 1 -- Dokument importieren**<br/>
+Gehe zu: ***Aktionen \--\> Importieren \--\> Dokumente importieren\...***<br/>
+Wenn der Import abgeschlossen ist, wird eine neue Zeile erstellt.
 
-**Step 2 -- Check and handle "Action Messages"** (**A** in picture below).<br/>
-Common action messages and solutions:
+**Schritt 2 -- "Aktion-Nachrichten" überprüfen und bearbeiten** (**A** im Bild unten).<br/>
+Häufige Aktion-Nachrichten und Lösungen:
 
-- **There are lines matched against order but where receipt is missing!**<br/>
-    Delivery has not been posted. Go to Purchase Order and post -- Receive.<br/>
-    Run verify after receiving delivery and ExFlow will match invoice against posted delivery.<br/>
-    **P*rocess \--\> Verify Document***
-    (**B** in picture below)
-    ![ExFlow Import Journal](@site/static/img/media/image300.png)
+- **Es gibt Zeilen, die mit der Bestellung übereinstimmen, aber bei denen der Wareneingang fehlt!**<br/>
+    Die Lieferung wurde nicht gebucht. Gehe zur Bestellung und buche den Wareneingang -- Empfangen.<br/>
+    Führe nach dem Empfangen der Lieferung eine Überprüfung durch und ExFlow wird die Rechnung mit dem gebuchten Wareneingang abgleichen.<br/>
+    **Prozess \--\> Dokument überprüfen***
+    (**B** im Bild unten)
+    ![ExFlow Import Journal](./../../images/image300.png)
 
-- **Amount (15 867,25) is not equal to total of on lines (15 628,00)**<br/>
-    Change the prices and lines so it matches the invoice. Use "Line Details" in FactBox for totals and differences. (**E** in picture below).
+- **Der Betrag (15 867,25) entspricht nicht der Summe der Zeilen (15 628,00)**<br/>
+    Ändere die Preise und Zeilen, damit sie mit der Rechnung übereinstimmen. Verwende "Zeileninformationen" in der FactBox für Summen und Differenzen. (**E** im Bild unten).
 
-- **If the invoice includes more than one order**<br/>
-Use "Get Receipt/Return Shpmt."
-***Actions \--\> Order \--\> Get Receipt/Return Shpmt./Order Lines*** (**C** in picture below).<br/>
-![ExFlow Import Journal](@site/static/img/media/image301.png)
+- **Wenn die Rechnung mehr als eine Bestellung enthält**<br/>
+Verwende "Wareneingang/Rücksendung abrufen."
+***Aktionen \--\> Bestellung \--\> Wareneingang/Rücksendung abrufen/Bestellzeilen*** (**C** im Bild unten).<br/>
+![ExFlow Import Journal](./../../images/image301.png)
 
-- **See line for specific action message - Line difference between the invoice and the order unit cost!**<br/>
-    Correct Direct Unit Cost Excl. VAT. or correct order price to match order against invoice.
-    Or untick "Test Unit Cost" on Import Lines and send invoice for approval. (**D** in picture below).<br/><br/>
-    ![ExFlow Import Journal](@site/static/img/media/image302.png)
+- **Siehe Zeile für spezifische Aktion-Nachricht - Differenz zwischen dem Einzelpreis der Rechnung und dem Einheitskosten der Bestellung!**<br/>
+    Korrigiere den direkten Einheitspreis ohne MwSt. oder korrigiere den Bestellpreis, um die Bestellung mit der Rechnung abzugleichen.
+    Oder deaktiviere "Einheitskosten testen" bei der Importierung von Zeilen und sende die Rechnung zur Genehmigung. (**D** im Bild unten).<br/><br/>
+    ![ExFlow Import Journal](./../../images/image302.png)
 
-**Step 3 -- Batch Verify Document**<br/>
-Go To: ***Process \--\> Verify Document / Batch Verify Documents***<br/>
-When all action messages have been handled, "Verify Document" to see if action message is empty and therefore ready to be created.
+**Schritt 3 -- Dokumente batchweise überprüfen**<br/>
+Gehe zu: ***Prozess \--\> Dokument überprüfen / Dokumente batchweise überprüfen***<br/>
+Wenn alle Aktion-Nachrichten bearbeitet wurden, "Dokument überprüfen", um zu sehen, ob die Aktion-Nachrichten leer sind und somit bereit zur Erstellung sind.
 
-**Step 4 -- Create Invoice/CR.Memo**<br/>
-Go to: ***Create \--\> "Batch Create I..s/Cr.Memos"\... / "Create Invoice/Cr.Memo"***<br/>
-Create invoice or credit memo by clicking "Create Invoice/Credit Memo".
+**Schritt 4 -- Rechnung/Gutschrift erstellen**<br/>
+Gehe zu: ***Erstellen \--\> "Batch Rechnungen/Gutschriften erstellen"\... / "Rechnung/Gutschrift erstellen"***<br/>
+Erstelle eine Rechnung oder Gutschrift, indem du auf "Rechnung/Gutschrift erstellen" klickst.
 
-### Order matching -- Drop Shipment
+### Bestellabgleich -- Direktlieferung
 
-ExFlow supports drop shipment orders. The most common setup for this is probably to work with matching invoices towards orders using the setup *"Match Documents To: Order"* and *"Automatically Receive Orders"*. Read more about this under section: "***Purchase Order Matched Invoices".***
+ExFlow unterstützt Direktlieferungsbestellungen. Die gängigste Konfiguration hierfür ist wahrscheinlich die Arbeit mit der Abgleichung von Rechnungen mit Bestellungen unter Verwendung der Einstellungen *"Dokumente abgleichen mit: Bestellung"* und *"Bestellungen automatisch empfangen"*. Weitere Informationen hierzu findest du im Abschnitt: "***Bestellabgleich von Eingangsrechnungen".***
 
-The following example shows an example of how to work with drop
-shipments together with ExFlow Order matching:
+Das folgende Beispiel zeigt, wie man mit Direktlieferungen zusammen mit dem ExFlow Bestellabgleich arbeitet:
 
-Create a Sales Order, mark the sales lines for Drop Shipment by ticking
-the "Drop Shipment" checkbox. Then release the Sales Order.
+Erstelle eine Verkaufsbestellung, markiere die Verkaufszeilen für Direktlieferung, indem du das Kontrollkästchen "Direktlieferung" aktivierst. Gib dann die Verkaufsbestellung frei.
 
-![Sales Order](@site/static/img/media/image303.png)
+![Verkaufsbestellung](./../../images/image303.png)
 
-Create a Purchase Order. In the header choose Sell-to Customer No with
-the customer (School of Fine Art) from the just created sales order.
-From the header use Actions \--\> Functions \--\> Drop Shipment \--\>
-Get Sales Order. Then release the Purchase Order.
+Erstelle eine Einkaufsbestellung. Wähle im Kopfteil "Verkauf an Kundennummer" mit dem Kunden (School of Fine Art) aus der gerade erstellten Verkaufsbestellung aus. Verwende im Kopfteil Aktionen \--\> Funktionen \--\> Direktlieferung \--\> Verkaufsbestellung abrufen. Gib dann die Einkaufsbestellung frei.
 
-![Purchase Order](@site/static/img/media/image304.png)
+![Einkaufsbestellung](./../../images/image304.png)
 
-Import an invoice to ExFlow Import Journal from the vendor (Dustin)
-concerning the drop shipment. Use Actions \--\> Order \--\> Get
-Receipt/Return Shpmt./Order Lines to retrieve the lines.
+Importiere eine Rechnung in das ExFlow Import Journal vom Lieferanten (Dustin) bezüglich der Direktlieferung. Verwende Aktionen \--\> Bestellung \--\> Wareneingang/Rücksendung abrufen/Bestellzeilen, um die Zeilen abzurufen.
 
-![ExFlow Import Journal](@site/static/img/media/image305.png)
+![ExFlow Import Journal](./../../images/image305.png)
 
-Create and send the invoice out for approval, then approve and verify
-the invoice. When "Verify Changes" has been run in Approval Status,
-the items in Purchase Order will automatically be received and the items
-in the Sales Order will automatically be shipped.
+Erstelle und sende die Rechnung zur Genehmigung, genehmige und überprüfe dann die Rechnung. Wenn "Änderungen überprüfen" im Genehmigungsstatus ausgeführt wurde, werden die Artikel in der Einkaufsbestellung automatisch empfangen und die Artikel in der Verkaufsbestellung automatisch versendet.
 
-Go back to the Sales Order to invoice the sales order. If this is not
-made before posting the invoice from ExFlow Approval Status, following
-message will occur:
+Gehe zur Verkaufsbestellung zurück, um die Verkaufsbestellung zu fakturieren. Wenn dies nicht vor dem Buchen der Rechnung aus dem ExFlow Genehmigungsstatus erfolgt, tritt folgende Meldung auf:
 
-![Error message in Approval Status](@site/static/img/media/image306.png)
+![Fehlermeldung im Genehmigungsstatus](./../../images/image306.png)
 
-When the Sales Order is invoiced, it will be possible to post the
-invoice in Approval Status as usual.
+Wenn die Verkaufsbestellung fakturiert ist, kann die Rechnung im Genehmigungsstatus wie gewohnt gebucht werden.
 
-### Match Invoice with Receipt-, Order- or both Receipt and Order lines
-Go to: ***Setup \--\> ExFlow Setup \--\> PO Matching \--\> Match Documents To***
+### Rechnung mit Wareneingangs-, Bestell- oder sowohl Wareneingangs- als auch Bestellzeilen abgleichen
+Gehe zu: ***Setup \--\> ExFlow Setup \--\> Bestellabgleich \--\> Dokumente abgleichen mit*** 
 
-The setting "**Match Documents To**" specifies if ExFlow should match imported Purchase Invoices with Purchase Orders, Purchase Receipts or both Receipt and Order lines.
+Die Einstellung "**Dokumente abgleichen mit**" legt fest, ob ExFlow importierte Eingangsrechnungen mit Einkaufsbestellungen, Wareneingängen oder sowohl Wareneingangs- als auch Bestellzeilen abgleichen soll.
 
-![ExFlow Setup - PO Matching - Match Documents To](@site/static/img/media/exflow-setup-po-matching-005.png)
+![ExFlow Setup - Bestellabgleich - Dokumente abgleichen mit](./../../images/exflow-setup-po-matching-005.png)
 
-**Receipt:** ExFlow will automatically find the Purchase Order based on the imported Order no. ExFlow will automatically retrieve the available Posted Receipts associated with the Purchase Order if the setting
-"**Automatically Receive Purchase Orders lines**" is enabled.
+**Wareneingang:** ExFlow findet automatisch die Einkaufsbestellung anhand der importierten Bestellnummer. ExFlow ruft automatisch die verfügbaren gebuchten Wareneingänge ab, die mit der Einkaufsbestellung verknüpft sind, wenn die Einstellung "**Einkaufsbestellungen automatisch empfangen**" aktiviert ist.
 
-**Order:** This enables matching a Purchase Invoice directly with a Purchase Order that lacks Posted Receipts. However, the Purchase Receipt must be posted before the final posting of the invoice. This can either be done manually from the Purchase Order, or automatically by activating the setting "**Automatically Receive Purchase Orders Lines**".
+**Bestellung:** Dies ermöglicht es, eine Eingangsrechnung direkt mit einer Einkaufsbestellung abzugleichen, für die noch keine Wareneingänge gebucht wurden. Der Wareneingang muss jedoch vor der endgültigen Buchung der Rechnung gebucht werden. Dies kann entweder manuell von der Einkaufsbestellung aus erfolgen oder automatisch durch Aktivieren der Einstellung "**Einkaufsbestellungen automatisch empfangen**".
 
-**Order and Receipt:** With this setting it is possible to match a Purchase Invoice with both posted Receipt and Order lines. This means that ExFlow will retrieve receipts on a matched line and not yet
-received order lines. Furthermore, it is possible to let ExFlow automatically receive order lines by enabling "**Automatically Receive Purchase Orders lines**", if needed.
+**Bestellung und Wareneingang:** Mit dieser Einstellung ist es möglich, eine Eingangsrechnung sowohl mit gebuchten Wareneingängen als auch mit Bestellzeilen abzugleichen. Das bedeutet, dass ExFlow Wareneingänge für eine abgeglichene Zeile abruft und noch nicht empfangene Bestellzeilen abruft. Darüber hinaus ist es bei Bedarf möglich, ExFlow automatisch Bestellzeilen empfangen zu lassen, indem die Einstellung "**Einkaufsbestellungen automatisch empfangen**" aktiviert wird.
 
-By enabling “Automatically Receive Purchase Orders Lines” ExFlow will receive all lines that are matched to a Purchase Order. What ExFlow receives is based on allowed line types from "Auto Receiving Line Types Setup" (Setup automatically opens after setting “Automatically Receive Purchase Orders lines” set as TRUE).
+Durch Aktivieren von "Einkaufsbestellungen automatisch empfangen" empfängt ExFlow alle Zeilen, die mit einer Einkaufsbestellung abgeglichen sind. Was ExFlow empfängt, basiert auf den zugelassenen Zeilentypen aus der "Setup für automatisches Empfangen von Zeilentypen" (Das Setup öffnet sich automatisch, nachdem "Einkaufsbestellungen automatisch empfangen" auf TRUE gesetzt wurde).
 
-If changes is needed go to: ***ExFlow Setup --> Related --> Advanced --> Auto Receiving Line Types Setup***
+Wenn Änderungen erforderlich sind, gehe zu: ***ExFlow Setup --> Verwandt --> Erweitert --> Setup für automatisches Empfangen von Zeilentypen***
 
-![ExFlow Receiving Line Types](@site/static/img/media/auto-receiving-line-types-001.png)
+![ExFlow Empfangszeilentypen](./../../images/auto-receiving-line-types-001.png)
 
-The same feature can also be found in "ExFlow Vendor Setup" page.
+Die gleiche Funktion findest du auch auf der Seite "ExFlow Lieferanten Setup".
 
-![ExFlow Vendor Setup Card](@site/static/img/media/advanced-vendor-options-002.png)
+![ExFlow Lieferanten Setup-Karte](./../../images/advanced-vendor-options-002.png)
 
 
-### Auto Approve Purchase Order Matching Invoices
+### Automatische Genehmigung der Bestellübereinstimmung von Rechnungen
 
-#### ExFlow Setup - PO Matching
+#### ExFlow-Einrichtung - Bestellübereinstimmung
 
-***Setup \--\> ExFlow Setup \--\> PO Matching \--\> Auto Approve
-Invoices***
+***Einrichtung \--\> ExFlow-Einrichtung \--\> Bestellübereinstimmung \--\> Automatische Genehmigung von Rechnungen***
 
-To Auto Approve order matched invoices there are three options.
+Es gibt drei Optionen, um automatisch genehmigte Bestellübereinstimmungen von Rechnungen zu ermöglichen.
 
-**Never:** With this setting auto-approval is inactivated. All Purchase
-Order matched Invoices require manual approval.
+**Nie:** Mit dieser Einstellung wird die automatische Genehmigung deaktiviert. Alle Bestellübereinstimmungen von Rechnungen erfordern eine manuelle Genehmigung.
 
-**If the difference is within tolerance:** If the imported invoice
-matches with a purchase order without quantity or price discrepancies it
-will automatically be approved. This also applies if there are
-discrepancies within the allowed threshold.
+**Wenn der Unterschied innerhalb der Toleranz liegt:** Wenn die importierte Rechnung mit einer Bestellung übereinstimmt und keine Mengen- oder Preisabweichungen aufweist, wird sie automatisch genehmigt. Dies gilt auch, wenn Abweichungen innerhalb des zulässigen Schwellenwerts liegen.
 
-**If matched order is approved:** Same requirements as previous option,
-with addition that the matched Purchase Order must have been approved
-through ExFlow.
+**Wenn die übereinstimmende Bestellung genehmigt ist:** Die gleichen Anforderungen wie bei der vorherigen Option, mit der zusätzlichen Voraussetzung, dass die übereinstimmende Bestellung über ExFlow genehmigt wurde.
 
-**User for automatic approval:** Specify an ExFlow User that will be
-used as a stamp in the transaction and history for Invoices that have
-been automatically matched with a Purchase Order and approved. By
-leaving this setting blank, the user that created the Purchase Invoice
-from ExFlow Import Journal will be used.
+**Benutzer für automatische Genehmigung:** Geben Sie einen ExFlow-Benutzer an, der als Stempel in der Transaktion und im Verlauf für automatisch übereinstimmende und genehmigte Rechnungen verwendet wird. Wenn Sie diese Einstellung leer lassen, wird der Benutzer verwendet, der die Einkaufsrechnung aus dem ExFlow-Importjournal erstellt hat.
 
-![ExFlow Setup - PO Matching - Auto Approve Invoices](@site/static/img/media/exflow-setup-po-matching-006.png)
+![ExFlow-Einrichtung - Bestellübereinstimmung - Automatische Genehmigung von Rechnungen](./../../images/exflow-setup-po-matching-006.png)
 
-### Batch Import Documents from Interpretation
+### Stapelimport von Dokumenten aus der Interpretation
 
-To import order matched documents in a separate Import Journal, add a
-new Import Journal and use "Only Purchase Order Matched Documents".
+Um Bestellübereinstimmungen von Dokumenten in einem separaten Importjournal zu importieren, fügen Sie ein neues Importjournal hinzu und verwenden Sie "Nur Bestellübereinstimmungen von Dokumenten".
 
-![ExFlow Import Journals](@site/static/img/media/image309.png)
+![ExFlow-Importjournale](./../../images/image309.png)
 
-### Automatic Difference Line
+### Automatische Differenzzeile
 
-In ExFlow Import Journal when matching Purchase Order, it is possible to
-detect and create Diff. Line to G/L Account, Item or Charge (Item)
-automatically.
+Im ExFlow-Importjournal ist es möglich, beim Abgleich einer Bestellung automatisch eine Differenzzeile für das G/L-Konto, den Artikel oder die Gebühr (Artikel) zu erkennen und zu erstellen.
 
-Add "ExFlow Purchase Code" in field "Diff.Line Purch. Code" under PO
-Matching in ExFlow Setup.
+Fügen Sie "ExFlow-Kaufcode" im Feld "Diff.Line Purch. Code" unter Bestellübereinstimmung in der ExFlow-Einrichtung hinzu.
 
-![ExFlow Setup - PO Matching](@site/static/img/media/exflow-setup-po-matching-007.png)
+![ExFlow-Einrichtung - Bestellübereinstimmung](./../../images/exflow-setup-po-matching-007.png)
 
-![ExFlow Import Journal](@site/static/img/media/image311.png)
+![ExFlow-Importjournal](./../../images/image311.png)
 
 
-### Automatically Disable PO Matching For Misc. Charges
-Go to ***ExFlow Setup --> OCR Import --> Automatically Disable PO Matching For Misc. Charges***
+### Automatische Deaktivierung der Bestellübereinstimmung für Sonstige Kosten
+Gehen Sie zu ***ExFlow-Einrichtung --> OCR-Import --> Automatische Deaktivierung der Bestellübereinstimmung für Sonstige Kosten***
 
-When working with interpreted charges on a line level there is a possibility to map these charges towards any line type with ExFlow OCR Import Mapping.
+Bei der Arbeit mit interpretierten Kosten auf Zeilenebene besteht die Möglichkeit, diese Kosten auf jeden Zeilentyp mit ExFlow OCR-Import Mapping abzubilden.
 
-Find the setting "Automatically Disable PO Matching for Misc. Charges" in ExFlow Setup. When this setting is enabled then these newly mapped charges will not be order matched towards the Purchase Order. This setting can be used for the cases when the freight or service charge is not created as a line on the Purchase Order".
+Finden Sie die Einstellung "Automatische Deaktivierung der Bestellübereinstimmung für Sonstige Kosten" in der ExFlow-Einrichtung. Wenn diese Einstellung aktiviert ist, werden diese neu zugeordneten Kosten nicht mit der Bestellung abgeglichen. Diese Einstellung kann für Fälle verwendet werden, in denen der Fracht- oder Serviceaufschlag nicht als Zeile in der Bestellung erstellt wird.
 
-![ExFlow Setup OCR Import](@site/static/img/media/exflow-setup-ocr-import-001.png)
+![ExFlow-Einrichtung OCR-Import](./../../images/exflow-setup-ocr-import-001.png)
 
-The same feature can also be found in ExFlow Vendor Setup list, however this function is hidden per default. Use Personalise to add this setting to the list if needed.
+Die gleiche Funktion ist auch in der ExFlow-Anbieter-Einrichtungsliste zu finden, jedoch ist diese Funktion standardmäßig ausgeblendet. Verwenden Sie Personalisieren, um diese Einstellung bei Bedarf zur Liste hinzuzufügen.
 
-![ExFlow Vendor Setup](@site/static/img/media/exflow-vendor-setup-automatically-disable-po-001.png)
+![ExFlow-Anbieter-Einrichtung](./../../images/exflow-vendor-setup-automatically-disable-po-001.png)
 
 
-### PO Matching Delay Doc. Date and Due Date
-Go to ***ExFlow Setup --> PO Matching --> Matching Delay Doc. Date (Days) / Matching Delay Due. Date (Days)***
+### Verzögerung der Bestellübereinstimmung für Dokumentdatum und Fälligkeitsdatum
+Gehen Sie zu ***ExFlow-Einrichtung --> Bestellübereinstimmung --> Verzögerung des Dokumentdatums (Tage) / Verzögerung des Fälligkeitsdatums (Tage)***
 
-It is possible to let ExFlow delay the purchase order matching process, with both imported invoice date and/or due date. 
+Es ist möglich, ExFlow den Bestellübereinstimmungsprozess verzögern zu lassen, sowohl mit dem importierten Rechnungsdatum als auch mit dem Fälligkeitsdatum.
 
+![Verzögerung der Bestellübereinstimmung](./../../images/exflow-setup-po-matching-delay-001.png)
 
-![PO Matching Delay](@site/static/img/media/exflow-setup-po-matching-delay-001.png)
+Wenn eine interpretierte Rechnung im Importjournal importiert wird, verzögert ExFlow den Bestellabgleich gemäß den Einstellungen in der ExFlow-Einrichtung und zeigt eine Aktionsmeldung im Importjournal an.
 
-If an interpreted invoice gets imported to the Import Journal, ExFlow will delay the purchase matching process according to the settings in ExFlow Setup, and provide an action message in Import Journal. 
+Nehmen wir ein Beispiel: ''Verzögerung des Dokumentdatums'' ist auf ''1D'' eingestellt. Dann wartet ExFlow einen Tag, um die Wareneingangslinien abzurufen und die Bestellung mit der Rechnung im Importjournal abzugleichen.
 
-Let's take an example: ''Matching Delay Doc Date'' is set to ''1D''. Then ExFlow will wait one day to fetch the receipt lines and match the purchase order with the invoice in Import Journal. 
+Gleiches Verfahren für ''Verzögerung des Fälligkeitsdatums''. Wenn ''-20D'' in diesem Feld eingestellt ist, ruft ExFlow die Wareneingangslinien ab und gleicht 20 Tage vor dem Rechnungsfälligkeitsdatum ab. Diese Funktion hat eine höhere Priorisierung als die oben genannte Funktion, um sicherzustellen, dass eine Rechnung niemals überfällig wird.
 
-Same procedure for ''Matching Delay Due Date''. If ''-20D'' is set in this field, then ExFlow will fetch the receipt lines and match 20 days before the invoice due date. This function has a higher prioritization than the above function, with the purpose of never let an invoice get due.
+Für die spezifische Dokumentzeile wird auch eine Aktionsmeldung für den angewendeten verzögerten Bestellabgleichszeitraum angezeigt. Wenn es Zeit ist, den Bestellabgleichsprozess fortzusetzen (gemäß der Datumsformel in den Einstellungen), verschwindet die Aktionsmeldung und das Dokument ist bereit zur Erstellung.
 
-An action message will also be shown for the specific document line under the applied delayed purchase order matching period. When it is time to proceed with the purchase order matching process (according to the date formula in the settings), the action message will disappear, and the document will be ready for creation.
+![Verzögerung der Bestellübereinstimmung](./../../images/po-matching-delay-002.png)
 
-![PO Matching Delay](@site/static/img/media/po-matching-delay-002.png)
+### Bestellübereinstimmende Zeilen mit Einheitskostenunterschieden in ExFlow Web
 
-### PO matched lines with unit cost differences in ExFlow Web
+Wenn ein Dokument im Importjournal erstellt wird und zwischen der Bestellung und der interpretierten Rechnung eine Einheitspreisabweichung besteht, können Benutzer das Kontrollkästchen ''Test Unit Cost'' in den Importzeilen deaktivieren und das Dokument wie gewohnt erstellen.
 
-If a document is created in Import Journal, with a Unit price variance between the purchase order and the interpreted invoice, users can untick the ''Test Unit Cost'' checkbox on the Import Lines and create the document as usual. 
+Wenn ExFlow-Benutzer diese bestellübereinstimmende Rechnung zur Genehmigung in ExFlow Web erhalten, können sie auch auf Zeilenebene über die Webspalte ''Reason Check'' über Unterschiede informiert werden.
 
-When ExFlow Users receive this PO Matched invoice for approval in ExFlow Web, they can also be informed about difference, on a line level through web column ''Reason Check''. 
+Um diese Spalte zu ExFlow Web hinzuzufügen, gehen Sie einfach zur ExFlow-Einrichtung und klicken Sie auf ''[***Webspalten bearbeiten***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'', um die Webspalte Reason Check hinzuzufügen.
 
-To add this column to ExFlow Web, simply head over to ExFlow Setup and click on ''[***Edit Web Columns***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'' to add the web column Reason Check. 
+![Reason Check](./../../images/exflow-web-reason-check-002.png)
 
-![Reason Check](@site/static/img/media/exflow-web-reason-check-002.png)
+Dies erleichtert es dem Genehmiger, zu verstehen, wo die Abweichung liegt, und das Dokument anschließend in ExFlow Web zu bearbeiten.
 
-This would make it easier for the approver to understand where the variance is and can thereafter handle the document in ExFlow web.
-
-![Reason Check](@site/static/img/media/exflow-web-reason-check-001.png)
+![Reason Check](./../../images/exflow-web-reason-check-001.png)
 

@@ -1,66 +1,66 @@
 ---
-title: Purchase Codes
+title: Kaufcodes
 sidebar_position: 12
 hide_title: true
 ---
-## Purchase Codes
+## Kaufcodes
  
-Go to: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Purchase Codes***
+Gehe zu: ***Setup \--\> ExFlow Manuelle Einrichtung \--\> ExFlow Kaufcodes***
  
-An ExFlow Purchase Code can be used to add coding on invoice lines automatically from the Vendor Setup Card, Reference, Contract or ExFlow Setup. ExFlow Purchase Code can split lines on several dimension codes, VAT Prod. Posting Groups etc.
+Ein ExFlow Kaufcode kann verwendet werden, um automatisch Codierungen auf Rechnungspositionen aus dem Lieferanteneinrichtungskarten, Referenz, Vertrag oder ExFlow Einrichtung hinzuzufügen. ExFlow Kaufcode kann Positionen auf mehrere Dimensionscodes, USt. Prod. Buchungsgruppen usw. aufteilen.
  
-### Create a new ExFlow Purchase Code
+### Erstellen eines neuen ExFlow Kaufcodes
  
-#### General
-Start by clicking on "New". Enter a Code and Description that suits the ExFlow Purchase Code.
+#### Allgemein
+Beginnen Sie mit einem Klick auf "Neu". Geben Sie einen Code und eine Beschreibung ein, die zum ExFlow Kaufcode passen.
  
-| General      |    |
+| Allgemein      |    |
 |:-|:-|
-| **Propose VAT Line:**             | This setting needs setting in ExFlow Setup for VAT Prod. Posting Group 0% and VAT Prod. Posting Group 100%. Then a separate line for VAT Amount can be added automatically for a specific ExFlow Purchase Code
-| **Doc. Creation Amount Check:**   | In ExFlow Setup there is a setting for Doc. Creating Checks in Test Amount. By this setting a separate amount control is possible for a specific ExFlow Purchase Code. <br/><br/>**None:** No check between amount in header and lines <br/> **Gross:** Check only for total amount incl VAT between header and lines <br/>**Net+VAT:** Check both amount excl VAT and VAT amount between header and lines <br/>**ExFlow Setup:** Use setting from ExFlow Setup <br/><br/>
+| **Vorschlag USt.-Zeile:**             | Diese Einstellung muss in der ExFlow Einrichtung für USt. Prod. Buchungsgruppe 0% und USt. Prod. Buchungsgruppe 100% vorgenommen werden. Dann kann automatisch eine separate Zeile für den USt.-Betrag für einen bestimmten ExFlow Kaufcode hinzugefügt werden.
+| **Betragsprüfung bei Dokumenterstellung:**   | In der ExFlow Einrichtung gibt es eine Einstellung für die Prüfung des Betrags bei der Erstellung von Dokumenten im Testbetrag. Mit dieser Einstellung ist eine separate Betragskontrolle für einen bestimmten ExFlow Kaufcode möglich. <br/><br/>**Keine:** Keine Prüfung zwischen Betrag im Kopf und Positionen <br/> **Brutto:** Prüfung nur für Gesamtbetrag inkl. USt. zwischen Kopf und Positionen <br/>**Netto+USt.:** Prüfung sowohl für Betrag ohne USt. als auch für USt.-Betrag zwischen Kopf und Positionen <br/>**ExFlow Einrichtung:** Verwenden Sie die Einstellung aus der ExFlow Einrichtung <br/><br/>
  
-#### ExFlow Purchase Code Lines
+#### ExFlow Kaufcode-Positionen
  
-On ExFlow Purchase Code Lines, one or more fields can be used:
+Auf ExFlow Kaufcode-Positionen können ein oder mehrere Felder verwendet werden:
  
-| ExFlow Purchase Code Lines      | |
+| ExFlow Kaufcode-Positionen      | |
 |:-|:-|
-|**Type:**                      | G/L Account, Item, Resource, Fixed Asset or Charge (Item)
-| **No.**:                      | Select from the list
-| **Description:**              | Change or use as suggested
-| **Weight:**                   | The number in this field specifies the number of parts allocated to this line. Example: If 1 is entered in this field and have 3 other lines with a 1 in this field as well, it will allocate 1 part of the cost amount out of the total 4 so 25%. When using more than one row and selecting amount manually in ExFlow Import Journal, leave this field empty
-| **VAT Weight**:               | Same as above, but for VAT
-| **Allocation Amount**:        | Allocate a fixed Amount to the invoice line. This column cannot be populated at the same time as any of the Weight columns
-| **Allocation %:**             | This column shows the calculated percentage from the Weight column
-| **VAT Allocation %:**         | Same as above, but for VAT
-| **VAT Prod. Posting Group:**  | When using this field, it overrides value on Type/No. and "Standard VAT Prod. Posting Group" in "ExFlow Setup"
-| **Deferral Code:**            | Choose from list. Deferral Starting date will be selected automatically from Deferral Card
-| **Job No.:**                  | Choose from list
-| **Job Task No.:**             | Choose from list
-| **First Approver:**           | Choose from list. How this is used depends on settings in ExFlow Setup.
-| **Dimensions:**               | Choose from list
-| **Approval**:                 | Specifies if the marked line should be sent out for approval or not
+|**Typ:**                      | G/L-Konto, Artikel, Ressource, Anlagevermögen oder Gebühr (Artikel)
+| **Nr.**:                      | Aus der Liste auswählen
+| **Beschreibung:**              | Ändern oder wie vorgeschlagen verwenden
+| **Gewicht:**                   | Die Zahl in diesem Feld gibt an, wie viele Teile diesem Eintrag zugeordnet sind. Beispiel: Wenn in diesem Feld eine 1 eingegeben wird und 3 andere Einträge ebenfalls eine 1 in diesem Feld haben, werden 1 Teil des Kostenbetrags aus dem Gesamtbetrag von 4, also 25 %, zugeordnet. Wenn mehr als eine Zeile verwendet wird und der Betrag manuell in ExFlow Import Journal ausgewählt wird, lassen Sie dieses Feld leer.
+| **USt.-Gewicht**:               | Gleiches wie oben, aber für USt.
+| **Zuordnungsbetrag**:        | Ein festen Betrag der Rechnungsposition zuordnen. Diese Spalte kann nicht gleichzeitig mit den Gewichtsspalten befüllt werden.
+| **Zuordnungs%:**             | Diese Spalte zeigt den berechneten Prozentsatz aus der Gewichtsspalte
+| **USt.-Zuordnungs%:**         | Gleiches wie oben, aber für USt.
+| **USt. Prod. Buchungsgruppe:**  | Wenn dieses Feld verwendet wird, wird der Wert auf Typ/Nr. und "Standard USt. Prod. Buchungsgruppe" in "ExFlow Einrichtung" überschrieben.
+| **Aufschubcode:**            | Aus Liste auswählen. Das Aufschubstartdatum wird automatisch von der Aufschubkarte ausgewählt.
+| **Auftragsnr.:**                  | Aus Liste auswählen
+| **Aufgabennr.:**             | Aus Liste auswählen
+| **Erster Genehmiger:**           | Aus Liste auswählen. Wie dies verwendet wird, hängt von den Einstellungen in der ExFlow Einrichtung ab.
+| **Dimensionen:**               | Aus Liste auswählen
+| **Genehmigung**:                 | Gibt an, ob die markierte Zeile zur Genehmigung gesendet werden soll oder nicht.
 
  
-Here is an example for splitting costs by department:
+Hier ist ein Beispiel für die Aufteilung von Kosten nach Abteilungen:
  
-![ExFlow Purchase Code Card](@site/static/img/media/puchase-code-001.png)
+![ExFlow Kaufcode-Karte](./../../images/puchase-code-001.png)
  
-In this example VAT on G/L Account is weight with 50 % but Amount Check is always for Gross instead of looking at ExFlow Setup. This can be useful in Sweden where 50% of the VAT is deductible. Interpret total VAT and only 50% will be added as a separate line. 
+In diesem Beispiel wird die USt. auf dem G/L-Konto mit 50 % gewichtet, aber die Betragsprüfung erfolgt immer brutto anstelle der Einstellungen in der ExFlow Einrichtung. Dies kann in Schweden nützlich sein, wo 50 % der USt. abzugsfähig sind. Interpretieren Sie die Gesamt-USt. und es wird nur 50 % als separate Zeile hinzugefügt.
  
-This can be useful when full VAT is not deductible in a specific case, e.g., Car Leasing in Sweden.
+Dies kann nützlich sein, wenn die volle USt. in einem bestimmten Fall nicht abzugsfähig ist, z. B. beim Leasing von Autos in Schweden.
  
-![ExFlow Purchase Code Card](@site/static/img/media/puchase-code-002.png)
+![ExFlow Kaufcode-Karte](./../../images/puchase-code-002.png)
  
-Here is an example how to setup an ExFlow Purchase Code if approval on VAT amount is needed. Add requested coding and a separate line with a VAT G/L account and manually tick the Approval box.
+Hier ist ein Beispiel, wie ein ExFlow Kaufcode eingerichtet wird, wenn eine Genehmigung für den USt.-Betrag erforderlich ist. Fügen Sie die gewünschte Codierung hinzu und eine separate Zeile mit einem USt.-G/L-Konto und aktivieren Sie manuell das Genehmigungsfeld.
 
-Lines with a Weigh set will be automatically ticked for Approval. Approval is optional on lines with a VAT Weight, so remember to tick the Approval box if an approval on VAT is wished for, on the selected ExFLow Purchase Codes. 
+Zeilen mit einem festgelegten Gewicht werden automatisch für die Genehmigung aktiviert. Die Genehmigung ist optional für Zeilen mit einem USt.-Gewicht, daher denken Sie daran, das Genehmigungsfeld anzukreuzen, wenn eine Genehmigung für die USt. für die ausgewählten ExFlow Kaufcodes gewünscht wird.
 
-Add requested coding for the cost account (NO VAT = Without VAT in VAT Prod posting Group) and a separate line with a VAT G/L account (ONLY = Only manually booked VAT in VAT Prod posting Group). Specify a VAT Prod Posting group on the lines if it differs from setup on the G/L account card.
+Fügen Sie die gewünschte Codierung für das Kostenkonto hinzu (KEINE USt. = Ohne USt. in USt. Prod Buchungsgruppe) und eine separate Zeile mit einem USt.-G/L-Konto (NUR = Nur manuell gebuchte USt. in USt. Prod Buchungsgruppe). Geben Sie auf den Zeilen eine USt. Prod Buchungsgruppe an, wenn sie von der Einrichtung auf der G/L-Kontokarte abweicht.
 
-![ExFlow Purchase Code Card](@site/static/img/media/puchase-code-003.png)
+![ExFlow Kaufcode-Karte](./../../images/puchase-code-003.png)
 
 
-Please be informed, If VAT lines always should be sent out for approval, the function ''Approve VAT lines'' can be utilized.
+Bitte beachten Sie, dass die Funktion ''USt.-Zeilen genehmigen'' verwendet werden kann, wenn USt.-Zeilen immer zur Genehmigung gesendet werden sollen.
 
-Read more about this under section [***Approve VAT Lines.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)
+Lesen Sie mehr dazu im Abschnitt [***USt.-Zeilen genehmigen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)

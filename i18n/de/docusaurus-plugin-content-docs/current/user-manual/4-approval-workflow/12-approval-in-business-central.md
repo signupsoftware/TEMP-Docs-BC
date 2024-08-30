@@ -1,69 +1,64 @@
 ---
-title: Approval in Business Central
+title: Genehmigung in Business Central
 sidebar_position: 12
 hide_title: true
 ---
-## Approval in Business Central
-Go to: **ExFlow Approval Documents** <br/>
+## Genehmigung in Business Central
+Gehe zu: **ExFlow Genehmigungsdokumente** <br/>
 
-Business Central system users can also approve ExFlow documents in *ExFlow Approval Documents*. <br/><br/>
-Depending on ExFlow users’ settings, notifications will be displayed on the role center page if a user has documents to approve. If a user then click on  *Approve the documents*, the user will be redirected to ExFlow Approval Documents page.
+Auch Benutzer des Business Central-Systems können ExFlow-Dokumente in den *ExFlow Genehmigungsdokumenten* genehmigen. <br/><br/>
+Abhängig von den Einstellungen der ExFlow-Benutzer werden Benachrichtigungen auf der Rollencenter-Seite angezeigt, wenn ein Benutzer Dokumente zur Genehmigung hat. Wenn ein Benutzer dann auf *Dokumente genehmigen* klickt, wird er zur Seite ExFlow Genehmigungsdokumente weitergeleitet.
  
-![ExFlow Approval Documents](@site/static/img/media/approval-documents-001.png) 
+![ExFlow Genehmigungsdokumente](./../../images/approval-documents-001.png) 
 
-From this page, the list will be filtered under ‘’To Approve’’ per default, so the user easily can view all its own current documents to approve. 
+Auf dieser Seite wird die Liste standardmäßig nach "Zur Genehmigung" gefiltert, sodass der Benutzer alle seine eigenen aktuellen Dokumente zur Genehmigung anzeigen kann. 
  
-![ExFlow Approval Documents](@site/static/img/media/approval-documents-002.png) 
+![ExFlow Genehmigungsdokumente](./../../images/approval-documents-002.png) 
 
-The user can also display all its due documents/ upcoming documents/ recent documents and all the users’ current documents on hold.  
+Der Benutzer kann auch alle fälligen Dokumente, zukünftigen Dokumente, kürzlich bearbeiteten Dokumente und alle aktuellen Dokumente des Benutzers anzeigen, die sich in Wartestellung befinden.  
  
-![ExFlow Approval Documents](@site/static/img/media/approval-documents-003.png) 
+![ExFlow Genehmigungsdokumente](./../../images/approval-documents-003.png) 
 
-Click on the document’s ‘’Document Type’’ or ‘’Document No.’’ to open the Document Approval card. 
+Klicken Sie auf den "Dokumenttyp" oder die "Dokumentennummer" des Dokuments, um die Dokumentgenehmigungskarte zu öffnen. 
 
-The user can validate the document lines, if no error pops up and the document is correct then the user can approve the document. If the document is incorrect then the user can choose to ''Reject''.
+Der Benutzer kann die Dokumentzeilen überprüfen. Wenn kein Fehler angezeigt wird und das Dokument korrekt ist, kann der Benutzer das Dokument genehmigen. Wenn das Dokument nicht korrekt ist, kann der Benutzer es ablehnen.
  
-![ExFlow Approval Documents](@site/static/img/media/approval-documents-004.png) 
+![ExFlow Genehmigungsdokumente](./../../images/approval-documents-004.png) 
 
 
-#### Change coding 
+#### Ändern der Codierung 
 
-Go under the *Document Lines* to make all the necessary changes, if any. It can be to change account, add dimensions etcetera. 
+Gehen Sie zu den *Dokumentzeilen*, um alle erforderlichen Änderungen vorzunehmen, falls erforderlich. Dies kann das Ändern des Kontos, das Hinzufügen von Dimensionen usw. umfassen. 
 
-In the example below, we need to change coding by splitting the line. 
+Im folgenden Beispiel müssen wir die Codierung durch Aufteilen der Zeile ändern. 
 
-Go under *Document lines --> Line --> Split Line*  to enter an amount, select Type: G/L Account, and the relevant G/L account. 
+Gehen Sie zu *Dokumentzeilen --> Zeile --> Zeile aufteilen*, um einen Betrag einzugeben, wählen Sie den Typ: G/L-Konto und das entsprechende G/L-Konto aus. 
  
-![ExFlow Approval Documents](@site/static/img/media/approval-documents-005.png) 
+![ExFlow Genehmigungsdokumente](./../../images/approval-documents-005.png) 
 
-Click on OK when changes are completed and approve the document.
+Klicken Sie auf OK, wenn die Änderungen abgeschlossen sind, und genehmigen Sie das Dokument.
  
-![ExFlow Approval Documents](@site/static/img/media/approval-documents-006.png) 
+![ExFlow Genehmigungsdokumente](./../../images/approval-documents-006.png) 
 
-An confirmation message will pop up for the approved document.
+Es wird eine Bestätigungsnachricht für das genehmigte Dokument angezeigt.
  
-![ExFlow Approval Documents](@site/static/img/media/approval-documents-007.png) 
+![ExFlow Genehmigungsdokumente](./../../images/approval-documents-007.png) 
 
-The approved document can now be found under ‘’Recent’’.
+Das genehmigte Dokument kann jetzt unter "Kürzlich" gefunden werden.
  
-![ExFlow Approval Documents](@site/static/img/media/approval-documents-008.png) 
+![ExFlow Genehmigungsdokumente](./../../images/approval-documents-008.png) 
 
-Similar to the web, it is possible to forward the document to another approver or add approver into the flow.
+Ähnlich wie im Web ist es möglich, das Dokument an einen anderen Genehmiger weiterzuleiten oder einen Genehmiger in den Workflow aufzunehmen.
  
-![ExFlow Approval Documents](@site/static/img/media/approval-documents-009.png) 
+![ExFlow Genehmigungsdokumente](./../../images/approval-documents-009.png) 
 
-Same process when it comes to reject or put a document on hold. Regardless of action, a comment must be added by the user to continue. 
+Der gleiche Prozess gilt für Ablehnung oder das Zurückstellen eines Dokuments. Unabhängig von der Aktion muss der Benutzer einen Kommentar hinzufügen, um fortzufahren. 
  
-![ExFlow Approval Documents](@site/static/img/media/approval-documents-012.png) 
+![ExFlow Genehmigungsdokumente](./../../images/approval-documents-012.png) 
 
-#### View order information 
-Expand the FactBox to find the purchaser or other information regarding the document from the Document Approval card.
+#### Bestellinformationen anzeigen 
+Erweitern Sie die FactBox, um den Käufer oder andere Informationen zum Dokument aus der Dokumentgenehmigungskarte zu finden.
  
-![ExFlow Approval Documents](@site/static/img/media/approval-documents-013.png) 
+![ExFlow Genehmigungsdokumente](./../../images/approval-documents-013.png) 
 
-Under the FactBox, it is also possible to utilize the discussion panel to communicate with other approvers, as usual.
-
-
-
-
- 
+Unter der FactBox ist es auch möglich, das Diskussionsfeld zu nutzen, um wie gewohnt mit anderen Genehmigern zu kommunizieren.

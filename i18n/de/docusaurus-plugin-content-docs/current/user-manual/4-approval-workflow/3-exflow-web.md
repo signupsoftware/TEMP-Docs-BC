@@ -5,46 +5,34 @@ hide_title: true
 ---
 ## ExFlow Web
 
-As soon as invoices are created from the Import Journal, the invoices
-will be ready to be approved/handled in ExFlow Web for current
-approvers.
+Sobald Rechnungen aus dem Importjournal erstellt wurden, sind sie bereit zur Genehmigung/Bearbeitung in ExFlow Web für aktuelle Genehmiger.
 
-![ExFlow Web - Inbox](@site/static/img/media/image231.png)
+![ExFlow Web - Posteingang](./../../images/image231.png)
 
-Click on the invoice to approve to open document with information about
-the invoice lines and image. It is possible to have the list expanded
-automatically.
+Klicken Sie auf die Rechnung, um sie zur Genehmigung zu öffnen. Dort finden Sie Informationen zu den Rechnungspositionen und ein Bild. Die Liste kann auch automatisch erweitert werden.
 
-![ExFlow Web - Document](@site/static/img/media/image232.png)
+![ExFlow Web - Dokument](./../../images/image232.png)
 
-Depending on the permission role on ExFlow User in Business Central, the
-user may adjust the line regarding dimensions, change Account etc.
+Je nach Berechtigungsrolle in ExFlow User in Business Central kann der Benutzer die Positionen bezüglich Dimensionen anpassen, das Konto ändern usw.
 
-In this case, the user just approves all lines on this invoice by
-clicking "Approve" button.
+In diesem Fall genehmigt der Benutzer alle Positionen auf dieser Rechnung, indem er auf die Schaltfläche "Genehmigen" klickt.
 
-![ExFlow Web - Document](@site/static/img/media/image233.png)
+![ExFlow Web - Dokument](./../../images/image233.png)
 
-After approval, the invoice will be moved to the Box called "Recent" and
-Approval Status in Business Central will be updated. Invoice is also
-sent to the next approver if such exists.
+Nach der Genehmigung wird die Rechnung in den Ordner "Aktuell" verschoben und der Genehmigungsstatus in Business Central wird aktualisiert. Die Rechnung wird auch an den nächsten Genehmiger gesendet, sofern vorhanden.
 
-![ExFlow Web - Recent](@site/static/img/media/image234.png)
+![ExFlow Web - Aktuell](./../../images/image234.png)
 
-Status is now updated in the "ExFlow Approval Status" page.
+Der Status wird nun auf der Seite "ExFlow Genehmigungsstatus" aktualisiert.
 
-![ExFlow Approval Status](@site/static/img/media/image235.png)
+![ExFlow Genehmigungsstatus](./../../images/image235.png)
 
-The Invoice Status is now waiting to be updated to "Ready for Posting".
-By using the function "Verify Changes" the administrator updates the
-"Status" of the invoice and approves the changes done on lines.
+Der Rechnungsstatus wartet nun darauf, auf "Bereit zur Buchung" aktualisiert zu werden. Der Administrator aktualisiert den "Status" der Rechnung und genehmigt die vorgenommenen Änderungen an den Positionen, indem er die Funktion "Änderungen überprüfen" verwendet.
 
-![ExFlow Approval Status](@site/static/img/media/image236.png)
+![ExFlow Genehmigungsstatus](./../../images/image236.png)
 
-The next step is to post the Invoice by using function "Post" or "Post
-Batch". There is also a function for Preview Posting.
+Der nächste Schritt besteht darin, die Rechnung mit der Funktion "Buchen" oder "Stapelbuchung" zu buchen. Es gibt auch eine Funktion für die Vorschau der Buchung.
 
-Go to: ***Actions \--\> Posting \--\> Post / Preview Posting / Post
-Batch\...***
+Gehe zu: ***Aktionen \--\> Buchung \--\> Buchen / Buchungsvorschau / Stapelbuchung\...***
 
-![ExFlow Approval Status](@site/static/img/media/image237.png)
+![ExFlow Genehmigungsstatus](./../../images/image237.png)

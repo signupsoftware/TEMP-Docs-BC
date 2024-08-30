@@ -1,366 +1,367 @@
 ---
-title: ExFlow Setup 
+title: ExFlow Einrichtung 
 sidebar_position: 1
 hide_title: true
 ---
-## ExFlow Setup
+## ExFlow Einrichtung
 
-ExFlow Setup is organized into various sections to simplify the process of creating the most optimal workflow for your company's requirements.<br/>
+Die ExFlow Einrichtung ist in verschiedene Abschnitte unterteilt, um den Prozess der Erstellung des optimalen Workflows für die Anforderungen Ihres Unternehmens zu vereinfachen.<br/>
 
-Go to: **ExFlow Setup**
+Gehe zu: **ExFlow Einrichtung**
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-ribbon-001.png)<br/>
+![ExFlow Einrichtung](./../../images/exflow-setup-ribbon-001.png)<br/>
 
-| ExFlow Setup| |
+| ExFlow Einrichtung| |
 |:-|:-|
-|**Clear ExFlow Web Cache:**	|Utilize this function to clear the ExFlow Web Cache
-|**Resync Master Data**	|Resync master data and vendor bank accounts with ExFlow Data Capture/ OCR Service 
-|**Edit Web Columns**	|Make changes on current ExFlow web columns. <br/> <br/>Read more about this under section [ExFlow Web](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
+|**ExFlow Web Cache leeren:**	|Verwenden Sie diese Funktion, um den ExFlow Web Cache zu leeren.
+|**Masterdaten neu synchronisieren**	|Synchronisieren Sie die Masterdaten und Lieferantenbankkonten mit dem ExFlow Data Capture/OCR Service.
+|**Web-Spalten bearbeiten**	|Ändern Sie die aktuellen ExFlow Web-Spalten. <br/> <br/>Lesen Sie mehr dazu im Abschnitt [ExFlow Web](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
 
 <br/>
 
-Go to: **ExFlow Setup --> Actions --> Functions** <br/>
+Gehe zu: **ExFlow Einrichtung --> Aktionen --> Funktionen** <br/>
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-ribbon-002.png)<br/>
+![ExFlow Einrichtung](./../../images/exflow-setup-ribbon-002.png)<br/>
 
-| Actions --> Functions | |
+| Aktionen --> Funktionen | |
 |:-|:-|
-|**Apply/ Update Default ExFlow Security Roles** 	|Creates default Web User Level Permissions if none exist or are changed. <br/><br/> Read more about this under section [***Web User Level Permissions***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/web-user-level-permissions)
-|**Copy Setup**	|Copy setup from another company within same tenant by selecting tables (for example Approval Rules) to be copied from an already ExFlow configured company. <br/><br/> Read more about this under section  [***Copy Setup from another company***](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#copy-setup-from-another-company)
-|**Blob Storage Mgmt**	|Opens the ExFlow Storage Management Setup. <br/><br/> Read more about this under section  [***Generic Blob Storage***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/generic-blob-storage#generic-blob-storage) and [***OAuth 2.0 Applications and Storage Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/oauth-storage-setup#oauth-20-applications-and-storage-setup)
-|**Power BI**	|**Create Power BI Web Services**:<br/>Creates Web Services for Power BI<br/><br/>**Delete Power BI Web Services:**<br/>Deletes all Web Services for Power BI<br/><br/>**Get BC Datasource:**<br/>This function creates a URL string (Datasource) for the BC clint. Use this link and paste it into Power BI when running the template<br/><br/>**Get Power BI template:**<br/>Opens a website for downloading template<br/><br/>Read more about this under section [***Power BI***](https://docs.exflow.cloud/business-central/docs/user-manual/business-intelligence-and-reporting/power-bi#power-bi)
-|**Export/Import Setups**	|Export and Import ExFlow Setup (.json file) between environments. <br/><br/> Read more about this under section [***Export/Import ExFlow data***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/export-import-setup#exportimport-exflow-data) 
-|**Upgrade ExFlow Data from CAL**	|Run an ExFlow migration for a current company or all companies. <br/><br/> Read more about this under section [***Upgrade and migrate ExFlow data***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/upgrade-exflow-data-from-cal#upgrade-and-migrate-exflow-data)
-|**Migrate Documents**	|Open the Document Migration tool. <br/><br/> Read more about this under section [***Upgrade and migrate ExFlow data***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/upgrade-exflow-data-from-cal#upgrade-and-migrate-exflow-data)
-|**OAuth2 Applications**	|Opens the OAuth 2.0 Applications page. <br/><br/> Read more about this under section [***OAuth 2.0 Applications and Storage Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/oauth-storage-setup#oauth-20-applications-and-storage-setup)
-|**OCR**	|**Update Vendor ID for all vendors:** <br/>Syncs all Vendor IDs.<br/><br/>**Advanced Mapping**: <br/>Opens ExFlow Advanced Mappings. <br/><br/>**Import Data Exchange Definitions:**<br/>Displays all Import Data Exchange Definition codes and its blob name etc.<br/><br/>**Other --> Resync Master Data:**<br/>Resync master data and vendor bank accounts with ExFlow Data Capture/ OCR Service
-|**Web**	|**Update Web used Vendor Names**: <br/>Updates vendor names on web<br/><br/>**Enable Company for ExFlow Web**: <br/> Enable current company for ExFlow Web<br/><br/>**Disable Company for ExFlow Web.**:<br/> Disables current company for ExFlow Web<br/><br/>**Define as Default ExFlow Web Company**:<br/> Set current company as default for ExFlow Web<br/><br/>**Create Azure Active Directory Application**:<br/>Create a Microsoft Entra Application <br/><br/>**Create / Update Default Web Services**:<br/>Create or update the current Web Service EXFID and EXFWeb <br/><br/>**Other --> Edit Web Columns**:<br/>Make changes on current ExFlow web columns<br/><br/>**Other --> Clear ExFlow Web Cache**:<br/>Clear the ExFlow Web Cache <br/> <br/>Read more about this under section [ExFlow Web](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
+|**Anwenden/Aktualisieren der Standard-ExFlow-Sicherheitsrollen** 	|Erstellt standardmäßige Berechtigungen auf Benutzerebene für das Web, falls keine vorhanden sind oder geändert wurden. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Web-Benutzerebene-Berechtigungen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/web-user-level-permissions)
+|**Setup kopieren**	|Kopiert das Setup von einem anderen Unternehmen innerhalb des gleichen Mandanten, indem Tabellen (z. B. Genehmigungsregeln) aus einem bereits konfigurierten ExFlow-Unternehmen ausgewählt werden. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Setup von einem anderen Unternehmen kopieren***](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#copy-setup-from-another-company)
+|**Blob-Speicherverwaltung**	|Öffnet das ExFlow Storage Management Setup. <br/><br/> Weitere Informationen finden Sie in den Abschnitten [***Generischer Blob-Speicher***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/generic-blob-storage#generic-blob-storage) und [***OAuth 2.0-Anwendungen und Speicher-Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/oauth-storage-setup#oauth-20-applications-and-storage-setup)
+|**Power BI**	|**Power BI-Webdienste erstellen:**<br/>Erstellt Webdienste für Power BI<br/><br/>**Power BI-Webdienste löschen:**<br/>Löscht alle Webdienste für Power BI<br/><br/>**BC-Datenquelle abrufen:**<br/>Diese Funktion erstellt eine URL-Zeichenfolge (Datenquelle) für den BC-Client. Verwenden Sie diesen Link und fügen Sie ihn in Power BI ein, wenn Sie die Vorlage ausführen<br/><br/>**Power BI-Vorlage abrufen:**<br/>Öffnet eine Website zum Herunterladen der Vorlage<br/><br/>Weitere Informationen finden Sie im Abschnitt [***Power BI***](https://docs.exflow.cloud/business-central/docs/user-manual/business-intelligence-and-reporting/power-bi#power-bi)
+|**Setups exportieren/importieren**	|Exportiert und importiert ExFlow-Setup (.json-Datei) zwischen Umgebungen. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***ExFlow-Daten exportieren/importieren***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/export-import-setup#exportimport-exflow-data) 
+|**ExFlow-Daten von CAL aktualisieren**	|Führt eine ExFlow-Migration für ein aktuelles Unternehmen oder alle Unternehmen durch. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***ExFlow-Daten aktualisieren und migrieren***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/upgrade-exflow-data-from-cal#upgrade-and-migrate-exflow-data)
+|**Dokumente migrieren**	|Öffnet das Dokument-Migrationswerkzeug. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***ExFlow-Daten aktualisieren und migrieren***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/upgrade-exflow-data-from-cal#upgrade-and-migrate-exflow-data)
+|**OAuth2-Anwendungen**	|Öffnet die Seite "OAuth 2.0-Anwendungen". <br/><br/> Weitere Informationen finden Sie im Abschnitt [***OAuth 2.0-Anwendungen und Speicher-Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/oauth-storage-setup#oauth-20-applications-and-storage-setup)
+|**OCR**	|**Vendor-ID für alle Lieferanten aktualisieren:** <br/>Synchronisiert alle Lieferanten-IDs.<br/><br/>**Erweiterte Zuordnung**: <br/>Öffnet ExFlow Advanced Mappings. <br/><br/>**Importieren von Datenaustauschdefinitionen:**<br/>Zeigt alle Importdatenaustauschdefinitions-Codes und deren Blob-Namen usw. an.<br/><br/>**Sonstiges --> Masterdaten neu synchronisieren:**<br/>Synchronisiert Stammdaten und Lieferantenbankkonten mit ExFlow Data Capture/OCR Service
+|**Web**	|**Verwendete Lieferantennamen aktualisieren**: <br/>Aktualisiert Lieferantennamen im Web<br/><br/>**Unternehmen für ExFlow Web aktivieren**: <br/> Aktiviert das aktuelle Unternehmen für ExFlow Web<br/><br/>**Unternehmen für ExFlow Web deaktivieren.**:<br/> Deaktiviert das aktuelle Unternehmen für ExFlow Web<br/><br/>**Als Standard-ExFlow-Web-Unternehmen festlegen**:<br/> Legt das aktuelle Unternehmen als Standard für ExFlow Web fest<br/><br/>**Azure Active Directory-Anwendung erstellen**:<br/>Erstellt eine Microsoft Entra-Anwendung <br/><br/>**Standard-Webdienste erstellen/aktualisieren**:<br/>Erstellt oder aktualisiert den aktuellen Webdienst EXFID und EXFWeb <br/><br/>**Sonstiges --> Webspalten bearbeiten**:<br/>Änderungen an aktuellen ExFlow-Webspalten vornehmen<br/><br/>**Sonstiges --> ExFlow Web Cache löschen**:<br/>Löscht den ExFlow Web Cache <br/> <br/>Weitere Informationen finden Sie im Abschnitt [ExFlow Web](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
 
 <br/>
 
-Go to: **ExFlow Setup --> Related --> Advanced**
+Gehe zu: **ExFlow Setup --> Verwandt --> Erweitert**
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-ribbon-003.png)<br/>
+![ExFlow Setup](./../../images/exflow-setup-ribbon-003.png)<br/>
 
-| Related --> Advanced | |
+| Verwandt --> Erweitert | |
 |:-|:-|	
-|**Columns**	|Opens ExFlow Columns to view all visible columns in ExFlow web <br/><br/> Read more about this under section [***Edit Web Columns in Business Central***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)
-|**ExFlow Vendor Setup**	|Opens Vendor Setup to set vendor specific settings <br/><br/> Read more about this under section [***Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup)
-|**Vendor ID Setup**	|Displays Vendor ID fields and the ExFlow Data Capture export order
-|**FactBox Default Sizes**	|Edit/restore FactBox Sizes for different ExFlow pages <br/><br/> Read more about this under section [***Set FactBox Default Size***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/set-factbox-default-size#set-factbox-default-size)
-|**Payment Validation Setup**	|Enter fields to check in Payment Validation during the import and data interpretation process. <br/><br/> Read more about this under section [***Payment Validation Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-setup)
-|**Set Server Computer/ Instance Names**	| Set server or instance name from current environment
-|**Set Company Name**	| Set company name from current environment
-|**Preliminary Posting Setup**	|Opens the Preliminary Posting Setup. <br/> Note: This setting must be activated under the ‘‘Preliminary Posting’’ section to be viewed. <br/><br/>Read more about this under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
-|**PO Header Values on Invoice Setup**	|Opens the PO Header Values on Invoice Setup page. Note: This setting must be activated under the ‘’PO Matching’’ section to be viewed. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
-|**Auto Receive Line Type Setup**	|Show or edit Line Types that should be automatically received.<br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
+|**Spalten**	|Öffnet ExFlow Spalten, um alle sichtbaren Spalten in ExFlow Web anzuzeigen <br/><br/> Erfahren Sie mehr dazu im Abschnitt [***Web-Spalten in Business Central bearbeiten***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)
+|**ExFlow Lieferanteneinrichtung**	|Öffnet die Lieferanteneinrichtung, um lieferantenspezifische Einstellungen festzulegen <br/><br/> Erfahren Sie mehr dazu im Abschnitt [***Lieferanteneinrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup)
+|**Lieferanten-ID-Einrichtung**	|Zeigt Lieferanten-ID-Felder und die Reihenfolge des ExFlow Data Capture Exports an
+|**FactBox Standardgrößen**	|Bearbeiten/Wiederherstellen von FactBox-Größen für verschiedene ExFlow-Seiten <br/><br/> Erfahren Sie mehr dazu im Abschnitt [***FactBox-Standardgröße festlegen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/set-factbox-default-size#set-factbox-default-size)
+|**Zahlungsvalidierungseinrichtung**	|Eingabe von Feldern zur Überprüfung bei der Zahlungsvalidierung während des Import- und Dateninterpretationsprozesses. <br/><br/> Erfahren Sie mehr dazu im Abschnitt [***Zahlungsvalidierungseinrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-setup)
+|**Servercomputer-/Instanznamen festlegen**	| Server- oder Instanznamen aus der aktuellen Umgebung festlegen
+|**Firmennamen festlegen**	| Firmennamen aus der aktuellen Umgebung festlegen
+|**Vorläufige Buchungseinrichtung**	|Öffnet die Vorläufige Buchungseinrichtung. <br/> Hinweis: Diese Einstellung muss im Abschnitt "Vorläufige Buchung" aktiviert sein, um angezeigt zu werden. <br/><br/>Erfahren Sie mehr dazu im Abschnitt [***Vorläufige Buchung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
+|**PO-Kopfwerte in Rechnungseinrichtung**	|Öffnet die Seite "PO-Kopfwerte in Rechnungseinrichtung". Hinweis: Diese Einstellung muss im Abschnitt "PO-Abgleich" aktiviert sein, um angezeigt zu werden. <br/><br/> Erfahren Sie mehr dazu im Abschnitt [***Kopieren von PO-Kopfwerten***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
+|**Automatische Empfangszeilentyp-Einrichtung**	|Zeigt oder bearbeitet Zeilentypen, die automatisch empfangen werden sollen.<br/><br/> Erfahren Sie mehr dazu im Abschnitt [***Rechnung mit Empfangs-, Bestell- oder sowohl Empfangs- als auch Bestellzeilen abgleichen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
 
 <br/>
 
+### ExFlow Setup-Abschnitte
 
-### ExFlow Setup Sections
+Finden Sie alle ExFlow Setup-Abschnitte gemäß untenstehender Beschreibung. <br/>
 
-Find all ExFlow Setup sections described according to below. <br/>
+![ExFlow Setup](./../../images/exflow-setup-overview-001.png) <br/>
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-overview-001.png) <br/>
+### Allgemein
 
-### General
+![ExFlow Setup](./../../images/exflow-setup-general-section.png) <br/>
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-general-section.png) <br/>
-
-|General||
+|Allgemein||
 |:-|:-|	
-|**Predefined Account**	|Specifies the default G/L account that is used by ExFlow when creating a default invoice line on newly imported (expense) invoices. Can be overridden on a per-vendor basis
-|**Propose VAT Line**	|Specifies if a separate VAT line should be created automatically (when importing invoices) or if Business Central standard VAT handling should be used. Make sure to fill in the fields VAT Prod. Posting Group 0% and VAT Prod. Posting Group 100%.
-|**Automatic Inward Registration (SweBase) **	|Specifies if the Inward Registration should be generated and posted from Purchase Lines (Suggest from Lines function in SweBase)
-|**Standard Prod. Posting Group**	|Specifies the default Product Posting Group to be used by ExFlow if the Product Posting Group is missing on the document line when the line is created in the import journal
-|**Standard VAT Prod. Posting Group** 	|Specifies the default Product Posting Group to be used by ExFlow if the Product Posting Group is missing on the document line when the line is created in the import journal
-|**Set Document Date to**	|Specifies if the Document Date on the imported invoice should be set to the posting date if/when the posting date is changed
-|**Set Posting Description to**	|Specifies which posting description BC will use when posting the invoice. Only applies to postings using the accounts payable g/l account(s)
-|**ExFlow Purchase Code**	|Specifies the default ExFlow Purchase Code to use when creating a default invoice line on newly imported (expense) invoices. Can be overridden on a per-vendor basis. <br/><br/> Read more about this under section [***Purchase Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/purchase-codes#purchase-codes)
-|**Min. Line Approval Amt. (LCY)** 	|Specifies the min. approval amount for an invoice line i.e. lines with a smaller amount are not sent on approval by ExFlow. Zero means that all invoice lines are sent on approval
-|**Min. Doc. Approval Amt. (LCY)** 	|Specifies the min. approval amount for an invoice i.e. invoices with a total that is lower than this amount are not sent on approval by ExFlow. Zero means that all invoices are sent on approval
-|**VAT Prod. Posting Group 0%**	|Specifies the VAT Prod. Posting Group for "No VAT" when the setting "Propose VAT line" is selected
-|**VAT Prod. Posting Group 100%** 	|Specifies the VAT Prod. Posting Group for "Only VAT" when the setting "Propose VAT line" is selected
-|**Block Amt. Change Approved Line** 	|Specifies if amount changes should be blocked in approved invoice lines.
-|**Copy First Approver to the Approval Flow** 	|Specifies if the "First Approver filter" from the approval rule for a specific invoice line also should be added (as first approver) to the approval proposal
-|**Default Job Task No. ** 	|Default Job Task No. will be added on lines with Job No. if no Job Task is selected.
-|**Allow Changes of Approved Documents**	|Specifies if an ExFlow admin is allowed to modify a purchase document header and/or lines with status Approved.
-|**Prepmt. Inv. Nos. **	|Add a Prepayment Invoice No Series. Should not be the same as Posted Invoice Nos. in Purchases & Payables Setup since this will cause a gap and create an empty posted invoice to fill this gap in the number series. <br/><br/> Read more about this under section [***Prepayment Invoices***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/prepayment-invoices#prepayment-invoices)
-|**Payment Validation** 	|Specifies if the payment validation process will be applied during the import and data interpretation process. <br/><br/> Read more about this under section [***Payment Validation Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-setup)
-|**Suggest Recipient Bank Account** 	|Specifies if the Suggestion of Recipient Bank Account is activated. <br/><br/> Read more about this under section [***Suggest Recipient Bank Account***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#suggest-recipient-bank-account)
-|**Move Deferral Forward** 	|When posting date in Deferral Schedule is before allowed posting date for the user, that period will be posted on first allowed posting date in General Ledger Setup or User Setup. ExFlow will only move deferrals forward for closed periods. <br/><br/> Read more about this under section [***Move Deferral Forward***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#move-deferral-forward)
+|**Vordefiniertes Konto**	|Gibt das Standard-G/L-Konto an, das von ExFlow verwendet wird, um eine Standard-Rechnungsposition für neu importierte (Ausgaben-)Rechnungen zu erstellen. Kann auf Basis des Lieferanten überschrieben werden.
+|**MwSt.-Position vorschlagen**	|Gibt an, ob automatisch eine separate MwSt.-Position erstellt werden soll (beim Import von Rechnungen) oder ob die Standard-MwSt.-Behandlung von Business Central verwendet werden soll. Stellen Sie sicher, dass die Felder "MwSt.-Produktbuchungsgruppe 0%" und "MwSt.-Produktbuchungsgruppe 100%" ausgefüllt sind.
+|**Automatische Eingangsregistrierung (SweBase)**	|Gibt an, ob die Eingangsregistrierung aus den Einkaufspositionen generiert und gebucht werden soll (Funktion "Aus Positionen vorschlagen" in SweBase)
+|**Standard-Produktbuchungsgruppe**	|Gibt die Standard-Produktbuchungsgruppe an, die von ExFlow verwendet werden soll, wenn die Produktbuchungsgruppe in der Dokumentenposition fehlt und die Position im Importjournal erstellt wird
+|**Standard-MwSt.-Produktbuchungsgruppe**	|Gibt die Standard-MwSt.-Produktbuchungsgruppe an, die von ExFlow verwendet werden soll, wenn die Produktbuchungsgruppe in der Dokumentenposition fehlt und die Position im Importjournal erstellt wird
+|**Dokumentdatum auf**	|Gibt an, ob das Dokumentdatum auf das Buchungsdatum gesetzt werden soll, wenn das Buchungsdatum geändert wird
+|**Buchungsbeschreibung auf**	|Gibt an, welche Buchungsbeschreibung von BC verwendet werden soll, wenn die Rechnung gebucht wird. Gilt nur für Buchungen mit den Verbindlichkeiten-G/L-Konten
+|**ExFlow-Einkaufscode**	|Gibt den Standard-ExFlow-Einkaufscode an, der verwendet werden soll, um eine Standard-Rechnungsposition für neu importierte (Ausgaben-)Rechnungen zu erstellen. Kann auf Basis des Lieferanten überschrieben werden. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Einkaufscodes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/purchase-codes#purchase-codes)
+|**Min. Betrag für Positions-Freigabe (LCY)**	|Gibt den Mindestbetrag für die Freigabe einer Rechnungsposition an. Positionen mit einem niedrigeren Betrag werden nicht zur Freigabe an ExFlow gesendet. Null bedeutet, dass alle Rechnungspositionen zur Freigabe gesendet werden
+|**Min. Betrag für Dokument-Freigabe (LCY)**	|Gibt den Mindestbetrag für die Freigabe einer Rechnung an. Rechnungen mit einem Gesamtbetrag, der niedriger als dieser Betrag ist, werden nicht zur Freigabe an ExFlow gesendet. Null bedeutet, dass alle Rechnungen zur Freigabe gesendet werden
+|**MwSt.-Produktbuchungsgruppe 0%**	|Gibt die MwSt.-Produktbuchungsgruppe für "Keine MwSt." an, wenn die Einstellung "MwSt.-Position vorschlagen" ausgewählt ist
+|**MwSt.-Produktbuchungsgruppe 100%**	|Gibt die MwSt.-Produktbuchungsgruppe für "Nur MwSt." an, wenn die Einstellung "MwSt.-Position vorschlagen" ausgewählt ist
+|**Blockierung von Betragsänderungen in genehmigten Positionen**	|Gibt an, ob Betragsänderungen in genehmigten Rechnungspositionen blockiert werden sollen
+|**Erster Genehmiger in den Genehmigungsfluss kopieren**	|Gibt an, ob der "Erster Genehmiger-Filter" aus der Genehmigungsregel für eine bestimmte Rechnungsposition auch (als erster Genehmiger) dem Genehmigungsvorschlag hinzugefügt werden soll
+|**Standard-Jobaufgabennummer**	|Die Standard-Jobaufgabennummer wird zu Positionen mit einer Jobnummer hinzugefügt, wenn keine Jobaufgabennummer ausgewählt ist.
+|**Änderungen an genehmigten Dokumenten zulassen**	|Gibt an, ob ein ExFlow-Administrator einen Einkaufsdokumentkopf und/oder Positionen mit dem Status "Genehmigt" ändern darf
+|**Vorauszahlungsrechnungsnummern**	|Fügen Sie eine Vorauszahlungsrechnungsnummernserie hinzu. Diese sollte nicht mit den gebuchten Rechnungsnummern in der Einrichtung für Einkauf & Verbindlichkeiten identisch sein, da dies zu einer Lücke führen und eine leere gebuchte Rechnung erstellen würde, um diese Lücke in der Nummernserie zu füllen. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Vorauszahlungsrechnungen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/prepayment-invoices#prepayment-invoices)
+|**Zahlungsvalidierung**	|Gibt an, ob der Zahlungsvalidierungsprozess während des Import- und Dateninterpretationsprozesses angewendet wird. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Zahlungsvalidierungseinrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-setup)
+|**Vorschlag für Empfängerkonto**	|Gibt an, ob die Vorschlagsfunktion für das Empfängerkonto aktiviert ist. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Vorschlag für Empfängerkonto***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#suggest-recipient-bank-account)
+|**Verschiebung von Abgrenzungen nach vorne**	|Wenn das Buchungsdatum im Abgrenzungsplan vor dem erlaubten Buchungsdatum für den Benutzer liegt, wird dieser Zeitraum am ersten erlaubten Buchungsdatum in der Allgemeinen Ledger-Einrichtung oder Benutzereinrichtung gebucht. ExFlow verschiebt Abgrenzungen nur nach vorne für geschlossene Perioden. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Verschiebung von Abgrenzungen nach vorne***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#move-deferral-forward)
 
 <br/>
 
-### Doc. Creation Checks
+### Überprüfung der Dokumenterstellung
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-doc-creation-checks-section.png)
+![ExFlow-Einrichtung](./../../images/exflow-setup-doc-creation-checks-section.png)
 
-|Doc. Creation Checks||
+|Dokumentenerstellung Überprüfungen||
 |:-|:-|	
-|**Check Dimensions**	|Specifies if the standard dimension settings in Business Central should be checked when the invoice is created
-|**Check Minimum No. of Approvers** 	|Specifies if there should be a check of minimum number of approvers when creating purchase document.<br/><br/> Read more about this under section [***Check Minimum No. of Approvers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/minimum_no_of_approvers#setup-minimum-no-of-approvers)
-|**Test Amounts** 	|Specifies if the Gross/Net/Vat amounts on the document should checked for variances (difference between sum of document lines and the corresponding amount in the document header) before the invoice is created
-|**Max. Gross Difference Allowed (LCY) ** 	|Specifies the max document gross amount variance (in LCY) allowed when "Test Amounts" is active
-|**Max. Net Difference Allowed (LCY) ** 	|Specifies the max document net amount variance (in LCY) allowed when "Test Amounts" is active
-|**Max. VAT Difference Allowed (LCY) ** 	|Specifies the max document vat amount variance (in LCY) allowed when "Test Amounts" is active
-|**Match Vendor's Currency Code**	|Specifies if the currency code on the imported document must match the currency code on the vendor card. <br/><br/> Read more about this under section [***Match Vendor's Currency Code***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#match-vendors-currency)
-|**Due Date Warning when Older Than X Days** 	|Specifies the max # of days that the document due date may deviate from today's date. 0 = disables this check
-|**Warning when VAT Differs from Setup** 	|Specifies if the calculated vat percentage on the document must exist as a setting in the VAT Posting Setup
-|**Recalculate Invoice Disc. Amount on Verify Document** 	|Specifies if the Invoice Discount Amount should be recalculated on lines during Verify Document process.
-|**Check References** 	|When enabled it is required that the document contains an ExFlow Reference.
-|**Auto. Assign of VAT Diff. for Creation** 	|Specifies if automatic assignment of VAT Difference should be done if the difference of VAT on lines and header is within Max. Allowed VAT Difference
+|**Abmessungen überprüfen**|Gibt an, ob die Standardabmessungseinstellungen in Business Central überprüft werden sollen, wenn die Rechnung erstellt wird.
+|**Mindestanzahl der Genehmiger überprüfen**|Gibt an, ob bei der Erstellung eines Einkaufsdokuments eine Überprüfung der Mindestanzahl der Genehmiger erfolgen soll.<br/><br/>Lesen Sie mehr dazu im Abschnitt [***Mindestanzahl der Genehmiger überprüfen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/minimum_no_of_approvers#setup-minimum-no-of-approvers)
+|**Betrag überprüfen**|Gibt an, ob die Brutto-/Netto-/MwSt.-Beträge auf dem Dokument vor der Erstellung auf Abweichungen überprüft werden sollen (Unterschied zwischen der Summe der Dokumentzeilen und dem entsprechenden Betrag im Dokumentkopf).
+|**Max. zulässige Bruttodifferenz (LCY)**|Gibt die maximale Differenz des Dokumentbruttobetrags (in LCY) an, die zulässig ist, wenn "Betrag überprüfen" aktiviert ist.
+|**Max. zulässige Nettodifferenz (LCY)**|Gibt die maximale Differenz des Dokumentnettobetrags (in LCY) an, die zulässig ist, wenn "Betrag überprüfen" aktiviert ist.
+|**Max. zulässige MwSt.-Differenz (LCY)**|Gibt die maximale Differenz des Dokument-MwSt.-Betrags (in LCY) an, die zulässig ist, wenn "Betrag überprüfen" aktiviert ist.
+|**Währungscode des Lieferanten abgleichen**|Gibt an, ob der Währungscode auf dem importierten Dokument mit dem Währungscode auf der Lieferantenkarte übereinstimmen muss.<br/><br/>Lesen Sie mehr dazu im Abschnitt [***Währungscode des Lieferanten abgleichen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#match-vendors-currency)
+|**Warnung bei Fälligkeit älter als X Tage**|Gibt die maximale Anzahl von Tagen an, um die sich das Dokumentfälligkeitsdatum vom heutigen Datum abweichen darf. 0 = deaktiviert diese Überprüfung.
+|**Warnung bei abweichender MwSt. von der Konfiguration**|Gibt an, ob der berechnete MwSt.-Prozentsatz auf dem Dokument als Einstellung in der MwSt.-Buchungsgruppeneinrichtung vorhanden sein muss.
+|**Rabattbetrag der Rechnung bei Überprüfung des Dokuments neu berechnen**|Gibt an, ob der Rabattbetrag der Rechnung während des Überprüfungsvorgangs des Dokuments neu berechnet werden soll.
+|**Referenzen überprüfen**|Wenn aktiviert, ist es erforderlich, dass das Dokument eine ExFlow-Referenz enthält.
+|**Automatische Zuordnung der MwSt.-Differenz bei Erstellung**|Gibt an, ob bei einer Differenz der MwSt. auf den Zeilen und im Kopf automatisch eine Zuordnung der MwSt.-Differenz erfolgen soll, wenn die Differenz innerhalb der maximal zulässigen MwSt.-Differenz liegt.
 
 <br/>
 
-### Doc. Posting Checks
+### Überprüfungen bei der Dokumentbuchung
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-doc-posting-checks-section.png)
+![ExFlow Setup](./../../images/exflow-setup-doc-posting-checks-section.png)
 
-|Doc. Posting Checks||
+|Überprüfungen bei der Dokumentbuchung||
 |:-|:-|	
-|**Do Not Post Predefined Account**	|Specifies if final posting to the specified predefined G/L account (if any) should be allowed
-|**Check Gross Amount** 	|Specifies if the "Max. Diff. Gross Amount" setting should be used
-|**Max. Difference for Gross Amount (LCY) ** 	|Specifies the max gross amount difference allowed then posting an invoice
-|**Minimum No. of Approvers** 	|Specifies the minimum numbers of approvers on an invoice line. If the actual numbers of approvers are less, then posting of the invoice is not allowed. 0 = disabled. <br/><br/> Read more about this under section [***Minimum No. of Approvers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/minimum_no_of_approvers#minimum-no-of-approvers)
-|**Delete G/L Account Lines with Line Amount = Zero** 	|Specifies if the G/L Account Lines with Line Amount = Zero should be deleted during Update Document in Verify Changes from Approval Status. <br/><br/> Read more about this under section [***Delete G/L Account Lines with Line Amount = Zero***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#delete-gl-account-lines-with-line-amount--zero)
-|**Auto. Assign of VAT Diff. for Posting** 	|Specifies if automatic assignment of VAT Difference should be done if the difference of VAT on lines and header is within Max. Allowed VAT Difference
+|**Vordefiniertes Konto nicht buchen**|Gibt an, ob die endgültige Buchung auf das angegebene vordefinierte G/L-Konto (falls vorhanden) erlaubt sein soll.
+|**Bruttobetrag überprüfen**|Gibt an, ob die Einstellung "Max. Diff. Bruttobetrag" verwendet werden soll.
+|**Max. Differenz für Bruttobetrag (LCY)**|Gibt die maximale Differenz des Bruttobetrags an, die beim Buchen einer Rechnung zulässig ist.
+|**Mindestanzahl der Genehmiger**|Gibt die Mindestanzahl der Genehmiger auf einer Rechnungszeile an. Wenn die tatsächliche Anzahl der Genehmiger geringer ist, ist die Buchung der Rechnung nicht zulässig. 0 = deaktiviert.<br/><br/>Lesen Sie mehr dazu im Abschnitt [***Mindestanzahl der Genehmiger***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/minimum_no_of_approvers#minimum-no-of-approvers)
+|**G/L-Konten mit Betrag = 0 löschen**|Gibt an, ob die G/L-Konten mit Betrag = 0 während der Aktualisierung des Dokuments im Überprüfen von Änderungen des Genehmigungsstatus gelöscht werden sollen.<br/><br/>Lesen Sie mehr dazu im Abschnitt [***G/L-Konten mit Betrag = 0 löschen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#delete-gl-account-lines-with-line-amount--zero)
+|**Automatische Zuordnung der MwSt.-Differenz bei Buchung**|Gibt an, ob bei einer Differenz der MwSt. auf den Zeilen und im Kopf automatisch eine Zuordnung der MwSt.-Differenz erfolgen soll, wenn die Differenz innerhalb der maximal zulässigen MwSt.-Differenz liegt.
 
 <br/>
 
-### Preliminary Posting
+### Vorläufige Buchung
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-preliminary-posting-section.png)
+![ExFlow Setup](./../../images/exflow-setup-preliminary-posting-section.png)
 
-|Preliminary Posting||
+|Vorläufige Buchung||
 |:-|:-|	
-|**Preliminary Posting**| 	Activate Preliminary Posting when creating a document from Import Journal. After approving and posting this posting will be reversed on same posting date as final posting.
-|**Source Code**|  	Specifies the Source Code that will be used for Preliminary Posting lines.
-|**General Journal Template**|  	Selected General Journal Template will be used when posting Preliminary Document.
-|**General Journal Batch**|  	Selected General Journal Batch together with General Journal Template will be used when posting Preliminary Document.
-|**On Hold**|  	Will be added on Vendor Ledger Entry when Preliminary Postings. Specifies that the related entry represents an unpaid invoice for which either a payment suggestion, a reminder, or a finance charge memo exists.
-|**Invoice Rounding**|  	Check if Gross Amount depending on Max. Diff. Gross Amount difference with Line amount, add a rounded line when posting an invoice
-|**Posting Description**|  	Specifies the posting description for all preliminary posting lines in G/L Entry.
-|**Reverse Posting Description**|  	Specifies the posting description for all reversed preliminary posting lines in G/L Entry. <br/><br/> Read more about this under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
+|**Vorläufige Buchung**|Aktivieren Sie die vorläufige Buchung, wenn Sie ein Dokument aus dem Importjournal erstellen. Nach der Genehmigung und Buchung wird diese Buchung am selben Buchungsdatum wie die endgültige Buchung storniert.
+|**Quellencode**|Gibt den Quellencode an, der für die vorläufigen Buchungszeilen verwendet wird.
+|**Allgemeine Journalvorlage**|Die ausgewählte allgemeine Journalvorlage wird verwendet, wenn das vorläufige Dokument gebucht wird.
+|**Allgemeine Journalcharge**|Die ausgewählte allgemeine Journalcharge wird zusammen mit der allgemeinen Journalvorlage verwendet, wenn das vorläufige Dokument gebucht wird.
+|**In Bearbeitung**|Wird in den Lieferantenbuchungssatz aufgenommen, wenn vorläufige Buchungen erfolgen. Gibt an, dass der zugehörige Eintrag eine unbezahlte Rechnung darstellt, für die entweder ein Zahlungsvorschlag, eine Mahnung oder eine Finanzgebührennotiz vorhanden ist.
+|**Rundung der Rechnung**|Überprüfen Sie, ob der Bruttobetrag abhängig von der maximalen Differenz des Bruttobetrags mit dem Zeilenbetrag eine gerundete Zeile hinzufügt, wenn eine Rechnung gebucht wird.
+|**Buchungsbeschreibung**|Gibt die Buchungsbeschreibung für alle vorläufigen Buchungszeilen in G/L-Eintrag an.
+|**Stornierte Buchungsbeschreibung**|Gibt die Buchungsbeschreibung für alle stornierten vorläufigen Buchungszeilen in G/L-Eintrag an.<br/><br/>Lesen Sie mehr dazu im Abschnitt [***Vorläufige Buchung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
 
 <br/>
 
-### PO Matching
+### PO-Abgleich
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-po-matching-section.png)
+![ExFlow-Einrichtung](./../../images/exflow-setup-po-matching-section.png)
 
-|PO Matching||
+|PO-Abgleich||
 |:-|:-|	
-|**Match Documents To**|  	Specifies if ExFlow should match and retrieve lines from Purchase Orders or from Posted Receipts, or from both Orders and Receipts. <br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
-|**Automatically Receive Purchase Order Lines**|  	Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order" or "Order and Receipt". 
-|**Automatically Retrieve Lines**|  	Automatically retrieve all available lines from the Purchase Order or Posted Purchase Receipt when matching on header level.
-|**Auto Approve Invoices**|  	Specifies if the invoice should be auto approved if the related order is approved. <br/><br/> Read more about this under section [***Auto Approve Invoices***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
-|**User for Automatic Approval**|  	Specifies the ExFlow user that should be used for auto approved invoices. If this setting is empty, then the id of the logged in BC user is used
-|**Max. Invoice Amount for System Approval (LCY) **|  	Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
-|**Check Direct Unit Cost**|	Specifies that ExFlow should check the Unit Cost on the invoice line when matching invoices against purchase orders. The imported invoice needs to be line interpreted for this to work
-|**Check Line Discount %**|  	Specifies that ExFlow should check the Line Discount % on the invoice line when matching invoices against purchase orders. The imported invoice needs to be line interpreted for this to work
-|**Max. Misc. Charges (LCY)**|  	Tolerance for field "Auto Approve Invoices". The total amount of invoice lines not matched against PO lines. (For example, freight). When an invoice is generated, lines will not be automatically approved if you did exceed the maximum misc. amount.
-|**Matching Delay Doc. Date (Days)**|  	Specifies that ExFlow should delay the matching against purchase orders until xx days after the invoice import date
-|**Matching Delay Due Date (Days)**|  	Specifies that ExFlow should delay the matching against purchase orders until xx days before the invoice due date. <br/><br/> Read more about this under section [***PO Matching Delay Doc. Date and Due Date***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#po-matching-delay-doc-date-and-due-date)
-|*Line Difference Unit Cost*| 	
-|**Deviation Direct Unit Cost (%)**|  	Specifies the max allowed price difference between the invoice unit cost and the purchase order unit cost (in %)
-|**Deviation Direct Unit Cost (Amount LCY)**|  	Specifies the max allowed price difference between the invoice unit cost and the purchase order unit cost (in LCY). <br/><br/> Read more about this under section [***Deviation Direct Unit Cost (%) and Deviation Direct Unit Cost (Amount LCY)***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/order-matching-wizard#deviation-direct-unit-cost--and-deviation-direct-unit-cost-amount-lcy)
-|*Automatic Difference Line*|	
-|**Propose Diff. Line**|  	Specifies that ExFlow should create a new line containing the diff. amount, when there is a price difference between the purchase order total and the invoice total. <br/><br/> Read more about this under section [***Automatic Difference Line***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#automatic-difference-line)
-|**Diff. Line ExFlow Purch. Code**|  	Specifies which purchase code ExFlow should use when creating the diff. line
-|**Max. Diff. Amount (LCY)**|  	Specifies the max amount when creating the diff. line. If the diff. amount exceeds this setting, then no diff. line is created. 0 = disabled
-|**Max. Diff. %**|  	Specifies the max diff % when creating the diff. line. If the diff. % exceeds this setting, then no diff. line is created. 0 = disabled
-|**Matching Tolerance Unit Cost %**|  	Specifies the matching tolerance (in %) when matching an invoice against a purchase order using the line unit cost. 0 = disabled i.e. exact match is needed
-|**Matching Tolerance Quantity %**|  	Specifies the matching tolerance (in %) when matching an invoice against a purchase order using the line quantity. 0 = disabled i.e. exact match is needed
-|**Retrieve Lines Based on**|	Specifies how (in what order) receipt lines should be retrieved when matching an invoice against a purchase order. Retrieve lines based on Line No, Item No or Item No with variants.
-|**Automatic Item Charge Assignment**|  	Specifies what type of item charge assignment that should be used when posting invoices. It can be done equally, by amount, by weight or by volume automatically. None = no automatic assignment is done. <br/><br/> Read more about this under section [***Item Charge Assignment***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#item-charge-assignment)
-|**Use Vendor No. from Matched Purchase Order**|  	Specifies that the vendor number on the matched purchase order should be used instead of the imported invoice vendor information
-|**Copy Attachments from Order to Posted Receipt**|  	Copies all attachments from the purchase order to posted purchase receipt and shows them on related documents.
-|**Save Matched Lines to OCR Mapping**|  	This option can be used to automatically save manually matched invoice lines from "Matching View" based on vendor, interpreted Item No. These lines will be saved in the ExFlow OCR Import Mapping table and can be re-used to suggest matching for future PO-invoices with same criteria
-|**Multiple Line Matching**|  	This setting enables ExFlow to match one invoice line to multiple order lines or receipt lines. If the quantity of the invoice line is greater than the quantity of the order line, ExFlow will split the invoice line and proceed to partially match with other available order lines or receipt lines.
-|**Check Split Invoice Lines**|  	If “Multiple Line Matching” is true, ExFlow will give action messages for each line that has been split which gives the user an option to manually confirm the suggested matching before creating the document. Turning this setting to false means that no action message will be displayed for matched split lines.
-|**Disable Currency Filter in Get Receipt Lines**|  	This can be set to improve performance when using Get Receipt Lines in Import Journal. No filter will then be set on Currency Code when opening the selection page (A check that correct Currency is selected is instead done on the insert of the Invoice line)
-|**Disable Warning Messages for Order Matching**|	When disabled, no warning messages will be presented in the Import Journal regarding order matching.
-|**Use PO Header Values on Invoice**|  	Activate fields to transfer from Purchase Order to Invoice (Or Return Purchase Order to Credit Memo) in Import Journal when using order matching on header level. Selected values can be found and updated under Related --> Advanced --> PO Header values on Invoice Setup. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
-|**Send Unreceived Order Reminder on Approval**|  	An Unreceived Order Reminder is sent when the document is approved and not all the Order Lines are fully received. For this to work "Match Documents To" should be set to "Receipt". <br/><br/> Read more about this under section [***Unreceived Order - Approved***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
-|**Automatically Send Purchase Order/Quote Notification on Approval**|  	When enabled it will send Approved Order or Quote Notification when the document is approved.
+|**Dokumente abgleichen mit**|  	Gibt an, ob ExFlow Zeilen aus Bestellungen oder gebuchten Wareneingängen oder aus beiden abgleichen und abrufen soll. <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Rechnung mit Wareneingangs-, Bestell- oder sowohl Wareneingangs- als auch Bestellzeilen abgleichen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
+|**Bestellzeilen automatisch empfangen**|  	Gibt an, ob die Bestellzeilen jedes Zeilentyps automatisch empfangen werden sollen, wenn die abgeglichene Rechnung auf "Bereit zur Buchung" gesetzt wird. Diese Option ist nur anwendbar, wenn die Einstellung "Dokumente abgleichen mit" auf "Bestellung" oder "Bestellung und Wareneingang" konfiguriert ist.
+|**Zeilen automatisch abrufen**|  	Ruft automatisch alle verfügbaren Zeilen aus der Bestellung oder dem gebuchten Wareneingang ab, wenn auf Kopfebene abgeglichen wird.
+|**Rechnungen automatisch genehmigen**|  	Gibt an, ob die Rechnung automatisch genehmigt werden soll, wenn die zugehörige Bestellung genehmigt wird. <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Rechnungen automatisch genehmigen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
+|**Benutzer für automatische Genehmigung**|  	Gibt den ExFlow-Benutzer an, der für automatisch genehmigte Rechnungen verwendet werden soll. Wenn diese Einstellung leer ist, wird die ID des angemeldeten BC-Benutzers verwendet.
+|**Max. Rechnungsbetrag für Systemgenehmigung (LCY)**|  	Gibt den maximal zulässigen Rechnungsbetrag für automatische Genehmigungen an. 0 = deaktiviert
+|**Direkten Einheitspreis überprüfen**|	Gibt an, dass ExFlow den Einheitspreis in der Rechnungszeile überprüfen soll, wenn Rechnungen mit Bestellungen abgeglichen werden. Die importierte Rechnung muss für diese Funktion zeilenweise interpretiert werden.
+|**Rabatt % in der Zeile überprüfen**|  	Gibt an, dass ExFlow den Rabatt % in der Rechnungszeile überprüfen soll, wenn Rechnungen mit Bestellungen abgeglichen werden. Die importierte Rechnung muss für diese Funktion zeilenweise interpretiert werden.
+|**Max. Sonstige Kosten (LCY)**|  	Toleranz für das Feld "Rechnungen automatisch genehmigen". Die Gesamtmenge der Rechnungszeilen, die nicht mit Bestellzeilen abgeglichen wurden (z. B. Fracht). Bei der Generierung einer Rechnung werden die Zeilen nicht automatisch genehmigt, wenn der maximale Sonstigen-Betrag überschritten wurde.
+|**Verzögerung des Abgleichs nach Dokumentdatum (Tage)**|  	Gibt an, dass ExFlow den Abgleich mit Bestellungen um xx Tage nach dem Importdatum der Rechnung verzögern soll.
+|**Verzögerung des Abgleichs vor Fälligkeitsdatum (Tage)**|  	Gibt an, dass ExFlow den Abgleich mit Bestellungen um xx Tage vor dem Fälligkeitsdatum der Rechnung verzögern soll. <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Verzögerung des Abgleichs nach Dokumentdatum und Fälligkeitsdatum***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#po-matching-delay-doc-date-and-due-date)
+|*Unterschied im Einheitspreis*| 	
+|**Abweichung des direkten Einheitspreises (%)**|  	Gibt die maximal zulässige Preisabweichung zwischen dem Einheitspreis in der Rechnung und dem Einheitspreis in der Bestellung an (in %).
+|**Abweichung des direkten Einheitspreises (Betrag LCY)**|  	Gibt die maximal zulässige Preisabweichung zwischen dem Einheitspreis in der Rechnung und dem Einheitspreis in der Bestellung an (in LCY). <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Abweichung des direkten Einheitspreises (%) und Abweichung des direkten Einheitspreises (Betrag LCY)***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/order-matching-wizard#deviation-direct-unit-cost--and-deviation-direct-unit-cost-amount-lcy)
+|*Automatische Differenzzeile*|	
+|**Differenzzeile vorschlagen**|  	Gibt an, dass ExFlow eine neue Zeile mit dem Differenzbetrag erstellen soll, wenn es einen Preisunterschied zwischen dem Bestellgesamtbetrag und dem Rechnungsgesamtbetrag gibt. <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Automatische Differenzzeile***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#automatic-difference-line)
+|**ExFlow-Einkaufscode für Differenzzeile**|  	Gibt an, welcher Einkaufscode von ExFlow verwendet werden soll, wenn die Differenzzeile erstellt wird.
+|**Max. Differenzbetrag (LCY)**|  	Gibt den maximalen Betrag an, wenn die Differenzzeile erstellt wird. Wenn der Differenzbetrag diese Einstellung überschreitet, wird keine Differenzzeile erstellt. 0 = deaktiviert
+|**Max. Differenz %**|  	Gibt den maximalen Differenzprozentsatz an, wenn die Differenzzeile erstellt wird. Wenn der Differenzprozentsatz diese Einstellung überschreitet, wird keine Differenzzeile erstellt. 0 = deaktiviert
+|**Abgleichtoleranz des Einheitspreises (%)**|  	Gibt die Abgleichtoleranz (in %) an, wenn eine Rechnung anhand des Einheitspreises mit einer Bestellung abgeglichen wird. 0 = deaktiviert, d. h. eine exakte Übereinstimmung ist erforderlich
+|**Abgleichtoleranz der Menge (%)**|  	Gibt die Abgleichtoleranz (in %) an, wenn eine Rechnung anhand der Menge mit einer Bestellung abgeglichen wird. 0 = deaktiviert, d. h. eine exakte Übereinstimmung ist erforderlich
+|**Zeilen basierend auf abrufen**|	Gibt an, wie (in welcher Reihenfolge) Wareneingangszeilen abgerufen werden sollen, wenn eine Rechnung mit einer Bestellung abgeglichen wird. Zeilen basierend auf Zeilennummer, Artikelnummer oder Artikelnummer mit Varianten abrufen.
+|**Automatische Zuordnung von Artikelkosten**|  	Gibt an, welche Art der automatischen Zuordnung von Artikelkosten verwendet werden soll, wenn Rechnungen gebucht werden. Es kann gleichmäßig, nach Betrag, nach Gewicht oder nach Volumen automatisch zugeordnet werden. None = keine automatische Zuordnung wird durchgeführt. <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Zuordnung von Artikelkosten***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#item-charge-assignment)
+|**Lieferantennummer aus abgeglichener Bestellung verwenden**|  	Gibt an, dass die Lieferantennummer auf der abgeglichenen Bestellung anstelle der importierten Lieferanteninformationen verwendet werden soll
+|**Anhänge von Bestellung zu gebuchtem Wareneingang kopieren**|  	Kopiert alle Anhänge von der Bestellung zum gebuchten Wareneingang und zeigt sie in den zugehörigen Dokumenten an.
+|**Abgeglichene Zeilen in OCR-Mapping speichern**|  	Mit dieser Option können manuell abgeglichene Rechnungszeilen aus der "Abgleichansicht" basierend auf Lieferant und interpretierter Artikelnummer automatisch in der ExFlow OCR-Importzuordnungstabelle gespeichert und für zukünftige PO-Rechnungen mit den gleichen Kriterien zur Vorschlagsgenerierung wiederverwendet werden
+|**Mehrere Zeilen abgleichen**|  	Diese Einstellung ermöglicht es ExFlow, eine Rechnungszeile mit mehreren Bestellzeilen oder Wareneingangszeilen abzugleichen. Wenn die Menge der Rechnungszeile größer ist als die Menge der Bestellzeile, teilt ExFlow die Rechnungszeile auf und gleicht sie teilweise mit anderen verfügbaren Bestellzeilen oder Wareneingangszeilen ab.
+|**Aufgeteilte Rechnungszeilen überprüfen**|  	Wenn "Mehrere Zeilen abgleichen" aktiviert ist, gibt ExFlow für jede aufgeteilte Zeile Aktionsempfehlungen aus, die dem Benutzer die Möglichkeit geben, den vorgeschlagenen Abgleich manuell zu bestätigen, bevor das Dokument erstellt wird. Wenn diese Einstellung auf "false" gesetzt ist, wird keine Aktionsempfehlung für abgeglichene aufgeteilte Zeilen angezeigt.
+|**Währungsfilter in "Wareneingangszeilen abrufen" deaktivieren**|  	Dies kann eingestellt werden, um die Leistung zu verbessern, wenn "Wareneingangszeilen abrufen" im Importjournal verwendet wird. Es wird dann kein Filter für die Währungscode auf der Auswahlseite festgelegt (Es wird stattdessen eine Überprüfung durchgeführt, ob der richtige Währungscode ausgewählt wurde, wenn die Rechnungszeile eingefügt wird)
+|**Warnmeldungen für Bestellabgleich deaktivieren**|	Wenn deaktiviert, werden im Importjournal keine Warnmeldungen zum Bestellabgleich angezeigt.
+|**PO-Kopfwerte in Rechnung verwenden**|  	Aktiviert Felder, die von der Bestellung auf die Rechnung (oder von der Rückbestellung auf die Gutschrift) im Importjournal übertragen werden sollen, wenn auf Kopfebene abgeglichen wird. Die ausgewählten Werte können unter Verwandt --> Erweitert --> PO-Kopfwerte in Rechnungseinrichtung gefunden und aktualisiert werden. <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Kopieren von Bestellkopfwerten***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
+|**Erinnerung für nicht empfangene Bestellung bei Genehmigung senden**|  	Eine Erinnerung für nicht empfangene Bestellung wird gesendet, wenn das Dokument genehmigt wird und nicht alle Bestellzeilen vollständig empfangen wurden. Damit dies funktioniert, sollte "Dokumente abgleichen mit" auf "Wareneingang" eingestellt sein. <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Nicht empfangene Bestellung - Genehmigt***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
+|**Automatische Senden von Bestell-/Angebotsbenachrichtigungen bei Genehmigung**|  	Wenn aktiviert, wird bei Genehmigung des Dokuments eine genehmigte Bestell- oder Angebotsbenachrichtigung gesendet.
 
 <br/>
 
-### OCR Import
+### OCR-Import
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-ocr-import-section.png)
+![ExFlow-Einrichtung](./../../images/exflow-setup-ocr-import-section.png)
 
-|OCR Import||
+|OCR-Import||
 |:-|:-|	
-|**Company-ID Filter**|	Specifies the company id that will be used when importing invoices. This id must match the id in the Company ID xml tag exactly
-|**Date Format (OCR Import)**| 	Specifies the date format that ExFlow uses when decoding imported invoice dates
-|**Set Posting Date to (OCR)**| 	Specifies how the default invoice posting date should be set when importing an invoice
-|**Set Due Date to (OCR) **| 	Specifies how the default due date should be set when importing an invoice
-|**Set VAT to Zero at OCR Import**| 	Specifies that the VAT amount should be set to 0 on all imported invoices
-|**Blank Currency if Equal to LCY**| 	Specifies that the currency code should be cleared (i.e. no code used) if the imported currency code matches the local currency in the company settings
-|**Ignore Imported Currency Code**| 	Specifies that ExFlow should always clear the imported currency code i.e. no currency is used when importing invoices
-|**Activate Vendor ID Sync.**| 	Specifies if vendor id synchronization should be used
-|**Vendor ID Fields**| 	Specifies which vendor fields are used when first matching a vendor during invoice import
-|**Auto Create Vendor ID**| 	Specifies if vendor id links should be auto created by ExFlow
-|**Auto Create OCR Line Mapping**| 	Specifies if OCR mapping links should be created automatically by ExFlow
-|**Ignore OCR Lines**| 	Specifies that ExFlow should always ignore imported invoice lines i.e. only invoice header information is ever used
-|**Dummy Item for OCR Line Matching**| 	Specifies a "dummy" item no that will be used when ExFlow cannot find the imported item no. Only applies to line interpreted invoices
-|**Misc. 1 Purchase Code**| 	Specifies the default purchase code when using the Misc 1 code mapping in the ExFlow import specification
-|**Misc. 2 Purchase Code**| 	Specifies the default purchase code when using the Misc 2 code mapping in the ExFlow import specification
-|**OCR Dimension Code 1**| 	Specifies the default dimension code when using the Dim 1 code mapping in the ExFlow import specification
-|**OCR Dimension Code 2**| 	Specifies the default dimension code when using the Dim 2 code mapping in the ExFlow import specification
-|**EDC Def. Data Exchange Type**| 	Specifies the ExFlow Data Capture default data exchange type
-|**Web Def. Data Exchange Type**| 	Specifies the default data exchange type for ExFlow web. <br/><br/> Read more about this under section [***Web Services - EXFID***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/web-services-document#web-services---exfid)
-|**Web Optional Doc. XPath**| 	Specifies the XPath to optional Web Service attachments. Must be uploaded first using AddAttachment.
-|**Web Optional Doc. Folder**| 	Specifies the optional folder where Azure Share attachments are stored. Only used with Azure File Import
-|**OCR Customer ID**| 	Specifies the organization id in ExFlow Data Capture where ExFlow should fetch interpreted invoices
-|**OCR Buyer ID**| 	Specifies the company id in ExFlow Data Capture where ExFlow should fetch interpreted invoices
-|**Disable Standard Sync Master Data Job**| 	This is for the setting: When enabled the standard job 882 OCR - Sync Master Data will not be created automatically.
-|**Automatic Quantity Assignment**| 	Specifies if quantity should be converted to 1 if imported quantity is 0.
-|**Default Generated PDF PageSize**| 	Select the size a generated PDF should have when importing for Peppol, UBL and others where XSL Stylesheet is used instead of imported PDF.
-|**Default Generated Orientation**| 	Select the orientation a generated Pdf should have when importing for Peppol, UBL and others where Xsl Stylesheet is used instead of imported Pdf.
-|**Automatically Disable PO Matching For Misc. Charges**| 	Specifies when mapping is done towards a G/L account or Charge (Item) the field "No Purchase Order Matching" will automatically be enabled or not. <br/><br/> Read more about this under section [***Automatically Disable PO Matching For Misc. Charges***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#automatically-disable-po-matching-for-misc-charges)
+|**Unternehmens-ID-Filter**|	Gibt die Unternehmens-ID an, die beim Import von Rechnungen verwendet wird. Diese ID muss genau mit der ID im XML-Tag "Company ID" übereinstimmen.
+|**Datumsformat (OCR-Import)**| 	Gibt das Datumsformat an, das ExFlow beim Decodieren importierter Rechnungsdaten verwendet.
+|**Buchungsdatum festlegen (OCR)**| 	Gibt an, wie das Standard-Buchungsdatum festgelegt werden soll, wenn eine Rechnung importiert wird.
+|**Fälligkeitsdatum festlegen (OCR)**| 	Gibt an, wie das Standard-Fälligkeitsdatum festgelegt werden soll, wenn eine Rechnung importiert wird.
+|**MwSt. bei OCR-Import auf Null setzen**| 	Gibt an, dass der MwSt.-Betrag bei allen importierten Rechnungen auf 0 gesetzt werden soll.
+|**Währung löschen, wenn gleich LCY**| 	Gibt an, dass der Währungscode gelöscht werden soll (d.h. kein Code verwendet wird), wenn der importierte Währungscode mit der lokalen Währung in den Unternehmenseinstellungen übereinstimmt.
+|**Importierten Währungscode ignorieren**| 	Gibt an, dass ExFlow immer den importierten Währungscode löschen soll, d.h. keine Währung verwendet wird, wenn Rechnungen importiert werden.
+|**Synchronisation der Lieferanten-ID aktivieren**| 	Gibt an, ob die Synchronisation der Lieferanten-ID verwendet werden soll.
+|**Felder für Lieferanten-ID**| 	Gibt an, welche Lieferantenfelder verwendet werden, wenn ein Lieferant während des Rechnungsimports zum ersten Mal abgeglichen wird.
+|**Automatische Erstellung der Lieferanten-ID**| 	Gibt an, ob die Lieferanten-ID-Verknüpfungen automatisch von ExFlow erstellt werden sollen.
+|**Automatische Erstellung der OCR-Zuordnung**| 	Gibt an, ob die OCR-Zuordnungsverknüpfungen automatisch von ExFlow erstellt werden sollen.
+|**OCR-Zeilen ignorieren**| 	Gibt an, dass ExFlow immer die importierten Rechnungszeilen ignorieren soll, d.h. nur die Informationen im Rechnungskopf verwendet werden.
+|**Dummy-Artikel für OCR-Zeilenabgleich**| 	Gibt eine "Dummy"-Artikelnummer an, die verwendet wird, wenn ExFlow die importierte Artikelnummer nicht finden kann. Gilt nur für Rechnungen mit Zeileninterpretation.
+|**Misc. 1 Kaufcode**| 	Gibt den Standard-Kaufcode an, wenn die Misc 1-Codezuordnung in der ExFlow-Importspezifikation verwendet wird.
+|**Misc. 2 Kaufcode**| 	Gibt den Standard-Kaufcode an, wenn die Misc 2-Codezuordnung in der ExFlow-Importspezifikation verwendet wird.
+|**OCR-Dimension-Code 1**| 	Gibt den Standard-Dimension-Code an, wenn die Dim 1-Codezuordnung in der ExFlow-Importspezifikation verwendet wird.
+|**OCR-Dimension-Code 2**| 	Gibt den Standard-Dimension-Code an, wenn die Dim 2-Codezuordnung in der ExFlow-Importspezifikation verwendet wird.
+|**EDC Def. Datenaustauschtyp**| 	Gibt den Standard-Datenaustauschtyp für die ExFlow Data Capture an.
+|**Web Def. Datenaustauschtyp**| 	Gibt den Standard-Datenaustauschtyp für ExFlow Web an. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Webdienste - EXFID***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/web-services-document#web-services---exfid)
+|**Web Optional Doc. XPath**| 	Gibt den XPath zu optionalen Webdienst-Anhängen an. Diese müssen zuerst mit "AddAttachment" hochgeladen werden.
+|**Web Optional Doc. Folder**| 	Gibt den optionalen Ordner an, in dem Azure Share-Anhänge gespeichert werden. Wird nur bei Azure File Import verwendet.
+|**OCR-Kunden-ID**| 	Gibt die Organisations-ID in ExFlow Data Capture an, von der ExFlow interpretierte Rechnungen abrufen soll.
+|**OCR-Käufer-ID**| 	Gibt die Unternehmens-ID in ExFlow Data Capture an, von der ExFlow interpretierte Rechnungen abrufen soll.
+|**Standard-Synchronisierung-Job für Stammdaten deaktivieren**| 	Dies betrifft die Einstellung: Wenn aktiviert, wird der Standard-Job 882 OCR - Sync Master Data nicht automatisch erstellt.
+|**Automatische Mengenzuordnung**| 	Gibt an, ob die Menge auf 1 umgerechnet werden soll, wenn die importierte Menge 0 ist.
+|**Standardgenerierte PDF-Seitengröße**| 	Wählen Sie die Größe aus, die ein generiertes PDF haben soll, wenn für Peppol, UBL und andere Formate, bei denen anstelle eines importierten PDF eine XSL-Stylesheet verwendet wird, importiert wird.
+|**Standardgenerierte Ausrichtung**| 	Wählen Sie die Ausrichtung aus, die ein generiertes PDF haben soll, wenn für Peppol, UBL und andere Formate, bei denen anstelle eines importierten PDF eine XSL-Stylesheet verwendet wird, importiert wird.
+|**Automatische Deaktivierung der PO-Abstimmung für Sonstige Kosten**| 	Gibt an, ob bei der Zuordnung zu einem G/L-Konto oder einer Gebühr (Artikel) das Feld "Keine Bestellabstimmung" automatisch aktiviert wird oder nicht. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Automatische Deaktivierung der PO-Abstimmung für Sonstige Kosten***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#automatically-disable-po-matching-for-misc-charges)
 
 <br/>
 
-### Escalation
+### Eskalation
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-escalation-section.png)
+![ExFlow-Einrichtung](./../../images/exflow-setup-escalation-section.png)
 
-|Escalation||
+|Eskalation||
 |:-|:-|	
-|**Days Before Escalation**| 	Specifies the number of days that an approver can have a invoice (without approving it) before the invoice is escalated. This setting can be overridden per approver. <br/><br/> Read more about this under section [***Escalation***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-groups#escalation)
-|**Senior Manager**| 	Specifies the senior manager that should receive the invoice when it is auto approved and then escalated. This setting can be overridden per approver. <br/><br/> Read more about this under section [***Escalation Job***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/periodic-activities#escalation-job)
-|**Base Calendar Code**| 	Specifies the base calendar code that should be used for calculating workdays when escalating. If blank, then all weekdays (Mon-Fri) are treated as work days
-|**Escalation Text**| 	Specifies the text that should be used for escalated approver lines
-|**Run when Verify Changes**| 	Specifies if open invoices should be checked for escalation each time the change journal is run
-|**System Approver**| 	Specifies the approver id for the system approver that is used when auto approving escalated invoices. If blank, then the current BC user is used
-|**Highlight Rejected And Overdue Documents**| 	Activate this setting to turn the text of rejected and/or overdue documents in Approval Status to red. Making them easier to spot.
-|**No. of Overdue Days Before Highlight**| 	Set a no. of days when the document should be presented with red text in Approval Status. The no. of days operates in relation with the due date of the document. "0" will highlight the document on the due date.
+|**Tage vor Eskalation**| 	Gibt die Anzahl der Tage an, die ein Genehmiger eine Rechnung haben kann (ohne sie zu genehmigen), bevor die Rechnung eskaliert wird. Diese Einstellung kann pro Genehmiger überschrieben werden. <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Eskalation***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-groups#escalation)
+|**Senior Manager**| 	Gibt den Senior Manager an, der die Rechnung erhalten soll, wenn sie automatisch genehmigt und dann eskaliert wird. Diese Einstellung kann pro Genehmiger überschrieben werden. <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Eskalationsaufgabe***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/periodic-activities#escalation-job)
+|**Basis-Kalendercode**| 	Gibt den Basis-Kalendercode an, der für die Berechnung von Arbeitstagen bei Eskalation verwendet werden soll. Wenn leer, werden alle Wochentage (Mo-Fr) als Arbeitstage behandelt.
+|**Eskalationstext**| 	Gibt den Text an, der für eskalierte Genehmigerzeilen verwendet werden soll.
+|**Ausführen bei Überprüfung von Änderungen**| 	Gibt an, ob offene Rechnungen bei jeder Ausführung des Änderungsjournals auf Eskalation überprüft werden sollen.
+|**Systemgenehmiger**| 	Gibt die Genehmiger-ID für den Systemgenehmiger an, der verwendet wird, wenn eskalierte Rechnungen automatisch genehmigt werden. Wenn leer, wird der aktuelle BC-Benutzer verwendet.
+|**Abgelehnte und überfällige Dokumente hervorheben**| 	Aktivieren Sie diese Einstellung, um den Text abgelehnter und/oder überfälliger Dokumente im Genehmigungsstatus rot zu markieren. Dadurch werden sie leichter erkennbar.
+|**Anzahl der überfälligen Tage vor Hervorhebung**| 	Geben Sie eine Anzahl von Tagen an, an denen das Dokument mit rotem Text im Genehmigungsstatus angezeigt werden soll. Die Anzahl der Tage bezieht sich auf das Fälligkeitsdatum des Dokuments. "0" hebt das Dokument am Fälligkeitsdatum hervor.
 
 <br/>
 
-### Order and Quote Approval
+### Bestell- und Angebotsfreigabe
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-order-and-quote-approval-section.png)
+![ExFlow Setup](./../../images/exflow-setup-order-and-quote-approval-section.png)
 
-|Order and Quote Approval||
+|Bestell- und Angebotsfreigabe||
 |:-|:-|	
-|**Purchase Order Approval**| 	Specifies if purchase order should be used
-|**Order Report**| 	Specifies the report id for the report that is used when creating order documents
-|**Order Report Name**| 	Specifies the report name for the report that is used when creating order documents
-|**Only Receive Approved Order**| 	Setting this will only allow to post receipts on Orders that are Approved
-|**Purchase Quote Approval**| 	Specifies if purchase quote should be used
-|**Quote Report**| 	Specifies the report id for the report that is used when creating quote documents
-|**Quote Report Name**| 	Specifies the report name for the report that is used when creating quote documents
-|**Auto Approve Order created from Quote**| 	Select if the Order created from the Approved Quote should be Automatically set to Approved. All Approvers from the Quote will be copied to the order.
-|**Set Current User as Default First Approver for Order/Quote**| 	Specifies if default first approver should be added when creating invoice from quote or order.
-|**Block Invoice in Import Journal if Order is Not Approved**| 	Specifies if invoice should be blocked if the relate order is not approved.
-|**Check Minimum No. of Approvers for Quotes and Orders**| 	Specifies if there should be a check of minimum number of approvers when verifying purchase Quote or Order.
-|**Copy Quote PDF to Order**| 	Adds a PDF of the Quote on the Order when it is created.
-|**Block Print/Send unapproved**| 	Specifies if Printing or Sending from an Order or Quote should be blocked if the Order or Quote is sent out on approval and not fully approved.
+|**Bestellgenehmigung**| 	Gibt an, ob Bestellungen verwendet werden sollen.
+|**Bestellbericht**| 	Gibt die Berichts-ID für den Bericht an, der beim Erstellen von Bestelldokumenten verwendet wird.
+|**Name des Bestellberichts**| 	Gibt den Namen des Berichts an, der beim Erstellen von Bestelldokumenten verwendet wird.
+|**Nur genehmigte Bestellungen empfangen**| 	Mit dieser Einstellung können nur auf genehmigten Bestellungen Wareneingänge gebucht werden.
+|**Angebotsfreigabe**| 	Gibt an, ob Angebote verwendet werden sollen.
+|**Angebotsbericht**| 	Gibt die Berichts-ID für den Bericht an, der beim Erstellen von Angebotsdokumenten verwendet wird.
+|**Name des Angebotsberichts**| 	Gibt den Namen des Berichts an, der beim Erstellen von Angebotsdokumenten verwendet wird.
+|**Automatische Genehmigung der aus dem Angebot erstellten Bestellung**| 	Wählen Sie aus, ob die aus dem genehmigten Angebot erstellte Bestellung automatisch auf "Genehmigt" gesetzt werden soll. Alle Genehmiger des Angebots werden auf die Bestellung kopiert.
+|**Aktuellen Benutzer als Standard-Erstgenehmiger für Bestellung/Angebot festlegen**| 	Gibt an, ob beim Erstellen einer Rechnung aus einem Angebot oder einer Bestellung standardmäßig ein Erstgenehmiger hinzugefügt werden soll.
+|**Rechnung im Importjournal blockieren, wenn Bestellung nicht genehmigt ist**| 	Gibt an, ob die Rechnung blockiert werden soll, wenn die zugehörige Bestellung nicht genehmigt ist.
+|**Mindestanzahl von Genehmigern für Angebote und Bestellungen überprüfen**| 	Gibt an, ob eine Überprüfung der Mindestanzahl von Genehmigern erfolgen soll, wenn ein Kaufangebot oder eine Bestellung überprüft wird.
+|**Angebots-PDF in Bestellung kopieren**| 	Fügt der Bestellung ein PDF des Angebots hinzu, wenn es erstellt wird.
+|**Drucken/Senden bei nicht genehmigten Dokumenten blockieren**| 	Gibt an, ob das Drucken oder Senden aus einer Bestellung oder einem Angebot blockiert werden soll, wenn die Bestellung oder das Angebot zur Genehmigung versendet wurde und noch nicht vollständig genehmigt ist.
 
 <br/>
 
 ### Web
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-web-section.png)
+![ExFlow Setup](./../../images/exflow-setup-web-section.png)
 
 |Web||
 |:-|:-|	
-|**ExFlow Web Enabled**| 	Specifies if the current company is enabled for ExFlow web
-|**Default Web Company**| 	Specifies the default ExFlow company for the current installation
+|**ExFlow Web aktiviert**| 	Gibt an, ob das aktuelle Unternehmen für ExFlow Web aktiviert ist.
+|**Standard-Webunternehmen**| 	Gibt das Standard-ExFlow-Unternehmen für die aktuelle Installation an.
 
 <br/>
 
-### Users
+### Benutzer
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-users-section.png)
+![ExFlow Setup](./../../images/exflow-setup-users-section.png)
 
-|Users||
+|Benutzer||
 |:-|:-| 	
-|**Language Code**| 	Specifies the default language code for the current company
-|**Preferred Approval Client**| 	Specifies the default approval client. Can be either ExFlow web or the BC client
-|**Approval Selection Timeout**| 	Specifies the timeout used for approval selection
-|**Default User Coding Rule ID**| 	Specifies the default User Coding Rule ID that is used when creating a new Permission Line on a ExFlow User
-|**Default Admin Role ID**| 	Specifies the default permission role ID to be used when creating new admin-type users
-|**Default Accountant Role ID**| 	Specifies the default permission role ID to be used when creating new users
-|**Default Approver Role ID**| 	SSpecifies the default permission role ID to be used when creating new users
-|**Default Base Role ID**| 	Specifies the default permission role ID to be used when creating new users
-|**Default Reader Role ID**| 	Specifies the default permission role ID to be used when creating new users
-|**Default Web Service Role ID**| 	Specifies the default security role ID to be used when creating new AAD apps
-|**Default Purchaser Role ID**| 	Specifies the default permission role ID to be used when creating new users
-|**Automatically Create ExFlow Reference**| 	Specifies if an ExFlow Reference will be created when a new ExFlow User is created
-|**Default Confidential Documents Role ID**| 	Specifies the default permission role ID to be used when creating new users. <br/><br/> Read more about this under section  [***ExFlow User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#exflow-user)
+|**Sprachcode**| 	Gibt den Standardsprachcode für das aktuelle Unternehmen an.
+|**Bevorzugter Genehmigungsclient**| 	Gibt den Standard-Genehmigungsclient an. Kann entweder ExFlow Web oder der BC-Client sein.
+|**Timeout für Genehmigungsauswahl**| 	Gibt den Timeout an, der für die Genehmigungsauswahl verwendet wird.
+|**Standard-Benutzer-Codierungsregel-ID**| 	Gibt die Standard-Benutzer-Codierungsregel-ID an, die beim Erstellen einer neuen Berechtigungslinie für einen ExFlow-Benutzer verwendet wird.
+|**Standard-Admin-Rollen-ID**| 	Gibt die Standard-Berechtigungsrollen-ID an, die beim Erstellen neuer Administrator-Benutzer verwendet werden soll.
+|**Standard-Buchhalter-Rollen-ID**| 	Gibt die Standard-Berechtigungsrollen-ID an, die beim Erstellen neuer Benutzer verwendet werden soll.
+|**Standard-Genehmiger-Rollen-ID**| 	Gibt die Standard-Berechtigungsrollen-ID an, die beim Erstellen neuer Benutzer verwendet werden soll.
+|**Standard-Basis-Rollen-ID**| 	Gibt die Standard-Berechtigungsrollen-ID an, die beim Erstellen neuer Benutzer verwendet werden soll.
+|**Standard-Leser-Rollen-ID**| 	Gibt die Standard-Berechtigungsrollen-ID an, die beim Erstellen neuer Benutzer verwendet werden soll.
+|**Standard-Webdienst-Rollen-ID**| 	Gibt die Standard-Sicherheitsrollen-ID an, die beim Erstellen neuer AAD-Apps verwendet werden soll.
+|**Standard-Einkäufer-Rollen-ID**| 	Gibt die Standard-Berechtigungsrollen-ID an, die beim Erstellen neuer Benutzer verwendet werden soll.
+|**ExFlow-Referenz automatisch erstellen**| 	Gibt an, ob bei der Erstellung eines neuen ExFlow-Benutzers eine ExFlow-Referenz erstellt werden soll.
+|**Standard-Rollen-ID für vertrauliche Dokumente**| 	Gibt die Standard-Berechtigungsrollen-ID an, die beim Erstellen neuer Benutzer verwendet werden soll. <br/><br/> Lesen Sie mehr dazu im Abschnitt [***ExFlow-Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#exflow-user)
 
 <br/>
 
-### Approval
+### Genehmigung
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-approval-section.png)
+![ExFlow Setup](./../../images/exflow-setup-approval-section.png)
 
-|Approval||
-|:-|:-|	
-|**Check Dimensions in Approval**| 	Specifies if ExFlow should check the dimension setup in BC before allowing approval of an invoice line
-|**Always Propose New Approvers**| 	Specifies if ExFlow should evaluate the approval rules and try to find new (if any) approval flow based on new coding. <br/><br/> Read more about this under section  [***Always Propose New Approvers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#always-propose-new-approvers)
-|**Max. Diff. for Gross Amount in Approval (LCY)**| 	Max gross amount difference allowed when approving in Business Central
-|**Approve VAT Lines**| 	Specifies if the VAT lines should be included in the approval flow. In case of usage of ExFlow Purchase Code on the header, this setting is ignored. <br/><br/> Read more about this under section [***Approve VAT Lines.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)
-|**Check Minimum No. of Approvers before approving**| 	Specifies if a check will be made that minimum no. of approvers will be fulfilled, before the last approver approves the invoice. <br/><br/> Read more about Approval in Business Central under section [***Approval in Business Central***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/approval-in-business-central#approval-in-business-central)
+### Genehmigung
 
-<br/>
-
-### Confidential Documents
-
-![ExFlow Setup](@site/static/img/media/exflow-setup-confidential-documents-section.png)
-
-|Confidential Documents||
-|:-|:-| 	
-|**Replace Original PDF with**| 	Upload a PDF that replaces Confidential marked documents in order to hide the specific document image for other users with no access to Confidential Documents. <br/><br/> Read more about this under section [***Confidential Documents***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
+|Genehmigung|| 
+|:-|:-| 
+|**Abmessungen in der Genehmigung überprüfen**| Gibt an, ob ExFlow die Dimensionseinstellungen in BC überprüfen soll, bevor die Genehmigung einer Rechnungsposition ermöglicht wird.
+|**Immer neue Genehmiger vorschlagen**| Gibt an, ob ExFlow die Genehmigungsregeln überprüfen und basierend auf neuen Codierungen einen neuen Genehmigungsfluss finden soll (sofern vorhanden). <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Immer neue Genehmiger vorschlagen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#always-propose-new-approvers).
+|**Max. Differenz für Bruttobetrag in der Genehmigung (LCY)**| Maximale Bruttobetragdifferenz, die bei der Genehmigung in Business Central zulässig ist.
+|**Mehrwertsteuerpositionen genehmigen**| Gibt an, ob die Mehrwertsteuerpositionen in den Genehmigungsfluss einbezogen werden sollen. Bei Verwendung des ExFlow Purchase Code im Header wird diese Einstellung ignoriert. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Mehrwertsteuerpositionen genehmigen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines).
+|**Mindestanzahl von Genehmigern vor der Genehmigung überprüfen**| Gibt an, ob überprüft wird, ob die Mindestanzahl von Genehmigern erfüllt wird, bevor der letzte Genehmiger die Rechnung genehmigt. <br/><br/> Weitere Informationen zur Genehmigung in Business Central finden Sie im Abschnitt [***Genehmigung in Business Central***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/approval-in-business-central#approval-in-business-central).
 
 <br/>
 
-### Auto Coding Suggestion
+### Vertrauliche Dokumente
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-auto-coding-suggestion-section.png)
+![ExFlow Setup](./../../images/exflow-setup-confidential-documents-section.png)
 
-|Auto Coding Suggestion||
-|:-|:-|	
-|**Grouping of Document in Suggestion Lines with Amount**|	Specifies how the documents will be grouped based on the amount of the document.
-|**Auto Coding Suggestion Decision Based on the Amount**| 	Specifies how the suggestion line will be chosen based on the amount of the document.
-|**Suggest Auto Coding for Imported Document**| 	Specifies how the auto coding suggestion will be used.
-|**Calculate Auto Suggestions From Date**| 	Specifies the starting date of the document to be used in the auto coding suggestions.
-|**Suggest Auto Coding Amount from Coding Set ID**|	Specifies if the amounts will be automatically suggested in the created lines from the Coding Set ID. <br/><br/> Read more under section [***Automatic Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
+|Vertrauliche Dokumente|| 
+|:-|:-| 
+|**Original-PDF ersetzen durch**| Laden Sie ein PDF hoch, das vertraulich markierte Dokumente ersetzt, um das spezifische Dokumentenbild für andere Benutzer ohne Zugriff auf vertrauliche Dokumente zu verbergen. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Vertrauliche Dokumente***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents).
 
 <br/>
 
-### Background Processing
+### Automatische Codierungsvorschläge
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-background-processing-section.png)
+![ExFlow Setup](./../../images/exflow-setup-auto-coding-suggestion-section.png)
 
-|Background Processing||
-|:-|:-|	
-|**Verify with Job Queue**| 	Specifies if verification of approved documents should be scheduled to run in the background. Will by default be configured to run once every hour.
-|**Verify & Post with Job Queue**| 	Specifies if documents with status Ready for Posting should be posted after verification.
-|**Verify Changes Done Automatically**| 	If a document is approved, verify changes will then be run automatically. If there are no changes on the document that status will then be Ready for Posting.
-|**Automatically Create Documents**| 	If this is activated it will set the field Automatically Create Documents on all Import Journals. <br/><br/> Read more about this under section [***Background Processing***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#background-processing)
+|Automatische Codierungsvorschläge|| 
+|:-|:-| 
+|**Gruppierung von Dokumenten in Vorschlagszeilen mit Betrag**| Gibt an, wie die Dokumente basierend auf dem Betrag gruppiert werden.
+|**Entscheidung zur automatischen Codierungsvorschläge basierend auf dem Betrag**| Gibt an, wie die Vorschlagszeile basierend auf dem Betrag des Dokuments ausgewählt wird.
+|**Automatische Codierungsvorschläge für importierte Dokumente vorschlagen**| Gibt an, wie die automatischen Codierungsvorschläge verwendet werden sollen.
+|**Automatische Vorschläge ab Datum berechnen**| Gibt das Startdatum des Dokuments an, das für die automatischen Codierungsvorschläge verwendet werden soll.
+|**Automatische Codierungsvorschläge für Betrag aus Codiersatz-ID vorschlagen**| Gibt an, ob die Beträge automatisch in den erstellten Zeilen aus der Codiersatz-ID vorgeschlagen werden sollen. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Einrichtung automatischer Codierungsvorschläge***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup).
 
 <br/>
 
-### About ExFlow
+### Hintergrundverarbeitung
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-about-exflow-section.png)
+![ExFlow Setup](./../../images/exflow-setup-background-processing-section.png)
 
-|About ExFlow||
-|:-|:-| 	
-|**ExFlow Version**| 	Currently installed version of ExFlow
-|**Business Central Version**| 	Currently installed version of Business Central
-|**User Manual for ExFlow**| 	Find how-to articles, setup instruction, videos, and general assistance on using ExFlow
-|**Release Notes for ExFlow**| 	Find details about releases of ExFlow and what is fixed, added or changed
-|**Copyright © SignUp Software**| 	Specifies the copyright notice for the app
-|**License Key**| 	Specifies the license key for the app
-|**License Type**|	Specifies the license type for the app
-|**Remaining Days**|	Specifies the number of days remaining in the license period
-|**Grace Days**| 	Specifies the number of grace days for the license
-|**Status Active**|	Specifies the license status
+|Hintergrundverarbeitung|| 
+|:-|:-| 
+|**Mit Job Queue überprüfen**| Gibt an, ob die Überprüfung genehmigter Dokumente im Hintergrund geplant werden soll. Standardmäßig wird dies einmal pro Stunde konfiguriert.
+|**Mit Job Queue überprüfen und buchen**| Gibt an, ob Dokumente mit dem Status "Bereit zur Buchung" nach der Überprüfung gebucht werden sollen.
+|**Änderungen automatisch überprüfen**| Wenn ein Dokument genehmigt wird, werden die Überprüfungsänderungen automatisch ausgeführt. Wenn es keine Änderungen am Dokument gibt, wird der Status auf "Bereit zur Buchung" gesetzt.
+|**Dokumente automatisch erstellen**| Wenn dies aktiviert ist, wird das Feld "Dokumente automatisch erstellen" in allen Importjournaleinträgen festgelegt. <br/><br/> Weitere Informationen finden Sie im Abschnitt [***Hintergrundverarbeitung***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#background-processing).
+
+<br/>
+
+### Über ExFlow
+
+![ExFlow Setup](./../../images/exflow-setup-about-exflow-section.png)
+
+|Über ExFlow|| 
+|:-|:-| 
+|**ExFlow-Version**| Aktuell installierte Version von ExFlow
+|**Business Central-Version**| Aktuell installierte Version von Business Central
+|**Benutzerhandbuch für ExFlow**| Finden Sie Anleitungen, Einrichtungsanweisungen, Videos und allgemeine Unterstützung zur Verwendung von ExFlow.
+|**Versionshinweise für ExFlow**| Informationen zu den Versionen von ExFlow und den behobenen, hinzugefügten oder geänderten Funktionen.
+|**Urheberrecht © SignUp Software**| Gibt den Urheberrechtshinweis für die App an.
+|**Lizenzschlüssel**| Gibt den Lizenzschlüssel für die App an.
+|**Lizenztyp**| Gibt den Lizenztyp für die App an.
+|**Verbleibende Tage**| Gibt die Anzahl der verbleibenden Tage im Lizenzzeitraum an.
+|**Gnadenfrist**| Gibt die Anzahl der Gnadenfristtage für die Lizenz an.
+|**Status aktiv**| Gibt den Lizenzstatus an.

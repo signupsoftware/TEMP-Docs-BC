@@ -1,190 +1,165 @@
----
-title: Notifications in Business Central
-sidebar_position: 10
-hide_title: true
----
-## Notifications in Business Central
-If the ExFlow User is a System User (associated to User in Business Central) then Notifications in Business Central can be activated. <br/>
-Read more under section [***ExFlow Users***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) for setup.
+## Benachrichtigungen in Business Central
+Wenn der ExFlow-Benutzer ein Systembenutzer ist (mit einem Benutzer in Business Central verknüpft), können Benachrichtigungen in Business Central aktiviert werden. <br/>
+Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) für die Einrichtung.
 
-There are four kinds of notification messages. Unapproved documents in active company, unapproved documents in other companies, unread comments and missing invoices for contract periods.
+Es gibt vier Arten von Benachrichtigungsnachrichten: Nicht genehmigte Dokumente im aktiven Unternehmen, nicht genehmigte Dokumente in anderen Unternehmen, ungelesene Kommentare und fehlende Rechnungen für Vertragszeiträume.
 <br/>
 
-### Documents for Approval
-If the user has documents to approve in the current company, then click on the link "Approve the documents":
+### Dokumente zur Genehmigung
+Wenn der Benutzer Dokumente im aktuellen Unternehmen zur Genehmigung hat, klicken Sie auf den Link "Dokumente genehmigen":
 
-![ExFlow Notification](@site/static/img/media/image336.png)
+![ExFlow-Benachrichtigung](./../../images/image336.png)
 
-This will open a new page where the user will be able to approve the documents in the current company. 
+Dadurch wird eine neue Seite geöffnet, auf der der Benutzer die Dokumente im aktuellen Unternehmen genehmigen kann.
 
-If the user has documents to approve in any other companies, then click on the link "Approve the documents":
+Wenn der Benutzer Dokumente in anderen Unternehmen zur Genehmigung hat, klicken Sie auf den Link "Dokumente genehmigen":
 
-![ExFlow Notification](@site/static/img/media/image337.png)
+![ExFlow-Benachrichtigung](./../../images/image337.png)
 
-This will present the user with a list, similar to the following:
+Dadurch wird dem Benutzer eine Liste ähnlich der folgenden angezeigt:
 
-![ExFlow Unapproved Documents Per Company](@site/static/img/media/image338.png)
+![ExFlow Nicht genehmigte Dokumente pro Unternehmen](./../../images/image338.png)
 
-Click on the number to the right to open a new page where the user will be able to approve the documents in the selected company.
+Klicken Sie auf die Zahl rechts, um eine neue Seite zu öffnen, auf der der Benutzer die Dokumente im ausgewählten Unternehmen genehmigen kann.
 
-Read more about this under section [***Approval in Business Central.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/approval-in-business-central#approval-in-business-central)<br/><br/>
+Lesen Sie mehr dazu im Abschnitt [***Genehmigung in Business Central***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/approval-in-business-central#approval-in-business-central)<br/><br/>
 
-### Discussion Panel / Chat and Line Comments
+### Diskussionsbereich / Chat und Zeilenkommentare
 
-Discussion Panel can be found in FactBox in "Import Journal", "Approval Status", "Approval Status History" and "Deleted Documents" in Business Central.
+Der Diskussionsbereich befindet sich in der FactBox in "Import Journal", "Genehmigungsstatus", "Genehmigungsverlauf" und "Gelöschte Dokumente" in Business Central.
 
-On ExFlow Web it is called **Chat**.
+Auf ExFlow Web wird dies als **Chat** bezeichnet.
 
-Comments written in Discussion Panel in Business Central or in Chat on ExFlow web will appear on both places on the document.
+Kommentare, die im Diskussionsbereich in Business Central oder im Chat auf ExFlow Web geschrieben werden, werden an beiden Stellen im Dokument angezeigt.
 
-Use @ and "ExFlow User Code" to tag an approver. The Approver will automatically get access to this document even if the Approver is not included in approval flow. To be able to tag an Approver on a document, the approver needs access to the company document is created for, in ExFlow User Permissions.
+Verwenden Sie @ und "ExFlow-Benutzercode", um einen Genehmiger zu markieren. Der Genehmiger erhält automatisch Zugriff auf dieses Dokument, auch wenn der Genehmiger nicht im Genehmigungsworkflow enthalten ist. Um einen Genehmiger auf einem Dokument zu markieren, benötigt der Genehmiger Zugriff auf das Unternehmen, für das das Dokument erstellt wurde, in den ExFlow-Benutzerberechtigungen.
 
-It is possible to send notification and/or email to the tagged Approver, but then some setup is required.
+Es ist möglich, Benachrichtigungen und/oder E-Mails an den markierten Genehmiger zu senden, aber dafür ist eine Einrichtung erforderlich.
 
-For an ExFlow User (connected to a "System User") Notifications can be activated in Business Central. Read more under section [***ExFlow Users***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) for setup.
+Für einen ExFlow-Benutzer (der mit einem "Systembenutzer" verbunden ist) können Benachrichtigungen in Business Central aktiviert werden. Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) für die Einrichtung.
 
-If the user has comments to read in the current company, then click on the link "Read comment"
+Wenn der Benutzer Kommentare im aktuellen Unternehmen lesen muss, klicken Sie auf den Link "Kommentar lesen"
 
-![ExFlow Notifications](@site/static/img/media/notifications-new-comments-001.png)
+![ExFlow-Benachrichtigungen](./../../images/notifications-new-comments-001.png)
 
+![ExFlow-Benachrichtigungen](./../../images/image340.png)
 
+Wenn der Benutzer Kommentare in anderen Unternehmen lesen muss, klicken Sie auf den Link "Kommentar lesen":
 
-![ExFlow Notifications](@site/static/img/media/image340.png)
+![ExFlow-Benachrichtigungen - Kommentare in anderen Unternehmen](./../../images/image341.png)
 
-If the user has comments to read in other companies, then clicking on the link "Read comment":
+Dieser Link zeigt dem Benutzer eine Liste ähnlich der folgenden an:
 
-![ExFlow Notifications - Comments in other companies](@site/static/img/media/image341.png)
+![](./../../images/image342.png)
 
-This link will present the user with a list similar to the following:
+Durch Klicken auf die Zahl in der rechten Spalte wird eine neue Seite geöffnet, auf der der Benutzer die Kommentare im ausgewählten Unternehmen lesen kann.
 
-![](@site/static/img/media/image342.png)
+### Chat-Benachrichtigungsverlauf
 
-Clicking on the number in the right-hand column will open a new page where the user will be able to read comments in the selected company.
+Gehe zu: ***ExFlow \--\> Verlauf \--\> ExFlow Chat-Benachrichtigungsverlauf***
 
-### Chat Notification History
+Ein ExFlow-Benutzer kann ExFlow Chat-Benachrichtigungen anzeigen, in denen der Benutzer in den letzten 90 Tagen markiert wurde.
 
-Go to: ***ExFlow \--\> History \--\> ExFlow Chat Notification History***
+Doppelklicken Sie auf die Nachricht oder "Dokument anzeigen", um eine neue Nachricht auf demselben Dokument zu verfassen.
 
-An ExFlow User can view ExFlow Chat Notifications the user has been
-tagged in for the last 90 days.
+In der "Chat-Benachrichtigungsliste" werden alle neuen ungelesenen Nachrichten fett angezeigt.
 
-Double click on the message or "Show Document" to view wright a new
-message on the same document.
+**Unternehmen:** Das Unternehmen, in dem das Dokument erstellt wurde, in dem der Benutzer erwähnt wird.
 
-In "Chat Notification List" all new unread messages will show in Bold
-text.
+**Beschreibung:** Art des Dokuments und Dokumentennummer.
 
-**Company:** The company the document is created in where user is
-mentions.
+**Kommentar von:** Wer den Kommentar geschrieben hat.
 
-**Description:** Type of document and document No.
+**Lieferantennummer:** Zahlungsempfänger-Lieferantennummer für das Dokument.
 
-**Comment made by:** Who wrote the comment.
+**Hinweis:** Vorschau. Öffnen Sie das Dokument, um die gesamte Nachricht zu lesen.
 
-**Vendor No:** Pay-To-Vendor No for the document.
+**Letztes Benachrichtigungsdatum:** Datum, an dem der Benutzer zuletzt in Bezug auf das Dokument erwähnt wurde.
 
-**Note:** Preview. Open document to read the whole message.
+![ExFlow Chat-Benachrichtigungsliste](./../../images/image343.png)
 
-**Last Notification Date:** Date when user was last mentioned on the
-document.
+*Screenshot -- ExFlow Chat-Benachrichtigungsliste*
 
-![ExFlow Chat Notification List](@site/static/img/media/image343.png)
+**Dokument anzeigen:** Dokument öffnen, um die gesamte Nachricht zu lesen und eine Nachricht zu senden.
 
-*Screenshot -- ExFlow Chat Notification List*
+**Ungelesene anzeigen:** Nur ungelesene Nachrichten anzeigen.
 
-**Show Document:** Open Document to read whole message and to send a
-message.
+**Alle anzeigen:** Alle Nachrichten der letzten 60 Tage anzeigen.
 
-**Show Unread:** Show only messages that is unread.
+**Liste aktualisieren:** Aktualisieren, um neue Nachrichten anzuzeigen.
 
-**Show All:** Show all messaged for the last 60 days.
+**In Excel öffnen:** Liste an Excel senden.
 
-**Reload List:** Reload to view new messages.
+![ExFlow Chat-Benachrichtigungsliste](./../../images/image344.png)
 
-**Open in Excel:** Sent list to Excel.
+Alle Nachrichten im Chat werden im Diskussionsfenster FactBox angezeigt.
 
-![ExFlow Chat Notification List](@site/static/img/media/image344.png)
+![ExFlow Genehmigungsstatus-Karte](./../../images/image345.png)
 
-All messages from Chat will show in Discussion Panel FactBox.
+Auf ExFlow Web wird in der Eingangsliste die Dokumentenzeile @ für ungelesene Nachrichten hervorgehoben, wenn der Genehmiger im Dokument erwähnt wird. Klicken Sie auf das Dokument, um es zu öffnen, zu lesen und Kommentare zu schreiben.
 
-![ExFlow Approval Status Card](@site/static/img/media/image345.png)
+![ExFlow Web - Eingangsliste](./../../images/image346.png)
 
-On ExFlow Web in inbox document line @ is highlighted on unread message
-if the Approver is mentioned on the document. Click on the document to
-open, read, and write comments.
+Alle Nachrichten werden auch im Posteingang angezeigt, selbst wenn der Genehmiger nicht im Genehmigungsworkflow enthalten ist.
 
-![ExFlow Web - Inbox](@site/static/img/media/image346.png)
+Klicken Sie auf den Link, um das Dokument zu öffnen, zu lesen und Kommentare zu schreiben.
 
-All messages will also display in Inbox even if the Approver is not
-included in approval flow.
+![ExFlow Web - Posteingang](./../../images/image347.png)
 
-Click the link to open document, read and write comments.
+Auf dem Dokument ist die Sprechblase rot, wenn ungelesene Nachrichten vorhanden sind.
 
-![ExFlow Web - Inbox](@site/static/img/media/image347.png)
+![ExFlow Web - Dokumentenchat](./../../images/image348.png)
 
-On the document the bubble is red if there are any unread messages.
+![ExFlow Web - Dokumentenchat](./../../images/image349.png)
 
-![ExFlow Web - Document Chat](@site/static/img/media/image348.png)
+### Import Journal - Diskussionsfenster (Nachricht wird gesendet, wenn das Dokument erstellt wird)
 
-![ExFlow Web - Document Chat](@site/static/img/media/image349.png)
+Wenn Sie einen Kommentar im Diskussionsfenster zu einem Dokument im Import Journal hinzufügen und auf "SENDEN" klicken, wird der Kommentar in der FactBox rechts markiert mit der Benutzer-ID, dem Datum und der Uhrzeit des Erstellens angezeigt.
 
-### Import Journal - Discussion Panel (Message will be sent when document is created)
+Wenn ein Benutzer mit @ erwähnt wird, kann eine Nachricht, E-Mail oder Benachrichtigung in Business Central an ExFlow-Benutzer gesendet werden, die mit einem Business Central-Benutzer verknüpft sind.<br/>
+Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
 
-When adding a comment in Discussion Panel on a document in Import Journal and click "SEND" the comment can be seen in FactBox to the right marked with creating Users ID, Date and Time.
+Für ExFlow-Benutzer, die nicht mit einem Business Central-Benutzer verknüpft sind, wird die E-Mail gesendet, wenn das Dokument erstellt wird. Dies liegt daran, dass ExFlow Web-Benutzer diese Dokumente oder Kommentare im Import Journal nicht sehen können.
 
-If a User is mentioned by using @, a message, email or Notification in Business Central, can be sent to ExFlow Users that is associated with a Business Central User.<br/>
-Read more under section [***ExFlow Users***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
 
-For ExFlow Users that is not associated with a Business Central User the email will be sent when the document is created. This is due to that ExFlow Web Users cannot see this documents or comments in Import Journal.
+![ExFlow Import Journal - Diskussionsfenster](./../../images/image350.png)
 
 
-![ExFlow Import Journal - Discussion Panel](@site/static/img/media/image350.png)
 
+### Genehmigungsstatus - Diskussionsfenster
 
+Wenn Sie einen Kommentar im Diskussionsfenster vom Genehmigungsstatus hinzufügen und auf "SENDEN" klicken, wird der Kommentar in der FactBox rechts markiert mit der Benutzer-ID, dem Datum und der Uhrzeit des Erstellens angezeigt. Auf ExFlow Web wird er im Chat auf dem Dokument angezeigt.
 
-### Approval Status - Discussion Panel
+Wenn ein Benutzer mit @ erwähnt wird, kann der Benutzer dieses Dokument und den Kommentar auf ExFlow Web sehen, auch wenn der Benutzer nicht im Genehmigungsworkflow enthalten ist. Eine Nachricht kann auch per E-Mail gesendet werden.
 
-When adding a comment in Discussion Panel from Approval Status and click "SEND" the comment can be seen in FactBox to the right marked with creating Users ID, Date and Time. On ExFlow Web it will display in Chat on the Document.
+![Diskussionsfenster](./../../images/image351.png)
 
-If a User is mentioned by using @ the User will be able to see this
-document and comment on ExFlow Web even if the User is **not** in the
-approval flow. A message can also be sent by email.
+Um E-Mail-Nachrichten aus dem Diskussionsfenster zu senden, sind einige Konfigurationen in ExFlow E-Mail-Setup und Job Queue Entries erforderlich.
 
-![Discussion Panel](@site/static/img/media/image351.png)
+### Gelöschte Dokumente - Diskussionsfenster
 
-To send email messages from Discussion Panel some setup is required in
-ExFlow Email Setup and Job Queue Entries.
+Vor dem Löschen des Dokuments erstellte Nachrichten werden im ExFlow Deleted Documents auf dem Dokument gespeichert.
 
-### Deleted Documents - Discussion Panel
+Es besteht keine Möglichkeit, eine Nachricht aus den gelöschten Dokumenten hinzuzufügen, da die gelöschten Dokumente auf ExFlow Web nicht sichtbar sind.
 
-Message created before document is deleted will be saved on document in
-ExFlow Deleted Documents.
+### Einstellungen für ExFlow-Benutzer
 
-There is no possibility to add message from Deleted Documents due to
-that Deleted Documents cannot be seen on ExFlow Web.
+Auf der ExFlow-Benutzerkarte gibt es einige Einstellungen, die sowohl für ExFlow-Erinnerungen als auch für ExFlow-Kommentare verwendet werden.
 
-### Settings on ExFlow User
+**E-Mail:** E-Mail-Adresse eingeben
 
-On ExFlow User Card there are some settings that are used for both
-ExFlow Reminders and ExFlow Comments.
+**Sprachcode:** In welcher Sprache die E-Mail gesendet wird.
 
-**Email:** Enter Email address
+**Bevorzugter Genehmigungsclient:** Umgebung für Einstellungen in Links auswählen, die in E-Mails für Nachrichten und Erinnerungen gesendet werden.
 
-**Language Code:** In what language email will be sent.
+![ExFlow-Benutzerkarte](./../../images/image352.png)
 
-**Preferred Approval Client:** Select environment for settings in links
-sent in emails for both Messages and Reminders.
+### Kommentar auf Zeilenebene
 
-![ExFlow User Card](@site/static/img/media/image352.png)
+Ein Kommentar kann auf ExFlow Web auf Zeilenebene abgegeben werden, jedoch wird der Kommentar weder im Diskussionsfenster in Business Central noch im Chat auf ExFlow Web angezeigt. Nur auf der Zeile, auf der der Kommentar hinzugefügt wurde.
 
-### Comment on Line Level
+![ExFlow Web - Kommentar zur Dokumentenzeile](./../../images/image353.png)
 
-A Comment can be made on a line level on ExFlow Web, however the comment
-will not appear in Discussion Panel in Business Central or in Chat on
-ExFlow Web. Only on the line where the comment is added.
+Der Kommentar wird in den Dokumentzeilen-Genehmigern in Business Central gefunden.
 
-![ExFlow Web - Document Line Comment](@site/static/img/media/image353.png)
-
-The comment will be found on Doc. Line Approvers in Business Central.
-
-![ExFlow Approval Status - Document Lines](@site/static/img/media/image354.png)
+![ExFlow Genehmigungsstatus - Dokumentzeilen](./../../images/image354.png)

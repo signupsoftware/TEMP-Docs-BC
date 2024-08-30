@@ -1,83 +1,72 @@
 ---
-title: Expense Invoice Process
+title: Prozess der Ausgabenrechnung
 sidebar_position: 5
 hide_title: true
 ---
-## Expense Invoice Process
+## Prozess der Ausgabenrechnung
 
-This chapter gives an example of an invoice flow in ExFlow from import
-to approving and posting in ExFlow / Business Central.
+Dieses Kapitel gibt ein Beispiel für einen Rechnungsfluss in ExFlow von der Importierung bis zur Genehmigung und Buchung in ExFlow / Business Central.
 
-The following steps are made from the "ExFlow Import Journal" \--\>
-"ExFlow Approval Status" and the final step will be to view the posted
-invoice "ExFlow Approval Status History".
+Die folgenden Schritte werden vom "ExFlow Import Journal" zum "ExFlow Genehmigungsstatus" gemacht und der letzte Schritt besteht darin, die gebuchte Rechnung im "ExFlow Genehmigungsstatusverlauf" anzuzeigen.
 
-Steps in ExFlow Import Journal
+Schritte im ExFlow Import Journal
 
-Step 1 Import Document
+Schritt 1: Dokument importieren
 
-Step 2 Check and handle "Action Message". If blank move to Step 4
+Schritt 2: "Aktionsnachricht" überprüfen und bearbeiten. Wenn leer, zu Schritt 4 wechseln.
 
-Step 3 When action have been done verify and see if all actions been
-taken.
+Schritt 3: Überprüfen und prüfen, ob alle Aktionen durchgeführt wurden.
 
-Step 4 Create Invoice or Credit Memo
+Schritt 4: Rechnung oder Gutschrift erstellen
 
-### Import and handle an Expense Purchase Invoice
+### Importieren und Bearbeiten einer Ausgabenrechnung
 
-Import invoices is done from "ExFlow Import Journal". Import documents
-either to all journals or open and import documents in one specific
-journal.
+Das Importieren von Rechnungen erfolgt über das "ExFlow Import Journal". Importieren Sie Dokumente entweder in alle Journale oder öffnen Sie ein bestimmtes Journal und importieren Sie Dokumente.
 
-This part describes the way how to import from a journal created to use
-only for "Expense Invoices".
+Dieser Teil beschreibt, wie aus einem speziell für "Ausgabenrechnungen" erstellten Journal importiert wird.
 
-Select a journal and open by click "Edit Journal" or click on name.
+Wählen Sie ein Journal aus und öffnen Sie es durch Klicken auf "Journal bearbeiten" oder den Namen.
 
-![ExFlow Import Journals](@site/static/img/media/image277.png)
+![ExFlow Import Journals](./../../images/image277.png)
 
-Step 1 -- Import Document
+Schritt 1: Dokument importieren
 
-Go to: ***Actions \--\> Import \--\> Import Documents\...***
+Gehe zu: ***Aktionen \--\> Importieren \--\> Dokumente importieren\...***
 
-When the import is done a new line is created.
+Wenn der Import abgeschlossen ist, wird eine neue Zeile erstellt.
 
-![ExFlow Import Journal](@site/static/img/media/image278.png)
+![ExFlow Import Journal](./../../images/image278.png)
 
-Step 2 -- Check and handle "Action Messages".
+Schritt 2: "Aktionsnachrichten" überprüfen und bearbeiten.
 
-In this example there are no predefined approval rules, so
-Approver/Approvers must be added manually to the Invoice Line.
+In diesem Beispiel gibt es keine vordefinierten Genehmigungsregeln, daher müssen Genehmiger manuell zur Rechnungsposition hinzugefügt werden.
 
-![ExFlow Import Journal](@site/static/img/media/image279.png)
+![ExFlow Import Journal](./../../images/image279.png)
 
-Select: ***Line \--\> Show Approval Proposal***
+Wählen Sie: ***Zeile \--\> Genehmigungsvorschlag anzeigen***
 
-![ExFlow Import Journal - Import Lines](@site/static/img/media/image280.png)
+![ExFlow Import Journal - Importierte Zeilen](./../../images/image280.png)
 
-Add one or several approvers.
+Fügen Sie einen oder mehrere Genehmiger hinzu.
 
-![ExFlow Import Journal - Import Lines - Approval Proposal](@site/static/img/media/image281.png)
+![ExFlow Import Journal - Importierte Zeilen - Genehmigungsvorschlag](./../../images/image281.png)
 
-In FactBox to the right approvers will be updated in "Approval
-proposal".
+Im FactBox auf der rechten Seite werden die Genehmiger im "Genehmigungsvorschlag" aktualisiert.
 
-![ExFlow Import Journal - FactBox - Approval Proposal](@site/static/img/media/image282.png)
+![ExFlow Import Journal - FactBox - Genehmigungsvorschlag](./../../images/image282.png)
 
-Step 3 -- Verify Document
+Schritt 3: Dokument überprüfen
 
-Go To: ***Process \--\> Verify Document / Batch Verify Documents***
+Gehe zu: ***Prozess \--\> Dokument überprüfen / Stapelweise Dokumente überprüfen***
 
-When all action messages have been handled, "Verify Document" to see if
-action message is empty and therefore ready to be created.
+Wenn alle Aktionsnachrichten bearbeitet wurden, "Dokument überprüfen", um zu sehen, ob die Aktionsnachricht leer ist und daher bereit zur Erstellung ist.
 
-Step 4 -- Create Document
+Schritt 4: Dokument erstellen
 
-Go to: ***Create \--\> "Batch Create I..s/Cr.Memos"\... / "Create
-Invoice/Cr.Memo"***
+Gehe zu: ***Erstellen \--\> "Stapelweise erstellen R..nungen/Gutschriften"\... / "Rechnung/Gutschrift erstellen"***
 
-Create invoice or credit memo by clicking "Create Invoice/Credit Memo".
+Erstellen Sie eine Rechnung oder Gutschrift, indem Sie auf "Rechnung/Gutschrift erstellen" klicken.
 
-![ExFlow Import Journal](@site/static/img/media/image283.png)
+![ExFlow Import Journal](./../../images/image283.png)
 
-![ExFlow Import Journal - Document converted](@site/static/img/media/image284.png)
+![ExFlow Import Journal - Konvertiertes Dokument](./../../images/image284.png)

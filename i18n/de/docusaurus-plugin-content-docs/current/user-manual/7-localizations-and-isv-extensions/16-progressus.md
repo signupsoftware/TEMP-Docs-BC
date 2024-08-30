@@ -5,70 +5,56 @@ hide_title: true
 ---
 ## Progressus
 
-Progressus is an Add On for extended functionality to Jobs.
+Progressus ist ein Add-On zur Erweiterung der Funktionalität von Jobs.
 
 ### ExFlow Setup
 
-In ExFlow Setup, as for PGS Expense Code, Job (Project) and Job Task
-(Project Task) and under Edit Web Columns in that order.
+Im ExFlow Setup müssen Sie wie bei PGS Expense Code, Job (Projekt) und Job Task (Projektaufgabe) und unter Bearbeiten von Web-Spalten in dieser Reihenfolge vorgehen.
 
-When adding PGS Expense Code, ExFlow is automatically adding Denying
-Coding Rules not to use PGS Expense Code on Line Type: Item, Resource,
-Fixed Assets and Charge (Item).
+Wenn Sie PGS Expense Code hinzufügen, fügt ExFlow automatisch Ablehnungsregeln für die Verwendung von PGS Expense Code bei den Linientypen: Artikel, Ressource, Sachanlagen und Gebühr (Artikel) hinzu.
 
-Also add PGS Expense Payment Type for Purchase Documents under Fast tab
-Progressus.
+Fügen Sie auch PGS Expense Payment Type für Einkaufsdokumente unter dem Schnellregister Progressus hinzu.
 
-![ExFlow Setup - Progressus](@site/static/img/media/exflow-setup-progressus-001.png)
+![ExFlow Setup - Progressus](./../../images/exflow-setup-progressus-001.png)
 
-If possible, add a Default Job Task under Fast tab General. (Read more
-under **Default Job Task No.**)
+Fügen Sie, falls möglich, eine Standard-Job Task unter dem Schnellregister Allgemein hinzu. (Lesen Sie mehr unter **Standard-Job Task Nr.**)
 
-![ExFlow Setup - General](@site/static/img/media/exflow-setup-general-005.png)
+![ExFlow Setup - General](./../../images/exflow-setup-general-005.png)
 
-### ExFlow Denying Coding Rules with Progressus
+### ExFlow Ablehnungsregeln mit Progressus
 
-When adding a Job (Project) on ExFlow Web Approver also needs to add Job
-Task (Project Task) and PGS Expense Code if missing. Now following
-Denying Coding Rule can be useful.
+Beim Hinzufügen eines Jobs (Projekts) auf ExFlow Web muss der Genehmiger auch Job Task (Projektaufgabe) und PGS Expense Code hinzufügen, falls diese fehlen. Nun kann die folgende Ablehnungsregel hilfreich sein.
 
-A reminder to add Job/Project Task when using Job/Project on ExFlow Web.
+Eine Erinnerung, Job/Projektaufgabe hinzuzufügen, wenn Sie Job/Projekt auf ExFlow Web verwenden.
 
-![ExFlow Denying Coding Rule](@site/static/img/media/image371.png)
+![ExFlow Ablehnungsregel](./../../images/image371.png)
 
-A reminder to add PGS Expense Code when using G/L Account and
-Job/Project on ExFlow Web.
+Eine Erinnerung, PGS Expense Code hinzuzufügen, wenn Sie G/L Account und Job/Projekt auf ExFlow Web verwenden.
 
-![ExFlow Denying Coding Rule](@site/static/img/media/image372.png)
+![ExFlow Ablehnungsregel](./../../images/image372.png)
 
-A reminder to add Job/Project when using G/L Account and PGS Expense
-code on ExFlow Web.
+Eine Erinnerung, Job/Projekt hinzuzufügen, wenn Sie G/L Account und PGS Expense Code auf ExFlow Web verwenden.
 
-![ExFlow Denying Coding Rule](@site/static/img/media/image373.png)
+![ExFlow Ablehnungsregel](./../../images/image373.png)
 
-#### Work with Expense Resource on the document lines in Import Journal 
-It is also possible to utilize the Expense Resource, Expense Date and Chargeable fields in Import Journal. These fields need to be added manually through personalization. 
+#### Arbeit mit Expense Resource in den Dokumentzeilen in Import Journal
+Es ist auch möglich, die Expense Resource, Expense Date und Chargeable-Felder in Import Journal zu nutzen. Diese Felder müssen manuell über Personalisierung hinzugefügt werden.
 
-Chargeable will be updated from the Job Task No. <br/>
-However, please note that if the Line type is:<br/>
-•	***Item***: then PGS Chargeable will be updated from Item Chargeable. <br/>
-•	***G/L Account***: then PGS Chargeable will be updated from Expense Chargeable. <br/>
+Chargeable wird von der Job Task Nr. aktualisiert. <br/>
+Bitte beachten Sie jedoch, dass wenn der Linientyp ist:<br/>
+•	***Artikel***: dann wird PGS Chargeable von Item Chargeable aktualisiert. <br/>
+•	***G/L Account***: dann wird PGS Chargeable von Expense Chargeable aktualisiert. <br/>
 
-This can be adjusted manually on the lines. <br/>
+Dies kann manuell in den Zeilen angepasst werden. <br/>
 
-Moreover, these fields can be found in lines throughout most ExFlow pages: Import Journal, Approval Status, Approval Status History and Deleted Documents.
+Darüber hinaus finden Sie diese Felder in den Zeilen auf den meisten ExFlow-Seiten: Import Journal, Genehmigungsstatus, Genehmigungsstatusverlauf und gelöschte Dokumente.
 
-Additionally, there will be no updating of prices via Progressus. Prices will remain as per interpreted.
+Außerdem erfolgt keine Aktualisierung der Preise über Progressus. Die Preise bleiben wie interpretiert.
 
+#### ExFlow Purchase Code für Progressus
 
-#### ExFlow Purchase Code for Progressus
+PSG Expense Code und PSG Payment Type sind auch im ExFlow Purchase Code verfügbar.
 
-PSG Expense Code and PSG Payment Type are also available in ExFlow Purchase Code. 
+### Progressus Expense Code auf ExFlow Web
 
-### Progressus Expense Code on ExFlow Web
-
-Due to Denying Coding Rules the Approver needs to add Job/Project, Job
-Task/Project Task and PGS Expense Code on ExFlow Web if missing. The G/L
-Account will be added or updated automatically from Project Expense
-Posting Setup in Business Central.
-
+Aufgrund der Ablehnungsregeln muss der Genehmiger Job/Projekt, Job Task/Projektaufgabe und PGS Expense Code auf ExFlow Web hinzufügen, falls diese fehlen. Der G/L Account wird automatisch aus der Projekt Expense Posting Setup in Business Central hinzugefügt oder aktualisiert.

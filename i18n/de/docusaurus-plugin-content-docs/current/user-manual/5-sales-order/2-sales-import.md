@@ -1,93 +1,89 @@
 ---
-title: Sales Order Import
+title: Verkaufsauftragsimport
 sidebar_position: 2
 hide_title: true
 ---
 
-### Sales Order Import Workflow
+### Verkaufsauftragsimport-Workflow
 
+Gehe zu: **ExFlow Verkaufsdokument-Importliste**
 
-Go to: **ExFlow Sales Document Import List**
+Interpretiere die Verkaufsaufträge in ExFlow Data Capture.
 
-Interpret the sales orders in ExFlow Data Capture. 
+Klicke auf *Verkaufsdokument importieren*, um die Verkaufsaufträge zu importieren, und dann auf *Ja*.
 
-Click on *Import Sales Document* to import the sales orders and then *Yes*.
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-import-001.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-import-001.png) <br/>
+Importierte Verkaufsaufträge ohne Fehler werden direkt erstellt und können in der Standard-Verkaufsauftragsliste gefunden werden.
 
-Imported sales order without error will be created directly and can be found in the standard Sales order list. 
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-import-002.png) <br/>
 
+Finde den neu erstellten Verkaufsauftrag in der ausgewählten Verkaufsauftragscharge oder indem du auf die Anzahl der Dokumente in der Verkaufsauftragscharge klickst.
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-import-002.png) <br/>
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-import-003.png) <br/>
 
-Find the newly created sales order in the selected sales batch, or by clicking on the No. of Documents on the Sales Batch line. 
+Da diese ausgewählte Standardzeitschrift als "Erstellen" festgelegt ist, werden alle Verkaufsaufträge erstellt und haben den Status "Offen".
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-import-003.png) <br/>
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-import-004.png) <br/>
 
-Since this selected Default journal have *Document Create Type* set as ‘’Create’’ then all sales order will be created and get status Open.
+Wenn der Wert "Erstellen und Freigeben" für den Wert "Dokument erstellen" festgelegt wurde, wäre der Verkaufsauftrag ebenfalls freigegeben worden.
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-import-004.png) <br/>
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-import-005.png) <br/>
 
-If the Document Create Type was set to ‘’Create and Release’’, then the sales order would have been Released as well. 
+### Umgang mit importierten Verkaufsaufträgen mit Fehlern
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-import-005.png) <br/>
+Im folgenden Beispiel existiert eine Standard-Verkaufsauftragscharge und eine weitere Verkaufsauftragscharge wird für den Kunden Adatum Corporation erstellt.
 
+Importierte Dokumente mit Fehlern bleiben in der Verkaufsdokument-Importliste stecken, bis der Fehler manuell behoben wird.
 
-### Handling Imported Sales Orders With Error
-In following example, one Default Sales Batch exist, and another Sales Batch is created for Customer Adatum Corporation.
+Klicke auf Ja, um die Fehlermeldung zu öffnen.
 
-Imported documents with error will be stuck in the Sales Document Import list until the error is handled manually.
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-001.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-001.png) <br/>
+Fehlermeldung:
 
-Click on Yes to open the Error Message.
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-002.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-002.png) <br/>
+Es ist auch möglich, auf die Importdokumentnummer zu klicken, um die Fehlermeldung und andere Informationen anzuzeigen. Wenn ein Dokument einen Fehler aufweist, hat es den Status "Fehler", bis der Fehler behoben ist.
 
-Error message:
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-003.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-003.png) <br/>
+Von der Karte aus hast du die Möglichkeit, einen interpretierten Wert einem anderen Wert zuzuordnen. Zum Beispiel kann ein unbekannter und rot markierter Mengeneinheitswert "Stück" in eine Mengeneinheit umgewandelt werden, die Business Central kennt, in diesem Beispiel "Stk.".
 
-Its also possible to click on the Import Document No to see the error message among other information. If a document has an error, it will get Status ‘’Error’’ until the error is resolved.
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-005.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-004.png) <br/>
+Klicke auf die drei Punkte in den Importzeilen, um eine Zuordnung vorzunehmen, und gehe in die Detailansicht:
 
-From the card, you will get the opportunity to map an interpreted value to another value. For instance, interpreting an unknown and red marked Unit of Measure ‘’Styck’’ to Unit of measure that Business Central is familiar with, in this example ‘’PCS’’. 
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-006.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-005.png) <br/>
+Wähle den richtigen Mengeneinheitscode aus und klicke auf OK.
 
-Click on the three dots on the import lines to make a mapping, and the drill down pile:
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-007.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-006.png) <br/>
+Die Mengeneinheit (Import) wird nicht mehr rot markiert sein und die neue Mengeneinheit wird nun in den Zeilen eingetragen. Das Dokument ist nicht mehr blockiert, daher ändert sich der Dokumentstatus von "Fehler" zu "Verarbeitet".
 
-Choose the correct Unit of Measure Code and click on OK.
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-008.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-007.png) <br/>
+Jetzt ist es möglich, den Verkaufsauftrag zu erstellen, klicke einfach auf "Verkaufsaufträge im Batch erstellen".
 
-The unit of measure (Import) will no longer be red marked and the new unit of measure is now entered on the lines. The document is no longer stuck, the document status will therefore change from Error to Processed.
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-009.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-008.png) <br/>
+Füge bei Bedarf einen Filter hinzu oder klicke auf OK.
 
-It’s now doable to create the sales order, simply click on ‘’Batch Create Sales Orders’’. 
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-010.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-009.png) <br/>
+Es wird eine Bestätigung zur Erstellung des Verkaufsauftrags angezeigt.
 
-Add filter if needed or click on OK.
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-011.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-010.png) <br/>
+Um alle erstellten Verkaufsaufträge anzuzeigen, klicke auf die Anzahl der Dokumente in der Verkaufsauftragscharge. In diesem Beispiel wurden drei Verkaufsaufträge erstellt, aber nicht freigegeben.
 
-A sales order creation confirmation will be given. 
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-012.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-011.png) <br/>
+Wenn die Verkaufsaufträge sofort erstellt und freigegeben werden sollen, bearbeite die Liste und nehme die Änderung vor.
 
-To see all created sales orders, click on the No. of Documents on the sales batch line, in this example three sales orders are created, but not released.
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-013.png) <br/>
 
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-012.png) <br/>
+Wenn ein Filter hinzugefügt wird, z.B. wird der Wert "Dokumentfilter" auf "Rechnungsempfänger" festgelegt, werden alle Dokumente in dieser spezifischen "Rechnungsempfänger-Nr."-Charge importiert.
 
-If the sales orders are supposed to be Created and Released straight away, edit the list, and make the change.
-
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-013.png) <br/>
-
-If a filter is added on, for instance ‘’Document Filter’’ is set to ‘’Bill to Customer’’, then all their documents will be imported to this specific ‘’Bill- to Customer No.’’ batch.
-
-![Import Sales Document](@site/static/img/media/sales-document-import-list-error-014.png) <br/>
+![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-014.png) <br/>

@@ -1,69 +1,69 @@
 ---
-title: Automatic Coding Suggestion Setup
+title: Einrichtung automatischer Codierungsvorschläge
 sidebar_position: 17
 hide_title: true
 ---
-## Automatic Coding Suggestion Setup
+## Einrichtung automatischer Codierungsvorschläge
 
-Go to: ***Setup \--\> ExFlow Automatic Coding Suggestion Setup***<br/>
-For setup and activating this function, contact your Business Central Partner or SignUp Software.
+Gehen Sie zu: ***Setup \--\> ExFlow Einrichtung automatischer Codierungsvorschläge***<br/>
+Für die Einrichtung und Aktivierung dieser Funktion wenden Sie sich an Ihren Business Central Partner oder SignUp Software.
 
-This function in ExFlow is made to be able to get automatic coding suggestions in the import journal based on historically posted documents. This function will work for invoices and credit memos.
+Diese Funktion in ExFlow ermöglicht automatische Codierungsvorschläge im Importjournal basierend auf historisch gebuchten Dokumenten. Diese Funktion funktioniert für Rechnungen und Gutschriften.
 
-To be able to use this function, it needs to be set up in a couple of places first.
+Um diese Funktion nutzen zu können, muss sie zuerst an einigen Stellen eingerichtet werden.
 
-![ExFlow Menu](@site/static/img/media/exflow-meny-auto-coding-001.png)
+![ExFlow Menü](./../../images/exflow-meny-auto-coding-001.png)
 
-### Add a New Coding Suggestion
+### Neuen Codierungsvorschlag hinzufügen
 
-| Coding Suggestion Setup      |	|
+| Codierungsvorschlag-Einrichtung |	|
 |:-|:-|
-| **Source Type:**                                          |Gen. Bus. Posting Group, Vendor Posting Group, Vendor, or All. This will define the grouping of Suggestions created by ExFlow
-| **Source No:**                                            | This will define what No. from the specific "Source Type" in which this setup should be used. <br/>If Source No. is left empty for Source Type Vendor, grouping is made per Vendor for all Vendors.   <br/>By creating a setup ID as "Source Type" Vendor and "Source No." blank it will create coding suggestions from every vendor, where the suggestions always will be filtered on vendor
-| **Description:**                                          | Descriptive text. (100 characters max.)
-| **Days Multiplier:**                                      | This defines how severely the number of days since last invoice for that setup will affect the priority for suggested coding to be used. The larger the number, the greater the multiplier. Multiplier should be a negative value. E.g. -10 has a greater influence than -1
-| **Occurrence Multiplier:**                                | This defines how severely the number of invoices in the suggestion ID within this setup will affect the priority for suggested coding to be used. The larger the number, the greater the multiplier. Multiplier should be a negative value. E.g. -10 has a greater influence than -1
-| **Amount Range %:**                                       |This defines the percentage (plus/minus) of the amount to be applied for the Suggestion ID a specific coding for a document will be saved in
-| **Minimum No. of Documents for Validity of Suggestion:**  | The minimum number of documents that needs to be added to the Suggestion Setup ID for a suggestion from that Suggestion ID to be chosen automatically
-| **Group per Currency:**                                   | This defines if the grouping should be done with currency
-| **Group per Reference**:                                  | This defines if the grouping should be done specified with ExFlow Reference Codes.<br/><br/>
+| **Quellentyp:**                                          |Gen. Bus. Posting Group, Vendor Posting Group, Vendor oder All. Dies definiert die Gruppierung der von ExFlow erstellten Vorschläge.
+| **Quellennr.:**                                            | Dies definiert, welche Nr. aus dem spezifischen "Quellentyp" für diese Einrichtung verwendet werden soll. <br/>Wenn die Quellennr. für den Quellentyp Vendor leer gelassen wird, erfolgt die Gruppierung pro Vendor für alle Vendors.   <br/>Durch Erstellen einer Einrichtungs-ID als "Quellentyp" Vendor und "Quellennr." leer wird automatisch ein Codierungsvorschlag für jeden Vendor erstellt, wobei die Vorschläge immer nach Vendor gefiltert werden.
+| **Beschreibung:**                                          | Beschreibender Text (max. 100 Zeichen).
+| **Tage-Multiplikator:**                                      | Dies definiert, wie stark die Anzahl der Tage seit der letzten Rechnung für diese Einrichtung die Priorität für die Verwendung der vorgeschlagenen Codierung beeinflusst. Je größer die Zahl, desto größer der Multiplikator. Der Multiplikator sollte einen negativen Wert haben. Z.B. -10 hat einen größeren Einfluss als -1.
+| **Häufigkeits-Multiplikator:**                                | Dies definiert, wie stark die Anzahl der Rechnungen in der Vorschlags-ID innerhalb dieser Einrichtung die Priorität für die Verwendung der vorgeschlagenen Codierung beeinflusst. Je größer die Zahl, desto größer der Multiplikator. Der Multiplikator sollte einen negativen Wert haben. Z.B. -10 hat einen größeren Einfluss als -1.
+| **Betragsspanne %:**                                       | Dies definiert den Prozentsatz (plus/minus), um den der Betrag für die Vorschlags-ID einer spezifischen Codierung für ein Dokument angewendet wird.
+| **Mindestanzahl von Dokumenten für Gültigkeit des Vorschlags:**  | Die Mindestanzahl von Dokumenten, die zur Vorschlags-ID der Einrichtung hinzugefügt werden müssen, damit ein Vorschlag aus dieser Vorschlags-ID automatisch ausgewählt wird.
+| **Gruppierung nach Währung:**                                   | Dies definiert, ob die Gruppierung nach Währung erfolgen soll.
+| **Gruppierung nach Referenz**:                                  | Dies definiert, ob die Gruppierung spezifisch mit ExFlow-Referenzcodes erfolgen soll.<br/><br/>
 
-The following are what the buttons do on this page:
+Die folgenden Funktionen werden auf dieser Seite ausgeführt:
 
-| Functions      |	|
+| Funktionen      |	|
 |:-|:-|
-| **Create Suggestion**:    | This button goes through the setup and adds Suggestions to Suggestion ID
-| **Suggestions:**          | This shows the created Suggestion ID for the selected Setup
-| **Delete Suggestions:**   | This deletes the Suggestion ID's
+| **Vorschlag erstellen**:    | Mit dieser Schaltfläche wird die Einrichtung durchlaufen und Vorschläge zur Vorschlags-ID hinzugefügt.
+| **Vorschläge:**          | Hier werden die erstellten Vorschlags-IDs für die ausgewählte Einrichtung angezeigt.
+| **Vorschläge löschen:**   | Hier werden die Vorschlags-IDs gelöscht.
 
-![ExFlow Coding Suggestion Setup](@site/static/img/media/coding-suggestion-setup-001.png)
+![ExFlow Codierungsvorschlag-Einrichtung](./../../images/coding-suggestion-setup-001.png)
 
-### Enabling Automatic Coding Suggestion
+### Aktivierung automatischer Codierungsvorschläge
 
-#### ExFlow Setup
+#### ExFlow Einrichtung
 
-Activate this function in ExFlow Setup by enabling this function for all Vendors or Selected Vendors.
+Aktivieren Sie diese Funktion in der ExFlow Einrichtung, indem Sie diese Funktion für alle Vendors oder ausgewählte Vendors aktivieren.
 
-When activating "Selected Vendors", it is required to also enable "Use Automatic Coding Suggestion" for the vendors (in the ExFlow Vendor Setup card) that should have this function enabled.
+Bei Aktivierung von "Ausgewählte Vendors" ist es erforderlich, auch "Automatische Codierungsvorschläge verwenden" für die Vendors (in der ExFlow Vendor Einrichtungskarte) zu aktivieren, die diese Funktion nutzen sollen.
 
-| ExFlow Setup - Auto Coding Suggestion      |	|
+| ExFlow Einrichtung - Automatische Codierungsvorschläge      |	|
 |:-|:-|
-| **Grouping of Documents in Suggestion Lines with Amount:**    | Defines what Suggestion ID to group a coding to
-| **Coding Suggestion Decision Based on the Amount:**           |Specifies how the suggestion line will be chosen based on the amount of the document
-| **Suggest Automatic Coding for Imported Document:**           | Specifies how the automatic coding suggestion will be used
-| **Calculate Suggestions From Date:**                          | Specifies the starting date of the documents to be factored in the coding suggestions
-| **Suggest Automatic Coding Amount from Coding Set ID:**       | Specifies if the amounts will be automatically suggested in the created lines from the Coding Set ID
+| **Gruppierung von Dokumenten in Vorschlagszeilen mit Betrag:**    | Definiert, welcher Vorschlags-ID eine Codierung zugeordnet wird.
+| **Entscheidung zur Codierungsvorschlag basierend auf dem Betrag:**           | Legt fest, wie die Vorschlagszeile basierend auf dem Betrag des Dokuments ausgewählt wird.
+| **Automatische Codierungsvorschlag für importiertes Dokument vorschlagen:**           | Legt fest, wie der automatische Codierungsvorschlag verwendet wird.
+| **Vorschläge ab Datum berechnen:**                          | Legt das Startdatum der Dokumente fest, die in die Codierungsvorschläge einbezogen werden sollen.
+| **Automatischer Codierungsbetrag aus Codierungssatz-ID vorschlagen:**       | Legt fest, ob die Beträge automatisch in den erstellten Zeilen aus der Codierungssatz-ID vorgeschlagen werden.
 
-![ExFlow Setup - Automatic Suggestion](@site/static/img/media/exflow-setup-automatic-suggestion-001.png)
+![ExFlow Einrichtung - Automatische Vorschläge](./../../images/exflow-setup-automatic-suggestion-001.png)
 
-#### Import Journal
+#### Importjournal
 
-Enable "Create Lines with Automatic Suggestion" to activate this function for a specific Import Journal. (this field may need to be added to the page via personalization)
+Aktivieren Sie "Zeilen mit automatischem Vorschlag erstellen", um diese Funktion für ein bestimmtes Importjournal zu aktivieren. (Dieses Feld muss möglicherweise über die Personalisierung zur Seite hinzugefügt werden)
 
-![ExFlow Import Journals](@site/static/img/media/import-journals-008.png)
+![ExFlow Importjournale](./../../images/import-journals-008.png)
 
-#### Periodic Activities
+#### Periodische Aktivitäten
 
-To apply the Automatic Coding Suggestion, it is required to run the functions ExFlow Coding Set IDs for Coding Suggestions and ExFlow Creating Automatic Coding Suggestions. First time use of Automatic Coding suggestion will need both of these jobs to be run at least once. Following that, recurrence can be adjusted in the corresponding Job Queue Entries.
+Um den automatischen Codierungsvorschlag anzuwenden, müssen die Funktionen "ExFlow Codierungssatz-IDs für Codierungsvorschläge" und "ExFlow Erstellen automatischer Codierungsvorschläge" ausgeführt werden. Bei der erstmaligen Verwendung des automatischen Codierungsvorschlags müssen diese Jobs mindestens einmal ausgeführt werden. Danach kann die Wiederholung in den entsprechenden Job Queue Entries angepasst werden.
 
-![Periodic Activities](@site/static/img/media/exflow-menu-005-periodic-activities.png)
+![Periodische Aktivitäten](./../../images/exflow-menu-005-periodic-activities.png)

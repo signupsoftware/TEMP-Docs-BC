@@ -1,291 +1,287 @@
 ---
-title: ExFlow Email Setup
+title: ExFlow E-Mail-Einrichtung
 sidebar_position: 9
 hide_title: true
 ---
-## ExFlow Email Setup
-To send email reminders, ExFlow Email Setup is needed for each Email Type.
+## ExFlow E-Mail-Einrichtung
+Um E-Mail-Erinnerungen zu senden, ist für jeden E-Mail-Typ eine ExFlow E-Mail-Einrichtung erforderlich.
 
-Email reminders can be sent manually or by adding a job queue. 
-For setup, read more under section [***Approval Workflow --> Email Reminders***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#email-reminders)
+E-Mail-Erinnerungen können manuell gesendet oder durch Hinzufügen einer Job-Warteschlange gesendet werden. 
+Für die Einrichtung lesen Sie mehr im Abschnitt [***Genehmigungsworkflow --> E-Mail-Erinnerungen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#email-reminders)
 
-### Unreceived Order
-Send reminders when purchase invoice in import journal is matched to an unreceived order. <br/> 
-Recipients can be added in all, one, or several fields to send reminders.<br/><br/> 
+### Nicht erhaltene Bestellung
+Senden Sie Erinnerungen, wenn eine Eingangsrechnung im Importjournal einer nicht erhaltenen Bestellung zugeordnet ist. <br/> 
+Empfänger können in einem oder mehreren Feldern hinzugefügt werden, um Erinnerungen zu senden.<br/><br/> 
 
-|General |  |
+|Allgemein |  |
 |:-|:-|
-| **Email Type:**           | Unreceived Order
-| **Process Type:**         | Scheduled
-| **Description:**          |Add a description. This will not be added to any email
-| **CC Email:**             | N/A for unreceived order
-| **Test Email Address:**   |Add an email address for test mode. ExFlow will send emails only to this user
-| **Send Attachment:**      | Send attachments will enclose purchase invoice PDF as attachment and users will receive one email per document
-| **ExFlow Web URL:**       | N/A
-| **Delay sending (days):** | Add No. of days to delay email reminders sent by Job Queue Entries
-| **Email Scenario:**       | Use ExFlow Default if connecting to separate email account with same scenario
+| **E-Mail-Typ:**           | Nicht erhaltene Bestellung
+| **Prozesstyp:**         | Geplant
+| **Beschreibung:**          | Fügen Sie eine Beschreibung hinzu. Diese wird keiner E-Mail hinzugefügt
+| **CC-E-Mail:**             | Nicht zutreffend für nicht erhaltene Bestellung
+| **Test-E-Mail-Adresse:**   | Fügen Sie eine E-Mail-Adresse für den Testmodus hinzu. ExFlow sendet E-Mails nur an diesen Benutzer
+| **Anhang senden:**      | Senden Sie Anhänge, um die PDF der Eingangsrechnung als Anhang beizufügen. Benutzer erhalten eine E-Mail pro Dokument
+| **ExFlow Web-URL:**       | Nicht zutreffend
+| **Verzögerung des Sendens (Tage):** | Fügen Sie die Anzahl der Tage hinzu, um per Job-Warteschlangeneinträge gesendete E-Mail-Erinnerungen zu verzögern
+| **E-Mail-Szenario:**       | Verwenden Sie ExFlow Standard, wenn Sie sich mit einem separaten E-Mail-Konto mit demselben Szenario verbinden
 
-|Recipients|  |
+|Empfänger|  |
 |:-|:-|
-| **Approval Groups**:            | Select and add an approval group
-| **Fixed Email Addresses**:      | Select or add one or several fixed email addresses
-| **Purchaser**:                  | Activate to send reminders to current purchaser on order. If purchaser is missing as an ExFlow user, reminder will be sent to email address added on salespeople/purchaser card
-| **Email Purchase Coordinator**: | Add one email address to send reminders to a specific purchase coordinator
+| **Genehmigungsgruppen**:            | Wählen Sie eine Genehmigungsgruppe aus und fügen Sie sie hinzu
+| **Feste E-Mail-Adressen**:      | Wählen Sie eine oder mehrere feste E-Mail-Adressen aus oder fügen Sie sie hinzu
+| **Einkäufer**:                  | Aktivieren Sie dies, um Erinnerungen an den aktuellen Einkäufer der Bestellung zu senden. Wenn der Einkäufer kein ExFlow-Benutzer ist, wird die Erinnerung an die E-Mail-Adresse gesendet, die auf der Verkäufer/Käufer-Karte hinzugefügt wurde
+| **E-Mail-Kaufkoordinator**: | Fügen Sie eine E-Mail-Adresse hinzu, um Erinnerungen an einen bestimmten Kaufkoordinator zu senden
 
-|Statistics |  |
+|Statistiken |  |
 |:-|:-|
-| **Last Sent**:            | Shows date and time for last sent reminder                                     
-| **No. of Email Logs**:    | Shows No. of email Logs
-| **No. Error Entries**:    | Shows No. of error entries
+| **Zuletzt gesendet**:            | Zeigt Datum und Uhrzeit der zuletzt gesendeten Erinnerung an                                     
+| **Anzahl der E-Mail-Protokolle**:    | Zeigt die Anzahl der E-Mail-Protokolle an
+| **Anzahl der Fehlerprotokolle**:    | Zeigt die Anzahl der Fehlerprotokolle an
 <br/><br/>
 
 
-### Inbox Reminder
-Send reminders that approvers have document to approve.<br/>
-This setting can also be added automatically when running [***Get Started Wizard***](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started)<br/><br/>
+### Posteingangserinnerung
+Senden Sie Erinnerungen, dass Genehmiger ein Dokument zur Genehmigung haben.<br/>
+Diese Einstellung kann auch automatisch hinzugefügt werden, wenn Sie den [***Einstiegshelfer***](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started) ausführen<br/><br/>
 
-| General |  |
+| Allgemein |  |
 |:-|:-|
-| **Email Type**:           | Inbox Reminder
-| **Process Type**:         | Scheduled
-| **Description**:          | Add a description. This will not be added to any email
-| **CC Email**:             | To include a cc in all reminders, add email address
-| **Test Email Address**:   | Add an email address for test mode. ExFlow will send emails only to this user
-| **Send Attachments**:     | Send attachments will enclose purchase document as attachment and users will receive one email per document
-| **ExFlow Web URL**:       | Add URL to ExFlow Web. This will be added as a link in email
-| **Delay sending (days)**: | Add No. of days to delay email reminders sent by Job Queue Entries
-| **Email Scenario**:       | Use ExFlow Default if connecting to separate email account with same scenario
+| **E-Mail-Typ**:           | Posteingangserinnerung
+| **Prozesstyp**:         | Geplant
+| **Beschreibung**:          | Fügen Sie eine Beschreibung hinzu. Diese wird keiner E-Mail hinzugefügt
+| **CC-E-Mail**:             | Fügen Sie eine E-Mail-Adresse hinzu, um in allen Erinnerungen eine CC einzuschließen
+| **Test-E-Mail-Adresse**:   | Fügen Sie eine E-Mail-Adresse für den Testmodus hinzu. ExFlow sendet E-Mails nur an diesen Benutzer
+| **Anhänge senden**:     | Senden Sie Anhänge, um das Dokument als Anhang beizufügen. Benutzer erhalten eine E-Mail pro Dokument
+| **ExFlow Web-URL**:       | Fügen Sie die URL zu ExFlow Web hinzu. Diese wird als Link in der E-Mail hinzugefügt
+| **Verzögerung des Sendens (Tage)**: | Fügen Sie die Anzahl der Tage hinzu, um per Job-Warteschlangeneinträge gesendete E-Mail-Erinnerungen zu verzögern
+| **E-Mail-Szenario**:       | Verwenden Sie ExFlow Standard, wenn Sie sich mit einem separaten E-Mail-Konto mit demselben Szenario verbinden
 
-| Statistics |  |
+| Statistiken |  |
 |:-|:-|
-| **Last Sent**:            | Shows date and time for last sent reminder
-| **No. of Email Logs**:    | Shows No. of email Logs
-| **No. Error Entries**:    | Shows No. of error entries
-<br/><br/>
-
-
-
-### Contract Reminder
-Send a reminder if contract expires.
-
-| General |  |
-|:-|:-|
-| **Email Type**:               | Contract Reminders
-| **Process Type**:             | Scheduled
-| **Description**:              | Add a description. This will not be added to any email
-| **CC Email**:                 | To include a cc in all reminders, add email address
-| **Test Email Address**:       | Add an email address for test mode. ExFlow will send emails only to this user
-| **Send Attachments**:         | N/A
-| **ExFlow Web URL**:           | N/A
-| **Delay sending (days)**:     | Add No. of days to delay email reminders from Job Queue Entries
-| **Email Scenario**:           | Use ExFlow Default if connecting to separate email account with same Scenario
-
-| Statistics |  | 
-|:-|:-|
-| **Last Sent**:                | Show date and time for last sent reminder<br/>
-| **No. of Email Logs**:        | Shows No. of Email Logs.<br/>
-| **No. Error Entries**:        | Shows No. of Error Entries<br/>
+| **Zuletzt gesendet**:            | Zeigt Datum und Uhrzeit der zuletzt gesendeten Erinnerung an
+| **Anzahl der E-Mail-Protokolle**:    | Zeigt die Anzahl der E-Mail-Protokolle an
+| **Anzahl der Fehlerprotokolle**:    | Zeigt die Anzahl der Fehlerprotokolle an
 <br/><br/>
 
 
 
-### Comment Notification - Chat
-To send an email if an Exflow User is taged in Chat/Discussion Panel
+### Vertrags-Erinnerung
+Senden Sie eine Erinnerung, wenn der Vertrag abläuft.
 
-| General |  | 
+| Allgemein |  |
 |:-|:-|
-| **Email Type**:               | Comment Notification
-| **Process Type**:             | Scheduled
-| **Description**:              | Add a description. This will not be added to any email
-| **CC Email**:                 | N/A
-| **Test Email Address**:       | Add an Email address for test mode. ExFlow will send all emails only to this user
-| **Send Attachments**:         | N/A
-| **ExFlow Web URL**:           | Add URL to ExFlow Web. This will be added as a link in email
-| **Delay sending (days)**:     | N/A
-| **Email Scenario**:           | Use ExFlow Default if connecting to separate email account with same Scenario
+| **E-Mail-Typ**:               | Vertrags-Erinnerungen
+| **Prozess-Typ**:             | Geplant
+| **Beschreibung**:              | Fügen Sie eine Beschreibung hinzu. Diese wird keiner E-Mail hinzugefügt
+| **CC-E-Mail**:                 | Um eine CC in allen Erinnerungen einzuschließen, fügen Sie die E-Mail-Adresse hinzu
+| **Test-E-Mail-Adresse**:       | Fügen Sie eine E-Mail-Adresse für den Testmodus hinzu. ExFlow sendet E-Mails nur an diesen Benutzer
+| **Anhänge senden**:         | N/A
+| **ExFlow Web-URL**:           | N/A
+| **Verzögerung des Versands (Tage)**:     | Fügen Sie die Anzahl der Tage hinzu, um E-Mail-Erinnerungen aus den Job-Warteschlangeneinträgen zu verzögern
+| **E-Mail-Szenario**:           | Verwenden Sie ExFlow Default, wenn Sie sich mit einem separaten E-Mail-Konto mit demselben Szenario verbinden
 
-| Statistics |  | 
+| Statistiken |  | 
 |:-|:-|
-| **Last Sent**:            | Shows date and time for last sent reminder
-| **No. of Email Logs**:    | Shows No. of Email Logs
-| **No. Error Entries**:    | Shows No. of Error Entries
+| **Zuletzt gesendet**:                | Zeigt Datum und Uhrzeit der zuletzt gesendeten Erinnerung an<br/>
+| **Anzahl der E-Mail-Protokolle**:        | Zeigt die Anzahl der E-Mail-Protokolle an.<br/>
+| **Anzahl der Fehler-Einträge**:        | Zeigt die Anzahl der Fehler-Einträge an<br/>
 <br/><br/>
 
 
 
-### OMNI Reminder
-Send email ExFlow Users have something to approve in OMNI approval.
+### Kommentarbenachrichtigung - Chat
+Senden Sie eine E-Mail, wenn ein ExFlow-Benutzer im Chat/Diskussionsbereich markiert ist
 
-| General |  | 
+| Allgemein |  | 
 |:-|:-|
-| **Email Type**:           | OMNI Reminder
-| **Process Type**:         | Scheduled 
-| **Description**:          | Add a description. This will not be added to any email
-| **CC Email**:             | To include a cc in all reminders, add email address
-| **Test Email Address**:   | Add an Email address for test mode. ExFlow will send all emails only to this user
-| **Send Attachments**:     | N/A 
-| **ExFlow Web URL**:       | N/A  
-| **Delay sending (days)**: | Add No. of days to delay email reminders from Job Queue Entries
-| **Email Scenario**:       | Use ExFlow Default if connecting to separate email account with same Scenario
+| **E-Mail-Typ**:               | Kommentarbenachrichtigung
+| **Prozess-Typ**:             | Geplant
+| **Beschreibung**:              | Fügen Sie eine Beschreibung hinzu. Diese wird keiner E-Mail hinzugefügt
+| **CC-E-Mail**:                 | N/A
+| **Test-E-Mail-Adresse**:       | Fügen Sie eine E-Mail-Adresse für den Testmodus hinzu. ExFlow sendet alle E-Mails nur an diesen Benutzer
+| **Anhänge senden**:         | N/A
+| **ExFlow Web-URL**:           | Fügen Sie die URL zu ExFlow Web hinzu. Diese wird als Link in der E-Mail hinzugefügt
+| **Verzögerung des Versands (Tage)**:     | N/A
+| **E-Mail-Szenario**:           | Verwenden Sie ExFlow Default, wenn Sie sich mit einem separaten E-Mail-Konto mit demselben Szenario verbinden
 
-| Statistics |  | 
+| Statistiken |  | 
 |:-|:-|
-| **Last Sent**:            | Shows date and time for last sent reminder
-| **No. of Email Logs**:    | Shows No. of Email Logs
-| **No. Error Entries**:    | Shows No. of Error Entries
+| **Zuletzt gesendet**:            | Zeigt Datum und Uhrzeit der zuletzt gesendeten Erinnerung an
+| **Anzahl der E-Mail-Protokolle**:    | Zeigt die Anzahl der E-Mail-Protokolle an
+| **Anzahl der Fehler-Einträge**:    | Zeigt die Anzahl der Fehler-Einträge an
 <br/><br/>
 
 
 
-### Rejected Order
-Send email if order is rejected.
+### OMNI-Erinnerung
+Senden Sie eine E-Mail, wenn ExFlow-Benutzer etwas in der OMNI-Zustimmung genehmigen müssen.
 
-| General |  | 
+| Allgemein |  | 
 |:-|:-|
-| **Email Type**:               | Rejected Order  
-| **Process Type**:             | Scheduled 
-| **Description**:              | Add a description. This will not be added to any email
-| **CC Email**:                 | To include a cc in all reminders, add email address
-| **Test Email Address**:       | Add an Email address for test mode. ExFlow will send all emails only to this user
-| **Send Attachments**:         | N/A
-| **ExFlow Web URL**:           | N/A
-| **Delay sending (days)**:     | Add No. of days to delay email reminders from Job Queue Entries
-| **Email Scenario**:           | Use ExFlow Default if connecting to separate email account with same Scenario
+| **E-Mail-Typ**:           | OMNI-Erinnerung
+| **Prozess-Typ**:         | Geplant 
+| **Beschreibung**:          | Fügen Sie eine Beschreibung hinzu. Diese wird keiner E-Mail hinzugefügt
+| **CC-E-Mail**:             | Um eine CC in allen Erinnerungen einzuschließen, fügen Sie die E-Mail-Adresse hinzu
+| **Test-E-Mail-Adresse**:   | Fügen Sie eine E-Mail-Adresse für den Testmodus hinzu. ExFlow sendet alle E-Mails nur an diesen Benutzer
+| **Anhänge senden**:     | N/A 
+| **ExFlow Web-URL**:       | N/A  
+| **Verzögerung des Versands (Tage)**: | Fügen Sie die Anzahl der Tage hinzu, um E-Mail-Erinnerungen aus den Job-Warteschlangeneinträgen zu verzögern
+| **E-Mail-Szenario**:       | Verwenden Sie ExFlow Default, wenn Sie sich mit einem separaten E-Mail-Konto mit demselben Szenario verbinden
 
-| Recipients |  |
+| Statistiken |  | 
 |:-|:-|
-| **Approval Groups**:              | Select and add an approval group
-| **Fixed Email Addresses**:        | Select or add one or several fixed email addresses
-| **Purchaser**:                    | Activate to send reminders to current order purchaser. If purchaser is missing as an ExFlow user, reminder will be sent to email address added on salespeople/purchaser card
-| **Email Purchase Coordinator**:   | Add one email address to send reminders to a specific purchase coordinator
-
-| Statistics |  | 
-|:-|:-|
-| **Last Sent**:            | Shows date and time for last sent reminder
-| **No. of Email Logs**:    | Shows No. of Email Logs
-| **No. Error Entries**:    | Shows No. of Error Entries
+| **Zuletzt gesendet**:            | Zeigt Datum und Uhrzeit der zuletzt gesendeten Erinnerung an
+| **Anzahl der E-Mail-Protokolle**:    | Zeigt die Anzahl der E-Mail-Protokolle an
+| **Anzahl der Fehler-Einträge**:    | Zeigt die Anzahl der Fehler-Einträge an
 <br/><br/>
 
 
 
-### Rejected Quote
-Send email if a quote is rejected.
+### Abgelehnte Bestellung
+Sende eine E-Mail, wenn eine Bestellung abgelehnt wird.
 
-| General |  | 
+| Allgemein |  | 
 |:-|:-|
-| **Email Type**:               | Rejected Quote 
-| **Process Type**:             | Scheduled 
-| **Description**:              | Add a description. This will not be added to any email
-| **CC Email**:                 | To include a cc in all reminders, add email address
-| **Test Email Address**:       | Add an Email address for test mode. ExFlow will send all emails only to this user
-| **Send Attachments**:         | N/A
-| **ExFlow Web URL**:           | N/A
-| **Delay sending (days)**:     | Add No. of days to delay email reminders from Job Queue Entries
-| **Email Scenario**:           | Use ExFlow Default if connecting to separate email account with same Scenario
+| **E-Mail-Typ**:               | Abgelehnte Bestellung  
+| **Prozesstyp**:             | Geplant 
+| **Beschreibung**:              | Fügen Sie eine Beschreibung hinzu. Diese wird keiner E-Mail hinzugefügt
+| **CC-E-Mail**:                 | Um eine Kopie an alle Erinnerungen anzuhängen, fügen Sie eine E-Mail-Adresse hinzu
+| **Test-E-Mail-Adresse**:       | Fügen Sie eine E-Mail-Adresse für den Testmodus hinzu. ExFlow sendet alle E-Mails nur an diesen Benutzer
+| **Anhänge senden**:         | N/A
+| **ExFlow Web-URL**:           | N/A
+| **Verzögerung des Versands (Tage)**:     | Geben Sie die Anzahl der Tage ein, um E-Mail-Erinnerungen aus den Job-Warteschlangeneinträgen zu verzögern
+| **E-Mail-Szenario**:           | Verwenden Sie die ExFlow-Voreinstellung, wenn Sie sich mit einem separaten E-Mail-Konto mit demselben Szenario verbinden
 
-| Recipients |  |
+| Empfänger |  |
 |:-|:-|
-| **Approval Groups**:              | Select and add an approval group
-| **Fixed Email Addresses**:        | Select or add one or several fixed email addresses
-| **Purchaser**:                    | Activate to send reminders to current quote purchaser. If purchaser is missing as an ExFlow user, reminder will be sent to email address added on salespeople/purchaser card
-| **Email Purchase Coordinator**:   | Add one email address to send reminders to a specific purchase coordinator
+| **Genehmigungsgruppen**:              | Wählen Sie eine Genehmigungsgruppe aus und fügen Sie sie hinzu
+| **Feste E-Mail-Adressen**:        | Wählen Sie eine oder mehrere feste E-Mail-Adressen aus oder fügen Sie sie hinzu
+| **Käufer**:                    | Aktivieren Sie dies, um Erinnerungen an den aktuellen Bestellkäufer zu senden. Wenn der Käufer als ExFlow-Benutzer fehlt, wird die Erinnerung an die E-Mail-Adresse gesendet, die auf der Verkäufer-/Käuferkarte hinzugefügt wurde
+| **E-Mail-Kaufkoordinator**:   | Fügen Sie eine E-Mail-Adresse hinzu, um Erinnerungen an einen bestimmten Kaufkoordinator zu senden
 
-| Statistics |  | 
+| Statistiken |  | 
 |:-|:-|
-| **Last Sent**:            | Shows date and time for last sent reminder
-| **No. of Email Logs**:    | Shows No. of Email Logs
-| **No. Error Entries**:    | Shows No. of Error Entries
+| **Zuletzt gesendet**:            | Zeigt Datum und Uhrzeit der letzten gesendeten Erinnerung an
+| **Anzahl der E-Mail-Protokolle**:    | Zeigt die Anzahl der E-Mail-Protokolle an
+| **Anzahl der Fehlerprotokolle**:    | Zeigt die Anzahl der Fehlerprotokolle an
 <br/><br/>
 
 
 
-### Rejected Invoice/Credit
-Send email if invoice or credit memo is rejected.
+### Abgelehntes Angebot
+Sende eine E-Mail, wenn ein Angebot abgelehnt wird.
 
-| General |  | 
+| Allgemein |  | 
 |:-|:-|
-| **Email Type**:               | Rejected Invoice/Credit 
-| **Process Type**:             | Scheduled 
-| **Description**:              | Add a description. This will not be added to any email
-| **CC Email**:                 | To include a cc in all reminders, add email address
-| **Test Email Address**:       | Add an Email address for test mode. ExFlow will send all emails only to this user
-| **Send Attachments**:         | N/A
-| **ExFlow Web URL**:           | N/A
-| **Delay sending (days)**:     | Add No. of days to delay email reminders from Job Queue Entries
-| **Email Scenario**:           | Use ExFlow Default if connecting to separate email account with same Scenario
+| **E-Mail-Typ**:               | Abgelehntes Angebot 
+| **Prozesstyp**:             | Geplant 
+| **Beschreibung**:              | Fügen Sie eine Beschreibung hinzu. Diese wird keiner E-Mail hinzugefügt
+| **CC-E-Mail**:                 | Um eine Kopie an alle Erinnerungen anzuhängen, fügen Sie eine E-Mail-Adresse hinzu
+| **Test-E-Mail-Adresse**:       | Fügen Sie eine E-Mail-Adresse für den Testmodus hinzu. ExFlow sendet alle E-Mails nur an diesen Benutzer
+| **Anhänge senden**:         | N/A
+| **ExFlow Web-URL**:           | N/A
+| **Verzögerung des Versands (Tage)**:     | Geben Sie die Anzahl der Tage ein, um E-Mail-Erinnerungen aus den Job-Warteschlangeneinträgen zu verzögern
+| **E-Mail-Szenario**:           | Verwenden Sie die ExFlow-Voreinstellung, wenn Sie sich mit einem separaten E-Mail-Konto mit demselben Szenario verbinden
 
-| Recipients |  |
+| Empfänger |  |
 |:-|:-|
-| **Approval Groups**:              | Select and add an approval group
-| **Fixed Email Addresses**:        | Select or add one or several fixed email addresses
-| **Purchaser**:                    | Activate to send reminders to current order purchaser. If purchaser is missing as an ExFlow user, reminder will be sent to email address added on salespeople/purchaser card
-| **Email Purchase Coordinator**:   | Add one email address to send reminders to a specific purchase coordinator
+| **Genehmigungsgruppen**:              | Wählen Sie eine Genehmigungsgruppe aus und fügen Sie sie hinzu
+| **Feste E-Mail-Adressen**:        | Wählen Sie eine oder mehrere feste E-Mail-Adressen aus oder fügen Sie sie hinzu
+| **Käufer**:                    | Aktivieren Sie dies, um Erinnerungen an den aktuellen Angebotskäufer zu senden. Wenn der Käufer als ExFlow-Benutzer fehlt, wird die Erinnerung an die E-Mail-Adresse gesendet, die auf der Verkäufer-/Käuferkarte hinzugefügt wurde
+| **E-Mail-Kaufkoordinator**:   | Fügen Sie eine E-Mail-Adresse hinzu, um Erinnerungen an einen bestimmten Kaufkoordinator zu senden
 
-| Statistics |  | 
+| Statistiken |  | 
 |:-|:-|
-| **Last Sent**:            | Shows date and time for last sent reminder
-| **No. of Email Logs**:    | Shows No. of Email Logs
-| **No. Error Entries**:    | Shows No. of Error Entries
+| **Zuletzt gesendet**:            | Zeigt Datum und Uhrzeit der letzten gesendeten Erinnerung an
+| **Anzahl der E-Mail-Protokolle**:    | Zeigt die Anzahl der E-Mail-Protokolle an
+| **Anzahl der Fehlerprotokolle**:    | Zeigt die Anzahl der Fehlerprotokolle an
 <br/><br/>
 
 
 
-### Contract Invoice Reminder
-Send email if contract invoice is missing.
+### Abgelehnte Rechnung/Gutschrift
+Senden Sie eine E-Mail, wenn eine Rechnung oder Gutschrift abgelehnt wird.
 
-| General |  | 
+| Allgemein |  | 
 |:-|:-|
-| **Email Type**:               | Contract Invoice Reminder 
-| **Process Type**:             | Scheduled 
-| **Description**:              | Add a description. This will not be added to any email
-| **CC Email**:                 | To include a cc in all reminders, add email address
-| **Test Email Address**:       | Add an Email address for test mode. ExFlow will send all emails only to this user
-| **Send Attachments**:         | N/A
-| **ExFlow Web URL**:           | N/A
-| **Delay sending (days)**:     | Add No. of days to delay email reminders from Job Queue Entries
-| **Email Scenario**:           | Use ExFlow Default if connecting to separate email account with same Scenario
+| **E-Mail-Typ**:               | Abgelehnte Rechnung/Gutschrift 
+| **Prozesstyp**:             | Geplant 
+| **Beschreibung**:              | Fügen Sie eine Beschreibung hinzu. Diese wird keiner E-Mail hinzugefügt
+| **CC-E-Mail**:                 | Um eine Kopie (CC) in allen Erinnerungen einzuschließen, fügen Sie eine E-Mail-Adresse hinzu
+| **Test-E-Mail-Adresse**:       | Fügen Sie eine E-Mail-Adresse für den Testmodus hinzu. ExFlow sendet alle E-Mails nur an diesen Benutzer
+| **Anhänge senden**:         | N/A
+| **ExFlow Web-URL**:           | N/A
+| **Verzögerung des Versands (Tage)**:     | Fügen Sie die Anzahl der Tage hinzu, um E-Mail-Erinnerungen aus den Job Queue-Einträgen zu verzögern
+| **E-Mail-Szenario**:           | Verwenden Sie die ExFlow-Voreinstellung, wenn Sie sich mit einem separaten E-Mail-Konto mit demselben Szenario verbinden
 
-| Recipients |  |
+| Empfänger |  |
 |:-|:-|
-| **Approval Groups**:              | Select and add an approval group
-| **Fixed Email Addresses**:        | Select or add one or several fixed email addresses
+| **Genehmigungsgruppen**:              | Wählen Sie eine Genehmigungsgruppe aus und fügen Sie sie hinzu
+| **Feste E-Mail-Adressen**:        | Wählen Sie eine oder mehrere feste E-Mail-Adressen aus oder fügen Sie sie hinzu
+| **Käufer**:                    | Aktivieren Sie dies, um Erinnerungen an den aktuellen Bestellkäufer zu senden. Wenn der Käufer als ExFlow-Benutzer fehlt, wird die Erinnerung an die E-Mail-Adresse gesendet, die auf der Verkäufer/Käufer-Karte hinzugefügt wurde
+| **E-Mail-Kaufkoordinator**:   | Fügen Sie eine E-Mail-Adresse hinzu, um Erinnerungen an einen bestimmten Kaufkoordinator zu senden
 
-| Statistics |  | 
+| Statistiken |  | 
 |:-|:-|
-| **Last Sent**:            | Shows date and time for last sent reminder
-| **No. of Email Logs**:    | Shows No. of Email Logs
-| **No. Error Entries**:    | Shows No. of Error Entries
+| **Zuletzt gesendet**:            | Zeigt Datum und Uhrzeit der zuletzt gesendeten Erinnerung an
+| **Anzahl der E-Mail-Protokolle**:    | Zeigt die Anzahl der E-Mail-Protokolle an
+| **Anzahl der Fehler-Einträge**:    | Zeigt die Anzahl der Fehler-Einträge an
 <br/><br/>
 
 
+### Vertragsrechnungserinnerung
+Senden Sie eine E-Mail, wenn eine Vertragsrechnung fehlt.
 
-### Unreceived Order - Approved
-Send reminders when and approved purchase invoice matched to an unreceived order in Approval Status. 
-
-| General |  | 
+| Allgemein |  | 
 |:-|:-|
-| **Email Type:**           | Unreceived Order - Approved
-| **Process Type:**         | Scheduled
-| **Description:**          |Add a description. This will not be added to any email
-| **CC Email:**             | N/A
-| **Test Email Address:**   |Add an email address for test mode. ExFlow will send emails only to this user
-| **Send Attachment:**      | Send attachments will enclose purchase invoice PDF as attachment and users will receive one email per document
-| **ExFlow Web URL:**       | N/A
-| **Delay sending (days):** | Add No. of days to delay email reminders sent by Job Queue Entries
-| **Email Scenario:**       | Use ExFlow Default if connecting to separate email account with same scenario
+| **E-Mail-Typ**:               | Vertragsrechnungserinnerung 
+| **Prozesstyp**:             | Geplant 
+| **Beschreibung**:              | Fügen Sie eine Beschreibung hinzu. Diese wird keiner E-Mail hinzugefügt
+| **CC-E-Mail**:                 | Um eine Kopie (CC) in allen Erinnerungen einzuschließen, fügen Sie eine E-Mail-Adresse hinzu
+| **Test-E-Mail-Adresse**:       | Fügen Sie eine E-Mail-Adresse für den Testmodus hinzu. ExFlow sendet alle E-Mails nur an diesen Benutzer
+| **Anhänge senden**:         | N/A
+| **ExFlow Web-URL**:           | N/A
+| **Verzögerung des Versands (Tage)**:     | Fügen Sie die Anzahl der Tage hinzu, um E-Mail-Erinnerungen aus den Job Queue-Einträgen zu verzögern
+| **E-Mail-Szenario**:           | Verwenden Sie die ExFlow-Voreinstellung, wenn Sie sich mit einem separaten E-Mail-Konto mit demselben Szenario verbinden
 
-| Recipients |  |
+| Empfänger |  |
 |:-|:-|
-| **Approval Groups**:              | Select and add an approval group
-| **Fixed Email Addresses**:        | Select or add one or several fixed email addresses
-| **Purchaser**:                    | Activate to send reminders to current order purchaser. If purchaser is missing as an ExFlow user, reminder will be sent to email address added on salespeople/purchaser card
-| **Email Purchase Coordinator**:   | Add one email address to send reminders to a specific purchase coordinator
+| **Genehmigungsgruppen**:              | Wählen Sie eine Genehmigungsgruppe aus und fügen Sie sie hinzu
+| **Feste E-Mail-Adressen**:        | Wählen Sie eine oder mehrere feste E-Mail-Adressen aus oder fügen Sie sie hinzu
 
-| Statistics |  | 
+| Statistiken |  | 
 |:-|:-|
-| **Last Sent**: | Shows date and time for last sent reminder
-| **No. of Email Logs**: | Shows No. of Email Logs
-| **No. Error Entries**: | Shows No. of Error Entries
+| **Zuletzt gesendet**:            | Zeigt Datum und Uhrzeit der zuletzt gesendeten Erinnerung an
+| **Anzahl der E-Mail-Protokolle**:    | Zeigt die Anzahl der E-Mail-Protokolle an
+| **Anzahl der Fehler-Einträge**:    | Zeigt die Anzahl der Fehler-Einträge an
 <br/><br/>
 
 
+### Nicht erhaltene Bestellung - Genehmigt
+Senden Sie Erinnerungen, wenn eine genehmigte Einkaufsrechnung einer nicht erhaltenen Bestellung im Genehmigungsstatus zugeordnet ist. 
+
+| Allgemein |  | 
+|:-|:-|
+| **E-Mail-Typ:**           | Nicht erhaltene Bestellung - Genehmigt
+| **Prozesstyp:**         | Geplant
+| **Beschreibung:**          | Fügen Sie eine Beschreibung hinzu. Diese wird keiner E-Mail hinzugefügt
+| **CC-E-Mail:**             | N/A
+| **Test-E-Mail-Adresse:**   | Fügen Sie eine E-Mail-Adresse für den Testmodus hinzu. ExFlow sendet E-Mails nur an diesen Benutzer
+| **Anhang senden:**      | Senden Sie Anhänge, um die Einkaufsrechnung als PDF-Anhang beizufügen. Benutzer erhalten eine E-Mail pro Dokument
+| **ExFlow Web-URL:**       | N/A
+| **Verzögerung des Versands (Tage):** | Fügen Sie die Anzahl der Tage hinzu, um E-Mail-Erinnerungen aus den Job Queue-Einträgen zu verzögern
+| **E-Mail-Szenario:**       | Verwenden Sie die ExFlow-Voreinstellung, wenn Sie sich mit einem separaten E-Mail-Konto mit demselben Szenario verbinden
+
+| Empfänger |  |
+|:-|:-|
+| **Genehmigungsgruppen**:              | Wählen Sie eine Genehmigungsgruppe aus und fügen Sie sie hinzu
+| **Feste E-Mail-Adressen**:        | Wählen Sie eine oder mehrere feste E-Mail-Adressen aus oder fügen Sie sie hinzu
+| **Käufer**:                    | Aktivieren Sie dies, um Erinnerungen an den aktuellen Bestellkäufer zu senden. Wenn der Käufer als ExFlow-Benutzer fehlt, wird die Erinnerung an die E-Mail-Adresse gesendet, die auf der Verkäufer/Käufer-Karte hinzugefügt wurde
+| **E-Mail-Kaufkoordinator**:   | Fügen Sie eine E-Mail-Adresse hinzu, um Erinnerungen an einen bestimmten Kaufkoordinator zu senden
+
+| Statistiken |  | 
+|:-|:-|
+| **Zuletzt gesendet**: | Zeigt Datum und Uhrzeit der zuletzt gesendeten Erinnerung an
+| **Anzahl der E-Mail-Protokolle**: | Zeigt die Anzahl der E-Mail-Protokolle an
+| **Anzahl der Fehler-Einträge**: | Zeigt die Anzahl der Fehler-Einträge an
+<br/><br/>

@@ -1,26 +1,26 @@
 ---
-title: User Coding Rules
+title: Benutzerprogrammierregeln
 sidebar_position: 7
 hide_title: true
 ---
-## User Coding Rules
+## Benutzerprogrammierregeln
 
-Go to: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User Coding Rules***
+Gehe zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Benutzerprogrammierregeln***
 
-If an approver should be able to do coding changes of the invoice line in ExFlow Web, ExFlow User Coding Rules can be used to decide/restrict what values he/she can select.
+Wenn ein Genehmiger Änderungen am Rechnungsposition in ExFlow Web vornehmen können soll, können Benutzerprogrammierregeln verwendet werden, um zu entscheiden/einzuschränken, welche Werte er/sie auswählen kann.
 
-Administrators can create User Coding Rules for individual or groups of users. The coding rule must be applied to the ExFlow User by referring to the ID.
+Administratoren können Benutzerprogrammierregeln für einzelne Benutzer oder Benutzergruppen erstellen. Die Programmierregel muss auf den ExFlow-Benutzer angewendet werden, indem auf die ID verwiesen wird.
 
-Each visible column in ExFlow Web can be modified. Choose if the approver should be able to select all "All", none "Empty", or a filter of values "Text Range".
+Jede sichtbare Spalte in ExFlow Web kann geändert werden. Wählen Sie aus, ob der Genehmiger alle "Alle", keine "Leere" oder einen Filter von Werten "Textbereich" auswählen können soll.
 
-The "User Coding Rule" in the example below allows the approver to change the value of column "Department" to "SALES".
+Die "Benutzerprogrammierregel" im folgenden Beispiel ermöglicht es dem Genehmiger, den Wert der Spalte "Abteilung" auf "SALES" zu ändern.
 
-| General      |	|
+| Allgemein     |	|
 |:-|:-|
-|**ID:**        | ID numbers are assigned to the coding rule in the order they are created. This has no effect on prioritization
-| **Name:**     | Descriptive name for the rule
-| **Active:**   | If the rule is active or not
+|**ID:**        | ID-Nummern werden der Programmierregel in der Reihenfolge, in der sie erstellt werden, zugewiesen. Dies hat keine Auswirkung auf die Priorisierung.
+| **Name:**     | Beschreibender Name für die Regel
+| **Aktiv:**    | Ob die Regel aktiv ist oder nicht
 
-![ExFlow User Coding Rule Card](@site/static/img/media/user-coding-rules-001.png)
+![ExFlow Benutzerprogrammierregel-Karte](./../../images/user-coding-rules-001.png)
 
-When the User Coding Rule is created, go to the ExFlow User Card, and apply the Coding Rule ID on the selected user for the specific company. An ExFlow user can only have one User Coding Rule set per company.
+Wenn die Benutzerprogrammierregel erstellt wurde, gehe zur ExFlow-Benutzerkarte und wende die Programmierregel-ID auf den ausgewählten Benutzer für das spezifische Unternehmen an. Ein ExFlow-Benutzer kann nur eine Benutzerprogrammierregel pro Unternehmen haben.

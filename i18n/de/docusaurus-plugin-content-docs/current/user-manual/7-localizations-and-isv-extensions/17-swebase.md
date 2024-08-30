@@ -5,64 +5,51 @@ hide_title: true
 ---
 ## SweBase
 
-ExFlow have also support for some functionality to be found in
-extension, SweBase.
+ExFlow unterstützt auch einige Funktionen, die in der Erweiterung SweBase zu finden sind.
 
-For SweBase related questions contact your Business Central Partner.
+Bei Fragen zu SweBase wenden Sie sich bitte an Ihren Business Central Partner.
 
-### Payment Reference -- OCR No
+### Zahlungsreferenz - OCR-Nummer
 
-Field OCR No. can be interpretated and imported or added manually in Import Journal field "Vendor Document No. 2".
+Das Feld OCR-Nummer kann interpretiert und importiert oder manuell im Feld "Lieferantenbeleg Nr. 2" im Importjournal hinzugefügt werden.
 
-When creating a document this will be added in field OCR No. on document
-header. After Posting OCR No. can be found in Vendor Ledger Entries.
+Beim Erstellen eines Dokuments wird dies im Feld OCR-Nummer im Dokumentenkopf hinzugefügt. Nach der Buchung kann die OCR-Nummer in den Lieferantenbuchungssätzen gefunden werden.
 
-Functionality for handling OCR No. in payment solution is to be found in
-extension, SweBase.
+Die Funktionalität zur Behandlung der OCR-Nummer in der Zahlungslösung befindet sich in der Erweiterung SweBase.
 
-### Inward Registration
+### Eingangsregistrierung
 
-Inward Registration can be activated from ExFlow Setup and will then
-automatically be posted on line level when creating the document from
-Import Journal.
+Die Eingangsregistrierung kann in der ExFlow-Konfiguration aktiviert werden und wird dann automatisch auf Zeilenebene gebucht, wenn das Dokument aus dem Importjournal erstellt wird.
 
-When posting Document, Inward registrations will be reversed on same
-date as posting date.
+Beim Buchen des Dokuments werden die Eingangsregistrierungen am selben Datum wie das Buchungsdatum rückgängig gemacht.
 
-And if deleting an Inward Registered document, reverse on posting date.
+Und wenn ein eingangsregistriertes Dokument gelöscht wird, wird es am Buchungsdatum rückgängig gemacht.
 
-Inward registration setup in SweBase Setup is required and "Keep Posting
-Date after Inward Registration" set to true.
+Die Eingangsregistrierungseinrichtung in der SweBase-Einrichtung ist erforderlich und "Buchungsdatum nach Eingangsregistrierung beibehalten" muss auf "true" gesetzt sein.
 
-To be able to post Inward Registration with rounding, add Inward VAT
-Posting Setup.
+Um eine Eingangsregistrierung mit Rundung buchen zu können, fügen Sie bitte die Eingangs-MwSt.-Buchungseinrichtung hinzu.
 
-#### Warning messages for Inward Registration
+#### Warnmeldungen für die Eingangsregistrierung
 
-If it's not possible to inward automatically due to an error, there is a
-possibility to personalize a column called "Skip Automatic Reg. of Inwards" to the Import Journal header. Enable this function and document can be created without inward registration. The inward can then be manually posted from the Card instead.
+Wenn eine automatische Eingangsregistrierung aufgrund eines Fehlers nicht möglich ist, besteht die Möglichkeit, eine Spalte namens "Automatische Registrierung von Eingängen überspringen" im Kopf des Importjournals zu personalisieren. Aktivieren Sie diese Funktion und das Dokument kann ohne Eingangsregistrierung erstellt werden. Die Eingangsregistrierung kann dann manuell von der Karte aus gebucht werden.
 
-![ExFlow Import Journal -- Skip Automatic Reg. of Inwards](@site/static/img/media/image368.png)
+![ExFlow Import Journal - Automatische Registrierung von Eingängen überspringen](./../../images/image368.png)
 
-### Note of Goods
+### Notiz zu Waren
 
-Field Note of Goods can be interpretated and imported or added manually
-in Import Journal.
+Das Feld "Notiz zu Waren" kann interpretiert und importiert oder manuell im Importjournal hinzugefügt werden.
 
-This can be used for free text but not displayed on ExFlow Web.
+Dies kann für Freitext verwendet werden, wird jedoch nicht auf ExFlow Web angezeigt.
 
-### Extended Posting Date for Posting with Deferral
+### Erweitertes Buchungsdatum für Buchung mit Abgrenzung
 
-In SweBase Setup there is a setting to extend the "Allow Posting Date"
-when posting Deferral.
+In der SweBase-Einrichtung gibt es eine Einstellung, um das "Zulässige Buchungsdatum" bei der Buchung mit Abgrenzung zu erweitern.
 
-This will allow Admin to Verify and Create Document in Import Journal.
-Also, to Verify and Post in Approval Status.
+Dies ermöglicht dem Administrator, das Dokument im Importjournal zu überprüfen und zu erstellen. Außerdem kann es im Genehmigungsstatus überprüft und gebucht werden.
 
-### Update VAT Product Posting Group
+### Aktualisierung der MwSt.-Produktbuchungsgruppe
 
-In SweBase there is a function used for Reverse tax liability on certain
-goods and services.
+In SweBase gibt es eine Funktion, um die Steuerschuld für bestimmte Waren und Dienstleistungen umzukehren.
 
-Same function can be used in ExFlow Import Journal to update VAT Product
-Posting due to SweBase Setup.
+Die gleiche Funktion kann im ExFlow Importjournal verwendet werden, um die MwSt.-Produktbuchungsgruppe aufgrund der SweBase-Einrichtung zu aktualisieren.
+

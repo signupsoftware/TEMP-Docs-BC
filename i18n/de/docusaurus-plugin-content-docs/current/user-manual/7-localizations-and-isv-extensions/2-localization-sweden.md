@@ -1,16 +1,15 @@
 ---
-title: Localization Sweden
+title: Lokalisierung Schweden
 sidebar_position: 2
 hide_title: true
 ---
-## Localization Sweden
+## Lokalisierung Schweden
 
-### Language
+### Sprache
 
-ExFlow supports Swedish language in Business Central.
+ExFlow unterstützt die schwedische Sprache in Business Central.
 
-### Auto Acc. Group
+### Automatische Kontengruppe
 
-ExFlow supports Auto Acc. Group in Import Journal and can be added from
-G/L Account, ExFlow Purchase Code or added manually in Import Journal
-Line.
+ExFlow unterstützt die automatische Kontengruppe im Importjournal und kann aus dem G/L-Konto, dem ExFlow-Einkaufscode oder manuell in der Importjournalzeile hinzugefügt werden.
+

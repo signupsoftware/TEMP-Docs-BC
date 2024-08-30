@@ -1,28 +1,29 @@
 ---
-title: Approve VAT Lines
+title: VAT-Linien genehmigen
 sidebar_position: 34
 hide_title: true
 ---
-## Approve VAT Lines
+## VAT-Linien genehmigen
 
-Go to: **ExFlow Setup --> Approval --> Approve VAT Lines** 
+Gehe zu: **ExFlow Setup --> Genehmigung --> VAT-Linien genehmigen** 
 
-Enable the setting ''Approve VAT Lines'' if all VAT lines should be included in the approval flow per default. 
+Aktivieren Sie die Einstellung ''VAT-Linien genehmigen'', wenn alle VAT-Linien standardmäßig im Genehmigungsprozess enthalten sein sollen. 
 
-![Approve VAT Lines](@site/static/img/media/exflow-setup-approval-vat-lines-001.png)
-
-
-Depending on settings and workflow, approval of VAT lines can be setup differently. To get all VAT lines automatically ticked for approval per default, it is possible to enable ''Propose VAT line'' in the ExFlow Purchase Code Card, or under General in ExFlow Setup. 
+![VAT-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-001.png)
 
 
-![Approve VAT Lines](@site/static/img/media/exflow-setup-approval-vat-lines-003.png)
-
-ExFlow will then send VAT lines for approval to the chosen approver according to the approval flow. Manually created VAT lines in Import Journal will also be marked for approval. 
+Je nach Einstellungen und Workflow kann die Genehmigung von VAT-Linien unterschiedlich eingerichtet werden. Um alle VAT-Linien standardmäßig automatisch für die Genehmigung anzukreuzen, können Sie ''VAT-Linie vorschlagen'' in der ExFlow Purchase Code Card oder unter Allgemein in der ExFlow-Setup aktivieren. 
 
 
-![Approve VAT Lines](@site/static/img/media/exflow-setup-approval-vat-lines-004.png)
+![VAT-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-003.png)
+
+ExFlow sendet dann VAT-Linien zur Genehmigung an den ausgewählten Genehmiger gemäß dem Genehmigungsfluss. Manuell erstellte VAT-Linien im Import Journal werden ebenfalls zur Genehmigung markiert. 
 
 
-In case of usage of ExFlow Purchase Code on the header, this setting is ignored. With this function enabled, it still works to add a coding in an ExFlow Purchase Code with VAT line that Approval box is unticked. Below VAT lines will not be included in the approval flow.
+![VAT-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-004.png)
 
-![Approve VAT Lines](@site/static/img/media/exflow-setup-approval-vat-lines-002.png)
+
+Bei Verwendung des ExFlow Purchase Code im Header wird diese Einstellung ignoriert. Mit dieser Funktion aktiviert können Sie immer noch eine Codierung in einem ExFlow Purchase Code mit VAT-Linie hinzufügen, bei dem das Genehmigungsfeld nicht angekreuzt ist. Die unten stehenden VAT-Linien werden nicht im Genehmigungsprozess enthalten sein.
+
+![VAT-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-002.png)
+

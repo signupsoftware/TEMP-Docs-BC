@@ -1,65 +1,57 @@
 ---
-title: Support Portal
+title: Support-Portal
 sidebar_position: 5
 hide_title: true
 ---
-## Support Portal
+## Support-Portal
 
-If assistance is needed, please reach out to our amazing support team
-through [Support Portal](https://support.signupsoftware.com/).
+Wenn Unterstützung benötigt wird, wenden Sie sich bitte an unser großartiges Support-Team über das [Support-Portal](https://support.signupsoftware.com/).
 
-Every customer, as standard, have two dedicated super users that will
-access Support Portal. It is however possible to add more than two super
-users if needed. Please contact SignUp Software to proceed an agreement
-change.
+Jeder Kunde hat standardmäßig zwei dedizierte Super-Benutzer, die auf das Support-Portal zugreifen können. Es ist jedoch möglich, mehr als zwei Super-Benutzer hinzuzufügen, falls erforderlich. Bitte kontaktieren Sie SignUp Software, um eine Vereinbarungsänderung vorzunehmen.
 
-Click on *SIGN IN* and choose authentication method to enter.
+Klicken Sie auf *ANMELDEN* und wählen Sie die Authentifizierungsmethode, um fortzufahren.
 
-![Support Portal](@site/static/img/media/support-portal-sign-in-001.png)
+![Support-Portal](./../../images/support-portal-sign-in-001.png)
 
-Are you the new super user? Use *REQUEST LOGIN* to access the Support Portal. Fill in the Application Form with all needed information. A Support Portal Invitation link will then be sent to the requester within 24 hours.
+Sind Sie der neue Super-Benutzer? Verwenden Sie *ANFRAGE LOGIN*, um auf das Support-Portal zuzugreifen. Füllen Sie das Antragsformular mit allen erforderlichen Informationen aus. Ein Link zur Support-Portal-Einladung wird dann innerhalb von 24 Stunden an den Antragsteller gesendet.
 
+### Austausch eines aktuellen Super-Benutzers
 
-### Replace a current Super user
+Wenn erforderlich, ist es möglich, das "Anfrage Login"-Formular auszufüllen, um einen aktuellen Super-Benutzer zu ersetzen. Dies kann nützlich sein, wenn ein anderer Benutzer während eines bestimmten Zeitraums Zugriff auf das Support-Portal haben soll. Wenn der normale Super-Benutzer zurück ist, kann er/sie das Formular erneut ausfüllen, um den Super-Benutzer-Zugriff wiederzuerlangen.
 
-If needed, it is possible to fill in the "Request Login"-form to replace a current Super user. This could be useful if another user should have access to the Support Portal during a certain period. When the ordinary super user is back, he/she can fill the form again to retake the super user access.
+![Austausch eines aktuellen Super-Benutzers](./../../images/support-portal-replace-a-super-user-002.png)
 
-![Replace a current Super user](@site/static/img/media/support-portal-replace-a-super-user-002.png)
+### Registrieren eines Support-Tickets
 
-### Register a Support Ticket
+Geben Sie die erforderlichen Informationen über das Produkt, die ERP-Version und die ExFlow-Version zusammen mit einer Beschreibung und einer Anlage mit Bildern des Problems ein.
 
-Fill in needed information about the Product, ERP version and ExFlow version together with a description, and an attachment with pictures of the issue.
+Benötigen Sie Hilfe bei der Suche nach der installierten ExFlow-Version? Lesen Sie mehr im Abschnitt [Über ExFlow](https://support.signupsoftware.com/help-and-support/about-exflow/) oder melden Sie sich in unserem [Support-Portal](https://support.signupsoftware.com/knowledgebase/find-exflow-version/) an und finden Sie es heraus.
 
-Need help to find the installed ExFlow version? Read more under section [About ExFlow](https://support.signupsoftware.com/help-and-support/about-exflow/) or login to our [Support Portal](https://support.signupsoftware.com/knowledgebase/find-exflow-version/) and find out.
+![Registrieren eines Tickets](./../../images/support-portal-register-a-ticket-003.png)
 
-![Register a ticket](@site/static/img/media/support-portal-register-a-ticket-003.png)
+Bearbeiten Sie die Support-Tickets unter "Mein Support". Eine gefilterte Seite für "Meine offenen Tickets" wird standardmäßig für den Super-Benutzer angezeigt. Um einen besseren Überblick über alle Firmenfälle und deren Status (unabhängig vom Super-Benutzer) zu erhalten, können Sie den Filter auf "Alle Firmen-Tickets" setzen. Alle Tickets werden dann in der Liste angezeigt.
 
-Handle the support tickets under My Support. A filtered page for "My Open Tickets" will be displayed for the super user per default. To get a better overview of all company cases and its statuses (regardless of super user), it's possible to set filter on " All Company Tickets". All tickets will then be displayed in the list.
+![Mein Support - Alle Firmen-Tickets](./../../images/support-portal-all-company-tickets-004.png)
 
-![My Support - All Company Tickets](@site/static/img/media/support-portal-all-company-tickets-004.png)
+### Hinzufügen oder Aktualisieren eines ExFlow-Lizenzschlüssels
 
+Für Kunden- und Partnerinstallationen von ExFlow ist eine spezifische Lizenz erforderlich.
 
-### Add or update an ExFlow License key
+Stellen Sie vor dem Erwerb einer Lizenz sicher, dass ein Vertrag oder eine Vereinbarung mit dem Vertriebsleiter von SignUp Software abgeschlossen wurde. Senden Sie dann ein Support-Ticket mit dem Namen des Kunden, um die Lizenz zu erwerben. Fügen Sie anschließend den Lizenzschlüssel in die Umgebung ein.
 
-For customer and partner installations of ExFlow, a specific license is required. 
+Die Aktivierung von Lizenzen hängt von den verwendeten Versionen von NAV/BC und ExFlow ab. Weitere Details finden Sie unten.
 
-Before obtaining a license, please ensure that a contract or agreement has been established with the Sales Manager at SignUp Software. Then submit a support ticket with the customer’s name enclosed to acquire the license. Afterwards, add the license key into the environment.
+#### ExFlow für BC Online
 
-Activating licenses depends on which versions of NAV/BC and ExFlow release are used, see details below.
- 
+Suchen Sie in Business Central nach ''ExFlow-Lizenzaktivierung'' und fügen Sie den bereitgestellten Lizenzschlüssel hinzu.
 
-#### ExFlow for BC Online
+![Lizenzschlüssel](./../../images/support-portal-license-key.png)<br/>
 
-Search for ''ExFlow License Activation'' in Business Central and add the provided license key.
+#### ExFlow für NAV und BC 13/14
 
-![License key](@site/static/img/media/support-portal-license-key.png)<br/>
+Fügen Sie die ExFlow-Granule in die FLF-Datei ein.<br/>
 
+#### ExFlow für NAV/BC OnPrem
 
-#### ExFlow for NAV and BC 13/14
+Fügen Sie sowohl den Lizenzschlüssel in der ExFlow-Lizenzaktivierung als auch die ExFlow-Granule in die FLF-Datei ein.<br/>
 
-Add ExFlow Granule into FLF-file.<br/>
-
-
-#### ExFlow for NAV/BC OnPrem
-
-BOTH add license key in ExFlow License Activation AND add ExFlow Granule into FLF-file.<br/>

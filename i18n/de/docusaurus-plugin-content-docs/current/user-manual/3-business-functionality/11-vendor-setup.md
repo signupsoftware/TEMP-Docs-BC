@@ -1,143 +1,140 @@
 ---
-title: Vendor Setup
+title: Lieferanteneinrichtung
 sidebar_position: 11
 hide_title: true
 ---
-## Vendor Setup
+## Lieferanteneinrichtung
 
-Go to: ***ExFlow Vendor Setup***
+Gehe zu: ***ExFlow Lieferanteneinrichtung***
 
-Add vendor specific prioritized settings by using ExFlow Vendor Setup. ExFlow Vendor Setup can be reached by searching, from standard Vendor card, ExFlow Setup and Import Journal.
+Füge lieferantenspezifische priorisierte Einstellungen über die ExFlow Lieferanteneinrichtung hinzu. Die ExFlow Lieferanteneinrichtung kann über die Suche, von der Standard-Lieferantenkarte, ExFlow Einrichtung und Import Journal aufgerufen werden.
 
-Simply edit the ExFlow Vendor Setup list or click on ‘‘New‘‘ to open the specific Vendor Setup Card to add/change settings. 
+Bearbeite einfach die ExFlow Lieferanteneinrichtungsliste oder klicke auf "Neu", um die spezifische Lieferanteneinrichtungskarte zu öffnen und Einstellungen hinzuzufügen/ändern.
 
-The default settings are displayed in the ExFlow Vendor Setup list. Utilize Personalize to modify the list with more fields, if necessary.
+Die Standard-Einstellungen werden in der ExFlow Lieferanteneinrichtungsliste angezeigt. Verwende "Personalisieren", um die Liste bei Bedarf mit weiteren Feldern anzupassen.
 
-![ExFlow Vendor Setup](@site/static/img/media/Vendor-setup-001.png)
+![ExFlow Lieferanteneinrichtung](./../../images/Vendor-setup-001.png)
 
-| Vendor Setup menu|  |
+| Lieferanteneinrichtungsmenü |  |
 |:-|:-|
-|**New**	|Add a new Vendor Setup
-|**Edit List**	|Edit the Vendor Setup list
-|**Delete**	|Delete a current Vendor Setup 
-|**Edit**	|Edit the current Vendor Setup Card
-|**View**	|Open the current Vendor Setup Card
-|**Related --> Auto Receiving Line Types**	|Edit or view Line Types that should be automatically received for a specific vendor.<br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
+|**Neu** | Füge eine neue Lieferanteneinrichtung hinzu
+|**Liste bearbeiten** | Bearbeite die Lieferanteneinrichtungsliste
+|**Löschen** | Lösche eine aktuelle Lieferanteneinrichtung
+|**Bearbeiten** | Bearbeite die aktuelle Lieferanteneinrichtungskarte
+|**Anzeigen** | Öffne die aktuelle Lieferanteneinrichtungskarte
+|**Verwandt --> Automatische Empfangszeilentypen** | Bearbeite oder zeige Zeilentypen an, die automatisch für einen bestimmten Lieferanten empfangen werden sollten.<br/><br/> Erfahre mehr darüber im Abschnitt [***Rechnung mit Empfangs-, Bestell- oder sowohl Empfangs- als auch Bestellzeilen abgleichen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
 
-### Vendor Setup Card Sections
+### Abschnitte der Lieferanteneinrichtungskarte
 
-Open the ExFlow Vendor Setup card to view/edit ExFlow related settings per vendor. Click on the section or ''Show more'' to display all settings.  
+Öffne die ExFlow Lieferanteneinrichtungskarte, um ExFlow-bezogene Einstellungen pro Lieferant anzuzeigen/bearbeiten. Klicke auf den Abschnitt oder "Mehr anzeigen", um alle Einstellungen anzuzeigen.
 
-
-
-![ExFlow Vendor Setup](@site/static/img/media/vendor-setup-card-sections-001.png)
+![ExFlow Lieferanteneinrichtung](./../../images/vendor-setup-card-sections-001.png)
 
 
-### General
+### Allgemein
 
-The option ''From ExFlow Setup'' is set per default in most settings, meaning that ExFlow will take the default setup (from [***ExFlow Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#exflow-setup)) if no other setup is selected on the Vendor Setup Card for the specific vendor.
+Die Option "Aus ExFlow Einrichtung" ist standardmäßig in den meisten Einstellungen festgelegt, was bedeutet, dass ExFlow die Standard-Einrichtung (aus [***ExFlow Einrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#exflow-setup)) übernimmt, wenn keine andere Einrichtung auf der Lieferanteneinrichtungskarte für den spezifischen Lieferanten ausgewählt ist.
 
+![ExFlow Lieferanteneinrichtung](./../../images/Vendor-setup-card-002.png)
 
-
-![ExFlow Vendor Setup](@site/static/img/media/Vendor-setup-card-002.png)
-
-|General|  |
+|Allgemein|  |
 |:-|:-|
-|**Vendor No**	|Specifies the Vendor No
-|**Vendor Name**	|Specifies the Vendor Name
-|**Approval Rule**	|Specifies the default approval rule to be applied for a certain vendor
-|**Predefined Account**	|ExFlow Predefined Account can be used to suggest only one G/L account for this Vendors Invoices/Credit Memos. This field cannot be used together with ExFlow Purchase Code.<br/> If "ExFlow Predefined Account" and "ExFlow Purchase Code" is empty the "Predefined Account" can be used from ExFlow Setup instead.
-|**ExFlow Purchase Code**	|ExFlow Purchase Code is used when only one G/L account is not enough. This field cannot be used together with ExFlow Predefined Account. If "ExFlow Predefined Account" and "ExFlow Purchase Code" is empty the "ExFlow Purchase Code" can be used from ExFlow Setup instead.<br/><br/> Read more about this under section [***Purchase Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/purchase-codes#purchase-codes)
-|**Verify Changes Done Automatically**| 	If a document is approved, verify changes will then be run automatically. If there are no changes to the document that status will then be Ready for Posting.
-|**Allow Duplicate Invoices**|When receiving invoices with the same invoice number from a vendor. E.g., Insurance and tax authority. This checkbox can be used to exempt control of this supplier's invoice number. It is now possible to post more than one invoice for this vendor with the same Vendor Document No.
-|**Propose VAT Line**	|If a specific vendor have VAT lines that should be included in the approval flow, this setting can be set to Yes on a vendor level. Otherwise, general setting from ExFlow Setup is used per default.
-|**Factoring Vendor**	|If the Vendor is only used for factoring, there is a checkbox that prevents creating Invoices/Credit Memos on this Vendor and it can only be used as Pay-to Vendor No. via Buy-from Vendor. <br/><br/>  Mark the checkbox Factoring Vendor on the "Pay-to Vendor No" and add this Vendor No. on the "Buy-From-Vendor" Card. <br/> <br/> If a document is interpreted on a Factoring Vendor, the ExFlow Import Journal will give an action message: "This invoice is flagged as Factoring and is thus not allowed to be created!".
-|**Payment Validation** 	|Specifies if the payment validation process will be applied during the import and data interpretation process. <br/><br/> Read more about this under section [***Payment Validation Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-setup)
-|**Suggest Recipient Bank Account** 	|Specifies if the Suggestion of Recipient Bank Account is activated. <br/><br/> Read more about this under section [***Suggest Recipient Bank Account***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#suggest-recipient-bank-account)
-|**Ignore Payment Validation Warning**| Specifies if Payment Validation Warning should be ignored for this vendor
-|**Ignore Payment Suggestion Warning**| Specifies if Payment Suggestion Warning should be ignored for this vendor
-|**Move Deferral Forward** 	|When posting date in Deferral Schedule is before allowed posting date for the user, that period will be posted on first allowed posting date in General Ledger Setup or User Setup. ExFlow will only move deferrals forward for closed periods. <br/><br/> Read more about this under section [***Move Deferral Forward***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#move-deferral-forward)
-|**Confidential Documents**|Specifies if documents should be handled as Confidential Documents.
+|**Lieferantennummer** | Gibt die Lieferantennummer an
+|**Lieferantenname** | Gibt den Lieferantennamen an
+|**Genehmigungsregel** | Gibt die Standard-Genehmigungsregel für einen bestimmten Lieferanten an
+|**Vordefiniertes Konto** | Das ExFlow vordefinierte Konto kann verwendet werden, um nur ein G/L-Konto für Rechnungen/Gutschriften dieses Lieferanten vorzuschlagen. Dieses Feld kann nicht zusammen mit dem ExFlow Einkaufscode verwendet werden.<br/> Wenn "ExFlow vordefiniertes Konto" und "ExFlow Einkaufscode" leer sind, kann das "Vordefinierte Konto" stattdessen aus der ExFlow Einrichtung verwendet werden.
+|**ExFlow Einkaufscode** | Der ExFlow Einkaufscode wird verwendet, wenn ein einziges G/L-Konto nicht ausreicht. Dieses Feld kann nicht zusammen mit dem ExFlow vordefinierten Konto verwendet werden. Wenn "ExFlow vordefiniertes Konto" und "ExFlow Einkaufscode" leer sind, kann der "ExFlow Einkaufscode" stattdessen aus der ExFlow Einrichtung verwendet werden.<br/><br/> Erfahre mehr darüber im Abschnitt [***Einkaufscodes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/purchase-codes#purchase-codes)
+|**Änderungen automatisch überprüfen** | Wenn ein Dokument genehmigt wird, werden die Überprüfungen automatisch durchgeführt. Wenn es keine Änderungen am Dokument gibt, wird der Status auf "Bereit zur Buchung" gesetzt.
+|**Doppelte Rechnungen zulassen** | Wenn Rechnungen mit derselben Rechnungsnummer von einem Lieferanten eingehen. Z.B. Versicherung und Steuerbehörde. Mit diesem Kontrollkästchen kann die Überprüfung der Rechnungsnummer dieses Lieferanten ausgesetzt werden. Es ist nun möglich, mehr als eine Rechnung für diesen Lieferanten mit derselben Lieferantendokumentnummer zu buchen.
+|**VAT-Zeile vorschlagen** | Wenn ein bestimmter Lieferant VAT-Zeilen enthält, die in den Genehmigungsprozess einbezogen werden sollen, kann diese Einstellung auf Lieferantenebene auf "Ja" gesetzt werden. Andernfalls wird die allgemeine Einstellung aus der ExFlow Einrichtung standardmäßig verwendet.
+|**Factoring-Lieferant** | Wenn der Lieferant nur für Factoring verwendet wird, gibt es ein Kontrollkästchen, das das Erstellen von Rechnungen/Gutschriften bei diesem Lieferanten verhindert. Stattdessen kann er nur als "Zahlung an Lieferantennummer" über "Kauf von Lieferanten" verwendet werden. <br/><br/> Markiere das Kontrollkästchen "Factoring-Lieferant" auf der "Zahlung an Lieferantennummer" und füge diese Lieferantennummer auf der "Kauf-von-Lieferanten"-Karte hinzu. <br/> <br/> Wenn ein Dokument bei einem Factoring-Lieferanten interpretiert wird, gibt das ExFlow Import Journal eine Aktionsmeldung aus: "Diese Rechnung ist als Factoring gekennzeichnet und darf daher nicht erstellt werden!".
+|**Zahlungsvalidierung** | Gibt an, ob der Zahlungsvalidierungsprozess während des Import- und Dateninterpretationsprozesses angewendet wird. <br/><br/> Erfahre mehr darüber im Abschnitt [***Zahlungsvalidierungseinrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-setup)
+|**Vorschlag Empfänger-Bankkonto** | Gibt an, ob die Vorschlagfunktion für das Empfänger-Bankkonto aktiviert ist. <br/><br/> Erfahre mehr darüber im Abschnitt [***Vorschlag Empfänger-Bankkonto***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#suggest-recipient-bank-account)
+|**Zahlungsvalidierungswarnung ignorieren** | Gibt an, ob die Zahlungsvalidierungswarnung für diesen Lieferanten ignoriert werden soll
+|**Zahlungsvorschlagswarnung ignorieren** | Gibt an, ob die Zahlungsvorschlagswarnung für diesen Lieferanten ignoriert werden soll
+|**Deferral nach vorne verschieben** | Wenn das Buchungsdatum im Deferral-Zeitplan vor dem erlaubten Buchungsdatum für den Benutzer liegt, wird dieser Zeitraum am ersten erlaubten Buchungsdatum in der Allgemeinen Ledger Einrichtung oder Benutzereinrichtung gebucht. ExFlow verschiebt Deferrals nur für geschlossene Perioden nach vorne. <br/><br/> Erfahre mehr darüber im Abschnitt [***Deferral nach vorne verschieben***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#move-deferral-forward)
+|**Vertrauliche Dokumente** | Gibt an, ob Dokumente als vertrauliche Dokumente behandelt werden sollen.
 
 <br/>
 
-### Doc. Creation Checks
+### Überprüfung der Dokumenterstellung
 
-|Doc. Creation Checks|  |
+| Überprüfung der Dokumenterstellung |  |
 |:-|:-|
-|**Automatically Create Documents**| Enable this box if interpreted documents should be automatically created from the ExFlow Import Journal for a specific vendor. If the box is ticked on the vendor card, all interpreted documents with no errors or warning messages will be automatically created and send for approval. <br/><br/>This function can be used without any setup on ExFlow Import Journal. However, it is possible Personalize the ExFlow Import Journals list page and add the column "Automatically Create Documents" there, to have one dedicated journal for automatically create documents. <br/><br/>Read more about this under section [***Batch Import Documents from Interpretation ***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation) and under section [***Background Processing***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#background-processing)
-|**Check References** 	|When enabled it is required that the document contains an ExFlow Reference.
-|**Match Vendor's Currency Code**	|Specifies if the currency code on the imported document must match the currency code on the vendor card. <br/><br/> Read more about this under section [***Match Vendor's Currency Code***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#match-vendors-currency)
-|**Block in Import Journal**| 	Specifies if documents should be blocked from creation
-|**Exclude when Vendor Doc. No. starts with**| Specifies the exclusion of imported document from creation blockage, if the Vendor Doc. No. starts with… This setting will be shown when activating ‘’Block in Import Journal’’.
-|**Check Dimensions**	|Specifies if the standard dimension settings in Business Central should be checked when the invoice is created
-|**Auto. Assign of VAT Diff. for Creation** 	|Specifies if automatic assignment of VAT Difference should be done if the difference of VAT on lines and header is within Max. Allowed VAT Difference
-|**Test Amounts** 	|Specifies if the Gross/Net/Vat amounts on the document should checked for variances (difference between sum of document lines and the corresponding amount in the document header) before the invoice is created.
+|**Dokumente automatisch erstellen**| Aktivieren Sie dieses Feld, wenn interpretierte Dokumente automatisch aus dem ExFlow Import Journal für einen bestimmten Lieferanten erstellt werden sollen. Wenn das Feld auf der Lieferantenkarte aktiviert ist und alle interpretierten Dokumente keine Fehler- oder Warnmeldungen enthalten, werden sie automatisch erstellt und zur Genehmigung gesendet. <br/><br/>Diese Funktion kann ohne jegliche Einrichtung im ExFlow Import Journal verwendet werden. Es ist jedoch möglich, die Liste der ExFlow Import Journals zu personalisieren und die Spalte "Dokumente automatisch erstellen" hinzuzufügen, um ein dediziertes Journal für die automatische Dokumentenerstellung zu haben. <br/><br/>Lesen Sie mehr dazu im Abschnitt [***Batch-Import von Dokumenten aus der Interpretation***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation) und im Abschnitt [***Hintergrundverarbeitung***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#background-processing)
+|**Überprüfung der Referenzen** 	|Wenn aktiviert, ist es erforderlich, dass das Dokument eine ExFlow-Referenz enthält.
+|**Währungscode des Lieferanten abgleichen**	|Gibt an, ob der Währungscode auf dem importierten Dokument mit dem Währungscode auf der Lieferantenkarte übereinstimmen muss. <br/><br/>Lesen Sie mehr dazu im Abschnitt [***Währungscode des Lieferanten abgleichen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#match-vendors-currency)
+|**Blockierung im Importjournal**| 	Gibt an, ob Dokumente von der Erstellung blockiert werden sollen.
+|**Ausschluss, wenn Lieferanten-Dok.-Nr. beginnt mit**| Gibt den Ausschluss des importierten Dokuments von der Blockierung der Erstellung an, wenn die Lieferanten-Dok.-Nr. mit... beginnt. Diese Einstellung wird angezeigt, wenn "Blockierung im Importjournal" aktiviert ist.
+|**Abmessungen überprüfen**	|Gibt an, ob die Standardabmessungseinstellungen in Business Central überprüft werden sollen, wenn die Rechnung erstellt wird.
+|**Automatische Zuordnung der MwSt.-Differenz für die Erstellung** 	|Gibt an, ob die automatische Zuordnung der MwSt.-Differenz erfolgen soll, wenn die Differenz der MwSt. in den Zeilen und im Header innerhalb der maximal zulässigen MwSt.-Differenz liegt.
+|**Betragstests** 	|Gibt an, ob die Brutto-/Netto-/MwSt.-Beträge auf dem Dokument auf Abweichungen überprüft werden sollen (Unterschied zwischen der Summe der Dokumentzeilen und dem entsprechenden Betrag im Dokumentheader), bevor die Rechnung erstellt wird.
 
 <br/>
 
-### Doc. Posting Checks
+### Überprüfung der Dokumentbuchung
 
-|Doc. Posting Checks|  |
+| Überprüfung der Dokumentbuchung |  |
 |:-|:-|
-|**Automatically Post Documents**| Enable "Automatically Post Documents" to automatically post documents for a specific Vendor in Approval Status when the document is Ready for Posting. ExFlow will only try to post once. If any error messages exist during posting, then the document will stay unposted in Approval Status together with an error message. Correct the error and post manually.
-|**Block before Posting**| Specifies if documents should be blocked from posting.
+|**Dokumente automatisch buchen**| Aktivieren Sie "Dokumente automatisch buchen", um Dokumente für einen bestimmten Lieferanten im Genehmigungsstatus automatisch zu buchen, wenn das Dokument zur Buchung bereit ist. ExFlow versucht nur einmal zu buchen. Wenn während der Buchung Fehlermeldungen auftreten, bleibt das Dokument ungebucht im Genehmigungsstatus zusammen mit einer Fehlermeldung. Korrigieren Sie den Fehler und buchen Sie manuell.
+|**Blockierung vor der Buchung**| Gibt an, ob Dokumente von der Buchung blockiert werden sollen.
 
 <br/>
 
-### PO Matching
+### Bestellabgleich
 
-|PO Matching|  |
+| Bestellabgleich |  |
 |:-|:-|
-|**Match Documents To**|  Specifies if ExFlow should match and retrieve lines from Purchase Orders or from Posted Receipts, or from both Orders and Receipts. <br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
-|**Automatically Receive Purchase Order**|  	Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order" or "Order and Receipt". 
-|**Specific Line Diff Unit Cost Setting**| The fields ''In LCY’’ and ‘’Percent %’’ will be visible when enabling this setting.
-|**Specific Max Misc. Setting**| Enable to activate the Max. Misc. function.
-|**Max Misc. Charges (LCY)**| Enter the max misc charges in LCY.
-|**Diff.Line Purch. Code**| Select the ExFlow Purchase Code to be selected for the diff. line.
-|**Specific Diff Setting**|Enable to activate the Specific Diff Setting.
-|**Receipt No. Mandatory**|Activate if Receipt No. is Mandatory
-|**Do Not Match Orders**|Activate if order matching should not occur for this vendor.
-|**Approval Only for Variations**| Select if approval  should only be applied for variations with option: ExFlow setup,Yes or No.
-|**Automatic Item Charge Assignment**|	Specifies what type of item charge assignment that should be used when posting invoices. It can be done equally, by amount, by weight or by volume automatically. None = no automatic assignment is done. <br/><br/> Read more about this under section [***Item Charge Assignment***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#item-charge-assignment)
-|**Save Matched Lines to OCR Mapping**|This option can be used to automatically save manually matched invoice lines from "Matching View" based on vendor, interpreted Item No. These lines will be saved in the ExFlow OCR Import Mapping table and can be re-used to suggest matching for future PO-invoices with same criteria
-|**Multiple Line Matching**|  	This setting enables ExFlow to match one invoice line to multiple order lines or receipt lines. If the quantity of the invoice line is greater than the quantity of the order line, ExFlow will split the invoice line and proceed to partially match with other available order lines or receipt lines.
-|**Check Split Invoice Lines**|  	If “Multiple Line Matching” is true, ExFlow will give action messages for each line that has been split which gives the user an option to manually confirm the suggested matching before creating the document. Turning this setting to false means that no action message will be displayed for matched split lines.
-|**Use PO Header Values on Invoice**|  	Activate fields to transfer from Purchase Order to Invoice (Or Return Purchase Order to Credit Memo) in Import Journal when using order matching on header level. Selected values can be found and updated under Related --> Advanced --> PO Header values on Invoice Setup. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
-|**Auto Approve Invoices**|  	Specifies if the invoice should be auto approved if the related order is approved. <br/><br/> Read more about this under section [***Auto Approve Invoices***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
-|**Max. Invoice Amount for System Approval (LCY) **| Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
-|**User for Automatic Approval**|  	Specifies the ExFlow user that should be used for auto approved invoices. If this setting is empty, then the id of the logged in BC user is used
+|**Dokumente abgleichen mit**|  Gibt an, ob ExFlow Zeilen aus Bestellungen oder gebuchten Wareneingängen oder aus beiden Bestellungen und Wareneingängen abgleichen und abrufen soll. <br/><br/>Lesen Sie mehr dazu im Abschnitt [***Rechnung mit Wareneingangs-, Bestell- oder sowohl Wareneingangs- als auch Bestellzeilen abgleichen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
+|**Bestellung automatisch empfangen**| 	Gibt an, ob die Bestellzeilen automatisch empfangen werden sollen, wenn die abgeglichene Rechnung auf "Zur Buchung bereit" gesetzt ist. Diese Option ist nur anwendbar, wenn die Einstellung "Dokumente abgleichen mit" als "Bestellung" oder "Bestellung und Wareneingang" konfiguriert ist.
+|**Spezifische Einstellung für Differenz Einheitskosten**| Die Felder ''In LCY'' und ''Prozent %'' werden sichtbar, wenn diese Einstellung aktiviert ist.
+|**Spezifische Max. Misc. Einstellung**| Aktivieren Sie diese Option, um die Max. Misc.-Funktion zu aktivieren.
+|**Max. Misc.-Gebühren (LCY)**| Geben Sie die Max. Misc.-Gebühren in LCY ein.
+|**Differenzzeile Einkaufscode**| Wählen Sie den ExFlow-Einkaufscode aus, der für die Differenzzeile ausgewählt werden soll.
+|**Spezifische Differenzeinstellung**|Aktivieren Sie diese Option, um die spezifische Differenzeinstellung zu aktivieren.
+|**Erforderliche Belegnummer**|Aktivieren Sie dies, wenn die Belegnummer erforderlich ist.
+|**Bestellungen nicht abgleichen**|Aktivieren Sie dies, wenn kein Bestellabgleich für diesen Lieferanten erfolgen soll.
+|**Genehmigung nur für Abweichungen**| Wählen Sie aus, ob die Genehmigung nur für Abweichungen angewendet werden soll, mit der Option: ExFlow-Einrichtung, Ja oder Nein.
+|**Automatische Zuordnung von Artikelgebühren**| Gibt an, welche Art der automatischen Zuordnung von Artikelgebühren verwendet werden soll, wenn Rechnungen gebucht werden. Es kann gleichmäßig, nach Betrag, nach Gewicht oder nach Volumen automatisch zugewiesen werden. Keine = es erfolgt keine automatische Zuordnung. <br/><br/>Lesen Sie mehr dazu im Abschnitt [***Zuordnung von Artikelgebühren***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#item-charge-assignment)
+|**Zugewiesene Zeilen in OCR-Mapping speichern**| Diese Option kann verwendet werden, um manuell abgeglichene Rechnungszeilen aus der "Abgleichsansicht" basierend auf Lieferant und interpretierter Artikelnummer automatisch im ExFlow OCR Import Mapping zu speichern. Diese Zeilen werden in der Tabelle gespeichert und können zur Vorschlagserstellung für zukünftige PO-Rechnungen mit den gleichen Kriterien wiederverwendet werden.
+|**Mehrere Zeilenabgleich**| Diese Einstellung ermöglicht es ExFlow, eine Rechnungszeile mit mehreren Bestellzeilen oder Wareneingangszeilen abzugleichen. Wenn die Menge der Rechnungszeile größer ist als die Menge der Bestellzeile, teilt ExFlow die Rechnungszeile auf und gleicht sie teilweise mit anderen verfügbaren Bestellzeilen oder Wareneingangszeilen ab.
+|**Aufteilung von Rechnungszeilen überprüfen**| Wenn "Mehrere Zeilenabgleich" aktiviert ist, gibt ExFlow für jede aufgeteilte Zeile Aktionen aus, die dem Benutzer die Möglichkeit geben, den vorgeschlagenen Abgleich manuell zu bestätigen, bevor das Dokument erstellt wird. Wenn diese Einstellung auf "false" gesetzt ist, werden keine Aktionen für abgeglichene aufgeteilte Zeilen angezeigt.
+|**Verwendung von PO-Headerwerten auf der Rechnung**| Aktivieren Sie Felder, um Werte von der Bestellung auf die Rechnung zu übertragen (oder von der Rückbestellung auf die Gutschrift), wenn der Bestellabgleich auf der Kopfebene verwendet wird. Die ausgewählten Werte können unter Verwandt --> Erweitert --> PO-Headerwerte in der Rechnungseinrichtung gefunden und aktualisiert werden. <br/><br/>Lesen Sie mehr dazu im Abschnitt [***Kopieren von PO-Headerwerten***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
+|**Rechnungen automatisch genehmigen**| Gibt an, ob die Rechnung automatisch genehmigt werden soll, wenn die zugehörige Bestellung genehmigt wird. <br/><br/>Lesen Sie mehr dazu im Abschnitt [***Automatische Genehmigung von Rechnungen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
+|**Max. Rechnungsbetrag für automatische Genehmigung (LCY) **| Gibt den maximal zulässigen Rechnungsbetrag für automatische Genehmigungen an. 0 = deaktiviert
+|**Benutzer für automatische Genehmigung**| Gibt den ExFlow-Benutzer an, der für automatisch genehmigte Rechnungen verwendet werden soll. Wenn diese Einstellung leer ist, wird die ID des angemeldeten BC-Benutzers verwendet.
 
 <br/>
 
-### OCR Import
+### OCR-Import
 
-|OCR Import|  |
+| OCR-Import |  |
 |:-|:-|
-|**Set Due Date to (OCR) **| 	Specifies how the default due date should be set when importing an invoice
-|**Ignore Imported Currency Code**| 	Specifies that ExFlow should always clear the imported currency code i.e. no currency is used when importing invoices
-|**Ignore OCR Lines**| 	Specifies that ExFlow should always ignore imported invoice lines i.e. only invoice header information is ever used
-|**Specific Misc Code Setting**| Enable to utilize misc. purchase code(s).
-|**Misc. 1 Purch. Code**| 	Specifies the default purchase code when using the Misc 1 code mapping in the ExFlow import specification
-|**Misc. 2 Purch. Code**| 	Specifies the default purchase code when using the Misc 2 code mapping in the ExFlow import specification
-|**Automatic Quantity Assignment**| 	Specifies if quantity should be converted to 1 if imported quantity is 0.
-|**Ignore Master Data Synchronization**| It is possible to disregard Master Data Synchronization on a vendor level. Simply enable the checkbox ''Ignore Master Data Synchronization'' on the chosen Vendor in its Vendor Setup Card to ensure that its master data will not be sent to ExFlow Data Capture.
+|**Fälligkeitsdatum festlegen (OCR) **| Gibt an, wie das Standardfälligkeitsdatum festgelegt werden soll, wenn eine Rechnung importiert wird.
+|**Importierten Währungscode ignorieren**| Gibt an, dass ExFlow den importierten Währungscode immer löschen soll, d.h. keine Währung verwendet wird, wenn Rechnungen importiert werden.
+|**OCR-Zeilen ignorieren**| Gibt an, dass ExFlow immer importierte Rechnungszeilen ignorieren soll, d.h. nur Informationen im Rechnungskopf verwendet werden.
+|**Spezifische Misc-Code-Einstellung**| Aktivieren Sie diese Option, um Misc-Kaufcodes zu verwenden.
+|**Misc 1 Kaufcode**| Gibt den Standard-Kaufcode an, wenn die Misc 1-Codezuordnung in der ExFlow-Importspezifikation verwendet wird.
+|**Misc 2 Kaufcode**| Gibt den Standard-Kaufcode an, wenn die Misc 2-Codezuordnung in der ExFlow-Importspezifikation verwendet wird.
+|**Automatische Mengenzuordnung**| Gibt an, ob die Menge auf 1 umgerechnet werden soll, wenn die importierte Menge 0 ist.
+|**Synchronisierung der Stammdaten ignorieren**| Es ist möglich, die Synchronisierung der Stammdaten auf Lieferantenebene zu ignorieren. Aktivieren Sie einfach das Kontrollkästchen "Synchronisierung der Stammdaten ignorieren" auf dem ausgewählten Lieferanten in seiner Lieferanteneinrichtungskarte, um sicherzustellen, dass seine Stammdaten nicht an ExFlow Data Capture gesendet werden.
 
 <br/>
 
-### Approval
+### Genehmigung
 
-|Approval|  |
+| Genehmigung |  |
 |:-|:-|
-|**Approve VAT Lines**| 	Specifies if the VAT lines should be included in the approval flow. If using an ExFlow Purchase Code on the header, this setting will be ignored. <br/><br/> Read more about this under section [***Approve VAT Lines.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)
+|**MwSt.-Zeilen genehmigen**| Gibt an, ob die MwSt.-Zeilen in den Genehmigungsprozess einbezogen werden sollen. Wenn auf dem Header ein ExFlow-Einkaufscode verwendet wird, wird diese Einstellung ignoriert. <br/><br/>Lesen Sie mehr dazu im Abschnitt [***MwSt.-Zeilen genehmigen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)
 
 <br/>
 
-### Auto Coding Suggestion
+### Automatische Codierungsvorschläge
 
-|Auto Coding Suggestion|  |
+| Automatische Codierungsvorschläge |  |
 |:-|:-|
-|**Use Automatic Suggestion**|Choose if the vendor should utilize this function.
-|**Calculate Auto Suggestions From Date**| 	Specifies the starting date of the document to be used in the auto coding suggestions for this vendor.
-|**Use Automatic Suggestion of Amount from Coding Set ID**|	Specifies if the amount will be suggested automatically to the document line based on the usage percentage in the Coding Set ID, fo9r this vendor. <br/><br/> Read more about this under section [***Automatic Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
+|**Automatische Vorschläge verwenden**| Wählen Sie aus, ob der Lieferant diese Funktion nutzen soll.
+|**Automatische Vorschläge ab Datum berechnen**| Gibt das Startdatum des Dokuments an, das für die automatischen Codierungsvorschläge für diesen Lieferanten verwendet werden soll.
+|**Automatischer Vorschlag des Betrags aus der Codierungsset-ID verwenden**| Gibt an, ob der Betrag automatisch zur Dokumentzeile vorgeschlagen wird, basierend auf dem Verwendungsprozentsatz in der Codierungsset-ID für diesen Lieferanten. <br/><br/>Lesen Sie mehr dazu im Abschnitt [***Einrichtung automatischer Codierungsvorschläge***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
+ Lieferanteneinrichtung
 

@@ -1,96 +1,97 @@
 ---
-title: Troubleshooting
+title: Fehlerbehebung
 sidebar_position: 2
 hide_title: true
 ---
-## Troubleshooting
+## Fehlerbehebung
 <br/>
 
-### Common Setup Issues
+### Häufige Einrichtungsprobleme
 
-#### **Issue:** VAT Product Posting Group is wrong.
-**Solution:** VAT Product Posting Group is copied from the setup of the G/L Account. If there is no VAT Product Posting Group on the G/L Account, this group is copied from the "Standard VAT Product Posting Group" in the "ExFlow Setup". Find this setting in ***ExFlow Setup --> General.***
+#### **Problem:** Die Umsatzsteuer-Produktbuchungsgruppe ist falsch.
+**Lösung:** Die Umsatzsteuer-Produktbuchungsgruppe wird aus der Einrichtung des G/L-Kontos kopiert. Wenn auf dem G/L-Konto keine Umsatzsteuer-Produktbuchungsgruppe vorhanden ist, wird diese Gruppe aus der "Standard-Umsatzsteuer-Produktbuchungsgruppe" in der "ExFlow-Einrichtung" kopiert. Finden Sie diese Einstellung in ***ExFlow-Einrichtung --> Allgemein.***
 <br/>
 
-#### **Issue:** VAT amount is not correct.
-**Solution:** Check that the amount in document header is the same as in the PDF-document. Check that the right" VAT Product Posting Group" is used. Modify the lines if needed and check that the document lines match the document header.
+#### **Problem:** Der Umsatzsteuerbetrag ist nicht korrekt.
+**Lösung:** Überprüfen Sie, ob der Betrag im Dokumentkopf mit dem im PDF-Dokument übereinstimmt. Überprüfen Sie, ob die richtige "Umsatzsteuer-Produktbuchungsgruppe" verwendet wird. Ändern Sie bei Bedarf die Zeilen und überprüfen Sie, ob die Dokumentzeilen mit dem Dokumentkopf übereinstimmen.
 <br/>
 
-#### **Issue:** User cannot see documents for new company on ExFlow web.
-**Solution:** Add Company Name under Permissions on ExFlow User Card.
+#### **Problem:** Benutzer kann keine Dokumente für das neue Unternehmen auf ExFlow Web sehen.
+**Lösung:** Fügen Sie den Firmennamen unter Berechtigungen auf der ExFlow-Benutzerkarte hinzu.
 <br/>
 
-### Common Action Messages
+### Häufige Aktionsnachrichten
 
-#### **Action Message:** See line for specific action message.
-**Action Message on Import Lines:** Approvers missing.<br/>
-**Solution:** Approvers are usually added automatically by Approval Rules etc. If missing it is possible to add Approval Group document line in FactBox "Approval proposal".
+#### **Aktionsnachricht:** Siehe Zeile für spezifische Aktionsnachricht.
+**Aktionsnachricht bei Importzeilen:** Genehmiger fehlt.<br/>
+**Lösung:** Genehmiger werden normalerweise automatisch durch Genehmigungsregeln usw. hinzugefügt. Wenn sie fehlen, können Sie eine Genehmigungsgruppendokumentzeile in der FactBox "Genehmigungsvorschlag" hinzufügen.
 <br/>
 
-#### **Action Message:** VAT Amount (1291,60) is not equal to total VAT of lines (645,80).
-**Solution:** Check if the VAT Amount is correct interpreted. Check the import lines, are "VAT Product Posting Groups" correct? If not, change to the correct ones.
+#### **Aktionsnachricht:** Umsatzsteuerbetrag (1291,60) entspricht nicht der Gesamtumsatzsteuer der Zeilen (645,80).
+**Lösung:** Überprüfen Sie, ob der Umsatzsteuerbetrag korrekt interpretiert wird. Überprüfen Sie die Importzeilen, sind die "Umsatzsteuer-Produktbuchungsgruppen" korrekt? Wenn nicht, ändern Sie sie entsprechend.
 <br/>
 
-#### **Action Message:** Duplicate Import Header in Journal Batch OCR - occurrence 2!
-**Solution:** The Vendor Document No. has already been used in an open purchase document, Import Journal or Posted Purchase Invoice. If the line is a real duplicate - delete the journal line.
+#### **Aktionsnachricht:** Doppelter Importkopf in Journal Batch OCR - Vorkommen 2!
+**Lösung:** Die Lieferantenbelegnummer wurde bereits in einem offenen Einkaufsdokument, Importjournal oder gebuchten Eingangsrechnung verwendet. Wenn die Zeile eine echte Duplikation ist, löschen Sie die Journallinie.
 
-If the number is used before and this is correct, maybe a rent / insurance / subscription, set the "Allow Duplicate Invoice" to Yes on the **ExFlow Vendor Setup Card** under the General tab.
+Wenn die Nummer zuvor verwendet wurde und dies korrekt ist, z. B. bei Miete/Versicherung/Abonnement, setzen Sie "Doppelte Rechnung zulassen" auf Ja in der **ExFlow-Lieferanteneinrichtungskarte** unter dem Tab Allgemein.
 <br/>
 
-#### **Action Message:** This invoice is flagged as Factoring and is thus not allowed to be created!
-**Solution:** If User receive this message User should ensure that Buy-from Vendor is the Vendor from whom User purchase the goods while "Pay-to Vendor" is the Factoring Vendor. If this is not the case, change Vendor number.
+#### **Aktionsnachricht:** Diese Rechnung ist als Factoring gekennzeichnet und darf daher nicht erstellt werden!
+**Lösung:** Wenn der Benutzer diese Meldung erhält, sollte der Benutzer sicherstellen, dass "Kauf von Lieferant" der Lieferant ist, von dem der Benutzer die Waren kauft, während "Zahlung an Lieferant" der Factoring-Lieferant ist. Wenn dies nicht der Fall ist, ändern Sie die Lieferantennummer.
 
- Factory Vendor setting can be found on the **Vendor card --> Related--> ExFlow Vendor Setup.** 
- 
- Read more about this under section [***ExFlow Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
+Die Einstellung für den Factoring-Lieferanten finden Sie auf der **Lieferantenkarte --> Verwandt --> ExFlow-Lieferanteneinrichtung.**
+
+Lesen Sie mehr dazu im Abschnitt [***ExFlow-Lieferanteneinrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 <br/>
 
 
-#### **Action Message**: Amount (XX) is not equal to total of on lines (YY).
-**Solution**: Look in the setting in **ExFlow Setup -->** **PO Matching --> Automatic Difference Line**, settings can be involved. The difference does not correspond to the "Max Diff. Amount (LCY)" or\ "Max Diff. %" setting (or both). Modify the amount on the header or on the lines.
+#### **Aktionsnachricht**: Betrag (XX) entspricht nicht der Summe der Zeilen (YY).
+**Lösung**: Überprüfen Sie die Einstellung in **ExFlow-Einrichtung -->** **PO-Abgleich --> Automatische Differenzzeile**, möglicherweise sind Einstellungen beteiligt. Die Differenz entspricht nicht der Einstellung "Max Diff. Betrag (LCY)" oder "Max Diff. %" (oder beides). Ändern Sie den Betrag im Kopf oder in den Zeilen.
 <br/>
 
-### Order Related Messages
-####  **Action Message**: Document Order XXX does not exist!
-**Solution**: First, check if this Order number is the same as on the scanned picture. If this is correct, go to "Order No." column and look on this Orders numbers.
+### Auftragsbezogene Nachrichten
+####  **Aktionsnachricht**: Dokumentauftrag XXX existiert nicht!
+**Lösung**: Überprüfen Sie zuerst, ob diese Auftragsnummer mit dem gescannten Bild übereinstimmt. Wenn dies korrekt ist, gehen Sie zur Spalte "Auftragsnummer" und prüfen Sie diese Auftragsnummern.
 <br/>
 
-####  **Action Message:** Order No XX has no received lines.
-**Solution:** When a user gets a message that the order cannot be matched against receipt line, this needs to be handled on the Purchase Order Line. Note that receipts are not handled in ExFlow.
+####  **Aktionsnachricht:** Auftragsnummer XX hat keine empfangenen Zeilen.
+**Lösung:** Wenn ein Benutzer eine Meldung erhält, dass der Auftrag nicht mit der Wareneingangszeile abgeglichen werden kann, muss dies in der Bestellzeile behandelt werden. Beachten Sie, dass Wareneingänge nicht in ExFlow behandelt werden.
 
-Go to Purchase Order e.g., via "Order No.", make sure receipt has been done and post the receipt.
+Gehen Sie zur Bestellung, z. B. über "Auftragsnummer", stellen Sie sicher, dass der Wareneingang erfolgt ist, und buchen Sie den Wareneingang.
 <br/>
 
-#### **Action Message:** Line with Order No XX cannot be matched against a receipt line.
-**Solution:** When a User gets a message that the order cannot be matched against receipt line, this needs to be handled on the Purchase Order Line. Note that receipts are not handled in ExFlow.
+#### **Aktionsnachricht:** Zeile mit Auftragsnummer XX kann keiner Wareneingangszeile zugeordnet werden.
+**Lösung:** Wenn ein Benutzer eine Meldung erhält, dass der Auftrag nicht mit der Wareneingangszeile abgeglichen werden kann, muss dies in der Bestellzeile behandelt werden. Beachten Sie, dass Wareneingänge nicht in ExFlow behandelt werden.
 
-Go to Purchase Order e.g., via Order No., make sure receipt has been done and post the receipt.
+Gehen Sie zur Bestellung, z. B. über die Auftragsnummer, stellen Sie sicher, dass der Wareneingang erfolgt ist, und buchen Sie den Wareneingang.
 
-Learn more about the order process under section [***Purchase Order Matching Process***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#purchase-order-matching-process).
+Erfahren Sie mehr über den Bestellprozess im Abschnitt [***Bestellabgleichsprozess***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#purchase-order-matching-process).
 <br/>
 
-### Vendor Related Messages
+### Lieferantenbezogene Nachrichten
 
-#### **Action Message:** Vendor cannot be identified for Vendor ID 1234567890.
-**Solution:** Check the scanned document. Is the Vendor ID correct interpreted? Check Name, IBAN and Bank accounts. If not, modify the Vendor ID number.
+#### **Aktionsnachricht:** Lieferant kann für Lieferanten-ID 1234567890 nicht identifiziert werden.
+**Lösung:** Überprüfen Sie das gescannte Dokument. Wird die Lieferanten-ID korrekt interpretiert? Überprüfen Sie Name, IBAN und Bankkonten. Wenn nicht, ändern Sie die Lieferanten-ID-Nummer.
 
-Does the Vendor exist in Business Central? If not, create the Vendor in Business Central.
+Existiert der Lieferant in Business Central? Wenn nicht, erstellen Sie den Lieferanten in Business Central.
 
-To look at the imported data:<br/>
-Go to: **ExFlow Import Journals -->** open **ExFlow Import Journal --> Related --> Files--> Show Import Details (OCR)**.
+Um die importierten Daten anzusehen:<br/>
+Gehen Sie zu: **ExFlow Import Journals -->** öffnen Sie **ExFlow Import Journal --> Verwandt --> Dateien --> Importdetails anzeigen (OCR)**.
 <br/>
 
-### Email Related Messages 
+### E-Mail-bezogene Nachrichten
 
-In ExFlow 19.3 version/BC20, SMTP is obsoleted, and Email Accounts needs to be used. If Email Accounts is not set up, email reminders for unapproved documents etcetera, will not be sent out.
+In ExFlow 19.3 Version/BC20 ist SMTP veraltet und E-Mail-Konten müssen verwendet werden. Wenn E-Mail-Konten nicht eingerichtet sind, werden keine E-Mail-Erinnerungen für nicht genehmigte Dokumente usw. versendet.
 <br/>
 
-#### **Action Message:** Email Account is not setup
-**Solution:** Check that a valid Email Account is set up and that Email Scenario has "ExFlow Default" assigned.
+#### **Aktionsnachricht:** E-Mail-Konto ist nicht eingerichtet
+**Lösung:** Überprüfen Sie, ob ein gültiges E-Mail-Konto eingerichtet ist und ob dem E-Mail-Szenario "ExFlow Standard" zugewiesen ist.
 
-For Email Accounts related questions contact your Business Central Partner.
+Bei Fragen zu E-Mail-Konten wenden Sie sich an Ihren Business Central-Partner.
 <br/>
 
-#### **Action Message:** Enhanced Email Capabilities feature is not enabled
-**Solution:** Enhanced email capabilities must be activated. Make sure that Email Scenario has "ExFlow Default" assigned in both Email Accounts and ExFlow Email Setup.
+#### **Aktionsnachricht:** Erweiterte E-Mail-Funktionen sind nicht aktiviert
+**Lösung:** Erweiterte E-Mail-Funktionen müssen aktiviert sein. Stellen Sie sicher, dass dem E-Mail-Szenario sowohl in den E-Mail-Konten als auch in der ExFlow-E-Mail-Einrichtung "ExFlow Standard" zugewiesen ist.
 <br/>
+

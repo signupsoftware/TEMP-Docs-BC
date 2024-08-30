@@ -1,19 +1,18 @@
 ---
-title: Dynamic OCR Mapping
+title: Dynamisches OCR-Mapping
 sidebar_position: 3
 hide_title: true
 ---
 
-### Dynamic OCR Mapping
+### Dynamisches OCR-Mapping
 
-Go to: **ExFlow Dynamic OCR Mapping**
+Gehe zu: **ExFlow Dynamisches OCR-Mapping**
 
-Use **ExFlow Dynamic OCR Mapping** for converting an imported customer value to a value that can be recognized. For instance, if a value is interpreted in ExFlow Data Capture for a specific customer, like a Unit of Measure Code called ‘’Styck’’, it can be transformed to ‘’PCS’’ instead and the sales order can be created without error.
+Verwende das **ExFlow Dynamische OCR-Mapping**, um einen importierten Kundewert in einen erkennbaren Wert umzuwandeln. Zum Beispiel kann ein Wert, der in ExFlow Data Capture für einen bestimmten Kunden interpretiert wird, wie ein Mengeneinheitscode namens "Stück", stattdessen in "Stk." umgewandelt werden, und die Verkaufsbestellung kann ohne Fehler erstellt werden.
 
-All mapping can be shown in the ExFlow Dynamic OCR Mapping list for the respective Table No. 
+Alle Zuordnungen können in der Liste des ExFlow Dynamischen OCR-Mappings für die jeweilige Tabellennummer angezeigt werden.
 
-![ExFlow Data Capture Account](@site/static/img/media/dynamics-ocr-mapping-001.png)
+![ExFlow Data Capture Account](./../../images/dynamics-ocr-mapping-001.png)
 
+Weitere Informationen und ein Beispiel finden Sie im Abschnitt [Umgang mit importierten Verkaufsaufträgen mit Fehlern](https://docs.exflow.cloud/business-central/docs/user-manual/sales-order-workflow/sales-import#handling-imported-sales-orders-with-error).
 
-Read more and see an exemple under section
-[Handling Imported Sales Orders with Error](https://docs.exflow.cloud/business-central/docs/user-manual/sales-order-workflow/sales-import#handling-imported-sales-orders-with-error).

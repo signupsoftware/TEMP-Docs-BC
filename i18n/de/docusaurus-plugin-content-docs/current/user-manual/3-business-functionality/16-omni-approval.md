@@ -1,127 +1,127 @@
 ---
-title: OMNI Approval
+title: OMNI Genehmigung
 sidebar_position: 16
 hide_title: true
 ---
-## OMNI Approval
+## OMNI Genehmigung
 
-ExFlow OMNI Approval is a way for Business Central users to approve different functions in ExFlow, i.e., ExFlow Contracts and ExFlow Approval Rules. This means that a Contract or an Approval Rule cannot be used in ExFlow before it is fully approved.
+ExFlow OMNI Genehmigung ist eine Möglichkeit für Business Central Benutzer, verschiedene Funktionen in ExFlow zu genehmigen, d.h. ExFlow Verträge und ExFlow Genehmigungsregeln. Das bedeutet, dass ein Vertrag oder eine Genehmigungsregel in ExFlow erst vollständig genehmigt werden muss, bevor sie verwendet werden kann.
 
-### ExFlow OMNI Documents Setup
+### ExFlow OMNI Dokumente einrichten
 
-Go to: ***Setup --> ExFlow OMNI Approval --> ExFlow OMNI Document Setup***
+Gehe zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Dokumenteneinrichtung***
 
-In ExFlow OMNI Document Setup there are two different OMNI Types, Contract and Approval Rule.
+In der ExFlow OMNI Dokumenteneinrichtung gibt es zwei verschiedene OMNI-Typen, Vertrag und Genehmigungsregel.
 
-A setup is required for the OMNI Type, in this case a Contract.
+Für den OMNI-Typ, in diesem Fall einen Vertrag, ist eine Einrichtung erforderlich.
 
-The OMNI Type is the area that will require approval. It's possible to set the minimum number of approvers. When "Require Approval" is ticked then all newly created contracts will require approval.
+Der OMNI-Typ ist der Bereich, der eine Genehmigung erfordert. Es ist möglich, die Mindestanzahl der Genehmiger festzulegen. Wenn "Genehmigung erforderlich" aktiviert ist, erfordern alle neu erstellten Verträge eine Genehmigung.
 
-Enable "Allow Concurrent Approval" if all Approval Groups should be allowed to approve the document at the same time or go to the first Business Central user in the list.
+Aktiviere "Gleichzeitige Genehmigung zulassen", wenn alle Genehmigungsgruppen das Dokument gleichzeitig genehmigen dürfen, oder gehe zum ersten Business Central Benutzer in der Liste.
 
-![ExFlow OMNI Document Setup - Contrac](@site/static/img/media/omni-document-setup-001.png)
+![ExFlow OMNI Dokumenteneinrichtung - Vertrag](./../../images/omni-document-setup-001.png)
 
-Same kind of setting needs to be done for OMNI Type "Approval Rule" if an approval on an ExFlow Approval Rule is needed before it can be used.
+Für den OMNI-Typ "Genehmigungsregel" muss eine ähnliche Einstellung vorgenommen werden, wenn eine Genehmigung für eine ExFlow Genehmigungsregel erforderlich ist, bevor sie verwendet werden kann.
 
-![ExFlow OMNI Document Setup - Approval Rule](@site/static/img/media/omni-document-setup-002.png)
+![ExFlow OMNI Dokumenteneinrichtung - Genehmigungsregel](./../../images/omni-document-setup-002.png)
 
-### ExFlow OMNI Approval Rules
+### ExFlow OMNI Genehmigungsregeln
 
-Go to: ***Setup --> ExFlow OMNI Approval --> ExFlow OMNI Approval Rule***
+Gehe zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsregel***
 
-ExFlow OMNI Approval Rule allows different approval rules for the different OMNI types "Contract" and "Approval Rule".
+ExFlow OMNI Genehmigungsregel ermöglicht verschiedene Genehmigungsregeln für die verschiedenen OMNI-Typen "Vertrag" und "Genehmigungsregel".
 
-#### **ExFlow OMNI Approval Rule for Contracts**
+#### **ExFlow OMNI Genehmigungsregel für Verträge**
 
-Add "Contract" as "OMNI Document Type" and name it. As with regular approval rules priority can be set. When the Approval Rule Filters and Approval Rule Lines is set, the OMNI Approval Rule can be enabled by the Business Central user.
+Füge "Vertrag" als "OMNI Dokumenttyp" hinzu und benenne ihn. Wie bei regulären Genehmigungsregeln kann die Priorität festgelegt werden. Wenn die Genehmigungsregel-Filter und Genehmigungsregel-Zeilen festgelegt sind, kann die OMNI Genehmigungsregel vom Business Central Benutzer aktiviert werden.
 
-![ExFlow OMNI Approval Rule - Contract](@site/static/img/media/omni-approval-rule-001.png)
+![ExFlow OMNI Genehmigungsregel - Vertrag](./../../images/omni-approval-rule-001.png)
 
-Set the filters by clicking on ***Manage \--\> Set Filters*** under Approval Rule Filters.
+Lege die Filter fest, indem du auf ***Verwalten \--\> Filter festlegen*** unter Genehmigungsregel-Filter klickst.
 
-Add the required filters to use for the current Approval Rule.
+Füge die erforderlichen Filter für die aktuelle Genehmigungsregel hinzu.
 
-![ExFlow OMNI Approval Rule - Filter Page](@site/static/img/media/omni-filter-page-001.png)
+![ExFlow OMNI Genehmigungsregel - Filterseite](./../../images/omni-filter-page-001.png)
 
-Contract Dimension can also be added by clicking on Set Filters, as mentioned above, or by clicking on the Filter cell.
+Die Vertragsdimension kann auch hinzugefügt werden, indem du auf "Filter festlegen" klickst, wie oben erwähnt, oder auf die Filterzelle klickst.
 
-![ExFlow OMNI Approval Rule - Filter Page](@site/static/img/media/omni-approval-rule-filters-001.png)
+![ExFlow OMNI Genehmigungsregel - Filterseite](./../../images/omni-approval-rule-filters-001.png)
 
-List the approvers in the same order as they will be approved under the Approval Rule Lines.
+Liste die Genehmiger in derselben Reihenfolge auf, in der sie unter den Genehmigungsregel-Zeilen genehmigt werden.
 
-![ExFlow OMNI Approval Rule - Approval Rule Lines](@site/static/img/media/omni-approval-rule-lines-001.png)
+![ExFlow OMNI Genehmigungsregel - Genehmigungsregel-Zeilen](./../../images/omni-approval-rule-lines-001.png)
 
-When Approval Rule Filter and Approval Rule Lines is added the ExFlow OMNI Approval Rule can be Enabled.
+Wenn Genehmigungsregel-Filter und Genehmigungsregel-Zeilen hinzugefügt wurden, kann die ExFlow OMNI Genehmigungsregel aktiviert werden.
 
-#### **ExFlow OMNI Approval Rule for Approval Rules**
+#### **ExFlow OMNI Genehmigungsregel für Genehmigungsregeln**
 
-Add "Approval Rules" as "OMNI Document Type" and name it. As with regular approval rules priority can be set. When the required Approval Rule Filters and Approval Rule Lines are set, the OMNI Approval Rule can
-be enabled by the Business Central user manually.
+Füge "Genehmigungsregeln" als "OMNI Dokumenttyp" hinzu und benenne ihn. Wie bei regulären Genehmigungsregeln kann die Priorität festgelegt werden. Wenn die erforderlichen Genehmigungsregel-Filter und Genehmigungsregel-Zeilen festgelegt sind, kann die OMNI Genehmigungsregel vom Business Central Benutzer manuell aktiviert werden.
 
-![ExFlow OMNI Approval Rule -- Approval Rule](@site/static/img/media/omni-approval-rule-002.png)
+![ExFlow OMNI Genehmigungsregel - Genehmigungsregel](./../../images/omni-approval-rule-002.png)
 
-Select an existing ExFlow Approval Rule or create a new rule as per regular ExFlow standard.
+Wähle eine vorhandene ExFlow Genehmigungsregel aus oder erstelle eine neue Regel gemäß dem regulären ExFlow-Standard.
 
-Read more about this under section **"ExFlow Approval Rule"**.
+Weitere Informationen dazu findest du im Abschnitt **"ExFlow Genehmigungsregel"**.
 
-![ExFlow Approval Rule -- Filter Page](@site/static/img/media/omni-approval-rule-003.png)
+![ExFlow Genehmigungsregel - Filterseite](./../../images/omni-approval-rule-003.png)
 
-Add required Filter. When the rule is done and manually enabled, it will be sent out for approval to the Business Central user(s).
+Füge den erforderlichen Filter hinzu. Wenn die Regel abgeschlossen und manuell aktiviert ist, wird sie zur Genehmigung an den Business Central Benutzer gesendet.
 
-![ExFlow OMNI Approval Rule](@site/static/img/media/omni-approval-rule-004.png)
+![ExFlow OMNI Genehmigungsregel](./../../images/omni-approval-rule-004.png)
 
-If the Business Central user closes the page without enabling the ExFlow OMNI Approval rule, following question will pop up: *"Do you want to Enable the ExFlow OMNI Approval Rule?"*.
+Wenn der Business Central Benutzer die Seite schließt, ohne die ExFlow OMNI Genehmigungsregel zu aktivieren, wird folgende Frage angezeigt: *"Möchten Sie die ExFlow OMNI Genehmigungsregel aktivieren?"*.
 
-All ExFlow OMNI Approval Rules can be viewed in the ExFlow OMNI Approval Rule list.
+Alle ExFlow OMNI Genehmigungsregeln können in der ExFlow OMNI Genehmigungsregel-Liste eingesehen werden.
 
-![ExFlow OMNI Approval Rule list](@site/static/img/media/omni-approval-rules-001.png)
+![ExFlow OMNI Genehmigungsregel-Liste](./../../images/omni-approval-rules-001.png)
 
-### ExFlow OMNI Approval Status
+### ExFlow OMNI Genehmigungsstatus
 
-Go to: ***Setup --> ExFlow OMNI Approval --> ExFlow OMNI Approval Status***
+Gehe zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsstatus***
 
-The Business Central user can see all documents pending for approval in ExFlow OMNI Approval. It is also possible to see approved, forwarded, and rejected OMNI document. When the status on a document is "Approved" the document are then ready to be used in ExFlow.
+Der Business Central Benutzer kann alle Dokumente, die auf Genehmigung in ExFlow OMNI warten, im ExFlow OMNI Genehmigungsstatus sehen. Es ist auch möglich, genehmigte, weitergeleitete und abgelehnte OMNI-Dokumente zu sehen. Wenn der Status eines Dokuments "Genehmigt" ist, ist das Dokument bereit zur Verwendung in ExFlow.
 
-![ExFlow OMNI Approval Status](@site/static/img/media/omni-approval-status-001.png)
+![ExFlow OMNI Genehmigungsstatus](./../../images/omni-approval-status-001.png)
 
-Go to **Open Card** to open the ExFlow Contract.
+Gehe zu **Offene Karte**, um den ExFlow Vertrag zu öffnen.
 
-To change the approval flow on a document, go to: ***Approval Card***
+Um den Genehmigungsfluss eines Dokuments zu ändern, gehe zu: ***Genehmigungskarte***
 
-From this page it is possible to open the original card, change to a different approval rule and add/delete approvers. It is also possible to restart the approval of all lines or a selected line.
+Von dieser Seite aus ist es möglich, die ursprüngliche Karte zu öffnen, zu einer anderen Genehmigungsregel zu wechseln und Genehmiger hinzuzufügen/zu löschen. Es ist auch möglich, die Genehmigung aller Zeilen oder einer ausgewählten Zeile neu zu starten.
 
-![ExFlow OMNI Document](@site/static/img/media/omni-approval-document-001.png)
+![ExFlow OMNI Dokument](./../../images/omni-approval-document-001.png)
 
-### ExFlow OMNI Approval Documents
+### ExFlow OMNI Genehmigungsdokumente
 
-Go to: ***Setup --> ExFlow OMNI Approval --> ExFlow OMNI Approval Documents***
+Gehe zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsdokumente***
 
-In ExFlow OMNI Approval Documents the specific Business Central user can see all their documents out for approval in "My Current Approvals". It is also possible to see the Business Central user's future and historical approvals.
+In den ExFlow OMNI Genehmigungsdokumenten kann der spezifische Business Central Benutzer alle seine Dokumente sehen, die zur Genehmigung anstehen, in "Meine aktuellen Genehmigungen". Es ist auch möglich, die zukünftigen und vergangenen Genehmigungen des Business Central Benutzers zu sehen.
 
-![ExFlow OMNI Approval Documents](@site/static/img/media/omni-approval-documents-001.png)
+![ExFlow OMNI Genehmigungsdokumente](./../../images/omni-approval-documents-001.png)
 
-Open Card to view the original card, in this case it would redirect to ExFlow Contract 2.
+Öffne die Karte, um die ursprüngliche Karte anzuzeigen. In diesem Fall würde sie zu ExFlow Vertrag 2 weiterleiten.
 
-The OMNI document Contract can be approved, rejected, or forwarded by the concerned Business Central user.
+Das OMNI-Dokument Vertrag kann vom betroffenen Business Central Benutzer genehmigt, abgelehnt oder weitergeleitet werden.
 
-Use Discussion Panel to write comments and mention other Business Central users.
+Verwende das Diskussionsfeld, um Kommentare zu schreiben und andere Business Central Benutzer zu erwähnen.
 
-To see current approval flow for a specific document, go to FactBox under "Approvers".
+Um den aktuellen Genehmigungsfluss für ein bestimmtes Dokument zu sehen, gehe zu FactBox unter "Genehmiger".
 
-When Business Central user ADMIN has approved, the Approval Document will move to "My Historical Approvals" and go to the next Business Central user ESSENTIAL in the Approval flow.
+Wenn der Business Central Benutzer ADMIN genehmigt hat, wird das Genehmigungsdokument zu "Meine vergangenen Genehmigungen" verschoben und zum nächsten Business Central Benutzer ESSENTIAL im Genehmigungsfluss weitergeleitet.
 
-![ExFlow OMNI Approval Documents - My Historical Approvals](@site/static/img/media/omni-approval-documents-002.png)
+![ExFlow OMNI Genehmigungsdokumente - Meine vergangenen Genehmigungen](./../../images/omni-approval-documents-002.png)
 
-When all approvers have approved, the Status will change to Approved in ExFlow OMNI Approval Documents.
+Wenn alle Genehmiger genehmigt haben, ändert sich der Status in ExFlow OMNI Genehmigungsdokumenten zu "Genehmigt".
 
-Simply click on "Approve" to approve the Approval Rule.
+Klicke einfach auf "Genehmigen", um die Genehmigungsregel zu genehmigen.
 
-![ExFlow OMNI Approval Documents](@site/static/img/media/omni-approval-documents-003.png)
+![ExFlow OMNI Genehmigungsdokumente](./../../images/omni-approval-documents-003.png)
 
-When an approval rule is approved, the Status will be changed from "Not approved" to "Approved" in ExFlow OMNI Approval Documents and from the ExFlow Approval Rule list as well.
+Wenn eine Genehmigungsregel genehmigt wird, ändert sich der Status von "Nicht genehmigt" zu "Genehmigt" in ExFlow OMNI Genehmigungsdokumenten und auch in der ExFlow Genehmigungsregel-Liste.
 
-![ExFlow Approval Rule List](@site/static/img/media/approval-rules-001.png)
+![ExFlow Genehmigungsregel-Liste](./../../images/approval-rules-001.png)
 
-From the ExFlow Approval Rule List it is also possible to click on ExFlow OMNI Approval Card to view the ExFlow OMNI Document.
+Von der ExFlow Genehmigungsregel-Liste aus ist es auch möglich, auf die ExFlow OMNI Genehmigungskarte zu klicken, um das ExFlow OMNI Dokument anzuzeigen.
 
-![ExFlow OMNI Document - Approved Approval Rule](@site/static/img/media/omni-document-001.png)
+![ExFlow OMNI Dokument - Genehmigte Genehmigungsregel](./../../images/omni-document-001.png)
+

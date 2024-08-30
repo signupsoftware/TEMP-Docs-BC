@@ -1,11 +1,11 @@
 ---
-title: Localization Austria
+title: Lokalisierung Österreich
 sidebar_position: 4
 hide_title: true
 ---
-## Localization Austria
+## Lokalisierung Österreich
 
-### Language
+### Sprache
 
-ExFlow supports Austrian localization and German language in Business
-Central.
+ExFlow unterstützt die österreichische Lokalisierung und die deutsche Sprache in Business Central.
+

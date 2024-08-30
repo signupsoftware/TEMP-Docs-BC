@@ -1,16 +1,16 @@
 ---
-title: Set FactBox Default Size
+title: Größe der Standard-FactBox festlegen
 sidebar_position: 18
 hide_title: true
 ---
-## Set FactBox Default Size
+## Größe der Standard-FactBox festlegen
 
-Go to: ***Setup --> ExFlow Manual Setup --> ExFlow FactBox Default Sizes***
+Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow FactBox Default Sizes***
 
-Default size of FactBox for all users can be set or restored here.
+Hier kann die Standardgröße der FactBox für alle Benutzer festgelegt oder wiederhergestellt werden.
 
-![ExFlow FactBox Default Size](@site/static/img/media/factbox-default-size-001.png)
+![ExFlow FactBox Standardgröße](./../../images/factbox-default-size-001.png)
 
-For a specific User FactBox Size is done from "ExFlow Users" instead.
+Für eine bestimmte Benutzer-FactBox-Größe wird dies stattdessen in "ExFlow Users" durchgeführt.
 
-![ExFlow User Card](@site/static/img/media/exflow-user-008.png)
+![ExFlow Benutzerkarte](./../../images/exflow-user-008.png)

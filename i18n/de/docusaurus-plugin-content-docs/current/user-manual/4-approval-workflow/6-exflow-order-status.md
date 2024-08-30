@@ -1,163 +1,129 @@
 ---
-title: ExFlow Order Status
+title: ExFlow Bestellstatus
 sidebar_position: 6
 hide_title: true
 ---
-## ExFlow Order Status
+## ExFlow Bestellstatus
 
-Go to: ***ExFlow Order Status***
+Gehe zu: ***ExFlow Bestellstatus***
 
-When an Order or Quote is marked for approval, it is to be found in
-ExFlow Order Status and in ExFlow Approval Status. When an Order or
-Quote is Released, status will be changed from Inactive to Active.
-Unreleased Orders or Quotes have status Inactive and cannot be seen on
-ExFlow Web.
+Wenn eine Bestellung oder ein Angebot zur Genehmigung markiert wird, befindet es sich im ExFlow Bestellstatus und im ExFlow Genehmigungsstatus. Wenn eine Bestellung oder ein Angebot freigegeben wird, ändert sich der Status von Inaktiv auf Aktiv. Nicht freigegebene Bestellungen oder Angebote haben den Status Inaktiv und sind auf ExFlow Web nicht sichtbar.
 
-### Order and Quote Approval Setup
+### Einrichtung der Bestell- und Angebotsgenehmigung
 
-Go to**: *Setup \--\> ExFlow Setup \--\> Order and Quote Approval***<br/>
-To use the Order and Quote Approval function there are some settings that are needed.
+Gehe zu**: *Setup \--\> ExFlow Einrichtung \--\> Bestell- und Angebotsgenehmigung***<br/>
+Um die Funktion zur Bestell- und Angebotsgenehmigung zu verwenden, sind einige Einstellungen erforderlich.
 
-![ExFlow Setup - Order and Quote Approval](@site/static/img/media/exflow-setup-order-and-quote-approval-001.png)
+![ExFlow Einrichtung - Bestell- und Angebotsgenehmigung](./../../images/exflow-setup-order-and-quote-approval-001.png)
 
-**Purchase Order Approval**<br/>
-To automatically add approval flag on all order documents "Purchase Order Approval" needs to be active. Also, to send an order for approval on ExFlow Web a PDF is needed.
+**Bestellgenehmigung**<br/>
+Um automatisch eine Genehmigungsflagge auf allen Bestelldokumenten hinzuzufügen, muss "Bestellgenehmigung" aktiviert sein. Außerdem wird für die Genehmigung einer Bestellung auf ExFlow Web ein PDF benötigt.
 
-**Order Report**<br/>
-To send an order for approval on ExFlow Web a PDF is needed.<br/>
-Choose a report in the list to be able to view the order PDF.
+**Bestellbericht**<br/>
+Um eine Bestellung zur Genehmigung auf ExFlow Web zu senden, wird ein PDF benötigt.<br/>
+Wählen Sie einen Bericht aus der Liste aus, um die Bestell-PDF anzeigen zu können.
 
-**Only Receive Approved Order** <br/>
-Enable this setting to prevent posting receipts if the order is not yet approved.
+**Nur genehmigte Bestellungen empfangen** <br/>
+Aktivieren Sie diese Einstellung, um den Buchungseingang zu verhindern, wenn die Bestellung noch nicht genehmigt ist.
 
-![ExFlow Setup - Order and Quote Approval](@site/static/img/media/exflow-setup-order-and-quote-approval-003.png)
+![ExFlow Einrichtung - Bestell- und Angebotsgenehmigung](./../../images/exflow-setup-order-and-quote-approval-003.png)
 
-Following error message will appear if this setting is enabled and a user tries to post receipts on an unapproved order.
+Folgende Fehlermeldung wird angezeigt, wenn diese Einstellung aktiviert ist und ein Benutzer versucht, Buchungseingänge für eine nicht genehmigte Bestellung zu buchen.
 
-![ExFlow Setup - Order and Quote Approval](@site/static/img/media/unapproved-order-card-only-receive-approved-order-error-message-001.png)
+![ExFlow Einrichtung - Bestell- und Angebotsgenehmigung](./../../images/unapproved-order-card-only-receive-approved-order-error-message-001.png)
 
 
-**Purchase Quote Approval**<br/>
-To automatically add approval flag on all Quotes "Purchase QuoteApproval" needs to be active.<br/>
-To send a quote for approval on ExFlow Web a PDF is needed.
+**Angebotsgenehmigung**<br/>
+Um automatisch eine Genehmigungsflagge auf allen Angeboten hinzuzufügen, muss "Angebotsgenehmigung" aktiviert sein.<br/>
+Um ein Angebot zur Genehmigung auf ExFlow Web zu senden, wird ein PDF benötigt.
 
-**Quote Report**<br/>
-To send a quote for approval on ExFlow Web a PDF is needed.<br/>
-Choose a report in the list to be able to view the quote PDF.
+**Angebotsbericht**<br/>
+Um ein Angebot zur Genehmigung auf ExFlow Web zu senden, wird ein PDF benötigt.<br/>
+Wählen Sie einen Bericht aus der Liste aus, um das Angebots-PDF anzeigen zu können.
 
-**Auto Approve Order created from Quote**<br/>
-This setting is relevant if both Order approval and Quote approval are set to active. With this function, it is possible to activate Auto
-Approve Order created from Quote. If this setting is used, all approvers from the quote will be copied to the order and the order will be
-immediately approved.
+**Automatische Genehmigung von aus Angeboten erstellten Bestellungen**<br/>
+Diese Einstellung ist relevant, wenn sowohl die Bestell- als auch die Angebotsgenehmigung aktiviert sind. Mit dieser Funktion ist es möglich, die automatische Genehmigung von aus Angeboten erstellten Bestellungen zu aktivieren. Wenn diese Einstellung verwendet wird, werden alle Genehmiger vom Angebot in die Bestellung kopiert und die Bestellung wird sofort genehmigt.
 
-**Set current user as default First Approver**<br/>
-Use to add the user who is creating the quote or the order as a First Approver of the document.<br/>
-Depending on ExFlow Setup, the First Approver can be used as a filter in Approval Rules to create approval flows for quotes and orders. First Approver can also be an actual Approver.
+**Aktuellen Benutzer als Standard-Erstgenehmiger festlegen**<br/>
+Verwenden Sie dies, um den Benutzer, der das Angebot oder die Bestellung erstellt, als Erstgenehmiger des Dokuments hinzuzufügen.<br/>
+Abhängig von der ExFlow Einrichtung kann der Erstgenehmiger als Filter in Genehmigungsregeln verwendet werden, um Genehmigungsabläufe für Angebote und Bestellungen zu erstellen. Der Erstgenehmiger kann auch ein tatsächlicher Genehmiger sein.
 
-To use this function, the Business Central User need to be an ExFlow
-System User. Read more under section [***ExFlow User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user).
+Um diese Funktion zu verwenden, muss der Business Central-Benutzer ein ExFlow-Systembenutzer sein. Lesen Sie mehr im Abschnitt [***ExFlow Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user).
 
-**Block invoice in import journal if order is not approved**<br/>
-To add a Warning message when matching document to an unapproved order. In this example the receivable is posted, even if the Purchase Order is not approved.
+**Rechnungsblockierung im Importjournal, wenn Bestellung nicht genehmigt ist**<br/>
+Fügen Sie eine Warnmeldung hinzu, wenn ein Dokument einer nicht genehmigten Bestellung zugeordnet wird. In diesem Beispiel wird der Forderungsposten gebucht, auch wenn die Bestellung nicht genehmigt ist.
 
-Then, when matching the invoice in the import journal, a warning message will inform that the received order lines are not approved.
+Dann wird beim Zuordnen der Rechnung im Importjournal eine Warnmeldung angezeigt, dass die erhaltenen Bestellpositionen nicht genehmigt sind.
 
-![ExFlow Import Journal - Warning messages](@site/static/img/media/image286.png)
+![ExFlow Importjournal - Warnmeldungen](./../../images/image286.png)
 
-As with other warning messages in the import journal it can be resolved by accepting it:
+Wie bei anderen Warnmeldungen im Importjournal kann dies durch Akzeptieren gelöst werden:
 
-![ExFlow Import Journal - Warning messages](@site/static/img/media/image287.png)
+![ExFlow Importjournal - Warnmeldungen](./../../images/image287.png)
 
-**Check minimum no. of approvers for quotes and orders**<br/>
-Specifies if the setting for "Minimum No. of Approvers" found under the Doc. Posting Checks Tab also applies to quotes and orders.
+**Überprüfung der Mindestanzahl von Genehmigern für Angebote und Bestellungen**<br/>
+Gibt an, ob die Einstellung "Mindestanzahl von Genehmigern" unter dem Tab "Dokumentbuchungsprüfungen" auch für Angebote und Bestellungen gilt.
 
-**Copy Quote PDF to Order**<br/>
-A copy of a Quote PDF attachment will be added on the Purchase Order when order is created.<br/>
-After Purchase Order is created from a Purchase Quote, the copy of Quote PDF attachment can be found as an incoming document file in ExFlow Order Status and ExFlow Approval Status, and as an attachment in ExFlow Web as well.
+**Angebots-PDF in Bestellung kopieren**<br/>
+Eine Kopie eines Angebots-PDF-Anhangs wird der Bestellung hinzugefügt, wenn die Bestellung erstellt wird.<br/>
+Nachdem eine Bestellung aus einem Angebot erstellt wurde, kann die Kopie des Angebots-PDF-Anhangs als eingehendes Dokument in ExFlow Bestellstatus und ExFlow Genehmigungsstatus sowie als Anhang in ExFlow Web gefunden werden.
 
-**Block Print/Send unapproved**<br/>
-Setting specifies if Printing or Sending from a Purchase Order, Purchase Quote or both should be blocked if the Order or Quote is sent out on approval and not fully approved.br/ 
-This setting is relevant only for those users who do not have permissions as EX ACCOUNTANT or EX ADMIN.<br/>
-Users who have permission set EX ACCOUNTANT or EX ADMIN will always be able to use this function, even if document is not fully approved. 
+**Drucken/Versenden bei nicht genehmigten Dokumenten blockieren**<br/>
+Diese Einstellung legt fest, ob das Drucken oder Versenden einer Bestellung, eines Angebots oder beider Funktionen blockiert werden soll, wenn die Bestellung oder das Angebot zur Genehmigung versendet wird und noch nicht vollständig genehmigt ist.br/ 
+Diese Einstellung ist nur relevant für Benutzer, die nicht über Berechtigungen als EX ACCOUNTANT oder EX ADMIN verfügen.<br/>
+Benutzer, die die Berechtigung als EX ACCOUNTANT oder EX ADMIN haben, können diese Funktion immer verwenden, auch wenn das Dokument nicht vollständig genehmigt ist. 
 
-![Block Print/Send unapproved](@site/static/img/media/exflow-setup-order-and-quote-approval-002.png)
+![Drucken/Versenden bei nicht genehmigten Dokumenten blockieren](./../../images/exflow-setup-order-and-quote-approval-002.png)
 
-In this example, a user who does not have permission as EX ACCOUNTANT or EX ADMIN, is using action Print/Send for not fully approved document and gets an error message. 
+In diesem Beispiel verwendet ein Benutzer, der nicht über die Berechtigung als EX ACCOUNTANT oder EX ADMIN verfügt, die Aktion Drucken/Versenden für ein nicht vollständig genehmigtes Dokument und erhält eine Fehlermeldung. 
 
-![Purchase Order - Block Print and Send](@site/static/img/media/purchase-order-001.png)
+![Bestellung - Drucken und Versenden blockieren](./../../images/purchase-order-001.png)
 
-### Create Purchase Quote or Purchase Order for Approval
+### Erstellen einer zur Genehmigung erforderlichen Bestellung oder eines Angebots
 
-When creating a Purchase Quote or Purchase Order, due to settings, the
-Approval flag will be activated and ExFlow Status Inactive.
+Beim Erstellen eines Angebots oder einer Bestellung wird aufgrund der Einstellungen die Genehmigungsflagge aktiviert und der ExFlow-Status auf Inaktiv gesetzt.
 
-To send the Quote/Order for approval it needs Approvers and to be
-Released. The Quote/Order is now visible in both ExFlow Order Status and
-ExFlow Approval Status but not yet in ExFlow Web.
+Um das Angebot/Bestellung zur Genehmigung zu senden, sind Genehmiger erforderlich und es muss freigegeben werden. Das Angebot/Bestellung ist jetzt sowohl im ExFlow Bestellstatus als auch im ExFlow Genehmigungsstatus sichtbar, aber noch nicht auf ExFlow Web.
 
-If the Business Central User that creates the Order/Quote is connected
-to an ExFlow User, then First Approver will be added automatically on
-all lines and can therefore be used as filter in Approval Rules.
+Wenn der Business Central-Benutzer, der die Bestellung/das Angebot erstellt, mit einem ExFlow-Benutzer verbunden ist, wird der Erstgenehmiger automatisch zu allen Positionen hinzugefügt und kann daher als Filter in Genehmigungsregeln verwendet werden.
 
-### ExFlow Approval Status
+### ExFlow Genehmigungsstatus
 
-Purchase Orders and Quotes that still need some action can be found in
-ExFlow Approval status. After Approval, run Verify Changes to update the
-Purchase Orders or Quotes with any changes.
+Bestellungen und Angebote, die noch eine Aktion erfordern, finden Sie im ExFlow Genehmigungsstatus. Nach der Genehmigung führen Sie "Änderungen überprüfen" aus, um die Bestellungen oder Angebote mit allen Änderungen zu aktualisieren.
 
-When a Purchase Quote is Approved and Verified, it will disappear from
-Approval Status.
+Wenn ein Angebot genehmigt und überprüft wird, verschwindet es aus dem Genehmigungsstatus.
 
-ExFlow will automatically create a Purchase Order. The Quote will be
-deleted, as Business Central Standard, while Approval Flow, Comments,
-Attachments, etc., will be stored in ExFlow Approval Status History.
+ExFlow erstellt automatisch eine Bestellung. Das Angebot wird gelöscht, wie es in Business Central Standard der Fall ist, während Genehmigungsfluss, Kommentare, Anhänge usw. im ExFlow Genehmigungsstatusverlauf gespeichert werden.
 
-Due to settings in ExFlow Setup, the Quote Approval flow can also be
-copied to the Purchase Order and mark the Order as Approved. If not, and
-Purchase Order Approval is activated, the Order needs to be Released.
+Aufgrund der Einstellungen in der ExFlow Einrichtung kann der Angebotsgenehmigungsfluss auch auf die Bestellung kopiert und die Bestellung als genehmigt markiert werden. Andernfalls muss die Bestellung freigegeben werden, wenn die Bestellgenehmigung aktiviert ist.
 
-The Quote cannot be converted to an order if it is activated for
-approval but not yet approved. The function is called "Make Order".
+Das Angebot kann nicht in eine Bestellung umgewandelt werden, wenn es zur Genehmigung aktiviert ist, aber noch nicht genehmigt wurde. Die Funktion heißt "Bestellung erstellen".
 
-When a Purchase Order is Approved and Verified, it will disappear from
-Approval Status and can now be found in ExFlow Order Status.
+Wenn eine Bestellung genehmigt und überprüft wird, verschwindet sie aus dem Genehmigungsstatus und kann nun im ExFlow Bestellstatus gefunden werden.
 
-![ExFlow Approval Status](@site/static/img/media/image288.png)
+![ExFlow Genehmigungsstatus](./../../images/image288.png)
 
-### ExFlow Order Status
+### ExFlow Bestellstatus
 
-This view is mainly keeping track on Purchase Order and Purchase Quote
-Approvals.
+Diese Ansicht dient hauptsächlich zur Verfolgung von Bestell- und Angebotsgenehmigungen.
 
-In ExFlow Order Status the Purchase Orders or Quotes will remain as long
-as they exist as a card.
+Im ExFlow Bestellstatus bleiben die Bestellungen oder Angebote so lange bestehen, wie sie als Karte existieren.
 
-The Order or Quote still needs to be approved on ExFlow Web and then
-verified from ExFlow Approval Status.
+Die Bestellung oder das Angebot muss immer noch auf ExFlow Web genehmigt und dann aus dem ExFlow Genehmigungsstatus überprüft werden.
 
-After verifying the Order, the field "Order Approved and Verified" will
-be ticked. In this respect Orders and Quotes behave differently since
-Quotes are removed directly when the Order is created while orders will
-show as invoiced until it is removed by job in Business Central
-Standard.
+Nach der Überprüfung der Bestellung wird das Feld "Bestellung genehmigt und überprüft" angekreuzt. In dieser Hinsicht verhalten sich Bestellungen und Angebote unterschiedlich, da Angebote direkt gelöscht werden, wenn die Bestellung erstellt wird, während Bestellungen als in Rechnung gestellt angezeigt werden, bis sie in der Standardversion von Business Central durch einen Job gelöscht werden.
 
-![ExFlow Order Status](@site/static/img/media/image289.png)
+![ExFlow Bestellstatus](./../../images/image289.png)
 
-Follow the present status in ExFlow Order Status column "Status".
+Verfolgen Sie den aktuellen Status im ExFlow Bestellstatus in der Spalte "Status".
 
-![ExFlow Order Status](@site/static/img/media/image290.png)
+![ExFlow Bestellstatus](./../../images/image290.png)
 
-It is also possible to see if the order is created from a quote and if
-the approval is copied from the quote to the order.
+Es ist auch möglich zu sehen, ob die Bestellung aus einem Angebot erstellt wurde und ob die Genehmigung vom Angebot auf die Bestellung kopiert wurde.
 
-![ExFlow Order Status](@site/static/img/media/image291.png)
+![ExFlow Bestellstatus](./../../images/image291.png)
 
-To delete a Purchase Order, the Order needs to be fully received and
-fully invoiced. Deleting an order will be done through the task ***Delete
-Invoiced Purchase Order***. The order will also be deleted if it is
-invoiced directly from the Purchase Order Card in Standard Business
-Central outside of ExFlow.
+Um eine Bestellung zu löschen, muss die Bestellung vollständig empfangen und vollständig in Rechnung gestellt sein. Das Löschen einer Bestellung erfolgt über die Aufgabe ***In Rechnung gestellte Bestellung löschen***. Die Bestellung wird auch gelöscht, wenn sie direkt von der Bestellkarte in der Standardversion von Business Central außerhalb von ExFlow in Rechnung gestellt wird.
 
-When deleting an order that is approved and fully invoiced, then
-Approval Flow, Comments and Attachments, etc. will be stored in ExFlow
-Approval Status History.
+Beim Löschen einer Bestellung, die genehmigt und vollständig in Rechnung gestellt ist, werden Genehmigungsfluss, Kommentare, Anhänge usw. im ExFlow Genehmigungsstatusverlauf gespeichert.
+

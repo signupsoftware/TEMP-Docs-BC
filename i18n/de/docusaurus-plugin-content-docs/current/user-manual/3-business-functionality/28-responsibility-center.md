@@ -1,47 +1,46 @@
 ---
-title: Responsibility Center
+title: Verantwortungszentrum
 sidebar_position: 28
 hide_title: true
 ---
-## Responsibility Center
+## Verantwortungszentrum
 
-Responsibility Centers are supported for both Cost and PO matched documents. Refer to additional information below.
+Verantwortungszentren werden sowohl für Kosten- als auch für PO-abgeglichene Dokumente unterstützt. Weitere Informationen finden Sie unten.
 
-### Using Responsibility Centers with Cost/Expense invoices
-For cost/expense invoices, the Responsibility Center can be inherited from the vendor or can be populated manually in the Import Journal header. When the Responsibility Center is populated, the invoice header and lines will be updated with any related information. Depending on setups in BC, this could include Dimensions, Location code, Tax Area Code, etc.
+### Verwendung von Verantwortungszentren mit Kosten-/Ausgabenrechnungen
+Bei Kosten-/Ausgabenrechnungen kann das Verantwortungszentrum entweder vom Lieferanten übernommen oder manuell im Importjournalheader ausgefüllt werden. Wenn das Verantwortungszentrum ausgefüllt ist, werden der Rechnungskopf und die Positionen mit allen relevanten Informationen aktualisiert. Je nach Einstellungen in BC können dies Dimensionen, Standortcode, Steuerbereichscode usw. sein.
 
-If the Responsibility Center is updated to a new value in the invoice header, the document lines will be updated accordingly.
+Wenn das Verantwortungszentrum im Rechnungskopf auf einen neuen Wert aktualisiert wird, werden die Dokumentpositionen entsprechend aktualisiert.
 
-#### Dimension Priority - Header
-When a responsibility center is set on the document header, dimension priority will mimic the standard BC dimension priority with one exception:
+#### Dimensionenpriorität - Kopfzeile
+Wenn ein Verantwortungszentrum im Dokumentkopf festgelegt ist, wird die Dimensionenpriorität der Standard-BC-Dimensionen nachgeahmt, mit einer Ausnahme:
 
-- Default dimensions set on an ExFlow Reference will take priority over default dimensions set on the Responsibility Center. The document will inherit default dimensions from both, but when there is a conflict, default dimensions set on the Reference will take priority over default dimensions set on the Responsibility Center.
+- Standarddimensionen, die in einer ExFlow-Referenz festgelegt sind, haben Vorrang vor den Standarddimensionen, die im Verantwortungszentrum festgelegt sind. Das Dokument erbt Standarddimensionen von beiden, aber bei Konflikten haben die in der Referenz festgelegten Standarddimensionen Vorrang vor den im Verantwortungszentrum festgelegten Standarddimensionen.
 
-#### Dimension Priority - Lines
+#### Dimensionenpriorität - Positionen
 
-Document lines will inherit dimensions from the header with the following exception:
+Dokumentpositionen erben Dimensionen aus der Kopfzeile mit folgender Ausnahme:
 
-- If a purchase code is used to create invoice lines, dimensions set in the purchase code will take priority over dimensions set in the header.
+- Wenn ein Einkaufscode verwendet wird, um Rechnungspositionen zu erstellen, haben die im Einkaufscode festgelegten Dimensionen Vorrang vor den im Kopf festgelegten Dimensionen.
 
-### Using Responsibility Centers with PO matched invoices
+### Verwendung von Verantwortungszentren mit PO-abgeglichenen Rechnungen
 
-#### Setup
+#### Einrichtung
 
-When the following setup is enabled, PO matched invoices will inherit the Responsibility center from the matching PO:
+Wenn die folgende Einrichtung aktiviert ist, erbt PO-abgeglichene Rechnungen das Verantwortungszentrum von der abgeglichenen PO:
 
-In ExFlow Setup, go to the “PO Matching” fast tab and toggle on the option “Use PO Header Values on Invoice''. The “PO Header Value on Invoice Setup” page will then open. 
+Gehen Sie in der ExFlow-Einrichtung zum Schnellregister "PO-Abgleich" und schalten Sie die Option "PO-Kopfwerte auf Rechnung verwenden" ein. Die Seite "PO-Kopfwert auf Rechnungseinrichtung" wird dann geöffnet.
 
-Activate Responsibility Center by checking the box in the “Activate” field and click OK to complete the activation and close the page.
+Aktivieren Sie das Verantwortungszentrum, indem Sie das Kontrollkästchen im Feld "Aktivieren" aktivieren, und klicken Sie auf OK, um die Aktivierung abzuschließen und die Seite zu schließen.
 
-![ExFlow Approval Status](@site/static/img/media/po-header-value-on-invoice-setup-003.png)
+![ExFlow Genehmigungsstatus](./../../images/po-header-value-on-invoice-setup-003.png)
 
-With the above setup in place, the following occurs when an invoice is matched to a PO:
-* An invoice matched to a single PO will inherit the Responsibility Center from the PO header
-    - Invoice lines will inherit dimensions, Location code, Tax Area, and Tax Liable from the matched PO lines.
-* An invoice matched to multiple PO’s with the same Responsibility Center will be handled the same as above.
-* When a single invoice is matched to multiple PO’s with different Responsibility Centers, each line will inherit the location code, tax area and Tax Liable setting from the PO line it is matched to. The Responsibility Center will be left blank in the invoice header.
+Mit der oben genannten Einrichtung tritt Folgendes auf, wenn eine Rechnung mit einer PO abgeglichen wird:
+* Eine Rechnung, die mit einer einzelnen PO abgeglichen wird, erbt das Verantwortungszentrum vom PO-Kopf.
+    - Rechnungspositionen erben Dimensionen, Standortcode, Steuerbereich und Steuerpflichtigkeit von den abgeglichenen PO-Positionen.
+* Eine Rechnung, die mit mehreren POs mit demselben Verantwortungszentrum abgeglichen wird, wird genauso behandelt wie oben.
+* Wenn eine einzelne Rechnung mit mehreren POs mit unterschiedlichen Verantwortungszentren abgeglichen wird, erbt jede Position den Standortcode, den Steuerbereich und die Steuerpflichtigkeit von der abgeglichenen PO-Position. Das Verantwortungszentrum bleibt im Rechnungskopf leer.
 
-### Limitation
-A default Responsibility center that is set on a user will not be inherited on documents imported/created in the Import Journal. The Responsibility Center can be inherited from the vendor, the purchase order, or can be manually populated in the import journal header. 
-
+### Einschränkung
+Ein standardmäßiges Verantwortungszentrum, das für einen Benutzer festgelegt ist, wird nicht auf in das Importjournal importierte/erstellte Dokumente vererbt. Das Verantwortungszentrum kann vom Lieferanten, vom Kaufauftrag übernommen oder manuell im Importjournalheader ausgefüllt werden.
 

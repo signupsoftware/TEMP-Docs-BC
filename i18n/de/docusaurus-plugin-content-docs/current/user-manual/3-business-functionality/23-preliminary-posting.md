@@ -1,259 +1,259 @@
 ---
-title: Preliminary Posting
+title: Vorläufige Buchung
 sidebar_position: 23
 hide_title: true
 ---
-## Preliminary Posting
+## Vorläufige Buchung
 
-Use ExFlow Preliminary Posting to post costs and VAT when receiving and creating documents. Get your costs and VAT booked directly to generate Financial and Tax reports with minimal effort.
+Verwenden Sie ExFlow Vorläufige Buchung, um Kosten und Mehrwertsteuer bei Empfang und Erstellung von Dokumenten zu buchen. Buchen Sie Ihre Kosten und Mehrwertsteuer direkt, um Finanz- und Steuerberichte mit minimalem Aufwand zu erstellen.
 
-Posted Vendor Ledger Entries will be created on a regular balance account or a separate balance account according to your setup and will be included in the Cash Flow.
+Gebuchte Lieferantenkonten werden auf einem regulären Ausgleichskonto oder einem separaten Ausgleichskonto gemäß Ihrer Konfiguration erstellt und in den Cashflow einbezogen.
 
-Choose G/L Account per Line Type and Posting Groups, or to an Interim Account. Job Ledger Entries and Deferrals are also included.
+Wählen Sie ein G/L-Konto pro Zeilentyp und Buchungsgruppen oder ein Zwischenkonto aus. Job Ledger Entries und Deferrals sind ebenfalls enthalten.
 
-Once the document is fully approved and posted, the Preliminary Posting is reversed automatically. 
+Sobald das Dokument vollständig genehmigt und gebucht ist, wird die vorläufige Buchung automatisch storniert.
 
-Preliminary Posting is only available for Invoices and Credit Memos activated for ExFlow Approval.
+Vorläufige Buchung ist nur für Rechnungen und Gutschriften verfügbar, die für die ExFlow-Genehmigung aktiviert sind.
 
-### ExFlow Setup
-To be able to do preliminary posting ExFlow need following journals and Inward Registration (Swebase) needs to be disabled.
+### ExFlow-Konfiguration
+Um vorläufige Buchungen durchführen zu können, benötigt ExFlow folgende Journale, und die Eingangsregistrierung (Swebase) muss deaktiviert sein.
 
-| ExFlow Setup - Preliminary Posting  |	|
+| ExFlow-Konfiguration - Vorläufige Buchung  |	|
 |:-|:-|
-|**Source Code:**                   | Use existing or create a new to make it easy to track
-| **General Journal Template:**     | Use Existing or create a new
-| **General Journal Batch:**        | Use Existing or create a new
-| **On Hold:**                      | 1-3 letters that will be added in Vendor Ledger Entries to avoid payments on Preliminary Posted documents that are not yet approved. Default value when running ExFlow Wizard will be **EXF**, but it can be changed if needed.
-| **Invoice Rounding:**             | If Swebase (for Swedish customers) is installed Invoice Rounding is visible and used only for Preliminary Posting     <br/>If Swebase is not installed, it will be visible under Doc. Posting Checks and used both for Preliminary Posting and Posting. Invoice Rounding is not required.  <br/>For more information go to section [***Invoice Rounding below***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#invoice-rounding)
-| **Posting Description:**          | Description when Posting  <br/>Default value when running ExFlow Wizard will be **Preliminary Posted**, but it can be changed if needed
-| **Reverse Description:**          | Description when Reversing.   <br/>Default value when running ExFlow Wizard will be **Preliminary Reversed**, but it can be changed if needed
-| **Preliminary Posting:**          | When setup above is done, activate Preliminary Posting
+|**Quellcode:**                   | Verwenden Sie vorhandenen oder erstellen Sie einen neuen, um die Verfolgung zu erleichtern
+| **Allgemeine Journalvorlage:**     | Verwenden Sie vorhandene oder erstellen Sie eine neue
+| **Allgemeine Journalbatch:**        | Verwenden Sie vorhandene oder erstellen Sie eine neue
+| **In Bearbeitung:**                      | 1-3 Buchstaben, die den Lieferantenkonten hinzugefügt werden, um Zahlungen für vorläufig gebuchte Dokumente zu vermeiden, die noch nicht genehmigt wurden. Standardwert beim Ausführen des ExFlow-Assistenten ist **EXF**, kann aber bei Bedarf geändert werden.
+| **Rechnungsrundung:**             | Wenn Swebase (für schwedische Kunden) installiert ist, ist die Rechnungsrundung sichtbar und wird nur für vorläufige Buchungen verwendet. <br/>Wenn Swebase nicht installiert ist, ist sie unter Dokumentbuchungsprüfungen sichtbar und wird sowohl für vorläufige Buchungen als auch für Buchungen verwendet. Die Rechnungsrundung ist nicht erforderlich.  <br/>Weitere Informationen finden Sie im Abschnitt [***Rechnungsrundung unten***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#invoice-rounding)
+| **Buchungsbeschreibung:**          | Beschreibung bei Buchung  <br/>Standardwert beim Ausführen des ExFlow-Assistenten ist **Vorläufig gebucht**, kann aber bei Bedarf geändert werden
+| **Stornobeschreibung:**          | Beschreibung bei Stornierung.   <br/>Standardwert beim Ausführen des ExFlow-Assistenten ist **Vorläufig storniert**, kann aber bei Bedarf geändert werden
+| **Vorläufige Buchung:**          | Wenn die oben genannte Konfiguration abgeschlossen ist, aktivieren Sie die vorläufige Buchung
 
-![ExFlow Setup - Preliminary Posting](@site/static/img/media/exflow-setup-preliminary-posting-001.png)
+![ExFlow-Konfiguration - Vorläufige Buchung](./../../images/exflow-setup-preliminary-posting-001.png)
 
-### Preliminary Posting Setup
-Go to: ***ExFlow Setup --> Related --> Advanced --> Preliminary Posting Setup*** <br/>
-This page will open automatically when activating Preliminary Posting.
+### Vorläufige Buchungskonfiguration
+Gehe zu: ***ExFlow-Konfiguration --> Verwandt --> Erweitert --> Vorläufige Buchungskonfiguration*** <br/>
+Diese Seite wird automatisch geöffnet, wenn die vorläufige Buchung aktiviert wird.
 
-#### Choose Posting Option per Line Type
+#### Wählen Sie die Buchungsoption pro Zeilentyp aus
 
-| ExFlow Preliminary Posting Setup   |	|
+| ExFlow Vorläufige Buchungskonfiguration   |	|
 |:-|:-|
-| **Interim Account:**      | Posting will be done according to posting groups in General Posting Setup and *ExFlow Preliminary Posting Interim* Account
-| **Purchase Account:**     | Document Lines with Line Type G/L Account, posting will be done on current G/L Account on document line   <br/>For Item, Resource, Fixed Assets and Charge (Item) Posting will be done according to posting groups in General Posting Setup. *Purch. Account* for Invoices and *Purch. Credit Memo Account* for Credit Memos
+| **Zwischenkonto:**      | Die Buchung erfolgt gemäß den Buchungsgruppen in der allgemeinen Buchungskonfiguration und dem *ExFlow Vorläufige Buchung Zwischenkonto*
+| **Kaufkonto:**     | Dokumentzeilen mit Zeilentyp G/L-Konto, die Buchung erfolgt auf dem aktuellen G/L-Konto in der Dokumentzeile   <br/>Für Artikel, Ressourcen, Sachanlagen und Gebühren (Artikel) erfolgt die Buchung gemäß den Buchungsgruppen in der allgemeinen Buchungskonfiguration. *Kaufkonto* für Rechnungen und *Kaufgutschriftskonto* für Gutschriften
 
-![ExFlow Preliminary Posting Setup](@site/static/img/media/preliminary-posting-setup-001.png)
+![ExFlow Vorläufige Buchungskonfiguration](./../../images/preliminary-posting-setup-001.png)
 
-All setup needed for Preliminary Posting, General Posting Setup and Vendor Posting Setup, can be reached from ExFlow Preliminary Posting Setup. Read more below.
+Alle für die vorläufige Buchung erforderlichen Konfigurationen, die allgemeine Buchungskonfiguration und die Lieferantenbuchungskonfiguration, können über die vorläufige Buchungskonfiguration von ExFlow erreicht werden. Lesen Sie unten mehr.
 
-After closing Preliminary Posting page, you will receive a question if there are Invoices or Credit Memos in Approval Status.
+Nach dem Schließen der Seite Vorläufige Buchung erhalten Sie eine Frage, ob sich Rechnungen oder Gutschriften im Genehmigungsstatus befinden.
 
-![Do you want to Preliminary Post](@site/static/img/media/preliminary-post-all-invoices-001.png)
+![Möchten Sie vorläufig buchen](./../../images/preliminary-post-all-invoices-001.png)
 
-When choosing to preliminary post all documents in Approval Status, there can be error messages. Go to Approval Status and correct the error and Preliminary Post manually per document.
+Wenn Sie sich dafür entscheiden, alle Dokumente im Genehmigungsstatus vorläufig zu buchen, können Fehlermeldungen auftreten. Gehen Sie zum Genehmigungsstatus und korrigieren Sie den Fehler und buchen Sie vorläufig manuell pro Dokument.
 
-Read more under section [***Approval Status***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#approval-status)
+Lesen Sie mehr im Abschnitt [***Genehmigungsstatus***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#approval-status)
 
-![There are documents not yet Preliminary Posted.](@site/static/img/media/documents-not-yet-preliminary-posted-001.png)
+![Es gibt noch nicht vorläufig gebuchte Dokumente.](./../../images/documents-not-yet-preliminary-posted-001.png)
 
-#### General Posting Setup
+#### Allgemeine Buchungskonfiguration
 
-There is a short cut from Preliminary Setup.
+Es gibt eine Verknüpfung von der vorläufigen Konfiguration aus.
 
-G/L Accounts used for Item, Resource, Fixed Asset, and Charge Item when **Purchase Account** is selected in Posting Option.
+G/L-Konten, die verwendet werden, wenn **Kaufkonto** in der Buchungsoption ausgewählt ist, für Artikel, Ressourcen, Sachanlagen und Gebührenartikel.
 
-![General Posting Setup - Purchase Account](@site/static/img/media/general-posting-setup-001.png)
+![Allgemeine Buchungskonfiguration - Kaufkonto](./../../images/general-posting-setup-001.png)
 
-G/L Accounts used when **Interim Account** is selected in Posting Option.
+G/L-Konten, die verwendet werden, wenn **Zwischenkonto** in der Buchungsoption ausgewählt ist.
 
-![General Posting Setup - Interim Account](@site/static/img/media/general-posting-setup-002.png)
+![Allgemeine Buchungskonfiguration - Zwischenkonto](./../../images/general-posting-setup-002.png)
 
-#### Vendor Posting Groups
+#### Lieferantenbuchungsgruppen
 
-There is a short cut from Preliminary Setup.
+Es gibt eine Verknüpfung von der vorläufigen Konfiguration aus.
 
-It is possible to Preliminary Post to separate Payable Account.
+Es ist möglich, vorläufig auf ein separates Verbindlichkeitskonto zu buchen.
 
-Add new Vendor Posting Group, one or several, and add on existing groups in field ExFlow Preliminary Vendor Posting Group. <br/>
-If the Vendor Posting Group is used as ExFlow Preliminary Posting Group, it can not be use anywhere else.
+Fügen Sie eine neue Lieferantenbuchungsgruppe hinzu, eine oder mehrere, und fügen Sie sie in vorhandene Gruppen im Feld ExFlow Vorläufige Lieferantenbuchungsgruppe hinzu. <br/>
+Wenn die Lieferantenbuchungsgruppe als ExFlow Vorläufige Buchungsgruppe verwendet wird, kann sie an keiner anderen Stelle verwendet werden.
 
-To use standard setting, leave ExFlow Preliminary Vendor Posting Group blank.
+Um die Standardkonfiguration zu verwenden, lassen Sie das Feld ExFlow Vorläufige Lieferantenbuchungsgruppe leer.
 
-![Vendor Posting Group](@site/static/img/media/vendor-posting-groups-001.png)
+![Lieferantenbuchungsgruppe](./../../images/vendor-posting-groups-001.png)
 
-### Functions including in Preliminary Posting
+### Funktionen in der vorläufigen Buchung enthalten
 
-#### G/L Accounts
+#### G/L-Konten
 
-Preliminary Posting will be done according to setup in Preliminary Posting Setup.
+Die vorläufige Buchung erfolgt gemäß der Konfiguration in der vorläufigen Buchungskonfiguration.
 
-#### Posting Dates
+#### Buchungsdaten
 
-Document Posting Date and VAT Date when creating the document.
+Buchungsdatum des Dokuments und Mehrwertsteuerdatum bei Erstellung des Dokuments.
 
-#### No. Serie
+#### Nummernserie
 
-Posting Nos. same as Posting Invoice Nos. or Posting Credit Memo Nos. on document.
+Buchungsnummern, die den Buchungsrechnungsnummern oder Buchungsgutschriftsnummern auf dem Dokument entsprechen.
 
-#### Posting checks
+#### Buchungsprüfungen
 
-There will be control for Doc. Creation Checks and Move Deferral Forward.
+Es wird eine Kontrolle für Dokumenterstellung und Deferral Forward durchgeführt.
 
-But also following control from Doc Posting Checks in ExFlow Setup:
+Aber auch folgende Kontrolle aus den Dokumentbuchungsprüfungen in der ExFlow-Konfiguration:
 
-ExFlow Setup - Doc. Posting Checks:
+ExFlow-Konfiguration - Dokumentbuchungsprüfungen:
 
-- Do Not Post Predefined Account <br/>
-- Check Gross Amount <br/>
-- Max. Difference for Gross Amount (LCY) 
+- Nicht vordefiniertes Konto buchen <br/>
+- Bruttobetrag überprüfen <br/>
+- Max. Differenz für Bruttobetrag (LCY) 
 
-#### Posting entries including in preliminary posting
+#### Buchungseinträge in der vorläufigen Buchung enthalten
 
-Entries included in Preliminary Posting:
-
-- G/L Entry <br/>
-- VAT Entry <br/>
-- Vendor Ledger Entry <br/>
-- Detail Vendor Ledger Entry <br/>
-- Job Ledger Entry <br/>
+Einträge in der vorläufigen Buchung enthalten:
+- G/L Eintrag <br/>
+- USt-Eintrag <br/>
+- Lieferantenkontenbuchung <br/>
+- Detail-Lieferantenkontenbuchung <br/>
+- Jobkontenbuchung <br/>
 - G/L Register 
 
-#### Posting entries not included
+#### Buchungssätze nicht enthalten
 
-Entries not included in Preliminary Posting:
+Nicht enthaltene Buchungssätze bei vorläufiger Buchung:
 
-- Posted Purchase Invoice/Credit Memo<br/>
-- Item Ledger Entries <br/>
-- Value Entry (Item) <br/>
-- Res. Ledger Entry (Resource) <br/>
-- FA Ledger Entry
+- Gebuchte Eingangsrechnung/Gutschrift<br/>
+- Artikelkontenbuchungen <br/>
+- Wertbuchung (Artikel) <br/>
+- Ressourcenkontenbuchung <br/>
+- Anlagenbuchhaltungskontenbuchung
 
-### Functions when reversing Preliminary Posting
+### Funktionen bei der Umkehrung der vorläufigen Buchung
 
-The reversal will be done when document is approved, verified and final posted or deleted. Reversal will be posted as above but with following differences:
+Die Umkehrung erfolgt, wenn das Dokument genehmigt, überprüft und endgültig gebucht oder gelöscht wurde. Die Umkehrung wird wie folgt gebucht, jedoch mit folgenden Unterschieden:
 
-#### Document Posting Date and VAT Date
+#### Buchungsdatum und USt-Datum des Dokuments
 
-The reversal will be posted on current posting dates on the document. Therefor reversal can be done even after closing period.
+Die Umkehrung wird zu den aktuellen Buchungsdaten des Dokuments gebucht. Daher kann die Umkehrung auch nach dem Abschlusszeitraum durchgeführt werden.
 
-#### Deferrals
+#### Abgrenzungen
 
-If allowed deferral posting date is closed the reversal of deferrals will be posted on first allowed deferral posting date. Therefor reversal of deferrals can be done even after closing period.
+Wenn das Buchungsdatum für Abgrenzungen geschlossen ist, wird die Umkehrung der Abgrenzungen zum ersten zulässigen Buchungsdatum für Abgrenzungen gebucht. Daher kann die Umkehrung der Abgrenzungen auch nach dem Abschlusszeitraum durchgeführt werden.
 
-### Preliminary Posting Workflow
+### Ablauf der vorläufigen Buchung
 
-#### Import Journal
+#### Importjournal
 
-Before creating the document, Preliminary Posting can be previewed.
+Vor Erstellung des Dokuments kann die vorläufige Buchung angezeigt werden.
 
-Create document from Import Journal to Preliminary post.
+Erstellen Sie das Dokument aus dem Importjournal zur vorläufigen Buchung.
 
-![Import Journal - Preview Posting](@site/static/img/media/import-journal-023-preview-posting.png)
+![Importjournal - Vorschau der Buchung](./../../images/import-journal-023-preview-posting.png)
 
-#### Approval Status
+#### Genehmigungsstatus
 
-In Approval Status it's possible to see if the document has been preliminary posted or not.
+Im Genehmigungsstatus kann überprüft werden, ob das Dokument vorläufig gebucht wurde oder nicht.
 
-To reach functions <br/>
-Go to: ***ExFlow Approval Status --> Actions --> Preliminary Posting***
+Um zu den Funktionen zu gelangen <br/>
+Gehe zu: ***ExFlow Genehmigungsstatus --> Aktionen --> Vorläufige Buchung***
 
-| Approval Status - Preliminary Posting     |	|
+| Genehmigungsstatus - Vorläufige Buchung     |	|
 |:-|:-|
-| **Post:**             | Posting can only be done once
-| **Preview Posting:**  | Preview Posting before post
-| **Reverse:**          | To correct Posting, Reverse, correct the document and post again
-| **Find Entries:**     | Find Entries for Preliminary Posted Documents
+| **Buchen:**             | Die Buchung kann nur einmal durchgeführt werden
+| **Buchungsvorschau:**  | Buchung vor der Buchungsvorschau anzeigen
+| **Umkehren:**          | Zur Korrektur der Buchung umkehren, das Dokument korrigieren und erneut buchen
+| **Bucheinträge suchen:**     | Buchungseinträge für vorläufig gebuchte Dokumente suchen
 
-![ExFlow Approval Status - Preliminary](@site/static/img/media/approval-status-005-preliminary-posting.png)
+![ExFlow Genehmigungsstatus - Vorläufige Buchung](./../../images/approval-status-005-preliminary-posting.png)
 
-#### Invoice and Credit Memo Card
+#### Rechnungs- und Gutschriftkarten
 
-To be able to Preliminary Post a document it must be Activated for ExFlow Approval.
+Um ein Dokument vorläufig zu buchen, muss es für die ExFlow-Genehmigung aktiviert sein.
 
-If ExFlow Approval is inactivated, Preliminary Posting will be reversed. And if activating, the Invoice/Credit Memo will be posted.
+Wenn die ExFlow-Genehmigung deaktiviert ist, wird die vorläufige Buchung umgekehrt. Bei Aktivierung wird die Rechnungs-/Gutschriftkarte gebucht.
 
-![Invoice Card](@site/static/img/media/purchase-invoice-001-preliminary-posting.png)
+![Rechnungskarte](./../../images/purchase-invoice-001-preliminary-posting.png)
 
-All functions in Approval Status are also available from Card. <br/>
-Go to: ***Actions --> Preliminary Posting***
+Alle Funktionen im Genehmigungsstatus sind auch von der Karte aus verfügbar. <br/>
+Gehe zu: ***Aktionen --> Vorläufige Buchung***
 
-![Invoice Card - Preliminary Posting](@site/static/img/media/purchase-invoice-002-preliminary-posting.png)
+![Rechnungskarte - Vorläufige Buchung](./../../images/purchase-invoice-002-preliminary-posting.png)
 
-#### Corrections
+#### Korrekturen
 
-If the posting needs to be corrected, Reverse, correct the document and do new Preliminary Posting. All posting and reversing will use current Posting Date and VAT Date.
+Wenn die Buchung korrigiert werden muss, umkehren, das Dokument korrigieren und eine neue vorläufige Buchung durchführen. Alle Buchungen und Umkehrungen verwenden das aktuelle Buchungsdatum und USt-Datum.
 
-#### Approval History
+#### Genehmigungsverlauf
 
-All posting can be found under Find entries. Delete filter on Date to show all.
+Alle Buchungen können unter "Bucheinträge suchen" gefunden werden. Filter auf Datum löschen, um alle anzuzeigen.
 
-#### Delete Document
+#### Dokument löschen
 
-When deleting a Preliminary Posted Document reversal will be done on current Posting Date and VAT Date.
+Beim Löschen eines vorläufig gebuchten Dokuments wird die Umkehrung zum aktuellen Buchungsdatum und USt-Datum durchgeführt.
 
-#### ExFlow Deleted Documents
+#### ExFlow gelöschte Dokumente
 
-When deleting a document or inactivate for ExFlow Approval, a copy of the document will be saved in ExFlow Deleted Documents.
+Beim Löschen eines Dokuments oder bei Deaktivierung für die ExFlow-Genehmigung wird eine Kopie des Dokuments in den ExFlow gelöschte Dokumente gespeichert.
 
-To find Preliminary Posted Entries <br/>
-Go to: ***Related --> Preliminary Posting --> Find Entries***
+Um vorläufig gebuchte Einträge zu finden <br/>
+Gehe zu: ***Verwandt --> Vorläufige Buchung --> Buchungseinträge suchen***
 
-Delete filter on Date to show all.
+Filter auf Datum löschen, um alle anzuzeigen.
 
-![ExFlow Deleted Documents - Preliminary Posting](@site/static/img/media/deleted-documents-001-find-entries.png)
+![ExFlow gelöschte Dokumente - Vorläufige Buchung](./../../images/deleted-documents-001-find-entries.png)
 
-#### Vendor Ledger Entries
+#### Lieferantenkontenbuchungen
 
-When Posting or Reversing a Preliminary Posting a Vendor Ledger Entry is posted and also included in Cash Flow.
+Bei Buchung oder Umkehrung einer vorläufigen Buchung wird eine Lieferantenkontenbuchung gebucht und auch in den Cashflow einbezogen.
 
-Posting Description will be added from the ExFlow Setup.
+Die Buchungsbeschreibung wird aus der ExFlow-Konfiguration hinzugefügt.
 
-![Vendor Ledger Entries - Preliminary Posting](@site/static/img/media/vendor-ledger-entries-002-preliminary-posting.png)
+![Lieferantenkontenbuchungen - Vorläufige Buchung](./../../images/vendor-ledger-entries-002-preliminary-posting.png)
 
-ExFlow Preliminary Posted will be ticked and On Hold will be added from the ExFlow Setup and can not be changed after posting.
+ExFlow vorläufig gebucht wird angekreuzt und "On Hold" wird aus der ExFlow-Konfiguration hinzugefügt und kann nach der Buchung nicht geändert werden.
 
-Preliminary Posted Vendor Ledger Entries cannot be used to Apply Entries from Vendor Ledger Entries or Payment Journals.
+Vorläufig gebuchte Lieferantenkontenbuchungen können nicht verwendet werden, um Einträge aus Lieferantenkontenbuchungen oder Zahlungsjournalen anzuwenden.
 
-![Vendor Ledger Entries - Preliminary Posting](@site/static/img/media/vendor-ledger-entries-003-preliminary-posting.png)
+![Lieferantenkontenbuchungen - Vorläufige Buchung](./../../images/vendor-ledger-entries-003-preliminary-posting.png)
 
-There is fast filter added to sort on or exclude Preliminary Posted Entries.<br/>
-Go to: ***Related --> ExFlow Preliminary Posting Filter***
+Es wurde ein Schnellfilter hinzugefügt, um nach vorläufig gebuchten Einträgen zu sortieren oder sie auszuschließen.<br/>
+Gehe zu: ***Verwandt --> ExFlow Vorläufige Buchung Filter***
 
-Preliminary Posting Filters:
-- **Show only Preliminary Posted/Reversed** <br/>
-- **Exclude Preliminary Posted/Reversed** <br/>
-- **Show all** <br/>
+Vorläufige Buchungsfilter:
+- **Nur vorläufig gebuchte/umgekehrte anzeigen** <br/>
+- **Vorläufig gebuchte/umgekehrte ausschließen** <br/>
+- **Alle anzeigen** <br/>
 
-![Vendor Ledger Entries - ExFlow Preliminary Posting Filter](@site/static/img/media/vendor-ledger-entries-004-preliminary-posting.png)
+![Lieferantenkontenbuchungen - ExFlow Vorläufige Buchung Filter](./../../images/vendor-ledger-entries-004-preliminary-posting.png)
 
-#### Final Posting
+#### Endgültige Buchung
 
-After the document is Approved and Verified, Post the document as usually and the Preliminary Posting will be reversed on documents current Posting Date.
+Nachdem das Dokument genehmigt und überprüft wurde, buchen Sie das Dokument wie gewohnt und die vorläufige Buchung wird am aktuellen Buchungsdatum des Dokuments umgekehrt.
 
-Vendor Ledger Entry for reversal will be applied to the Preliminary Posted document and Remaining Amount set to zero.
+Die Lieferantenkontenbuchung für die Umkehrung wird auf das vorläufig gebuchte Dokument angewendet und der verbleibende Betrag auf null gesetzt.
 
-#### Approval Status Report
+#### Genehmigungsstatusbericht
 
-Approval Status Report at monthly closing can still be used.
+Der Genehmigungsstatusbericht zum monatlichen Abschluss kann weiterhin verwendet werden.
 
-For Preliminary Posting, use Posting Option, Interim Account, in Preliminary Posting Setup and same G/L Account for all posting in General Posting Setup in ExFlow Preliminary Posting Interim.
+Für die vorläufige Buchung verwenden Sie die Buchungsoption "Zwischenkonto" in der vorläufigen Buchungskonfiguration und dasselbe G/L-Konto für alle Buchungen in der allgemeinen Buchungskonfiguration in ExFlow Vorläufige Buchung Zwischenkonto.
 
-When creating the report and G/L Entries reverse Preliminary Posting by using the same G/L Account for Balancing Account.
+Beim Erstellen des Berichts und der G/L-Einträge wird die vorläufige Buchung durch Verwendung desselben G/L-Kontos für das Ausgleichskonto umgekehrt.
 
-Retrieve Lines from ExFlow Document Lines and all documents will be posted at latest coding even if not fully approved.
+Rufen Sie Zeilen aus ExFlow-Dokumentzeilen ab und alle Dokumente werden in der neuesten Codierung gebucht, auch wenn sie nicht vollständig genehmigt sind.
 
-![Approval Status Report](@site/static/img/media/report-approval-status-001-preliminary-posting.png)
+![Genehmigungsstatusbericht](./../../images/report-approval-status-001-preliminary-posting.png)
 
-For mor information regarding Approval Status Report, read more under sections **Reports** and **Approval Status Report**.
+Für weitere Informationen zum Genehmigungsstatusbericht lesen Sie mehr unter den Abschnitten **Berichte** und **Genehmigungsstatusbericht**.
 
-#### ExFlow Preliminary Accounts Payable
+#### ExFlow Vorläufige Verbindlichkeiten
 
-This report is built on Business Central standard report with Option to choose filer on ExFlow Preliminary Posted documents.
+Dieser Bericht basiert auf dem Standardbericht von Business Central mit der Option, nach ExFlow vorläufig gebuchten Dokumenten zu filtern.
 
-![ExFlow Preliminary Accounts Payable](@site/static/img/media/report-exflow-preliminary-accounts-payable-001.png)
+![ExFlow Vorläufige Verbindlichkeiten](./../../images/report-exflow-preliminary-accounts-payable-001.png)
 
-#### ExFlow Aged Accounts Payable
+#### ExFlow Fällige Verbindlichkeiten
 
-This report is built on Business Central standard report with Option to choose filer on ExFlow Preliminary Posted documents.
+Dieser Bericht basiert auf dem Standardbericht von Business Central mit der Option, nach ExFlow vorläufig gebuchten Dokumenten zu filtern.
 
-![ExFlow Aged Accounts Payable](@site/static/img/media/report-exflow-preliminary-accounts-payable-002.png)
+![ExFlow Fällige Verbindlichkeiten](./../../images/report-exflow-preliminary-accounts-payable-002.png)
+

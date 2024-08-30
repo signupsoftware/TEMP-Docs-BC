@@ -1,419 +1,403 @@
 ---
-title: ExFlow Approval Status
+title: ExFlow Genehmigungsstatus
 sidebar_position: 4
 hide_title: true
 ---
-## ExFlow Approval Status
+## ExFlow Genehmigungsstatus
 
-Go to: ***ExFlow Approval Status***
+Gehe zu: ***ExFlow Genehmigungsstatus***
 
-As mentioned, when a document is created from the ExFlow Import Journal, the document can be found in Approval Status.
+Wie bereits erwähnt, wenn ein Dokument aus dem ExFlow Import Journal erstellt wird, kann das Dokument im Genehmigungsstatus gefunden werden.
 
-![ExFlow Approval Status](@site/static/img/media/menu-001.png)
+![ExFlow Genehmigungsstatus](./../../images/menu-001.png)
 
-Approval Status show all invoices that are out for approval and/or are approved and ready to be posted. An administrator can see information regarding status. Both for the Invoice as well as the next approver for this specific Invoice.
+Der Genehmigungsstatus zeigt alle Rechnungen an, die zur Genehmigung ausstehen und/oder genehmigt und bereit zur Buchung sind. Ein Administrator kann Informationen zum Status sowohl für die Rechnung als auch für den nächsten Genehmiger für diese spezifische Rechnung sehen.
 
-In this example Anders Andersson has approved all his lines and Bertil Boo is current approver.
+In diesem Beispiel hat Anders Andersson alle seine Positionen genehmigt und Bertil Boo ist der aktuelle Genehmiger.
 
-![ExFlow Approval Status](@site/static/img/media/approval-status-003.png)
+![ExFlow Genehmigungsstatus](./../../images/approval-status-003.png)
 
-### Highlight rejected and overdue documents
+### Abgelehnte und überfällige Dokumente hervorheben
 
-To make it easier to see documents that have been rejected or are close to due date, there is a possibility to activate a setting in ExFlow Setup to highlight these documents in Approval Status with red font.
+Um es einfacher zu machen, abgelehnte oder kurz vor dem Fälligkeitsdatum stehende Dokumente zu erkennen, besteht die Möglichkeit, eine Einstellung in ExFlow Setup zu aktivieren, um diese Dokumente im Genehmigungsstatus mit roter Schrift hervorzuheben.
 
-![ExFlow Approval Status](@site/static/img/media/approval-status-004.png)
+![ExFlow Genehmigungsstatus](./../../images/approval-status-004.png)
 
-### Setup Highlight rejected and overdue documents
-Go to: ***ExFlow Setup - Escalation***
+### Einstellung für abgelehnte und überfällige Dokumente festlegen
+Gehe zu: ***ExFlow Setup - Eskalation***
 
-Enable *"Highlight Rejected and overdue documents"* to activate the setting.
+Aktivieren Sie *"Abgelehnte und überfällige Dokumente hervorheben"*, um die Einstellung zu aktivieren.
 
-Enter a number in *"No. of Overdue Days before highlight"* to specify how many days before the due date the documents should be highlighted.
+Geben Sie eine Zahl in *"Anzahl der überfälligen Tage vor der Hervorhebung"* ein, um anzugeben, wie viele Tage vor dem Fälligkeitsdatum die Dokumente hervorgehoben werden sollen.
 
-This setting operates in relation with the due date of the document and the users work date "0" will highlight the document on the due date.
+Diese Einstellung wirkt in Bezug auf das Fälligkeitsdatum des Dokuments und das Arbeitsdatum des Benutzers. "0" hebt das Dokument am Fälligkeitsdatum hervor.
 
-![ExFlow Setup - Escalation](@site/static/img/media/exflow-setup-escalation-001.png)
+![ExFlow Setup - Eskalation](./../../images/exflow-setup-escalation-001.png)
 
-### Send email reminders for rejected documents
-Go to: ***ExFlow Email Setup***
+### E-Mail-Erinnerungen für abgelehnte Dokumente senden
+Gehe zu: ***ExFlow E-Mail-Setup***
 
-It is possible to send email reminders for rejected ExFlow approval documents if a quote, order, invoice, and/or credit memo gets rejected. To be able to send reminders for rejected approval documents, the document status needs to be "Rejected" in Approval Status.
+Es ist möglich, E-Mail-Erinnerungen für abgelehnte ExFlow-Genehmigungsdokumente zu senden, wenn ein Angebot, eine Bestellung, eine Rechnung und/oder eine Gutschrift abgelehnt wird. Um Erinnerungen für abgelehnte Genehmigungsdokumente senden zu können, muss der Dokumentstatus im Genehmigungsstatus auf "Abgelehnt" stehen.
 
-Read more under section [***ExFlow Email Setup --> Rejected Order, Rejected Quote, and Rejected Invoice/Credit***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#rejected-order,-rejected-quote,-and-rejected-invoice/credit)
+Lesen Sie mehr im Abschnitt [***ExFlow E-Mail-Setup --> Abgelehnte Bestellung, abgelehntes Angebot und abgelehnte Rechnung/Gutschrift***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#rejected-order,-rejected-quote,-and-rejected-invoice/credit)
 
 
-### Verify Changes
-When document is approved, status is updated to "Approved". But still the document needs to be verified. Click on "Verify Changes" to see if an approver on ExFlow Web have made any changes.
+### Änderungen überprüfen
+Wenn ein Dokument genehmigt wird, wird der Status auf "Genehmigt" aktualisiert. Das Dokument muss jedoch immer noch überprüft werden. Klicken Sie auf "Änderungen überprüfen", um zu sehen, ob ein Genehmiger auf ExFlow Web Änderungen vorgenommen hat.
 
-If no filter is set in the Approval Status view, then the function "Verify Changes" acts on all documents with a status of "Approved". If there is an active filter (for example, only documents for a specific vendor are shown) then "Verify Changes" will only be applied to the
-documents in the filtered view. Any approved documents outside the filter will still have a status of Approved.
+Wenn in der Ansicht des Genehmigungsstatus kein Filter festgelegt ist, wirkt die Funktion "Änderungen überprüfen" auf alle Dokumente mit dem Status "Genehmigt". Wenn ein aktiver Filter vorhanden ist (zum Beispiel werden nur Dokumente für einen bestimmten Lieferanten angezeigt), wird "Änderungen überprüfen" nur auf die Dokumente in der gefilterten Ansicht angewendet. Genehmigte Dokumente außerhalb des Filters behalten weiterhin den Status "Genehmigt".
 
-Using a filter on Document Type in Approval Status, set to exclude Order and Quote from being verified, can be beneficial if a system user wants to only verify other Document Types like Invoice or Credit Memo.
+Die Verwendung eines Filters für den Dokumententyp im Genehmigungsstatus, der so eingestellt ist, dass Bestellung und Angebot von der Überprüfung ausgeschlossen werden, kann vorteilhaft sein, wenn ein Systembenutzer nur andere Dokumententypen wie Rechnung oder Gutschrift überprüfen möchte.
 
-![Approval Status - Verify Changes](@site/static/img/media/image244.png)
+![Genehmigungsstatus - Änderungen überprüfen](./../../images/image244.png)
 
-ExFlow Verify Changes will show all lines that have been changed on ExFlow Web. Both Registered Value in red and Updated Value in Black on the document lines.
+ExFlow Änderungen überprüfen zeigt alle Zeilen an, die auf ExFlow Web geändert wurden. Sowohl der registrierte Wert in Rot als auch der aktualisierte Wert in Schwarz auf den Dokumentzeilen.
 
-Lines without changes will get Change Status "No Change".
+Zeilen ohne Änderungen erhalten den Änderungsstatus "Keine Änderung".
 
-Use Update Document to update Document Card for a specific document or Update All. When all documents are updated, the page will close automatically.
+Verwenden Sie "Dokument aktualisieren", um die Dokumentenkarte für ein bestimmtes Dokument oder "Alle aktualisieren" zu aktualisieren. Wenn alle Dokumente aktualisiert sind, wird die Seite automatisch geschlossen.
 
-"Document Approval Card" will open the final approved ExFlow card.
+"Genehmigungskarte" öffnet die endgültig genehmigte ExFlow-Karte.
 
-Open the "Card" to get into the original Business Central standard Purchase document card.
+Öffnen Sie die "Karte", um zur ursprünglichen Business Central-Standardkarte für den Einkauf zu gelangen.
 
-![Approval Status - Verify Changes](@site/static/img/media/image245.png)
+![Genehmigungsstatus - Änderungen überprüfen](./../../images/image245.png)
 
-If there are no changes done on ExFlow Web, status will automatically update to "Ready for posting" in Approval Status.
+Wenn auf ExFlow Web keine Änderungen vorgenommen wurden, wird der Status im Genehmigungsstatus automatisch auf "Bereit zur Buchung" aktualisiert.
 
-There is a possibility to skip the step "Verify Changes" in Approval Status page if no changes were made on the document which was approved. In such case "Verify Changes" action will be run automatically and the document status will be changed to "Ready for posting". 
+Es besteht die Möglichkeit, den Schritt "Änderungen überprüfen" in der Seite "Genehmigungsstatus" zu überspringen, wenn keine Änderungen am genehmigten Dokument vorgenommen wurden. In diesem Fall wird die Aktion "Änderungen überprüfen" automatisch ausgeführt und der Dokumentstatus wird auf "Bereit zur Buchung" geändert.
 
-This feature can be enabled in ExFlow Setup under **Background Processing** by activating **Verify Changes Done Automatically**.
+Diese Funktion kann in ExFlow Setup unter **Hintergrundverarbeitung** aktiviert werden, indem **Änderungen automatisch überprüfen** aktiviert wird.
 
-![ExFlow Setup - Verify Changes Done Automatically](@site/static/img/media/exflow-setup-background-processing-001.png)
+![ExFlow Setup - Änderungen automatisch überprüfen](./../../images/exflow-setup-background-processing-001.png)
 
-This feature can also be found (and setup per vendor) in **ExFlow Vendor Setup**.
+Diese Funktion kann auch in **ExFlow Lieferanteneinrichtung** gefunden und für jeden Lieferanten eingerichtet werden.
 
-### Reject changes in Verify Changes
-Approval process can be restarted from selected Approver on "ExFlow Verify Changes" page. This function is found on the Approvers factbox.
+### Änderungen in "Änderungen überprüfen" ablehnen
+Der Genehmigungsprozess kann von einem ausgewählten Genehmiger auf der Seite "ExFlow Änderungen überprüfen" neu gestartet werden. Diese Funktion befindet sich in der Genehmiger-Factbox.
 
-![ExFlow Verify Changes](@site/static/img/media/verify-changes-001.png)
+![ExFlow Änderungen überprüfen](./../../images/verify-changes-001.png)
 
-Restart Approval Process function has two options.
+Die Funktion "Genehmigungsprozess neu starten" hat zwei Optionen.
 
-* **Restart from marked Approver** - restart the marked “Document Lines” from marked Approver.<br/>
-* **Restart from marked Approver for all lines** - restart all “Document Lines” connected to marked Approver.
+* **Von markiertem Genehmiger neu starten** - startet die markierten "Dokumentzeilen" vom markierten Genehmiger neu.<br/>
+* **Von markiertem Genehmiger für alle Zeilen neu starten** - startet alle "Dokumentzeilen", die mit dem markierten Genehmiger verbunden sind, neu.
 
-![Restart Approval Process](@site/static/img/media/restat-from-marked-approver-001.png)
+![Genehmigungsprozess neu starten](./../../images/restat-from-marked-approver-001.png)
 
-After selecting one of the possible options Discussion Panel Dialog box is opened where a comment can be left for Approver.
+Nach Auswahl einer der möglichen Optionen wird das Dialogfeld "Diskussionspanel" geöffnet, in dem ein Kommentar für den Genehmiger hinterlassen werden kann.
 
-![Discussion Panel Dialog](@site/static/img/media/discussion-panel-dialog-001.png)
+![Dialogfeld Diskussionspanel](./../../images/discussion-panel-dialog-001.png)
 
-The comment will be saved in Discussion Panel in Approval Status and approver can see comment in Chat on ExFlow Web. Also, if setup is done, the approver can receive an email.
+Der Kommentar wird im Diskussionspanel im Genehmigungsstatus gespeichert und der Genehmiger kann den Kommentar im Chat auf ExFlow Web sehen. Wenn die Einrichtung erfolgt ist, kann der Genehmiger auch eine E-Mail erhalten.
 
-![Approval Status](@site/static/img/media/approval-status-002.png)
+![Genehmigungsstatus](./../../images/approval-status-002.png)
 
+### Stapelbuchung
 
+Gehe zu: ***Stapelbuchung***
 
-### Post Batch
+Nach der Überprüfung der Änderungen ist das Dokument jetzt bereit zur Buchung.
 
-Go to: ***Post Batch***
+Verwenden Sie die Stapelbuchung, um alle Dokumente, die zur Buchung bereit sind, in einem Stapel zu buchen.
 
-After Verify Changes, the document is now ready for posting.
+![Stapelbuchung für Einkaufsdokumente](./../../images/image247.png)
 
-To Batch Post all documents that are Ready for Posting use Post Batch.
+Um das Buchungsdatum für alle Dokumente zu aktualisieren, geben Sie ein neues Datum im Feld Buchungsdatum ein und aktivieren Sie "Buchungsdatum ersetzen".
 
-![Batch Post Purchase Documents](@site/static/img/media/image247.png)
+![Stapelbuchung für Einkaufsdokumente](./../../images/image248.png)
 
-To update Posting Date on all documents, add a new date in field Posting Date and activate Replace Posting Date.
+Wenn ein oder mehrere Dokumente einen Abgrenzungskode haben und "Buchungsdatum ersetzen" verwendet wird, wird folgende Frage angezeigt:
 
-![Batch Post Purchase Documents](@site/static/img/media/image248.png)
+![Nachricht bei Stapelbuchung für Einkaufsdokumente](./../../images/batch-create-post-message-001.png)
 
-If one or several documents have Deferral Code when using Replace Posting Date, following question will occur:
+**Ja:** Um das Abgrenzungsstartdatum gemäß den Einstellungen des Abgrenzungskodes für alle Dokumentzeilen zu aktualisieren.
+**Nein:** Um das Abgrenzungsstartdatum beizubehalten, wie es bei allen Dokumentzeilen erstellt wurde.
 
-![Message when Batch Post Purchase Documents](@site/static/img/media/batch-create-post-message-001.png)
+### Dokument buchen
 
-**Yes:** To update Deferral Starting date according to settings on Deferral Code for all document lines.
-**No:** To keep Deferral Starting date as created on all document lines.
+Gehe zu: ***Aktion \--\> Buchen \--\> Buchen (F9)***
 
-### Post Document
+Verwenden Sie "Buchen (F9)", um ein Dokument einzeln zu buchen.
 
-Go to: ***Action \--\> Posting \--\> Post (F9)***
+Es besteht auch die Möglichkeit, mehrere Dokumente manuell auszuwählen und mit "Stapelbuchung" alle markierten Dokumente zu buchen. Verwenden Sie "Weitere auswählen", um die Dokumente manuell auszuwählen, die gebucht werden sollen.
 
-To post one document at a time, use Post (F9).
+![Weitere auswählen](./../../images/image249.png)
 
-There is also an option to manually select multiple documents and Post Batch to post all marked documents. Use "Select More" to manually choose the documents to be posted.
+Klicken Sie dann auf "Stapelbuchung", um mit der Buchung fortzufahren.
 
-![Select More](@site/static/img/media/image249.png)
+![Mehrere Dokumente auswählen und buchen](./../../images/image250.png)
 
-Then click on Post Batch to proceed with posting.
+### Vorschau der Buchung
 
-![Select and post multiple documents](@site/static/img/media/image250.png)
+Gehe zu: ***Genehmigungsstatus \--\>*** ***Aktionen \--\> Buchung \--\>
+Vorschau der Buchung***
 
-### Preview Posting
+Verwende "Vorschau der Buchung", um Einträge zu überprüfen, die aus den aktuellen Daten auf der Karte erstellt werden, bevor die tatsächliche Buchung erfolgt. Die Vorschau der Buchung kann für alle Dokumentenstatus verwendet werden, nicht nur für Dokumente mit dem Status "Bereit zur Buchung". Um die Vorschau der Buchung während des Genehmigungsprozesses zu verwenden, verwende "Erzwinge Aktualisierung des Einkaufsdokuments", um die Karte zu aktualisieren.
 
-Go to: ***Approval Status \--\>*** ***Actions \--\> Posting \--\>
-Preview Posting***
+### Vorläufige Buchung
+Wenn die vorläufige Buchung aktiviert ist, können Buchung, Vorschau der Buchung, Stornierung und Suche nach Einträgen im Genehmigungsstatus durchgeführt werden.
+Gehe zu: ***Genehmigungsstatus --> Aktionen --> Buchung --> Vorläufige Buchung***
+Weitere Informationen finden Sie im Abschnitt [***Vorläufige Buchung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting) 
 
-Use "Preview Posting" to review entries that will be created from current data on Card before the actual posting. Preview Posting can be used for all document status, not only for documents with status \"Ready for posting\". To Preview Posting during approval flow use "Force Update on Purchase Document" to update Card.
+### Erinnerung senden
 
-### Preliminary Posting
-If Preliminary Posting is activated, then Posting, Preview Posting, Reverse and Find Entries can be done from Approval Status.
-Go to: ***Approval Status --> Actions --> Posting --> Preliminary Posting***
-Read more under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting) 
+Senden Sie eine Erinnerung für dieses Dokument an die aktuellen Genehmiger für alle Positionen in einem Einkaufsdokument.
 
-### Send Reminder
+![ExFlow Genehmigungsstatus - Erinnerung senden](./../../images/image251.png)
 
-Send Reminder for this document to current approvers for all lines on one Purchase Document.
+### Erinnerung für mehrere Dokumente senden
+Verwenden Sie "Mehrere auswählen", um mehrere Dokumente zu markieren, und klicken Sie auf "Erinnerung senden". Erinnerungen werden dann an alle aktuellen Genehmiger für diese ausgewählten Dokumente gesendet.
 
-![ExFlow Approval Status- Send Reminder](@site/static/img/media/image251.png)
+![ExFlow Genehmigungsstatus - Erinnerung senden](./../../images/image252.png)
 
-### Send Reminder for multiple documents
-Use "Select More" to mark several documents and click on "Send Reminder". Reminders will then be sent to all current approvers for these chosen documents.
+Es wird folgende Meldung angezeigt:
 
-![ExFlow Approval Status - Send Reminder](@site/static/img/media/image252.png)
+![ExFlow Genehmigungsstatus - Erinnerung senden](./../../images/image253.png)
 
-Following message will then pop up:
+### PDF-Viewer in neuem Tab öffnen
 
-![ExFlow Approval Status- Send Reminder](@site/static/img/media/image253.png)
+Es ist möglich, das PDF in einem neuen Tab zu öffnen. Die ExFlow-Web-URL muss in der ExFlow-E-Mail-Konfiguration (E-Mail-Typ "Posteingangserinnerung") im Standardunternehmen festgelegt sein.
 
-### Open PDF- Viewer in New Tab
+Weitere Informationen finden Sie im Abschnitt [***ExFlow E-Mail-Konfiguration***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder) 
 
-It is possible to open the PDF in a new tab. The ExFlow web URL must be set in the ExFlow Email Setup (Email Type "Inbox Reminder") in the default company.
+![ExFlow Genehmigungsstatus - PDF-Viewer in neuem Tab öffnen](./../../images/image254.png)
 
-Read more under section [***ExFlow Email Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder) 
+### Erzwinge Aktualisierung des Einkaufsdokuments
 
-![ExFlow Approval Status- Open PDF - Viewer in New Tab](@site/static/img/media/image254.png)
+Wenn während des Genehmigungsprozesses Änderungen erforderlich sind, verwenden Sie die Benutzerfunktion "Erzwinge Aktualisierung des Einkaufsdokuments", um die Karte zu aktualisieren. Jetzt können Änderungen in der Karte vorgenommen werden, ohne dass die Änderungen von ExFlow Web gelöscht werden.
 
-### Force Update on Purchase Document
+Verwenden Sie "Dokument aktualisieren", um die Dokumentenkarte für das ausgewählte Dokument zu aktualisieren. Wenn das Dokument aktualisiert wird, wird die Seite automatisch geschlossen.
 
-If changes are needed during the approval process, user function "Force Update on Purchase Documents" to update Card. Now changes can be done in the Card without deleting changes done from ExFlow Web.
+![ExFlow Genehmigungsstatus - Erzwinge Aktualisierung des Einkaufsdokuments](./../../images/image255.png)
 
-Use Update Document to update Document Card for the chosen document. When the document is updated, the page will close automatically.
+### Filtern nach Genehmiger
 
-![ExFlow Approval Status - Force Update of Purchase Document](@site/static/img/media/image255.png)
+Filtern Sie nach einem bestimmten Genehmiger (Genehmigungsgruppe) und Status in der Liste des Genehmigungsstatus.
 
-### Filter on approver
+![ExFlow Genehmigungsstatus - Filtern nach Genehmiger](./../../images/image256.png)
 
-Filter on a specific approver (approval group) and Status in the Approval Status list.
+### Dokumentbild anzeigen
+Zum Herunterladen oder Öffnen des PDFs
+Gehe zu: ***Genehmigungsstatus --> Verwandte --> Dateien --> Dokumentbild anzeigen***
 
-![ExFlow Approval Status- Filter on approver](@site/static/img/media/image256.png)
 
-### Show Document Image
-To download or open PDF
-Go to: ***Approval Status --> Related --> Files --> Show Document Image***
+### Importdetails anzeigen
+Um Importdetails anzuzeigen
+Gehe zu: ***Genehmigungsstatus --> Verwandte --> Dateien --> Importdetails anzeigen***
 
 
-### Show Import Details
-To show import details
-Go to: ***Approval Status --> Related --> Files --> Show Import Details***
+### Bild importieren oder ersetzen
+Um ein PDF zu importieren oder zu ersetzen
+Gehe zu: ***Genehmigungsstatus --> Verwandte --> Dateien --> Dokumentbild anzeigen***
 
 
-### Import or Replace Image
-To import or replace PDF
-Go to: ***Approval Status --> Related --> Files --> Show Document Image***
+### Abgelehnte Rechnung behandeln / Genehmigungsprozess neu starten
 
+Dies wird verwendet, wenn der richtige Genehmigungsworkflow ausgewählt wurde, aber aus irgendeinem Grund neu gestartet werden muss (z. B. eine Ablehnung).
 
-### Handle Rejected Invoice / Restart Approval Flow
+Wenn das Dokument auf ExFlow Web abgelehnt wird, muss der Genehmiger einen Kommentar hinzufügen, der in der Genehmigerzeile gespeichert wird, und das Dokument muss in Business Central behandelt werden.
 
-This is to be used when the correct approval workflow has been selected but for some reason it needs to be restarted (for example a rejection).
+Bei Verwendung automatischer Genehmigungsregeln ist die empfohlene Option, die Daten auf der Rechnungskarte zu aktualisieren. ExFlow weist dann automatisch einen neuen Genehmigungsworkflow basierend auf den neuen Daten zu.
 
-If document is rejected on ExFlow Web the approver must add a comment that will be saved on the Approver Line, and the document needs to be
-handled in Business Central.
+Eine andere Möglichkeit besteht darin, den Genehmigungsprozess in der Zeile durch Klicken auf "Route neu starten" neu zu starten. Oder fügen Sie einen neuen Genehmiger manuell nach dem Genehmiger ein, der das Dokument abgelehnt hat. Der neue Genehmiger erhält den Status "Aktuell" und kann dann den abgelehnten Kommentar des Genehmigers anzeigen.
 
-When using automatic Approval Rules, the recommended option is instead to update the data on the invoice card. Then ExFlow will automatically
-assign a new approval workflow based on the new data.
+Diese Funktion befindet sich im Abschnitt "Dokumentzeilen".<br/>
+***Dokumentzeilen \--\> Zeile \--\> Route neu starten***
 
-Another way is to restart the approval flow on the line by clicking "Restart route". Or insert a new Approver manually after Approver that have rejected the document. The new Approver will receive status Current and can then view the rejected Approver's comment.
+![ExFlow Genehmigungsstatus - Dokumentzeilen](./../../images/image257.png)
 
-This function is found on the section "Document Lines".<br/>
-***Document Lines \--\> Line \--\> Restart route***
+Das Neustarten der Route aus den Dokumentzeilen bietet zwei Optionen.
 
-![ExFlow Approval Status - Document Lines](@site/static/img/media/image257.png)
+**Zeile neu starten** - startet die "Dokumentzeilen" und alle verbundenen "Genehmigerzeilen" neu.
 
-Restarting the route from Document Lines has two options.
+**Alle Zeilen neu starten** - startet alle "Dokumentzeilen" und alle verbundenen "Genehmigerzeilen" neu.
 
-**Restart line** - restart the "Document Lines", all the connected "Doc.
-Line Approvers" lines.
+![Route neu starten](./../../images/image258.png)
 
-**Restart all lines** - restart all "Document Lines" and all connected
-"Doc. Line Approvers" lines.
+Um von einem markierten Genehmiger auf einer oder allen Zeilen neu zu starten.<br/>
+Gehe zu: ***Genehmigerzeilen \--\> Route neu starten.***
 
-![Restart Route](@site/static/img/media/image258.png)
+![ExFlow Genehmigungsstatus - Genehmigerzeilen](./../../images/image259.png)
 
-To restart from marked approver on one or all lines.<br/>
-Go to: ***Doc. Line Approvers \--\> Restart route.***
+**Zeile neu starten** - startet die "Dokumentzeilen" und alle verbundenen "Genehmigerzeilen" neu.
 
-![ExFlow Approval Status - Doc. Line Approvers](@site/static/img/media/image259.png)
+**Alle Zeilen neu starten** - startet alle "Dokumentzeilen" und alle verbundenen "Genehmigerzeilen" neu.
 
-**Restart line** - restart the "Document Lines", all the connected "Doc.
-Line Approvers" lines.
+**Von markiertem Genehmiger neu starten** - startet von markiertem Genehmiger auf
+markierter Zeile neu.
 
-**Restart all lines** - restart all "Document Lines" and all connected
-"Doc. Line Approvers" lines.
+**Von markiertem Genehmiger für alle Zeilen neu starten -** z. B. zwei "Dokumentzeilen" mit drei Genehmigern, alle Zeilen genehmigt, Neustart auf dem zweiten Genehmiger, diese Option startet alle "Dokumentzeilen" vom selben Benutzer auf Zeilen, die diesen Benutzer enthalten. Wenn dieser Benutzer mehrmals vorkommt, wird die Route ab der ersten Zeile des Benutzers neu gestartet.
 
-**Restart from marked Approver** - restart from marked approver on
-marked line.
+![Route neu starten](./../../images/image260.png)
 
-**Restart from marked Approver for all lines -** e.g. two "Document lines" with three approvers, all lines approved, restart standing on the second approver this option will restart all "Document Lines" from the same user on lines that contains this user. If this user occurs more than ones the rout will restart from users first line.
+### Genehmigungsworkflow ändern
+Zeile auswählen und gehen Sie zu: ***Dokumentzeilen \--\> Zeile \--\> Genehmigung.***
 
-![Restart Route](@site/static/img/media/image260.png)
+![ExFlow Genehmigungsstatus - Dokumentzeilen](./../../images/image261.png)
 
-### Change Approval Flow
-Select line and go to: ***Document Lines \--\> Line \--\> Approval.***
+Ein neues Fenster öffnet die Rechnungszeilenkarte (Titel: BEARBEITEN - GENEHMIGUNG).
 
-![ExFlow Approval Status - Document Lines](@site/static/img/media/image261.png)
+Fügen Sie Genehmiger zur "Genehmigerzeilen" hinzu und/oder entfernen Sie sie bei Bedarf, indem Sie auf "Verwalten" klicken.
 
-A new window will open the Invoice line card (title; EDIT - APPROVAL).
+**Neue Genehmiger vorschlagen**<br/>
+Neue Genehmiger vorschlagen löscht die aktuellen Genehmiger und fügt neue Genehmiger basierend auf der neuen Genehmigungsregel hinzu.
 
-Add and/or remove approvers on the "Approver Lines" if needed by
-clicking Manage.
+**Auf alle Zeilen kopieren**<br/>
+Wenn ein Dokument viele Dokumentzeilen enthält, hilft "Auf alle Zeilen kopieren" dabei, die Genehmigungsgruppe (von einer Zeile) auf alle Zeilen zu kopieren.
 
-**Propose new approvers**<br/>
-Propose new approvers will delete current and add new approver/approvers from new Approval Rule.
+### Ändern des G/L-Kontos während der Genehmigung
+Gehe zu: ***ExFlow Genehmigungsstatus \--\> Karte***
 
-**Copy to all lines**<br/>
-If a document contains many documents lines, "Copy to all lines" helps copying the Approval Group (from one line) to all lines.
+Das Ändern der Nummer (entfernt die alte Nummer und fügt die neue hinzu) auf einem G/L-Konto, das einen Genehmigungsworkflow hat, entfernt es und fügt es neu ein, falls zutreffend.
 
-### Change G/L Account during approval
-Go to: ***ExFlow Approval Status \--\> Card***
+### Löschen einer genehmigten Eingangsrechnung
+Gehe zu: ***Eingangsrechnung/Eingangsgutschrift***
 
-Changing the number (removes the old number and adds the new) on a G/L Account, that has an approval flow, will remove it, and insert a new if applicable.
+Wenn das Dokument erstellt, aber noch nicht gebucht ist, erfolgt das Löschen gemäß dem Business Central-Standard.
 
-### Delete a Purchase Invoice in Approval Status
-Go to: ***Purchase Invoice/Purchase Credit Memo***
+Gehe zu Eingangsrechnung/Eingangsgutschrift, indem du auf "Karte" klickst, und lösche das Dokument. Die Genehmigungsstatuskarte wird mit der Rechnungsnummer in "ExFlow gelöschte Dokumente" gespeichert.
 
-When the document is created but not posted, deleting follows the Business Central standard.
+Gebuchte Eingangsrechnungen sollten nicht gelöscht werden. Erstelle stattdessen eine Gutschrift, die die Rechnung neutralisiert. Erstelle dann bei Bedarf eine neue Eingangsrechnung.
 
-Go to Purchase Invoice/Purchase Credit Memo by clicking "Card" and delete. Approval status card will be saved with Invoice No. In "ExFlow
-Deleted Documents".
+### FactBoxes im Genehmigungsstatus
+Im Genehmigungsstatus befinden sich nützliche FactBoxes auf der rechten Seite.
 
-Posted Purchase Invoices should not be deleted. Start by creating a Credit Memo that neutralizes the Invoice. Then, create a new Purchase Invoice if needed.
+**PDF-Vorschau**<br/>
+Ändere die Größe der PDF-Vorschau, indem du -/+ drückst, um die Größe des PDFs zu verringern oder zu vergrößern.
 
-### FactBoxes in Approval Status
-To the right in Approval Status there is useful FactBoxes.
+![ExFlow Genehmigungsstatus](./../../images/image262.png)
 
-**PDF Preview**<br/>
-Change size on PDF Preview Press - / + to decrease or increase size of PDF.
+Setze die Größe der FactBox zurück, indem du auf "Wiederherstellen" klickst.
 
-![ExFlow Approval Status](@site/static/img/media/image262.png)
+![PDF-Vorschau](./../../images/image263.png)
 
-Reset size of FactBox Click "Restore".
+"Verkleinern", "Vergrößern" und Zoom zurücksetzen
 
-![PDF Preview](@site/static/img/media/image263.png)
+![PDF-Vorschau](./../../images/image264.png)
 
-"Zoom Out", "Zoom In" and Reset Zoom
+Ändere die Seitenzahl des PDFs mit den "Aufzeichnungsschaltflächen".
 
-![PDF Preview](@site/static/img/media/image264.png)
+![PDF-Vorschau](./../../images/image265.png)
 
-Change PDF page No. use "Record Buttons".
+Öffne die PDF-Datei in voller Größe.<br/>
+Gehe zu: ***Navigieren \--\> Dateien \--\> Dokumentenbild anzeigen (Strg+I)***
 
-![PDF Preview](@site/static/img/media/image265.png)
+**Eingehende Dokumente**<br/>
+Zeige an und füge Anhänge hinzu.
 
-Open PDF file in full size.<br/>
-Go to: ***Navigate \--\> files \--\> Show Document Image (Ctrl+I)***
+Um ein Dokument anzuhängen, ohne den Hauptanhang zu ersetzen, gehe zu: ***FactBox \--\> Eingehende Dokumente \--\> Datei anhängen***<br/>
 
-**Incoming Document Files**<br/>
-View and add Attach File.
+Klicke auf "Auswählen", durchsuche die Datei, die du anhängen möchtest, und klicke auf "Öffnen".
 
-To attach a document without replace Main Attachment.<br/>
-Go to: ***FactBox \--\> Incoming Document Files \--\> Attach File***<br/>
+![ExFlow Genehmigungsstatus - Eingehende Dokumente](./../../images/image266.png)
 
-Click "Choose", browse to the file to attach, and click "Open".
+Dies kann auch über das Eingehende Dokument im Business Central-Standard erfolgen.
 
-![ExFlow Approval Status - Incoming Document Files](@site/static/img/media/image266.png)
+**Ändern des PDF-Dokumentenbilds**<br/>
+Wenn das PDF-Bild vor der Buchung des Dokuments geändert werden muss, gehe zu: ***Navigieren \--\> Dateien \--\> Bild importieren oder ersetzen***
 
-It can also be done from Incoming Document in Business Central standard.
+Dies kann auch über das Eingehende Dokument im Business Central-Standard erfolgen.
 
-**Change PDF Document Image**<br/>
-If PDF Image needs to be change it can be done before posting the
-document.<br/>
-Go to*: **Navigate \--\> Files \--\> Import or Replace Image***
+**Diskussionsbereich**<br/>
+Wenn ein Benutzer einen Kommentar im Diskussionsbereich im Genehmigungsstatus hinzufügt und auf SEND klickt, wird der Kommentar in der FactBox auf der rechten Seite mit der Benutzer-ID, dem Datum und der Uhrzeit angezeigt. Auf ExFlow Web wird er im Chat des Dokuments angezeigt.
 
-It can also be done from Incoming Document in Business Central standard.
+Wenn ein Benutzer mit @ erwähnt wird, kann er das Dokument sehen und im ExFlow Web kommentieren, auch wenn er nicht im Genehmigungsworkflow ist.
 
-**Discussion Panel**<br/>
-When adding a comment in Discussion Panel from Approval Status and click SEND the comment can be seen in FactBox to the right marked with creating Users ID, Date and Time. On ExFlow Web it will display in Chat on the Document.
+![ExFlow Genehmigungsstatus - Diskussionsbereich](./../../images/image267.png)
 
-If a user is mentioned by using @ the user will be able to see this document and comment on ExFlow Web even if the user is **not** in the approval flow.
+Weitere Informationen zu Einstellungen und zur Verwendung des Diskussionsbereichs findest du im Abschnitt: [***Benachrichtigungen in Business Central \--\> Diskussionsbereich / Chat und Zeilenkommentare***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
 
-![ExFlow Approval Status - Discussion Panel](@site/static/img/media/image267.png)
+### Kommentare von Genehmigern lesen
 
-Read more about settings and how to use Discussion Panel under section: [***Notifications in Business Central \--\> Discussion Panel / Chat and Line Comments***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
+Wenn ein Web-Genehmiger einen Kommentar im Chat im Header hinzufügt und auf "SEND" klickt, wird der Kommentar in der FactBox auf der rechten Seite mit der Genehmiger-ID, dem Datum und der Uhrzeit angezeigt.
 
-### Read Comments from Approvers
+Das Dokument hat auch einen Tag im Header "Kommentar im Diskussionsbereich", wenn Kommentare von ExFlow oder ExFlow Web vorhanden sind.
 
-When a web approver adds a comment on Chat in header and click "SEND" the comment can be seen in FactBox to the right marked with approvers ID, Date and Time. 
+![ExFlow Genehmigungsstatus](./../../images/image268.png)
 
+Wenn ein Web-Genehmiger einen Kommentar zu einer Zeile hinzufügt, wird der Kommentar in "Zeilen-Genehmiger" im Feld "Kommentar" angezeigt.
 
-Document will also have a tag in header "Comment in Discussion Panel" if there are any comments made from ExFlow or ExFlow Web.
+![ExFlow Genehmigungsstatus - Zeilen-Genehmiger](./../../images/image269.png)
 
-![ExFlow Approval Status](@site/static/img/media/image268.png)
+Weitere Informationen zu Einstellungen und zur Verwendung des Diskussionsbereichs findest du im Abschnitt: [***Benachrichtigungen in Business Central \--\> Diskussionsbereich / Chat und Zeilenkommentare***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
 
-When a web approver adds a comment on a line the comment will be seen on "Doc. Line Approvers" in field "Comment".
+### Anhängen einer Datei von Eingangsrechnung oder Eingangsgutschrift
 
-![ExFlow Approval Status - Doc Line Approvers](@site/static/img/media/image269.png)
+Anhänge, die von der Eingangsrechnung und der Eingangsgutschriftskarte im Business Central-Standard erstellt wurden, werden nicht in ExFlow angezeigt. Daher empfehlen wir die Verwendung von Eingehende Dokumente in der FactBox im Genehmigungsstatus.
 
-Read more about settings and how to use Discussion Panel under section: [***Notifications in Business Central \--\> Discussion Panel / Chat and Line Comments***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
+### Hintergrundverarbeitung
 
-### Attach File from Purchase Invoice or Purchase Credit Memo
+Gehe zu ***ExFlow Setup \--\> Hintergrundverarbeitung***
 
-Attachment made from Purchase Invoice and Purchase Credit Memo Card in Business Central Standard will not show in ExFlow. Therefore, we recommend that Incoming Document Files in FactBox from Approval Status is used instead.
+Die folgenden Einstellungen gelten nur für Dokumente ohne Änderungen.
 
-### Background Processing
+Wenn Änderungen von ExFlow Web vorgenommen wurden, müssen sie dennoch manuell im Genehmigungsstatus aktualisiert werden, indem "Änderungen überprüfen" ausgeführt wird.
 
-Go to ***ExFlow Setup \--\> Background Processing***
+**"Mit Job-Warteschlange überprüfen"** und **"Mit Job-Warteschlange überprüfen und buchen"**.<br/>
+Aktiviere eine dieser Einstellungen, um automatisch eine Job-Warteschlange zu erstellen, die genehmigte Rechnungen ohne Änderungen von ExFlow Web im Genehmigungsstatus "überprüft" oder "überprüft und gebucht".
 
-Following settings only applies to documents without changes.
+**"Änderungen automatisch überprüfen"** Aktualisiert Dokumente mit dem Status "Genehmigt" automatisch auf "Bereit zur Buchung" ohne Job-Warteschlangeneintrag.
 
-If there are any changes done from ExFlow Web, they still need to be updated manually in Approval Status by running Verify Changes.
+![ExFlow Setup - Hintergrundverarbeitung](./../../images/exflow-setup-background-processing-002.png)
 
-**"Verify with Job Queue"** and **"Verify & Post with Job Queue"**.<br/>
-Tick one of these settings to automatically create a Job Queue that will "Verify" or "Verify and Post"' approved invoices, without Changes from ExFlow Web, in Approval Status.
+Die Job-Warteschlange "Ex Verify & Post Job Queue" ist standardmäßig so konfiguriert, dass sie an Wochentagen jede Stunde ausgeführt wird, wenn eine der genannten Hintergrundverarbeitungseinstellungen in ExFlow Setup aktiviert ist.
 
-**"Verify Changes Done Automatically"** Will update documents with status "Approved" to "Ready for Posing" without Job Queue Entry.
+Wenn die Funktion deaktiviert wird, verschwindet die Job-Warteschlange "Ex Verify & Post Job Queue" aus der Liste der "Job-Warteschlangeneinträge".
 
-![ExFlow Setup - Background Processing](@site/static/img/media/exflow-setup-background-processing-002.png)
+![Job-Warteschlangeneintrag - Überprüfen und Buchen mit Job-Warteschlange](./../../images/image271.png)
 
-Job Queue "Ex Verify & Post Job Queue" is configured to run every hour on weekdays by default, when enabling one of the mentioned Background Processing settings in ExFlow Setup.
+**Mit Job-Warteschlange überprüfen**<br/>
+Diese Einstellung legt fest, ob die Überprüfung genehmigter Dokumente im Hintergrund geplant werden soll. Dies gilt nur für Dokumente ohne Änderungen auf ExFlow Web.
 
-When the function gets disabled, the Job Queue "Ex Verify & Post Job Queue" will disappear from the "Job Queue Entries" list.
+![ExFlow Setup - Hintergrundverarbeitung - Mit Job-Warteschlange überprüfen](./../../images/exflow-setup-background-processing-003.png)
 
-![Job Queue Entry Card - Verify & Post with Job Queue](@site/static/img/media/image271.png)
+**Überprüfen und Posten mit Job-Warteschlange**<br/>
+Gibt an, ob Dokumente mit dem Status "Bereit zur Veröffentlichung" in der Genehmigungsstatus in der Hintergrundplanung geplant werden sollen und nach der Überprüfung veröffentlicht werden.
 
-**Verify with Job Queue**<br/>
-This setting specifies if verification of approved documents should be scheduled to run in the background. This will only apply for documents without changes on ExFlow Web.
+![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfen und Posten mit Job-Warteschlange](./../../images/exflow-setup-background-processing-004.png)
 
-![ExFlow Setup - Background Processing - Verify with Job Queue](@site/static/img/media/exflow-setup-background-processing-003.png)
+Alle "ExFlow Web - geänderten" Dokumente, die in ExFlow Verify Changes im Genehmigungsstatus aktualisiert werden müssen, werden von diesem geplanten Job ausgeschlossen. Eine Meldung im Fehlermeldungs-Feld im ExFlow Genehmigungsstatus wird auf diesen nicht aktualisierten Dokumenten angezeigt.
 
-**Verify & Post with Job Queue**<br/>
-Specifies if documents with status "Ready for Posting" in Approval Status should be scheduled to run in the background and post documents after verification.
+**Automatische Überprüfung von Änderungen**<br/>
+Diese Einstellung ermöglicht das Überspringen des Schritts "Überprüfen von Änderungen" auf der Genehmigungsstatus-Seite, wenn keine Änderungen am genehmigten Dokument vorgenommen wurden. Der Dokumentenstatus wird automatisch auf "Bereit zur Veröffentlichung" geändert.
 
-![ExFlow Setup - Background Processing - Verify & Post with Job Queue](@site/static/img/media/exflow-setup-background-processing-004.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Automatische Überprüfung von Änderungen](./../../images/exflow-setup-background-processing-005.png)
 
-All "ExFlow web - changed" documents, that requires to be updated in ExFlow Verify Changes in Approval Status, will be excluded from this scheduled job. A message in Error Message field in the ExFlow Approval Status will be visible on these non-updated documents.
+Die Einstellung "Automatische Überprüfung von Änderungen" kann auch in der ExFlow Vendor-Einrichtung gefunden werden. Es ist möglich, festzulegen, ob diese Funktion für einen bestimmten Lieferanten aktiviert/deaktiviert werden soll. Oder aktivieren Sie die Einstellung in der ExFlow Einrichtung für alle Lieferanten. Lesen Sie mehr über diese Funktionalität im Abschnitt **Überprüfen von Änderungen**.
 
-**Verify Changes Done Automatically**<br/>
-This setting allows to skip the step "Verify Changes" in Approval Status page if no changes were made on the approved document. Document status is automatically changed to "Ready for Posting".
+![ExFlow Erweiterte Vendor-Optionen - Automatische Überprüfung von Änderungen](./../../images/Vendor-setup-card-006.png)
 
-![ExFlow Setup - Background Processing - Verify Changes Done Automatically](@site/static/img/media/exflow-setup-background-processing-005.png)
+**Dokumente automatisch erstellen**
 
-The "Verify Changes Done Automatically" setting can also be found in ExFlow Vendor Setup. It is possible to choose if this feature should be enabled/disabled for a specific vendor. Or enable the setting in ExFlow Setup for all vendors. Read more about this functionality under section **Verify Changes**.
+Aktivieren Sie dieses Feld, wenn alle interpretierten Dokumente automatisch aus dem ExFlow Import Journal erstellt werden sollen. Diese Funktion kann auch pro Lieferant in der Vendor-Einrichtung eingerichtet werden, wenn die Dokumente eines bestimmten Lieferanten (z. B.) von dieser Einstellung ausgeschlossen werden sollen.
 
-![ExFlow Advanced Vendor Options - Verify Changes Done Automatically](@site/static/img/media/Vendor-setup-card-006.png)
+Wenn die Funktion aktiviert ist, werden alle interpretierten Dokumente ohne Fehler- oder Warnmeldungen automatisch erstellt und zur Genehmigung gesendet.
 
-**Automatically Create Documents**
+![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](./../../images/background-processing-automatically-create-001.png)
 
-Enable this box if all interpreted documents should be automatically created
-from the ExFlow Import Journal. This function can also be setup per vendor in Vendor Setup if a specific vendor's documents (for instance) should be excluded from this setting.
+Es ist möglich, die ExFlow Import Journals-Listenseite zu personalisieren und die Spalte "Dokumente automatisch erstellen" dort hinzuzufügen und zu aktivieren, um ein dediziertes Journal für automatisch erstellte Dokumente zu haben.
 
-If the function is enabled then all interpreted documents with no errors or warning messages will be automatically created and sent for approval.
+Diese Funktion kann ohne jegliche Einrichtung im ExFlow Import Journal verwendet werden, klicken Sie einfach auf Ja in dem untenstehenden Pop-up:
 
-![ExFlow Setup - Background Processing - Automatically Create Documents](@site/static/img/media/background-processing-automatically-create-001.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](./../../images/background-processing-automatically-create-002.png)
 
-It is possible to personalize the ExFlow Import Journals list page and add + enable the column "Automatically Create Documents" there, to have one dedicated journal for automatically create documents.
+Lesen Sie mehr darüber im Abschnitt [***Batch-Import von Dokumenten aus der Interpretation. ***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
 
-This function can be used without any setup on ExFlow Import Journal, simply click on Yes to below pop up:
 
-![ExFlow Setup - Background Processing - Automatically Create Documents](@site/static/img/media/background-processing-automatically-create-002.png)
+### Rechnungsrundung
 
-Read more about this under section [***Batch Import Documents from Interpretation. ***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
+Wenn die Rechnungsrundung in ***Business Central \--\> Einkauf & Verbindlichkeiten Einrichtung\--\> Allgemein*** aktiviert ist, unterstützt ExFlow das automatische Buchen der Rechnungsrundung, um den Bruttobetrag auf dem Dokument anzupassen.<br/>
 
+Gehe zu: ***ExFlow Einrichtung \--\> Dok. Buchungsprüfungen***
 
-### Invoice Rounding
+Aktivieren Sie "Rechnungsrundung" und geben Sie einen Wert für "Maximale Differenz für Bruttobetrag" ein. Stellen Sie außerdem sicher, dass die Einstellung "Bruttobetrag prüfen" ebenfalls aktiviert ist.
 
-If Invoice Rounding is activated in ***Business Central \--\> Purchase & Payables Setup\--\> General***, then ExFlow has support to automatically post invoice rounding to match the Gross Amount on the document.<br/>
+ExFlow führt eine Kontrolle zwischen dem Bruttobetrag im Kopf des Einkaufsdokuments und dem Betrag der Dokumentenposition durch. Eine Rundungslinie wird erstellt, wenn die Differenz des Bruttobetrags innerhalb der Toleranz von "Maximale Differenz für Bruttobetrag" liegt. Die Buchung erfolgt gemäß den Standard Business Central-Einstellungen.
 
-Go to: ***ExFlow Setup \--\> Doc. Posting Checks***
+![ExFlow Einrichtung - Dok. Buchungsprüfungen - Rechnungsrundung](./../../images/exflow-setup-doc-posting-checks-001.png)
 
-Activate "Invoice Rounding" and add value in "Max Difference for Gross Amount". Also make sure the "Check Gross Amount" setting is ticked as well.
+Wenn Swebase (für schwedische Kunden) installiert ist, wird die Rundung von Swebase behandelt und ExFlow Rounding kann nur für Vorläufige Buchung durchgeführt werden. 
 
-ExFlow makes a control between the gross amount on the purchase document head and the document line amount. A rounding line will be created if the gross amount difference is within "Max Difference for Gross Amount" tolerance when posting. Posting is done as per standard Business Central settings.
-
-![ExFlow Setup - Doc. Posting Checks - Invoice Rounding](@site/static/img/media/exflow-setup-doc-posting-checks-001.png)
-
-If Swebase (for Swedish customers) is installed, rounding will be handled by Swebase and ExFlow Rounding can only be done for Preliminary Posting. 
-
-Read more under section: 
-[***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
+Lesen Sie mehr im Abschnitt: 
+[***Vorläufige Buchung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)

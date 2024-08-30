@@ -1,114 +1,112 @@
 ---
-title: Audit Log
+title: Audit-Protokoll
 sidebar_position: 25
 hide_title: true
 ---
-## Audit Log
-The ExFlow Audit Log is built on top of the standard Business Central Change Log to provide an enhanced, user friendly log of changes made to documents in ExFlow. When activated, the Audit Log tracks all changes made to a document from import to posting. View document changes in either a summary format based on invoice states and actions, or view changes in a detailed format that tracks changes at the field level.
+## Audit-Protokoll
+Das ExFlow Audit-Protokoll basiert auf dem standardmäßigen Business Central Änderungsprotokoll und bietet ein verbessertes, benutzerfreundliches Protokoll für Änderungen an Dokumenten in ExFlow. Wenn aktiviert, verfolgt das Audit-Protokoll alle Änderungen an einem Dokument von der Importierung bis zur Buchung. Sie können Dokumentenänderungen entweder in einem zusammenfassenden Format basierend auf Rechnungsstatus und Aktionen anzeigen oder Änderungen in einem detaillierten Format verfolgen, das Änderungen auf Feldebene erfasst.
 
-### Activate Audit Log
-To Activate the Audit Log, search on and go to **ExFlow Audit Log Setup**.
+### Aktivieren des Audit-Protokolls
+Um das Audit-Protokoll zu aktivieren, suchen Sie nach und gehen Sie zu **ExFlow Audit-Protokoll Einrichtung**.
 
-In the ExFlow Audit Log Setup page:
+Auf der Seite ExFlow Audit-Protokoll Einrichtung:
 
-* Select an Audit Log Template (see more information about audit log templates below)
-* In the ribbon, click on “Change Log Setup”<br/><br/>
-    ![ExFlow Audit Log Setup](@site/static/img/media/audit-log-setup-001.png)<br/>
+* Wählen Sie eine Audit-Protokoll Vorlage aus (weitere Informationen zu Audit-Protokoll Vorlagen finden Sie unten)
+* Klicken Sie in der Symbolleiste auf "Änderungsprotokoll Einrichtung"<br/><br/>
+    ![ExFlow Audit-Protokoll Einrichtung](./../../images/audit-log-setup-001.png)<br/>
 
-* In the Change Log Setup page, toggle on “Change Log Activated”<br/>
+* Auf der Seite Änderungsprotokoll Einrichtung, schalten Sie "Änderungsprotokoll aktiviert" ein<br/>
 
-    ![Change Log Setup](@site/static/img/media/change-log-setup-001.png)
-
-
-The configuration in the selected Audit Log Template will be applied to the standard Business Central Change log. To view the applied change log configuration, in the Change Log Setup page, first click on “More options” then select ***Actions --> Setup --> Other --> Tables***.
-
-![Change Log Setup](@site/static/img/media/change-log-setup-002.png)
-
-![Change Log Setup (Table) List](@site/static/img/media/change-log-setup-table-list-001.png)
+    ![Änderungsprotokoll Einrichtung](./../../images/change-log-setup-001.png)
 
 
-### Audit Log Templates
-An Audit Log template defines the tables and fields that will be tracked in ExFlow Audit Log. A default template “BASE” will be available for use, but additional custom templates may be created. Open the BASE template to see tables and fields included:
-* Search on and go to “ExFlow Audit Log Templates”.
-* In the ExFlow Audit Log Template list, click on the Code to open the template.
+Die Konfiguration in der ausgewählten Audit-Protokoll Vorlage wird auf das standardmäßige Business Central Änderungsprotokoll angewendet. Um die angewendete Änderungsprotokoll-Konfiguration anzuzeigen, klicken Sie auf der Seite Änderungsprotokoll Einrichtung zunächst auf "Weitere Optionen" und wählen Sie dann ***Aktionen --> Einrichtung --> Andere --> Tabellen***.
 
-  ![ExFlow Audit Log Templates](@site/static/img/media/audit-log-templates-001.png)
+![Änderungsprotokoll Einrichtung](./../../images/change-log-setup-002.png)
 
-The “BASE” template cannot be changed but it can be copied to create a custom template.
-
-#### Create a custom Template
-To create a custom Template, the Base template must first be copied, then changes can be made to the newly created template.
-* Open the “Base” Template
-* Select “Copy Template” on the ribbon.<br/><br/>
-    ![ExFlow Audit Log Template Card](@site/static/img/media/audit-log-template-card-001.png)
-
-* Enter a New Template Name and a description.<br/><br/>
-    ![ExFlow Audit Log Copy Template](@site/static/img/media/audit-log-001-copy-template.png)
-
-* Open the newly created template. <br/> 
-**To log changes** to all fields in a listed table, Toggle on the “Log All Fields” option.<br/>
-
-![ExFlow Audit Log Template Card](@site/static/img/media/audit-log-template-card-002.png)<br/><br/>
-**To select certain fields** to be logged:<br/>
-Select the desired table, making sure the “Log All Fields” option is unchecked, then update the “Fields” section (lower portion of screen) as needed:<br/><br/>
-**To add a field**, click on “New Line” then select the desired field on the newly created line.<br/><br/>
-**To remove a field**, select the desired field then click on “Delete Line”.
-
-### View the Audit Log for an ExFlow Document 
-
-Go to: ** ExFlow Approval Status History --> Related --> Audit Log** 
-
-After a document has been posted, the audit log is accessible from the Approval Status History. At this point in the process, all actions from import through posting will be visible in the Summary View and all field level changes can be viewed from the Detailed View.
+![Änderungsprotokoll Einrichtung (Tabellenliste)](./../../images/change-log-setup-table-list-001.png)
 
 
+### Audit-Protokoll Vorlagen
+Eine Audit-Protokoll Vorlage definiert die Tabellen und Felder, die im ExFlow Audit-Protokoll verfolgt werden sollen. Eine Standardvorlage "BASE" steht zur Verfügung, aber es können auch zusätzliche benutzerdefinierte Vorlagen erstellt werden. Öffnen Sie die BASE-Vorlage, um enthaltene Tabellen und Felder anzuzeigen:
+* Suchen Sie nach und gehen Sie zu "ExFlow Audit-Protokoll Vorlagen".
+* Klicken Sie in der Liste der ExFlow Audit-Protokoll Vorlagen auf den Code, um die Vorlage zu öffnen.
 
-![Audit Log](@site/static/img/media/audit-log-approval-status-history-001.png)
+  ![ExFlow Audit-Protokoll Vorlagen](./../../images/audit-log-templates-001.png)
 
-The Audit Log will be opened in **Summary View** where you will see a list of the document actions that have occurred since the document was imported (imported, verified, matched to receipt, etc.) with a date and time stamp indicating when the action occurred. The Area indicates where the document was in the ExFlow process when the action occurred.<br/>
+Die "BASE"-Vorlage kann nicht geändert werden, aber sie kann kopiert werden, um eine benutzerdefinierte Vorlage zu erstellen.
 
-![View – Audit Log Overview](@site/static/img/media/view-audit-log-overview-001.png)
+#### Erstellen einer benutzerdefinierten Vorlage
+Um eine benutzerdefinierte Vorlage zu erstellen, muss die Basisvorlage zuerst kopiert werden, und dann können Änderungen an der neu erstellten Vorlage vorgenommen werden.
+* Öffnen Sie die "Base"-Vorlage
+* Wählen Sie in der Symbolleiste "Vorlage kopieren".<br/><br/>
+    ![ExFlow Audit-Protokoll Vorlagenkarte](./../../images/audit-log-template-card-001.png)
 
-The information in this view can be exported to Excel by selecting the “Export to Excel” action in the ribbon.<br/>
+* Geben Sie einen neuen Vorlagennamen und eine Beschreibung ein.<br/><br/>
+    ![ExFlow Audit-Protokoll Vorlage kopieren](./../../images/audit-log-001-copy-template.png)
 
-![Audit Log](@site/static/img/media/audit-log-excel-001.png)
+* Öffnen Sie die neu erstellte Vorlage. <br/> 
+**Um Änderungen** an allen Feldern in einer aufgelisteten Tabelle zu protokollieren, schalten Sie die Option "Alle Felder protokollieren" ein.<br/>
 
-To view all standard Business Central change log entries for a single action line, drill down on the line by clicking on any field value in the line. If there were no changes recorded for the action, you will receive a message “No changes found.”
+![ExFlow Audit-Protokoll Vorlagenkarte](./../../images/audit-log-template-card-002.png)<br/><br/>
+**Um bestimmte Felder** zu protokollieren:<br/>
+Wählen Sie die gewünschte Tabelle aus und stellen Sie sicher, dass die Option "Alle Felder protokollieren" nicht aktiviert ist. Aktualisieren Sie dann den Abschnitt "Felder" (unterer Teil des Bildschirms) nach Bedarf:<br/><br/>
+**Um ein Feld hinzuzufügen**, klicken Sie auf "Neue Zeile" und wählen Sie das gewünschte Feld in der neu erstellten Zeile aus.<br/><br/>
+**Um ein Feld zu entfernen**, wählen Sie das gewünschte Feld aus und klicken Sie auf "Zeile löschen".
 
-![View – Change Log Entries](@site/static/img/media/view-change-log-entries-001.png)
+### Anzeigen des Audit-Protokolls für ein ExFlow-Dokument 
 
-To see all changes made to the document, from the Summary View page, click on ** Detailed View --> View Full Document. **<br/>
+Gehen Sie zu: **ExFlow Genehmigungsstatusverlauf --> Verwandt --> Audit-Protokoll** 
 
-![View – Audit Log Overview](@site/static/img/media/view-audit-log-overview-002.png)
+Nachdem ein Dokument gebucht wurde, ist das Audit-Protokoll über den Genehmigungsstatusverlauf zugänglich. Zu diesem Zeitpunkt sind alle Aktionen von der Importierung bis zur Buchung im Zusammenfassungsansicht sichtbar, und alle Änderungen auf Feldebene können im Detailansicht angezeigt werden.
 
+![Audit-Protokoll](./../../images/audit-log-approval-status-history-001.png)
 
-The ** Detailed View --> View Area ** will list all fields segregated into sections as follows:
-* Header
-* Lines
-* Approvers
+Das Audit-Protokoll wird in der **Zusammenfassungsansicht** geöffnet, in der Sie eine Liste der Dokumentenaktionen sehen, die seit der Importierung des Dokuments stattgefunden haben (Importiert, Überprüft, mit Beleg abgeglichen usw.) mit einem Datum und einer Uhrzeit, die anzeigen, wann die Aktion stattgefunden hat. Der Bereich gibt an, wo sich das Dokument im ExFlow-Prozess befand, als die Aktion stattfand.<br/>
 
+![Ansicht - Audit-Protokoll Übersicht](./../../images/view-audit-log-overview-001.png)
 
-![Audit Log](@site/static/img/media/view-audit-log-overview-003.png)
+Die Informationen in dieser Ansicht können durch Auswahl der Aktion "In Excel exportieren" in der Symbolleiste in Excel exportiert werden.<br/>
 
-Each field will be presented as a separate line with columns that show all changes made to the field next to the action the change was related to. The most recent changes will be shown in the columns on the left. To view prior changes, scroll to the right to view additional columns. If there are a significant number of changes, click on Next Set to view additional changes.
+![Audit-Protokoll](./../../images/audit-log-excel-001.png)
 
-In the example shown below, we can see that the most recent change (at 10:34:53 AM on 6/29/23) was made by user KONNIE:
-* The approver was changed from SAM to MARK (see “Approver” row in screenshot below)
-* The original approver (SAM) was assigned by the Approval Rule MARKETING (see “Added from Approval Rule” row in screenshot below)
-* The new approver (MARK) was manually assigned by user KONNIE (see “Created In” row in screenshot below)
+Um alle Standard Business Central Änderungsprotokolleinträge für eine einzelne Aktionszeile anzuzeigen, klicken Sie auf die Zeile, indem Sie auf einen beliebigen Feldwert in der Zeile klicken. Wenn für die Aktion keine Änderungen erfasst wurden, erhalten Sie die Meldung "Keine Änderungen gefunden".
 
-**Note:** The original value is shown on the left of the arrow and the new value is shown on the right.
+![Ansicht - Änderungsprotokolleinträge](./../../images/view-change-log-entries-001.png)
 
-![Audit Log](@site/static/img/media/audit-log-detailed-view-001.png)
+Um alle Änderungen an dem Dokument anzuzeigen, klicken Sie auf der Zusammenfassungsansichtsseite auf **Detailansicht --> Vollständiges Dokument anzeigen.**<br/>
+
+![Ansicht - Audit-Protokoll Übersicht](./../../images/view-audit-log-overview-002.png)
 
 
-### Delete Expired Entries  
+Die **Detailansicht --> Bereich anzeigen** listet alle Felder in Abschnitte unterteilt auf:
+* Kopfzeile
+* Zeilen
+* Genehmiger
 
-Go to: **ExFlow Audit Log Setup --> Delete Expired Entries**
 
-![Audit Log](@site/static/img/media/audit-log-delete-entries-001.png)
+![Audit-Protokoll](./../../images/view-audit-log-overview-003.png)
 
-Similar to standard functionality, it is possible to enter a Period DateFormula in Audit Log Setup, to use when deleting old audit log entries.
+Jedes Feld wird als separate Zeile dargestellt, wobei in den Spalten alle Änderungen an dem Feld neben der Aktion, zu der die Änderung gehört, angezeigt werden. Die neuesten Änderungen werden in den linken Spalten angezeigt. Um frühere Änderungen anzuzeigen, scrollen Sie nach rechts, um zusätzliche Spalten anzuzeigen. Wenn es eine große Anzahl von Änderungen gibt, klicken Sie auf "Nächster Satz", um weitere Änderungen anzuzeigen.
 
-For this example, seven years is added, and ExFlow Audit log entries older than seven year will be deleted when utilizing this function. 
+Im unten gezeigten Beispiel können wir sehen, dass die neueste Änderung (um 10:34:53 Uhr am 29.06.23) von Benutzer KONNIE vorgenommen wurde:
+* Der Genehmiger wurde von SAM auf MARK geändert (siehe "Genehmiger"-Zeile im Screenshot unten)
+* Der ursprüngliche Genehmiger (SAM) wurde von der Genehmigungsregel MARKETING zugewiesen (siehe "Hinzugefügt von Genehmigungsregel"-Zeile im Screenshot unten)
+* Der neue Genehmiger (MARK) wurde manuell von Benutzer KONNIE zugewiesen (siehe "Erstellt in"-Zeile im Screenshot unten)
 
-![Audit Log](@site/static/img/media/audit-log-delete-entries-002.png) 
+**Hinweis:** Der ursprüngliche Wert wird links vom Pfeil angezeigt und der neue Wert wird rechts angezeigt.
+
+![Audit-Protokoll](./../../images/audit-log-detailed-view-001.png)
+
+
+### Löschen abgelaufener Einträge  
+
+Gehen Sie zu: **ExFlow Audit-Protokoll Einrichtung --> Abgelaufene Einträge löschen**
+
+![Audit-Protokoll](./../../images/audit-log-delete-entries-001.png)
+
+Ähnlich wie bei der Standardfunktionalität ist es möglich, in der Audit-Protokoll Einrichtung eine Perioden-Datumsformel einzugeben, die beim Löschen alter Audit-Protokolleinträge verwendet wird.
+
+In diesem Beispiel wird sieben Jahre hinzugefügt, und ExFlow Audit-Protokolleinträge, die älter als sieben Jahre sind, werden beim Verwenden dieser Funktion gelöscht. 
+
+![Audit-Protokoll](./../../images/audit-log-delete-entries-002.png)

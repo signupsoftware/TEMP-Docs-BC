@@ -1,116 +1,114 @@
 ---
-title: Email Reminders
+title: E-Mail-Erinnerungen
 sidebar_position: 10
 hide_title: true
 ---
-## Email Reminders
-To be able to send emails to ExFlow Users there are some settings needed.<br/>
-Job Queue Entry setup should only be done in **Default Company**
+## E-Mail-Erinnerungen
+Um E-Mails an ExFlow-Benutzer senden zu können, sind einige Einstellungen erforderlich.<br/>
+Die Einrichtung des Jobwarteschlangeneintrags sollte nur in der **Standardfirma** erfolgen.
 
 
-### Inbox Reminder
-To send reminders that ExFlow Users have documents to approve, following setup is needed in all companies.
+### Posteingangserinnerung
+Um Erinnerungen zu senden, dass ExFlow-Benutzer Dokumente zur Genehmigung haben, ist folgende Einrichtung in allen Unternehmen erforderlich.
 
-| Inbox Reminder |  | 
+| Posteingangserinnerung |  | 
 |:-|:-|
-| Email Account         | Add Email Account Setup in all companies              
-| ExFlow Email Setup    | Email Type **Inbox Reminder**. in all companies<br/>Read more under section [***ExFlow Email Setup - Inbox Reminder***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder)
-| ExFlow Users          | Activate for **Email Reminder --> Unapproved Documents**. <br/>Read more under section [***ExFlow Users***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#email-reminders) for setup.
-| Job Queue Entry       | Code Unit 12057077 and Parameter String **INBOX REMINDER** in default company
-| Selected Documents    | Approval Status, select one or several documents and use function ***Send Reminder***
-| Selected Approvers    | ExFlow Users, select one or several users and use function ***Send Reminder***
+| E-Mail-Konto         | Fügen Sie die Einrichtung des E-Mail-Kontos in allen Unternehmen hinzu              
+| ExFlow-E-Mail-Einrichtung    | E-Mail-Typ **Posteingangserinnerung** in allen Unternehmen.<br/>Lesen Sie mehr im Abschnitt [***ExFlow-E-Mail-Einrichtung - Posteingangserinnerung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder)
+| ExFlow-Benutzer          | Aktivieren Sie für **E-Mail-Erinnerung --> Nicht genehmigte Dokumente**. <br/>Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#email-reminders) für die Einrichtung.
+| Jobwarteschlangeneintrag       | Codeeinheit 12057077 und Parameterzeichenfolge **INBOX REMINDER** in der Standardfirma
+| Ausgewählte Dokumente    | Genehmigungsstatus auswählen, ein oder mehrere Dokumente auswählen und die Funktion ***Erinnerung senden*** verwenden
+| Ausgewählte Genehmiger    | ExFlow-Benutzer auswählen, ein oder mehrere Benutzer auswählen und die Funktion ***Erinnerung senden*** verwenden
 <br/><br/>
 
-### Comments Notification / Discussion Panel / Chat
-To send an email when an ExFlow Users is mentioned by using @ and "ExFlow User Code", it is possible to send email to the tagged Approver, but then following setup is required in **Default Company**.
+### Kommentarbenachrichtigung / Diskussionsbereich / Chat
+Um eine E-Mail zu senden, wenn ein ExFlow-Benutzer mit @ und "ExFlow-Benutzercode" erwähnt wird, ist es möglich, eine E-Mail an den markierten Genehmiger zu senden. Dafür ist jedoch folgende Einrichtung in der **Standardfirma** erforderlich.
 
-| Comments Notification |  |
+| Kommentarbenachrichtigung |  |
 |:-|:-|
-| Email Account         | Add Email Account Setup in default company
-| ExFlow Email Setup    | Email Type **Comment Notification** in default company.<br/>Read more under section [***ExFlow Email Setup --> Comment Notification - Chat***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#comment-notification---chat)
-| ExFlow Users          | Activate for **Email Reminder --> Discussion Panel**<br/>Read more under section [***ExFlow Users***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#email-reminders) for setup
-| Job Queue Entry       | Code Unit 12057077 and Parameter String **COMMENT NOTIFICATION** in default company
-<br/><br/>
-
-
-### Unreceived Order
-To send reminder when receipt is missing on order related invoice. Then following setup is needed in all companies.
-
-| Unreceived Order |  |
-|:-|:-|
-| Email Account             | Add Email Account Setup in all companies
-| ExFlow Email Setup        | Email Type **UNRECEIVED ORDER** in all companies <br/> Read more under section [***ExFlow Email Setup --> Unreceived Order***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#unreceived-order)
-| ExFlow Users              | Connect ExFlow User to a Purchaser Code <br/>This is done on ***ExFlow Users --> Permissions*** and per company.<br/>Read more under section [***ExFlow Users***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) for setup
-| Import Journal            | Invoice needs to have Boolean ticked in ***Matched Against Purchase Order***<br/>Add Order No. in header or on lines if using line interpretation| Job Queue Entry | Add Job Queue Entry in default company <br/>Code Unit 12057077 and Parameter String **UNRECEIVED ORDER** <br/>This job will only send one reminder per invoice
-| Job Queue Entry           | Code Unit 12057077 and Parameter String **UNRECEIVED ORDER** in default company
-| Send Reminders Manually   | Use function under ***Import Journal --> Actions --> Email***
-| Selected Documents        |  Select documents in Import Journal and go to ***Import Journal --> Actions --> Email*** <br/>Read more under section [***Import Journal***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-send-receipt-reminders)
+| E-Mail-Konto         | Fügen Sie die Einrichtung des E-Mail-Kontos in der Standardfirma hinzu
+| ExFlow-E-Mail-Einrichtung    | E-Mail-Typ **Kommentarbenachrichtigung** in der Standardfirma.<br/>Lesen Sie mehr im Abschnitt [***ExFlow-E-Mail-Einrichtung --> Kommentarbenachrichtigung - Chat***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#comment-notification---chat)
+| ExFlow-Benutzer          | Aktivieren Sie für **E-Mail-Erinnerung --> Diskussionsbereich**<br/>Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#email-reminders) für die Einrichtung
+| Jobwarteschlangeneintrag       | Codeeinheit 12057077 und Parameterzeichenfolge **COMMENT NOTIFICATION** in der Standardfirma
 <br/><br/>
 
 
-### Contract Reminder
-To send a reminder that contract expires, then following setup is needed only in default company.
+### Nicht erhaltene Bestellung
+Um eine Erinnerung zu senden, wenn der Beleg für eine bestellungsbezogene Rechnung fehlt, ist folgende Einrichtung in allen Unternehmen erforderlich.
 
-| Contract Reminder |  |
+| Nicht erhaltene Bestellung |  |
 |:-|:-|
-| Email Account         | Add Email Account Setup in all companies
-| ExFlow Email Setup    | Email Type **Contract Reminder** in all companies <br/>Read more under section [***ExFlow Email Setup --> Contract Reminder***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#contract-reminder)
-| ExFlow Contract       | Add Approval Group in ***Contract --> Contract Reminder --> User to Remind*** <br/>Add Contract Reminder Period when to send reminder (-1M reminder will be sent 1 month before Valid to Date under General Terms) <br/>Read more under section [***Contracts***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract) for setup.
-|Job Queue Entry        | Code Unit 12057077 and Parameter String **CONTRACT REMINDER** in default company<br/>This job will only send one reminder per contract
-<br/><br/>
-
-### OMNI Reminder
-OMNI Approval is a function to approve approval rules and contracts.
-When a new rule or contract is created or changed it might have to be approved. Read more under section [***OMNI Approval***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/omni-approval)
-
-
-| OMNI Reminder |  |
-|:-|:-|
-| Email Account         |  Add Email Account Setup in all companies
-| ExFlow Email Setup    | Email Type **OMNI Approval** in all companies <br/>Read more under section [***Email Setup - OMNI Approval***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#omni-reminder)
-| Job Queue Entry       | Code Unit 12057077 and Parameter String **OMNI REMINDER** in default company
+| E-Mail-Konto             | Fügen Sie die Einrichtung des E-Mail-Kontos in allen Unternehmen hinzu
+| ExFlow-E-Mail-Einrichtung        | E-Mail-Typ **NICHT ERHALTENE BESTELLUNG** in allen Unternehmen <br/> Lesen Sie mehr im Abschnitt [***ExFlow-E-Mail-Einrichtung --> Nicht erhaltene Bestellung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#unreceived-order)
+| ExFlow-Benutzer              | Verbinden Sie den ExFlow-Benutzer mit einem Einkäufercode <br/> Dies erfolgt unter ***ExFlow-Benutzer --> Berechtigungen*** und pro Unternehmen.<br/>Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) für die Einrichtung
+| Importjournal            | Die Rechnung muss im Feld ***Mit Bestellung abgeglichen*** ein Häkchen haben<br/>Fügen Sie die Bestellnummer im Header oder in den Zeilen hinzu, wenn Sie die Zeileninterpretation verwenden| Jobwarteschlangeneintrag | Fügen Sie den Jobwarteschlangeneintrag in der Standardfirma hinzu <br/>Codeeinheit 12057077 und Parameterzeichenfolge **UNRECEIVED ORDER** <br/>Dieser Job sendet nur eine Erinnerung pro Rechnung
+| Jobwarteschlangeneintrag           | Codeeinheit 12057077 und Parameterzeichenfolge **UNRECEIVED ORDER** in der Standardfirma
+| Erinnerungen manuell senden   | Verwenden Sie die Funktion unter ***Importjournal --> Aktionen --> E-Mail***
+| Ausgewählte Dokumente        | Wählen Sie Dokumente im Importjournal aus und gehen Sie zu ***Importjournal --> Aktionen --> E-Mail*** <br/>Lesen Sie mehr im Abschnitt [***Importjournal***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-send-receipt-reminders)
 <br/><br/>
 
 
-### Rejected Order, Rejected Quote, Rejected Invoice/Credit Memo
-To send an email when a document is rejected, following setup is needed:
+### Vertragsbenachrichtigung
+Um eine Erinnerung zu senden, dass ein Vertrag abläuft, ist folgende Einrichtung nur in der Standardfirma erforderlich.
 
-| Rejected Documents |  |
+| Vertragsbenachrichtigung |  |
 |:-|:-|
-| Email Account         | Add Email Account Setup in all companies
-| ExFlow Email Setup    | Email Type **Rejected Order, Rejected Quote**, or/and ***Rejected Invoice/Credit Memo*** in all companies <br/>Read more under section [***Email Setup - Rejected Order***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#rejected-order), [***Rejected Quotes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#rejected-quote) or/and [***Rejected Invoice/Credit***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#rejected-invoicecredit)
-| Approval Status       | Documents need to have status rejected and all lines need to be handled before the document status will be updated
-| Job Queue Entry       | Code Unit 12057077 and Parameter String **REJECTED ORDER** <br/>Code Unit 12057077 and Parameter String **REJECTED QUOTE** <br/>Code Unit 12057077 and Parameter String **REJECTED INVOICE** <br/>Add Job Queue Entry only in default company <br/>The job will send one email per document.
+| E-Mail-Konto         | Fügen Sie die Einrichtung des E-Mail-Kontos in allen Unternehmen hinzu
+| ExFlow-E-Mail-Einrichtung    | E-Mail-Typ **Vertragsbenachrichtigung** in allen Unternehmen <br/>Lesen Sie mehr im Abschnitt [***ExFlow-E-Mail-Einrichtung --> Vertragsbenachrichtigung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#contract-reminder)
+| ExFlow-Vertrag       | Fügen Sie der ***Vertrag --> Vertragsbenachrichtigung --> Benutzer zur Erinnerung*** eine Genehmigungsgruppe hinzu <br/>Fügen Sie den Vertragsbenachrichtigungszeitraum hinzu, wann die Erinnerung gesendet werden soll (-1M Erinnerung wird 1 Monat vor dem Gültigkeitsdatum unter Allgemeine Bedingungen gesendet) <br/>Lesen Sie mehr im Abschnitt [***Verträge***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract) für die Einrichtung.
+|Jobwarteschlangeneintrag        | Codeeinheit 12057077 und Parameterzeichenfolge **CONTRACT REMINDER** in der Standardfirma<br/>Dieser Job sendet nur eine Erinnerung pro Vertrag
+<br/><br/>
+
+### OMNI-Erinnerung
+OMNI-Approval ist eine Funktion zur Genehmigung von Genehmigungsregeln und Verträgen.
+Wenn eine neue Regel oder ein neuer Vertrag erstellt oder geändert wird, muss er möglicherweise genehmigt werden. Lesen Sie mehr im Abschnitt [***OMNI-Approval***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/omni-approval)
+
+
+| OMNI-Erinnerung |  |
+|:-|:-|
+| E-Mail-Konto         |  Fügen Sie die Einrichtung des E-Mail-Kontos in allen Unternehmen hinzu
+| ExFlow-E-Mail-Einrichtung    | E-Mail-Typ **OMNI-Approval** in allen Unternehmen <br/>Lesen Sie mehr im Abschnitt [***E-Mail-Einrichtung - OMNI-Approval***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#omni-reminder)
+| Jobwarteschlangeneintrag       | Codeeinheit 12057077 und Parameterzeichenfolge **OMNI REMINDER** in der Standardfirma
 <br/><br/>
 
 
-### Contract Invoice Reminder
-To send reminders if a contract is missing expected invoices, following setup is needed:
+### Abgelehnte Bestellung, abgelehntes Angebot, abgelehnte Rechnung/Gutschrift
+Um eine E-Mail zu senden, wenn ein Dokument abgelehnt wird, ist folgende Einrichtung erforderlich:
 
-| Contract Invoice Reminder |  |
+| Abgelehnte Dokumente |  |
 |:-|:-|
-| Email Account                 | Add Email Account Setup in all companies
-| ExFlow Email Setup            | Email Type **Contract Invoice Reminder** in all companies<br/>Read more under section [***Email Setup --> Contract Invoice Reminder***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#contract-invoice-reminder)
-| ExFlow Contract               | Add invoice periods and active for Invoice Reminders
-| Job Queue Entry               | Code Unit 12057077 and Parameter String **CONTRACT INVOICE REMINDER** in default company <br/>The job will send one reminder per contract invoice period
-| Manually per Contract         | Go to selected ***Contract Card --> Related --> Show Missing Contract Invoices*** <br/>In new page ***Actions --> Send Contract Reminder***
-| Manually for all Contracts    | Go to ***Contracts list --> Related --> Show Missing Contract Invoices*** <br/>In new page ***Actions --> Send Contract Reminder*** <br/>List will show all expected reminders but only send reminders if Invoice Reminder is active
+| E-Mail-Konto         | Fügen Sie die Einrichtung des E-Mail-Kontos in allen Unternehmen hinzu
+| ExFlow-E-Mail-Einrichtung    | E-Mail-Typ **Abgelehnte Bestellung, abgelehntes Angebot** oder/und ***Abgelehnte Rechnung/Gutschrift*** in allen Unternehmen <br/>Lesen Sie mehr im Abschnitt [***E-Mail-Einrichtung - Abgelehnte Bestellung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#rejected-order), [***Abgelehnte Angebote***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#rejected-quote) oder/und [***Abgelehnte Rechnung/Gutschrift***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#rejected-invoicecredit)
+| Genehmigungsstatus       | Dokumente müssen den Status "abgelehnt" haben und alle Zeilen müssen bearbeitet werden, bevor der Dokumentenstatus aktualisiert wird
+| Jobwarteschlangeneintrag       | Codeeinheit 12057077 und Parameterzeichenfolge **REJECTED ORDER** <br/>Codeeinheit 12057077 und Parameterzeichenfolge **REJECTED QUOTE** <br/>Codeeinheit 12057077 und Parameterzeichenfolge **REJECTED INVOICE** <br/>Fügen Sie den Jobwarteschlangeneintrag nur in der Standardfirma hinzu <br/>Der Job sendet eine E-Mail pro Dokument.
 <br/><br/>
 
 
-### Unreceived Order - Approved
-If matching invoices to Order then Receipt, the invoice can be matched to order, sent for- and approved without order receipt. But the invoice cannot be posted.
-In this case an email reminder for missing receipts can be sent.
+### Vertragsrechnungserinnerung
+Um Erinnerungen zu senden, wenn eine Vertragsrechnung fehlt, ist folgende Einrichtung erforderlich:
 
-To send this reminder setup is needed:
-
-| Unreceived Order - Approved |  |
+| Vertragsrechnungserinnerung |  |
 |:-|:-|
-| Email Account                 | Add Email Account Setup in all companies
-| ExFlow Email Setup            | Email Type **Unreceived Order - Approved** in all companies <br/>Read more under section [***Email Setup --> Unreceived Order - Approved***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#unreceived-order---approved)
-| Approval Status               | Invoices need to have status approved and matched to order without posted receipt
-| Job Queue Entry               | Code Unit 12057077 and Parameter String **UNRECEIVEDORDERAPPROVED** <br/>In default company
-| Manually from Approval Status | Select invoices and ***Related --> Approval Status --> Send Unreceived Order Notification***
+| E-Mail-Konto                 | Fügen Sie die Einrichtung des E-Mail-Kontos in allen Unternehmen hinzu
+| ExFlow-E-Mail-Einrichtung            | E-Mail-Typ **Vertragsrechnungserinnerung** in allen Unternehmen<br/>Lesen Sie mehr im Abschnitt [***E-Mail-Einrichtung --> Vertragsrechnungserinnerung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#contract-invoice-reminder)
+| ExFlow-Vertrag               | Fügen Sie Rechnungszeiträume hinzu und aktivieren Sie sie für Rechnungserinnerungen
+| Jobwarteschlangeneintrag               | Codeeinheit 12057077 und Parameterzeichenfolge **CONTRACT INVOICE REMINDER** in der Standardfirma <br/>Der Job sendet eine Erinnerung pro Vertragsrechnungszeitraum
+| Manuell pro Vertrag         | Gehen Sie zur ausgewählten ***Vertragskarte --> Verwandt --> Fehlende Vertragsrechnungen anzeigen*** <br/>In der neuen Seite ***Aktionen --> Vertragsrechnungserinnerung senden***
+| Manuell für alle Verträge    | Gehen Sie zur ***Vertragsliste --> Verwandt --> Fehlende Vertragsrechnungen anzeigen*** <br/>In der neuen Seite ***Aktionen --> Vertragsrechnungserinnerung senden*** <br/>Die Liste zeigt alle erwarteten Erinnerungen an, sendet jedoch nur Erinnerungen, wenn die Rechnungserinnerung aktiv ist
+<br/><br/>
 
 
+### Nicht erhaltene Bestellung - Genehmigt
+Wenn Rechnungen mit Bestellung und anschließendem Wareneingang abgeglichen werden, kann die Rechnung genehmigt und genehmigt werden, ohne dass ein Wareneingang vorliegt. Die Rechnung kann jedoch nicht gebucht werden.
+In diesem Fall kann eine E-Mail-Erinnerung für fehlende Wareneingänge gesendet werden.
+
+Um diese Erinnerung zu senden, ist folgende Einrichtung erforderlich:
+
+| Nicht erhaltene Bestellung - Genehmigt |  |
+|:-|:-|
+| E-Mail-Konto                 | Fügen Sie die Einrichtung des E-Mail-Kontos in allen Unternehmen hinzu
+| ExFlow-E-Mail-Einrichtung            | E-Mail-Typ **Nicht erhaltene Bestellung - Genehmigt** in allen Unternehmen <br/>Lesen Sie mehr im Abschnitt [***E-Mail-Einrichtung --> Nicht erhaltene Bestellung - Genehmigt***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#unreceived-order---approved)
+| Genehmigungsstatus               | Rechnungen müssen den Status "genehmigt" haben und mit einer Bestellung abgeglichen sein, ohne dass ein Wareneingang gebucht wurde
+| Jobwarteschlangeneintrag               | Codeeinheit 12057077 und Parameterzeichenfolge **UNRECEIVEDORDERAPPROVED** <br/>In der Standardfirma
+| Manuell aus dem Genehmigungsstatus | Wählen Sie Rechnungen aus und gehen Sie zu ***Verwandt --> Genehmigungsstatus --> Nicht erhaltene Bestellungsbenachrichtigung senden***
 

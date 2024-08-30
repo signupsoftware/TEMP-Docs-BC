@@ -1,92 +1,79 @@
 ---
-title: Localization Finland
+title: Lokalisierung Finnland
 sidebar_position: 8
 hide_title: true
 ---
-## Localization Finland
+## Lokalisierung Finnland
 
-### Language
+### Sprache
 
-ExFlow supports Finnish language in Business Central.
+ExFlow unterstützt die finnische Sprache in Business Central.
 
-### Payment Reference
+### Zahlungsreferenz
 
-#### Background
+#### Hintergrund
 
-Finland has a requirement of a payment reference on their purchase
-invoices.
+Finnland hat die Anforderung einer Zahlungsreferenz auf ihren Einkaufsrechnungen.
 
-This payment reference is in fact two different fields: Message Type and
-Invoice Message.
+Diese Zahlungsreferenz besteht tatsächlich aus zwei verschiedenen Feldern: Nachrichtentyp und Rechnungsnachricht.
 
-Standard Finnish local functionality from Microsoft contains 3 fields in
-Purchase Header.
+Die Standard-Funktionalität für Finnland von Microsoft enthält 3 Felder im Einkaufskopf.
 
-- Message Type *(Mandatory)*
+- Nachrichtentyp *(Pflichtfeld)*
 
-- Invoice Message *(Mandatory)*
+- Rechnungsnachricht *(Pflichtfeld)*
 
-- Invoice Message 2
+- Rechnungsnachricht 2
 
-Message Type specifies what kind of Invoice Message to expect.
+Der Nachrichtentyp gibt an, welche Art von Rechnungsnachricht erwartet wird.
 
-Message Type can be one of following:
+Der Nachrichtentyp kann einer der folgenden sein:
 
-- Reference No.
+- Referenznummer
 
-- Invoice Information
+- Rechnungsinformationen
 
-- Message
+- Nachricht
 
-- Long Message
+- Lange Nachricht
 
-- Tax Message
+- Steuernachricht
 
-Message Type and Invoice Message are mandatory fields and must exist on
-the imported invoice in ExFlow Import Journal.
+Nachrichtentyp und Rechnungsnachricht sind Pflichtfelder und müssen in der importierten Rechnung im ExFlow Import Journal vorhanden sein.
 
-##### Solution
+##### Lösung
 
-When the Purchase Invoice is created from the ExFlow Import Journal,
-Message Type and Invoice Message is transferred to the correct fields on
-the Purchase Invoice header.
+Wenn die Einkaufsrechnung aus dem ExFlow Import Journal erstellt wird, werden Nachrichtentyp und Rechnungsnachricht in die entsprechenden Felder im Einkaufsrechnungskopf übertragen.
 
-This functionality is configured and activated in ExFlow Setup with two
-settings called "Check FI Reference" and "Message Type". The settings
-are located it in the section "Doc. Creation checks".
+Diese Funktionalität wird in der ExFlow-Konfiguration mit zwei Einstellungen namens "Check FI Reference" und "Nachrichtentyp" konfiguriert und aktiviert. Die Einstellungen befinden sich im Abschnitt "Dokumenterstellung überprüfen".
 
-**Check Reference**
+**Referenz überprüfen**
 
-**No check:** Check is inactivated.
+**Keine Überprüfung:** Überprüfung ist deaktiviert.
 
-**No empty:** Invoice Message cannot be empty.
+**Nicht leer:** Rechnungsnachricht darf nicht leer sein.
 
-**No empty + Reference no. format:** Invoice Message cannot be empty,
-and the format of the message will be checked. *(Requires that "Message
-Type" = Reference No.)*
+**Nicht leer + Referenznummer-Format:** Rechnungsnachricht darf nicht leer sein und das Format der Nachricht wird überprüft. *(Erfordert, dass "Nachrichtentyp" = Referenznummer ist)*
 
-![ExFlow Setup - Doc. Creation Checks - Finish Localization](@site/static/img/media/exflow-setup-doc-creation-checks-002-fi.png)
+![ExFlow-Konfiguration - Dokumenterstellung überprüfen - Lokalisierung Finnland](./../../images/exflow-setup-doc-creation-checks-002-fi.png)
 
-### Auto Acc. Group
+### Automatische Kontengruppe
 
-ExFlow supports Auto Acc. Group in Import Journal and can be added from
-G/L Account, ExFlow Purchase Code or added manually in Import Journal
-Line.
+ExFlow unterstützt die automatische Kontengruppe im Import Journal und kann aus dem G/L-Konto, dem ExFlow-Einkaufscode oder manuell in der Import Journal-Zeile hinzugefügt werden.
 
-### Use Vendor Document No. if Invoice Message is empty
+### Verwenden der Lieferantenbelegnummer, wenn die Rechnungsnachricht leer ist
 
-Go to: **ExFlow Setup --> OCR Import** and enable the setting ***Use Vendor Document No. if Invoice Message is empty.***
+Gehe zu: **ExFlow-Konfiguration --> OCR-Import** und aktiviere die Einstellung ***Verwenden der Lieferantenbelegnummer, wenn die Rechnungsnachricht leer ist.***
 
-![ExFlow Setup - OCR Import - Finish Localization](@site/static/img/media/FI-exflow-setup-ocr-import-vendor-id-001.png)
+![ExFlow-Konfiguration - OCR-Import - Lokalisierung Finnland](./../../images/FI-exflow-setup-ocr-import-vendor-id-001.png)
 
+Diese Einstellung legt fest, ob die interpretierte Lieferantenbelegnummer auch dann in der Rechnungsnachricht verwendet werden soll, wenn die Rechnungsnachricht leer ist. Der Nachrichtentyp wird dann auf ''Nachricht'' gesetzt. Dies erleichtert den Prozess bei der Arbeit mit nicht inländischen Dokumenten ohne Referenznummer.
 
-This setting specifies if the interpreted Vendor Document No. should be used in Invoice Message as well, if Invoice Message is empty. The Message type will then be set to ''Message''. This will ease the process if working with non domestic documents without Reference No.
+![ExFlow-Konfiguration - Import Journal - Lokalisierung Finnland](./../../images/FI-import-journal-invoice-message-001.png)
 
-![ExFlow Setup - Import Journal - Finish Localization](@site/static/img/media/FI-import-journal-invoice-message-001.png)
+### Anderen Nachrichtentyp in der Lieferantenkonfiguration auswählen
+Der Standard-"Nachrichtentyp" im Import Journal ist standardmäßig auf "Referenznummer" eingestellt.
+Es ist jedoch möglich, zur Lieferantenkonfigurationskarte zu gehen und einen anderen Nachrichtentyp für einen bestimmten Lieferanten festzulegen, falls erforderlich.
 
+![ExFlow-Konfiguration - Import Journal - Lokalisierung Finnland](./../../images/FI-message-type-001.png)
 
-### Choose another Message Type in Vendor Setup
-The standard ''Message Type'' in Import Journal is set to "Reference No." by default. 
-However, it is possible to go to Vendor Setup Card and set another Message Type for a specific vendor, if needed. 
-
-![ExFlow Setup - Import Journal - Finish Localization](@site/static/img/media/FI-message-type-001.png)

@@ -1,120 +1,94 @@
 ---
-title: Document History
+title: Dokumentenverlauf
 sidebar_position: 8
 hide_title: true
 ---
-## Document History
+## Dokumentenverlauf
 
-### Search Documents
+### Dokumente suchen
 
-Go to: ***History \--\> ExFlow Search Documents***
+Gehe zu: ***Verlauf \--\> ExFlow Dokumente suchen***
 
-ExFlow Search Documents can be used for searching documents for
-different criteria within ExFlow. Read more about how to use this
-function under section Search Documents.
+ExFlow Dokumente suchen kann verwendet werden, um Dokumente nach verschiedenen Kriterien innerhalb von ExFlow zu suchen. Erfahren Sie mehr darüber, wie Sie diese Funktion im Abschnitt Dokumente suchen verwenden.
 
-![ExFlow Search Documents](@site/static/img/media/image312.png)
+![ExFlow Dokumente suchen](./../../images/image312.png)
 
-### Approval Status History
+### Genehmigungsstatusverlauf
 
-Go to: ***ExFlow History \--\> ExFlow Approval Status History***
+Gehe zu: ***ExFlow Verlauf \--\> ExFlow Genehmigungsstatusverlauf***
 
-Function to show ExFlow Approval Status History for posted documents,
-finalized orders and quotes. Find related information/documents to a
-specific document, both the "Posted Invoice or Posted Credit Memo" Card
-and the "Ex Doc Card". It is also possible to find the related OCR
-import information for the document or filter on "Approval Group".
+Funktion zum Anzeigen des ExFlow Genehmigungsstatusverlaufs für gebuchte Dokumente, abgeschlossene Bestellungen und Angebote. Finden Sie verwandte Informationen/Dokumente zu einem bestimmten Dokument, sowohl die Karte "Gebuchte Rechnung oder gebuchte Gutschrift" als auch die "Ex-Dokument-Karte". Es ist auch möglich, die zugehörigen OCR-Importinformationen für das Dokument zu finden oder nach "Genehmigungsgruppe" zu filtern.
 
-For posted invoices and credit memos, it is possible to see "Remaining Amount" from Vendor Ledger Entries directly in ExFlow Approval Status History. This means that it is possible to see if the document is paid or not.
+Für gebuchte Rechnungen und Gutschriften ist es möglich, den "Verbleibenden Betrag" aus den Lieferantenbuchungssätzen direkt im ExFlow Genehmigungsstatusverlauf zu sehen. Dies bedeutet, dass Sie sehen können, ob das Dokument bezahlt wurde oder nicht.
 
-![ExFlow Approval Status History - Remaining Amount](@site/static/img/media/image313.png)
+![ExFlow Genehmigungsstatusverlauf - Verbleibender Betrag](./../../images/image313.png)
 
-ExFlow Approval Status History also contains finalized Purchase Orders
-and Quotes. A finalized quote is a quote transformed into an order. A
-finalized order is an order approved, invoiced, and removed. Read more
-under section **ExFlow** **Order Status**.
+Der ExFlow Genehmigungsstatusverlauf enthält auch abgeschlossene Bestellungen und Angebote. Ein abgeschlossenes Angebot ist ein Angebot, das in eine Bestellung umgewandelt wurde. Eine abgeschlossene Bestellung ist eine genehmigte, fakturierte und entfernte Bestellung. Lesen Sie mehr im Abschnitt **ExFlow Bestellstatus**.
 
-![ExFlow Approval Status History](@site/static/img/media/image314.png)
+![ExFlow Genehmigungsstatusverlauf](./../../images/image314.png)
 
-#### Set Advanced Filter on a posted document
+#### Erweiterten Filter für ein gebuchtes Dokument festlegen
 
-Use Approval Status History to find previously posted ExFlow documents.
+Verwenden Sie den Genehmigungsstatusverlauf, um zuvor gebuchte ExFlow-Dokumente zu finden.
 
-![ExFlow Approval Status History](@site/static/img/media/image315.png)
+![ExFlow Genehmigungsstatusverlauf](./../../images/image315.png)
 
-Find specific documents either by using Search or by setting various
-standard filters. To find previously posted documents based on either
-Approver or Job, use the function Set Advanced Filter:
+Finden Sie bestimmte Dokumente entweder durch Suche oder durch Festlegen verschiedener Standardfilter. Um zuvor gebuchte Dokumente basierend auf Genehmiger oder Aufgabe zu finden, verwenden Sie die Funktion Erweiterten Filter festlegen:
 
-![ExFlow Approval Status History / Advanced Filter](@site/static/img/media/image316.png)
+![ExFlow Genehmigungsstatusverlauf / Erweiterter Filter](./../../images/image316.png)
 
-Select one or more Approver Group(s) and/or Job(s). Click OK, and the
-list of documents will be filtered to only display invoices where the
-selected job(s) appear on at least one invoice line and/or the selected
-approver(s) appears in the approval flow for at least one invoice line.
+Wählen Sie eine oder mehrere Genehmigergruppe(n) und/oder Aufgabe(n) aus. Klicken Sie auf OK, und die Liste der Dokumente wird gefiltert, um nur Rechnungen anzuzeigen, bei denen die ausgewählte(n) Aufgabe(n) in mindestens einer Rechnungszeile und/oder der ausgewählte(n) Genehmiger in der Genehmigungsabfolge für mindestens eine Rechnungszeile erscheinen.
 
-In order to reset the Advanced Filter, select Related \--\> Approvers
-\--\> Reset filter
+Um den erweiterten Filter zurückzusetzen, wählen Sie Verwandt \--\> Genehmiger \--\> Filter zurücksetzen
 
-#### Save Filter
+#### Filter speichern
 
-In ExFlow Approval Status History it is possible to save filter.
+Im ExFlow Genehmigungsstatusverlauf ist es möglich, den Filter zu speichern.
 
-Use Business Central Standard to set all filters. Click Save and name
-the filter.
+Verwenden Sie Business Central Standard, um alle Filter festzulegen. Klicken Sie auf Speichern und geben Sie dem Filter einen Namen.
 
-![ExFlow Approval Status History Filter Screenshot - ExFlow Approval Status](@site/static/img/media/image317.png)
+![ExFlow Genehmigungsstatusverlauf Filter-Screenshot - ExFlow Genehmigungsstatus](./../../images/image317.png)
 
-![ExFlow Approval Status History Filter Screenshot - ExFlow Approval Status](@site/static/img/media/image318.png)
+![ExFlow Genehmigungsstatusverlauf Filter-Screenshot - ExFlow Genehmigungsstatus](./../../images/image318.png)
 
-#### Read Comments from Approvers
+#### Kommentare von Genehmigern lesen
 
-When comments are added in Discussion Panel/Chat or on document line it
-will be viewed in the same way as in Approval Status. Read more above.
+Wenn Kommentare im Diskussionsbereich/Chat oder auf der Dokumentenzeile hinzugefügt werden, werden sie genauso wie im Genehmigungsstatus angezeigt. Lesen Sie mehr oben.
 
-### Imported Documents
+### Importierte Dokumente
 
-Go to: ***ExFlow History \--\> ExFlow Imported Documents***
+Gehe zu: ***ExFlow Verlauf \--\> ExFlow Importierte Dokumente***
 
-All interpretated and imported documents is shown in ExFlow Imported
-Documents.
+Alle interpretierten und importierten Dokumente werden in ExFlow Importierte Dokumente angezeigt.
 
-When the document is still in Import Journal, there is no document
-created yet and Document Type will show as Quote.
+Wenn das Dokument sich noch im Importjournal befindet, wurde noch kein Dokument erstellt und der Dokumententyp wird als Angebot angezeigt.
 
-![ExFlow Imported Documents](@site/static/img/media/image319.png)
+![ExFlow Importierte Dokumente](./../../images/image319.png)
 
-If a User deletes an imported document, interpretated data can be found
-here marked as Deleted together with Deleted by User and Deleted at Date
-Time.
+Wenn ein Benutzer ein importiertes Dokument löscht, können interpretierte Daten hier als Gelöscht zusammen mit Gelöscht von Benutzer und Gelöscht am Datum und Uhrzeit gefunden werden.
 
-![ExFlow Imported Documents](@site/static/img/media/image320.png)
+![ExFlow Importierte Dokumente](./../../images/image320.png)
 
-To show interpretated lines open Card.
+Um interpretierte Zeilen anzuzeigen, öffnen Sie die Karte.
 
-Go to: ***Related \--\> Line \--\> Card***
+Gehe zu: ***Verwandt \--\> Zeile \--\> Karte***
 
-![ExFlow Imported Documents](@site/static/img/media/image321.png)
+![ExFlow Importierte Dokumente](./../../images/image321.png)
 
-### Chat Notification History
+### Chat-Benachrichtigungsverlauf
 
-Go to: ***ExFlow History \--\> ExFlow Chat Notification History***
+Gehe zu: ***ExFlow Verlauf \--\> ExFlow Chat-Benachrichtigungsverlauf***
 
-An ExFlow User can view ExFlow Chat Notifications the user has been
-tagged in for the last 90 days.
+Ein ExFlow-Benutzer kann ExFlow Chat-Benachrichtigungen anzeigen, in denen der Benutzer in den letzten 90 Tagen markiert wurde.
 
-Read more under the section Discussion Panel / Chat.
+Lesen Sie mehr im Abschnitt Diskussionsbereich / Chat.
 
-### Deleted Documents
+### Gelöschte Dokumente
 
-Go to: ***ExFlow History \--\> ExFlow Deleted Documents***
+Gehe zu: ***ExFlow Verlauf \--\> ExFlow Gelöschte Dokumente***
 
-If a document is created in ExFlow but not yet posted, it is possible to
-delete the document. In that case document will be saved and can be
-found in ExFlow Deleted Documents.
+Wenn ein Dokument in ExFlow erstellt, aber noch nicht gebucht wurde, ist es möglich, das Dokument zu löschen. In diesem Fall wird das Dokument gespeichert und kann in ExFlow Gelöschte Dokumente gefunden werden.
 
-And if a Purchase Invoice or Purchase Credit Memo is unticked for
-Approval, the ExFlow Document will be removed, and information will be
-saved in ExFlow Deleted Documents.
+Und wenn eine Eingangsrechnung oder eine Gutschrift für die Genehmigung abgewählt wird, wird das ExFlow-Dokument entfernt und die Informationen werden in ExFlow Gelöschte Dokumente gespeichert.
 
-![ExFlow Deleted Documents](@site/static/img/media/image322.png)
+![ExFlow Gelöschte Dokumente](./../../images/image322.png)

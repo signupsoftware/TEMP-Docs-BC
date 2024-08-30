@@ -1,78 +1,69 @@
 ---
-title: Payment Validation and Payment Suggestion
+title: Zahlungsvalidierung und Zahlungsvorschlag
 sidebar_position: 15
 hide_title: true
 ---
-## Payment Validation and Payment Suggestion
+## Zahlungsvalidierung und Zahlungsvorschlag
 
-Let ExFlow validate an interpreted account and and make sure that the vendor suggested account code is set.
+Lassen Sie ExFlow ein interpretiertes Konto validieren und stellen Sie sicher, dass der vorgeschlagene Kontocode des Lieferanten festgelegt ist.
 
+### Einrichtung der Zahlungsvalidierung
 
+Um mit der Zahlungsvalidierung arbeiten zu können, muss das (Bank-)Konto in ExFlow Data Capture interpretiert werden und die folgenden Einstellungen müssen konfiguriert sein.
 
-### Payment Validation Setup
+Gehen Sie zu **ExFlow Setup --> Verwandt --> Erweitert --> Zahlungsvalidierung einrichten** oder aktivieren Sie das Kontrollkästchen "Zahlungsvalidierung" unter "Allgemein" in der ExFlow-Einrichtung.
 
-To be able to work with payment validation, the (bank) account must be interpreted in ExFlow Data Capture and below settings must be configured.
+Diese Funktion legt fest, ob der Zahlungsvalidierungsprozess während des Import- und Dateninterpretationsprozesses angewendet wird.
 
-Go to **ExFlow Setup --> Related --> Advanced --> Payment Validation Setup** or tick Payment Validation box under General in ExFlow Setup.
+![ExFlow Setup - Zahlungsvalidierung einrichten](./../../images/exflow-setup-general-002-payment-validation-setup.png)
 
-This function specifies if the payment validation process will be applied during the import and data interpretation process.
+Klicken Sie auf "Neu" oder "Liste bearbeiten", um die erforderlichen Felder hinzuzufügen:
 
-![ExFlow Setup - Payment Validation Setup](@site/static/img/media/exflow-setup-general-002-payment-validation-setup.png)
+![ExFlow Zahlungsvalidierung einrichten](./../../images/payment-validation-setup-001.png)
 
-Click on New or Edit List to add necessary fields:
+### Empfängerbankkonto vorschlagen
 
-![ExFlow Payment Validation Setup](@site/static/img/media/payment-validation-setup-001.png)
+Um "Empfängerbankkonto vorschlagen" zu aktivieren, muss das Kontrollkästchen "Zahlungsvalidierung" in der ExFlow-Einrichtung aktiviert und SweBase installiert sein.
 
-### Suggest Recipient Bank Account
+![ExFlow Setup - Zahlungsvalidierung und Empfängerbankkonto vorschlagen](./../../images/exflow-setup-general-003.png)
 
-In order to activate "Suggest Recipient Bank Account", the box "Payment Validation" needs to be ticked in ExFlow Setup and SweBase must be installed.
+### ExFlow-Zahlungsvalidierung im Importjournal von ExFlow
 
-![ExFlow Setup - Payment Validation and Suggest Recipient Bank Account](@site/static/img/media/exflow-setup-general-003.png)
+Der interpretierte Wert "Zu zahlendes Konto" für das Feld "Zahlungsvalidierung Kontonummer" sollte das Lieferantenbankkonto mit einem Filter auf die ausgewählte Lieferantenkarte betrachten.
 
-### ExFlow Payment Validation in ExFlow Import Journal
+Fügen Sie die erforderlichen Lieferantenkontodetails auf der Lieferantenbankkontokarte hinzu.
 
-Interpreted value "Pay-To-Account" to field "Payment Validation Account No." should look at the Vendor Bank Account with filter on the selected Pay-to-Vendor Card.
+![Lieferantenbankkontokarte](./../../images/vendor-bank-account-001.png)
 
-Add necessary vendor account details on the Vendor Bank Account Card.
+Das interpretierte Zu-Zahl-Konto wird zusammen mit dem spezifischen Empfängerbankkonto im Header des Importjournals angezeigt.
 
-![Vendor Bank Account Card](@site/static/img/media/vendor-bank-account-001.png)
+![ExFlow Importjournal - Zahlungsvalidierung Kontonummer](./../../images/import-journal-024.png)
 
-The interpreted pay to account will be shown on the header in Import Journal, together with the specific Recipient Bank Account.
+Aus dem Importjournal heraus ist es möglich, die Lieferantenbankkontokarte zu öffnen und die Konten anzuzeigen/bearbeiten.
 
-![ExFlow Import Journal - Payment Validation Account No.](@site/static/img/media/import-journal-024.png)
+![ExFlow Importjournal - Empfängerbankkonto](./../../images/import-journal-025.png)
 
-From the Import Journal it is possible to open Vendor Bank Account Card and view/edit the accounts.
+#### Warnmeldungen im Importjournal
 
-![ExFlow Import Journal - Recipient Bank Account](@site/static/img/media/import-journal-025.png)
+Wenn das interpretierte Konto nicht mit dem vorhandenen Konto übereinstimmt oder das Konto in der Lieferantenkarte fehlt, wird eine Warnmeldung unter "Warnmeldungen" auf der rechten Seite der FactBoxes angezeigt.
 
+![ExFlow Importjournal - Warnmeldungen für Zahlungsvalidierung und Zahlungsvorschlag](./../../images/warning-messages-002.png)
 
-#### Warning messages in Import Journal
+Das Gleiche gilt für den Zahlungsvorschlag, wenn diese Funktion in der ExFlow-Einrichtung aktiviert ist. <br/>
+Untenstehende Warnmeldungen werden ausgelöst, wenn ein (Bank-)Konto in ExFlow Data Capture interpretiert wird (und importiert wird), das nicht mit dem auf der Lieferantenkarte in ExFlow Business Central festgelegten bevorzugten Bankkontocode übereinstimmt.
 
-If the interpreted account does not match with existing account, or if the account is missing, in the Pay-to-Vendor card, a warning message will be shown under "Warning Messages" on the right by the FactBoxes. 
+![ExFlow Importjournal - Empfängerbankkonto](./../../images/payment-suggestion-001.png)
 
-![ExFlow Import Journal - Warning messages for Payment Validation and Payment Suggestion](@site/static/img/media/warning-messages-002.png)
+Mit diesen Warnungen bietet ExFlow die Möglichkeit, das Dokument zu überprüfen, um sicherzustellen, dass alles korrekt ist, bevor es erstellt wird, oder ob Anpassungen erforderlich sind. Wenn nichts korrigiert werden muss, klicken Sie einfach auf "Alle Warnungen akzeptieren", um fortzufahren.
 
-Same comes with Payment Suggestion, if this functions is activated in ExFlow Setup. <br/> 
-Below warning messages will be triggered when interpreting an (bank) account in ExFlow Data Capture (and importing) that doesn't match with the Preferred Bank Account Code set on Vendor card in ExFlow Business Central.  
+![ExFlow Importjournal - Empfängerbankkonto](./../../images/payment-suggestion-002.png)
 
-![ExFlow Import Journal - Recipient Bank Account](@site/static/img/media/payment-suggestion-001.png)
+#### Zahlungsvalidierung und Zahlungsvorschlag in der ExFlow-Lieferanteneinrichtung
 
-With these warning, ExFlow will give an opportunity to double check the document to make sure everything is correct before creation, or if adjustments are needed. If nothings needs to be corrected, simply click on ''Accept all warnings'' to continue. 
+Es ist auch möglich, Zahlungsvalidierungs- und Vorschlagseinstellungen auf Lieferantenebene zu bearbeiten. Gehen Sie zur ExFlow-Lieferanteneinrichtung, wenn ein bestimmter Lieferant von dieser Funktion ausgeschlossen werden soll.
 
-![ExFlow Import Journal - Recipient Bank Account](@site/static/img/media/payment-suggestion-002.png)
+Bearbeiten Sie die Liste oder klicken Sie auf "Neu", um "Zahlungsvalidierungswarnung ignorieren" und "Vorschlagswarnung ignorieren" zu aktivieren.
 
-#### Ignore Payment Validation and Payment Suggestion on a dedicated Journal
+Es ist auch möglich, "Empfängerbankkonto vorschlagen" standardmäßig (aus ExFlow Setup), immer oder nie festzulegen.
 
-If one or both of above-mentioned settings are enabled in ExFlow Setup, but there is a need to work with manual documents in Import Journal where e.g., an interpreted bank account is missing, there is a possibility to have a dedicated manual journal that will skip validation and give no warning messages regarding Payment Validation nor Payment Suggestion in Import Journal.
-
-![ExFlow Import Journals - Ignore Payment Validation and Ignore Payment Suggestion](@site/static/img/media/import-journals-007.png)
-
-#### Payment Validation and Suggestions in ExFlow Vendor Setup
-
-It's possible to handle Payment validation and suggestion settings on a vendor level as well. Go to ExFlow Vendor Setup if a specific vendor needs to be excluded from this function.
-
-Edit the list or press "New" to tick "Ignore Payment Validation Warning" and "Ignore Payment Suggestion Warning".
-
-It is also possible to choose "Suggest Receipt Bank Account" to be set on default (From ExFlow Setup), Always or Never.
-
-![ExFlow Vendor Setup Card](@site/static/img/media/Vendor-setup-card-003.png)
+![ExFlow Lieferanteneinrichtungskarte](./../../images/Vendor-setup-card-003.png)

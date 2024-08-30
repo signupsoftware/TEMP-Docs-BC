@@ -3,32 +3,32 @@ title: Web Services - EXFID
 sidebar_position: 3
 hide_title: true
 ---
+
 ## Web Services - EXFID
 
-### Introduction
-ExFlow depends on the import of documents from a multitude of sources, Local File System, Azure Storage or Web Services. In this document, Web Services will be described; functionality, setup, usage, and sample code as a project in C#/.NET 4.8 and Visual Studio 2019 to integrate with it. Coding can be done in any language that support Web Services requests using the SOAP protocol. The listed sample code can be easily converted to VB.Net.<br/>
-Using Web Services enables 3’rd party integrators or Business Central partners to send electronic invoices to ExFlow using a standardized protocol.
+### Einführung
+ExFlow ist abhängig vom Import von Dokumenten aus verschiedenen Quellen wie dem lokalen Dateisystem, Azure Storage oder Web Services. In diesem Dokument werden Web Services beschrieben: Funktionalität, Einrichtung, Verwendung und Beispielcode als Projekt in C#/.NET 4.8 und Visual Studio 2019 zur Integration. Die Programmierung kann in jeder Sprache erfolgen, die Web Services-Anfragen mit dem SOAP-Protokoll unterstützt. Der aufgeführte Beispielcode kann leicht in VB.Net konvertiert werden.<br/>
+Die Verwendung von Web Services ermöglicht es Drittanbietern oder Business Central-Partnern, elektronische Rechnungen an ExFlow mit einem standardisierten Protokoll zu senden.
 
-### General
-Importing invoices into ExFlow usually requires two files, one XML that contains the invoice in a known structure and the PDF file containing a presentation of the invoice. The PDF file may be optional if there exist an XSL file that can generate an HTML convertible to PDF.
+### Allgemein
+Der Import von Rechnungen in ExFlow erfordert normalerweise zwei Dateien: eine XML-Datei, die die Rechnung in einer bekannten Struktur enthält, und die PDF-Datei, die eine Darstellung der Rechnung enthält. Die PDF-Datei kann optional sein, wenn eine XSL-Datei vorhanden ist, die eine in PDF konvertierbare HTML generieren kann.
 
-Using Web Services for import is initiated externally and not by ExFlow or any Job Queue Entries. External systems connect to Web Services in Business Central and invoke methods to upload documents into Incoming Documents and Incoming Document Attachments. When triggering import in ExFlow, documents are processed based on Incoming Documents imported by the Web Service.
+Der Import über Web Services wird extern initiiert und nicht von ExFlow oder einer Job Queue Entry ausgelöst. Externe Systeme verbinden sich mit den Web Services in Business Central und rufen Methoden auf, um Dokumente in eingehende Dokumente und eingehende Dokumentanlagen hochzuladen. Beim Auslösen des Imports in ExFlow werden die Dokumente basierend auf den über den Web Service importierten eingehenden Dokumenten verarbeitet.
 
 ### Business Central / ExFlow
-Install ExFlow and run the Wizard to get a setup. Import a useful Data Exchange Definition (DED), either one from ExFlow or use an existing DED in Business Central.<br/><br/>
+Installieren Sie ExFlow und führen Sie den Assistenten aus, um eine Einrichtung vorzunehmen. Importieren Sie eine nützliche Data Exchange Definition (DED), entweder eine von ExFlow oder verwenden Sie eine vorhandene DED in Business Central.<br/><br/>
 
-#### ExFlow Setup
-In ExFlow Setup, set a value in field “Web Def. Data Exchange Type”, selecting from the list of Data Exchange Types. If there are none available, then run “Import Data Exchange Definitions” and import one or more Data Exchange Definitions.
+#### ExFlow-Einrichtung
+In der ExFlow-Einrichtung geben Sie einen Wert im Feld "Web Def. Data Exchange Type" ein und wählen Sie aus der Liste der Data Exchange Types aus. Wenn keine verfügbar sind, führen Sie "Import Data Exchange Definitions" aus und importieren Sie eine oder mehrere Data Exchange Definitions.
 
-![ExFlow Setup OCR Import](@site/static/img/media/exflow-setup-ocr-import-002.png)<br/><br/>
+![ExFlow Setup OCR Import](./../../images/exflow-setup-ocr-import-002.png)<br/><br/>
 
+#### Importjournal
+Erstellen oder konfigurieren Sie ein ExFlow Importjournal, um zu verarbeiten, was über den EXFID Web Service importiert wird.
+* Erstellen Sie ein neues ExFlow Importjournal.
+* Geben Sie einen Namen und eine Beschreibung ein.
+* Setzen Sie den Quelltyp auf Web Service.
 
-#### Import Journal
-Create or configure an ExFlow Import Journal to process what is imported through the EXFID Web Service.
-* Create a new ExFlow Import Journal
-* Set a Name and Description
-* Set Source Type to Web Service
+![ExFlow Import Journals](./../../images/import-journals-002.png)
 
-![ExFlow Import Journals](@site/static/img/media/import-journals-002.png)
-
-Process imported invoices through the Web Service by running “Import Documents” in the newly created ExFlow Import Journal or by running “Batch Import Documents”.
+Verarbeiten Sie importierte Rechnungen über den Web Service, indem Sie "Import Documents" im neu erstellten ExFlow Importjournal ausführen oder "Batch Import Documents" ausführen.

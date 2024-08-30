@@ -1,46 +1,47 @@
 {
   "version.label": {
-    "message": "Next",
-    "description": "The label for version current"
+    "message": "Nächste",
+    "description": "Die Bezeichnung für die aktuelle Version"
   },
   "sidebar.tutorialSidebar.category.user-manual": {
-    "message": "user-manual",
-    "description": "The label for category user-manual in sidebar tutorialSidebar"
+    "message": "Benutzerhandbuch",
+    "description": "Die Bezeichnung für die Kategorie Benutzerhandbuch in der Seitenleiste tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Welcome to ExFlow": {
-    "message": "Welcome to ExFlow",
-    "description": "The label for category Welcome to ExFlow in sidebar tutorialSidebar"
+    "message": "Willkommen bei ExFlow",
+    "description": "Die Bezeichnung für die Kategorie Willkommen bei ExFlow in der Seitenleiste tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Business Functionality": {
-    "message": "Business Functionality",
-    "description": "The label for category Business Functionality in sidebar tutorialSidebar"
+    "message": "Geschäftsfunktionalität",
+    "description": "Die Bezeichnung für die Kategorie Geschäftsfunktionalität in der Seitenleiste tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Approval Workflow": {
-    "message": "Approval Workflow",
-    "description": "The label for category Approval Workflow in sidebar tutorialSidebar"
+    "message": "Genehmigungsworkflow",
+    "description": "Die Bezeichnung für die Kategorie Genehmigungsworkflow in der Seitenleiste tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Sales Order": {
-    "message": "Sales Order",
-    "description": "The label for category Sales Order in sidebar tutorialSidebar"
+    "message": "Verkaufsauftrag",
+    "description": "Die Bezeichnung für die Kategorie Verkaufsauftrag in der Seitenleiste tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.CO₂ Insights": {
-    "message": "CO₂ Insights",
-    "description": "The label for category CO₂ Insights in sidebar tutorialSidebar"
+    "message": "CO₂ Einblicke",
+    "description": "Die Bezeichnung für die Kategorie CO₂ Einblicke in der Seitenleiste tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Localizations and ISV Extensions": {
-    "message": "Localizations and ISV Extensions",
-    "description": "The label for category Localizations and ISV Extensions in sidebar tutorialSidebar"
+    "message": "Lokalisierungen und ISV-Erweiterungen",
+    "description": "Die Bezeichnung für die Kategorie Lokalisierungen und ISV-Erweiterungen in der Seitenleiste tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Business Intelligence and reporting": {
-    "message": "Business Intelligence and reporting",
-    "description": "The label for category Business Intelligence and reporting in sidebar tutorialSidebar"
+    "message": "Geschäftsanalytik und Berichterstattung",
+    "description": "Die Bezeichnung für die Kategorie Geschäftsanalytik und Berichterstattung in der Seitenleiste tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Help and Support": {
-    "message": "Help and Support",
+    "message": "Hilfe und Unterstützung",
     "description": "The label for category Help and Support in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Technical": {
-    "message": "Technical",
+    "message": "Technisch",
     "description": "The label for category Technical in sidebar tutorialSidebar"
   }
+
 }

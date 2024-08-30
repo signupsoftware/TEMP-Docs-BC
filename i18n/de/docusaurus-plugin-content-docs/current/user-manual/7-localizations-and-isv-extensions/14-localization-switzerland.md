@@ -1,33 +1,26 @@
 ---
-title: Localization Switzerland
+title: Lokalisierung Schweiz
 sidebar_position: 14
 hide_title: true
 ---
-## Localization Switzerland
+## Lokalisierung Schweiz
 
-### Language
+### Sprache
 
-ExFlow supports French and German language in Business Central.
+ExFlow unterstützt die französische und deutsche Sprache in Business Central.
 
-### QR-Invoices
+### QR-Rechnungen
 
-Payment reference extracted from QR from the invoice is supported.
+Die Zahlungsreferenz, die aus dem QR-Code auf der Rechnung extrahiert wird, wird unterstützt.
 
-Imported QR-reference will populate the field "Payment Reference" on the
-Purchase Invoice in Business Central and will follow to the Posted
-Purchase Invoice where it will be included for the payment.
+Die importierte QR-Referenz füllt das Feld "Zahlungsreferenz" auf der Einkaufsrechnung in Business Central aus und wird auch auf der gebuchten Einkaufsrechnung für die Zahlung angezeigt.
 
-### ESR-Invoices
+### ESR-Rechnungen
 
-Logic for ESR invoices is supported.
+Die Logik für ESR-Rechnungen wird unterstützt.
 
-Imported ESR-reference will populate the field "Payment Reference" and
-"Reference No." on the Purchase Invoice in Business Central.
+Die importierte ESR-Referenz füllt das Feld "Zahlungsreferenz" und "Referenznummer" auf der Einkaufsrechnung in Business Central aus.
 
-Invoice Gross amount will populate the field "ESR Amount" on the
-Purchase Invoice in Business Central.
+Der Bruttobetrag der Rechnung füllt das Feld "ESR-Betrag" auf der Einkaufsrechnung in Business Central aus.
 
-ExFlow will validate that the mandatory ESR-reference exist on invoices
-from vendors with Bank account configured for ESR or ESR+. ExFlow will
-give a warning message in the Import Journal if the ESR-reference is
-missing.
+ExFlow überprüft, ob die obligatorische ESR-Referenz auf Rechnungen von Lieferanten vorhanden ist, bei denen ein Bankkonto für ESR oder ESR+ konfiguriert ist. ExFlow gibt eine Warnmeldung im Importjournal aus, wenn die ESR-Referenz fehlt.

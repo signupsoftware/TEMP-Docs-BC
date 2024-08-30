@@ -1,92 +1,81 @@
 ---
-title: Localization Canada
+title: Lokalisierung Kanada
 sidebar_position: 6
 hide_title: true
 ---
-## Localization Canada
 
-### Language
+## Lokalisierung Kanada
 
-ExFlow supports the French (Canada) language in Business Central.
+### Sprache
 
-### Canadian Sales Tax
+ExFlow unterstützt die französische (Kanada) Sprache in Business Central.
 
-Go to: ***Setup \--\> ExFlow Setup \--\> Doc. Creation Checks tab***
+### Kanadische Umsatzsteuer
 
-Enable "Allow Sales Tax" in ExFlow Setups.
+Gehen Sie zu: ***Setup \--\> ExFlow Setup \--\> Registerkarte Dokumenterstellung überprüfen***
 
-![ExFlow Setup - Doc. Creation Checks - Canadian Localization](@site/static/img/media/exflow-setup-doc-posting-checks-002-ca-us.png)
+Aktivieren Sie "Umsatzsteuer zulassen" in den ExFlow-Einstellungen.
 
-With this setting VAT Product Posting Group will not be mandatory in
-ExFlow and will allow for North American Sales Tax processing.
+![ExFlow Setup - Dokumenterstellung überprüfen - Kanadische Lokalisierung](./../../images/exflow-setup-doc-posting-checks-002-ca-us.png)
 
-![Tax Posting Setup - Canadian Localization](@site/static/img/media/image357.png)
+Mit dieser Einstellung wird die Mehrwertsteuer-Produktposten-Gruppe in ExFlow nicht mehr obligatorisch sein und ermöglicht die Verarbeitung der nordamerikanischen Umsatzsteuer.
 
-To support North American Sales Tax the Tax specific fields from
-Purchase Document Header and Purchase Document Lines are also
-implemented in ExFlow Import Journal. The functionalities for these
-fields are similar to how they work in Purchase Documents in Business
-Central.
+![Steuerbuchungseinrichtung - Kanadische Lokalisierung](./../../images/image357.png)
 
-**The additional fields in the Document header**
+Um die nordamerikanische Umsatzsteuer zu unterstützen, wurden auch die steuerspezifischen Felder im Kopf- und Zeilenbereich des Einkaufsdokuments in ExFlow Import Journal implementiert. Die Funktionalitäten für diese Felder sind ähnlich wie in den Einkaufsdokumenten in Business Central.
 
-- Tax Liable
+**Die zusätzlichen Felder im Dokumentkopf:**
 
-- Tax Area Code
+- Steuerpflichtig
 
-- Provincial Tax Area Code
+- Steuerbereichscode
 
-- Tax Exemption No.
+- Provinzieller Steuerbereichscode
 
-**And on the document lines**
+- Steuerbefreiungsnummer
 
-- Tax Liable
+**Und in den Dokumentzeilen:**
 
-- Tax Area Code
+- Steuerpflichtig
 
-- Provincial Tax Area Code
+- Steuerbereichscode
+
+- Provinzieller Steuerbereichscode
 
 - GST/HST
 
-- Tax Group Code
+- Steuergruppencode
 
-- Use Tax
+- Verwendungsteuer
 
-With the use of Canadian Tax Setup, the ExFlow Import Journal also
-supports Tax Calculations based on the Canadian Tax. The functionality
-for retrieving Tax Area Code etc. from Company Information and location
-instead of Vendor Card is also reflected in ExFlow Import Journal.
+Mit Hilfe der kanadischen Steuereinrichtung unterstützt das ExFlow Import Journal auch Steuerberechnungen auf Basis der kanadischen Steuer. Die Funktionalität zum Abrufen des Steuerbereichscodes usw. aus den Unternehmensinformationen und dem Standort anstelle der Lieferantenkarte spiegelt sich ebenfalls im ExFlow Import Journal wider.
 
-![ExFlow Import Journal - Canadian Localization](@site/static/img/media/image358.png)
+![ExFlow Import Journal - Kanadische Lokalisierung](./../../images/image358.png)
 
-Statistics page is now available in ExFlow Import Journal.
+Die Statistikseite ist jetzt im ExFlow Import Journal verfügbar.
 
-![ExFlow Import Journal -- Statistics](@site/static/img/media/image359.png)
+![ExFlow Import Journal -- Statistik](./../../images/image359.png)
 
-It allows for Tax Amount to be manually adjusted when there is a
-discrepancy between Tax Amount calculated on Invoice Lines and Tax
-Amount on the invoice received from the vendor (Interpreted by OCR
-Service in this case).
+Sie ermöglicht die manuelle Anpassung des Steuerbetrags, wenn es eine Abweichung zwischen dem auf den Rechnungszeilen berechneten Steuerbetrag und dem auf der Rechnung des Lieferanten erhaltenen Steuerbetrag gibt (in diesem Fall durch den OCR-Dienst interpretiert).
 
-![Purchase Invoice Statistics -- OCR import](@site/static/img/media/image360.png)
+![Eingangsrechnungsstatistik -- OCR-Import](./../../images/image360.png)
 
 
-### Handle Tax Group Code in ExFlow Purchase Code
+### Behandlung des Steuergruppencodes im ExFlow-Einkaufscode
 
-When the Tax Group Code on an invoice line needs to be different than what is defaulted on the master record selected on that invoice line, this can be handled from an ExFlow Purchase Code. 
+Wenn der Steuergruppencode in einer Rechnungszeile von dem Standardwert abweichen soll, der auf dem ausgewählten Stammrecord für diese Rechnungszeile voreingestellt ist, kann dies über einen ExFlow-Einkaufscode behandelt werden.
 
-For example, if the Tax Group Code on a G/L account card for Office Supplies is defaulted to NON-TAXABLE, while a line on a Purchase Invoice with that G/L Account needs to be marked as TAXABLE, users could simply add this on the ExFlow Purchase code lines according to picture below. 
+Beispiel: Wenn der Steuergruppencode auf einer G/L-Kontokarte für Büromaterial standardmäßig auf NICHT STEUERBAR eingestellt ist, während eine Zeile auf einer Eingangsrechnung mit diesem G/L-Konto als STEUERBAR markiert werden muss, können Benutzer dies einfach in den ExFlow-Einkaufscodezeilen gemäß dem folgenden Bild hinzufügen.
 
-This would allow users to automate invoice creation in those specific scenarios.
+Dies ermöglicht es Benutzern, die Rechnungserstellung in diesen spezifischen Szenarien zu automatisieren.
+
+![ExFlow-Einkaufscode](./../../images/NA-exflow-purchase-code-card-tax-group-001.png)
 
 
-![ExFlow Purchase Code](@site/static/img/media/NA-exflow-purchase-code-card-tax-group-001.png)
+### Steuerspalten im Web
 
+Es ist möglich, steuerbezogene Felder in ExFlow Web sichtbar zu machen, indem Sie die Spalten in ExFlow Setup hinzufügen.
 
-### Tax columns on Web
+![ExFlow Web Spalten](./../../images/tax-web-columns-001.png)
 
-It is possible to make Tax related fields visible in ExFlow Web by adding the columns in ExFlow Setup.
-
-![ExFlow Web Columns](@site/static/img/media/tax-web-columns-001.png)
-
-Read more about how to edit web columns under section [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
+Lesen Sie mehr darüber, wie Sie Web-Spalten bearbeiten können, im Abschnitt [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)

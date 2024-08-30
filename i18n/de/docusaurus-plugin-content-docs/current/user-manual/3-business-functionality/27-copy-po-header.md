@@ -1,32 +1,32 @@
 ---
-title: Copy Purchase Order Header Values
+title: Kopieren Sie Werte des Bestellkopfes
 sidebar_position: 27
 hide_title: true
 ---
-## Copy Purchase Order Header Values
+## Kopieren Sie Werte des Bestellkopfes
 
-For customers that interpret and order match on header level, some values on the order can now be copied from the Order header to Invoice header.<br/>
+Für Kunden, die eine Übereinstimmung und Bestellung auf Kopfebene interpretieren, können einige Werte der Bestellung jetzt vom Bestellkopf auf den Rechnungskopf kopiert werden.<br/>
 
-Start by activating "Use PO Header Values on Invoice" in ExFlow Setup.<br/>
+Aktivieren Sie zunächst "Verwenden Sie Bestellkopfwerte auf der Rechnung" in der ExFlow-Konfiguration.<br/>
 
-Go to: ***ExFlow Setup – PO Matching --> Use PO Header Values on Invoice***
+Gehen Sie zu: ***ExFlow-Konfiguration - Bestellabgleich --> Verwenden Sie Bestellkopfwerte auf der Rechnung***
 
-![Activate Use PO Header Values on Invoice – ExFlow Setup](@site/static/img/media/exflow-setup-po-matching-008.png)
+![Aktivieren Sie Bestellkopfwerte auf der Rechnung - ExFlow-Konfiguration](./../../images/exflow-setup-po-matching-008.png)
 
-Choose fields to copy in “PO Header Value on Invoice Setup”<br/>
+Wählen Sie die zu kopierenden Felder in der "Bestellkopfwerte auf der Rechnung einrichten"-Option aus.<br/>
 
-Go to: ***ExFlow Setup – Related --> Advanced --> PO Header Values on Invoice Setup***
+Gehen Sie zu: ***ExFlow-Konfiguration - Verwandte --> Erweitert --> Bestellkopfwerte auf der Rechnung einrichten***
 
-![Copy Purchase Order Header – Setup](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
+![Kopieren Sie Werte des Bestellkopfes - Einrichtung](./../../images/po-header-value-on-invoice-setup-001.png)
 
-For US and CA localization Tax Liable and Tax Area can also be copied from the Purchase Order to Purchase Invoice.
+Für die US- und CA-Lokalisierung können auch die steuerpflichtigen und steuerlichen Bereiche von der Bestellung auf die Eingangsrechnung kopiert werden.
 
-![Copy Purchase Order Header – Setup CA - US](@site/static/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
+![Kopieren Sie Werte des Bestellkopfes - Einrichtung CA - US](./../../images/po-header-value-on-invoice-setup-002-ca-us.png)
 
-Use PO Head Values on Invoice can be selected per Vendor from ExFlow Vendor Setup.<br/>
+Die Verwendung von Bestellkopfwerten auf der Rechnung kann pro Lieferant in der ExFlow-Lieferantenkonfiguration ausgewählt werden.<br/>
 
-Go to: ***ExFlow Vendor Setup --> ExFlow Vendor Setup Card*** --> Press “Show more” on PO Matching fast tab.
+Gehen Sie zu: ***ExFlow-Lieferantenkonfiguration --> ExFlow-Lieferantenkonfigurationskarte*** --> Klicken Sie auf "Mehr anzeigen" im Schnellregister "Bestellabgleich".
 
-The fields to be copied will always use settings from ExFlow Setup.
+Die zu kopierenden Felder verwenden immer die Einstellungen aus der ExFlow-Konfiguration.
 
-![Copy Purchase Order Header – Vendor-setup-card](@site/static/img/media/vendor-setup-card-use-po-header-001.png)
+![Kopieren Sie Werte des Bestellkopfes - Lieferantenkonfigurationskarte](./../../images/vendor-setup-card-use-po-header-001.png)

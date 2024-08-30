@@ -1,26 +1,25 @@
 ---
-title: Localization Spain
+title: Lokalisierung Spanien
 sidebar_position: 13
 hide_title: true
 ---
-## Localization Spain
+## Lokalisierung Spanien
 
-### Language
+### Sprache
 
-ExFlow support Spanish language in Business Central.
+ExFlow unterstützt die spanische Sprache in Business Central.
 
-### Invoice Type: SII
+### Rechnungstyp: SII
 
-Business Central supports the Spanish SII requirements for VAT reporting
-(Immediate Information Supply).
+Business Central unterstützt die spanischen SII-Anforderungen für die Umsatzsteuermeldung
+(Sofortige Informationsbereitstellung).
 
-### Equivalence Charge (EC)
+### Äquivalenzabgabe (EC)
 
-An Equivalence Charge (EC) is a tax that is used in retail sales and in
-activities that do not follow VAT rules. Under EC rules, companies must
-pay a surcharge to their vendors when purchasing goods, in addition to
-the usual VAT.
+Eine Äquivalenzabgabe (EC) ist eine Steuer, die im Einzelhandel und bei
+Aktivitäten, die nicht den Umsatzsteuervorschriften folgen, verwendet wird. Gemäß den EC-Vorschriften müssen
+Unternehmen ihren Lieferanten beim Warenkauf zusätzlich zur üblichen Umsatzsteuer einen Zuschlag zahlen.
 
-Some general posting groups must have an EC percentage in addition to
-the VAT percentage. This information is tracked separately, but in order
-to minimize changes, both taxes are usually combined.
+Einige allgemeine Buchungsgruppen müssen neben dem Umsatzsteuersatz auch einen EC-Prozentsatz haben. Diese Informationen werden separat erfasst, aber um Änderungen zu minimieren,
+werden beide Steuern normalerweise kombiniert.
+

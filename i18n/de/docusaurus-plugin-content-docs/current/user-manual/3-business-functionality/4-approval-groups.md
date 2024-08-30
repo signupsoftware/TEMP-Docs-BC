@@ -1,71 +1,72 @@
 ---
-title: Approval Groups
+title: Genehmigungsgruppen
 sidebar_position: 4
 hide_title: true
 ---
-## Approval Groups
+## Genehmigungsgruppen
 
-Go To: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Approval Groups***
+Gehe zu: ***Setup \--\> ExFlow Manuelle Einrichtung \--\> ExFlow Genehmigungsgruppen***
 
-As mentioned in New User, Approval Groups are created automatically when a new user is created. Personal groups should not be modified (except from adding replacers).
+Wie in "Neuer Benutzer" erwähnt, werden Genehmigungsgruppen automatisch erstellt, wenn ein neuer Benutzer erstellt wird. Persönliche Gruppen sollten nicht geändert werden (außer durch Hinzufügen von Vertretern).
 
+### Erstellen einer neuen Genehmigungsgruppe
 
-### Create a New Approval Group
+Darüber hinaus ist es möglich, logische Gruppen wie Einkaufsabteilung oder IT-Abteilung Genehmigungsgruppen mit einem oder mehreren Benutzern einzurichten.
 
-In addition, it is possible to set up logical groups, like Purchase Dept or IT Dept Approval Groups with one or more users.
- 
-Only one user in this group can approve, but all users will receive and can find the document in folder Recent on ExFlow Web.
+Nur ein Benutzer in dieser Gruppe kann genehmigen, aber alle Benutzer erhalten das Dokument und können es im Ordner "Aktuell" auf ExFlow Web finden.
 
-| General   |   |
+| Allgemein   |   |
 |:-|:-|
-|**Code:**                                  | Add a Code that describes the Approval Group. If not excluded this Code is visible on ExFlow Web when forwarding and adding approvers
-| **Name:**                                 | Add a name that describes the Code
-| **Blocked:**                              | If the Approval Group is no longer to be used.
-| **Exclude from the web´s user list:**     | To exclude this approval group in user list when forwarding and adding approvers on ExFlow Web. An Approval Group with Dynamic Approval Type cannot be added manually in the approval flow on ExFlow Web. Exclude from the web´s user list will therefore be activated automatically when selecting a Dynamic Approval Type
-| **Auto Approve:**                         | Add an Auto Approval Group when using Auto Approval in Order Matching or matching against Contract. If Approval Group Members are added, the document will show as approved in folder “Recent” on ExFlow Web
-| **Auto Approve Comment:**                 | Add a comment that will be copied to Comment in Doc. Line Approvers.
+|**Code:**                                  | Fügen Sie einen Code hinzu, der die Genehmigungsgruppe beschreibt. Wenn nicht ausgeschlossen, ist dieser Code auf ExFlow Web sichtbar, wenn er weitergeleitet und Genehmiger hinzugefügt wird.
+| **Name:**                                 | Fügen Sie einen Namen hinzu, der den Code beschreibt.
+| **Gesperrt:**                              | Wenn die Genehmigungsgruppe nicht mehr verwendet werden soll.
+| **Von der Benutzerliste auf der Website ausschließen:**     | Um diese Genehmigungsgruppe in der Benutzerliste auszuschließen, wenn sie auf ExFlow Web weitergeleitet und Genehmiger hinzugefügt wird. Eine Genehmigungsgruppe mit dynamischem Genehmigungstyp kann nicht manuell im Genehmigungsfluss auf ExFlow Web hinzugefügt werden. Der Ausschluss von der Benutzerliste auf der Website wird daher automatisch aktiviert, wenn ein dynamischer Genehmigungstyp ausgewählt wird.
+| **Automatische Genehmigung:**                         | Fügen Sie eine automatische Genehmigungsgruppe hinzu, wenn die automatische Genehmigung bei der Auftragsabstimmung oder der Abstimmung gegen einen Vertrag verwendet wird. Wenn Genehmigungsgruppenmitglieder hinzugefügt werden, wird das Dokument im Ordner "Aktuell" auf ExFlow Web als genehmigt angezeigt.
+| **Kommentar zur automatischen Genehmigung:**                 | Fügen Sie einen Kommentar hinzu, der in den Kommentar in der Dokumentzeilen-Genehmigung kopiert wird.
 
-![ExFlow Approval Group Card](@site/static/img/media/approval-group-001-header.png)
+![ExFlow Genehmigungsgruppenkarte](./../../images/approval-group-001-header.png)
 
 
-### Approval Group with Dynamic Approval Type
 
-It is possible to add approvers automatically depending on different coding on the Document Line.
+### Genehmigungsgruppe mit dynamischem Genehmigungstyp
 
-| Dynamic Approval Type   |   |
+Es ist möglich, Genehmiger automatisch hinzuzufügen, abhängig von verschiedenen Codes in der Dokumentzeile.
+
+| Dynamischer Genehmigungstyp   |   |
 |:-|:-|
-| **Dynamic Approval Type:**                | This field contains multiple options that can be used for different Dynamic Approval Flows. All options require unique setup and when selected it is not possible to add Approval Group Members   <br/> Read more about setup and dynamic approval flow options for dimensions, jobs, and purchasers under section [***Approval Rules --> Dynamic Approval flow for Dimension Owners,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Jobs,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-jobs) or [***Purchasers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers)
-| **Exclude from the web's user list:**     | Will automatically be selected since this Approver Group should not be able to add manually from ExFlow Web
-| **Approval Group Members:**               | There should not be any ExFlow Users added on Approval Group Members
+| **Dynamischer Genehmigungstyp:**                | Dieses Feld enthält mehrere Optionen, die für verschiedene dynamische Genehmigungsflüsse verwendet werden können. Alle Optionen erfordern eine eindeutige Konfiguration und wenn sie ausgewählt sind, ist es nicht möglich, Genehmigungsgruppenmitglieder hinzuzufügen.   <br/> Lesen Sie mehr über die Konfiguration und die Optionen für dynamische Genehmigungsflüsse für Dimensionseigentümer unter Abschnitt [***Genehmigungsregeln --> Dynamischer Genehmigungsfluss für Dimensionseigentümer,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Jobs,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-jobs) oder [***Einkäufer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers)
+| **Von der Benutzerliste auf der Website ausschließen:**     | Wird automatisch ausgewählt, da diese Genehmigungsgruppe nicht manuell von ExFlow Web aus hinzugefügt werden kann.
+| **Genehmigungsgruppenmitglieder:**               | Es sollten keine ExFlow-Benutzer zu den Genehmigungsgruppenmitgliedern hinzugefügt werden.
 
-![ExFlow Approval Group - Person Responsible](@site/static/img/media/approval-group-002-person-responsible.png)
+![ExFlow Genehmigungsgruppe - Verantwortliche Person](./../../images/approval-group-002-person-responsible.png)
 
 
-### Escalation
+### Eskalation
 
-If an approver is not approving documents in time, there is a function to escalate documents to the manager.
+Wenn ein Genehmiger Dokumente nicht rechtzeitig genehmigt, gibt es eine Funktion, um die Dokumente an den Manager eskalieren zu lassen.
 
-The Manager can be added for all approvers in ExFlow Setup or Per Approval Group and running the job manually or automatically with Job Queue.
+Der Manager kann für alle Genehmiger in ExFlow Setup oder pro Genehmigungsgruppe hinzugefügt werden und der Job kann manuell oder automatisch mit der Job-Warteschlange ausgeführt werden.
 
-Read more about setup and how to setup Job Queue under section [***Approval Workflow --> Periodic Activities --> Escalation Job***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/periodic-activities#escalation-job)
+Lesen Sie mehr über die Konfiguration und wie Sie die Job-Warteschlange einrichten unter Abschnitt [***Genehmigungsworkflow --> Periodische Aktivitäten --> Eskalationsjob***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/periodic-activities#escalation-job)
 
-| Escalation   |   |
+| Eskalation   |   |
 |:-|:-|
-| **Manager:**                  | Add the Manager for this specific Approval Group
-| **Days before escalation:**   | Add number of days before escalation
+| **Manager:**                  | Fügen Sie den Manager für diese spezifische Genehmigungsgruppe hinzu.
+| **Tage vor der Eskalation:**   | Geben Sie die Anzahl der Tage vor der Eskalation an.
+
 
 
 ### Approval Group Members
 
-It is possible to add several approvers in one Approval Group. Only one user in this group can approve, but all users will receive and can find the document in folder Recent on ExFlow Web.
+Es ist möglich, mehrere Genehmiger in einer Genehmigungsgruppe hinzuzufügen. Nur ein Benutzer in dieser Gruppe kann genehmigen, aber alle Benutzer erhalten das Dokument und können es im Ordner "Aktuell" auf ExFlow Web finden.
 
 
 | Approval Group Members   |   |
 |:-|:-|
-| **Starting and Ending date:**     | is used for approver that is temporary replacing another approver. Use function to add replacers from ExFlow Web, Assign Replacer or from ExFlow User Card            <br/> Read more under section [***Business Functionality --> ExFlow User --> Add a Replacer During Vacation Time***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time) and [***Approval Workflow --> Periodic Activities --> Assign Replacers***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/periodic-activities#assign-replacers)
+| **Start- und Enddatum:**     | wird für den Genehmiger verwendet, der einen anderen Genehmiger vorübergehend ersetzt. Verwenden Sie die Funktion, um Vertreter von ExFlow Web, Assign Replacer oder von ExFlow User Card hinzuzufügen            <br/> Lesen Sie mehr unter Abschnitt [***Business Functionality --> ExFlow User --> Hinzufügen eines Vertreters während der Urlaubszeit***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time) und [***Approval Workflow --> Periodic Activities --> Assign Replacers***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/periodic-activities#assign-replacers)
 
-![Approval Group Members](@site/static/img/media/approval-group-003-lines.png)
+![Approval Group Members](./../../images/approval-group-003-lines.png)
 
-An Approval Group require at least one user.
+Eine Genehmigungsgruppe erfordert mindestens einen Benutzer.
 
-![No Approval Group Members](@site/static/img/media/approval-group-006-no-members.png)
+![Keine Genehmigungsgruppenmitglieder](./../../images/approval-group-006-no-members.png)

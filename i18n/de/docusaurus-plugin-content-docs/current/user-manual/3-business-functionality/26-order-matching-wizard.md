@@ -1,109 +1,108 @@
 ---
-title: Order Matching Wizard
+title: Auftragsabgleich-Assistent
 sidebar_position: 26
 hide_title: true
 ---
-## Order Matching Wizard
+## Auftragsabgleich-Assistent
 
-This user manual is your go-to guide for setting up ExFlow to effortlessly match invoices to purchase orders. Designed with simplicity in mind, the Order Matching Wizard makes the process straightforward and user-friendly.
+Dieses Benutzerhandbuch ist Ihr Leitfaden zur Einrichtung von ExFlow, um Rechnungen automatisch mit Bestellungen abzugleichen. Der Auftragsabgleich-Assistent wurde mit Einfachheit im Hinterkopf entwickelt und macht den Prozess unkompliziert und benutzerfreundlich.
 
-Search for ExFlow Order Matching Wizard.
+Suchen Sie nach dem ExFlow Auftragsabgleich-Assistenten.
 
-![Order Matching Wizard - Search](@site/static/img/media/order-matching-wizard-001-search.png)
-
-
-### Header- or Line Matching
-The first step in setting up the Order Matching Wizard is to determine whether the matching of invoices to purchase orders should be performed at a header level or line level.
-
-**Header Level Matching:**<br/>
-If you choose header level matching, the Order Matching will compare the overall invoice total with the available total value of the purchase order.
-
-This method is suitable when the details of individual items or services on the invoice do not need to be matched with specific items on the purchase order, or if the invoice line information is too poor for accurate matching.
+![Auftragsabgleich-Assistent - Suche](./../../images/order-matching-wizard-001-search.png)
 
 
-**Line Level Matching:**<br/>
-If you choose line level matching, the Order Matching will compare each interpreted invoice line with corresponding line items on the purchase order.
+### Kopf- oder Positionsabgleich
+Der erste Schritt bei der Einrichtung des Auftragsabgleich-Assistenten besteht darin, zu bestimmen, ob der Abgleich von Rechnungen mit Bestellungen auf Kopfebene oder Positionsebene durchgeführt werden soll.
 
-This approach ensures that each individual item or service on the invoice is matched accurately to the corresponding item on the purchase order.
+**Kopfebene-Abgleich:**<br/>
+Wenn Sie den Kopfebene-Abgleich wählen, vergleicht der Auftragsabgleich-Assistent den Gesamtbetrag der Rechnung mit dem verfügbaren Gesamtwert der Bestellung.
 
-Line matching utilizes interpreted information such as invoice quantity, unit price, line total, and more – to get an accurate match to the corresponding purchase order line and to be able to identify any discrepancies.
-
-### Match Documents To
-The next step is to determine how invoices should be matched to purchase orders in relation to purchase receipts.
-There are three options to consider:
-
-**Receipt:**<br/>
-Select this option if you want invoices to be matched only to purchase orders that have associated purchase receipts.
-
-Ensuring that the items are received and recorded in the warehouse and align with the invoice, before matching the invoice and sending it for approval and final posting. 
-
-**Order:**<br/>
-Choose this option if you want invoices to be matched to purchase orders regardless of whether there is an associated purchase receipt.
-
-This allows invoices to be matched even if the receipt of goods or services has not been confirmed, providing flexibility in your matching process.
-
-Useful in scenarios such as dropshipment or when purchase receipts are not available, or required to fully match the invoice and have it sent for approval and posting.
-
-**Order and Receipt:**<br/>
-If you prefer a combination of the previous two options, select this option.
-
-In this case, invoices can be matched to purchase orders with or without associated purchase receipts, providing maximum flexibility in matching scenarios.
-
-Possible to match invoice lines to purchase orders with and without received item lines. Also makes it possible to match invoice lines to partially received item lines on the order and have them sent for approval and posting.
-
-### Automatically Approve Matched Invoices
-**Never:**<br/>
-Select this option if you want all matched invoices to go through a manual approval process. In this case, no invoices will be automatically approved, regardless of any differences or thresholds.
-
-**If Difference is within Tolerance:**<br/>
-Choose this option if you want matched invoices to be automatically approved only when the difference between the invoice and the purchase order falls within the specified allowed threshold or tolerance for automatic approval.
-
-This option allows for efficient processing of invoices with minor discrepancies, ensuring that only significant differences require manual approval.
-
-**If Matched Order is Approved:**<br/>
-This option adds an additional layer of approval by requiring that the matched order has been reviewed and approved through ExFlow, ensuring that invoices are automatically approved only when the necessary authorization is in place.
-
-![Order Matching Wizard - General](@site/static/img/media/order-matching-wizard-002-general.png)
-
-### Max Amount for Automatic Approval
-If you have allowed for automatic approval of matched invoices, this is where you can specify the maximum amount for automatic approval. This parameter defines the threshold above which invoices will require manual approval, regardless of the matching results.
-
-### Tolerance Violation Warning
-Enable this setting if you’d like the accountants to receive a warning during the import of purchase matched invoices when there are discrepancies over your allowed tolerance for automatic approval. 
-Either way if this setting is enabled or not, discrepancies higher than your allowed tolerance will always require the invoice line to be manually approved.
-
-### Deviation Direct Unit Cost (%) and Deviation Direct Unit Cost (Amount LCY)
-Define the deviation thresholds for the direct unit cost of invoice lines compared to the matched order lines. These thresholds determine the allowable differences between the invoice and the purchase order for automatic approval.
-
-![Order Matching Wizard – Auto Approval](@site/static/img/media/order-matching-wizard-003-auto-approval.png)
-
-### Automatic Difference Handling
-The Automatic Difference Handling functionality allows ExFlow to automatically suggest a difference line if any additional or unexpected costs, such as freight or other charges are identified during the order matching. 
-You can choose if ExFlow should suggest an invoice line of the line type Item Charge, or G/L Account.
-Then specify which G/L Account, or what Item Charge to use for the suggested line.
-
-### Max Diff. Amount (LCY) and Max. Diff. % 
-Is where you can specify an allowed tolerance for the automatically suggested difference line for automatic approval.
-
-![Order Matching Wizard - Other](@site/static/img/media/order-matching-wizard-004-other.png)
-
-### Automatically Post Purchase Receipts
-The "Automatically Post Purchase Receipts" feature allows for the automatic posting of purchase receipts in the matching process. However, please note that this feature can only be utilized when matching invoices to **“Order”** or **“Order and Receipt”**.
-
-Matching invoices using the logic **“Order”** or **“Order and Receipt”**, allows ExFlow to fully match and send an invoice for approval and posting. However, Business Central always requires that Purchase Receipts are posted before the matched invoice can be posted and for the Purchase Order to be invoiced.
-
-This setting allows ExFlow to Post and Invoice the approved quantity of the matched invoice lines automatically. It’s executed once the invoice has the status “Ready for Posting” in Approval Status.
-With this setting disabled, you’re required to post the purchase receipts manually.
-
-![Order Matching Wizard – Automatically Post Purchase Receipt](@site/static/img/media/order-matching-wizard-005-automatically-post-purchase-receipt.png)
+Diese Methode eignet sich, wenn die Details einzelner Artikel oder Dienstleistungen auf der Rechnung nicht mit bestimmten Positionen auf der Bestellung abgeglichen werden müssen oder wenn die Informationen zu den Rechnungspositionen zu ungenau für einen genauen Abgleich sind.
 
 
-### Complete the Wizard
-Click "Finish" to close the Wizard and apply the settings.
+**Positionsebene-Abgleich:**<br/>
+Wenn Sie den Positionsebene-Abgleich wählen, vergleicht der Auftragsabgleich-Assistent jede interpretierte Rechnungsposition mit den entsprechenden Positionen auf der Bestellung.
 
-![Order Matching Wizard – Complete the Wizard](@site/static/img/media/order-matching-wizard-006-complete.png)
+Dieser Ansatz stellt sicher, dass jeder einzelne Artikel oder jede Dienstleistung auf der Rechnung genau der entsprechenden Position auf der Bestellung zugeordnet wird.
 
-### ExFlow Setup
-Fields in ExFlow Setup that are affected by the Order Matching Wizard are selected in the image below:
+Der Positionsabgleich verwendet interpretierte Informationen wie Rechnungsmenge, Einzelpreis, Positions-Gesamtbetrag und mehr, um einen genauen Abgleich mit der entsprechenden Bestellposition herzustellen und Abweichungen zu identifizieren.
 
-![Order Matching Wizard – ExFlow Setup](@site/static/img/media/exflow-setup-po-matching-001.png)
+### Dokumente abgleichen mit
+Der nächste Schritt besteht darin, festzulegen, wie Rechnungen in Bezug auf Wareneingänge mit Bestellungen abgeglichen werden sollen. Es gibt drei Optionen:
+
+**Wareneingang:**<br/>
+Wählen Sie diese Option aus, wenn Sie möchten, dass Rechnungen nur mit Bestellungen abgeglichen werden, die einen zugehörigen Wareneingang haben.
+
+Damit wird sichergestellt, dass die Artikel im Lager empfangen und erfasst wurden und mit der Rechnung übereinstimmen, bevor die Rechnung zum Genehmigen und Buchen gesendet wird.
+
+**Bestellung:**<br/>
+Wählen Sie diese Option aus, wenn Sie möchten, dass Rechnungen mit Bestellungen abgeglichen werden, unabhängig davon, ob ein zugehöriger Wareneingang vorhanden ist.
+
+Dies ermöglicht den Abgleich von Rechnungen, auch wenn der Wareneingang von Waren oder Dienstleistungen noch nicht bestätigt wurde, und bietet Flexibilität im Abgleichsprozess.
+
+Nützlich in Szenarien wie Dropshipment oder wenn Wareneingänge nicht verfügbar sind oder nicht erforderlich sind, um die Rechnung vollständig abzugleichen und zur Genehmigung und Buchung zu senden.
+
+**Bestellung und Wareneingang:**<br/>
+Wenn Sie eine Kombination der beiden vorherigen Optionen bevorzugen, wählen Sie diese Option aus.
+
+In diesem Fall können Rechnungen mit oder ohne zugehörige Wareneingänge mit Bestellungen abgeglichen werden, was maximale Flexibilität in den Abgleichsszenarien ermöglicht.
+
+Es ist möglich, Rechnungspositionen mit Bestellungen abzugleichen, die sowohl empfangene Artikelpositionen als auch nicht empfangene Artikelpositionen enthalten. Es ist auch möglich, Rechnungspositionen mit teilweise empfangenen Artikelpositionen auf der Bestellung abzugleichen und sie zur Genehmigung und Buchung zu senden.
+
+### Automatische Genehmigung abgeglichener Rechnungen
+**Nie:**<br/>
+Wählen Sie diese Option aus, wenn Sie möchten, dass alle abgeglichenen Rechnungen einen manuellen Genehmigungsprozess durchlaufen. In diesem Fall werden keine Rechnungen automatisch genehmigt, unabhängig von Abweichungen oder Schwellenwerten.
+
+**Wenn die Abweichung innerhalb der Toleranz liegt:**<br/>
+Wählen Sie diese Option aus, wenn Sie möchten, dass abgeglichene Rechnungen automatisch genehmigt werden, nur wenn die Abweichung zwischen Rechnung und Bestellung innerhalb der angegebenen erlaubten Toleranz oder Schwelle für die automatische Genehmigung liegt.
+
+Diese Option ermöglicht eine effiziente Verarbeitung von Rechnungen mit geringfügigen Abweichungen und stellt sicher, dass nur signifikante Unterschiede eine manuelle Genehmigung erfordern.
+
+**Wenn die abgeglichene Bestellung genehmigt ist:**<br/>
+Diese Option fügt eine zusätzliche Genehmigungsebene hinzu, indem verlangt wird, dass die abgeglichene Bestellung durch ExFlow überprüft und genehmigt wurde. Dadurch werden Rechnungen automatisch genehmigt, nur wenn die erforderliche Autorisierung vorhanden ist.
+
+![Auftragsabgleich-Assistent - Allgemein](./../../images/order-matching-wizard-002-general.png)
+
+### Maximaler Betrag für automatische Genehmigung
+Wenn Sie die automatische Genehmigung von abgeglichenen Rechnungen zugelassen haben, können Sie hier den maximalen Betrag für die automatische Genehmigung festlegen. Dieser Parameter definiert die Schwelle, über der Rechnungen unabhängig von den Abgleichsergebnissen manuell genehmigt werden müssen.
+
+### Warnung bei Toleranzüberschreitung
+Aktivieren Sie diese Einstellung, wenn Sie möchten, dass die Buchhalter während des Imports von abgeglichenen Rechnungen eine Warnung erhalten, wenn Abweichungen über Ihrer erlaubten Toleranz für die automatische Genehmigung liegen. 
+Unabhängig davon, ob diese Einstellung aktiviert ist oder nicht, erfordern Abweichungen, die über Ihrer erlaubten Toleranz liegen, immer eine manuelle Genehmigung der Rechnungsposition.
+
+### Abweichung Direkter Einheitskosten (%) und Abweichung Direkter Einheitskosten (Betrag LCY)
+Legen Sie die Abweichungsschwellen für die direkten Einheitskosten von Rechnungspositionen im Vergleich zu den abgeglichenen Bestellpositionen fest. Diese Schwellenwerte bestimmen die zulässigen Unterschiede zwischen Rechnung und Bestellung für die automatische Genehmigung.
+
+![Auftragsabgleich-Assistent – Automatische Genehmigung](./../../images/order-matching-wizard-003-auto-approval.png)
+
+### Automatische Behandlung von Differenzen
+Die Funktion zur automatischen Behandlung von Differenzen ermöglicht es ExFlow, automatisch eine Differenzposition vorzuschlagen, wenn zusätzliche oder unerwartete Kosten wie Fracht oder andere Gebühren während des Auftragsabgleichs identifiziert werden. 
+Sie können wählen, ob ExFlow eine Rechnungsposition vom Typ "Artikelgebühr" oder "G/L-Konto" vorschlagen soll.
+Geben Sie dann an, welches G/L-Konto oder welche Artikelgebühr für die vorgeschlagene Position verwendet werden soll.
+
+### Maximaler Differenzbetrag (Betrag LCY) und Maximaler Differenzprozentsatz
+Hier können Sie eine zulässige Toleranz für die automatisch vorgeschlagene Differenzposition für die automatische Genehmigung festlegen.
+
+![Auftragsabgleich-Assistent - Sonstiges](./../../images/order-matching-wizard-004-other.png)
+
+### Automatisches Buchen von Wareneingängen
+Die Funktion "Automatisches Buchen von Wareneingängen" ermöglicht das automatische Buchen von Wareneingängen im Abgleichsprozess. Bitte beachten Sie jedoch, dass diese Funktion nur verwendet werden kann, wenn Rechnungen mit **"Bestellung"** oder **"Bestellung und Wareneingang"** abgeglichen werden.
+
+Der Abgleich von Rechnungen mit der Logik **"Bestellung"** oder **"Bestellung und Wareneingang"** ermöglicht es ExFlow, eine Rechnung vollständig abzugleichen und zur Genehmigung und Buchung zu senden. Business Central erfordert jedoch immer, dass Wareneingänge gebucht werden, bevor die abgeglichene Rechnung gebucht werden kann und die Bestellung abgerechnet wird.
+
+Diese Einstellung ermöglicht es ExFlow, die genehmigte Menge der abgeglichenen Rechnungspositionen automatisch zu buchen und abzurechnen. Dies erfolgt, sobald die Rechnung den Status "Bereit zur Buchung" im Genehmigungsstatus erreicht hat.
+Wenn diese Einstellung deaktiviert ist, müssen Sie die Wareneingänge manuell buchen.
+
+![Auftragsabgleich-Assistent – Automatisches Buchen von Wareneingängen](./../../images/order-matching-wizard-005-automatically-post-purchase-receipt.png)
+
+
+### Assistent abschließen
+Klicken Sie auf "Fertigstellen", um den Assistenten zu schließen und die Einstellungen anzuwenden.
+
+![Auftragsabgleich-Assistent – Assistent abschließen](./../../images/order-matching-wizard-006-complete.png)
+
+### ExFlow-Einrichtung
+Die von der Auftragsabgleich-Assistent betroffenen Felder in der ExFlow-Einrichtung sind im folgenden Bild ausgewählt:
+
+![Auftragsabgleich-Assistent – ExFlow-Einrichtung](./../../images/exflow-setup-po-matching-001.png)

@@ -1,18 +1,19 @@
 ---
-title: Documents for Download
+title: Dokumente zum Herunterladen
 sidebar_position: 6
 hide_title: true
 ---
-## Documents for Download  
+## Dokumente zum Herunterladen
 
-Previous versions of the user manual and other technical documents are available for download:
+Frühere Versionen des Benutzerhandbuchs und andere technische Dokumente können heruntergeladen werden:
 
-<a target="_blank" href={ require("/Old-manuals/ExFlow En User Manual EXF542000.pdf").default } download>ExFlow User Manual EXF542000</a><br/>
+<a target="_blank" href={ require("/Old-manuals/ExFlow En User Manual EXF542000.pdf").default } download>ExFlow Benutzerhandbuch EXF542000</a><br/>
 
-<a target="_blank" href={ require("/Old-manuals/ExFlow EN Configuration Guide 5.00.pdf").default } download>ExFlow Configuration Guide</a><br/>
+<a target="_blank" href={ require("/Old-manuals/ExFlow EN Configuration Guide 5.00.pdf").default } download>ExFlow Konfigurationshandbuch</a><br/>
 
-<a target="_blank" href={ require("/Old-manuals/ExFlow EN Technical Manual 5.02.pdf").default } download>ExFlow Technical Manual</a><br/>
+<a target="_blank" href={ require("/Old-manuals/ExFlow EN Technical Manual 5.02.pdf").default } download>ExFlow Technisches Handbuch</a><br/>
 
 <a target="_blank" href={ require("/Old-manuals/ExFlow EN Upgrade 5.10.pdf").default } download>ExFlow Upgrade</a><br/>
 
-<a target="_blank" href={ require("/Old-manuals/ExFlow Web EN User Manual 5.0.pdf").default } download>ExFlow Web User Manual</a><br/>
+<a target="_blank" href={ require("/Old-manuals/ExFlow Web EN User Manual 5.0.pdf").default } download>ExFlow Web Benutzerhandbuch</a><br/>
+

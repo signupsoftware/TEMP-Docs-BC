@@ -1,21 +1,17 @@
 ---
-title: Localization Australia
+title: Lokalisierung Australien
 sidebar_position: 3
 hide_title: true
 ---
-## Localization Australia
+## Lokalisierung Australien
 
-ExFlow supports Australian localization.
+ExFlow unterstützt die australische Lokalisierung.
 
-### Reason Code
+### Grundcode
 
-Reason Code can be selected from Import Journal, this is efficient for
-Credit Memos where Reason Code is mandatory when posting in Approval
-Status.
+Der Grundcode kann aus dem Importjournal ausgewählt werden. Dies ist effizient für Gutschriften, bei denen der Grundcode beim Buchen im Genehmigungsstatus obligatorisch ist.
 
-The reason code will be copied to each general ledger -and vendor entry
-when the document is posted. Keep in mind that it is only possible to
-assign one reason code to document lines due to all lines are posted as
-one entry.
+Der Grundcode wird beim Buchen des Dokuments auf jede Hauptbuch- und Lieferanteneintragung kopiert. Beachten Sie, dass nur ein Grundcode den Dokumentzeilen zugewiesen werden kann, da alle Zeilen als ein Eintrag gebucht werden.
 
-![ExFlow Import Journal - Australian Localization](@site/static/img/media/image355.png)
+![ExFlow Importjournal - Australische Lokalisierung](./../../images/image355.png)
+

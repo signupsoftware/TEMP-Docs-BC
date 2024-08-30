@@ -1,73 +1,59 @@
 ---
-title: Localization Iceland
+title: Lokalisierung Island
 sidebar_position: 11
 hide_title: true
 ---
-## Localization Iceland
+## Lokalisierung Island
 
-### Language
+### Sprache
 
-ExFlow supports Icelandic language in Business Central.
+ExFlow unterstützt die isländische Sprache in Business Central.
 
-### Payment Reference
+### Zahlungsreferenz
 
-#### Background
+#### Hintergrund
 
-Icelandic invoices contain a payment reference that should populate the
-field "Payment Reference" on the Purchase Invoice Header.
+Isländische Rechnungen enthalten eine Zahlungsreferenz, die im Feld "Zahlungsreferenz" im Kopf der Eingangsrechnung angezeigt werden sollte.
 
-The format of the interpreted payment reference on the invoice needs to
-be transformed when imported to ExFlow to get the correct format.
+Das Format der interpretierten Zahlungsreferenz auf der Rechnung muss transformiert werden, um das korrekte Format in ExFlow zu erhalten.
 
-The correct format includes in following order:
+Das korrekte Format beinhaltet in folgender Reihenfolge:
 
-- Vendor company registration number
+- Unternehmensregistrierungsnummer des Lieferanten
 
-- Due date
+- Fälligkeitsdatum
 
-- Claim number
+- Anspruchsnummer
 
-Example:
+Beispiel:
 
-Input: **4601171350**\> 0**112266**+ 03\<**032266**\> **300820**+
+Eingabe: **4601171350**\> 0**112266**+ 03\<**032266**\> **300820**+
 
-Output: **4601171350 300820 032266123456**
+Ausgabe: **4601171350 300820 032266123456**
 
-Format: RRRRRRRRRR DDMMYY NNNNNNNNNNNN
+Format: RRRRRRRRRR DDMMJJ NNNNNNNNNNNN
 
-#### Solution
+#### Lösung
 
 ##### Transformation
 
-The interpreted payment reference on the invoice must be exported in the
-XML-tag called "PaymId".
+Die interpretierte Zahlungsreferenz auf der Rechnung muss im XML-Tag "PaymId" exportiert werden.
 
-"PaymId" is by default mapped to the field "Vendor document no. 2" in
-the Import Journal.
+"PaymId" ist standardmäßig dem Feld "Lieferantenbelegnr. 2" im Importjournal zugeordnet.
 
-The interpreted payment reference must always be the full and complete
-length.
+Die interpretierte Zahlungsreferenz muss immer die volle und vollständige Länge haben.
 
-A transformation rule is used on the Data Exchange Definition to
-transform the payment reference to the correct format. The logic of the
-transformation rule is coded to handle incoming format: **4601171350**\>
-**0112266+ 03\<032266\>** **300820**+ then create.
+Eine Transformationsregel wird in der Datenaustauschdefinition verwendet, um die Zahlungsreferenz in das korrekte Format zu transformieren. Die Logik der Transformationsregel ist so programmiert, dass sie das eingehende Format: **4601171350**\> **0112266+ 03\<032266\>** **300820**+ verarbeitet und das ausgehende Format: **4601171350 300820 032266123456** erstellt.
 
-outgoing format: **4601171350 300820 032266123456**
+Diese Logik wird durch Erstellen eines benutzerdefinierten Transformationscodes namens "ISLPAY" ausgelöst und dem Feld "PaymId" hinzugefügt.
 
-This logic is triggered by creating a custom transformation code called
-"ISLPAY" and add it to the field "PaymId".
+##### Befüllen des Kopfs der Eingangsrechnung
 
-##### Populating Purchase Invoice Header
+Die transformierte Zahlungsreferenz wird in "Lieferantenbelegnr. 2" im Importjournal importiert.
 
-The transformed payment reference is imported to "Vendor document no. 2"
-in the Import Journal.
+Wenn die Rechnung erstellt wird, wird das Feld "Zahlungsreferenz" im Kopf der Eingangsrechnung mit der transformierten Zahlungsreferenz aus "Lieferantenbelegnr. 2" im Format **01171350 300820 032266123456** befüllt.
 
-When the invoice is created, the field "Payment Reference" on the
-Purchase Invoice Header is populated with the transformed payment
-reference from "Vendor document no. 2" with the format **01171350 300820
-032266123456**
+![Datenaustauschdefinition - Isländische Lokalisierung](./../../images/image365.png)
 
-![Data Exchange Definition - Islandic Localization](@site/static/img/media/image365.png)
+![Transformationsregel-Karte - Isländische Lokalisierung](./../../images/image366.png)
 
-![Transformation Rule Card - Islandic Localization](@site/static/img/media/image366.png)

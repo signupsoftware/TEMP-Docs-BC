@@ -5,42 +5,42 @@ hide_title: true
 ---
 ## Intercompany
 
-ExFlow now supports the Business Central standard Intercompany functionality. Following Intercompany fields are now available throughout the ExFlow process.<br/><br/>
-•	IC Partner Code<br/>
-•	IC Partner Ref. Type<br/>
-•	IC Partner Reference<br/>
+ExFlow unterstützt jetzt die Business Central Standard Intercompany-Funktionalität. Folgende Intercompany-Felder stehen nun im gesamten ExFlow-Prozess zur Verfügung.<br/><br/>
+•	IC-Partnercode<br/>
+•	IC-Partner Ref. Typ<br/>
+•	IC-Partnerreferenz<br/>
 
 
-#### Intercompany in the Import Journal
-The IC fields are now available in the import journal and can be added to the view via user personalization. Values in the IC fields will flow to the invoice in Business Central when it is created.
+#### Intercompany im Importjournal
+Die IC-Felder sind jetzt im Importjournal verfügbar und können über die Benutzerpersonalisierung zur Ansicht hinzugefügt werden. Werte in den IC-Feldern werden in Business Central auf die Rechnung übertragen, wenn sie erstellt wird.
 
-When processing non-PO (cost) invoices, the intercompany fields can be populated manually to allocate a portion of the cost to related entities that have been setup in BC as intercompany partners.
+Bei der Verarbeitung von Nicht-PO (Kosten-)Rechnungen können die Intercompany-Felder manuell ausgefüllt werden, um einen Teil der Kosten auf verwandte Unternehmen zuzuweisen, die in BC als Intercompany-Partner eingerichtet wurden.
 
-For PO matched invoices, if the IC fields are populated in the purchase order, the values will flow from the PO to the invoice line.
+Bei PO-abgeglichenen Rechnungen werden die IC-Felder, wenn sie im Kaufauftrag ausgefüllt sind, von der PO auf die Rechnungsposition übertragen.
 
-![ExFlow Import Journal](@site/static/img/media/intercompany-import-journal-001.png)
+![ExFlow Importjournal](./../../images/intercompany-import-journal-001.png)
 
-#### Intercompany in Approval Status
-In Approval Status, the user has visibility to the IC fields and related values. The IC fields can be added to the view via user personalization.
+#### Intercompany im Genehmigungsstatus
+Im Genehmigungsstatus hat der Benutzer Sichtbarkeit auf die IC-Felder und die zugehörigen Werte. Die IC-Felder können über die Benutzerpersonalisierung zur Ansicht hinzugefügt werden.
 
-![ExFlow Approval Status](@site/static/img/media/intercompany-approval-status-001.png)
+![ExFlow Genehmigungsstatus](./../../images/intercompany-approval-status-001.png)
 
 
 #### Intercompany in ExFlow Web
-The IC Partner Code and IC Partner Reference fields can be added as columns in ExFlow Web. The IC values are visible to the approver and, approvers that have permissions to change coding can update the IC fields if necessary.
+Die IC-Partnercode- und IC-Partnerreferenzfelder können als Spalten in ExFlow Web hinzugefügt werden. Die IC-Werte sind für den Genehmiger sichtbar und Genehmiger, die Berechtigungen zum Ändern der Codierung haben, können die IC-Felder bei Bedarf aktualisieren.
 
-![ExFlow Web](@site/static/img/media/intercompany-web-001.png)
+![ExFlow Web](./../../images/intercompany-web-001.png)
 
-#### Intercompany in ExFlow Approval Documents
-For approvers that approve in Business Central, the IC fields are now visible and editable in ExFlow Approval Documents (with the required permissions).
+#### Intercompany in ExFlow Genehmigungsdokumenten
+Für Genehmiger, die in Business Central genehmigen, sind die IC-Felder jetzt in ExFlow Genehmigungsdokumenten sichtbar und bearbeitbar (mit den erforderlichen Berechtigungen).
 
-![Approval Document](@site/static/img/media/intercompany-document-approval-001.png) 
+![Genehmigungsdokument](./../../images/intercompany-document-approval-001.png) 
 
-When a user runs the ‘Verify Changes’ function, the IC fields are shown as well as any changes made.
+Wenn ein Benutzer die Funktion "Änderungen überprüfen" ausführt, werden die IC-Felder sowie alle vorgenommenen Änderungen angezeigt.
 
-![ExFlow Approval Status](@site/static/img/media/intercompany-approval-status-verify-002.png) 
+![ExFlow Genehmigungsstatus](./../../images/intercompany-approval-status-verify-002.png) 
 
-#### Intercompany in ExFlow Approval Status History
-After a document is posted, the IC Partner Code and IC Partner Reference fields are visible in ExFlow Approval Status History.
+#### Intercompany in ExFlow Genehmigungsstatusverlauf
+Nachdem ein Dokument gebucht wurde, sind die IC-Partnercode- und IC-Partnerreferenzfelder im ExFlow Genehmigungsstatusverlauf sichtbar.
 
-![ExFlow Approval Status History](@site/static/img/media/intercompany-approval-status-history-003.png) 
+![ExFlow Genehmigungsstatusverlauf](./../../images/intercompany-approval-status-history-003.png) 

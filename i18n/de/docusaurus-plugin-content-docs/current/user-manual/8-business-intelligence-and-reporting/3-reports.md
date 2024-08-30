@@ -1,370 +1,318 @@
 ---
-title: Reports
+title: Berichte
 sidebar_position: 3
 hide_title: true
 ---
-## Reports
 
-Go to ExFlow Reports to generate reports. Reports are divided into sections according to below:
+## Berichte
 
-![Report - ExFlow Approval Status](@site/static/img/media/reports-homepage-001.png)
+Gehen Sie zu ExFlow Berichte, um Berichte zu generieren. Die Berichte sind nach folgenden Abschnitten unterteilt:
 
+![Bericht - ExFlow Genehmigungsstatus](./../../images/reports-homepage-001.png)
 
-### Reports --> Documents
+### Berichte --> Dokumente
 
-| Reports --> Documents |  | 
+| Berichte --> Dokumente |  | 
 |:-|:-|
-| **ExFlow Approval Status:**        | Follow up Approval Status, at end month use report to accrue pending costs
-| **ExFlow Posted Approval Documents:**        | View posted approved documents per approver
-| **ExFlow Open Documents:**        | View current open ExFlow documents
-| **ExFlow Documents Approval History:**        |View posted ExFlow documents
-| **ExFlow Documents per Company:**        | ExFlow statistics in all companies to compare the current year with last year 
-| **ExFlow Import Journal Documents With Errors:**        | Exports the list of import journal documents (and related lines) with error
-| **ExFlow Preliminary Accounts Payable:**        | View Accounts Payable report with possibility to filter on Preliminary Posted
-| **ExFlow Aged Accounts Payable:**        | View ExFlow Aged Accounts Payable report
+| **ExFlow Genehmigungsstatus:**        | Verfolgen Sie den Genehmigungsstatus und buchen Sie am Monatsende ausstehende Kosten
+| **ExFlow veröffentlichte genehmigte Dokumente:**        | Zeigen Sie genehmigte Dokumente pro Genehmiger an
+| **ExFlow offene Dokumente:**        | Zeigen Sie aktuell offene ExFlow Dokumente an
+| **ExFlow Dokumentengenehmigungsverlauf:**        | Zeigen Sie veröffentlichte ExFlow Dokumente an
+| **ExFlow Dokumente pro Unternehmen:**        | ExFlow Statistiken in allen Unternehmen, um das aktuelle Jahr mit dem Vorjahr zu vergleichen
+| **ExFlow Import Journal Dokumente mit Fehlern:**        | Exportiert eine Liste von Import Journal Dokumenten (und zugehörigen Zeilen) mit Fehlern
+| **ExFlow vorläufige Verbindlichkeiten:**        | Zeigen Sie den Verbindlichkeitsbericht an und filtern Sie nach vorläufig gebuchten Kosten
+| **ExFlow fällige Verbindlichkeiten:**        | Zeigen Sie den Bericht über fällige ExFlow Verbindlichkeiten an
 
 <br/>
 
-### ExFlow Approval Status
+### ExFlow Genehmigungsstatus
 
-Go to: ***ExFlow Reports \--\> Documents \--\> ExFlow Approval Status***
+Gehen Sie zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Genehmigungsstatus***
 
-This report shows all the documents that are pending for approval and
-not yet posted. Use e.g., filter on Due Date to see documents for a
-specific period. In the tab "Options" select which documents to print.
+Dieser Bericht zeigt alle Dokumente an, die noch auf Genehmigung warten und noch nicht gebucht wurden. Verwenden Sie z.B. den Filter für das Fälligkeitsdatum, um Dokumente für einen bestimmten Zeitraum anzuzeigen. Wählen Sie im Tab "Optionen" aus, welche Dokumente gedruckt werden sollen.
 
-![Report - ExFlow Approval Status](@site/static/img/media/reports-approval-status-001.png)
+![Bericht - ExFlow Genehmigungsstatus](./../../images/reports-approval-status-001.png)
 
+#### Vorläufige Kosten buchen
 
-#### Book Preliminary Costs
+Dieser Bericht kann auch verwendet werden, um einen Hauptbuch mit Buchungen zu füllen, mit denen vorläufige Kosten (pro Einkauf) für noch nicht endgültig zertifizierte Dokumente gebucht werden können. Im folgenden Beispiel treten folgende Ereignisse auf:
 
-This report can also be used to fill a General Journal with entries that
-can be posted to book preliminary costs (per Purchasing) for documents
-not yet finally certified. In the example below, the following will
-occur:
+- Für alle **Aktiven** (d.h. noch zur Genehmigung ausstehenden) Dokumentzeilen vom Typ **G/L Account** wird ein Eintrag im Hauptbuch und im Standard-Batch erstellt.
 
-- For all **Active** (i.e. still out for approval) document lines of
-    type **G/L Account** a record is created in the General Journal and
-    default batch.
+- Das Datum der Buchung wird auf **2021-03-31** festgelegt.
 
-- The line will have the Posting Date set to **2021-03-31**.
+- Die G/L Account-Nummer wird von der Einkaufszeile übernommen und der Saldo für den G/L Account wird auf **2445** festgelegt.
 
-- The G/L Account number will be added from the purchasing line and
-    the balance for the G/L Account will be set to **2445**.
+- Es wird auch eine umgekehrte Buchung mit dem Buchungsdatum **2021-04-01** auf demselben G/L Account mit entgegengesetzten Vorzeichen erstellt.
 
-- There will also be created a reverse posting with posting date
-    **2021-04-01** on the same G/L Account but with opposite signs.
+- Alle Zeilen, für die ein Deferral Start Date für eine Buchung nach dem 2021-03-31 festgelegt ist, werden nicht berücksichtigt. Dies liegt daran, dass das Feld **"Exclude Deferral Amount occurring after Posting Date:"** aktiviert ist.
 
-- All lines that have a Deferral Start Date set for accrual after
-    2021-03-31 will not be included. This is because the field
-    **"Exclude Deferral Amount occurring after Posting Date:"**
-    is checked.
+![Bericht - ExFlow Genehmigungsstatus](./../../images/reports-approval-status-002.png)
 
-![Report - ExFlow Approval Status](@site/static/img/media/reports-approval-status-002.png)
+![Bericht - ExFlow Genehmigungsstatus](./../../images/image379.png)
 
-![Report - ExFlow Approval Status](@site/static/img/media/image379.png)
+![Bericht - ExFlow Genehmigungsstatus](./../../images/image380.png)
 
-![Report - ExFlow Approval Status](@site/static/img/media/image380.png)
+##### Weitere Einstellungen zur Integration von Journalzeilen
 
-##### Other Journal Line Integration Settings
+###### Optionen
 
-###### Options
+**Nur G/L Zeilen einbeziehen:**
 
-**Only Include G/L Lines:**
+Nur G/L Accounts in den Vorschlag für das Hauptbuch aufnehmen. Wenn nicht ausgewählt, werden alle Zeilentypen einbezogen. Positionen werden durch einen G/L Account ersetzt, der auf den allgemeinen Buchungseinstellungen basiert.
 
-Only include G/L Accounts in the General Journal suggestion. If not
-selected all line types will be included. Items will be replaced by a
-G/L Accounts which is selected based on General Posting Setups.
+**Nicht genehmigte Zeilen ausschließen:**
 
-**Exclude Non Approval Lines:**
+Wenn diese Option nicht ausgewählt ist, werden alle Rechnungen/Gutschriften und Zeilen in den ExFlow Genehmigungsstatus einbezogen. Durch Auswahl dieser Option wird sichergestellt, dass nur von ExFlow generierte Rechnungs-/Gutschriftszeilen einbezogen werden.
 
-Leaving this option unselected will include all Invoices/Credit Memos
-and Lines not only in ExFlow Approval Status. Selecting this option will
-ensure that only ExFlow generated Invoice/Credit Memo Lines will be
-included.
+**Währungskurs basierend auf:**
 
-**Currency Rate Based on:**
+Rechnungen/Gutschriften in anderen Währungen als der LCY müssen in die LCY umgerechnet werden.
 
-Invoices/Credit Memos in other currency's than the LCY needs to be
-converted to LCY.
+Heutiges Datum: Der Währungsumrechnungskurs wird basierend auf dem heutigen Datum berechnet.
 
-Today's date: Currency Exchange rate is calculated based on today's
-date.
+Buchungsdatum des Dokuments: Der Währungsumrechnungskurs wird basierend auf dem Buchungsdatum jedes Quelldokuments berechnet.
 
-Document's posting date: Exchange rate is calculated based on each
-source documents posting date.
+Währungsfaktor aus dem Einkaufskopf: Der (vorhandene) Wechselkurs aus dem Quelldokument wird verwendet.
 
-Currency factor from purchase header: The (existing) Exchange rate from
-the source document is used.
+###### Integration von Journalzeilen
 
-###### Journal Line Integration
+**Dimensionen kopieren:**
 
-**Copy Dimensions:**
+Kopieren Sie die Dimensionen von den Quelldokumenten in die vorgeschlagenen Hauptbuchzeilen.
 
-Copy dimension to the suggested General Journal lines from source
-documents.
+**G/L Account von der Einkaufszeile überschreiben:**
 
-**Override G/L Account from Purchase Line:**
+Die leere Option schlägt den G/L Account aus der Quelleinkaufszeile vor.
 
-The blank option will suggest the G/L Account from the source purchase
-line.
+Immer: Ersetzen Sie alle G/L Accounts durch den unten ausgewählten G/L Account.
 
-Always: Replace all G/L Accounts with the G/L Account select below.
+Wenn die Zeile das vordefinierte Konto hat: Ersetzen Sie G/L Accounts aus Einkaufszeilen nur, wenn sie mit dem vordefinierten Konto übereinstimmen.
 
-When Line has the Predefined Account: Only replace G/L Accounts from
-Purchase Lines if they are equal to the Predefined Account.
+**Überschreiben des G/L-Kontos:**
 
-**Override G/L Account:**
+Das für die obige Einstellung verwendete G/L-Konto.
 
-The G/L Account used for the setting above.
+**Ausschließen von Deferral-Beträgen nach dem Buchungsdatum:**
 
-**Exclude Deferral Amount occurring after Posting Date:**
+Ja: Zeilen mit einem Deferral-Startdatum nach dem Buchungsdatum werden nicht einbezogen.
 
-Yes: Lines with Deferral Start Date after Posting Date will not be
-included.
+Nein: Alle Deferral-Buchungen werden einbezogen.
 
-No: All Deferral posting will be included.
+**Verbleibende Deferral-Beträge buchen:**
 
-**Post remaining Deferral amount:**
+Verbleibende Deferral-Beträge aufgrund von Deferral-Vorlagen auf das unten ausgewählte G/L-Konto buchen.
 
-Post remaining deferral amounts due to Deferral Templates to the G/L
-Account selected below.
+**Konto für verbleibende Deferral-Beträge:**
 
-**Account for remaining Deferral Amount:**
+Das für die obige Einstellung verwendete G/L-Konto.
 
-The G/L Account used for the setting above.
+**Buchungsoptionen für Positionen:**
 
-**Posting Option for Items:**
+Optionen sind Vollständig oder nur Inventarkonto.
 
-Options are Full or Inventory Account Only.
+**Buchung von Jobinformationen:**
 
-**Posting Job Information**
+Gibt an, ob Jobinformationen beim Erstellen der Position einbezogen werden sollen.
 
-Specifies if job information should be included when creating line.
+![Bericht - ExFlow Genehmigungsstatus](./../../images/image381.png)
 
-![Report - ExFlow Approval Status](@site/static/img/media/image381.png)
+Fügen Sie weitere erforderliche Filter hinzu:
 
-
-Add other necessary filters:
-
-![Report - ExFlow Approval Status](@site/static/img/media/reports-approval-status-003.png)
+![Bericht - ExFlow Genehmigungsstatus](./../../images/reports-approval-status-003.png)
 <br/>
 
-### ExFlow Posted Approval Documents
+### ExFlow Genehmigte Dokumente
 
-Go to: ***ExFlow Reports \--\> Documents \--\> ExFlow Posted Approval
-Documents***
+Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Genehmigte Dokumente***
 
-The Report "ExFlow Posted Approval Documents" show documents grouped by
-approver. It can also include documents which have been posted and/or
-with filter for only one approver. Can be exported to Excel.
+Der Bericht "ExFlow Genehmigte Dokumente" zeigt Dokumente gruppiert nach Genehmiger an. Er kann auch Dokumente enthalten, die gebucht wurden und/oder einen Filter für nur einen Genehmiger haben. Kann in Excel exportiert werden.
 
-![Report - ExFlow Posted Approval Documents](@site/static/img/media/image382.png)
+![Bericht - ExFlow Genehmigte Dokumente](./../../images/image382.png)
 
-![Report - ExFlow Posted Approval Documents](@site/static/img/media/image383.png)
+![Bericht - ExFlow Genehmigte Dokumente](./../../images/image383.png)
 <br/>
 
-### ExFlow Open Documents
+### ExFlow Offene Dokumente
 
-Go to: ***ExFlow Reports \--\> Documents \--\> ExFlow Open Documents***
+Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Offene Dokumente***
 
-This report can be used to see Open Documents for one specific or
-several Approval Groups.
+Dieser Bericht kann verwendet werden, um offene Dokumente für eine bestimmte oder mehrere Genehmigungsgruppen anzuzeigen.
 
-![Report - ExFlow Open Documents](@site/static/img/media/image384.png)
+![Bericht - ExFlow Offene Dokumente](./../../images/image384.png)
 
-![Report - ExFlow Open Documents](@site/static/img/media/image385.png)
+![Bericht - ExFlow Offene Dokumente](./../../images/image385.png)
 <br/>
 
-### ExFlow Document Approval History
+### ExFlow Dokumentgenehmigungshistorie
 
-Go to: ***ExFlow Reports \--\> Documents \--\> ExFlow Document Approval
-History***
+Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Dokumentgenehmigungshistorie***
 
-This report can be used to see Approval History on "Posted Documents"
-for Approval Groups and Approvers.
+Dieser Bericht kann verwendet werden, um die Genehmigungshistorie für "Gebuchte Dokumente" für Genehmigungsgruppen und Genehmiger anzuzeigen.
 
-![Report - ExFlow Document Approval History](@site/static/img/media/image386.png)
+![Bericht - ExFlow Dokumentgenehmigungshistorie](./../../images/image386.png)
 
-![Report - ExFlow Document Approval History](@site/static/img/media/image387.png)
+![Bericht - ExFlow Dokumentgenehmigungshistorie](./../../images/image387.png)
 
-This report also gives information if an invoice has been automatically
-approved against a purchase order or a Contract. The last column to the
-right shows: \"Contract No.\" for the Document, \"Order No.\" for the
-Lines and \"Auto Approved\" for Approval Lines.
+Dieser Bericht gibt auch Auskunft darüber, ob eine Rechnung automatisch gegen eine Bestellung oder einen Vertrag genehmigt wurde. Die letzte Spalte rechts zeigt: "Vertragsnummer" für das Dokument, "Bestellnummer" für die Positionen und "Automatisch genehmigt" für die Genehmigungspositionen.
 <br/>
 
-### ExFlow Documents per Company
+### ExFlow Dokumente pro Unternehmen
 
-Go to: ***ExFlow Reports \--\> Documents \--\> ExFlow Documents per
-Company***
+Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Dokumente pro Unternehmen***
 
-This report can be used to see the number of ExFlow documents per
-Company and the number of Approvers per company.
+Dieser Bericht kann verwendet werden, um die Anzahl der ExFlow-Dokumente pro Unternehmen und die Anzahl der Genehmiger pro Unternehmen anzuzeigen.
 
-![Report - ExFlow Documents per Company](@site/static/img/media/image388.png)
+![Bericht - ExFlow Dokumente pro Unternehmen](./../../images/image388.png)
 
-![Report - ExFlow Documents per Company](@site/static/img/media/image389.png)
+![Bericht - ExFlow Dokumente pro Unternehmen](./../../images/image389.png)
 
 <br/>
 
-### ExFlow Import Journal Documents With Errors
-Go to: ***ExFlow Reports \--\> Documents \--\> ExFlow Import Journal Documents With Errors***
+### ExFlow Import Journal-Dokumente mit Fehlern
+Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Import Journal-Dokumente mit Fehlern***
 
-Download an Excel file with all Import Journal - documents with error. 
-Choose if you want to enable ''All Lines'', and also if an specific ''Journal Batch Name'' then click on OK to download the file. 
+Laden Sie eine Excel-Datei mit allen Import Journal-Dokumenten mit Fehlern herunter. Wählen Sie, ob Sie "Alle Positionen" aktivieren möchten, und auch, ob ein bestimmter "Journal-Batch-Name" angegeben werden soll. Klicken Sie dann auf OK, um die Datei herunterzuladen.
 
-![Report - ExFlow Report](@site/static/img/media/reports-import-journal-001.png)
+![Bericht - ExFlow Bericht](./../../images/reports-import-journal-001.png)
 <br/>
 
-### ExFlow Preliminary Accounts Payable
-Go to: ***ExFlow Reports \--\> Documents \--\> ExFlow Preliminary Accounts Payable***
+### ExFlow Vorläufige Verbindlichkeiten
+Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Vorläufige Verbindlichkeiten***
 
-Generate a report with filer on Preliminary Posting. Specify if you want that the report should show all documents, only Preliminary Posted Documents, or without Preliminary Posted Documents.
+Generieren Sie einen Bericht mit Filter für vorläufige Buchungen. Geben Sie an, ob der Bericht alle Dokumente, nur vorläufig gebuchte Dokumente oder Dokumente ohne vorläufige Buchungen anzeigen soll.
 
-It is also possible to filter on Vendor No. etc.
+Es ist auch möglich, nach Lieferantennummer usw. zu filtern.
 
-![Report - ExFlow Report](@site/static/img/media/reports-documents-preliminary-001.png)
+![Bericht - ExFlow Bericht](./../../images/reports-documents-preliminary-001.png)
 
-In below example, the report show only Preliminary Posted Documents without any other filter set. 
+Im folgenden Beispiel zeigt der Bericht nur vorläufige gebuchte Dokumente ohne weitere Filtereinstellungen.
 
-![Report - ExFlow Report](@site/static/img/media/reports-documents-preliminary-002.png)
+![Bericht - ExFlow-Bericht](./../../images/reports-documents-preliminary-002.png)
 <br/>
 
-### ExFlow Aged Accounts Payable
-Go to: ***ExFlow Reports \--\> Documents \--\> ExFlow Aged Accounts Payable***
+### ExFlow-Verbindlichkeiten nach Alter
+Gehe zu: ***ExFlow-Berichte \--\> Dokumente \--\> ExFlow-Verbindlichkeiten nach Alter***
 
-Generate a Document Aging report and let ExFlow specify if the aging will be calculated from the due date, the posting date, or the document date, among other filters.
+Generieren Sie einen Bericht über die Alterung von Dokumenten und lassen Sie ExFlow festlegen, ob die Alterung vom Fälligkeitsdatum, dem Buchungsdatum oder dem Dokumentdatum aus berechnet wird, sowie weitere Filter.
 
-![Report - ExFlow Report](@site/static/img/media/reports-documents-aged-accounts-001.png)
+![Bericht - ExFlow-Bericht](./../../images/reports-documents-aged-accounts-001.png)
 
-In below example, reports is generated with filter: ''Aging by: Due Date'' and ''Heading Type'' set as ''Date Interval'', and also to exclude Preliminary posted documents.
+Im folgenden Beispiel wird der Bericht mit den Filtern ''Alterung nach: Fälligkeitsdatum'' und ''Überschriftstyp'' als ''Datumsintervall'' generiert und es werden auch vorläufige gebuchte Dokumente ausgeschlossen.
 
-![Report - ExFlow Report](@site/static/img/media/reports-documents-aged-accounts-002.png)
+![Bericht - ExFlow-Bericht](./../../images/reports-documents-aged-accounts-002.png)
 
 <br/><br/>
 
-### Reports --> ExFlow User
+### Berichte --> ExFlow-Benutzer
 
-| Reports --> User |  | 
+| Berichte --> Benutzer |  | 
 |:-|:-|
-| **ExFlow Users:**        | ExFlow users and their details in all companies
-| **ExFlow Approval Follow-Up:**        | View current ExFlow documents per user
-| **ExFlow Approver Statistics:**        | View the approver performance
-| **ExFlow User Replacements:**        | Check out replacers for all ExFlow users
-| **ExFlow GDPR User Related Data:**        | View where personal data are used in ExFlow 
+| **ExFlow-Benutzer:**        | ExFlow-Benutzer und ihre Details in allen Unternehmen
+| **ExFlow-Genehmigungsverfolgung:**        | Anzeigen der aktuellen ExFlow-Dokumente pro Benutzer
+| **ExFlow-Genehmigerstatistik:**        | Anzeigen der Leistung des Genehmigers
+| **ExFlow-Benutzervertretungen:**        | Überprüfen Sie Vertreter für alle ExFlow-Benutzer
+| **ExFlow-GDPR-benutzerbezogene Daten:**        | Anzeigen, wo personenbezogene Daten in ExFlow verwendet werden 
 
 <br/>
 
-### ExFlow Users
+### ExFlow-Benutzer
 
-Go to: ***ExFlow Reports \--\> User \--\> ExFlow Users***
+Gehe zu: ***ExFlow-Berichte \--\> Benutzer \--\> ExFlow-Benutzer***
 
+Dieser Bericht zeigt sowohl ExFlow-Benutzer als auch Benutzereinrichtungen für alle Unternehmen an.
+Mit verschiedenen Filteroptionen.
 
-This report views both ExFlow Users and User Setup for all companies.
-Including different filter options.
+![Bericht - ExFlow-Benutzer](./../../images/image390.png)
 
-![Report - ExFlow Users](@site/static/img/media/image390.png)
-
-![Report - ExFlow Users](@site/static/img/media/image391.png)
+![Bericht - ExFlow-Benutzer](./../../images/image391.png)
 <br/>
 
-### ExFlow Approval Follow-Up
+### ExFlow-Genehmigungsverfolgung
 
-Go to: ***ExFlow Reports --> Users --> ExFlow Approval Follow-up***
+Gehe zu: ***ExFlow-Berichte --> Benutzer --> ExFlow-Genehmigungsverfolgung***
 
-This report can be used to follow up Approvers with unapproved document
-lines. Add filter for specific "Approval Group".
+Dieser Bericht kann verwendet werden, um Genehmiger mit nicht genehmigten Dokumentzeilen zu verfolgen. Fügen Sie einen Filter für eine bestimmte "Genehmigungsgruppe" hinzu.
 
-![Report - ExFlow Approval Follow Up](@site/static/img/media/image392.png)
+![Bericht - ExFlow-Genehmigungsverfolgung](./../../images/image392.png)
 
-![Report - ExFlow Approval Follow Up](@site/static/img/media/image393.png)
+![Bericht - ExFlow-Genehmigungsverfolgung](./../../images/image393.png)
 <br/>
 
-### ExFlow Approver Statistics
+### ExFlow Genehmiger Statistiken
 
-Go to: ***ExFlow Reports \--\> User \--\> ExFlow Approver Statistics***
+Gehe zu: ***ExFlow Berichte \--\> Benutzer \--\> ExFlow Genehmiger Statistiken***
 
-This report gives admins/users statistic for the Approvers regarding for
-example "Number of Approve lines, Average No. of approval days".
+Dieser Bericht liefert Administratoren/Benutzern Statistiken für die Genehmiger, z. B. "Anzahl der genehmigten Zeilen, durchschnittliche Anzahl der Genehmigungstage".
 
-![Report - ExFlow Approver Statistics](@site/static/img/media/image394.png)
+![Bericht - ExFlow Genehmiger Statistiken](./../../images/image394.png)
 
-![Report - ExFlow Approver Statistics](@site/static/img/media/image395.png)
+![Bericht - ExFlow Genehmiger Statistiken](./../../images/image395.png)
 <br/>
 
-### ExFlow User Replacements
+### ExFlow Benutzervertretungen
 
-Go to: ***ExFlow Reports \--\> User \--\> ExFlow User Replacements***
+Gehe zu: ***ExFlow Berichte \--\> Benutzer \--\> ExFlow Benutzervertretungen***
 
-This report shows User Replacements for different users in different
-periods. Admins/Users can either filter on a specific user or on "All
-Users".
+Dieser Bericht zeigt Benutzervertretungen für verschiedene Benutzer in verschiedenen Zeiträumen. Administratoren/Benutzer können entweder nach einem bestimmten Benutzer oder nach "Allen Benutzern" filtern.
 
-![Report - ExFlow User Replacements](@site/static/img/media/image396.png)
+![Bericht - ExFlow Benutzervertretungen](./../../images/image396.png)
 
-![Report - ExFlow User Replacements](@site/static/img/media/image397.png)
+![Bericht - ExFlow Benutzervertretungen](./../../images/image397.png)
 <br/>
 
-### ExFlow GDPR User Related Data
+### ExFlow GDPR Benutzerbezogene Daten
 
-Go to: ***ExFlow Reports \--\> User \--\> ExFlow GPDR User Related
-Data***
+Gehe zu: ***ExFlow Berichte \--\> Benutzer \--\> ExFlow GDPR Benutzerbezogene Daten***
 
-This report shows all the GDPR related data for a specific User.
+Dieser Bericht zeigt alle GDPR-bezogenen Daten für einen bestimmten Benutzer.
 
-![Report - ExFlow GDPR User Related Data](@site/static/img/media/image398.png)
+![Bericht - ExFlow GDPR Benutzerbezogene Daten](./../../images/image398.png)
 
-![Report - ExFlow GDPR User Related Data](@site/static/img/media/image399.png)
+![Bericht - ExFlow GDPR Benutzerbezogene Daten](./../../images/image399.png)
 <br/><br/>
 
-### Reports --> Approval Rules
+### Berichte --> Genehmigungsregeln
 
-| Reports --> Approval Rules |  | 
+| Berichte --> Genehmigungsregeln |  | 
 |:-|:-|
-| **ExFlow Approval Rules:**        | Detailed view of all Approval Rules defined for ExFlow workflow
-| **ExFlow Approval Rules per User:**        | View Approval Rules per user
-| **ExFlow Approval Rules List:**        | View Approval Rule list
+| **ExFlow Genehmigungsregeln:**        | Detaillierte Ansicht aller für den ExFlow-Workflow definierten Genehmigungsregeln
+| **ExFlow Genehmigungsregeln pro Benutzer:**        | Ansicht der Genehmigungsregeln pro Benutzer
+| **ExFlow Genehmigungsregelliste:**        | Ansicht der Liste der Genehmigungsregeln
 
 <br/>
 
-### ExFlow Approval Rules
+### ExFlow Genehmigungsregeln
 
-Go to: ***ExFlow Reports \--\> Approval Rules \--\> ExFlow Approval
-Rules***
+Gehe zu: ***ExFlow Berichte \--\> Genehmigungsregeln \--\> ExFlow Genehmigungsregeln***
 
-This report shows "Approval Rules" by company. There are different
-filter options such as "Vendor" or "Dimension Value" that can be applied
-as well.
+Dieser Bericht zeigt "Genehmigungsregeln" nach Unternehmen. Es gibt verschiedene Filteroptionen wie "Lieferant" oder "Dimension Wert", die ebenfalls angewendet werden können.
 
-Tick the "Show Approval Group Lines" box to have approval group lines information added in the report.
+Aktivieren Sie das Kontrollkästchen "Genehmigungsgruppenzeilen anzeigen", um Informationen zu den Genehmigungsgruppenzeilen in den Bericht aufzunehmen.
 
-![Report - ExFlow Approval Rules](@site/static/img/media/image400.png)
+![Bericht - ExFlow Genehmigungsregeln](./../../images/image400.png)
 
-![Report - ExFlow Approval Rules](@site/static/img/media/image401.png)
+![Bericht - ExFlow Genehmigungsregeln](./../../images/image401.png)
 <br/>
 
-### ExFlow Approval Rules per User
+### ExFlow Genehmigungsregeln pro Benutzer
 
-Go to: ***ExFlow Report \--\> Approval Rules \--\> ExFlow Approval Rules
-per User***
+Gehe zu: ***ExFlow Bericht \--\> Genehmigungsregeln \--\> ExFlow Genehmigungsregeln pro Benutzer***
 
-This report shows "Approval Rules per User" with filter options per
-"Company", "User ID" name and so on. Admins/Users can also include User
-Replacements for a specific date.
+Dieser Bericht zeigt "Genehmigungsregeln pro Benutzer" mit Filteroptionen nach "Unternehmen", "Benutzer-ID" und so weiter. Administratoren/Benutzer können auch Benutzervertretungen für ein bestimmtes Datum einschließen.
 
-![Report - ExFlow Approval Rules per User](@site/static/img/media/image402.png)
+![Bericht - ExFlow Genehmigungsregeln pro Benutzer](./../../images/image402.png)
 
-![Report - ExFlow Approval Rules per User](@site/static/img/media/image403.png)
+![Bericht - ExFlow Genehmigungsregeln pro Benutzer](./../../images/image403.png)
 
 <br/>
 
-### ExFlow Approval Rules List
-Go to: ExFlow Report --> Approval Rules --> ExFlow Approval Rules List
+### ExFlow Genehmigungsregelliste
+Gehe zu: ExFlow Bericht --> Genehmigungsregeln --> ExFlow Genehmigungsregelliste
 
-Generate a report based on all approval rules or selected rules.
+Generieren Sie einen Bericht basierend auf allen Genehmigungsregeln oder ausgewählten Regeln.
 
-![Report - ExFlow Approval Rules List](@site/static/img/media/reports-approval-rules-list-001.png)
+![Bericht - ExFlow Genehmigungsregelliste](./../../images/reports-approval-rules-list-001.png)
 
 
-![Report - ExFlow Approval Rules List](@site/static/img/media/reports-approval-rules-list-002.png)
+![Bericht - ExFlow Genehmigungsregelliste](./../../images/reports-approval-rules-list-002.png)

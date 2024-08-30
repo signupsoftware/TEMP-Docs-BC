@@ -3,6 +3,7 @@ title: Introduction
 sidebar_position: 1
 hide_title: true
 ---
+
 ## Einführung
 
 ExFlow Business Central ist ein integriertes Modul zur Automatisierung von AP- und Rechnungsprozessen für Dynamics 365 Business Central.

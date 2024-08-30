@@ -1,18 +1,16 @@
 ---
-title: Vendor Card
+title: Lieferantenkarte
 sidebar_position: 10
 hide_title: true
 ---
-## Vendor Card
+## Lieferantenkarte
 
-Go to: **Vendors --> Vendor card**
+Gehe zu: **Lieferanten --> Lieferantenkarte**
 
-In ExFlow 23.0.0.0 all settings are moved from the Vendor card and ExFlow Advanced Vendor Options to ExFlow Vendor Setup. This is done automatically when upgrading ExFlow. 
+In ExFlow 23.0.0.0 wurden alle Einstellungen von der Lieferantenkarte und den erweiterten ExFlow-Lieferantenoptionen zu ExFlow Lieferantenkonfiguration verschoben. Dies geschieht automatisch beim Upgrade von ExFlow.
 
-Go to **Related** and click on **ExFlow Vendor Setup** to add ExFlow specific details for a specific vendor.
+Gehe zu **Verwandte** und klicke auf **ExFlow Lieferantenkonfiguration**, um spezifische Details für einen bestimmten Lieferanten hinzuzufügen.
 
-![Vendor Card](@site/static/img/media/Vendor-card-exflow-vendor-setup-001.png)
+![Lieferantenkarte](./../../images/Vendor-card-exflow-vendor-setup-001.png)
 
-  Read more about how to make settings for a specific vendor under [***Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
-
-
+Erfahren Sie mehr darüber, wie Sie Einstellungen für einen bestimmten Lieferanten vornehmen, unter [***Lieferantenkonfiguration***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).

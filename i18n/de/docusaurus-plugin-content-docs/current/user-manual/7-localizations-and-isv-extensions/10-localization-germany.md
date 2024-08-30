@@ -1,10 +1,11 @@
 ---
-title: Localization Germany
+title: Lokalisierung Deutschland
 sidebar_position: 10
 hide_title: true
 ---
-## Localization Germany
+## Lokalisierung Deutschland
 
-### Language
+### Sprache
 
-ExFlow supports German language in Business Central.
+ExFlow unterstützt die deutsche Sprache in Business Central.
+

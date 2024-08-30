@@ -3,40 +3,38 @@ title: OCR Import Mapping
 sidebar_position: 19
 hide_title: true
 ---
-## OCR Import Mapping
+## OCR-Importzuordnung
 
-Go to: ***ExFlow OCR Import Mapping***
+Gehe zu: ***ExFlow OCR-Importzuordnung***
 
-ExFlow OCR Import Mapping is used to set a coding from a specific interpreted value for a specific vendor. This page contains the fields
-which populate the line with the entered values when invoice is imported to ExFlow Import Journal.
+Die ExFlow OCR-Importzuordnung wird verwendet, um eine Codierung für einen bestimmten interpretierten Wert für einen bestimmten Lieferanten festzulegen. Diese Seite enthält die Felder, die die Zeile mit den eingegebenen Werten füllen, wenn eine Rechnung in das ExFlow Import Journal importiert wird.
 
-It is possible to get a fully coded line with a G/L Account, Dimensions, Job No. etc. just from a setup on "ExFlow OCR Import Mapping" page that can be unique for every vendor.
+Es ist möglich, eine vollständig codierte Zeile mit einem G/L-Konto, Dimensionen, Auftragsnummer usw. nur über eine Einrichtung auf der Seite "ExFlow OCR-Importzuordnung" zu erhalten, die für jeden Lieferanten einzigartig sein kann.
 
-![ExFlow OCR Import Mapping](@site/static/img/media/ocr-import-mapping-001.png)
+![ExFlow OCR-Importzuordnung](./../../images/ocr-import-mapping-001.png)
 
-### Aggregate Lines
+### Aggregierte Zeilen
 
-This feature is used for interpreting lines on expense invoices, and not for purchase order related invoices.
+Diese Funktion wird verwendet, um Zeilen in Ausgabenrechnungen zu interpretieren und nicht für Bestellrechnungen.
 
-It is possible to map a certain interpreted value to a particular Type, like a G/L Account. Edit the list and specify the chosen Vendor No. Add the value in Import No that will be interpreted and choose how ExFlow are supposed to map the interpreted value, for instance a G/L Account.
+Es ist möglich, einem bestimmten interpretierten Wert einen bestimmten Typ zuzuordnen, z. B. einem G/L-Konto. Bearbeiten Sie die Liste und geben Sie die gewählte Lieferantennummer an. Fügen Sie den Wert in Import No hinzu, der interpretiert werden soll, und wählen Sie aus, wie ExFlow den interpretierten Wert zuordnen soll, z. B. einem G/L-Konto.
 
-When importing the document to Import Journal, coding will be generated according to the setup in "ExFlow OCR Import Mapping" page with chosen "Map to Type" (i.e., G/L account) under Import Lines.
+Beim Importieren des Dokuments in das Import Journal wird die Codierung gemäß der Einrichtung auf der Seite "ExFlow OCR-Importzuordnung" mit der gewählten "Zuordnung zum Typ" (z. B. G/L-Konto) unter Importzeilen generiert.
 
-![ExFlow OCR Import Mapping - Aggregate Lines](@site/static/img/media/ocr-import-mapping-002.png)
+![ExFlow OCR-Importzuordnung - Aggregierte Zeilen](./../../images/ocr-import-mapping-002.png)
 
-Example, if an invoice has 1000 lines (500 lines with value 1 and 500 lines with value 2), and the lines must be mapped to two different G/L Accounts according to below picture. By ticking "Aggregate Lines" all values with 1 will be aggregated into G/L Account 6420 and all lines with value 2 will be aggregated into G/L Account 5611 when importing the document to ExFlow Import Journal.
+Beispiel: Wenn eine Rechnung 1000 Zeilen hat (500 Zeilen mit Wert 1 und 500 Zeilen mit Wert 2) und die Zeilen gemäß dem untenstehenden Bild zwei verschiedenen G/L-Konten zugeordnet werden müssen. Durch Aktivieren von "Aggregierte Zeilen" werden alle Werte mit 1 zu G/L-Konto 6420 aggregiert und alle Zeilen mit Wert 2 zu G/L-Konto 5611 aggregiert, wenn das Dokument in das ExFlow Import Journal importiert wird.
 
-Dimensions will be added on lines, not header.
+Dimensionen werden den Zeilen hinzugefügt, nicht dem Header.
 
-![ExFlow Import Journal - Aggregate Lines](@site/static/img/media/import-journal-026.png)
+![ExFlow Import Journal - Aggregierte Zeilen](./../../images/import-journal-026.png)
 
-### No Purchase Order Matching
+### Keine Bestellabgleichung
 
-If "No Purchase Order Matching" is disabled and the interpreted document has an interpreted Order No., then Order matching has a priority and will set lines as on the Order. It means that dimensions will be used from the Order, and not take eventual dimensions specified in OCR Import Mapping.
+Wenn "Keine Bestellabgleichung" deaktiviert ist und das interpretierte Dokument eine interpretierte Bestellnummer hat, hat die Bestellabgleichung Vorrang und setzt die Zeilen entsprechend der Bestellung. Das bedeutet, dass Dimensionen aus der Bestellung verwendet werden und nicht die eventuell in der OCR-Importzuordnung angegebenen Dimensionen.
 
-![ExFlow OCR Import Mapping - No Purchase Order Matching - Disabled](@site/static/img/media/ocr-import-mapping-003.png)
+![ExFlow OCR-Importzuordnung - Keine Bestellabgleichung - Deaktiviert](./../../images/ocr-import-mapping-003.png)
 
-If "No Purchase Order Matching" is enabled and the interpreted document has an interpreted Order No., then the system uses values specified in "ExFlow OCR Import Mapping" setup, including the dimensions. Dimensions will be set on lines only, not on header.
+Wenn "Keine Bestellabgleichung" aktiviert ist und das interpretierte Dokument eine interpretierte Bestellnummer hat, verwendet das System die in der Einrichtung "ExFlow OCR-Importzuordnung" angegebenen Werte, einschließlich der Dimensionen. Dimensionen werden nur den Zeilen, nicht dem Header, zugewiesen.
 
-![ExFlow OCR Import Mapping - No Purchase Order Matching - Enabled](@site/static/img/media/ocr-import-mapping-004.png)
-
+![ExFlow OCR-Importzuordnung - Keine Bestellabgleichung - Aktiviert](./../../images/ocr-import-mapping-004.png)

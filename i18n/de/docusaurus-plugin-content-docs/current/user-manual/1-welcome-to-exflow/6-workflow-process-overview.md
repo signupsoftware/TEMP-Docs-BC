@@ -5,7 +5,7 @@ hide_title: true
 ---
 ## Überblick über den Workflow-Prozess
 
-![Workflow Process Overview](@site/static/img/media/workflow-process-overview-001.png)
+![Workflow Process Overview](./../../images/workflow-process-overview-001.png)
 
 1. **Scannen und Datenerfassung** - ExFlow unterstützt alle Arten von Rechnungen, einschließlich Papier, PDF und anderen elektronischen Formaten. Eingehende Papierrechnungen werden gescannt und mithilfe von ExFlow Data Capture *(oder einer ähnlichen OCR-Lösung)* in einen elektronischen Workflow importiert. Elektronische Rechnungen werden direkt in ExFlow importiert.
 

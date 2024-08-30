@@ -1,40 +1,37 @@
 ---
-title: ExFlow Menu
+title: ExFlow Menü
 sidebar_position: 2
 hide_title: true
 ---
-## ExFlow Menu
+## ExFlow Menü
 
-Use the ExFlow Menu to discover ExFlow in Business Central.
+Verwenden Sie das ExFlow Menü, um ExFlow in Business Central zu entdecken.
 
-### Business Central Search
+### Business Central Suche
 
-Use the Search function and enter ExFlow to see all ExFlow suggestions.
+Verwenden Sie die Suchfunktion und geben Sie ExFlow ein, um alle ExFlow Vorschläge zu sehen.
 
-![Business Central Search](@site/static/img/media/business-central-search-001.png)
+![Business Central Suche](./../../images/business-central-search-001.png)
 
-### Menu via Role Center ExFlow Accountant
+### Menü über die Rolle "ExFlow Buchhalter"
 
-Simply change role to "ExFlow Accountant" in "My Settings" to get this
-ExFlow Menu.
+Ändern Sie einfach die Rolle in "ExFlow Buchhalter" in "Meine Einstellungen", um dieses ExFlow Menü zu erhalten.
 
-![ExFlow Menu Role ExFlow Accountant](@site/static/img/media/exflow-menu-001.png)
+![ExFlow Menü Rolle ExFlow Buchhalter](./../../images/exflow-menu-001.png)
 
-### Menu via Business Central
+### Menü über Business Central
 
-Click on the three lines up in the right corner to view the menu via
-Business Central.
+Klicken Sie auf die drei Linien oben rechts, um das Menü über Business Central anzuzeigen.
 
-![ExFlow Menu](@site/static/img/media/exflow-menu-002-extended.png)
+![ExFlow Menü](./../../images/exflow-menu-002-extended.png)
 
-Depending on selected Role in "My Settings" a start menu will be
-selected.
+Je nach ausgewählter Rolle in "Meine Einstellungen" wird ein Startmenü ausgewählt.
 
-Click on "Explore more roles" and on then ExFlow Menu- Explore to expand
-the menu.
+Klicken Sie auf "Weitere Rollen erkunden" und dann auf ExFlow Menü - Erkunden, um das Menü zu erweitern.
 
-![ExFlow Menu](@site/static/img/media/exflow-menu-003-extended.png)
+![ExFlow Menü](./../../images/exflow-menu-003-extended.png)
 
-Now ExFlow Menu is visible regardless of Role in "My Settings".
+Jetzt ist das ExFlow Menü unabhängig von der Rolle in "Meine Einstellungen" sichtbar.
 
-![ExFlow Menu](@site/static/img/media/exflow-menu-004-extended.png)
+![ExFlow Menü](./../../images/exflow-menu-004-extended.png)
+

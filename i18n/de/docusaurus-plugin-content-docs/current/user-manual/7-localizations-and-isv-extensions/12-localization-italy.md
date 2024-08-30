@@ -1,18 +1,14 @@
 ---
-title: Localization Italy
+title: Lokalisierung Italien
 sidebar_position: 12
 hide_title: true
 ---
-## Localization Italy
+## Lokalisierung Italien
 
-### Language
+### Sprache
 
-ExFlow does not support Italian language in Business Central.
+ExFlow unterstützt die italienische Sprache nicht in Business Central.
 
-The Italian Business Central localization has an amount validation that
-is run when posting a Purchase Invoice. The field is called "Total
-Amount" and is located on the Purchase Invoice header.
+Die italienische Lokalisierung von Business Central enthält eine Betragsvalidierung, die beim Buchen einer Eingangsrechnung ausgeführt wird. Das Feld heißt "Gesamtbetrag" und befindet sich im Kopf der Eingangsrechnung.
 
-ExFlow will automatically populate this field with the total gross
-amount of the invoice when the invoice is created from ExFlow Import
-Journal.
+ExFlow füllt dieses Feld automatisch mit dem Bruttogesamtbetrag der Rechnung aus, wenn die Rechnung aus dem ExFlow Import Journal erstellt wird.

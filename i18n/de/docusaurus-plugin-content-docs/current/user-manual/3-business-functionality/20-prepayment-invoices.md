@@ -1,200 +1,201 @@
 ---
-title: Prepayment Invoices
+title: Vorauszahlungsrechnungen
 sidebar_position: 20
 hide_title: true
 ---
-## Prepayment Invoices
+## Vorauszahlungsrechnungen
 
-This function is built on Business Central Standard functionality.
+Diese Funktion basiert auf der Standardfunktionalität von Business Central.
 
-To create and approve a Prepayment Invoice, ExFlow creates a copy of the invoice that will be posted from Purchase Order.
+Um eine Vorauszahlungsrechnung zu erstellen und zu genehmigen, erstellt ExFlow eine Kopie der Rechnung, die aus dem Bestellvorgang gebucht wird.
 
-### Prepayment Setup
+### Vorauszahlungseinrichtung
 
-To be able to create a Prepayment Purchase Invoice the standard setup is required in General Posting Setup. VAT will be calculated from setup from G/L Account added in setup.
+Um eine Vorauszahlungsrechnung für den Einkauf erstellen zu können, ist die Standardkonfiguration in der allgemeinen Buchungssetup erforderlich. Die Mehrwertsteuer wird gemäß der in der Einrichtung hinzugefügten G/L-Konto-Setup berechnet.
 
-To check setup for prepayment, use "Preview Prepmt. Invoice Posting" on the prepayment order.
+Um die Einrichtung für Vorauszahlungen zu überprüfen, verwenden Sie "Vorschau der Vorauszahlungsrechnungsbuchung" für die Vorauszahlungsbestellung.
 
-#### Prepayment in ExFlow Setup
+#### Vorauszahlung in ExFlow-Einrichtung
 
-Add a Prepmt. Inv. Nos. for Prepayment Invoice to separate Prepayment Invoices to make it clearer. Or add same No. Serie as Invoice Nos. in Purchases & Payables Setup.
+Fügen Sie eine Prepmt. Inv. Nos. für Vorauszahlungsrechnungen hinzu, um sie klarer zu trennen. Oder fügen Sie dieselbe Nummernserie wie die Rechnungsnummern in der Einrichtung für Einkäufe und Verbindlichkeiten hinzu.
 
-![ExFlow Setup - General](@site/static/img/media/exflow-setup-general-004.png)
+![ExFlow-Einrichtung - Allgemein](./../../images/exflow-setup-general-004.png)
 
-![Purchases & Payables Setup - Number Series](@site/static/img/media/purchases-payables-setup-001.png)
+![Einkäufe & Verbindlichkeiten Einrichtung - Nummernserie](./../../images/purchases-payables-setup-001.png)
 
-Also, there are settings for Prepayment under General that can be useful.
+Es gibt auch Einstellungen für Vorauszahlungen unter "Allgemein", die nützlich sein können.
 
-| Purchases & Payables Setup |  |
+| Einkäufe & Verbindlichkeiten Einrichtung |  |
 |:-|:-|
-| **Check Prepmt. when Posting:**       | Prevents posting receipts or invoice a Purchase Order that has an unpaid prepayment amount.
-| **Prepmt. Auto Update Frequency:**    | Specifies how often the job must run that automatically updates the status of orders that are pending prepayment.
+| **Vorauszahlung beim Buchen überprüfen:**       | Verhindert das Buchen von Zahlungseingängen oder Rechnungen für eine Bestellung, bei der noch ein unbezahlter Vorauszahlungsbetrag aussteht.
+| **Vorauszahlung automatische Aktualisierungsfrequenz:**    | Gibt an, wie oft der Job ausgeführt werden muss, der den Status von Bestellungen automatisch aktualisiert, die noch auf eine Vorauszahlung warten.
 
-![Purchases & Payables Setup - General](@site/static/img/media/exflow-setup-general-007.png)
+![Einkäufe & Verbindlichkeiten Einrichtung - Allgemein](./../../images/exflow-setup-general-007.png)
 
-### Prepayment Purchase Order
+### Vorauszahlungsbestellung
 
-Setting on the Purchase Order is needed.
+Es ist eine Einstellung in der Bestellung erforderlich.
 
-Add Prepayment Percentage on the Order Card and use Compress if needed.
+Fügen Sie den Vorauszahlungsprozentsatz auf der Bestellkarte hinzu und verwenden Sie bei Bedarf die Option "Komprimieren".
 
-Untick Compress Prepayment to specify all lines on the Prepayment Invoice.
+Deaktivieren Sie die Option "Vorauszahlung komprimieren", um alle Positionen auf der Vorauszahlungsrechnung anzugeben.
 
-![Purchases Order - Prepayment](@site/static/img/media/purchase-order-002.png)
+![Bestellung - Vorauszahlung](./../../images/purchase-order-002.png)
 
-### Prepayment Purchase Invoice
+### Vorauszahlungsrechnung
 
-Posting of prepayment Invoices will still be made from Prepayment Order in Business Central Standard in the background. ExFlow Prepayment Invoice is only a mirror of a posting to be.
+Die Buchung von Vorauszahlungsrechnungen erfolgt weiterhin aus der Vorauszahlungsbestellung in Business Central Standard im Hintergrund. Die ExFlow-Vorauszahlungsrechnung ist nur ein Spiegelbild einer Buchung.
 
-Therefore, no changes are allowed except for a few fields that will update Prepayment Invoice when posting:
+Daher sind keine Änderungen erlaubt, außer bei einigen Feldern, die die Vorauszahlungsrechnung bei der Buchung aktualisieren:
 
-Document date, Posting Date, Due Date, Vendor Invoice No., Block Document, OCR, Payment Terms, Payment Method and On Hold. And Note of Goods if SweBase is installed.
+Dokumentdatum, Buchungsdatum, Fälligkeitsdatum, Lieferantenrechnungsnummer, Dokument sperren, OCR, Zahlungsbedingungen, Zahlungsmethode und Zurückhalten. Und Hinweis auf Waren, wenn SweBase installiert ist.
 
-There can only be one Prepayment invoice, per order, out for approval.
+Es kann nur eine Vorauszahlungsrechnung pro Bestellung zur Genehmigung vorliegen.
 
-To be able to create second Prepayment the first Prepayment Invoice needs to be posted and Purchase Order Prepayment Percentage increased to match the amount on the second Prepayment Invoice.
+Um eine zweite Vorauszahlung erstellen zu können, muss die erste Vorauszahlungsrechnung gebucht und der Vorauszahlungsprozentsatz in der Bestellung erhöht werden, um den Betrag auf der zweiten Vorauszahlungsrechnung anzupassen.
 
-**If any updates are needed it must be updated from the order card**. <br/>
-Change document type back to Invoice and all Prepayment Invoicing Lines will be deleted. Update the order and change to Prepayment Invoice to receive new updated lines to Import Journal.
+**Wenn Aktualisierungen erforderlich sind, müssen sie von der Bestellkarte aus aktualisiert werden**. <br/>
+Ändern Sie den Dokumenttyp zurück in "Rechnung" und alle Vorauszahlungsrechnungspositionen werden gelöscht. Aktualisieren Sie die Bestellung und ändern Sie sie in eine Vorauszahlungsrechnung, um neue aktualisierte Positionen im Importjournal zu erhalten.
 
-Any changes on the prepayment line will give the message *"Changes on the prepayment invoice can only be done on the order. Then, to update invoice line change document type to Invoice and then back to Prepayment Invoice".*
+Änderungen an der Vorauszahlungsposition können nur über die Bestellung vorgenommen werden. Ändern Sie den Dokumenttyp in "Rechnung" und dann zurück in "Vorauszahlungsrechnung", um die Rechnungsposition zu aktualisieren.
 
-For Approval: First Approver, Approval Rule, and manual added approvers are allowed.
+Zur Genehmigung: Erster Genehmiger, Genehmigungsregel und manuell hinzugefügte Genehmiger sind zulässig.
 
-For automatically added approval flow use same settings as for Invoices.
+Für automatisch hinzugefügten Genehmigungsfluss verwenden Sie die gleichen Einstellungen wie für Rechnungen.
 
-To be able to create final invoice, all prepayment invoices need to be posted.
+Um eine endgültige Rechnung erstellen zu können, müssen alle Vorauszahlungsrechnungen gebucht werden.
 
-### Prepayment Invoice in Import Journal
+### Vorauszahlungsrechnung im Importjournal
 
-When importing an interpreted Purchase Invoice in Import Journal with missing receivable lines an error message will occur: **Order No 106049 has no received lines.**
+Beim Importieren einer interpretierten Einkaufsrechnung im Importjournal mit fehlenden Forderungspositionen wird eine Fehlermeldung angezeigt: **Bestellnummer 106049 hat keine empfangenen Positionen**.
 
-![ExFlow Import Journal - Prepayment](@site/static/img/media/import-journal-027.png)
+![ExFlow Importjournal - Vorauszahlung](./../../images/import-journal-027.png)
 
-Update Document Type to Prepayment Invoice and press Verify.
+Ändern Sie den Dokumenttyp in "Vorauszahlungsrechnung" und klicken Sie auf "Überprüfen".
 
-![ExFlow Import Journal - Prepayment](@site/static/img/media/import-journal-028.png)
+![ExFlow Importjournal - Vorauszahlung](./../../images/import-journal-028.png)
 
-In this example we have added an Approval Rule based on G/L Account 1480 used for prepayment and added Erik as an approver.
+In diesem Beispiel haben wir eine Genehmigungsregel basierend auf dem G/L-Konto 1480 für Vorauszahlungen hinzugefügt und Erik als Genehmiger festgelegt.
 
-![ExFlow Approval Rule - Prepayment](@site/static/img/media/approval-rule-009.png)
+![ExFlow Genehmigungsregel - Vorauszahlung](./../../images/approval-rule-009.png)
 
-If setup is done correctly Prepayment Lines will be added automatically.
+Wenn die Einrichtung korrekt durchgeführt wurde, werden Vorauszahlungspositionen automatisch hinzugefügt.
 
-In this example we have added G/L Account No. 1480 in General Ledger Setup and NO VAT (INGEN MOMS) on the G/L Account Card 1480.
+In diesem Beispiel haben wir das G/L-Konto Nr. 1480 in der Hauptbuchhaltungseinrichtung hinzugefügt und KEINE MwSt. (INGEN MOMS) auf der G/L-Konto-Karte 1480 festgelegt.
 
-Since we did not use Compress Prepayment on the Purchase Order, Prepayment Invoice will specify all lines with Description from the order.
+Da wir die Option "Vorauszahlung komprimieren" in der Bestellung nicht verwendet haben, gibt die Vorauszahlungsrechnung alle Positionen mit der Beschreibung aus der Bestellung an.
 
-![ExFlow Import Journal - Prepayment](@site/static/img/media/import-journal-029.png)
+![ExFlow Importjournal - Vorauszahlung](./../../images/import-journal-029.png)
 
-Create to send Prepayment Invoice for approval.
+Erstellen Sie die Vorauszahlungsrechnung zur Genehmigung.
 
-### Prepayment in Approval Status
+### Vorauszahlung im Genehmigungsstatus
 
-In Approval status following message will be created in Discussion Panel will also show in Chat on ExFlow Web:
+Im Genehmigungsstatus wird folgende Nachricht im Diskussionsbereich erstellt und wird auch im Chat auf ExFlow Web angezeigt:
 
-![Discussion Panel - Prepayment](@site/static/img/media/discussion-panel-001.png)
+![Diskussionsbereich - Vorauszahlung](./../../images/discussion-panel-001.png)
 
-Information regarding Prepayment Order can also be seen on Card. Prepayment Order No is also shown on document header on the Approval Status page.
+Informationen zur Vorauszahlungsbestellung können auch auf der Karte angezeigt werden. Die Vorauszahlungsbestellnummer wird auch im Dokumentenkopf auf der Seite "Genehmigungsstatus" angezeigt.
 
-Since posting on Prepayment Invoice will be done from the Purchase Order, changes are not allowed except for a few fields that will update invoice when posting:
+Da die Buchung der Vorauszahlungsrechnung aus der Bestellung erfolgt, sind Änderungen außer bei einigen Feldern, die die Rechnung bei der Buchung aktualisieren, nicht zulässig:
 
-Document Date, Posting Date, Due Date, Vendor Invoice No., Block Document, Payment Terms, Payment Method and On Hold.
+Dokumentdatum, Buchungsdatum, Fälligkeitsdatum, Lieferantenrechnungsnummer, Dokument sperren, Zahlungsbedingungen, Zahlungsmethode und Zurückhalten.
 
-Also, SweBase field OCR and Recipient Bank Account can be changed and will update the order when posting.
+Auch das SweBase-Feld OCR und das Empfängerkonto können geändert werden und werden die Bestellung bei der Buchung aktualisieren.
 
-If any other changes are needed, delete the document, and start from the beginning by importing to Import Journal.
+Wenn andere Änderungen erforderlich sind, löschen Sie das Dokument und beginnen Sie von vorne, indem Sie es im Importjournal importieren.
 
-![Purchase Invoice - Prepayment](@site/static/img/media/purchase-invoice-003.png)
+![Einkaufsrechnung - Vorauszahlung](./../../images/purchase-invoice-003.png)
 
-### Prepayment Approval on ExFlow Web
+### Vorauszahlungsgenehmigung auf ExFlow Web
 
-In the Chat on ExFlow Web the Approvers can see following message:
+Im Chat auf ExFlow Web können die Genehmiger folgende Nachricht sehen:
 
-![ExFlow Web - Prepayment message](@site/static/img/media/web-chat-001.png)
+![ExFlow Web - Vorauszahlungsnachricht](./../../images/web-chat-001.png)
 
-No changes are allowed on a Prepayment document. Therefore, approvers can only Approve, Reject, or set document to Hold. Approvers can also Add or Forward due to permission on the Approver.
+Es sind keine Änderungen an einem Vorauszahlungsdokument zulässig. Daher können Genehmiger nur genehmigen, ablehnen oder das Dokument zurückhalten. Genehmiger können auch hinzufügen oder weiterleiten, sofern die Berechtigung des Genehmigers dies zulässt.
 
-![ExFlow Web - Prepayment](@site/static/img/media/web-purchase-invoice-001.png)
+![ExFlow Web - Vorauszahlung](./../../images/web-purchase-invoice-001.png)
 
-If user tries to change coding, following error message will occur when approving:
+Wenn der Benutzer versucht, die Buchung zu ändern, tritt folgende Fehlermeldung auf, wenn die Genehmigung erfolgt:
 
-![ExFlow Web - Prepayment error message](@site/static/img/media/web-dynamics-error-001.png)
+![ExFlow Web - Vorauszahlungsfehlermeldung](./../../images/web-dynamics-error-001.png)
 
-### Posting Prepayment Invoice
+### Buchung der Vorauszahlungsrechnung
 
-After the Prepayment Invoice is approved, verify and post as usually.
+Nachdem die Vorauszahlungsrechnung genehmigt wurde, überprüfen und buchen Sie sie wie gewohnt.
 
-### Prepayment History
+### Vorauszahlungsverlauf
 
-Go to: ***Purchase Order --> Related --> Documents --> Prepayment Invoices***
+Gehen Sie zu: ***Einkaufsbestellung --> Verwandt --> Dokumente --> Vorauszahlungsrechnungen***
 
-Posted Prepayment Invoice can be traced from the Purchase Order Card.
+Die gebuchte Vorauszahlungsrechnung kann von der Bestellkarte aus verfolgt werden.
 
-![Purchase Order - Prepayment](@site/static/img/media/purchase-order-003.png)
+![Bestellung - Vorauszahlung](./../../images/purchase-order-003.png)
 
-Prepayment Invoice and approval history can also be traced in Approval Status History.
+Die Vorauszahlungsrechnung und die Genehmigungshistorie können auch im Genehmigungsstatusverlauf verfolgt werden.
 
-![ExFlow Approval Status History - Prepayment](@site/static/img/media/approval-status-history-001.png)
+![ExFlow Genehmigungsstatusverlauf - Vorauszahlung](./../../images/approval-status-history-001.png)
 
-### Final Prepayment Purchase Invoice in Import Journal
+### Endgültige Vorauszahlungsrechnung im Importjournal
 
-When receivables are posted on the Prepayment Purchase Order, the final Invoice needs to be posted as well.
+Wenn Forderungen für die Vorauszahlungsbestellung gebucht werden, muss auch die endgültige Rechnung gebucht werden.
 
-In the example above the Prepayment Invoice is done with 100 % and VAT 0%. Therefore, final Invoice will be posted with amount only for VAT if no other extra charges is added to the invoice.
+Im obigen Beispiel wird die Vorauszahlungsrechnung mit 100 % und 0 % MwSt. durchgeführt. Daher wird die endgültige Rechnung nur mit dem Betrag für die MwSt. gebucht, wenn keine weiteren Zusatzkosten zur Rechnung hinzugefügt werden.
 
-Interpret the final Purchase Invoice and import to Import Journal.
+Interpretieren Sie die endgültige Einkaufsrechnung und importieren Sie sie in das Importjournal.
 
-![ExFlow Import Journal - Prepayment](@site/static/img/media/import-journal-030.png)
+![ExFlow Importjournal - Vorauszahlung](./../../images/import-journal-030.png)
 
-Information regarding Prepayments that is reduced, can be seen in the Fact Box on the right side, under Document Details.
+Informationen zu reduzierten Vorauszahlungen finden Sie in der Faktendetails-Box auf der rechten Seite unter Dokumentdetails.
 
-![ExFlow Import Journal - Document Details for Prepayment](@site/static/img/media/import-journal-031-document-details.png)
+![ExFlow Importjournal - Dokumentdetails für Vorauszahlung](./../../images/import-journal-031-document-details.png)
 
-Approvals will be added as usually by Approval Rules.
+Genehmigungen werden wie gewohnt durch Genehmigungsregeln hinzugefügt.
 
-If the 100 % prepayment order is not fully received when creating the final invoice in Import Journal, an action massage will refer to this warning message that requires to be accepted before sending it out for approval.
+Wenn die 100%ige Vorauszahlungsbestellung bei der Erstellung der endgültigen Rechnung im Importjournal nicht vollständig erhalten wird, wird eine Aktionsnachricht auf diese Warnmeldung verweisen, die vor der Genehmigung akzeptiert werden muss.
 
-![ExFlow Import Journal - Warning message for partially matched 100% prepayment orders](@site/static/img/media/warning-messages-003.png)
+![ExFlow Importjournal - Warnmeldung für teilweise abgeglichene 100%ige Vorauszahlungsbestellungen](./../../images/warning-messages-003.png)
 
-### Final Prepayment Invoice in Approval Status
+### Endgültige Vorauszahlungsrechnung im Genehmigungsstatus
 
-When creating the final prepayment invoice following message will be added in Discussion Panel:
+Bei der Erstellung der endgültigen Vorauszahlungsrechnung wird folgende Nachricht im Diskussionsbereich hinzugefügt:
 
-![Discussion Panel - Prepayment](@site/static/img/media/discussion-panel-002.png)
+![Diskussionsbereich - Vorauszahlung](./../../images/discussion-panel-002.png)
 
-The approver still needs to approve the full order amount on lines. Reduction will be done when posting the order.
+Der Genehmiger muss immer noch den vollen Bestellbetrag auf den Positionen genehmigen. Die Reduzierung erfolgt beim Buchen der Bestellung.
 
-![ExFlow Approval Status - Prepayment](@site/static/img/media/approval-status-006.png)
+![ExFlow Genehmigungsstatus - Vorauszahlung](./../../images/approval-status-006.png)
 
-### Final Prepayment Invoice in ExFlow Web
+### Endgültige Vorauszahlungsrechnung in ExFlow Web
 
-In the Chat approver can see following message:
+Im Chat kann der Genehmiger folgende Nachricht sehen:
 
-![ExFlow Web - Prepayment message](@site/static/img/media/web-chat-002.png)
+![ExFlow Web - Vorauszahlungsnachricht](./../../images/web-chat-002.png)
 
-The approver still needs to approve the full order amount. Reduction will be done when posting the order.
+Der Genehmiger muss immer noch den vollen Bestellbetrag genehmigen. Die Reduzierung erfolgt beim Buchen der Bestellung.
 
-![ExFlow Web - Prepayment](@site/static/img/media/web-purchase-invoice-002.png)
+![ExFlow Web - Vorauszahlung](./../../images/web-purchase-invoice-002.png)
 
-### Posting Final Prepayment Invoice
+### Buchung der endgültigen Vorauszahlungsrechnung
 
-After the Prepayment Invoice is approved, verify and post as usually.
+Nachdem die Vorauszahlungsrechnung genehmigt wurde, überprüfen und buchen Sie sie wie gewohnt.
 
-Prepayment lines will be reduced when posting as Business Standard.
+Die Vorauszahlungspositionen werden beim Buchen gemäß dem Business Standard reduziert.
 
-### Final Prepayment Invoice History
+### Verlauf der endgültigen Vorauszahlungsrechnung
 
-Go to: ***ExFlow Approval Status History***
+Gehen Sie zu: ***ExFlow Genehmigungsstatusverlauf***
 
-The Posted Final Purchase Invoice only shows the approved lines.
+Die gebuchte endgültige Einkaufsrechnung zeigt nur die genehmigten Positionen.
 
-![ExFlow Approval Status History - Prepayment](@site/static/img/media/approval-status-history-002.png)
+![ExFlow Genehmigungsstatusverlauf - Vorauszahlung](./../../images/approval-status-history-002.png)
 
-And Discussion Message still have automatically created message:
+Und die Diskussionsnachricht enthält immer noch automatisch erstellte Nachrichten:
 
-![Discussion Panel - Prepayment](@site/static/img/media/discussion-panel-003.png)
+![Diskussionsbereich - Vorauszahlung](./../../images/discussion-panel-003.png)
 
-To see reduction for earlier posted prepayments, go to Card.
+Um die Reduzierung für früher gebuchte Vorauszahlungen zu sehen, gehen Sie zur Karte.
 
-![Posted Purchase Invoice - Prepayment](@site/static/img/media/purchase-invoice-004.png)
+![Gebuchte Einkaufsrechnung - Vorauszahlung](./../../images/purchase-invoice-004.png)
+

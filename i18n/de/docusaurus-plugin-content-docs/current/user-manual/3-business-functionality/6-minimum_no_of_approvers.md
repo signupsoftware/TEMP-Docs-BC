@@ -1,37 +1,37 @@
 ---
-title: Minimum No. of Approvers
+title: Mindestanzahl der Genehmiger
 sidebar_position: 6
 hide_title: true
 ---
-## Minimum No. of Approvers
-A check for Minimum No. of Approvers can be added on ExFlow Web and also be activated for Import Journal. 
+## Mindestanzahl der Genehmiger
+Es kann eine Überprüfung auf die Mindestanzahl der Genehmiger in ExFlow Web hinzugefügt und auch für den Import von Journal aktiviert werden.
 
-In import Journal, Minimum No. of Approvers needs to be added before the document can be created.<br/>
-For ExFlow Web the check is done for last approver.
+Beim Import von Journal muss die Mindestanzahl der Genehmiger hinzugefügt werden, bevor das Dokument erstellt werden kann.<br/>
+Für ExFlow Web wird die Überprüfung für den letzten Genehmiger durchgeführt.
 
-Budget Owner added as last approver when working with G/L Budget Control is not included in Mimimun No. of Approvers.
-
-
-### Setup Minimum No. of Approvers
-Go to: ***ExFlow Setup --> Doc. Posting Checks***
-
-Enter "Minimum No. of Approvers". This will activate a check for last approver in the approval flow. Budget Owner not included.
-
-Go to: ***ExFlow Setup --> Doc. Creation Checks***
-
-To also acitvate a check for Minimum No. of Approvers in Import Journal, activate "Check Minimum No. of Approvers" in Doc. Creation Checks and add No. of approvers as above.
+Der Budgetinhaber wird nicht in die Mindestanzahl der Genehmiger einbezogen, wenn mit der G/L-Budgetkontrolle gearbeitet wird.
 
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-doc-creation-doc-posting-checks-001.png)
+### Einrichtung der Mindestanzahl der Genehmiger
+Gehe zu: ***ExFlow Setup --> Dokumentenbuchungsprüfungen***
+
+Gib "Mindestanzahl der Genehmiger" ein. Dadurch wird eine Überprüfung für den letzten Genehmiger im Genehmigungsfluss aktiviert. Der Budgetinhaber ist nicht enthalten.
+
+Gehe zu: ***ExFlow Setup --> Dokumenterstellungprüfungen***
+
+Um auch eine Überprüfung auf die Mindestanzahl der Genehmiger im Import von Journal zu aktivieren, aktiviere "Überprüfung der Mindestanzahl der Genehmiger" in den Dokumenterstellungprüfungen und füge die Anzahl der Genehmiger wie oben angegeben hinzu.
 
 
-### Workflow for Miminum No. of Approvers
-If Check Minimum No. of Approvers is activated for Import Journal, the document cannot be created until Minimum No. of Approver or more is added to the approval flow.
-
-During the approval flow the number of approvers can change. Due to this, a check is done when the last approver approves the document. 
-
-If the number of approvers including the current approver is less than in ExFlow Setup, an error is given saying that more approvers must be added before the current approver can approve.
+![ExFlow Setup](./../../images/exflow-setup-doc-creation-doc-posting-checks-001.png)
 
 
-![ExFlow Setup](@site/static/img/media/dynamic-error-web-001.png)
+### Ablauf für die Mindestanzahl der Genehmiger
+Wenn die Überprüfung der Mindestanzahl der Genehmiger für den Import von Journal aktiviert ist, kann das Dokument erstellt werden, wenn die Mindestanzahl der Genehmiger oder mehr dem Genehmigungsfluss hinzugefügt wurde.
+
+Während des Genehmigungsflusses kann sich die Anzahl der Genehmiger ändern. Aus diesem Grund wird eine Überprüfung durchgeführt, wenn der letzte Genehmiger das Dokument genehmigt.
+
+Wenn die Anzahl der Genehmiger einschließlich des aktuellen Genehmigers geringer ist als in der ExFlow-Einrichtung angegeben, wird eine Fehlermeldung angezeigt, die besagt, dass weitere Genehmiger hinzugefügt werden müssen, bevor der aktuelle Genehmiger genehmigen kann.
+
+
+![ExFlow Setup](./../../images/dynamic-error-web-001.png)
 

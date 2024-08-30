@@ -1,159 +1,156 @@
 ---
-title: Confidential Documents
+title: Vertrauliche Dokumente
 sidebar_position: 30
 hide_title: true
 ---
-## Confidential Documents
+## Vertrauliche Dokumente
 
-There are instances when it is necessary to send confidential documents for approval in ExFlow Web to specific users only. These documents should not be accessible or searchable to other users who are not part of the approval process.
+Es gibt Situationen, in denen es notwendig ist, vertrauliche Dokumente zur Genehmigung in ExFlow Web nur an bestimmte Benutzer zu senden. Diese Dokumente sollten für andere Benutzer, die nicht Teil des Genehmigungsprozesses sind, nicht zugänglich oder durchsuchbar sein.
 
-Go to: **ExFlow Setup --> Confidential Documents** 
+Gehe zu: **ExFlow Setup --> Vertrauliche Dokumente**
 
-To be able to work with the confidential functionality, a template PDF must be uploaded to hide the original confidential document image for non-confidential users. 
+Um mit der vertraulichen Funktionalität arbeiten zu können, muss eine Vorlagen-PDF hochgeladen werden, um das ursprüngliche vertrauliche Dokumentenbild für nicht vertrauliche Benutzer zu verbergen.
 
-It will not be possible to create and send out confidential marked documents for approval without having an uploaded template PDF image. 
+Es wird nicht möglich sein, vertraulich markierte Dokumente zur Genehmigung zu erstellen und zu versenden, ohne eine hochgeladene Vorlagen-PDF zu haben.
 
-Click on the three dots to attach the selected template.
+Klicke auf die drei Punkte, um die ausgewählte Vorlage anzuhängen.
 
-![Confidential Documents](@site/static/img/media/exflow-setup-confidential-documents-001.png)
+![Vertrauliche Dokumente](./../../images/exflow-setup-confidential-documents-001.png)
 
-If any pdf template changes need to be made afterwards, for instance download the current uploaded template or replace current template, simply go back to the three dots, and make the necessary changes. 
+Wenn nachträglich Änderungen an einer PDF-Vorlage vorgenommen werden müssen, beispielsweise das Herunterladen der aktuellen hochgeladenen Vorlage oder das Ersetzen der aktuellen Vorlage, gehe einfach zurück zu den drei Punkten und nehme die notwendigen Änderungen vor.
 
-![Confidential Documents](@site/static/img/media/exflow-setup-confidential-documents-002.png)
+![Vertrauliche Dokumente](./../../images/exflow-setup-confidential-documents-002.png)
 
-| Replace Original PDF with |    |
+| Ersetze Original-PDF durch |    |
 |:-|:-|
-|**Download Current PDF**                               | Select this option to download the current uploaded pdf image.
-|**Replace Current PDF**                               | Select this option to replace the current uploaded pdf image.
-|**Delete Current PDF**                               | Select this option to delete the current uploaded pdf image. Observe, when deleting this template, then all Confidential marked document PDF images will be shown for all users.
+|**Aktuelles PDF herunterladen**                               | Wähle diese Option, um das aktuell hochgeladene PDF-Bild herunterzuladen.
+|**Aktuelles PDF ersetzen**                               | Wähle diese Option, um das aktuell hochgeladene PDF-Bild zu ersetzen.
+|**Aktuelles PDF löschen**                               | Wähle diese Option, um das aktuell hochgeladene PDF-Bild zu löschen. Beachte, dass beim Löschen dieser Vorlage alle vertraulichen markierten Dokumenten-PDF-Bilder für alle Benutzer angezeigt werden.
 
-### Confidential Access
-To be able to work with Confidential Documents and see the document image in Business Central, then the ExFlow user must have an associated system user and Confidential access must be given. <br/>
+### Vertraulicher Zugriff
+Um mit vertraulichen Dokumenten arbeiten und das Dokumentenbild in Business Central sehen zu können, muss der ExFlow-Benutzer über einen zugeordneten Systembenutzer verfügen und vertraulichen Zugriff haben. <br/>
 
-#### Provide Confidential Access
+#### Vertraulichen Zugriff bereitstellen
 
-For access, go to the **ExFlow user card** and enable the **‘’Access to Confidential Document’’** checkbox. When enabling this, a User Permission Set called EX CONFIDENTIAL will be set automatically on the associated system user card. 
+Gehe zur **ExFlow-Benutzerkarte** und aktiviere das Kontrollkästchen **"Zugriff auf vertrauliche Dokumente"**. Wenn dies aktiviert wird, wird automatisch ein Benutzerberechtigungssatz namens EX CONFIDENTIAL auf der zugehörigen Systembenutzerkarte festgelegt.
 
-![Confidential Documents](@site/static/img/media/exflow-user-confidential-access-001.png)
+![Vertrauliche Dokumente](./../../images/exflow-user-confidential-access-001.png)
 
-Confidential Access can be set for all companies or selected companies. Choose ‘’Yes’’ to give access to all companies or choose ‘’No’’ to give access to a specific company.
+Der vertrauliche Zugriff kann für alle Unternehmen oder ausgewählte Unternehmen festgelegt werden. Wähle "Ja", um Zugriff auf alle Unternehmen zu gewähren, oder wähle "Nein", um Zugriff auf ein bestimmtes Unternehmen zu gewähren.
 
-![Confidential Documents](@site/static/img/media/exflow-user-confidential-access-002.png)
+![Vertrauliche Dokumente](./../../images/exflow-user-confidential-access-002.png)
 
-If a user accidentally got confidential access to all companies instead of one specific company, simply untick the checkbox to remove the confidential access and reselect the specific company. The permission set on the associated system user will be updated instantly. 
+Wenn ein Benutzer versehentlich Zugriff auf vertrauliche Dokumente für alle Unternehmen anstelle eines bestimmten Unternehmens erhalten hat, deaktiviere einfach das Kontrollkästchen, um den vertraulichen Zugriff zu entfernen, und wähle das spezifische Unternehmen erneut aus. Der Berechtigungssatz auf dem zugehörigen Systembenutzer wird sofort aktualisiert.
 
-![Confidential Documents](@site/static/img/media/exflow-user-confidential-access-003.png)
+![Vertrauliche Dokumente](./../../images/exflow-user-confidential-access-003.png)
 
-Below ExFlow user now has access to see all confidential documents in the SignUp company only. 
+Der unten stehende ExFlow-Benutzer hat jetzt Zugriff, um alle vertraulichen Dokumente nur im SignUp-Unternehmen zu sehen.
 
-![Confidential Documents](@site/static/img/media/exflow-user-confidential-access-004.png)
+![Vertrauliche Dokumente](./../../images/exflow-user-confidential-access-004.png)
 
-#### Replacers
-Adding a non-confidential user as replacer to a confidential user is not supported, this to preserve the confidential document images. 
+#### Vertreter
+Das Hinzufügen eines nicht vertraulichen Benutzers als Vertreter für einen vertraulichen Benutzer wird nicht unterstützt, um die vertraulichen Dokumentenbilder zu schützen.
 
-### Confidential Approval 
+### Vertrauliche Genehmigung
 
-Confidential documents need to have a confidential approval flow. A regular approval flow cannot be applied. 
+Vertrauliche Dokumente müssen über einen vertraulichen Genehmigungsfluss verfügen. Ein regulärer Genehmigungsfluss kann nicht angewendet werden.
 
-#### Create a Confidential Approval Flow
+#### Einen vertraulichen Genehmigungsfluss erstellen
 
-Go to a regular ExFlow Approval Rule to create rules to be applied for Confidential Documents.
-Confidential Documents require a ‘’Confidential Approval’’ marked Approval Rule. 
+Gehe zu einer regulären ExFlow-Genehmigungsregel, um Regeln zu erstellen, die für vertrauliche Dokumente gelten sollen.
+Vertrauliche Dokumente erfordern eine mit "Vertrauliche Genehmigung" markierte Genehmigungsregel.
 
-When Confidential Approval is enabled in an approval rule, then a filter will be set on the Approval Rule Lines so only Approval Groups with Confidential Access can be added into the confidential approval flow. 
+Wenn die vertrauliche Genehmigung in einer Genehmigungsregel aktiviert ist, wird ein Filter auf den Genehmigungsregelzeilen festgelegt, sodass nur Genehmigungsgruppen mit vertraulichem Zugriff in den vertraulichen Genehmigungsfluss aufgenommen werden können.
 
-Enabling Confidential Approval will also automatically disable the approval rule. The reason is that Confidential Approvals must be chosen manually, and not be set dynamically. 
+Die Aktivierung der vertraulichen Genehmigung deaktiviert auch automatisch die Genehmigungsregel. Der Grund dafür ist, dass vertrauliche Genehmigungen manuell ausgewählt werden müssen und nicht dynamisch festgelegt werden können.
 
-According to this Pension Agency rule, only Jane is set to approve upcoming pension documents on ExFlow Web. 
+Gemäß dieser Regel der Pensionsagentur ist nur Jane berechtigt, bevorstehende Rentendokumente in ExFlow Web zu genehmigen.
 
-![Confidential Documents](@site/static/img/media/approval-rule-confidential-approval-001.png)
+![Vertrauliche Dokumente](./../../images/approval-rule-confidential-approval-001.png)
 
-### Confidential Workflow 
-Both users with and without confidential access can work with Confidential Documents in Business Central. However, only users with access can view the original document PDF image. 
+### Vertraulicher Workflow
+Benutzer mit und ohne vertraulichen Zugriff können mit vertraulichen Dokumenten in Business Central arbeiten. Nur Benutzer mit Zugriff können jedoch das ursprüngliche Dokumenten-PDF-Bild anzeigen.
 
-An example will follow for both users with access to confidential documents and for non- confidential users. 
+Es folgt ein Beispiel für Benutzer mit Zugriff auf vertrauliche Dokumente und für nicht vertrauliche Benutzer.
 
-Confidential fields are hidden per default in all ExFlow pages. To begin, use Personalize to add the field **‘’Confidential Document’’** to the import journal header and other relevant pages. 
+Vertrauliche Felder sind standardmäßig in allen ExFlow-Seiten ausgeblendet. Verwende Personalisierung, um das Feld **"Vertrauliches Dokument"** zum Importjournalheader und anderen relevanten Seiten hinzuzufügen.
 
-![Confidential Documents](@site/static/img/media/import-journal-confidential-001.png)
+![Vertrauliche Dokumente](./../../images/import-journal-confidential-001.png)
 
-If a document should be handled as a confidential document, simply enable the ‘’Confidential Document’’ checkbox on the chosen document. 
+Wenn ein Dokument als vertraulich behandelt werden soll, aktiviere einfach das Kontrollkästchen "Vertrauliches Dokument" für das ausgewählte Dokument.
 
-When the document is marked as Confidential, then regular approval rules will not be applicable, and the list of approval rules will be filtered on rules where ''Confidential Approval'' are enabled. 
+Wenn das Dokument als vertraulich markiert ist, sind reguläre Genehmigungsregeln nicht anwendbar und die Liste der Genehmigungsregeln wird auf Regeln gefiltert, bei denen "Vertrauliche Genehmigung" aktiviert ist.
 
-For this below example, only two confidential rule are applicable.
+Für das folgende Beispiel sind nur zwei vertrauliche Regeln anwendbar.
 
-Confidential marked approval rules must be selected manually. To repeat, these rules are not dynamic and will therefore not be automatically applied on documents in import journal. 
+Vertraulich markierte Genehmigungsregeln müssen manuell ausgewählt werden. Diese Regeln sind nicht dynamisch und werden daher nicht automatisch auf Dokumente im Importjournal angewendet.
 
-![Confidential Documents](@site/static/img/media/import-journal-confidential-002.png)
+![Vertrauliche Dokumente](./../../images/import-journal-confidential-002.png)
 
-It is not obligated to set an approval rule, it is still possible to manually add approvers in Approval Proposal as well, if the users have access to confidential documents. Non-confidential users will not be applicable and therefore not selectable. 
+Es ist nicht erforderlich, eine Genehmigungsregel festzulegen. Es ist immer noch möglich, Genehmiger manuell in einem Genehmigungsvorschlag hinzuzufügen, wenn die Benutzer Zugriff auf vertrauliche Dokumente haben. Nicht vertrauliche Benutzer sind nicht anwendbar und daher nicht auswählbar.
 
-Moreover, it will not be possible to choose an approval group containing both confidential users and non-confidential users. 
+Darüber hinaus ist es nicht möglich, eine Genehmigungsgruppe auszuwählen, die sowohl vertrauliche Benutzer als auch nicht vertrauliche Benutzer enthält.
 
-Let’s illustrate an example. If an imported document already has an approval rule applied with a proposed approval flow, and a user enable the Confidential Document checkbox, then this question will pop up: 
+Lassen Sie uns ein Beispiel veranschaulichen. Wenn ein importiertes Dokument bereits eine Genehmigungsregel mit einem vorgeschlagenen Genehmigungsfluss hat und ein Benutzer das Kontrollkästchen "Vertrauliches Dokument" aktiviert, wird folgende Frage angezeigt:
 
-![Confidential Documents](@site/static/img/media/import-journal-confidential-003.png)
+![Vertrauliche Dokumente](./../../images/import-journal-confidential-003.png)
 
-Users with no access to Confidential Document will be removed from the approval flow. Only users with access will stay if they are manually added to the flow.
+Benutzer ohne Zugriff auf vertrauliche Dokumente werden aus dem Genehmigungsfluss entfernt. Nur Benutzer mit Zugriff bleiben bestehen, wenn sie manuell zum Fluss hinzugefügt werden.
 
-Since Alicia and Theodora aren’t users with access, they will be removed. 
+Da Alicia und Theodora keine Benutzer mit Zugriff sind, werden sie entfernt.
 
-Use a ‘’Confidential rule’’ (confidential approval) or add authorized users as approvers manually and create the document as usual. The document will then be sent to the approver of choice.  <br/>
+Verwenden Sie eine "Vertrauliche Regel" (vertrauliche Genehmigung) oder fügen Sie autorisierte Benutzer manuell als Genehmiger hinzu und erstellen Sie das Dokument wie gewohnt. Das Dokument wird dann an den ausgewählten Genehmiger gesendet.
 
-Please note that the Confidential Documents- functionality cannot be used together with Re-invoicing.  
+Bitte beachten Sie, dass die Funktion "Vertrauliche Dokumente" nicht zusammen mit der Rechnungsumstellung verwendet werden kann.
 
-#### Automate Confidential Documents in Vendor Setup 
-If all documents for a certain vendor are supposed to be confidential and have the same approval flow and coding etc., this can be easily arranged from Vendor Setup Card, among other current automation features to make the confidential workflow both efficient and trusted. 
+#### Automatisieren von vertraulichen Dokumenten in der Lieferantenkonfiguration
+Wenn alle Dokumente für einen bestimmten Lieferanten vertraulich sein sollen und denselben Genehmigungsfluss und dieselbe Codierung usw. haben sollen, kann dies einfach von der Lieferantenkonfigurationskarte aus arrangiert werden, zusammen mit anderen aktuellen Automatisierungsfunktionen, um den vertraulichen Workflow effizient und vertrauenswürdig zu gestalten.
 
-However, if the vendor is not marked to handle Confidential Documents, then it’s not possible to utilize an automated confidential workflow. 
+Wenn der Lieferant jedoch nicht als "Vertrauliche Dokumente" markiert ist, ist es nicht möglich, einen automatisierten vertraulichen Workflow zu nutzen.
 
-![Confidential Documents](@site/static/img/media/vendor-setup-confidential-001.png)
-
-
-### Confidential Documents in Approval status
-As mentioned, users with access to confidential documents can view and work with each other’s confidential documents in Business Central, as usual.
-
-![Confidential Documents](@site/static/img/media/confidential-documents-approval-status-001.png)
-
-### Workflow as a non-confidential user
-Users with no access to confidential documents will not be able to see the original pdf image in the PDF Preview. 
-
-Non-confidential users can only view the PDF template image according to what is added in ExFlow setup. This is due to the purpose to hide and protect the original document image. 
-
-In this example, this will be their image to view:
-
-![Confidential Documents](@site/static/img/media/import-journal-confidential-004.png)
-
-If the user clicks on show document image or use shortcut Ctrl+I, then the following message will be displayed:
-
-![Confidential Documents](@site/static/img/media/import-journal-confidential-005.png)
-
-#### Deselect a document or vendor from being marked as Confidential
-Non-confidential users can enable ''Confidential Document'' for a Vendor in Vendor Setup, but not the opposite.
-
-Additionally, if a document is mistakenly labeled as a "Confidential Document" by a non-confidential user, only a user with access can reverse it. When that is done, and a user verifies the document, ExFlow will automatically apply a regular approval rule dynamically, if an applicable rule exists.
-
-![Confidential Documents](@site/static/img/media/import-journal-confidential-006.png)
-
-### Confidential Documents on ExFlow web 
-In opposition to working in Business Central with confidential documents, the web is more limited.
-
-When a document is sent for approval, the web approver can easily see that this document is a confidential document by a visible tag next to the document number. 
-![Confidential Documents](@site/static/img/media/confidential-documents-web-001.png)
-
-Users cannot change coding, add approvers, or forward the confidential document to another user. A confidential document can only be approved, rejected, or set on hold.
-
-In the example below, the approver tries to enter a dimension and receive this error message, since coding changes are not allowed. 
-
-![Confidential Documents](@site/static/img/media/confidential-documents-web-002.png)
-
-It is also not permitted to search for another confidential document where users themselves are not a part of the document’s approval flow.
-
-For instance, if an approver (regardless of confidential access) tries to search for a confidential document without being involved in the flow, the search result will be blank. 
-
-![Confidential Documents](@site/static/img/media/confidential-documents-web-003.png)
+![Vertrauliche Dokumente](./../../images/vendor-setup-confidential-001.png)
 
 
+### Vertrauliche Dokumente im Genehmigungsstatus
+Wie bereits erwähnt, können Benutzer mit Zugriff auf vertrauliche Dokumente diese wie gewohnt in Business Central anzeigen und bearbeiten.
 
+![Vertrauliche Dokumente](./../../images/confidential-documents-approval-status-001.png)
+
+### Workflow als nicht vertraulicher Benutzer
+Benutzer ohne Zugriff auf vertrauliche Dokumente können das ursprüngliche PDF-Bild nicht im PDF-Vorschaufenster anzeigen.
+
+Nicht vertrauliche Benutzer können nur das PDF-Vorlagenbild anzeigen, das in ExFlow-Setup hinzugefügt wurde. Dies dient dazu, das ursprüngliche Dokumentenbild zu verbergen und zu schützen.
+
+In diesem Beispiel ist dies ihr Bild zum Anzeigen:
+
+![Vertrauliche Dokumente](./../../images/import-journal-confidential-004.png)
+
+Wenn der Benutzer auf "Dokumentenbild anzeigen" klickt oder die Tastenkombination Strg+I verwendet, wird folgende Meldung angezeigt:
+
+![Vertrauliche Dokumente](./../../images/import-journal-confidential-005.png)
+
+#### Ein Dokument oder Lieferanten von der Markierung als vertraulich abwählen
+Nicht vertrauliche Benutzer können "Vertrauliches Dokument" für einen Lieferanten in der Lieferantenkonfiguration aktivieren, aber nicht umgekehrt.
+
+Darüber hinaus kann ein Dokument, das fälschlicherweise von einem nicht vertraulichen Benutzer als "Vertrauliches Dokument" gekennzeichnet wurde, nur von einem Benutzer mit Zugriff rückgängig gemacht werden. Wenn dies geschieht und ein Benutzer das Dokument überprüft, wendet ExFlow automatisch eine reguläre Genehmigungsregel dynamisch an, sofern eine anwendbare Regel vorhanden ist.
+
+![Vertrauliche Dokumente](./../../images/import-journal-confidential-006.png)
+
+### Vertrauliche Dokumente auf ExFlow Web
+Im Gegensatz zur Arbeit in Business Central mit vertraulichen Dokumenten ist das Web eingeschränkter.
+
+Wenn ein Dokument zur Genehmigung gesendet wird, kann der Web-Genehmiger anhand einer sichtbaren Markierung neben der Dokumentennummer leicht erkennen, dass es sich um ein vertrauliches Dokument handelt.
+![Vertrauliche Dokumente](./../../images/confidential-documents-web-001.png)
+
+Benutzer können keine Codierung ändern, Genehmiger hinzufügen oder das vertrauliche Dokument an einen anderen Benutzer weiterleiten. Ein vertrauliches Dokument kann nur genehmigt, abgelehnt oder in den Wartezustand versetzt werden.
+
+Im folgenden Beispiel versucht der Genehmiger, eine Dimension einzugeben, und erhält diese Fehlermeldung, da Codierungsänderungen nicht zulässig sind.
+
+![Vertrauliche Dokumente](./../../images/confidential-documents-web-002.png)
+
+Es ist auch nicht erlaubt, nach einem anderen vertraulichen Dokument zu suchen, an dem die Benutzer selbst nicht beteiligt sind.
+
+Wenn beispielsweise ein Genehmiger (unabhängig vom vertraulichen Zugriff) versucht, nach einem vertraulichen Dokument zu suchen, an dem er nicht am Fluss beteiligt ist, wird das Suchergebnis leer sein.
+
+![Vertrauliche Dokumente](./../../images/confidential-documents-web-003.png)
 

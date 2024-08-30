@@ -1,180 +1,167 @@
 ---
-title: OAuth 2.0 Applications and Storage Setup
+title: OAuth 2.0 Anwendungen und Speicherung einrichten
 sidebar_position: 5
 hide_title: true
 ---
-## OAuth 2.0 Applications and Storage Setup
+## OAuth 2.0 Anwendungen und Speicherung einrichten
 
-For support regarding below, please contact your internal IT department or trusted Business Central partner. 
+Für Unterstützung in Bezug auf das Folgende wenden Sie sich bitte an Ihre interne IT-Abteilung oder vertrauenswürdigen Business Central-Partner.
 
-### Create Application or Service Principal in MS Entra (or Azure)
+### Anwendung oder Dienstprinzipal in MS Entra (oder Azure) erstellen
 
-Set a Name of choice. Choose: ‘’Accounts in any organizational directory” and then click on ‘’Register’’.
- 
-![ExFlow SharePoint Setup](@site/static/img/media/sharepoint-setup-001.png)<br/>
+Geben Sie einen beliebigen Namen ein. Wählen Sie "Konten in einer beliebigen Organisationsverzeichnis" und klicken Sie dann auf "Registrieren".
 
-After registration, take notes of the “Application (client) ID”.
- 
-![ExFlow SharePoint Setup](@site/static/img/media/sharepoint-setup-002.png)<br/>
+![ExFlow SharePoint Einrichtung](./../../images/sharepoint-setup-001.png)<br/>
 
-Go under API permissions to add a permission.
- 
-![ExFlow SharePoint Setup](@site/static/img/media/sharepoint-setup-003.png)<br/>
+Nach der Registrierung notieren Sie sich die "Anwendungs-ID (Client-ID)".
 
-Click on ‘’Microsoft Graph’’ and ‘’Application Permissions’’. <br/>
-Search for ‘’site’’ and add permission: Sites.ReadWrite.All<br/>
+![ExFlow SharePoint Einrichtung](./../../images/sharepoint-setup-002.png)<br/>
 
- 
-![ExFlow SharePoint Setup](@site/static/img/media/sharepoint-setup-004.png)<br/>
+Gehen Sie zu den API-Berechtigungen, um eine Berechtigung hinzuzufügen.
 
-Click on ‘’SharePoint’’ and ‘’Application Permissions’’ again.<br/>
-Select and add both permissions: Sites.ReadWrite.All and Sites.Manage.All. <br/>
+![ExFlow SharePoint Einrichtung](./../../images/sharepoint-setup-003.png)<br/>
 
- ![ExFlow SharePoint Setup](@site/static/img/media/sharepoint-setup-005.png)<br/>
+Klicken Sie auf "Microsoft Graph" und "Anwendungsberechtigungen". <br/>
+Suchen Sie nach "site" und fügen Sie die Berechtigung hinzu: Sites.ReadWrite.All<br/>
 
-Grant admin consent for these permissions:
+![ExFlow SharePoint Einrichtung](./../../images/sharepoint-setup-004.png)<br/>
 
- 
-![ExFlow SharePoint Setup](@site/static/img/media/sharepoint-setup-006.png)<br/>
+Klicken Sie erneut auf "SharePoint" und "Anwendungsberechtigungen".<br/>
+Wählen Sie beide Berechtigungen aus und fügen Sie sie hinzu: Sites.ReadWrite.All und Sites.Manage.All. <br/>
 
+![ExFlow SharePoint Einrichtung](./../../images/sharepoint-setup-005.png)<br/>
 
-Permissions should look like this:
- 
-![ExFlow SharePoint Setup](@site/static/img/media/sharepoint-setup-007.png)<br/>
+Erteilen Sie die Administratorzustimmung für diese Berechtigungen:
 
-Go to ‘’Certificates & secrets’’.
- 
-![ExFlow SharePoint Setup](@site/static/img/media/sharepoint-setup-008.png)<br/>
+![ExFlow SharePoint Einrichtung](./../../images/sharepoint-setup-006.png)<br/>
 
+Die Berechtigungen sollten wie folgt aussehen:
 
-Create a client secret:
- 
-![ExFlow SharePoint Setup](@site/static/img/media/sharepoint-setup-009.png)<br/>
+![ExFlow SharePoint Einrichtung](./../../images/sharepoint-setup-007.png)<br/>
 
-Copy the secret and/or save it. The secret will not be visible anymore. If the secret gets forgotten or misplaced, create a new secret and reconfigure the OAuth2 Application.
- 
-![ExFlow SharePoint Setup](@site/static/img/media/sharepoint-setup-010.png)<br/>
+Gehen Sie zu "Zertifikate & Geheimnisse".
 
-Go back to the list of App registrations and click on Endpoints.
-Copy both OAuth2.0 v2 Endpoints; Authorization and Token. Also copy Microsoft Graph API endpoint.
+![ExFlow SharePoint Einrichtung](./../../images/sharepoint-setup-008.png)<br/>
+
+Erstellen Sie ein Clientgeheimnis:
+
+![ExFlow SharePoint Einrichtung](./../../images/sharepoint-setup-009.png)<br/>
+
+Kopieren Sie das Geheimnis und/oder speichern Sie es. Das Geheimnis wird nicht mehr sichtbar sein. Wenn das Geheimnis vergessen oder verlegt wird, erstellen Sie ein neues Geheimnis und konfigurieren Sie die OAuth2-Anwendung erneut.
+
+![ExFlow SharePoint Einrichtung](./../../images/sharepoint-setup-010.png)<br/>
+
+Gehen Sie zurück zur Liste der App-Registrierungen und klicken Sie auf "Endpunkte".
+Kopieren Sie sowohl die OAuth2.0 v2-Endpunkte (Autorisierung und Token) als auch den Microsoft Graph API-Endpunkt.
 <br/>
 
-![ExFlow SharePoint Setup](@site/static/img/media/sharepoint-setup-011.png)<br/>
+![ExFlow SharePoint Einrichtung](./../../images/sharepoint-setup-011.png)<br/>
 
-Completed with Entra or Azure AD or AAD.<br/><br/>
+Abgeschlossen mit Entra oder Azure AD oder AAD.<br/><br/>
 
+### Konfigurieren einer OAuth2-Anwendung in ExFlow
 
-### Configure an OAuth2 Application in ExFlow
+Gehen Sie zu: **ExFlow Setup --> Aktionen --> Funktionen --> OAuth2-Anwendungen**
 
-Go to: **ExFlow Setup --> Actions --> Functions --> OAuth2 Applications**
+Starten Sie die Konfiguration, indem Sie auf "Neu" klicken, um eine neue OAuth 2.0-Anwendung zu erstellen.
 
-Start the configuration by clicking on ''New'' to create a new OAuth 2.0 Application.
- 
-
-| OAuth 2.0 Applications|![ExFlow SharePoint Setup](@site/static/img/media/oauth-application-001.png)
+| OAuth 2.0-Anwendungen | ![ExFlow SharePoint Einrichtung](./../../images/oauth-application-001.png)
 |:-|:-|
-|**Request Access Token**|Open the service authorization web page. Login credentials will be prompted. The authorization code must be copied into the Enter Authorization Code field. 
-|**Refresh Access Token**|Refresh the access and refresh tokens.
+| **Zugriffstoken anfordern** | Öffnen Sie die Service-Autorisierungswebseite. Es werden Anmeldeinformationen angefordert. Der Autorisierungscode muss in das Feld "Autorisierungscode eingeben" kopiert werden.
+| **Zugriffstoken aktualisieren** | Aktualisieren Sie das Zugriffs- und Aktualisierungstoken.
 <br/>
 
-![ExFlow SharePoint Setup](@site/static/img/media/oauth-application-002.png)<br/>
+![ExFlow SharePoint Einrichtung](./../../images/oauth-application-002.png)<br/>
 
-|General|
+| Allgemein |
 |:-|:-|
-|**Code**|Specifies the name of the Code
-|**Description**|Specifies the Code description 
-|**Application / Client ID**| Specifies the Application ID from the Enterprise Application Overview.
-|**Client Secret**| Specifies the client secret
-|**Grant Type**| Specifies the grant type to use. It is possible to use Authorization Code, Password Credentials or Client Credentials. Currently only ‘’Client Credentials’’ is supported. 
-|**Redirect URL**| Specifies the redirect URL, not in use for now.
-|**Scope**| Specifies the scope. Enter the Graph Endpoint and add ‘’.default.’’ Make sure the endpoint looks like the following at the end: ‘’…soft.com/.default’’
+| **Code** | Gibt den Namen des Codes an.
+| **Beschreibung** | Gibt die Codebeschreibung an.
+| **Anwendungs-/Client-ID** | Gibt die Anwendungs-ID aus der Übersicht der Unternehmensanwendung an.
+| **Clientgeheimnis** | Gibt das Clientgeheimnis an.
+| **Grant-Typ** | Gibt den zu verwendenden Grant-Typ an. Es ist möglich, Autorisierungscode, Passwortanmeldeinformationen oder Clientanmeldeinformationen zu verwenden. Derzeit wird nur "Clientanmeldeinformationen" unterstützt.
+| **Weiterleitungs-URL** | Gibt die Weiterleitungs-URL an, die derzeit nicht verwendet wird.
+| **Bereich** | Gibt den Bereich an. Geben Sie den Graph-Endpunkt ein und fügen Sie ".default" hinzu. Stellen Sie sicher, dass der Endpunkt am Ende wie folgt aussieht: "...soft.com/.default"
 <br/>
 
-|Endpoints|
+| Endpunkte |
 |:-|:-|
-|**Authorization URL**| Specifies the authorization URL
-|**Access Token URL**| Specifies the access token URL
-|**Auth. URL Parms**| Specifies the resource URL, not in use for now.
+| **Autorisierungs-URL** | Gibt die Autorisierungs-URL an.
+| **Zugriffstoken-URL** | Gibt die Zugriffstoken-URL an.
+| **Auth.-URL-Parameter** | Gibt die Ressourcen-URL an, die derzeit nicht verwendet wird.
 
 <br/>
 
-Enter all needed setup information. Enter a code and code description. Paste the 
-Application/ Client ID and the Client Secret from MS Entra Admin Center.
+Fügen Sie alle erforderlichen Einrichtungsinformationen ein. Geben Sie einen Code und eine Codebeschreibung ein. Fügen Sie die Anwendungs-/Client-ID und das Client Secret aus dem MS Entra Admin Center ein.
 
-Set Grant Type to ''Client Credentials'' and the MS graph scope url (Microsoft Graph API). <br/>
+Setzen Sie den Grant-Typ auf "Client Credentials" und die MS Graph Scope-URL (Microsoft Graph API). <br/>
 
-![ExFlow SharePoint Setup](@site/static/img/media/oauth-application-003.png)<br/>
+![ExFlow SharePoint Setup](./../../images/oauth-application-003.png)<br/>
 
-Under the Endpoint section, paste the previously copied URL's for both OAuth2.0 v2 Authorization Endpoint and Token Endpoint. <br/>
+Unter dem Abschnitt "Endpoint" fügen Sie die zuvor kopierten URLs für den OAuth2.0 v2 Authorization Endpoint und den Token Endpoint ein. <br/>
 
-Test by pressing “Request Access Token”. Following message should be displayed if everything is correct:  “Access Token updated successfully.” <br/>
+Testen Sie, indem Sie auf "Request Access Token" klicken. Wenn alles korrekt ist, sollte folgende Meldung angezeigt werden: "Access Token erfolgreich aktualisiert." <br/>
 
-### SharePoint Setup
-In Site Contents, create a new Document Library, this will contain the folder that ExFlow will store data in. Create a folder in the Document Library that was just created. This will be the location of the documents. Click on the newly created folder. Copy the complete URL from the address field in the browser, this will be needed in the configuration below. 
+### SharePoint-Einrichtung
+Erstellen Sie in "Site Contents" eine neue Dokumentenbibliothek, in der ExFlow Daten speichern wird. Erstellen Sie einen Ordner in der gerade erstellten Dokumentenbibliothek. Dies wird der Speicherort der Dokumente sein. Klicken Sie auf den neu erstellten Ordner. Kopieren Sie die vollständige URL aus der Adressleiste des Browsers. Diese wird für die Konfiguration unten benötigt.
 
-### Blob Storage Setup for SharePoint
+### Blob Storage-Einrichtung für SharePoint
 
-Go to: **ExFlow Setup -- > Actions --> Functions --> Blob Storage Mgmt (ExFlow Storage Management Setup)** 
+Gehen Sie zu: **ExFlow Setup --> Actions --> Functions --> Blob Storage Mgmt (ExFlow Storage Management Setup)**
 
-| Blob Storage Mgmt / ExFlow Storage Management Setup |![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-002.png)
+| Blob Storage Mgmt / ExFlow Storage Management Setup |![ExFlow SharePoint Setup](./../../images/storage-setup-002.png)
 |:-|:-|
-|**Storage Setup**|Configure one or more storage configurations
-|**Enable/ Disable Blob Storage**|Activate or inactivate blob storage
+|**Storage Setup**|Konfigurieren Sie eine oder mehrere Speicherkonfigurationen
+|**Enable/ Disable Blob Storage**|Aktivieren oder deaktivieren Sie den Blob-Speicher
 
 <br/>
 
-From the ExFlow Storage Management Setup page, click on **Storage Setup** and then on ‘’New’’ to start with the configuration. 
+Auf der Seite "ExFlow Storage Management Setup" klicken Sie auf **Storage Setup** und dann auf "Neu", um mit der Konfiguration zu beginnen.
 
-![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-006.png)<br/>
+![ExFlow SharePoint Setup](./../../images/storage-setup-006.png)<br/>
 
-Enter a Code and Description. For Blob Source, select SharePoint.<br/> 
+Geben Sie einen Code und eine Beschreibung ein. Wählen Sie für "Blob Source" SharePoint aus.<br/>
 
-Then click **Setup Storage** to continue the configuration. 
+Klicken Sie dann auf **Setup Storage**, um die Konfiguration fortzusetzen.
 
-![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-003.png)<br/>
+![ExFlow SharePoint Setup](./../../images/storage-setup-003.png)<br/>
 
+Kopieren Sie die URL von SharePoint und fügen Sie sie in das Feld "SharePoint URL" ein. Sobald Sie das Feld verlassen, werden die Werte in Host, Site, Document Library und Folder extrahiert und eingefügt. Wenn eines der Felder fehlt, wahrscheinlich Folder, können Sie diese manuell eingeben. <br/>
 
+![ExFlow SharePoint Setup](./../../images/storage-setup-004.png)<br/>
 
+Wählen Sie die zuvor erstellte OAuth2-Anwendung aus und überprüfen Sie dies, indem Sie auf "Connect" klicken. <br/>
 
+Wenn etwas falsch ist, wie z.B. der Ordnername, wird eine Meldung wie "Not Found" angezeigt. <br/>
 
-Copy the URL from SharePoint and paste that into the field ''SharePoint URL''. Once exit the field, values will be extracted and populated into Host, Site, Document Library and Folder. If any of the fields are missing, most likely Folder, it’s possible to enter those manually. <br/>
+Außerdem wird bei fehlenden Berechtigungen eine Meldung wie "Unauthorized" angezeigt. <br/>
 
-![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-004.png)<br/>
+Wenn alles in Ordnung ist, wird der SharePoint-Verbindungsstatus auf "Connected" gesetzt und die Parameter werden in Site Id, Drive Id und List Id eingefügt. <br/>
 
-Select the previously created OAuth2 Application and verify by clicking on ‘’Connect’’. <br/>
+Es ist jetzt in Ordnung, diese Seite zu schließen, da die Blob Storage-Einrichtung für SharePoint abgeschlossen ist. <br/>
 
-If something is wrong like the folder name, message like “Not Found” will appear. <br/> 
+Gehen Sie zurück zu **ExFlow Storage Setup**, um auf "Enabled" zu klicken. <br/>
 
-Moreover, if permissions are missing, a message like “Unauthorized” will appear. <br/>
+![ExFlow SharePoint Setup](./../../images/storage-setup-007.png)<br/>
 
-If all is OK, the SharePoint Connection Status will be set to ‘’Connected’’ and parameters will be populated in Site Id, Drive Id and List Id. <br/>
+Schließen Sie die ExFlow Storage Setup und kehren Sie zu ExFlow Storage Management Setup / Blob Storage Mgmt zurück.<br/>
 
-It is now OK to close this page since the Blob Storage Setup for SharePoint is completed. <br/>
+Wählen Sie die neu erstellte SharePoint-Einrichtung unter "Incoming Doc. Storage Code" aus. <br/>
 
-Go back to **ExFlow Storage Setup** for this setup to click on ‘’Enabled’’. <br/>
+![ExFlow SharePoint Setup](./../../images/storage-setup-008.png)<br/>
 
-![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-007.png)<br/>
+Klicken Sie auf "Active" oder "Enable / Disable Blob Storage". <br/>
 
-Close ExFlow Storage Setup and return to ExFlow Storage Management Setup / Blob Storage Mgmt.<br/>
+![ExFlow SharePoint Setup](./../../images/storage-setup-010.png)<br/>
 
-Select the newly created SharePoint setup in “Incoming Doc. Storage Code”. <br/>
+Wenn bereits vorhandene Rechnungen mit ExFlow genehmigt wurden, wird ein Dialogfeld angezeigt, in dem Sie gefragt werden, ob diese übertragen werden sollen. Sie können dann "Ja" wählen. <br/>
 
-![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-008.png)<br/>
+Es ist jetzt möglich, den Status der gebuchten Rechnungen im Blob Storage zu überprüfen, indem Sie "Actions --> Storage Details" auswählen. <br/>
 
-Click on ‘’Active’’ or “Enable / Disable Blob Storage”. <br/>
+Klicken Sie auf "Sync Storage", um eine Übertragung nach SharePoint zu erzwingen. <br/>
 
-![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-010.png)<br/>
+![ExFlow SharePoint Setup](./../../images/storage-setup-009.png)<br/>
 
-If any existing posted invoices approved using ExFlow, a dialog will ask to transfer those, then it’s possible to choose Yes. <br/>
+Aktualisieren Sie die SharePoint-Seite mit dem zuvor erstellten Ordner. Es sollte nun möglich sein, die neuen Ordner dort anzuzeigen. <br/>
 
-It is now possible to check status for posted invoices in Blob Storage by selecting ‘’Actions --> Storage Details’’. <br/>
-
-Click on ‘’Sync Storage’’ to force a transfer over to SharePoint. <br/>
-
-![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-009.png)<br/>
-
-Refresh the SharePoint page with the folder previously created, it should now be possible to view the new folders there. <br/>
-
-
-![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-005.png)<br/>
- 
+![ExFlow SharePoint Setup](./../../images/storage-setup-005.png)<br/>
