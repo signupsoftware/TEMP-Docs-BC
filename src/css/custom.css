@@ -184,6 +184,12 @@
   font-weight: normal;
 }
 
+/* Side menu */
+.menu__link--active {
+  background-color: #f8f1ea;
+  color: #fdad54;
+}
+
 
 
 
