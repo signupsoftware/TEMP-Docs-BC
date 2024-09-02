@@ -3,10 +3,6 @@
     "message": "Nächste",
     "description": "Die Bezeichnung für die aktuelle Version"
   },
-  "sidebar.tutorialSidebar.category.user-manual": {
-    "message": "Benutzerhandbuch",
-    "description": "Die Bezeichnung für die Kategorie Benutzerhandbuch in der Seitenleiste tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.Welcome to ExFlow": {
     "message": "Willkommen bei ExFlow",
     "description": "Die Bezeichnung für die Kategorie Willkommen bei ExFlow in der Seitenleiste tutorialSidebar"

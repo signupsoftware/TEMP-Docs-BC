@@ -1,17 +1,17 @@
 ---
-title: ExFlow Import Journals
+title: ExFlow Journale importieren
 sidebar_position: 2
 hide_title: true
 ---
-## ExFlow Import Journals
+## ExFlow Journale importieren
 
-Gehe zu: ***ExFlow Import Journals***
+Gehe zu: ***ExFlow Journale importieren***
 
 Ein "ExFlow Import Journal" wird verwendet, um Dokumente zu importieren, Codierung anzuwenden, Aktionen zu verarbeiten und Rechnungen/Gutschriften zur Genehmigung zu erstellen. Nach dem Scannen und Interpretieren der gescannten Dokumente werden Dateien erstellt und bereit zum Importieren.
 
-Von der Liste der ExFlow Import Journals aus können Sie suchen, ein neues Journal erstellen, aktuelle Journalzeilen bearbeiten und Journale löschen. Benutzer können auch Dokumente stapelweise importieren, Rechnungen und Gutschriften stapelweise erstellen, die OCR-Importwarteschlange bearbeiten/anzeigen, E-Mail-Empfangserinnerungen senden und Journale stapelweise überprüfen.
+Von der Liste der ExFlow Journale importieren aus können Sie suchen, ein neues Journal erstellen, aktuelle Journalzeilen bearbeiten und Journale löschen. Benutzer können auch Dokumente stapelweise importieren, Rechnungen und Gutschriften stapelweise erstellen, die OCR-Importwarteschlange bearbeiten/anzeigen, E-Mail-Empfangserinnerungen senden und Journale stapelweise überprüfen.
 
-![ExFlow Import Journals](./../../images/import-journals-003.png)
+![ExFlow Journale importieren](./../../images/import-journals-003.png)
 
 ### Dokumente stapelweise aus Interpretation importieren
 Gehe zu: ***Startseite --> Dokumente stapelweise importieren***<br/>
@@ -25,13 +25,13 @@ Die gleiche Einstellung kann für "Zeilen mit automatischem Vorschlag erstellen"
 
 Lesen Sie mehr dazu im Abschnitt **"ExFlow Auto Codierungsvorschlag".**
 
-![ExFlow Import Journals](./../../images/import-journals-004.png)
+![ExFlow Journale importieren](./../../images/import-journals-004.png)
 
 In den Journalen gibt es für jedes importierte OCR-Dokument einen Dokumentkopfdatensatz. "Importzeilen" im unteren Bereich sind Zeilendetails für jedes Dokument.
 
 ![ExFlow Import Journal](./../../images/import-journal-010.png)
 
-Darüber hinaus ist es möglich, ein spezielles Journal für die automatische Erstellung von Dokumenten einzurichten. Verwenden Sie Personalisieren und fügen Sie die Spalte "Automatisch Dokumente erstellen" zur Liste der ExFlow Import Journals hinzu.
+Darüber hinaus ist es möglich, ein spezielles Journal für die automatische Erstellung von Dokumenten einzurichten. Verwenden Sie Personalisieren und fügen Sie die Spalte "Automatisch Dokumente erstellen" zur Liste der ExFlow Journale importieren hinzu.
 
 Aktivieren Sie dieses Kästchen, wenn interpretierte Dokumente automatisch aus dem ExFlow Import Journal erstellt werden sollen. Mit dieser Funktion werden alle interpretierten importierten Dokumente (ohne Fehler- oder Warnmeldungen) automatisch erstellt und zur Genehmigung gesendet.
 
@@ -48,7 +48,7 @@ Gehe zu: ***Aktionen --> Importieren --> ExFlow Data Capture***
 
 Klicken Sie auf "ExFlow Data Capture", um zur Website zu gelangen. Dies funktioniert nur, wenn das Unternehmen mit einem ExFlow Data Capture-Konto verbunden ist.
 
-![ExFlow Import Journals - ExFlow Data Capture](./../../images/import-journals-006.png)
+![ExFlow Journale importieren - ExFlow Data Capture](./../../images/import-journals-006.png)
 
 ### Importiertes Dokument löschen
 Gehe zu: ***Verwalten --> Löschen***<br/>

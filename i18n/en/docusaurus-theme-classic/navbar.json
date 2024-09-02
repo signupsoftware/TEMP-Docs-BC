@@ -7,8 +7,20 @@
     "message": "ExFlow Logo",
     "description": "The alt text of navbar logo"
   },
+  "item.label.Home": {
+    "message": "Home",
+    "description": "Back to homepage"
+  },
   "item.label.Documentation": {
     "message": "Documentation",
     "description": "Navbar item with label Documentation"
+  },
+  "item.label.ReleaseNotes": {
+    "message": "Release Notes",
+    "description": "Navbar item with label Release Notes"
+  },
+  "item.label.VideoTutorials": {
+    "message": "Video Tutorials",
+    "description": "Navbar item with label Video Tutorials"
   }
 }

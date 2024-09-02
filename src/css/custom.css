@@ -190,6 +190,10 @@
   color: #fdad54;
 }
 
+.menu__link--active:hover {
+  color: #606770;
+}
+
 
 
 
