@@ -1,3 +1,8 @@
+---
+title: Benachrichtigungen in Business Central
+sidebar_position: 10
+hide_title: true
+---
 ## Benachrichtigungen in Business Central
 Wenn der ExFlow-Benutzer ein Systembenutzer ist (mit einem Benutzer in Business Central verknüpft), können Benachrichtigungen in Business Central aktiviert werden. <br/>
 Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) für die Einrichtung.

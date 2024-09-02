@@ -103,8 +103,26 @@ const config = {
           },
 
           {
-            href: 'https://docs.exflow.cloud',
+            href: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net',
+            label: 'Home',
+            position: 'left',
+          },
+
+          {
+            href: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/welcome-to-exflow/introduction',
             label: 'Documentation',
+            position: 'left',
+          },
+
+          {
+            href: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/de/docs/user-manual/welcome-to-exflow/release-notes',
+            label: 'Release notes',
+            position: 'left',
+          },
+
+          {
+            href: 'https://www.youtube.com/playlist?list=PLJAWzooWyJH9V7QYAmcGgxEIFDjfVBB-Y',
+            label: 'Video tutorials',
             position: 'left',
           },
 
