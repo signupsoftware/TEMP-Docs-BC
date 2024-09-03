@@ -30,7 +30,7 @@ const FeatureList = [
     title: <Translate>ExFlow for Finance and Operations</Translate>,
     Svg: require('@site/static/img/gears.svg').default,
     description: (
-        <Translate>[Env]ExFlow is easy to use. It is designed to be user-friendly and intuitive.</Translate>
+        <Translate>ExFlow is easy to use. It is designed to be user-friendly and intuitive.</Translate>
     ),
   },
   {

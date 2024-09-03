@@ -1,14 +1,18 @@
 {
-  "title": {
-    "message": "ExFlow",
-    "description": "The title in the navbar"
-  },
-  "logo.alt": {
-    "message": "ExFlow",
-    "description": "The alt text of navbar logo"
-  },
   "item.label.Documentation": {
-    "message": "Documentation",
+    "message": "Dokumentation",
     "description": "Navbar item with label Documentation"
+  },
+  "item.label.Release notes": {
+    "message": "Versionshinweise",
+    "description": "Navbar item with label Release notes"
+  },
+  "item.label.Video tutorials": {
+    "message": "Video-Tutorials",
+    "description": "Navbar item with label Video tutorials"
+  },
+  "item.label.Home": {
+    "message": "Startseite",
+    "description": "Navbar item with label Home"
   }
 }

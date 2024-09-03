@@ -14,6 +14,21 @@ import {themes as prismThemes} from 'prism-react-renderer';
 //var header1 =  translate({ message: 'Other documentation' });
 //import { getLang } from './src/components/langReference.js';
 
+// EA 2024-09-03 The 'config' class doesn't work well, use this to change the main site address.
+const siteURL = 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/';
+//const siteURL = 'http://localhost:3000/';
+
+
+// Use these to quickly chnage between Dev/Prod
+// -- Development, local --
+const lnk_intro = 'docs/user-manual/welcome-to-exflow/introduction';
+const lnk_relnotes = 'docs/user-manual/welcome-to-exflow/release-notes'
+// -- Production, cloud --
+//const lnk_intro = 'introduction';
+//const lnk_relnotes 'release-notes'
+
+
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -22,7 +37,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -87,12 +102,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      //image: 'img/docusaurus-social-card.jpg',
       navbar: {
 
-        title: 'ExFlow',
+        //title: 'Home',
         logo: {
-          alt: 'ExFlow',
+          //alt: 'ExFlow',
           src: 'img/exflow-logo-v5.png',
         },
 
@@ -103,19 +118,20 @@ const config = {
           },
 
           {
-            href: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net',
+            href: siteURL,
             label: 'Home',
             position: 'left',
           },
 
           {
-            href: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/welcome-to-exflow/introduction',
+            //href: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/welcome-to-exflow/introduction',
+            href: siteURL + lnk_intro,
             label: 'Documentation',
             position: 'left',
           },
 
           {
-            href: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/de/docs/user-manual/welcome-to-exflow/release-notes',
+            href: siteURL + lnk_relnotes,
             label: 'Release notes',
             position: 'left',
           },

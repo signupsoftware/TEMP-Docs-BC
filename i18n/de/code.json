@@ -315,8 +315,8 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
-  "[Env]ExFlow is easy to use. It is designed to be user-friendly and intuitive.": {
-    "message": "[DE]ExFlow ist einfach zu bedienen. Es wurde entwickelt, um benutzerfreundlich und intuitiv zu sein."
+  "ExFlow is easy to use. It is designed to be user-friendly and intuitive.": {
+    "message": "ExFlow ist einfach zu bedienen. Es wurde entwickelt, um benutzerfreundlich und intuitiv zu sein."
   },
   "ExFlow allows you to focus on what matters: your business. It takes care of the rest.": {
     "message": "ExFlow ermöglicht es Ihnen, sich auf das Wesentliche zu konzentrieren: Ihr Geschäft. Es kümmert sich um den Rest."

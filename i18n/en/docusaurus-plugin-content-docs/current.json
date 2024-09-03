@@ -3,10 +3,6 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.user-manual": {
-    "message": "user-manual",
-    "description": "The label for category user-manual in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.Welcome to ExFlow": {
     "message": "Welcome to ExFlow",
     "description": "The label for category Welcome to ExFlow in sidebar tutorialSidebar"

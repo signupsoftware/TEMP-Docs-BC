@@ -1,35 +1,35 @@
 {
   "version.label": {
     "message": "Nächste",
-    "description": "Die Bezeichnung für die aktuelle Version"
+    "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Welcome to ExFlow": {
     "message": "Willkommen bei ExFlow",
-    "description": "Die Bezeichnung für die Kategorie Willkommen bei ExFlow in der Seitenleiste tutorialSidebar"
+    "description": "The label for category Welcome to ExFlow in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Business Functionality": {
     "message": "Geschäftsfunktionalität",
-    "description": "Die Bezeichnung für die Kategorie Geschäftsfunktionalität in der Seitenleiste tutorialSidebar"
+    "description": "The label for category Business Functionality in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Approval Workflow": {
     "message": "Genehmigungsworkflow",
-    "description": "Die Bezeichnung für die Kategorie Genehmigungsworkflow in der Seitenleiste tutorialSidebar"
+    "description": "The label for category Approval Workflow in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Sales Order": {
     "message": "Verkaufsauftrag",
-    "description": "Die Bezeichnung für die Kategorie Verkaufsauftrag in der Seitenleiste tutorialSidebar"
+    "description": "The label for category Sales Order in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.CO₂ Insights": {
     "message": "CO₂ Einblicke",
-    "description": "Die Bezeichnung für die Kategorie CO₂ Einblicke in der Seitenleiste tutorialSidebar"
+    "description": "The label for category CO₂ Insights in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Localizations and ISV Extensions": {
     "message": "Lokalisierungen und ISV-Erweiterungen",
-    "description": "Die Bezeichnung für die Kategorie Lokalisierungen und ISV-Erweiterungen in der Seitenleiste tutorialSidebar"
+    "description": "The label for category Localizations and ISV Extensions in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Business Intelligence and reporting": {
     "message": "Geschäftsanalytik und Berichterstattung",
-    "description": "Die Bezeichnung für die Kategorie Geschäftsanalytik und Berichterstattung in der Seitenleiste tutorialSidebar"
+    "description": "The label for category Business Intelligence and reporting in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Help and Support": {
     "message": "Hilfe und Unterstützung",
@@ -39,5 +39,4 @@
     "message": "Technisch",
     "description": "The label for category Technical in sidebar tutorialSidebar"
   }
-
 }
