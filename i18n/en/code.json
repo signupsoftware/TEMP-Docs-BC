@@ -278,14 +278,6 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
-  "theme.unlistedContent.title": {
-    "message": "Unlisted page",
-    "description": "The unlisted content banner title"
-  },
-  "theme.unlistedContent.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
-    "description": "The unlisted content banner message"
-  },
   "ExFlow for Finance and Operations": {
     "message": "ExFlow for Finance and Operations"
   },
@@ -295,17 +287,14 @@
   "ExFlow Data Capture": {
     "message": "ExFlow Data Capture"
   },
-  "Other documentation": {
-    "message": "Other documentation"
-  },
-  "[Env]ExFlow is easy to use. It is designed to be user-friendly and intuitive.": {
-    "message": "[EN]ExFlow is easy to use. It is designed to be user-friendly and intuitive."
+  "ExFlow is easy to use. It is designed to be user-friendly and intuitive.": {
+    "message": "ExFlow is easy to use. It is designed to be user-friendly and intuitive."
   },
   "ExFlow allows you to focus on what matters: your business. It takes care of the rest.": {
-    "message": "[EN]ExFlow allows you to focus on what matters: your business. It takes care of the rest."
+    "message": "ExFlow allows you to focus on what matters: your business. It takes care of the rest."
   },
   "ExFlow is built on top of the newest technologies.": {
-    "message": "[EN]ExFlow is built on top of the newest technologies."
+    "message": "ExFlow is built on top of the newest technologies."
   },
   "theme.blog.author.pageTitle": {
     "message": "{authorName} - {nPosts}",

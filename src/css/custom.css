@@ -110,9 +110,8 @@
 
 .nectar_shape_divider_wrap_xJrz {
   bottom: 0;
-  /*height: 300px;*/
-  
-  
+  height: 660px;
+   
   width: 100%;
   z-index: -1;
 
@@ -189,12 +188,14 @@
   background-color: #f8f1ea;
   color: #fdad54;
 }
-
 .menu__link--active:hover {
   color: #606770;
 }
 
-
+/* Navbar Font */
+:root nav.navbar {
+  font-family: 'DMSans', sans-serif;
+}
 
 
 
