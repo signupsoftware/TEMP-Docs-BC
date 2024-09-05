@@ -29,12 +29,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-html {
-  background-color: #f8f1ea;
-}
-
-
-
 .container {
   max-width: var(--ifm-container-width-xl);
 }
@@ -180,7 +174,9 @@ html {
   background-color: #f8f1ea;
 }
 
-
+html[data-theme='light'] {
+  --ifm-background-color: #f8f1ea;
+}
 
 .page_title {
   position: relative;
