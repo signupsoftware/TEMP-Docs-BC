@@ -33,7 +33,7 @@ const lnk_relnotes = 'docs/user-manual/welcome-to-exflow/release-notes'
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ExFlow Documentation Platform',
-  tagline: 'ExFlow tagline',
+  tagline: 'ExFlow Documentation Platform',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
