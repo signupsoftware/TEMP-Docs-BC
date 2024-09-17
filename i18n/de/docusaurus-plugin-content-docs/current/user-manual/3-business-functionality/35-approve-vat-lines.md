@@ -1,23 +1,29 @@
 ---
-title: Genehmigen von Mehrwertsteuerzeilen
+title: VAT-Linien genehmigen
 sidebar_position: 35
 hide_title: true
 ---
-## Genehmigen von Mehrwertsteuerzeilen
+## VAT-Linien genehmigen
 
-Gehe zu: **ExFlow Setup --> Genehmigung --> Genehmigen von Mehrwertsteuerzeilen**
+Gehe zu: **ExFlow Setup --> Genehmigung --> VAT-Linien genehmigen** 
 
-Aktivieren Sie die Einstellung ''Genehmigen von Mehrwertsteuerzeilen'', wenn die Mehrwertsteuerzeilen standardmäßig in den Genehmigungsprozess einbezogen werden sollen.
+Aktivieren Sie die Einstellung ''VAT-Linien genehmigen'', wenn alle VAT-Linien standardmäßig im Genehmigungsprozess enthalten sein sollen. 
 
-![Genehmigen von Mehrwertsteuerzeilen](@site/static/img/media/exflow-setup-approval-vat-lines-001.png)
+![VAT-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-001.png)
 
-ExFlow sendet dann die Mehrwertsteuerzeilen zur Genehmigung an die ausgewählten Genehmiger gemäß dem Genehmigungsprozess.
 
-![Genehmigen von Mehrwertsteuerzeilen](@site/static/img/media/exflow-setup-approval-vat-lines-004.png)
+Je nach Einstellungen und Workflow kann die Genehmigung von VAT-Linien unterschiedlich eingerichtet werden. Um alle VAT-Linien standardmäßig automatisch für die Genehmigung anzukreuzen, können Sie ''VAT-Linie vorschlagen'' in der ExFlow Purchase Code Card oder unter Allgemein in der ExFlow-Setup aktivieren. 
 
-Bei Verwendung des ExFlow-Kaufcodes im Kopf wird die Einstellung ignoriert. Mit dieser Funktion aktiviert, funktioniert es dennoch, eine Kodierung in einem ExFlow-Kaufcode mit Mehrwertsteuerzeile hinzuzufügen, bei der das Genehmigungsfeld nicht markiert ist. In diesem Fall werden die unten stehenden Mehrwertsteuerzeilen nicht in den Genehmigungsprozess einbezogen.
 
-![Genehmigen von Mehrwertsteuerzeilen](@site/static/img/media/exflow-setup-approval-vat-lines-002.png)
+![VAT-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-003.png)
 
-Die Funktionalität ''Vorschlagen von Mehrwertsteuerzeilen'' kann mit ''Genehmigen von Mehrwertsteuerzeilen'' kombiniert werden, wenn separate Mehrwertsteuerzeilen immer erstellt und in den Genehmigungsprozess für alle Einkaufsdokumente einbezogen werden sollen. Lesen Sie mehr über diese Funktion unter [***Vorschlagen von Mehrwertsteuerzeilen.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/propose-vat-lines)
+ExFlow sendet dann VAT-Linien zur Genehmigung an den ausgewählten Genehmiger gemäß dem Genehmigungsfluss. Manuell erstellte VAT-Linien im Import Journal werden ebenfalls zur Genehmigung markiert. 
+
+
+![VAT-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-004.png)
+
+
+Bei Verwendung des ExFlow Purchase Code im Header wird diese Einstellung ignoriert. Mit dieser Funktion aktiviert können Sie immer noch eine Codierung in einem ExFlow Purchase Code mit VAT-Linie hinzufügen, bei dem das Genehmigungsfeld nicht angekreuzt ist. Die unten stehenden VAT-Linien werden nicht im Genehmigungsprozess enthalten sein.
+
+![VAT-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-002.png)
 
