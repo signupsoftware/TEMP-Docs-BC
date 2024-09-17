@@ -1,37 +1,37 @@
 ---
-title: ExFlow Menü
+title: ExFlow-Menü
 sidebar_position: 2
 hide_title: true
 ---
-## ExFlow Menü
 
-Verwenden Sie das ExFlow Menü, um ExFlow in Business Central zu entdecken.
+## ExFlow-Menü
 
-### Business Central Suche
+Verwenden Sie das ExFlow-Menü, um ExFlow in Business Central zu entdecken.
 
-Verwenden Sie die Suchfunktion und geben Sie ExFlow ein, um alle ExFlow Vorschläge zu sehen.
+### Business Central-Suche
 
-![Business Central Suche](./../../images/business-central-search-001.png)
+Verwenden Sie die Suchfunktion und geben Sie ExFlow ein, um alle ExFlow-Vorschläge anzuzeigen.
 
-### Menü über die Rolle "ExFlow Buchhalter"
+![Business Central-Suche](@site/static/img/media/business-central-search-001.png)
 
-Ändern Sie einfach die Rolle in "ExFlow Buchhalter" in "Meine Einstellungen", um dieses ExFlow Menü zu erhalten.
+### Menü über Role Center ExFlow Accountant
 
-![ExFlow Menü Rolle ExFlow Buchhalter](./../../images/exflow-menu-001.png)
+Ändern Sie einfach die Rolle in "ExFlow Accountant" in "Meine Einstellungen", um dieses ExFlow-Menü zu erhalten.
+
+![ExFlow-Menü Rolle ExFlow Accountant](@site/static/img/media/exflow-menu-001.png)
 
 ### Menü über Business Central
 
 Klicken Sie auf die drei Linien oben rechts, um das Menü über Business Central anzuzeigen.
 
-![ExFlow Menü](./../../images/exflow-menu-002-extended.png)
+![ExFlow-Menü](@site/static/img/media/exflow-menu-002-extended.png)
 
 Je nach ausgewählter Rolle in "Meine Einstellungen" wird ein Startmenü ausgewählt.
 
-Klicken Sie auf "Weitere Rollen erkunden" und dann auf ExFlow Menü - Erkunden, um das Menü zu erweitern.
+Klicken Sie auf "Weitere Rollen erkunden" und dann auf ExFlow-Menü - Erkunden, um das Menü zu erweitern.
 
-![ExFlow Menü](./../../images/exflow-menu-003-extended.png)
+![ExFlow-Menü](@site/static/img/media/exflow-menu-003-extended.png)
 
-Jetzt ist das ExFlow Menü unabhängig von der Rolle in "Meine Einstellungen" sichtbar.
+Jetzt ist das ExFlow-Menü unabhängig von der Rolle in "Meine Einstellungen" sichtbar.
 
-![ExFlow Menü](./../../images/exflow-menu-004-extended.png)
-
+![ExFlow-Menü](@site/static/img/media/exflow-menu-004-extended.png)

@@ -6,59 +6,59 @@ hide_title: true
 ## Genehmigung in Business Central
 Gehe zu: **ExFlow Genehmigungsdokumente** <br/>
 
-Auch Benutzer des Business Central-Systems können ExFlow-Dokumente in den *ExFlow Genehmigungsdokumenten* genehmigen. <br/><br/>
-Abhängig von den Einstellungen der ExFlow-Benutzer werden Benachrichtigungen auf der Rollencenter-Seite angezeigt, wenn ein Benutzer Dokumente zur Genehmigung hat. Wenn ein Benutzer dann auf *Dokumente genehmigen* klickt, wird er zur Seite ExFlow Genehmigungsdokumente weitergeleitet.
- 
-![ExFlow Genehmigungsdokumente](./../../images/approval-documents-001.png) 
+Business Central-Systembenutzer können ExFlow-Dokumente auch in *ExFlow Genehmigungsdokumente* genehmigen. <br/><br/>
+Abhängig von den Einstellungen der ExFlow-Benutzer werden Benachrichtigungen auf der Rollencenter-Seite angezeigt, wenn ein Benutzer Dokumente zur Genehmigung hat. Wenn ein Benutzer dann auf *Genehmigen Sie die Dokumente* klickt, wird der Benutzer zur Seite ExFlow Genehmigungsdokumente weitergeleitet.
 
-Auf dieser Seite wird die Liste standardmäßig nach "Zur Genehmigung" gefiltert, sodass der Benutzer alle seine eigenen aktuellen Dokumente zur Genehmigung anzeigen kann. 
- 
-![ExFlow Genehmigungsdokumente](./../../images/approval-documents-002.png) 
+![ExFlow Genehmigungsdokumente](@site/static/img/media/approval-documents-001.png)
 
-Der Benutzer kann auch alle fälligen Dokumente, zukünftigen Dokumente, kürzlich bearbeiteten Dokumente und alle aktuellen Dokumente des Benutzers anzeigen, die sich in Wartestellung befinden.  
- 
-![ExFlow Genehmigungsdokumente](./../../images/approval-documents-003.png) 
+Auf dieser Seite wird die Liste standardmäßig unter „Zu genehmigen“ gefiltert, sodass der Benutzer leicht alle eigenen aktuellen Dokumente zur Genehmigung anzeigen kann.
 
-Klicken Sie auf den "Dokumenttyp" oder die "Dokumentennummer" des Dokuments, um die Dokumentgenehmigungskarte zu öffnen. 
+![ExFlow Genehmigungsdokumente](@site/static/img/media/approval-documents-002.png)
 
-Der Benutzer kann die Dokumentzeilen überprüfen. Wenn kein Fehler angezeigt wird und das Dokument korrekt ist, kann der Benutzer das Dokument genehmigen. Wenn das Dokument nicht korrekt ist, kann der Benutzer es ablehnen.
- 
-![ExFlow Genehmigungsdokumente](./../../images/approval-documents-004.png) 
+Der Benutzer kann auch alle fälligen Dokumente / bevorstehenden Dokumente / aktuellen Dokumente und alle aktuellen Dokumente des Benutzers in der Warteschleife anzeigen.
 
+![ExFlow Genehmigungsdokumente](@site/static/img/media/approval-documents-003.png)
 
-#### Ändern der Codierung 
+Klicken Sie auf den „Dokumenttyp“ oder die „Dokumentnummer“, um die Dokumentgenehmigungskarte zu öffnen.
 
-Gehen Sie zu den *Dokumentzeilen*, um alle erforderlichen Änderungen vorzunehmen, falls erforderlich. Dies kann das Ändern des Kontos, das Hinzufügen von Dimensionen usw. umfassen. 
+Der Benutzer kann die Dokumentzeilen validieren. Wenn keine Fehler auftreten und das Dokument korrekt ist, kann der Benutzer das Dokument genehmigen. Wenn das Dokument falsch ist, kann der Benutzer „Ablehnen“ wählen.
 
-Im folgenden Beispiel müssen wir die Codierung durch Aufteilen der Zeile ändern. 
+![ExFlow Genehmigungsdokumente](@site/static/img/media/approval-documents-004.png)
 
-Gehen Sie zu *Dokumentzeilen --> Zeile --> Zeile aufteilen*, um einen Betrag einzugeben, wählen Sie den Typ: G/L-Konto und das entsprechende G/L-Konto aus. 
- 
-![ExFlow Genehmigungsdokumente](./../../images/approval-documents-005.png) 
+#### Kodierung ändern
+
+Gehen Sie unter *Dokumentzeilen*, um alle notwendigen Änderungen vorzunehmen, falls vorhanden. Dies kann das Ändern des Kontos, das Hinzufügen von Dimensionen usw. umfassen.
+
+Im folgenden Beispiel müssen wir die Kodierung ändern, indem wir die Zeile aufteilen.
+
+Gehen Sie unter *Dokumentzeilen --> Zeile --> Zeile aufteilen*, um einen Betrag einzugeben, wählen Sie Typ: Sachkonto und das entsprechende Sachkonto aus.
+
+![ExFlow Genehmigungsdokumente](@site/static/img/media/approval-documents-005.png)
 
 Klicken Sie auf OK, wenn die Änderungen abgeschlossen sind, und genehmigen Sie das Dokument.
- 
-![ExFlow Genehmigungsdokumente](./../../images/approval-documents-006.png) 
 
-Es wird eine Bestätigungsnachricht für das genehmigte Dokument angezeigt.
- 
-![ExFlow Genehmigungsdokumente](./../../images/approval-documents-007.png) 
+![ExFlow Genehmigungsdokumente](@site/static/img/media/approval-documents-006.png)
 
-Das genehmigte Dokument kann jetzt unter "Kürzlich" gefunden werden.
- 
-![ExFlow Genehmigungsdokumente](./../../images/approval-documents-008.png) 
+Eine Bestätigungsmeldung wird für das genehmigte Dokument angezeigt.
 
-Ähnlich wie im Web ist es möglich, das Dokument an einen anderen Genehmiger weiterzuleiten oder einen Genehmiger in den Workflow aufzunehmen.
- 
-![ExFlow Genehmigungsdokumente](./../../images/approval-documents-009.png) 
+![ExFlow Genehmigungsdokumente](@site/static/img/media/approval-documents-007.png)
 
-Der gleiche Prozess gilt für Ablehnung oder das Zurückstellen eines Dokuments. Unabhängig von der Aktion muss der Benutzer einen Kommentar hinzufügen, um fortzufahren. 
- 
-![ExFlow Genehmigungsdokumente](./../../images/approval-documents-012.png) 
+Das genehmigte Dokument kann nun unter „Aktuell“ gefunden werden.
 
-#### Bestellinformationen anzeigen 
-Erweitern Sie die FactBox, um den Käufer oder andere Informationen zum Dokument aus der Dokumentgenehmigungskarte zu finden.
- 
-![ExFlow Genehmigungsdokumente](./../../images/approval-documents-013.png) 
+![ExFlow Genehmigungsdokumente](@site/static/img/media/approval-documents-008.png)
 
-Unter der FactBox ist es auch möglich, das Diskussionsfeld zu nutzen, um wie gewohnt mit anderen Genehmigern zu kommunizieren.
+Ähnlich wie im Web ist es möglich, das Dokument an einen anderen Genehmiger weiterzuleiten oder einen Genehmiger in den Ablauf einzufügen.
+
+![ExFlow Genehmigungsdokumente](@site/static/img/media/approval-documents-009.png)
+
+Der gleiche Prozess gilt, wenn es darum geht, ein Dokument abzulehnen oder in die Warteschleife zu stellen. Unabhängig von der Aktion muss der Benutzer einen Kommentar hinzufügen, um fortzufahren.
+
+![ExFlow Genehmigungsdokumente](@site/static/img/media/approval-documents-012.png)
+
+#### Bestellinformationen anzeigen
+Erweitern Sie das FactBox, um den Einkäufer oder andere Informationen zum Dokument aus der Dokumentgenehmigungskarte zu finden.
+
+![ExFlow Genehmigungsdokumente](@site/static/img/media/approval-documents-013.png)
+
+Unter dem FactBox ist es auch möglich, das Diskussionsfeld zu nutzen, um wie gewohnt mit anderen Genehmigern zu kommunizieren.
+

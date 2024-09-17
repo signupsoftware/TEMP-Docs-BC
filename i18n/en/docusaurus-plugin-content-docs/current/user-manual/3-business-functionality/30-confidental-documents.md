@@ -101,7 +101,8 @@ Since Alicia and Theodora aren’t users with access, they will be removed.
 
 Use a ‘’Confidential rule’’ (confidential approval) or add authorized users as approvers manually and create the document as usual. The document will then be sent to the approver of choice.  <br/>
 
-Please note that the Confidential Documents- functionality cannot be used together with Re-invoicing.  
+#### Re-Invoicing Confidential Documents
+The Confidential Documents- functionality cannot be used together with Re-invoicing. Following Action Message will appear to the Import Journal Lines if so: ''Re-Invoicing functionality cannot be used together with Confidential Documents''
 
 #### Automate Confidential Documents in Vendor Setup 
 If all documents for a certain vendor are supposed to be confidential and have the same approval flow and coding etc., this can be easily arranged from Vendor Setup Card, among other current automation features to make the confidential workflow both efficient and trusted. 
@@ -111,7 +112,7 @@ However, if the vendor is not marked to handle Confidential Documents, then it�
 ![Confidential Documents](@site/static/img/media/vendor-setup-confidential-001.png)
 
 
-### Confidential Documents in Approval status
+### Confidential Documents in Approval Status
 As mentioned, users with access to confidential documents can view and work with each other’s confidential documents in Business Central, as usual.
 
 ![Confidential Documents](@site/static/img/media/confidential-documents-approval-status-001.png)

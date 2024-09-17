@@ -10,7 +10,7 @@ Go to: ***ExFlow OCR Import Mapping***
 ExFlow OCR Import Mapping is used to set a coding from a specific interpreted value for a specific vendor. This page contains the fields
 which populate the line with the entered values when invoice is imported to ExFlow Import Journal.
 
-It is possible to get a fully coded line with a G/L Account, Dimensions, Job No. etc. just from a setup on "ExFlow OCR Import Mapping" page that can be unique for every vendor.
+It is possible to get a fully coded line with a G/L Account, Dimensions, Project No. etc. just from a setup on "ExFlow OCR Import Mapping" page that can be unique for every vendor.
 
 ![ExFlow OCR Import Mapping](@site/static/img/media/ocr-import-mapping-001.png)
 
@@ -39,4 +39,6 @@ If "No Purchase Order Matching" is disabled and the interpreted document has an 
 If "No Purchase Order Matching" is enabled and the interpreted document has an interpreted Order No., then the system uses values specified in "ExFlow OCR Import Mapping" setup, including the dimensions. Dimensions will be set on lines only, not on header.
 
 ![ExFlow OCR Import Mapping - No Purchase Order Matching - Enabled](@site/static/img/media/ocr-import-mapping-004.png)
+
+
 

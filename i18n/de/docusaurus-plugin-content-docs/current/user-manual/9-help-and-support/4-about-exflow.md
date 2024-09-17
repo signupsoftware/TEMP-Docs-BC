@@ -5,20 +5,20 @@ hide_title: true
 ---
 ## Über ExFlow
 
-Verwenden Sie **Über ExFlow**, um die installierte ExFlow-Version, die Business Central-Version sowie einen Link zu diesem Benutzerhandbuch und unseren neuesten Versionshinweisen anzuzeigen. <br/>
+Verwenden Sie **Über ExFlow**, um die installierte ExFlow-Version, die Business Central-Version sowie einen Link zu diesem Benutzerhandbuch und unseren neuesten Versionshinweisen zu sehen. <br/>
 
 Gehe zu: **ExFlow Import Journals--> Aktionen--> Funktionen--> Über ExFlow**
 
-*Über ExFlow* kann auf den meisten Seiten gefunden werden, zum Beispiel in den ExFlow Import Journals. 
+*Über ExFlow* kann auf den meisten Seiten gefunden werden, zum Beispiel in ExFlow Import Journals.
 
-![Über ExFlow](./../../images/import-journal-list-about-exflow-001.png) <br/>
+![Über ExFlow](@site/static/img/media/import-journal-list-about-exflow-001.png) <br/>
 
-![Über ExFlow](./../../images/import-journal-list-about-exflow-002.png)<br/>
+![Über ExFlow](@site/static/img/media/import-journal-list-about-exflow-002.png)<br/>
 
 Ein allgemeiner Tipp ist auch, das Fragezeichen zu verwenden, um mehr über eine bestimmte Funktion zu erfahren:
 
-![ExFlow Import Journals](./../../images/import-journal-questionmark-001.png)
+![ExFlow Import Journals](@site/static/img/media/import-journal-questionmark-001.png)
 
-Darüber hinaus finden Sie *Über ExFlow* in der ExFlow-Setup mit allen oben genannten Informationen sowie aktuellen Lizenzinformationen.
+Darüber hinaus finden Sie *Über ExFlow* in ExFlow Setup mit allen oben genannten Informationen zusammen mit aktuellen Lizenzinformationen.
 
-![Über ExFlow](./../../images/exflow-setup-about-exflow-001.png)
+![Über ExFlow](@site/static/img/media/exflow-setup-about-exflow-001.png)

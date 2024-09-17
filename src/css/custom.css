@@ -47,11 +47,12 @@
 
 .hero--primary {
   padding-top: 0px!important;
+  height: 1px;
 }
 
 /* Footer overrides */
 .footer {
-  background-color: #feddb8; 
+  background-color: #F1E4D5; 
 }
 .footer__link-item {
   color: #000;
@@ -62,7 +63,8 @@
 
 
 .background_wrap {
-  background-image: url("../../static/img/office_graphs.jpg");
+  /*background-image: url("../../static/img/office_graphs.jpg");*/
+  background-image: url("../../static/img/Hero_BC\ 1.png");
   background-size: cover;
   width: 100%;
   
@@ -199,8 +201,66 @@ html[data-theme='light'] {
   font-family: 'DMSans', sans-serif;
 }
 
+/* ----------------------------------------------------------------------------- */
+/*    EA 2024-09-12 New design
+/* ----------------------------------------------------------------------------- */
+
+.background-image {
+  background-image: url("../../static/img/Hero_Homepage\ 1.png");
+  background-size: cover;
+  flex: 1 0 auto;
+  display: flex;
+}
+
+.main-container {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.menu-container {
+  margin-left: 25px;
+  width: fit-content;
+}
+
+.main-title {
+  padding-top: 60px; 
+  padding-bottom: 50px;
+  margin-left: 25px;
+  color: #333335;
+  font-family: 'DMSans', sans-serif;
+  font-size: 32pt;
+}
+
+.menu-item {
+  width: fit-content;
+  height: 40px;
+  background-color: #FDAD54; 
+  border-radius: 10px;
+  margin-top: 15px;
+  align-content: center;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'DMSans', sans-serif;
+  font-size: 13pt;
+}
+.menu-item:hover {
+  background-color: #FFC48C;
+}
+
+.menu-item-link {
+  color: black;
+  text-decoration: none !important;
+}
 
 
+/*
+  font-family: 'Archia', sans-serif;
+  font-size: 12pt;
+
+*/
 
 
 

@@ -7,49 +7,48 @@ hide_title: true
 
 ExFlow unterstützt auch einige Funktionen, die in der Erweiterung SweBase zu finden sind.
 
-Bei Fragen zu SweBase wenden Sie sich bitte an Ihren Business Central Partner.
+Für Fragen zu SweBase wenden Sie sich an Ihren Business Central Partner.
 
-### Zahlungsreferenz - OCR-Nummer
+### Zahlungsreferenz -- OCR-Nr.
 
-Das Feld OCR-Nummer kann interpretiert und importiert oder manuell im Feld "Lieferantenbeleg Nr. 2" im Importjournal hinzugefügt werden.
+Das Feld OCR-Nr. kann interpretiert und importiert oder manuell im Feld "Belegnr. 2" des Importjournals hinzugefügt werden.
 
-Beim Erstellen eines Dokuments wird dies im Feld OCR-Nummer im Dokumentenkopf hinzugefügt. Nach der Buchung kann die OCR-Nummer in den Lieferantenbuchungssätzen gefunden werden.
+Beim Erstellen eines Dokuments wird dies im Feld OCR-Nr. im Dokumentenkopf hinzugefügt. Nach dem Buchen kann die OCR-Nr. in den Kreditorenposten gefunden werden.
 
-Die Funktionalität zur Behandlung der OCR-Nummer in der Zahlungslösung befindet sich in der Erweiterung SweBase.
+Die Funktionalität zur Handhabung der OCR-Nr. in der Zahlungslösung ist in der Erweiterung SweBase zu finden.
 
-### Eingangsregistrierung
+### Wareneingangsbuchung
 
-Die Eingangsregistrierung kann in der ExFlow-Konfiguration aktiviert werden und wird dann automatisch auf Zeilenebene gebucht, wenn das Dokument aus dem Importjournal erstellt wird.
+Die Wareneingangsbuchung kann in der ExFlow-Einrichtung aktiviert werden und wird dann automatisch auf Zeilenebene gebucht, wenn das Dokument aus dem Importjournal erstellt wird.
 
-Beim Buchen des Dokuments werden die Eingangsregistrierungen am selben Datum wie das Buchungsdatum rückgängig gemacht.
+Beim Buchen des Dokuments werden die Wareneingangsbuchungen am selben Datum wie das Buchungsdatum storniert.
 
-Und wenn ein eingangsregistriertes Dokument gelöscht wird, wird es am Buchungsdatum rückgängig gemacht.
+Und wenn ein wareneingebuchtes Dokument gelöscht wird, wird es am Buchungsdatum storniert.
 
-Die Eingangsregistrierungseinrichtung in der SweBase-Einrichtung ist erforderlich und "Buchungsdatum nach Eingangsregistrierung beibehalten" muss auf "true" gesetzt sein.
+Eine Einrichtung der Wareneingangsbuchung in der SweBase-Einrichtung ist erforderlich und "Buchungsdatum nach Wareneingangsbuchung beibehalten" muss auf wahr gesetzt sein.
 
-Um eine Eingangsregistrierung mit Rundung buchen zu können, fügen Sie bitte die Eingangs-MwSt.-Buchungseinrichtung hinzu.
+Um Wareneingangsbuchungen mit Rundung buchen zu können, fügen Sie die Einrichtung der Wareneingangs-Mehrwertsteuerbuchung hinzu.
 
-#### Warnmeldungen für die Eingangsregistrierung
+#### Warnmeldungen für Wareneingangsbuchung
 
-Wenn eine automatische Eingangsregistrierung aufgrund eines Fehlers nicht möglich ist, besteht die Möglichkeit, eine Spalte namens "Automatische Registrierung von Eingängen überspringen" im Kopf des Importjournals zu personalisieren. Aktivieren Sie diese Funktion und das Dokument kann ohne Eingangsregistrierung erstellt werden. Die Eingangsregistrierung kann dann manuell von der Karte aus gebucht werden.
+Wenn es aufgrund eines Fehlers nicht möglich ist, automatisch zu buchen, besteht die Möglichkeit, eine Spalte namens "Autom. Wareneingangsbuchung überspringen" im Importjournal-Kopf zu personalisieren. Aktivieren Sie diese Funktion und das Dokument kann ohne Wareneingangsbuchung erstellt werden. Die Wareneingangsbuchung kann dann manuell aus der Karte gebucht werden.
 
-![ExFlow Import Journal - Automatische Registrierung von Eingängen überspringen](./../../images/image368.png)
+![ExFlow Import Journal -- Autom. Wareneingangsbuchung überspringen](@site/static/img/media/image368.png)
 
-### Notiz zu Waren
+### Warenvermerk
 
-Das Feld "Notiz zu Waren" kann interpretiert und importiert oder manuell im Importjournal hinzugefügt werden.
+Das Feld Warenvermerk kann interpretiert und importiert oder manuell im Importjournal hinzugefügt werden.
 
 Dies kann für Freitext verwendet werden, wird jedoch nicht auf ExFlow Web angezeigt.
 
-### Erweitertes Buchungsdatum für Buchung mit Abgrenzung
+### Erweiterte Buchungsdatum für Buchungen mit Abgrenzung
 
-In der SweBase-Einrichtung gibt es eine Einstellung, um das "Zulässige Buchungsdatum" bei der Buchung mit Abgrenzung zu erweitern.
+In der SweBase-Einrichtung gibt es eine Einstellung, um das "Erlaubte Buchungsdatum" bei der Buchung von Abgrenzungen zu erweitern.
 
-Dies ermöglicht dem Administrator, das Dokument im Importjournal zu überprüfen und zu erstellen. Außerdem kann es im Genehmigungsstatus überprüft und gebucht werden.
+Dies ermöglicht es dem Administrator, das Dokument im Importjournal zu überprüfen und zu erstellen. Auch zur Überprüfung und Buchung im Genehmigungsstatus.
 
-### Aktualisierung der MwSt.-Produktbuchungsgruppe
+### Aktualisierung der Mehrwertsteuer-Produktbuchungsgruppe
 
-In SweBase gibt es eine Funktion, um die Steuerschuld für bestimmte Waren und Dienstleistungen umzukehren.
+In SweBase gibt es eine Funktion zur Umkehrung der Steuerschuld für bestimmte Waren und Dienstleistungen.
 
-Die gleiche Funktion kann im ExFlow Importjournal verwendet werden, um die MwSt.-Produktbuchungsgruppe aufgrund der SweBase-Einrichtung zu aktualisieren.
-
+Die gleiche Funktion kann im ExFlow-Importjournal verwendet werden, um die Mehrwertsteuer-Produktbuchung gemäß der SweBase-Einrichtung zu aktualisieren.

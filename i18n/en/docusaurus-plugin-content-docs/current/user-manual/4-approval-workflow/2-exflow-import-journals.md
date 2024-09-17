@@ -77,8 +77,8 @@ To import Documents to one selected journal, open the journal and Import Documen
 Go to: ***Home --> Verify Document (Ctrl+R)***<br/>
 Select one (or more) document(s) to verify via Verify Document. This function will verify that the document is ready to be created.
 
-### Batch Verify Documents
-Go to: ***Home--> Batch Verify Documents***<br/>
+### Verify All Documents
+Go to: ***Home--> Verify All Documents***<br/>
 After correcting an error this will delete or create a new action message if a document still has an error.
 
 ### Auto Coding Suggestion -- Manual Choice
@@ -287,10 +287,10 @@ Read more under section [***Premininary Posting***](https://docs.exflow.cloud/bu
 ### Create Contract
 Go to: ***Actions --> Contract --> Create Contract***<br/>
 If invoice is interpret and coding is added on the header for recurring invoices. Use this function to create a contract.
-Fileds in Invoice Header that will be copied to the new created contract:
+Fields in Invoice Header that will be copied to the new created contract:
 * Vendor No.
 * Reference to External Contract No.
-* ExFlow Purchanse Code
+* ExFlow Purchase Code
 * First Approver
 * Approval Rule
 * Purchaser Code
@@ -509,10 +509,10 @@ When a document is created for approval the Document Image (PDF) can be viewed b
 - Posted VAT Entries<br/>
 - ExFlow Import Journal<br/>
 - ExFlow Approval Status<br/>
+- ExFlow Approval Status --> Verify Changes <br/>
 - ExFlow Approval Status History
 
-
-In the last three places, it is possible to select multiple documents before the usage of shortcut Ctrl+I:
+In Import Journal,Approval Status and Approval Status History, it is possible to select multiple documents before the usage of shortcut Ctrl+I:
 
 ![Select multiple documents](@site/static/img/media/image223.png)
 

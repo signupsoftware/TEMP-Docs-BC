@@ -13,9 +13,9 @@ ExFlow unterstützt die dänische Sprache in Business Central.
 
 #### Hintergrund
 
-Dänische Rechnungen enthalten eine Zahlungsreferenz namens FIK-Code, die auf der Rechnung erfasst und im Feld "Zahlungsreferenz" im Kopf der Eingangsrechnung ausgefüllt werden sollte, wenn die Rechnung aus dem Importjournal erstellt wird.
+Dänische Rechnungen enthalten eine Zahlungsreferenz, die als FIK-Code bezeichnet wird. Diese sollte auf der Rechnung erfasst und beim Erstellen der Rechnung aus dem Importjournal das Feld "Zahlungsreferenz" im Einkaufsrechnungsheader ausfüllen.
 
-Das Format der interpretierten Zahlungsreferenz auf der Rechnung muss beim Import nach ExFlow transformiert werden, um das korrekte Format zu erhalten.
+Das Format der interpretierten Zahlungsreferenz auf der Rechnung muss beim Import in ExFlow transformiert werden, um das korrekte Format zu erhalten.
 
 Beispiel:
 
@@ -23,22 +23,20 @@ Eingabe: +71\<**125396534461985**+83958774\<
 
 Ausgabe: **125396534461985**
 
-![Eingangsrechnung - Dänische Lokalisierung](./../../images/image361.png)
+![Einkaufsrechnung - Dänische Lokalisierung](@site/static/img/media/image361.png)
 
 #### Lösung
 
 ##### Transformation
 
-Die Transformation wird mithilfe der Funktion "Data Exchange Definition" implementiert. Die Konfiguration wird durch eine Transformationsregel ergänzt, die unnötige Zeichen entfernt.
+Transformation implementiert unter Verwendung der Funktionalität "Datenaustauschdefinition". Die Konfiguration wird durch eine Transformationsregel ergänzt, die unnötige Zeichen entfernt.
 
-![Data Exchange Definition - Dänische Lokalisierung](./../../images/image362.png)
+![Datenaustauschdefinition - Dänische Lokalisierung](@site/static/img/media/image362.png)
 
-![Transformationsregel-Karte - Dänische Lokalisierung](./../../images/image363.png)
+![Transformationsregelkarte - Dänische Lokalisierung](@site/static/img/media/image363.png)
 
-##### Ausfüllen des Kopfs der Eingangsrechnung
+##### Ausfüllen des Einkaufsrechnungsheaders
 
-Die transformierte Zahlungsreferenz wird in "Vendor Document No. 2" im Importjournal importiert.
+Die transformierte Zahlungsreferenz wird im Importjournal in "Lieferantenbeleg-Nr. 2" importiert.
 
-Wenn die Rechnung erstellt wird, wird das Feld "Zahlungsreferenz" im Kopf der Eingangsrechnung mit der transformierten Zahlungsreferenz aus "Vendor Document No. 2" ausgefüllt.
-
-
+Beim Erstellen der Rechnung wird das Feld "Zahlungsreferenz" im Einkaufsrechnungsheader mit der transformierten Zahlungsreferenz aus "Lieferantenbeleg-Nr. 2" ausgefüllt.

@@ -8,4 +8,3 @@ hide_title: true
 ### Sprache
 
 ExFlow unterstützt die österreichische Lokalisierung und die deutsche Sprache in Business Central.
-

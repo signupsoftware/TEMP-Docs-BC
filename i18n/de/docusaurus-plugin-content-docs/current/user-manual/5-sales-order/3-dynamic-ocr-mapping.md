@@ -1,18 +1,18 @@
 ---
-title: Dynamisches OCR-Mapping
+title: Dynamische OCR-Zuordnung
 sidebar_position: 3
 hide_title: true
 ---
 
-### Dynamisches OCR-Mapping
+### Dynamische OCR-Zuordnung
 
-Gehe zu: **ExFlow Dynamisches OCR-Mapping**
+Gehe zu: **ExFlow Dynamische OCR-Zuordnung**
 
-Verwende das **ExFlow Dynamische OCR-Mapping**, um einen importierten Kundewert in einen erkennbaren Wert umzuwandeln. Zum Beispiel kann ein Wert, der in ExFlow Data Capture für einen bestimmten Kunden interpretiert wird, wie ein Mengeneinheitscode namens "Stück", stattdessen in "Stk." umgewandelt werden, und die Verkaufsbestellung kann ohne Fehler erstellt werden.
+Verwenden Sie **ExFlow Dynamische OCR-Zuordnung** zur Umwandlung eines importierten Kundenwerts in einen erkennbaren Wert. Zum Beispiel, wenn ein Wert in ExFlow Data Capture für einen bestimmten Kunden interpretiert wird, wie ein Maßeinheitscode namens „Styck“, kann er stattdessen in „PCS“ umgewandelt werden und der Verkaufsauftrag kann fehlerfrei erstellt werden.
 
-Alle Zuordnungen können in der Liste des ExFlow Dynamischen OCR-Mappings für die jeweilige Tabellennummer angezeigt werden.
+Alle Zuordnungen können in der ExFlow Dynamische OCR-Zuordnungsliste für die jeweilige Tabellennummer angezeigt werden.
 
-![ExFlow Data Capture Account](./../../images/dynamics-ocr-mapping-001.png)
+![ExFlow Data Capture Account](@site/static/img/media/dynamics-ocr-mapping-001.png)
 
-Weitere Informationen und ein Beispiel finden Sie im Abschnitt [Umgang mit importierten Verkaufsaufträgen mit Fehlern](https://docs.exflow.cloud/business-central/docs/user-manual/sales-order-workflow/sales-import#handling-imported-sales-orders-with-error).
-
+Lesen Sie mehr und sehen Sie ein Beispiel im Abschnitt
+[Umgang mit importierten Verkaufsaufträgen mit Fehlern](https://docs.exflow.cloud/business-central/docs/user-manual/sales-order/sales-import#handling-imported-sales-orders-with-error)

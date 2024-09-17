@@ -64,7 +64,6 @@ occur:
 
 ![Report - ExFlow Approval Status](@site/static/img/media/image379.png)
 
-![Report - ExFlow Approval Status](@site/static/img/media/image380.png)
 
 ##### Other Journal Line Integration Settings
 
@@ -88,7 +87,7 @@ included.
 Invoices/Credit Memos in other currency's than the LCY needs to be
 converted to LCY.
 
-Today's date: Currency Exchange rate is calculated based on today's
+Work date: Currency Exchange rate is calculated based on the Business Central work
 date.
 
 Document's posting date: Exchange rate is calculated based on each
@@ -138,9 +137,13 @@ The G/L Account used for the setting above.
 
 Options are Full or Inventory Account Only.
 
-**Posting Job Information**
+**Posting Project Information**
 
-Specifies if job information should be included when creating line.
+Specifies if project information should be included when creating line.
+
+**Create Journal Line with Currency Code**
+
+Specifies if the created journal line should be created with the original currency code. Exchange rate will be calculated from setting under ***Options --> Currency Rate Based on***
 
 ![Report - ExFlow Approval Status](@site/static/img/media/image381.png)
 

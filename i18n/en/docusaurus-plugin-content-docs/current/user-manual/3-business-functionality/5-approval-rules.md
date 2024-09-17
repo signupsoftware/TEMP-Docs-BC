@@ -11,7 +11,7 @@ To automate the selection of approvers the ExFlow Approval Rules can be used.
 
 Approval Rules are used based on the filters assigned. The more filters that are assigned, the higher priority the Approval Rule will have. All assigned filters must match the data of the document if the Approval Rule should be applied automatically.
 
-The Approval Rule can have filters so that it is used only when a certain combination of dimension values, Job, Vendor, G/L Account etc is used. The rule adds an approval flow.
+The Approval Rule can have filters so that it is used only when a certain combination of dimension values, Project, Vendor, G/L Account etc is used. The rule adds an approval flow.
 
 An Approval Rule has one or more Approval Groups. Approval Groups are added on the Approval Rule Lines.
 
@@ -62,8 +62,8 @@ When selecting a value, the option will be activated automatically.
 |**Line Type:**                     | Choose line type G/L Account, Item, Resource, Fixed Asset, or Charge (Item)
 | **Line Type Filter:**             | Add value for selected Line Type
 | **Purchaser Filter:**             | Add filter for Purchaser
-| **Job Filter:**                   | Add Job Filter
-| **Person Responsible Filter:**    | Add filter for Person Responsible on Jobs
+| **Project Filter:**                | Add Project Filter
+| **Person Responsible Filter:**    | Add filter for Person Responsible on Projects
 | **Vendor Posting Group**:         | Add filter for Vendor Posting Group
 
 ![Approval Rule Additional Filters](@site/static/img/media/approval-rule-005-additional-filters.png)
@@ -132,7 +132,7 @@ Dynamic Approval Rules will not be applied if the Approval Rule of the invoice w
 
 Any additional approvers that have been added manually to a document will not be replaced when ExFlow Web applies a new Approval Rule. It will only replace the users that have been added automatically.
 
-Approval Rules can also be used with Approval Groups based on "Dynamic Approval Type" such as Dimension Owners, Person Responsible, etc. For setup, read more under section [***Approval Rules --> Dynamic Approval flow for Dimension Owners,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Jobs,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-jobs) or [***Purchasers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers) below.
+Approval Rules can also be used with Approval Groups based on "Dynamic Approval Type" such as Dimension Owners, Person Responsible, etc. For setup, read more under section [***Approval Rules --> Dynamic Approval flow for Dimension Owners,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Projects,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects) or [***Purchasers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers) below.
 
 The way this functionality works is that ExFlow Web will automatically apply better suited Approval Rules if identified. The remaining approvers from the previous Approval Rule will be removed and new approvers will be added from the new Approval Rule.
 
@@ -225,10 +225,10 @@ Go to: ***Approval Status --> Document Lines --> Line --> Show Current Dimension
 This function will open a filtered page and show all the current Dimension Owners Cards, depending on the currently added Dimension Values on the coded line.
 
 
-### Dynamic Approval Flow for Jobs
-It is possible to work with either Person Responsible and Project Manager in a Dynamic Approval Flow for Jobs.
+### Dynamic Approval Flow for Projects
+It is possible to work with either Person Responsible and Project Manager in a Dynamic Approval Flow for Projects.
 
-Some setup is needed to use Dynamic Approval Flow for Jobs.
+Some setup is needed to use Dynamic Approval Flow for Projects.
 
 ![Dynamic Approval Flow - Jobs](@site/static/img/media/dynamic-approval-flow-for-jobs-001.png)
 
@@ -240,7 +240,7 @@ To work with Person Responsible added to approval flow, connect the Resource to 
 
 
 **Connecting Approvers to Project Manager**<br/>
-To work with Project Manager added to approval flow, then make sure that the BC System User is connected to an ExFlow User.
+To work with Project Manager added to approval flow, then make sure that the Business Central System User is connected to an ExFlow User.
 
 Read more under section [***Business Functionality --> ExFlow User --> Create a System User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)
 
@@ -250,7 +250,7 @@ Read more under section [***Business Functionality --> ExFlow User --> Create a 
 **Dynamic Approval Group – Person Responsible / Project Manager**<br/>
 Create an ExFlow Approval Group with Dynamic Approval Type set to either "Person Responsible" or "Project Manager":
 
-In both cases, it is possible to use the function “Default Approval Group” to assign where either Person Responsible or Project Manager is missing on the Job card.
+In both cases, it is possible to use the function “Default Approval Group” to assign where either Person Responsible or Project Manager is missing on the Project card.
 
 When using Dynamic Approval Type, it is not possible to add Approval Group Members manually.
 
@@ -260,9 +260,9 @@ When using Dynamic Approval Type, it is not possible to add Approval Group Membe
 
 
 **Approval Rule – Person Responsible / Project Manager**<br/>
-Create an Approval Rule for automatically applying Person Responsible or/and Project Manager from Jobs.
+Create an Approval Rule for automatically applying Person Responsible or/and Project Manager from Projects.
 
-In this example a filter is added for all vendors and all jobs.
+In this example a filter is added for all vendors and all projects.
 
 ![Approval Rule - Jobs](@site/static/img/media/approval-rule-007-jobs.png)
 
@@ -277,32 +277,32 @@ Activate "Always Propose New Approvers" in ExFlow Setup to create a dynamic appr
 ![ExFlow Setup - approval](@site/static/img/media/exflow-setup-approval-001.png)
 
 
-**Default Job Task No**<br/>
-When using Jobs in Business Central Standard a default Job Task No. can be useful if most of the Jobs have the same Task.
+**Default Project Task No**<br/>
+When using Projects in Business Central Standard a default Project Task No. can be useful if most of the Projects have the same Task.
 
-Add Default Job Task No. in ExFlow Setup.
+Add Default Project Task No. in ExFlow Setup.
 
 ![ExFlow Setup - approval](@site/static/img/media/exflow-setup-general-001.png)
 
-When adding a Job No. in Import Journal or by coding on ExFlow Web Job Task No. will automatically be added from Default Job Task No. in ExFlow Setup.
+When adding a Project No. in Import Journal or by coding on ExFlow Web Project Task No. will automatically be added from Default Project Task No. in ExFlow Setup.
 
 ![Import Journal - Job Task](@site/static/img/media/import-journal-001-job-task.png)
 
-Add the Columns for Jobs and Tasks to ExFlow Web from ExFlow Setup.
+Add the Columns for Projects and Tasks to ExFlow Web from ExFlow Setup.
 
-The Job Line Type still needs to be added manually in the Import Journal or ExFlow Web, but will not be updated if changing Job No. or Job Task No.
+The Project Line Type still needs to be added manually in the Import Journal or ExFlow Web, but will not be updated if changing Project No. or Project Task No.
 
 
 ### Workflow for Person Responsible / Project Manager
-Job No. JOB00010 contains Person Responsible BRITTA.
+Project No. Project00010 contains Person Responsible BRITTA.
 
 ![Jobs - JOB0000 - Britta](@site/static/img/media/jobs-001-job00010-britta.png)
 
-If added Job No. JOB00010 in Import Journal, Approval Rule JOBS through Approval Group with Person Responsible will automatically add BRITTA as approver. As mentioned earlier, the same functionality could be used with Project Manager instead or together with Person Responsible.
+If added Project No. Project00010 in Import Journal, Approval Rule PROJECTS through Approval Group with Person Responsible will automatically add BRITTA as approver. As mentioned earlier, the same functionality could be used with Project Manager instead or together with Person Responsible.
 
 ![Import Journal - Jobs](@site/static/img/media/import-journal-002-jobs.png)
 
-If changing Job No. on ExFlow Web, Approver, BRITTA, will automatically be updated to Person Responsible (or Project Manager) on added Job No. Duplicated approvers will automatically be removed.
+If changing Project No. on ExFlow Web, Approver, BRITTA, will automatically be updated to Person Responsible (or Project Manager) on added Project No. Duplicated approvers will automatically be removed.
 
 
 ### Dynamic Approval Flows Purchasers

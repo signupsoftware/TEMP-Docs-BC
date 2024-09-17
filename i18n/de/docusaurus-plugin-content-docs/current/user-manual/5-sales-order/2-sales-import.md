@@ -1,89 +1,124 @@
 ---
-title: Verkaufsauftragsimport
+title: Import von Verkaufsaufträgen
 sidebar_position: 2
 hide_title: true
 ---
 
-### Verkaufsauftragsimport-Workflow
+### Workflow für den Import von Verkaufsaufträgen
 
-Gehe zu: **ExFlow Verkaufsdokument-Importliste**
+Gehen Sie zu: **ExFlow Verkaufsdokument-Importliste**
 
-Interpretiere die Verkaufsaufträge in ExFlow Data Capture.
+![Import Sales Document](@site/static/img/media/sales-document-import-list-001.png) <br/>
 
-Klicke auf *Verkaufsdokument importieren*, um die Verkaufsaufträge zu importieren, und dann auf *Ja*.
+| ExFlow Verkaufsdokument-Importliste |   |
+|:-|:-|
+| **Importdokument-Nr.:** | Gibt die Importdokument-Nr. an.
+| **Kundennummer:** | Gibt die Kundennummer an.
+| **Kundenname:** | Gibt den Kundennamen an.
+| **Kundenauftragsnummer:** | Gibt die vom Kunden gesendete Auftragsnummer an.
+| **Status:** | Gibt den aktuellen Status des Dokuments an. Das Dokument kann den Status Fehler, Verarbeitet oder In Wartestellung haben. <br/><br/> *Fehler:* Zeigt an, dass das importierte Dokument Fehler enthält. Die zugehörigen Fehlermeldungen im Dokument führen den Benutzer zur Behebung der Fehler. <br/><br/>*Verarbeitet:* Das Dokument enthält keine Fehler und ist bereit, erstellt und in einen Verkaufsauftrag umgewandelt zu werden. <br/><br/> *In Wartestellung:* Zeigt an, dass das Dokument in Wartestellung ist. Es wird nicht weiter verarbeitet, bis es manuell freigegeben wird.
+| **Hat Fehler:** | Zeigt an, ob das Dokument Fehler hat.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-import-001.png) <br/>
+<br/>
+
+| ExFlow Verkaufschargen |   |
+|:-|:-|
+| **Code:** | Gibt den Code der Charge an. Chargen können so eingerichtet werden, dass sie automatisch Dokumente für bestimmte Kunden erstellen und freigeben.
+| **Beschreibung:** | Beschreibung des Chargencodes.
+| **Standard:** | Bestimmt, ob die Charge standardmäßig ist. Es kann nur eine Standardcharge geben. Chargen mit Dokumentenfilter können nicht standardmäßig sein.
+| **Dokumentenfilter:** | Gibt den Filter an, nach dem Dokumente zu welcher Charge hinzugefügt werden sollen.
+| **Standard-Lagerortcode:** | Gibt den Standard-Lagerortcode an. Alle in dieser Charge erstellten Dokumente erhalten den zugewiesenen Lagerortcode.
+| **Dokumenterstellungstyp:** | Gibt an, ob das Dokument, das zur Charge gehört, automatisch erstellt oder erstellt und freigegeben wird.
+| **Anzahl der Dokumente:** | Zeigt die Anzahl der Verkaufsaufträge pro Charge an.
+
+Interpretieren Sie die Verkaufsaufträge in ExFlow Data Capture.
+
+Klicken Sie auf *Import Sales Document*, um die Verkaufsaufträge zu importieren, und dann auf *Ja*.
+
+![Import Sales Document](@site/static/img/media/sales-document-import-list-import-001.png) <br/>
 
 Importierte Verkaufsaufträge ohne Fehler werden direkt erstellt und können in der Standard-Verkaufsauftragsliste gefunden werden.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-import-002.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-import-002.png) <br/>
 
-Finde den neu erstellten Verkaufsauftrag in der ausgewählten Verkaufsauftragscharge oder indem du auf die Anzahl der Dokumente in der Verkaufsauftragscharge klickst.
+Finden Sie den neu erstellten Verkaufsauftrag in der ausgewählten Verkaufscharge oder indem Sie auf die Anzahl der Dokumente in der Verkaufschargen-Zeile klicken.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-import-003.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-import-003.png) <br/>
 
-Da diese ausgewählte Standardzeitschrift als "Erstellen" festgelegt ist, werden alle Verkaufsaufträge erstellt und haben den Status "Offen".
+Da diese ausgewählte Standardcharge den *Dokumenterstellungstyp* auf "Erstellen" gesetzt hat, werden alle Verkaufsaufträge erstellt und erhalten den Status Offen.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-import-004.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-import-004.png) <br/>
 
-Wenn der Wert "Erstellen und Freigeben" für den Wert "Dokument erstellen" festgelegt wurde, wäre der Verkaufsauftrag ebenfalls freigegeben worden.
+Wenn der Dokumenterstellungstyp auf "Erstellen und Freigeben" gesetzt wäre, wären die Verkaufsaufträge ebenfalls freigegeben worden.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-import-005.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-import-005.png) <br/>
 
 ### Umgang mit importierten Verkaufsaufträgen mit Fehlern
 
-Im folgenden Beispiel existiert eine Standard-Verkaufsauftragscharge und eine weitere Verkaufsauftragscharge wird für den Kunden Adatum Corporation erstellt.
+Im folgenden Beispiel existiert eine Standard-Verkaufscharge, und eine weitere Verkaufscharge wird für den Kunden Adatum Corporation erstellt.
 
-Importierte Dokumente mit Fehlern bleiben in der Verkaufsdokument-Importliste stecken, bis der Fehler manuell behoben wird.
+Importierte Dokumente mit Fehlern bleiben in der Verkaufsdokument-Importliste hängen, bis der Fehler manuell behoben wird.
 
-Klicke auf Ja, um die Fehlermeldung zu öffnen.
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-001.png) <br/>
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-001.png) <br/>
+Klicken Sie auf Ja, um die Fehlermeldung zu öffnen.
+
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-002.png) <br/>
 
 Fehlermeldung:
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-002.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-003.png) <br/>
 
-Es ist auch möglich, auf die Importdokumentnummer zu klicken, um die Fehlermeldung und andere Informationen anzuzeigen. Wenn ein Dokument einen Fehler aufweist, hat es den Status "Fehler", bis der Fehler behoben ist.
+Es ist auch möglich, auf die Importdokument-Nr. zu klicken, um die Fehlermeldung und andere Informationen zu sehen. Wenn ein Dokument einen Fehler hat, erhält es den Status "Fehler", bis der Fehler behoben ist.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-003.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-004.png) <br/>
 
-Von der Karte aus hast du die Möglichkeit, einen interpretierten Wert einem anderen Wert zuzuordnen. Zum Beispiel kann ein unbekannter und rot markierter Mengeneinheitswert "Stück" in eine Mengeneinheit umgewandelt werden, die Business Central kennt, in diesem Beispiel "Stk.".
+Auf der Karte haben Sie die Möglichkeit, einen interpretierten Wert einem anderen Wert zuzuordnen. Zum Beispiel die Interpretation einer unbekannten und rot markierten Maßeinheit "Styck" in eine Maßeinheit, die Business Central kennt, in diesem Beispiel "PCS".
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-005.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-005.png) <br/>
 
-Klicke auf die drei Punkte in den Importzeilen, um eine Zuordnung vorzunehmen, und gehe in die Detailansicht:
+Klicken Sie auf die drei Punkte in den Importzeilen, um eine Zuordnung vorzunehmen, und auf den Drilldown-Stapel:
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-006.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-006.png) <br/>
 
-Wähle den richtigen Mengeneinheitscode aus und klicke auf OK.
+Wählen Sie den richtigen Maßeinheitencode und klicken Sie auf OK.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-007.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-007.png) <br/>
 
-Die Mengeneinheit (Import) wird nicht mehr rot markiert sein und die neue Mengeneinheit wird nun in den Zeilen eingetragen. Das Dokument ist nicht mehr blockiert, daher ändert sich der Dokumentstatus von "Fehler" zu "Verarbeitet".
+Die Maßeinheit (Import) wird nicht mehr rot markiert und die neue Maßeinheit ist nun in den Zeilen eingetragen. Das Dokument ist nicht mehr blockiert, der Dokumentstatus ändert sich daher von Fehler zu Verarbeitet.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-008.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-008.png) <br/>
 
-Jetzt ist es möglich, den Verkaufsauftrag zu erstellen, klicke einfach auf "Verkaufsaufträge im Batch erstellen".
+Es ist nun möglich, den Verkaufsauftrag zu erstellen. Klicken Sie einfach auf "Batch Create Sales Orders".
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-009.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-009.png) <br/>
 
-Füge bei Bedarf einen Filter hinzu oder klicke auf OK.
+Fügen Sie bei Bedarf einen Filter hinzu oder klicken Sie auf OK.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-010.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-010.png) <br/>
 
-Es wird eine Bestätigung zur Erstellung des Verkaufsauftrags angezeigt.
+Eine Bestätigung der Verkaufsauftragserstellung wird angezeigt.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-011.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-011.png) <br/>
 
-Um alle erstellten Verkaufsaufträge anzuzeigen, klicke auf die Anzahl der Dokumente in der Verkaufsauftragscharge. In diesem Beispiel wurden drei Verkaufsaufträge erstellt, aber nicht freigegeben.
+Um alle erstellten Verkaufsaufträge zu sehen, klicken Sie auf die Anzahl der Dokumente in der Verkaufschargen-Zeile. In diesem Beispiel wurden drei Verkaufsaufträge erstellt, aber nicht freigegeben.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-012.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-012.png) <br/>
 
-Wenn die Verkaufsaufträge sofort erstellt und freigegeben werden sollen, bearbeite die Liste und nehme die Änderung vor.
+Wenn die Verkaufsaufträge sofort erstellt und freigegeben werden sollen, bearbeiten Sie die Liste und nehmen Sie die Änderung vor.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-013.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-013.png) <br/>
 
-Wenn ein Filter hinzugefügt wird, z.B. wird der Wert "Dokumentfilter" auf "Rechnungsempfänger" festgelegt, werden alle Dokumente in dieser spezifischen "Rechnungsempfänger-Nr."-Charge importiert.
+Wenn ein Filter hinzugefügt wird, z.B. "Dokumentenfilter" auf "Rechnung an Kunden" gesetzt wird, dann werden alle ihre Dokumente in diese spezifische "Rechnung an Kunden-Nr."-Charge importiert.
 
-![Verkaufsdokument importieren](./../../images/sales-document-import-list-error-014.png) <br/>
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-014.png) <br/>
+
+### Einen importierten Verkaufsauftrag in Wartestellung setzen
+
+Öffnen Sie die Karte des Verkaufsimportdokuments und dann *Aktionen -> Halten/Freigeben*
+
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-016.png) <br/>
+
+Das Dokument bleibt in Wartestellung, bis es manuell verarbeitet und freigegeben wird.
+
+![Import Sales Document](@site/static/img/media/sales-document-import-list-error-015.png) <br/>

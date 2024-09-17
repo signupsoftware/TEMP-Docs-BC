@@ -5,51 +5,51 @@ hide_title: true
 ---
 ## Progressus
 
-Progressus ist ein Add-On zur Erweiterung der Funktionalität von Jobs.
+Progressus ist ein Add-On für erweiterte Funktionalität in Projekten.
 
 ### ExFlow Setup
 
-Im ExFlow Setup müssen Sie wie bei PGS Expense Code, Job (Projekt) und Job Task (Projektaufgabe) und unter Bearbeiten von Web-Spalten in dieser Reihenfolge vorgehen.
+Im ExFlow Setup, wie für PGS Expense Code, Projekt und Projektaufgabe und unter Edit Web Columns in dieser Reihenfolge.
 
-Wenn Sie PGS Expense Code hinzufügen, fügt ExFlow automatisch Ablehnungsregeln für die Verwendung von PGS Expense Code bei den Linientypen: Artikel, Ressource, Sachanlagen und Gebühr (Artikel) hinzu.
+Beim Hinzufügen von PGS Expense Code fügt ExFlow automatisch Verweigerungs-Codierungsregeln hinzu, um die Verwendung von PGS Expense Code bei Zeilentypen wie Artikel, Ressource, Anlagevermögen und Gebühr (Artikel) zu verhindern.
 
 Fügen Sie auch PGS Expense Payment Type für Einkaufsdokumente unter dem Schnellregister Progressus hinzu.
 
-![ExFlow Setup - Progressus](./../../images/exflow-setup-progressus-001.png)
+![ExFlow Setup - Progressus](@site/static/img/media/exflow-setup-progressus-001.png)
 
-Fügen Sie, falls möglich, eine Standard-Job Task unter dem Schnellregister Allgemein hinzu. (Lesen Sie mehr unter **Standard-Job Task Nr.**)
+Falls möglich, fügen Sie eine Standard-Projektaufgaben-Nr. unter ExFlow Setup --> Allgemein hinzu. Lesen Sie mehr darüber unter **Standard-Projektaufgaben-Nr.**
 
-![ExFlow Setup - General](./../../images/exflow-setup-general-005.png)
+![ExFlow Setup - General](@site/static/img/media/exflow-setup-general-005.png)
 
-### ExFlow Ablehnungsregeln mit Progressus
+### ExFlow Verweigerungs-Codierungsregeln mit Progressus
 
-Beim Hinzufügen eines Jobs (Projekts) auf ExFlow Web muss der Genehmiger auch Job Task (Projektaufgabe) und PGS Expense Code hinzufügen, falls diese fehlen. Nun kann die folgende Ablehnungsregel hilfreich sein.
+Beim Hinzufügen eines Projekts auf ExFlow Web muss der Genehmiger auch die Projektaufgabe und den PGS Expense Code hinzufügen, falls diese fehlen. Nun kann die folgende Verweigerungs-Codierungsregel nützlich sein.
 
-Eine Erinnerung, Job/Projektaufgabe hinzuzufügen, wenn Sie Job/Projekt auf ExFlow Web verwenden.
+Eine Erinnerung, die Projektaufgabe hinzuzufügen, wenn ein Projekt auf ExFlow Web verwendet wird.
 
-![ExFlow Ablehnungsregel](./../../images/image371.png)
+![ExFlow Verweigerungs-Codierungsregel](@site/static/img/media/image371.png)
 
-Eine Erinnerung, PGS Expense Code hinzuzufügen, wenn Sie G/L Account und Job/Projekt auf ExFlow Web verwenden.
+Eine Erinnerung, den PGS Expense Code hinzuzufügen, wenn ein G/L-Konto und ein Projekt auf ExFlow Web verwendet werden.
 
-![ExFlow Ablehnungsregel](./../../images/image372.png)
+![ExFlow Verweigerungs-Codierungsregel](@site/static/img/media/image372.png)
 
-Eine Erinnerung, Job/Projekt hinzuzufügen, wenn Sie G/L Account und PGS Expense Code auf ExFlow Web verwenden.
+Eine Erinnerung, das Projekt hinzuzufügen, wenn ein G/L-Konto und ein PGS Expense Code auf ExFlow Web verwendet werden.
 
-![ExFlow Ablehnungsregel](./../../images/image373.png)
+![ExFlow Verweigerungs-Codierungsregel](@site/static/img/media/image373.png)
 
-#### Arbeit mit Expense Resource in den Dokumentzeilen in Import Journal
-Es ist auch möglich, die Expense Resource, Expense Date und Chargeable-Felder in Import Journal zu nutzen. Diese Felder müssen manuell über Personalisierung hinzugefügt werden.
+#### Arbeiten mit Expense Resource auf den Dokumentzeilen im Import Journal
+Es ist auch möglich, die Felder Expense Resource, Expense Date und Chargeable im Import Journal zu nutzen. Diese Felder müssen manuell durch Personalisierung hinzugefügt werden.
 
-Chargeable wird von der Job Task Nr. aktualisiert. <br/>
-Bitte beachten Sie jedoch, dass wenn der Linientyp ist:<br/>
-•	***Artikel***: dann wird PGS Chargeable von Item Chargeable aktualisiert. <br/>
-•	***G/L Account***: dann wird PGS Chargeable von Expense Chargeable aktualisiert. <br/>
+Chargeable wird von der Projektaufgaben-Nr. aktualisiert. <br/>
+Bitte beachten Sie jedoch, dass wenn der Zeilentyp:<br/>
+•	***Artikel***: dann wird PGS Chargeable von Artikel Chargeable aktualisiert. <br/>
+•	***G/L-Konto***: dann wird PGS Chargeable von Expense Chargeable aktualisiert. <br/>
 
-Dies kann manuell in den Zeilen angepasst werden. <br/>
+Dies kann manuell auf den Zeilen angepasst werden. <br/>
 
-Darüber hinaus finden Sie diese Felder in den Zeilen auf den meisten ExFlow-Seiten: Import Journal, Genehmigungsstatus, Genehmigungsstatusverlauf und gelöschte Dokumente.
+Darüber hinaus sind diese Felder in den Zeilen der meisten ExFlow-Seiten zu finden: Import Journal, Genehmigungsstatus, Genehmigungsstatus-Historie und Gelöschte Dokumente.
 
-Außerdem erfolgt keine Aktualisierung der Preise über Progressus. Die Preise bleiben wie interpretiert.
+Zusätzlich wird es keine Preisaktualisierungen über Progressus geben. Preise bleiben wie interpretiert.
 
 #### ExFlow Purchase Code für Progressus
 
@@ -57,4 +57,4 @@ PSG Expense Code und PSG Payment Type sind auch im ExFlow Purchase Code verfügb
 
 ### Progressus Expense Code auf ExFlow Web
 
-Aufgrund der Ablehnungsregeln muss der Genehmiger Job/Projekt, Job Task/Projektaufgabe und PGS Expense Code auf ExFlow Web hinzufügen, falls diese fehlen. Der G/L Account wird automatisch aus der Projekt Expense Posting Setup in Business Central hinzugefügt oder aktualisiert.
+Aufgrund der Verweigerungs-Codierungsregeln muss der Genehmiger Projekt, Projektaufgabe und PGS Expense Code auf ExFlow Web hinzufügen, falls diese fehlen. Das G/L-Konto wird automatisch aus der Projektkostenbuchungs-Einrichtung in Business Central hinzugefügt oder aktualisiert.

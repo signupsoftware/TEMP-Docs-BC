@@ -3,73 +3,70 @@ title: Lokalisierung USA
 sidebar_position: 15
 hide_title: true
 ---
-
 ## Lokalisierung USA
 
 ### US-Verkaufssteuer
 
-Gehe zu: ***Setup \--\> ExFlow Setup \--\> Registerkarte "Dokumenterstellungskontrollen"***
+Gehen Sie zu: ***Setup \--\> ExFlow Setup \--\> Doc. Creation Checks Tab***
 
-Aktiviere "Umsatzsteuer zulassen" in ExFlow Setup.
+Aktivieren Sie "Allow Sales Tax" in ExFlow Setup.
 
-![ExFlow Setup - Dokumenterstellungskontrollen - US-Lokalisierung](./../../images/exflow-setup-doc-posting-checks-002-ca-us.png)
+![ExFlow Setup - Doc. Creation Checks - US Localization](@site/static/img/media/exflow-setup-doc-posting-checks-002-ca-us.png)
 
-Mit dieser Einstellung wird die VAT-Produktposten-Gruppe im ExFlow Import Journal nicht mehr obligatorisch. Diese Einstellung wird normalerweise mit der Steuerbuchungseinrichtung für die Umsatzsteuer kombiniert.
+Mit dieser Einstellung wird die VAT Product Posting Group im ExFlow Import Journal nicht zwingend erforderlich sein. Diese Einstellung wird normalerweise mit dem Tax Posting Setup der Verkaufssteuer kombiniert.
 
-![Steuerbuchungseinrichtung - US-Lokalisierung](./../../images/image357.png)
+![VAT Posting Setup - US Localization](@site/static/img/media/image357.png)
 
-Um die US-Verkaufssteuer zu unterstützen, wurden auch die steuerspezifischen Felder für den Kopf und die Positionen des Einkaufsdokuments im ExFlow Import Journal implementiert. Die Funktionalitäten für diese Felder sind ähnlich wie im Einkaufsdokument.
+Um die US-Verkaufssteuer zu unterstützen, werden die steuerrelevanten Felder aus dem Purchase Document Header und den Purchase Document Lines auch im ExFlow Import Journal implementiert. Die Funktionalitäten dieser Felder sind ähnlich wie in den Purchase Documents.
 
-**Die zusätzlichen Felder im Dokumentkopf sind:**
+**Die zusätzlichen Felder im Dokumentenkopf sind**
 
-- Steuerpflichtig
-- Steuerbereichscode
-- Steuerbefreiungsnummer
+- Tax Liable
+- Tax Area Code
+- Tax Exemption No.
 
-**Und in den Dokumentpositionen:**
+**Und in den Dokumentzeilen**
 
-- Steuerpflichtig
-- Steuerbereichscode
-- Steuergruppencode
+- Tax Liable
+- Tax Area Code
+- Tax Group Code
 
-Mit Hilfe der US-Steuerkonfiguration unterstützt das Importjournal auch Steuerberechnungen auf Basis der US-Steuer. Die Funktionalität zum Abrufen des Steuerbereichscodes usw. aus den Unternehmensinformationen und dem Standort anstelle der Lieferantenkarte wird ebenfalls im Importjournal abgebildet.
+Mit der Verwendung des US Tax Setup unterstützt das Import Journal auch Steuerberechnungen basierend auf der US-Steuer. Die Funktionalität zum Abrufen des Tax Area Code usw. aus den Unternehmensinformationen und dem Standort anstelle der Vendor Card wird ebenfalls im Import Journal berücksichtigt.
 
-![ExFlow Import Journal - US-Lokalisierung](./../../images/image367.png)
+![ExFlow Import Journal - US Localization](@site/static/img/media/image367.png)
 
-### Lieferanten 1099-steuerpflichtige Transaktionen<br/>
-Bevor Sie 1099-steuerpflichtige Transaktionen verarbeiten können, müssen Sie **1099-Formularfelder** und **Lieferanten** als 1099-steuerpflichtig in Business Central einrichten. Bitte beachten Sie die Microsoft-Dokumentation zur Einrichtung von 1099 und zur Verarbeitung von Transaktionen in Business Central.<br/><br/>
+### 1099-pflichtige Transaktionen des Lieferanten<br/>
+Bevor Sie 1099-pflichtige Transaktionen verarbeiten, müssen Sie **1099 Form Boxes** und **Lieferanten** als 1099-pflichtig in Business Central einrichten. Bitte beziehen Sie sich auf die Microsoft-Dokumentation für Anweisungen zur 1099-Einrichtung und -Transaktionsverarbeitung in Business Central.<br/><br/>
 
-#### Um ein Dokument als 1099-steuerpflichtig in ExFlow zu verarbeiten<br/>
-* Importieren Sie eine Rechnung für einen Lieferanten, der mit dem entsprechenden IRS-1099-Code usw. eingerichtet wurde (siehe Microsoft-Anweisungen zur Einrichtung von 1099-Lieferanten).
-* Optional können Sie auf der Kopfzeile des Importjournals im Feld IRS-1099-Code den Standardwert überschreiben oder löschen, um eine Transaktion ohne IRS-1099-Code zu haben.
+#### So verarbeiten Sie ein Dokument als 1099-pflichtig in ExFlow<br/>
+* Importieren Sie eine Rechnung für einen Lieferanten, der mit dem entsprechenden IRS 1099-Code usw. eingerichtet wurde (siehe Microsoft-Anweisungen zur Einrichtung von 1099-Lieferanten).
+* Optional können Sie in der Kopfzeile des Import Journals im Feld IRS 1099 Code den Standardwert durch einen anderen Code überschreiben oder ihn löschen, um eine Transaktion ohne IRS 1099-Code zu haben.
 
-![ExFlow Import Journal - US-Lokalisierung](./../../images/import-journal-008-us-irs-1099.png)
+![ExFlow Import Journal - US Localization](@site/static/img/media/import-journal-008-us-irs-1099.png)
 
-* Wenn ein Teil des Rechnungsbetrags 1099-steuerpflichtig ist und ein Teil nicht, aktivieren/deaktivieren Sie das Kontrollkästchen "IRS-1099-steuerpflichtig", um die Zeilen zu kennzeichnen, die 1099-steuerpflichtig sind.
+* Wenn ein Teil des Rechnungsbetrags 1099-pflichtig ist und ein Teil nicht, aktivieren/deaktivieren Sie das Kontrollkästchen „IRS 1099 Liable“, um Zeilen zu identifizieren, die 1099-pflichtig sind.
 
-![ExFlow Import Journal - US-Lokalisierung](./../../images/import-journal-lines-002-us-irs-1099.png)
+![ExFlow Import Journal - US Localization](@site/static/img/media/import-journal-lines-002-us-irs-1099.png)
 
-* Setzen Sie die Verarbeitung fort und buchen Sie das Dokument.
-* Sobald das Dokument gebucht ist, können Sie zur Liste der Lieferantenbuchungssätze gehen und feststellen, dass die Felder IRS-1099-Code und IRS-1099-Betrag automatisch ausgefüllt sind.
+* Fahren Sie mit der Verarbeitung fort und buchen Sie das Dokument.
+* Sobald das Dokument gebucht ist, können Sie zur Liste der Vendor Ledger Entries gehen und feststellen, dass die Felder IRS 1099 Code und IRS 1099 Amount automatisch ausgefüllt sind.
 
-![Lieferantenbuchungssätze - US-Lokalisierung](./../../images/vendor-ledger-entries-001.png)
+![Vendor Ledge Entries - US Localization](@site/static/img/media/vendor-ledger-entries-001.png)
 
+### Umgang mit dem Tax Group Code im ExFlow Purchase Code
 
-### Behandlung des Steuergruppencodes im ExFlow-Einkaufscode
+Wenn der Tax Group Code in einer Rechnungszeile anders sein muss als der Standardwert im Master Record, der in dieser Rechnungszeile ausgewählt wurde, kann dies über einen ExFlow Purchase Code gehandhabt werden.
 
-Wenn der Steuergruppencode in einer Rechnungsposition von dem Wert abweichen soll, der auf dem Stammrecord ausgewählt wurde, kann dies über einen ExFlow-Einkaufscode gehandhabt werden.
+Zum Beispiel, wenn der Tax Group Code auf einer G/L-Kontokarte für Büromaterial standardmäßig auf NON-TAXABLE gesetzt ist, während eine Zeile in einer Einkaufsrechnung mit diesem G/L-Konto als TAXABLE markiert werden muss, könnten Benutzer dies einfach in den ExFlow Purchase Code-Zeilen gemäß dem untenstehenden Bild hinzufügen.
 
-Beispiel: Wenn der Steuergruppencode auf einer G/L-Kontokarte für Büromaterial auf NICHT-STEUERBAR voreingestellt ist, während eine Position auf einer Einkaufsrechnung mit diesem G/L-Konto als STEUERBAR markiert werden muss, können Benutzer dies einfach in den ExFlow-Einkaufscode-Zeilen gemäß dem folgenden Bild hinzufügen.
+Dies würde es den Benutzern ermöglichen, die Rechnungserstellung in diesen spezifischen Szenarien zu automatisieren.
 
-Dies ermöglicht es Benutzern, die Rechnungserstellung in diesen spezifischen Szenarien zu automatisieren.
+![ExFlow Purchase Code](@site/static/img/media/NA-exflow-purchase-code-card-tax-group-001.png)
 
-![ExFlow-Einkaufscode](./../../images/NA-exflow-purchase-code-card-tax-group-001.png)
+### Steuer-Spalten im Web
 
-### Steuerspalten im Web
+Es ist möglich, steuerrelevante Felder im ExFlow Web sichtbar zu machen, indem die Spalten in ExFlow Setup hinzugefügt werden.
 
-Es ist möglich, steuerbezogene Felder in ExFlow Web sichtbar zu machen, indem Sie die Spalten in ExFlow Setup hinzufügen.
+![ExFlow Web Columns](@site/static/img/media/tax-web-columns-001.png)
 
-![ExFlow Web-Spalten](./../../images/tax-web-columns-001.png)
-
-Lesen Sie mehr darüber, wie Sie Web-Spalten bearbeiten können, im Abschnitt [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
-
+Lesen Sie mehr darüber, wie Sie Web-Spalten bearbeiten, im Abschnitt [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)

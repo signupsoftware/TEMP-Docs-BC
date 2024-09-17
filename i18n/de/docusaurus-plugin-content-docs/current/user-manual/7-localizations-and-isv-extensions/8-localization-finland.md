@@ -13,11 +13,11 @@ ExFlow unterstützt die finnische Sprache in Business Central.
 
 #### Hintergrund
 
-Finnland hat die Anforderung einer Zahlungsreferenz auf ihren Einkaufsrechnungen.
+Finnland hat eine Anforderung an eine Zahlungsreferenz auf ihren Einkaufsrechnungen.
 
 Diese Zahlungsreferenz besteht tatsächlich aus zwei verschiedenen Feldern: Nachrichtentyp und Rechnungsnachricht.
 
-Die Standard-Funktionalität für Finnland von Microsoft enthält 3 Felder im Einkaufskopf.
+Die standardmäßige finnische lokale Funktionalität von Microsoft enthält 3 Felder im Einkaufsheader.
 
 - Nachrichtentyp *(Pflichtfeld)*
 
@@ -25,7 +25,7 @@ Die Standard-Funktionalität für Finnland von Microsoft enthält 3 Felder im Ei
 
 - Rechnungsnachricht 2
 
-Der Nachrichtentyp gibt an, welche Art von Rechnungsnachricht erwartet wird.
+Der Nachrichtentyp gibt an, welche Art von Rechnungsnachricht zu erwarten ist.
 
 Der Nachrichtentyp kann einer der folgenden sein:
 
@@ -37,43 +37,42 @@ Der Nachrichtentyp kann einer der folgenden sein:
 
 - Lange Nachricht
 
-- Steuernachricht
+- Steuer-Nachricht
 
-Nachrichtentyp und Rechnungsnachricht sind Pflichtfelder und müssen in der importierten Rechnung im ExFlow Import Journal vorhanden sein.
+Nachrichtentyp und Rechnungsnachricht sind Pflichtfelder und müssen auf der importierten Rechnung im ExFlow-Importjournal vorhanden sein.
 
 ##### Lösung
 
-Wenn die Einkaufsrechnung aus dem ExFlow Import Journal erstellt wird, werden Nachrichtentyp und Rechnungsnachricht in die entsprechenden Felder im Einkaufsrechnungskopf übertragen.
+Wenn die Einkaufsrechnung aus dem ExFlow-Importjournal erstellt wird, werden Nachrichtentyp und Rechnungsnachricht in die richtigen Felder im Einkaufsrechnungsheader übertragen.
 
-Diese Funktionalität wird in der ExFlow-Konfiguration mit zwei Einstellungen namens "Check FI Reference" und "Nachrichtentyp" konfiguriert und aktiviert. Die Einstellungen befinden sich im Abschnitt "Dokumenterstellung überprüfen".
+Diese Funktionalität wird in der ExFlow-Einrichtung mit zwei Einstellungen namens "FI-Referenz prüfen" und "Nachrichtentyp" konfiguriert und aktiviert. Die Einstellungen befinden sich im Abschnitt "Dok.-Erstellung prüfen".
 
-**Referenz überprüfen**
+**Referenz prüfen**
 
-**Keine Überprüfung:** Überprüfung ist deaktiviert.
+**Keine Prüfung:** Prüfung ist deaktiviert.
 
 **Nicht leer:** Rechnungsnachricht darf nicht leer sein.
 
-**Nicht leer + Referenznummer-Format:** Rechnungsnachricht darf nicht leer sein und das Format der Nachricht wird überprüft. *(Erfordert, dass "Nachrichtentyp" = Referenznummer ist)*
+**Nicht leer + Referenznummer-Format:** Rechnungsnachricht darf nicht leer sein, und das Format der Nachricht wird überprüft. *(Erfordert, dass "Nachrichtentyp" = Referenznummer)*
 
-![ExFlow-Konfiguration - Dokumenterstellung überprüfen - Lokalisierung Finnland](./../../images/exflow-setup-doc-creation-checks-002-fi.png)
+![ExFlow Setup - Doc. Creation Checks - Finish Localization](@site/static/img/media/exflow-setup-doc-creation-checks-002-fi.png)
 
-### Automatische Kontengruppe
+### Automatische Buchungsgruppe
 
-ExFlow unterstützt die automatische Kontengruppe im Import Journal und kann aus dem G/L-Konto, dem ExFlow-Einkaufscode oder manuell in der Import Journal-Zeile hinzugefügt werden.
+ExFlow unterstützt die automatische Buchungsgruppe im Importjournal und kann aus dem Sachkonto, dem ExFlow-Einkaufscode oder manuell in der Importjournalzeile hinzugefügt werden.
 
-### Verwenden der Lieferantenbelegnummer, wenn die Rechnungsnachricht leer ist
+### Verwenden Sie die Lieferantendokumentnummer, wenn die Rechnungsnachricht leer ist
 
-Gehe zu: **ExFlow-Konfiguration --> OCR-Import** und aktiviere die Einstellung ***Verwenden der Lieferantenbelegnummer, wenn die Rechnungsnachricht leer ist.***
+Gehen Sie zu: **ExFlow Setup --> OCR Import** und aktivieren Sie die Einstellung ***Verwenden Sie die Lieferantendokumentnummer, wenn die Rechnungsnachricht leer ist.***
 
-![ExFlow-Konfiguration - OCR-Import - Lokalisierung Finnland](./../../images/FI-exflow-setup-ocr-import-vendor-id-001.png)
+![ExFlow Setup - OCR Import - Finish Localization](@site/static/img/media/FI-exflow-setup-ocr-import-vendor-id-001.png)
 
-Diese Einstellung legt fest, ob die interpretierte Lieferantenbelegnummer auch dann in der Rechnungsnachricht verwendet werden soll, wenn die Rechnungsnachricht leer ist. Der Nachrichtentyp wird dann auf ''Nachricht'' gesetzt. Dies erleichtert den Prozess bei der Arbeit mit nicht inländischen Dokumenten ohne Referenznummer.
+Diese Einstellung gibt an, ob die interpretierte Lieferantendokumentnummer auch in der Rechnungsnachricht verwendet werden soll, wenn die Rechnungsnachricht leer ist. Der Nachrichtentyp wird dann auf ''Nachricht'' gesetzt. Dies erleichtert den Prozess, wenn mit nicht inländischen Dokumenten ohne Referenznummer gearbeitet wird.
 
-![ExFlow-Konfiguration - Import Journal - Lokalisierung Finnland](./../../images/FI-import-journal-invoice-message-001.png)
+![ExFlow Setup - Import Journal - Finish Localization](@site/static/img/media/FI-import-journal-invoice-message-001.png)
 
-### Anderen Nachrichtentyp in der Lieferantenkonfiguration auswählen
-Der Standard-"Nachrichtentyp" im Import Journal ist standardmäßig auf "Referenznummer" eingestellt.
-Es ist jedoch möglich, zur Lieferantenkonfigurationskarte zu gehen und einen anderen Nachrichtentyp für einen bestimmten Lieferanten festzulegen, falls erforderlich.
+### Wählen Sie einen anderen Nachrichtentyp in der Lieferanteneinrichtung
+Der standardmäßige ''Nachrichtentyp'' im Importjournal ist standardmäßig auf "Referenznummer" eingestellt. 
+Es ist jedoch möglich, zur Lieferanteneinrichtungskarte zu gehen und einen anderen Nachrichtentyp für einen bestimmten Lieferanten festzulegen, falls erforderlich.
 
-![ExFlow-Konfiguration - Import Journal - Lokalisierung Finnland](./../../images/FI-message-type-001.png)
-
+![ExFlow Setup - Import Journal - Finish Localization](@site/static/img/media/FI-message-type-001.png)

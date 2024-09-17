@@ -5,17 +5,16 @@ hide_title: true
 ---
 ## G/L Budget Control
 
-Bei der Arbeit mit dem Budget der Hauptbuchhaltung in Business Central Standard gibt es nur Tools zum Vergleichen von gebuchten Buchungssätzen mit dem Budget. Keine vor dem Buchen.<br/>
+Beim Arbeiten mit dem Hauptbuchbudget in Business Central gibt es standardmäßig nur Werkzeuge, um gebuchte Buchungseinträge mit dem Budget zu vergleichen. Keine vor dem Buchen.<br/>
 
-Mit ExFlow G/L Budget Control können Benutzer das Budget für Eingangsrechnungen und Gutschriften vor dem Buchen verfolgen. Auch bei der Genehmigung auf ExFlow Web.
+Mit ExFlow G/L Budget Control können Benutzer das Budget für Einkaufsrechnungen und Gutschriften vor dem Buchen verfolgen. Auch beim Genehmigen auf ExFlow Web.
 
-### ExFlow Budget Control-Assistent
-Schritt für Schritt Anleitung zum Starten von ExFlow G/L Budget Control.<br/>
+### ExFlow Budget Control Wizard
+So starten Sie Schritt für Schritt mit ExFlow G/L Budget Control.<br/>
 
-Gehe zu: ***Setup --> ExFlow Assistenten --> ExFlow Budget Control-Assistent***<br/><br/>
+Gehen Sie zu: ***Setup --> ExFlow Wizards --> ExFlow Budget Control Wizard***<br/><br/>
 
-
-#### G/L Budget Control berechnen
+#### Berechnung der G/L Budget Control
 
 Wählen Sie die bevorzugte Option zur Berechnung der G/L Budget Control:
 
@@ -23,199 +22,199 @@ Wählen Sie die bevorzugte Option zur Berechnung der G/L Budget Control:
 Berechnen und vergleichen Sie Buchungen mit dem Budget pro Monat
 
 2.	**Bis zum Buchungsmonat**<br/>
-Berechnen und vergleichen Sie G/L-Buchungen mit dem Budget vom Budgetbeginn bis zum Ende des Buchungsmonats des Dokuments
+Berechnen und vergleichen Sie G/L-Buchungen mit dem Budget vom Budgetstart bis zum Ende des Dokumentbuchungsmonats
 
 3.	**Gesamt**<br/>
-Berechnen und vergleichen Sie G/L-Buchungen mit dem Budget vom Startdatum bis zum Enddatum in der Budgetperiodeneinrichtung
+Berechnen und vergleichen Sie G/L-Buchungen mit dem Budget vom Startdatum bis zum Enddatum im Budgetzeitraum
 
-![ExFlow Budget Control-Assistent](./../../images/budget-control-wizard-001.png)<br/><br/>
+![ExFlow Budget Control Wizard](@site/static/img/media/budget-control-wizard-001.png)<br/><br/>
 
 #### Globale Dimensionen
-Wählen Sie globale Dimensionen für die Budgetkontrolle des Hauptbuchs. Es ist möglich, Dimensionen zu ignorieren oder eine oder beide auszuwählen.
+Wählen Sie globale Dimensionen für die Hauptbuchbudgetkontrolle. Es ist möglich, Dimensionen zu ignorieren oder eine oder beide auszuwählen.
 
-![ExFlow Budget Control-Assistent](./../../images/budget-control-wizard-002.png)<br/><br/>
+![ExFlow Budget Control Wizard](@site/static/img/media/budget-control-wizard-002.png)<br/><br/>
 
 #### G/L Budgetperioden
 G/L Budgetperioden sind erforderlich, um ExFlow mitzuteilen, mit welchem Budget die Buchungen verglichen werden sollen.
-Klicken Sie auf "Budgetperioden hinzufügen", um einen Zeitraum und ein Budget auszuwählen.
-Geben Sie Startdatum, Enddatum und Budget ein, mit dem verglichen werden soll.
+Klicken Sie auf „Budgetperioden hinzufügen“, um den Zeitraum und das Budget auszuwählen.
+Fügen Sie Startdatum, Enddatum und Budget hinzu, mit dem verglichen werden soll.
 
-![ExFlow Budget Control-Assistent](./../../images/budget-control-wizard-003.png)
+![ExFlow Budget Control Wizard](@site/static/img/media/budget-control-wizard-003.png)
 
-![ExFlow Budget Control-Assistent](./../../images/gl-budget-period-setup-001.png)<br/><br/>
+![ExFlow Budget Control Wizard](@site/static/img/media/gl-budget-period-setup-001.png)<br/><br/>
 
-#### Web-Spalten hinzufügen
-Fügt ExFlow-Spalten die erforderlichen Web-Spalten hinzu. Wenn Spalten hinzugefügt werden, können sie nicht aus dem Budget Control-Assistenten entfernt werden.<br/>
-Um Spalten zu entfernen, gehe zu: ***ExFlow Setup --> Verwandt --> Erweitert --> Spalten***
+#### Webspalten hinzufügen
+Fügt notwendige Webspalten zu ExFlow Column hinzu. Wenn Spalten hinzugefügt werden, können sie nicht aus dem Budget Control Wizard entfernt werden.<br/>
+Um Spalten zu entfernen, gehen Sie zu: ***ExFlow Setup --> Related --> Advanced --> Columns***
 
-![ExFlow Budget Control-Assistent](./../../images/budget-control-wizard-004.png)<br/><br/>
+![ExFlow Budget Control Wizard](@site/static/img/media/budget-control-wizard-004.png)<br/><br/>
 
 #### Warnungen
-Die Benachrichtigung bei % wird verwendet, um Genehmiger zu warnen, wenn das Budget fast erreicht ist. Wenn der Betrag einer Buchungszeile über dem Benachrichtigungsprozentsatz liegt, wird der verwendete Budgetprozentsatz und der verbleibende Budgetbetrag fett in Business Central angezeigt.
+Die Benachrichtigung bei % wird verwendet, um Genehmiger zu warnen, wenn sie kurz davor sind, das Budget zu erreichen. Wenn der Linienbetrag über dem Benachrichtigungsprozentsatz liegt, wird der verwendete Budgetprozentsatz und der verbleibende Budgetbetrag in fettem Text in Business Central angezeigt.
 
-![ExFlow Budget Control-Assistent](./../../images/budget-control-wizard-005.png)<br/><br/>
+![ExFlow Budget Control Wizard](@site/static/img/media/budget-control-wizard-005.png)<br/><br/>
 
 #### Warnungen im Importjournal
-Aktivieren Sie Warnungen im Importjournal, sowohl für Warnungen bei % als auch für Beträge über dem Budget. Diese Warnungen können im Importjournal akzeptiert werden, um das Dokument zur Genehmigung zu senden.
+Aktivieren Sie Warnungen im Importjournal, sowohl für die Benachrichtigung bei % als auch für den Betrag über dem Budget. Diese Warnungen können im Importjournal akzeptiert werden, um das Dokument zur Genehmigung zu senden.
 
-![ExFlow Budget Control-Assistent](./../../images/budget-control-wizard-006.png)<br/><br/>
+![ExFlow Budget Control Wizard](@site/static/img/media/budget-control-wizard-006.png)<br/><br/>
 
-#### Budgetinhaber
-Fügen Sie eine Genehmigungsgruppe für den Budgetinhaber hinzu, um die Genehmigung zu erteilen, wenn das Budget der Hauptbuchhaltung überschritten wird (über 100%). Der Budgetinhaber wird als letzter Genehmiger zum Genehmigungsfluss hinzugefügt. Wenn leer, werden keine Budgetgenehmiger zum Genehmigungsfluss hinzugefügt.<br/><br/>
+#### Budgetverantwortlicher
+Fügen Sie eine Genehmigungsgruppe für den Budgetverantwortlichen hinzu, um zu genehmigen, wenn das Hauptbuchbudget überschritten wird (über 100%). Der Budgetverantwortliche wird als letzter Genehmiger zum Genehmigungsfluss hinzugefügt. Wenn leer, werden keine Budgetgenehmiger zum Genehmigungsfluss hinzugefügt.<br/><br/>
 
 #### Genehmigungstoleranz
 Die Genehmigungstoleranz wird pro Dokumentzeile überprüft.
-Halten Sie sowohl den Betrag als auch den Prozentsatz so niedrig wie möglich. Dies liegt daran, dass der Betrag und der Prozentsatz pro G/L-Konto und Dimensionenkombination gelten.
+Halten Sie sowohl den Betrag als auch den Prozentsatz so niedrig wie möglich. Dies liegt daran, dass Betrag und Prozentsatz pro G/L-Konto und Dimensionskombination gelten.
 
-![ExFlow Budget Control-Assistent](./../../images/budget-control-wizard-007.png)<br/><br/>
+![ExFlow Budget Control Wizard](@site/static/img/media/budget-control-wizard-007.png)<br/><br/>
 
 #### Hintergrundverarbeitung
-Die Aktualisierung der ExFlow G/L Budgetsummen aus den Hauptbuchbuchungen kann beim Buchen aus dem Genehmigungsstatus oder durch Einrichten einer Jobwarteschlange erfolgen.
+Aktualisieren Sie ExFlow G/L Budget Totals aus Hauptbucheinträgen, wenn Sie aus dem Genehmigungsstatus buchen oder eine Jobwarteschlange einrichten.
 
-**Mit Jobwarteschlange:** Aktualisieren Sie durch Hinzufügen einer geplanten Jobwarteschlange.
+**Mit Jobwarteschlange:** Aktualisieren Sie, indem Sie eine geplante Jobwarteschlange hinzufügen.
 
 **Beim Buchen aus dem Genehmigungsstatus:** Aktualisieren Sie beim Buchen aus dem Genehmigungsstatus.
 
-![ExFlow Budget Control-Assistent](./../../images/budget-control-wizard-008.png)<br/><br/>
+![ExFlow Budget Control Wizard](@site/static/img/media/budget-control-wizard-008.png)<br/><br/>
 
-#### Abschließen und Setup aktualisieren
-Klicken Sie auf "Fertig", um den ExFlow Budget Control-Assistenten zu schließen und die Einstellungen anzuwenden.
+#### Abschluss und Aktualisierung der Einrichtung
+Klicken Sie auf „Fertig stellen“, um den ExFlow Budget Control Wizard zu schließen und die Einstellungen anzuwenden.
 
-![ExFlow Budget Control-Assistent](./../../images/budget-control-wizard-009.png)
+![ExFlow Budget Control Wizard](@site/static/img/media/budget-control-wizard-009.png)
 
 ### ExFlow G/L Budget Control Setup
-Für die manuelle Einrichtung, Überprüfung oder Aktualisierung der Einrichtung gehen Sie zu ExFlow G/L Budget Control Setup.<br/>
-Gehe zu: ***Setup --> ExFlow Manuelle Einrichtung --> ExFlow Budget Control Setup***<br/><br/>
+Für die manuelle Einrichtung, Überprüfung oder Aktualisierung der Einrichtung, gehen Sie zu ExFlow G/L Budget Control Setup.<br/>
+Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Budget Control Setup***<br/><br/>
 
 #### Allgemein
 
 | Allgemein | |
 |:-|:-|
-| **Aktiv:**                   | Aktivieren oder Deaktivieren der ExFlow G/L Budget Control. <br/> Um ExFlow-Spalten zu deaktivieren, gehe zu: ***ExFlow Setup --> Verwandt --> Erweitert --> Spalten***
-| **G/L Budgetberechnung:**   | Wählen Sie die bevorzugte Option zur Berechnung der G/L Budget Control: <br/><br/> 1.	**Monatlich**<br/> Berechnen und vergleichen Sie Buchungen mit dem Budget pro Monat. <br/><br/> 2. **Bis zum Buchungsmonat**<br/> Berechnen und vergleichen Sie G/L-Buchungen mit dem Budget vom Budgetbeginn bis zum Ende des Buchungsmonats des Dokuments. <br/><br/> 3. **Gesamt**<br/> Berechnen und vergleichen Sie G/L-Buchungen mit dem Budget vom Startdatum bis zum Enddatum in der Budgetperiodeneinrichtung.<br/><br/>
-|**Globale Dimension 1:**        | Wählen Sie globale Dimensionen für die Budgetkontrolle des Hauptbuchs. Ignorieren Sie Dimensionen oder wählen Sie eine oder beide aus.
-| **Globale Dimension 2:**       | Wählen Sie globale Dimensionen für die Budgetkontrolle des Hauptbuchs. Ignorieren Sie Dimensionen oder wählen Sie eine oder beide aus.
+| **Aktiv:**                   | Um ExFlow G/L Budget Control zu aktivieren oder zu deaktivieren. <br/> Um ExFlow-Spalten zu deaktivieren, gehen Sie zu: ***ExFlow Setup --> Related --> Advanced --> Columns***
+| **G/L Budgetberechnung:**   | Wählen Sie die bevorzugte Option zur Berechnung der G/L Budget Control: <br/><br/> 1.	**Monatlich**<br/> Berechnen und vergleichen Sie Buchungen mit dem Budget pro Monat. <br/><br/> 2. **Bis zum Buchungsmonat**<br/> Berechnen und vergleichen Sie G/L-Buchungen mit dem Budget vom Budgetstart bis zum Ende des Dokumentbuchungsmonats. <br/><br/> 3. **Gesamt**<br/> Berechnen und vergleichen Sie G/L-Buchungen mit dem Budget vom Startdatum bis zum Enddatum im Budgetzeitraum.<br/><br/>
+|**Globale Dimension 1:**        | Wählen Sie globale Dimensionen für die Hauptbuchbudgetkontrolle. Ignorieren Sie Dimensionen oder wählen Sie eine oder beide aus.
+| **Globale Dimension 2:**       | Wählen Sie globale Dimensionen für die Hauptbuchbudgetkontrolle. Ignorieren Sie Dimensionen oder wählen Sie eine oder beide aus.
 
-![ExFlow G/L Budget Control Setup](./../../images/gl-budget-control-setup-001.png)<br/><br/>
+![ExFlow G/L Budget Control Setup](@site/static/img/media/gl-budget-control-setup-001.png)<br/><br/>
 
 #### Warnungen
 | Warnungen | |
 |:-|:-|
-| **Benachrichtigung bei %:**            | Warnung der Genehmiger, wenn das Budget fast erreicht ist. Wenn der Betrag einer Buchungszeile über dem Benachrichtigungsprozentsatz liegt, wird der verwendete Budgetprozentsatz und der verbleibende Budgetbetrag fett in Business Central angezeigt.
-| **Warnung über Benachrichtigung:**    | Aktivieren Sie Warnungen im Importjournal für Warnungen bei %. Warnungen können im Importjournal akzeptiert werden, um das Dokument zur Genehmigung zu senden.
-| **Warnung über Budget:**          | Aktivieren Sie Warnungen im Importjournal, wenn die Codierung das Budget überschreitet. Warnungen können im Importjournal akzeptiert werden, um das Dokument zur Genehmigung zu senden.
+| **Benachrichtigung bei %:**            | Um Genehmiger zu warnen, wenn sie kurz davor sind, das Budget zu erreichen. Wenn der Linienbetrag über dem Benachrichtigungsprozentsatz liegt, wird der verwendete Budgetprozentsatz und der verbleibende Budgetbetrag in fettem Text in Business Central angezeigt
+| **Warnung über Benachrichtigung:**    | Aktivieren Sie Warnungen im Importjournal für die Benachrichtigung bei %. Warnungen können im Importjournal akzeptiert werden, um das Dokument zur Genehmigung zu senden
+| **Warnung über Budget:**          | Aktivieren Sie Warnungen im Importjournal, wenn die Codierung über dem Budget liegt. Warnungen können im Importjournal akzeptiert werden, um das Dokument zur Genehmigung zu senden
 
-![ExFlow G/L Budget Control Setup](./../../images/gl-budget-control-setup-002.png)<br/><br/>
+![ExFlow G/L Budget Control Setup](@site/static/img/media/gl-budget-control-setup-002.png)<br/><br/>
 
 #### Genehmigung
 | Genehmigung | |
 |:-|:-|
-| **Budgetinhaber:**         | Fügen Sie eine Genehmigungsgruppe für den Budgetinhaber hinzu, um die Genehmigung zu erteilen, wenn das Budget der Hauptbuchhaltung überschritten wird (über 100%). Der Budgetinhaber wird als letzter Genehmiger zum Genehmigungsfluss hinzugefügt. Wenn leer, werden keine Budgetgenehmiger zum Genehmigungsfluss hinzugefügt.
-| **Genehmigungstoleranz:**   | Die Genehmigungstoleranz wird pro Dokumentzeile überprüft. Halten Sie sowohl den Betrag als auch den Prozentsatz so niedrig wie möglich. Dies liegt daran, dass der Betrag und der Prozentsatz pro G/L-Konto und Dimensionenkombination gelten.
+| **Budgetverantwortlicher:**         | Fügen Sie eine Genehmigungsgruppe für den Budgetverantwortlichen hinzu, um zu genehmigen, wenn das Hauptbuchbudget überschritten wird (über 100%). Der Budgetverantwortliche wird als letzter Genehmiger zum Genehmigungsfluss hinzugefügt. Wenn leer, werden keine Budgetgenehmiger zum Genehmigungsfluss hinzugefügt
+| **Genehmigungstoleranz:**   | Die Genehmigungstoleranz wird pro Dokumentzeile überprüft. Halten Sie sowohl den Betrag als auch den Prozentsatz so niedrig wie möglich. Dies liegt daran, dass Betrag und Prozentsatz pro G/L-Konto und Dimensionskombination gelten
 
-![ExFlow G/L Budget Control Setup](./../../images/gl-budget-control-setup-003.png)<br/><br/>
+![ExFlow G/L Budget Control Setup](@site/static/img/media/gl-budget-control-setup-003.png)<br/><br/>
 
 #### Hintergrundverarbeitung
-Die Aktualisierung der ExFlow G/L-Budgetsummen aus den Buchungssätzen des Hauptbuchs kann entweder beim Buchen aus dem Genehmigungsstatus oder durch Einrichten einer Jobwarteschlange erfolgen. Die Summen dienen zur Zusammenfassung aller G/L-Buchungen pro Jahr, Monat und globaler Dimensionenkombination.
+Aktualisieren Sie die ExFlow G/L Budget Totals aus den General Ledger Entries, indem Sie beim Buchen den Genehmigungsstatus verwenden oder eine Job-Warteschlange einrichten. Die Summen werden verwendet, um alle G/L-Einträge pro Jahr, Monat und globale Dimensionskombination zusammenzufassen.
 
 | Hintergrundverarbeitung | |
 |:-|:-|
-| **Mit Jobwarteschlange:**                       | Aktualisierung durch Hinzufügen einer geplanten Jobwarteschlange
-| **Beim Buchen aus dem Genehmigungsstatus:**    | Aktualisierung beim Buchen aus dem Genehmigungsstatus
+| **Mit Job-Warteschlange:**                | Aktualisieren durch Hinzufügen einer geplanten Job-Warteschlange
+| **Beim Buchen vom Genehmigungsstatus:**   | Aktualisieren beim Buchen vom Genehmigungsstatus
 
-![ExFlow G/L-Budgetsteuerungseinrichtung](./../../images/gl-budget-control-setup-004.png)<br/><br/>
+![ExFlow G/L Budget Control Setup](@site/static/img/media/gl-budget-control-setup-004.png)<br/><br/>
 
-#### Funktion - G/L-Budgetsteuerungseinrichtung
-Die G/L-Budgetperioden sind erforderlich, um ExFlow mitzuteilen, mit welchem Budget die Buchung verglichen werden soll.
+#### Funktion – G/L Budget Control Setup
+G/L Budget Perioden werden benötigt, damit ExFlow weiß, mit welchem Budget die Buchung verglichen werden soll.
 
-![ExFlow G/L-Budgetsteuerungseinrichtung](./../../images/gl-budget-control-setup-function-001.png)
+![ExFlow G/L Budget Control Setup](@site/static/img/media/gl-budget-control-setup-function-001.png)
 
-Klicken Sie auf "Neu" und wählen Sie Startdatum, Enddatum und G/L-Budgetcode für den Zeitraum aus.
+Klicken Sie auf „Neu“ und wählen Sie das Startdatum, Enddatum und den G/L Budget Code aus.
 
-![ExFlow Budgetperiodeneinrichtung](./../../images/gl-budget-period-setup-001.png)<br/><br/>
+![ExFlow Budget Period Setup](@site/static/img/media/gl-budget-period-setup-001.png)<br/><br/>
 
 #### Funktion - Web-Spalten hinzufügen
-Fügt die erforderlichen Web-Spalten zu ExFlow hinzu.<br/>
-Um ExFlow-Spalten zu deaktivieren, gehen Sie zu: ***ExFlow-Einrichtung --> Verwandt --> Erweitert --> Spalten.***
+Fügt notwendige Web-Spalten zu ExFlow Column hinzu.<br/>
+Um ExFlow-Spalten zu deaktivieren, gehen Sie zu: ***ExFlow Setup --> Verwandt --> Erweitert --> Spalten.***
 
-![ExFlow G/L-Budgetsteuerungseinrichtung](./../../images/gl-budget-control-setup-function-002.png)
+![ExFlow G/L Budget Control Setup](@site/static/img/media/gl-budget-control-setup-function-002.png)
 
-![ExFlow G/L-Budgetsteuerungseinrichtung](./../../images/columns-are-added-001.png)<br/><br/>
+![ExFlow G/L Budget Control Setup](@site/static/img/media/columns-are-added-001.png)<br/><br/>
 
-#### Funktion - G/L-Budgetsummen aktualisieren
-Beim ersten Mal, wenn Sie mit der ExFlow G/L-Budgetsteuerung beginnen oder die Einrichtung ändern, kann es hilfreich sein, die Berechnung für die Budgetsteuerung zu beschleunigen.
+#### Funktion - G/L Budget Totals aktualisieren
+Beim ersten Start mit ExFlow G/L Budget Control oder bei Änderungen der Einrichtung kann es hilfreich sein, die Berechnung für Budget Control zu beschleunigen.
 
-![ExFlow G/L-Budgetsteuerungseinrichtung](./../../images/gl-budget-control-setup-function-003.png)
+![ExFlow G/L Budget Control Setup](@site/static/img/media/gl-budget-control-setup-function-003.png)
 
-Dies kann durch sofortige Aktualisierung oder zu einem bestimmten Zeitpunkt und Datum erfolgen.
+Dies kann durch sofortiges Ausführen des Updates oder zu einem ausgewählten Zeitpunkt und Datum erfolgen.
 
-![ExFlow G/L-Budgetsteuerungseinrichtung](./../../images/update-gl-budget-totals-001.png)
+![ExFlow G/L Budget Control Setup](@site/static/img/media/update-gl-budget-totals-001.png)
 
-### ExFlow G/L-Budgetsteuerungsworkflow
+### ExFlow G/L Budget Control Workflow
 #### Beginnen Sie mit der Einrichtung
-Die ExFlow G/L-Budgetsteuerungseinrichtung muss wie oben beschrieben aktiviert werden.<br/><br/>
+ExFlow G/L Budget Control Setup muss wie oben aktiviert werden.<br/><br/>
 
 #### Berechnungen
-Die Berechnung erfolgt anhand des Buchungsdatums im Dokument und des in der Budgetperiodeneinrichtung für Rechnungen und Gutschriften angegebenen Budgets.
+Die Berechnung verwendet das Buchungsdatum auf dem Dokument, das im Budget Period Setup für Rechnungen und Gutschriften hinzugefügt wurde.
 
-Die Dokumente werden aus dem Importjournal, dem Genehmigungsstatus und manuell in Business Central (außerhalb des ExFlow-Genehmigungsworkflows) erstellt.
+Dokumente werden aus dem Import Journal, dem Genehmigungsstatus und manuell in Business Central (außerhalb des ExFlow Genehmigungsflusses) erstellt.
 
-Sie erfolgt pro Gewinn- und Verlust-G/L-Konto und globaler Dimensionenkombination in der G/L-Budgetsteuerungseinrichtung.<br/>
-Es erfolgt keine Budgetberechnung für Bilanz-G/L-Konten.
+Es wird pro Gewinn- und Verlustrechnung G/L-Konto und globale Dimensionskombination im G/L Budget Control Setup durchgeführt.<br/>
+Es gibt keine Budgetberechnung für Bilanz G/L-Konten.
 
-Für Artikel, Anlagevermögen, Ressourcen und Gebühren (Artikel) erfolgt die Berechnung anhand des Einkaufskontos oder des Einkaufsgutschriftkontos in der allgemeinen Buchungseinrichtung.<br/><br/>
+Für Artikel, Anlagevermögen, Ressourcen und Gebühren (Artikel) erfolgt die Berechnung aus dem Einkaufs-Konto oder dem Einkaufs-Gutschrift-Konto im General Posting Setup.<br/><br/>
 
-#### Spalten in den Zeilen
-| Spalten in den Zeilen | |
+#### Spalten in Zeilen
+| Spalten in Zeilen | |
 |:-|:-|
-| **Verbleibender Betrag:**     | Zeigt den verbleibenden Budgetbetrag an, der wie oben berechnet wurde
-| **Verwendeter Budget %:**        | Zeigt den verwendeten Budgetprozentsatz an, der wie oben berechnet wurde
+| **Verbleibender Betrag:** | Zeigt den verbleibenden Budgetbetrag, der wie oben berechnet wurde
+| **Verwendetes Budget %:** | Zeigt den Prozentsatz des verwendeten Budgets, der wie oben berechnet wurde
 
-![ExFlow Importjournal](./../../images/import-journal-004-budget-control.png)
+![ExFlow Import Journal](@site/static/img/media/import-journal-004-budget-control.png)
 
-**Budgetdetailstatus:** Bei Verwendung von Abgrenzungs- oder automatischen Kontengruppen in einer Dokumentzeile können mehrere Perioden und G/L-Konten vorhanden sein. Der Budgetdetailstatus zeigt den Status an: 
+**Budget Detail Status:** Bei Verwendung von Abgrenzungen oder automatischen Kontengruppen auf einer Dokumentzeile können mehrere Perioden und G/L-Konten vorhanden sein. Der Budget Detail Status zeigt den Status an:
 - **Innerhalb des Budgets**
 - **Warnung**
 - **Innerhalb der Toleranz**
-- **Über dem Budget**
+- **Über Budget**
+- **Budget fehlt**
 
-Der Status zeigt das höchste Warnniveau aus den detaillierten Zeilen an. Klicken Sie auf den Budgetstatus, um die Budgetdetaillierten Zeilen sowie den verbleibenden Betrag und den verwendeten Budgetprozentsatz anzuzeigen.
+Der Status zeigt das höchste Warnniveau aus den detaillierten Zeilen an. Klicken Sie auf den Budgetstatus, um die detaillierten Budgetzeilen und den verbleibenden Betrag zusammen mit dem verwendeten Budget % anzuzeigen.
 
-![ExFlow Importjournal](./../../images/import-journal-005-budget-control.png)
+![ExFlow Import Journal](@site/static/img/media/import-journal-005-budget-control.png)
 
-![ExFlow Importjournal](./../../images/view-budget-detailed-lines-001.png)<br/><br/>
+![ExFlow Import Journal](@site/static/img/media/view-budget-detailed-lines-001.png)<br/><br/>
 
 #### Funktion - Budget anzeigen
-Um zu sehen, wie ExFlow den verbleibenden Budgetbetrag und den verwendeten Budgetprozentsatz berechnet hat, klicken Sie auf "Budget anzeigen".<br/>
+Um zu zeigen, wie ExFlow den verbleibenden Budgetbetrag und das verwendete Budget % berechnet hat, klicken Sie auf Budget anzeigen.<br/>
 Gehen Sie zu: ***Zeile --> Budget anzeigen***
 
-![ExFlow Importjournal](./../../images/import-journal-006-budget-control.png)
+![ExFlow Import Journal](@site/static/img/media/import-journal-006-budget-control.png)
 
-Die ExFlow-Budgetübersicht fasst zusammen, wie und wo das Budget berechnet wird.
+Die ExFlow Budgetübersicht fasst zusammen, wie und woher das Budget berechnet wird.
 Klicken Sie auf **Betrag** für jede Zeile, um detailliertere Informationen auf Transaktionsebene zu erhalten.
 
-![Budgetübersicht](./../../images/budget-overview-001.png)<br/><br/>
+![Budget Overview](@site/static/img/media/budget-overview-001.png)<br/><br/>
 
-#### Importjournal
-Wenn in der ExFlow G/L-Budgetsteuerungseinrichtung Warnungen aktiviert sind, werden sie im Importjournal-FactBox für Warnungsnachrichten angezeigt. Abhängig von der Einrichtung können sowohl Überbenachrichtigung als auch Überbudget für eine oder mehrere Zeilen angezeigt werden.
+#### Import Journal
+Wenn Warnungen im ExFlow G/L Budget Control Setup aktiviert sind, erscheinen sie im Import Journal FactBox für Warnmeldungen. Abhängig von der Einrichtung können sowohl Überbenachrichtigungen als auch Überbudget für eine oder mehrere Zeilen angezeigt werden.
 
-![ExFlow Importjournal](./../../images/import-journal-007-warning-messages.png)
+![ExFlow Import Journal](@site/static/img/media/import-journal-007-warning-messages.png)
 
-Alle Warnungsnachrichten können akzeptiert werden, um das Dokument zur Genehmigung zu senden.
+Alle Warnmeldungen können akzeptiert werden, um das Dokument zur Genehmigung zu senden.
 
-![Warnungsnachrichten](./../../images/warning-messages-001.png)<br/><br/>
+![Warning Messages](@site/static/img/media/warning-messages-001.png)<br/><br/>
 
 #### ExFlow Web
-Auf ExFlow Web werden alle drei Spalten aktiviert. Verbleibender Betrag, Verwendeter Budgetprozentsatz und Budgetdetailstatus.
-Die Genehmiger können jedoch keine Berechnungen oder Budgetdetaillierten Status sehen.
-Wenn Sie die Codierung ändern oder die Zeile aufteilen, klicken Sie auf Speichern und öffnen Sie das Dokument erneut, um aktualisierte Budgetwerte anzuzeigen.
+Auf ExFlow Web werden alle drei Spalten aktiviert. Verbleibender Betrag, verwendetes Budget % und Budget Detail Status.
+Die Genehmiger können jedoch keine Berechnung oder Budget Detail Status sehen.
+Beim Ändern der Kodierung oder Aufteilen der Zeile klicken Sie auf Speichern und öffnen Sie das Dokument erneut, um die aktualisierten Budgetwerte anzuzeigen.
 
-![ExFlow Web](./../../images/web-001-budget-control.png)<br/><br/>
+![ExFlow Web](@site/static/img/media/web-001-budget-control.png)<br/><br/>
 
 #### Genehmigungsstatus
-Wenn die Zeile über dem Budget liegt und in der ExFlow G/L-Budgetsteuerungseinrichtung ein Budgetinhaber hinzugefügt wurde, wird diese Genehmigergruppe als letzter Genehmiger hinzugefügt. Dies geschieht jedoch erst, nachdem der letzte Genehmiger im Genehmigungsworkflow zugestimmt hat. 
-Dies liegt daran, dass die Codierung in der Zeile während des Genehmigungsworkflows geändert werden kann und die Zeile möglicherweise nicht mehr über dem Budget liegt.
-Wenn Sie den Budgetinhaber als Genehmiger im Genehmigungsworkflow hinzufügen, wird dies als "Erstellt in" Budgetsteuerung markiert.
+Wenn die Zeile über dem Budget liegt und der Budgetverantwortliche im ExFlow G/L Budget Control Setup hinzugefügt wurde, wird diese Genehmigungsgruppe als letzter Genehmiger hinzugefügt. Dies geschieht jedoch erst, nachdem der letzte Genehmiger im Genehmigungsfluss genehmigt hat.
+Dies liegt daran, dass die Kodierung auf der Zeile während des Genehmigungsflusses geändert werden kann und die Zeile möglicherweise nicht mehr über dem Budget liegt.
+Wenn der Budgetverantwortliche als Genehmiger im Genehmigungsfluss hinzugefügt wird, wird dies als „Erstellt in“ Budget Control markiert.
 
-![ExFlow Genehmigungsstatus](./../../images/approval-status-001.png)
-
+![ExFlow Approval Status](@site/static/img/media/approval-status-001.png)

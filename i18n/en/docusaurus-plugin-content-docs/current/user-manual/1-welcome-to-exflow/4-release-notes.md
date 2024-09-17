@@ -5,6 +5,48 @@ hide_title: true
 ---
 ## Release Notes
 
+### ExFlow 24.0.0.0 – Release Notes <br/> 
+**Type of Release:** <br/>
+Major Release
+
+**Release Date:** <br/>
+2024-09-13
+
+
+**Release Information:** <br/>
+Requires BC 23.0 or later <br/>
+
+<br/>
+
+**New Features** 
+
+| ID| Area | Description |
+| :----------- | :-------------- | :-------------- | 
+|31845|	Approval Status|	Added PDF FactBox in Verify Changes Page
+|32005|	Email Reminders|	Added new E-mail Reminder for Documents On Hold
+|36272|	Reports|	Improvements done in the Approval Status Report, now supporting different currencies in a better way when recalculating the lines 
+|36766|	Email Reminders	|Added new E-mail Reminder, Users who create the Purchase Order/Quote is now able to get a reminder that the document has now been fully approved.
+|38927|	Setup|	Added possibility to block the posting of documents outside of ExFlow, I.e creating a Purchase Invoice and then posting it bypassing the need for approval.
+|40503|	Approval Status|	New bigger feature added, set filters on what is allowed values to be changed in the web, if set now there is no manual check needed for these values when running Verify changes.
+|39935|	ExFlow Sales Orders|	Added support for Custom Shipping Address 
+|41637|	ExFlow Sales Orders|	Added the option to use unique No. Series for Sales Orders created through ExFlow Sales Orders
+|41640|	ExFlow Sales Orders|	Added staging possibility for documents that should not be automatically created and instead set on hold, creating more control for specific Customers. 
+
+<br/>
+
+**Improvements/Enhancements**<br/> 
+
+| ID| Area | Description |
+| :----------- | :-------------- | :-------------- | 
+|40887| Preliminary Posting|	Fixed issue when working with preliminary posting and deferrals, now the reversing is done in the correct date.
+|40197| Finnish localization|	Resolved issue in Finnish localization where you could in some cases create the document without a message.
+|40465|	Setup|	Fixed an issue in Export/Import ExFlow Setup where the dimensions would be missing in the purchase codes.
+|40419, 40422|	Spanish localization|	Fixed two issues on the technical side where IDs where missing and added ID type in Import Journal
+|37501|	Setup|	Resolved issue where the Project Manager could not be retrieved in dynamic approval flows
+
+<br/>
+
+
 ### ExFlow 23.2.0.0 – Release Notes <br/> 
 **Type of Release:** <br/>
 Minor Release
@@ -22,6 +64,18 @@ BC upgrades failing sometimes due to ExFlow data has been fixed in 23.2.34.17
 The issue when ExFlow Approval Status report didn't create remaining periodic balance in specified account has been fixed in 23.2.34.20
 
 Expose method ''AddDocumentFromBlobs'' that replaces obsolete method ''AddDocumentFromStreams'' has been added in 23.2.34.20
+
+In NA environments ExFlow required Gen. Prod. Posting Group to be populated on G/L Account and Fixed Asset Lines in Import Journal. This issue has been resolved in 23.2.34.28    
+
+Preliminary Posted documents cannot be reversed due to adjusted exchange rate on vendor ledger entry. The adjusted exchange rate posting will now be reversed om final posting date, resolved in 23.2.34.28
+
+An issue where users with permission set EX ACCOUNTANT were denied access to ExFlow Import Journal Batches has been resolved in 23.2.34.28
+
+Line discounts were calculated twice in Import Journal has been resolved in 23.2.34.28
+
+Approving documents in Business Central with same functionality as ExFlow Web regarding setup in ExFlow Columns "Update VAT Product Posting Group" and "Update Gen. Prod. Posting Group" has been added in 23.2.34.28
+
+Support for Prel.Posting without VAT has been added in 23.2.34.28
 
 
 **Improvements/Enhancements**<br/> 
@@ -85,7 +139,7 @@ Enhanced existing functionality “Matching Delay” in ExFlow Setup, now a diff
 | 38566  | Setup             | Fixed issue with the import job creating multiple job queue entries incorrectly
 | 38346  | Setup             | The reference description on the contract not being moved to the reference card has been resolved
 | 37306  | Import Journal    | The Payment Method Code not being set correctly on Credit Memos has been resolved. This issue was only in US & CA environment
-| 37110  | Omni              | Resolved the issue when some users could not access the contract to be able to fully approve them
+| 37110  | OMNI              | Resolved the issue when some users could not access the contract to be able to fully approve them
 | 36966  | Setup             | The issue that attachments in some cases would receive the type “Other” has been resolved
 | 37654  | Setup             | Added support to use Job Task No. in the Data exchange for ExFlow
 
@@ -121,7 +175,7 @@ Description 2 not supporting the same number of characters in Business Central a
 34703|Setup|EDC Accounts, ExFlow BLOB Storage & ExFlow File Import Setups will automatically be disabled whenever a sandbox copy is created
 34979|Setup|Imported lines with the value of 0.00 will be automatically removed when imported. Only applicable for the Item line type
 36206|Technical|Added the option to import all PDF's to all companies when importing documents during upgrade from NAV to BC
-36629|Setup|Added new setting in "Order and Quote Approval" - "Only receive Approved Order". When enabled, Purchase Orders will not be able to be recieved as long as the Purchase Order is not fully Approved in ExFlow. This setting is only applicable when Purchase Order Approval in ExFlow is enabled
+36629|Setup|Added new setting in "Order and Quote Approval" - "Only receive Approved Order". When enabled, Purchase Orders will not be able to be received as long as the Purchase Order is not fully Approved in ExFlow. This setting is only applicable when Purchase Order Approval in ExFlow is enabled
 
 
 <br/> 

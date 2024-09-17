@@ -8,90 +8,88 @@ hide_title: true
 
 ### Häufige Einrichtungsprobleme
 
-#### **Problem:** Die Umsatzsteuer-Produktbuchungsgruppe ist falsch.
-**Lösung:** Die Umsatzsteuer-Produktbuchungsgruppe wird aus der Einrichtung des G/L-Kontos kopiert. Wenn auf dem G/L-Konto keine Umsatzsteuer-Produktbuchungsgruppe vorhanden ist, wird diese Gruppe aus der "Standard-Umsatzsteuer-Produktbuchungsgruppe" in der "ExFlow-Einrichtung" kopiert. Finden Sie diese Einstellung in ***ExFlow-Einrichtung --> Allgemein.***
+#### **Problem:** Die Produktbuchungsgruppe für die Mehrwertsteuer ist falsch.
+**Lösung:** Die Produktbuchungsgruppe für die Mehrwertsteuer wird aus der Einrichtung des Sachkontos kopiert. Wenn keine Produktbuchungsgruppe für die Mehrwertsteuer im Sachkonto vorhanden ist, wird diese Gruppe aus der "Standard-Produktbuchungsgruppe für die Mehrwertsteuer" in der "ExFlow-Einrichtung" kopiert. Diese Einstellung finden Sie unter ***ExFlow-Einrichtung --> Allgemein.***
 <br/>
 
-#### **Problem:** Der Umsatzsteuerbetrag ist nicht korrekt.
-**Lösung:** Überprüfen Sie, ob der Betrag im Dokumentkopf mit dem im PDF-Dokument übereinstimmt. Überprüfen Sie, ob die richtige "Umsatzsteuer-Produktbuchungsgruppe" verwendet wird. Ändern Sie bei Bedarf die Zeilen und überprüfen Sie, ob die Dokumentzeilen mit dem Dokumentkopf übereinstimmen.
+#### **Problem:** Der Mehrwertsteuerbetrag ist nicht korrekt.
+**Lösung:** Überprüfen Sie, ob der Betrag im Dokumentenkopf mit dem im PDF-Dokument übereinstimmt. Überprüfen Sie, ob die richtige "Produktbuchungsgruppe für die Mehrwertsteuer" verwendet wird. Ändern Sie die Zeilen bei Bedarf und überprüfen Sie, ob die Dokumentenzeilen mit dem Dokumentenkopf übereinstimmen.
 <br/>
 
-#### **Problem:** Benutzer kann keine Dokumente für das neue Unternehmen auf ExFlow Web sehen.
+#### **Problem:** Der Benutzer kann keine Dokumente für ein neues Unternehmen auf der ExFlow-Webseite sehen.
 **Lösung:** Fügen Sie den Firmennamen unter Berechtigungen auf der ExFlow-Benutzerkarte hinzu.
 <br/>
 
-### Häufige Aktionsnachrichten
+### Häufige Aktionsmeldungen
 
-#### **Aktionsnachricht:** Siehe Zeile für spezifische Aktionsnachricht.
-**Aktionsnachricht bei Importzeilen:** Genehmiger fehlt.<br/>
-**Lösung:** Genehmiger werden normalerweise automatisch durch Genehmigungsregeln usw. hinzugefügt. Wenn sie fehlen, können Sie eine Genehmigungsgruppendokumentzeile in der FactBox "Genehmigungsvorschlag" hinzufügen.
+#### **Aktionsmeldung:** Siehe Zeile für spezifische Aktionsmeldung.
+**Aktionsmeldung beim Importieren von Zeilen:** Genehmiger fehlen.<br/>
+**Lösung:** Genehmiger werden normalerweise automatisch durch Genehmigungsregeln usw. hinzugefügt. Wenn sie fehlen, ist es möglich, die Genehmigungsgruppe in der Dokumentenzeile im FactBox "Genehmigungsvorschlag" hinzuzufügen.
 <br/>
 
-#### **Aktionsnachricht:** Umsatzsteuerbetrag (1291,60) entspricht nicht der Gesamtumsatzsteuer der Zeilen (645,80).
-**Lösung:** Überprüfen Sie, ob der Umsatzsteuerbetrag korrekt interpretiert wird. Überprüfen Sie die Importzeilen, sind die "Umsatzsteuer-Produktbuchungsgruppen" korrekt? Wenn nicht, ändern Sie sie entsprechend.
+#### **Aktionsmeldung:** Mehrwertsteuerbetrag (1291,60) entspricht nicht der Gesamtsumme der Zeilen (645,80).
+**Lösung:** Überprüfen Sie, ob der Mehrwertsteuerbetrag korrekt interpretiert wurde. Überprüfen Sie die Importzeilen, sind die "Produktbuchungsgruppen für die Mehrwertsteuer" korrekt? Wenn nicht, ändern Sie diese in die richtigen.
 <br/>
 
-#### **Aktionsnachricht:** Doppelter Importkopf in Journal Batch OCR - Vorkommen 2!
-**Lösung:** Die Lieferantenbelegnummer wurde bereits in einem offenen Einkaufsdokument, Importjournal oder gebuchten Eingangsrechnung verwendet. Wenn die Zeile eine echte Duplikation ist, löschen Sie die Journallinie.
+#### **Aktionsmeldung:** Doppelte Importkopfzeile im Journalstapel OCR - Vorkommen 2!
+**Lösung:** Die Lieferantendokumentnummer wurde bereits in einem offenen Einkaufsdokument, Importjournal oder gebuchten Einkaufsrechnung verwendet. Wenn die Zeile ein echtes Duplikat ist, löschen Sie die Journalzeile.
 
-Wenn die Nummer zuvor verwendet wurde und dies korrekt ist, z. B. bei Miete/Versicherung/Abonnement, setzen Sie "Doppelte Rechnung zulassen" auf Ja in der **ExFlow-Lieferanteneinrichtungskarte** unter dem Tab Allgemein.
+Wenn die Nummer bereits verwendet wurde und dies korrekt ist, z.B. bei Miete / Versicherung / Abonnement, setzen Sie "Doppelte Rechnung zulassen" auf Ja auf der **ExFlow-Lieferanteneinrichtungskarte** unter dem Reiter Allgemein.
 <br/>
 
-#### **Aktionsnachricht:** Diese Rechnung ist als Factoring gekennzeichnet und darf daher nicht erstellt werden!
-**Lösung:** Wenn der Benutzer diese Meldung erhält, sollte der Benutzer sicherstellen, dass "Kauf von Lieferant" der Lieferant ist, von dem der Benutzer die Waren kauft, während "Zahlung an Lieferant" der Factoring-Lieferant ist. Wenn dies nicht der Fall ist, ändern Sie die Lieferantennummer.
+#### **Aktionsmeldung:** Diese Rechnung ist als Factoring gekennzeichnet und darf daher nicht erstellt werden!
+**Lösung:** Wenn der Benutzer diese Meldung erhält, sollte er sicherstellen, dass der "Lieferant" der Lieferant ist, von dem der Benutzer die Waren kauft, während der "Zahlungsempfänger" der Factoring-Lieferant ist. Wenn dies nicht der Fall ist, ändern Sie die Lieferantennummer.
 
-Die Einstellung für den Factoring-Lieferanten finden Sie auf der **Lieferantenkarte --> Verwandt --> ExFlow-Lieferanteneinrichtung.**
+Die Factoring-Lieferanteneinstellung finden Sie auf der **Lieferantenkarte --> Verwandt --> ExFlow-Lieferanteneinrichtung.**
 
-Lesen Sie mehr dazu im Abschnitt [***ExFlow-Lieferanteneinrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
+Lesen Sie mehr darüber im Abschnitt [***ExFlow-Lieferanteneinrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 <br/>
 
-
-#### **Aktionsnachricht**: Betrag (XX) entspricht nicht der Summe der Zeilen (YY).
-**Lösung**: Überprüfen Sie die Einstellung in **ExFlow-Einrichtung -->** **PO-Abgleich --> Automatische Differenzzeile**, möglicherweise sind Einstellungen beteiligt. Die Differenz entspricht nicht der Einstellung "Max Diff. Betrag (LCY)" oder "Max Diff. %" (oder beides). Ändern Sie den Betrag im Kopf oder in den Zeilen.
+#### **Aktionsmeldung**: Betrag (XX) entspricht nicht der Gesamtsumme der Zeilen (YY).
+**Lösung**: Überprüfen Sie die Einstellung in **ExFlow-Einrichtung -->** **PO-Abgleich --> Automatische Differenzzeile**, Einstellungen können beteiligt sein. Die Differenz entspricht nicht der Einstellung "Max. Differenzbetrag (LCY)" oder "Max. Differenz %" (oder beidem). Ändern Sie den Betrag im Kopf oder in den Zeilen.
 <br/>
 
-### Auftragsbezogene Nachrichten
-####  **Aktionsnachricht**: Dokumentauftrag XXX existiert nicht!
-**Lösung**: Überprüfen Sie zuerst, ob diese Auftragsnummer mit dem gescannten Bild übereinstimmt. Wenn dies korrekt ist, gehen Sie zur Spalte "Auftragsnummer" und prüfen Sie diese Auftragsnummern.
+### Bestellbezogene Meldungen
+####  **Aktionsmeldung**: Dokumentenbestellung XXX existiert nicht!
+**Lösung**: Überprüfen Sie zunächst, ob diese Bestellnummer mit der auf dem gescannten Bild übereinstimmt. Wenn dies korrekt ist, gehen Sie zur Spalte "Bestellnummer" und überprüfen Sie diese Bestellnummern.
 <br/>
 
-####  **Aktionsnachricht:** Auftragsnummer XX hat keine empfangenen Zeilen.
-**Lösung:** Wenn ein Benutzer eine Meldung erhält, dass der Auftrag nicht mit der Wareneingangszeile abgeglichen werden kann, muss dies in der Bestellzeile behandelt werden. Beachten Sie, dass Wareneingänge nicht in ExFlow behandelt werden.
+####  **Aktionsmeldung:** Bestellnummer XX hat keine empfangenen Zeilen.
+**Lösung:** Wenn ein Benutzer die Meldung erhält, dass die Bestellung nicht mit der Empfangszeile abgeglichen werden kann, muss dies in der Einkaufsbestellzeile behandelt werden. Beachten Sie, dass Belege nicht in ExFlow behandelt werden.
 
-Gehen Sie zur Bestellung, z. B. über "Auftragsnummer", stellen Sie sicher, dass der Wareneingang erfolgt ist, und buchen Sie den Wareneingang.
+Gehen Sie zur Einkaufsbestellung, z.B. über die "Bestellnummer", stellen Sie sicher, dass der Beleg erstellt wurde, und buchen Sie den Beleg.
 <br/>
 
-#### **Aktionsnachricht:** Zeile mit Auftragsnummer XX kann keiner Wareneingangszeile zugeordnet werden.
-**Lösung:** Wenn ein Benutzer eine Meldung erhält, dass der Auftrag nicht mit der Wareneingangszeile abgeglichen werden kann, muss dies in der Bestellzeile behandelt werden. Beachten Sie, dass Wareneingänge nicht in ExFlow behandelt werden.
+#### **Aktionsmeldung:** Zeile mit Bestellnummer XX kann nicht mit einer Empfangszeile abgeglichen werden.
+**Lösung:** Wenn ein Benutzer die Meldung erhält, dass die Bestellung nicht mit der Empfangszeile abgeglichen werden kann, muss dies in der Einkaufsbestellzeile behandelt werden. Beachten Sie, dass Belege nicht in ExFlow behandelt werden.
 
-Gehen Sie zur Bestellung, z. B. über die Auftragsnummer, stellen Sie sicher, dass der Wareneingang erfolgt ist, und buchen Sie den Wareneingang.
+Gehen Sie zur Einkaufsbestellung, z.B. über die Bestellnummer, stellen Sie sicher, dass der Beleg erstellt wurde, und buchen Sie den Beleg.
 
-Erfahren Sie mehr über den Bestellprozess im Abschnitt [***Bestellabgleichsprozess***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#purchase-order-matching-process).
+Erfahren Sie mehr über den Bestellprozess im Abschnitt [***Einkaufsbestellabgleichsprozess***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#purchase-order-matching-process).
 <br/>
 
-### Lieferantenbezogene Nachrichten
+### Lieferantenbezogene Meldungen
 
-#### **Aktionsnachricht:** Lieferant kann für Lieferanten-ID 1234567890 nicht identifiziert werden.
-**Lösung:** Überprüfen Sie das gescannte Dokument. Wird die Lieferanten-ID korrekt interpretiert? Überprüfen Sie Name, IBAN und Bankkonten. Wenn nicht, ändern Sie die Lieferanten-ID-Nummer.
+#### **Aktionsmeldung:** Lieferant kann für Lieferanten-ID 1234567890 nicht identifiziert werden.
+**Lösung:** Überprüfen Sie das gescannte Dokument. Ist die Lieferanten-ID korrekt interpretiert? Überprüfen Sie Name, IBAN und Bankkonten. Wenn nicht, ändern Sie die Lieferanten-ID-Nummer.
 
 Existiert der Lieferant in Business Central? Wenn nicht, erstellen Sie den Lieferanten in Business Central.
 
 Um die importierten Daten anzusehen:<br/>
-Gehen Sie zu: **ExFlow Import Journals -->** öffnen Sie **ExFlow Import Journal --> Verwandt --> Dateien --> Importdetails anzeigen (OCR)**.
+Gehen Sie zu: **ExFlow-Importjournale -->** öffnen **ExFlow-Importjournal --> Verwandt --> Dateien --> Importdetails anzeigen (OCR)**.
 <br/>
 
-### E-Mail-bezogene Nachrichten
+### E-Mail-bezogene Meldungen
 
-In ExFlow 19.3 Version/BC20 ist SMTP veraltet und E-Mail-Konten müssen verwendet werden. Wenn E-Mail-Konten nicht eingerichtet sind, werden keine E-Mail-Erinnerungen für nicht genehmigte Dokumente usw. versendet.
+In ExFlow-Version 19.3/BC20 ist SMTP veraltet, und E-Mail-Konten müssen verwendet werden. Wenn E-Mail-Konten nicht eingerichtet sind, werden E-Mail-Erinnerungen für nicht genehmigte Dokumente usw. nicht gesendet.
 <br/>
 
-#### **Aktionsnachricht:** E-Mail-Konto ist nicht eingerichtet
-**Lösung:** Überprüfen Sie, ob ein gültiges E-Mail-Konto eingerichtet ist und ob dem E-Mail-Szenario "ExFlow Standard" zugewiesen ist.
+#### **Aktionsmeldung:** E-Mail-Konto ist nicht eingerichtet
+**Lösung:** Überprüfen Sie, ob ein gültiges E-Mail-Konto eingerichtet ist und dass dem E-Mail-Szenario "ExFlow-Standard" zugewiesen ist.
 
 Bei Fragen zu E-Mail-Konten wenden Sie sich an Ihren Business Central-Partner.
 <br/>
 
-#### **Aktionsnachricht:** Erweiterte E-Mail-Funktionen sind nicht aktiviert
-**Lösung:** Erweiterte E-Mail-Funktionen müssen aktiviert sein. Stellen Sie sicher, dass dem E-Mail-Szenario sowohl in den E-Mail-Konten als auch in der ExFlow-E-Mail-Einrichtung "ExFlow Standard" zugewiesen ist.
+#### **Aktionsmeldung:** Funktion für erweiterte E-Mail-Funktionen ist nicht aktiviert
+**Lösung:** Erweiterte E-Mail-Funktionen müssen aktiviert sein. Stellen Sie sicher, dass dem E-Mail-Szenario sowohl in den E-Mail-Konten als auch in der ExFlow-E-Mail-Einrichtung "ExFlow-Standard" zugewiesen ist.
 <br/>
-

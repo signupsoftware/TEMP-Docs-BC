@@ -3,138 +3,137 @@ title: Generischer Blob-Speicher
 sidebar_position: 4
 hide_title: true
 ---
-
 ## Generischer Blob-Speicher
 
 ### Einführung
-ExFlow verwendet derzeit die Business Central-Datenbank, um importierte Dokumente zu speichern. Die Dokumente bestehen hauptsächlich aus XML und PDF. Es könnten auch andere Formate wie DOCX oder PNG verwendet werden.<br/>
-Bei der Verwendung von Business Central als Speicherplatz nimmt der zugewiesene Speicherplatz aufgrund der Anzahl der Rechnungen, die der Kunde erhält, radikal zu. Da importierte Dokumente Bilder enthalten können, wird der Speicherplatz in BC Online stark erweitert.
-Es besteht die Notwendigkeit, importierte Dokumente an günstigeren oder effizienteren Speicherorten zu speichern.
+ExFlow verwendet derzeit die Business Central-Datenbank zum Speichern importierter Dokumente. Dokumente sind hauptsächlich XML und PDF. Es könnten potenziell auch andere Formate sein, wie DOCX oder PNG.<br/>
+Bei der Verwendung von Business Central für die Speicherung neigt der zugewiesene Speicherplatz dazu, sich radikal zu erweitern, basierend auf der Anzahl der Rechnungen, die der Kunde erhält. Da importierte Dokumente Bilder enthalten können, wird sich der zugewiesene Speicherplatz in BC Online radikal erweitern.
+Es besteht die Notwendigkeit, importierte Dokumente an alternativen Standorten für günstigere oder effizientere Speicherung speichern zu können.
 
 ### Allgemein
-Blobs sind Dateien im traditionellen Sinne. Ein Blob ist jedoch der Inhalt dessen, was wir als Datei betrachten. Eine Datei ist eher mit Metadaten wie Name, Erstellungsdatum, Änderungsdatum, Inhaltstyp und mehr verbunden. Blobs sind binäre Datenfolgen, die von den Metadaten beschrieben werden. Die Metadaten geben uns oder der Anwendung, die den Blob verwendet, an, wie der Inhalt verwendet werden soll.
+Blobs sind Dateien im eher traditionellen Sinne des Denkens. Ein Blob ist jedoch der Inhalt von etwas, das wir als Datei betrachten. Eine Datei bezieht sich mehr auf die Metadaten wie Name, Erstellungsdatum, Änderungsdatum, Content-Type und mehr. Blobs sind binäre Datenfolgen, die die Metadaten beschreiben. Die Metadaten sagen uns oder der Anwendung, die den Blob verwendet, wie der Inhalt zu verwenden ist.
 
-Um Blobs effizienter zu verarbeiten, müssen sie von der Anwendung abstrahiert werden. Wenn ExFlow nach einem Blob fragt, erhält es Metadaten und den binären Inhalt. Die tatsächliche Quelle ist der Anwendung unbekannt.
+Um Blobs effizienter zu handhaben, müssen sie von der Anwendung abstrahiert werden. Wenn ExFlow also nach einem Blob fragt, erhält es Metadaten und den binären Inhalt. Die tatsächliche Quelle ist der Anwendung unbekannt.
 
-Die vorgeschlagene Lösung verwendet mehrere Ebenen, um die Funktionalität abzustrahieren und zu isolieren.<br/><br/>
+Die vorgeschlagene Lösung verwendet mehrere Schichten, um Funktionalität zu abstrahieren und zu isolieren.<br/><br/>
 
 #### ExFlow-Anwendung
-Die Anwendung, die die Blobs liest, schreibt, löscht und auflistet, oder Dateien, wenn Sie möchten.<br/><br/>
+Die Anwendung, die die Blobs durch Lesen, Schreiben, Löschen und Auflisten von Blobs oder Dateien verwenden wird.<br/><br/>
 
 #### Speicherverwaltung
-Verwaltet, wo, wann und wie ein Blob gespeichert wird. Die Cache-Verwaltung und der Speicher werden in dieser Ebene behandelt. Die Übertragung von Blobs und das Abrufen von Blobs erfolgt in dieser Ebene.<br/><br/>
+Verwaltet, wo, wann und wie ein Blob gespeichert wird. Cache-Verwaltung und Speicherung werden in dieser Schicht gehandhabt. Übertragen und Abrufen von Blobs wird in dieser Schicht durchgeführt.<br/><br/>
 
-#### Speicherimplementierung (Speicherschnittstelle)
-Dies ist die Implementierung eines Speichertyps. Zu implementierende Funktionen sind die primitivsten, wie z.B. Get oder Put.
+#### Speicherimplementierung (Storage Interface)
+Dies ist die Implementierung eines Speichertypen. Zu implementierende Funktionen sind die primitivsten wie Get oder Put.
 
 
 ### Architektur
-Die Architektur für den Blob-Speicher isoliert die Anwendung von der Art und Weise, wie auf Blobs zugegriffen wird.<br/><br/>
+Die Architektur für Blob-Speicher wird die Anwendung von der Art und Weise isolieren, wie auf Blobs zugegriffen wird.<br/><br/>
 
 #### ExFlow-Anwendung
-In Business Central werden Blobs in Blob-Feldern in Tabellen gespeichert. Beim Lesen eines Blobs werden Streams verwendet, um Daten aus dem Blob zu extrahieren. Beim Schreiben eines Blobs werden Streams verwendet, um Daten in einer Tabelle zu schreiben.
-Derzeit werden Blobs in den folgenden Bereichen verwendet oder darauf verwiesen:
+In Business Central werden Blobs in Blob-Feldern in Tabellen gespeichert. Wenn ein Blob gelesen wird, werden Streams verwendet, um Daten aus dem Blob zu extrahieren. Wenn ein Blob geschrieben wird, werden Streams verwendet, um Daten in eine Tabelle zu schreiben.
+Derzeit werden Blobs in den folgenden Bereichen verwendet oder referenziert:
 * ExFlow PDF-Add-In
-* Anhang für eingehende Dokumente
+* Eingehende Dokumentenanhänge
     - InStream
     - OutStream
-* Strg+I-Verknüpfung in ExFlow zum Herunterladen des Hauptanhangs auf den lokalen Computer
-* Klicken Sie auf einen Dateinamen in Business Central, um einen beliebigen Anhang auf den lokalen Computer herunterzuladen<br/><br/>
+* Strg+I-Verknüpfung in ExFlow, um den Hauptanhang auf den lokalen Computer herunterzuladen
+* Klicken Sie auf einen Dateinamen in Business Central, um einen Anhang auf den lokalen Computer herunterzuladen<br/><br/>
 
-**Isolierung:** Jede Anforderung zum Lesen eines Blobs wird über die Speicherverwaltung gesendet, die den Blob zurückgibt. Der Blob kann als Stream zurückgegeben oder auf den Client heruntergeladen werden.
+**Isolation:** Jede Anforderung zum Lesen eines Blobs wird über die Speicherverwaltung gesendet, die den Blob zurückgibt. Der Blob kann als Stream zurückgegeben oder auf den Client heruntergeladen werden.
 
-Jede Anforderung zum Speichern eines Blobs wird über die Speicherverwaltung gesendet. Die Referenz besteht aus SystemId sowie TableID und FieldID, um es möglich zu machen, zwei Blobs in derselben Tabelle zu "speichern" und den externen Speicher dennoch zu verwenden.
+Jede Anforderung zum Speichern eines Blobs wird über die Speicherverwaltung gesendet. Der Verweis wird SystemId zusammen mit TableID und FieldID sein, um es möglich zu machen, zwei Blobs in derselben Tabelle zu "speichern" und dennoch den externen Speicher zu verwenden.
 
 Die Blob-Funktionalität wird hauptsächlich Standard-Blob-Methoden nachahmen, wenn sie für die Verwendung sinnvoll sind.<br/><br/>
 
 #### Speicherverwaltung
-Die Speicherverwaltung (SM) stellt Funktionen zum Lesen oder Schreiben von Blobs entweder direkt oder durch das Abhören von Ereignissen bereit.
+Die Speicherverwaltung (SM) wird Funktionen zum Lesen oder Schreiben von Blobs entweder direkt oder durch das Hören von Ereignissen bereitstellen.
 
-Business Central löst Ereignisse aus, wenn Blobs gelesen werden, bevor Daten aus dem primären, am häufigsten verwendeten Speicher, dem Anhang für eingehende Dokumente, extrahiert werden.
+Business Central löst Ereignisse aus, wenn Blobs gelesen werden, bevor Daten aus dem primären, am häufigsten verwendeten Speicher, dem Eingehenden Dokumentenanhang, extrahiert werden.
 
-SM verwaltet einen Cache von verwendeten Blobs. Verwendete Blobs können Blobs sein, die mit Import Journal oder Approval Status zusammenhängen, um nur einige zu nennen. Blobs können auch in archivierten Bereichen wie Posted Purchase Invoices oder Vendor Ledger Entries verwendet werden.
+SM wird einen Cache von Blobs in Verwendung pflegen. Blobs in Verwendung können Blobs sein, die sich auf Importjournal oder Genehmigungsstatus beziehen, um nur einige zu nennen. Blobs können auch in archivierten Bereichen wie gebuchten Einkaufsrechnungen oder Kreditorenposten verwendet werden.
 
-Wenn ein Blob angefordert wird, der sich auf gebuchte Dokumente bezieht, wird der Blob aus dem Blob-Speicher abgerufen und lokal zwischengespeichert und dann an die Anwendung zurückgegeben. Der Blob bleibt für eine bestimmte Zeit im Cache erhalten, die in der Konfiguration festgelegt ist.
+Wenn ein Blob angefordert wird, das sich auf gebuchte Dokumente bezieht, wird der Blob aus dem Blob-Speicher abgerufen und lokal zwischengespeichert, dann an die Anwendung zurückgegeben. Der Blob wird für eine gut definierte Zeit basierend auf der Einrichtung im Cache behalten.
 
-Blobs, die für Bereiche wie Import Journal angefordert werden, bleiben im Anhang für eingehende Dokumente erhalten, bis die Rechnung gebucht wurde. Zu diesem Zeitpunkt wird der Anhang für eingehende Dokumente als ungültig markiert und wird auf regelmäßiger Basis von einer geplanten Aufgabe entfernt. Wenn eine Anforderung für einen Blob vorliegt, der sich auf einen neu gebuchten Eintrag bezieht und der Cache-Eintrag noch vorhanden ist, wird der Blob nicht erneut abgerufen und der Cache wird als gültig festgelegt und bleibt für die in der Konfiguration festgelegte Zeit gültig.
+Blobs, die für Bereiche wie das Importjournal angefordert werden, bleiben im Eingehenden Dokumentenanhang, bis die Rechnung gebucht wurde. Zu diesem Zeitpunkt wird der Eingehende Dokumentenanhang als ungültig markiert und wird regelmäßig durch eine geplante Aufgabe entfernt. Wenn eine Anforderung für einen Blob gestellt wird, der sich auf einen neu gebuchten Eintrag bezieht und der Cache-Eintrag noch existiert, wird der Blob nicht erneut abgerufen und der Cache wird als gültig gesetzt und bleibt für die in der Einrichtung festgelegte Zeit gültig.
 
-Die Benennungskonvention für Blobs ist generisch, wobei die Blob-Details in einer separaten Tabelle gespeichert werden, die den Namen des Blobs enthält. Der Blob muss einer generischen Benennungskonvention folgen, um keine Probleme mit der Dateinamenlänge zu verursachen. Ein empfohlener Name ist GUID, bei dem Teile davon als Pfad verwendet werden können.<br/><br/>
+Die Blob-Benennungskonvention wird generisch sein, wobei Blob-Details in einer separaten Tabelle gespeichert werden, die den Namen des Blobs enthält. Der Blob muss einer generischen Benennungskonvention folgen, um keine Probleme mit der Dateinamenlänge zu verursachen. Ein empfohlener Name ist GUID, wobei Teile davon als Pfad verwendet werden können.<br/><br/>
 
 #### Speicherimplementierung
-Die physische Speicherung von Blobs erfolgt mithilfe einer Schnittstelle in Business Central. Eine Schnittstelle ist eine Abstraktion ohne Code, sie kann als Definition einer API betrachtet werden. Die Schnittstelle enthält nur Funktionssignaturen. Es liegt in der Verantwortung der Implementierer, den Code zur Unterstützung der Schnittstelle hinzuzufügen.
+Die physische Speicherung von Blobs erfolgt unter Verwendung einer Schnittstelle in Business Central. Eine Schnittstelle ist eine Abstraktion ohne Code, sie kann als Definition einer API betrachtet werden. Die Schnittstelle enthält nur Funktionssignaturen. Es liegt an den Implementierern, den Code zur Unterstützung der Schnittstelle hinzuzufügen.
 
 Die Schnittstelle definiert eine oder mehrere überladene Funktionen im Zusammenhang mit Get, Put, Exist, List und Delete. Die Schnittstelle definiert auch überladene Funktionen im Zusammenhang mit Setup, Funktionen wie GetFieldCaption, SetFieldValue und GetFieldValue.
 
-![Blob-Speicher](./../../images/blob-storage-001.png)
+![Blob Storage](@site/static/img/media/blob-storage-001.png)
 
 
-### Blob-Speicher-Setup
-Gehe zu: ***ExFlow Setup --> Aktionen --> Funktionen --> Blob-Speicher-Verwaltung*** (--> Speicher-Setup)
+### Blob Storage Einrichtung
+Gehen Sie zu: ***ExFlow Setup --> Aktionen --> Funktionen --> Blob Storage Verwaltung*** (--> Storage Setup)
 
-Das Setup für den Blob-Speicher basiert auf der Schnittstelle, die zur Speicherimplementierung definiert ist. Das Blob-Speicher-Setup ist generisch und allgemein. Es enthält einige generische Textfelder wie Code, Beschreibung und Blob-Quelle.
+Die Einrichtung für Blob Storage basiert auf der Schnittstelle, die zur Speicherimplementierung definiert ist. Die Blob Storage Einrichtung ist generisch und allgemein. Sie enthält einige generische Textfelder wie Code, Beschreibung und Blob-Quelle.
 
-Das Setup für den Blob-Speicher basiert auf der Schnittstelle, die zur Speicherimplementierung definiert ist. Das Blob-Speicher-Setup ist generisch und allgemein. Es enthält keine generischen, implementationsbezogenen Felder außer Beschreibung und Speichertyp.
+Die Einrichtung für Blob Storage basiert auf der Schnittstelle, die zur Speicherimplementierung definiert ist. Die Blob Storage Einrichtung ist generisch und allgemein. Sie enthält keine generischen implementierungsspezifischen Felder außer Beschreibung und Speichertyp.
 
-Die Implementierung führt ihr eigenes Setup gegen ihre eigenen Tabellen aus, wie es erforderlich ist. Da die Implementierung möglicherweise OAuth oder einen anderen Authentifizierungstyp erfordert, liegt es in der Verantwortung der Implementierung, dies zu implementieren. Eine Implementierung der Schnittstelle kann sich dafür entscheiden, alle Konfigurationsparameter im isolierten Speicher zu speichern.
+Die Implementierung wird ihre eigene Einrichtung gegen ihre eigenen Tabellen nach Bedarf ausführen. Da die Implementierung möglicherweise OAuth oder eine andere Art der Authentifizierung erfordert, liegt es an der Implementierung, dies zu implementieren. Eine Implementierung der Schnittstelle kann wählen, alle Konfigurationsparameter innerhalb des isolierten Speichers zu speichern.
 
-Die minimalen Werte für das Blob-Speicher-Setup sind Code, Beschreibung, Blob-Speichertyp und ob es aktiviert ist oder nicht.
+Minimale Blob Storage Einrichtungswerte sind Code, Beschreibung, Blob Storage Typ und ob es aktiviert ist oder nicht.
 
-Es kann mehr als ein Blob-Speicher-Setup pro Blob-Speichertyp geben, je nach Verwendung.
+Es kann mehr als eine Blob Storage Einrichtung pro Blob Storage Typ geben, es hängt von der Nutzung ab.
 
-![Speicher-Setup](./../../images/storage-setup-001.png)
+![Storage Setup](@site/static/img/media/storage-setup-001.png)
 
-In dem Beispiel wird die Implementierung "Azure Container" gewählt.
+Im Beispiel ist die gewählte Implementierung „Azure Container“.
 
-Der Azure Container stellt eine Einrichtung dar, die beim Drücken von "Setup" die für die Implementierung benötigten Informationen sammelt.
+Der Azure Container wird eine Einrichtung präsentieren, die Informationen sammelt, die für die Implementierung benötigt werden, wenn Sie auf Einrichtung drücken.
 
-Es liegt in der Verantwortung der Implementierung, Parameter auf relevante Weise in physischen Tabellen, isoliertem Speicher oder auf andere Weise zu speichern.
+Es liegt an der Implementierung, Parameter auf relevante Weise unter Verwendung physischer Tabellen, isoliertem Speicher oder anderen Mitteln zu speichern.
 
-Alle Felder in der Blob Storage-Einrichtung sind für ExFlow oder Blob Storage Management irrelevant und machen nur für die Implementierung Sinn. Die Implementierung verwendet die Blob Storage-Einrichtung, um zu wissen, welche Einrichtung verwendet werden soll und aus ihrem eigenen Speicher, ihrer Tabelle oder ihrem isolierten Speicher abzurufen. Wenn also ein Aufruf an die Schnittstelle Get(Name, ...) erfolgt, wird die Implementierung die erforderliche Einrichtung und Verbindungen herstellen, um das angeforderte Blob abzurufen.
+Alle Felder in der Blob Storage Einrichtung sind für ExFlow oder die Blob Storage Verwaltung irrelevant und machen nur für die Implementierung Sinn. Die Implementierung verwendet die Blob Storage Einrichtung, um zu wissen, welche Einrichtung verwendet werden soll und aus ihrem eigenen Speicher, ihrer Tabelle oder ihrem isolierten Speicher abzurufen. Wenn also ein Aufruf an die Schnittstelle Get(Name, …) gemacht wird, wird die Implementierung die benötigte Einrichtung und Verbindungen herstellen, um es möglich zu machen, das angeforderte Blob abzurufen.
 
-In diesem Fall ist Storage Management physisch speicheragnostisch, es weiß nicht, wie die Datei oder das Blob abgerufen werden kann, das überlässt es der Implementierung.
+In diesem Fall ist die Speicherverwaltung physisch speicheragnostisch, sie weiß nicht, wie die Datei oder das Blob abgerufen wird, das überlässt sie der Implementierung.
 
-Ein Aufruf von Storage Management an Get(Name, ...) verhält sich gleich und gibt das Blob zurück, unabhängig davon, ob die Implementierung Azure Container, Datenbank, Azure Share, lokales Dateisystem, Amazon WS, Drobox oder eine andere Möglichkeit zur technischen Verarbeitung von Blobs ist.
+Ein Aufruf der Speicherverwaltung an Get(Name, …) wird sich gleich verhalten und das Blob zurückgeben, egal ob die Implementierung Azure Container, Datenbank, Azure Share, lokales Dateisystem, Amazon WS, Dropbox oder eine andere Methode zur technischen Handhabung von Blobs ist.
 
-### Storage Management
-Storage Management (SM) stellt allgemeine Funktionen zur Verfügung, die von der Anwendung verwendet werden können, um Blobs basierend auf einer Schlüssel-/Namen-Kombination abzurufen, zu setzen, aufzulisten oder zu löschen. SM stellt den Blob an seinen ursprünglichen Speicherort wieder her, wenn eine Anforderung dafür gestellt wird.
+### Speicherverwaltung
+Die Speicherverwaltung (SM) wird allgemeine Funktionalität für die Anwendung bereitstellen, um Blobs basierend auf einer Schlüssel-/Namenskombination zu erhalten, zu setzen, aufzulisten oder zu löschen. SM wird das Blob an seinen ursprünglichen Ort wiederherstellen, wenn eine Anfrage dafür gestellt wird.
 
-SM speichert oder zwischenspeichert Blobs lokal in einer Tabelle innerhalb der Blob Storage-Funktionalität, um die Blob-Verwaltung für die Anwendung schnell zu machen.
+SM wird Blobs lokal in einer Tabelle innerhalb der Blob Storage Funktionalität speichern oder zwischenspeichern, um das Blob-Management für die Anwendung schnell zu machen.
 
-Zwischengespeicherte Blobs werden nur für eine begrenzte Zeit gespeichert, wie in der Einrichtung festgelegt. Einschränkungen können Tage oder Funktionsbereiche umfassen.<br/><br/>
+Zwischengespeicherte Blobs werden nur für eine begrenzte Zeit gespeichert, wie in der Einrichtung festgelegt. Einschränkungen können, aber nicht beschränkt auf, Tage oder Funktionsbereich sein.<br/><br/>
 
-#### Zwischenspeicherung in Tagen
-Für Bereiche, die nicht von vorübergehender Natur sind, wie z.B. gebuchte Dokumente, kann der Cache so eingestellt werden, dass zwischengespeicherte Einträge innerhalb einer festgelegten Anzahl von Tagen ablaufen. Sobald die Anzahl der Tage erreicht ist, werden die Cache-Einträge ungültig. Ein geplanter Job entfernt ungültige Einträge aus dem Cache.<br/><br/>
+#### Cache in Tagen
+Für Bereiche, die nicht vorübergehender Natur sind, wie gebuchte Dokumente, kann der Cache so eingestellt werden, dass zwischengespeicherte Einträge innerhalb festgelegter Tage ablaufen. Sobald die Anzahl der Tage erreicht ist, werden die Cache-Einträge ungültig. Ein geplanter Job wird ungültige Einträge aus dem Cache entfernen.<br/><br/>
 
 #### Cache pro Funktionsbereich
-Die Archivierung von Blobs ist nur für gebuchte Dokumente relevant, da Dokumente im Zusammenhang mit Import Journal oder Genehmigungsstatus einen sofortigen Zugriff erfordern.<br/><br/>
+Das Archivieren von Blobs wird nur für gebuchte Dokumente relevant sein, da Dokumente, die sich auf das Importjournal oder den Genehmigungsstatus beziehen, sofortigen Zugriff erfordern.<br/><br/>
 
-#### Zwischenspeicherung in Anzahl der Einträge
-Für den Cache im Zusammenhang mit Funktionsbereichen oder allgemein kann eine Cache-Speicherphilosophie darin bestehen, höchstens 1000 zwischengespeicherte Einträge zu behalten. Jedes Mal, wenn ein Blob aus dem Cache abgerufen wird, wird ein "Zuletzt verwendet"-Zeitstempel aktualisiert. "Zuletzt verwendet" kann als Referenz verwendet werden, wenn die Anzahl der Einträge den in der Einrichtung festgelegten Wert überschreitet. Diese Einträge werden von einem geplanten Job gelöscht. Es kann einen dynamischen Puffer geben, wenn die Anzahl der zwischengespeicherten Einträge den festgelegten Grenzwert überschreitet.
+#### Cache in Anzahl der Einträge
+Für Cache, der sich auf Funktionsbereiche oder allgemein bezieht, kann eine Cache-Speicherphilosophie darin bestehen, höchstens 1000 zwischengespeicherte Einträge zu behalten. Jedes Mal, wenn ein Blob aus dem Cache abgerufen wird, wird ein Last Used-Zeitstempel aktualisiert. Last Used kann als Referenz verwendet werden, wenn die Anzahl der Einträge den in der Einrichtung festgelegten Wert überschreitet. Diese Einträge werden von einem geplanten Job gelöscht. Es kann einen dynamischen Puffer geben, wenn die Anzahl der zwischengespeicherten Einträge das festgelegte Limit überschreitet.
 
-Die Zwischenspeicherung in Anzahl der Einträge gilt höchstwahrscheinlich nur für gültige Einträge. Ungültige Einträge werden ohnehin regelmäßig vom geplanten Job gelöscht.<br/><br/>
+Cache in Anzahl der Einträge wird höchstwahrscheinlich nur für gültige Einträge gelten. Ungültige Einträge werden ohnehin regelmäßig von dem geplanten Job gelöscht.<br/><br/>
 
-#### ExFlow Speicherdetails
+#### ExFlow Speicher Details
 
-Zeigt die aktuellen Speicherdetails des eingehenden Dokumentenanhangs in Business Central an. Die Details umfassen das Datum, an dem das Dokument im Blob-Speicher abgelegt wurde, das zuletzt abgerufene Datum und die Liste der eingehenden Dokumente, die sich noch in Business Central mit der System-ID als Kennung befinden.
+Zeigt die aktuellen Speicherdetails von eingehenden Dokumentanhängen in Business Central an. Die Details umfassen das Datum, an dem das Dokument im Blob-Speicher gespeichert wurde, das letzte Zugriffsdatum und die Liste der eingehenden Dokumente, die sich noch in Business Central mit der System-ID als Identifikator befinden.
 
 #### Zusätzliche Funktionen
-Storage Management kann zusätzliche Funktionen implementieren, um die Blob-Verarbeitung oder andere Funktionen zu beschleunigen.<br/>
+Die Speicherverwaltung kann zusätzliche Funktionen implementieren, um die Blob-Verarbeitung zu beschleunigen oder andere Funktionalitäten bereitzustellen.<br/>
 
-**Cache Cleanup-Prozess**<br/>
-Aktivieren Sie die manuelle Bereinigung des Caches.
+**Cache-Bereinigungsprozess**<br/>
+Ermöglicht die manuelle Bereinigung des Caches.
 
 **Cache-Paradigma**<br/>
 
-    - ***Vorab abrufen von Einträgen***<br/>
-            Füllen Sie den Cache mit Einträgen im Incoming Document Attachment vor, da dies den Zugriff auf das Blob beschleunigt, da es sofort verfügbar sein wird.
+    - ***Vorabruf-Einträge***<br/>
+            Vorab den Cache mit Einträgen im eingehenden Dokumentanhang füllen, da dies den Zugriff auf das Blob beschleunigen wird, da es sofort verfügbar sein wird.
 
-    - ***On-Demand***<br/>
-        Rufen Sie den Blob nur ab und füllen Sie den Cache, wenn der Blob angefordert wird. Dies ist möglicherweise keine praktikable Funktion, aber dennoch eine Funktion.<br/>
+    - ***Auf Abruf***<br/>
+        Nur den Cache abrufen und füllen, wenn das Blob angefordert wird. Dies ist möglicherweise keine praktikable Funktion, aber dennoch eine Funktion.<br/>
 
-**Dokumentmigration**<br/>
-Storage Management kann Dokumente von einem Blob Storage-Typ in einen anderen verschieben oder von einem Blob Storage-Typ des gleichen Typs wie der Zielspeicher in einen permanenten Azure Container (im Besitz des Kunden) lesen.
+**Dokumenten-Migration**<br/>
+Die Speicherverwaltung kann das Verschieben von Dokumenten von einem Blob-Speichertyp zu einem anderen oder von einem Blob-Speichertyp desselben Typs wie der Zielspeicher implementieren. Die Migration kann dann direkt unterstützt werden, um Blobs aus einem temporären Azure Container (im Besitz des Partners oder SignUp) in einen permanenten Azure Container (im Besitz des Kunden) zu lesen.
 
-**Speicherumzug**<br/>
-Storage Management kann einen Umzug von einem Blob Storage-Typ in einen anderen implementieren. Der Kunde verwendet den Datenbank-Speichertyp und möchte zu Azure Container wechseln. Daher gibt das Storage Management einen Get(Name, ...) vom Datenbank-Speichertyp aus und gibt dann ein Put(Name, ...) an Azure Container für jedes Blob aus.<br/><br/>
-Es wäre möglich, die externe Speicherung zu beenden, indem man eine Funktion verwendet, um Blobs aus dem externen Speicher wieder in den Incoming Document Attachment zu kopieren/verschieben.
+**Speicherverlagerung**<br/>
+Die Speicherverwaltung kann einen Wechsel von einem Blob-Speichertyp zu einem anderen implementieren. Der Kunde verwendet den Datenbankspeichertyp und möchte zu Azure Container wechseln. Daher gibt die Speicherverwaltung ein Get(Name, …) vom Datenbankspeichertyp aus und dann ein Put(Name, …) an Azure Container für jedes Blob aus.<br/><br/>
+Es wäre möglich, die externe Speicherung zu beenden, indem eine Funktion verwendet wird, um Blobs aus dem externen Speicher wieder in den eingehenden Dokumentanhang zu kopieren/verschieben.
 
