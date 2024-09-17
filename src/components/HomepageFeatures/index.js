@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-    url: 'https://docs.exflow.cloud/datacapture',
+    url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
   },
 ];
 
