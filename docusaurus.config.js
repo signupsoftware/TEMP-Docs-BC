@@ -177,7 +177,7 @@ const config = {
             items: [
               {
                 label: 'ExFlow for FO',
-                to: '/docs/intro',
+                to: 'https://docs.exflow.cloud/finance-operations',
               },
               {
                 label: 'ExFlow for BC',
@@ -186,7 +186,7 @@ const config = {
               },
               {
                 label: 'ExFlow Web',
-                to: '/docs/intro',
+                to: 'https://docs.exflow.cloud/web',
               },
             ],
           },
@@ -195,11 +195,11 @@ const config = {
             items: [
               {
                 label: 'ExFlow support',
-                to: '/docs/intro',
+                to: 'https://support.signupsoftware.com/',
               },
               {
                 label: 'Partner portal',
-                href: '/docs/intro',
+                href: 'https://azuresignup.sharepoint.com/sites/Signupsoftware',
               },
             ],
           },
