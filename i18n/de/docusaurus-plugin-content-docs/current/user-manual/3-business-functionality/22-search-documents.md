@@ -7,47 +7,47 @@ hide_title: true
 
 Gehe zu: ***ExFlow History --> ExFlow Dokumente suchen***
 
-ExFlow Suche kann verwendet werden, um Dokumente nach verschiedenen Kriterien zu suchen. Durch Auswahl verschiedener Filter können sowohl gebuchte Dokumente als auch aktive Dokumente gefunden werden. Das Standardunternehmen ist das aktuelle "Unternehmen". Es ist auch möglich, Filter für mehrere Unternehmen festzulegen.
+ExFlow Search kann verwendet werden, um Dokumente nach verschiedenen Kriterien zu durchsuchen. Durch die Auswahl verschiedener Filter können sowohl gebuchte als auch aktive Dokumente gefunden werden. Das Standardunternehmen wird das aktuelle "Unternehmen" sein. Es ist auch möglich, Filter für mehrere Unternehmen festzulegen.
 
-Um suchen zu können, wenden Sie mindestens zwei Filter an. Wenn der erforderliche Filter eingegeben ist, klicken Sie auf "Filter anwenden", um das Ergebnis anzuzeigen.
+Um suchen zu können, wenden Sie mindestens zwei Filter an. Wenn der erforderliche Filter eingegeben ist, drücken Sie "Filter anwenden", um das Ergebnis anzuzeigen.
 
-![ExFlow Dokumente suchen - Filter anwenden](./../../images/search-documents-001.png)
+![ExFlow Dokumente suchen - Filter anwenden](@site/static/img/media/search-documents-001.png)
 
 Das Ergebnis zeigt alle Dokumente mit dem Genehmiger EE:
 
-![ExFlow Dokumente suchen](./../../images/search-documents-002.png)
+![ExFlow Dokumente suchen](@site/static/img/media/search-documents-002.png)
 
-Verwenden Sie "Filter entfernen", um die Seite zu löschen, oder "Filter anzeigen/ausblenden", um einen anderen Filter anzuwenden.
+Verwenden Sie "Filter entfernen", um die Seite zu löschen, oder "Filter ein-/ausblenden", um einen anderen Filter anzuwenden.
 
-Öffnen Sie die Karte oder die ExFlow-Karte, um weitere Details zum Dokument anzuzeigen. Klicken Sie auf "Dokumentbild anzeigen", um das Dokumentbild anzuzeigen.
+Öffnen Sie die Karte oder die ExFlow-Karte, um weitere Details zum Dokument zu sehen. Klicken Sie auf "Dokumentbild anzeigen", um das Dokumentbild anzuzeigen.
 
-Es besteht auch die Möglichkeit, nach einem ExFlow-Referenzcode in ExFlow Dokumente suchen zu suchen. Geben Sie den Referenzcode in das Feld "Referenz" ein und klicken Sie dann auf "Filter anwenden", um das Suchergebnis anzuzeigen.
+Es besteht auch die Möglichkeit, nach einem ExFlow-Referenzcode in ExFlow Search Documents zu suchen. Geben Sie den Referenzcode in das Feld "Referenz" ein und klicken Sie dann auf "Filter anwenden", um das Suchergebnis anzuzeigen.
 
-![ExFlow Dokumente suchen](./../../images/search-documents-003.png)
+![ExFlow Dokumente suchen](@site/static/img/media/search-documents-003.png)
 
-Die Ergebnisliste zeigt alle Dokumente mit dem verbundenen Verweis an verschiedenen Stellen wie Import Journal, Genehmigungsstatus und gebuchte Dokumente im Genehmigungsstatusverlauf.
+Die Ergebnisliste zeigt alle Dokumente mit der verbundenen Referenz an allen Stellen wie Import Journal, Genehmigungsstatus und gebuchte Dokumente im Genehmigungsstatusverlauf.
 
-![ExFlow Dokumente suchen](./../../images/search-documents-004.png)
+![ExFlow Dokumente suchen](@site/static/img/media/search-documents-004.png)
 
-Lesen Sie mehr im Abschnitt [***Referenzcodes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes), um mehr darüber zu erfahren, wie Sie ExFlow-Referenzen erstellen und verwenden können.
+Lesen Sie mehr im Abschnitt [***Referenzcodes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes), um mehr darüber zu erfahren, wie Sie ExFlow-Referenzen erstellen und verwenden.
 
 ### Option "Suchspalten"
 
-Drücken Sie Suchspalten, um weitere Suchwerte in den Dokumentzeilen hinzuzufügen.
+Drücken Sie Suchspalten, um weitere Suchwerte für Dokumentzeilen hinzuzufügen.
 
-![ExFlow Suchspalten](./../../images/search-columns-001.png)
+![ExFlow Suchspalten](@site/static/img/media/search-columns-001.png)
 
-Der ausgewählte Filter ist auf G/L-Konto 6210 und Genehmiger EE eingestellt:
+Der ausgewählte Filter ist auf G/L-Konto 6210 und Genehmiger EE gesetzt:
 
-![ExFlow Dokumente suchen - Suchspalten](./../../images/search-documents-005.png)
+![ExFlow Dokumente suchen - Suchspalten](@site/static/img/media/search-documents-005.png)
 
-Das Ergebnis zeigt alle Dokumente mit dieser Kombination im gewählten Unternehmen an.
+Das Ergebnis zeigt alle Dokumente mit dieser Kombination im gewählten Unternehmen.
 
-![ExFlow Dokumente suchen](./../../images/search-documents-006.png)
+![ExFlow Dokumente suchen](@site/static/img/media/search-documents-006.png)
 
-### Verbleibenden Betrag in ExFlow Dokumente suchen anzeigen
+### Verbleibenden Betrag in ExFlow Search Documents anzeigen
 
-Wenn die Suchergebnisse gefiltert sind, ist es auch möglich zu sehen, ob die gebuchten Dokumente bezahlt wurden oder nicht. Dies kann durch Hinzufügen der Spalte "Verbleibender Betrag" über "Personalisieren" zu den gefilterten Ergebnissen erfolgen. <br/>
-Lesen Sie mehr dazu im Abschnitt [***ExFlow Genehmigungsstatusverlauf***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/document-history#approval-status-history)
+Wenn die Suchergebnisse gefiltert sind, ist es auch möglich zu sehen, ob die gebuchten Dokumente bezahlt sind oder nicht. Dies kann durch Hinzufügen der Spalte "Verbleibender Betrag" über "Personalisieren" zu den herausgefilterten Ergebnissen erfolgen. <br/>
+Lesen Sie mehr darüber im Abschnitt [***ExFlow Genehmigungsstatusverlauf***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/document-history#approval-status-history)
 
-![ExFlow Dokumente suchen - Verbleibender Betrag](./../../images/search-documents-007.png)
+![ExFlow Dokumente suchen - Verbleibender Betrag](@site/static/img/media/search-documents-007.png)

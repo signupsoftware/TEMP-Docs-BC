@@ -10,7 +10,9 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
+    <div class="background-image"/>
 
+    /*
     <header className={clsx('hero hero--primary', styles.heroBanner )}>
         
       <div className="background_wrap">
@@ -34,7 +36,7 @@ function HomepageHeader() {
         </div>          
       </div>          
     </header>
-
+*/
 
   );
 }
@@ -45,49 +47,31 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      <main class="background-image">
+        <div class="menu-container">
+          <HomepageFeatures />
+        </div>
       </main>
     </Layout>
   );
 }
 
 
-
-
 /*
-
+function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
     <header className={clsx('hero hero--primary', styles.heroBanner )}>
-      <div className="background_wrap">
-        <div className='office_background'>
-          <div className="container">
+    </header>
+  );
+}
 
-
-
-      <div className="background_wrap">
-
-      <header className={clsx('hero hero--primary', styles.heroBanner )}>
-
-
-    <div className={ styles.background_wrap} >
-
-        {
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-        }
+export default function Home() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+      <div class="background-image">
+        <HomepageFeatures />
+      </div>
+  );
+}
 */
-
-
-
-
-
-
-
-

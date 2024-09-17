@@ -8,4 +8,3 @@ hide_title: true
 ### Sprache
 
 ExFlow unterstützt die deutsche Sprache in Business Central.
-

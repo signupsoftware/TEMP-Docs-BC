@@ -1,26 +1,26 @@
 ---
-title: Benutzerprogrammierregeln
+title: Benutzer-Codierungsregeln
 sidebar_position: 7
 hide_title: true
 ---
-## Benutzerprogrammierregeln
+## Benutzer-Codierungsregeln
 
-Gehe zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Benutzerprogrammierregeln***
+Gehen Sie zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User Coding Rules***
 
-Wenn ein Genehmiger Änderungen am Rechnungsposition in ExFlow Web vornehmen können soll, können Benutzerprogrammierregeln verwendet werden, um zu entscheiden/einzuschränken, welche Werte er/sie auswählen kann.
+Wenn ein Genehmiger in der Lage sein soll, Codierungsänderungen der Rechnungszeile in ExFlow Web vorzunehmen, können ExFlow Benutzer-Codierungsregeln verwendet werden, um zu entscheiden/einzuschränken, welche Werte er/sie auswählen kann.
 
-Administratoren können Benutzerprogrammierregeln für einzelne Benutzer oder Benutzergruppen erstellen. Die Programmierregel muss auf den ExFlow-Benutzer angewendet werden, indem auf die ID verwiesen wird.
+Administratoren können Benutzer-Codierungsregeln für einzelne Benutzer oder Benutzergruppen erstellen. Die Codierungsregel muss dem ExFlow-Benutzer zugewiesen werden, indem auf die ID verwiesen wird.
 
-Jede sichtbare Spalte in ExFlow Web kann geändert werden. Wählen Sie aus, ob der Genehmiger alle "Alle", keine "Leere" oder einen Filter von Werten "Textbereich" auswählen können soll.
+Jede sichtbare Spalte in ExFlow Web kann geändert werden. Wählen Sie, ob der Genehmiger alle "Alle", keine "Leer" oder einen Filter von Werten "Textbereich" auswählen können soll.
 
-Die "Benutzerprogrammierregel" im folgenden Beispiel ermöglicht es dem Genehmiger, den Wert der Spalte "Abteilung" auf "SALES" zu ändern.
+Die "Benutzer-Codierungsregel" im untenstehenden Beispiel erlaubt es dem Genehmiger, den Wert der Spalte "Abteilung" in "VERKAUF" zu ändern.
 
-| Allgemein     |	|
+| Allgemein      |	|
 |:-|:-|
-|**ID:**        | ID-Nummern werden der Programmierregel in der Reihenfolge, in der sie erstellt werden, zugewiesen. Dies hat keine Auswirkung auf die Priorisierung.
+|**ID:**        | ID-Nummern werden den Codierungsregeln in der Reihenfolge zugewiesen, in der sie erstellt werden. Dies hat keinen Einfluss auf die Priorisierung
 | **Name:**     | Beschreibender Name für die Regel
 | **Aktiv:**    | Ob die Regel aktiv ist oder nicht
 
-![ExFlow Benutzerprogrammierregel-Karte](./../../images/user-coding-rules-001.png)
+![ExFlow Benutzer-Codierungsregel Karte](@site/static/img/media/user-coding-rules-001.png)
 
-Wenn die Benutzerprogrammierregel erstellt wurde, gehe zur ExFlow-Benutzerkarte und wende die Programmierregel-ID auf den ausgewählten Benutzer für das spezifische Unternehmen an. Ein ExFlow-Benutzer kann nur eine Benutzerprogrammierregel pro Unternehmen haben.
+Wenn die Benutzer-Codierungsregel erstellt wurde, gehen Sie zur ExFlow Benutzerkarte und wenden Sie die Codierungsregel-ID auf den ausgewählten Benutzer für das spezifische Unternehmen an. Ein ExFlow-Benutzer kann pro Unternehmen nur eine Benutzer-Codierungsregel haben.

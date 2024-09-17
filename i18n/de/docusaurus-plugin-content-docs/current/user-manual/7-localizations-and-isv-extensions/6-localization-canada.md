@@ -8,39 +8,39 @@ hide_title: true
 
 ### Sprache
 
-ExFlow unterstützt die französische (Kanada) Sprache in Business Central.
+ExFlow unterstützt die Sprache Französisch (Kanada) in Business Central.
 
 ### Kanadische Umsatzsteuer
 
-Gehen Sie zu: ***Setup \--\> ExFlow Setup \--\> Registerkarte Dokumenterstellung überprüfen***
+Gehe zu: ***Setup \--\> ExFlow Setup \--\> Doc. Creation Checks Tab***
 
-Aktivieren Sie "Umsatzsteuer zulassen" in den ExFlow-Einstellungen.
+Aktiviere "Allow Sales Tax" in den ExFlow-Einstellungen.
 
-![ExFlow Setup - Dokumenterstellung überprüfen - Kanadische Lokalisierung](./../../images/exflow-setup-doc-posting-checks-002-ca-us.png)
+![ExFlow Setup - Doc. Creation Checks - Kanadische Lokalisierung](@site/static/img/media/exflow-setup-doc-posting-checks-002-ca-us.png)
 
-Mit dieser Einstellung wird die Mehrwertsteuer-Produktposten-Gruppe in ExFlow nicht mehr obligatorisch sein und ermöglicht die Verarbeitung der nordamerikanischen Umsatzsteuer.
+Mit dieser Einstellung wird die Produktbuchungsgruppe für die Mehrwertsteuer in ExFlow nicht obligatorisch und ermöglicht die Verarbeitung der nordamerikanischen Umsatzsteuer.
 
-![Steuerbuchungseinrichtung - Kanadische Lokalisierung](./../../images/image357.png)
+![Tax Posting Setup - Kanadische Lokalisierung](@site/static/img/media/image357.png)
 
-Um die nordamerikanische Umsatzsteuer zu unterstützen, wurden auch die steuerspezifischen Felder im Kopf- und Zeilenbereich des Einkaufsdokuments in ExFlow Import Journal implementiert. Die Funktionalitäten für diese Felder sind ähnlich wie in den Einkaufsdokumenten in Business Central.
+Um die nordamerikanische Umsatzsteuer zu unterstützen, werden die steuerrelevanten Felder aus dem Einkaufsdokumentkopf und den Einkaufsdokumentzeilen auch im ExFlow Import Journal implementiert. Die Funktionalitäten dieser Felder sind ähnlich wie in den Einkaufsdokumenten in Business Central.
 
-**Die zusätzlichen Felder im Dokumentkopf:**
+**Die zusätzlichen Felder im Dokumentenkopf**
 
 - Steuerpflichtig
 
-- Steuerbereichscode
+- Steuergebietscode
 
-- Provinzieller Steuerbereichscode
+- Provinzieller Steuergebietscode
 
 - Steuerbefreiungsnummer
 
-**Und in den Dokumentzeilen:**
+**Und in den Dokumentzeilen**
 
 - Steuerpflichtig
 
-- Steuerbereichscode
+- Steuergebietscode
 
-- Provinzieller Steuerbereichscode
+- Provinzieller Steuergebietscode
 
 - GST/HST
 
@@ -48,34 +48,32 @@ Um die nordamerikanische Umsatzsteuer zu unterstützen, wurden auch die steuersp
 
 - Verwendungsteuer
 
-Mit Hilfe der kanadischen Steuereinrichtung unterstützt das ExFlow Import Journal auch Steuerberechnungen auf Basis der kanadischen Steuer. Die Funktionalität zum Abrufen des Steuerbereichscodes usw. aus den Unternehmensinformationen und dem Standort anstelle der Lieferantenkarte spiegelt sich ebenfalls im ExFlow Import Journal wider.
+Mit der Verwendung der kanadischen Steuereinstellungen unterstützt das ExFlow Import Journal auch Steuerberechnungen basierend auf der kanadischen Steuer. Die Funktionalität zum Abrufen des Steuergebietscodes usw. aus den Unternehmensinformationen und dem Standort anstelle der Lieferantenkarte wird ebenfalls im ExFlow Import Journal berücksichtigt.
 
-![ExFlow Import Journal - Kanadische Lokalisierung](./../../images/image358.png)
+![ExFlow Import Journal - Kanadische Lokalisierung](@site/static/img/media/image358.png)
 
 Die Statistikseite ist jetzt im ExFlow Import Journal verfügbar.
 
-![ExFlow Import Journal -- Statistik](./../../images/image359.png)
+![ExFlow Import Journal -- Statistik](@site/static/img/media/image359.png)
 
-Sie ermöglicht die manuelle Anpassung des Steuerbetrags, wenn es eine Abweichung zwischen dem auf den Rechnungszeilen berechneten Steuerbetrag und dem auf der Rechnung des Lieferanten erhaltenen Steuerbetrag gibt (in diesem Fall durch den OCR-Dienst interpretiert).
+Es ermöglicht die manuelle Anpassung des Steuerbetrags, wenn eine Diskrepanz zwischen dem auf den Rechnungszeilen berechneten Steuerbetrag und dem auf der vom Lieferanten erhaltenen Rechnung angegebenen Steuerbetrag besteht (in diesem Fall durch den OCR-Dienst interpretiert).
 
-![Eingangsrechnungsstatistik -- OCR-Import](./../../images/image360.png)
+![Einkaufsrechnungsstatistik -- OCR-Import](@site/static/img/media/image360.png)
 
+### Steuergruppencode im ExFlow-Einkaufscode behandeln
 
-### Behandlung des Steuergruppencodes im ExFlow-Einkaufscode
+Wenn der Steuergruppencode in einer Rechnungszeile von dem abweichen muss, was standardmäßig auf dem ausgewählten Stammdatensatz dieser Rechnungszeile festgelegt ist, kann dies über einen ExFlow-Einkaufscode gehandhabt werden.
 
-Wenn der Steuergruppencode in einer Rechnungszeile von dem Standardwert abweichen soll, der auf dem ausgewählten Stammrecord für diese Rechnungszeile voreingestellt ist, kann dies über einen ExFlow-Einkaufscode behandelt werden.
+Zum Beispiel, wenn der Steuergruppencode auf einer Sachkontokarte für Büromaterial standardmäßig auf NICHT STEUERBAR gesetzt ist, während eine Zeile in einer Einkaufsrechnung mit diesem Sachkonto als STEUERBAR markiert werden muss, könnten Benutzer dies einfach in den ExFlow-Einkaufscodelinien gemäß dem untenstehenden Bild hinzufügen.
 
-Beispiel: Wenn der Steuergruppencode auf einer G/L-Kontokarte für Büromaterial standardmäßig auf NICHT STEUERBAR eingestellt ist, während eine Zeile auf einer Eingangsrechnung mit diesem G/L-Konto als STEUERBAR markiert werden muss, können Benutzer dies einfach in den ExFlow-Einkaufscodezeilen gemäß dem folgenden Bild hinzufügen.
+Dies würde es den Benutzern ermöglichen, die Rechnungserstellung in diesen spezifischen Szenarien zu automatisieren.
 
-Dies ermöglicht es Benutzern, die Rechnungserstellung in diesen spezifischen Szenarien zu automatisieren.
+![ExFlow Einkaufscode](@site/static/img/media/NA-exflow-purchase-code-card-tax-group-001.png)
 
-![ExFlow-Einkaufscode](./../../images/NA-exflow-purchase-code-card-tax-group-001.png)
+### Steuerkolonnen im Web
 
+Es ist möglich, steuerbezogene Felder in ExFlow Web sichtbar zu machen, indem die Spalten in den ExFlow-Einstellungen hinzugefügt werden.
 
-### Steuerspalten im Web
+![ExFlow Web Columns](@site/static/img/media/tax-web-columns-001.png)
 
-Es ist möglich, steuerbezogene Felder in ExFlow Web sichtbar zu machen, indem Sie die Spalten in ExFlow Setup hinzufügen.
-
-![ExFlow Web Spalten](./../../images/tax-web-columns-001.png)
-
-Lesen Sie mehr darüber, wie Sie Web-Spalten bearbeiten können, im Abschnitt [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
+Lesen Sie mehr darüber, wie Sie Webspalten bearbeiten können, im Abschnitt [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)

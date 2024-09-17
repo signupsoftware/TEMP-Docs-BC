@@ -5,12 +5,11 @@ hide_title: true
 ---
 ## Progressus
 
-Progressus is an Add On for extended functionality to Jobs.
+Progressus is an Add On for extended functionality to Projects.
 
 ### ExFlow Setup
 
-In ExFlow Setup, as for PGS Expense Code, Job (Project) and Job Task
-(Project Task) and under Edit Web Columns in that order.
+In ExFlow Setup, as for PGS Expense Code, Project and Project Task and under Edit Web Columns in that order.
 
 When adding PGS Expense Code, ExFlow is automatically adding Denying
 Coding Rules not to use PGS Expense Code on Line Type: Item, Resource,
@@ -21,35 +20,32 @@ Progressus.
 
 ![ExFlow Setup - Progressus](@site/static/img/media/exflow-setup-progressus-001.png)
 
-If possible, add a Default Job Task under Fast tab General. (Read more
-under **Default Job Task No.**)
+If possible, add a Default Project Task No. under ExFlow Setup --> General. Read more about this 
+under **Default Project Task No.**
 
 ![ExFlow Setup - General](@site/static/img/media/exflow-setup-general-005.png)
 
 ### ExFlow Denying Coding Rules with Progressus
 
-When adding a Job (Project) on ExFlow Web Approver also needs to add Job
-Task (Project Task) and PGS Expense Code if missing. Now following
-Denying Coding Rule can be useful.
+When adding a Project on ExFlow Web, approver also needs to add Project Task and PGS Expense Code if missing. Now following Denying Coding Rule can be useful.
 
-A reminder to add Job/Project Task when using Job/Project on ExFlow Web.
+A reminder to add Project Task when using Project on ExFlow Web.
 
 ![ExFlow Denying Coding Rule](@site/static/img/media/image371.png)
 
 A reminder to add PGS Expense Code when using G/L Account and
-Job/Project on ExFlow Web.
+Project on ExFlow Web.
 
 ![ExFlow Denying Coding Rule](@site/static/img/media/image372.png)
 
-A reminder to add Job/Project when using G/L Account and PGS Expense
-code on ExFlow Web.
+A reminder to add Project when using G/L Account and PGS Expense code on ExFlow Web.
 
 ![ExFlow Denying Coding Rule](@site/static/img/media/image373.png)
 
 #### Work with Expense Resource on the document lines in Import Journal 
 It is also possible to utilize the Expense Resource, Expense Date and Chargeable fields in Import Journal. These fields need to be added manually through personalization. 
 
-Chargeable will be updated from the Job Task No. <br/>
+Chargeable will be updated from the Project Task No. <br/>
 However, please note that if the Line type is:<br/>
 •	***Item***: then PGS Chargeable will be updated from Item Chargeable. <br/>
 •	***G/L Account***: then PGS Chargeable will be updated from Expense Chargeable. <br/>
@@ -67,8 +63,6 @@ PSG Expense Code and PSG Payment Type are also available in ExFlow Purchase Code
 
 ### Progressus Expense Code on ExFlow Web
 
-Due to Denying Coding Rules the Approver needs to add Job/Project, Job
-Task/Project Task and PGS Expense Code on ExFlow Web if missing. The G/L
-Account will be added or updated automatically from Project Expense
+Due to Denying Coding Rules the Approver needs to add Project, Project Task and PGS Expense Code on ExFlow Web if missing. The G/L Account will be added or updated automatically from Project Expense
 Posting Setup in Business Central.
 

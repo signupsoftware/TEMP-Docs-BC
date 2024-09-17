@@ -9,17 +9,12 @@ hide_title: true
 
 ExFlow unterstützt die spanische Sprache in Business Central.
 
-### Rechnungstyp: SII
+### Rechnungsart: SII
 
-Business Central unterstützt die spanischen SII-Anforderungen für die Umsatzsteuermeldung
-(Sofortige Informationsbereitstellung).
+Business Central unterstützt die spanischen SII-Anforderungen für die Mehrwertsteuerberichterstattung (Sofortige Informationslieferung).
 
-### Äquivalenzabgabe (EC)
+### Äquivalenzzuschlag (EC)
 
-Eine Äquivalenzabgabe (EC) ist eine Steuer, die im Einzelhandel und bei
-Aktivitäten, die nicht den Umsatzsteuervorschriften folgen, verwendet wird. Gemäß den EC-Vorschriften müssen
-Unternehmen ihren Lieferanten beim Warenkauf zusätzlich zur üblichen Umsatzsteuer einen Zuschlag zahlen.
+Ein Äquivalenzzuschlag (EC) ist eine Steuer, die im Einzelhandel und in Tätigkeiten verwendet wird, die nicht den Mehrwertsteuerregeln folgen. Unter EC-Regeln müssen Unternehmen beim Kauf von Waren zusätzlich zur üblichen Mehrwertsteuer einen Zuschlag an ihre Lieferanten zahlen.
 
-Einige allgemeine Buchungsgruppen müssen neben dem Umsatzsteuersatz auch einen EC-Prozentsatz haben. Diese Informationen werden separat erfasst, aber um Änderungen zu minimieren,
-werden beide Steuern normalerweise kombiniert.
-
+Einige allgemeine Buchungsgruppen müssen zusätzlich zum Mehrwertsteuersatz einen EC-Prozentsatz haben. Diese Informationen werden separat erfasst, aber um Änderungen zu minimieren, werden beide Steuern normalerweise kombiniert.

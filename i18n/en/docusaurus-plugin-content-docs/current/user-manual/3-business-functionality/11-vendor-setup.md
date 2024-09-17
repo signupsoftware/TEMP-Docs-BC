@@ -24,11 +24,14 @@ The default settings are displayed in the ExFlow Vendor Setup list. Utilize Pers
 |**View**	|Open the current Vendor Setup Card
 |**Related --> Auto Receiving Line Types**	|Edit or view Line Types that should be automatically received for a specific vendor.<br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
 
+<br/> 
+
 ### Vendor Setup Card Sections
 
 Open the ExFlow Vendor Setup card to view/edit ExFlow related settings per vendor. Click on the section or ''Show more'' to display all settings.  
 
-
+The function ''Item No. Matching Priority'' is easily accessed in the Vendor Setup Card. <br/> Read more about this under section [***Item No. Matching Priority***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
+<br/> 
 
 ![ExFlow Vendor Setup](@site/static/img/media/vendor-setup-card-sections-001.png)
 
@@ -107,6 +110,7 @@ The option ''From ExFlow Setup'' is set per default in most settings, meaning th
 |**Auto Approve Invoices**|  	Specifies if the invoice should be auto approved if the related order is approved. <br/><br/> Read more about this under section [***Auto Approve Invoices***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
 |**Max. Invoice Amount for System Approval (LCY) **| Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
 |**User for Automatic Approval**|  	Specifies the ExFlow user that should be used for auto approved invoices. If this setting is empty, then the id of the logged in BC user is used
+|**Check Direct Unit Cost**| Specify if ExFlow should check the Unit Cost on the invoice line when matching invoices against purchase orders. The imported invoice needs to be line interpreted for this to work.
 
 <br/>
 

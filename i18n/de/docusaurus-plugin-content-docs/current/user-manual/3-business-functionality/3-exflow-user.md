@@ -1,27 +1,28 @@
 ---
-title: ExFlow User
+title: ExFlow Benutzer
 sidebar_position: 3
 hide_title: true
 ---
+
 ## ExFlow Benutzer
 
 Um sich bei ExFlow Web anzumelden, müssen "ExFlow Benutzer" erstellt werden.
 
 Das Hinzufügen eines neuen Benutzers erstellt automatisch eine Genehmigungsgruppe mit demselben Namen.<br/>
 
-### Standardkonfiguration für ExFlow Benutzer hinzufügen
+### Standard-Setup für ExFlow Benutzer hinzufügen
 
 Gehe zu: ***Setup --> ExFlow Setup***
 
-Es sind auch einige Standardkonfigurationen in ExFlow Setup möglich, wie das Hinzufügen eines Standard-Sprachcodes, eines bevorzugten Genehmigungsclients oder vielleicht einer Standard-Benutzer-Codierungsregel-ID.
+Im ExFlow Setup sind auch einige Standardeinstellungen möglich, wie das Hinzufügen eines Standard-Sprachcodes, eines bevorzugten Genehmigungsklienten oder vielleicht einer Standard-Benutzer-Codierungsregel-ID.
 
-Eine der Einstellungen ist "Standard-Benutzer-Codierungsregel-ID". Dadurch wird die Einrichtung eines neuen ExFlow Benutzers erleichtert. Setzen Sie "Standard-Benutzer-Codierungsregel" in ExFlow Setup, fügen Sie eine neue ExFlow Benutzerberechtigungslinie mit einem bestimmten Unternehmen hinzu und die zuvor in ExFlow Setup definierte Benutzer-Codierungsregel wird angewendet.
+Eine der Einstellungen ist „Standard-Benutzer-Codierungsregel-ID“. Es erleichtert die Einrichtung eines neuen ExFlow Benutzers. Legen Sie „Standard-Benutzer-Codierungsregel“ im ExFlow Setup fest, fügen Sie eine neue ExFlow Benutzerberechtigungslinie mit einem bestimmten Unternehmen hinzu, und die zuvor im ExFlow Setup definierte Benutzer-Codierungsregel wird angewendet.
 
 | ExFlow Setup - Benutzer      |   | 
 |:-|:-|
-| **Sprachcode:**                            | Fügen Sie den Sprachcode für E-Mails hinzu, die an ExFlow-Genehmiger gesendet werden
-| **Bevorzugter Genehmigungsclient:**                | Gibt an, ob der Standard-Hyperlink in den E-Mails für Erinnerungen und Nachrichten den Benutzer zu Business Central oder ExFlow Web führt
-|**Genehmigungsauswahl-Timeout**| Gibt den Timeout an, der für die Genehmigungsauswahl verwendet wird
+| **Sprachcode:**                            | Sprachcode für E-Mails an ExFlow Genehmiger hinzufügen
+| **Bevorzugter Genehmigungsklient:**                | Gibt an, ob der Standard-Hyperlink in den E-Mails für Erinnerungen und Nachrichten den Benutzer zu Business Central oder ExFlow Web führt
+|**Genehmigungsauswahl-Timeout**| Gibt das Timeout für die Genehmigungsauswahl an
 |**Standard-Benutzer-Codierungsregel-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird
 |**Standard-Admin-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird
 |**Standard-Buchhalter-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird
@@ -30,212 +31,177 @@ Eine der Einstellungen ist "Standard-Benutzer-Codierungsregel-ID". Dadurch wird 
 |**Standard-Leser-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird
 |**Standard-Webdienst-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird
 |**Standard-Einkäufer-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird
-| **ExFlow-Referenz automatisch erstellen:**    | Wählen Sie diese Option aus, um automatisch ExFlow-Referenzen zu erstellen. <br/> Weitere Informationen finden Sie im Abschnitt [***Referenzcodes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
-|**Standard-Vertraulichkeits-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird <br/>
-<br/>
+| **ExFlow-Referenz automatisch erstellen:**    | Wählen Sie diese Option, um ExFlow-Referenzen automatisch zu erstellen. <br/> Lesen Sie mehr im Abschnitt [***Referenzcodes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
+|**Standard-Vertraulichkeits-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird <br/> <br/> Lesen Sie mehr über Berechtigungen im Abschnitt [***Berechtigungen für einen Business Central Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/) 
 
-![ExFlow Setup - Benutzer](./../../images/exflow-setup-users-001.png)
-
+![ExFlow Setup - Benutzer](@site/static/img/media/exflow-setup-users-001.png)
 
 ### ExFlow Benutzer aus Excel importieren
 
-Neben dem manuellen Hinzufügen neuer Benutzer ist es Administratoren möglich, ExFlow Benutzer durch den Import von Benutzern aus Excel hinzuzufügen. "Benutzer importieren".
+Neben dem manuellen Hinzufügen neuer Benutzer können Administratoren auch ExFlow Benutzer durch Importieren von Benutzern aus Excel hinzufügen "Benutzer importieren".<br/>
 
 Um aus Excel zu importieren, verwenden Sie die "Vorlage herunterladen" für die Excel-Tabelle.
 
-![ExFlow Benutzerliste](./../../images/exflow-users-001-export-import.png)
+![ExFlow Benutzerliste](@site/static/img/media/exflow-users-001-export-import.png)
 <br/><br/>
 
-### Manuell einen neuen Benutzer hinzufügen
+### Einen neuen Benutzer manuell hinzufügen
 
-Gehe zu: ***Setup --> ExFlow Manuelle Einrichtung --> ExFlow Benutzer***
+Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Benutzer***
 
 | ExFlow Benutzer |  |
 |:-|:-|
 | **Benutzer-ID:**                      | Benutzer-ID ohne Domäne hinzufügen
-| **Benutzername:**                    | Vollen Namen der Genehmiger hinzufügen
-| **E-Mail:**                        | Microsoft-Authentifizierung (AAD) E-Mail-Adresse, die ExFlow für die Kommunikation mit den Genehmigern verwendet, z.B. Anmeldung bei ExFlow Web, Erinnerungen, wenn der Genehmiger Dokumente zur Genehmigung hat, und ExFlow Kommentare aus dem Diskussionspanel/Chat
-| **Kontakt-E-Mail:**                | E-Mail-Adresse des verbundenen Systembenutzers in Business Central. Wenn die M365-E-Mail von der Kontakt-E-Mail abweicht, wird die Erinnerung an das Postfach an die Kontakt-E-Mail-Adresse gesendet. Die Anmeldung bei ExFlow Web erfolgt jedoch weiterhin über die M365/AAD-E-Mail
-| **Sprachcode:**                | In welcher Sprache E-Mails gesendet werden sollen
-| **Bevorzugter Genehmigungsclient:**    | Gibt an, ob der Hyperlink in den E-Mails für Erinnerungen und Nachrichten den Benutzer zu Business Central oder ExFlow Web führt
-| **Voller Dokumentenzugriff:**         | Gibt an, ob der Benutzer Zugriff auf ExFlow-Dokumente in allen Unternehmen haben soll
-| **Systembenutzer:**                  | Gibt an, ob der ExFlow-Benutzer auch ein gültiger Systembenutzer ist.
+| **Benutzername:**                    | Vollständige Namen der Genehmiger hinzufügen
+| **E-Mail:**                        | Microsoft-Authentifizierungs-E-Mail-Adresse (AAD), die ExFlow für die Kommunikation mit Genehmigern verwendet, d. h. Anmeldung bei ExFlow Web, Erinnerungen, wenn der Genehmiger Dokumente zur Genehmigung hat, und ExFlow-Kommentare aus dem Diskussionspanel/Chat
+| **Kontakt-E-Mail:**                | E-Mail-Adresse des verbundenen Systembenutzers in Business Central. Wenn die M365-E-Mail von der Kontakt-E-Mail abweicht, wird die Erinnerungs-E-Mail an die Kontakt-E-Mail-Adresse gesendet. Die Anmeldung bei ExFlow Web erfolgt jedoch weiterhin über die M365/AAD-E-Mail
+| **Sprachcode:**                | In welcher Sprache E-Mails gesendet werden
+| **Bevorzugter Genehmigungsklient:**    | Gibt an, ob der Hyperlink in den E-Mails für Erinnerungen und Nachrichten den Benutzer zu Business Central oder ExFlow Web führt
+| **Vollständiger Dokumentenzugriff:**         | Gibt an, ob der Benutzer Zugriff auf ExFlow-Dokumente in allen Unternehmen haben soll
+| **Systembenutzer:**                  | Gibt an, ob der ExFlow Benutzer auch ein gültiger Systembenutzer ist.
 | **Systembenutzername:**             | Verbundener Systembenutzer.
-| **Vorheriger Systembenutzername:**    | Wenn der verbundene Systembenutzer geändert wird, wird in diesem Feld der vorherige Wert angezeigt
-| **Zeitzone:**    | Zeigt die Zeitzone des Benutzers an, um den Zeitstempel in der lokalen Zeit darzustellen
-| **Blockiert:**                      | Hier wird angezeigt, ob der Genehmiger in allen Unternehmen blockiert ist <br/>Lesen Sie mehr im Abschnitt [***Genehmiger verlässt das Unternehmen***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
-
+| **Vorheriger Systembenutzername:**    | Wenn der verbundene Systembenutzer geändert wird, zeigt dieses Feld den vorherigen Wert an
+| **Zeitzone:**    | Zeigt die Zeitzone des Benutzers an, um den Zeitstempel in der lokalen Zeit anzuzeigen
+| **Gesperrt:**                      | Dies zeigt an, ob der Genehmiger in allen Unternehmen gesperrt ist <br/>Lesen Sie mehr im Abschnitt [***Genehmiger verlässt das Unternehmen***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
 
 #### E-Mail-Erinnerungen
 | E-Mail-Erinnerungen |  |
 |:-|:-|
-| **Nicht genehmigte Dokumente:**         | Wählen Sie Ja/Nein aus, ob ExFlow E-Mails senden soll, wenn der Genehmiger Dokumente zur Genehmigung hat
-| **Diskussionspanel:**             | Wählen Sie Ja/Nein aus, ob ExFlow E-Mails senden soll, wenn der Genehmiger im Diskussionspanel/Chat erwähnt wird
-| **Vertragsrechnungserinnerung:**    | Wählen Sie Ja/Nein aus, ob ExFlow E-Mails senden soll, wenn Vertragsrechnungen fehlen
+| **Ungeprüfte Dokumente:**         | Wählen Sie Ja/Nein, ob ExFlow E-Mails senden soll, wenn der Genehmiger Dokumente zur Genehmigung hat
+| **Diskussionspanel:**             | Wählen Sie Ja/Nein, ob ExFlow E-Mails senden soll, wenn der Genehmiger im Diskussionspanel/Chat erwähnt wird
+| **Vertragsrechnungs-Erinnerung:**    | Wählen Sie Ja/Nein, ob ExFlow E-Mails senden soll, wenn Vertragsrechnungen fehlen
 
-Sowohl nicht genehmigte Dokumente als auch ungelesene Kommentare werden weiterhin in ExFlow Web angezeigt.
-
+Sowohl ungeprüfte Dokumente als auch ungelesene Kommentare werden weiterhin in ExFlow Web angezeigt.
 
 #### Business Central-Benachrichtigungen
-Wenn der ExFlow-Benutzer ein Systembenutzer ist, können Benachrichtigungen in Business Central hinzugefügt werden.
+Wenn der ExFlow Benutzer ein Systembenutzer ist, können Benachrichtigungen in Business Central hinzugefügt werden.
 
 | Business Central-Benachrichtigungen |  |
 |:-|:-|
-| **Nicht genehmigte Dokumente:**         | Wählen Sie Ja/Nein aus, ob ExFlow Benachrichtigungen für nicht genehmigte Dokumente für den Genehmiger (Systembenutzer) auf der Rollencenter-Seite anzeigen soll
-| **Diskussionspanel:**             | Wählen Sie Ja/Nein aus, ob ExFlow Benachrichtigungen für Erwähnungen im Diskussionspanel/Chat für den Genehmiger (Systembenutzer) auf der Rollencenter-Seite anzeigen soll
-| **Vertragsrechnungserinnerung:**    | Wählen Sie Ja/Nein aus, ob ExFlow Benachrichtigungen senden soll, wenn Vertragsrechnungen fehlen
+| **Ungeprüfte Dokumente:**         | Wählen Sie Ja/Nein, ob ExFlow Benachrichtigungen für ungeprüfte Dokumente für den Genehmiger (Systembenutzer) auf der Rollencenter-Seite anzeigen soll
+| **Diskussionspanel:**             | Wählen Sie Ja/Nein, ob ExFlow Benachrichtigungen für Erwähnungen im Diskussionspanel/Chat für den Genehmiger (Systembenutzer) auf der Rollencenter-Seite anzeigen soll
+| **Vertragsrechnungs-Erinnerung:**    | Wählen Sie Ja/Nein, ob ExFlow Benachrichtigungen senden soll, wenn Vertragsrechnungen fehlen
 
-![ExFlow-Benutzerkarte](./../../images/exflow-user-004.png)
+![ExFlow Benutzerkarte](@site/static/img/media/exflow-user-004.png)
 
-Erfahren Sie mehr über Benachrichtigungen im Abschnitt [***Genehmigungsworkflow --> Benachrichtigungen in Business Central***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#notifications-in-business-central).
+Erfahren Sie mehr über Benachrichtigungen im Abschnitt [***Genehmigungsworkflow --> Benachrichtigungen in Business Central.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#notifications-in-business-central)
 
+### Unternehmenszugriff und Webberechtigungsrolle unter Berechtigungen hinzufügen
 
-
-
-### Hinzufügen von Unternehmenszugriff und Web-Berechtigungsrolle unter Berechtigungen
-
-| Berechtigungen |  |
+| Berechtigungen|  |
 |:-|:-|
-| **Unternehmensname:**             | Fügen Sie das Unternehmen aus der Liste hinzu, auf das der Benutzer zugreifen soll. Um einen Genehmiger zu markieren, muss der Benutzer Zugriff auf das Unternehmen haben, in dem das Dokument erstellt wurde.
-| **Web-Berechtigungsrolle:**      | Alle ExFlow-Benutzer benötigen eine Web-Benutzerrechtsstufe für ExFlow Web. Die Berechtigungssetzung für den ExFlow-Benutzer gilt nur für die Web-Berechtigung. Ein ExFlow-Benutzer, der Dokumente in ExFlow verwalten soll, muss ein Systembenutzer sein, um ExFlow-Seiten öffnen zu können. Lesen Sie unten, wie Sie [***einen Systembenutzer erstellen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user). <br/><br/>**Genehmiger:** <br/>Der Genehmiger kann ein Dokument genehmigen, ablehnen oder auf "On Hold" setzen. Der Genehmiger hat nur Zugriff auf Dokumente, in denen der Genehmiger im Genehmigungsworkflow enthalten ist. Es sind keine Änderungen erlaubt.<br/><br/>**Genehmiger (Power):** <br/>Gleiche Berechtigung wie der Genehmiger. Hinzufügen und Weiterleiten an andere Genehmiger. Das Hinzufügen oder Ändern von Codierungen wie G/L-Konto oder Dimensionen ist erlaubt.<br/><br/>**Genehmiger (Super):** <br/>Gleiche Berechtigung wie Power User. Alle genehmigten Dokumente in der ExFlow-Historie anzeigen.<br/><br/> **Admin:** <br/>Admin-Berechtigung in ExFlow Web. Dieser Benutzer kann Einstellungen vornehmen, die für alle Genehmiger in ExFlow Web gelten. Lesen Sie mehr dazu im Abschnitt [***Web-Benutzerebenenberechtigungen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/web-user-level-permissions).
-| **Benutzer-Codierungsregel-ID:**              | Wenn ein Genehmiger Änderungen in der Codierung auf der Dokumentzeile in ExFlow Web vornehmen soll, können ExFlow-Benutzer-Codierungsregeln verwendet werden, um zu entscheiden/einzuschränken, welche Werte er/sie auswählen kann. Alle Genehmiger benötigen eine Codierungsregel. Lesen Sie mehr dazu im Abschnitt [***Business-Funktionalität --> Benutzer-Codierungsregeln***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/user-coding-rules#user-coding-rules).
-| **Zugehörige Ressourcennummer:**             | Es ist möglich, eine Ressource mit einem ExFlow-Benutzer zu verbinden, um automatisch einen bestimmten Genehmiger aus "Verantwortliche Person" auf einem Job hinzuzufügen. Lesen Sie mehr dazu im Abschnitt [***Business-Funktionalität --> Dynamischer Genehmigungsworkflow für Jobs***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-jobs).
-| **Zugehöriger Einkäufercode:**           | Fügen Sie einen Einkäufer hinzu, um eine Erinnerung zu senden, wenn Eingangsbelege fehlen. Dies erfordert auch die ExFlow-E-Mail-Einrichtung. Oder um die Genehmigungsregel basierend auf dem Einkäufer aufzubauen.
-| **Dimensionenfilter:**                 | Erweitert die Berechtigung des Genehmigers, die Historie in der Suche auf ExFlow Web zu sehen. Der Genehmiger kann alle Dokumente mit diesem Dimensionenwert sehen.
-| **Ersetzt durch Benutzer:**                 | Wenn der Genehmiger blockiert ist. Lesen Sie mehr dazu unter [***Genehmiger verlässt das Unternehmen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company).
-| **Maximaler Betrag für endgültige Genehmigung:**    | Gibt den maximalen Genehmigungsbetrag für den ausgewählten Genehmiger an. Nur anwendbar, wenn der Benutzer der letzte Genehmiger in einem Genehmigungsworkflow ist.
-| **Blockiert:**                          | Wenn der Genehmiger blockiert ist. Lesen Sie mehr dazu unter [***Genehmiger verlässt das Unternehmen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company).
-|**Zugriff auf vertrauliche Dokumente**|  Gibt an, ob der Benutzer Zugriff auf vertrauliche Dokumente hat oder nicht. Lesen Sie mehr dazu unter [***Vertrauliche Dokumente***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents).
+| **Unternehmensname:**             | Unternehmen aus der Liste hinzufügen, auf das der Benutzer Zugriff haben soll. Um einen Genehmiger markieren zu können, muss der Benutzer Zugriff auf das Unternehmen haben, in dem das Dokument erstellt wurde
+| **Webberechtigungsrolle:**      | Alle ExFlow Benutzer benötigen ein Webbenutzer-Recht für ExFlow Web   <br/> Die Berechtigung, die dem ExFlow Benutzer zugewiesen ist, gilt nur für Webberechtigungen   <br/>ExFlow Benutzer, die Dokumente in ExFlow verwalten sollen, müssen Systembenutzer sein, um ExFlow-Seiten öffnen zu können.     <br/><br/>Lesen Sie unten mehr darüber, wie Sie [***einen Systembenutzer erstellen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)    <br/><br/>**Genehmiger:** <br/>Genehmiger können ein Dokument genehmigen, ablehnen oder in den Status "In Bearbeitung" setzen      <br/>Der Genehmiger hat nur Zugriff auf Dokumente, bei denen er im Genehmigungsfluss enthalten ist. Änderungen sind nicht erlaubt<br/><br/>**Genehmiger (Power):** <br/>Gleiche Berechtigung wie Genehmiger. Hinzufügen und Weiterleiten an andere Genehmiger. Hinzufügen oder Ändern der Codierung ist erlaubt, z. B. G/L-Konto oder Dimensionen       <br/><br/>**Genehmiger (Super):** <br/>Gleiche Berechtigung wie Power User. Alle genehmigten Dokumente in der ExFlow-Historie anzeigen       <br/><br/> **Admin:** <br/>Admin-Berechtigung in ExFlow Web. Dieser Benutzer kann Einstellungen vornehmen, die für alle Genehmiger in ExFlow Web gelten.      <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Webbenutzer-Berechtigungen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/web-user-level-permissions)
+| **Benutzer-Codierungsregel-ID:**              | Wenn ein Genehmiger Änderungen an der Codierung der Dokumentzeile in ExFlow Web vornehmen können soll, können ExFlow Benutzer-Codierungsregeln verwendet werden, um zu entscheiden/einzuschränken, welche Werte er/sie auswählen kann. Alle Genehmiger benötigen eine Codierungsregel         <br/>Lesen Sie mehr darüber im Abschnitt [***Geschäftsfunktionalität --> Benutzer-Codierungsregeln***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/user-coding-rules#user-coding-rules)
+| **Zugehörige Ressourcen-Nr.:**             | Es ist möglich, eine Ressource mit einem ExFlow Benutzer zu verbinden, um automatisch einen bestimmten Genehmiger aus "Verantwortliche Person" im Job hinzuzufügen <br/>Lesen Sie mehr im Abschnitt [***Geschäftsfunktionalität --> Dynamischer Genehmigungsfluss für Jobs***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-jobs)
+| **Zugehöriger Einkäufercode:**           | Einkäufer hinzufügen, um eine Erinnerung zu senden, wenn Einkaufsbelege fehlen. Dies erfordert auch das ExFlow E-Mail-Setup. Oder um die Genehmigungsregel basierend auf dem Einkäufer zu erstellen
+| **Dimensionsfilter:**                 | Erweitert die Berechtigung des Genehmigers, um die Historie in der Suche auf ExFlow Web anzuzeigen <br/>Der Genehmiger kann alle Dokumente mit diesem Dimensionswert anzeigen
+| **Ersetzt durch Benutzer:**                 | Wenn der Genehmiger gesperrt ist. Lesen Sie mehr unter [***Genehmiger verlässt das Unternehmen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
+| **Maximaler Betrag für endgültige Genehmigung:**    | Gibt den maximalen Genehmigungsbetrag für den ausgewählten Genehmiger an. Gilt nur, wenn der Benutzer der letzte Genehmiger in einem Genehmigungsfluss ist
+| **Gesperrt:**                          | Wenn der Genehmiger gesperrt ist. Lesen Sie mehr unter [***Genehmiger verlässt das Unternehmen***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
+|**Zugriff auf vertrauliche Dokumente**|  Gibt an, ob der Benutzer Zugriff auf vertrauliche Dokumente hat oder nicht. Lesen Sie mehr unter [***Vertrauliche Dokumente***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
 
+![ExFlow Benutzerkarte](@site/static/img/media/exflow-user-permissions-001.png)<br/>
 
+### Systembenutzer erstellen
 
-![ExFlow Benutzerkarte](./../../images/exflow-user-permissions-001.png)<br/>
+Gehen Sie zu: ***Business Central Standard User***
 
-### Erstellen eines Systembenutzers
+Ein ExFlow-Benutzer kann auch aus einem Business Central-Benutzer erstellt werden, indem die Aktion „Create ExFlow User“ verwendet wird. Diese Aktion kann von der Business Central-Benutzerkarte oder der Hauptseite „Users“ aus erreicht werden.
 
-Gehe zu: ***Business Central Standardbenutzer***
+![Business Central User](@site/static/img/media/business-central-user-001.png)
 
-ExFlow-Benutzer können auch aus dem Business Central-Benutzer erstellt werden, indem Sie "ExFlow-Benutzer erstellen" verwenden. Die Aktion kann von der Business Central-Benutzerkarte oder der Hauptseite "Benutzer" aus erreicht werden.
+Wählen Sie auf der Seite „Users“ einen oder mehrere Benutzer aus und klicken Sie auf „Create ExFlow User“. Diese Aktion öffnet eine neue Seite, die eine temporäre Tabelle mit den ausgewählten Benutzern anzeigt und alle Werte präsentiert, die nach Abschluss in die ExFlow-Benutzer übernommen werden.
 
-![Business Central-Benutzer](./../../images/business-central-user-001.png)
+Die Spalte „ExFlow User Exists“ in der Tabelle zeigt an, ob der ExFlow-Benutzer bereits erstellt wurde oder nicht. Alle anderen Werte der verbleibenden Felder wurden von der Business Central-Benutzerkarte kopiert, können jedoch bei Bedarf geändert werden.
 
-Wählen Sie auf der Benutzerseite einen oder mehrere Benutzer aus und klicken Sie auf "ExFlow-Benutzer erstellen". Diese Aktion öffnet eine neue Seite, auf der eine temporäre Tabelle mit den ausgewählten Benutzern angezeigt wird, die alle Werte enthält, die nach Abschluss in die ExFlow-Benutzer übernommen werden.
+![ExFlow User Card - Associated System User](@site/static/img/media/business-central-user-002.png)
 
-Die Spalte "ExFlow-Benutzer vorhanden" in der Tabelle zeigt an, ob der ExFlow-Benutzer bereits erstellt wurde oder nicht. Alle anderen Werte aller anderen verbleibenden Felder wurden von der Business Central-Benutzerkarte kopiert, können aber bei Bedarf geändert werden.
-
-![ExFlow-Benutzerkarte - Zugehöriger Systembenutzer](./../../images/business-central-user-002.png)
-
-Die Benutzer-Codierungsregel-ID wird automatisch auf der neu erstellten ExFlow-Benutzerkarte hinzugefügt, abhängig von dem auf "Standard-Benutzer-Codierungsregel-ID" in der ExFlow-Einrichtung ausgewählten Wert.
+Die Benutzer-Coding-Regel-ID wird automatisch auf der neu erstellten ExFlow-Benutzerkarte hinzugefügt, abhängig vom in der ExFlow-Setup ausgewählten Wert „Default User Coding Rule ID“.
 
 Der Business Central-Benutzer wird automatisch als Systembenutzer mit dem ExFlow-Benutzer verknüpft.
 
-Die Berechtigungssätze des Benutzers werden automatisch auf der Benutzerkarte für die neu erstellten ExFlow-Benutzer aktualisiert. Abhängig von der angegebenen Rolle oder Web-Berechtigungsrollen wird der Business Central-Benutzer mit EX ADMIN oder EX APPROVER aktualisiert.
+Die Benutzerberechtigungssätze werden automatisch auf der Benutzerkarte für die neu erstellten ExFlow-Benutzer aktualisiert. Abhängig von der angegebenen Rolle oder Webberechtigungsrolle wird der Business Central-Benutzer mit EX ADMIN oder EX APPROVER aktualisiert.
 
 #### **Berechtigungen für einen Business Central-Benutzer**
-Dies sind alle verfügbaren Berechtigungen, die für einen Systembenutzer verwendet werden können.
+Dies sind alle verfügbaren Berechtigungssätze, die für einen Systembenutzer verwendet werden können.
 
 | Berechtigungssatz |  |
 |:-|:-|
-|**EX BASE**| Berechtigungssatz, der automatisch bei der Installation von ExFlow gewährt wird. Dies ist erforderlich, um auf Seiten und Karten zugreifen zu können, die ExFlow-Funktionalitäten enthalten (wie Bestellung, Angebotsanfrage usw.).<br/>
+|**EX BASE**| Berechtigungssatz, der automatisch bei der Installation von ExFlow gewährt wird. Dies ist erforderlich, um auf Seiten und Karten zuzugreifen, die ExFlow-Funktionalität enthalten (wie z. B. Bestellanforderung, Angebotsanforderung usw.).<br/>
 |**EX ADMIN**| Vollzugriff auf alle Tabellen und Seiten für ExFlow.<br/>
-|**EX ACCOUNTANT**| Eingeschränkter Zugriff auf Seiten. Kein Zugriff auf Einrichtungsseiten (außer Rechnungsstellung). Kann ExFlow-Benutzer verwalten.<br/>
+|**EX ACCOUNTANT**| Eingeschränkter Zugriff auf Seiten. Kein Zugriff auf Setup-Seiten (außer Seiten zur Rechnungsstellung). Kann ExFlow-Benutzer verwalten.<br/>
 |**EX READER**| Gleich wie EX BASE, jedoch nur mit Leseberechtigung.<br/>
-|**EX APPROVER**| Zugriff auf ExFlow-Suche und ExFlow-Genehmigungsdokumente. Wird verwendet, um Rechnungen in Business Central zu genehmigen.<br/>
-|**EX PURCHASER**| Zugriff auf Funktionen im Zusammenhang mit ExFlow für Bestellungen und Angebotsanfragen, wie das Hinzufügen von Genehmigern und das Ändern des Genehmigungsworkflows. Auch Zugriff auf ExFlow-Bestell-/Angebotsstatus.<br/>
-|**EX WEB SERVICE**| Wird für die Webanwendung verwendet und wird automatisch zugewiesen, wenn die Anwendung aus der ExFlow-Einrichtung erstellt wird. Nur für ExFlow Web und den Import von Dokumenten über den Webdienst erforderlich.
+|**EX APPROVER**| Zugriff auf ExFlow-Suche und ExFlow-Genehmigungsdokumente. Wird zum Genehmigen von Rechnungen innerhalb von Business Central verwendet.<br/>
+|**EX PURCHASER**| Zugriff auf Funktionen im Zusammenhang mit ExFlow bei Bestellungen und Angeboten, wie das Hinzufügen von Genehmigern und das Ändern des Genehmigungsablaufs. Auch Zugriff auf den ExFlow-Bestell-/Angebotsstatus.<br/>
+|**EX WEB SERVICE**| Wird für das Web verwendet und automatisch beim Erstellen der Anwendung aus dem ExFlow-Setup zugewiesen. Nur für ExFlow Web und das Importieren von Dokumenten über den Webdienst erforderlich.
 |**EX CONFIDENTIAL**| Wird für den Umgang mit vertraulichen Dokumenten verwendet.
 <br/>
 
+### Einen Vertreter während der Urlaubszeit hinzufügen
 
+Gehen Sie zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
 
-### Hinzufügen eines Vertreters während der Urlaubszeit
+Wenn ein Benutzer abwesend oder im Urlaub ist, kann ein Vertreter zugewiesen werden, der seine/ihre Dokumente bearbeitet.
 
-Gehe zu: ***Setup \--\> ExFlow Manuelle Einrichtung \--\> ExFlow Benutzer***
+Klicken Sie auf „Add Replacer“.
 
-Wenn ein Benutzer abwesend oder im Urlaub ist, kann ein Vertreter zugewiesen werden, der seine Dokumente bearbeiten kann.
+Wählen Sie den Benutzer, der ersetzt werden soll, im Feld „Approver“ aus und fügen Sie dann den Vertreter hinzu. Ein Benutzer kann in einem einzelnen Unternehmen oder in allen Unternehmen ersetzt werden, jedoch nur, wenn der Vertreter Zugriff auf das Unternehmen hat. Denken Sie daran, immer ein Start- und Enddatum festzulegen. Klicken Sie auf „Add Replacer“, wenn alle Informationen ausgefüllt sind.
 
-Klicke auf "Vertreter hinzufügen".
+![ExFlow User Card](@site/static/img/media/replacer-001.png)
 
-Wähle den Benutzer aus, der ersetzt werden soll, im Feld "Genehmiger" und füge dann den Vertreter hinzu. Ein Benutzer kann in einem einzelnen Unternehmen oder in allen Unternehmen ersetzt werden, jedoch nur, wenn der Vertreter Zugriff auf das Unternehmen hat. Denke daran, immer ein Start- und Enddatum festzulegen. Klicke auf "Vertreter hinzufügen", wenn alle Informationen ausgefüllt sind.
+![ExFlow Replacer](@site/static/img/media/replacer-002.png)
 
-![ExFlow Benutzerkarte](./../../images/replacer-001.png)
+Der ersetzte Benutzer kann weiterhin genehmigen, auch wenn ein Vertreter vorhanden ist. Beide können genehmigen. Beide erhalten E-Mail-Benachrichtigungen.
 
-![ExFlow Vertreter](./../../images/replacer-002.png)
-
-Der ersetzte Benutzer kann immer noch genehmigen, auch wenn ein Vertreter eingesetzt ist. Beide erhalten E-Mail-Benachrichtigungen.
-
-![ExFlow Genehmigungsgruppenkarte](./../../images/approval-group-008.png)
+![ExFlow Approval Group Card](@site/static/img/media/approval-group-008.png)
 <br/><br/>
 
 ### Genehmiger verlässt das Unternehmen
 
-Gehe zu: ***Setup \--\> ExFlow Manuelle Einrichtung \--\> ExFlow Benutzer***
+Gehen Sie zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
 
-Wähle den Benutzer aus, der das Unternehmen verlässt.
+Wählen Sie den Benutzer aus, der das Unternehmen verlässt.
 
-Wähle ein Unternehmen nach dem anderen aus und klicke auf "Benutzer blockieren/entsperren".
+Wählen Sie ein Unternehmen nach dem anderen aus und klicken Sie auf „Block/Unblock User“.
 
-![ExFlow Benutzerkarte](./../../images/exflow-user-006.png)
+![ExFlow User Card](@site/static/img/media/exflow-user-006.png)
 
-![Benutzer blockieren](./../../images/block-user-001.png)
+![Block User](@site/static/img/media/block-user-001.png)
 
-Beim Blockieren des Benutzers füge einen Vertreter im Feld "Neuer Benutzer" hinzu. Dadurch werden die Dokumente in den Genehmigungsworkflows aktualisiert.
+Wenn Sie den Benutzer blockieren, fügen Sie im Feld „New User“ einen Vertreter hinzu. Dies aktualisiert die Dokumente in den Genehmigungs-Workflows.
 
-Wähle das Kontrollkästchen "Historie ersetzen" aus, um dem neuen Benutzer Zugriff auf die historischen Dokumente des blockierten Benutzers zu geben.
+Wählen Sie das Kontrollkästchen „Replace History“, um dem neuen Benutzer Zugriff auf die historischen Dokumente des blockierten Benutzers zu gewähren.
 
-Wähle "Genehmigungsregel und Codierungsregeln ersetzen" aus, um den blockierten Benutzer automatisch in allen bestehenden Regeln zu ersetzen. Oder erstelle/ändere Genehmigungen und Regeln manuell entsprechend der Situation.
+Wählen Sie „Replace Approval Rule and Coding Rules“, um den blockierten Benutzer automatisch in allen bestehenden Regeln zu ersetzen. Oder erstellen/ändern Sie Genehmigungen und Regeln manuell je nach Situation.
 
-Wenn der ExFlow Benutzer in allen Unternehmen blockiert ist, wird die Benutzerkarte automatisch blockiert und aus der ExFlow Benutzerliste ausgeblendet.
+Wenn der ExFlow-Benutzer in allen Unternehmen blockiert ist, wird die Benutzerkarte automatisch blockiert und aus der ExFlow-Benutzerliste ausgeblendet.
 
-Administratoren können ausgeblendete blockierte Benutzer mit der Funktion "Anzeigen/Ausblenden blockiert" anzeigen.
+Administratoren können ausgeblendete blockierte Benutzer mit der Funktion „View / Hide Blocked“ anzeigen.
 
-Um zu sehen, wer den blockierten Benutzer ersetzt, öffne die ExFlow Benutzerkarte.
+Um zu sehen, wer den blockierten Benutzer ersetzt, öffnen Sie die ExFlow-Benutzerkarte.
 
-![ExFlow Benutzerkarte](./../../images/exflow-user-007.png)
+![ExFlow User Card](@site/static/img/media/exflow-user-007.png)
 <br/><br/>
 
 ### Genehmiger, der das Unternehmen verlassen hat, kehrt zurück
 
-Gehe zu: ***Setup \--\> ExFlow Manuelle Einrichtung \--\> ExFlow Benutzer***
+Gehen Sie zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
 
-Um einen blockierten Genehmiger wiederherzustellen, klicken Sie auf "Anzeigen/Ausblenden blockiert", um alle blockierten Benutzer anzuzeigen. Wählen Sie den Benutzer aus und klicken Sie auf "Benutzer blockieren/entsperren".
+Um einen blockierten Genehmiger wieder einzusetzen, klicken Sie auf „View/Hide Blocked“, um alle blockierten Benutzer anzuzeigen. Wählen Sie den Benutzer aus und klicken Sie auf „Block/Unblock User“.
 
-![Berechtigungen der ExFlow Benutzerkarte](./../../images/exflow-user-permissions-002.png)
+![ExFlow User Card Permissions](@site/static/img/media/exflow-user-permissions-002.png)
 
-Klicken Sie auf "Ja", um die Frage "Benutzer entsperren?" zu bestätigen.
+Klicken Sie auf „Ja“ bei der Frage „Unblock“.
 
-![Benutzer entsperren](./../../images/do-you-want-to-unblock-001.png)
+![Unblock User](@site/static/img/media/do-you-want-to-unblock-001.png)
 
-Der zurückgekehrte Benutzer muss nun manuell in Genehmigungs- und Codierungsregeln hinzugefügt werden, falls bei der Blockierung des Benutzers die Option "Genehmigungsregel und Codierungsregeln ersetzen" verwendet wurde.
+Der zurückgekehrte Benutzer muss nun manuell wieder in die Genehmigungs- und Coding-Regeln aufgenommen werden, wenn „Replace Approval Rule and Coding Rules“ beim Blockieren des Benutzers verwendet wurde.
 <br/><br/>
 
 ### Genehmiger ändert E-Mail-Adresse
 
-Gehe zu: ***Setup \--\> ExFlow Manuelle Einrichtung \--\> ExFlow Benutzer***
+Gehen Sie zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
 
 Erstellen Sie einen neuen ExFlow-Benutzer mit der neuen E-Mail-Adresse.
-Öffnen Sie den Benutzer mit der vorherigen E-Mail-Adresse und verwenden Sie die Funktion "Benutzer blockieren/entsperren". Fügen Sie den neuen Benutzer im Feld "Neuer Benutzer" hinzu und aktivieren Sie sowohl "Zugriff auf die Historie" als auch "Genehmigungsregel ersetzen".
-
-<br/><br/>
-
-### Genehmiger, der das Unternehmen verlassen hat, kehrt zurück
-
-Gehe zu: ***Setup \--\> ExFlow Manuelle Einrichtung \--\> ExFlow Benutzer***
-
-Um einen blockierten Genehmiger wiederherzustellen, klicken Sie auf "Anzeigen/Ausblenden blockiert", um alle blockierten Benutzer anzuzeigen. Wählen Sie den Benutzer aus und klicken Sie auf "Benutzer blockieren/entsperren".
-
-![Berechtigungen der ExFlow Benutzerkarte](./../../images/exflow-user-permissions-002.png)
-
-Klicken Sie auf "Ja", um die Frage "Benutzer entsperren?" zu bestätigen.
-
-![Benutzer entsperren](./../../images/do-you-want-to-unblock-001.png)
-
-Der zurückgekehrte Benutzer muss nun manuell in Genehmigungs- und Codierungsregeln hinzugefügt werden, falls bei der Blockierung des Benutzers die Option "Genehmigungsregel und Codierungsregeln ersetzen" verwendet wurde.
-<br/><br/>
-
-### Genehmiger ändert E-Mail-Adresse
-
-Gehe zu: ***Setup \--\> ExFlow Manuelle Einrichtung \--\> ExFlow Benutzer***
-
-Erstellen Sie einen neuen ExFlow-Benutzer mit der neuen E-Mail-Adresse.
-Öffnen Sie den Benutzer mit der vorherigen E-Mail-Adresse und verwenden Sie die Funktion "Benutzer blockieren/entsperren". Fügen Sie den neuen Benutzer im Feld "Neuer Benutzer" hinzu und aktivieren Sie sowohl "Zugriff auf die Historie" als auch "Genehmigungsregel ersetzen".
+Öffnen Sie den Benutzer mit der vorherigen E-Mail-Adresse und verwenden Sie die Funktion „Block/Unblock User“. Fügen Sie den neuen Benutzer im Feld „New User“ hinzu und aktivieren Sie sowohl „Access History“ als auch „Replace Approval Rule“.

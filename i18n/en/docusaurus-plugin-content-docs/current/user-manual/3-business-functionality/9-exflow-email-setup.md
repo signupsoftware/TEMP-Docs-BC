@@ -4,10 +4,14 @@ sidebar_position: 9
 hide_title: true
 ---
 ## ExFlow Email Setup
-To send email reminders, ExFlow Email Setup is needed for each Email Type.
+ 
+Go to: **ExFlow Email Setup**
 
-Email reminders can be sent manually or by adding a job queue. 
-For setup, read more under section [***Approval Workflow --> Email Reminders***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#email-reminders)
+To send email reminders, ExFlow Email Setup is needed for each Email Type. Email reminders can be sent manually or by adding a job queue. For setup, read more under section [***Email Reminders.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#email-reminders)
+
+Please note that a Business Central standard Email Account must be set to be able to receive ExFlow emails. More information about this can be found at [***Microsoft Documentation***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email). For assistance regarding this, please contact your trusted Dynamics 365 Business Central implementation partner.
+
+The following ***Email Types*** can be utilized: 
 
 ### Unreceived Order
 Send reminders when purchase invoice in import journal is matched to an unreceived order. <br/> 
@@ -289,3 +293,51 @@ Send reminders when and approved purchase invoice matched to an unreceived order
 <br/><br/>
 
 
+
+### On hold Reminder
+Send reminders if a purchase document is set on hold.
+
+| General |  | 
+|:-|:-|
+| **Email Type:**           | On hold
+| **Process Type:**         | Scheduled
+| **Description:**          |Add a description. This will not be added to any email
+| **CC Email:**             | N/A
+| **Test Email Address:**   |Add an email address for test mode. ExFlow will send emails only to this user
+| **Send Attachment:**      | Send attachments will enclose purchase document PDF as attachment and users will receive one email per document
+| **ExFlow Web URL:**       | N/A
+| **Delay sending (days):** | Add No. of days to delay email reminders sent by Job Queue Entries
+| **Email Scenario:**       | Use ExFlow Default if connecting to separate email account with same scenario
+
+
+| Statistics |  | 
+|:-|:-|
+| **Last Sent**: | Shows date and time for last sent reminder
+| **No. of Email Logs**: | Shows No. of Email Logs
+| **No. Error Entries**: | Shows No. of Error Entries
+<br/><br/>
+
+
+
+### Approved Order/Quote	
+Send an email to the creator of the purchase order/quote when the purchase order/quote is approved. 
+
+| General |  | 
+|:-|:-|
+| **Email Type:**           | Approved Order/Quote
+| **Process Type:**         | Scheduled
+| **Description:**          |Add a description. This will not be added to any email
+| **CC Email:**             | N/A
+| **Test Email Address:**   |Add an email address for test mode. ExFlow will send emails only to this user
+| **Send Attachment:**      | Send attachments will enclose purchase document PDF as attachment and users will receive one email per document
+| **ExFlow Web URL:**       | N/A
+| **Delay sending (days):** | Add No. of days to delay email reminders sent by Job Queue Entries
+| **Email Scenario:**       | Use ExFlow Default if connecting to separate email account with same scenario
+
+
+| Statistics |  | 
+|:-|:-|
+| **Last Sent**: | Shows date and time for last sent reminder
+| **No. of Email Logs**: | Shows No. of Email Logs
+| **No. Error Entries**: | Shows No. of Error Entries
+<br/><br/>

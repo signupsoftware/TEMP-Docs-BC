@@ -31,7 +31,7 @@ Web Columns that exist and are visible on ExFlow web, have both the ‘’Curren
 
 If a column needs to be added for the web approvers, then simply stand on the selected web column code and then click on ''Add Column''.
 
-It’s possible to hide an existing web column on ExFlow Web by choosing ‘’Hidden’’ and then click on ‘’Modify Column’’. In this example, the ‘’Current Visibility’’ -box for the ‘’Job Task’’- column will then be unticked.  
+It’s possible to hide an existing web column on ExFlow Web by choosing ‘’Hidden’’ and then click on ‘’Modify Column’’. In this example, the ‘’Current Visibility’’ -box for the ‘’Project Task’’- column will then be unticked.  
 
 ![ExFlow Setup](@site/static/img/media/exflow-setup-edit-web-columns-002.png)
 

@@ -1,32 +1,32 @@
 ---
-title: Kopieren Sie Werte des Bestellkopfes
+title: Kopieren von Bestellkopfwerten
 sidebar_position: 27
 hide_title: true
 ---
-## Kopieren Sie Werte des Bestellkopfes
+## Kopieren von Bestellkopfwerten
 
-Für Kunden, die eine Übereinstimmung und Bestellung auf Kopfebene interpretieren, können einige Werte der Bestellung jetzt vom Bestellkopf auf den Rechnungskopf kopiert werden.<br/>
+Für Kunden, die eine Übereinstimmung auf Kopfebene interpretieren und bestellen, können einige Werte der Bestellung nun vom Bestellkopf auf den Rechnungskopf kopiert werden.<br/>
 
-Aktivieren Sie zunächst "Verwenden Sie Bestellkopfwerte auf der Rechnung" in der ExFlow-Konfiguration.<br/>
+Beginnen Sie mit der Aktivierung von "PO-Kopfwerte auf Rechnung verwenden" in der ExFlow-Einrichtung.<br/>
 
-Gehen Sie zu: ***ExFlow-Konfiguration - Bestellabgleich --> Verwenden Sie Bestellkopfwerte auf der Rechnung***
+Gehen Sie zu: ***ExFlow-Einrichtung – PO-Abgleich --> PO-Kopfwerte auf Rechnung verwenden***
 
-![Aktivieren Sie Bestellkopfwerte auf der Rechnung - ExFlow-Konfiguration](./../../images/exflow-setup-po-matching-008.png)
+![Aktivieren Sie die Verwendung von PO-Kopfwerten auf Rechnung – ExFlow-Einrichtung](@site/static/img/media/exflow-setup-po-matching-008.png)
 
-Wählen Sie die zu kopierenden Felder in der "Bestellkopfwerte auf der Rechnung einrichten"-Option aus.<br/>
+Wählen Sie die Felder aus, die in der „Einrichtung der PO-Kopfwerte auf Rechnung“ kopiert werden sollen.<br/>
 
-Gehen Sie zu: ***ExFlow-Konfiguration - Verwandte --> Erweitert --> Bestellkopfwerte auf der Rechnung einrichten***
+Gehen Sie zu: ***ExFlow-Einrichtung – Verwandt --> Erweitert --> PO-Kopfwerte auf Rechnung Einrichtung***
 
-![Kopieren Sie Werte des Bestellkopfes - Einrichtung](./../../images/po-header-value-on-invoice-setup-001.png)
+![Kopieren von Bestellkopfwerten – Einrichtung](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 
-Für die US- und CA-Lokalisierung können auch die steuerpflichtigen und steuerlichen Bereiche von der Bestellung auf die Eingangsrechnung kopiert werden.
+Für die US- und CA-Lokalisierung können auch Steuerpflichtig und Steuergebiet von der Bestellung auf die Rechnung kopiert werden.
 
-![Kopieren Sie Werte des Bestellkopfes - Einrichtung CA - US](./../../images/po-header-value-on-invoice-setup-002-ca-us.png)
+![Kopieren von Bestellkopfwerten – Einrichtung CA - US](@site/static/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
 
-Die Verwendung von Bestellkopfwerten auf der Rechnung kann pro Lieferant in der ExFlow-Lieferantenkonfiguration ausgewählt werden.<br/>
+Die Verwendung von PO-Kopfwerten auf Rechnung kann pro Lieferant aus der ExFlow-Lieferanteneinrichtung ausgewählt werden.<br/>
 
-Gehen Sie zu: ***ExFlow-Lieferantenkonfiguration --> ExFlow-Lieferantenkonfigurationskarte*** --> Klicken Sie auf "Mehr anzeigen" im Schnellregister "Bestellabgleich".
+Gehen Sie zu: ***ExFlow-Lieferanteneinrichtung --> ExFlow-Lieferanteneinrichtungskarte*** --> Drücken Sie „Mehr anzeigen“ auf der PO-Abgleich-Schnellregisterkarte.
 
-Die zu kopierenden Felder verwenden immer die Einstellungen aus der ExFlow-Konfiguration.
+Die zu kopierenden Felder verwenden immer die Einstellungen aus der ExFlow-Einrichtung.
 
-![Kopieren Sie Werte des Bestellkopfes - Lieferantenkonfigurationskarte](./../../images/vendor-setup-card-use-po-header-001.png)
+![Kopieren von Bestellkopfwerten – Lieferanteneinrichtungskarte](@site/static/img/media/vendor-setup-card-use-po-header-001.png)

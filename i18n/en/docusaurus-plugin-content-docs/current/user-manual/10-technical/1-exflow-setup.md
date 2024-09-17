@@ -28,7 +28,7 @@ Go to: **ExFlow Setup --> Actions --> Functions** <br/>
 |**Apply/ Update Default ExFlow Security Roles** 	|Creates default Web User Level Permissions if none exist or are changed. <br/><br/> Read more about this under section [***Web User Level Permissions***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/web-user-level-permissions)
 |**Copy Setup**	|Copy setup from another company within same tenant by selecting tables (for example Approval Rules) to be copied from an already ExFlow configured company. <br/><br/> Read more about this under section  [***Copy Setup from another company***](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#copy-setup-from-another-company)
 |**Blob Storage Mgmt**	|Opens the ExFlow Storage Management Setup. <br/><br/> Read more about this under section  [***Generic Blob Storage***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/generic-blob-storage#generic-blob-storage) and [***OAuth 2.0 Applications and Storage Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/oauth-storage-setup#oauth-20-applications-and-storage-setup)
-|**Power BI**	|**Create Power BI Web Services**:<br/>Creates Web Services for Power BI<br/><br/>**Delete Power BI Web Services:**<br/>Deletes all Web Services for Power BI<br/><br/>**Get BC Datasource:**<br/>This function creates a URL string (Datasource) for the BC clint. Use this link and paste it into Power BI when running the template<br/><br/>**Get Power BI template:**<br/>Opens a website for downloading template<br/><br/>Read more about this under section [***Power BI***](https://docs.exflow.cloud/business-central/docs/user-manual/business-intelligence-and-reporting/power-bi#power-bi)
+|**Power BI**	|**Create Power BI Web Services**:<br/>Creates Web Services for Power BI<br/><br/>**Delete Power BI Web Services:**<br/>Deletes all Web Services for Power BI<br/><br/>**Get BC DataSource:**<br/>This function creates a URL string (DataSource) for the BC clint. Use this link and paste it into Power BI when running the template<br/><br/>**Get Power BI template:**<br/>Opens a website for downloading template<br/><br/>Read more about this under section [***Power BI***](https://docs.exflow.cloud/business-central/docs/user-manual/business-intelligence-and-reporting/power-bi#power-bi)
 |**Export/Import Setups**	|Export and Import ExFlow Setup (.json file) between environments. <br/><br/> Read more about this under section [***Export/Import ExFlow data***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/export-import-setup#exportimport-exflow-data) 
 |**Upgrade ExFlow Data from CAL**	|Run an ExFlow migration for a current company or all companies. <br/><br/> Read more about this under section [***Upgrade and migrate ExFlow data***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/upgrade-exflow-data-from-cal#upgrade-and-migrate-exflow-data)
 |**Migrate Documents**	|Open the Document Migration tool. <br/><br/> Read more about this under section [***Upgrade and migrate ExFlow data***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/upgrade-exflow-data-from-cal#upgrade-and-migrate-exflow-data)
@@ -49,11 +49,13 @@ Go to: **ExFlow Setup --> Related --> Advanced**
 |**Vendor ID Setup**	|Displays Vendor ID fields and the ExFlow Data Capture export order
 |**FactBox Default Sizes**	|Edit/restore FactBox Sizes for different ExFlow pages <br/><br/> Read more about this under section [***Set FactBox Default Size***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/set-factbox-default-size#set-factbox-default-size)
 |**Payment Validation Setup**	|Enter fields to check in Payment Validation during the import and data interpretation process. <br/><br/> Read more about this under section [***Payment Validation Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-setup)
-|**Set Server Computer/ Instance Names**	| Set server or instance name from current environment
-|**Set Company Name**	| Set company name from current environment
 |**Preliminary Posting Setup**	|Opens the Preliminary Posting Setup. <br/> Note: This setting must be activated under the ‘‘Preliminary Posting’’ section to be viewed. <br/><br/>Read more about this under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
 |**PO Header Values on Invoice Setup**	|Opens the PO Header Values on Invoice Setup page. Note: This setting must be activated under the ‘’PO Matching’’ section to be viewed. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
 |**Auto Receive Line Type Setup**	|Show or edit Line Types that should be automatically received.<br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
+|**Re-Invoicing Setup**| Opens the setup page for Re-Invoicing. <br/><br/> Read more about this under section [***Re-Invoicing***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing)
+|**Item No. Matching Priority**| This function will give the opportunity to setup priority list in the Item No. matching process by Matching Type such as OCR Mapping or Item Reference etc.  <br/><br/> Read more about this under section [***Item No. Matching Priority***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
+|**Bypass Verify Changes Setup**| Opens the settings window for bypassing verify changes. <br/><br/> Read more about this under section [***Bypass Verify Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/bypass-verify-changes)
+
 
 <br/>
 
@@ -71,8 +73,8 @@ Find all ExFlow Setup sections described according to below. <br/>
 |General||
 |:-|:-|	
 |**Predefined Account**	|Specifies the default G/L account that is used by ExFlow when creating a default invoice line on newly imported (expense) invoices. Can be overridden on a per-vendor basis
-|**Propose VAT Line**	|Specifies if a separate VAT line should be created automatically (when importing invoices) or if Business Central standard VAT handling should be used. Make sure to fill in the fields VAT Prod. Posting Group 0% and VAT Prod. Posting Group 100%.
-|**Automatic Inward Registration (SweBase) **	|Specifies if the Inward Registration should be generated and posted from Purchase Lines (Suggest from Lines function in SweBase)
+|**Propose VAT Line**	|Specifies if a separate VAT line should be created automatically (when importing invoices) or if Business Central standard VAT handling should be used. Make sure to fill in the fields VAT Prod. Posting Group 0% and VAT Prod. Posting Group 100%.  <br/><br/> Read more about this function under [***Propose VAT Lines***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/propose-vat-lines)
+|**Automatic Inward Registration (SweBase)**	|Specifies if the Inward Registration should be generated and posted from Purchase Lines (Suggest from Lines function in SweBase)
 |**Standard Prod. Posting Group**	|Specifies the default Product Posting Group to be used by ExFlow if the Product Posting Group is missing on the document line when the line is created in the import journal
 |**Standard VAT Prod. Posting Group** 	|Specifies the default Product Posting Group to be used by ExFlow if the Product Posting Group is missing on the document line when the line is created in the import journal
 |**Set Document Date to**	|Specifies if the Document Date on the imported invoice should be set to the posting date if/when the posting date is changed
@@ -84,14 +86,15 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**VAT Prod. Posting Group 100%** 	|Specifies the VAT Prod. Posting Group for "Only VAT" when the setting "Propose VAT line" is selected
 |**Block Amt. Change Approved Line** 	|Specifies if amount changes should be blocked in approved invoice lines.
 |**Copy First Approver to the Approval Flow** 	|Specifies if the "First Approver filter" from the approval rule for a specific invoice line also should be added (as first approver) to the approval proposal
-|**Default Job Task No. ** 	|Default Job Task No. will be added on lines with Job No. if no Job Task is selected.
+|**Default Project Task No.** 	|Default Project Task No. will be added on lines with Project No. if no Project Task is selected.
 |**Allow Changes of Approved Documents**	|Specifies if an ExFlow admin is allowed to modify a purchase document header and/or lines with status Approved.
-|**Prepmt. Inv. Nos. **	|Add a Prepayment Invoice No Series. Should not be the same as Posted Invoice Nos. in Purchases & Payables Setup since this will cause a gap and create an empty posted invoice to fill this gap in the number series. <br/><br/> Read more about this under section [***Prepayment Invoices***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/prepayment-invoices#prepayment-invoices)
+|**Require Approval**	|When this is activated, the user will be required to have the ExFlow Approval flag ticked on the Invoice/Credit Memo before it can be posted. (If it is an Order/Quote before it can be released.)  <br/><br/> Read more about this under section [***Require Approval***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/require-approval)
+|**Prepmt. Inv. Nos.**	|Add a Prepayment Invoice No Series. Should not be the same as Posted Invoice Nos. in Purchases & Payables Setup since this will cause a gap and create an empty posted invoice to fill this gap in the number series. <br/><br/> Read more about this under section [***Prepayment Invoices***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/prepayment-invoices#prepayment-invoices)
 |**Payment Validation** 	|Specifies if the payment validation process will be applied during the import and data interpretation process. <br/><br/> Read more about this under section [***Payment Validation Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-setup)
 |**Suggest Recipient Bank Account** 	|Specifies if the Suggestion of Recipient Bank Account is activated. <br/><br/> Read more about this under section [***Suggest Recipient Bank Account***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#suggest-recipient-bank-account)
 |**Move Deferral Forward** 	|When posting date in Deferral Schedule is before allowed posting date for the user, that period will be posted on first allowed posting date in General Ledger Setup or User Setup. ExFlow will only move deferrals forward for closed periods. <br/><br/> Read more about this under section [***Move Deferral Forward***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#move-deferral-forward)
 
-<br/>
+<br/> 
 
 ### Doc. Creation Checks
 
@@ -102,9 +105,9 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Check Dimensions**	|Specifies if the standard dimension settings in Business Central should be checked when the invoice is created
 |**Check Minimum No. of Approvers** 	|Specifies if there should be a check of minimum number of approvers when creating purchase document.<br/><br/> Read more about this under section [***Check Minimum No. of Approvers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/minimum_no_of_approvers#setup-minimum-no-of-approvers)
 |**Test Amounts** 	|Specifies if the Gross/Net/Vat amounts on the document should checked for variances (difference between sum of document lines and the corresponding amount in the document header) before the invoice is created
-|**Max. Gross Difference Allowed (LCY) ** 	|Specifies the max document gross amount variance (in LCY) allowed when "Test Amounts" is active
-|**Max. Net Difference Allowed (LCY) ** 	|Specifies the max document net amount variance (in LCY) allowed when "Test Amounts" is active
-|**Max. VAT Difference Allowed (LCY) ** 	|Specifies the max document vat amount variance (in LCY) allowed when "Test Amounts" is active
+|**Max. Gross Difference Allowed (LCY)** 	|Specifies the max document gross amount variance (in LCY) allowed when "Test Amounts" is active
+|**Max. Net Difference Allowed (LCY)** 	|Specifies the max document net amount variance (in LCY) allowed when "Test Amounts" is active
+|**Max. VAT Difference Allowed (LCY)** 	|Specifies the max document vat amount variance (in LCY) allowed when "Test Amounts" is active
 |**Match Vendor's Currency Code**	|Specifies if the currency code on the imported document must match the currency code on the vendor card. <br/><br/> Read more about this under section [***Match Vendor's Currency Code***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#match-vendors-currency)
 |**Due Date Warning when Older Than X Days** 	|Specifies the max # of days that the document due date may deviate from today's date. 0 = disables this check
 |**Warning when VAT Differs from Setup** 	|Specifies if the calculated vat percentage on the document must exist as a setting in the VAT Posting Setup
@@ -126,12 +129,13 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Minimum No. of Approvers** 	|Specifies the minimum numbers of approvers on an invoice line. If the actual numbers of approvers are less, then posting of the invoice is not allowed. 0 = disabled. <br/><br/> Read more about this under section [***Minimum No. of Approvers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/minimum_no_of_approvers#minimum-no-of-approvers)
 |**Delete G/L Account Lines with Line Amount = Zero** 	|Specifies if the G/L Account Lines with Line Amount = Zero should be deleted during Update Document in Verify Changes from Approval Status. <br/><br/> Read more about this under section [***Delete G/L Account Lines with Line Amount = Zero***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#delete-gl-account-lines-with-line-amount--zero)
 |**Auto. Assign of VAT Diff. for Posting** 	|Specifies if automatic assignment of VAT Difference should be done if the difference of VAT on lines and header is within Max. Allowed VAT Difference
+|**Bypass Verify Changes**| Specifies if the Verify Changes from Approval Status should be bypassed after document has been approved. Opens the settings window for bypassing verify changes. <br/><br/> Read more about this under section [***Bypass Verify Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/bypass-verify-changes)
 
 <br/>
 
 ### Preliminary Posting
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-preliminary-posting-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-preliminary-posting-001.png)
 
 |Preliminary Posting||
 |:-|:-|	
@@ -143,6 +147,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Invoice Rounding**|  	Check if Gross Amount depending on Max. Diff. Gross Amount difference with Line amount, add a rounded line when posting an invoice
 |**Posting Description**|  	Specifies the posting description for all preliminary posting lines in G/L Entry.
 |**Reverse Posting Description**|  	Specifies the posting description for all reversed preliminary posting lines in G/L Entry. <br/><br/> Read more about this under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
+| **VAT Prod. Posting Group 0%:**   | Add VAT Prod. Posting Group with 0% to preliminary post without VAT instead of VAT Prod. Posting Group added on document line. This posting will be reversed and VAT posting gets posted with VAT Prod. Posting Group added to invoice only on final posting. 
 
 <br/>
 
@@ -153,7 +158,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |PO Matching||
 |:-|:-|	
 |**Match Documents To**|  	Specifies if ExFlow should match and retrieve lines from Purchase Orders or from Posted Receipts, or from both Orders and Receipts. <br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
-|**Automatically Receive Purchase Order Lines**|  	Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order" or "Order and Receipt". 
+|**Automatically Receive Purchase Order Lines**|  	Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order" or "Order and Receipt". <br/><br/>When running Verify Changes in Approval Status, the purchase order matched lines receipt will be posted on Invoice Document Date. <br/> VAT Date on purchase order header and Deferral Posting Dates on purchase order lines will automatically be updated if purchase order Posting date is different than Invoice Posting Date. <br/> If both purchase order and Invoice have the same posting date when running Verify Changes, there will be no updates on the purchase order. <br/>Purchase order´s Posting Date will also be updated if blank. (Purchase and Payable Setup - Default Posting Date = No Date)
 |**Automatically Retrieve Lines**|  	Automatically retrieve all available lines from the Purchase Order or Posted Purchase Receipt when matching on header level.
 |**Auto Approve Invoices**|  	Specifies if the invoice should be auto approved if the related order is approved. <br/><br/> Read more about this under section [***Auto Approve Invoices***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
 |**User for Automatic Approval**|  	Specifies the ExFlow user that should be used for auto approved invoices. If this setting is empty, then the id of the logged in BC user is used
@@ -184,7 +189,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Disable Warning Messages for Order Matching**|	When disabled, no warning messages will be presented in the Import Journal regarding order matching.
 |**Use PO Header Values on Invoice**|  	Activate fields to transfer from Purchase Order to Invoice (Or Return Purchase Order to Credit Memo) in Import Journal when using order matching on header level. Selected values can be found and updated under Related --> Advanced --> PO Header values on Invoice Setup. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
 |**Send Unreceived Order Reminder on Approval**|  	An Unreceived Order Reminder is sent when the document is approved and not all the Order Lines are fully received. For this to work "Match Documents To" should be set to "Receipt". <br/><br/> Read more about this under section [***Unreceived Order - Approved***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
-|**Automatically Send Purchase Order/Quote Notification on Approval**|  	When enabled it will send Approved Order or Quote Notification when the document is approved.
+
 
 <br/>
 
@@ -248,11 +253,11 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 |Order and Quote Approval||
 |:-|:-|	
-|**Purchase Order Approval**| 	Specifies if purchase order should be used
+|**Purchase Order Approval**| 	Specifies if purchase order approval should used
 |**Order Report**| 	Specifies the report id for the report that is used when creating order documents
 |**Order Report Name**| 	Specifies the report name for the report that is used when creating order documents
 |**Only Receive Approved Order**| 	Setting this will only allow to post receipts on Orders that are Approved
-|**Purchase Quote Approval**| 	Specifies if purchase quote should be used
+|**Purchase Quote Approval**| 	Specifies if purchase quote approval should be used
 |**Quote Report**| 	Specifies the report id for the report that is used when creating quote documents
 |**Quote Report Name**| 	Specifies the report name for the report that is used when creating quote documents
 |**Auto Approve Order created from Quote**| 	Select if the Order created from the Approved Quote should be Automatically set to Approved. All Approvers from the Quote will be copied to the order.
@@ -261,6 +266,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Check Minimum No. of Approvers for Quotes and Orders**| 	Specifies if there should be a check of minimum number of approvers when verifying purchase Quote or Order.
 |**Copy Quote PDF to Order**| 	Adds a PDF of the Quote on the Order when it is created.
 |**Block Print/Send unapproved**| 	Specifies if Printing or Sending from an Order or Quote should be blocked if the Order or Quote is sent out on approval and not fully approved.
+|**Send Email For Approved Order/Quote**|  	When enabled it will send Approved Order or Quote Notification to the Order- or Quote creator when the document is approved.  <br/><br/> Read more about this under section [***Approved Order/Quote***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
 
 <br/>
 
@@ -306,7 +312,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Check Dimensions in Approval**| 	Specifies if ExFlow should check the dimension setup in BC before allowing approval of an invoice line
 |**Always Propose New Approvers**| 	Specifies if ExFlow should evaluate the approval rules and try to find new (if any) approval flow based on new coding. <br/><br/> Read more about this under section  [***Always Propose New Approvers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#always-propose-new-approvers)
 |**Max. Diff. for Gross Amount in Approval (LCY)**| 	Max gross amount difference allowed when approving in Business Central
-|**Approve VAT Lines**| 	Specifies if the VAT lines should be included in the approval flow. In case of usage of ExFlow Purchase Code on the header, this setting is ignored. <br/><br/> Read more about this under section [***Approve VAT Lines.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)
+|**Approve VAT Lines**| 	Specifies if the VAT lines should be included in the approval flow. In case of usage of ExFlow Purchase Code on the header, this setting is ignored. <br/><br/> Read more about this under section [***Approve VAT Lines***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)
 |**Check Minimum No. of Approvers before approving**| 	Specifies if a check will be made that minimum no. of approvers will be fulfilled, before the last approver approves the invoice. <br/><br/> Read more about Approval in Business Central under section [***Approval in Business Central***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/approval-in-business-central#approval-in-business-central)
 
 <br/>

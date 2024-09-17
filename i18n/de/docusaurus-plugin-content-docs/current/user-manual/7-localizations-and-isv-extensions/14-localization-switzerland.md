@@ -11,16 +11,21 @@ ExFlow unterstützt die französische und deutsche Sprache in Business Central.
 
 ### QR-Rechnungen
 
-Die Zahlungsreferenz, die aus dem QR-Code auf der Rechnung extrahiert wird, wird unterstützt.
+Die Zahlungsreferenz, die aus dem QR-Code der Rechnung extrahiert wird, wird unterstützt.
 
-Die importierte QR-Referenz füllt das Feld "Zahlungsreferenz" auf der Einkaufsrechnung in Business Central aus und wird auch auf der gebuchten Einkaufsrechnung für die Zahlung angezeigt.
+Die importierte QR-Referenz wird das Feld "Zahlungsreferenz" auf der
+Einkaufsrechnung in Business Central ausfüllen und wird zur gebuchten
+Einkaufsrechnung weitergeleitet, wo sie für die Zahlung enthalten sein wird.
 
 ### ESR-Rechnungen
 
 Die Logik für ESR-Rechnungen wird unterstützt.
 
-Die importierte ESR-Referenz füllt das Feld "Zahlungsreferenz" und "Referenznummer" auf der Einkaufsrechnung in Business Central aus.
+Die importierte ESR-Referenz wird die Felder "Zahlungsreferenz" und
+"Referenznummer" auf der Einkaufsrechnung in Business Central ausfüllen.
 
-Der Bruttobetrag der Rechnung füllt das Feld "ESR-Betrag" auf der Einkaufsrechnung in Business Central aus.
+Der Bruttobetrag der Rechnung wird das Feld "ESR-Betrag" auf der
+Einkaufsrechnung in Business Central ausfüllen.
 
-ExFlow überprüft, ob die obligatorische ESR-Referenz auf Rechnungen von Lieferanten vorhanden ist, bei denen ein Bankkonto für ESR oder ESR+ konfiguriert ist. ExFlow gibt eine Warnmeldung im Importjournal aus, wenn die ESR-Referenz fehlt.
+ExFlow wird validieren, dass die obligatorische ESR-Referenz auf Rechnungen
+von Lieferanten mit einem für ESR oder ESR+ konfigurierten Bankkonto vorhanden ist. ExFlow wird eine Warnmeldung im Importjournal anzeigen, wenn die ESR-Referenz fehlt.

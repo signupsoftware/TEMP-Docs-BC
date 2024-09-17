@@ -3,75 +3,72 @@ title: Berichte
 sidebar_position: 3
 hide_title: true
 ---
-
 ## Berichte
 
-Gehen Sie zu ExFlow Berichte, um Berichte zu generieren. Die Berichte sind nach folgenden Abschnitten unterteilt:
+Gehen Sie zu ExFlow Reports, um Berichte zu erstellen. Berichte sind in Abschnitte unterteilt, wie unten angegeben:
 
-![Bericht - ExFlow Genehmigungsstatus](./../../images/reports-homepage-001.png)
+![Report - ExFlow Approval Status](@site/static/img/media/reports-homepage-001.png)
 
 ### Berichte --> Dokumente
 
 | Berichte --> Dokumente |  | 
 |:-|:-|
-| **ExFlow Genehmigungsstatus:**        | Verfolgen Sie den Genehmigungsstatus und buchen Sie am Monatsende ausstehende Kosten
-| **ExFlow veröffentlichte genehmigte Dokumente:**        | Zeigen Sie genehmigte Dokumente pro Genehmiger an
-| **ExFlow offene Dokumente:**        | Zeigen Sie aktuell offene ExFlow Dokumente an
-| **ExFlow Dokumentengenehmigungsverlauf:**        | Zeigen Sie veröffentlichte ExFlow Dokumente an
-| **ExFlow Dokumente pro Unternehmen:**        | ExFlow Statistiken in allen Unternehmen, um das aktuelle Jahr mit dem Vorjahr zu vergleichen
-| **ExFlow Import Journal Dokumente mit Fehlern:**        | Exportiert eine Liste von Import Journal Dokumenten (und zugehörigen Zeilen) mit Fehlern
-| **ExFlow vorläufige Verbindlichkeiten:**        | Zeigen Sie den Verbindlichkeitsbericht an und filtern Sie nach vorläufig gebuchten Kosten
-| **ExFlow fällige Verbindlichkeiten:**        | Zeigen Sie den Bericht über fällige ExFlow Verbindlichkeiten an
+| **ExFlow Genehmigungsstatus:**        | Verfolgen Sie den Genehmigungsstatus, verwenden Sie den Bericht am Monatsende, um ausstehende Kosten zu erfassen
+| **ExFlow Gebuchte Genehmigungsdokumente:**        | Anzeigen gebuchter genehmigter Dokumente pro Genehmiger
+| **ExFlow Offene Dokumente:**        | Anzeigen aktueller offener ExFlow-Dokumente
+| **ExFlow Dokumente Genehmigungsverlauf:**        | Anzeigen gebuchter ExFlow-Dokumente
+| **ExFlow Dokumente pro Unternehmen:**        | ExFlow-Statistiken in allen Unternehmen, um das aktuelle Jahr mit dem Vorjahr zu vergleichen
+| **ExFlow Importjournal-Dokumente mit Fehlern:**        | Exportiert die Liste der Importjournal-Dokumente (und zugehörigen Zeilen) mit Fehlern
+| **ExFlow Vorläufige Verbindlichkeiten:**        | Anzeigen des Verbindlichkeitsberichts mit der Möglichkeit, nach vorläufig gebuchten zu filtern
+| **ExFlow Überfällige Verbindlichkeiten:**        | Anzeigen des ExFlow-Berichts über überfällige Verbindlichkeiten
 
 <br/>
 
 ### ExFlow Genehmigungsstatus
 
-Gehen Sie zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Genehmigungsstatus***
+Gehen Sie zu: ***ExFlow Reports \--\> Dokumente \--\> ExFlow Genehmigungsstatus***
 
-Dieser Bericht zeigt alle Dokumente an, die noch auf Genehmigung warten und noch nicht gebucht wurden. Verwenden Sie z.B. den Filter für das Fälligkeitsdatum, um Dokumente für einen bestimmten Zeitraum anzuzeigen. Wählen Sie im Tab "Optionen" aus, welche Dokumente gedruckt werden sollen.
+Dieser Bericht zeigt alle Dokumente, die zur Genehmigung ausstehen und noch nicht gebucht sind. Verwenden Sie z.B. den Filter nach Fälligkeitsdatum, um Dokumente für einen bestimmten Zeitraum anzuzeigen. Wählen Sie im Tab "Optionen" aus, welche Dokumente gedruckt werden sollen.
 
-![Bericht - ExFlow Genehmigungsstatus](./../../images/reports-approval-status-001.png)
+![Report - ExFlow Approval Status](@site/static/img/media/reports-approval-status-001.png)
 
 #### Vorläufige Kosten buchen
 
-Dieser Bericht kann auch verwendet werden, um einen Hauptbuch mit Buchungen zu füllen, mit denen vorläufige Kosten (pro Einkauf) für noch nicht endgültig zertifizierte Dokumente gebucht werden können. Im folgenden Beispiel treten folgende Ereignisse auf:
+Dieser Bericht kann auch verwendet werden, um ein Hauptbuch mit Einträgen zu füllen, die gebucht werden können, um vorläufige Kosten (pro Einkauf) für Dokumente zu buchen, die noch nicht endgültig zertifiziert sind. Im folgenden Beispiel wird Folgendes geschehen:
 
-- Für alle **Aktiven** (d.h. noch zur Genehmigung ausstehenden) Dokumentzeilen vom Typ **G/L Account** wird ein Eintrag im Hauptbuch und im Standard-Batch erstellt.
+- Für alle **Aktiven** (d.h. noch zur Genehmigung ausstehenden) Dokumentzeilen des Typs **Sachkonto** wird ein Eintrag im Hauptbuch und im Standardstapel erstellt.
 
-- Das Datum der Buchung wird auf **2021-03-31** festgelegt.
+- Die Zeile hat das Buchungsdatum **2021-03-31**.
 
-- Die G/L Account-Nummer wird von der Einkaufszeile übernommen und der Saldo für den G/L Account wird auf **2445** festgelegt.
+- Die Sachkontonummer wird aus der Einkaufszeile hinzugefügt und der Saldo für das Sachkonto wird auf **2445** gesetzt.
 
-- Es wird auch eine umgekehrte Buchung mit dem Buchungsdatum **2021-04-01** auf demselben G/L Account mit entgegengesetzten Vorzeichen erstellt.
+- Es wird auch eine Gegenbuchung mit dem Buchungsdatum **2021-04-01** auf demselben Sachkonto, jedoch mit entgegengesetzten Vorzeichen, erstellt.
 
-- Alle Zeilen, für die ein Deferral Start Date für eine Buchung nach dem 2021-03-31 festgelegt ist, werden nicht berücksichtigt. Dies liegt daran, dass das Feld **"Exclude Deferral Amount occurring after Posting Date:"** aktiviert ist.
+- Alle Zeilen, die ein Aufschubstartdatum für die Abgrenzung nach dem **2021-03-31** haben, werden nicht einbezogen. Dies liegt daran, dass das Feld **"Aufschubbetrag nach Buchungsdatum ausschließen:"** aktiviert ist.
 
-![Bericht - ExFlow Genehmigungsstatus](./../../images/reports-approval-status-002.png)
+![Report - ExFlow Approval Status](@site/static/img/media/reports-approval-status-002.png)
 
-![Bericht - ExFlow Genehmigungsstatus](./../../images/image379.png)
-
-![Bericht - ExFlow Genehmigungsstatus](./../../images/image380.png)
+![Report - ExFlow Approval Status](@site/static/img/media/image379.png)
 
 ##### Weitere Einstellungen zur Integration von Journalzeilen
 
 ###### Optionen
 
-**Nur G/L Zeilen einbeziehen:**
+**Nur Sachkonten einbeziehen:**
 
-Nur G/L Accounts in den Vorschlag für das Hauptbuch aufnehmen. Wenn nicht ausgewählt, werden alle Zeilentypen einbezogen. Positionen werden durch einen G/L Account ersetzt, der auf den allgemeinen Buchungseinstellungen basiert.
+Nur Sachkonten in den Vorschlag für das Hauptbuch einbeziehen. Wenn diese Option nicht ausgewählt ist, werden alle Zeilentypen einbezogen. Artikel werden durch Sachkonten ersetzt, die auf allgemeinen Buchungseinstellungen basieren.
 
-**Nicht genehmigte Zeilen ausschließen:**
+**Nicht-Genehmigungszeilen ausschließen:**
 
-Wenn diese Option nicht ausgewählt ist, werden alle Rechnungen/Gutschriften und Zeilen in den ExFlow Genehmigungsstatus einbezogen. Durch Auswahl dieser Option wird sichergestellt, dass nur von ExFlow generierte Rechnungs-/Gutschriftszeilen einbezogen werden.
+Wenn diese Option nicht ausgewählt ist, werden alle Rechnungen/Gutschriften und Zeilen einbezogen, nicht nur die im ExFlow-Genehmigungsstatus. Wenn diese Option ausgewählt ist, werden nur die im ExFlow generierten Rechnungs-/Gutschriftenzeilen einbezogen.
 
-**Währungskurs basierend auf:**
+**Währungsumrechnung basierend auf:**
 
-Rechnungen/Gutschriften in anderen Währungen als der LCY müssen in die LCY umgerechnet werden.
+Rechnungen/Gutschriften in anderen Währungen als der lokalen Währung müssen in die lokale Währung umgerechnet werden.
 
-Heutiges Datum: Der Währungsumrechnungskurs wird basierend auf dem heutigen Datum berechnet.
+Arbeitsdatum: Der Wechselkurs wird basierend auf dem Arbeitsdatum von Business Central berechnet.
 
-Buchungsdatum des Dokuments: Der Währungsumrechnungskurs wird basierend auf dem Buchungsdatum jedes Quelldokuments berechnet.
+Buchungsdatum des Dokuments: Der Wechselkurs wird basierend auf dem Buchungsdatum jedes Quelldokuments berechnet.
 
 Währungsfaktor aus dem Einkaufskopf: Der (vorhandene) Wechselkurs aus dem Quelldokument wird verwendet.
 
@@ -79,197 +76,202 @@ Währungsfaktor aus dem Einkaufskopf: Der (vorhandene) Wechselkurs aus dem Quell
 
 **Dimensionen kopieren:**
 
-Kopieren Sie die Dimensionen von den Quelldokumenten in die vorgeschlagenen Hauptbuchzeilen.
+Dimensionen von Quelldokumenten in die vorgeschlagenen Hauptbuchzeilen kopieren.
 
-**G/L Account von der Einkaufszeile überschreiben:**
+**Sachkonto aus Einkaufszeile überschreiben:**
 
-Die leere Option schlägt den G/L Account aus der Quelleinkaufszeile vor.
+Die leere Option schlägt das Sachkonto aus der Quell-Einkaufszeile vor.
 
-Immer: Ersetzen Sie alle G/L Accounts durch den unten ausgewählten G/L Account.
+Immer: Ersetzen Sie alle Sachkonten durch das unten ausgewählte Sachkonto.
 
-Wenn die Zeile das vordefinierte Konto hat: Ersetzen Sie G/L Accounts aus Einkaufszeilen nur, wenn sie mit dem vordefinierten Konto übereinstimmen.
+Wenn die Zeile das vordefinierte Konto hat: Ersetzen Sie Sachkonten aus Einkaufszeilen nur, wenn sie dem vordefinierten Konto entsprechen.
 
-**Überschreiben des G/L-Kontos:**
-
-Das für die obige Einstellung verwendete G/L-Konto.
-
-**Ausschließen von Deferral-Beträgen nach dem Buchungsdatum:**
-
-Ja: Zeilen mit einem Deferral-Startdatum nach dem Buchungsdatum werden nicht einbezogen.
-
-Nein: Alle Deferral-Buchungen werden einbezogen.
-
-**Verbleibende Deferral-Beträge buchen:**
-
-Verbleibende Deferral-Beträge aufgrund von Deferral-Vorlagen auf das unten ausgewählte G/L-Konto buchen.
-
-**Konto für verbleibende Deferral-Beträge:**
+**Überschreiben G/L-Konto:**
 
 Das für die obige Einstellung verwendete G/L-Konto.
 
-**Buchungsoptionen für Positionen:**
+**Ausschließen von Abgrenzungsbeträgen nach dem Buchungsdatum:**
 
-Optionen sind Vollständig oder nur Inventarkonto.
+Ja: Zeilen mit Abgrenzungsstartdatum nach dem Buchungsdatum werden nicht einbezogen.
 
-**Buchung von Jobinformationen:**
+Nein: Alle Abgrenzungsbuchungen werden einbezogen.
 
-Gibt an, ob Jobinformationen beim Erstellen der Position einbezogen werden sollen.
+**Verbleibenden Abgrenzungsbetrag buchen:**
 
-![Bericht - ExFlow Genehmigungsstatus](./../../images/image381.png)
+Verbleibende Abgrenzungsbeträge aufgrund von Abgrenzungsvorlagen auf das unten ausgewählte G/L-Konto buchen.
 
-Fügen Sie weitere erforderliche Filter hinzu:
+**Konto für verbleibenden Abgrenzungsbetrag:**
 
-![Bericht - ExFlow Genehmigungsstatus](./../../images/reports-approval-status-003.png)
+Das für die obige Einstellung verwendete G/L-Konto.
+
+**Buchungsoption für Artikel:**
+
+Optionen sind Vollständig oder Nur Inventarkonto.
+
+**Buchungsprojektinformationen**
+
+Gibt an, ob Projektinformationen beim Erstellen der Zeile einbezogen werden sollen.
+
+**Journalzeile mit Währungscode erstellen**
+
+Gibt an, ob die erstellte Journalzeile mit dem ursprünglichen Währungscode erstellt werden soll. Der Wechselkurs wird aus der Einstellung unter ***Optionen --> Wechselkurs basierend auf*** berechnet.
+
+![Bericht - ExFlow Genehmigungsstatus](@site/static/img/media/image381.png)
+
+Weitere notwendige Filter hinzufügen:
+
+![Bericht - ExFlow Genehmigungsstatus](@site/static/img/media/reports-approval-status-003.png)
 <br/>
 
-### ExFlow Genehmigte Dokumente
+### ExFlow Gebuchte Genehmigungsdokumente
 
-Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Genehmigte Dokumente***
+Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Gebuchte Genehmigungsdokumente***
 
-Der Bericht "ExFlow Genehmigte Dokumente" zeigt Dokumente gruppiert nach Genehmiger an. Er kann auch Dokumente enthalten, die gebucht wurden und/oder einen Filter für nur einen Genehmiger haben. Kann in Excel exportiert werden.
+Der Bericht "ExFlow Gebuchte Genehmigungsdokumente" zeigt Dokumente, die nach Genehmiger gruppiert sind. Er kann auch Dokumente enthalten, die gebucht wurden und/oder mit einem Filter für nur einen Genehmiger. Kann nach Excel exportiert werden.
 
-![Bericht - ExFlow Genehmigte Dokumente](./../../images/image382.png)
+![Bericht - ExFlow Gebuchte Genehmigungsdokumente](@site/static/img/media/image382.png)
 
-![Bericht - ExFlow Genehmigte Dokumente](./../../images/image383.png)
+![Bericht - ExFlow Gebuchte Genehmigungsdokumente](@site/static/img/media/image383.png)
 <br/>
 
 ### ExFlow Offene Dokumente
 
 Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Offene Dokumente***
 
-Dieser Bericht kann verwendet werden, um offene Dokumente für eine bestimmte oder mehrere Genehmigungsgruppen anzuzeigen.
+Dieser Bericht kann verwendet werden, um offene Dokumente für eine bestimmte oder mehrere Genehmigungsgruppen zu sehen.
 
-![Bericht - ExFlow Offene Dokumente](./../../images/image384.png)
+![Bericht - ExFlow Offene Dokumente](@site/static/img/media/image384.png)
 
-![Bericht - ExFlow Offene Dokumente](./../../images/image385.png)
+![Bericht - ExFlow Offene Dokumente](@site/static/img/media/image385.png)
 <br/>
 
-### ExFlow Dokumentgenehmigungshistorie
+### ExFlow Dokumentgenehmigungsverlauf
 
-Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Dokumentgenehmigungshistorie***
+Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Dokumentgenehmigungsverlauf***
 
-Dieser Bericht kann verwendet werden, um die Genehmigungshistorie für "Gebuchte Dokumente" für Genehmigungsgruppen und Genehmiger anzuzeigen.
+Dieser Bericht kann verwendet werden, um den Genehmigungsverlauf für "Gebuchte Dokumente" für Genehmigungsgruppen und Genehmiger zu sehen.
 
-![Bericht - ExFlow Dokumentgenehmigungshistorie](./../../images/image386.png)
+![Bericht - ExFlow Dokumentgenehmigungsverlauf](@site/static/img/media/image386.png)
 
-![Bericht - ExFlow Dokumentgenehmigungshistorie](./../../images/image387.png)
+![Bericht - ExFlow Dokumentgenehmigungsverlauf](@site/static/img/media/image387.png)
 
-Dieser Bericht gibt auch Auskunft darüber, ob eine Rechnung automatisch gegen eine Bestellung oder einen Vertrag genehmigt wurde. Die letzte Spalte rechts zeigt: "Vertragsnummer" für das Dokument, "Bestellnummer" für die Positionen und "Automatisch genehmigt" für die Genehmigungspositionen.
+Dieser Bericht gibt auch Informationen darüber, ob eine Rechnung automatisch gegen eine Bestellung oder einen Vertrag genehmigt wurde. Die letzte Spalte rechts zeigt: \"Vertragsnummer\" für das Dokument, \"Bestellnummer\" für die Zeilen und \"Automatisch genehmigt\" für Genehmigungszeilen.
 <br/>
 
 ### ExFlow Dokumente pro Unternehmen
 
 Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Dokumente pro Unternehmen***
 
-Dieser Bericht kann verwendet werden, um die Anzahl der ExFlow-Dokumente pro Unternehmen und die Anzahl der Genehmiger pro Unternehmen anzuzeigen.
+Dieser Bericht kann verwendet werden, um die Anzahl der ExFlow-Dokumente pro Unternehmen und die Anzahl der Genehmiger pro Unternehmen zu sehen.
 
-![Bericht - ExFlow Dokumente pro Unternehmen](./../../images/image388.png)
+![Bericht - ExFlow Dokumente pro Unternehmen](@site/static/img/media/image388.png)
 
-![Bericht - ExFlow Dokumente pro Unternehmen](./../../images/image389.png)
+![Bericht - ExFlow Dokumente pro Unternehmen](@site/static/img/media/image389.png)
 
 <br/>
 
-### ExFlow Import Journal-Dokumente mit Fehlern
-Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Import Journal-Dokumente mit Fehlern***
+### ExFlow Import Journal Dokumente mit Fehlern
+Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Import Journal Dokumente mit Fehlern***
 
-Laden Sie eine Excel-Datei mit allen Import Journal-Dokumenten mit Fehlern herunter. Wählen Sie, ob Sie "Alle Positionen" aktivieren möchten, und auch, ob ein bestimmter "Journal-Batch-Name" angegeben werden soll. Klicken Sie dann auf OK, um die Datei herunterzuladen.
+Laden Sie eine Excel-Datei mit allen Import Journal - Dokumenten mit Fehler herunter. 
+Wählen Sie, ob Sie ''Alle Zeilen'' aktivieren möchten, und auch, ob ein bestimmter ''Journal Batch Name'' dann klicken Sie auf OK, um die Datei herunterzuladen. 
 
-![Bericht - ExFlow Bericht](./../../images/reports-import-journal-001.png)
+![Bericht - ExFlow Bericht](@site/static/img/media/reports-import-journal-001.png)
 <br/>
 
 ### ExFlow Vorläufige Verbindlichkeiten
 Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Vorläufige Verbindlichkeiten***
 
-Generieren Sie einen Bericht mit Filter für vorläufige Buchungen. Geben Sie an, ob der Bericht alle Dokumente, nur vorläufig gebuchte Dokumente oder Dokumente ohne vorläufige Buchungen anzeigen soll.
+Erstellen Sie einen Bericht mit Filter auf vorläufige Buchung. Geben Sie an, ob der Bericht alle Dokumente, nur vorläufig gebuchte Dokumente oder ohne vorläufig gebuchte Dokumente anzeigen soll.
 
 Es ist auch möglich, nach Lieferantennummer usw. zu filtern.
 
-![Bericht - ExFlow Bericht](./../../images/reports-documents-preliminary-001.png)
+![Bericht - ExFlow Bericht](@site/static/img/media/reports-documents-preliminary-001.png)
 
-Im folgenden Beispiel zeigt der Bericht nur vorläufige gebuchte Dokumente ohne weitere Filtereinstellungen.
+Im folgenden Beispiel zeigt der Bericht nur vorläufig gebuchte Dokumente ohne weitere Filtereinstellungen.
 
-![Bericht - ExFlow-Bericht](./../../images/reports-documents-preliminary-002.png)
+![Bericht - ExFlow Bericht](@site/static/img/media/reports-documents-preliminary-002.png)
 <br/>
 
-### ExFlow-Verbindlichkeiten nach Alter
-Gehe zu: ***ExFlow-Berichte \--\> Dokumente \--\> ExFlow-Verbindlichkeiten nach Alter***
+### ExFlow Gealterte Verbindlichkeiten
+Gehe zu: ***ExFlow Berichte \--\> Dokumente \--\> ExFlow Gealterte Verbindlichkeiten***
 
-Generieren Sie einen Bericht über die Alterung von Dokumenten und lassen Sie ExFlow festlegen, ob die Alterung vom Fälligkeitsdatum, dem Buchungsdatum oder dem Dokumentdatum aus berechnet wird, sowie weitere Filter.
+Erstellen Sie einen Dokumenten-Aging-Bericht und lassen Sie ExFlow angeben, ob das Aging vom Fälligkeitsdatum, dem Buchungsdatum oder dem Dokumentendatum berechnet wird, neben anderen Filtern.
 
-![Bericht - ExFlow-Bericht](./../../images/reports-documents-aged-accounts-001.png)
+![Bericht - ExFlow Bericht](@site/static/img/media/reports-documents-aged-accounts-001.png)
 
-Im folgenden Beispiel wird der Bericht mit den Filtern ''Alterung nach: Fälligkeitsdatum'' und ''Überschriftstyp'' als ''Datumsintervall'' generiert und es werden auch vorläufige gebuchte Dokumente ausgeschlossen.
+Im folgenden Beispiel wird der Bericht mit dem Filter: ''Aging nach: Fälligkeitsdatum'' und ''Überschriftstyp'' auf ''Datumsintervall'' gesetzt, und auch um vorläufig gebuchte Dokumente auszuschließen.
 
-![Bericht - ExFlow-Bericht](./../../images/reports-documents-aged-accounts-002.png)
+![Bericht - ExFlow Bericht](@site/static/img/media/reports-documents-aged-accounts-002.png)
 
 <br/><br/>
 
-### Berichte --> ExFlow-Benutzer
+### Berichte --> ExFlow Benutzer
 
 | Berichte --> Benutzer |  | 
 |:-|:-|
-| **ExFlow-Benutzer:**        | ExFlow-Benutzer und ihre Details in allen Unternehmen
-| **ExFlow-Genehmigungsverfolgung:**        | Anzeigen der aktuellen ExFlow-Dokumente pro Benutzer
-| **ExFlow-Genehmigerstatistik:**        | Anzeigen der Leistung des Genehmigers
-| **ExFlow-Benutzervertretungen:**        | Überprüfen Sie Vertreter für alle ExFlow-Benutzer
-| **ExFlow-GDPR-benutzerbezogene Daten:**        | Anzeigen, wo personenbezogene Daten in ExFlow verwendet werden 
+| **ExFlow Benutzer:**        | ExFlow Benutzer und deren Details in allen Unternehmen
+| **ExFlow Genehmigungsnachverfolgung:**        | Aktuelle ExFlow-Dokumente pro Benutzer anzeigen
+| **ExFlow Genehmigungsstatistiken:**        | Leistung der Genehmiger anzeigen
+| **ExFlow Benutzervertretungen:**        | Vertreter für alle ExFlow Benutzer anzeigen
+| **ExFlow DSGVO Benutzerbezogene Daten:**        | Anzeigen, wo personenbezogene Daten in ExFlow verwendet werden 
 
 <br/>
 
-### ExFlow-Benutzer
+### ExFlow Benutzer
 
-Gehe zu: ***ExFlow-Berichte \--\> Benutzer \--\> ExFlow-Benutzer***
+Gehe zu: ***ExFlow Berichte \--\> Benutzer \--\> ExFlow Benutzer***
 
-Dieser Bericht zeigt sowohl ExFlow-Benutzer als auch Benutzereinrichtungen für alle Unternehmen an.
-Mit verschiedenen Filteroptionen.
+Dieser Bericht zeigt sowohl ExFlow Benutzer als auch Benutzereinstellungen für alle Unternehmen.
+Einschließlich verschiedener Filteroptionen.
 
-![Bericht - ExFlow-Benutzer](./../../images/image390.png)
+![Bericht - ExFlow Benutzer](@site/static/img/media/image390.png)
 
-![Bericht - ExFlow-Benutzer](./../../images/image391.png)
+![Bericht - ExFlow Benutzer](@site/static/img/media/image391.png)
 <br/>
 
-### ExFlow-Genehmigungsverfolgung
+### ExFlow Genehmigungsnachverfolgung
 
-Gehe zu: ***ExFlow-Berichte --> Benutzer --> ExFlow-Genehmigungsverfolgung***
+Gehe zu: ***ExFlow Berichte --> Benutzer --> ExFlow Genehmigungsnachverfolgung***
 
 Dieser Bericht kann verwendet werden, um Genehmiger mit nicht genehmigten Dokumentzeilen zu verfolgen. Fügen Sie einen Filter für eine bestimmte "Genehmigungsgruppe" hinzu.
 
-![Bericht - ExFlow-Genehmigungsverfolgung](./../../images/image392.png)
+![Bericht - ExFlow Genehmigungsnachverfolgung](@site/static/img/media/image392.png)
 
-![Bericht - ExFlow-Genehmigungsverfolgung](./../../images/image393.png)
+![Bericht - ExFlow Genehmigungsnachverfolgung](@site/static/img/media/image393.png)
 <br/>
 
-### ExFlow Genehmiger Statistiken
+### ExFlow Genehmigungsstatistiken
 
-Gehe zu: ***ExFlow Berichte \--\> Benutzer \--\> ExFlow Genehmiger Statistiken***
+Gehe zu: ***ExFlow Berichte \--\> Benutzer \--\> ExFlow Genehmigungsstatistiken***
 
-Dieser Bericht liefert Administratoren/Benutzern Statistiken für die Genehmiger, z. B. "Anzahl der genehmigten Zeilen, durchschnittliche Anzahl der Genehmigungstage".
+Dieser Bericht gibt Administratoren/Benutzern Statistiken für die Genehmiger, z.B. "Anzahl der genehmigten Zeilen, Durchschnittliche Anzahl der Genehmigungstage".
 
-![Bericht - ExFlow Genehmiger Statistiken](./../../images/image394.png)
+![Bericht - ExFlow Genehmigungsstatistiken](@site/static/img/media/image394.png)
 
-![Bericht - ExFlow Genehmiger Statistiken](./../../images/image395.png)
+![Bericht - ExFlow Genehmigungsstatistiken](@site/static/img/media/image395.png)
 <br/>
 
 ### ExFlow Benutzervertretungen
 
 Gehe zu: ***ExFlow Berichte \--\> Benutzer \--\> ExFlow Benutzervertretungen***
 
-Dieser Bericht zeigt Benutzervertretungen für verschiedene Benutzer in verschiedenen Zeiträumen. Administratoren/Benutzer können entweder nach einem bestimmten Benutzer oder nach "Allen Benutzern" filtern.
+Dieser Bericht zeigt Benutzervertretungen für verschiedene Benutzer in verschiedenen Zeiträumen. Administratoren/Benutzer können entweder nach einem bestimmten Benutzer oder nach "Alle Benutzer" filtern.
 
-![Bericht - ExFlow Benutzervertretungen](./../../images/image396.png)
+![Bericht - ExFlow Benutzervertretungen](@site/static/img/media/image396.png)
 
-![Bericht - ExFlow Benutzervertretungen](./../../images/image397.png)
+![Bericht - ExFlow Benutzervertretungen](@site/static/img/media/image397.png)
 <br/>
 
-### ExFlow GDPR Benutzerbezogene Daten
+### ExFlow DSGVO Benutzerbezogene Daten
 
-Gehe zu: ***ExFlow Berichte \--\> Benutzer \--\> ExFlow GDPR Benutzerbezogene Daten***
+Gehe zu: ***ExFlow Berichte \--\> Benutzer \--\> ExFlow DSGVO Benutzerbezogene Daten***
 
-Dieser Bericht zeigt alle GDPR-bezogenen Daten für einen bestimmten Benutzer.
+Dieser Bericht zeigt alle DSGVO-bezogenen Daten für einen bestimmten Benutzer.
 
-![Bericht - ExFlow GDPR Benutzerbezogene Daten](./../../images/image398.png)
+![Bericht - ExFlow DSGVO Benutzerbezogene Daten](@site/static/img/media/image398.png)
 
-![Bericht - ExFlow GDPR Benutzerbezogene Daten](./../../images/image399.png)
+![Bericht - ExFlow DSGVO Benutzerbezogene Daten](@site/static/img/media/image399.png)
 <br/><br/>
 
 ### Berichte --> Genehmigungsregeln
@@ -277,8 +279,8 @@ Dieser Bericht zeigt alle GDPR-bezogenen Daten für einen bestimmten Benutzer.
 | Berichte --> Genehmigungsregeln |  | 
 |:-|:-|
 | **ExFlow Genehmigungsregeln:**        | Detaillierte Ansicht aller für den ExFlow-Workflow definierten Genehmigungsregeln
-| **ExFlow Genehmigungsregeln pro Benutzer:**        | Ansicht der Genehmigungsregeln pro Benutzer
-| **ExFlow Genehmigungsregelliste:**        | Ansicht der Liste der Genehmigungsregeln
+| **ExFlow Genehmigungsregeln pro Benutzer:**        | Genehmigungsregeln pro Benutzer anzeigen
+| **ExFlow Genehmigungsregelliste:**        | Genehmigungsregelliste anzeigen
 
 <br/>
 
@@ -286,33 +288,32 @@ Dieser Bericht zeigt alle GDPR-bezogenen Daten für einen bestimmten Benutzer.
 
 Gehe zu: ***ExFlow Berichte \--\> Genehmigungsregeln \--\> ExFlow Genehmigungsregeln***
 
-Dieser Bericht zeigt "Genehmigungsregeln" nach Unternehmen. Es gibt verschiedene Filteroptionen wie "Lieferant" oder "Dimension Wert", die ebenfalls angewendet werden können.
+Dieser Bericht zeigt "Genehmigungsregeln" nach Unternehmen. Es gibt verschiedene Filteroptionen wie "Lieferant" oder "Dimensionswert", die ebenfalls angewendet werden können.
 
-Aktivieren Sie das Kontrollkästchen "Genehmigungsgruppenzeilen anzeigen", um Informationen zu den Genehmigungsgruppenzeilen in den Bericht aufzunehmen.
+Aktivieren Sie das Kontrollkästchen "Genehmigungsgruppenzeilen anzeigen", um Informationen zu Genehmigungsgruppenzeilen im Bericht hinzuzufügen.
 
-![Bericht - ExFlow Genehmigungsregeln](./../../images/image400.png)
+![Bericht - ExFlow Genehmigungsregeln](@site/static/img/media/image400.png)
 
-![Bericht - ExFlow Genehmigungsregeln](./../../images/image401.png)
+![Bericht - ExFlow Genehmigungsregeln](@site/static/img/media/image401.png)
 <br/>
 
 ### ExFlow Genehmigungsregeln pro Benutzer
 
-Gehe zu: ***ExFlow Bericht \--\> Genehmigungsregeln \--\> ExFlow Genehmigungsregeln pro Benutzer***
+Gehe zu: ***ExFlow Berichte \--\> Genehmigungsregeln \--\> ExFlow Genehmigungsregeln pro Benutzer***
 
-Dieser Bericht zeigt "Genehmigungsregeln pro Benutzer" mit Filteroptionen nach "Unternehmen", "Benutzer-ID" und so weiter. Administratoren/Benutzer können auch Benutzervertretungen für ein bestimmtes Datum einschließen.
+Dieser Bericht zeigt "Genehmigungsregeln pro Benutzer" mit Filteroptionen pro "Unternehmen", "Benutzer-ID" Name und so weiter. Administratoren/Benutzer können auch Benutzervertretungen für ein bestimmtes Datum einbeziehen.
 
-![Bericht - ExFlow Genehmigungsregeln pro Benutzer](./../../images/image402.png)
+![Bericht - ExFlow Genehmigungsregeln pro Benutzer](@site/static/img/media/image402.png)
 
-![Bericht - ExFlow Genehmigungsregeln pro Benutzer](./../../images/image403.png)
+![Bericht - ExFlow Genehmigungsregeln pro Benutzer](@site/static/img/media/image403.png)
 
 <br/>
 
 ### ExFlow Genehmigungsregelliste
-Gehe zu: ExFlow Bericht --> Genehmigungsregeln --> ExFlow Genehmigungsregelliste
+Gehe zu: ExFlow Berichte --> Genehmigungsregeln --> ExFlow Genehmigungsregelliste
 
-Generieren Sie einen Bericht basierend auf allen Genehmigungsregeln oder ausgewählten Regeln.
+Erstellen Sie einen Bericht basierend auf allen Genehmigungsregeln oder ausgewählten Regeln.
 
-![Bericht - ExFlow Genehmigungsregelliste](./../../images/reports-approval-rules-list-001.png)
+![Bericht - ExFlow Genehmigungsregelliste](@site/static/img/media/reports-approval-rules-list-001.png)
 
-
-![Bericht - ExFlow Genehmigungsregelliste](./../../images/reports-approval-rules-list-002.png)
+![Bericht - ExFlow Genehmigungsregelliste](@site/static/img/media/reports-approval-rules-list-002.png)

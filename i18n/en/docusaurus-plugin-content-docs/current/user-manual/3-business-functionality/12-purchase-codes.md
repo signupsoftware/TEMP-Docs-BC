@@ -35,8 +35,8 @@ On ExFlow Purchase Code Lines, one or more fields can be used:
 | **VAT Allocation %:**         | Same as above, but for VAT
 | **VAT Prod. Posting Group:**  | When using this field, it overrides value on Type/No. and "Standard VAT Prod. Posting Group" in "ExFlow Setup"
 | **Deferral Code:**            | Choose from list. Deferral Starting date will be selected automatically from Deferral Card
-| **Job No.:**                  | Choose from list
-| **Job Task No.:**             | Choose from list
+| **Project No.:**                  | Choose from list
+| **Project Task No.:**             | Choose from list
 | **First Approver:**           | Choose from list. How this is used depends on settings in ExFlow Setup.
 | **Dimensions:**               | Choose from list
 | **Approval**:                 | Specifies if the marked line should be sent out for approval or not

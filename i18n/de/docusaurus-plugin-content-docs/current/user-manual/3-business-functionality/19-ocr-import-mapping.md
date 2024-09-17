@@ -1,40 +1,40 @@
 ---
-title: OCR Import Mapping
+title: OCR-Import-Mapping
 sidebar_position: 19
 hide_title: true
 ---
-## OCR-Importzuordnung
+## OCR-Import-Mapping
 
-Gehe zu: ***ExFlow OCR-Importzuordnung***
+Gehe zu: ***ExFlow OCR-Import-Mapping***
 
-Die ExFlow OCR-Importzuordnung wird verwendet, um eine Codierung für einen bestimmten interpretierten Wert für einen bestimmten Lieferanten festzulegen. Diese Seite enthält die Felder, die die Zeile mit den eingegebenen Werten füllen, wenn eine Rechnung in das ExFlow Import Journal importiert wird.
+ExFlow OCR-Import-Mapping wird verwendet, um eine Kodierung von einem spezifischen interpretierten Wert für einen bestimmten Lieferanten festzulegen. Diese Seite enthält die Felder, die die Zeile mit den eingegebenen Werten füllen, wenn die Rechnung in das ExFlow-Import-Journal importiert wird.
 
-Es ist möglich, eine vollständig codierte Zeile mit einem G/L-Konto, Dimensionen, Auftragsnummer usw. nur über eine Einrichtung auf der Seite "ExFlow OCR-Importzuordnung" zu erhalten, die für jeden Lieferanten einzigartig sein kann.
+Es ist möglich, eine vollständig kodierte Zeile mit einem Sachkonto, Dimensionen, Projekt-Nr. usw. nur durch eine Einrichtung auf der Seite "ExFlow OCR-Import-Mapping" zu erhalten, die für jeden Lieferanten einzigartig sein kann.
 
-![ExFlow OCR-Importzuordnung](./../../images/ocr-import-mapping-001.png)
+![ExFlow OCR-Import-Mapping](@site/static/img/media/ocr-import-mapping-001.png)
 
-### Aggregierte Zeilen
+### Zeilen aggregieren
 
-Diese Funktion wird verwendet, um Zeilen in Ausgabenrechnungen zu interpretieren und nicht für Bestellrechnungen.
+Diese Funktion wird für die Interpretation von Zeilen auf Spesenrechnungen verwendet und nicht für bestellbezogene Rechnungen.
 
-Es ist möglich, einem bestimmten interpretierten Wert einen bestimmten Typ zuzuordnen, z. B. einem G/L-Konto. Bearbeiten Sie die Liste und geben Sie die gewählte Lieferantennummer an. Fügen Sie den Wert in Import No hinzu, der interpretiert werden soll, und wählen Sie aus, wie ExFlow den interpretierten Wert zuordnen soll, z. B. einem G/L-Konto.
+Es ist möglich, einen bestimmten interpretierten Wert einem bestimmten Typ zuzuordnen, wie z.B. einem Sachkonto. Bearbeiten Sie die Liste und geben Sie die gewählte Lieferantennummer an. Fügen Sie den Wert in Import-Nr. ein, der interpretiert wird, und wählen Sie aus, wie ExFlow den interpretierten Wert zuordnen soll, z.B. einem Sachkonto.
 
-Beim Importieren des Dokuments in das Import Journal wird die Codierung gemäß der Einrichtung auf der Seite "ExFlow OCR-Importzuordnung" mit der gewählten "Zuordnung zum Typ" (z. B. G/L-Konto) unter Importzeilen generiert.
+Beim Importieren des Dokuments in das Import-Journal wird die Kodierung gemäß der Einrichtung auf der Seite "ExFlow OCR-Import-Mapping" mit dem gewählten "Zuordnungstyp" (d.h. Sachkonto) unter Importzeilen generiert.
 
-![ExFlow OCR-Importzuordnung - Aggregierte Zeilen](./../../images/ocr-import-mapping-002.png)
+![ExFlow OCR-Import-Mapping - Zeilen aggregieren](@site/static/img/media/ocr-import-mapping-002.png)
 
-Beispiel: Wenn eine Rechnung 1000 Zeilen hat (500 Zeilen mit Wert 1 und 500 Zeilen mit Wert 2) und die Zeilen gemäß dem untenstehenden Bild zwei verschiedenen G/L-Konten zugeordnet werden müssen. Durch Aktivieren von "Aggregierte Zeilen" werden alle Werte mit 1 zu G/L-Konto 6420 aggregiert und alle Zeilen mit Wert 2 zu G/L-Konto 5611 aggregiert, wenn das Dokument in das ExFlow Import Journal importiert wird.
+Beispiel: Wenn eine Rechnung 1000 Zeilen hat (500 Zeilen mit Wert 1 und 500 Zeilen mit Wert 2) und die Zeilen gemäß dem untenstehenden Bild auf zwei verschiedene Sachkonten zugeordnet werden müssen. Durch das Ankreuzen von "Zeilen aggregieren" werden alle Werte mit 1 in das Sachkonto 6420 und alle Zeilen mit Wert 2 in das Sachkonto 5611 aggregiert, wenn das Dokument in das ExFlow-Import-Journal importiert wird.
 
-Dimensionen werden den Zeilen hinzugefügt, nicht dem Header.
+Dimensionen werden auf Zeilen, nicht auf Kopfzeilen, hinzugefügt.
 
-![ExFlow Import Journal - Aggregierte Zeilen](./../../images/import-journal-026.png)
+![ExFlow Import-Journal - Zeilen aggregieren](@site/static/img/media/import-journal-026.png)
 
 ### Keine Bestellabgleichung
 
-Wenn "Keine Bestellabgleichung" deaktiviert ist und das interpretierte Dokument eine interpretierte Bestellnummer hat, hat die Bestellabgleichung Vorrang und setzt die Zeilen entsprechend der Bestellung. Das bedeutet, dass Dimensionen aus der Bestellung verwendet werden und nicht die eventuell in der OCR-Importzuordnung angegebenen Dimensionen.
+Wenn "Keine Bestellabgleichung" deaktiviert ist und das interpretierte Dokument eine interpretierte Bestellnummer hat, hat der Bestellabgleich Vorrang und setzt die Zeilen wie in der Bestellung festgelegt. Das bedeutet, dass Dimensionen aus der Bestellung verwendet werden und nicht die eventuell in der OCR-Import-Mapping angegebenen Dimensionen.
 
-![ExFlow OCR-Importzuordnung - Keine Bestellabgleichung - Deaktiviert](./../../images/ocr-import-mapping-003.png)
+![ExFlow OCR-Import-Mapping - Keine Bestellabgleichung - Deaktiviert](@site/static/img/media/ocr-import-mapping-003.png)
 
-Wenn "Keine Bestellabgleichung" aktiviert ist und das interpretierte Dokument eine interpretierte Bestellnummer hat, verwendet das System die in der Einrichtung "ExFlow OCR-Importzuordnung" angegebenen Werte, einschließlich der Dimensionen. Dimensionen werden nur den Zeilen, nicht dem Header, zugewiesen.
+Wenn "Keine Bestellabgleichung" aktiviert ist und das interpretierte Dokument eine interpretierte Bestellnummer hat, verwendet das System die in der "ExFlow OCR-Import-Mapping"-Einrichtung angegebenen Werte, einschließlich der Dimensionen. Dimensionen werden nur auf Zeilen, nicht auf Kopfzeilen, gesetzt.
 
-![ExFlow OCR-Importzuordnung - Keine Bestellabgleichung - Aktiviert](./../../images/ocr-import-mapping-004.png)
+![ExFlow OCR-Import-Mapping - Keine Bestellabgleichung - Aktiviert](@site/static/img/media/ocr-import-mapping-004.png)

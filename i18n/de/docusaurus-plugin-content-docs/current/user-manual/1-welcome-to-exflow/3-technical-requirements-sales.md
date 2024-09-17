@@ -16,5 +16,5 @@ Lesen Sie hier über die Mindestanforderungen für die Nutzung von Business Cent
 * Webdienst zum Importieren gescannter Rechnungsbilder und -daten.<br/>
 
 ### Lizenzierung
-Beachten Sie, dass der Kunde dafür verantwortlich ist, die korrekten Lizenz- und Supportvereinbarungen mit Microsoft zu haben.
-Wenn Sie unsicher sind, wenden Sie sich bitte an Ihren Dynamics 365 Business Central Implementierungspartner.
+Bitte beachten Sie, dass der Kunde dafür verantwortlich ist, die korrekten Lizenzen und Supportvereinbarungen mit Microsoft zu haben.
+Wenn Sie sich nicht sicher sind, wenden Sie sich bitte an Ihren Dynamics 365 Business Central Implementierungspartner.

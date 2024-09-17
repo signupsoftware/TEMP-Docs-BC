@@ -7,8 +7,8 @@ hide_title: true
 
 ### Sprache
 
-ExFlow unterstützt die italienische Sprache nicht in Business Central.
+ExFlow unterstützt die italienische Sprache in Business Central nicht.
 
-Die italienische Lokalisierung von Business Central enthält eine Betragsvalidierung, die beim Buchen einer Eingangsrechnung ausgeführt wird. Das Feld heißt "Gesamtbetrag" und befindet sich im Kopf der Eingangsrechnung.
+Die italienische Business Central-Lokalisierung enthält eine Betragsvalidierung, die beim Buchen einer Einkaufsrechnung ausgeführt wird. Das Feld heißt "Gesamtbetrag" und befindet sich im Kopf der Einkaufsrechnung.
 
-ExFlow füllt dieses Feld automatisch mit dem Bruttogesamtbetrag der Rechnung aus, wenn die Rechnung aus dem ExFlow Import Journal erstellt wird.
+ExFlow wird dieses Feld automatisch mit dem Bruttogesamtbetrag der Rechnung füllen, wenn die Rechnung aus dem ExFlow-Importjournal erstellt wird.

@@ -5,123 +5,122 @@ hide_title: true
 ---
 ## OMNI Genehmigung
 
-ExFlow OMNI Genehmigung ist eine Möglichkeit für Business Central Benutzer, verschiedene Funktionen in ExFlow zu genehmigen, d.h. ExFlow Verträge und ExFlow Genehmigungsregeln. Das bedeutet, dass ein Vertrag oder eine Genehmigungsregel in ExFlow erst vollständig genehmigt werden muss, bevor sie verwendet werden kann.
+ExFlow OMNI Genehmigung ist eine Möglichkeit für Business Central-Benutzer, verschiedene Funktionen in ExFlow zu genehmigen, z.B. ExFlow-Verträge und ExFlow-Genehmigungsregeln. Dies bedeutet, dass ein Vertrag oder eine Genehmigungsregel in ExFlow nicht verwendet werden kann, bevor sie vollständig genehmigt ist.
 
-### ExFlow OMNI Dokumente einrichten
+### ExFlow OMNI Dokumenteneinrichtung
 
-Gehe zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Dokumenteneinrichtung***
+Gehen Sie zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Dokumenteneinrichtung***
 
-In der ExFlow OMNI Dokumenteneinrichtung gibt es zwei verschiedene OMNI-Typen, Vertrag und Genehmigungsregel.
+In der ExFlow OMNI Dokumenteneinrichtung gibt es zwei verschiedene OMNI-Typen: Vertrag und Genehmigungsregel.
 
-Für den OMNI-Typ, in diesem Fall einen Vertrag, ist eine Einrichtung erforderlich.
+Eine Einrichtung ist für den OMNI-Typ erforderlich, in diesem Fall ein Vertrag.
 
-Der OMNI-Typ ist der Bereich, der eine Genehmigung erfordert. Es ist möglich, die Mindestanzahl der Genehmiger festzulegen. Wenn "Genehmigung erforderlich" aktiviert ist, erfordern alle neu erstellten Verträge eine Genehmigung.
+Der OMNI-Typ ist der Bereich, der eine Genehmigung erfordert. Es ist möglich, die Mindestanzahl von Genehmigern festzulegen. Wenn "Genehmigung erforderlich" aktiviert ist, erfordern alle neu erstellten Verträge eine Genehmigung.
 
-Aktiviere "Gleichzeitige Genehmigung zulassen", wenn alle Genehmigungsgruppen das Dokument gleichzeitig genehmigen dürfen, oder gehe zum ersten Business Central Benutzer in der Liste.
+Aktivieren Sie "Gleichzeitige Genehmigung zulassen", wenn alle Genehmigungsgruppen das Dokument gleichzeitig genehmigen dürfen oder zum ersten Business Central-Benutzer in der Liste gehen sollen.
 
-![ExFlow OMNI Dokumenteneinrichtung - Vertrag](./../../images/omni-document-setup-001.png)
+![ExFlow OMNI Dokumenteneinrichtung - Vertrag](@site/static/img/media/omni-document-setup-001.png)
 
-Für den OMNI-Typ "Genehmigungsregel" muss eine ähnliche Einstellung vorgenommen werden, wenn eine Genehmigung für eine ExFlow Genehmigungsregel erforderlich ist, bevor sie verwendet werden kann.
+Die gleiche Art der Einrichtung muss für den OMNI-Typ "Genehmigungsregel" vorgenommen werden, wenn eine Genehmigung für eine ExFlow-Genehmigungsregel erforderlich ist, bevor sie verwendet werden kann.
 
-![ExFlow OMNI Dokumenteneinrichtung - Genehmigungsregel](./../../images/omni-document-setup-002.png)
+![ExFlow OMNI Dokumenteneinrichtung - Genehmigungsregel](@site/static/img/media/omni-document-setup-002.png)
 
 ### ExFlow OMNI Genehmigungsregeln
 
-Gehe zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsregel***
+Gehen Sie zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsregel***
 
-ExFlow OMNI Genehmigungsregel ermöglicht verschiedene Genehmigungsregeln für die verschiedenen OMNI-Typen "Vertrag" und "Genehmigungsregel".
+Die ExFlow OMNI Genehmigungsregel ermöglicht verschiedene Genehmigungsregeln für die verschiedenen OMNI-Typen "Vertrag" und "Genehmigungsregel".
 
 #### **ExFlow OMNI Genehmigungsregel für Verträge**
 
-Füge "Vertrag" als "OMNI Dokumenttyp" hinzu und benenne ihn. Wie bei regulären Genehmigungsregeln kann die Priorität festgelegt werden. Wenn die Genehmigungsregel-Filter und Genehmigungsregel-Zeilen festgelegt sind, kann die OMNI Genehmigungsregel vom Business Central Benutzer aktiviert werden.
+Fügen Sie "Vertrag" als "OMNI-Dokumenttyp" hinzu und benennen Sie ihn. Wie bei regulären Genehmigungsregeln kann die Priorität festgelegt werden. Wenn die Genehmigungsregel-Filter und Genehmigungsregel-Zeilen festgelegt sind, kann die OMNI-Genehmigungsregel vom Business Central-Benutzer aktiviert werden.
 
-![ExFlow OMNI Genehmigungsregel - Vertrag](./../../images/omni-approval-rule-001.png)
+![ExFlow OMNI Genehmigungsregel - Vertrag](@site/static/img/media/omni-approval-rule-001.png)
 
-Lege die Filter fest, indem du auf ***Verwalten \--\> Filter festlegen*** unter Genehmigungsregel-Filter klickst.
+Legen Sie die Filter fest, indem Sie auf ***Verwalten \--\> Filter festlegen*** unter Genehmigungsregel-Filter klicken.
 
-Füge die erforderlichen Filter für die aktuelle Genehmigungsregel hinzu.
+Fügen Sie die erforderlichen Filter hinzu, die für die aktuelle Genehmigungsregel verwendet werden sollen.
 
-![ExFlow OMNI Genehmigungsregel - Filterseite](./../../images/omni-filter-page-001.png)
+![ExFlow OMNI Genehmigungsregel - Filterseite](@site/static/img/media/omni-filter-page-001.png)
 
-Die Vertragsdimension kann auch hinzugefügt werden, indem du auf "Filter festlegen" klickst, wie oben erwähnt, oder auf die Filterzelle klickst.
+Vertragsdimensionen können auch hinzugefügt werden, indem Sie auf Filter festlegen klicken, wie oben erwähnt, oder indem Sie auf die Filterzelle klicken.
 
-![ExFlow OMNI Genehmigungsregel - Filterseite](./../../images/omni-approval-rule-filters-001.png)
+![ExFlow OMNI Genehmigungsregel - Filterseite](@site/static/img/media/omni-approval-rule-filters-001.png)
 
-Liste die Genehmiger in derselben Reihenfolge auf, in der sie unter den Genehmigungsregel-Zeilen genehmigt werden.
+Listen Sie die Genehmiger in der gleichen Reihenfolge auf, in der sie unter den Genehmigungsregel-Zeilen genehmigt werden.
 
-![ExFlow OMNI Genehmigungsregel - Genehmigungsregel-Zeilen](./../../images/omni-approval-rule-lines-001.png)
+![ExFlow OMNI Genehmigungsregel - Genehmigungsregel-Zeilen](@site/static/img/media/omni-approval-rule-lines-001.png)
 
-Wenn Genehmigungsregel-Filter und Genehmigungsregel-Zeilen hinzugefügt wurden, kann die ExFlow OMNI Genehmigungsregel aktiviert werden.
+Wenn Genehmigungsregel-Filter und Genehmigungsregel-Zeilen hinzugefügt sind, kann die ExFlow OMNI Genehmigungsregel aktiviert werden.
 
 #### **ExFlow OMNI Genehmigungsregel für Genehmigungsregeln**
 
-Füge "Genehmigungsregeln" als "OMNI Dokumenttyp" hinzu und benenne ihn. Wie bei regulären Genehmigungsregeln kann die Priorität festgelegt werden. Wenn die erforderlichen Genehmigungsregel-Filter und Genehmigungsregel-Zeilen festgelegt sind, kann die OMNI Genehmigungsregel vom Business Central Benutzer manuell aktiviert werden.
+Fügen Sie "Genehmigungsregeln" als "OMNI-Dokumenttyp" hinzu und benennen Sie ihn. Wie bei regulären Genehmigungsregeln kann die Priorität festgelegt werden. Wenn die erforderlichen Genehmigungsregel-Filter und Genehmigungsregel-Zeilen festgelegt sind, kann die OMNI-Genehmigungsregel manuell vom Business Central-Benutzer aktiviert werden.
 
-![ExFlow OMNI Genehmigungsregel - Genehmigungsregel](./../../images/omni-approval-rule-002.png)
+![ExFlow OMNI Genehmigungsregel -- Genehmigungsregel](@site/static/img/media/omni-approval-rule-002.png)
 
-Wähle eine vorhandene ExFlow Genehmigungsregel aus oder erstelle eine neue Regel gemäß dem regulären ExFlow-Standard.
+Wählen Sie eine vorhandene ExFlow-Genehmigungsregel aus oder erstellen Sie eine neue Regel gemäß dem regulären ExFlow-Standard.
 
-Weitere Informationen dazu findest du im Abschnitt **"ExFlow Genehmigungsregel"**.
+Lesen Sie mehr darüber im Abschnitt **"ExFlow Genehmigungsregel"**.
 
-![ExFlow Genehmigungsregel - Filterseite](./../../images/omni-approval-rule-003.png)
+![ExFlow Genehmigungsregel -- Filterseite](@site/static/img/media/omni-approval-rule-003.png)
 
-Füge den erforderlichen Filter hinzu. Wenn die Regel abgeschlossen und manuell aktiviert ist, wird sie zur Genehmigung an den Business Central Benutzer gesendet.
+Fügen Sie den erforderlichen Filter hinzu. Wenn die Regel fertig ist und manuell aktiviert wird, wird sie zur Genehmigung an den/die Business Central-Benutzer gesendet.
 
-![ExFlow OMNI Genehmigungsregel](./../../images/omni-approval-rule-004.png)
+![ExFlow OMNI Genehmigungsregel](@site/static/img/media/omni-approval-rule-004.png)
 
-Wenn der Business Central Benutzer die Seite schließt, ohne die ExFlow OMNI Genehmigungsregel zu aktivieren, wird folgende Frage angezeigt: *"Möchten Sie die ExFlow OMNI Genehmigungsregel aktivieren?"*.
+Wenn der Business Central-Benutzer die Seite schließt, ohne die ExFlow OMNI Genehmigungsregel zu aktivieren, erscheint folgende Frage: *"Möchten Sie die ExFlow OMNI Genehmigungsregel aktivieren?"*.
 
-Alle ExFlow OMNI Genehmigungsregeln können in der ExFlow OMNI Genehmigungsregel-Liste eingesehen werden.
+Alle ExFlow OMNI Genehmigungsregeln können in der ExFlow OMNI Genehmigungsregelliste eingesehen werden.
 
-![ExFlow OMNI Genehmigungsregel-Liste](./../../images/omni-approval-rules-001.png)
+![ExFlow OMNI Genehmigungsregelliste](@site/static/img/media/omni-approval-rules-001.png)
 
 ### ExFlow OMNI Genehmigungsstatus
 
-Gehe zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsstatus***
+Gehen Sie zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsstatus***
 
-Der Business Central Benutzer kann alle Dokumente, die auf Genehmigung in ExFlow OMNI warten, im ExFlow OMNI Genehmigungsstatus sehen. Es ist auch möglich, genehmigte, weitergeleitete und abgelehnte OMNI-Dokumente zu sehen. Wenn der Status eines Dokuments "Genehmigt" ist, ist das Dokument bereit zur Verwendung in ExFlow.
+Der Business Central-Benutzer kann alle Dokumente sehen, die in ExFlow OMNI Genehmigung zur Genehmigung ausstehen. Es ist auch möglich, genehmigte, weitergeleitete und abgelehnte OMNI-Dokumente zu sehen. Wenn der Status eines Dokuments "Genehmigt" ist, kann das Dokument in ExFlow verwendet werden.
 
-![ExFlow OMNI Genehmigungsstatus](./../../images/omni-approval-status-001.png)
+![ExFlow OMNI Genehmigungsstatus](@site/static/img/media/omni-approval-status-001.png)
 
-Gehe zu **Offene Karte**, um den ExFlow Vertrag zu öffnen.
+Gehen Sie zu **Karte öffnen**, um den ExFlow-Vertrag zu öffnen.
 
-Um den Genehmigungsfluss eines Dokuments zu ändern, gehe zu: ***Genehmigungskarte***
+Um den Genehmigungsablauf eines Dokuments zu ändern, gehen Sie zu: ***Genehmigungskarte***
 
-Von dieser Seite aus ist es möglich, die ursprüngliche Karte zu öffnen, zu einer anderen Genehmigungsregel zu wechseln und Genehmiger hinzuzufügen/zu löschen. Es ist auch möglich, die Genehmigung aller Zeilen oder einer ausgewählten Zeile neu zu starten.
+Von dieser Seite aus ist es möglich, die Originalkarte zu öffnen, zu einer anderen Genehmigungsregel zu wechseln und Genehmiger hinzuzufügen/zu löschen. Es ist auch möglich, die Genehmigung aller Zeilen oder einer ausgewählten Zeile neu zu starten.
 
-![ExFlow OMNI Dokument](./../../images/omni-approval-document-001.png)
+![ExFlow OMNI Dokument](@site/static/img/media/omni-approval-document-001.png)
 
 ### ExFlow OMNI Genehmigungsdokumente
 
-Gehe zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsdokumente***
+Gehen Sie zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsdokumente***
 
-In den ExFlow OMNI Genehmigungsdokumenten kann der spezifische Business Central Benutzer alle seine Dokumente sehen, die zur Genehmigung anstehen, in "Meine aktuellen Genehmigungen". Es ist auch möglich, die zukünftigen und vergangenen Genehmigungen des Business Central Benutzers zu sehen.
+In ExFlow OMNI Genehmigungsdokumente kann der spezifische Business Central-Benutzer alle seine Dokumente sehen, die zur Genehmigung ausstehen, in "Meine aktuellen Genehmigungen". Es ist auch möglich, die zukünftigen und historischen Genehmigungen des Business Central-Benutzers zu sehen.
 
-![ExFlow OMNI Genehmigungsdokumente](./../../images/omni-approval-documents-001.png)
+![ExFlow OMNI Genehmigungsdokumente](@site/static/img/media/omni-approval-documents-001.png)
 
-Öffne die Karte, um die ursprüngliche Karte anzuzeigen. In diesem Fall würde sie zu ExFlow Vertrag 2 weiterleiten.
+Öffnen Sie die Karte, um die Originalkarte anzuzeigen, in diesem Fall würde sie zu ExFlow Vertrag 2 weiterleiten.
 
-Das OMNI-Dokument Vertrag kann vom betroffenen Business Central Benutzer genehmigt, abgelehnt oder weitergeleitet werden.
+Das OMNI-Dokument Vertrag kann vom betreffenden Business Central-Benutzer genehmigt, abgelehnt oder weitergeleitet werden.
 
-Verwende das Diskussionsfeld, um Kommentare zu schreiben und andere Business Central Benutzer zu erwähnen.
+Verwenden Sie das Diskussionsfeld, um Kommentare zu schreiben und andere Business Central-Benutzer zu erwähnen.
 
-Um den aktuellen Genehmigungsfluss für ein bestimmtes Dokument zu sehen, gehe zu FactBox unter "Genehmiger".
+Um den aktuellen Genehmigungsablauf für ein bestimmtes Dokument zu sehen, gehen Sie zu FactBox unter "Genehmiger".
 
-Wenn der Business Central Benutzer ADMIN genehmigt hat, wird das Genehmigungsdokument zu "Meine vergangenen Genehmigungen" verschoben und zum nächsten Business Central Benutzer ESSENTIAL im Genehmigungsfluss weitergeleitet.
+Wenn der Business Central-Benutzer ADMIN genehmigt hat, wird das Genehmigungsdokument zu "Meine historischen Genehmigungen" verschoben und geht zum nächsten Business Central-Benutzer ESSENTIAL im Genehmigungsablauf.
 
-![ExFlow OMNI Genehmigungsdokumente - Meine vergangenen Genehmigungen](./../../images/omni-approval-documents-002.png)
+![ExFlow OMNI Genehmigungsdokumente - Meine historischen Genehmigungen](@site/static/img/media/omni-approval-documents-002.png)
 
-Wenn alle Genehmiger genehmigt haben, ändert sich der Status in ExFlow OMNI Genehmigungsdokumenten zu "Genehmigt".
+Wenn alle Genehmiger genehmigt haben, ändert sich der Status in "Genehmigt" in ExFlow OMNI Genehmigungsdokumente.
 
-Klicke einfach auf "Genehmigen", um die Genehmigungsregel zu genehmigen.
+Klicken Sie einfach auf "Genehmigen", um die Genehmigungsregel zu genehmigen.
 
-![ExFlow OMNI Genehmigungsdokumente](./../../images/omni-approval-documents-003.png)
+![ExFlow OMNI Genehmigungsdokumente](@site/static/img/media/omni-approval-documents-003.png)
 
-Wenn eine Genehmigungsregel genehmigt wird, ändert sich der Status von "Nicht genehmigt" zu "Genehmigt" in ExFlow OMNI Genehmigungsdokumenten und auch in der ExFlow Genehmigungsregel-Liste.
+Wenn eine Genehmigungsregel genehmigt wird, ändert sich der Status von "Nicht genehmigt" zu "Genehmigt" in ExFlow OMNI Genehmigungsdokumente und auch in der ExFlow Genehmigungsregelliste.
 
-![ExFlow Genehmigungsregel-Liste](./../../images/approval-rules-001.png)
+![ExFlow Genehmigungsregelliste](@site/static/img/media/approval-rules-001.png)
 
-Von der ExFlow Genehmigungsregel-Liste aus ist es auch möglich, auf die ExFlow OMNI Genehmigungskarte zu klicken, um das ExFlow OMNI Dokument anzuzeigen.
+Von der ExFlow Genehmigungsregelliste aus ist es auch möglich, auf die ExFlow OMNI Genehmigungskarte zu klicken, um das ExFlow OMNI-Dokument anzuzeigen.
 
-![ExFlow OMNI Dokument - Genehmigte Genehmigungsregel](./../../images/omni-document-001.png)
-
+![ExFlow OMNI Dokument - Genehmigte Genehmigungsregel](@site/static/img/media/omni-document-001.png)

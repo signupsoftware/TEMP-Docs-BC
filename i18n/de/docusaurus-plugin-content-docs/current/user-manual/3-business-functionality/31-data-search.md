@@ -5,14 +5,14 @@ hide_title: true
 ---
 ## Datensuche
 
-Es wurde Unterstützung hinzugefügt, um ExFlow-Daten in der Standard-Datensuche anzuzeigen.
+Es wurde Unterstützung hinzugefügt, um ExFlow-Daten in der standardmäßigen Datensuche anzuzeigen.
 
-Gehen Sie zu **Unternehmensdaten durchsuchen**, um zu suchen.
+Gehen Sie zu **Firmendaten durchsuchen**, um zu suchen.
 
-![Datensuche](./../../images/data-search-001.png)
+![Datensuche](@site/static/img/media/data-search-001.png)
 
-Im folgenden Beispiel ist eine Suche nach Frankie eingestellt und die Ergebnisliste liefert alle Informationen darüber, wo Daten zu Frankie vorhanden sind, z. B. in einer Genehmigungsregel, Referenz usw.
+Im untenstehenden Beispiel wird eine Suche nach Frankie durchgeführt und die Ergebnisliste liefert alle Informationen darüber, wo Daten zu Frankie existieren, beispielsweise in einer Genehmigungsregel, Referenz usw.
 
-Darüber hinaus ist es auch möglich, über ein Rollencenter zu wählen und zu suchen. Aktivieren Sie das Kontrollkästchen "Nur suchfähige Liste anzeigen", um ausgewählte Datensätze in "Suche aktivieren" anzuzeigen und ein Ergebnis nach den angegebenen Optionen in der Suchergebnisliste anzuzeigen.
+Darüber hinaus ist es möglich, auch über ein Rollencenter zu suchen. Aktivieren Sie das Kontrollkästchen ''Nur suchfähige Listen anzeigen'', um ausgewählte Datensätze in ''Suche aktivieren'' auszuwählen und nach den angegebenen Optionen in der Suchergebnisliste anzuzeigen.
 
-![Datensuche](./../../images/data-search-002.png)
+![Datensuche](@site/static/img/media/data-search-002.png)

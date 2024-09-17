@@ -9,7 +9,8 @@ hide_title: true
 
 ExFlow unterstützt die schwedische Sprache in Business Central.
 
-### Automatische Kontengruppe
+### Auto Acc. Gruppe
 
-ExFlow unterstützt die automatische Kontengruppe im Importjournal und kann aus dem G/L-Konto, dem ExFlow-Einkaufscode oder manuell in der Importjournalzeile hinzugefügt werden.
-
+ExFlow unterstützt die Auto Acc. Gruppe im Import Journal und kann aus
+dem G/L-Konto, dem ExFlow-Einkaufscode oder manuell in der Import Journal
+Zeile hinzugefügt werden.

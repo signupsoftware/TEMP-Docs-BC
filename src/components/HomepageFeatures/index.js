@@ -1,102 +1,205 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
-
 import Translate, {translate} from '@docusaurus/Translate';
 
 
-const PanelList = [
-  {
-    Svg: require('@site/static/img/gears.svg').default,
-    text: <Translate>ExFlow for Finance and Operations</Translate>,
-    link: 'https://docs.exflow.cloud/finance-operations'
-  },
-  {
-    Svg: require('@site/static/img/gears.svg').default,
-    text: <Translate>ExFlow Web</Translate>,
-    link: 'https://docs.exflow.cloud/web'
-  },
-  {
-    Svg: require('@site/static/img/gears.svg').default,
-    text: <Translate>ExFlow Data Capture</Translate>,
-    link: 'https://docs.exflow.cloud/datacapture'
-  },
-];
-
-
-
+// This list controls the side menu items of products.
+// To add new products, just copy an existing one and change the title and url.
+//
 const FeatureList = [
   {
-    title: <Translate>ExFlow for Finance and Operations</Translate>,
-    Svg: require('@site/static/img/gears.svg').default,
-    description: (
-        <Translate>ExFlow is easy to use. It is designed to be user-friendly and intuitive.</Translate>
-    ),
+    title: <Translate>EXFLOW AP</Translate>,
+    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/welcome-to-exflow/introduction',
   },
   {
-    title: <Translate>ExFlow Web</Translate>,
-    Svg: require('@site/static/img/gears.svg').default,
-    description: (
-      <>
-        <Translate>ExFlow allows you to focus on what matters: your business. It takes care of the rest.</Translate>
-      </>
-    ),
+    title: <Translate>EXFLOW SALES ORDER</Translate>,
+    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/sales-order/sales-order-setup',
   },
   {
-    title: <Translate>ExFlow Data Capture</Translate>,
-    Svg: require('@site/static/img/gears.svg').default,
-    description: (
-      <>
-        <Translate>ExFlow is built on top of the newest technologies.</Translate>
-      </>
-    ),
+    title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
+    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/CO2-Insights/co2-insights',
+  },
+  {
+    title: <Translate>EXFLOW WEB</Translate>,
+    url: 'https://docs.exflow.cloud/web',
+  },
+  {
+    title: <Translate>EXFLOW DATA CAPTURE</Translate>,
+    url: 'https://docs.exflow.cloud/datacapture',
   },
 ];
 
 
-function Feature({Svg, title, description}) {
+/* -- These are the links that should be used for the prod site, when the updated repo is finally deployed.
+const FeatureList = [
+  {
+    title: <Translate>EXFLOW AP</Translate>,
+    url: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction',
+  },
+  {
+    title: <Translate>EXFLOW SALES ORDER</Translate>,
+    url: 'https://docs.exflow.cloud/docs/business-central/user-manual/sales-order/sales-order-setup',
+  },
+  {
+    title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
+    url: 'http://docs.exflow.cloud/docs/business-central/user-manual/CO2-Insights/co2-insights',
+  },
+  {
+    title: <Translate>EXFLOW WEB</Translate>,
+    url: 'https://docs.exflow.cloud/web',
+  },
+  {
+    title: <Translate>EXFLOW DATA CAPTURE</Translate>,
+    url: 'https://docs.exflow.cloud/datacapture',
+  },
+];
+*/
+
+/* -- These are the links for the Preview site.
+const FeatureList = [
+  {
+    title: <Translate>EXFLOW AP</Translate>,
+    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/welcome-to-exflow/introduction',
+  },
+  {
+    title: <Translate>EXFLOW SALES ORDER</Translate>,
+    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/sales-order/sales-order-setup',
+  },
+  {
+    title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
+    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/CO2-Insights/co2-insights',
+  },
+  {
+    title: <Translate>EXFLOW WEB</Translate>,
+    url: 'https://docs.exflow.cloud/web',
+  },
+  {
+    title: <Translate>EXFLOW DATA CAPTURE</Translate>,
+    url: 'https://docs.exflow.cloud/datacapture',
+  },
+];
+*/
+
+
+// Change this to get a new design of the menu items.
+//
+function Feature({title, url}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.gears} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+    <a href={url} className="menu-item-link">
+    <div className="menu-item">
+        <Heading as="div">{title}</Heading>
     </div>
+    </a>
   );
 }
 
-function ImagePanel({Svg, text, link}) { 
-  return (
-    <div className={styles.imagePanelBox}>
-      <a className={styles.link} href={link}>        
-        <Svg className={styles.gears} role="img" />
-        <h4 className={styles.imagePanelText}>{text}</h4>
-      </a>
-    </div>
-  );
-}
 
-
-
-
+// Menu container
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
+    
+    <section className={styles.none}>
+      <div class="main-title">
+        SOLUTIONS FOR D365 BUSINESS CENTRAL
+      </div>
 
+      <div className="menu-container">
           {FeatureList.map((props, idx) => (
               <Feature key={idx} {...props} />
-            ))}
-
-        </div>
+          ))}
       </div>
     </section>
   );
 }
+
+
+
+
+
+
+// =================================================================================================
+// Old stuff for reference, ignore this
+// =================================================================================================
+/*
+const PanelList = [
+  {
+    Svg: require('@site/static/img/gears.svg').default,
+    text: <Translate>EXFLOW AP</Translate>,
+    link: 'https://docs.exflow.cloud/finance-operations'
+  },
+  {
+    Svg: require('@site/static/img/gears.svg').default,
+    text: <Translate>EXFLOW SALES ORDER</Translate>,
+    link: 'https://docs.exflow.cloud/web'
+  },
+  {
+    Svg: require('@site/static/img/gears.svg').default,
+    text: <Translate>EXFLOW WEB</Translate>,
+    link: 'https://docs.exflow.cloud/finance-operations'
+  },
+  {
+    Svg: require('@site/static/img/gears.svg').default,
+    text: <Translate>EXFLOW DATA CAPTURE</Translate>,
+    link: 'https://docs.exflow.cloud/finance-operations'
+  },
+  {
+    Svg: require('@site/static/img/gears.svg').default,
+    text: <Translate>EXFLOW C02 INSIGHTS</Translate>,
+    link: 'https://docs.exflow.cloud/finance-operations'
+  },
+];
+*/
+
+/*
+const FeatureList = [
+  {
+    title: <Translate>EXFLOW AP</Translate>,
+    Svg: require('@site/static/img/gears.svg').default,
+    description: (<Translate>ExFlow is easy to use. It is designed to be user-friendly and intuitive.</Translate>),
+    url: 'https://docs.exflow.cloud/finance-operations',
+  },
+  {
+    title: <Translate>EXFLOW SALES ORDER</Translate>,
+    Svg: require('@site/static/img/gears.svg').default,
+    description: (<><Translate>ExFlow allows you to focus on what matters: your business. It takes care of the rest.</Translate></>),
+    url: 'https://docs.exflow.cloud/finance-operations',
+  },
+  {
+    title: <Translate>EXFLOW WEB</Translate>,
+    Svg: require('@site/static/img/gears.svg').default,
+    description: (<Translate>ExFlow is easy to use. It is designed to be user-friendly and intuitive.</Translate>),
+    url: 'https://docs.exflow.cloud/finance-operations',
+  },
+  {
+    title: <Translate>EXFLOW DATA CAPTURE</Translate>,
+    Svg: require('@site/static/img/gears.svg').default,
+    description: (<Translate>ExFlow is easy to use. It is designed to be user-friendly and intuitive.</Translate>),
+    url: 'https://docs.exflow.cloud/finance-operations',
+  },
+  {
+    title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
+    Svg: require('@site/static/img/gears.svg').default,
+    description: (<Translate>ExFlow is easy to use. It is designed to be user-friendly and intuitive.</Translate>),
+    url: 'https://docs.exflow.cloud/finance-operations',
+  },
+];
+*/
+
+
+// Menu item
+/*
+function Feature_ORIGINAL({Svg, title, description, url}) {
+  return (
+    <a href="{url}" className="menu-item-link">
+    <div className="menu-item">
+        <Heading as="div">{title}</Heading>
+    </div>
+    </a>
+  );
+}
+*/
+
 
 /*
 
