@@ -191,4 +191,4 @@ Wichtig: Wählen Sie während der Konfiguration das richtige Unternehmen als Kä
 Überprüfen Sie die eingegebenen Details, bevor Sie den Konfigurationsprozess abschließen.
 Aktivieren Sie die Master Data Sync, um das Hochladen von Lieferantenstammdaten zu ermöglichen.
 Aktivieren Sie schließlich „aktivieren“ und akzeptieren Sie alle Aufforderungen.
-Testen Sie die Verbindung, um sicherzustellen, dass die Integration zwischen Business Central und ExFlow Data Capture erfolgreich ist.
+Testen Sie die Verbindung, um sicherzustellen, dass die Integration zwischen Business Central und ExFlow Data Capture erfolgreich ist. 
