@@ -11,16 +11,16 @@ Aktivieren Sie die Einstellung ''Vorschlagen von Mehrwertsteuerzeilen'', wenn al
 
 Wenn diese Einstellung verwendet wird, müssen die Felder Mehrwertsteuer-Produktbuchungsgruppe 0% und Mehrwertsteuer-Produktbuchungsgruppe 100% im ExFlow Setup festgelegt werden.
 
-![Vorschlagen von Mehrwertsteuerzeilen](@site/static/img/media/exflow-setup-propose-vat-lines-001.png)
+![Vorschlagen von Mehrwertsteuerzeilen](../../images/exflow-setup-propose-vat-lines-001.png)
 
 Mehrwertsteuerzeilen können auch automatisch über einen ExFlow-Einkaufscode vorgeschlagen werden. Aktivieren Sie einfach ''Vorschlagen von Mehrwertsteuerzeilen'' in der ExFlow-Einkaufscodekarte.
 
-![Vorschlagen von Mehrwertsteuerzeilen](@site/static/img/media/exflow-setup-approval-vat-lines-003.png)
+![Vorschlagen von Mehrwertsteuerzeilen](../../images/exflow-setup-approval-vat-lines-003.png)
 
 ExFlow erstellt dann eine separate Mehrwertsteuerzeile in den Import-Journalzeilen für das Einkaufsdokument zusammen mit der ausgewählten Kodierung.
 
 Die Kostenkontenzeile wird in diesem Beispiel auf "ohne Mehrwertsteuer" (KEINE MWST) gesetzt, da ExFlow eine eigene separate Mehrwertsteuerzeile festlegt.
 
-![Vorschlagen von Mehrwertsteuerzeilen](@site/static/img/media/exflow-setup-propose-vat-lines-002.png)
+![Vorschlagen von Mehrwertsteuerzeilen](../../images/exflow-setup-propose-vat-lines-002.png)
 
 Standardmäßig sind Mehrwertsteuerzeilen nicht im Genehmigungsworkflow enthalten. Es steht jedoch eine alternative Funktion für diesen Zweck zur Verfügung. Lesen Sie mehr im Abschnitt [***Mehrwertsteuerzeilen genehmigen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines), um mehr zu erfahren.

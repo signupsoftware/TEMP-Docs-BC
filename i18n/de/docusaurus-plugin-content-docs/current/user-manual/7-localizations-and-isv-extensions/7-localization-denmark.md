@@ -23,7 +23,7 @@ Eingabe: +71\<**125396534461985**+83958774\<
 
 Ausgabe: **125396534461985**
 
-![Einkaufsrechnung - Dänische Lokalisierung](@site/static/img/media/image361.png)
+![Einkaufsrechnung - Dänische Lokalisierung](../../images/image361.png)
 
 #### Lösung
 
@@ -31,9 +31,9 @@ Ausgabe: **125396534461985**
 
 Transformation implementiert unter Verwendung der Funktionalität "Datenaustauschdefinition". Die Konfiguration wird durch eine Transformationsregel ergänzt, die unnötige Zeichen entfernt.
 
-![Datenaustauschdefinition - Dänische Lokalisierung](@site/static/img/media/image362.png)
+![Datenaustauschdefinition - Dänische Lokalisierung](../../images/image362.png)
 
-![Transformationsregelkarte - Dänische Lokalisierung](@site/static/img/media/image363.png)
+![Transformationsregelkarte - Dänische Lokalisierung](../../images/image363.png)
 
 ##### Ausfüllen des Einkaufsrechnungsheaders
 

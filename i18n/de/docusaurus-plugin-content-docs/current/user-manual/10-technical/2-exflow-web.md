@@ -16,7 +16,7 @@ Verwenden Sie die Funktion **Web-Spalten bearbeiten**, um ExFlow Web-Spalten zu 
 
 Gehen Sie zu **ExFlow Setup --> Web-Spalten bearbeiten** 
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-edit-web-columns.png) 
+![ExFlow Setup](../../images/exflow-setup-edit-web-columns.png) 
 
 |Web-Spalten bearbeiten|
 :-|:-|
@@ -24,7 +24,7 @@ Gehen Sie zu **ExFlow Setup --> Web-Spalten bearbeiten**
 |**Spalte ändern**| Eine aktuelle ExFlow Web-Spalte aktualisieren
 |**ExFlow-Spalten**| Änderungen an ExFlow Web-Spalten verwalten
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-edit-web-columns-001.png)
+![ExFlow Setup](../../images/exflow-setup-edit-web-columns-001.png)
 
 Web-Spalten, die existieren und auf ExFlow Web sichtbar sind, haben sowohl das Kästchen „Aktuelle Sichtbarkeit“ als auch das Kästchen „Existiert“ angekreuzt.
 
@@ -32,17 +32,17 @@ Wenn eine Spalte für die Web-Genehmiger hinzugefügt werden muss, wählen Sie e
 
 Es ist möglich, eine vorhandene Web-Spalte auf ExFlow Web auszublenden, indem Sie „Versteckt“ wählen und dann auf „Spalte ändern“ klicken. In diesem Beispiel wird das Kästchen „Aktuelle Sichtbarkeit“ für die Spalte „Projektaufgabe“ dann deaktiviert.
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-edit-web-columns-002.png)
+![ExFlow Setup](../../images/exflow-setup-edit-web-columns-002.png)
 
 ### ExFlow-Spalten
 
 Gehen Sie zu **ExFlow Setup --> Web-Spalten bearbeiten --> ExFlow-Spalten** 
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-exflow-columns-001.png)
+![ExFlow Setup](../../images/exflow-setup-exflow-columns-001.png)
 
 Öffnen Sie ExFlow-Spalten und bearbeiten Sie die Liste, falls Änderungen an den Spalten vorgenommen werden müssen.
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-exflow-columns-002.png)
+![ExFlow Setup](../../images/exflow-setup-exflow-columns-002.png)
 
 |ExFlow-Spalten|
 :-|:-|

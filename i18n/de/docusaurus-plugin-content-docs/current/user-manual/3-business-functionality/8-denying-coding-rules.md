@@ -25,4 +25,4 @@ Ablehnungsregeln für die Kodierung werden verwendet, um zu verhindern, dass der
 | **Gilt für Genehmigungsgruppen:** | Gibt an, ob die Kodierungsregel nur für bestimmte Genehmigungsgruppen gilt
 | **Nur Endgenehmiger:**            | Gibt an, ob die Kodierungsregel nur auf den Endgenehmiger im Genehmigungsfluss angewendet werden soll
 
-![ExFlow Denying Coding Rule Card](@site/static/img/media/denying-coding-rule-001.png)
+![ExFlow Denying Coding Rule Card](../../images/denying-coding-rule-001.png)

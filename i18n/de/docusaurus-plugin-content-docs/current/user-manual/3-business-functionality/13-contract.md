@@ -33,7 +33,7 @@ Unter diesem Abschnitt fügen Sie allgemeine Informationen für diesen spezifisc
 | **Selbstabrechnungsrechnung erstellen**:    | Wählen Sie aus, wie Selbstabrechnungsrechnungen erstellt werden sollen<br/>- **Pro Periode:** Eine Rechnung pro Periode bis zum heutigen Datum<br/> - **Alle:** Eine Rechnung pro Periode für alle erstellten Perioden
 | **Lieferantenrechnungsnummer**:             | Dies erstellt die Lieferantenrechnungsnummer für Selbstabrechnungsrechnungen
 
-![ExFlow Vertrag](@site/static/img/media/contract-general-001.png)
+![ExFlow Vertrag](../../images/contract-general-001.png)
 
 ### Allgemeine Bedingungen
 Unter Allgemeine Bedingungen fügen Sie die Gesamtsummen für diesen spezifischen Vertrag hinzu.
@@ -44,7 +44,7 @@ Unter Allgemeine Bedingungen fügen Sie die Gesamtsummen für diesen spezifische
 | **Währungscode**:                           | Der Währungscode, der bei der Rechnungsstellung des Vertrags verwendet werden soll
 | **Gesamtvertragsbetrag (Netto-Währung)**:   | Gibt den Gesamtvertragsbetrag einschließlich Toleranzen an.
 
-![ExFlow Vertrag](@site/static/img/media/contract-general-terms-001.png)
+![ExFlow Vertrag](../../images/contract-general-terms-001.png)
 
 ### Periodizität
 Fügen Sie den Rechnungsbetrag, die Periodizität und die Anzahl der Rechnungen pro Periode hinzu.
@@ -63,7 +63,7 @@ Beim Arbeiten mit Rechnungsperioden wird dieser Abschnitt nur verwendet, um Wert
 | **Toleranzbetrag**:                        | Wird zusammen mit dem Toleranzprozentsatz verwendet und ermöglicht es, übereinstimmende Rechnungen innerhalb der Toleranzen abzugleichen und automatisch zu genehmigen<br/> Wenn Vertragsperioden hinzugefügt werden, muss die Toleranz für jede Periode hinzugefügt werden
 | **Zahlungsbedingungen-Code**:              | Wird für diesen spezifischen Vertrag verwendet, anstatt von der aktuellen Lieferantenkarte kopiert zu werden
 
-![ExFlow Genehmigungsstatus](@site/static/img/media/contract-periodicity-001.png)
+![ExFlow Genehmigungsstatus](../../images/contract-periodicity-001.png)
 
 ### Rechnungsperioden
 Rechnungsperioden können verwendet werden, um Rechnungen mit unterschiedlichen Beträgen oder Toleranzen pro Periode abzugleichen, aber auch um eine Erinnerung zu senden, wenn eine Rechnung für eine bestimmte Periode fehlt.<br/>
@@ -78,7 +78,7 @@ Wenn der Max. Rechnungsbetrag fehlt, erfolgt die Berechnung aus dem Gesamtvertra
 
 Toleranzen und Zahlungsbedingungen-Code werden aus der Periodizität kopiert.
 
-![ExFlow Vertrag Rechnungsperioden](@site/static/img/media/contract-invoice-periods-001.png)
+![ExFlow Vertrag Rechnungsperioden](../../images/contract-invoice-periods-001.png)
 
 |Rechnungsperioden |  |
 |:-|:-|
@@ -91,14 +91,14 @@ Toleranzen und Zahlungsbedingungen-Code werden aus der Periodizität kopiert.
 | **Nicht gebuchter Betrag (Netto-Währung)**:    | Gesamtsummen des erstellten, aber nicht gebuchten Rechnungsbetrags pro Periode, die im Genehmigungsstatus abgeglichen wurden. Durch Personalisierung kann der nicht gebuchte Betrag (Netto-LCY) hinzugefügt werden<br/> Klicken Sie auf den Betrag, um alle Dokumente zu sehen und die Ansicht zu erweitern, um alle Zeilen pro Dokument zu sehen
 | **Gebuchter Betrag (Netto-Währung)**:          | Gesamtsummen der gebuchten Rechnungsbeträge, die pro Periode im Genehmigungsstatusverlauf abgeglichen wurden. Durch Personalisierung kann der gebuchte Betrag (Netto-LCY) hinzugefügt werden<br/> Klicken Sie auf den Betrag, um alle Dokumente zu sehen und die Ansicht zu erweitern, um alle Zeilen pro Dokument zu sehen
 
-![ExFlow Vertrag Rechnungsperioden](@site/static/img/media/contract-invoice-periods-002.png)
+![ExFlow Vertrag Rechnungsperioden](../../images/contract-invoice-periods-002.png)
 
 Für fakturierte Gesamtsummen siehe [***FactBox --> Details --> Einkaufsvertragsstatistik***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#factbox--details--purchase-contract-statistic) unten.
 
 ### Vertrag mit Rechnungsperioden verlängern
 Um einen Vertrag zu verlängern, der Perioden enthält, fügen Sie ein neues "Gültig-bis-Datum" in Allgemeine Bedingungen hinzu und aktualisieren Sie die Werte, die aus der Periodizität kopiert werden.
 
-![ExFlow Vertrag Perioden verlängern](@site/static/img/media/contract-extend-001.png)
+![ExFlow Vertrag Perioden verlängern](../../images/contract-extend-001.png)
 
 ### Rechnungs-Erinnerung
 Es gibt eine Funktion, um Erinnerungen für Verträge zu senden, die Rechnungsperioden und ExFlow-E-Mail-Einrichtung haben.
@@ -121,7 +121,7 @@ Die Vertrags-Erinnerung dient dazu, Erinnerungen zu senden, bevor der Vertrag ab
 | **Erinnerung gesendet**:             | Datum und Uhrzeit, wann die Vertrags-Erinnerung gesendet wurde.
 | **Benutzer-E-Mail**:                 | E-Mail-Adresse, an die die Erinnerung gesendet wird.
 
-![ExFlow Genehmigungsstatus](@site/static/img/media/contract-contract-reminder-001.png)
+![ExFlow Genehmigungsstatus](../../images/contract-contract-reminder-001.png)
 
 ### Abgleich
 Aktivieren Sie diese Option, wenn eine abgeglichene Rechnung automatisch genehmigt werden soll.
@@ -130,22 +130,22 @@ Aktivieren Sie diese Option, wenn eine abgeglichene Rechnung automatisch genehmi
 |:-|:-|
 | **Autom. Genehmigung abgeglichener Rechnungen**: | Für die automatische Genehmigung erstellen Sie eine Genehmigungsregel mit Genehmigern, die den Informationen im Vertrag entsprechen, und aktivieren Sie "Autom. Genehmigung abgeglichener Rechnungen im Vertrag".
 
-![ExFlow Genehmigungsstatus](@site/static/img/media/contract-matching-001.png)
+![ExFlow Genehmigungsstatus](../../images/contract-matching-001.png)
 
 ### Funktion - Vertragsreferenz erstellen
 Klicken Sie auf "Vertragsreferenz erstellen", um die externe Vertragsnummer als ExFlow-Referenz zu erstellen. Diese kann nun für die Interpretation und den Abgleich im Importjournal verwendet werden.
 
-![ExFlow Vertragsmenü](@site/static/img/media/contract-menu-001.png)
+![ExFlow Vertragsmenü](../../images/contract-menu-001.png)
 
 ### Funktion - Anhänge anzeigen
 Verwenden Sie diese Funktion, um die Vertragsanhänge anzuzeigen.
 
-![ExFlow Vertragsmenü](@site/static/img/media/contract-menu-002.png)
+![ExFlow Vertragsmenü](../../images/contract-menu-002.png)
 
 ### Funktion - Aktionen – Selbstabrechnungsrechnung erstellen
 Verwenden Sie diese Funktion, um eine Selbstabrechnungsrechnung nur für den aktuellen Vertrag zu erstellen.
 
-![ExFlow Vertragsmenü Aktionen](@site/static/img/media/contract-menu-actions-001.png)
+![ExFlow Vertragsmenü Aktionen](../../images/contract-menu-actions-001.png)
 
 Dies kann auch automatisch über eine Jobwarteschlange erfolgen. Lesen Sie mehr im Abschnitt [***Selbstabrechnungsvertrag einrichten***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
 
@@ -160,12 +160,12 @@ Wenn Sie die Funktion „Vertrag kopieren“ verwenden, werden einige Felder nic
 -	**Selbstabrechnungsrechnung**: Es muss ein PDF als Anhang vorhanden sein, bevor die Selbstabrechnung aktiviert werden kann. Anhänge werden nicht kopiert.
 -	**Rechnungsperioden**: Können über die Funktion „Rechnungsperioden erstellen“ erstellt werden, da Perioden nicht aktualisiert werden, wenn die Daten oder Beträge nicht mit den kopierten übereinstimmen.
 
-![ExFlow Vertragsmenü](@site/static/img/media/contract-menu-003.png)
+![ExFlow Vertragsmenü](../../images/contract-menu-003.png)
 
 ### Funktion - Verwandt – Dimensionen
 Wählen Sie die Dimensionscodes/Werte aus, die in der Vertragsrechnung verwendet werden sollen.
 
-![ExFlow Vertragsdimensionen](@site/static/img/media/contract-menu-related-001.png)
+![ExFlow Vertragsdimensionen](../../images/contract-menu-related-001.png)
 
 ### FactBox – Details – Einkaufsvertragsstatistik
 In der FactBox Einkaufsvertragsstatistik werden alle zugehörigen Rechnungen im Importjournal, Genehmigungsstatus und Genehmigungsstatusverlauf insgesamt angezeigt.
@@ -176,13 +176,13 @@ In der FactBox Einkaufsvertragsstatistik werden alle zugehörigen Rechnungen im 
 | **Nicht gebuchter Betrag (Netto Währung)**:         | Gesamtsumme der erstellten, aber nicht gebuchten Rechnungsbeträge im Genehmigungsstatus. Durch Personalisierung kann der nicht gebuchte Betrag (Netto LCY) hinzugefügt werden.<br/> Klicken Sie auf den Betrag, um alle Dokumente anzuzeigen und die Ansicht zu erweitern, um alle Zeilen pro Dokument zu sehen.
 | **Gebuchter Betrag (Netto Währung)**:             | Gesamtsumme der gebuchten Rechnungsbeträge im Genehmigungsstatusverlauf. Durch Personalisierung kann der gebuchte Betrag (Netto LCY) hinzugefügt werden.<br/> Klicken Sie auf den Betrag, um alle Dokumente anzuzeigen und die Ansicht zu erweitern, um alle Zeilen pro Dokument zu sehen.
 
-![ExFlow VertragsfactBox Details](@site/static/img/media/contract-factbox-details-001.png)
+![ExFlow VertragsfactBox Details](../../images/contract-factbox-details-001.png)
 
 ### FactBox – Anhänge und Notizen
 Die Anzahl der hinzugefügten Anhänge und Notizen für den aktuellen Vertrag kann in der Überschrift angezeigt werden.
 Fügen Sie Anhänge oder Benachrichtigungen hinzu, indem Sie auf das untenstehende Bild klicken.
 
-![ExFlow VertragsfactBox Anhänge](@site/static/img/media/contract-factbox-attachments-001.png)
+![ExFlow VertragsfactBox Anhänge](../../images/contract-factbox-attachments-001.png)
 
 #### Anhänge
 Anhänge können hinzugefügt werden, indem Sie auf die Anzahl der Dokumente klicken. Wenn die Anhänge zur abgeglichenen Rechnung hinzugefügt werden sollen, muss „Anhänge zu abgeglichener Rechnung kopieren“ aktiviert werden.
@@ -204,21 +204,21 @@ Die Rechnung wird dem ExFlow-Vertrag zugeordnet.
 ### Verträge ohne Rechnungsperioden nachverfolgen
 Für Verträge ohne Rechnungsperioden kann die Nachverfolgung über ***FactBox --> Details --> Einkaufsvertragsstatistik*** erfolgen.
 
-![ExFlow Vertragskaufstatistik](@site/static/img/media/contract-factbox-details-002.png)
+![ExFlow Vertragskaufstatistik](../../images/contract-factbox-details-002.png)
 
 Klicken Sie auf den Betrag für weitere Rechnungsdetails.
 
-![ExFlow Vertragsstatistik](@site/static/img/media/contract-statistic-001.png)
+![ExFlow Vertragsstatistik](../../images/contract-statistic-001.png)
 
 Erweitern Sie die Rechnungen, um die Zeilen anzuzeigen.
 
-![ExFlow Vertragsstatistik](@site/static/img/media/contract-statistic-002.png)
+![ExFlow Vertragsstatistik](../../images/contract-statistic-002.png)
 
 ### Verträge mit Rechnungsperioden nachverfolgen
 Wenn der Vertrag Rechnungsperioden enthält, kann die Nachverfolgung pro Periode wie unten beschrieben erfolgen. Aber auch für den gesamten Vertrag wie oben.
 Klicken Sie auf den Betrag für weitere Rechnungsdetails.
 
-![ExFlow Vertragsperioden](@site/static/img/media/contract-invoice-periods-003.png)
+![ExFlow Vertragsperioden](../../images/contract-invoice-periods-003.png)
 
 
 ### Selbstabrechnungsvertrag
@@ -228,7 +228,7 @@ Ein Selbstabrechnungsvertrag ist hilfreich für regelmäßige Zahlungen an einen
 Für die Selbstabrechnung gibt es einige optionale Einstellungen, die nützlich sein können.<br/>
 Gehe zu: ***Setup --> ExFlow Manual Setup --> Contracts (List)--> Related --> Contract Setup***
 
-![ExFlow Contract Setup](@site/static/img/media/contracts-contract-setup-001.png)
+![ExFlow Contract Setup](../../images/contracts-contract-setup-001.png)
 
 #### Hintergrundverarbeitung
 
@@ -243,11 +243,11 @@ Gehe zu: ***Setup --> ExFlow Manual Setup --> Contracts (List)--> Related --> Co
 | **Selbstabrechnungsrechnungsnummern**:                    | Fügen Sie eine separate Nummernserie für Selbstabrechnungsrechnungen hinzu, um den Überblick zu behalten. <br/>Wenn keine Nummernserie hinzugefügt wird, werden die Standardnummern von Business verwendet.
 | **Selbstabrechnungsbuchungsrechnungsnummern**:             | Fügen Sie eine separate Nummernserie für Selbstabrechnungsbuchungsrechnungen hinzu, um den Überblick zu behalten. <br/>Wenn keine Nummernserie hinzugefügt wird, werden die Standardnummern von Business verwendet.
 
-![ExFlow Contract Setup](@site/static/img/media/contract-setup-001.png)
+![ExFlow Contract Setup](../../images/contract-setup-001.png)
 
 ### Importjournal für Selbstabrechnungsrechnungen
 Durch die Personalisierung in Importjournalen ist es möglich, ein spezifisches Journal für erstellte Selbstabrechnungsrechnungen zu aktivieren. Rechnungen können auch automatisch durch die Verwendung von "Dokumente automatisch erstellen" erstellt werden. <br/><br/>
-![ExFlow Import Journals](@site/static/img/media/import-journals-001-self-billing-invoices.png import-journals-001-self-billing-invoice)
+![ExFlow Import Journals](../../images/import-journals-001-self-billing-invoices.png import-journals-001-self-billing-invoice)
 
 ### Selbstabrechnungsrechnungen erstellen
 Um eine Selbstabrechnungsrechnung erstellen zu können, sind einige Einstellungen im ExFlow-Vertrag erforderlich.
@@ -261,12 +261,12 @@ Um eine Selbstabrechnungsrechnung erstellen zu können, sind einige Einstellunge
 ***- Externe Vertragsnummer mit Suffix Periodenstartdatum***<br/>
 ***- Selbstabrechnungsnummernserie***<br/>Fügen Sie eine Nummernserie in Lieferantenrechnungsnummern hinzu oder erstellen Sie eine.
 
-![ExFlow Contract Self-Billing](@site/static/img/media/contract-self-billing-001.png)
+![ExFlow Contract Self-Billing](../../images/contract-self-billing-001.png)
 
 #### Rechnungsperioden hinzufügen
 Rechnungsperioden manuell hinzufügen oder die Funktion Rechnungsperioden erstellen verwenden.
 
-![ExFlow Contract Invoice Periods](@site/static/img/media/contract-invoice-periods-001.png)
+![ExFlow Contract Invoice Periods](../../images/contract-invoice-periods-001.png)
 
 #### Selbstabrechnungsrechnungen automatisch erstellen
 Lesen Sie mehr im Abschnitt [***Einrichtung des Selbstabrechnungsvertrags***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
@@ -282,18 +282,18 @@ Im Falle von Abweichungen bleibt das vertragsabgeglichene Dokument im Importjour
 
 Eine Aktionsnachricht wird angezeigt, wenn beispielsweise der Vertragsbetrag höher als erwartet ist oder andere Szenarien vorliegen, die von den Vertragskriterien abweichen.
 
-![ExFlow Contract](@site/static/img/media/contracts-web-001.png)
+![ExFlow Contract](../../images/contracts-web-001.png)
 
 Wenn das Dokument korrekt ist und erstellt werden soll, muss der AP-Benutzer die Aktionsnachricht akzeptieren.
 
 Die Aktionsnachricht wird dann in das Diskussionspanel kopiert, wenn das Dokument erstellt wird.
 
-![ExFlow Contract](@site/static/img/media/contracts-web-002.png)
+![ExFlow Contract](../../images/contracts-web-002.png)
 
 Im Diskussionspanel im Genehmigungsstatus wird das vertragsabgeglichene Dokument eine ''Vertragswarnung'' haben und kann so aussehen:<br/> *''Vertragswarnung: Der Rechnungsbetrag übersteigt den Periodenrechnungsbetrag von 1.000 für Vertrag 2.''*
 
-![ExFlow Contract](@site/static/img/media/contracts-web-003.png)
+![ExFlow Contract](../../images/contracts-web-003.png)
 
 Die gleiche Nachricht wird als Chatnachricht an den Web-Genehmiger gesendet, damit der Web-Genehmiger weiß, dass dieses Dokument ein vertragsabgeglichenes Dokument ist und warum dieses spezielle Dokument ihre Genehmigung benötigt.
 
-![ExFlow Contract](@site/static/img/media/contracts-web-004.png)
+![ExFlow Contract](../../images/contracts-web-004.png)

@@ -12,17 +12,17 @@ Es gibt vier Arten von Benachrichtigungen: Ungeprüfte Dokumente im aktiven Unte
 ### Dokumente zur Genehmigung
 Wenn der Benutzer Dokumente zur Genehmigung im aktuellen Unternehmen hat, klicken Sie auf den Link "Dokumente genehmigen":
 
-![ExFlow-Benachrichtigung](@site/static/img/media/image336.png)
+![ExFlow-Benachrichtigung](../../images/image336.png)
 
 Dies öffnet eine neue Seite, auf der der Benutzer die Dokumente im aktuellen Unternehmen genehmigen kann.
 
 Wenn der Benutzer Dokumente zur Genehmigung in anderen Unternehmen hat, klicken Sie auf den Link "Dokumente genehmigen":
 
-![ExFlow-Benachrichtigung](@site/static/img/media/image337.png)
+![ExFlow-Benachrichtigung](../../images/image337.png)
 
 Dies zeigt dem Benutzer eine Liste, die der folgenden ähnelt:
 
-![ExFlow Ungeprüfte Dokumente pro Unternehmen](@site/static/img/media/image338.png)
+![ExFlow Ungeprüfte Dokumente pro Unternehmen](../../images/image338.png)
 
 Klicken Sie auf die Zahl rechts, um eine neue Seite zu öffnen, auf der der Benutzer die Dokumente im ausgewählten Unternehmen genehmigen kann.
 
@@ -44,15 +44,15 @@ Für einen ExFlow-Benutzer (verbunden mit einem "Systembenutzer") können Benach
 
 Wenn der Benutzer Kommentare im aktuellen Unternehmen lesen muss, klicken Sie auf den Link "Kommentar lesen":
 
-![ExFlow-Benachrichtigungen](@site/static/img/media/notifications-new-comments-001.png)
+![ExFlow-Benachrichtigungen](../../images/notifications-new-comments-001.png)
 
 Wenn der Benutzer Kommentare in anderen Unternehmen lesen muss, klicken Sie auf den Link "Kommentar lesen":
 
-![ExFlow-Benachrichtigungen - Kommentare in anderen Unternehmen](@site/static/img/media/image341.png)
+![ExFlow-Benachrichtigungen - Kommentare in anderen Unternehmen](../../images/image341.png)
 
 Dieser Link zeigt dem Benutzer eine Liste, die der folgenden ähnelt:
 
-![ExFlow-Benachrichtigungen](@site/static/img/media/image342.png)
+![ExFlow-Benachrichtigungen](../../images/image342.png)
 
 Klicken Sie auf die Zahl in der rechten Spalte, um eine neue Seite zu öffnen, auf der der Benutzer Kommentare im ausgewählten Unternehmen lesen kann.
 
@@ -66,7 +66,7 @@ Doppelklicken Sie auf die Nachricht oder "Dokument anzeigen", um eine neue Nachr
 
 In der "Chat-Benachrichtigungsliste" werden alle neuen ungelesenen Nachrichten in Fettschrift angezeigt.
 
-![ExFlow Chat-Benachrichtigungsliste](@site/static/img/media/image343.png)
+![ExFlow Chat-Benachrichtigungsliste](../../images/image343.png)
 
 **Firma:** Die Firma, in der das Dokument erstellt wurde, in der der Benutzer erwähnt wird.
 
@@ -92,23 +92,23 @@ In der "Chat-Benachrichtigungsliste" werden alle neuen ungelesenen Nachrichten i
 
 Alle Nachrichten aus dem Chat werden im Diskussionsbereich FactBox angezeigt.
 
-![ExFlow Approval Status Card](@site/static/img/media/image345.png)
+![ExFlow Approval Status Card](../../images/image345.png)
 
 Auf ExFlow Web wird in der Inbox-Dokumentzeile @ hervorgehoben, wenn der Genehmiger im Dokument erwähnt wird. Klicken Sie auf das Dokument, um es zu öffnen, zu lesen und Kommentare zu schreiben.
 
-![ExFlow Web - Inbox](@site/static/img/media/image346.png)
+![ExFlow Web - Inbox](../../images/image346.png)
 
 Alle Nachrichten werden auch in der Inbox angezeigt, selbst wenn der Genehmiger nicht im Genehmigungsfluss enthalten ist.
 
 Klicken Sie auf den Link, um das Dokument zu öffnen, zu lesen und Kommentare zu schreiben.
 
-![ExFlow Web - Inbox](@site/static/img/media/image347.png)
+![ExFlow Web - Inbox](../../images/image347.png)
 
 Im Dokument ist die Blase rot, wenn es ungelesene Nachrichten gibt.
 
-![ExFlow Web - Document Chat](@site/static/img/media/image348.png)
+![ExFlow Web - Document Chat](../../images/image348.png)
 
-![ExFlow Web - Document Chat](@site/static/img/media/image349.png)
+![ExFlow Web - Document Chat](../../images/image349.png)
 
 ### Import Journal - Diskussionsbereich (Nachricht wird gesendet, wenn das Dokument erstellt wird)
 
@@ -120,7 +120,7 @@ Für ExFlow-Benutzer, die keinem Business Central-Benutzer zugeordnet sind, wird
 
 Lesen Sie mehr im Abschnitt [***ExFlow Users.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
 
-![ExFlow Import Journal - Discussion Panel](@site/static/img/media/image350.png)
+![ExFlow Import Journal - Discussion Panel](../../images/image350.png)
 
 ### Genehmigungsstatus - Diskussionsbereich
 
@@ -128,7 +128,7 @@ Wenn Sie einen Kommentar im Diskussionsbereich aus dem Genehmigungsstatus hinzuf
 
 Wenn ein Benutzer mit @ erwähnt wird, kann der Benutzer dieses Dokument und den Kommentar auf ExFlow Web sehen, auch wenn der Benutzer **nicht** im Genehmigungsfluss ist. Eine Nachricht kann auch per E-Mail gesendet werden.
 
-![Discussion Panel](@site/static/img/media/image351.png)
+![Discussion Panel](../../images/image351.png)
 
 Um E-Mail-Nachrichten aus dem Diskussionsbereich zu senden, sind einige Einstellungen in ExFlow Email Setup und Job Queue Entries erforderlich.
 
@@ -148,14 +148,14 @@ Auf der ExFlow-Benutzerkarte gibt es einige Einstellungen, die sowohl für ExFlo
 
 **Bevorzugter Genehmigungsklient:** Wählen Sie die Umgebung für Einstellungen in Links, die in E-Mails für Nachrichten und Erinnerungen gesendet werden.
 
-![ExFlow User Card](@site/static/img/media/image352.png)
+![ExFlow User Card](../../images/image352.png)
 
 ### Kommentar auf Zeilenebene
 
 Ein Kommentar kann auf Zeilenebene auf ExFlow Web abgegeben werden, jedoch wird der Kommentar nicht im Diskussionsbereich in Business Central oder im Chat auf ExFlow Web angezeigt. Nur auf der Zeile, auf der der Kommentar hinzugefügt wurde.
 
-![ExFlow Web - Document Line Comment](@site/static/img/media/image353.png)
+![ExFlow Web - Document Line Comment](../../images/image353.png)
 
 Der Kommentar wird auf Doc. Line Approvers in Business Central gefunden.
 
-![ExFlow Approval Status - Document Lines](@site/static/img/media/image354.png)
+![ExFlow Approval Status - Document Lines](../../images/image354.png)

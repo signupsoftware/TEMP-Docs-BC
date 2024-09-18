@@ -34,7 +34,7 @@ Eine der Einstellungen ist „Standard-Benutzer-Codierungsregel-ID“. Es erleic
 | **ExFlow-Referenz automatisch erstellen:**    | Wählen Sie diese Option, um ExFlow-Referenzen automatisch zu erstellen. <br/> Lesen Sie mehr im Abschnitt [***Referenzcodes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
 |**Standard-Vertraulichkeits-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird <br/> <br/> Lesen Sie mehr über Berechtigungen im Abschnitt [***Berechtigungen für einen Business Central Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/) 
 
-![ExFlow Setup - Benutzer](@site/static/img/media/exflow-setup-users-001.png)
+![ExFlow Setup - Benutzer](../../images/exflow-setup-users-001.png)
 
 ### ExFlow Benutzer aus Excel importieren
 
@@ -42,7 +42,7 @@ Neben dem manuellen Hinzufügen neuer Benutzer können Administratoren auch ExFl
 
 Um aus Excel zu importieren, verwenden Sie die "Vorlage herunterladen" für die Excel-Tabelle.
 
-![ExFlow Benutzerliste](@site/static/img/media/exflow-users-001-export-import.png)
+![ExFlow Benutzerliste](../../images/exflow-users-001-export-import.png)
 <br/><br/>
 
 ### Einen neuen Benutzer manuell hinzufügen
@@ -82,7 +82,7 @@ Wenn der ExFlow Benutzer ein Systembenutzer ist, können Benachrichtigungen in B
 | **Diskussionspanel:**             | Wählen Sie Ja/Nein, ob ExFlow Benachrichtigungen für Erwähnungen im Diskussionspanel/Chat für den Genehmiger (Systembenutzer) auf der Rollencenter-Seite anzeigen soll
 | **Vertragsrechnungs-Erinnerung:**    | Wählen Sie Ja/Nein, ob ExFlow Benachrichtigungen senden soll, wenn Vertragsrechnungen fehlen
 
-![ExFlow Benutzerkarte](@site/static/img/media/exflow-user-004.png)
+![ExFlow Benutzerkarte](../../images/exflow-user-004.png)
 
 Erfahren Sie mehr über Benachrichtigungen im Abschnitt [***Genehmigungsworkflow --> Benachrichtigungen in Business Central.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#notifications-in-business-central)
 
@@ -101,7 +101,7 @@ Erfahren Sie mehr über Benachrichtigungen im Abschnitt [***Genehmigungsworkflow
 | **Gesperrt:**                          | Wenn der Genehmiger gesperrt ist. Lesen Sie mehr unter [***Genehmiger verlässt das Unternehmen***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
 |**Zugriff auf vertrauliche Dokumente**|  Gibt an, ob der Benutzer Zugriff auf vertrauliche Dokumente hat oder nicht. Lesen Sie mehr unter [***Vertrauliche Dokumente***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
 
-![ExFlow Benutzerkarte](@site/static/img/media/exflow-user-permissions-001.png)<br/>
+![ExFlow Benutzerkarte](../../images/exflow-user-permissions-001.png)<br/>
 
 ### Systembenutzer erstellen
 
@@ -109,13 +109,13 @@ Gehen Sie zu: ***Business Central Standard User***
 
 Ein ExFlow-Benutzer kann auch aus einem Business Central-Benutzer erstellt werden, indem die Aktion „Create ExFlow User“ verwendet wird. Diese Aktion kann von der Business Central-Benutzerkarte oder der Hauptseite „Users“ aus erreicht werden.
 
-![Business Central User](@site/static/img/media/business-central-user-001.png)
+![Business Central User](../../images/business-central-user-001.png)
 
 Wählen Sie auf der Seite „Users“ einen oder mehrere Benutzer aus und klicken Sie auf „Create ExFlow User“. Diese Aktion öffnet eine neue Seite, die eine temporäre Tabelle mit den ausgewählten Benutzern anzeigt und alle Werte präsentiert, die nach Abschluss in die ExFlow-Benutzer übernommen werden.
 
 Die Spalte „ExFlow User Exists“ in der Tabelle zeigt an, ob der ExFlow-Benutzer bereits erstellt wurde oder nicht. Alle anderen Werte der verbleibenden Felder wurden von der Business Central-Benutzerkarte kopiert, können jedoch bei Bedarf geändert werden.
 
-![ExFlow User Card - Associated System User](@site/static/img/media/business-central-user-002.png)
+![ExFlow User Card - Associated System User](../../images/business-central-user-002.png)
 
 Die Benutzer-Coding-Regel-ID wird automatisch auf der neu erstellten ExFlow-Benutzerkarte hinzugefügt, abhängig vom in der ExFlow-Setup ausgewählten Wert „Default User Coding Rule ID“.
 
@@ -148,13 +148,13 @@ Klicken Sie auf „Add Replacer“.
 
 Wählen Sie den Benutzer, der ersetzt werden soll, im Feld „Approver“ aus und fügen Sie dann den Vertreter hinzu. Ein Benutzer kann in einem einzelnen Unternehmen oder in allen Unternehmen ersetzt werden, jedoch nur, wenn der Vertreter Zugriff auf das Unternehmen hat. Denken Sie daran, immer ein Start- und Enddatum festzulegen. Klicken Sie auf „Add Replacer“, wenn alle Informationen ausgefüllt sind.
 
-![ExFlow User Card](@site/static/img/media/replacer-001.png)
+![ExFlow User Card](../../images/replacer-001.png)
 
-![ExFlow Replacer](@site/static/img/media/replacer-002.png)
+![ExFlow Replacer](../../images/replacer-002.png)
 
 Der ersetzte Benutzer kann weiterhin genehmigen, auch wenn ein Vertreter vorhanden ist. Beide können genehmigen. Beide erhalten E-Mail-Benachrichtigungen.
 
-![ExFlow Approval Group Card](@site/static/img/media/approval-group-008.png)
+![ExFlow Approval Group Card](../../images/approval-group-008.png)
 <br/><br/>
 
 ### Genehmiger verlässt das Unternehmen
@@ -165,9 +165,9 @@ Wählen Sie den Benutzer aus, der das Unternehmen verlässt.
 
 Wählen Sie ein Unternehmen nach dem anderen aus und klicken Sie auf „Block/Unblock User“.
 
-![ExFlow User Card](@site/static/img/media/exflow-user-006.png)
+![ExFlow User Card](../../images/exflow-user-006.png)
 
-![Block User](@site/static/img/media/block-user-001.png)
+![Block User](../../images/block-user-001.png)
 
 Wenn Sie den Benutzer blockieren, fügen Sie im Feld „New User“ einen Vertreter hinzu. Dies aktualisiert die Dokumente in den Genehmigungs-Workflows.
 
@@ -181,7 +181,7 @@ Administratoren können ausgeblendete blockierte Benutzer mit der Funktion „Vi
 
 Um zu sehen, wer den blockierten Benutzer ersetzt, öffnen Sie die ExFlow-Benutzerkarte.
 
-![ExFlow User Card](@site/static/img/media/exflow-user-007.png)
+![ExFlow User Card](../../images/exflow-user-007.png)
 <br/><br/>
 
 ### Genehmiger, der das Unternehmen verlassen hat, kehrt zurück
@@ -190,11 +190,11 @@ Gehen Sie zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
 
 Um einen blockierten Genehmiger wieder einzusetzen, klicken Sie auf „View/Hide Blocked“, um alle blockierten Benutzer anzuzeigen. Wählen Sie den Benutzer aus und klicken Sie auf „Block/Unblock User“.
 
-![ExFlow User Card Permissions](@site/static/img/media/exflow-user-permissions-002.png)
+![ExFlow User Card Permissions](../../images/exflow-user-permissions-002.png)
 
 Klicken Sie auf „Ja“ bei der Frage „Unblock“.
 
-![Unblock User](@site/static/img/media/do-you-want-to-unblock-001.png)
+![Unblock User](../../images/do-you-want-to-unblock-001.png)
 
 Der zurückgekehrte Benutzer muss nun manuell wieder in die Genehmigungs- und Coding-Regeln aufgenommen werden, wenn „Replace Approval Rule and Coding Rules“ beim Blockieren des Benutzers verwendet wurde.
 <br/><br/>

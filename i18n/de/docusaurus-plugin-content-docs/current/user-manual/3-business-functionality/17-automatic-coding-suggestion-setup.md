@@ -12,7 +12,7 @@ Diese Funktion in ExFlow ermöglicht es, automatische Kodierungsvorschläge im I
 
 Um diese Funktion nutzen zu können, muss sie zuerst an einigen Stellen eingerichtet werden.
 
-![ExFlow Menü](@site/static/img/media/exflow-meny-auto-coding-001.png)
+![ExFlow Menü](../../images/exflow-meny-auto-coding-001.png)
 
 ### Einen neuen Kodierungsvorschlag hinzufügen
 
@@ -36,7 +36,7 @@ Die folgenden Schaltflächen sind auf dieser Seite verfügbar:
 | **Vorschläge:**             | Dies zeigt die erstellte Vorschlags-ID für die ausgewählte Einrichtung
 | **Vorschläge löschen:**     | Dies löscht die Vorschlags-IDs
 
-![ExFlow Kodierungsvorschlag-Einrichtung](@site/static/img/media/coding-suggestion-setup-001.png)
+![ExFlow Kodierungsvorschlag-Einrichtung](../../images/coding-suggestion-setup-001.png)
 
 ### Aktivierung der automatischen Kodierungsvorschläge
 
@@ -54,16 +54,16 @@ Wenn "Ausgewählte Kreditoren" aktiviert ist, muss auch "Automatische Kodierungs
 | **Vorschläge ab Datum berechnen:**                             | Gibt das Startdatum der Dokumente an, die in die Kodierungsvorschläge einfließen sollen
 | **Automatische Kodierungsbeträge aus Kodierungssatz-ID vorschlagen:** | Gibt an, ob die Beträge automatisch in den erstellten Zeilen aus der Kodierungssatz-ID vorgeschlagen werden
 
-![ExFlow Einrichtung - Automatische Vorschläge](@site/static/img/media/exflow-setup-automatic-suggestion-001.png)
+![ExFlow Einrichtung - Automatische Vorschläge](../../images/exflow-setup-automatic-suggestion-001.png)
 
 #### Importjournal
 
 Aktivieren Sie "Zeilen mit automatischem Vorschlag erstellen", um diese Funktion für ein bestimmtes Importjournal zu aktivieren. (Dieses Feld muss möglicherweise über die Personalisierung zur Seite hinzugefügt werden)
 
-![ExFlow Importjournale](@site/static/img/media/import-journals-008.png)
+![ExFlow Importjournale](../../images/import-journals-008.png)
 
 #### Periodische Aktivitäten
 
 Um den automatischen Kodierungsvorschlag anzuwenden, müssen die Funktionen ExFlow Kodierungssatz-IDs für Kodierungsvorschläge und ExFlow Erstellung automatischer Kodierungsvorschläge ausgeführt werden. Beim ersten Gebrauch des automatischen Kodierungsvorschlags müssen beide Jobs mindestens einmal ausgeführt werden. Danach kann die Wiederholung in den entsprechenden Job-Warteschlangen-Einträgen angepasst werden.
 
-![Periodische Aktivitäten](@site/static/img/media/exflow-menu-005-periodic-activities.png)
+![Periodische Aktivitäten](../../images/exflow-menu-005-periodic-activities.png)

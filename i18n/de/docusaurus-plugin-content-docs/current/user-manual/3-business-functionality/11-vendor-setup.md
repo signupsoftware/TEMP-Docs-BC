@@ -13,7 +13,7 @@ Bearbeiten Sie einfach die ExFlow Lieferanteneinrichtungsliste oder klicken Sie 
 
 Die Standardeinstellungen werden in der ExFlow Lieferanteneinrichtungsliste angezeigt. Verwenden Sie „Personalisieren“, um die Liste bei Bedarf mit weiteren Feldern zu ändern.
 
-![ExFlow Lieferanteneinrichtung](@site/static/img/media/Vendor-setup-001.png)
+![ExFlow Lieferanteneinrichtung](../../images/Vendor-setup-001.png)
 
 | Lieferanteneinrichtungsmenü|  |
 |:-|:-|
@@ -33,13 +33,13 @@ Die Standardeinstellungen werden in der ExFlow Lieferanteneinrichtungsliste ange
 Die Funktion „Artikel-Nr.-Abgleichspriorität“ ist in der Lieferanteneinrichtungskarte leicht zugänglich. <br/> Lesen Sie mehr darüber im Abschnitt [***Artikel-Nr.-Abgleichspriorität***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
 <br/>
 
-![ExFlow Lieferanteneinrichtung](@site/static/img/media/vendor-setup-card-sections-001.png)
+![ExFlow Lieferanteneinrichtung](../../images/vendor-setup-card-sections-001.png)
 
 ### Allgemein
 
 Die Option „Von ExFlow-Einrichtung“ ist in den meisten Einstellungen standardmäßig festgelegt, was bedeutet, dass ExFlow die Standardeinrichtung (aus [***ExFlow-Einrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#exflow-setup)) übernimmt, wenn keine andere Einrichtung auf der Lieferanteneinrichtungskarte für den spezifischen Lieferanten ausgewählt ist.
 
-![ExFlow Lieferanteneinrichtung](@site/static/img/media/Vendor-setup-card-002.png)
+![ExFlow Lieferanteneinrichtung](../../images/Vendor-setup-card-002.png)
 
 |Allgemein|  |
 |:-|:-|

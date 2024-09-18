@@ -15,39 +15,39 @@ Die Referenz kann einen vordefinierten ExFlow-Kaufcode hinzufügen, der zur Zuor
 
 Es ist möglich, eine Kombination aus Referenz und Lieferantennummer zu verwenden. Wenn eine Referenz für einen bestimmten Lieferanten interpretiert wird, ist ein spezieller Genehmigungsfluss zu verwenden. Bearbeiten Sie außerdem die Liste und fügen Sie z.B. eine Dimension oder einen Einkäufercode zur markierten ExFlow-Referenz hinzu. Es ist auch möglich, mehrere verwandte Referenzen mit demselben Referenzcode zu verknüpfen, um die Verwaltung der Referenzcodes zu erleichtern.
 
-![ExFlow Referenzcodes](@site/static/img/media/reference-codes-001.png)
+![ExFlow Referenzcodes](../../images/reference-codes-001.png)
 
 ### Erstellen eines neuen ExFlow-Referenzcodes aus dem Import Journal
 
 Wenn der Referenzwert eine neue Referenz ist, wird beim Klicken auf die Assist-Schaltfläche (im Referenzfeld):
 
-![Referenzfeld](@site/static/img/media/reference-code-001.png)
+![Referenzfeld](../../images/reference-code-001.png)
 
 ExFlow fragen, ob eine neue Referenz erstellt werden soll:
 
-![Neue Referenz erstellen](@site/static/img/media/reference-code-is-missing-001.png)
+![Neue Referenz erstellen](../../images/reference-code-is-missing-001.png)
 
 Durch Auswahl von "Ja" wird eine leere ExFlow-Referenzcodekarte geöffnet, in der zusätzliche Informationen zur Referenz hinzugefügt werden können:
 
-![ExFlow Referenzcodekarte](@site/static/img/media/reference-code-002.png)
+![ExFlow Referenzcodekarte](../../images/reference-code-002.png)
 
 Wenn das ExFlow-Referenzfeld leer ist, klicken Sie auf "Neu" oder "Liste bearbeiten" und geben Sie die Informationen direkt in die Zeile ein. Eine alternative Route besteht darin, auf "Bearbeiten" zu klicken, um die Referenzkarte zu öffnen und die Informationen dort zu bearbeiten.
 
 Um eine verwandte Referenz zum Referenzcode hinzuzufügen, klicken Sie auf "ExFlow Related Reference Values" und bearbeiten Sie die Zeilen.
 
-![ExFlow Referenzcodes](@site/static/img/media/reference-codes-002.png)
+![ExFlow Referenzcodes](../../images/reference-codes-002.png)
 
 Geben Sie den neuen Wert ein:
 
-![ExFlow Referenzcodekarte](@site/static/img/media/reference-code-003-related-reference-values.png)
+![ExFlow Referenzcodekarte](../../images/reference-code-003-related-reference-values.png)
 
 Schließen Sie dann und dieser neue Wert wird dem aktuellen Referenzcode zugeordnet.
 
-![ExFlow Referenzcodes](@site/static/img/media/reference-codes-003.png)
+![ExFlow Referenzcodes](../../images/reference-codes-003.png)
 
 Wenn es notwendig ist, einem bereits vorhandenen Code einen Referenzcode hinzuzufügen, jedoch als Referenzwert, ist dies mit der Option "Einem anderen Referenzcode zuweisen" möglich. Dadurch wird der ursprüngliche Referenzcode blockiert und alle zugehörigen Referenzwerte dem neuen Referenzcode zugewiesen. Diese Änderung kann auch innerhalb der Referenzcodekarte vorgenommen werden.
 
-![ExFlow Referenzcodekarte](@site/static/img/media/reference-codes-004.png)
+![ExFlow Referenzcodekarte](../../images/reference-codes-004.png)
 
 ### Automatische Erstellung von Referenzen durch ExFlow-Benutzer
 Gehe zu: ***ExFlow Setup --> Benutzer --> Automatisch ExFlow-Referenzen erstellen***
@@ -58,10 +58,10 @@ Wenn ein neuer ExFlow-Benutzer erstellt wird, wird ein ExFlow-Referenzcode mit d
 
 Der ExFlow-Referenzcode wird nur erstellt, wenn die Einstellung "Automatisch ExFlow-Referenz erstellen" aktiviert ist und wenn das aktuelle Unternehmen in den "ExFlow-Benutzerberechtigungen" auf der ExFlow-Benutzerkarte vorhanden ist.
 
-![ExFlow Setup Benutzer](@site/static/img/media/exflow-setup-users-002.png)
+![ExFlow Setup Benutzer](../../images/exflow-setup-users-002.png)
 
 Es ist möglich, ExFlow-Referenzcodes für alle bereits vorhandenen Benutzer zu erstellen, indem "Batch Create ExFlow Reference" von der ExFlow-Benutzerseite verwendet wird. ExFlow-Referenzcodes werden für alle Benutzer erstellt, die das aktuelle Unternehmen in den "ExFlow-Benutzerberechtigungen" auf der ExFlow-Benutzerkarte haben.
 
 Außerdem kann ein ExFlow-Referenzcode nur für einen ausgewählten ExFlow-Benutzer von der ExFlow-Benutzerseite oder der ExFlow-Benutzerkarte erstellt werden, indem "ExFlow-Referenz erstellen" verwendet wird.
 
-![ExFlow Setup Benutzer](@site/static/img/media/exflow-users-002.png)
+![ExFlow Setup Benutzer](../../images/exflow-users-002.png)

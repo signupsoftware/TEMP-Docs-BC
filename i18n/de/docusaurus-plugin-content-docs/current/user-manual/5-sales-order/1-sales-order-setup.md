@@ -11,7 +11,7 @@ Bitte beachten Sie, dass *zwei separate Anmeldungen* bei ExFlow Data Capture (ED
 
 Um Verkaufsaufträge in Business Central importieren zu können, muss ein neues ExFlow Data Capture-Verkaufskonto eingerichtet werden.
 
-![ExFlow Data Capture-Konto](@site/static/img/media/exflow-data-capture-account-card-sales-001.png) <br/>
+![ExFlow Data Capture-Konto](../../images/exflow-data-capture-account-card-sales-001.png) <br/>
 
 **Konfigurationsschritte:**
 Navigieren Sie zu ExFlow Data Capture-Konten, um auf die Konfiguration zuzugreifen.
@@ -48,7 +48,7 @@ Gehe zu: **ExFlow Sales Order Import Setup**
 
 Der nächste Schritt besteht darin, einige Parameter in der *ExFlow Sales Order Import Setup* festzulegen.
 
-![ExFlow Sales Order Import Setup](@site/static/img/media/sales-order-import-setup001.png)
+![ExFlow Sales Order Import Setup](../../images/sales-order-import-setup001.png)
 
 | Allgemein      |   | 
 |:-|:-|
@@ -70,7 +70,7 @@ Gehe zu: **ExFlow Sales Order Import Setup --> Verwandt --> ExFlow Sales Order M
 
 Bearbeiten Sie die Liste, wenn eine Matching-Priorität befolgt oder im Matching-Prozess ausgeschlossen werden soll.
 
-![ExFlow Sales Order Matching Priority](@site/static/img/media/sales-order-matching-priority-001.png)
+![ExFlow Sales Order Matching Priority](../../images/sales-order-matching-priority-001.png)
 
 Gehe zu: **ExFlow Sales Order Import Setup --> Verwandt --> Ship-To Address Matching Setup**
 
@@ -78,9 +78,9 @@ Bearbeiten Sie die Liste, um Änderungen bezüglich der Pflichtfelder der interp
 
 Alle als Pflichtfeld markierten Felder müssen erfüllt sein, um Fehler im importierten Dokument zu vermeiden. Es muss beispielsweise ein Ship-To-Address-Filter ''Stadt'', ''E-Mail'' und ''Kontakt'' gemäß dem untenstehenden Beispiel vorhanden sein.
 
-![Ship-To Address Matching Setup](@site/static/img/media/sales-order-ship-to-adress-matching-setup-001.png)
+![Ship-To Address Matching Setup](../../images/sales-order-ship-to-adress-matching-setup-001.png)
 
 Darüber hinaus ist es möglich, mehr als einen Wert im Ship-To-Address-Filter hinzuzufügen. Beispielsweise im OCR-Feld ''Kontaktname'', fügen Sie den Filter ''Name, Kontakt und Telefonnummer'' im Ship-To-Address-Filter hinzu. So ist es bei der Interpretation eines Kontaktnamens in EDC möglich, beispielsweise eine Telefonnummer anstelle eines Namens zu interpretieren. Es ist auch möglich, mit der Interpretation von mehr als einem spezifischen Kontakt/Namen zu arbeiten. Solange die Informationen im Kunden in Business Central vorhanden sind, wird das Verkaufsdokument beim Import verarbeitet und erstellt.
 
-![Ship-To Address Matching Setup](@site/static/img/media/sales-order-ship-to-adress-matching-setup-002.png)
+![Ship-To Address Matching Setup](../../images/sales-order-ship-to-adress-matching-setup-002.png)
 

@@ -20,7 +20,7 @@ Installieren Sie ExFlow und führen Sie den Assistenten aus, um eine Einrichtung
 #### ExFlow Einrichtung
 Legen Sie im ExFlow Setup einen Wert im Feld „Web Def. Datenaustauschtyp“ fest, indem Sie aus der Liste der Datenaustauschtypen auswählen. Wenn keine verfügbar sind, führen Sie „Datenübertragungsdefinitionen importieren“ aus und importieren Sie eine oder mehrere Datenübertragungsdefinitionen.
 
-![ExFlow Setup OCR Import](@site/static/img/media/exflow-setup-ocr-import-002.png)<br/><br/>
+![ExFlow Setup OCR Import](../../images/exflow-setup-ocr-import-002.png)<br/><br/>
 
 #### Import Journal
 Erstellen oder konfigurieren Sie ein ExFlow Import Journal, um das zu verarbeiten, was über den EXFID-Webdienst importiert wird.
@@ -28,6 +28,6 @@ Erstellen oder konfigurieren Sie ein ExFlow Import Journal, um das zu verarbeite
 * Geben Sie einen Namen und eine Beschreibung ein
 * Setzen Sie den Quellentyp auf Webdienst
 
-![ExFlow Import Journals](@site/static/img/media/import-journals-002.png)
+![ExFlow Import Journals](../../images/import-journals-002.png)
 
 Verarbeiten Sie importierte Rechnungen über den Webdienst, indem Sie „Dokumente importieren“ im neu erstellten ExFlow Import Journal ausführen oder „Batch-Dokumente importieren“ ausführen.

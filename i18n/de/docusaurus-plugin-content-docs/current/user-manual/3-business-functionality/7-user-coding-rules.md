@@ -21,6 +21,6 @@ Die "Benutzer-Codierungsregel" im untenstehenden Beispiel erlaubt es dem Genehmi
 | **Name:**     | Beschreibender Name für die Regel
 | **Aktiv:**    | Ob die Regel aktiv ist oder nicht
 
-![ExFlow Benutzer-Codierungsregel Karte](@site/static/img/media/user-coding-rules-001.png)
+![ExFlow Benutzer-Codierungsregel Karte](../../images/user-coding-rules-001.png)
 
 Wenn die Benutzer-Codierungsregel erstellt wurde, gehen Sie zur ExFlow Benutzerkarte und wenden Sie die Codierungsregel-ID auf den ausgewählten Benutzer für das spezifische Unternehmen an. Ein ExFlow-Benutzer kann pro Unternehmen nur eine Benutzer-Codierungsregel haben.

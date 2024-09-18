@@ -13,7 +13,7 @@ Fühlen Sie sich frei, die Dokumente herunterzuladen und zu lesen, bevor Sie beg
 #### Hintergrund
 Dieser Abschnitt beschreibt, wie BC C/AL ExFlow-Daten auf BC AL ExFlow-Daten aktualisiert/migriert werden. <br/> 
 
-![Upgrade und Migration von ExFlow-Daten](@site/static/img/media/migrate-upgrade-030.png)<br/>
+![Upgrade und Migration von ExFlow-Daten](../../images/migrate-upgrade-030.png)<br/>
 
 #### Überlegungen
 Die ExFlow AL BC-Version ist keine 1-1-Konvertierung der früheren C/AL-basierten Version von ExFlow, d.h. es kann Unterschiede sowohl in der Funktionalität als auch in der Darstellung/Migration der Daten geben. Hier sind einige der wichtigsten Unterschiede zwischen den Versionen:<br/> <br/> 
@@ -38,11 +38,11 @@ ExFlow-Schritte:
 
 Gehen Sie zu: **Abteilungen--> ExFlow Setup--> Über ExFlow**, um Ihre ExFlow-Version zu finden:
 
-![Upgrade und Migration von ExFlow-Daten](@site/static/img/media/migrate-upgrade-0022.png) 
+![Upgrade und Migration von ExFlow-Daten](../../images/migrate-upgrade-0022.png) 
 
 Gehen Sie unter den Stapel im Menüband und klicken Sie auf **''Hilfe''** und **''Über Microsoft Dynamics 365 Business Central''**.
 
-![Upgrade und Migration von ExFlow-Daten](@site/static/img/media/migrate-upgrade-002.png)
+![Upgrade und Migration von ExFlow-Daten](../../images/migrate-upgrade-002.png)
 
 Wenn die aktuelle ExFlow-Version < ExFlow 5.22 ist, muss ein Upgrade von ExFlow auf ExFlow 5.41 mit einem Upgrade-Skript durchgeführt werden.
  
@@ -57,7 +57,7 @@ Upgrade-Skripte aus früheren Versionen können vom SignUp Software AB Partnerpo
 
 Gehen Sie zunächst zu **‘’ExFlow Setup --> Ordner--> Dateispeichertyp’’**, um zu überprüfen, ob die Dokumente in der Datenbank oder in einem Dateifreigabe gespeichert sind:
 
-![Upgrade und Migration von ExFlow-Daten](@site/static/img/media/migrate-upgrade-003.png)<br/>
+![Upgrade und Migration von ExFlow-Daten](../../images/migrate-upgrade-003.png)<br/>
 
 Wenn das Dokument in einer Dateifreigabe gespeichert ist, gibt es zwei Optionen:<br/>
 1.	Dokument in die Datenbank importieren. Lesen Sie mehr im Abschnitt Importieren von PDF/Bildern in die Datenbank vor dem Upgrade.<br/><br/>
@@ -72,7 +72,7 @@ Gehen Sie zu: **Abteilungen --> ExFlow Setup --> Navigieren --> ExFlow-Dateien m
 
 Klicken Sie auf **ExFlow-Dateien migrieren (Erweitert)** und bearbeiten Sie das Fenster ExFlow-Dateien migrieren mit den erforderlichen Importinformationen.<br/>
 
-![Upgrade und Migration von ExFlow-Daten](@site/static/img/media/migrate-upgrade-004.png)<br/>
+![Upgrade und Migration von ExFlow-Daten](../../images/migrate-upgrade-004.png)<br/>
 
 Wenn mehrere Unternehmen ExFlow verwenden, überprüfen Sie, ob die Dateipfade im ExFlow-Setup aktualisiert sind. <br/>
 
@@ -87,7 +87,7 @@ Darüber hinaus ist es auch möglich, das Unternehmen auszuwählen, aus dem die 
 Es ist möglich, Pfade im Tab „Ordner“ im ExFlow-Setup zu ändern.<br/>
 Klicken Sie auf ‘’Vorschau’’, um fortzufahren.<br/>
 
-![Upgrade und Migration von ExFlow-Daten](@site/static/img/media/migrate-upgrade-005.png)<br/>
+![Upgrade und Migration von ExFlow-Daten](../../images/migrate-upgrade-005.png)<br/>
 
 
 ### Upgrade der ExFlow-Version auf ExFlow 5.41 in BC 14
@@ -101,7 +101,7 @@ Führen Sie Codeunit 12057134 EX Upgrade 350 to 5XX Step1.fob aus. <br/>
 
 Löschen Sie das gespeicherte Verfahren im SQL-Manager. <br/>
 
-![Upgrade und Migration von ExFlow-Daten](@site/static/img/media/migrate-upgrade-018.png)<br/>
+![Upgrade und Migration von ExFlow-Daten](../../images/migrate-upgrade-018.png)<br/>
 
 
 Upgrade NAV2009R2 auf (NAV2015 oder später)<br/>
@@ -122,7 +122,7 @@ Wählen: Synchronisieren mit Validierung<br/>
 
 Starten Sie das Tool --> Daten-Upgrade in (NAV2015 oder später)<br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-019.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-019.png)<br/>
 
 ExFlow 5.XX-Daten sind bereit für die ExFlow-Setup-Konfiguration und Web-Installation.<br/>
 
@@ -135,7 +135,7 @@ Führen Sie die Synchronisierung der Tabellen durch.<br/>
 
 Wählen: ''Tools--> Schema für alle Tabellen synchronisieren--> Mit Validierung''. <br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-020.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-020.png)<br/>
 
 Importieren Sie die erstellten zusammengeführten Kunden-ExFlow 5.41-Objekte.<br/>
 
@@ -149,13 +149,13 @@ Kompilieren Sie das ExFlow-Objekt.<br/>
 
 Wählen: Jetzt – mit Validierung<br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-021.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-021.png)<br/>
 
 Wählen Sie Tools --> Daten-Upgrade --> Starten<br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-019.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-019.png)<br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-022.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-022.png)<br/>
 
 Daten-Upgrade abgeschlossen.<br/>
 
@@ -170,23 +170,23 @@ Dies kann vor oder nach dem Upgrade erfolgen (wenn Dokumentbilder nicht aktualis
 
 Holen Sie sich DocMigrate_New_BC14.fob und importieren Sie es in die C/AL-Entwicklungsumgebung.<br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-006.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-006.png)<br/>
 
 Führen Sie den Bericht 60012 Export Inv to XML aus.<br/>
 
 Wählen Sie einen ‘’Pfad zum Exportieren’’, dies ist der Stammordner, in dem Bilder/PDFs gespeichert werden, und klicken Sie dann auf OK.<br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-007.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-007.png)<br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-008.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-008.png)<br/>
 
 Klicken Sie auf Ja, um alle Datensätze in der Datenbank zu exportieren. Eine Popup-Nachricht mit der Summe der exportierten Bilder wird dann angezeigt.
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-0098.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-0098.png)<br/>
 
 Erstellen Sie Ordner und Dateien:
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-010.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-010.png)<br/>
 
 ### Erstellen von Azure-Dateispeicher
 Für Unterstützung bei den folgenden Schritten wenden Sie sich bitte an Ihre interne IT-Abteilung oder Ihren vertrauenswürdigen Business Central-Partner.<br/>
@@ -196,7 +196,7 @@ Um eine Dateiimport-Einrichtung in ExFlow Business Central erstellen zu können,
 #### Erstellen eines Azure-Speicherkontos
 Melden Sie sich beim [***Azure-Portal***](https://portal.azure.com/) an und klicken Sie auf ''Speicherkonten'', um ein Speicherkonto zu erstellen.<br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/azure-storage-001.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/azure-storage-001.png)<br/>
 
 Klicken Sie auf ''Speicherkonto erstellen'', verwenden Sie die Standardeinstellungen und füllen Sie alle erforderlichen Einstellungen aus.<br/>
 
@@ -220,7 +220,7 @@ Erstellen Sie ein Verzeichnis (Unterordner) in der Dateifreigabe mit dem Namen E
 #### Verschieben Sie ExFlow-Daten in ExFlow-Upgrade-Tabellen
 Nach dem Upgrade auf ExFlow 5.41 starten Sie den Import. Führen Sie Datei -> Importieren aus und wählen Sie die Datei Upgrade_New_BC14_XX.fob.<br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-031.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-031.png)<br/>
 
 Führen Sie Codeunit 12026809 aus, um alle ExFlow-Firmendaten in alle ExFlow-Upgrade-Tabellen zu kopieren.<br/>
 
@@ -230,30 +230,30 @@ Richten Sie die Cloud-Migration in der aktuellen Business Central-Version ein (f
 
 Starten Sie das Cloud Migration Management und wählen Sie Benutzerdefinierte Tabellen verwalten.<br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-032.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-032.png)<br/>
 
 ***Wichtig!:***
 Wählen Sie nur alle ExFlow-Tabellen mit ''Upg'' oder ''Up'' nach dem Namen aus, siehe untenstehendes Bild der ''Migration Table Mapping''.<br/>
 
 Entfernen Sie alle anderen ExFlow-Tabellen, damit keine Daten aus diesen Tabellen verschoben werden.<br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-033.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-033.png)<br/>
 
 Führen Sie die Migration durch. <br/>
 
 Nach Abschluss der Migration suchen Sie in Business Central nach **Ex Upgrade From CAL**: <br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-028.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-028.png)<br/>
 
 Gehen Sie auf der Seite ''Ex Upgrade From CAL'' unter ''Aktionen --> ExFlow-Migration für das aktuelle Unternehmen ausführen''. <br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-029.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-029.png)<br/>
 
 Wenn es mehr als ein Unternehmen gibt, gehen Sie unter ''Aktionen --> ExFlow-Migration für alle Unternehmen ausführen''.
 
 Gehen Sie unter * Verwandt --> ExFlow-Migrationsstatusinfo*, um das Protokoll des Upgrade-Verfahrens pro Unternehmen anzuzeigen. <br/>
 
-![Upgrade und migrieren Sie ExFlow-Daten](@site/static/img/media/migrate-upgrade-034.png)<br/>
+![Upgrade und migrieren Sie ExFlow-Daten](../../images/migrate-upgrade-034.png)<br/>
 
 Nach dem Upgrade folgen Sie den Anweisungen im untenstehenden Abschnitt ''Aktivitäten nach dem Upgrade''. <br/>
 
@@ -277,7 +277,7 @@ Fordern Sie auch einen ExFlow Business Central-Lizenzschlüssel an und aktiviere
 #### ExFlow-Dateiimport-Einstellungen
 Gehen Sie zu: **ExFlow-Dateiimport-Einstellungen**, um Bilder/PDF-Dokumente in Business Central zu importieren.
 
-| Dateiimport-Einstellungen      | ![ExFlow-Dateiimport-Einstellungen](@site/static/img/media/exflow-setup-file-import-setup-001.png)<br/>   |
+| Dateiimport-Einstellungen      | ![ExFlow-Dateiimport-Einstellungen](../../images/exflow-setup-file-import-setup-001.png)<br/>   |
 |:-|:-|
 |**Neu:**                               | Erstellen Sie eine neue Dateiimport-Einstellung
 |**Verwalten:**                               | Bearbeiten, anzeigen oder löschen Sie die Einstellung
@@ -296,13 +296,13 @@ Fügen Sie ''Data Exchange Type'' im Abschnitt ''Data (XML)'' hinzu. Fügen Sie 
 
 Aktivieren Sie die Einrichtung.
 
-![ExFlow File Import Setups](@site/static/img/media/exflow-setup-file-import-setup-002.png)<br/>
+![ExFlow File Import Setups](../../images/exflow-setup-file-import-setup-002.png)<br/>
 
 Kopieren Sie alle Dateien und Ordner in den erstellten Azure-Dateispeicher-Image-Ordner (in diesem Beispiel lautet der Ordnername ExFlow).
 
-![Upgrade and migrate ExFlow data](@site/static/img/media/migrate-upgrade-011.png)<br/>
+![Upgrade and migrate ExFlow data](../../images/migrate-upgrade-011.png)<br/>
 
-![Upgrade and migrate ExFlow data](@site/static/img/media/migrate-upgrade-012.png)<br/>
+![Upgrade and migrate ExFlow data](../../images/migrate-upgrade-012.png)<br/>
 
 ### Dokumente über das Dokumentenmigrationstool migrieren
 
@@ -310,7 +310,7 @@ Der nächste Schritt ist die Nutzung des Migrate Document Tools.
 
 Gehen Sie zu: **ExFlow Setup-Seite --> Aktion --> Funktionen --> Dokumente migrieren**
 
-| Dokumentenmigrationstool     | ![Upgrade and migrate ExFlow data](@site/static/img/media/migrate-upgrade-013.png)<br/>  |
+| Dokumentenmigrationstool     | ![Upgrade and migrate ExFlow data](../../images/migrate-upgrade-013.png)<br/>  |
 |:-|:-|
 |**XML laden und validieren**                               | Erstellen Sie ein neues File Import Setup
 |**Dokumente migrieren**                               | Lesen, importieren und migrieren Sie Dokumente
@@ -320,7 +320,7 @@ Gehen Sie zu: **ExFlow Setup-Seite --> Aktion --> Funktionen --> Dokumente migri
 | Allgemein  |  |
 |:-|:-|
 |**File Import Setup Code:**                               | Geben Sie den File Import Setup Code ein
-|**Name Field Value**                               | Geben Sie das zu verwendende Namensformat an. Folgende Optionen sind verfügbar:<br/> ![Upgrade and migrate ExFlow data](@site/static/img/media/migrate-upgrade-014.png)
+|**Name Field Value**                               | Geben Sie das zu verwendende Namensformat an. Folgende Optionen sind verfügbar:<br/> ![Upgrade and migrate ExFlow data](../../images/migrate-upgrade-014.png)
 <br/>
 
 | Status  |  |
@@ -345,19 +345,19 @@ Gehen Sie zu: **ExFlow Setup-Seite --> Aktion --> Funktionen --> Dokumente migri
 
 Um mit dem Migrationsbeispiel fortzufahren, klicken Sie auf **XML laden und validieren**, um die Datei auszuwählen.
 
-![Upgrade and migrate ExFlow data](@site/static/img/media/migrate-upgrade-015.png)
+![Upgrade and migrate ExFlow data](../../images/migrate-upgrade-015.png)
 
 Wählen Sie die Datei ''Document Migration XML document*.xml'' im Azure-Dateifreigabe-Image-Ordner ''exflow'' aus. <br/>
 
-![Upgrade and migrate ExFlow data](@site/static/img/media/migrate-upgrade-012.png)<br/>
+![Upgrade and migrate ExFlow data](../../images/migrate-upgrade-012.png)<br/>
 
 Dann wird der Migrationsstatus auf ''Validiert'' gesetzt.<br/>
 
-![Upgrade and migrate ExFlow data](@site/static/img/media/migrate-upgrade-016.png)<br/>
+![Upgrade and migrate ExFlow data](../../images/migrate-upgrade-016.png)<br/>
 
 Wählen Sie die Registerkarte ''Dokument migrieren'' und warten Sie, bis der Migrationsstatus auf ''Migriert'' gesetzt wird.<br/>
 
-![Upgrade and migrate ExFlow data](@site/static/img/media/migrate-upgrade-017.png)<br/>
+![Upgrade and migrate ExFlow data](../../images/migrate-upgrade-017.png)<br/>
 
 Migration abgeschlossen. <br/>
 

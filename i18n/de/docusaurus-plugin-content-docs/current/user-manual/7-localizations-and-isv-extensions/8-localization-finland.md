@@ -55,7 +55,7 @@ Diese Funktionalität wird in der ExFlow-Einrichtung mit zwei Einstellungen name
 
 **Nicht leer + Referenznummer-Format:** Rechnungsnachricht darf nicht leer sein, und das Format der Nachricht wird überprüft. *(Erfordert, dass "Nachrichtentyp" = Referenznummer)*
 
-![ExFlow Setup - Doc. Creation Checks - Finish Localization](@site/static/img/media/exflow-setup-doc-creation-checks-002-fi.png)
+![ExFlow Setup - Doc. Creation Checks - Finish Localization](../../images/exflow-setup-doc-creation-checks-002-fi.png)
 
 ### Automatische Buchungsgruppe
 
@@ -65,14 +65,14 @@ ExFlow unterstützt die automatische Buchungsgruppe im Importjournal und kann au
 
 Gehen Sie zu: **ExFlow Setup --> OCR Import** und aktivieren Sie die Einstellung ***Verwenden Sie die Lieferantendokumentnummer, wenn die Rechnungsnachricht leer ist.***
 
-![ExFlow Setup - OCR Import - Finish Localization](@site/static/img/media/FI-exflow-setup-ocr-import-vendor-id-001.png)
+![ExFlow Setup - OCR Import - Finish Localization](../../images/FI-exflow-setup-ocr-import-vendor-id-001.png)
 
 Diese Einstellung gibt an, ob die interpretierte Lieferantendokumentnummer auch in der Rechnungsnachricht verwendet werden soll, wenn die Rechnungsnachricht leer ist. Der Nachrichtentyp wird dann auf ''Nachricht'' gesetzt. Dies erleichtert den Prozess, wenn mit nicht inländischen Dokumenten ohne Referenznummer gearbeitet wird.
 
-![ExFlow Setup - Import Journal - Finish Localization](@site/static/img/media/FI-import-journal-invoice-message-001.png)
+![ExFlow Setup - Import Journal - Finish Localization](../../images/FI-import-journal-invoice-message-001.png)
 
 ### Wählen Sie einen anderen Nachrichtentyp in der Lieferanteneinrichtung
 Der standardmäßige ''Nachrichtentyp'' im Importjournal ist standardmäßig auf "Referenznummer" eingestellt. 
 Es ist jedoch möglich, zur Lieferanteneinrichtungskarte zu gehen und einen anderen Nachrichtentyp für einen bestimmten Lieferanten festzulegen, falls erforderlich.
 
-![ExFlow Setup - Import Journal - Finish Localization](@site/static/img/media/FI-message-type-001.png)
+![ExFlow Setup - Import Journal - Finish Localization](../../images/FI-message-type-001.png)

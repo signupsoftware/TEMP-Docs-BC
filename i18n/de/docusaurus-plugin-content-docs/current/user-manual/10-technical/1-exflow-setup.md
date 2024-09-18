@@ -10,7 +10,7 @@ Die ExFlow Einrichtung ist in verschiedene Abschnitte unterteilt, um den Prozess
 
 Gehe zu: **ExFlow Einrichtung**
 
-![ExFlow Einrichtung](@site/static/img/media/exflow-setup-ribbon-001.png)<br/>
+![ExFlow Einrichtung](../../images/exflow-setup-ribbon-001.png)<br/>
 
 | ExFlow Einrichtung| |
 |:-|:-|
@@ -22,7 +22,7 @@ Gehe zu: **ExFlow Einrichtung**
 
 Gehe zu: **ExFlow Einrichtung --> Aktionen --> Funktionen** <br/>
 
-![ExFlow Einrichtung](@site/static/img/media/exflow-setup-ribbon-002.png)<br/>
+![ExFlow Einrichtung](../../images/exflow-setup-ribbon-002.png)<br/>
 
 | Aktionen --> Funktionen | |
 |:-|:-|
@@ -41,7 +41,7 @@ Gehe zu: **ExFlow Einrichtung --> Aktionen --> Funktionen** <br/>
 
 Gehe zu: **ExFlow Einrichtung --> Verwandt --> Erweitert**
 
-![ExFlow Einrichtung](@site/static/img/media/exflow-setup-ribbon-003.png)<br/>
+![ExFlow Einrichtung](../../images/exflow-setup-ribbon-003.png)<br/>
 
 | Verwandt --> Erweitert | |
 |:-|:-|	
@@ -63,11 +63,11 @@ Gehe zu: **ExFlow Einrichtung --> Verwandt --> Erweitert**
 
 Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
-![ExFlow Einrichtung](@site/static/img/media/exflow-setup-overview-001.png) <br/>
+![ExFlow Einrichtung](../../images/exflow-setup-overview-001.png) <br/>
 
 ### Allgemein
 
-![ExFlow Einrichtung](@site/static/img/media/exflow-setup-general-section.png) <br/>
+![ExFlow Einrichtung](../../images/exflow-setup-general-section.png) <br/>
 
 |Allgemein||
 |:-|:-|	
@@ -97,7 +97,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Dokumentenerstellungsprüfungen
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-doc-creation-checks-section.png)
+![ExFlow Setup](../../images/exflow-setup-doc-creation-checks-section.png)
 
 |Dokumentenerstellungsprüfungen||
 |:-|:-|	
@@ -118,7 +118,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Dokumentenbuchungsprüfungen
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-doc-posting-checks-section.png)
+![ExFlow Setup](../../images/exflow-setup-doc-posting-checks-section.png)
 
 |Dokumentenbuchungsprüfungen||
 |:-|:-|	
@@ -134,7 +134,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Vorläufige Buchung
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-preliminary-posting-001.png)
+![ExFlow Setup](../../images/exflow-setup-preliminary-posting-001.png)
 
 |Vorläufige Buchung||
 |:-|:-|	
@@ -152,7 +152,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### PO-Abgleich
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-po-matching-section.png)
+![ExFlow Setup](../../images/exflow-setup-po-matching-section.png)
 
 |PO-Abgleich||
 |:-|:-|	
@@ -193,7 +193,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### OCR-Import
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-ocr-import-section.png)
+![ExFlow Setup](../../images/exflow-setup-ocr-import-section.png)
 
 |OCR-Import|| 
 |:-|:-| 
@@ -230,7 +230,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Eskalation
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-escalation-section.png)
+![ExFlow Setup](../../images/exflow-setup-escalation-section.png)
 
 |Eskalation|| 
 |:-|:-| 
@@ -247,7 +247,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Bestell- und Angebotsgenehmigung
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-order-and-quote-approval-section.png)
+![ExFlow Setup](../../images/exflow-setup-order-and-quote-approval-section.png)
 
 |Bestell- und Angebotsgenehmigung|| 
 |:-|:-| 
@@ -270,7 +270,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Web
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-web-section.png)
+![ExFlow Setup](../../images/exflow-setup-web-section.png)
 
 |Web||
 |:-|:-|	
@@ -281,7 +281,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Benutzer
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-users-section.png)
+![ExFlow Setup](../../images/exflow-setup-users-section.png)
 
 |Benutzer||
 |:-|:-| 	
@@ -303,7 +303,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Genehmigung
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-approval-section.png)
+![ExFlow Setup](../../images/exflow-setup-approval-section.png)
 
 |Genehmigung||
 |:-|:-|	
@@ -317,7 +317,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Vertrauliche Dokumente
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-confidential-documents-section.png)
+![ExFlow Setup](../../images/exflow-setup-confidential-documents-section.png)
 
 |Vertrauliche Dokumente||
 |:-|:-| 	
@@ -327,7 +327,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Automatische Kodierungsvorschläge
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-auto-coding-suggestion-section.png)
+![ExFlow Setup](../../images/exflow-setup-auto-coding-suggestion-section.png)
 
 |Automatische Kodierungsvorschläge||
 |:-|:-|	
@@ -341,7 +341,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Hintergrundverarbeitung
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-background-processing-section.png)
+![ExFlow Setup](../../images/exflow-setup-background-processing-section.png)
 
 |Hintergrundverarbeitung||
 |:-|:-|	
@@ -354,7 +354,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 ### Über ExFlow
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-about-exflow-section.png)
+![ExFlow Setup](../../images/exflow-setup-about-exflow-section.png)
 
 |Über ExFlow||
 |:-|:-| 	

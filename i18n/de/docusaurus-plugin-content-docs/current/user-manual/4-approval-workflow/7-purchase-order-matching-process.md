@@ -17,7 +17,7 @@ ExFlow kann sowohl die interne Bestellnummer als auch die Bestellnummer des Lief
 
 Die Spalte "Order No." zeigt die abgeglichene Bestellung an, wenn sie gefunden wurde.
 
-![ExFlow Import Journal - Order No.](@site/static/img/media/image292.png)
+![ExFlow Import Journal - Order No.](../../images/image292.png)
 
 Dieses Verfahren kann auch manuell ausgelöst werden, wenn der Rechnung eine importierte Bestellnummer fehlt. Geben Sie die Bestellnummer manuell in die Spalte "Order No." ein.
 
@@ -29,21 +29,21 @@ Bedeutet, dass ExFlow die Rechnung mit der Bestellung und den zugehörigen gebuc
 
 Dies erfolgt standardmäßig automatisch, kann aber auch manuell durch die Funktion "Get Receipt/Return Shpmt./Order Lines" ausgelöst werden.
 
-![ExFlow Import Journal - Get Receipt/Return Shpmt./Order Lines](@site/static/img/media/image293.png)
+![ExFlow Import Journal - Get Receipt/Return Shpmt./Order Lines](../../images/image293.png)
 
 Der Drei-Wege-Abgleich erfordert, dass die Einkaufsrechnung zugehörige gebuchte Bestellungen hat. ExFlow ruft alle verfügbaren gebuchten Wareneingangszeilen ab und fügt sie als Rechnungszeilen hinzu.
 
-![ExFlow Import Journal - Import Lines](@site/static/img/media/image294.png)
+![ExFlow Import Journal - Import Lines](../../images/image294.png)
 
 Diese Funktion kann auch nützlich sein, wenn eine Rechnung mit mehreren Bestellungen auf Kopfebene abgeglichen werden soll.
 
 Beim Auswählen von Wareneingangszeilen auf der Seite "Get Receipt Lines" besteht die Möglichkeit, die Zeilen auszuschließen, die bereits vollständig mit einer anderen Rechnung im Importjournal abgeglichen oder noch nicht im Genehmigungsstatus gebucht sind. Klicken Sie auf "Exclude fully matched", um solche Wareneingangszeilen auszublenden:
 
-![ExFlow Import Journal - Get Receipt Lines](@site/static/img/media/image295.png)
+![ExFlow Import Journal - Get Receipt Lines](../../images/image295.png)
 
 Im untenstehenden Bild sind die abgeglichenen Zeilen ausgeblendet. Klicken Sie auf "Show All", um die Seite zurückzusetzen und alle Wareneingangszeilen erneut anzuzeigen. Beide Aktionen in "Get Receipt Lines" existieren auch für Gutschriften und Einkaufsrücksendungen.
 
-![ExFlow Import Journal - Get Receipt Lines - Receipt list after Exclude Fully Matched](@site/static/img/media/image296.png)
+![ExFlow Import Journal - Get Receipt Lines - Receipt list after Exclude Fully Matched](../../images/image296.png)
 
 Es ist möglich, die Einstellung "Disable Currency Filter in Get Receipt Lines" im Abschnitt PO Matching in der ExFlow-Setup zu aktivieren, um die Leistung beim Verwenden von Get Receipt Lines im Importjournal zu verbessern. Es wird dann kein Filter auf den Währungscode gesetzt, wenn die Auswahlseite geöffnet wird.
 
@@ -51,7 +51,7 @@ Es ist möglich, die Einstellung "Disable Currency Filter in Get Receipt Lines" 
 
 Bedeutet, dass ExFlow die Rechnung direkt mit der Bestellung abgleicht, ohne dass zugehörige gebuchte Wareneingänge erforderlich sind.
 
-![ExFlow Import Journal - Import Lines](@site/static/img/media/image297.png)
+![ExFlow Import Journal - Import Lines](../../images/image297.png)
 
 Alle Konflikte, Kosten- oder Mengenabweichungen werden in Form einer Aktionsnachricht angezeigt und müssen korrigiert werden, bevor die Rechnung erstellt und zur Genehmigung gesendet werden kann.
 
@@ -73,13 +73,13 @@ Einer der größten Vorteile des Zeilenabgleichs im Vergleich zum Kopfabgleich b
 
 Die Konfiguration des Zeilenabgleichs finden Sie in der ExFlow-Setup.
 
-![ExFlow Setup - PO Matching](@site/static/img/media/exflow-setup-po-matching-004.png)
+![ExFlow Setup - PO Matching](../../images/exflow-setup-po-matching-004.png)
 
 Das folgende Beispiel beschreibt, wie man aus einem Journal importiert, das nur für "Bestellabgeglichene Rechnungen" erstellt wurde.
 
 Wählen Sie das Journal aus und öffnen Sie es, indem Sie auf "Edit Journal" klicken oder auf den Namen klicken.
 
-![ExFlow Import Journal](@site/static/img/media/image299.png)
+![ExFlow Import Journal](../../images/image299.png)
 
 **Schritt 1 -- Dokument importieren**<br/>
 Gehe zu: ***Startseite \--\> Dokumente importieren\...***<br/>
@@ -93,7 +93,7 @@ Häufige Aktionsnachrichten und Lösungen:
     Führe die Überprüfung nach dem Empfang der Lieferung durch und ExFlow wird die Rechnung mit der gebuchten Lieferung abgleichen.<br/>
     ***Startseite \--\> Dokument überprüfen***
     (**B** im Bild unten)
-    ![ExFlow Import Journal](@site/static/img/media/image300.png)
+    ![ExFlow Import Journal](../../images/image300.png)
 
 - **Betrag (XX,XX) stimmt nicht mit der Summe der Zeilen (XX,XX) überein**<br/>
     Ändere die Preise und Zeilen, damit sie mit der Rechnung übereinstimmen. Verwende "Zeilendetails" im FactBox für Summen und Unterschiede. (**E** im Bild unten).
@@ -101,12 +101,12 @@ Häufige Aktionsnachrichten und Lösungen:
 - **Wenn die Rechnung mehr als eine Bestellung enthält**<br/>
 Verwende "Empfang/Rücksendung abrufen".
 ***Aktionen \--\> Bestellung \--\> Empfang/Rücksendung abrufen/Bestellzeilen*** (**C** im Bild unten).<br/>
-![ExFlow Import Journal](@site/static/img/media/image301.png)
+![ExFlow Import Journal](../../images/image301.png)
 
 - **Siehe Zeile für spezifische Aktionsnachricht - Unterschied zwischen der Rechnung und dem Bestell-Einzelpreis!**<br/>
     Korrigiere den direkten Einzelpreis ohne MwSt. oder korrigiere den Bestellpreis, um die Bestellung mit der Rechnung abzugleichen.
     Oder deaktiviere "Einzelpreis testen" bei Importzeilen und sende die Rechnung zur Genehmigung. (**D** im Bild unten).<br/><br/>
-    ![ExFlow Import Journal](@site/static/img/media/image302.png)
+    ![ExFlow Import Journal](../../images/image302.png)
 
 **Schritt 3 -- Alle Dokumente überprüfen...**<br/>
 Gehe zu: ***Startseite \--\> Alle Dokumente überprüfen***<br/>
@@ -126,23 +126,23 @@ Das folgende Beispiel zeigt, wie man mit Direktlieferungen zusammen mit dem ExFl
 
 Erstelle eine Verkaufsbestellung, markiere die Verkaufszeilen für die Direktlieferung, indem du das Kontrollkästchen "Direktlieferung" aktivierst. Dann gib die Verkaufsbestellung frei.
 
-![Verkaufsbestellung](@site/static/img/media/image303.png)
+![Verkaufsbestellung](../../images/image303.png)
 
 Erstelle eine Bestellung. Wähle den ''Lieferadresse''-Kunden (zusammen mit anderen benötigten Informationen), in diesem Beispiel wird der Kunde ''School of Fine Art'' ausgewählt.
 
 Verwende im Kopfbereich Aktionen \--\> Funktionen \--\> Direktlieferung \--\> Verkaufsbestellung abrufen. Dann gib die Bestellung frei.
 
-![Bestellung](@site/static/img/media/image304.png)
+![Bestellung](../../images/image304.png)
 
 Importiere eine Rechnung in das ExFlow Import Journal vom Lieferanten (Dustin) bezüglich der Direktlieferung. Verwende Aktionen \--\> Bestellung \--\> Empfang/Rücksendung abrufen/Bestellzeilen, um die Zeilen abzurufen.
 
-![ExFlow Import Journal](@site/static/img/media/image305.png)
+![ExFlow Import Journal](../../images/image305.png)
 
 Erstelle und sende die Rechnung zur Genehmigung, dann genehmige und überprüfe die Rechnung. Wenn "Änderungen überprüfen" im Genehmigungsstatus ausgeführt wurde, werden die Artikel in der Bestellung automatisch empfangen und die Artikel in der Verkaufsbestellung automatisch versendet.
 
 Gehe zurück zur Verkaufsbestellung, um die Verkaufsbestellung zu fakturieren. Wenn dies nicht vor dem Buchen der Rechnung aus dem ExFlow-Genehmigungsstatus erfolgt, erscheint folgende Nachricht:
 
-![Fehlermeldung im Genehmigungsstatus](@site/static/img/media/image306.png)
+![Fehlermeldung im Genehmigungsstatus](../../images/image306.png)
 
 Wenn die Verkaufsbestellung fakturiert ist, kann die Rechnung im Genehmigungsstatus wie gewohnt gebucht werden.
 
@@ -151,7 +151,7 @@ Gehe zu: ***Einrichtung \--\> ExFlow-Einrichtung \--\> PO-Abgleich \--\> Dokumen
 
 Die Einstellung "**Dokumente abgleichen mit**" gibt an, ob ExFlow importierte Einkaufsrechnungen mit Bestellungen, Empfangsbestätigungen oder sowohl Empfangs- als auch Bestellzeilen abgleichen soll.
 
-![ExFlow-Einrichtung - PO-Abgleich - Dokumente abgleichen mit](@site/static/img/media/exflow-setup-po-matching-005.png)
+![ExFlow-Einrichtung - PO-Abgleich - Dokumente abgleichen mit](../../images/exflow-setup-po-matching-005.png)
 
 **Empfang:** ExFlow findet automatisch die Bestellung basierend auf der importierten Bestellnummer. ExFlow ruft automatisch die verfügbaren gebuchten Empfangsbestätigungen ab, die mit der Bestellung verbunden sind, wenn die Einstellung "**Zeilen automatisch abrufen**" aktiviert ist.
 
@@ -163,11 +163,11 @@ Durch Aktivieren von “Bestellzeilen automatisch empfangen” empfängt ExFlow 
 
 Wenn Änderungen erforderlich sind, gehe zu: ***ExFlow-Einrichtung --> Verwandt --> Erweitert --> Einrichtung der automatischen Empfangszeilentypen***
 
-![ExFlow Empfangszeilentypen](@site/static/img/media/auto-receiving-line-types-001.png)
+![ExFlow Empfangszeilentypen](../../images/auto-receiving-line-types-001.png)
 
 Die gleiche Funktion kann auch auf der Seite "ExFlow-Lieferanteneinrichtung" gefunden werden.
 
-![ExFlow Lieferanteneinrichtungskarte](@site/static/img/media/advanced-vendor-options-002.png)
+![ExFlow Lieferanteneinrichtungskarte](../../images/advanced-vendor-options-002.png)
 
 
 ### Einkaufsrechnungen automatisch genehmigen
@@ -186,13 +186,13 @@ Um Bestellabgleichsrechnungen automatisch zu genehmigen, gibt es drei Optionen.
 
 **Benutzer für automatische Genehmigung:** Geben Sie einen ExFlow-Benutzer an, der als Stempel in der Transaktion und Historie für Rechnungen verwendet wird, die automatisch mit einer Bestellung abgeglichen und genehmigt wurden. Wenn dieses Feld leer bleibt, wird der Benutzer verwendet, der die Einkaufsrechnung aus dem ExFlow-Importjournal erstellt hat.
 
-![ExFlow Setup - PO Matching - Auto Approve Invoices](@site/static/img/media/exflow-setup-po-matching-006.png)
+![ExFlow Setup - PO Matching - Auto Approve Invoices](../../images/exflow-setup-po-matching-006.png)
 
 ### Dokumente aus der Interpretation im Batch importieren
 
 Um dokumentenabgeglichene Bestellungen in einem separaten Importjournal zu importieren, fügen Sie ein neues Importjournal hinzu und verwenden Sie "Nur dokumentenabgeglichene Bestellungen".
 
-![ExFlow Import Journals](@site/static/img/media/image309.png)
+![ExFlow Import Journals](../../images/image309.png)
 
 ### Automatische Differenzzeile
 
@@ -200,9 +200,9 @@ Im ExFlow-Importjournal ist es beim Abgleich von Bestellungen möglich, eine Dif
 
 Fügen Sie "ExFlow Purchase Code" im Feld "Diff.Line Purch. Code" unter PO Matching in ExFlow Setup hinzu.
 
-![ExFlow Setup - PO Matching](@site/static/img/media/exflow-setup-po-matching-007.png)
+![ExFlow Setup - PO Matching](../../images/exflow-setup-po-matching-007.png)
 
-![ExFlow Import Journal](@site/static/img/media/image311.png)
+![ExFlow Import Journal](../../images/image311.png)
 
 Verschiedene Gebühren und Differenzzeilen können einer Bestellung zugeordnet werden, wenn sie innerhalb der Toleranz liegen. Wenn das Feld "Order No." ausgefüllt ist und die Zeile perfekt mit der Bestellzeile übereinstimmt, wird sie abgeglichen. Wenn keine perfekte Übereinstimmung vorliegt, werden alle Abweichungen (Menge oder Preis) als Aktionsnachricht angezeigt.
 
@@ -215,18 +215,18 @@ Finden Sie die Einstellung "Automatisch PO-Abgleich für verschiedene Gebühren 
 
 Diese Einstellung kann nur aktiviert werden, wenn ''Auto Create OCR Line Mapping'' auf ''Fragen'' oder ''Immer'' gesetzt ist.
 
-![ExFlow Setup OCR Import](@site/static/img/media/exflow-setup-ocr-import-001.png)
+![ExFlow Setup OCR Import](../../images/exflow-setup-ocr-import-001.png)
 
 "Automatisch PO-Abgleich für verschiedene Gebühren deaktivieren" kann auch in der ExFlow-Lieferanteneinrichtungsliste gefunden werden. Diese Funktion ist standardmäßig ausgeblendet, personalisieren Sie die Liste, um diese Einstellung bei Bedarf hinzuzufügen.
 
-![ExFlow Vendor Setup](@site/static/img/media/exflow-vendor-setup-automatically-disable-po-001.png)
+![ExFlow Vendor Setup](../../images/exflow-vendor-setup-automatically-disable-po-001.png)
 
 ### PO-Abgleichsverzögerung Dokumentdatum und Fälligkeitsdatum
 Gehen Sie zu ***ExFlow Setup --> PO Matching --> Matching Delay Doc. Date (Days) / Matching Delay Due. Date (Days)***
 
 Es ist möglich, dass ExFlow den Bestellabgleichsprozess sowohl mit dem importierten Rechnungsdatum als auch dem Fälligkeitsdatum verzögert.
 
-![PO Matching Delay](@site/static/img/media/exflow-setup-po-matching-delay-001.png)
+![PO Matching Delay](../../images/exflow-setup-po-matching-delay-001.png)
 
 Wenn eine interpretierte Rechnung in das Importjournal importiert wird, verzögert ExFlow den Bestellabgleichsprozess gemäß den Einstellungen in ExFlow Setup und zeigt eine Aktionsnachricht im Importjournal an.
 
@@ -236,7 +236,7 @@ Gleiche Vorgehensweise für ''Matching Delay Due Date''. Wenn ''-20D'' in diesem
 
 Eine Aktionsnachricht wird auch für die spezifische Dokumentzeile während des angewendeten verzögerten Bestellabgleichszeitraums angezeigt. Wenn es Zeit ist, mit dem Bestellabgleichsprozess fortzufahren (gemäß der Datumsformel in den Einstellungen), verschwindet die Aktionsnachricht und das Dokument ist zur Erstellung bereit.
 
-![PO Matching Delay](@site/static/img/media/po-matching-delay-002.png)
+![PO Matching Delay](../../images/po-matching-delay-002.png)
 
 ### PO-abgeglichene Zeilen mit Stückkostenunterschieden in ExFlow Web
 
@@ -244,17 +244,17 @@ Wenn ein Dokument im Importjournal erstellt wird, mit einer Stückkostenabweichu
 
 Später können Benutzer im Genehmigungsstatus die Seite personalisieren und die Spalte ''Unit Cost Mismatched'' in den Dokumentzeilen einfügen, um zu sehen, ob die spezifische Rechnung eine Stückkostenabweichung zwischen der Bestellung und der Rechnungszeile aufweist.
 
-![Reason Check](@site/static/img/media/approval-status-unit-cost-missmatched-001.png)
+![Reason Check](../../images/approval-status-unit-cost-missmatched-001.png)
 
 Wenn ExFlow-Benutzer diese PO-abgeglichene Rechnung zur Genehmigung in ExFlow Web erhalten, können sie auch über die Abweichung auf Zeilenebene durch die Webspalte ''Reason Check'' informiert werden.
 
 Um diese Spalte zu ExFlow Web hinzuzufügen, gehen Sie einfach zu ExFlow Setup und klicken Sie auf ''[***Edit Web Columns***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'', um die Webspalte Reason Check hinzuzufügen.
 
-![Reason Check](@site/static/img/media/exflow-web-reason-check-002.png)
+![Reason Check](../../images/exflow-web-reason-check-002.png)
 
 Dies würde es dem Genehmiger erleichtern zu verstehen, wo die Abweichung liegt, und er kann das Dokument anschließend in ExFlow Web bearbeiten.
 
-![Reason Check](@site/static/img/media/exflow-web-reason-check-001.png)
+![Reason Check](../../images/exflow-web-reason-check-001.png)
 
 ### Artikelnummer-Abgleichspriorität
 
@@ -264,7 +264,7 @@ Diese Funktion hilft dabei, die Reihenfolge zu bestimmen, in der das System vers
 
 Dies kann nützlich sein, wenn beispielsweise dieselbe Artikelnummer sowohl in der Standardartikelliste als auch in der Lieferantenartikelnummer existiert. Oder wenn Rechnungszeilen importiert werden, bei denen die meisten Lieferantenartikelreferenzen sind, sollten Sie der "Artikelreferenz" eine höhere Priorität einräumen. Deaktivieren Sie Abgleichstypen, die falsche positive Übereinstimmungen liefern oder nicht verwendet werden, indem Sie sie deaktivieren.
 
-![Item No. Matching Priority](@site/static/img/media/exflow-setup-item-no-matching-prio-001.png)
+![Item No. Matching Priority](../../images/exflow-setup-item-no-matching-prio-001.png)
 
 Richten Sie eine Artikelnummer-Abgleichspriorität ein, um die Reihenfolge des Abgleichs festzulegen. Diese Einstellungen ermöglichen es ExFlow, fortschrittlichere Abgleiche von Artikeln und Bestellzeilen basierend auf Priorität und Abgleichstyp durchzuführen.
 

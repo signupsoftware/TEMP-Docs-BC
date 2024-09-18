@@ -7,7 +7,7 @@ hide_title: true
 
 Die folgenden Informationen beschreiben die technischen Anforderungen für den Betrieb von ExFlow Business Central Online auf Dynamics 365 Business Central Online unter Verwendung von ExFlow Data Capture als OCR-Lösung.
 
-![Technische Anforderungen für ExFlow Business Central Online](@site/static/img/media/technical-requirements-for-exflow-001.png)
+![Technische Anforderungen für ExFlow Business Central Online](../../images/technical-requirements-for-exflow-001.png)
 
 ExFlow Business Central Online läuft auf der Dynamics 365 Business Central Online-Plattform und folgt den technischen Anforderungen von Microsoft für Dynamics 365 Business Central Online.
 

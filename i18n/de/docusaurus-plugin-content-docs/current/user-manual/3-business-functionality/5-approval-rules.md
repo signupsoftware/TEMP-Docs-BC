@@ -23,7 +23,7 @@ Klicken Sie auf "Neu" und erstellen Sie die Regel.
 |:-|:-|
 | **Code:**                         | Fügen Sie einen Code hinzu, der die Genehmigungsregel beschreibt
 | **Name:**                         | Fügen Sie einen Namen hinzu, der den Code beschreibt
-| **Regel für:**                     | Es ist möglich, separate Genehmigungsregeln für alle Dokumenttypen zu erstellen: Rechnung, Gutschrift, Bestellung und Angebot. Öffnen Sie "Regel für", um den Dokumenttyp auszuwählen: <br/>![Genehmigungsregel Allgemein](@site/static/img/media/approval-rule-001-general.png) <br/>Markieren Sie "Verwenden" für den ausgewählten Dokumenttyp. Es ist möglich, mehr als einen Dokumenttyp innerhalb derselben Genehmigungsregel auszuwählen <br/>![Regel für Dokumenttyp](@site/static/img/media/rule-for-document-type-001.png) <br/> Und die neue ExFlow-Genehmigungsregel wird nur für den ausgewählten Dokumenttyp angewendet. <br/> ![Genehmigungsregel Allgemein](@site/static/img/media/approval-rule-002-general.png)
+| **Regel für:**                     | Es ist möglich, separate Genehmigungsregeln für alle Dokumenttypen zu erstellen: Rechnung, Gutschrift, Bestellung und Angebot. Öffnen Sie "Regel für", um den Dokumenttyp auszuwählen: <br/>![Genehmigungsregel Allgemein](../../images/approval-rule-001-general.png) <br/>Markieren Sie "Verwenden" für den ausgewählten Dokumenttyp. Es ist möglich, mehr als einen Dokumenttyp innerhalb derselben Genehmigungsregel auszuwählen <br/>![Regel für Dokumenttyp](../../images/rule-for-document-type-001.png) <br/> Und die neue ExFlow-Genehmigungsregel wird nur für den ausgewählten Dokumenttyp angewendet. <br/> ![Genehmigungsregel Allgemein](../../images/approval-rule-002-general.png)
 | **Regel für Rechnungen:**            | Für Rechnungen ist es möglich, eine Regel hinzuzufügen für: <br/> Kostenrechnungen, Abgleich mit Bestellung, Bestellung verbunden mit Differenz oder Bestellung verbunden ohne Differenz
 | **Deaktiviert:**                     | Wenn eine Genehmigungsregel deaktiviert ist, kann sie nur manuell oder über Referenz angewendet werden
 | **Priorität:**                     | Wenn es mehrere Genehmigungsregeln mit derselben Anzahl von Treffern gibt, wird die Genehmigungsregel mit der höchsten Prioritätsnummer automatisch hinzugefügt
@@ -32,7 +32,7 @@ Klicken Sie auf "Neu" und erstellen Sie die Regel.
 | **Geändert von:**                   | Letzter Benutzer, der die Einstellung für die aktuelle Regel geändert und gespeichert hat
 | **Änderungsdatum:**                 | Letztes Datum und Uhrzeit, an dem die aktuelle Regel geändert wurde
 
-![Genehmigungsregel Allgemein](@site/static/img/media/approval-rule-003-rule-for-invoices.png)
+![Genehmigungsregel Allgemein](../../images/approval-rule-003-rule-for-invoices.png)
 
 
 ### Genehmigungsregel – Filter
@@ -49,7 +49,7 @@ Beim Auswählen eines Wertes wird die Option automatisch aktiviert.
 | **Erster Genehmigungsfilter:**        | Kann dem Dokument hinzugefügt werden, wenn eine Referenz interpretiert wird. <br/> Lesen Sie mehr im Abschnitt [***Business Functionality --> Reference Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
 | **Lieferantenfilter:**                | Wählen Sie eine oder mehrere Lieferantennummern
 
-![Genehmigungsregel Filter](@site/static/img/media/approval-rule-004-filters.png)
+![Genehmigungsregel Filter](../../images/approval-rule-004-filters.png)
 
 
 ### Genehmigungsregel - Zusätzliche Filter
@@ -66,7 +66,7 @@ Beim Auswählen eines Wertes wird die Option automatisch aktiviert.
 | **Filter für verantwortliche Person:**    | Fügen Sie einen Filter für die verantwortliche Person bei Projekten hinzu
 | **Lieferantenbuchungsgruppe:**         | Fügen Sie einen Filter für die Lieferantenbuchungsgruppe hinzu
 
-![Genehmigungsregel Zusätzliche Filter](@site/static/img/media/approval-rule-005-additional-filters.png)
+![Genehmigungsregel Zusätzliche Filter](../../images/approval-rule-005-additional-filters.png)
 
 
 ### Genehmigungsregellinien
@@ -76,19 +76,19 @@ Eine Genehmigungsregel sollte immer mindestens eine Genehmigungsgruppe mit "Übe
 
 Wenn es erforderlich ist, dass mindestens zwei Benutzer die Dokumentzeile genehmigen, könnte eine Einstellung wie unten verwendet werden:
 
-![Genehmigungsregellinien](@site/static/img/media/approval-rule-lines-001.png)
+![Genehmigungsregellinien](../../images/approval-rule-lines-001.png)
 
 
 Wenn eine Genehmigungsgruppe immer genehmigt und die zweite nur Beträge über 10.000 genehmigt, könnte eine Einstellung wie unten verwendet werden:
 
-![Genehmigungsregellinien](@site/static/img/media/approval-rule-lines-002.png)
+![Genehmigungsregellinien](../../images/approval-rule-lines-002.png)
 
 
 Mit dem Vier-Augen-Prinzip (zwei Genehmigende) und die zweite Genehmigungsgruppe ist je nach Betrag unterschiedlich.
 
 Wenn der erste Genehmigende die Genehmigungsgruppe 1 ist und immer genehmigt, der zweite Genehmigende je nach Betrag von 10.000, könnte eine Einstellung wie unten verwendet werden. Genehmigungsgruppe 2 wird nur Dokumente mit einem Betrag bis zu 9.999,99 genehmigen und Genehmigungsgruppe 3 ab 10.000 oder mehr:
 
-![Genehmigungsregellinien](@site/static/img/media/approval-rule-lines-003.png)
+![Genehmigungsregellinien](../../images/approval-rule-lines-003.png)
 
 
 ### Immer neue Genehmigende vorschlagen
@@ -96,7 +96,7 @@ Gehe zu: ***Setup --> ExFlow Setup --> Approval***
 
 Genehmigungsregeln und dynamische Genehmigungsregeln ermöglichen es ExFlow, automatisch Genehmigungsregeln oder dynamische Genehmigungsabläufe für Dokumente zu identifizieren und anzuwenden, die von einem Benutzer in ExFlow Web geändert wurden.
 
-![ExFlow Setup Genehmigung - Immer neue Genehmigende vorschlagen](@site/static/img/media/exflow-setup-approval-001.png)
+![ExFlow Setup Genehmigung - Immer neue Genehmigende vorschlagen](../../images/exflow-setup-approval-001.png)
 
 
 
@@ -137,7 +137,7 @@ So funktioniert diese Funktionalität: ExFlow Web wird automatisch besser geeign
 ### Dynamischer Genehmigungsfluss für Dimensionsverantwortliche
 ExFlow Dimensionsverantwortliche ist ein Tool, um die Anzahl der verwendeten Genehmigungsregeln zu begrenzen und stattdessen die richtigen Genehmiger auf dynamische Weise auszuwählen. Es ist möglich, verschiedene Dimensionswerte in derselben Regel zu kombinieren, wobei die Reihenfolge auf der Genehmigungsgruppe basiert.
 
-![Dynamischer Genehmigungsfluss - Dimensionsverantwortlicher](@site/static/img/media/dynamic-approval-flow-for-dimension-owners-001.png)
+![Dynamischer Genehmigungsfluss - Dimensionsverantwortlicher](../../images/dynamic-approval-flow-for-dimension-owners-001.png)
 
 **Verknüpfung von Genehmigungsgruppen mit Dimensionswerten**<br/>
 Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Dimension Owners***
@@ -148,7 +148,7 @@ Wählen Sie die Dimension und den Dimensionswert aus.
 Geben Sie dann die Genehmiger ein, die für diesen Dimensionswert einbezogen werden sollen.
 Mindestens ein Genehmiger muss ausgewählt werden.
 
-![Dimensionsverantwortlicher](@site/static/img/media/dimension-owner-001.png)
+![Dimensionsverantwortlicher](../../images/dimension-owner-001.png)
 
 **Dimensionsverantwortliche kopieren**<br/>
 Wenn eine Dimensionsverantwortlichen-Karte erstellt wurde, kann die Funktion "Dimensionsverantwortliche kopieren" verwendet werden, um automatisch die restlichen Dimensionswerte zu erstellen.
@@ -162,7 +162,7 @@ Der ausgewählte Dimension basiert auf dem ausgewählten Dimensionsverantwortlic
 | **Einen Wert ersetzen:**    | Kopieren und ersetzen Sie für eine bereits erstellte Dimensionsverantwortlichen-Karte.
 | **Alle Werte ersetzen:**   | Kopieren und ersetzen Sie für alle Dimensionsverantwortlichen-Karten.
 
-![Dimensionsverantwortliche kopieren](@site/static/img/media/copy-dimension-owners-001.png)
+![Dimensionsverantwortliche kopieren](../../images/copy-dimension-owners-001.png)
 
 **Dynamische Genehmigungsgruppe – Dimensionsverantwortlicher**<br/>
 Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Approval Groups***
@@ -173,14 +173,14 @@ Verwenden Sie die Funktion "Standard-Genehmigungsgruppe", um festzulegen, wo ein
 
 Bei Verwendung des Dynamischen Genehmigungstyps ist es nicht möglich, Genehmigungsgruppenmitglieder manuell hinzuzufügen.
 
-![Genehmigungsgruppe - Dimensionsverantwortlicher](@site/static/img/media/approval-group-005-dimension-owner.png)
+![Genehmigungsgruppe - Dimensionsverantwortlicher](../../images/approval-group-005-dimension-owner.png)
 
 **Genehmigungsregel – Dimensionsverantwortlicher**<br/>
 Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Approval Rules***
 
 Fügen Sie eine Genehmigungsregel hinzu, die für alle Dokumente ohne Filter gilt (aktivieren Sie die Genehmigungsregel) oder für die Dimension mit den gerade erstellten Dimensionsverantwortlichen.
 
-![Genehmigungsregel - Dimensionsverantwortlicher](@site/static/img/media/approval-rule-006-dimension-owner.png)
+![Genehmigungsregel - Dimensionsverantwortlicher](../../images/approval-rule-006-dimension-owner.png)
 
 Fügen Sie die dynamische Genehmigungsgruppe mit dem gerade erstellten dynamischen Genehmigungstyp "Dimensionsverantwortlicher" hinzu, und ExFlow fügt dynamisch die richtigen Genehmiger basierend auf dem auf dem Dokument codierten Dimensionswert hinzu.
 
@@ -190,7 +190,7 @@ Wir haben auch den CFO als Genehmiger hinzugefügt, wenn das Dokument über 500.
 
 Wenn es mehrere Genehmiger in der Dimensionsverantwortlichen-Karte gibt, wird diese Reihenfolge zuerst in diesem Genehmigungsfluss verwendet.
 
-![Genehmigungsregellinien - Dimensionsverantwortlicher](@site/static/img/media/approval-rule-lines-004-dimension-owner.png)
+![Genehmigungsregellinien - Dimensionsverantwortlicher](../../images/approval-rule-lines-004-dimension-owner.png)
 
 **Aktivieren Sie "Immer neue Genehmiger vorschlagen"**<br/>
 Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Setup***
@@ -199,7 +199,7 @@ Aktivieren Sie "Immer neue Genehmiger vorschlagen" in ExFlow Setup, um einen dyn
 
 Lesen Sie mehr im Abschnitt [***Business Functionality --> Approval Rules --> Always Propose New Approvers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#always-propose-new-approvers) oben.
 
-![ExFlow Setup - Genehmigung](@site/static/img/media/exflow-setup-approval-001.png)
+![ExFlow Setup - Genehmigung](../../images/exflow-setup-approval-001.png)
 
 ### Workflow für Dimensionsverantwortliche
 **Aktuelle Dimensionsverantwortliche anzeigen**<br/>
@@ -207,11 +207,11 @@ Gehen Sie zu: ***Import Journal --> Import Lines --> Line --> Show Current Dimen
 
 Die Funktion "Aktuelle Dimensionsverantwortliche anzeigen" kann im ExFlow Import Journal und ExFlow Genehmigungsstatus verwendet werden.
 
-![Import Journal Lines Menü](@site/static/img/media/import-journal-lines-001-menu.png)
+![Import Journal Lines Menü](../../images/import-journal-lines-001-menu.png)
 
 Gehen Sie zu: ***Approval Status --> Document Lines --> Line --> Show Current Dimension Owners***
 
-![Genehmigungsstatus Dokumentzeilen Menü](@site/static/img/media/approval-status-document-lines-001-menu.png)
+![Genehmigungsstatus Dokumentzeilen Menü](../../images/approval-status-document-lines-001-menu.png)
 
 Diese Funktion öffnet eine gefilterte Seite und zeigt alle aktuellen Dimensionsverantwortlichen-Karten an, abhängig von den derzeit hinzugefügten Dimensionswerten auf der codierten Zeile.
 
@@ -220,19 +220,19 @@ Es ist möglich, entweder mit der verantwortlichen Person oder dem Projektleiter
 
 Einige Einstellungen sind erforderlich, um den dynamischen Genehmigungsfluss für Projekte zu verwenden.
 
-![Dynamischer Genehmigungsfluss - Jobs](@site/static/img/media/dynamic-approval-flow-for-jobs-001.png)
+![Dynamischer Genehmigungsfluss - Jobs](../../images/dynamic-approval-flow-for-jobs-001.png)
 
 **Genehmiger mit verantwortlicher Person verknüpfen**<br/>
 Um mit der verantwortlichen Person im Genehmigungsfluss zu arbeiten, verbinden Sie die Ressource mit dem ExFlow-Benutzer.
 
-![ExFlow Benutzer - Ressource](@site/static/img/media/exflow-user-001-related-resource.png)
+![ExFlow Benutzer - Ressource](../../images/exflow-user-001-related-resource.png)
 
 **Connecting Approvers to Project Manager**<br/>
 To work with Project Manager added to approval flow, then make sure that the Business Central System User is connected to an ExFlow User.
 
 Read more under section [***Business Functionality --> ExFlow User --> Create a System User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)
 
-![ExFlow User - System User](@site/static/img/media/exflow-user-002-system-user.png)
+![ExFlow User - System User](../../images/exflow-user-002-system-user.png)
 
 
 **Dynamische Genehmigungsgruppe – Verantwortliche Person / Projektmanager**<br/>
@@ -242,9 +242,9 @@ In beiden Fällen ist es möglich, die Funktion „Standard-Genehmigungsgruppe�
 
 Bei Verwendung des dynamischen Genehmigungstyps ist es nicht möglich, Genehmigungsgruppenmitglieder manuell hinzuzufügen.
 
-![Approval Group - Person Responsible](@site/static/img/media/approval-group-002-person-responsible.png)
+![Approval Group - Person Responsible](../../images/approval-group-002-person-responsible.png)
 
-![Approval Group - Project Manager](@site/static/img/media/approval-group-004-project-manager.png)
+![Approval Group - Project Manager](../../images/approval-group-004-project-manager.png)
 
 
 **Genehmigungsregel – Verantwortliche Person / Projektmanager**<br/>
@@ -252,17 +252,17 @@ Erstellen Sie eine Genehmigungsregel, um automatisch die Verantwortliche Person 
 
 In diesem Beispiel wird ein Filter für alle Lieferanten und alle Projekte hinzugefügt.
 
-![Approval Rule - Jobs](@site/static/img/media/approval-rule-007-jobs.png)
+![Approval Rule - Jobs](../../images/approval-rule-007-jobs.png)
 
 Bertil Boo sollte immer vor der Verantwortlichen Person im Projekt genehmigen. Dasselbe könnte auch mit dem Projektmanager anstelle/zusammen mit der Verantwortlichen Person gemacht werden.
 
-![Approval Rule Lines - Person Responsible](@site/static/img/media/approval-rule-lines-005-person-responsible.png)
+![Approval Rule Lines - Person Responsible](../../images/approval-rule-lines-005-person-responsible.png)
 
 
 **Aktivieren Sie „Immer neue Genehmiger vorschlagen“**<br/>
 Aktivieren Sie "Immer neue Genehmiger vorschlagen" in den ExFlow-Einstellungen, um einen dynamischen Genehmigungsfluss zu erstellen, wenn die Kodierung auf ExFlow Web geändert wird.
 
-![ExFlow Setup - approval](@site/static/img/media/exflow-setup-approval-001.png)
+![ExFlow Setup - approval](../../images/exflow-setup-approval-001.png)
 
 
 **Standard-Projektaufgabennummer**<br/>
@@ -270,11 +270,11 @@ Bei Verwendung von Projekten in Business Central Standard kann eine Standard-Pro
 
 Fügen Sie die Standard-Projektaufgabennummer in den ExFlow-Einstellungen hinzu.
 
-![ExFlow Setup - approval](@site/static/img/media/exflow-setup-general-001.png)
+![ExFlow Setup - approval](../../images/exflow-setup-general-001.png)
 
 Wenn eine Projektnummer im Importjournal hinzugefügt oder durch Kodierung auf ExFlow Web eingegeben wird, wird die Projektaufgabennummer automatisch aus der Standard-Projektaufgabennummer in den ExFlow-Einstellungen hinzugefügt.
 
-![Import Journal - Job Task](@site/static/img/media/import-journal-001-job-task.png)
+![Import Journal - Job Task](../../images/import-journal-001-job-task.png)
 
 Fügen Sie die Spalten für Projekte und Aufgaben aus den ExFlow-Einstellungen zu ExFlow Web hinzu.
 
@@ -284,11 +284,11 @@ Der Projekttyp muss weiterhin manuell im Importjournal oder ExFlow Web hinzugef�
 ### Workflow für Verantwortliche Person / Projektmanager
 Projektnummer Project00010 enthält die Verantwortliche Person BRITTA.
 
-![Jobs - JOB0000 - Britta](@site/static/img/media/jobs-001-job00010-britta.png)
+![Jobs - JOB0000 - Britta](../../images/jobs-001-job00010-britta.png)
 
 Wenn die Projektnummer Project00010 im Importjournal hinzugefügt wird, fügt die Genehmigungsregel PROJECTS durch die Genehmigungsgruppe mit der Verantwortlichen Person automatisch BRITTA als Genehmiger hinzu. Wie bereits erwähnt, könnte dieselbe Funktionalität auch mit dem Projektmanager anstelle oder zusammen mit der Verantwortlichen Person verwendet werden.
 
-![Import Journal - Jobs](@site/static/img/media/import-journal-002-jobs.png)
+![Import Journal - Jobs](../../images/import-journal-002-jobs.png)
 
 Wenn die Projektnummer auf ExFlow Web geändert wird, wird der Genehmiger BRITTA automatisch auf die Verantwortliche Person (oder den Projektmanager) der hinzugefügten Projektnummer aktualisiert. Doppelte Genehmiger werden automatisch entfernt.
 
@@ -296,13 +296,13 @@ Wenn die Projektnummer auf ExFlow Web geändert wird, wird der Genehmiger BRITTA
 ### Dynamische Genehmigungsflüsse für Einkäufer
 Dynamische Genehmigungsflüsse können basierend auf dem Einkäufercode eingerichtet werden. Wenn ein Einkäufercode im Einkaufsdokument festgelegt ist, kann ExFlow den Einkäufer automatisch zum Genehmigungsfluss hinzufügen.
 
-![Dynamic Approval Flow Purchasers](@site/static/img/media/dynamic-approval-flow-for-purchasers-001.png)
+![Dynamic Approval Flow Purchasers](../../images/dynamic-approval-flow-for-purchasers-001.png)
 
 
 **Verbinden von Genehmigern mit Einkäufern**<br/>
 Um mit dem zum Genehmigungsfluss hinzugefügten Einkäufer zu arbeiten, verbinden Sie den Einkäufercode mit dem ExFlow-Benutzer.
 
-![ExFlow User - Related Purchaser Code](@site/static/img/media/exflow-user-003-related-purchaser-code.png)
+![ExFlow User - Related Purchaser Code](../../images/exflow-user-003-related-purchaser-code.png)
 
 
 **Dynamische Genehmigungsgruppe – Einkäufer**<br/>
@@ -312,7 +312,7 @@ Es ist möglich, die Funktion „Standard-Genehmigungsgruppe“ zu verwenden, um
 
 Bei Verwendung des dynamischen Genehmigungstyps ist es nicht möglich, Genehmigungsgruppenmitglieder manuell hinzuzufügen.
 
-![Approval Group - Purchaser](@site/static/img/media/approval-group-007-purchaser.png)
+![Approval Group - Purchaser](../../images/approval-group-007-purchaser.png)
 
 
 **Genehmigungsregel – Einkäufer**<br/>
@@ -320,11 +320,11 @@ Erstellen Sie eine Genehmigungsregel, um den Einkäufer automatisch zum Genehmig
 
 In diesem Beispiel wird ein Filter für alle Lieferanten und alle Einkäufer hinzugefügt.
 
-![Approval Rule - Purchaser](@site/static/img/media/approval-rule-008-purchaser.png)
+![Approval Rule - Purchaser](../../images/approval-rule-008-purchaser.png)
 
 In diesem Fall wird der Einkäufer im Dokument als Genehmiger hinzugefügt.
 
-![Approval Rule Lines - Purchaser](@site/static/img/media/approval-rule-lines-006-purchaser.png)
+![Approval Rule Lines - Purchaser](../../images/approval-rule-lines-006-purchaser.png)
 
 ExFlow wird nun automatisch einen Genehmiger basierend auf dem Einkäufercode im Kopf des Einkaufsdokuments zuweisen. Wenn Zeilen abgerufen werden, die mit verschiedenen Bestellungen mit mehreren Einkäufercodes übereinstimmen, kann ExFlow auch den richtigen Einkäufercode abrufen, der mit der Dokumentzeile verbunden ist.
 
