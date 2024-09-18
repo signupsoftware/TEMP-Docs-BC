@@ -18,4 +18,4 @@ wenn das Dokument gebucht wird. Beachten Sie, dass es nur möglich ist,
 einen Grundcode den Dokumentzeilen zuzuweisen, da alle Zeilen als ein
 Eintrag gebucht werden.
 
-![ExFlow Import Journal - Australian Localization](@site/static/img/media/image355.png)
+![ExFlow Import Journal - Australian Localization](../../images/image355.png)

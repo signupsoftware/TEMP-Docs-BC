@@ -11,6 +11,6 @@ In ExFlow 23.0.0.0 wurden alle Einstellungen von der Lieferantenkarte und den er
 
 Gehe zu **Verwandt** und klicke auf **ExFlow Lieferanteneinrichtung**, um ExFlow-spezifische Details für einen bestimmten Lieferanten hinzuzufügen.
 
-![Lieferantenkarte](@site/static/img/media/Vendor-card-exflow-vendor-setup-001.png)
+![Lieferantenkarte](../../images/Vendor-card-exflow-vendor-setup-001.png)
 
 Lesen Sie mehr darüber, wie Sie Einstellungen für einen bestimmten Lieferanten vornehmen, unter [***Lieferanteneinrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).

@@ -24,7 +24,7 @@ Nur ein Benutzer in dieser Gruppe kann genehmigen, aber alle Benutzer erhalten d
 | **Automatische Genehmigung:**             | Fügen Sie eine automatische Genehmigungsgruppe hinzu, wenn Sie die automatische Genehmigung in der Bestellabstimmung oder bei der Abstimmung gegen den Vertrag verwenden. Wenn Genehmigungsgruppenmitglieder hinzugefügt werden, wird das Dokument als genehmigt im Ordner "Aktuell" auf ExFlow Web angezeigt
 | **Kommentar zur automatischen Genehmigung:** | Fügen Sie einen Kommentar hinzu, der in den Kommentar im Dokumentzeilen-Genehmiger kopiert wird.
 
-![ExFlow Genehmigungsgruppenkarte](@site/static/img/media/approval-group-001-header.png)
+![ExFlow Genehmigungsgruppenkarte](../../images/approval-group-001-header.png)
 
 ### Genehmigungsgruppe mit dynamischem Genehmigungstyp
 
@@ -36,7 +36,7 @@ Es ist möglich, Genehmiger automatisch abhängig von verschiedenen Codierungen 
 | **Von der Benutzerliste im Web ausschließen:** | Wird automatisch ausgewählt, da diese Genehmigungsgruppe nicht manuell von ExFlow Web hinzugefügt werden sollte
 | **Genehmigungsgruppenmitglieder:**         | Es sollten keine ExFlow-Benutzer zu Genehmigungsgruppenmitgliedern hinzugefügt werden
 
-![ExFlow Genehmigungsgruppe - Verantwortliche Person](@site/static/img/media/approval-group-002-person-responsible.png)
+![ExFlow Genehmigungsgruppe - Verantwortliche Person](../../images/approval-group-002-person-responsible.png)
 
 ### Eskalation
 
@@ -59,9 +59,9 @@ Es ist möglich, mehrere Genehmiger in einer Genehmigungsgruppe hinzuzufügen. N
 |:-|:-|
 | **Start- und Enddatum:**        | Wird verwendet, wenn ein Genehmiger vorübergehend einen anderen Genehmiger ersetzt. Verwenden Sie die Funktion, um Vertreter von ExFlow Web, Vertreter zuweisen oder von der ExFlow-Benutzerkarte hinzuzufügen            <br/> Lesen Sie mehr im Abschnitt [***Business Functionality --> ExFlow Benutzer --> Einen Vertreter während der Urlaubszeit hinzufügen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time) und [***Genehmigungsworkflow --> Periodische Aktivitäten --> Vertreter zuweisen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/periodic-activities#assign-replacers)
 
-![Genehmigungsgruppenmitglieder](@site/static/img/media/approval-group-003-lines.png)
+![Genehmigungsgruppenmitglieder](../../images/approval-group-003-lines.png)
 
 Eine Genehmigungsgruppe erfordert mindestens einen Benutzer.
 
-![Keine Genehmigungsgruppenmitglieder](@site/static/img/media/approval-group-006-no-members.png)
+![Keine Genehmigungsgruppenmitglieder](../../images/approval-group-006-no-members.png)
 

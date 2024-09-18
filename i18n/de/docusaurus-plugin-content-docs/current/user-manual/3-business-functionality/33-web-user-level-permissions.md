@@ -19,7 +19,7 @@ Gehe zu Web-Benutzerberechtigungen, um einen besseren Überblick über alle Web-
 
 <br/>
 
-![web user permissions](@site/static/img/media/exflow-web-user-level-permissions-001.png)
+![web user permissions](../../images/exflow-web-user-level-permissions-001.png)
 
 Derzeit sind folgende vier Benutzerberechtigungen verfügbar:<br/>
 
@@ -35,7 +35,7 @@ Derzeit sind folgende vier Benutzerberechtigungen verfügbar:<br/>
 Wenn Änderungen an den Berechtigungen vorgenommen werden müssen, z.B. um die Kodierung für alle Benutzer mit Genehmiger-Berechtigung zu erlauben, ist es möglich, die Liste zu bearbeiten und das Kontrollkästchen "Kodierung erlauben" zu aktivieren.
 <br/>
 
-![web user permissions](@site/static/img/media/exflow-web-user-level-permissions-002.png)
+![web user permissions](../../images/exflow-web-user-level-permissions-002.png)
 
 Lesen Sie mehr darüber, wie Sie Web-Berechtigungen verwalten und auf ExFlow-Benutzer anwenden, im Abschnitt [***Unternehmenszugriff und Web-Berechtigungsrolle unter Berechtigungen hinzufügen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-company-access-and-web-permission-role-under-permissions)
 

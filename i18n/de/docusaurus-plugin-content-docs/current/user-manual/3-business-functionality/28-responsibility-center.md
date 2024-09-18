@@ -33,7 +33,7 @@ In ExFlow Setup gehen Sie zum „PO Matching“-Schnelltab und schalten Sie die 
 
 Aktivieren Sie das Verantwortungszentrum, indem Sie das Kontrollkästchen im Feld „Aktivieren“ aktivieren und klicken Sie auf OK, um die Aktivierung abzuschließen und die Seite zu schließen.
 
-![ExFlow Approval Status](@site/static/img/media/po-header-value-on-invoice-setup-003.png)
+![ExFlow Approval Status](../../images/po-header-value-on-invoice-setup-003.png)
 
 Mit der obigen Einrichtung tritt Folgendes ein, wenn eine Rechnung mit einer PO abgeglichen wird:
 * Eine Rechnung, die mit einer einzelnen PO abgeglichen wird, übernimmt das Verantwortungszentrum vom PO-Header.

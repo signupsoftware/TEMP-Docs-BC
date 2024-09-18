@@ -64,7 +64,7 @@ Die physische Speicherung von Blobs erfolgt unter Verwendung einer Schnittstelle
 
 Die Schnittstelle definiert eine oder mehrere überladene Funktionen im Zusammenhang mit Get, Put, Exist, List und Delete. Die Schnittstelle definiert auch überladene Funktionen im Zusammenhang mit Setup, Funktionen wie GetFieldCaption, SetFieldValue und GetFieldValue.
 
-![Blob Storage](@site/static/img/media/blob-storage-001.png)
+![Blob Storage](../../images/blob-storage-001.png)
 
 
 ### Blob Storage Einrichtung
@@ -80,7 +80,7 @@ Minimale Blob Storage Einrichtungswerte sind Code, Beschreibung, Blob Storage Ty
 
 Es kann mehr als eine Blob Storage Einrichtung pro Blob Storage Typ geben, es hängt von der Nutzung ab.
 
-![Storage Setup](@site/static/img/media/storage-setup-001.png)
+![Storage Setup](../../images/storage-setup-001.png)
 
 Im Beispiel ist die gewählte Implementierung „Azure Container“.
 

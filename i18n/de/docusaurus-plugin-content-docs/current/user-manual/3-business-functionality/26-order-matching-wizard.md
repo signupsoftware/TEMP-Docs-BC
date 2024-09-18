@@ -9,7 +9,7 @@ Dieses Benutzerhandbuch ist Ihr Leitfaden für die Einrichtung von ExFlow, um Re
 
 Suchen Sie nach ExFlow Bestellabgleich-Assistent.
 
-![Bestellabgleich-Assistent - Suche](@site/static/img/media/order-matching-wizard-001-search.png)
+![Bestellabgleich-Assistent - Suche](../../images/order-matching-wizard-001-search.png)
 
 ### Kopf- oder Zeilenabgleich
 Der erste Schritt bei der Einrichtung des Bestellabgleich-Assistenten besteht darin, zu bestimmen, ob der Abgleich von Rechnungen mit Bestellungen auf Kopf- oder Zeilenebene erfolgen soll.
@@ -61,7 +61,7 @@ Diese Option ermöglicht eine effiziente Verarbeitung von Rechnungen mit geringf
 **Wenn die abgeglichene Bestellung genehmigt ist:**<br/>
 Diese Option fügt eine zusätzliche Genehmigungsebene hinzu, indem sie erfordert, dass die abgeglichene Bestellung durch ExFlow überprüft und genehmigt wurde, sodass Rechnungen nur dann automatisch genehmigt werden, wenn die erforderliche Autorisierung vorliegt.
 
-![Bestellabgleich-Assistent - Allgemein](@site/static/img/media/order-matching-wizard-002-general.png)
+![Bestellabgleich-Assistent - Allgemein](../../images/order-matching-wizard-002-general.png)
 
 ### Maximalbetrag für automatische Genehmigung
 Wenn Sie die automatische Genehmigung abgeglichener Rechnungen zugelassen haben, können Sie hier den Höchstbetrag für die automatische Genehmigung festlegen. Dieser Parameter definiert die Schwelle, über der Rechnungen unabhängig von den Abgleichsergebnissen eine manuelle Genehmigung erfordern.
@@ -73,7 +73,7 @@ Unabhängig davon, ob diese Einstellung aktiviert ist oder nicht, erfordern Abwe
 ### Abweichung Direkte Stückkosten (%) und Abweichung Direkte Stückkosten (Betrag LCY)
 Definieren Sie die Abweichungsschwellenwerte für die direkten Stückkosten von Rechnungszeilen im Vergleich zu den abgeglichenen Bestellzeilen. Diese Schwellenwerte bestimmen die zulässigen Unterschiede zwischen der Rechnung und der Bestellung für die automatische Genehmigung.
 
-![Bestellabgleich-Assistent – Auto Genehmigung](@site/static/img/media/order-matching-wizard-003-auto-approval.png)
+![Bestellabgleich-Assistent – Auto Genehmigung](../../images/order-matching-wizard-003-auto-approval.png)
 
 ### Automatische Differenzbehandlung
 Die Funktion zur automatischen Differenzbehandlung ermöglicht es ExFlow, automatisch eine Differenzzeile vorzuschlagen, wenn während des Bestellabgleichs zusätzliche oder unerwartete Kosten wie Fracht oder andere Gebühren identifiziert werden.
@@ -83,7 +83,7 @@ Geben Sie dann an, welches Sachkonto oder welche Artikelgebühr für die vorgesc
 ### Max. Differenzbetrag (LCY) und Max. Differenz % 
 Hier können Sie eine zulässige Toleranz für die automatisch vorgeschlagene Differenzzeile für die automatische Genehmigung festlegen.
 
-![Bestellabgleich-Assistent - Sonstiges](@site/static/img/media/order-matching-wizard-004-other.png)
+![Bestellabgleich-Assistent - Sonstiges](../../images/order-matching-wizard-004-other.png)
 
 ### Automatisches Buchen von Wareneingängen
 Die Funktion "Automatisches Buchen von Wareneingängen" ermöglicht das automatische Buchen von Wareneingängen im Abgleichsprozess. Bitte beachten Sie jedoch, dass diese Funktion nur genutzt werden kann, wenn Rechnungen mit **„Bestellung“** oder **„Bestellung und Wareneingang“** abgeglichen werden.
@@ -93,14 +93,14 @@ Das Abgleichen von Rechnungen mit der Logik **„Bestellung“** oder **„Beste
 Diese Einstellung ermöglicht es ExFlow, die genehmigte Menge der abgeglichenen Rechnungszeilen automatisch zu buchen und zu fakturieren. Sie wird ausgeführt, sobald die Rechnung den Status „Bereit zur Buchung“ im Genehmigungsstatus hat.
 Wenn diese Einstellung deaktiviert ist, müssen Sie die Wareneingänge manuell buchen.
 
-![Bestellabgleich-Assistent – Automatisches Buchen von Wareneingängen](@site/static/img/media/order-matching-wizard-005-automatically-post-purchase-receipt.png)
+![Bestellabgleich-Assistent – Automatisches Buchen von Wareneingängen](../../images/order-matching-wizard-005-automatically-post-purchase-receipt.png)
 
 ### Assistent abschließen
 Klicken Sie auf "Fertig stellen", um den Assistenten zu schließen und die Einstellungen anzuwenden.
 
-![Bestellabgleich-Assistent – Assistent abschließen](@site/static/img/media/order-matching-wizard-006-complete.png)
+![Bestellabgleich-Assistent – Assistent abschließen](../../images/order-matching-wizard-006-complete.png)
 
 ### ExFlow-Einrichtung
 Felder in der ExFlow-Einrichtung, die vom Bestellabgleich-Assistenten betroffen sind, sind im folgenden Bild ausgewählt:
 
-![Bestellabgleich-Assistent – ExFlow-Einrichtung](@site/static/img/media/exflow-setup-po-matching-001.png)
+![Bestellabgleich-Assistent – ExFlow-Einrichtung](../../images/exflow-setup-po-matching-001.png)

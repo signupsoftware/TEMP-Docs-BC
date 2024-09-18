@@ -25,7 +25,7 @@ Die Genehmiger können dann je nach ExFlow-Benutzerberechtigung Werte für die V
 Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Re-Invoicing Setup***<br/>
 Beginnen Sie mit der Aktivierung von Re-Invoicing in ExFlow Re-Invoicing Setup und folgen Sie dem Assistenten für die erforderliche Mindesteinrichtung.
 
-![Re-Invoicing Setup](@site/static/img/media/re-invoicing-setup-001.png)
+![Re-Invoicing Setup](../../images/re-invoicing-setup-001.png)
 
 #### Re-Invoicing Einrichtung - Allgemein
 | Allgemein | |
@@ -49,7 +49,7 @@ Beginnen Sie mit der Aktivierung von Re-Invoicing in ExFlow Re-Invoicing Setup u
 #### Re-Invoicing Einrichtung - Hintergrundverarbeitung
 Um Job-Warteschlangen-Einträge zu aktivieren und automatisch Verkaufsrechnungen zu erstellen, ist die folgende Einstellung erforderlich. Beachten Sie, dass dieser Job nur Verkaufsrechnungen erstellt.
 
-![Re-Invoicing Background Processing](@site/static/img/media/re-invoicing-setup-002.png)
+![Re-Invoicing Background Processing](../../images/re-invoicing-setup-002.png)
 
 | Hintergrundverarbeitung | |
 |:-|:-|
@@ -76,10 +76,10 @@ Wenn nicht aktiviert, kann die Beschreibung manuell hinzugefügt werden. Wenn ke
 |:-|:-|
 | **Lieferantenrechnungsnummer:** 		| Wählen Sie die Lieferantenrechnungsnummer und aktualisieren Sie die Sortierung bei Bedarf oben.
 | **Name des Lieferanten:**	    | Wählen Sie den Namen des Lieferanten und aktualisieren Sie die Sortierung bei Bedarf oben.
-| **Freitext:**		        | „Aus vollständiger Liste auswählen“. Fügen Sie Code und Beschreibung hinzu. Es ist die Beschreibung, die der Verkaufszeile hinzugefügt wird. <br/>Beachten Sie, dass dies übersetzt und mit dem Sprachcode aus der Kundenkarte verwendet werden kann. Es kann nur ein Freitext zur Verkaufszeile hinzugefügt werden.<br/>![Select Re-Invoice Free Texts](@site/static/img/media/select-re-inv-free-texts-001.png)
+| **Freitext:**		        | „Aus vollständiger Liste auswählen“. Fügen Sie Code und Beschreibung hinzu. Es ist die Beschreibung, die der Verkaufszeile hinzugefügt wird. <br/>Beachten Sie, dass dies übersetzt und mit dem Sprachcode aus der Kundenkarte verwendet werden kann. Es kann nur ein Freitext zur Verkaufszeile hinzugefügt werden.<br/>![Select Re-Invoice Free Texts](../../images/select-re-inv-free-texts-001.png)
 | **Texttrennzeichen:**		    | Dies wird verwendet, um Textfelder zu trennen. In diesem Beispiel haben wir „Leerzeichen – Leerzeichen“ verwendet.
 
-![ExFlow Customized Description](@site/static/img/media/re-invoicing-field-selection-001.png)
+![ExFlow Customized Description](../../images/re-invoicing-field-selection-001.png)
 <br/>
 
 #### Zuschlag %
@@ -94,7 +94,7 @@ Bei Verwendung des Linienbetrags wird die Berechnung des Zuschlags % vom Gesamtk
 Einkaufsmenge 2, Direkteinstandspreis 1 000,00, insgesamt **2 000,00** <br/>
 Re-Invoicing-Menge 1, Einheitspreis 6 000,00 insgesamt **6 000,00**<br/>
 **Der Zuschlag % wird dann als 200% angezeigt**<br/>
-![ExFlow Import Journal Lines](@site/static/img/media/import-journal-lines-003-re-invoicing.png)
+![ExFlow Import Journal Lines](../../images/import-journal-lines-003-re-invoicing.png)
 
 * **Menge & Einheitspreis:** <br/> 
 Bei Verwendung von Menge & Einheitspreis wird die Berechnung des Zuschlags % vom direkten Einstandspreis zum Re-Invoicing-Einheitspreis durchgeführt.<br/>
@@ -102,7 +102,7 @@ Wenn die Menge geändert wird, erfolgt keine Aktualisierung des Zuschlags % oder
 Einkaufsmenge 2, Direkteinstandspreis **1 000,00**, insgesamt 2 000,00<br/>
 Re-Invoicing-Menge 4, Einheitspreis **1 500,00** insgesamt 6 000,00<br/>
 **Der Zuschlag % wird dann als 50% angezeigt**<br/>
-![ExFlow Import Journal Lines](@site/static/img/media/import-journal-lines-003-re-invoicing.png)
+![ExFlow Import Journal Lines](../../images/import-journal-lines-003-re-invoicing.png)
 
 Das Aktivieren des Zuschlags % öffnet zusätzliche Optionen zum Vordefinieren von Zuschlägen.
 
@@ -111,7 +111,7 @@ Wir können Zuschlagsprozentsätze basierend auf Kundennummer, IC-Partnercode, K
 Das Feld Kundennummer hat die höchste Priorität und kann nicht mit anderen Feldern kombiniert werden.
 Eine Zuschlagszeile ohne Filter wird auf alle anderen Kunden angewendet, die nicht in anderen Filtern enthalten sind.
 
-![Re-Invoicing Surcharge %](@site/static/img/media/re-invoicing-surcharges-001.png)
+![Re-Invoicing Surcharge %](../../images/re-invoicing-surcharges-001.png)
 <br/>
 
 #### Dimensionswerte kopieren
@@ -120,7 +120,7 @@ Aktivieren und wählen Sie Dimensionen aus, um Werte von der Einkaufszeile auf d
 
 Wenn dieselbe Dimension mit unterschiedlichen Werten sowohl auf den Verkaufs- als auch auf den Einkaufszeilen vorhanden ist, kann die Einstellung zur Priorisierung der Dimension vom Einkauf verwendet werden. Wenn nicht ausgewählt, werden die Dimensionen von den Verkaufszeilen priorisiert.
 
-![Re-Invoicing Copy Dimensions](@site/static/img/media/re-invoicing-copy-dimensions-001.png)
+![Re-Invoicing Copy Dimensions](../../images/re-invoicing-copy-dimensions-001.png)
 <br/>
 
 ### ExFlow Rechnungsstellungscodes
@@ -128,13 +128,13 @@ Gehe zu: ***ExFlow Re-Invoicing Setup --> Aktionen --> ExFlow Re-Invoicing Codes
 Es ist möglich, verschiedene G/L-Konten für eine bestimmte Verkaufsrechnungszeile auszuwählen, indem ein Re-Invoicing-Code verwendet wird. Wenn der Re-Invoicing-Code leer ist, wird das Standard-G/L-Konto aus der Re-Invoicing-Einrichtung vorausgewählt. <br/>
 Wenn ''Artikel für Verkauf'' aktiviert ist, kann das Feld ''Re-Invoicing-Code'' nicht für Artikelzeilen verwendet werden.
 
-![ExFlow Re-Invoicing Codes](@site/static/img/media/re-invoicing-codes-001.png)
+![ExFlow Re-Invoicing Codes](../../images/re-invoicing-codes-001.png)
 
 ### ExFlow Purchase Codes
 Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Purchase Codes***<br/>
 Re-Invoicing-Felder wurden nun zum ExFlow Purchase Code hinzugefügt. Re-Invoicing muss jedoch aktiviert sein, damit die Felder angezeigt werden.
 
-![ExFlow Purchase Code](@site/static/img/media/re-invoicing-purchase-code-001.png)
+![ExFlow Purchase Code](../../images/re-invoicing-purchase-code-001.png)
 
 ### ExFlow Denying Coding Rule -- Re-Invoicing
 Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Denying Coding Rules***<br/>
@@ -144,7 +144,7 @@ In diesem Beispiel muss der Genehmiger den Re-Invoicing-Betrag hinzufügen, wenn
 
 Wenn der Re-Invoicing-Betrag fehlt, fügt ExFlow den Aufschlag % (falls aktiviert) und den Einkaufsbetrag zur Verkaufsrechnung hinzu.
 
-![ExFlow Denying Coding Rule](@site/static/img/media/denying-coding-rule-002-re-invoicing.png)
+![ExFlow Denying Coding Rule](../../images/denying-coding-rule-002-re-invoicing.png)
 
 ### Re-Invoicing im ExFlow Import Journal
 Beim Arbeiten mit Re-Invoicing im Import Journal kann die Kodierung über den ExFlow Purchase Code hinzugefügt oder manuell hinzugefügt werden.
@@ -159,7 +159,7 @@ Beim Arbeiten mit Re-Invoicing im Import Journal kann die Kodierung über den Ex
 | **Re-Invoicing Aufschlag %:**	        | Aufschlag % wird aus der Re-Invoicing-Einrichtung hinzugefügt, wenn aktiviert. Manuell hinzufügen oder aktualisieren, um den Zeilenbetrag/Einheitspreis zu berechnen
 | **Re-Invoicing Betrag/Einheitspreis:**	| Aufgrund der Einrichtung für die Verwendung von Betragsfeldern wird der Betrag oder der Einheitspreis aus den direkten Stückkosten und dem Aufschlag % berechnet. Kann manuell angepasst werden, um den neuen Aufschlag % zu berechnen
 
-![ExFlow Import Journal](@site/static/img/media/re-invoicing-import-journal-001.png)
+![ExFlow Import Journal](../../images/re-invoicing-import-journal-001.png)
 
 #### Re-Invoicing Vertrauliche Dokumente
 Die Funktion Vertrauliche Dokumente kann nicht zusammen mit Re-Invoicing verwendet werden. Folgende Aktionsnachricht wird in den Import Journal-Zeilen angezeigt, wenn dies der Fall ist: ''Re-Invoicing-Funktionalität kann nicht zusammen mit Vertraulichen Dokumenten verwendet werden''
@@ -171,15 +171,15 @@ Spalten müssen in ExFlow Web hinzugefügt werden, um Informationen zur "Re-Invo
 Der ExFlow-Benutzer kann Werte in ExFlow Web mit der gegebenen Web-Berechtigungsrolle in der Zeile hinzufügen oder ändern.<br/>
 Lesen Sie mehr über Web-Berechtigungsrollen im Abschnitt [***ExFlow User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-company-access-and-web-permission-role-under-permissions)
 
-![ExFlow Web - Re-Invoicing](@site/static/img/media/re-invoicing-web-001.png)
+![ExFlow Web - Re-Invoicing](../../images/re-invoicing-web-001.png)
 
 Wenn "Re-Invoice Pflichtfeld" im Import Journal hinzugefügt wurde und die "Re-Invoicing Kundennummer" fehlt, wird die folgende Fehlermeldung beim letzten Genehmiger im Genehmigungsfluss angezeigt.
 
-![ExFlow Web - Re-Invoicing No. must be set](@site/static/img/media/web-dynamics-error-002-re-invoicing.png)
+![ExFlow Web - Re-Invoicing No. must be set](../../images/web-dynamics-error-002-re-invoicing.png)
 
 Wenn die oben genannte ExFlow Denying Coding Rule verwendet wird, erhält der Genehmiger die folgende Fehlermeldung, wenn er das Dokument genehmigt und die Re-Invoicing-Kundennummer und der Betrag fehlen.
 
-![ExFlow Web - Validation Messages](@site/static/img/media/web-dynamics-error-003-re-invoicing.png)
+![ExFlow Web - Validation Messages](../../images/web-dynamics-error-003-re-invoicing.png)
 
 In diesem Fall fügen Sie den "Re-Invoicing-Betrag" hinzu und genehmigen Sie.
 
@@ -199,7 +199,7 @@ Verwenden Sie die Funktion „Erstellen“ oder „Batch-Rechnungen erstellen“
 | **Re-Invoicing Einträge löschen:**	    | Wenn eine Re-Invoicing-Zeile versehentlich erstellt wurde, verwenden Sie "Re-Invoicing Einträge löschen". Die Zeile wird als gelöscht markiert, kann jedoch weiterhin in der Historie gefunden werden (Re-Invoiced Einträge anzeigen/ausblenden)
 | **Re-Invoiced Einträge anzeigen/ausblenden:**	| Verwenden Sie die Funktion "Re-Invoiced Einträge anzeigen/ausblenden", um die Historie aller Einkaufs-Re-Invoicing-Zeilen anzuzeigen. Dies dient dazu, Verkaufsrechnungs-/Gutschriftzeilen anzuzeigen, die erstellt, gebucht oder wenn der Eintrag gelöscht wurde
 
-![ExFlow Re-Invoicing Einträge](@site/static/img/media/re-invoicing-entries-001.png)
+![ExFlow Re-Invoicing Einträge](../../images/re-invoicing-entries-001.png)
 <br/>
 
 | Aktionen – Manuelle Änderungen| |
@@ -210,7 +210,7 @@ Verwenden Sie die Funktion „Erstellen“ oder „Batch-Rechnungen erstellen“
 | **Re-Invoiced rückgängig machen:**		            | Wählen Sie einen oder mehrere Einträge aus, um sie rückgängig zu machen, damit sie erneut angewendet oder ein Verkaufsdokument erneut erstellt werden kann
 | **Re-Invoicing-Werte wiederherstellen:**		    | Stellt Re-Invoicing-Werte wieder her, wenn nach dem Buchen des Einkaufsdokuments Änderungen vorgenommen wurden
 
-![ExFlow Re-Invoicing Einträge](@site/static/img/media/re-invoicing-entries-action-001.png)
+![ExFlow Re-Invoicing Einträge](../../images/re-invoicing-entries-action-001.png)
 <br/>
 
 | Aktionen | |
@@ -220,7 +220,7 @@ Verwenden Sie die Funktion „Erstellen“ oder „Batch-Rechnungen erstellen“
 | **Dokumentbild anzeigen:**	        | Zeigen Sie die Einkaufsrechnungs-PDF an (Strg+I)<br/>Wählen und laden Sie mehrere Einkaufsdokumente herunter
 | **Gebuchte Einkaufsrechnung anzeigen:**	| Zeigen Sie die gebuchte Einkaufsrechnung für den ausgewählten Eintrag an
 
-![ExFlow Re-Invoicing Einträge](@site/static/img/media/re-invoicing-entries-action-002.png)
+![ExFlow Re-Invoicing Einträge](../../images/re-invoicing-entries-action-002.png)
 <br/>
 
 #### Rechnungen erstellen
@@ -238,7 +238,7 @@ Pflichtfelder, um Verkaufsdokumente erstellen zu können, sind Re-Invoicing Cust
 | **Rechnungserstellungstyp:**	| Wählen Sie, ob Verkaufsrechnungen Ein Dokument pro Zeile oder Ein Dokument pro Kunde erstellt werden sollen
 | **Wechselkursdatum basierend auf:**	| Wählen Sie das Wechselkursdatum basierend auf dem Verkaufsbuchungsdatum oder dem Einkaufsbuchungsdatum
 
-![ExFlow Batch Create Sales Invoices](@site/static/img/media/re-invoicing-batch-create-001.png)
+![ExFlow Batch Create Sales Invoices](../../images/re-invoicing-batch-create-001.png)
 <br/>
 
 #### Stapelrechnungen erstellen
@@ -251,22 +251,22 @@ Gehen Sie zu: ***Sales Invoices*** in Business Central Standard und erstellen Si
 
 Wählen Sie aus, welcher Kunde in Rechnung gestellt werden soll. In diesem Beispiel Kunde Nr. 10000. Fügen Sie Informationen in den Verkaufsdokumentenkopf ein und verwenden Sie die Funktion "Get Re-Invoicing Lines", die unter ***Related --> ExFlow*** hinzugefügt wurde.
 
-![Sales Invoice - Get Re-Invoicing Lines](@site/static/img/media/sales-invoice-001-re-invoicing.png)
+![Sales Invoice - Get Re-Invoicing Lines](../../images/sales-invoice-001-re-invoicing.png)
 
 Alle ausgewählten Zeilen werden für diesen Kunden importiert.
 
-![Re-Invoicing message](@site/static/img/media/sales-invoice-get-re-invoicing-001.png)
+![Re-Invoicing message](../../images/sales-invoice-get-re-invoicing-001.png)
 
 In diesem Fall wurde das G/L-Konto 3081 aus dem Re-Invoicing-Code ausgewählt. Der Nettopreis ohne MwSt. einschließlich Zuschlagsprozentsatz und angepasster Beschreibung wurde aus dem Re-Invoicing-Eintrag hinzugefügt.
 
-![Sales Invoice - Get Re-Invoicing Lines](@site/static/img/media/sales-invoice-002-re-invoicing.png)
+![Sales Invoice - Get Re-Invoicing Lines](../../images/sales-invoice-002-re-invoicing.png)
 <br/>
 
 #### Dokumentenbild aus Verkaufsrechnungszeile anzeigen
 Gehen Sie zu: ***Lines --> Line --> Related Information --> ExFlow --> Show Document Image***<br/>
 Klicken Sie auf "Show Document Image", um die PDF-Einkaufsrechnung für die ausgewählte Zeile anzuzeigen.
 
-![Sales Invoice - Show Document Image](@site/static/img/media/sales-invoice-003-re-invoicing.png)
+![Sales Invoice - Show Document Image](../../images/sales-invoice-003-re-invoicing.png)
 
 
 ### ExFlow Genehmigungsverlauf
@@ -277,7 +277,7 @@ Die Spalten „Re-Invoicing Entries“ und „Re-Invoicing Entries on all lines�
 ### ExFlow Buchhalter
 Bei Verwendung der Rolle „ExFlow Accountant“ wird eine Kachel hinzugefügt, um Re-Invoicing-Einträge zu bearbeiten.
 
-![ExFlow Approval Status](@site/static/img/media/re-invoicing-role-center-001.png)
+![ExFlow Approval Status](../../images/re-invoicing-role-center-001.png)
 
 
 ### Re-Invoicing-Artikel zum Verkauf

@@ -12,7 +12,7 @@ Verwenden Sie **ExFlow Dynamische OCR-Zuordnung** zur Umwandlung eines importier
 
 Alle Zuordnungen können in der ExFlow Dynamische OCR-Zuordnungsliste für die jeweilige Tabellennummer angezeigt werden.
 
-![ExFlow Data Capture Account](@site/static/img/media/dynamics-ocr-mapping-001.png)
+![ExFlow Data Capture Account](../../images/dynamics-ocr-mapping-001.png)
 
 Lesen Sie mehr und sehen Sie ein Beispiel im Abschnitt
 [Umgang mit importierten Verkaufsaufträgen mit Fehlern](https://docs.exflow.cloud/business-central/docs/user-manual/sales-order/sales-import#handling-imported-sales-orders-with-error)

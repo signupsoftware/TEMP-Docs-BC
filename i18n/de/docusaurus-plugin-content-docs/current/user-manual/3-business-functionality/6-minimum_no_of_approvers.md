@@ -20,7 +20,7 @@ Gehen Sie zu: ***ExFlow Setup --> Doc. Creation Checks***
 
 Um auch eine Überprüfung der Mindestanzahl der Genehmiger im Importjournal zu aktivieren, aktivieren Sie "Check Minimum No. of Approvers" in den Doc. Creation Checks und fügen Sie die Anzahl der Genehmiger wie oben hinzu.
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-doc-creation-doc-posting-checks-001.png)
+![ExFlow Setup](../../images/exflow-setup-doc-creation-doc-posting-checks-001.png)
 
 ### Workflow für Mindestanzahl der Genehmiger
 Wenn die Überprüfung der Mindestanzahl der Genehmiger für das Importjournal aktiviert ist, kann das Dokument nicht erstellt werden, bis die Mindestanzahl der Genehmiger oder mehr zum Genehmigungsfluss hinzugefügt wurde.
@@ -29,4 +29,4 @@ Während des Genehmigungsflusses kann sich die Anzahl der Genehmiger ändern. Da
 
 Wenn die Anzahl der Genehmiger einschließlich des aktuellen Genehmigers geringer ist als in ExFlow Setup angegeben, wird ein Fehler angezeigt, der besagt, dass weitere Genehmiger hinzugefügt werden müssen, bevor der aktuelle Genehmiger genehmigen kann.
 
-![ExFlow Setup](@site/static/img/media/dynamic-error-web-001.png)
+![ExFlow Setup](../../images/dynamic-error-web-001.png)

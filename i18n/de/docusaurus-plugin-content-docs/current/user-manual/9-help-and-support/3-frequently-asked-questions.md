@@ -7,7 +7,7 @@ hide_title: true
 
 Melden Sie sich im Support-Portal an und gehen Sie zu Dokumentation, um alle Wissensdatenbank-Artikel basierend auf den häufig gestellten Fragen zu durchsuchen.
 
-![Wissensdatenbank-Artikel](@site/static/img/media/support-portal-knowledge-base-articles-005.png)
+![Wissensdatenbank-Artikel](../../images/support-portal-knowledge-base-articles-005.png)
 
 Lesen Sie mehr im Abschnitt **Support-Portal**, um herauszufinden, wie Sie sich anmelden,
 ein Ticket erstellen und wie Sie einen Support-Portal-Ersatz hinzufügen können.

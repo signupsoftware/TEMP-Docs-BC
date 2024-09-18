@@ -33,7 +33,7 @@ Um Wareneingangsbuchungen mit Rundung buchen zu können, fügen Sie die Einricht
 
 Wenn es aufgrund eines Fehlers nicht möglich ist, automatisch zu buchen, besteht die Möglichkeit, eine Spalte namens "Autom. Wareneingangsbuchung überspringen" im Importjournal-Kopf zu personalisieren. Aktivieren Sie diese Funktion und das Dokument kann ohne Wareneingangsbuchung erstellt werden. Die Wareneingangsbuchung kann dann manuell aus der Karte gebucht werden.
 
-![ExFlow Import Journal -- Autom. Wareneingangsbuchung überspringen](@site/static/img/media/image368.png)
+![ExFlow Import Journal -- Autom. Wareneingangsbuchung überspringen](../../images/image368.png)
 
 ### Warenvermerk
 

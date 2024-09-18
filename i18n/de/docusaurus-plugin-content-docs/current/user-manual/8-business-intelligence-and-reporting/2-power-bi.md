@@ -17,14 +17,14 @@ Um vorhandene Power BI Web Services zu löschen, wählen Sie "Power BI Web Servi
 
 Unter Power BI Setups ist es auch möglich, die Power BI-Vorlagendatei herunterzuladen. Während dieses Setups gibt es jetzt eine einfachere Möglichkeit, die URL-Zeichenfolge (BC-Datenquelle) abzurufen, die während des Power BI-Setups in Power BI Desktop verwendet wird. Diese Setups werden im Knowledge Base Artikel behandelt.
 
-![ExFlow Setup -- Power BI](@site/static/img/media/exflow-setup-general-006-power-bi.png)
+![ExFlow Setup -- Power BI](../../images/exflow-setup-general-006-power-bi.png)
 
 ### Zugriff auf gebuchte Dokumente in Business Central von Power BI Desktop
 
 Ab ExFlow Version 21.1 ist es möglich, Links in Power BI zu gebuchten Einkaufsdokumenten zu erstellen. Es ist erforderlich, Zugriff auf die spezifische Seite in Business Central zu haben, um das Dokument sehen zu können. Um diese Funktionalität zu nutzen, stellen Sie sicher, dass die neuesten ExFlow Power BI-Webdienste verwendet werden, indem Sie sie löschen und erneut erstellen. In der neuesten ExFlow Power BI-Vorlagendatei gibt es einen vorbereiteten Bericht namens Gebuchte Dokumente.
 
-![Power BI Desktop](@site/static/img/media/image375.png)
+![Power BI Desktop](../../images/image375.png)
 
 Klicken Sie auf den Dokumentlink, um zur gebuchten Dokumentkarte im ExFlow Genehmigungsstatusverlauf zu gelangen.
 
-![Gebuchte Rechnungskarte](@site/static/img/media/image376.png)
+![Gebuchte Rechnungskarte](../../images/image376.png)

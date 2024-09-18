@@ -35,7 +35,7 @@ Der übergeordnete Genehmiger muss die gleiche oder höhere Berechtigung haben, 
 
 **Systemgenehmiger:** Genehmigender Benutzer.
 
-![ExFlow Setup - Eskalation](@site/static/img/media/exflow-setup-escalation-002.png)
+![ExFlow Setup - Eskalation](../../images/exflow-setup-escalation-002.png)
 
 #### ExFlow Approval Group
 
@@ -43,7 +43,7 @@ Gehe zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Approval Groups***
 
 Verwenden Sie Eskalationseinstellungen in der ExFlow Approval Group, wenn eine separate Einrichtung erforderlich ist.
 
-![ExFlow Approval Group](@site/static/img/media/image324.png)
+![ExFlow Approval Group](../../images/image324.png)
 
 #### Genehmigungsstatus
 
@@ -55,19 +55,19 @@ Gehe zu: ***Periodische Aktivitäten \--\> ExFlow Eskalationsjob***
 
 Führen Sie den ExFlow Eskalationsjob manuell aus oder richten Sie den Job in "Job Queue Entries" in Business Central Standard ein.
 
-![Report - ExFlow Start Eskalationsjob](@site/static/img/media/image325.png)
+![Report - ExFlow Start Eskalationsjob](../../images/image325.png)
 
 #### Beispiel mit Benutzern und einer allgemeinen Eskalationseinstellung in ExFlow Setup
 
 In diesem Beispiel ist CC (Cecilia Cederbaum) der aktuelle Genehmiger und es gibt keine Einrichtung für Eskalation in der Approval Group CC. Der zweite Genehmiger ist EE (Erik Eriksson).
 
-![ExFlow Approval Status](@site/static/img/media/image326.png)
+![ExFlow Approval Status](../../images/image326.png)
 
 Der Eskalationsjob wird CC automatisch genehmigen und einen neuen Genehmiger, FM (Finance Manager), aus ExFlow Setup hinzufügen, da die Anzahl der Tage zwischen dem Dokumentdatum und heute mehr als 5 Tage beträgt.
 
 (Einrichtung, siehe Bild oben unter ExFlow Eskalationsjob \--\> ExFlow Setup).
 
-![ExFlow Approval Status](@site/static/img/media/image327.png)
+![ExFlow Approval Status](../../images/image327.png)
 
 #### Beispiel mit Benutzern, die Eskalationseinstellungen in der Genehmigungsgruppe haben
 
@@ -77,11 +77,11 @@ In diesem Beispiel ist der erste und aktuelle Genehmiger FF (Filippa von Fersen)
 
 Der zweite Genehmiger ist EE (Erik Eriksson).
 
-![ExFlow Genehmigungsstatus](@site/static/img/media/image328.png)
+![ExFlow Genehmigungsstatus](../../images/image328.png)
 
 Der Eskalationsjob genehmigt FF automatisch und fügt einen neuen Genehmiger, CFO, aus der Eskalationseinstellung in der Genehmigungsgruppe FF hinzu. Da die Anzahl der Tage zwischen dem Dokument und heute mehr als 3 Tage beträgt, muss EE nach dem CFO noch genehmigen.
 
-![ExFlow Genehmigungsstatus](@site/static/img/media/image329.png)
+![ExFlow Genehmigungsstatus](../../images/image329.png)
 
 ### Batch-E-Mails senden
 
@@ -89,19 +89,19 @@ Gehen Sie zu: ***Periodische Aktivitäten \--\> ExFlow Batch-E-Mails senden***
 
 Batch-E-Mails werden normalerweise automatisch über Job Queue Entries im Business Central Standard ausgeführt. Bei Bedarf kann der Job jedoch manuell ausgeführt werden.
 
-![ExFlow Batch-E-Mails senden](@site/static/img/media/image330.png)
+![ExFlow Batch-E-Mails senden](../../images/image330.png)
 
 Diese Funktion kann auch in "ExFlow E-Mail-Einrichtung" gefunden werden.
 
-![ExFlow E-Mail-Einrichtung](@site/static/img/media/image331.png)
+![ExFlow E-Mail-Einrichtung](../../images/image331.png)
 
 Erinnerungen an bestimmte Benutzer aus der "ExFlow Benutzer"-Liste senden.
 
-![ExFlow Benutzer](@site/static/img/media/image332.png)
+![ExFlow Benutzer](../../images/image332.png)
 
 Um eine Erinnerung an alle aktuellen Benutzer für ein bestimmtes Dokument zu senden, führen Sie den Bericht aus dem ExFlow Genehmigungsstatus aus, indem Sie die Dokumentzeile markieren und "Erinnerung senden" auswählen.
 
-![ExFlow Genehmigungsstatus](@site/static/img/media/image333.png)
+![ExFlow Genehmigungsstatus](../../images/image333.png)
 
 ### Batch-Dokumente importieren
 
@@ -109,7 +109,7 @@ Gehen Sie zu: ***Periodische Aktivitäten \--\> ExFlow Batch-Dokumente importier
 
 Dieser Bericht ist eine weitere Möglichkeit, alle Dokumente in das Importjournal zu importieren und kann auch automatisch über Job Queue Entries im Business Central Standard ausgeführt werden.
 
-![Bericht - ExFlow Batch-Dokumente importieren](@site/static/img/media/image334.png)
+![Bericht - ExFlow Batch-Dokumente importieren](../../images/image334.png)
 
 ### Stellvertreter zuweisen
 
@@ -127,7 +127,7 @@ Startdatum und Enddatum können nur verwendet werden, wenn Aktion auf Hinzufüge
 
 Diese Funktion kann auch unter ExFlow Benutzer gefunden werden.
 
-![Bericht - ExFlow Stellvertreter zuweisen](@site/static/img/media/image335.png)
+![Bericht - ExFlow Stellvertreter zuweisen](../../images/image335.png)
 
 ### Re-Invoicing-Einträge
 
@@ -139,5 +139,5 @@ Lesen Sie mehr darüber im Abschnitt [***Re-Invoicing.***](https://docs.exflow.c
 
 Um den automatischen Kodierungsvorschlag anzuwenden, ist es erforderlich, die Funktionen ExFlow Kodierungs-IDs für Kodierungsvorschläge und ExFlow Erstellung automatischer Kodierungsvorschläge auszuführen.
 
-![Periodische Aktivitäten - Automatische Kodierungsvorschläge](@site/static/img/media/exflow-menu-005-periodic-activities.png) <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Automatische Kodierungsvorschlag-Einrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
+![Periodische Aktivitäten - Automatische Kodierungsvorschläge](../../images/exflow-menu-005-periodic-activities.png) <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Automatische Kodierungsvorschlag-Einrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
 

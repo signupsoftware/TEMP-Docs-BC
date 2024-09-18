@@ -17,28 +17,28 @@ Beim Verarbeiten von Nicht-PO-(Kosten-)Rechnungen können die Intercompany-Felde
 
 Für PO-abgestimmte Rechnungen, wenn die IC-Felder in der Bestellung ausgefüllt sind, fließen die Werte von der Bestellung in die Rechnungszeile.
 
-![ExFlow Import Journal](@site/static/img/media/intercompany-import-journal-001.png)
+![ExFlow Import Journal](../../images/intercompany-import-journal-001.png)
 
 #### Intercompany im Genehmigungsstatus
 Im Genehmigungsstatus hat der Benutzer Sicht auf die IC-Felder und zugehörigen Werte. Die IC-Felder können über die Benutzerpersonalisierung zur Ansicht hinzugefügt werden.
 
-![ExFlow Approval Status](@site/static/img/media/intercompany-approval-status-001.png)
+![ExFlow Approval Status](../../images/intercompany-approval-status-001.png)
 
 #### Intercompany im ExFlow Web
 Die IC-Partnercode- und IC-Partner-Referenzfelder können als Spalten in ExFlow Web hinzugefügt werden. Die IC-Werte sind für den Genehmiger sichtbar und Genehmiger, die Berechtigungen zum Ändern der Kodierung haben, können die IC-Felder bei Bedarf aktualisieren.
 
-![ExFlow Web](@site/static/img/media/intercompany-web-001.png)
+![ExFlow Web](../../images/intercompany-web-001.png)
 
 #### Intercompany in ExFlow Genehmigungsdokumenten
 Für Genehmiger, die in Business Central genehmigen, sind die IC-Felder jetzt in ExFlow Genehmigungsdokumenten sichtbar und bearbeitbar (mit den erforderlichen Berechtigungen).
 
-![Approval Document](@site/static/img/media/intercompany-document-approval-001.png) 
+![Approval Document](../../images/intercompany-document-approval-001.png) 
 
 Wenn ein Benutzer die Funktion 'Änderungen überprüfen' ausführt, werden die IC-Felder sowie alle vorgenommenen Änderungen angezeigt.
 
-![ExFlow Approval Status](@site/static/img/media/intercompany-approval-status-verify-002.png) 
+![ExFlow Approval Status](../../images/intercompany-approval-status-verify-002.png) 
 
 #### Intercompany in ExFlow Genehmigungsstatus-Historie
 Nachdem ein Dokument gebucht wurde, sind die IC-Partnercode- und IC-Partner-Referenzfelder in der ExFlow Genehmigungsstatus-Historie sichtbar.
 
-![ExFlow Approval Status History](@site/static/img/media/intercompany-approval-status-history-003.png)
+![ExFlow Approval Status History](../../images/intercompany-approval-status-history-003.png)

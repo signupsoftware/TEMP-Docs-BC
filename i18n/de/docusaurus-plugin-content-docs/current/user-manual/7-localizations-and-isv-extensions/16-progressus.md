@@ -15,11 +15,11 @@ Beim Hinzufügen von PGS Expense Code fügt ExFlow automatisch Verweigerungs-Cod
 
 Fügen Sie auch PGS Expense Payment Type für Einkaufsdokumente unter dem Schnellregister Progressus hinzu.
 
-![ExFlow Setup - Progressus](@site/static/img/media/exflow-setup-progressus-001.png)
+![ExFlow Setup - Progressus](../../images/exflow-setup-progressus-001.png)
 
 Falls möglich, fügen Sie eine Standard-Projektaufgaben-Nr. unter ExFlow Setup --> Allgemein hinzu. Lesen Sie mehr darüber unter **Standard-Projektaufgaben-Nr.**
 
-![ExFlow Setup - General](@site/static/img/media/exflow-setup-general-005.png)
+![ExFlow Setup - General](../../images/exflow-setup-general-005.png)
 
 ### ExFlow Verweigerungs-Codierungsregeln mit Progressus
 
@@ -27,15 +27,15 @@ Beim Hinzufügen eines Projekts auf ExFlow Web muss der Genehmiger auch die Proj
 
 Eine Erinnerung, die Projektaufgabe hinzuzufügen, wenn ein Projekt auf ExFlow Web verwendet wird.
 
-![ExFlow Verweigerungs-Codierungsregel](@site/static/img/media/image371.png)
+![ExFlow Verweigerungs-Codierungsregel](../../images/image371.png)
 
 Eine Erinnerung, den PGS Expense Code hinzuzufügen, wenn ein G/L-Konto und ein Projekt auf ExFlow Web verwendet werden.
 
-![ExFlow Verweigerungs-Codierungsregel](@site/static/img/media/image372.png)
+![ExFlow Verweigerungs-Codierungsregel](../../images/image372.png)
 
 Eine Erinnerung, das Projekt hinzuzufügen, wenn ein G/L-Konto und ein PGS Expense Code auf ExFlow Web verwendet werden.
 
-![ExFlow Verweigerungs-Codierungsregel](@site/static/img/media/image373.png)
+![ExFlow Verweigerungs-Codierungsregel](../../images/image373.png)
 
 #### Arbeiten mit Expense Resource auf den Dokumentzeilen im Import Journal
 Es ist auch möglich, die Felder Expense Resource, Expense Date und Chargeable im Import Journal zu nutzen. Diese Felder müssen manuell durch Personalisierung hinzugefügt werden.

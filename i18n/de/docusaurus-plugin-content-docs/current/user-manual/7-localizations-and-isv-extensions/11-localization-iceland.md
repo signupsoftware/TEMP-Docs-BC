@@ -53,6 +53,6 @@ Die transformierte Zahlungsreferenz wird in das Feld "Belegnummer des Lieferante
 
 Wenn die Rechnung erstellt wird, wird das Feld "Zahlungsreferenz" im Einkaufsrechnungsheader mit der transformierten Zahlungsreferenz aus "Belegnummer des Lieferanten 2" mit dem Format **01171350 300820 032266123456** ausgefüllt.
 
-![Data Exchange Definition - Islandic Localization](@site/static/img/media/image365.png)
+![Data Exchange Definition - Islandic Localization](../../images/image365.png)
 
-![Transformation Rule Card - Islandic Localization](@site/static/img/media/image366.png)
+![Transformation Rule Card - Islandic Localization](../../images/image366.png)

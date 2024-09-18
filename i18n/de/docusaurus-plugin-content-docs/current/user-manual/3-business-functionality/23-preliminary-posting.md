@@ -18,7 +18,7 @@ Die vorläufige Buchung ist nur für Rechnungen und Gutschriften verfügbar, die
 ### ExFlow Einrichtung
 Um vorläufige Buchungen durchführen zu können, müssen folgende Journale eingerichtet und die Eingangsregistrierung (SweBase) deaktiviert werden.
 
-![ExFlow Einrichtung - Vorläufige Buchung](@site/static/img/media/exflow-setup-preliminary-posting-001.png)
+![ExFlow Einrichtung - Vorläufige Buchung](../../images/exflow-setup-preliminary-posting-001.png)
 
 | ExFlow Einrichtung - Vorläufige Buchung  |	|
 |:-|:-|
@@ -43,19 +43,19 @@ Diese Seite wird automatisch geöffnet, wenn die vorläufige Buchung aktiviert w
 | **Zwischenkonto:**      | Die Buchung erfolgt gemäß den Buchungsgruppen in der allgemeinen Buchungseinrichtung und dem *ExFlow Vorläufige Buchung Zwischenkonto*
 | **Einkaufskonto:**     | Dokumentenzeilen mit dem Zeilentyp Sachkonto werden auf dem aktuellen Sachkonto der Dokumentenzeile gebucht. <br/>Für Artikel, Ressourcen, Anlagegüter und Kosten (Artikel) erfolgt die Buchung gemäß den Buchungsgruppen in der allgemeinen Buchungseinrichtung. *Einkaufskonto* für Rechnungen und *Einkaufsgutschriftkonto* für Gutschriften
 
-![ExFlow Vorläufige Buchungseinrichtung](@site/static/img/media/preliminary-posting-setup-001.png)
+![ExFlow Vorläufige Buchungseinrichtung](../../images/preliminary-posting-setup-001.png)
 
 Alle für die vorläufige Buchung erforderlichen Einrichtungen, allgemeine Buchungseinrichtung und Kreditorenbuchungseinrichtung können von der ExFlow Vorläufige Buchungseinrichtung aus erreicht werden. Lesen Sie unten mehr.
 
 Nach dem Schließen der Seite Vorläufige Buchung erhalten Sie eine Frage, ob es Rechnungen oder Gutschriften im Genehmigungsstatus gibt.
 
-![Möchten Sie alle Rechnungen vorläufig buchen?](@site/static/img/media/preliminary-post-all-invoices-001.png)
+![Möchten Sie alle Rechnungen vorläufig buchen?](../../images/preliminary-post-all-invoices-001.png)
 
 Wenn Sie sich entscheiden, alle Dokumente im Genehmigungsstatus vorläufig zu buchen, können Fehlermeldungen auftreten. Gehen Sie zum Genehmigungsstatus und korrigieren Sie den Fehler und buchen Sie das Dokument manuell vorläufig.
 
 Lesen Sie mehr im Abschnitt [***Genehmigungsstatus***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#approval-status)
 
-![Es gibt Dokumente, die noch nicht vorläufig gebucht wurden.](@site/static/img/media/documents-not-yet-preliminary-posted-001.png)
+![Es gibt Dokumente, die noch nicht vorläufig gebucht wurden.](../../images/documents-not-yet-preliminary-posted-001.png)
 
 #### Allgemeine Buchungseinrichtung
 
@@ -63,11 +63,11 @@ Es gibt eine Verknüpfung von der vorläufigen Einrichtung.
 
 Sachkonten, die für Artikel, Ressourcen, Anlagegüter und Kostenartikel verwendet werden, wenn **Einkaufskonto** in der Buchungsoption ausgewählt ist.
 
-![Allgemeine Buchungseinrichtung - Einkaufskonto](@site/static/img/media/general-posting-setup-001.png)
+![Allgemeine Buchungseinrichtung - Einkaufskonto](../../images/general-posting-setup-001.png)
 
 Sachkonten, die verwendet werden, wenn **Zwischenkonto** in der Buchungsoption ausgewählt ist.
 
-![Allgemeine Buchungseinrichtung - Zwischenkonto](@site/static/img/media/general-posting-setup-002.png)
+![Allgemeine Buchungseinrichtung - Zwischenkonto](../../images/general-posting-setup-002.png)
 
 #### Kreditorenbuchungsgruppen
 
@@ -80,7 +80,7 @@ Wenn die Kreditorenbuchungsgruppe als ExFlow Vorläufige Buchungsgruppe verwende
 
 Um die Standardeinstellung zu verwenden, lassen Sie das Feld ExFlow Vorläufige Kreditorenbuchungsgruppe leer.
 
-![Kreditorenbuchungsgruppe](@site/static/img/media/vendor-posting-groups-001.png)
+![Kreditorenbuchungsgruppe](../../images/vendor-posting-groups-001.png)
 
 ### Funktionen, die in der vorläufigen Buchung enthalten sind
 
@@ -149,7 +149,7 @@ Vor der Erstellung des Dokuments kann die vorläufige Buchung in der Vorschau an
 
 Erstellen Sie das Dokument aus dem Importjournal zur vorläufigen Buchung.
 
-![Import Journal - Preview Posting](@site/static/img/media/import-journal-023-preview-posting.png)
+![Import Journal - Preview Posting](../../images/import-journal-023-preview-posting.png)
 
 #### Genehmigungsstatus
 
@@ -165,7 +165,7 @@ Gehen Sie zu: ***ExFlow Genehmigungsstatus --> Aktionen --> Vorläufige Buchung*
 | **Rückgängig machen:**  | Um die Buchung zu korrigieren, rückgängig machen, das Dokument korrigieren und erneut buchen
 | **Einträge finden:**     | Einträge für vorläufig gebuchte Dokumente finden
 
-![ExFlow Genehmigungsstatus - Vorläufig](@site/static/img/media/approval-status-005-preliminary-posting.png)
+![ExFlow Genehmigungsstatus - Vorläufig](../../images/approval-status-005-preliminary-posting.png)
 
 #### Rechnungs- und Gutschriftenkarte
 
@@ -173,12 +173,12 @@ Um ein Dokument vorläufig buchen zu können, muss es für die ExFlow-Genehmigun
 
 Wenn die ExFlow-Genehmigung deaktiviert ist, wird die vorläufige Buchung rückgängig gemacht. Und wenn sie aktiviert wird, wird die Rechnung/Gutschrift gebucht.
 
-![Rechnungskarte](@site/static/img/media/purchase-invoice-001-preliminary-posting.png)
+![Rechnungskarte](../../images/purchase-invoice-001-preliminary-posting.png)
 
 Alle Funktionen im Genehmigungsstatus sind auch von der Karte aus verfügbar. <br/>
 Gehen Sie zu: ***Aktionen --> Vorläufige Buchung***
 
-![Rechnungskarte - Vorläufige Buchung](@site/static/img/media/purchase-invoice-002-preliminary-posting.png)
+![Rechnungskarte - Vorläufige Buchung](../../images/purchase-invoice-002-preliminary-posting.png)
 
 #### Korrekturen
 
@@ -201,7 +201,7 @@ Gehen Sie zu: ***Verwandt --> Vorläufige Buchung --> Einträge finden***
 
 Löschen Sie den Filter auf Datum, um alle anzuzeigen.
 
-![ExFlow gelöschte Dokumente - Vorläufige Buchung](@site/static/img/media/deleted-documents-001-find-entries.png)
+![ExFlow gelöschte Dokumente - Vorläufige Buchung](../../images/deleted-documents-001-find-entries.png)
 
 #### Kreditorenposten
 
@@ -209,13 +209,13 @@ Beim Buchen oder Rückgängigmachen einer vorläufigen Buchung wird ein Kreditor
 
 Die Buchungsbeschreibung wird aus der ExFlow-Einrichtung hinzugefügt.
 
-![Kreditorenposten - Vorläufige Buchung](@site/static/img/media/vendor-ledger-entries-002-preliminary-posting.png)
+![Kreditorenposten - Vorläufige Buchung](../../images/vendor-ledger-entries-002-preliminary-posting.png)
 
 ExFlow vorläufig gebucht wird angekreuzt und On Hold wird aus der ExFlow-Einrichtung hinzugefügt und kann nach der Buchung nicht mehr geändert werden.
 
 Vorläufig gebuchte Kreditorenposten können nicht verwendet werden, um Einträge aus Kreditorenposten oder Zahlungstagebüchern anzuwenden.
 
-![Kreditorenposten - Vorläufige Buchung](@site/static/img/media/vendor-ledger-entries-003-preliminary-posting.png)
+![Kreditorenposten - Vorläufige Buchung](../../images/vendor-ledger-entries-003-preliminary-posting.png)
 
 Es gibt einen Schnellfilter, um vorläufig gebuchte Einträge zu sortieren oder auszuschließen.<br/>
 Gehen Sie zu: ***Verwandt --> ExFlow vorläufiger Buchungsfilter***
@@ -225,7 +225,7 @@ Vorläufige Buchungsfilter:
 - **Vorläufig gebuchte/rückgängig gemachte ausschließen** <br/>
 - **Alle anzeigen** <br/>
 
-![Kreditorenposten - ExFlow vorläufiger Buchungsfilter](@site/static/img/media/vendor-ledger-entries-004-preliminary-posting.png)
+![Kreditorenposten - ExFlow vorläufiger Buchungsfilter](../../images/vendor-ledger-entries-004-preliminary-posting.png)
 
 #### Endgültige Buchung
 
@@ -243,7 +243,7 @@ Beim Erstellen des Berichts und der Sachposten wird die vorläufige Buchung durc
 
 Zeilen aus ExFlow-Dokumentzeilen abrufen und alle Dokumente werden mit der neuesten Kodierung gebucht, auch wenn sie nicht vollständig genehmigt sind.
 
-![Genehmigungsstatusbericht](@site/static/img/media/report-approval-status-001-preliminary-posting.png)
+![Genehmigungsstatusbericht](../../images/report-approval-status-001-preliminary-posting.png)
 
 Weitere Informationen zum Genehmigungsstatusbericht finden Sie in den Abschnitten **Berichte** und **Genehmigungsstatusbericht**.
 
@@ -251,11 +251,11 @@ Weitere Informationen zum Genehmigungsstatusbericht finden Sie in den Abschnitte
 
 Dieser Bericht basiert auf dem Standardbericht von Business Central mit der Option, nach vorläufig gebuchten ExFlow-Dokumenten zu filtern.
 
-![ExFlow vorläufige Verbindlichkeiten](@site/static/img/media/report-exflow-preliminary-accounts-payable-001.png)
+![ExFlow vorläufige Verbindlichkeiten](../../images/report-exflow-preliminary-accounts-payable-001.png)
 
 #### ExFlow überfällige Verbindlichkeiten
 
 Dieser Bericht basiert auf dem Standardbericht von Business Central mit der Option, nach vorläufig gebuchten ExFlow-Dokumenten zu filtern.
 
-![ExFlow überfällige Verbindlichkeiten](@site/static/img/media/report-exflow-preliminary-accounts-payable-002.png)
+![ExFlow überfällige Verbindlichkeiten](../../images/report-exflow-preliminary-accounts-payable-002.png)
 

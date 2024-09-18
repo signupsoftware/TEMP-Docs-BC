@@ -27,7 +27,7 @@ Dieser Abschnitt beschreibt, wie man aus einem Journal importiert, das nur für 
 
 Wählen Sie ein Journal aus und öffnen Sie es durch Klicken auf "Journal bearbeiten" oder durch Klicken auf den Namen.
 
-![ExFlow Import Journals](@site/static/img/media/image277.png)
+![ExFlow Import Journals](../../images/image277.png)
 
 Schritt 1 -- Dokument importieren
 
@@ -35,25 +35,25 @@ Gehen Sie zu: ***Aktionen \--\> Importieren \--\> Dokumente importieren\...***
 
 Wenn der Import abgeschlossen ist, wird eine neue Zeile erstellt.
 
-![ExFlow Import Journal](@site/static/img/media/image278.png)
+![ExFlow Import Journal](../../images/image278.png)
 
 Schritt 2 -- "Aktionsnachrichten" prüfen und bearbeiten.
 
 In diesem Beispiel gibt es keine vordefinierten Genehmigungsregeln, daher müssen Genehmiger manuell zur Rechnungszeile hinzugefügt werden.
 
-![ExFlow Import Journal](@site/static/img/media/image279.png)
+![ExFlow Import Journal](../../images/image279.png)
 
 Wählen Sie: ***Zeile \--\> Genehmigungsvorschlag anzeigen***
 
-![ExFlow Import Journal - Import Lines](@site/static/img/media/image280.png)
+![ExFlow Import Journal - Import Lines](../../images/image280.png)
 
 Fügen Sie einen oder mehrere Genehmiger hinzu.
 
-![ExFlow Import Journal - Import Lines - Approval Proposal](@site/static/img/media/image281.png)
+![ExFlow Import Journal - Import Lines - Approval Proposal](../../images/image281.png)
 
 Im FactBox auf der rechten Seite werden die Genehmiger im "Genehmigungsvorschlag" aktualisiert.
 
-![ExFlow Import Journal - FactBox - Approval Proposal](@site/static/img/media/image282.png)
+![ExFlow Import Journal - FactBox - Approval Proposal](../../images/image282.png)
 
 Schritt 3 -- Dokument überprüfen
 
@@ -67,6 +67,6 @@ Gehen Sie zu: ***Erstellen \--\> "Batch-Rechnungen/Gutschriften erstellen"\... /
 
 Erstellen Sie eine Rechnung oder Gutschrift, indem Sie auf "Rechnung/Gutschrift erstellen" klicken.
 
-![ExFlow Import Journal](@site/static/img/media/image283.png)
+![ExFlow Import Journal](../../images/image283.png)
 
-![ExFlow Import Journal - Document converted](@site/static/img/media/image284.png)
+![ExFlow Import Journal - Document converted](../../images/image284.png)

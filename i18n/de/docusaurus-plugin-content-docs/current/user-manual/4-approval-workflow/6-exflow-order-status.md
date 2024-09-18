@@ -14,7 +14,7 @@ Wenn eine Bestellung oder ein Angebot zur Genehmigung markiert wird, ist es im E
 Gehe zu**: *Setup \--\> ExFlow Setup \--\> Bestell- und Angebotsgenehmigung***<br/>
 Um die Funktion der Bestell- und Angebotsgenehmigung zu nutzen, sind einige Einstellungen erforderlich.
 
-![ExFlow Setup - Bestell- und Angebotsgenehmigung](@site/static/img/media/exflow-setup-order-and-quote-approval-001.png)
+![ExFlow Setup - Bestell- und Angebotsgenehmigung](../../images/exflow-setup-order-and-quote-approval-001.png)
 
 **Bestellgenehmigung**<br/>
 Um automatisch ein Genehmigungskennzeichen auf allen Bestelldokumenten hinzuzufügen, muss die "Bestellgenehmigung" aktiv sein. Außerdem wird ein PDF benötigt, um eine Bestellung zur Genehmigung an ExFlow Web zu senden.
@@ -26,11 +26,11 @@ Wählen Sie einen Bericht aus der Liste, um das Bestell-PDF anzeigen zu können.
 **Nur genehmigte Bestellungen empfangen** <br/>
 Aktivieren Sie diese Einstellung, um das Buchen von Wareneingängen zu verhindern, wenn die Bestellung noch nicht genehmigt ist.
 
-![ExFlow Setup - Bestell- und Angebotsgenehmigung](@site/static/img/media/exflow-setup-order-and-quote-approval-003.png)
+![ExFlow Setup - Bestell- und Angebotsgenehmigung](../../images/exflow-setup-order-and-quote-approval-003.png)
 
 Folgende Fehlermeldung erscheint, wenn diese Einstellung aktiviert ist und ein Benutzer versucht, Wareneingänge auf eine nicht genehmigte Bestellung zu buchen.
 
-![ExFlow Setup - Bestell- und Angebotsgenehmigung](@site/static/img/media/unapproved-order-card-only-receive-approved-order-error-message-001.png)
+![ExFlow Setup - Bestell- und Angebotsgenehmigung](../../images/unapproved-order-card-only-receive-approved-order-error-message-001.png)
 
 **Angebotsgenehmigung**<br/>
 Um automatisch ein Genehmigungskennzeichen auf allen Angeboten hinzuzufügen, muss die "Angebotsgenehmigung" aktiv sein.<br/>
@@ -54,11 +54,11 @@ Um eine Warnmeldung hinzuzufügen, wenn ein Dokument mit einer nicht genehmigten
 
 Dann, wenn die Rechnung im Importjournal abgeglichen wird, informiert eine Warnmeldung, dass die empfangenen Bestellpositionen nicht genehmigt sind.
 
-![ExFlow Import Journal - Warnmeldungen](@site/static/img/media/image286.png)
+![ExFlow Import Journal - Warnmeldungen](../../images/image286.png)
 
 Wie bei anderen Warnmeldungen im Importjournal kann dies durch Akzeptieren der Meldung behoben werden:
 
-![ExFlow Import Journal - Warnmeldungen](@site/static/img/media/image287.png)
+![ExFlow Import Journal - Warnmeldungen](../../images/image287.png)
 
 **Überprüfen Sie die Mindestanzahl der Genehmiger für Angebote und Bestellungen**<br/>
 Gibt an, ob die Einstellung für "Mindestanzahl der Genehmiger" unter dem Tab "Dokumentenprüfungen" auch für Angebote und Bestellungen gilt.
@@ -72,11 +72,11 @@ Die Einstellung gibt an, ob das Drucken oder Senden von einer Bestellung, einem 
 Diese Einstellung ist nur für Benutzer relevant, die keine Berechtigungen als EX ACCOUNTANT oder EX ADMIN haben.<br/>
 Benutzer mit der Berechtigung EX ACCOUNTANT oder EX ADMIN können diese Funktion immer nutzen, auch wenn das Dokument nicht vollständig genehmigt ist.
 
-![Drucken/Senden von nicht genehmigten Dokumenten blockieren](@site/static/img/media/exflow-setup-order-and-quote-approval-002.png)
+![Drucken/Senden von nicht genehmigten Dokumenten blockieren](../../images/exflow-setup-order-and-quote-approval-002.png)
 
 In diesem Beispiel verwendet ein Benutzer, der keine Berechtigung als EX ACCOUNTANT oder EX ADMIN hat, die Aktion Drucken/Senden für ein nicht vollständig genehmigtes Dokument und erhält eine Fehlermeldung.
 
-![Bestellung - Drucken und Senden blockieren](@site/static/img/media/purchase-order-001.png)
+![Bestellung - Drucken und Senden blockieren](../../images/purchase-order-001.png)
 
 **E-Mail für genehmigte Bestellung/Angebot senden** <br/>
 Wenn diese Einstellung aktiviert ist, wird eine Benachrichtigung über die genehmigte Bestellung oder das Angebot gesendet, wenn das Dokument genehmigt wird.
@@ -105,7 +105,7 @@ Das Angebot kann nicht in eine Bestellung umgewandelt werden, wenn es zur Genehm
 
 Wenn eine Bestellung genehmigt und überprüft wurde, verschwindet sie aus dem Genehmigungsstatus und kann nun im ExFlow-Bestellstatus gefunden werden.
 
-![ExFlow-Genehmigungsstatus](@site/static/img/media/image288.png)
+![ExFlow-Genehmigungsstatus](../../images/image288.png)
 
 ### ExFlow-Bestellstatus
 
@@ -117,15 +117,15 @@ Die Bestellung oder das Angebot muss noch in ExFlow Web genehmigt und dann aus d
 
 Nach der Überprüfung der Bestellung wird das Feld "Bestellung genehmigt und überprüft" angekreuzt. In dieser Hinsicht verhalten sich Bestellungen und Angebote unterschiedlich, da Angebote direkt entfernt werden, wenn die Bestellung erstellt wird, während Bestellungen als fakturiert angezeigt werden, bis sie durch einen Job in Business Central Standard entfernt werden.
 
-![ExFlow-Bestellstatus](@site/static/img/media/image289.png)
+![ExFlow-Bestellstatus](../../images/image289.png)
 
 Verfolgen Sie den aktuellen Status in der Spalte "Status" im ExFlow-Bestellstatus.
 
-![ExFlow-Bestellstatus](@site/static/img/media/image290.png)
+![ExFlow-Bestellstatus](../../images/image290.png)
 
 Es ist auch möglich zu sehen, ob die Bestellung aus einem Angebot erstellt wurde und ob die Genehmigung vom Angebot auf die Bestellung kopiert wurde.
 
-![ExFlow-Bestellstatus](@site/static/img/media/image291.png)
+![ExFlow-Bestellstatus](../../images/image291.png)
 
 Um eine Bestellung zu löschen, muss die Bestellung vollständig empfangen und vollständig fakturiert sein. Das Löschen einer Bestellung erfolgt über die Aufgabe ***Fakturierte Bestellung löschen***. Die Bestellung wird auch gelöscht, wenn sie direkt aus der Bestellkarte in Business Central Standard außerhalb von ExFlow fakturiert wird.
 
