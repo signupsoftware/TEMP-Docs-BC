@@ -30,8 +30,7 @@ provide historic views and analysis of the approval flow processes and handling.
 This documentation will provide accounts payable staff and admin users with information about how to set up and use ExFlow functionality. This
 assumes that ExFlow is installed, and basic settings have been made before using this.
 
-For specific questions, please contact [***ExFlow Support***](https://support.signupsoftware.com).
-
+For specific questions, please contact [***ExFlow Support***](https://support.signupsoftware.com)
 
 
 
