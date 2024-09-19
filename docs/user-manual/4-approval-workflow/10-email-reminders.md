@@ -2,6 +2,7 @@
 title: Email Reminders
 sidebar_position: 10
 hide_title: true
+custom_edit_url: null
 ---
 ## Email Reminders
 To be able to send emails to ExFlow Users there are some settings needed.<br/>

@@ -13,7 +13,7 @@ Aktivieren Sie "Allow Sales Tax" in ExFlow Setup.
 
 ![ExFlow Setup - Doc. Creation Checks - US Localization](../../images/exflow-setup-doc-posting-checks-002-ca-us.png)
 
-Mit dieser Einstellung wird die VAT Product Posting Group im ExFlow Import Journal nicht zwingend erforderlich sein. Diese Einstellung wird normalerweise mit dem Tax Posting Setup der Verkaufssteuer kombiniert.
+Mit dieser Einstellung wird die MwSt. Product Posting Group im ExFlow Import Journal nicht zwingend erforderlich sein. Diese Einstellung wird normalerweise mit dem Tax Posting Setup der Verkaufssteuer kombiniert.
 
 ![VAT Posting Setup - US Localization](../../images/image357.png)
 

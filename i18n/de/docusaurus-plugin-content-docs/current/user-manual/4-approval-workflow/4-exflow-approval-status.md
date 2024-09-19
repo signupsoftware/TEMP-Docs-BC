@@ -61,7 +61,7 @@ Verwenden Sie Dokument aktualisieren, um die Dokumentkarte für ein bestimmtes D
 
 Öffnen Sie die "Karte", um in die ursprüngliche Business Central Standard-Einkaufsdokumentkarte zu gelangen.
 
-Der PDF-Viewer (FactBox) zeigt das Dokumentbild. Es besteht auch die Möglichkeit, Strg+I zu verwenden, um das Dokumentbild herunterzuladen oder über Verwandte --> Dokumentbild anzeigen zu gehen.
+Der PDF-Viewer (FactBox) zeigt das Dokumentbild. Es besteht auch die Möglichkeit, Strg+I zu verwenden, um das Dokumentbild herunterzuladen oder über Zugehörige --> Dokumentbild anzeigen zu gehen.
 
 ![Genehmigungsstatus - Änderungen überprüfen](../../images/image245.png)
 

@@ -19,7 +19,7 @@ Lesen Sie mehr darüber, wie Sie diese Funktion verwenden, im Abschnitt [***Doku
 
 Gehe zu: ***ExFlow Historie \--\> ExFlow Genehmigungsstatusverlauf***
 
-Funktion zur Anzeige des ExFlow Genehmigungsstatusverlaufs für gebuchte Dokumente, abgeschlossene Bestellungen und Angebote. Finden Sie verwandte Informationen/Dokumente zu einem bestimmten Dokument, sowohl die "Gebuchte Rechnung oder Gebuchtes Gutschrift" Karte als auch die "Ex Doc Karte". Es ist auch möglich, die zugehörigen OCR-Importinformationen für das Dokument zu finden oder nach "Genehmigungsgruppe" zu filtern.
+Funktion zur Anzeige des ExFlow Genehmigungsstatusverlaufs für gebuchte Dokumente, abgeschlossene Bestellungen und Angebote. Finden Sie zugehörige Informationen/Dokumente zu einem bestimmten Dokument, sowohl die "Gebuchte Rechnung oder Gebuchtes Gutschrift" Karte als auch die "Ex Doc Karte". Es ist auch möglich, die zugehörigen OCR-Importinformationen für das Dokument zu finden oder nach "Genehmigungsgruppe" zu filtern.
 
 ![ExFlow Genehmigungsstatusverlauf](../../images/image314.png)
 

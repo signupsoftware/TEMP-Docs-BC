@@ -2,6 +2,7 @@
 title: Notifications in Business Central
 sidebar_position: 10
 hide_title: true
+custom_edit_url: null
 ---
 ## Notifications in Business Central
 If the ExFlow User is a System User (associated to User in Business Central) then Notifications in Business Central can be activated. <br/>

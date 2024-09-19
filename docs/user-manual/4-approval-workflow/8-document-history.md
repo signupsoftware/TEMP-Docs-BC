@@ -2,6 +2,7 @@
 title: Document History
 sidebar_position: 8
 hide_title: true
+custom_edit_url: null
 ---
 ## Document History
 

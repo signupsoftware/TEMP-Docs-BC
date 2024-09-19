@@ -2,6 +2,7 @@
 title: Sales Order Setup
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
 ## Configure Sales Order in ExFlow Data Capture Account
 

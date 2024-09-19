@@ -2,6 +2,7 @@
 title: Approval in Business Central
 sidebar_position: 12
 hide_title: true
+custom_edit_url: null
 ---
 ## Approval in Business Central
 Go to: **ExFlow Approval Documents** <br/>

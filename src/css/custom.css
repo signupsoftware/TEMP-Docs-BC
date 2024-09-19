@@ -301,3 +301,27 @@ html[data-theme='light'] {
 }
 /* END Agreement documents, delete these if not used in final */
 
+/* Tables in .md files */
+[data-theme='light'] table thead {
+  background-color: #fdad54;
+  border: var(--ifm-table-border-width) solid #fdad54;
+}
+[data-theme='light'] table td, table th {
+  border: var(--ifm-table-border-width) solid #fdad54 !important;
+  vertical-align: top;
+}
+[data-theme='dark'] table thead {
+  background-color: #333335;
+  border-color: #333335;
+}
+[data-theme='dark'] table td, table th {
+  border: var(--ifm-table-border-width) solid #333335;
+  vertical-align: top;
+}
+/*
+[data-theme='dark'] a {
+  color: white;
+  text-decoration: none;
+}
+
+*/
