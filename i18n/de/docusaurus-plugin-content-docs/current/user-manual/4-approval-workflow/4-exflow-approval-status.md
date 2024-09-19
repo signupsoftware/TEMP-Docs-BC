@@ -418,3 +418,4 @@ In den Dokumentzeilen im Genehmigungsstatus ist es möglich zu sehen, wer der ak
 
 Lesen Sie mehr darüber, wie Sie mit Vertretern arbeiten, im Abschnitt [***Einen Vertreter während der Urlaubszeit hinzufügen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time)
 
+
