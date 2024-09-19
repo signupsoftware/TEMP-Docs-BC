@@ -2,6 +2,7 @@
 title: ExFlow Email Setup
 sidebar_position: 9
 hide_title: true
+custom_edit_url: null
 ---
 ## ExFlow Email Setup
 To send email reminders, ExFlow Email Setup is needed for each Email Type.

@@ -180,6 +180,14 @@ html[data-theme='light'] {
   --ifm-background-color: #f8f1ea;
 }
 
+[data-theme='dark'] a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
 .page_title {
   position: relative;
   top: 220px;
@@ -255,13 +263,41 @@ html[data-theme='light'] {
   text-decoration: none !important;
 }
 
-
+.hidden {
+  display: none !important;
+  }
+  
 /*
   font-family: 'Archia', sans-serif;
   font-size: 12pt;
-
 */
 
+/* Agreement documents, delete these if not used in final */
+.agreement-doc {
+  width: 60%;  
+}
+.agreement-doc > h3 {
+  font-family: 'Times New Roman', Times, serif;
+} 
+.agreement-doc img {
+  width: 20%;
+  height: auto;
+}
 
+.paragraph {
+  white-space: nowrap;
+}
+.paragraph h4{
+  font-family: 'Times New Roman', Times, serif;
+}
 
+.paragraph-text {  
+  margin-left: 20px;
+  font-weight: normal;
+  display: inline-block;
+  white-space: break-spaces;
+  vertical-align: top;
+
+}
+/* END Agreement documents, delete these if not used in final */
 

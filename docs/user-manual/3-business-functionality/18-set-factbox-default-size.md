@@ -2,6 +2,7 @@
 title: Set FactBox Default Size
 sidebar_position: 18
 hide_title: true
+custom_edit_url: null
 ---
 ## Set FactBox Default Size
 

@@ -2,6 +2,7 @@
 title: Denying Coding Rules
 sidebar_position: 8
 hide_title: true
+custom_edit_url: null
 ---
 ## Denying Coding Rules
 
