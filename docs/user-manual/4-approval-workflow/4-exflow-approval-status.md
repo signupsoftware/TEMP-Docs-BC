@@ -413,7 +413,7 @@ ExFlow makes a control between the gross amount on the purchase document head an
 
 ![ExFlow Setup - Doc. Posting Checks - Invoice Rounding](@site/static/img/media/exflow-setup-doc-posting-checks-001.png)
 
-If Swebase (for Swedish customers) is installed, rounding will be handled by Swebase and ExFlow Rounding can only be done for Preliminary Posting. 
+If SweBase (for Swedish customers) is installed, rounding will be handled by SweBase and ExFlow Rounding can only be done for Preliminary Posting. 
 
 Read more under section: 
 [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
