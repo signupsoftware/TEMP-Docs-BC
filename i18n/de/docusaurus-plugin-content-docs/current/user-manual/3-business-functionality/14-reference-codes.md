@@ -13,7 +13,7 @@ Wenn eine Referenz auf dem importierten Dokument gefunden wird, wird dieser Refe
 
 Die Referenz kann einen vordefinierten ExFlow-Kaufcode hinzufügen, der zur Zuordnung der Kodierung zu den Rechnungszeilen (Sachkonto, Dimensionen usw.) verwendet wird.
 
-Es ist möglich, eine Kombination aus Referenz und Lieferantennummer zu verwenden. Wenn eine Referenz für einen bestimmten Lieferanten interpretiert wird, ist ein spezieller Genehmigungsfluss zu verwenden. Bearbeiten Sie außerdem die Liste und fügen Sie z.B. eine Dimension oder einen Einkäufercode zur markierten ExFlow-Referenz hinzu. Es ist auch möglich, mehrere verwandte Referenzen mit demselben Referenzcode zu verknüpfen, um die Verwaltung der Referenzcodes zu erleichtern.
+Es ist möglich, eine Kombination aus Referenz und Lieferantennummer zu verwenden. Wenn eine Referenz für einen bestimmten Lieferanten interpretiert wird, ist ein spezieller Genehmigungsfluss zu verwenden. Bearbeiten Sie außerdem die Liste und fügen Sie z.B. eine Dimension oder einen Einkäufercode zur markierten ExFlow-Referenz hinzu. Es ist auch möglich, mehrere zugehörige Referenzen mit demselben Referenzcode zu verknüpfen, um die Verwaltung der Referenzcodes zu erleichtern.
 
 ![ExFlow Referenzcodes](../../images/reference-codes-001.png)
 
@@ -33,7 +33,7 @@ Durch Auswahl von "Ja" wird eine leere ExFlow-Referenzcodekarte geöffnet, in de
 
 Wenn das ExFlow-Referenzfeld leer ist, klicken Sie auf "Neu" oder "Liste bearbeiten" und geben Sie die Informationen direkt in die Zeile ein. Eine alternative Route besteht darin, auf "Bearbeiten" zu klicken, um die Referenzkarte zu öffnen und die Informationen dort zu bearbeiten.
 
-Um eine verwandte Referenz zum Referenzcode hinzuzufügen, klicken Sie auf "ExFlow Related Reference Values" und bearbeiten Sie die Zeilen.
+Um eine zugehörige Referenz zum Referenzcode hinzuzufügen, klicken Sie auf "ExFlow Related Reference Values" und bearbeiten Sie die Zeilen.
 
 ![ExFlow Referenzcodes](../../images/reference-codes-002.png)
 

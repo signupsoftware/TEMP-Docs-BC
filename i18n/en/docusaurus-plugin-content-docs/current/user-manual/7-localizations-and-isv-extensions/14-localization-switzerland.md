@@ -2,6 +2,7 @@
 title: Localization Switzerland
 sidebar_position: 14
 hide_title: true
+custom_edit_url: null
 ---
 ## Localization Switzerland
 

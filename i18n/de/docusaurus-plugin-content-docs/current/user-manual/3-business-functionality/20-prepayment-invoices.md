@@ -127,7 +127,7 @@ Nachdem die Vorauszahlungsrechnung genehmigt wurde, überprüfen und buchen Sie 
 
 ### Vorauszahlungsverlauf
 
-Gehen Sie zu: ***Bestellauftrag --> Verwandte --> Dokumente --> Vorauszahlungsrechnungen***
+Gehen Sie zu: ***Bestellauftrag --> Zugehörige --> Dokumente --> Vorauszahlungsrechnungen***
 
 Die gebuchte Vorauszahlungsrechnung kann aus der Bestellauftragskarte nachverfolgt werden.
 

@@ -20,7 +20,7 @@ Unter diesem Abschnitt fügen Sie allgemeine Informationen für diesen spezifisc
 | **Lieferantennummer**:                      | Wählen Sie den Lieferanten aus der Liste aus
 | **Lieferantenname**:                        | Zeigt den Namen für die ausgewählte Lieferantennummer an
 | **Externe Vertragsnummer**:                 | Referenz, die auf der Rechnung interpretiert werden kann, um einen bestimmten Vertrag zuzuordnen<br/> Wenn ein Referenzcode erstellt wird, kann die externe Vertragsnummer nicht mehr geändert werden. <br/>Um zu aktualisieren, ändern Sie die externe Vertragsnummer und drücken Sie die Eingabetaste<br/>
-| **Nachricht**:                              | Sie dürfen die externe Vertragsnummer nicht aktualisieren. Möchten Sie stattdessen eine verwandte Referenz hinzufügen?<br/>Antworten Sie mit Ja und die verwandte Referenz wird automatisch auf der Referenzkarte hinzugefügt
+| **Nachricht**:                              | Sie dürfen die externe Vertragsnummer nicht aktualisieren. Möchten Sie stattdessen eine zugehörige Referenz hinzufügen?<br/>Antworten Sie mit Ja und die zugehörige Referenz wird automatisch auf der Referenzkarte hinzugefügt
 | **Inaktiviert**:                            | Ja oder Nein. Um eine Rechnung abzugleichen, muss der Vertrag aktiv sein
 | **Anhang zur abgeglichenen Rechnung kopieren**: | Ja oder Nein. Wenn ja, fügen Sie einen Anhang hinzu
 | **Referenz erstellt**:                      | Wenn eine Referenz erstellt wird, wird der Referenzcode mit einem Link zur ExFlow-Referenzkarte angezeigt
