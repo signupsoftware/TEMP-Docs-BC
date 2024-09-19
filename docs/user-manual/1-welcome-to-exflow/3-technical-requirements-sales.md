@@ -2,6 +2,7 @@
 title: Technical Requirements for ExFlow Business Central Sales Order
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
 
 ## ExFlow Business Central Sales Order

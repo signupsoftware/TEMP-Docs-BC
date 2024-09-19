@@ -2,6 +2,7 @@
 title: Approval Groups
 sidebar_position: 4
 hide_title: true
+custom_edit_url: null
 ---
 ## Approval Groups
 

@@ -2,6 +2,7 @@
 title: G/L Budget Control
 sidebar_position: 24
 hide_title: true
+custom_edit_url: null
 ---
 ## G/L Budget Control
 
