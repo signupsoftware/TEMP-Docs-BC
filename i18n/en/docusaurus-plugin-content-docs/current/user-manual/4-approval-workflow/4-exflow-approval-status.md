@@ -425,7 +425,7 @@ Read more under section [***Preliminary Posting***](https://docs.exflow.cloud/bu
 
 ### View Current Replacer on the Document Lines
 
-On the Document Lines in APproval Status, it is possible to see who the current replacer is for the current approver.
+On the Document Lines in Approval Status, it is possible to see who the current replacer is for the current approver.
 
 ![Current Replacer](@site/static/img/media/approval-status-replacer-001.png)
 
