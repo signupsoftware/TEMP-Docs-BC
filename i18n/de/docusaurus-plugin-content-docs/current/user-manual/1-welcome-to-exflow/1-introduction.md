@@ -21,5 +21,5 @@ Administratoren haben jederzeit die volle Kontrolle über den Rechnungsprozess u
 
 Diese Dokumentation bietet dem Kreditorenbuchhaltungspersonal und den Administratoren Informationen zur Einrichtung und Nutzung der ExFlow-Funktionalität. Es wird davon ausgegangen, dass ExFlow installiert ist und grundlegende Einstellungen vorgenommen wurden, bevor es verwendet wird.
 
-Bei spezifischen Fragen wenden Sie sich bitte an [***ExFlow Support***](https://support.signupsoftware.com).
+Bei spezifischen Fragen wenden Sie sich bitte an [***ExFlow Support***](https://support.signupsoftware.com)
 

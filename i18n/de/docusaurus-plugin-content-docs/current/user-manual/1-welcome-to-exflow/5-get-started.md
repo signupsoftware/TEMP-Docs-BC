@@ -40,7 +40,7 @@ Suchen Sie nach ExFlow Erste Schritte Assistent:
 Wenn ExFlow bereits in anderen Unternehmen innerhalb desselben Tenents installiert und konfiguriert wurde, ist es möglich, die Option zur Kopie der ExFlow-Einrichtung zu nutzen. Diese Funktion ist besonders wertvoll, wenn die gleichen oder ähnlichen Konfigurationseinstellungen auf das neue Unternehmen angewendet werden sollen.
 
 ### Einrichtung von einem anderen Unternehmen kopieren
-Wenn ExFlow bereits in anderen Unternehmen innerhalb desselben Mandanten installiert und konfiguriert wurde, ist es möglich, die Option zur Kopie der ExFlow-Einrichtung zu nutzen. Diese Funktion ist besonders wertvoll, wenn die gleichen oder ähnlichen Konfigurationseinstellungen auf das neue Unternehmen angewendet werden sollen.
+Wenn ExFlow bereits in anderen Unternehmen innerhalb desselben Tenents installiert und konfiguriert wurde, ist es möglich, die Option zur Kopie der ExFlow-Einrichtung zu nutzen. Diese Funktion ist besonders wertvoll, wenn die gleichen oder ähnlichen Konfigurationseinstellungen auf das neue Unternehmen angewendet werden sollen.
  
 ![Erste Schritte-Assistent - ExFlow-Einrichtung kopieren](./../../images/get-started-004-do-you-want-to-copy.png)
 
