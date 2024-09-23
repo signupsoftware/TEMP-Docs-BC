@@ -19,7 +19,7 @@ Gehen Sie zu **ExFlow Setup --> Web-Spalten bearbeiten**
 ![ExFlow Setup](../../images/exflow-setup-edit-web-columns.png) 
 
 |Web-Spalten bearbeiten|
-:-|:-|
+|:-|:-|
 |**Spalte hinzufügen**| Eine neue Spalte zu ExFlow Web hinzufügen
 |**Spalte ändern**| Eine aktuelle ExFlow Web-Spalte aktualisieren
 |**ExFlow-Spalten**| Änderungen an ExFlow Web-Spalten verwalten
@@ -45,7 +45,7 @@ Gehen Sie zu **ExFlow Setup --> Web-Spalten bearbeiten --> ExFlow-Spalten**
 ![ExFlow Setup](../../images/exflow-setup-exflow-columns-002.png)
 
 |ExFlow-Spalten|
-:-|:-|
+|:-|:-|
 |**ID**| Gibt die Spalten-ID an.
 |**Code**| Gibt den Code an.
 |**Dimension**| Eine Dimension aus der Hauptbuchkonfiguration kann als ExFlow Web-Spalte hinzugefügt werden.
