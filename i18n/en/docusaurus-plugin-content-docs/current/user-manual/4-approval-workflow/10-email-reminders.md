@@ -2,6 +2,7 @@
 title: Email Reminders
 sidebar_position: 10
 hide_title: true
+custom_edit_url: null
 ---
 ## Email Reminders
 Please note that a Business Central standard Email Account must be set to be able to receive ExFlow emails. More information about this can be found at [***Microsoft Documentation***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email). For assistance regarding this, please contact your trusted Dynamics 365 Business Central implementation partner.

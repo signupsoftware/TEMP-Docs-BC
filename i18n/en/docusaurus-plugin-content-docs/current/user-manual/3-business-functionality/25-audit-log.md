@@ -2,6 +2,7 @@
 title: Audit Log
 sidebar_position: 25
 hide_title: true
+custom_edit_url: null
 ---
 ## Audit Log
 The ExFlow Audit Log is built on top of the standard Business Central Change Log to provide an enhanced, user friendly log of changes made to documents in ExFlow. When activated, the Audit Log tracks all changes made to a document from import to posting. View document changes in either a summary format based on invoice states and actions, or view changes in a detailed format that tracks changes at the field level.

@@ -2,6 +2,7 @@
 title: Vendor Card
 sidebar_position: 10
 hide_title: true
+custom_edit_url: null
 ---
 ## Vendor Card
 

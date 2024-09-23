@@ -2,6 +2,7 @@
 title: Approve VAT Lines
 sidebar_position: 34
 hide_title: true
+custom_edit_url: null
 ---
 ## Approve VAT Lines
 

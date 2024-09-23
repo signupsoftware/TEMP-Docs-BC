@@ -51,13 +51,24 @@
 }
 
 /* Footer overrides */
-.footer {
+
+[data-theme='dark'] .footer {
+  background-color: #3a2e25;
+}
+[data-theme='light'] .footer {
   background-color: #F1E4D5; 
 }
-.footer__link-item {
+
+[data-theme='dark'] .footer__link-item {
+  color: #DDD;
+}
+[data-theme='light'] .footer__link-item {
   color: #000;
 }
-.footer__title {
+[data-theme='dark'] .footer__title {
+  color: #DDD;
+}
+[data-theme='light'] .footer__title {
   color: #000;
 }
 

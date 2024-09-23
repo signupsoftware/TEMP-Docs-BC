@@ -15,8 +15,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 //import { getLang } from './src/components/langReference.js';
 
 // EA 2024-09-03 The 'config' class doesn't work well, use this to change the main site address.
-const siteURL = 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/';
-//const siteURL = 'http://localhost:3000/';
+//const siteURL = 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/';
+const siteURL = 'http://localhost:3000/';
 
 
 // Use these to quickly chnage between Dev/Prod
@@ -37,7 +37,11 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/',
+  //url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/',
+  url: 'https://localhost:3000/',
+
+
+
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -124,7 +128,6 @@ const config = {
           },
 
           {
-            //href: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/welcome-to-exflow/introduction',
             href: siteURL + lnk_intro,
             label: 'Documentation',
             position: 'left',
@@ -201,6 +204,10 @@ const config = {
                 label: 'Partner portal',
                 href: 'https://azuresignup.sharepoint.com/sites/Signupsoftware',
               },
+              {
+                label: 'Agreements',
+                href: '/docs/papers/agreements',
+              },
             ],
           },
         ],
@@ -223,12 +230,13 @@ export default {
     // ... Your other themes.
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      /* @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
-        searchResultLimits: 15
+        searchResultLimits: 15,
+        searchBarShortcutHint: false
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
         // language: ["en", "zh"],

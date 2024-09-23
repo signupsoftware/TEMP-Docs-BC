@@ -2,6 +2,7 @@
 title: Generic Blob Storage
 sidebar_position: 4
 hide_title: true
+custom_edit_url: null
 ---
 ## Generic Blob Storage
 
