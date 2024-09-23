@@ -9,7 +9,7 @@ ExFlow Setup is organized into various sections to simplify the process of creat
 
 Go to: **ExFlow Setup**
 
-![ExFlow Setup](./../../images/exflow-setup-ribbon-001.png)<br/>
+![ExFlow Setup](@site/static/img/media/exflow-setup-ribbon-001.png)<br/>
 
 | ExFlow Setup| |
 |:-|:-|
@@ -21,7 +21,7 @@ Go to: **ExFlow Setup**
 
 Go to: **ExFlow Setup --> Actions --> Functions** <br/>
 
-![ExFlow Setup](./../../images/exflow-setup-ribbon-002.png)<br/>
+![ExFlow Setup](@site/static/img/media/exflow-setup-ribbon-002.png)<br/>
 
 | Actions --> Functions | |
 |:-|:-|
@@ -40,7 +40,7 @@ Go to: **ExFlow Setup --> Actions --> Functions** <br/>
 
 Go to: **ExFlow Setup --> Related --> Advanced**
 
-![ExFlow Setup](./../../images/exflow-setup-ribbon-003.png)<br/>
+![ExFlow Setup](@site/static/img/media/exflow-setup-ribbon-003.png)<br/>
 
 | Related --> Advanced | |
 |:-|:-|	
@@ -62,11 +62,11 @@ Go to: **ExFlow Setup --> Related --> Advanced**
 
 Find all ExFlow Setup sections described according to below. <br/>
 
-![ExFlow Setup](./../../images/exflow-setup-overview-001.png) <br/>
+![ExFlow Setup](@site/static/img/media/exflow-setup-overview-001.png) <br/>
 
 ### General
 
-![ExFlow Setup](./../../images/exflow-setup-general-section.png) <br/>
+![ExFlow Setup](@site/static/img/media/exflow-setup-general-section.png) <br/>
 
 |General||
 |:-|:-|	
@@ -95,7 +95,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### Doc. Creation Checks
 
-![ExFlow Setup](./../../images/exflow-setup-doc-creation-checks-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-doc-creation-checks-section.png)
 
 |Doc. Creation Checks||
 |:-|:-|	
@@ -116,7 +116,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### Doc. Posting Checks
 
-![ExFlow Setup](./../../images/exflow-setup-doc-posting-checks-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-doc-posting-checks-section.png)
 
 |Doc. Posting Checks||
 |:-|:-|	
@@ -131,7 +131,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### Preliminary Posting
 
-![ExFlow Setup](./../../images/exflow-setup-preliminary-posting-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-preliminary-posting-section.png)
 
 |Preliminary Posting||
 |:-|:-|	
@@ -148,7 +148,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### PO Matching
 
-![ExFlow Setup](./../../images/exflow-setup-po-matching-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-po-matching-section.png)
 
 |PO Matching||
 |:-|:-|	
@@ -190,7 +190,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### OCR Import
 
-![ExFlow Setup](./../../images/exflow-setup-ocr-import-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-ocr-import-section.png)
 
 |OCR Import||
 |:-|:-|	
@@ -227,7 +227,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### Escalation
 
-![ExFlow Setup](./../../images/exflow-setup-escalation-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-escalation-section.png)
 
 |Escalation||
 |:-|:-|	
@@ -244,7 +244,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### Order and Quote Approval
 
-![ExFlow Setup](./../../images/exflow-setup-order-and-quote-approval-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-order-and-quote-approval-section.png)
 
 |Order and Quote Approval||
 |:-|:-|	
@@ -266,7 +266,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### Web
 
-![ExFlow Setup](./../../images/exflow-setup-web-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-web-section.png)
 
 |Web||
 |:-|:-|	
@@ -277,7 +277,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### Users
 
-![ExFlow Setup](./../../images/exflow-setup-users-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-users-section.png)
 
 |Users||
 |:-|:-| 	
@@ -299,7 +299,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### Approval
 
-![ExFlow Setup](./../../images/exflow-setup-approval-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-approval-section.png)
 
 |Approval||
 |:-|:-|	
@@ -313,7 +313,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### Confidential Documents
 
-![ExFlow Setup](./../../images/exflow-setup-confidential-documents-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-confidential-documents-section.png)
 
 |Confidential Documents||
 |:-|:-| 	
@@ -323,7 +323,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### Auto Coding Suggestion
 
-![ExFlow Setup](./../../images/exflow-setup-auto-coding-suggestion-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-auto-coding-suggestion-section.png)
 
 |Auto Coding Suggestion||
 |:-|:-|	
@@ -337,7 +337,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### Background Processing
 
-![ExFlow Setup](./../../images/exflow-setup-background-processing-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-background-processing-section.png)
 
 |Background Processing||
 |:-|:-|	
@@ -350,7 +350,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 ### About ExFlow
 
-![ExFlow Setup](./../../images/exflow-setup-about-exflow-section.png)
+![ExFlow Setup](@site/static/img/media/exflow-setup-about-exflow-section.png)
 
 |About ExFlow||
 |:-|:-| 	
