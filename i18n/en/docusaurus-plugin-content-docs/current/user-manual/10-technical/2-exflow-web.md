@@ -19,8 +19,8 @@ Go to **ExFlow Setup --> Edit Web Columns**
 
 ![ExFlow Setup](@site/static/img/media/exflow-setup-edit-web-columns.png) 
 
-|Edit Web Columns|
-:-|:-|
+| Edit Web Columns      |   | 
+|:-|:-|
 |**Add Column**| Add a new column to ExFlow Web
 |**Modify Column**| Update a current ExFlow Web column
 |**ExFlow Columns**| Handle ExFlow Web column changes
@@ -47,8 +47,8 @@ Open ExFlow Columns and edit the list to if any changes needs to be made on the 
 
 ![ExFlow Setup](@site/static/img/media/exflow-setup-exflow-columns-002.png)
 
-|ExFlow Columns|
-:-|:-|
+|ExFlow Columns||
+|:-|:-|
 |**ID**|Specifies column ID.
 |**Code**| Specifies the Code
 |**Dimension**| A dimension from General Ledger Setup can be added as ExFlow web column.
