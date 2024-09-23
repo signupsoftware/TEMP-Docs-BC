@@ -15,6 +15,12 @@ Hauptversion
 **Veröffentlichungsinformationen:** <br/>
 Erfordert BC 23.0 oder höher <br/>
 
+Die Möglichkeit, falsche Rabatte zu ändern, ist in 24.0.310.12 behoben
+
+Kleinere Korrekturen beim Order-Matching, bei dem ExFlow manchmal nicht die richtige Zeile identifizieren konnte, wurden behoben 24.0.310.12
+
+ExFlow-Berechtigungssätze, die nicht genügend Berechtigungen enthalten, wurden in 24.0.310.12 behoben
+
 <br/>
 
 **Neue Funktionen** 

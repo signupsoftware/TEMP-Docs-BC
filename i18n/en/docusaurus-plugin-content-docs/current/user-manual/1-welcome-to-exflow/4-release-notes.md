@@ -16,6 +16,12 @@ Major Release
 **Release Information:** <br/>
 Requires BC 23.0 or later <br/>
 
+Being able to change incorrect discounts is solved in 24.0.310.12
+
+Minor fixes to Order matching where ExFlow sometimes could not identified the correct line is solved 24.0.310.12
+
+ExFlow permission sets not containing enough permissions is solved in 24.0.310.12
+
 <br/>
 
 **New Features** 
