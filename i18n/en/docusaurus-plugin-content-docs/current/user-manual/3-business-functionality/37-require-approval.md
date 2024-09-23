@@ -2,6 +2,7 @@
 title: Require Approval
 sidebar_position: 37
 hide_title: true
+custom_edit_url: null
 ---
 ## Require Approval
 

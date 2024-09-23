@@ -10,15 +10,15 @@ import Translate, {translate} from '@docusaurus/Translate';
 const FeatureList = [
   {
     title: <Translate>EXFLOW AP</Translate>,
-    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/welcome-to-exflow/introduction',
+    url: '/docs/user-manual/welcome-to-exflow/introduction',
   },
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
-    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/sales-order/sales-order-setup',
+    url: '/docs/user-manual/sales-order/sales-order-setup',
   },
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
-    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/CO2-Insights/co2-insights',
+    url: '/docs/user-manual/CO2-Insights/co2-insights',
   },
   {
     title: <Translate>EXFLOW WEB</Translate>,
@@ -27,6 +27,10 @@ const FeatureList = [
   {
     title: <Translate>EXFLOW DATA CAPTURE</Translate>,
     url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
+  },
+  {
+    title: <Translate>TRAVEL AND EXPENSE</Translate>,
+    url: '/docs/user-manual/CO2-Insights/TaE',
   },
 ];
 
@@ -60,15 +64,15 @@ const FeatureList = [
 const FeatureList = [
   {
     title: <Translate>EXFLOW AP</Translate>,
-    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/welcome-to-exflow/introduction',
+    url: '/docs/user-manual/welcome-to-exflow/introduction',
   },
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
-    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/sales-order/sales-order-setup',
+    url: '/docs/user-manual/sales-order/sales-order-setup',
   },
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
-    url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/docs/user-manual/CO2-Insights/co2-insights',
+    url: '/docs/user-manual/CO2-Insights/co2-insights',
   },
   {
     title: <Translate>EXFLOW WEB</Translate>,

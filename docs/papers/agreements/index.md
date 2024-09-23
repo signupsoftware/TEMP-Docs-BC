@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ---
 ## Terms & Conditions
 
-* [Travel and Expense](<./TravelAndExpense.md>)  
+
 * [SignUp - Consultancy Services Terms draft 2024-09-16](<./SignUp - Consultancy Services Terms draft 2024-09-16.md>)  
 * [SignUp - Data Processing Agreement Draft 2024-09-16](<./SignUp - Data Processing Agreement Draft 2024-09-16.md>)  
 * [SignUp - Definitions Draft 2024-09-16](<./SignUp - Definitions Draft 2024-09-16.md>)  
@@ -18,7 +18,6 @@ hide_table_of_contents: true
 
   
 <br/>  <br/>  
-
 
 
 | Date | Document |

@@ -2,6 +2,7 @@
 title: Minimum No. of Approvers
 sidebar_position: 6
 hide_title: true
+custom_edit_url: null
 ---
 ## Minimum No. of Approvers
 A check for Minimum No. of Approvers can be added on ExFlow Web and also be activated for Import Journal. 
