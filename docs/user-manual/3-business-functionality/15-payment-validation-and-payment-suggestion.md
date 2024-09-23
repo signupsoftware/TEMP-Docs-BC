@@ -9,7 +9,6 @@ custom_edit_url: null
 Let ExFlow validate an interpreted account and and make sure that the vendor suggested account code is set.
 
 
-
 ### Payment Validation Setup
 
 To be able to work with payment validation, the (bank) account must be interpreted in ExFlow Data Capture and below settings must be configured.

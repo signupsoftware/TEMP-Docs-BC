@@ -25,4 +25,6 @@ A tip to read more about this here: [PDF Rendering Issues in Google Chrome on Wi
 * How do I change VAT Business Posting Group on the import journal lines?<br/>
 Utilize personalize to add the field to the lines. 
 
+* Job Queue Entry will not run under the selected User ID on ExFlow Data Capture Account card, why? <br/>
+If the "Task Scheduler" is turned on, Microsoft will always put current user as the user who is running the job queue entry. 
 

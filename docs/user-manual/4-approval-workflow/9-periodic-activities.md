@@ -82,16 +82,18 @@ no setup for Escalation on Approval Group CC. Second approver is EE
 
 Escalation Job will approve CC automatically and add new approver, FM
 (Finance Manager), from ExFlow Setup since the number of days between
-2020-08-17 till today (2020-09-10) is more than 5 days. (Setup, see
-picture above under ExFlow Escalation Job \--\> ExFlow Setup).
+document date until today is more than 5 days. 
+
+(Setup, see picture above under ExFlow Escalation Job \--\> ExFlow Setup).
 
 ![ExFlow Approval Status](@site/static/img/media/image327.png)
 
 #### Example with Users that have Escalation Settings on Approval Group
 
 In this example the first and current approver is FF (Filippa von
-Fersen). FF have an Escalation setup on Approval Group. (Setup, see
-picture above under ExFlow Escalation Job - ExFlow Approval Group)
+Fersen). FF have an Escalation setup on Approval Group. 
+
+(Setup, see picture above under ExFlow Escalation Job - ExFlow Approval Group)
 
 Second approver is EE (Erik Eriksson).
 
@@ -99,7 +101,7 @@ Second approver is EE (Erik Eriksson).
 
 Escalation Job will approve FF automatically and add new approver, CFO,
 from Escalation Setup on Approval Group FF. Since the number of days
-between 2020-08-17 till today (2020-09-10) is more than 3 days. EE still
+between the document until today is more than 3 days. EE still
 must approve after CFO.
 
 ![ExFlow Approval Status](@site/static/img/media/image329.png)
@@ -161,7 +163,7 @@ This same function can be found under ExFlow User.
 Information regarding invoices to send to Customer can be found in
 ExFlow Re-Invoicing Entries.
 
-Read more about this function under section ***Re-Invoicing***.
+Read more about this under section [***Re-Invoicing.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing)
 
 ### Automatic Coding Suggestion
 

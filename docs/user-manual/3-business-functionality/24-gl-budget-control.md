@@ -179,6 +179,8 @@ For Items, Fixed Assets, Resources and Charge (Item), calculation is done from P
 - **Warning**
 - **Within Tolerance**
 - **Over Budget**
+- **Budget Missing**
+
 
 Status will show highest warning level from Detailed Lines. Click budget Status to show Budget Detailed Lines and Remaining Amount together with Used Budget %.
 

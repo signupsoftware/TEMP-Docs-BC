@@ -4,6 +4,7 @@ sidebar_position: 2
 hide_title: true
 custom_edit_url: null
 ---
+
 ## ExFlow Web
 
 <br/>
@@ -18,8 +19,8 @@ Go to **ExFlow Setup --> Edit Web Columns**
 
 ![ExFlow Setup](@site/static/img/media/exflow-setup-edit-web-columns.png) 
 
-|Edit Web Columns|
-:-|:-|
+| Edit Web Columns      |   | 
+|:-|:-|
 |**Add Column**| Add a new column to ExFlow Web
 |**Modify Column**| Update a current ExFlow Web column
 |**ExFlow Columns**| Handle ExFlow Web column changes
@@ -31,7 +32,7 @@ Web Columns that exist and are visible on ExFlow web, have both the ‘’Curren
 
 If a column needs to be added for the web approvers, then simply stand on the selected web column code and then click on ''Add Column''.
 
-It’s possible to hide an existing web column on ExFlow Web by choosing ‘’Hidden’’ and then click on ‘’Modify Column’’. In this example, the ‘’Current Visibility’’ -box for the ‘’Job Task’’- column will then be unticked.  
+It’s possible to hide an existing web column on ExFlow Web by choosing ‘’Hidden’’ and then click on ‘’Modify Column’’. In this example, the ‘’Current Visibility’’ -box for the ‘’Project Task’’- column will then be unticked.  
 
 ![ExFlow Setup](@site/static/img/media/exflow-setup-edit-web-columns-002.png)
 
@@ -46,8 +47,8 @@ Open ExFlow Columns and edit the list to if any changes needs to be made on the 
 
 ![ExFlow Setup](@site/static/img/media/exflow-setup-exflow-columns-002.png)
 
-|ExFlow Columns|
-:-|:-|
+|ExFlow Columns||
+|:-|:-|
 |**ID**|Specifies column ID.
 |**Code**| Specifies the Code
 |**Dimension**| A dimension from General Ledger Setup can be added as ExFlow web column.

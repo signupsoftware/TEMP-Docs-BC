@@ -27,6 +27,10 @@
     "message": "Localizations and ISV Extensions",
     "description": "The label for category Localizations and ISV Extensions in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Travel and Expense": {
+    "message": "Travel and Expense",
+    "description": "The label for category Localizations and ISV Extensions in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Business Intelligence and reporting": {
     "message": "Business Intelligence and reporting",
     "description": "The label for category Business Intelligence and reporting in sidebar tutorialSidebar"

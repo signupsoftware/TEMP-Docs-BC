@@ -34,8 +34,6 @@ Depending on if ExFlow is configured for two-way-matching or
 three-way-matching the next steps of the process will be slightly
 different.
 
-More information about this can be found in this manual under the
-section **"Purchase Order Matched Invoices"**.
 
 #### Three-way-matching
 
@@ -43,9 +41,7 @@ Means that ExFlow will match invoice with the Purchase Order and
 associated Posted Purchase Receipt(s).
 
 This is done automatically by default, but can also be triggered
-manually by using the function
-
-"Get Receipt/Return Shpmt./Order Lines".
+manually by using the function "Get Receipt/Return Shpmt./Order Lines".
 
 ![ExFlow Import Journal - Get Receipt/Return Shpmt./Order Lines](@site/static/img/media/image293.png)
 
@@ -58,7 +54,7 @@ lines and add them as Invoice Lines.
 This function can also be useful when an invoice should be matched to
 multiple Purchase Order on Header-level.
 
-When selecting Receipt Lines in the page \"Get Receipt Lines\" there is
+When selecting Receipt Lines in the page "Get Receipt Lines" there is
 a possibility to exclude the lines that are already fully matched to
 another invoice in Import Journal or not yet posted in Approval Status.
 Click on "Exclude fully matched" to hide such receipt lines:
@@ -66,8 +62,8 @@ Click on "Exclude fully matched" to hide such receipt lines:
 ![ExFlow Import Journal - Get Receipt Lines](@site/static/img/media/image295.png)
 
 In below picture, the matched lines are hidden. Click on "Show All" to
-reset the page to view all receipt lines again. Both actions in \"Get
-Receipt Lines\" exist for Credit Memos and Purchase Return Orders as
+reset the page to view all receipt lines again. Both actions in "Get
+Receipt Lines" exist for Credit Memos and Purchase Return Orders as
 well.
 
 ![ExFlow Import Journal - Get Receipt Lines - Receipt list after Exclude Fully Matched](@site/static/img/media/image296.png)
@@ -132,7 +128,7 @@ Select the journal and open by click "Edit Journal" or click on Name.
 ![ExFlow Import Journal](@site/static/img/media/image299.png)
 
 **Step 1 -- Import document**<br/>
-Go to: ***Actions \--\> Import \--\> Import Documents\...***<br/>
+Go to: ***Home \--\> Import Documents\...***<br/>
 When the import is done a new line is created.
 
 **Step 2 -- Check and handle "Action Messages"** (**A** in picture below).<br/>
@@ -141,11 +137,11 @@ Common action messages and solutions:
 - **There are lines matched against order but where receipt is missing!**<br/>
     Delivery has not been posted. Go to Purchase Order and post -- Receive.<br/>
     Run verify after receiving delivery and ExFlow will match invoice against posted delivery.<br/>
-    **P*rocess \--\> Verify Document***
+    ***Home \--\> Verify Document***
     (**B** in picture below)
     ![ExFlow Import Journal](@site/static/img/media/image300.png)
 
-- **Amount (15 867,25) is not equal to total of on lines (15 628,00)**<br/>
+- **Amount (XX,XX) is not equal to total of on lines (XX,XX)**<br/>
     Change the prices and lines so it matches the invoice. Use "Line Details" in FactBox for totals and differences. (**E** in picture below).
 
 - **If the invoice includes more than one order**<br/>
@@ -158,17 +154,19 @@ Use "Get Receipt/Return Shpmt."
     Or untick "Test Unit Cost" on Import Lines and send invoice for approval. (**D** in picture below).<br/><br/>
     ![ExFlow Import Journal](@site/static/img/media/image302.png)
 
-**Step 3 -- Batch Verify Document**<br/>
-Go To: ***Process \--\> Verify Document / Batch Verify Documents***<br/>
+**Step 3 -- Verify All Documents...**<br/>
+Go To: ***Home \--\> Verify All Documents***<br/>
 When all action messages have been handled, "Verify Document" to see if action message is empty and therefore ready to be created.
 
 **Step 4 -- Create Invoice/CR.Memo**<br/>
 Go to: ***Create \--\> "Batch Create I..s/Cr.Memos"\... / "Create Invoice/Cr.Memo"***<br/>
 Create invoice or credit memo by clicking "Create Invoice/Credit Memo".
 
-### Order matching -- Drop Shipment
+### Order matching - Drop Shipment
 
-ExFlow supports drop shipment orders. The most common setup for this is probably to work with matching invoices towards orders using the setup *"Match Documents To: Order"* and *"Automatically Receive Orders"*. Read more about this under section: "***Purchase Order Matched Invoices".***
+ExFlow supports drop shipment orders. For assistance with drop shipment standard function, please contact trusted partner or Microsoft support.
+
+The most common setup for drop shipment is probably to work with matching invoices towards orders using the setup: *"Match Documents To: Order"* and *"Automatically Receive Purchase Order Lines"*. 
 
 The following example shows an example of how to work with drop
 shipments together with ExFlow Order matching:
@@ -178,10 +176,9 @@ the "Drop Shipment" checkbox. Then release the Sales Order.
 
 ![Sales Order](@site/static/img/media/image303.png)
 
-Create a Purchase Order. In the header choose Sell-to Customer No with
-the customer (School of Fine Art) from the just created sales order.
-From the header use Actions \--\> Functions \--\> Drop Shipment \--\>
-Get Sales Order. Then release the Purchase Order.
+Create a Purchase Order. Choose the ''Ship-To'' Customer (among with other needed information), in this example the customer ''School of Fine Art'' is selected.
+
+From the header use Actions \--\> Functions \--\> Drop Shipment \--\> Get Sales Order. Then release the Purchase Order.
 
 ![Purchase Order](@site/static/img/media/image304.png)
 
@@ -212,13 +209,11 @@ The setting "**Match Documents To**" specifies if ExFlow should match imported P
 
 ![ExFlow Setup - PO Matching - Match Documents To](@site/static/img/media/exflow-setup-po-matching-005.png)
 
-**Receipt:** ExFlow will automatically find the Purchase Order based on the imported Order no. ExFlow will automatically retrieve the available Posted Receipts associated with the Purchase Order if the setting
-"**Automatically Receive Purchase Orders lines**" is enabled.
+**Receipt:** ExFlow will automatically find the Purchase Order based on the imported Order no. ExFlow will automatically retrieve the available Posted Receipts associated with the Purchase Order if the setting "**Automatically Retrieve Lines**" is enabled.
 
-**Order:** This enables matching a Purchase Invoice directly with a Purchase Order that lacks Posted Receipts. However, the Purchase Receipt must be posted before the final posting of the invoice. This can either be done manually from the Purchase Order, or automatically by activating the setting "**Automatically Receive Purchase Orders Lines**".
+**Order:** This enables matching a Purchase Invoice directly with a Purchase Order that lacks Posted Receipts. <br/> The Purchase Receipt must be posted before the final posting of the invoice. This can either be done manually from the Purchase Order, or automatically by activating the setting "**Automatically Receive Purchase Orders Lines**". <br/> ExFlow will automatically retrieve the available Order Lines associated with the Purchase Order if the setting "**Automatically Retrieve Lines**" is enabled.
 
-**Order and Receipt:** With this setting it is possible to match a Purchase Invoice with both posted Receipt and Order lines. This means that ExFlow will retrieve receipts on a matched line and not yet
-received order lines. Furthermore, it is possible to let ExFlow automatically receive order lines by enabling "**Automatically Receive Purchase Orders lines**", if needed.
+**Order and Receipt:** With this setting it is possible to match a Purchase Invoice with both posted Receipt and Order lines. This means that ExFlow will retrieve receipts on a matched line and not yet received order lines. Furthermore, it is possible to let ExFlow automatically receive order lines by enabling "**Automatically Receive Purchase Orders Lines**", if needed.
 
 By enabling “Automatically Receive Purchase Orders Lines” ExFlow will receive all lines that are matched to a Purchase Order. What ExFlow receives is based on allowed line types from "Auto Receiving Line Types Setup" (Setup automatically opens after setting “Automatically Receive Purchase Orders lines” set as TRUE).
 
@@ -280,6 +275,8 @@ Matching in ExFlow Setup.
 
 ![ExFlow Import Journal](@site/static/img/media/image311.png)
 
+Misc. Charge and Difference Lines can be matched to a Purchase order, if its is within tolerance. If the "Order No." field is populated and the line is a perfect match to the Purchase order line, it will match. If not a perfect match, any matching discrepancies (qty or price) will be reflected as an Action Message.
+
 
 ### Automatically Disable PO Matching For Misc. Charges
 Go to ***ExFlow Setup --> OCR Import --> Automatically Disable PO Matching For Misc. Charges***
@@ -288,9 +285,11 @@ When working with interpreted charges on a line level there is a possibility to 
 
 Find the setting "Automatically Disable PO Matching for Misc. Charges" in ExFlow Setup. When this setting is enabled then these newly mapped charges will not be order matched towards the Purchase Order. This setting can be used for the cases when the freight or service charge is not created as a line on the Purchase Order".
 
+This setting can only be enabled if ''Auto Create OCR Line Mapping'' is set to ''Ask'' or ''Always''.
+
 ![ExFlow Setup OCR Import](@site/static/img/media/exflow-setup-ocr-import-001.png)
 
-The same feature can also be found in ExFlow Vendor Setup list, however this function is hidden per default. Use Personalise to add this setting to the list if needed.
+"Automatically Disable PO Matching for Misc. Charges" can also be found in ExFlow Vendor Setup list. This function is hidden per default, personalize to add this setting to the list if needed.
 
 ![ExFlow Vendor Setup](@site/static/img/media/exflow-vendor-setup-automatically-disable-po-001.png)
 
@@ -317,6 +316,10 @@ An action message will also be shown for the specific document line under the ap
 
 If a document is created in Import Journal, with a Unit price variance between the purchase order and the interpreted invoice, users can untick the ''Test Unit Cost'' checkbox on the Import Lines and create the document as usual. 
 
+Later on, in the Approval Status, users can personalize the page and enter the ''Unit Cost Mismatched'' column on the Document Lines to view if the specific invoice has a unit cost difference between the purchase order and the invoice line. 
+
+![Reason Check](@site/static/img/media/approval-status-unit-cost-missmatched-001.png) 
+
 When ExFlow Users receive this PO Matched invoice for approval in ExFlow Web, they can also be informed about difference, on a line level through web column ''Reason Check''. 
 
 To add this column to ExFlow Web, simply head over to ExFlow Setup and click on ''[***Edit Web Columns***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'' to add the web column Reason Check. 
@@ -327,3 +330,21 @@ This would make it easier for the approver to understand where the variance is a
 
 ![Reason Check](@site/static/img/media/exflow-web-reason-check-001.png)
 
+
+### Item No. Matching Priority
+
+Go to: **Item No. Matching Priority** or via **ExFlow Setup --> Related --> Advanced --> Item No. Matching Priority**
+
+This feature helps to determine the order in which the system attempts to match imported invoices against items and order lines. 
+
+This can be useful when, for instance, same item no exist in the standard item list as on the vendor item no. Or if importing invoice lines where most are vendor item references, consider giving higher priority to "Item Reference". Disable matching types that give false positive matches or are not used by unchecking them.
+
+
+![Item No. Matching Priority](@site/static/img/media/exflow-setup-item-no-matching-prio-001.png)
+
+Set up an Item No. Matching Priority to choose in what order to match. These settings allows ExFlow to perform more advanced matching of items and order lines based on priority and matching type.
+
+Use the "Move Up" and "Move Down" buttons to move matching types up or down the list.
+The higher a matching type is placed, the higher priority it has in the matching process.
+
+This function can also be made per vendor under [***Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).

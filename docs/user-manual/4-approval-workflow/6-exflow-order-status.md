@@ -77,15 +77,21 @@ A copy of a Quote PDF attachment will be added on the Purchase Order when order 
 After Purchase Order is created from a Purchase Quote, the copy of Quote PDF attachment can be found as an incoming document file in ExFlow Order Status and ExFlow Approval Status, and as an attachment in ExFlow Web as well.
 
 **Block Print/Send unapproved**<br/>
-Setting specifies if Printing or Sending from a Purchase Order, Purchase Quote or both should be blocked if the Order or Quote is sent out on approval and not fully approved.br/ 
+Setting specifies if Printing or Sending from a Purchase Order, Purchase Quote or both should be blocked if the Order or Quote is sent out on approval and not fully approved.
 This setting is relevant only for those users who do not have permissions as EX ACCOUNTANT or EX ADMIN.<br/>
-Users who have permission set EX ACCOUNTANT or EX ADMIN will always be able to use this function, even if document is not fully approved. 
+Users with permission set EX ACCOUNTANT or EX ADMIN will always be able to use this function, even if document is not fully approved. 
 
 ![Block Print/Send unapproved](@site/static/img/media/exflow-setup-order-and-quote-approval-002.png)
 
 In this example, a user who does not have permission as EX ACCOUNTANT or EX ADMIN, is using action Print/Send for not fully approved document and gets an error message. 
 
 ![Purchase Order - Block Print and Send](@site/static/img/media/purchase-order-001.png)
+
+**Send Email For Approved Order/Quote** <br/>
+When this settings is enabled it will send Approved Order or Quote Notification when the document is approved. 
+
+Read more about this under section [***Approved Order/Quote***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
+
 
 ### Create Purchase Quote or Purchase Order for Approval
 
