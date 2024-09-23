@@ -119,15 +119,15 @@ Contract Reminder is for sending reminders before contract is expired. When it´
 
 |Contract Reminder |  |
 |:-|:-|
-| **Contract Reminder period**:     | Specifies the period before a Contract End Date, to send a reminder
-| **User to Remind**:               | ExFlow User that reminders should be sent to
+| **Contract Reminder period**:     | Specifies the period before a Contract End Date, to send a reminder.
+| **User to Remind**:               | ExFlow User that reminders should be sent to. This specific user will be displayed in the ExFlow Contract list for a better overview. 
 | **Reminder sent**:                | Date and time when the Contract Reminder is sent.
 | **User Email**:                   | Email address that the reminder is sent to.
 
 ![ExFlow Approval Status](@site/static/img/media/contract-contract-reminder-001.png)
 
 ### Matching
-Activate if mathed invoice should be automatically approved
+Activate if matched invoice should be automatically approved
 
 |Contract Reminder |  |
 |:-|:-|

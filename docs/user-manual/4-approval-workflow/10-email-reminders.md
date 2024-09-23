@@ -5,8 +5,12 @@ hide_title: true
 custom_edit_url: null
 ---
 ## Email Reminders
+Please note that a Business Central standard Email Account must be set to be able to receive ExFlow emails. More information about this can be found at [***Microsoft Documentation***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email). For assistance regarding this, please contact your trusted Dynamics 365 Business Central implementation partner.
+
+
 To be able to send emails to ExFlow Users there are some settings needed.<br/>
-Job Queue Entry setup should only be done in **Default Company**
+
+Job Queue Entry setup should only be done in **Default Company**.
 
 
 ### Inbox Reminder
@@ -112,6 +116,32 @@ To send this reminder setup is needed:
 | Approval Status               | Invoices need to have status approved and matched to order without posted receipt
 | Job Queue Entry               | Code Unit 12057077 and Parameter String **UNRECEIVEDORDERAPPROVED** <br/>In default company
 | Manually from Approval Status | Select invoices and ***Related --> Approval Status --> Send Unreceived Order Notification***
+|ExFlow Setup| The setting ''Send Unreceived Order Reminder on Approval'' must also be enabled in **ExFlow Setup --> PO Matching --> Send Unreceived Order Reminder on Approval** 
+<br/><br/>
 
 
+### On Hold Reminder
+To send an email when a document is set on hold, following setup is needed:
+
+| On Hold |  |
+|:-|:-|
+| Email Account                 | Add Email Account Setup in all companies
+| ExFlow Email Setup            | Email Type **On Hold Reminder** in all companies <br/>Read more under section [***Email Setup --> On Hold***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#on-hold-reminder)
+| Approval Status               | Document need to have status on hold
+| Job Queue Entry               | Code Unit 12057077 and Parameter String **ON HOLD** <br/>In default company
+<br/><br/>
+
+
+
+### Approved Order/Quote
+To send an email to the purchase order/quote creator when their order/quote is approved, following setup is needed:
+
+| Approved Order/Quote|  |
+|:-|:-|
+| Email Account                 | Add Email Account Setup in all companies
+| ExFlow Email Setup            | Email Type **Approved Order/Quote** in all companies <br/>Read more under section [***Email Setup --> Approved Order/Quote***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#approved-orderquote)
+| Approval Status               | Document need to have status approved
+| Job Queue Entry               | Code Unit 12057077 and Parameter String **APPROVED ORDER/QUOTE** <br/>In default company
+|ExFlow Setup| The setting ''Send Email For Approved Order/Quote'' must also be enabled in **ExFlow Setup --> Order and Quote Approval --> Send Email For Approved Order/Quote** 
+<br/><br/>
 

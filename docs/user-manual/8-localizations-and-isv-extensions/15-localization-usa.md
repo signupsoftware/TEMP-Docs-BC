@@ -37,10 +37,10 @@ work in the Purchase Document.
 - Tax Area Code
 - Tax Group Code
 
-With the use of US tax setup, the Import journal also supports Tax
-calculations based on the US tax. The functionality for retrieving Tax
-Area code etc. from company information and location instead of vendor
-card is also reflected in the import journal.
+With the use of US Tax Setup, the Import Journal also supports Tax
+calculations based on the US Tax. The functionality for retrieving Tax
+Area Code etc. from company information and location instead of vendor
+card is also reflected in the Import Journal.
 
 ![ExFlow Import Journal - US Localization](@site/static/img/media/image367.png)
 

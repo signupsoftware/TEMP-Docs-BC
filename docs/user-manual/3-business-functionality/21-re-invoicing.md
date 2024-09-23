@@ -26,6 +26,7 @@ The Approvers can then add, change, or approve value for Sales Invoice to Custom
 Go to: *** Setup --> ExFlow Manual Setup --> ExFlow Re-Invoicing Setup***<br/>
 Start by activating Re-Invoicing in ExFlow Re-Invoicing Setup and follow wizard for minimum setup required.
 
+![Re-Invoicing Setup](@site/static/img/media/re-invoicing-setup-001.png)
 
 #### Re-Invoicing Setup - General
 | General | |
@@ -43,11 +44,13 @@ Start by activating Re-Invoicing in ExFlow Re-Invoicing Setup and follow wizard 
 | **Prioritize Dimension from Purchase:**	                            | Prioritize the dimension from purchase line if same dimension exists on the sales line
 | **Prioritize when splitting line on the web:**	                    | When splitting the line on ExFlow Web the document needs to be saved to update amounts. If not, this setting will help to prioritize recalculation from the amount or surcharge % when approving
 
-![Re-Invoicing Setup](@site/static/img/media/re-invoicing-setup-001.png)
+
 <br/>
 
 #### Re-Invoicing Setup - Background Processing
 To activate job queue entries and automatically create sales invoices the following setting is needed. Not that this job will only creating sales invoices. 
+
+![Re-Invoicing Background Processing](@site/static/img/media/re-invoicing-setup-002.png)
 
 | Background Processing | |
 |:-|:-|
@@ -55,7 +58,7 @@ To activate job queue entries and automatically create sales invoices the follow
 | **Invoice Creation Type:**	    | Select to create one sales invoices document per line or one invoice per customer when using Background Processing
 | **Exchange Rate Date Based on:**	| Select exchange rate based on sales posting date or purchase date when using Background Processing
 
-![Re-Invoicing Background Processing](@site/static/img/media/re-invoicing-setup-002.png)
+
 <br/>
 
 #### Enable Customized Description
@@ -158,11 +161,12 @@ When working with re-invoicing in Import Journal, the coding can be added via Ex
 | **Re-Invoicing Description:**	        | Customized Description will be added by default if it is activated. Can also be changed or added manually if needed. If nothing is entered the Description on Sales Invoice Line will be selected by Business Central as default
 | **Re-Invoicing Qty:**		            | If Qty & Unit Price is selected for Use Amount Fields in Re-Invoicing Setup, Qty to Re-Invoice will be copied from Purchase Quantity. Can be updated manually. For Item Lines when Item for Sale is activated, Re-Invoicing Qty cannot be more than Purchased Quantity.
 | **Re-Invoicing Surcharge %:**	        | Surcharge % will be added from re-invoicing setup if activated. Add or update manually to calculate line amount/unit price
-| **Re-Invoicing Amount/Unit Price:**	| Due to setup for Use Amount Fields Amount or Unit Pris is calculated from Direct Unit Cost and Surcharge %. Can be manually adjusted to calculate the new Surcharge %
+| **Re-Invoicing Amount/Unit Price:**	| Due to setup for Use Amount Fields Amount or Unit Price is calculated from Direct Unit Cost and Surcharge %. Can be manually adjusted to calculate the new Surcharge %
 
 ![ExFlow Import Journal](@site/static/img/media/re-invoicing-import-journal-001.png)
 
-Please note that the Confidential Documents- functionality cannot be used together with Re-invoicing.
+#### Re-Invoicing Confidential Documents
+The Confidential Documents- functionality cannot be used together with Re-invoicing. Following Action Message will appear to the Import Journal Lines if so: ''Re-Invoicing functionality cannot be used together with Confidential Documents''
 
 ### Re-Invoicing in ExFlow Web
 Go to: ***Re-Invoicing Setup --> Actions --> Edit Web Columns / Web Columns***<br/>

@@ -21,7 +21,7 @@ Enable "Allow Sales Tax" in ExFlow Setups.
 With this setting VAT Product Posting Group will not be mandatory in
 ExFlow and will allow for North American Sales Tax processing.
 
-![VAT Posting Setup - Canadian Localization](@site/static/img/media/image357.png)
+![Tax Posting Setup - Canadian Localization](@site/static/img/media/image357.png)
 
 To support North American Sales Tax the Tax specific fields from
 Purchase Document Header and Purchase Document Lines are also

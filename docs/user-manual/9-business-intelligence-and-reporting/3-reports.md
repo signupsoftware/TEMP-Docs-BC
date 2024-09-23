@@ -48,16 +48,16 @@ occur:
     type **G/L Account** a record is created in the General Journal and
     default batch.
 
-- The line will have the Posting Date set to **2020-01-31**.
+- The line will have the Posting Date set to **2021-03-31**.
 
 - The G/L Account number will be added from the purchasing line and
     the balance for the G/L Account will be set to **2445**.
 
 - There will also be created a reverse posting with posting date
-    **2020-02-01** on the same G/L Account but with opposite signs.
+    **2021-04-01** on the same G/L Account but with opposite signs.
 
 - All lines that have a Deferral Start Date set for accrual after
-    2020-01-31 will not be included. This is because the field
+    2021-03-31 will not be included. This is because the field
     **"Exclude Deferral Amount occurring after Posting Date:"**
     is checked.
 
@@ -65,7 +65,6 @@ occur:
 
 ![Report - ExFlow Approval Status](@site/static/img/media/image379.png)
 
-![Report - ExFlow Approval Status](@site/static/img/media/image380.png)
 
 ##### Other Journal Line Integration Settings
 
@@ -89,7 +88,7 @@ included.
 Invoices/Credit Memos in other currency's than the LCY needs to be
 converted to LCY.
 
-Today's date: Currency Exchange rate is calculated based on today's
+Work date: Currency Exchange rate is calculated based on the Business Central work
 date.
 
 Document's posting date: Exchange rate is calculated based on each
@@ -139,9 +138,13 @@ The G/L Account used for the setting above.
 
 Options are Full or Inventory Account Only.
 
-**Posting Job Information**
+**Posting Project Information**
 
-Specifies if job information should be included when creating line.
+Specifies if project information should be included when creating line.
+
+**Create Journal Line with Currency Code**
+
+Specifies if the created journal line should be created with the original currency code. Exchange rate will be calculated from setting under ***Options --> Currency Rate Based on***
 
 ![Report - ExFlow Approval Status](@site/static/img/media/image381.png)
 

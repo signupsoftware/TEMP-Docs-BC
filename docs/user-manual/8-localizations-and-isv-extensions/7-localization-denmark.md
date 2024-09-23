@@ -35,7 +35,7 @@ Output: **125396534461985**
 ##### Transformation
 
 Transformation implemented using Data Exchange Definition functionality.
-Configuration is supplemented by one rule that removes unnecessary
+Configuration is supplemented by one Transformation Rule that removes unnecessary
 characters.
 
 ![Data Exchange Definition - Danish Localization](@site/static/img/media/image362.png)
@@ -44,9 +44,9 @@ characters.
 
 ##### Populating Purchase Invoice Header
 
-The transformed payment reference is imported to "Vendor document no. 2"
+The transformed payment reference is imported to "Vendor Document No. 2"
 in the Import Journal.
 
 When the invoice is created, the field "Payment Reference" on the
 Purchase Invoice Header is populated with the transformed payment
-reference from "Vendor document no. 2".
+reference from "Vendor Document No. 2".

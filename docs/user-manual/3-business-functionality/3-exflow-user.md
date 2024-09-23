@@ -11,6 +11,8 @@ To be able to log in to ExFlow Web, "ExFlow Users" need to be created.
 Adding a new user will automatically create an Approval Group with the
 same name.<br/>
 
+
+
 ### Add Default Setup for ExFlow Users
 
 Go to: ***Setup --> ExFlow Setup***
@@ -33,8 +35,10 @@ One of the settings is “Default User Coding Rule ID”. It makes the setup of 
 |**Default Web Service Role ID**| Specifies the default security role that is used when creating new approvers
 |**Default Purchaser Role ID**| Specifies the default security role that is used when creating new approvers
 | **Automatically Create ExFlow Reference:**    | Select to automatically create ExFlow References. <br/> Read more under section [***Reference Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
-|**Default Confidential Role ID**| Specifies the default security role that is used when creating new approvers <br/>
-<br/>
+|**Default Confidential Role ID**| Specifies the default security role that is used when creating new approvers <br/> <br/> Read more about permissions under section [***Permissions on a Business Central user***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/) 
+
+
+
 
 ![ExFlow Setup - Users](@site/static/img/media/exflow-setup-users-001.png)
 

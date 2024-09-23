@@ -56,12 +56,17 @@ Next step is to specify the a couple of parameters in *ExFlow Sales Order Import
 
 | General      |   | 
 |:-|:-|
-| **Dummy Item No. for Sales Order Import:**                        | Specifies the Dummy Item to be used in case there is no other match for imported sales order line.
+|**Dummy Item No. for Sales Order Import:**                        | Specifies the Dummy Item to be used in case there is no other match for imported sales order line.
 **Automatically Update OCR Mapping When Dummy Item is Applied**     |Specifies if the OCR Mapping will be automatically updated if the user made selection, after dummy item was applied during import.
 **Allow Posting on Dummy Item**                                     |Specifies if the posting is allowed on Dummy Item.
+**Automatically Create Documents** | Decides if documents without errors will be automatically created as sales orders on import.
 **Ship-To Address Code Mandatory**                                  |Specifies if the field Ship to Address Code is required, if enabled a code needs to be selected to create the Sales Order.
+**Use Custom Address** | Use the custom address interpreted from the OCR Service or add it manually after the order has been created. If address fields are not populated from import, the order will be created with the customers default shipping address. If this setting is enabled, then ''Ship-To Address Code'' will be disabled. 
 **Contact No. Mandatory**                                           |Specifies if the field Contact No. is required, if enabled a code needs to be selected to create the Sales Order.
 **Set Order Date To**                                               |Specifies what the Order Date should be set to on the Sales Order.
+**Automatically Explode BOM Items** | Specifies if imported BOM-Item lines will be exploded when sales order is created.
+**Copy Dimension From** | Specifies from where exploded BOM-Items should copy dimensions from.
+**Default No. Series** |Specifies the No. Series that is used when creating sales orders with ExFlow. If blank, No. Series from the Sales & Receivables Setup will be used. 
 
 
 <br/>

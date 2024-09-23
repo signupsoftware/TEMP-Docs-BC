@@ -1,11 +1,10 @@
 ---
-title: Travels and Expense
+title: Travel and Expense Management
 sidebar_position: 2
 hide_title: true
 custom_edit_url: null
-id: TaE
 ---
-# Travel & Expense Management
+## Travel and Expense Management
 
 ## Introduction
 

@@ -17,20 +17,23 @@ Once the document is fully approved and posted, the Preliminary Posting is rever
 Preliminary Posting is only available for Invoices and Credit Memos activated for ExFlow Approval.
 
 ### ExFlow Setup
-To be able to do preliminary posting ExFlow need following journals and Inward Registration (Swebase) needs to be disabled.
+To be able to do preliminary posting ExFlow need following journals and Inward Registration (SweBase) needs to be disabled.
+
+![ExFlow Setup - Preliminary Posting](@site/static/img/media/exflow-setup-preliminary-posting-001.png)
 
 | ExFlow Setup - Preliminary Posting  |	|
 |:-|:-|
+| **Preliminary Posting:**          | When the below setup are done, activate Preliminary Posting
 |**Source Code:**                   | Use existing or create a new to make it easy to track
 | **General Journal Template:**     | Use Existing or create a new
 | **General Journal Batch:**        | Use Existing or create a new
 | **On Hold:**                      | 1-3 letters that will be added in Vendor Ledger Entries to avoid payments on Preliminary Posted documents that are not yet approved. Default value when running ExFlow Wizard will be **EXF**, but it can be changed if needed.
-| **Invoice Rounding:**             | If Swebase (for Swedish customers) is installed Invoice Rounding is visible and used only for Preliminary Posting     <br/>If Swebase is not installed, it will be visible under Doc. Posting Checks and used both for Preliminary Posting and Posting. Invoice Rounding is not required.  <br/>For more information go to section [***Invoice Rounding below***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#invoice-rounding)
+| **Invoice Rounding:**             | If SweBase (for Swedish customers) is installed Invoice Rounding is visible and used only for Preliminary Posting     <br/>If SweBase is not installed, it will be visible under Doc. Posting Checks and used both for Preliminary Posting and Posting. Invoice Rounding is not required.  <br/>For more information go to section [***Invoice Rounding below***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#invoice-rounding)
 | **Posting Description:**          | Description when Posting  <br/>Default value when running ExFlow Wizard will be **Preliminary Posted**, but it can be changed if needed
 | **Reverse Description:**          | Description when Reversing.   <br/>Default value when running ExFlow Wizard will be **Preliminary Reversed**, but it can be changed if needed
-| **Preliminary Posting:**          | When setup above is done, activate Preliminary Posting
+| **VAT Prod. Posting Group 0%:**   | Add VAT Prod. Posting Group with 0% to preliminary post without VAT instead of VAT Prod. Posting Group added on document line. This posting will be reversed and VAT posting gets posted with VAT Prod. Posting Group added to invoice only on final posting. 
 
-![ExFlow Setup - Preliminary Posting](@site/static/img/media/exflow-setup-preliminary-posting-001.png)
+
 
 ### Preliminary Posting Setup
 Go to: ***ExFlow Setup --> Related --> Advanced --> Preliminary Posting Setup*** <br/>

@@ -63,6 +63,8 @@ Use Update Document to update Document Card for a specific document or Update Al
 
 Open the "Card" to get into the original Business Central standard Purchase document card.
 
+The PDF viewer (FactBox) shows the document image. There is also a possibility to utilize Ctrl+I to download the document image or go via Related --> Show Document Image.   
+
 ![Approval Status - Verify Changes](@site/static/img/media/image245.png)
 
 If there are no changes done on ExFlow Web, status will automatically update to "Ready for posting" in Approval Status.
@@ -75,8 +77,10 @@ This feature can be enabled in ExFlow Setup under **Background Processing** by a
 
 This feature can also be found (and setup per vendor) in **ExFlow Vendor Setup**.
 
+Furthermore, another function called Bypass Verify Changes can be utilized by the AP staff. Read more about this under section [***Bypass Verify Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/bypass-verify-changes) 
+
 ### Reject changes in Verify Changes
-Approval process can be restarted from selected Approver on "ExFlow Verify Changes" page. This function is found on the Approvers factbox.
+Approval process can be restarted from selected Approver on "ExFlow Verify Changes" page. This function is found on the Approvers FactBox.
 
 ![ExFlow Verify Changes](@site/static/img/media/verify-changes-001.png)
 
@@ -273,7 +277,7 @@ Deleted Documents".
 Posted Purchase Invoices should not be deleted. Start by creating a Credit Memo that neutralizes the Invoice. Then, create a new Purchase Invoice if needed.
 
 ### FactBoxes in Approval Status
-To the right in Approval Status there is useful FactBoxes.
+To the right in Approval Status there is useful FactBox.
 
 **PDF Preview**<br/>
 Change size on PDF Preview Press - / + to decrease or increase size of PDF.
@@ -416,5 +420,15 @@ ExFlow makes a control between the gross amount on the purchase document head an
 
 If SweBase (for Swedish customers) is installed, rounding will be handled by SweBase and ExFlow Rounding can only be done for Preliminary Posting. 
 
-Read more under section: 
-[***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
+Read more under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
+
+
+
+### View Current Replacer on the Document Lines
+
+On the Document Lines in Approval Status, it is possible to see who the current replacer is for the current approver.
+
+![Current Replacer](@site/static/img/media/approval-status-replacer-001.png)
+
+
+Read more about how to work with replacers under section [***Add a Replacer During Vacation Time***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time)

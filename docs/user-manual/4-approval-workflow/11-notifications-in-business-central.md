@@ -5,8 +5,7 @@ hide_title: true
 custom_edit_url: null
 ---
 ## Notifications in Business Central
-If the ExFlow User is a System User (associated to User in Business Central) then Notifications in Business Central can be activated. <br/>
-Read more under section [***ExFlow Users***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) for setup.
+If the ExFlow User is a System User (associated to User in Business Central) then Notifications in Business Central can be activated. Read more under section [***ExFlow Users***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) for setup.
 
 There are four kinds of notification messages. Unapproved documents in active company, unapproved documents in other companies, unread comments and missing invoices for contract periods.
 <br/>
@@ -50,15 +49,13 @@ If the user has comments to read in the current company, then click on the link 
 
 
 
-![ExFlow Notifications](@site/static/img/media/image340.png)
-
 If the user has comments to read in other companies, then clicking on the link "Read comment":
 
 ![ExFlow Notifications - Comments in other companies](@site/static/img/media/image341.png)
 
 This link will present the user with a list similar to the following:
 
-![](@site/static/img/media/image342.png)
+![ExFlow Notifications](@site/static/img/media/image342.png) 
 
 Clicking on the number in the right-hand column will open a new page where the user will be able to read comments in the selected company.
 
@@ -75,6 +72,8 @@ message on the same document.
 In "Chat Notification List" all new unread messages will show in Bold
 text.
 
+![ExFlow Chat Notification List](@site/static/img/media/image343.png)
+
 **Company:** The company the document is created in where user is
 mentions.
 
@@ -89,10 +88,6 @@ mentions.
 **Last Notification Date:** Date when user was last mentioned on the
 document.
 
-![ExFlow Chat Notification List](@site/static/img/media/image343.png)
-
-*Screenshot -- ExFlow Chat Notification List*
-
 **Show Document:** Open Document to read whole message and to send a
 message.
 
@@ -104,7 +99,7 @@ message.
 
 **Open in Excel:** Sent list to Excel.
 
-![ExFlow Chat Notification List](@site/static/img/media/image344.png)
+
 
 All messages from Chat will show in Discussion Panel FactBox.
 
@@ -133,10 +128,12 @@ On the document the bubble is red if there are any unread messages.
 
 When adding a comment in Discussion Panel on a document in Import Journal and click "SEND" the comment can be seen in FactBox to the right marked with creating Users ID, Date and Time.
 
-If a User is mentioned by using @, a message, email or Notification in Business Central, can be sent to ExFlow Users that is associated with a Business Central User.<br/>
-Read more under section [***ExFlow Users***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
+If a User is mentioned by using @, a message, email or Notification in Business Central, can be sent to ExFlow Users that is associated with a Business Central User. 
+
 
 For ExFlow Users that is not associated with a Business Central User the email will be sent when the document is created. This is due to that ExFlow Web Users cannot see this documents or comments in Import Journal.
+
+Read more under section [***ExFlow Users.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
 
 
 ![ExFlow Import Journal - Discussion Panel](@site/static/img/media/image350.png)
