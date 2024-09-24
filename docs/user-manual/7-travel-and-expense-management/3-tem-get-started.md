@@ -13,19 +13,19 @@ This section will assist with the setup of ExFlow Travel & Expense Management.
 
 Below is listed the necessary steps to set up:
 
-**Setup Wizard**
+- **Setup Wizard**
 
-**Posting groups**
+- **Posting groups**
 
-**Payment groups**
+- **Payment groups**
 
-**Regions**
+- **Regions**
 
-**Expense categories**
+- **Expense categories**
 
-**Means of transport**
+- **Means of transport**
 
-**Travel rates**
+- **Travel rates**
 
 To access the different views in this section, use the search field or the **Travel and Expense Management overview** in the top bar to navigate to the explore all view.
 

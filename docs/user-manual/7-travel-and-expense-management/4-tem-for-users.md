@@ -32,7 +32,7 @@ Below are examples of how the app appears on various pages.
 
 #### Getting started with ExFlow Travel & Expense Management app
 
-To start using the app, downloading it is the first step. It is available for download from both Google Play and the Apple App Store. Users can find it using the links below or by searching for \'Travel and Expense Management\' in the respective store.
+To start using the app, downloading it is the first step. It is available for download from both Google Play and the Apple App Store. Users can find it using the links below or by searching for ''Travel and Expense Management'' in the respective store.
 
 **Go to:** Link to Google Play and Apple App Store
 
@@ -96,7 +96,7 @@ Selecting the **Camera** icon will immediately enable taking a photo of an expen
 
 Finally, clicking the car icon will open the **Mileage** reporting tool.
 
-![Travel and Expense\](@site/static/img/media/tem-043.png)
+![Travel and Expense](@site/static/img/media/tem-043.png)
 
 ##### Menu
 
@@ -194,7 +194,7 @@ Below is a description of each term in an expense report. In the app, items high
 
 Credit card transactions are commonly used for various expenses, including those paid on behalf of your company. ExFlow Travel & Expense Management simplifies reporting these transactions, especially when Credit Card Agreements are set up to automatically match them with appropriate expense reports.
 
-##### Report an expense report when using company credit card
+#### Report an expense report when using company credit card
 
 Go to: **Follow the step in "Submitting Expense"**
 
@@ -246,7 +246,8 @@ The transaction is now sent for approval to the manager.
 
 Submitting mileage is part of the ExFlow Travel and Expense Management and is made to be as easy as possible for the user, the use, to do. The user has the option to easily send in their mileage for approval with only a few clicks.
 
-**Go to ''the car image''** ![A car with a yellow outline Description automatically generated with medium confidence](@site/static/img/media/tem-056.png)
+Go to the **''car''**
+![A car with a yellow outline Description automatically generated with medium confidence](@site/static/img/media/tem-056.png)
 
 The map at the top will display the current position. Drag and zoom on the map. Once a route is entered, tapping the **Alternative route** icon will switch between any alternative routes.
 
@@ -288,7 +289,7 @@ Below are the fields that need to be completed for mileage to be sent for approv
 
 Before the user can submit mileages in ExFlow Travel & Expense Management, a vehicle must be added.
 
-Go to: **Menu item \-\--\> Vehicles - \--\> Add**
+Go to: **Menu item --> Vehicles --> Add**
 
 ![A screenshot of a phone Description automatically generated](@site/static/img/media/tem-059.png)
 
@@ -312,7 +313,7 @@ Just like the mobile app any user can access the **AppsForDynamics365.com** web 
 
 Logging into the AppsForDynamics365 Portal requires login information provided by email when the account is set up. The login can be done in two different ways:
 
-**User/password** or **Sign in with Microsoft.**
+**User and password** or **Sign in with Microsoft.**
 
 ![A screenshot of a login screen Description automatically generated](@site/static/img/media/tem-062.png)
 
@@ -332,13 +333,13 @@ The dashboard is the next page in the portal.
 
 Any rejected expenses or mileages will be listed at the top.
 
-The **Expenses** list will display your expenses that have not been sent for approval yet. Each item will show this icon 
+The **Expenses** list will display your expenses that have not been sent for approval yet. Each item will show this icon <br/>
 ![A stack of coins with a white background Description automatically generated](@site/static/img/media/tem-065.png)
 
-The **Mileages** list will display your mileages that haven't been sent for approval yet. Each item will show with this car icon 
+The **Mileages** list will display your mileages that haven't been sent for approval yet. Each item will show with this car icon <br/>
 ![A purple car with headlights Description automatically generated](@site/static/img/media/tem-066.png)
 
-The **Credit card transactions** are credit card transactions made with your employee credit card. Each item will show this card icon 
+The **Credit card transactions** are credit card transactions made with your employee credit card. Each item will show this card icon <br/>
 ![A blue and white credit card Description automatically generated](@site/static/img/media/tem-067.png)
 
 #### Submitting expenses
@@ -403,7 +404,7 @@ Important! This is the process for reporting an expense before the credit card t
 
 **File or photo**: Add a file or photo of the receipt or any relevant file by clicking on left hand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
 
-**Date**: Select the date. Today\'s date is set by default.
+**Date**: Select the date. Today's date is set by default.
 
 **Currency**: Change the currency if needed.
 

@@ -1,5 +1,5 @@
 ---
-title: Travel & Expense Management – Bookkeepers
+title: Travel & Expense Management – For Bookkeepers
 sidebar_position: 5
 hide_title: true
 custom_edit_url: null
@@ -166,7 +166,7 @@ Credit card transactions can be handled in a few ways through Business Central, 
 
 ### Manually creating credit card transactions
 
-The manual transaction list is useful for managing receiving physical invoices from your credit card provider or are otherwise not able to use the automatic import. By creating transaction entries for every single expenditure on the invoice the bookkeeper can match the credit card transactions against the expenses **in AppsForDynamics365.com**.
+The manual transaction list is useful for managing receiving physical invoices from your credit card provider or are otherwise not able to use the automatic import. By creating transaction entries for every single expenditure on the invoice the bookkeeper can match the credit card transactions against the expenses in **AppsForDynamics365.com**.
 
 The bookkeeper can either create the transaction by inputting the correct data into each of the fields, or by importing a file in a format chosen while setting up **Credit Card Agreement**.
 
