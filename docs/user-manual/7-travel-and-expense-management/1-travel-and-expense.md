@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Travel & Expense Management
 
-### Introduction
+### Introduction 
 
 Welcome to ExFlow Travel & Expense Management, a comprehensive solution for seamless management of travel and expense processes within Microsoft Dynamics 365 Business Central. Our platform is designed to simplify and streamline the way an organization handles travel bookings, expense reporting, and reimbursements, ensuring a smooth and efficient workflow.
 
@@ -48,6 +48,7 @@ This manual is a guide to effectively using ExFlow Travel & Expense Management. 
 -   **Approval Workflows**: Managing and customizing approval workflows to fit your organizational needs.
 
 -   **Reporting Tools**: Using analytical tools to monitor expenses, identify trends, and generate reports.
+
 
 We are committed to supporting your journey towards efficient travel and expense management. Should you have any questions or need further assistance, our dedicated support team is here to help.
 
