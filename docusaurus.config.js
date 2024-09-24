@@ -15,8 +15,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 //import { getLang } from './src/components/langReference.js';
 
 // EA 2024-09-03 The 'config' class doesn't work well, use this to change the main site address.
-//const siteURL = 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/';
-const siteURL = 'http://localhost:3000/';
+const siteURL = 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/';
+//const siteURL = 'http://localhost:3000/';
 
 
 // Use these to quickly chnage between Dev/Prod
@@ -28,8 +28,6 @@ const lnk_relnotes = 'docs/user-manual/welcome-to-exflow/release-notes'
 //const lnk_relnotes 'release-notes'
 
 
-
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ExFlow Documentation Platform',
@@ -37,8 +35,8 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  //url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/',
-  url: 'https://localhost:3000/',
+  url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/',
+  //url: 'https://localhost:3000/',
 
 
 
