@@ -4,17 +4,15 @@ sidebar_position: 4
 hide_title: true
 custom_edit_url: null
 ---
-## ExFlow Travel & Expense Management – For users
+## Travel & Expense Management – For users
 
-# ExFlow Travel & Expense Management -- For users
-
-## Introduction
+### Introduction
 
 ExFlow Travel and Expense Management covers multiple steps in the expense and mileage submission process. It includes various roles with different responsibilities, all contributing to the best possible experience and the fastest process available.
 
 This section documents the different roles within ExFlow Travel and Expense Management, detailing their functions and interactions. It also provides information on where to learn how to fulfill each role optimally.
 
-## User
+### User
 
 The user submits expenses and mileage. Simply take a photo of the receipts and submit them through the app within moments, or record mileage in the same app.
 
@@ -24,7 +22,7 @@ The user submits expenses and mileage. Simply take a photo of the receipts and s
 
 The intended way to use ExFlow Travel and Expense Management is through the app, which can be accessed on any device normally used for apps. The app allows taking a photo of an expense directly, or plotting a route from one place to another, and immediately sending it for approval.
 
-## ExFlow Travel & Expense Management mobile app
+### ExFlow Travel & Expense Management mobile app
 
 ExFlow Travel & Expense Management app, available on Android and iOS, allows effortless and quick submission of expenses and mileage from a mobile device. The created documents will be available to approvers and the finance department as soon as they are submitted.
 
@@ -32,7 +30,7 @@ The app is the intended method by which employees should submit their expenses a
 
 Below are examples of how the app appears on various pages.
 
-### Getting started with ExFlow Travel & Expense Management app
+#### Getting started with ExFlow Travel & Expense Management app
 
 To start using the app, downloading it is the first step. It is available for download from both Google Play and the Apple App Store. Users can find it using the links below or by searching for \'Travel and Expense Management\' in the respective store.
 
@@ -40,7 +38,7 @@ To start using the app, downloading it is the first step. It is available for do
 
 ![A black and white logo Description automatically generated](@site/static/img/media/tem-037.png)
 
-#### Login
+##### Login
 
 Login into ExFlow Travel and Expense Management app requires two steps on your first login. Here is the customer ID screen below.
 
@@ -48,11 +46,11 @@ Login into ExFlow Travel and Expense Management app requires two steps on your f
 
 When opening the app for the first time, enter a Customer ID and login credentials in that order. These details were provided by email when your account was set up. Alternatively, contact your Business Central administrator or IT department for assistance. The app will remember your customer ID and login for subsequent uses, but it is essential to keep them accessible in case of switching phones or encountering unforeseen circumstances.
 
-### App interface
+#### App interface
 
 This section documents the different relevant elements in ExFlow Travel and Expense Management app.
 
-#### Home screen on phone
+##### Home screen on phone
 
 After downloading the app, the Travel and Expense icon will appear on your home screen.
 
@@ -60,7 +58,7 @@ After downloading the app, the Travel and Expense icon will appear on your home 
 
 If the icon shows an indicator, it means there are unsent expenses or mileages.
 
-### Dashboard
+#### Dashboard
 
 The dashboard is the first page of the app, and it\'s where users will land upon opening it, assuming they are logged in.
 
@@ -90,7 +88,7 @@ The **Credit card transactions** are credit card transactions made with your emp
 
 A red synchronization indicator will appear on expenses that have not been synchronized with the server.
 
-#### Bottom menu
+##### Bottom menu
 
 At the bottom of the screen, initiate the creation of a new Expense from scratch by selecting the credit card icon.
 
@@ -100,7 +98,7 @@ Finally, clicking the car icon will open the **Mileage** reporting tool.
 
 ![Travel and Expense\](@site/static/img/media/tem-043.png)
 
-#### Menu
+##### Menu
 
 The **Menu**, accessed in the top left corner, gives the user the following options:
 
@@ -112,9 +110,9 @@ The **Menu**, accessed in the top left corner, gives the user the following opti
 
 -   **Use document scanner**: This option is only available on iOS 13+. Enabling this option will allow the camera to use the Document Scanner to capture one or more documents. Read more about the feature [Apple support](https://support.apple.com/en-us/HT210336). This will also move the **Photos** option to the front of an expense (now a button).
 
-### Submitting an expense
+#### Submitting an expense
 
-**Go to:** Travel & Expense app
+Go to: **Travel & Expense app**
 
 Initiate the process of submitting an expense in four different ways:
 
@@ -134,21 +132,21 @@ At the top, choose to return to the dashboard. If any information or photos are 
 
 If wishing to discard an expense, tap the **Delete** button at the top.
 
-#### Photos
+##### Photos
 
 Photos are crucial in ExFlow Travel and Expense Management, enabling discarding receipts immediately after capturing them. Below are some key details regarding expense photos.
 
 **Photo preview**: Tapping a photo opens a preview where options include deleting or rotating it. At the bottom, select which photo to preview.
 
-![Travel and Expense\](@site/static/img/media/tem-045.png)
+![Travel and Expense](@site/static/img/media/tem-045.png)
 
 **Photos**: Enables selection of a photo from the gallery on the device. App permissions are required to access photos, media, and files.
 
-![Travel and Expense\](@site/static/img/media/tem-046.png)
+![Travel and Expense](@site/static/img/media/tem-046.png)
 
 **Take photo**: Allows taking a photo
 
-![Travel and Expense\](@site/static/img/media/tem-047.png)
+![Travel and Expense](@site/static/img/media/tem-047.png)
 
 In the image above, the user can see the available options when using the camera.
 
@@ -196,9 +194,9 @@ Below is a description of each term in an expense report. In the app, items high
 
 Credit card transactions are commonly used for various expenses, including those paid on behalf of your company. ExFlow Travel & Expense Management simplifies reporting these transactions, especially when Credit Card Agreements are set up to automatically match them with appropriate expense reports.
 
-#### Report an expense report when using company credit card
+##### Report an expense report when using company credit card
 
-**Go to: Follow the step in "Submitting Expense"**
+Go to: **Follow the step in "Submitting Expense"**
 
 Report your expenses, add the details from your receipt, and swipe. The expense report will then wait in the dashboard until the transactions are imported to ExFlow Travel & Expense.
 
@@ -304,11 +302,13 @@ Go to: **Menu item \-\--\> Vehicles - \--\> Add**
 
 **Use by default:** Active it if it the preferred vehicle.
 
-## ExFlow Travel & Expense Management AppsForDynamics365.com portal
+
+
+### ExFlow Travel & Expense Management AppsForDynamics365.com portal
 
 Just like the mobile app any user can access the **AppsForDynamics365.com** web portal to create expenses and mileages.
 
-### Login into the portal
+#### Login into the portal
 
 Logging into the AppsForDynamics365 Portal requires login information provided by email when the account is set up. The login can be done in two different ways:
 
@@ -322,7 +322,7 @@ After logging in, this page will be displayed.
 
 ![A white screen with black border Description automatically generated](@site/static/img/media/tem-063.png)
 
-### Dashboard
+#### Dashboard
 
 Go to: **Travel & Expense**
 
@@ -332,17 +332,20 @@ The dashboard is the next page in the portal.
 
 Any rejected expenses or mileages will be listed at the top.
 
-The **Expenses** list will display your expenses that have not been sent for approval yet. Each item will show this icon ![A stack of coins with a white background Description automatically generated](@site/static/img/media/tem-065.png)
+The **Expenses** list will display your expenses that have not been sent for approval yet. Each item will show this icon 
+![A stack of coins with a white background Description automatically generated](@site/static/img/media/tem-065.png)
 
-The **Mileages** list will display your mileages that haven't been sent for approval yet. Each item will show with this car icon ![A purple car with headlights Description automatically generated](@site/static/img/media/tem-066.png)
+The **Mileages** list will display your mileages that haven't been sent for approval yet. Each item will show with this car icon 
+![A purple car with headlights Description automatically generated](@site/static/img/media/tem-066.png)
 
-The **Credit card transactions** are credit card transactions made with your employee credit card. Each item will show this card icon ![A blue and white credit card Description automatically generated](@site/static/img/media/tem-067.png)
+The **Credit card transactions** are credit card transactions made with your employee credit card. Each item will show this card icon 
+![A blue and white credit card Description automatically generated](@site/static/img/media/tem-067.png)
 
-### Submitting expenses
+#### Submitting expenses
 
 Though expense submission is suggested to be done via the app, it can be done through the web portal as well, almost the same way.
 
-Go to: **Travel& Expense \-\--\> New Expense**
+Go to: **Travel & Expense --> New Expense**
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-068.png)
 
@@ -350,7 +353,7 @@ Start the process of submitting an expense by filling out the following view:
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-069.png)
 
-**File or photo**: Add a file or photo of the receipt or any relevant file by clicking on lefthand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
+**File or photo**: Add a file or photo of the receipt or any relevant file by clicking on left hand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
 
 **Date**: Select the date. Today\'s date is set by default.
 
@@ -380,6 +383,8 @@ Below are optional fields when creating an expense, depending on your company po
 
 **Additional info**: Enter any additional information that may be relevant.
 
+
+
 ### Credit card transactions
 
 Credit card transactions are a popular way to pay for several things, and this also extends to paying on behalf of the company. ExFlow Travel and Expense Management simplifies reporting these transactions, especially if Credit Card Agreements have been set up, as automatic matching with fitting expense reports becomes possible.
@@ -388,7 +393,7 @@ A credit card transaction can be opened from the dashboard, details filled in, a
 
 #### Submitting credit card transactions before transaction is imported
 
-Go to: **Travel & Expense \-\--\> New expense**
+Go to: **Travel & Expense --> New expense**
 
 The process of submitting an expense begins by filling out the following view.
 
@@ -396,7 +401,7 @@ Important! This is the process for reporting an expense before the credit card t
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-070.png)
 
-**File or photo**: Add a file or photo of the receipt or any relevant file by clicking on lefthand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
+**File or photo**: Add a file or photo of the receipt or any relevant file by clicking on left hand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
 
 **Date**: Select the date. Today\'s date is set by default.
 
@@ -430,7 +435,7 @@ Below are optional fields when creating an expense, depending on your company po
 
 #### Submitting credit card transactions when transaction is imported
 
-Go to: **Travel & Expense \--\> Choose the credit card transaction**
+Go to: **Travel & Expense --> Choose the credit card transaction**
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-071.png)
 
@@ -438,7 +443,7 @@ Start the process of submitting an expense by filling out the following view.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-072.png)
 
-**File or photo**: Add a file or photo of the receipt or any relevant file by clicking on lefthand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
+**File or photo**: Add a file or photo of the receipt or any relevant file by clicking on left hand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
 
 **Description**: Enter a description. This will be the title for the expense.
 
@@ -466,7 +471,7 @@ Below are optional fields when creating an expense, depending on your company po
 
 If the expense report and the credit card transaction cannot be matched automatically, the user needs to match them manually.
 
-**Go to: Travel & Expense \-\--\> Choose the credit card transaction**
+Go to: **Travel & Expense --> Choose the credit card transaction**
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-073.png)
 
@@ -478,11 +483,12 @@ Find the expense report that is connected to the credit card transaction.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-075.png)
 
-Choose **Continue** and Send**.**
+Choose **Continue** and **Send**.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-076.png)
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-077.png)
+
 
 ### Approver
 
@@ -494,7 +500,7 @@ This task is performed on the AppsForDynamics365.com portal, which provides a co
 
 #### Approval
 
-Go to: **Travel & Expense \--\> For Approval**
+Go to: **Travel & Expense --> For Approval**
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-079.png)
 
@@ -513,249 +519,3 @@ The **Approval** list gives the approver two easy ways to approve or reject expe
 If the approver rejects an expense or mileage, the approver are required to leave a reason for the rejection, such that the person receiving the rejection may change the issues in question.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-082.png)
-
-## ExFlow Travel & Expense in Business Central - Bookkeeper
-
-### Bookkeeper
-
-Bookkeeping is the final stage in processing expenses or mileage and can be efficiently managed with just a few clicks in ExFlow Travel & Expense Management\'s Business Central. Please note that Business Central is not designed for submitting expenses or mileage. For these purposes, kindly use the mobile app or the web portal.
-
-### Overview in Business Central
-
-The roles **Travel & Expense management, Business Manager** and **Accountant** contains the following tiles in the role center.
-
-![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-083.png)
-
-### Expenses
-
-After an expense has been submitted and approved it will be available to be processed by the bookkeeper in Business Central. Processing an expense can include a few different elements, such as:
-
--   Posting the expense.
-
--   Set a credit card transaction as private use
-
--   Splitting the expense between multiple employees.
-
--   Sending expenses back to either the approver or completely rejecting them.
-
-#### Post an expense
-
-Posting an approved expense can be done in a few short steps.
-
-Go to: **Ready for posting (TEM)**
-
-![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-084.png)
-
-Post an expense by clicking **F9** or select **Post**.
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-085.png)
-
-The user can only post expenses with status **Approved** (green color).
-
-### Editing the expense
-
-If the bookkeeper wants to review or edit the expense before it is posting it.
-
-Go to: **Edit \--\> click on the "pin"**
-
-The fields that can be edited in this view are:
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-086.png)
-
-**Posting date**: The day on which the item is to be posted, useful for companies that prefer their expenses to be posted on specific dates of the month.
-
-**Additional information**: The user can write any information or context that can be relevant.
-
-**Lines**: The user can change the particulars of the expense in question, such as posting groups and which employees were relevant. The bookkeeper can also split the expenses between employees.
-
-**Balance lines**: These are the lines that are to be paid out to employees.
-
-**Dimensions**: Accessed through **Document** in the action bar, the dimension view allows the bookkeeper to change dimensions. These are Business Central standard.
-
-### Splitting an expense
-
-Some expenses that have already been approved will on occasion need to be split between the employees. This can be done manually from the expense edit-view.
-
-Go to: **Edit \-\-\--\> click on the "pin" \-\-\--\> Details \--\>**
-
-![Travel and Expense\](@site/static/img/media/tem-087.png)
-
-1.  **Employees:** Click on the number
-
-2.  Click **New**
-
-3.  Add an employee
-
-4.  Close the window
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-088.png)
-
-5.  Click on **Split Expense**
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-089.png)
-
-The lines will now be split according to the employees that are chosen.
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-090.png)
-
-#### Set as private use
-
-If the employee has spent the corporate company card privately and forgot to mark it on the expense, the bookkeeper can do that.
-
-Go to: **Edit \-\-\--\> Set as private use**
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-091.png)
-
-After the expense is **set as private use** and it is posted. Navigate the private entries in **Employee Private Use**.
-
-Go to: **Employee Private Use (TEM)**
-
-Click on **Calculate Private Use Entries, t**he entries will now be shown.
-
-![Travel and Expense\](@site/static/img/media/tem-092.png)
-
-Export the entries to Excel by clicking **Export and post.**
-
-#### Reject Expense
-
-If the bookkeeper needs to reject an expense, please follow the instructions provided below:
-
-Go to: **Edit \-\-\--\> Reject Expense**
-
-The expense will be sent back to the employee; the bookkeeper will be forced to add a reason for the rejection.
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-093.png)
-
-#### Return to approver
-
-If the bookkeeper needs to reject an expense, please follow the instructions provided below:
-
-**Go to: Edit \-\-\--\> Return to Approver**
-
-The expense will be sent back to the approver; the bookkeeper will be forced to add a reason for the rejection.
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-094.png)
-
-### Mileage
-
-After the mileage has been submitted and approved it will be available to be processed by the bookkeeper in Business Central. Processing an expense can include a few different elements, such as:
-
--   Posting the mileage.
-
--   Editing the mileage.
-
--   Sending mileage back to either the approver or completely rejecting them.
-
-#### Post an expense
-
-Posting an approved expense can be done in a few short steps.
-
-**Go to: Ready for posting**
-
-(Or search after Expenses (TEM))
-
-![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-095.png)
-
-Post mileage by clicking **F9** or select **Post**.
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-096.png)
-
-It is only possible to post expenses with status **Approved** (green color).
-
-## Credit card transactions
-
-Credit card transactions can be handled in a few ways through Business Central, both of which can add utility and efficiency to the workday of a bookkeeper. Following are the most prominent options for handling credit card transactions:
-
--   Manually creating credit card transactions.
-
--   Editing credit card transactions.
-
-## Manually creating credit card transactions
-
-The manual transaction list is useful for managing receiving physical invoices from your credit card provider or are otherwise not able to use the automatic import. By creating transaction entries for every single expenditure on the invoice the bookkeeper can match the credit card transactions against the expenses **in AppsForDynamics365.com**.
-
-The bookkeeper can either create the transaction by inputting the correct data into each of the fields, or by importing a file in a format chosen while setting up **Credit Card Agreement**.
-
-### Manually creating a credit card transaction by inputting data:
-
-Go to: **Manual Credit Card Transactions (TEM)**
-
-**New:** Create a new Credit Card Transaction.
-
-**Employee:** Select who made the expenditure.
-
-**Transaction Date:** Enter the date from which the employee made the expenditure.
-
-**Card No.:** From a list of Employee specific card numbers
-
-**Description:** Enter a description of the expense.
-
-**Transaction Currency:** Select the currency used.
-
-**Transaction Amount**: Enter the amount of the transaction.
-
-**Billing Amount**: Enter the amount of the billing.
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-097.png)
-
-Click on **Create transactions** to send the transaction out to all card holders, they will get a notification in the app.
-
-### Manually creating credit card transactions by import a file
-
-Go to: **Manual Credit Card Transactions (TEM)**
-
-**Import file:** Select import file
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-098.png)
-
-The bookkeeper has three options to import transactions from **Import file**.
-
-1.  Import a excel file
-
-2.  Import from Bank statement
-
-3.  Import from bank Reconciliation
-
-### Viewing and editing transactions
-
-In the credit card transaction view, the following will be shown:
-
-Go to: **Company Card Transaction (TEM)**
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-099.png)
-
-**Card No.**: The number for the credit card in question.
-
-**Card holder Name:** The name of the employee who holds the card.
-
-**Transaction Date:** The date upon which the transaction happened.
-
-**Status:** The status of the transaction, which ranges from \'Sent to employee\' to \'Waiting for posting\' and documents each step in between.
-
-**Point of Sales Name:** The name of the place where the purchase was made.
-
-**Transaction Currency:** Currency used for the transaction.
-
-**Transaction Amount:** The amount of money spent.
-
-**Billing Amount:** The amount to be reimbursed to the employee.
-
-**Suggested Category:** The category is suggested based on the Merchant Code Category and previous choices.
-
-### Marking a transaction as handled
-
-Go to: **Manual Credit Card Transactions (TEM)**
-
-Once a transaction is created, the primary option to process it is to mark it as handled. This step is taken before the relevant employee addresses the transaction and is used in cases where the transaction has become irrelevant.
-
-To mark a transaction as handled, do as follows.
-
-1.  Select a transaction.
-
-2.  In the action bar, select **Actions**, then **Mark Transaction as Handled**.
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-100.png)
-
-
-
-

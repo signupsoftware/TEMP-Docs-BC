@@ -1,15 +1,15 @@
 ---
-title: Travel & Expense Management in Business Central – Get started
+title: Get started with Travel & Expense Management
 sidebar_position: 3
 hide_title: true
 custom_edit_url: null
 ---
 
-# ExFlow Travel & Expense Management in Business Central -- Get started
+## Get started with Travel & Expense Management in Business Central
 
 The administrator handles the setup and the users behind the scenes. Most of the work an administrator will have to do will be up-front, with things such as setting up the practical elements of Travel and Expense Management, as well as creating users for the submitters and approvers.
 
-This section will assist with the setup of ExFlow Travel & Expense Management
+This section will assist with the setup of ExFlow Travel & Expense Management.
 
 Below is listed the necessary steps to set up:
 
@@ -33,13 +33,15 @@ To access the different views in this section, use the search field or the **Tra
 
 The setup wizard is designed to streamline the basic setup for ExFlow Travel & Expense Management. This user manual will guide users through the steps, ensuring the setup process is straightforward and easy to complete.
 
-Go to: **Travel & Expense overview - \-\-\--\> Setup wizard**
+Go to: **Travel & Expense overview --> Setup wizard**
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-021.png)
 
 #### Setup number series
 
-The wizard will suggest standard Business Central number series for expenses and mileage. Adjustments can be made during this setup.![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-022.png)
+The wizard will suggest standard Business Central number series for expenses and mileage. Adjustments can be made during this setup.
+
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-022.png)
 
 #### Mileage setup
 
@@ -67,13 +69,13 @@ To facilitate accurate accounting, it is crucial to create appropriate posting g
 
 Please note that only the finance department has access to configure and manage these posting groups, ensuring that the process remains streamlined and secure for end-users of the app or web portal.
 
-**Go to: Travel & Expense \-\-\-\--\> Overview \-\-\-\--\> Posting Setup \-\-\-\--\> Posting Groups**
+Go to: **Travel & Expense --> Overview --> Posting Setup --> Posting Groups**
 
 **New:** To create a new posting group.
 
 **Code:** This serves as a shorthand descriptor for the posting group.
 
-For example, domestic food expenses could be labeled as \"Food-dom,\"international food expenses as \"Food-int,\" or miscellaneous expenses as \"Misc\".
+For example, domestic food expenses could be labeled as "Food-dom, "international food expenses as "Food-int," or miscellaneous expenses as "Misc".
 
 **Description:** Enter a description, e.g. "Food & beverage domestic", "Food & drink international", or "Miscellaneous".
 
@@ -95,11 +97,11 @@ Please note, that the wizard creates a posting group for **Mileage**.
 
 ### Payment Groups
 
-Like **Posting Groups** and common groups in Business Central, **Payment Groups** are pused to map entities to G/L Accounts. This feature is particularly useful when managing multiple credit card types, each requiring distinct payment postings.
+Like **Posting Groups** and common groups in Business Central, **Payment Groups** are used to map entities to G/L Accounts. This feature is particularly useful when managing multiple credit card types, each requiring distinct payment postings.
 
-Typically, it\'s advisable to set up at least two **Payment Groups**: one for company credit card transactions and another for reimbursing employees. Note that only one **Payment Group** can be assigned per **Employee type**. For company credit cards, multiple **Payment Groups** can be established as needed. There is flexibility to configure a single **Payment Group** for each **Credit Card Agreement** or consolidate several agreements into one group, based on preferences.
+Typically, it's advisable to set up at least two **Payment Groups**: one for company credit card transactions and another for reimbursing employees. Note that only one **Payment Group** can be assigned per **Employee type**. For company credit cards, multiple **Payment Groups** can be established as needed. There is flexibility to configure a single **Payment Group** for each **Credit Card Agreement** or consolidate several agreements into one group, based on preferences.
 
-Go to: **Travel & Expense -- Overview- \-\-\--\> Posting Setup \-\--\> Payment Groups**
+Go to: **Travel & Expense -- Overview- --> Posting Setup --> Payment Groups**
 
 **New:** Create a new **Payment Group**
 
@@ -121,7 +123,7 @@ For example, "Credit card" or "Employee"
 
 **Regions** contain collections of countries which is useful if a specific posting setup is needed per country collection. For example, this can be useful to prepare the different tax rates for the different regions.
 
-Go to: **Travel & Expense -- Overview \--\> Setup \--\> Regions**
+Go to: **Travel & Expense -- Overview --> Setup --> Regions**
 
 **New**: Create new **Regions**
 
@@ -143,7 +145,7 @@ For each **Expense Category**, multiple posting setups can be established, enabl
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-029.png)
 
-Go to: **Travel & Expense -- Overview \--\> Posting Setup \--\> Expense Categories**
+Go to: **Travel & Expense -- Overview --> Posting Setup --> Expense Categories**
 
 **New**: Create new **Expense Categories**
 
@@ -173,11 +175,11 @@ In certain countries, different reimbursement rates apply based on the mode of t
 
 ![A screenshot of a car heavy vehicle Description automatically generated](@site/static/img/media/tem-030.png)
 
-Go to: **Travel & Expense -- Overview \--\> Mileage Setup \--\> Means of transport**
+Go to: **Travel & Expense -- Overview --> Mileage Setup --> Means of transport**
 
 **New**: Create a new **Means of transport**
 
-**Code:** That shortly indicated what the type of transport is for, for example: \"Car\".
+**Code:** That shortly indicated what the type of transport is for, for example: "Car".
 
 **Description:** Enter the description of transportation type.
 
@@ -189,7 +191,7 @@ Individual employees can have different rates. A rate without an employee number
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-031.png)
 
-Go to: **Travel & Expense -- Overview \--\> Mileage Setup \--\> Travel rates**
+Go to: **Travel & Expense -- Overview --> Mileage Setup --> Travel rates**
 
 **New:** Create new travel rate.
 
@@ -205,7 +207,7 @@ Go to: **Travel & Expense -- Overview \--\> Mileage Setup \--\> Travel rates**
 
 It is important to set up the reimbursement handler in **Setup (TEM)**.
 
-Go to: **Setup (TEM) \--\> Mileage**
+Go to: **Setup (TEM) --> Mileage**
 
 ![A white background with black and blue text Description automatically generated](@site/static/img/media/tem-032.png)
 
@@ -217,7 +219,7 @@ Credit card agreements are useful tools for automatically matching expenses with
 
 ### Agreements
 
-Go to: **Travel & Expense -- Overview \--\> Company Cards \--\> Agreements**
+Go to: **Travel & Expense -- Overview --> Company Cards --> Agreements**
 
 **New:** Create a new agreement.
 
@@ -243,9 +245,9 @@ Go to: **Travel & Expense -- Overview \--\> Company Cards \--\> Agreements**
 
 This is a list of all the credit cards associated with this specific agreement. From here, multiple cards from **Company Credit Cards** can be associated with this specific **Credit Card Agreement**.
 
-Under **Associated cards** \--\> **Cards** \--\> **Add cards**
+Under **Associated cards** --> **Cards** --> **Add cards**
 
-Select specific credit card. To select multiple cards at once click on a credit card line and press Shift+arrow down on keyboard \--\> **OK.**
+Select specific credit card. To select multiple cards at once click on a credit card line and press Shift+arrow down on keyboard --> **OK**.
 
 ### Company credit cards
 
@@ -283,7 +285,7 @@ Select a **Company Credit Card** from the list and **Activate.** The **Company C
 
 If one or more **Company Credit Cards** have not been associated with an **Employee** this feature will guide, you through which cards and employees the system wants to match.
 
-Go to: **Company Cards** \--\> **New**
+Go to: **Company Cards** --> **New**
 
 ### Excel Import definitions
 
@@ -305,7 +307,7 @@ Go to: **Excel import definition (TEM)**
 
 **Payment is shown as a negative amount**: If the amount in the file is negative, enable this parameter.
 
-![Travel and Expense\](@site/static/img/media/tem-035.png)
+![Travel and Expense](@site/static/img/media/tem-035.png)
 
 #### Map fields to Excel columns
 
@@ -313,7 +315,7 @@ In this section, specify which columns in the Excel file should map to the field
 
 Example, if the card number is placed in column D in the Excel file type in D in the field **Card number.**
 
-![Travel and Expense\](@site/static/img/media/tem-036.png)
+![Travel and Expense](@site/static/img/media/tem-036.png)
 
 **Card number:** Define the column for Credit card number.
 

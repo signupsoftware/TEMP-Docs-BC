@@ -33,7 +33,7 @@ Go to: **AppsForDynamics365 Configuration**
 
 The initial step in the process requires entering the customer ID and license key. These will be provided when an AppsForDynamics365 product is purchased. Alternatively, they can be found on the **My account** page on [www.appsfordynamics365.com](http://www.appsfordynamics365.com).
 
-![Travel and Expense\](@site/static/img/media/tem-002.png)
+![Travel and Expense](@site/static/img/media/tem-002.png)
 
 #### Grant consent
 
@@ -89,7 +89,9 @@ Once this is in order, click next go to the admin permissions.
 
 For maintenance and management of the AppsForDynamics365 integration a few users must be selected as administrators.
 
-These administrators will be responsible for creating additional users in the future, if necessary. This can be done immediately through the link displayed in the wizard or later through the permission settings.![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-009.png)
+These administrators will be responsible for creating additional users in the future, if necessary. This can be done immediately through the link displayed in the wizard or later through the permission settings.
+
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-009.png)
 
 The configuration wizard for the AppsForDynamics365 connection has been successfully completed.
 
@@ -109,7 +111,7 @@ There are two options available to create a new user.
 
 2.  **New:** If the user isn't created as a Business Central user, manually inter the user credentials.
 
-> ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-011.png)
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-011.png)
 
 ##### Create with a Business Central
 
@@ -149,7 +151,7 @@ The user can sign in by typing in their **username** and **password**, or by usi
 
 ![A screenshot of a login screen Description automatically generated](@site/static/img/media/tem-014.png)
 
-#### Mapping the employee to AppsForDynamisc365
+#### Mapping the employee to AppsForDynamics365
 
 To complete the user setup, it is necessary to map the Business Central Employee to the **AppsForDynamics365 user**.
 
