@@ -5,9 +5,9 @@ hide_title: true
 custom_edit_url: null
 ---
 
-# AppsForDynamics365 Portal Connector
+## AppsForDynamics365 Portal Connector
 
-## Introduction
+### Introduction
 
 The AppsForDynamics365 Portal Connector facilitates the integration of the ExFlow Travel & Expense Management application with your Business Central system. Acting as an intermediary, it ensures that data is transmitted directly to Business Central in easily processed and digestible formats for storage or application.
 
@@ -15,7 +15,7 @@ The portal offers easy access for users who are not Business Central super users
 
 This documentation provides all the necessary information to set up AppsForDynamics365 and connect it with Business Central.
 
-## AppsForDynamics365 integration setup
+### AppsForDynamics365 integration setup
 
 This section documents the setup process for the AppsForDynamics365 integration. The integration module is used by ExFlow Travel & Expense Management to connect Business Central to the AppsForDynamics365 portal.
 
@@ -23,19 +23,19 @@ To complete the setup, use the AppsForDynamics365 setup wizard, which guides use
 
 It is important that this wizard is run by someone with the necessary permissions to grant consent.
 
-### Configure AppsForDynamics365 connection
+#### Configure AppsForDynamics365 connection
 
 Go to: **AppsForDynamics365 Configuration**
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-001.png)
 
-### Verify license
+#### Verify license
 
 The initial step in the process requires entering the customer ID and license key. These will be provided when an AppsForDynamics365 product is purchased. Alternatively, they can be found on the **My account** page on [www.appsfordynamics365.com](http://www.appsfordynamics365.com).
 
 ![Travel and Expense\](@site/static/img/media/tem-002.png)
 
-### Grant consent
+#### Grant consent
 
 To integrate AppsForDynamics365 with Business Central, consent must be provided. This consent allows AppsForDynamics365 to access the web service
 
@@ -45,7 +45,7 @@ To integrate AppsForDynamics365 with Business Central, consent must be provided.
 
 After granting consent continue to specify localization settings.
 
-### Specify localization settings
+#### Specify localization settings
 
 Select the time zone being used and the preferred language for the portal. Note that the portal does not support all languages.
 
@@ -53,7 +53,7 @@ Select the time zone being used and the preferred language for the portal. Note 
 
 After selecting the time zone and language, click next and proceed to select authentication method.
 
-### Select method of authentication
+#### Select method of authentication
 
 There are three different methods of authentication available for the user to use to sign in to AppsForDynamics365. Microsoft login, username and password created in AppsForDynamics365, or Mixed mode is a combination of these two.
 
@@ -69,7 +69,7 @@ Users will have to be created in AppsForDynamics365 in a specific order regardle
 
 After selecting a method of authentication, click next and proceed to register Business Central instance.
 
-### Register Business Central instance
+#### Register Business Central instance
 
 The wizard will automatically register the Business Central instance with the AppsForDynamics365 account once \'Next\' is clicked, simply confirm that the information presented is correct.
 
@@ -77,7 +77,7 @@ The wizard will automatically register the Business Central instance with the Ap
 
 After confirming this information, click next and proceed to activate company.
 
-### Activate company
+#### Activate company
 
 This step requires establishing a webservice connection. The information displayed will be used by default. While the webservice address cannot be altered, feel free to adjust the description as needed.
 
@@ -85,7 +85,7 @@ This step requires establishing a webservice connection. The information display
 
 Once this is in order, click next go to the admin permissions.
 
-### Grant permission to administrators
+#### Grant permission to administrators
 
 For maintenance and management of the AppsForDynamics365 integration a few users must be selected as administrators.
 
@@ -95,7 +95,7 @@ The configuration wizard for the AppsForDynamics365 connection has been successf
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-010.png)
 
-### Creating a AppsForDynamics365 user
+#### Creating a AppsForDynamics365 user
 
 To access the AppsForDynamics365 portal and use the ExFlow Travel & Expense Management app, each user must have a created user account. This login is shared across companies.
 
@@ -111,7 +111,7 @@ There are two options available to create a new user.
 
 > ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-011.png)
 
-#### Create with a Business Central
+##### Create with a Business Central
 
 **Create logins for users:** Select the user(s) from the list.
 
@@ -149,7 +149,7 @@ The user can sign in by typing in their **username** and **password**, or by usi
 
 ![A screenshot of a login screen Description automatically generated](@site/static/img/media/tem-014.png)
 
-### Mapping the employee to AppsForDynamisc365
+#### Mapping the employee to AppsForDynamisc365
 
 To complete the user setup, it is necessary to map the Business Central Employee to the **AppsForDynamics365 user**.
 

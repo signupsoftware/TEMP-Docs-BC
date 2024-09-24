@@ -336,8 +336,3 @@ Example, if the card number is placed in column D in the Excel file type in D in
 **MCC description:** Define the column for MCC description, not mandatory.
 
 **Unique reference:** Define the column for unique reference, not mandatory.
-
-
-
-
-
