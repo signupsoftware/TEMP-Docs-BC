@@ -6,13 +6,16 @@ custom_edit_url: null
 ---
 ## Travel & Expense Management
 
+
 ### Introduction 
 
 Welcome to ExFlow Travel & Expense Management, a comprehensive solution for seamless management of travel and expense processes within Microsoft Dynamics 365 Business Central. Our platform is designed to simplify and streamline the way an organization handles travel bookings, expense reporting, and reimbursements, ensuring a smooth and efficient workflow.
+<br/>
 
 #### What is ExFlow Travel & Expense Management?
 
-ExFlow Travel & Expense Management is an advanced, user-friendly application integrated with Microsoft Dynamics 365 Business Central. It empowers employees to manage their travel plans and expenses efficiently, while providing administrators with robust tools for oversight and control. By automating the end-to-end process, ExFlow reduces manual effort, minimizes errors, and enhances compliance with company policies.
+ExFlow Travel & Expense Management is an advanced, user-friendly application integrated with Microsoft Dynamics 365 Business Central. It empowers employees to manage their travel plans and expenses efficiently, while providing administrators with robust tools for oversight and control. By automating the end-to-end process, ExFlow reduces manual effort, minimizes errors, and enhances compliance with company policies.<br/>
+<br/>
 
 #### Key Features
 
@@ -26,12 +29,14 @@ ExFlow Travel & Expense Management is an advanced, user-friendly application int
 
 -   **Reporting & Analytics**: Comprehensive reporting tools that provide insights into travel and expense patterns, helping to control costs and improve budgeting accuracy.
 
--   **Mobile Access**: Accessibility on mobile devices, allowing users to manage travel and expenses on the go.
+-   **Mobile Access**: Accessibility on mobile devices, allowing users to manage travel and expenses on the go.<br/>
 
+<br/>
 
 #### Getting Started
 
 This manual is a guide to effectively using ExFlow Travel & Expense Management. Whether you are an employee submitting expenses or an administrator overseeing the process, you will find detailed instructions and helpful tips to make the most of our platform.
+<br/>
 
 ##### For Employees
 
@@ -40,6 +45,7 @@ This manual is a guide to effectively using ExFlow Travel & Expense Management. 
 -   **Tracking Status**: How to check the status of your submissions and view reimbursement details.
 
 -   **Mobile App**: Utilizing the mobile app for on-the-go expense management.
+<br/>
 
 ##### For Administrators
 
@@ -47,13 +53,10 @@ This manual is a guide to effectively using ExFlow Travel & Expense Management. 
 
 -   **Approval Workflows**: Managing and customizing approval workflows to fit your organizational needs.
 
--   **Reporting Tools**: Using analytical tools to monitor expenses, identify trends, and generate reports.
+-   **Reporting Tools**: Using analytical tools to monitor expenses, identify trends, and generate reports.<br/>
 
-
-
+<br/>
 We are committed to supporting your journey towards efficient travel and expense management. Should you have any questions or need further assistance, our dedicated support team is here to help.
+<br/>
 
-
-Thank you for choosing ExFlow Travel & Expense Management. 
-
-Let's get started!
+Thank you for choosing ExFlow Travel & Expense Management. <br/> <br/> Let's get started!
