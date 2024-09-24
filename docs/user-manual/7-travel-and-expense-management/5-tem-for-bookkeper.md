@@ -4,18 +4,21 @@ sidebar_position: 5
 hide_title: true
 custom_edit_url: null
 ---
-
 ## Travel & Expense in Business Central - For Bookkeepers
 
 ### Bookkeeper
 
 Bookkeeping is the final stage in processing expenses or mileage and can be efficiently managed with just a few clicks in ExFlow Travel & Expense Management\'s Business Central. Please note that Business Central is not designed for submitting expenses or mileage. For these purposes, kindly use the mobile app or the web portal.
 
+<br/>
+
 ### Overview in Business Central
 
 The roles **Travel & Expense management, Business Manager** and **Accountant** contains the following tiles in the role center.
 
 ![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-083.png)
+
+<br/>
 
 ### Expenses
 
@@ -43,6 +46,8 @@ Post an expense by clicking **F9** or select **Post**.
 
 The user can only post expenses with status **Approved** (green color).
 
+<br/>
+
 ### Editing the expense
 
 If the bookkeeper wants to review or edit the expense before it is posting it.
@@ -62,6 +67,8 @@ The fields that can be edited in this view are:
 **Balance lines**: These are the lines that are to be paid out to employees.
 
 **Dimensions**: Accessed through **Document** in the action bar, the dimension view allows the bookkeeper to change dimensions. These are Business Central standard.
+
+<br/>
 
 ### Splitting an expense
 
@@ -107,6 +114,8 @@ Click on **Calculate Private Use Entries**, the entries will now be shown.
 
 Export the entries to Excel by clicking **Export and post.**
 
+<br/>
+
 #### Reject Expense
 
 If the bookkeeper needs to reject an expense, please follow the instructions provided below:
@@ -127,6 +136,8 @@ The expense will be sent back to the approver; the bookkeeper will be forced to 
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-094.png)
 
+<br/>
+
 ### Mileage
 
 After the mileage has been submitted and approved it will be available to be processed by the bookkeeper in Business Central. Processing an expense can include a few different elements, such as:
@@ -137,13 +148,12 @@ After the mileage has been submitted and approved it will be available to be pro
 
 -   Sending mileage back to either the approver or completely rejecting them.
 
+
 #### Post an expense
 
 Posting an approved expense can be done in a few short steps.
 
-**Go to: Ready for posting**
-
-(Or search after Expenses (TEM))
+Go to: **Ready for posting** or search after: Expenses (TEM)
 
 ![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-095.png)
 
@@ -154,7 +164,7 @@ Post mileage by clicking **F9** or select **Post**.
 It is only possible to post expenses with status **Approved** (green color).
 
 
-
+<br/>
 
 ### Credit card transactions
 
@@ -164,11 +174,14 @@ Credit card transactions can be handled in a few ways through Business Central, 
 
 -   Editing credit card transactions.
 
+<br/>
+
 ### Manually creating credit card transactions
 
 The manual transaction list is useful for managing receiving physical invoices from your credit card provider or are otherwise not able to use the automatic import. By creating transaction entries for every single expenditure on the invoice the bookkeeper can match the credit card transactions against the expenses in **AppsForDynamics365.com**.
 
 The bookkeeper can either create the transaction by inputting the correct data into each of the fields, or by importing a file in a format chosen while setting up **Credit Card Agreement**.
+<br/>
 
 #### Manually creating a credit card transaction by inputting data:
 
@@ -194,6 +207,7 @@ Go to: **Manual Credit Card Transactions (TEM)**
 
 Click on **Create transactions** to send the transaction out to all card holders, they will get a notification in the app.
 
+<br/>
 
 #### Manually creating credit card transactions by import a file
 
@@ -211,6 +225,7 @@ The bookkeeper has three options to import transactions from **Import file**.
 
 3.  Import from bank Reconciliation
 
+<br/>
 
 #### Viewing and editing transactions
 
@@ -237,6 +252,8 @@ Go to: **Company Card Transaction (TEM)**
 **Billing Amount:** The amount to be reimbursed to the employee.
 
 **Suggested Category:** The category is suggested based on the Merchant Code Category and previous choices.
+
+<br/>
 
 ### Marking a transaction as handled
 

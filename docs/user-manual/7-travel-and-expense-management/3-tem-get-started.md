@@ -4,7 +4,6 @@ sidebar_position: 3
 hide_title: true
 custom_edit_url: null
 ---
-
 ## Get started with Travel & Expense Management in Business Central
 
 The administrator handles the setup and the users behind the scenes. Most of the work an administrator will have to do will be up-front, with things such as setting up the practical elements of Travel and Expense Management, as well as creating users for the submitters and approvers.
@@ -27,7 +26,7 @@ Below is listed the necessary steps to set up:
 
 - **Travel rates**
 
-To access the different views in this section, use the search field or the **Travel and Expense Management overview** in the top bar to navigate to the explore all view.
+To access the different views in this section, use the search field or the **Travel and Expense Management overview** in the top bar to navigate to the explore all view. 
 
 ### Setup Wizard
 
@@ -101,7 +100,7 @@ Like **Posting Groups** and common groups in Business Central, **Payment Groups*
 
 Typically, it's advisable to set up at least two **Payment Groups**: one for company credit card transactions and another for reimbursing employees. Note that only one **Payment Group** can be assigned per **Employee type**. For company credit cards, multiple **Payment Groups** can be established as needed. There is flexibility to configure a single **Payment Group** for each **Credit Card Agreement** or consolidate several agreements into one group, based on preferences.
 
-Go to: **Travel & Expense -- Overview- --> Posting Setup --> Payment Groups**
+Go to: **Travel & Expense --> Overview- --> Posting Setup --> Payment Groups**
 
 **New:** Create a new **Payment Group**
 
@@ -213,13 +212,15 @@ Go to: **Setup (TEM) --> Mileage**
 
 **Mileage Reimbursement Handler:** If the reimbursement should be handled via Business Central select **Post to Employee Ledger**, if the reimbursement is handled in the payroll system select **Export to XML**.
 
+<br/>
+
 ## Setup Credit Card in ExFlow Travel & Expense Management
 
 Credit card agreements are useful tools for automatically matching expenses with the appropriate credit card statements when they are received. Once set up, this will save the bookkeeping department time and can be further enhanced by using **the Automatic transaction import** feature.
 
 ### Agreements
 
-Go to: **Travel & Expense -- Overview --> Company Cards --> Agreements**
+Go to: **Travel & Expense --> Overview --> Company Cards --> Agreements**
 
 **New:** Create a new agreement.
 
@@ -295,19 +296,18 @@ Go to: **Excel import definition (TEM)**
 
 **New:** Create a new import definition
 
-**Code:** Define a code for the import definition
-
-**Description:** Enter a description for the import definition
-
-**Header line before transactions:** Enable if there are header lines in the Excel file.
-
-**Caption for first Header column:** Type in the row number where the transactions lines start from.
-
-**Date order**: Choose the date format the file have
-
-**Payment is shown as a negative amount**: If the amount in the file is negative, enable this parameter.
-
 ![Travel and Expense](@site/static/img/media/tem-035.png)
+
+|Excel Import Definition ||
+|:-|:-|	
+|**Code:** |Define a code for the import definition
+|**Description:**| Enter a description for the import definition
+|**Header line before transactions:**| Enable if there are header lines in the Excel file.
+|**Caption for first Header column:**| Type in the row number where the transactions lines start from.
+|**Date order**:| Choose the date format the file have
+|**Payment is shown as a negative amount**:| If the amount in the file is negative, enable this parameter.
+
+<br/>
 
 #### Map fields to Excel columns
 
@@ -317,24 +317,16 @@ Example, if the card number is placed in column D in the Excel file type in D in
 
 ![Travel and Expense](@site/static/img/media/tem-036.png)
 
-**Card number:** Define the column for Credit card number.
-
-**Card holder:** Define the column for Card holder.
-
-**Transaction Date**: Define the column for transaction date.
-
-**Transaction amount:** Define the column for transaction amount.
-
-**Currency:** Define the column for currency, not mandatory.
-
-**Billing amount:** Define the column for billing amount.
-
-**Description**: Define the column for transaction description.
-
-**Country:** Define the column for country, not mandatory.
-
-**MCC:** Define the column for MCC, not mandatory.
-
-**MCC description:** Define the column for MCC description, not mandatory.
-
-**Unique reference:** Define the column for unique reference, not mandatory.
+|Map fields to Excel columns ||
+|:-|:-|	
+|**Card number:**| Define the column for Credit card number.
+|**Card holder:** |Define the column for Card holder.
+|**Transaction Date**:| Define the column for transaction date.
+|**Transaction amount:**| Define the column for transaction amount.
+|**Currency:** |Define the column for currency, not mandatory.
+|**Billing amount:**| Define the column for billing amount.
+|**Description**:| Define the column for transaction description.
+|**Country:** |Define the column for country, not mandatory.
+|**MCC:**| Define the column for MCC, not mandatory.
+|**MCC description:**| Define the column for MCC description, not mandatory.
+|**Unique reference:**| Define the column for unique reference, not mandatory.
