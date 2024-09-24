@@ -203,7 +203,7 @@ const config = {
                 href: 'https://azuresignup.sharepoint.com/sites/Signupsoftware',
               },
               {
-                label: 'Agreements',
+                label: 'Terms and Conditions',
                 href: '/docs/papers/agreements',
               },
             ],
