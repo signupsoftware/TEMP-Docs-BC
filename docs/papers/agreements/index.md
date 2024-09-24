@@ -1,5 +1,5 @@
 ---
-title: Agreements
+title: Terms and Conditions
 hide_title: true
 id: agreementsindex
 custom_edit_url: null
