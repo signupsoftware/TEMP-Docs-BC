@@ -17,7 +17,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 // EA 2024-09-03 The 'config' class doesn't work well, use this to change the main site address.
 const siteURL = 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/';
 //const siteURL = 'http://localhost:3000/';
-
+ 
 
 // Use these to quickly chnage between Dev/Prod
 // -- Development, local --
@@ -38,7 +38,7 @@ const config = {
   url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/',
   //url: 'https://localhost:3000/',
 
-
+ 
 
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
