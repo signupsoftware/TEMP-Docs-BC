@@ -2,6 +2,7 @@
 title: Web-Benutzerberechtigungen
 sidebar_position: 33
 hide_title: true
+custom_edit_url: null
 ---
 ## Web-Benutzerberechtigungen
 

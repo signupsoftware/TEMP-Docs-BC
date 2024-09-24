@@ -2,6 +2,7 @@
 title: Generischer Blob-Speicher
 sidebar_position: 4
 hide_title: true
+custom_edit_url: null
 ---
 ## Generischer Blob-Speicher
 

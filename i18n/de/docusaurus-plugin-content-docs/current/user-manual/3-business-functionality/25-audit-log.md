@@ -2,6 +2,7 @@
 title: Audit-Log
 sidebar_position: 25
 hide_title: true
+custom_edit_url: null
 ---
 ## Audit-Log
 Der ExFlow Audit-Log basiert auf dem Standard-Änderungsprotokoll von Business Central und bietet ein erweitertes, benutzerfreundliches Protokoll der in ExFlow an Dokumenten vorgenommenen Änderungen. Wenn aktiviert, verfolgt der Audit-Log alle Änderungen, die an einem Dokument vom Import bis zur Buchung vorgenommen werden. Dokumentänderungen können entweder in einem zusammengefassten Format basierend auf Rechnungsstatus und -aktionen oder in einem detaillierten Format, das Änderungen auf Feldebene verfolgt, angezeigt werden.

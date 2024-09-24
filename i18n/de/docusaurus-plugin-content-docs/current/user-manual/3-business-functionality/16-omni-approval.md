@@ -2,6 +2,7 @@
 title: OMNI Genehmigung
 sidebar_position: 16
 hide_title: true
+custom_edit_url: null
 ---
 ## OMNI Genehmigung
 

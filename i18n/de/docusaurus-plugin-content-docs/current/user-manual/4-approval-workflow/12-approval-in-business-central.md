@@ -2,6 +2,7 @@
 title: Genehmigung in Business Central
 sidebar_position: 12
 hide_title: true
+custom_edit_url: null
 ---
 ## Genehmigung in Business Central
 Gehe zu: **ExFlow Genehmigungsdokumente** <br/>

@@ -2,6 +2,7 @@
 title: Lokalisierung Kanada
 sidebar_position: 6
 hide_title: true
+custom_edit_url: null
 ---
 
 ## Lokalisierung Kanada

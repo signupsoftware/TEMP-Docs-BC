@@ -2,6 +2,7 @@
 title: E-Mail-Erinnerungen
 sidebar_position: 10
 hide_title: true
+custom_edit_url: null
 ---
 ## E-Mail-Erinnerungen
 Bitte beachten Sie, dass ein Standard-E-Mail-Konto von Business Central eingerichtet sein muss, um ExFlow-E-Mails empfangen zu können. Weitere Informationen finden Sie in der [***Microsoft-Dokumentation***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email). Für Unterstützung wenden Sie sich bitte an Ihren vertrauenswürdigen Dynamics 365 Business Central Implementierungspartner.

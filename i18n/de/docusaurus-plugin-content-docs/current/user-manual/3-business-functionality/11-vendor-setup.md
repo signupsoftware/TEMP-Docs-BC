@@ -2,6 +2,7 @@
 title: Lieferanteneinrichtung
 sidebar_position: 11
 hide_title: true
+custom_edit_url: null
 ---
 ## Lieferanteneinrichtung
 

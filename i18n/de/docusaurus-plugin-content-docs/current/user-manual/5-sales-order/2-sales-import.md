@@ -2,6 +2,7 @@
 title: Import von Verkaufsaufträgen
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
 
 ### Workflow für den Import von Verkaufsaufträgen

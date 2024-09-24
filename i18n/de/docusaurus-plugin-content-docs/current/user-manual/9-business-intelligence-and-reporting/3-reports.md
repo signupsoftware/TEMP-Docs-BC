@@ -2,6 +2,7 @@
 title: Berichte
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
 ## Berichte
 

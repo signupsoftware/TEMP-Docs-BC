@@ -2,6 +2,7 @@
 title: Standardgröße des FactBox festlegen
 sidebar_position: 18
 hide_title: true
+custom_edit_url: null
 ---
 ## Standardgröße des FactBox festlegen
 

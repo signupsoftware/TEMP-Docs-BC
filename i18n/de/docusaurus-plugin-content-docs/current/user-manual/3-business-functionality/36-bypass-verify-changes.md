@@ -2,6 +2,7 @@
 title: Änderungen überspringen überprüfen
 sidebar_position: 36
 hide_title: true
+custom_edit_url: null
 ---
 ## Änderungen überspringen überprüfen
 
