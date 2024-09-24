@@ -1,10 +1,10 @@
 ---
-title: Travel and Expense Management
-sidebar_position: 2
+title: Travel & Expense Management
+sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
-## Travel and Expense Management
+## Travel & Expense Management
 
 ## Introduction
 
@@ -51,6 +51,9 @@ This manual is a guide to effectively using ExFlow Travel & Expense Management. 
 We are committed to supporting your journey towards efficient travel and expense management. Should you have any questions or need further assistance, our dedicated support team is here to help.
 
 Thank you for choosing ExFlow Travel & Expense Management. Let\'s get started!
+
+
+
 
 # AppsForDynamics365 Portal Connector
 
@@ -549,6 +552,10 @@ Example, if the card number is placed in column D in the Excel file type in D in
 **MCC description:** Define the column for MCC description, not mandatory.
 
 **Unique reference:** Define the column for unique reference, not mandatory.
+
+
+
+
 
 # ExFlow Travel & Expense Management -- For users
 
