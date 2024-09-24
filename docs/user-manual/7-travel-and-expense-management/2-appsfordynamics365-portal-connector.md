@@ -19,7 +19,7 @@ This documentation provides all the necessary information to set up AppsForDynam
 
 This section documents the setup process for the AppsForDynamics365 integration. The integration module is used by ExFlow Travel & Expense Management to connect Business Central to the AppsForDynamics365 portal.
 
-To complete the setup, use the AppsForDynamics365 setup wizard, which guides users through the necessary steps to establish the connection to Business Central. Access the wizard by either clicking the notification on Business Central front page or navigating to the AppsForDynamics365 portal configuration page using the search function. Once there, click the \"Configure connection\" button to open the wizard.
+To complete the setup, use the AppsForDynamics365 setup wizard, which guides users through the necessary steps to establish the connection to Business Central. Access the wizard by either clicking the notification on Business Central front page or navigating to the AppsForDynamics365 portal configuration page using the search function. Once there, click the "Configure connection" button to open the wizard.
 
 It is important that this wizard is run by someone with the necessary permissions to grant consent.
 
@@ -127,9 +127,9 @@ Click on **New**
 
 **Authentication method:** Chose the authentication method for the specific user.
 
-Microsoft login
+- Microsoft login
 
-User/password
+- User/password
 
 **Login:** User ID that user will use to sign in to the portal
 
@@ -161,7 +161,7 @@ Select a specific employee from the list to grant access to **AppsForDynamics365
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-015.png)
 
-**Configure for TEM:** Follow the wizard.
+**Configure Travel & Expense:** Follow the wizard
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-016.png)
 

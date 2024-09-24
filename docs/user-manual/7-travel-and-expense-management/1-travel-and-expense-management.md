@@ -50,6 +50,10 @@ This manual is a guide to effectively using ExFlow Travel & Expense Management. 
 -   **Reporting Tools**: Using analytical tools to monitor expenses, identify trends, and generate reports.
 
 
+
 We are committed to supporting your journey towards efficient travel and expense management. Should you have any questions or need further assistance, our dedicated support team is here to help.
 
-Thank you for choosing ExFlow Travel & Expense Management. Let's get started!
+
+Thank you for choosing ExFlow Travel & Expense Management. 
+
+Let's get started!
