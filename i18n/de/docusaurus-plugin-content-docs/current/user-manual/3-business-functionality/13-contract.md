@@ -2,6 +2,7 @@
 title: Vertrag
 sidebar_position: 13
 hide_title: true
+custom_edit_url: null
 ---
 ## Vertrag
 

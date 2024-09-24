@@ -30,7 +30,7 @@ const FeatureList = [
   },
   {
     title: <Translate>TRAVEL AND EXPENSE</Translate>,
-    url: '/docs/user-manual/CO2-Insights/TaE',
+    url: '/docs/user-manual/travel-and-expense-management/travel-and-expense-management',
   },
 ];
 

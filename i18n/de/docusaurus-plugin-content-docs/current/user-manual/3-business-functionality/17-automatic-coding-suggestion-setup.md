@@ -2,6 +2,7 @@
 title: Einrichtung der automatischen Kodierungsvorschläge
 sidebar_position: 17
 hide_title: true
+custom_edit_url: null
 ---
 ## Einrichtung der automatischen Kodierungsvorschläge
 

@@ -2,6 +2,7 @@
 title: Re-Invoicing
 sidebar_position: 21
 hide_title: true
+custom_edit_url: null
 ---
 ## Re-Invoicing
 Re-Invoicing ist nützlich, wenn eine Einkaufsrechnung empfangen wird, die an einen Kunden weiterberechnet werden muss.

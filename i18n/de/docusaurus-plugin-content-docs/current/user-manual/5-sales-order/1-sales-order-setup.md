@@ -2,6 +2,7 @@
 title: Einrichtung von Verkaufsaufträgen
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
 ## Konfiguration des Verkaufsauftrags im ExFlow Data Capture-Konto
 

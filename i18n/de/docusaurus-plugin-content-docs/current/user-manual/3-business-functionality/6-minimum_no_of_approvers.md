@@ -2,6 +2,7 @@
 title: Mindestanzahl der Genehmiger
 sidebar_position: 6
 hide_title: true
+custom_edit_url: null
 ---
 ## Mindestanzahl der Genehmiger
 Eine Überprüfung der Mindestanzahl der Genehmiger kann in ExFlow Web hinzugefügt und auch für das Importjournal aktiviert werden.

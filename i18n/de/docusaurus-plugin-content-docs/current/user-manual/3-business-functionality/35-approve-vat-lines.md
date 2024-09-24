@@ -2,6 +2,7 @@
 title: VAT-Linien genehmigen
 sidebar_position: 35
 hide_title: true
+custom_edit_url: null
 ---
 ## MwSt.-Linien genehmigen
 

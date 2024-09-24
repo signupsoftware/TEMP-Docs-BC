@@ -2,6 +2,7 @@
 title: Technische Anforderungen für ExFlow Business Central Verkaufsauftrag
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
 
 ## ExFlow Business Central Verkaufsauftrag
