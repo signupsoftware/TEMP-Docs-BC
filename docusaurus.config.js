@@ -190,7 +190,9 @@ const config = {
               },
               {
                 label: 'ExFlow for BC',
-                to: '/docs/user-manual/welcome-to-exflow/introduction',
+                //to: '/docs/user-manual/welcome-to-exflow/introduction',
+                // https://docs.exflow.cloud/business-central/
+                to: siteURL + 'docs/user-manual/welcome-to-exflow/introduction',
                
               },
               {
