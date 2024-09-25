@@ -4,20 +4,17 @@ sidebar_position: 2
 hide_title: true
 custom_edit_url: null
 ---
-
 ## AppsForDynamics365 Portal Connector
 
-### Introduction
-
+### Introduction 
 The AppsForDynamics365 Portal Connector facilitates the integration of the ExFlow Travel & Expense Management application with your Business Central system. Acting as an intermediary, it ensures that data is transmitted directly to Business Central in easily processed and digestible formats for storage or application.
 
 The portal offers easy access for users who are not Business Central super users and may be on the road while performing tasks in ExFlow Travel & Expense Management.
 
 This documentation provides all the necessary information to set up AppsForDynamics365 and connect it with Business Central.
-<br/>
+
 
 ### AppsForDynamics365 integration setup
-
 This section documents the setup process for the AppsForDynamics365 integration. The integration module is used by ExFlow Travel & Expense Management to connect Business Central to the AppsForDynamics365 portal.
 
 To complete the setup, use the AppsForDynamics365 setup wizard, which guides users through the necessary steps to establish the connection to Business Central. Access the wizard by either clicking the notification on Business Central front page or navigating to the AppsForDynamics365 portal configuration page using the search function. Once there, click the "Configure connection" button to open the wizard.

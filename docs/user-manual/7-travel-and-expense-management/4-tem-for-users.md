@@ -1,10 +1,10 @@
 ---
-title: Travel & Expense Management – For users
+title: For users
 sidebar_position: 4
 hide_title: true
 custom_edit_url: null
 ---
-## Travel & Expense Management – For users
+## For users
 
 ### Introduction
 
