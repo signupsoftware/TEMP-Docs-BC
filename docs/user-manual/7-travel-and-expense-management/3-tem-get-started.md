@@ -214,7 +214,7 @@ Go to: **Setup (TEM) --> Mileage**
 
 <br/>
 
-## Setup Credit Card in ExFlow Travel & Expense Management
+## Setup Credit Card in ExFlow 
 
 Credit card agreements are useful tools for automatically matching expenses with the appropriate credit card statements when they are received. Once set up, this will save the bookkeeping department time and can be further enhanced by using **the Automatic transaction import** feature.
 
