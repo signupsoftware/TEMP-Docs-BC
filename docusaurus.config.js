@@ -44,7 +44,7 @@ const config = {
 
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: ' /business-central/',
+  baseUrl: '/business-central/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -192,7 +192,8 @@ const config = {
                 label: 'ExFlow for BC',
                 //to: '/docs/user-manual/welcome-to-exflow/introduction',
                 // https://docs.exflow.cloud/business-central/
-                to: siteURL + 'docs/user-manual/welcome-to-exflow/introduction',
+                //to: siteURL + 'docs/user-manual/welcome-to-exflow/introduction',
+                to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction'
                
               },
               {
