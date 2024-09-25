@@ -18,8 +18,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 // EA 2024-09-24 Obsolete, removing this.
 //const siteURL = 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/';
 //const siteURL = 'http://localhost:3000/';
-const siteURL = 'http://docs.exflow.cloud/';
-
+const siteURL = 'https://docs.exflow.cloud/';
+ 
 // Use these to quickly chnage between Dev/Prod
 // -- Development, local --
 //const lnk_intro = 'docs/user-manual/welcome-to-exflow/introduction';
@@ -38,7 +38,7 @@ const config = {
   // Set the production url of your site here
   //url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/',
   //url: 'https://localhost:3000/',
-  url: 'http://docs.exflow.cloud/',
+  url: 'https://docs.exflow.cloud/',
  
  
 
