@@ -10,15 +10,15 @@ import Translate, {translate} from '@docusaurus/Translate';
 const FeatureList = [
   {
     title: <Translate>EXFLOW AP</Translate>,
-    url: '/docs/user-manual/welcome-to-exflow/introduction',
+    url: '/business-central/docs/user-manual/welcome-to-exflow/introduction',
   },
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
-    url: '/docs/user-manual/sales-order/sales-order-setup',
+    url: '/business-central/docs/user-manual/sales-order/sales-order-setup',
   },
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
-    url: '/docs/user-manual/CO2-Insights/co2-insights',
+    url: '/business-central/docs/user-manual/CO2-Insights/co2-insights',
   },
   {
     title: <Translate>EXFLOW WEB</Translate>,
@@ -30,7 +30,7 @@ const FeatureList = [
   },
   {
     title: <Translate>TRAVEL AND EXPENSE</Translate>,
-    url: '/docs/user-manual/travel-and-expense-management/travel-and-expense-management',
+    url: '/business-central/docs/user-manual/travel-and-expense-management/travel-and-expense-management',
   },
 ];
 
