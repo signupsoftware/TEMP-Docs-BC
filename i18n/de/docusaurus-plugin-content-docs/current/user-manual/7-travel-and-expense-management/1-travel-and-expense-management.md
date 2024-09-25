@@ -10,7 +10,7 @@ custom_edit_url: null
 
 Willkommen bei ExFlow Reise- und Spesenmanagement, einer umfassenden Lösung für das nahtlose Management von Reise- und Spesenprozessen innerhalb von Microsoft Dynamics 365 Business Central. Unsere Plattform ist darauf ausgelegt, die Art und Weise, wie eine Organisation Reisebuchungen, Spesenabrechnungen und Rückerstattungen handhabt, zu vereinfachen und zu optimieren, um einen reibungslosen und effizienten Arbeitsablauf zu gewährleisten.
 
-#### Was ist ExFlow Reise- und Spesenmanagement?
+### Was ist ExFlow Reise- und Spesenmanagement?
 
 ExFlow Reise- und Spesenmanagement ist eine fortschrittliche, benutzerfreundliche Anwendung, die in Microsoft Dynamics 365 Business Central integriert ist. Sie ermöglicht es Mitarbeitern, ihre Reisepläne und Spesen effizient zu verwalten, während Administratoren robuste Werkzeuge für die Aufsicht und Kontrolle zur Verfügung stehen. Durch die Automatisierung des gesamten Prozesses reduziert ExFlow den manuellen Aufwand, minimiert Fehler und verbessert die Einhaltung der Unternehmensrichtlinien.
 

@@ -1,11 +1,10 @@
 ---
-title: Reise- und Spesenmanagement – Für Buchhalter
+title: Für Buchhalter
 sidebar_position: 5
 hide_title: true
 custom_edit_url: null
 ---
-
-## Reise- und Spesenmanagement in Business Central - Für Buchhalter
+## Für Buchhalter
 
 ### Buchhalter
 

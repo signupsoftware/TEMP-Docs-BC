@@ -4,8 +4,7 @@ sidebar_position: 3
 hide_title: true
 custom_edit_url: null
 ---
- 
-## Erste Schritte mit Reise- und Spesenmanagement in Business Central
+ ## Erste Schritte mit Reise- und Spesenmanagement in Business Central
 
 Der Administrator übernimmt die Einrichtung und die Benutzerverwaltung im Hintergrund. Die meisten Aufgaben, die ein Administrator erledigen muss, fallen zu Beginn an, wie z.B. das Einrichten der praktischen Elemente des Reise- und Spesenmanagements sowie das Erstellen von Benutzern für die Einreicher und Genehmiger.
 
@@ -213,7 +212,7 @@ Gehen Sie zu: **Einrichtung (TEM) --> Kilometerpauschale**
 
 **Kilometerpauschale-Erstattungshandler:** Wenn die Erstattung über Business Central abgewickelt werden soll, wählen Sie **An Mitarbeiterkonto buchen**, wenn die Erstattung im Lohnabrechnungssystem abgewickelt wird, wählen Sie **Export zu XML**.
 
-## Kreditkarte in ExFlow Travel & Expense Management einrichten
+## Kreditkarte einrichten
 
 Kreditkartenvereinbarungen sind nützliche Werkzeuge, um Ausgaben automatisch mit den entsprechenden Kreditkartenabrechnungen abzugleichen, wenn diese eingehen. Nach der Einrichtung spart dies der Buchhaltungsabteilung Zeit und kann durch die Verwendung der **Automatischen Transaktionsimport**-Funktion weiter verbessert werden.
 
