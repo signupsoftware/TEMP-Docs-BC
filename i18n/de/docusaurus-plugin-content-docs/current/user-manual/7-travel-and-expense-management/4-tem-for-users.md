@@ -1,10 +1,10 @@
 ---
-title: Reise- und Spesenmanagement – Für Benutzer
+title: Für Benutzer
 sidebar_position: 4
 hide_title: true
 custom_edit_url: null
 ---
-## Reise- und Spesenmanagement – Für Benutzer
+## Für Benutzer
 
 ### Einführung
 
