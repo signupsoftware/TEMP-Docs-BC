@@ -3,6 +3,7 @@
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
+// EA 2024-09-25 Re-deploy
 
 
 
