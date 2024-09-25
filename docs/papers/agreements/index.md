@@ -16,6 +16,7 @@ hide_table_of_contents: true
 * [SignUp - Product Terms ExFlow Web 2024-09-16](<./SignUp - Product Terms ExFlow Web 2024-09-16.md>)  
 -->
 <br/>
+<!--
 <div class="agreement-table">
 | Ico | Date | Document | 
 | :-------- | :-------- | :-------- | 
@@ -27,3 +28,4 @@ hide_table_of_contents: true
 | ![Agreement](/img/icon_agreement.png) | 2024-09-16 | [Product Terms ExFlow Data Capture Draft](<./SignUp - Product Terms ExFlow Data Capture Draft 2024-09-16.md>)  |
 | ![Agreement](/img/icon_agreement.png) | 2024-09-16 | [Product Terms ExFlow Web](<./SignUp - Product Terms ExFlow Web 2024-09-16.md>)  |
 </div>
+-->

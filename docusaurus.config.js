@@ -18,15 +18,15 @@ import {themes as prismThemes} from 'prism-react-renderer';
 // EA 2024-09-24 Obsolete, removing this.
 //const siteURL = 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/';
 //const siteURL = 'http://localhost:3000/';
-const siteURL = 'https://docs.exflow.cloud/';
+const siteURL = 'https://docs.exflow.cloud/business-central/';
  
 // Use these to quickly chnage between Dev/Prod
 // -- Development, local --
 //const lnk_intro = 'docs/user-manual/welcome-to-exflow/introduction';
 //const lnk_relnotes = 'docs/user-manual/welcome-to-exflow/release-notes'
 // -- Production, cloud --
-const lnk_intro = 'business-central/docs/user-manual/welcome-to-exflow/introduction'; //'introduction';
-const lnk_relnotes = 'business-central/docs/user-manual/welcome-to-exflow/release-notes'; //'release-notes';
+const lnk_intro = 'docs/user-manual/welcome-to-exflow/introduction'; //'introduction';
+const lnk_relnotes = 'docs/user-manual/welcome-to-exflow/release-notes'; //'release-notes';
 
 
 /** @type {import('@docusaurus/types').Config} */
@@ -128,9 +128,11 @@ const config = {
             position: 'left',
           },
 
+          /*
           {
-            href: siteURL + lnk_intro,
+            //href: siteURL + lnk_intro,
             //href: lnk_intro,
+            href: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction',
             label: 'Documentation',
             position: 'left',
           },
@@ -148,6 +150,7 @@ const config = {
             position: 'left',
           },
 
+          */
           /*
           {
             type: 'docSidebar',
