@@ -30,7 +30,7 @@ const FeatureList = [
     url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
   },
   {
-    title: <Translate>TRAVEL AND EXPENSE</Translate>,
+    title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
     url: '/business-central/docs/user-manual/travel-and-expense-management/travel-and-expense-management',
   },
 ];
