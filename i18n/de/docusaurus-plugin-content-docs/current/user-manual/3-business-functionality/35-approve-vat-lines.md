@@ -8,23 +8,16 @@ custom_edit_url: null
 
 Gehe zu: **ExFlow Setup --> Genehmigung --> MwSt.-Linien genehmigen** 
 
-Aktivieren Sie die Einstellung ''MwSt.-Linien genehmigen'', wenn alle MwSt.-Linien standardmäßig im Genehmigungsprozess enthalten sein sollen. 
+Aktivieren Sie die Einstellung ''MwSt.-Zeilen genehmigen'', wenn die MwSt.-Zeilen standardmäßig in den Genehmigungsablauf aufgenommen werden sollen.
 
 ![MwSt.-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-001.png)
 
-
-Je nach Einstellungen und Workflow kann die Genehmigung von MwSt.-Linien unterschiedlich eingerichtet werden. Um alle MwSt.-Linien standardmäßig automatisch für die Genehmigung anzukreuzen, können Sie ''MwSt.-Linie vorschlagen'' in der ExFlow Purchase Code Card oder unter Allgemein in der ExFlow-Setup aktivieren. 
-
-
-![MwSt.-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-003.png)
-
-ExFlow sendet dann MwSt.-Linien zur Genehmigung an den ausgewählten Genehmiger gemäß dem Genehmigungsfluss. Manuell erstellte MwSt.-Linien im Import Journal werden ebenfalls zur Genehmigung markiert. 
-
+ExFlow sendet dann die MwSt.-Positionen zur Genehmigung an den/die ausgewählte(n) Genehmiger(n) gemäß dem Genehmigungsablauf.
 
 ![MwSt.-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-004.png)
 
-
-Bei Verwendung des ExFlow Purchase Code im Header wird diese Einstellung ignoriert. Mit dieser Funktion aktiviert können Sie immer noch eine Codierung in einem ExFlow Purchase Code mit MwSt.-Linie hinzufügen, bei dem das Genehmigungsfeld nicht angekreuzt ist. Die unten stehenden MwSt.-Linien werden nicht im Genehmigungsprozess enthalten sein.
+Bei Verwendung des ExFlow-Kaufcodes in der Kopfzeile wird die Einstellung ignoriert. Wenn diese Funktion aktiviert ist, funktioniert es weiterhin, eine Codierung in einem ExFlow-Kaufcode mit MwSt.-Zeile hinzuzufügen, bei dem das Kontrollkästchen Genehmigung deaktiviert ist. Die darunter liegenden MwSt.-Zeilen werden in diesem Fall nicht in den Genehmigungsprozess einbezogen.
 
 ![MwSt.-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-002.png)
 
+Die Funktion ''MwSt.-Zeilen vorschlagen'' kann mit ''MwSt.-Zeilen genehmigen'' kombiniert werden, wenn immer separate MwSt.-Zeilen erstellt und in den Genehmigungsablauf für alle Einkaufsbelege aufgenommen werden sollen. Lesen Sie mehr über diese Funktion unter [***MwSt.-Zeilen vorschlagen.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/propose-vat-lines)
