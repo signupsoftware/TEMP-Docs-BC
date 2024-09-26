@@ -3,13 +3,27 @@
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
-// EA 2024-09-25 Re-deploy
-
-
-
-
+//import Translate, {translate} from '@docusaurus/Translate';
 import {themes as prismThemes} from 'prism-react-renderer';
 
+// ========================================================================================================
+// ========================================================================================================
+// IMPORTANT: Ensure DEPLOY_MODE is set to "PROD" before making a pull request.
+// This is crucial because the production settings (siteURL and baseURL) need to be correctly configured
+// for the live environment. Failing to do so may result in incorrect URLs being used, which can break
+// the site or lead to incorrect routing. Always double-check this setting to avoid deployment issues.
+
+//const DEPLOY_MODE = "DEV";
+//const DEPLOY_MODE = "PROD";
+
+const siteURL = 'https://docs.exflow.cloud/';    
+const baseURL = "/business-central/";
+
+//const siteURL = 'http://localhost:3000/';
+//const baseURL = "/";
+
+// ========================================================================================================
+// ========================================================================================================
 
 //import Translate, {translate} from '@docusaurus/Translate';
 //var header1 =  translate({ message: 'Other documentation' });
@@ -19,7 +33,23 @@ import {themes as prismThemes} from 'prism-react-renderer';
 // EA 2024-09-24 Obsolete, removing this.
 //const siteURL = 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/';
 //const siteURL = 'http://localhost:3000/';
-const siteURL = 'https://docs.exflow.cloud/business-central/';
+//const siteURL = 'https://docs.exflow.cloud/business-central/';
+//const subURL = "/";
+
+// var siteURL = "";
+// var baseURL = "";
+
+// if (!(DEPLOY_MODE === "PROD")) {
+//   //siteURL = 'https://docs.exflow.cloud/business-central/';  
+//   siteURL = 'https://docs.exflow.cloud/';    
+//   baseURL = "/business-central/";
+// } 
+// else {
+// //if (DEPLOY_MODE === "DEV") {
+//   siteURL = 'http://localhost:3000/';
+//   baseURL = "/";
+// }
+
  
 // Use these to quickly chnage between Dev/Prod
 // -- Development, local --
@@ -37,15 +67,21 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
+  // EA 2024-09-26 Or not! This is set in the 'siteURL' variable above.
+  // EA 2024-09-26b Joke's on me, it's mandatory even if not in use
+  //
   //url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/',
-  //url: 'https://localhost:3000/',
-  url: 'https://docs.exflow.cloud/',
+  //url: 'https://localhost:3000/',       // Use this for local dev
+  //url: 'https://docs.exflow.cloud/',    // Use this for production
+  url: siteURL,
  
- 
-
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/business-central/',
+  // localhost:3000
+  //baseUrl: '/',    // Use this for local dev
+  //baseUrl: '/business-central/',    // Use this for production  
+  //baseUrl: process.env.IS_LOCAL ? '/' : baseURL,
+  baseUrl: baseURL,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -110,7 +146,6 @@ const config = {
       //image: 'img/docusaurus-social-card.jpg',
       navbar: {
 
-        //title: 'Home',
         logo: {
           //alt: 'ExFlow',
           src: 'img/exflow-logo-v5.png',
@@ -122,29 +157,37 @@ const config = {
             position: 'right',
           },
 
+
           {
-            href: siteURL,
-            //href: '/',
+            href: '/',
+            //href: baseURL,
             label: 'Home',
             position: 'left',
           },
 
-          /*
           {
-            //href: siteURL + lnk_intro,
-            //href: lnk_intro,
-            href: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction',
             label: 'Documentation',
             position: 'left',
+                        //href: siteURL + lnk_intro,
+            //href: lnk_intro,
+            //href: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction',
+            // /business-central/docs/user-manual/welcome-to-exflow/introduction
+            //href: '/business-central/docs/user-manual/welcome-to-exflow/introduction',
+            //href: baseURL + 'docs/user-manual/welcome-to-exflow/introduction'
+            href: '/docs/user-manual/welcome-to-exflow/introduction'
           },
+
 
           {
-            href: siteURL + lnk_relnotes,
-            //href: lnk_relnotes,
             label: 'Release notes',
             position: 'left',
+            //href: siteURL + lnk_relnotes,
+            //href: lnk_relnotes,
+            //href: baseURL + 'docs/user-manual/welcome-to-exflow/release-notes',
+            href: '/docs/user-manual/welcome-to-exflow/release-notes'
           },
 
+/*
           {
             href: 'https://www.youtube.com/playlist?list=PLJAWzooWyJH9V7QYAmcGgxEIFDjfVBB-Y',
             label: 'Video tutorials',
@@ -160,22 +203,6 @@ const config = {
             label: 'Tutorial',
           },
           */
-/*
-          {to: '/docs', label: 'Documentation', position: 'left'},
-          {
-            href: 'https://docs.exflow.cloud',
-            label: 'Documentation',
-            position: 'left',
-          },
-          title: getLang('Other documentation'),
-
-          to: '/docs/user-manual/1-welcome-to-exflow/1-introduction.md',
-
-
-                          label: 'ExFlow for FO',
-                to: '/docs/intro',
-
-*/
         ],
       },
       
