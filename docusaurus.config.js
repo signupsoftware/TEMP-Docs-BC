@@ -187,14 +187,14 @@ const config = {
             href: '/docs/user-manual/welcome-to-exflow/release-notes'
           },
 
-/*
+
           {
             href: 'https://www.youtube.com/playlist?list=PLJAWzooWyJH9V7QYAmcGgxEIFDjfVBB-Y',
             label: 'Video tutorials',
             position: 'left',
           },
 
-          */
+
           /*
           {
             type: 'docSidebar',
