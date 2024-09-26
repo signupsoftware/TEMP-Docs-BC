@@ -14,7 +14,8 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
-    url: '/business-central/docs/user-manual/sales-order/sales-order-setup',
+    //url: '/business-central/docs/user-manual/sales-order/sales-order-setup',
+    url: '/business-central/docs/user-manual/sales-order/technical-requirements-sales', // EA 2024-09-26 Changed by req. from Sofia
   },
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
