@@ -1,6 +1,6 @@
 ---
 title: Dynamic OCR Mapping
-sidebar_position: 3
+sidebar_position: 4
 hide_title: true
 custom_edit_url: null
 ---
@@ -16,6 +16,5 @@ All mapping can be shown in the ExFlow Dynamic OCR Mapping list for the respecti
 ![ExFlow Data Capture Account](@site/static/img/media/dynamics-ocr-mapping-001.png)
 
 
-Read more and see an example under section
-[Handling Imported Sales Orders with Error](https://docs.exflow.cloud/business-central/docs/user-manual/sales-order/sales-import#handling-imported-sales-orders-with-error)
+Read more and see an example under section [***Handling Imported Sales Orders with Error***](https://docs.exflow.cloud/business-central/docs/user-manual/sales-order/sales-import#handling-imported-sales-orders-with-error)
 

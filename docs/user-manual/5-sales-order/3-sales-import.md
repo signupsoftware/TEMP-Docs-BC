@@ -1,6 +1,6 @@
 ---
 title: Sales Order Import
-sidebar_position: 2
+sidebar_position: 3
 hide_title: true
 custom_edit_url: null
 ---

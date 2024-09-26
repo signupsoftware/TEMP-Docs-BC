@@ -1,6 +1,6 @@
 ---
 title: Dynamische OCR-Zuordnung
-sidebar_position: 3
+sidebar_position: 4
 hide_title: true
 custom_edit_url: null
 ---
@@ -16,4 +16,4 @@ Alle Zuordnungen können in der ExFlow Dynamische OCR-Zuordnungsliste für die j
 ![ExFlow Data Capture Account](../../images/dynamics-ocr-mapping-001.png)
 
 Lesen Sie mehr und sehen Sie ein Beispiel im Abschnitt
-[Umgang mit importierten Verkaufsaufträgen mit Fehlern](https://docs.exflow.cloud/business-central/docs/user-manual/sales-order/sales-import#handling-imported-sales-orders-with-error)
+[***Umgang mit importierten Verkaufsaufträgen mit Fehlern***](https://docs.exflow.cloud/business-central/docs/user-manual/sales-order/sales-import#handling-imported-sales-orders-with-error)

@@ -1,9 +1,10 @@
 ---
 title: Technical Requirements for ExFlow Business Central Sales Order
-sidebar_position: 3
+sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
+
 ## ExFlow Business Central Sales Order
 The ExFlow BC Sales order runs on the Dynamics 365 Business Central platform and follows 
 Microsoft´s technical requirements for Dynamics 365 Business Central.
