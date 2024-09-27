@@ -42,7 +42,8 @@ jobs:
         run: |
           #Set Docasaurus basepath to '/'
           $docusaurusConfig = get-content .\docusaurus.config.js
-          $docusaurusConfigDev = $docusaurusConfig.replace("baseUrl: '/web'", "baseUrl: '/'")
+          $docusaurusConfigDev = $docusaurusConfig.replace("baseUrl: '/'", "baseUrl: '/'")
+          $docusaurusConfigDev = $docusaurusConfig.replace("url: 'http://localhost:3000/'", "url: 'https://docs.exflow.cloud/'")
           Set-Content -Path .\docusaurus.config.js -Value $docusaurusConfigDev
           #Set StaticWebapp to Internal net
           $json = '{"networking": {"allowedIpRanges": ["178.174.233.194/32"]}}'
