@@ -7,19 +7,22 @@ import Translate, {translate} from '@docusaurus/Translate';
 // This list controls the side menu items of products.
 // To add new products, just copy an existing one and change the title and url.
 //
+
+/* -- These are the links for local dev environment */
+/*
 const FeatureList = [
   {
     title: <Translate>EXFLOW AP</Translate>,
-    url: '/business-central/docs/user-manual/welcome-to-exflow/introduction',
+    url: '/docs/user-manual',
   },
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
     //url: '/business-central/docs/user-manual/sales-order/sales-order-setup',
-    url: '/business-central/docs/user-manual/sales-order/technical-requirements-sales', // EA 2024-09-26 Changed by req. from Sofia
+    url: '/docs/user-manual/sales-order/technical-requirements-sales', // EA 2024-09-26 Changed by req. from Sofia
   },
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
-    url: '/business-central/docs/user-manual/CO2-Insights/co2-insights',
+    url: '/docs/user-manual/CO2-Insights/co2-insights',
   },
   {
     title: <Translate>EXFLOW WEB</Translate>,
@@ -31,12 +34,46 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
-    url: '/business-central/docs/user-manual/travel-and-expense-management/travel-and-expense-management',
+    url: '/docs/user-manual/travel-and-expense/travel-and-expense',
   },
+];
+*/
+
+/* -- These are the links that should be used for the prod site, when the updated repo is finally deployed. */
+
+const FeatureList = [
+  {
+    title: <Translate>EXFLOW AP</Translate>,
+    url: '/business-central/docs/user-manual',
+  },
+  {
+    title: <Translate>EXFLOW SALES ORDER</Translate>,
+    url: '/business-central/docs/user-manual/sales-order/technical-requirements-sales',
+  },
+  {
+    title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
+    url: '/business-central/docs/user-manual/CO2-Insights/co2-insights',
+  },
+  {
+    title: <Translate>EXFLOW WEB</Translate>,
+    url: 'https://docs.exflow.cloud/web',
+  },
+  {
+    title: <Translate>EXFLOW DATA CAPTURE</Translate>,
+    url: 'https://docs.exflow.cloud/datacapture',
+  },
+  {
+    title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
+    url: '/business-central/docs/user-manual/travel-and-expense/travel-and-expense',
+  }
 ];
 
 
-/* -- These are the links that should be used for the prod site, when the updated repo is finally deployed.
+
+
+/* BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP */
+/* -- These are the links that should be used for the prod site, when the updated repo is finally deployed. */
+/*
 const FeatureList = [
   {
     title: <Translate>EXFLOW AP</Translate>,
