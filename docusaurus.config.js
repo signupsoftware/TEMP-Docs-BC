@@ -173,8 +173,8 @@ const config = {
           {
             label: 'Documentation',
             position: 'left',
-            //href: '/docs/user-manual/welcome-to-exflow/introduction'
-            href: '/docs/user-manual/welcome-to-exflow/introduction'
+            //href: '/docs/user-manual'
+            href: '/business-central/docs/user-manual'
           },
 
 /*
