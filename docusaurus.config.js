@@ -72,16 +72,21 @@ const config = {
   //
   //url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/',
   //url: 'https://localhost:3000/',       // Use this for local dev
-  //url: 'https://docs.exflow.cloud/',    // Use this for production
-  url: siteURL,
+  url: 'https://docs.exflow.cloud/',    // Use this for production
+  //url: siteURL,
+
+  // EA 2024-09-27 We're fixing this in Github Yaml, it replaces 'http://localhost:3000/' with 'https://docs.exflow.cloud/'
+  //url: 'http://localhost:3000/',
+
  
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   // localhost:3000
   //baseUrl: '/',    // Use this for local dev
-  //baseUrl: '/business-central/',    // Use this for production  
-  //baseUrl: process.env.IS_LOCAL ? '/' : baseURL,
-  baseUrl: baseURL,
+  baseUrl: '/business-central/',    // Use this for production  
+  
+  // EA 2024-09-27 We're fixing this in Github Yaml, it replaces '/' with 'business-central'
+  //baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -159,32 +164,26 @@ const config = {
 
 
           {
-            href: '/',
-            //href: baseURL,
             label: 'Home',
             position: 'left',
+            href: '/',
           },
+
+
 
           {
             label: 'Documentation',
             position: 'left',
-                        //href: siteURL + lnk_intro,
-            //href: lnk_intro,
-            //href: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction',
-            // /business-central/docs/user-manual/welcome-to-exflow/introduction
-            //href: '/business-central/docs/user-manual/welcome-to-exflow/introduction',
-            //href: baseURL + 'docs/user-manual/welcome-to-exflow/introduction'
-            href: '/docs/user-manual/welcome-to-exflow/introduction'
+            //href: '/docs/user-manual'
+            to: 'https://docs.exflow.cloud/business-central/docs/user-manual',
           },
 
 
           {
             label: 'Release notes',
             position: 'left',
-            //href: siteURL + lnk_relnotes,
-            //href: lnk_relnotes,
-            //href: baseURL + 'docs/user-manual/welcome-to-exflow/release-notes',
-            href: '/docs/user-manual/welcome-to-exflow/release-notes'
+            //href: '/docs/user-manual/welcome-to-exflow/release-notes'
+            to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/release-notes'
           },
 
 
