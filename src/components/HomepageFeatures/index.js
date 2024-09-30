@@ -53,7 +53,7 @@ const FeatureList = [
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
     url: '/business-central/docs/user-manual/CO2-Insights/co2-insights',
-  },
+  }, 
   {
     title: <Translate>EXFLOW WEB</Translate>,
     url: 'https://docs.exflow.cloud/web',
