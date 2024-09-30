@@ -162,7 +162,7 @@ const config = {
             position: 'right',
           },
 
-/*
+
           {
             href: '/',
             //href: baseURL,
@@ -170,26 +170,22 @@ const config = {
             position: 'left',
           },
 
+
+/*
           {
             label: 'Documentation',
             position: 'left',
-                        //href: siteURL + lnk_intro,
-            //href: lnk_intro,
-            //href: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction',
-            // /business-central/docs/user-manual/welcome-to-exflow/introduction
-            //href: '/business-central/docs/user-manual/welcome-to-exflow/introduction',
-            //href: baseURL + 'docs/user-manual/welcome-to-exflow/introduction'
-            href: '/docs/user-manual/welcome-to-exflow/introduction'
+            //href: '/docs/user-manual'
+            href: '/docs/user-manual'
           },
+*/
 
-
+/*
           {
             label: 'Release notes',
             position: 'left',
-            //href: siteURL + lnk_relnotes,
-            //href: lnk_relnotes,
-            //href: baseURL + 'docs/user-manual/welcome-to-exflow/release-notes',
-            href: '/docs/user-manual/welcome-to-exflow/release-notes'
+            //href: '/docs/user-manual/welcome-to-exflow/release-notes'
+            href: '/business-central/docs/user-manual/welcome-to-exflow/release-notes'
           },
 
 
@@ -198,8 +194,8 @@ const config = {
             label: 'Video tutorials',
             position: 'left',
           },
-*/
 
+*/
 
           /*
           {
