@@ -57,6 +57,7 @@
 }
 [data-theme='light'] .footer {
   background-color: #F1E4D5; 
+  /*background-color: red;*/
 }
 
 [data-theme='dark'] .footer__link-item {

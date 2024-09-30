@@ -73,15 +73,20 @@ const config = {
   //url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/',
   //url: 'https://localhost:3000/',       // Use this for local dev
   //url: 'https://docs.exflow.cloud/',    // Use this for production
-  url: siteURL,
+  //url: siteURL,
+
+  // EA 2024-09-27 We're fixing this in Github Yaml, it replaces 'http://localhost:3000/' with 'https://docs.exflow.cloud/'
+  url: 'http://localhost:3000/',
+
  
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   // localhost:3000
   //baseUrl: '/',    // Use this for local dev
   //baseUrl: '/business-central/',    // Use this for production  
-  //baseUrl: process.env.IS_LOCAL ? '/' : baseURL,
-  baseUrl: baseURL,
+  
+  // EA 2024-09-27 We're fixing this in Github Yaml, it replaces '/' with 'business-central'
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -157,7 +162,7 @@ const config = {
             position: 'right',
           },
 
-
+/*
           {
             href: '/',
             //href: baseURL,
@@ -193,6 +198,7 @@ const config = {
             label: 'Video tutorials',
             position: 'left',
           },
+*/
 
 
           /*
