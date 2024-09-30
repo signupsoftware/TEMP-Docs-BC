@@ -14,12 +14,11 @@ Hauptversion
 2024-09-13
 
 **Veröffentlichungsinformationen:** <br/>
+Erfordert BC 23.0 oder höher <br/>
 
 Negative Positionsrabatte können nun im Importjournal in 24.0.309.15 bearbeitet werden<br/>
 
 In bestimmten Fällen ist die Option "Mindest-Nr. der Genehmiger" nicht wie vorgesehen funktionierte, dies wurde in 24.0.309.15 behoben<br/>
-
-Erfordert BC 23.0 oder höher <br/>
 
 Die Möglichkeit, falsche Rabatte zu ändern, ist in 24.0.310.12 behoben<br/>
 
