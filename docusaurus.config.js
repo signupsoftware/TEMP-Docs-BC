@@ -175,7 +175,7 @@ const config = {
             label: 'Documentation',
             position: 'left',
             //href: '/docs/user-manual'
-            href: 'https://docs.exflow.cloud/business-central/docs/user-manual',
+            to: 'https://docs.exflow.cloud/business-central/docs/user-manual',
           },
 
 
@@ -183,7 +183,7 @@ const config = {
             label: 'Release notes',
             position: 'left',
             //href: '/docs/user-manual/welcome-to-exflow/release-notes'
-            href: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/release-notes'
+            to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/release-notes'
           },
 
 
