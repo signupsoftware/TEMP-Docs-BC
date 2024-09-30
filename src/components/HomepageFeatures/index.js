@@ -52,7 +52,7 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
-    url: '/business-central/docs/user-manual/CO2-Insights/co2-insights',
+    url: '/business-central/docs/user-manual/CO2-Insights/co2-insights', 
   }, 
   {
     title: <Translate>EXFLOW WEB</Translate>,

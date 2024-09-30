@@ -175,8 +175,7 @@ const config = {
             label: 'Documentation',
             position: 'left',
             //href: '/docs/user-manual'
-            //href: 'https://docs.exflow.cloud/business-central/docs/user-manual',
-            href: 'docs/user-manual'
+            href: 'https://docs.exflow.cloud/business-central/docs/user-manual',
           },
 
 
