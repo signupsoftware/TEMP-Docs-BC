@@ -179,14 +179,13 @@ const config = {
           },
 
 
-/*
           {
             label: 'Release notes',
             position: 'left',
             //href: '/docs/user-manual/welcome-to-exflow/release-notes'
-            href: '/business-central/docs/user-manual/welcome-to-exflow/release-notes'
+            href: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/release-notes'
           },
-*/
+
 
           {
             href: 'https://www.youtube.com/playlist?list=PLJAWzooWyJH9V7QYAmcGgxEIFDjfVBB-Y',

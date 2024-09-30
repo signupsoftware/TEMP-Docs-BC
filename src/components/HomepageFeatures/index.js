@@ -52,7 +52,7 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
-    url: '/business-central/docs/user-manual/CO2-Insights/co2-insights',
+    url: '/business-central/docs/user-manual/CO2-Insights/co2-insights', 
   }, 
   {
     title: <Translate>EXFLOW WEB</Translate>,
@@ -60,7 +60,7 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-    url: 'https://docs.exflow.cloud/datacapture',
+    url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
   },
   {
     title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
