@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## ExFlow Business Central Online
 
-Following information describes the technical requirement for running ExFlow Business Central Online on Dynamics 
+Following information describes the technical requirement for running ExFlow AP Business Central Online on Dynamics 
 365 Business Central Online using ExFlow Data Capture as the OCR solution.
 
 ![Technical Requirements for ExFlow Business Central Online](@site/static/img/media/technical-requirements-for-exflow-001.png)

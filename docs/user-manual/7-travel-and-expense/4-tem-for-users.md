@@ -6,13 +6,11 @@ custom_edit_url: null
 ---
 ## For users
 
-### Introduction
+ExFlow Travel and Expense covers multiple steps in the expense and mileage submission process. It includes various roles with different responsibilities, all contributing to the best possible experience and the fastest process available.
 
-ExFlow Travel and Expense Management covers multiple steps in the expense and mileage submission process. It includes various roles with different responsibilities, all contributing to the best possible experience and the fastest process available.
+This section documents the different roles within ExFlow Travel and Expense, detailing their functions and interactions. It also provides information on where to learn how to fulfill each role optimally.<br/>
 
-This section documents the different roles within ExFlow Travel and Expense Management, detailing their functions and interactions. It also provides information on where to learn how to fulfill each role optimally.<br/>
-
-### User
+<br/>
 
 The user submits expenses and mileage. Simply take a photo of the receipts and submit them through the app within moments, or record mileage in the same app.
 
@@ -20,21 +18,21 @@ The user submits expenses and mileage. Simply take a photo of the receipts and s
 
 -   Link to web portal section
 
-The intended way to use ExFlow Travel and Expense Management is through the app, which can be accessed on any device normally used for apps. The app allows taking a photo of an expense directly, or plotting a route from one place to another, and immediately sending it for approval.
+The intended way to use ExFlow Travel and Expense is through the app, which can be accessed on any device normally used for apps. The app allows taking a photo of an expense directly, or plotting a route from one place to another, and immediately sending it for approval.
 <br/>
 
-### ExFlow Travel & Expense Management mobile app
+### ExFlow Travel & Expense mobile app
 
-ExFlow Travel & Expense Management app, available on Android and iOS, allows effortless and quick submission of expenses and mileage from a mobile device. The created documents will be available to approvers and the finance department as soon as they are submitted.
+ExFlow Travel & Expense app, available on Android and iOS, allows effortless and quick submission of expenses and mileage from a mobile device. The created documents will be available to approvers and the finance department as soon as they are submitted.
 
 The app is the intended method by which employees should submit their expenses and mileages, as it takes but a few clicks and inputs to submit while on the go.
 
 Below are examples of how the app appears on various pages. 
 <br/>
 
-#### Getting started with ExFlow Travel & Expense Management app
+#### Getting started with ExFlow Travel & Expense app
 
-To start using the app, downloading it is the first step. It is available for download from both Google Play and the Apple App Store. Users can find it using the links below or by searching for ''Travel and Expense Management'' in the respective store.
+To start using the app, downloading it is the first step. It is available for download from both Google Play and the Apple App Store. Users can find it using the links below or by searching for ''Travel and Expense'' in the respective store.
 
 **Go to:** Link to Google Play and Apple App Store
 
@@ -42,7 +40,7 @@ To start using the app, downloading it is the first step. It is available for do
 
 ##### Login
 
-Login into ExFlow Travel and Expense Management app requires two steps on your first login. Here is the customer ID screen below.
+Login into ExFlow Travel and Expense app requires two steps on your first login. Here is the customer ID screen below.
 
 ![A screenshot of a travel and expense form Description automatically generated](@site/static/img/media/tem-038.png)
 
@@ -51,7 +49,7 @@ When opening the app for the first time, enter a Customer ID and login credentia
 
 #### App interface
 
-This section documents the different relevant elements in ExFlow Travel and Expense Management app.
+This section documents the different relevant elements in ExFlow Travel and Expense app.
 
 ##### Home screen on phone
 
@@ -125,7 +123,7 @@ Initiate the process of submitting an expense in four different ways:
 
 **Go to: Camera** icon in the bottom menu to start the process by taking a photo of a receipt.
 
-Share a photo from the photo gallery and select the ExFlow Travel & Expense Management app icon. If sharing multiple photos, options include creating one expense with all photos or creating one expense per photo.
+Share a photo from the photo gallery and select the ExFlow Travel & Expense app icon. If sharing multiple photos, options include creating one expense with all photos or creating one expense per photo.
 
 Touch and hold the app icon on the home screen to access the following options: **New mileage** or **New expense**. Shortcuts to these options can be created by dragging them onto the home screen.
 
@@ -139,7 +137,7 @@ If wishing to discard an expense, tap the **Delete** button at the top.
 
 ##### Photos
 
-Photos are crucial in ExFlow Travel and Expense Management, enabling discarding receipts immediately after capturing them. Below are some key details regarding expense photos.
+Photos are crucial in ExFlow Travel and Expense, enabling discarding receipts immediately after capturing them. Below are some key details regarding expense photos.
 
 **Photo preview**: Tapping a photo opens a preview where options include deleting or rotating it. At the bottom, select which photo to preview.
 
@@ -198,7 +196,7 @@ Below is a description of each term in an expense report. In the app, items high
 
 ### Submitting credit card transactions
 
-Credit card transactions are commonly used for various expenses, including those paid on behalf of your company. ExFlow Travel & Expense Management simplifies reporting these transactions, especially when Credit Card Agreements are set up to automatically match them with appropriate expense reports.
+Credit card transactions are commonly used for various expenses, including those paid on behalf of your company. ExFlow Travel & Expense simplifies reporting these transactions, especially when Credit Card Agreements are set up to automatically match them with appropriate expense reports.
 
 #### Report an expense report when using company credit card
 
@@ -252,7 +250,7 @@ The transaction is now sent for approval to the manager.
 
 ### Submitting mileage
 
-Submitting mileage is part of the ExFlow Travel and Expense Management and is made to be as easy as possible for the user, the use, to do. The user has the option to easily send in their mileage for approval with only a few clicks.
+Submitting mileage is part of the ExFlow Travel and Expense and is made to be as easy as possible for the user, the use, to do. The user has the option to easily send in their mileage for approval with only a few clicks.
 
 Go to the **''car''**
 ![A car with a yellow outline Description automatically generated with medium confidence](@site/static/img/media/tem-056.png)
@@ -297,7 +295,7 @@ Below are the fields that need to be completed for mileage to be sent for approv
 
 ### Vehicles
 
-Before the user can submit mileages in ExFlow Travel & Expense Management, a vehicle must be added.
+Before the user can submit mileages in ExFlow Travel & Expense, a vehicle must be added.
 
 Go to: **Menu item --> Vehicles --> Add**
 
@@ -315,7 +313,7 @@ Go to: **Menu item --> Vehicles --> Add**
 
 <br/>
 
-### ExFlow Travel & Expense Management AppsForDynamics365.com portal
+### ExFlow Travel & Expense AppsForDynamics365.com portal
 
 Just like the mobile app any user can access the **AppsForDynamics365.com** web portal to create expenses and mileages.
 
@@ -402,7 +400,7 @@ Below are optional fields when creating an expense, depending on your company po
 
 ### Credit card transactions
 
-Credit card transactions are a popular way to pay for several things, and this also extends to paying on behalf of the company. ExFlow Travel and Expense Management simplifies reporting these transactions, especially if Credit Card Agreements have been set up, as automatic matching with fitting expense reports becomes possible.
+Credit card transactions are a popular way to pay for several things, and this also extends to paying on behalf of the company. ExFlow Travel & Expense simplifies reporting these transactions, especially if Credit Card Agreements have been set up, as automatic matching with fitting expense reports becomes possible.
 
 A credit card transaction can be opened from the dashboard, details filled in, and then sent as an expense. If an expense has already been created for the credit card transaction, it can be merged with the credit card transaction.
 
@@ -413,7 +411,7 @@ Go to: **Travel & Expense --> New expense**
 
 The process of submitting an expense begins by filling out the following view.
 
-Important! This is the process for reporting an expense before the credit card transaction is imported to ExFlow Travel & Expense Management.
+Important! This is the process for reporting an expense before the credit card transaction is imported to ExFlow Travel & Expense.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-070.png)
 
