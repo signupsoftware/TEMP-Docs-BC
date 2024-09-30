@@ -5,16 +5,17 @@ hide_title: true
 custom_edit_url: null
 ---
 ## Für Buchhalter
-
-### Buchhalter
-
 Die Buchhaltung ist die letzte Stufe bei der Bearbeitung von Spesen oder Kilometergeld und kann effizient mit nur wenigen Klicks im ExFlow Reise- und Spesenmanagement von Business Central verwaltet werden. Bitte beachten Sie, dass Business Central nicht für die Einreichung von Spesen oder Kilometergeld ausgelegt ist. Verwenden Sie hierfür bitte die mobile App oder das Webportal.
+
+<br/>
 
 ### Übersicht in Business Central
 
 Die Rollen **Reise- & Spesenmanagement, Geschäftsleiter** und **Buchhalter** enthalten die folgenden Kacheln im Rollencenter.
 
 ![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-083.png)
+
+<br/>
 
 ### Spesen
 

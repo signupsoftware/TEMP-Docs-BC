@@ -6,8 +6,7 @@ custom_edit_url: null
 ---
 
 ## ExFlow Business Central Sales Order
-The ExFlow BC Sales order runs on the Dynamics 365 Business Central platform and follows 
-Microsoft´s technical requirements for Dynamics 365 Business Central.
+ExFlow Sales Order runs on the Dynamics 365 Business Central platform and follows Microsoft´s technical requirements for Dynamics 365 Business Central.
 
 Read about the minimum requirements for using Business Central [***here***](https://docs.microsoft.com/en-us/dynamics365/business-central/product-requirements).<br/>
 

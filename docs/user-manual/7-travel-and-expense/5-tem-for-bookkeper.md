@@ -6,15 +6,13 @@ custom_edit_url: null
 ---
 ## For bookkeepers
 
-### Bookkeeper
-
-Bookkeeping is the final stage in processing expenses or mileage and can be efficiently managed with just a few clicks in ExFlow Travel & Expense Management\'s Business Central. Please note that Business Central is not designed for submitting expenses or mileage. For these purposes, kindly use the mobile app or the web portal.
+Bookkeeping is the final stage in processing expenses or mileage and can be efficiently managed with just a few clicks in ExFlow Travel & Expense Business Central. Please note that Business Central is not designed for submitting expenses or mileage. For these purposes, kindly use the mobile app or the web portal.
 
 <br/>
 
 ### Overview in Business Central
 
-The roles **Travel & Expense management, Business Manager** and **Accountant** contains the following tiles in the role center.
+The roles **Travel & Expense, Business Manager** and **Accountant** contains the following tiles in the role center.
 
 ![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-083.png)
 

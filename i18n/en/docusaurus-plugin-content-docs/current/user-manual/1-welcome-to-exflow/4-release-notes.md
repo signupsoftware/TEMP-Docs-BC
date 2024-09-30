@@ -17,11 +17,15 @@ Major Release
 **Release Information:** <br/>
 Requires BC 23.0 or later <br/>
 
-Being able to change incorrect discounts is solved in 24.0.310.12
+Negative line discounts can now be handled in the Import Journal in 24.0.309.15<br/>
 
-Minor fixes to Order matching where ExFlow sometimes could not identified the correct line is solved 24.0.310.12
+In some specific cases the option "Minimum No. of Approvers" did not work as intended, this has been resolved in 24.0.309.15<br/>
 
-ExFlow permission sets not containing enough permissions is solved in 24.0.310.12
+Being able to change incorrect discounts is solved in 24.0.310.12<br/>
+
+Minor fixes to Order matching where ExFlow sometimes could not identified the correct line is solved 24.0.310.12<br/>
+
+ExFlow permission sets not containing enough permissions is solved in 24.0.310.12 <br/>
 
 <br/>
 

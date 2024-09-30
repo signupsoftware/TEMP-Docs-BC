@@ -1,14 +1,14 @@
 ---
-title: Get started with Travel & Expense Management
+title: Get started with Travel & Expense
 sidebar_position: 3
 hide_title: true
 custom_edit_url: null
 ---
-## Get started with Travel & Expense Management in Business Central
+## Get started with Travel & Expense 
 
-The administrator handles the setup and the users behind the scenes. Most of the work an administrator will have to do will be up-front, with things such as setting up the practical elements of Travel and Expense Management, as well as creating users for the submitters and approvers.
+The administrator handles the setup and the users behind the scenes. Most of the work an administrator will have to do will be up-front, with things such as setting up the practical elements of Travel and Expense, as well as creating users for the submitters and approvers.
 
-This section will assist with the setup of ExFlow Travel & Expense Management.
+This section will assist with the setup of ExFlow Travel & Expense in Business Central.
 
 Below is listed the necessary steps to set up:
 
@@ -26,11 +26,11 @@ Below is listed the necessary steps to set up:
 
 - **Travel rates**
 
-To access the different views in this section, use the search field or the **Travel and Expense Management overview** in the top bar to navigate to the explore all view. 
+To access the different views in this section, use the search field or the **Travel and Expense overview** in the top bar to navigate to the explore all view. 
 
 ### Setup Wizard
 
-The setup wizard is designed to streamline the basic setup for ExFlow Travel & Expense Management. This user manual will guide users through the steps, ensuring the setup process is straightforward and easy to complete.
+The setup wizard is designed to streamline the basic setup for ExFlow Travel & Expense. This user manual will guide users through the steps, ensuring the setup process is straightforward and easy to complete.
 
 Go to: **Travel & Expense overview --> Setup wizard**
 
@@ -311,7 +311,7 @@ Go to: **Excel import definition (TEM)**
 
 #### Map fields to Excel columns
 
-In this section, specify which columns in the Excel file should map to the fields in ExFlow Travel & Expense Management.
+In this section, specify which columns in the Excel file should map to the fields in ExFlow Travel & Expense.
 
 Example, if the card number is placed in column D in the Excel file type in D in the field **Card number.**
 

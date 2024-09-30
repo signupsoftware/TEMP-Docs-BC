@@ -6,23 +6,21 @@ custom_edit_url: null
 ---
 ## AppsForDynamics365 Portal Connector
 
-### Introduction 
-The AppsForDynamics365 Portal Connector facilitates the integration of the ExFlow Travel & Expense Management application with your Business Central system. Acting as an intermediary, it ensures that data is transmitted directly to Business Central in easily processed and digestible formats for storage or application.
+The AppsForDynamics365 Portal Connector facilitates the integration of the ExFlow Travel & Expense application with your Business Central system. Acting as an intermediary, it ensures that data is transmitted directly to Business Central in easily processed and digestible formats for storage or application.
 
-The portal offers easy access for users who are not Business Central super users and may be on the road while performing tasks in ExFlow Travel & Expense Management.
+The portal offers easy access for users who are not Business Central super users and may be on the road while performing tasks in ExFlow Travel & Expense.
 
 This documentation provides all the necessary information to set up AppsForDynamics365 and connect it with Business Central.
 
 
 ### AppsForDynamics365 integration setup
-This section documents the setup process for the AppsForDynamics365 integration. The integration module is used by ExFlow Travel & Expense Management to connect Business Central to the AppsForDynamics365 portal.
+This section documents the setup process for the AppsForDynamics365 integration. The integration module is used by ExFlow Travel & Expense to connect Business Central to the AppsForDynamics365 portal.
 
 To complete the setup, use the AppsForDynamics365 setup wizard, which guides users through the necessary steps to establish the connection to Business Central. Access the wizard by either clicking the notification on Business Central front page or navigating to the AppsForDynamics365 portal configuration page using the search function. Once there, click the "Configure connection" button to open the wizard.
 
 It is important that this wizard is run by someone with the necessary permissions to grant consent.
 
 #### Configure AppsForDynamics365 connection
-
 Go to: **AppsForDynamics365 Configuration**
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-001.png)
@@ -97,7 +95,7 @@ The configuration wizard for the AppsForDynamics365 connection has been successf
 
 #### Creating a AppsForDynamics365 user
 
-To access the AppsForDynamics365 portal and use the ExFlow Travel & Expense Management app, each user must have a created user account. This login is shared across companies.
+To access the AppsForDynamics365 portal and use the ExFlow Travel & Expense app, each user must have a created user account. This login is shared across companies.
 
 Every user requiring access to the AppsForDynamics365 portal must be set up as an AppsForDynamics365 user. The AppsForDynamics365 user extends the Business Central employee by making sure that settings set on the Employee are also enforced on the AppsForDynamics365 portal.
 

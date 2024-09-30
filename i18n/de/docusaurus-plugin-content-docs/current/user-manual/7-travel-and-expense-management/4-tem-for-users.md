@@ -6,13 +6,11 @@ custom_edit_url: null
 ---
 ## Für Benutzer
 
-### Einführung
-
 ExFlow Reise- und Spesenmanagement umfasst mehrere Schritte im Prozess der Spesen- und Kilometerabrechnung. Es beinhaltet verschiedene Rollen mit unterschiedlichen Verantwortlichkeiten, die alle zu der bestmöglichen Erfahrung und dem schnellsten verfügbaren Prozess beitragen.
 
 Dieser Abschnitt dokumentiert die verschiedenen Rollen innerhalb des ExFlow Reise- und Spesenmanagements, beschreibt ihre Funktionen und Interaktionen. Es bietet auch Informationen darüber, wo Sie lernen können, jede Rolle optimal zu erfüllen.
 
-### Benutzer
+<br/>
 
 Der Benutzer reicht Spesen und Kilometer ein. Machen Sie einfach ein Foto der Belege und reichen Sie diese innerhalb von Momenten über die App ein oder erfassen Sie Kilometer in derselben App.
 

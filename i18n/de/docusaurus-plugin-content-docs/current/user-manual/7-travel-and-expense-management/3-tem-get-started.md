@@ -4,11 +4,11 @@ sidebar_position: 3
 hide_title: true
 custom_edit_url: null
 ---
- ## Erste Schritte mit Reise- und Spesenmanagement in Business Central
+ ## Erste Schritte mit Reise- und Spesenmanagement 
 
 Der Administrator übernimmt die Einrichtung und die Benutzerverwaltung im Hintergrund. Die meisten Aufgaben, die ein Administrator erledigen muss, fallen zu Beginn an, wie z.B. das Einrichten der praktischen Elemente des Reise- und Spesenmanagements sowie das Erstellen von Benutzern für die Einreicher und Genehmiger.
 
-Dieser Abschnitt unterstützt bei der Einrichtung des ExFlow Reise- und Spesenmanagements.
+Dieser Abschnitt unterstützt bei der Einrichtung des ExFlow Reise- und Spesenmanagements in Business Central.
 
 Nachfolgend sind die notwendigen Schritte zur Einrichtung aufgeführt:
 

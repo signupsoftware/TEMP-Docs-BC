@@ -14,13 +14,18 @@ Hauptversion
 2024-09-13
 
 **Veröffentlichungsinformationen:** <br/>
+
+Negative Positionsrabatte können nun im Importjournal in 24.0.309.15 bearbeitet werden<br/>
+
+In bestimmten Fällen ist die Option "Mindest-Nr. der Genehmiger" nicht wie vorgesehen funktionierte, dies wurde in 24.0.309.15 behoben<br/>
+
 Erfordert BC 23.0 oder höher <br/>
 
-Die Möglichkeit, falsche Rabatte zu ändern, ist in 24.0.310.12 behoben
+Die Möglichkeit, falsche Rabatte zu ändern, ist in 24.0.310.12 behoben<br/>
 
-Kleinere Korrekturen beim Order-Matching, bei dem ExFlow manchmal nicht die richtige Zeile identifizieren konnte, wurden behoben 24.0.310.12
+Kleinere Korrekturen beim Order-Matching, bei dem ExFlow manchmal nicht die richtige Zeile identifizieren konnte, wurden behoben 24.0.310.12<br/>
 
-ExFlow-Berechtigungssätze, die nicht genügend Berechtigungen enthalten, wurden in 24.0.310.12 behoben
+ExFlow-Berechtigungssätze, die nicht genügend Berechtigungen enthalten, wurden in 24.0.310.12 behoben<br/>
 
 <br/>
 
