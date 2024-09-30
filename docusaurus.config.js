@@ -162,20 +162,23 @@ const config = {
             position: 'right',
           },
 
-/*
+
           {
             href: '/',
             //href: baseURL,
             label: 'Home',
             position: 'left',
           },
-*/
+
+
+/*
           {
             label: 'Documentation',
             position: 'left',
             //href: '/docs/user-manual'
             href: '/docs/user-manual'
           },
+*/
 
 /*
           {
