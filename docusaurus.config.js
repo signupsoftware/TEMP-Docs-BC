@@ -164,10 +164,9 @@ const config = {
 
 
           {
-            href: '/',
-            //href: baseURL,
             label: 'Home',
             position: 'left',
+            href: '/',
           },
 
 
@@ -176,7 +175,7 @@ const config = {
             label: 'Documentation',
             position: 'left',
             //href: '/docs/user-manual'
-            href: '/docs/user-manual'
+            href: '????/docs/user-manual'
           },
 */
 
@@ -187,7 +186,7 @@ const config = {
             //href: '/docs/user-manual/welcome-to-exflow/release-notes'
             href: '/business-central/docs/user-manual/welcome-to-exflow/release-notes'
           },
-
+*/
 
           {
             href: 'https://www.youtube.com/playlist?list=PLJAWzooWyJH9V7QYAmcGgxEIFDjfVBB-Y',
@@ -195,7 +194,6 @@ const config = {
             position: 'left',
           },
 
-*/
 
           /*
           {
