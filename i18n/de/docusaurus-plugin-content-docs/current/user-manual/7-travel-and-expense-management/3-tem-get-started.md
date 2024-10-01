@@ -337,4 +337,4 @@ Beispiel: Wenn sich die Kartennummer in Spalte D der Excel-Datei befindet, geben
 **MCC-Beschreibung:** Definieren Sie die Spalte für die MCC-Beschreibung, nicht obligatorisch.
 
 **Eindeutige Referenz:** Definieren Sie die Spalte für die eindeutige Referenz, nicht obligatorisch.
- 
+  
