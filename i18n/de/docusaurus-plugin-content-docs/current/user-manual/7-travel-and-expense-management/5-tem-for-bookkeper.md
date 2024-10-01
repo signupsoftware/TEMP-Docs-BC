@@ -246,4 +246,4 @@ Um eine Transaktion als bearbeitet zu markieren, gehen Sie wie folgt vor.
 2. Wählen Sie in der Aktionsleiste **Aktionen** und dann **Transaktion als bearbeitet markieren**.
 
 ![Ein Screenshot eines Computers Beschreibung automatisch generiert](@site/static/img/media/tem-100.png)
- 
+

@@ -168,4 +168,4 @@ Wählen Sie einen bestimmten Mitarbeiter aus der Liste aus, um Zugriff auf das *
 ![Ein Screenshot eines Computers, der automatisch generiert wurde](@site/static/img/media/tem-019.png)
 
 ![Ein Screenshot eines Computers, der automatisch generiert wurde](@site/static/img/media/tem-020.png)
- 
+  
