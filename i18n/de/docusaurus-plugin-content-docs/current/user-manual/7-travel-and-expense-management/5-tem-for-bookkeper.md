@@ -5,69 +5,74 @@ hide_title: true
 custom_edit_url: null
 ---
 ## Für Buchhalter
-Die Buchhaltung ist die letzte Stufe bei der Bearbeitung von Spesen oder Kilometergeld und kann effizient mit nur wenigen Klicks im ExFlow Reise- und Spesenmanagement von Business Central verwaltet werden. Bitte beachten Sie, dass Business Central nicht für die Einreichung von Spesen oder Kilometergeld ausgelegt ist. Verwenden Sie hierfür bitte die mobile App oder das Webportal.
+
+Die Buchhaltung ist der letzte Schritt bei der Verarbeitung von Ausgaben oder Kilometergeld und kann in ExFlow Travel & Expense Business Central mit nur wenigen Klicks effizient verwaltet werden. Bitte beachten Sie, dass Business Central nicht für die Einreichung von Ausgaben oder Kilometergeld konzipiert ist. Verwenden Sie hierfür bitte die mobile App oder das Webportal.
 
 <br/>
 
 ### Übersicht in Business Central
 
-Die Rollen **Reise- & Spesenmanagement, Geschäftsleiter** und **Buchhalter** enthalten die folgenden Kacheln im Rollencenter.
+Die Rollen **Travel & Expense, Business Manager** und **Accountant** enthalten die folgenden Kacheln im Rollencenter.
 
-![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-083.png)
+![Ein Screenshot eines Computerbildschirms Beschreibung automatisch generiert](@site/static/img/media/tem-083.png)
 
 <br/>
 
-### Spesen
+### Ausgaben
 
-Nachdem eine Spesenabrechnung eingereicht und genehmigt wurde, kann sie vom Buchhalter in Business Central bearbeitet werden. Die Bearbeitung einer Spesenabrechnung kann verschiedene Elemente umfassen, wie zum Beispiel:
+Nachdem eine Ausgabe eingereicht und genehmigt wurde, kann sie vom Buchhalter in Business Central verarbeitet werden. Die Verarbeitung einer Ausgabe kann verschiedene Elemente umfassen, wie zum Beispiel:
 
--   Buchen der Spesenabrechnung.
+-   Buchen der Ausgabe.
 
 -   Eine Kreditkartentransaktion als private Nutzung kennzeichnen.
 
--   Aufteilen der Spesenabrechnung auf mehrere Mitarbeiter.
+-   Die Ausgabe auf mehrere Mitarbeiter aufteilen.
 
--   Zurücksendung der Spesenabrechnung an den Genehmiger oder vollständige Ablehnung.
+-   Ausgaben entweder an den Genehmiger zurücksenden oder vollständig ablehnen.
 
-#### Eine Spesenabrechnung buchen
+#### Eine Ausgabe buchen
 
-Das Buchen einer genehmigten Spesenabrechnung kann in wenigen Schritten erfolgen.
+Das Buchen einer genehmigten Ausgabe kann in wenigen Schritten erfolgen.
 
 Gehen Sie zu: **Bereit zum Buchen (TEM)**
 
-![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-084.png)
+![Ein Screenshot eines Computerbildschirms Beschreibung automatisch generiert](@site/static/img/media/tem-084.png)
 
-Buchen Sie eine Spesenabrechnung, indem Sie **F9** drücken oder **Buchen** auswählen.
+Buchen Sie eine Ausgabe, indem Sie **F9** drücken oder **Buchen** auswählen.
 
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-085.png)
+![Ein Screenshot eines Computers Beschreibung automatisch generiert](@site/static/img/media/tem-085.png)
 
-Der Benutzer kann nur Spesenabrechnungen mit dem Status **Genehmigt** (grüne Farbe) buchen.
+Der Benutzer kann nur Ausgaben mit dem Status **Genehmigt** (grüne Farbe) buchen.
 
-### Bearbeiten der Spesenabrechnung
+<br/>
 
-Wenn der Buchhalter die Spesenabrechnung vor dem Buchen überprüfen oder bearbeiten möchte.
+### Die Ausgabe bearbeiten
 
-Gehen Sie zu: **Bearbeiten --> auf das "Pin" klicken**
+Wenn der Buchhalter die Ausgabe vor dem Buchen überprüfen oder bearbeiten möchte.
+
+Gehen Sie zu: **Bearbeiten --> auf die "Stecknadel" klicken**
 
 Die Felder, die in dieser Ansicht bearbeitet werden können, sind:
 
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-086.png)
+![Ein Screenshot eines Computers Beschreibung automatisch generiert](@site/static/img/media/tem-086.png)
 
-**Buchungsdatum**: Der Tag, an dem der Posten gebucht werden soll, nützlich für Unternehmen, die ihre Spesenabrechnungen an bestimmten Tagen des Monats buchen möchten.
+**Buchungsdatum**: Der Tag, an dem der Posten gebucht werden soll, nützlich für Unternehmen, die ihre Ausgaben an bestimmten Tagen des Monats buchen möchten.
 
 **Zusätzliche Informationen**: Der Benutzer kann alle relevanten Informationen oder Kontexte hinzufügen.
 
-**Zeilen**: Der Benutzer kann die Einzelheiten der betreffenden Spesenabrechnung ändern, wie z.B. Buchungsgruppen und welche Mitarbeiter beteiligt waren. Der Buchhalter kann die Spesenabrechnungen auch auf mehrere Mitarbeiter aufteilen.
+**Zeilen**: Der Benutzer kann die Einzelheiten der betreffenden Ausgabe ändern, wie z.B. Buchungsgruppen und welche Mitarbeiter beteiligt waren. Der Buchhalter kann die Ausgaben auch auf mehrere Mitarbeiter aufteilen.
 
 **Saldozeilen**: Dies sind die Zeilen, die an die Mitarbeiter ausgezahlt werden sollen.
 
-**Dimensionen**: Über **Dokument** in der Aktionsleiste zugänglich, ermöglicht die Dimensionsansicht dem Buchhalter, Dimensionen zu ändern. Dies sind Standardfunktionen von Business Central.
+**Dimensionen**: Über **Dokument** in der Aktionsleiste zugänglich, ermöglicht die Dimensionsansicht dem Buchhalter, Dimensionen zu ändern. Diese sind Business Central Standard.
 
-### Aufteilen einer Spesenabrechnung
+<br/>
 
-Einige genehmigte Spesenabrechnungen müssen gelegentlich auf mehrere Mitarbeiter aufgeteilt werden. Dies kann manuell aus der Bearbeitungsansicht der Spesenabrechnung erfolgen.
+### Eine Ausgabe aufteilen
 
-Gehen Sie zu: **Bearbeiten --> auf das "Pin" klicken --> Details -->**
+Einige bereits genehmigte Ausgaben müssen gelegentlich auf mehrere Mitarbeiter aufgeteilt werden. Dies kann manuell aus der Ausgabenbearbeitungsansicht erfolgen.
+
+Gehen Sie zu: **Bearbeiten --> auf die "Stecknadel" klicken --> Details -->**
 
 ![Travel and Expense](@site/static/img/media/tem-087.png)
 
@@ -79,25 +84,25 @@ Gehen Sie zu: **Bearbeiten --> auf das "Pin" klicken --> Details -->**
 
 4.  Schließen Sie das Fenster
 
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-088.png)
+![Ein Screenshot eines Computers Beschreibung automatisch generiert](@site/static/img/media/tem-088.png)
 
-5.  Klicken Sie auf **Spesenabrechnung aufteilen**
+5.  Klicken Sie auf **Ausgabe aufteilen**
 
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-089.png)
+![Ein Screenshot eines Computers Beschreibung automatisch generiert](@site/static/img/media/tem-089.png)
 
 Die Zeilen werden nun entsprechend den ausgewählten Mitarbeitern aufgeteilt.
 
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-090.png)
+![Ein Screenshot eines Computers Beschreibung automatisch generiert](@site/static/img/media/tem-090.png)
 
 #### Als private Nutzung kennzeichnen
 
-Wenn der Mitarbeiter die Firmenkreditkarte privat genutzt hat und dies nicht in der Spesenabrechnung markiert hat, kann der Buchhalter dies tun.
+Wenn der Mitarbeiter die Firmenkreditkarte privat genutzt hat und dies nicht bei der Ausgabe markiert hat, kann der Buchhalter dies tun.
 
 Gehen Sie zu: **Bearbeiten --> Als private Nutzung kennzeichnen**
 
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-091.png)
+![Ein Screenshot eines Computers Beschreibung automatisch generiert](@site/static/img/media/tem-091.png)
 
-Nachdem die Spesenabrechnung **als private Nutzung gekennzeichnet** und gebucht wurde, navigieren Sie zu den privaten Einträgen in **Mitarbeiter Private Nutzung.**
+Nachdem die Ausgabe **als private Nutzung gekennzeichnet** und gebucht wurde. Navigieren Sie zu den privaten Einträgen in **Mitarbeiter Private Nutzung.**
 
 Gehen Sie zu: **Mitarbeiter Private Nutzung (TEM)**
 
@@ -107,65 +112,73 @@ Klicken Sie auf **Private Nutzungseinträge berechnen**, die Einträge werden nu
 
 Exportieren Sie die Einträge nach Excel, indem Sie auf **Exportieren und buchen** klicken.
 
-#### Spesenabrechnung ablehnen
+<br/>
 
-Wenn der Buchhalter eine Spesenabrechnung ablehnen muss, folgen Sie bitte den unten stehenden Anweisungen:
+#### Ausgabe ablehnen
 
-Gehen Sie zu: **Bearbeiten --> Spesenabrechnung ablehnen**
+Wenn der Buchhalter eine Ausgabe ablehnen muss, folgen Sie bitte den unten stehenden Anweisungen:
 
-Die Spesenabrechnung wird an den Mitarbeiter zurückgesendet; der Buchhalter muss einen Grund für die Ablehnung angeben.
+Gehen Sie zu: **Bearbeiten --> Ausgabe ablehnen**
 
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-093.png)
+Die Ausgabe wird an den Mitarbeiter zurückgesendet; der Buchhalter muss einen Grund für die Ablehnung angeben.
 
-#### Rückgabe an den Genehmiger
+![Ein Screenshot eines Computers Beschreibung automatisch generiert](@site/static/img/media/tem-093.png)
 
-Wenn der Buchhalter eine Ausgabe ablehnen muss, befolgen Sie bitte die unten angegebenen Anweisungen:
+#### An den Genehmiger zurücksenden
 
-Gehen Sie zu: **Bearbeiten --> Rückgabe an Genehmiger**
+Wenn der Buchhalter eine Ausgabe ablehnen muss, folgen Sie bitte den unten stehenden Anweisungen:
+
+Gehen Sie zu: **Bearbeiten --> An den Genehmiger zurücksenden**
 
 Die Ausgabe wird an den Genehmiger zurückgesendet; der Buchhalter muss einen Grund für die Ablehnung angeben.
 
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-094.png)
+![Ein Screenshot eines Computers Beschreibung automatisch generiert](@site/static/img/media/tem-094.png)
 
-### Kilometerstand
+<br/>
 
-Nachdem der Kilometerstand eingereicht und genehmigt wurde, kann er vom Buchhalter in Business Central verarbeitet werden. Die Verarbeitung einer Ausgabe kann verschiedene Elemente umfassen, wie zum Beispiel:
+### Kilometergeld
 
--   Buchen des Kilometerstands.
+Nachdem das Kilometergeld eingereicht und genehmigt wurde, kann es vom Buchhalter in Business Central verarbeitet werden. Die Verarbeitung einer Ausgabe kann verschiedene Elemente umfassen, wie zum Beispiel:
 
--   Bearbeiten des Kilometerstands.
+-   Buchen des Kilometergelds.
 
--   Zurücksendung des Kilometerstands an den Genehmiger oder vollständige Ablehnung.
+-   Bearbeiten des Kilometergelds.
+
+-   Zurücksendung des Kilometergelds entweder an den Genehmiger oder vollständige Ablehnung.
+
 
 #### Eine Ausgabe buchen
 
 Das Buchen einer genehmigten Ausgabe kann in wenigen Schritten erfolgen.
 
-**Gehen Sie zu: Bereit zum Buchen**
-
-(Oder suchen Sie nach Ausgaben (TEM))
+Gehen Sie zu: **Bereit zum Buchen** oder suchen Sie nach: Ausgaben (TEM)
 
 ![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-095.png)
 
-Buchen Sie den Kilometerstand, indem Sie **F9** drücken oder **Buchen** auswählen.
+Buchen Sie Kilometer, indem Sie **F9** drücken oder **Buchen** auswählen.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-096.png)
 
 Es ist nur möglich, Ausgaben mit dem Status **Genehmigt** (grüne Farbe) zu buchen.
 
+<br/>
+
 ### Kreditkartentransaktionen
 
-Kreditkartentransaktionen können in Business Central auf verschiedene Weise gehandhabt werden, die beide den Arbeitstag eines Buchhalters nützlicher und effizienter gestalten können. Im Folgenden sind die wichtigsten Optionen für die Handhabung von Kreditkartentransaktionen aufgeführt:
+Kreditkartentransaktionen können auf verschiedene Weise über Business Central abgewickelt werden, die alle die Arbeit eines Buchhalters erleichtern und effizienter gestalten können. Im Folgenden sind die wichtigsten Optionen zur Handhabung von Kreditkartentransaktionen aufgeführt:
 
 -   Manuelles Erstellen von Kreditkartentransaktionen.
 
 -   Bearbeiten von Kreditkartentransaktionen.
 
+<br/>
+
 ### Manuelles Erstellen von Kreditkartentransaktionen
 
-Die manuelle Transaktionsliste ist nützlich, um physische Rechnungen von Ihrem Kreditkartenanbieter zu verwalten oder wenn Sie den automatischen Import nicht nutzen können. Durch das Erstellen von Transaktionseinträgen für jede einzelne Ausgabe auf der Rechnung kann der Buchhalter die Kreditkartentransaktionen mit den Ausgaben in **AppsForDynamics365.com** abgleichen.
+Die manuelle Transaktionsliste ist nützlich, wenn Sie physische Rechnungen von Ihrem Kreditkartenanbieter erhalten oder die automatische Importfunktion nicht nutzen können. Durch das Erstellen von Transaktionseinträgen für jede einzelne Ausgabe auf der Rechnung kann der Buchhalter die Kreditkartentransaktionen mit den Ausgaben in **AppsForDynamics365.com** abgleichen.
 
-Der Buchhalter kann die Transaktion entweder durch Eingabe der korrekten Daten in jedes der Felder erstellen oder durch Importieren einer Datei in einem Format, das beim Einrichten der **Kreditkartenvereinbarung** gewählt wurde.
+Der Buchhalter kann die Transaktion entweder durch Eingabe der korrekten Daten in jedes der Felder erstellen oder eine Datei in einem bei der Einrichtung der **Kreditkartenvereinbarung** gewählten Format importieren.
+<br/>
 
 #### Manuelles Erstellen einer Kreditkartentransaktion durch Eingabe von Daten:
 
@@ -177,19 +190,21 @@ Gehen Sie zu: **Manuelle Kreditkartentransaktionen (TEM)**
 
 **Transaktionsdatum:** Geben Sie das Datum ein, an dem der Mitarbeiter die Ausgabe getätigt hat.
 
-**Kartennummer:** Aus einer Liste von mitarbeiterspezifischen Kartennummern
+**Kartennummer:** Aus einer Liste von mitarbeiterspezifischen Kartennummern.
 
 **Beschreibung:** Geben Sie eine Beschreibung der Ausgabe ein.
 
 **Transaktionswährung:** Wählen Sie die verwendete Währung aus.
 
-**Transaktionsbetrag**: Geben Sie den Betrag der Transaktion ein.
+**Transaktionsbetrag:** Geben Sie den Betrag der Transaktion ein.
 
-**Abrechnungsbetrag**: Geben Sie den Abrechnungsbetrag ein.
+**Abrechnungsbetrag:** Geben Sie den Abrechnungsbetrag ein.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-097.png)
 
-Klicken Sie auf **Transaktionen erstellen**, um die Transaktion an alle Karteninhaber zu senden, sie erhalten eine Benachrichtigung in der App.
+Klicken Sie auf **Transaktionen erstellen**, um die Transaktion an alle Karteninhaber zu senden. Sie erhalten eine Benachrichtigung in der App.
+
+<br/>
 
 #### Manuelles Erstellen von Kreditkartentransaktionen durch Import einer Datei
 
@@ -201,15 +216,17 @@ Gehen Sie zu: **Manuelle Kreditkartentransaktionen (TEM)**
 
 Der Buchhalter hat drei Optionen, um Transaktionen aus **Datei importieren** zu importieren.
 
-1.  Import einer Excel-Datei
+1.  Importieren einer Excel-Datei
 
-2.  Import vom Kontoauszug
+2.  Importieren vom Kontoauszug
 
-3.  Import von der Bankabstimmung
+3.  Importieren von der Bankabstimmung
+
+<br/>
 
 #### Anzeigen und Bearbeiten von Transaktionen
 
-In der Kreditkartentransaktionsansicht werden folgende Informationen angezeigt:
+In der Ansicht der Kreditkartentransaktionen werden folgende Informationen angezeigt:
 
 Gehen Sie zu: **Firmenkartentransaktion (TEM)**
 
@@ -231,19 +248,21 @@ Gehen Sie zu: **Firmenkartentransaktion (TEM)**
 
 **Abrechnungsbetrag:** Der Betrag, der dem Mitarbeiter erstattet wird.
 
-**Vorgeschlagene Kategorie:** Die Kategorie wird basierend auf dem Merchant Code Category und früheren Entscheidungen vorgeschlagen.
+**Vorgeschlagene Kategorie:** Die Kategorie wird basierend auf dem Händlercode und früheren Entscheidungen vorgeschlagen.
 
-### Markieren einer Transaktion als bearbeitet
+<br/>
 
-Gehe zu: **Manuelle Kreditkartentransaktionen (TEM)**
+### Eine Transaktion als bearbeitet markieren
 
-Sobald eine Transaktion erstellt wurde, besteht die primäre Option darin, sie als bearbeitet zu markieren. Dieser Schritt wird unternommen, bevor der betreffende Mitarbeiter die Transaktion bearbeitet und wird in Fällen verwendet, in denen die Transaktion irrelevant geworden ist.
+Gehen Sie zu: **Manuelle Kreditkartentransaktionen (TEM)**
+
+Sobald eine Transaktion erstellt wurde, besteht die Hauptoption zur Verarbeitung darin, sie als bearbeitet zu markieren. Dieser Schritt wird unternommen, bevor der betreffende Mitarbeiter die Transaktion bearbeitet und wird in Fällen verwendet, in denen die Transaktion irrelevant geworden ist.
 
 Um eine Transaktion als bearbeitet zu markieren, gehen Sie wie folgt vor.
 
-1. Wählen Sie eine Transaktion aus.
+1.  Wählen Sie eine Transaktion aus.
 
-2. Wählen Sie in der Aktionsleiste **Aktionen** und dann **Transaktion als bearbeitet markieren**.
+2.  Wählen Sie in der Aktionsleiste **Aktionen** und dann **Transaktion als bearbeitet markieren**.
 
-![Ein Screenshot eines Computers Beschreibung automatisch generiert](@site/static/img/media/tem-100.png)
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-100.png)
 
