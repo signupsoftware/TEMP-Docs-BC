@@ -1,5 +1,5 @@
 ---
-title: CO₂ Einblicke
+title: ExFlow CO₂ Einblicke
 sidebar_position: 1
 hide_title: true
 custom_edit_url: null

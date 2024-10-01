@@ -119,7 +119,7 @@ To send an email if an Exflow User is taged in Chat/Discussion Panel
 
 
 ### OMNI Reminder
-Send email ExFlow Users have something to approve in OMNI approval.
+Send email if system users have something to approve in OMNI Approval Status.
 
 | General |  | 
 |:-|:-|
