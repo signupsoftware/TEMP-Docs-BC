@@ -112,7 +112,7 @@ Senden Sie eine E-Mail, wenn ein ExFlow-Benutzer im Chat-/Diskussionspanel marki
 <br/><br/>
 
 ### OMNI-Erinnerung
-Senden Sie eine E-Mail, wenn ExFlow-Benutzer etwas zur Genehmigung in der OMNI-Genehmigung haben.
+Senden Sie eine E-Mail, wenn Systembenutzer etwas im OMNI-Genehmigungsstatus zu genehmigen haben.
 
 | Allgemein |  |
 |:-|:-|
