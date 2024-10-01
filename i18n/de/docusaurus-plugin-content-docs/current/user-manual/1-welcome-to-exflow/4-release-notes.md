@@ -14,6 +14,7 @@ Hauptversion
 2024-09-13
 
 **Veröffentlichungsinformationen:** <br/>
+
 Erfordert BC 23.0 oder höher <br/>
 
 Negative Positionsrabatte können nun im Importjournal in 24.0.309.15 bearbeitet werden<br/>
