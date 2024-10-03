@@ -1,4 +1,3 @@
-
 ---
 title: Erste Schritte mit Reise & Spesen
 sidebar_position: 3
