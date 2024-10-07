@@ -86,7 +86,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**VAT Prod. Posting Group 0%**	|Specifies the VAT Prod. Posting Group for "No VAT" when the setting "Propose VAT line" is selected
 |**VAT Prod. Posting Group 100%** 	|Specifies the VAT Prod. Posting Group for "Only VAT" when the setting "Propose VAT line" is selected
 |**Block Amt. Change Approved Line** 	|Specifies if amount changes should be blocked in approved invoice lines.
-|**Copy First Approver to the Approval Flow** 	|Specifies if the "First Approver filter" from the approval rule for a specific invoice line also should be added (as first approver) to the approval proposal
+|**Copy First Approver to the Approval Flow** 	|Specifies if the "First Approver filter" from the approval rule for a specific invoice line also should be added (as first approver) to the approval proposal. <br/><br/> Read more about this function under [***Copy First Approver to the Approval Flow***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/first-approver#copy-first-approver-to-the-approval-flow)
 |**Default Project Task No.** 	|Default Project Task No. will be added on lines with Project No. if no Project Task is selected.
 |**Allow Changes of Approved Documents**	|Specifies if an ExFlow admin is allowed to modify a purchase document header and/or lines with status Approved.
 |**Require Approval**	|When this is activated, the user will be required to have the ExFlow Approval flag ticked on the Invoice/Credit Memo before it can be posted. (If it is an Order/Quote before it can be released.)  <br/><br/> Read more about this under section [***Require Approval***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/require-approval)

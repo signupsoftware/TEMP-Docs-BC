@@ -1,6 +1,6 @@
 ---
 title: ExFlow User
-sidebar_position: 3
+sidebar_position: 2
 hide_title: true
 custom_edit_url: null
 ---
@@ -156,7 +156,7 @@ These are all available permissions set to use on a system user.
 
 ### Add a Replacer During Vacation Time
 
-Go To: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
+Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
 
 When a user is absent or on holiday a replacer can be assigned who can
 handle his/her documents.
@@ -176,7 +176,7 @@ The replaced user can still approve even if there is a replacer in place. Both c
 
 ### Approver Leaving the Company
 
-Go To: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
+Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
 
 Select the user that is leaving.
 
@@ -186,15 +186,15 @@ Choose one company at a time and click on "Block/Unblock User".
 
 ![Block User](@site/static/img/media/block-user-001.png)
 
-When blocking the user, add a replacer in the "New User" field. This updates the documents in the approval workflows.
+When blocking the user, add a replacer in the **"New User"** field. This updates the documents in the approval workflows.
 
-Select the checkbox "Replace History" to give the new user access to the blocked users historical documents.
+Select the checkbox **"Replace History"** to give the new user access to the blocked users historical documents.
 
-Select the "Replace Approval Rule and Coding Rules" to automatically replace the blocked user in all existing rules. Or create/change in Approvals and rules manually according to the situation.
+Select the **"Replace Approval Rule and Coding Rules"** to automatically replace the blocked user in all existing rules. Or create/change in Approvals and rules manually according to the situation.
 
 When the ExFlow User is blocked in all companies, User Card will automatically be Blocked and hidden from ExFlow User List.
 
-Administrators can view hidden Blocked Users with function "View / Hide Blocked".
+Administrators can view hidden Blocked Users with function "View/Hide Blocked".
 
 To see who is replacing the blocked user open ExFlow User Card.
 
@@ -203,7 +203,7 @@ To see who is replacing the blocked user open ExFlow User Card.
 
 ### Approver Who Left the Company, Returns
 
-Go To: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
+Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
 
 To reinstate an approver who has been blocked, click View/Hide Blocked to show all blocked users. Select User and Click Block/Unblock User.
 
@@ -218,7 +218,7 @@ The returned user must now manually be added in Approval- and Coding rules again
 
 ### Approver changing Email Address
 
-Go To: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
+Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
 
 Create a new ExFlow User with new email address.
 Open the user with the previous email address and use function Block/Unblock User. And add the new user in field "New User" and tick both "Access History" and "Replace Approval Rule".

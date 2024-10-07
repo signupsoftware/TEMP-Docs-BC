@@ -1,6 +1,6 @@
 ---
 title: ExFlow Menu
-sidebar_position: 2
+sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
