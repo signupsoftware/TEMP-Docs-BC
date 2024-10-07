@@ -8,7 +8,7 @@ custom_edit_url: null
 
 <br/> 
 
-Feel free to download and read documents before start:<br/>  [***Download technical documents ***](https://docs.exflow.cloud/business-central/docs/user-manual/help-and-support/documents-for%20download#documents-for-download) <br/>
+Feel free to download and read documents before start:<br/>  [***Download technical documents***](https://docs.exflow.cloud/business-central/docs/user-manual/help-and-support/documents-for%20download#documents-for-download) <br/>
 
 ### Introduction
 #### Background
