@@ -336,7 +336,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 |**Entscheidung für automatische Kodierungsvorschläge basierend auf dem Betrag**| 	Gibt an, wie die Vorschlagszeile basierend auf dem Betrag des Dokuments ausgewählt wird.
 |**Automatische Kodierungsvorschläge für importierte Dokumente vorschlagen**| 	Gibt an, wie die automatischen Kodierungsvorschläge verwendet werden.
 |**Automatische Vorschläge ab Datum berechnen**| 	Gibt das Startdatum des Dokuments an, das in den automatischen Kodierungsvorschlägen verwendet werden soll.
-|**Automatische Kodierungsbeträge aus Kodierungsset-ID vorschlagen**|	Gibt an, ob die Beträge automatisch in den erstellten Zeilen aus der Kodierungsset-ID vorgeschlagen werden. <br/><br/> Lesen Sie mehr im Abschnitt [***Automatische Kodierungsvorschläge einrichten***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
+|**Automatische Kodierungsbeträge aus Kodierungsset-ID vorschlagen**|	Gibt an, ob die Beträge automatisch in den erstellten Zeilen aus der Kodierungsset-ID vorgeschlagen werden. <br/><br/> Lesen Sie mehr im Abschnitt [***Automatische Kodierungsvorschläge einrichten***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
 
 <br/>
 
