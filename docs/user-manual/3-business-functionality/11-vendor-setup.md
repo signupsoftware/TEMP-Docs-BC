@@ -144,5 +144,5 @@ The option ''From ExFlow Setup'' is set per default in most settings, meaning th
 |:-|:-|
 |**Use Automatic Suggestion**|Choose if the vendor should utilize this function.
 |**Calculate Auto Suggestions From Date**| 	Specifies the starting date of the document to be used in the auto coding suggestions for this vendor.
-|**Use Automatic Suggestion of Amount from Coding Set ID**|	Specifies if the amount will be suggested automatically to the document line based on the usage percentage in the Coding Set ID, fo9r this vendor. <br/><br/> Read more about this under section [***Automatic Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
+|**Use Automatic Suggestion of Amount from Coding Set ID**|	Specifies if the amount will be suggested automatically to the document line based on the usage percentage in the Coding Set ID, fo9r this vendor. <br/><br/> Read more about this under section [***Auto Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
 
