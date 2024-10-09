@@ -21,6 +21,8 @@ Also, some default settings are possible in ExFlow Setup, like adding a default 
  
 One of the settings is “Default User Coding Rule ID”. It makes the setup of a new ExFlow User easier. Set “Default User Coding Rule” in ExFlow Setup, add a new ExFlow User Permission line with a particular Company and previously in ExFlow Setup defined User Coding Rule will be applied.
 
+![ExFlow Setup - Users](@site/static/img/media/exflow-setup-users-001.png)
+
 | ExFlow Setup - Users      |   | 
 |:-|:-|
 | **Language Code:**                            | Add language code for emails sent to ExFlow approvers
@@ -37,10 +39,7 @@ One of the settings is “Default User Coding Rule ID”. It makes the setup of 
 | **Automatically Create ExFlow Reference:**    | Select to automatically create ExFlow References. <br/> Read more under section [***Reference Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
 |**Default Confidential Role ID**| Specifies the default security role that is used when creating new approvers <br/> <br/> Read more about permissions under section [***Permissions on a Business Central user***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/) 
 
-
-
-
-![ExFlow Setup - Users](@site/static/img/media/exflow-setup-users-001.png)
+<br/>
 
 
 ### Import ExFlow Users from Excel
@@ -50,11 +49,13 @@ Besides manually adding new users it is possible for administrators to add ExFlo
 To Import from Excel, use the "Download Template" for Excel spreadsheet.
 
 ![ExFlow Users List](@site/static/img/media/exflow-users-001-export-import.png)
-<br/><br/>
+<br/>
 
 ### Add a New User manually
 
 Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
+
+![ExFlow User Card](@site/static/img/media/exflow-user-004.png)
 
 | ExFlow User |  |
 |:-|:-|
@@ -92,14 +93,16 @@ If the ExFlow User is a System User, notifications can be added in Business Cent
 | **Discussion Panel:**             | Select Yes/No if ExFlow should show notifications for mentions in a Discussion Panel/Chat for the approver (System User) on the Role Center page
 | **Contract Invoice Reminder:**    | Select Yes/No if ExFlow should send notifications if contract invoices is missing
 
-![ExFlow User Card](@site/static/img/media/exflow-user-004.png)
+
 
 Learn more about Notifications under section [***Approval Workflow --> Notifications in Business Central.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#notifications-in-business-central)
 
 
-
+<br/><br/>
 
 ### Add company access and web permission role under Permissions
+
+![ExFlow User Card](@site/static/img/media/exflow-user-permissions-001.png)
 
 | Permissions|  |
 |:-|:-|
@@ -115,7 +118,7 @@ Learn more about Notifications under section [***Approval Workflow --> Notificat
 |**Access to Confidential Documents**|  Specifies if the user have access to see Confidential Documents or not. Read more under [***Confidential Documents***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
 
 
-![ExFlow User Card](@site/static/img/media/exflow-user-permissions-001.png)<br/>
+<br/>
 
 ### Create a System User
 
@@ -188,7 +191,13 @@ Choose one company at a time and click on "Block/Unblock User".
 
 When blocking the user, add a replacer in the **"New User"** field. This updates the documents in the approval workflows.
 
-Select the checkbox **"Replace History"** to give the new user access to the blocked users historical documents.
+Select the checkbox **"Replace History"** to give the new user access to the blocked users historical documents. <br/>
+
+If the document is unapproved in Approval Status, then the blocked user will be automatically ''Approved'' under the *''Doc. Line Approvers''*, along with the comment *''Approved because user was blocked.''*. The replacer will be added automatically, as the current user instead of the blocked user.<br/>
+
+For approved, but not yet posted documents, the replacer will be added into the *''Doc. Line Approvers''* along with the comment ''Added because of history replacement''. <br/>
+
+In ExFlow Approval Status History, the replacer will be added into the  *Posted Document Line Approvers*, along with the comment ''AA replaced by BB''. <br/>
 
 Select the **"Replace Approval Rule and Coding Rules"** to automatically replace the blocked user in all existing rules. Or create/change in Approvals and rules manually according to the situation.
 

@@ -19,6 +19,8 @@ Im ExFlow Setup sind auch einige Standardeinstellungen möglich, wie das Hinzuf�
 
 Eine der Einstellungen ist „Standard-Benutzer-Codierungsregel-ID“. Es erleichtert die Einrichtung eines neuen ExFlow Benutzers. Legen Sie „Standard-Benutzer-Codierungsregel“ im ExFlow Setup fest, fügen Sie eine neue ExFlow Benutzerberechtigungslinie mit einem bestimmten Unternehmen hinzu, und die zuvor im ExFlow Setup definierte Benutzer-Codierungsregel wird angewendet.
 
+![ExFlow Setup - Benutzer](../../images/exflow-setup-users-001.png)
+
 | ExFlow Setup - Benutzer      |   | 
 |:-|:-|
 | **Sprachcode:**                            | Sprachcode für E-Mails an ExFlow Genehmiger hinzufügen
@@ -35,7 +37,7 @@ Eine der Einstellungen ist „Standard-Benutzer-Codierungsregel-ID“. Es erleic
 | **ExFlow-Referenz automatisch erstellen:**    | Wählen Sie diese Option, um ExFlow-Referenzen automatisch zu erstellen. <br/> Lesen Sie mehr im Abschnitt [***Referenzcodes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
 |**Standard-Vertraulichkeits-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird <br/> <br/> Lesen Sie mehr über Berechtigungen im Abschnitt [***Berechtigungen für einen Business Central Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/) 
 
-![ExFlow Setup - Benutzer](../../images/exflow-setup-users-001.png)
+<br/>
 
 ### ExFlow Benutzer aus Excel importieren
 
@@ -44,11 +46,13 @@ Neben dem manuellen Hinzufügen neuer Benutzer können Administratoren auch ExFl
 Um aus Excel zu importieren, verwenden Sie die "Vorlage herunterladen" für die Excel-Tabelle.
 
 ![ExFlow Benutzerliste](../../images/exflow-users-001-export-import.png)
-<br/><br/>
+<br/>
 
 ### Einen neuen Benutzer manuell hinzufügen
 
 Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Benutzer***
+
+![ExFlow Benutzerkarte](../../images/exflow-user-004.png)
 
 | ExFlow Benutzer |  |
 |:-|:-|
@@ -83,7 +87,7 @@ Wenn der ExFlow Benutzer ein Systembenutzer ist, können Benachrichtigungen in B
 | **Diskussionspanel:**             | Wählen Sie Ja/Nein, ob ExFlow Benachrichtigungen für Erwähnungen im Diskussionspanel/Chat für den Genehmiger (Systembenutzer) auf der Rollencenter-Seite anzeigen soll
 | **Vertragsrechnungs-Erinnerung:**    | Wählen Sie Ja/Nein, ob ExFlow Benachrichtigungen senden soll, wenn Vertragsrechnungen fehlen
 
-![ExFlow Benutzerkarte](../../images/exflow-user-004.png)
+
 
 Erfahren Sie mehr über Benachrichtigungen im Abschnitt [***Genehmigungsworkflow --> Benachrichtigungen in Business Central.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#notifications-in-business-central)
 
@@ -170,11 +174,17 @@ Wählen Sie ein Unternehmen nach dem anderen aus und klicken Sie auf „Block/Un
 
 ![Block User](../../images/block-user-001.png)
 
-Wenn Sie den Benutzer blockieren, fügen Sie im Feld „New User“ einen Vertreter hinzu. Dies aktualisiert die Dokumente in den Genehmigungs-Workflows.
+Wenn Sie den Benutzer blockieren, fügen Sie im Feld **"Neuer Benutzer"** einen Replacer hinzu. Dadurch werden die Dokumente in den Genehmigungsworkflows aktualisiert.
 
-Wählen Sie das Kontrollkästchen „Replace History“, um dem neuen Benutzer Zugriff auf die historischen Dokumente des blockierten Benutzers zu gewähren.
+Aktivieren Sie das Kontrollkästchen **"Verlauf ersetzen"**, um dem neuen Benutzer Zugriff auf die historischen Dokumente des blockierten Benutzers zu gewähren. <br/>
 
-Wählen Sie „Replace Approval Rule and Coding Rules“, um den blockierten Benutzer automatisch in allen bestehenden Regeln zu ersetzen. Oder erstellen/ändern Sie Genehmigungen und Regeln manuell je nach Situation.
+Wenn das Dokument im Genehmigungsstatus nicht genehmigt ist, wird der blockierte Benutzer automatisch unter der *''Dokumentzeilen-Genehmiger''* "Genehmigt", zusammen mit dem Kommentar "Genehmigt, weil der Benutzer blockiert wurde". *. Der Ersetzer wird automatisch als aktueller Benutzer und nicht als blockierter Benutzer hinzugefügt.<br/>
+
+Bei genehmigten, aber noch nicht gebuchten Dokumenten wird der Ersetzer zusammen mit dem Vermerk ''Hinzugefügt aufgrund der Ersetzung der Historie''' in die *''Belegzeilengenehmiger''* eingefügt. <br/>
+
+In der Historie des ExFlow-Genehmigungsstatus wird der Ersetzer zusammen mit dem Kommentar ''AA ersetzt durch BB'' zu den *Genehmigern der gebuchten Belegzeile* hinzugefügt. <br/>
+
+Wählen Sie **„Replace Approval Rule and Coding Rules“**, um den blockierten Benutzer automatisch in allen bestehenden Regeln zu ersetzen. Oder erstellen/ändern Sie Genehmigungen und Regeln manuell je nach Situation.
 
 Wenn der ExFlow-Benutzer in allen Unternehmen blockiert ist, wird die Benutzerkarte automatisch blockiert und aus der ExFlow-Benutzerliste ausgeblendet.
 
