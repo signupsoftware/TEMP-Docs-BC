@@ -35,7 +35,7 @@ Go to: **ExFlow Setup --> Actions --> Functions** <br/>
 |**Migrate Documents**	|Open the Document Migration tool. <br/><br/> Read more about this under section [***Upgrade and migrate ExFlow data***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/upgrade-exflow-data-from-cal#upgrade-and-migrate-exflow-data)
 |**OAuth2 Applications**	|Opens the OAuth 2.0 Applications page. <br/><br/> Read more about this under section [***OAuth 2.0 Applications and Storage Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/oauth-storage-setup#oauth-20-applications-and-storage-setup)
 |**OCR**	|**Update Vendor ID for all vendors:** <br/>Syncs all Vendor IDs.<br/><br/>**Advanced Mapping**: <br/>Opens ExFlow Advanced Mappings. <br/><br/>**Import Data Exchange Definitions:**<br/>Displays all Import Data Exchange Definition codes and its blob name etc.<br/><br/>**Other --> Resync Master Data:**<br/>Resync master data and vendor bank accounts with ExFlow Data Capture/ OCR Service
-|**Web**	|**Update Web used Vendor Names**: <br/>Updates vendor names on web<br/><br/>**Enable Company for ExFlow Web**: <br/> Enable current company for ExFlow Web<br/><br/>**Disable Company for ExFlow Web.**:<br/> Disables current company for ExFlow Web<br/><br/>**Define as Default ExFlow Web Company**:<br/> Set current company as default for ExFlow Web<br/><br/>**Create Azure Active Directory Application**:<br/>Create a Microsoft Entra Application <br/><br/>**Create / Update Default Web Services**:<br/>Create or update the current Web Service EXFID and EXFWeb <br/><br/>**Other --> Edit Web Columns**:<br/>Make changes on current ExFlow web columns<br/><br/>**Other --> Clear ExFlow Web Cache**:<br/>Clear the ExFlow Web Cache <br/> <br/>Read more about this under section [ExFlow Web](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
+|**Web**	|**Update Web used Vendor Names**: <br/>Updates vendor names on web<br/><br/>**Enable Company for ExFlow Web**: <br/> Enable current company for ExFlow Web<br/><br/>**Disable Company for ExFlow Web.**:<br/> Disables current company for ExFlow Web<br/><br/>**Define as Default ExFlow Web Company**:<br/> Set current company as default for ExFlow Web<br/><br/>**Create Azure Active Directory Application**:<br/>Create a Microsoft Entra Application <br/><br/>**Create / Update Default Web Services**:<br/>Create or update the current Web Service EXFID and EXFWeb <br/><br/>**Other --> Edit Web Columns**:<br/>Make changes on current ExFlow web columns<br/><br/> **Other --> Clear ExFlow Web Cache:** <br/>Clear the ExFlow Web Cache <br/> <br/>Read more about this under section [**ExFlow Web**](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
 
 <br/>
 
@@ -126,7 +126,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |:-|:-|	
 |**Do Not Post Predefined Account**	|Specifies if final posting to the specified predefined G/L account (if any) should be allowed
 |**Check Gross Amount** 	|Specifies if the "Max. Diff. Gross Amount" setting should be used
-|**Max. Difference for Gross Amount (LCY) ** 	|Specifies the max gross amount difference allowed then posting an invoice
+|**Max. Difference for Gross Amount (LCY)** 	|Specifies the max gross amount difference allowed then posting an invoice
 |**Minimum No. of Approvers** 	|Specifies the minimum numbers of approvers on an invoice line. If the actual numbers of approvers are less, then posting of the invoice is not allowed. 0 = disabled. <br/><br/> Read more about this under section [***Minimum No. of Approvers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/minimum_no_of_approvers#minimum-no-of-approvers)
 |**Delete G/L Account Lines with Line Amount = Zero** 	|Specifies if the G/L Account Lines with Line Amount = Zero should be deleted during Update Document in Verify Changes from Approval Status. <br/><br/> Read more about this under section [***Delete G/L Account Lines with Line Amount = Zero***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#delete-gl-account-lines-with-line-amount--zero)
 |**Auto. Assign of VAT Diff. for Posting** 	|Specifies if automatic assignment of VAT Difference should be done if the difference of VAT on lines and header is within Max. Allowed VAT Difference
@@ -163,7 +163,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Automatically Retrieve Lines**|  	Automatically retrieve all available lines from the Purchase Order or Posted Purchase Receipt when matching on header level.
 |**Auto Approve Invoices**|  	Specifies if the invoice should be auto approved if the related order is approved. <br/><br/> Read more about this under section [***Auto Approve Invoices***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
 |**User for Automatic Approval**|  	Specifies the ExFlow user that should be used for auto approved invoices. If this setting is empty, then the id of the logged in BC user is used
-|**Max. Invoice Amount for System Approval (LCY) **|  	Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
+|**Max. Invoice Amount for System Approval (LCY)**|  	Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
 |**Check Direct Unit Cost**|	Specifies that ExFlow should check the Unit Cost on the invoice line when matching invoices against purchase orders. The imported invoice needs to be line interpreted for this to work
 |**Check Line Discount %**|  	Specifies that ExFlow should check the Line Discount % on the invoice line when matching invoices against purchase orders. The imported invoice needs to be line interpreted for this to work
 |**Max. Misc. Charges (LCY)**|  	Tolerance for field "Auto Approve Invoices". The total amount of invoice lines not matched against PO lines. (For example, freight). When an invoice is generated, lines will not be automatically approved if you did exceed the maximum misc. amount.
@@ -203,7 +203,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Company-ID Filter**|	Specifies the company id that will be used when importing invoices. This id must match the id in the Company ID xml tag exactly
 |**Date Format (OCR Import)**| 	Specifies the date format that ExFlow uses when decoding imported invoice dates
 |**Set Posting Date to (OCR)**| 	Specifies how the default invoice posting date should be set when importing an invoice
-|**Set Due Date to (OCR) **| 	Specifies how the default due date should be set when importing an invoice
+|**Set Due Date to (OCR)**| 	Specifies how the default due date should be set when importing an invoice
 |**Set VAT to Zero at OCR Import**| 	Specifies that the VAT amount should be set to 0 on all imported invoices
 |**Blank Currency if Equal to LCY**| 	Specifies that the currency code should be cleared (i.e. no code used) if the imported currency code matches the local currency in the company settings
 |**Ignore Imported Currency Code**| 	Specifies that ExFlow should always clear the imported currency code i.e. no currency is used when importing invoices
@@ -338,7 +338,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Auto Coding Suggestion Decision Based on the Amount**| 	Specifies how the suggestion line will be chosen based on the amount of the document.
 |**Suggest Auto Coding for Imported Document**| 	Specifies how the auto coding suggestion will be used.
 |**Calculate Auto Suggestions From Date**| 	Specifies the starting date of the document to be used in the auto coding suggestions.
-|**Suggest Auto Coding Amount from Coding Set ID**|	Specifies if the amounts will be automatically suggested in the created lines from the Coding Set ID. <br/><br/> Read more under section [***Automatic Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
+|**Suggest Auto Coding Amount from Coding Set ID**|	Specifies if the amounts will be automatically suggested in the created lines from the Coding Set ID. <br/><br/> Read more under section [***Automatic Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
 
 <br/>
 
