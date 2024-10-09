@@ -83,7 +83,7 @@ Enable **Create Lines with Automatic Suggestion** to activate this function for 
 
 #### Periodic Activities
 
-To apply the Automatic Coding Suggestion, it is required to run the functions **ExFlow Coding Set IDs for Coding Suggestions** and **ExFlow Creating Auto Coding Suggestions**. <br/>
+To apply the Auto Coding Suggestion, it is required to run the functions **ExFlow Coding Set IDs for Coding Suggestions** and **ExFlow Creating Auto Coding Suggestions**. <br/>
 
 First time use of Auto Coding suggestion will need both of these jobs to be run at least once. Following that, recurrence can be adjusted in the corresponding Job Queue Entries.
 
