@@ -338,7 +338,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Auto Coding Suggestion Decision Based on the Amount**| 	Specifies how the suggestion line will be chosen based on the amount of the document.
 |**Suggest Auto Coding for Imported Document**| 	Specifies how the auto coding suggestion will be used.
 |**Calculate Auto Suggestions From Date**| 	Specifies the starting date of the document to be used in the auto coding suggestions.
-|**Suggest Auto Coding Amount from Coding Set ID**|	Specifies if the amounts will be automatically suggested in the created lines from the Coding Set ID. <br/><br/> Read more under section [***Automatic Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
+|**Suggest Auto Coding Amount from Coding Set ID**|	Specifies if the amounts will be automatically suggested in the created lines from the Coding Set ID. <br/><br/> Read more under section [***Auto Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
 
 <br/>
 

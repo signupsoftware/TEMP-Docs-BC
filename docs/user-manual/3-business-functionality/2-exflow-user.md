@@ -205,7 +205,7 @@ To see who is replacing the blocked user open ExFlow User Card.
 
 Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
 
-To reinstate an approver who has been blocked, click View/Hide Blocked to show all blocked users. Select User and Click Block/Unblock User.
+To reinstate an approver who has been blocked, click View/Hide Blocked from the ExFLow User list to show all blocked users. Select User and click ''Block/Unblock User''.
 
 ![ExFlow User Card Permissions](@site/static/img/media/exflow-user-permissions-002.png)
 

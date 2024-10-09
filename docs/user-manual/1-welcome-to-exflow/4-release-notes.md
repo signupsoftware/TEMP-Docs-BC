@@ -17,6 +17,12 @@ Major Release
 **Release Information:** <br/>
 Requires BC 23.0 or later <br/>
 
+Finnish customers can now again import lines and the calculation of Line Amount is correct - solved in 24.0.309.20<br/>
+
+New event added to enable more customization of Re-Invoicing - added in 24.0.309.20<br/>
+
+Multiple improvements to the search in ExFlow Web when using dimension filters on the ExFlow User - improved in 24.0.309.20<br/>
+
 Negative line discounts can now be handled in the Import Journal in 24.0.309.15<br/>
 
 In some specific cases the option "Minimum No. of Approvers" did not work as intended, this has been resolved in 24.0.309.15<br/>
