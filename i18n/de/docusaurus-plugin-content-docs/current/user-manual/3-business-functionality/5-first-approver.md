@@ -1,58 +1,55 @@
 ---
-title: First Approver
+title: Erster Genehmiger
 sidebar_position: 5
 hide_title: true
 custom_edit_url: null
 ---
-## Copy First Approver to the Approval Flow
 
-Go to: **ExFlow Setup --> General --> Copy First Approver to the Approval Flow**
+## Ersten Genehmiger in den Genehmigungsfluss kopieren
+
+Gehe zu: **ExFlow Setup --> Allgemein --> Ersten Genehmiger in den Genehmigungsfluss kopieren**
 
 ![ExFlow Setup](../../images/first-approver-001.png)
 <br/>
 
-| Copy First Approver to the Approval Flow    | 	|
+| Ersten Genehmiger in den Genehmigungsfluss kopieren | 	|
 |:-|:-|
-| **Never:**                         | When adding a First Approver to a document this approver will not appear in the approval flow. <br/>Instead, it can be used as a filter to add an Approval Rule. <br/>If an Invoice or Credit Memo is interpreted with reference, the reference can apply a First Approver to trigger an Approval Rule. <br/><br/> **Example:** Cecilia have ordered a computer and invoice is interpret with reference Cecilia. <br/> ExFlow Reference is created with First Approver Cecilia. <br/>Now we can create an Approval Rule with filter on Cecilia and build the approval flow without adding Cecilia as an approver.
-| **All Documents**| First Approver will be added to the approval flow before Approvers from Approval Rule for all documents. Quote, Order Invoice and Credit Memo. <br/>If working with Quote and Order Approval, it is not recommended to Set Current User as Default First Approver. Since the Purchaser creating and releasing the Quote/Order also needs to approve the document in ExFlow Approval. <br/><br/> **Example:** An Invoice is interpreted with reference Cecilia. <br/>ExFlow Reference is created with First Approver Cecilia. <br/>Now we can send the invoice to Cecilia and let her add coding to trigger an approval rule later in the approval process.
-|**Invoices Only**| First approver will be added to the approval flow only for Invoices and Credit Memos. <br/>Not for Order and Quotes.  <br/><br/> **Example:** If Cecilia creates a Purchase Quote or Purchase Order ExFlow can add current user as First Approver. <br/>Now we can create an Approval Rule with filter on Cecilia and build the approval flow without adding Cecilia as an approver. <br/>When Cecilia releases the document, she do not need to approve it since she is the one creating and releasing.
-
+| **Nie:**                         | Wenn ein erster Genehmiger zu einem Dokument hinzugefügt wird, erscheint dieser Genehmiger nicht im Genehmigungsfluss. <br/>Stattdessen kann er als Filter verwendet werden, um eine Genehmigungsregel hinzuzufügen. <br/>Wenn eine Rechnung oder Gutschrift mit Referenz interpretiert wird, kann die Referenz einen ersten Genehmiger anwenden, um eine Genehmigungsregel auszulösen. <br/><br/> **Beispiel:** Cecilia hat einen Computer bestellt und die Rechnung wird mit der Referenz Cecilia interpretiert. <br/> ExFlow-Referenz wird mit dem ersten Genehmiger Cecilia erstellt. <br/>Nun können wir eine Genehmigungsregel mit Filter auf Cecilia erstellen und den Genehmigungsfluss aufbauen, ohne Cecilia als Genehmiger hinzuzufügen.
+| **Alle Dokumente**| Der erste Genehmiger wird dem Genehmigungsfluss vor den Genehmigern aus der Genehmigungsregel für alle Dokumente hinzugefügt. Angebot, Bestellung, Rechnung und Gutschrift. <br/>Wenn mit Angebots- und Bestellgenehmigung gearbeitet wird, wird nicht empfohlen, den aktuellen Benutzer als Standard-Erstgenehmiger festzulegen. Da der Einkäufer, der das Angebot/die Bestellung erstellt und freigibt, das Dokument auch in ExFlow Approval genehmigen muss. <br/><br/> **Beispiel:** Eine Rechnung wird mit der Referenz Cecilia interpretiert. <br/>ExFlow-Referenz wird mit dem ersten Genehmiger Cecilia erstellt. <br/>Nun können wir die Rechnung an Cecilia senden und sie die Kodierung hinzufügen lassen, um später im Genehmigungsprozess eine Genehmigungsregel auszulösen.
+|**Nur Rechnungen**| Der erste Genehmiger wird dem Genehmigungsfluss nur für Rechnungen und Gutschriften hinzugefügt. <br/>Nicht für Bestellungen und Angebote.  <br/><br/> **Beispiel:** Wenn Cecilia ein Kaufangebot oder eine Bestellung erstellt, kann ExFlow den aktuellen Benutzer als ersten Genehmiger hinzufügen. <br/>Nun können wir eine Genehmigungsregel mit Filter auf Cecilia erstellen und den Genehmigungsfluss aufbauen, ohne Cecilia als Genehmiger hinzuzufügen. <br/>Wenn Cecilia das Dokument freigibt, muss sie es nicht genehmigen, da sie es erstellt und freigegeben hat.
 
 <br/>
 
-### Set Current User as Default First Approver for Order/Quote
+### Aktuellen Benutzer als Standard-Erstgenehmiger für Bestellung/Angebot festlegen
 
-Go to: **ExFlow Setup --> Order and Quote Approval --> Set Current User as Default First Approver for Order/Quote**
+Gehe zu: **ExFlow Setup --> Bestell- und Angebotsgenehmigung --> Aktuellen Benutzer als Standard-Erstgenehmiger für Bestellung/Angebot festlegen**
 
-For Purchase Quote and Orders, First Approver can be added by ExFlow on a line level.<br/>
+Für Kaufangebote und Bestellungen kann der erste Genehmiger von ExFlow auf Zeilenebene hinzugefügt werden.<br/>
 
-The ExFlow User then needs to be allocated to a System User for ExFlow to recognize which user to add as First Approver.<br/>
+Der ExFlow-Benutzer muss dann einem Systembenutzer zugewiesen werden, damit ExFlow erkennt, welcher Benutzer als erster Genehmiger hinzugefügt werden soll.<br/>
 
 ![ExFlow Setup](../../images/first-approver-003.png)
 
-
 <br/>
 
+### Erster Genehmiger-Filter in einer ExFlow-Genehmigungsregel
 
-### First Approver Filter in an ExFlow Approval Rule
-
-Enable the function ''Copy First Approver to the Approval Flow'' if the "First Approver Filter" from the Approval Rule should be added as first approver to the approval proposal, for a specific document line. <br/>
+Aktivieren Sie die Funktion ''Ersten Genehmiger in den Genehmigungsfluss kopieren'', wenn der "Erster Genehmiger-Filter" aus der Genehmigungsregel als erster Genehmiger zum Genehmigungsvorschlag für eine bestimmte Dokumentzeile hinzugefügt werden soll. <br/>
 
 ![ExFlow Setup](../../images/first-approver-002.png)
 
 <br/>
 
-### First Approver in Import Journal
-First Approver can be added to document header in Import Journal via [***ExFlow Contract***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#contract) and [***ExFlow Reference***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) copied down to document lines.
+### Erster Genehmiger im Importjournal
+Der erste Genehmiger kann im Importjournal über [***ExFlow-Vertrag***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#contract) und [***ExFlow-Referenz***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) zum Dokumentkopf hinzugefügt und auf die Dokumentzeilen kopiert werden.
 
-
-#### First Approver in ExFlow Contract
-When interpret a reference connected to an ExFlow Contract  this can be used to add First Approver to Invoices in Import Journal. <br/> 
+#### Erster Genehmiger im ExFlow-Vertrag
+Wenn eine Referenz interpretiert wird, die mit einem ExFlow-Vertrag verbunden ist, kann dies verwendet werden, um den ersten Genehmiger zu Rechnungen im Importjournal hinzuzufügen. <br/> 
 
 ![ExFlow Setup](../../images/first-approver-004.png)
 
-
-#### First Approver in ExFlow Reference
-When interpret an ExFlow Reference this can be used to add First Approver to Invoice or Credit Memo in Import Journal. <br/> 
+#### Erster Genehmiger in der ExFlow-Referenz
+Wenn eine ExFlow-Referenz interpretiert wird, kann dies verwendet werden, um den ersten Genehmiger zu Rechnungen oder Gutschriften im Importjournal hinzuzufügen. <br/> 
 
 ![ExFlow Setup](../../images/first-approver-005.png)
+ 
