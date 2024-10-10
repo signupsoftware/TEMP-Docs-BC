@@ -17,7 +17,7 @@ Gehe zu: **ExFlow Einrichtung**
 |:-|:-|
 |**ExFlow Web Cache leeren:**	|Verwenden Sie diese Funktion, um den ExFlow Web Cache zu leeren
 |**Stammdaten neu synchronisieren**	|Synchronisieren Sie Stammdaten und Lieferantenbankkonten mit dem ExFlow Data Capture/OCR Service
-|**Web-Spalten bearbeiten**	|Ändern Sie die aktuellen ExFlow Web-Spalten. <br/> <br/>Lesen Sie mehr darüber im Abschnitt [ExFlow Web](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
+|**Web-Spalten bearbeiten**	|Ändern Sie die aktuellen ExFlow Web-Spalten. <br/> <br/>Lesen Sie mehr darüber im Abschnitt [**ExFlow Web**](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
 
 <br/>
 

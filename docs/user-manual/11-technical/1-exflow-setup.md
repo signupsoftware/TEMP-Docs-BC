@@ -16,7 +16,7 @@ Go to: **ExFlow Setup**
 |:-|:-|
 |**Clear ExFlow Web Cache:**	|Utilize this function to clear the ExFlow Web Cache
 |**Resync Master Data**	|Resync master data and vendor bank accounts with ExFlow Data Capture/ OCR Service 
-|**Edit Web Columns**	|Make changes on current ExFlow web columns. <br/> <br/>Read more about this under section [ExFlow Web](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
+|**Edit Web Columns**	|Make changes on current ExFlow web columns. <br/> <br/>Read more about this under section [**ExFlow Web**](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
 
 <br/>
 
