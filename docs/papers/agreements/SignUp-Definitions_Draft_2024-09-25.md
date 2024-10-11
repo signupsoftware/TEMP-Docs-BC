@@ -34,7 +34,7 @@ custom_edit_url: null
 
 **"Business Day"** means weekdays save for public holidays in the country which the SignUp Entity, that has entered into the Agreement with the Customer, resides.
 
-**"Business Hour"** means 9:00am – 5:00am in the time zone of the contracting SignUp company under the Order Agreement.
+**"Business Hour"** means 9:00am ï¿½ 5:00am in the time zone of the contracting SignUp company under the Order Agreement.
 
 **"Confidential Information"** means any and all information which is either identified as confidential or that reasonably should be understood to be confidential given the nature of the information and the circumstances of disclosure, including, but not limited to, SignUp Materials, SignUp Software and the Agreement, computer programs, code, algorithms, names and expertise of employees and consultants, information relating to existing, previous and potential customers and contracts, know-how, trade secrets, formulas, processes, ideas, inventions (whether patentable or not), schematics and other technical, business, financial plans, and product plans and designs, forecasts, strategies and information. Confidential Information does not include information which (i) is or becomes, available within the public domain without breach of any confidentiality undertaking, (ii) is already in the possession of a Party at the time of receiving the same without obligation of confidence, (iii) is independently developed or acquired by a Party without any breach of the Agreement, or (iv) is received from a third party without restriction on its disclosure or use.
 
@@ -114,3 +114,4 @@ custom_edit_url: null
 
 
 </div>
+ 

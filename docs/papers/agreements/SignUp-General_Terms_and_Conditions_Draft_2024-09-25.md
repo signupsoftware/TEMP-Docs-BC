@@ -399,7 +399,7 @@ Automatisering ("SGOA"). The arbitration panel shall consist of one
 three (3) arbitrators. The place of arbitration shall be Amsterdam (the 
 Netherlands). The proceedings shall be conducted in English.  
 Any court proceedings in the Netherlands before, during or after the 
-arbitration shall – to the extent allowed by law - exclusively be dealt 
+arbitration shall ï¿½ to the extent allowed by law - exclusively be dealt 
 with by the Amsterdam District Court or the Amsterdam Court of 
 Appeal, whichever has jurisdiction, following proceedings in English 
 before the Chambers for International Commercial Matters 
@@ -505,3 +505,4 @@ decision or award made or declared by the arbitral tribunal, which in
 each case shall be deemed to constitute Confidential Information.
 
 </div>
+ 

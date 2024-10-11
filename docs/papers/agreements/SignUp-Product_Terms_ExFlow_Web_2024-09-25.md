@@ -134,3 +134,4 @@ The Customer is upon written request to SignUp entitled to obtain all Customer D
 #### 7.5<div class="paragraph-text">The service credits are the Customer's sole and exclusive remedy for any availability issues related to the hosting of the Software.</div>
 </div>
 </div>
+ 

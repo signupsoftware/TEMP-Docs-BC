@@ -288,3 +288,4 @@ Generally persons employed by or representing the Customer, or any other individ
 Personal data is stored for ninety (90) days and is thereafter automatically erased.
 
 </div>
+ 
