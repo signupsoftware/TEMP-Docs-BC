@@ -142,7 +142,7 @@ export default function HomepageFeatures() {
   return (
     
     <section className={styles.none}>
-      <div class="main-title">
+      <div className="main-title">
         SOLUTIONS FOR D365 BUSINESS CENTRAL
       </div>
 
@@ -156,12 +156,8 @@ export default function HomepageFeatures() {
 }
 
 
-
-
-
-
 // =================================================================================================
-// Old stuff for reference, ignore this
+//  Old stuff for reference, ignore this
 // =================================================================================================
 /*
 const PanelList = [

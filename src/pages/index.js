@@ -7,10 +7,18 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+// EA 2024-10-10 Added to get the current locale
+//import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+//const { siteConfig, i18n } = useDocusaurusContext();
+//console.log(i18n.currentLocale); // e.g. 'en'
+
+
+
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <div class="background-image"/>
+    <div className="background-image"/>
 
     /*
     <header className={clsx('hero hero--primary', styles.heroBanner )}>
@@ -42,13 +50,19 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  // Original
+  //const {siteConfig} = useDocusaurusContext();
+  // EA testing 2024-10-10
+  const { siteConfig, i18n } = useDocusaurusContext();
+  console.log(i18n.currentLocale); // e.g. 'en'
+  // END EA))
+
   return (
     <Layout
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <main class="background-image">
-        <div class="menu-container">
+      <main className="background-image">
+        <div className="menu-container">
           <HomepageFeatures />
         </div>
       </main>
