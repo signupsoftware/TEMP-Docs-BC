@@ -17,7 +17,7 @@ Gehe zu: **ExFlow Einrichtung**
 |:-|:-|
 |**ExFlow Web Cache leeren:**	|Verwenden Sie diese Funktion, um den ExFlow Web Cache zu leeren
 |**Stammdaten neu synchronisieren**	|Synchronisieren Sie Stammdaten und Lieferantenbankkonten mit dem ExFlow Data Capture/OCR Service
-|**Web-Spalten bearbeiten**	|Ändern Sie die aktuellen ExFlow Web-Spalten. <br/> <br/>Lesen Sie mehr darüber im Abschnitt [ExFlow Web](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
+|**Web-Spalten bearbeiten**	|Ändern Sie die aktuellen ExFlow Web-Spalten. <br/> <br/>Lesen Sie mehr darüber im Abschnitt [**ExFlow Web**](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web) <br/>
 
 <br/>
 
@@ -85,7 +85,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 |**USt.-Produktbuchungsgruppe 0%**	|Gibt die USt.-Produktbuchungsgruppe für "Keine USt." an, wenn die Einstellung "Vorschlag für USt.-Zeile" ausgewählt ist
 |**USt.-Produktbuchungsgruppe 100%** 	|Gibt die USt.-Produktbuchungsgruppe für "Nur USt." an, wenn die Einstellung "Vorschlag für USt.-Zeile" ausgewählt ist
 |**Betragsänderung genehmigter Zeile blockieren** 	|Gibt an, ob Betragsänderungen in genehmigten Rechnungszeilen blockiert werden sollen.
-|**Ersten Genehmiger in den Genehmigungsfluss kopieren** 	|Gibt an, ob der "Erste Genehmiger-Filter" aus der Genehmigungsregel für eine bestimmte Rechnungszeile auch (als erster Genehmiger) zum Genehmigungsvorschlag hinzugefügt werden soll
+|**Ersten Genehmiger in den Genehmigungsfluss kopieren** 	|Gibt an, ob der "Erste Genehmiger-Filter" aus der Genehmigungsregel für eine bestimmte Rechnungszeile auch (als erster Genehmiger) zum Genehmigungsvorschlag hinzugefügt werden soll.  <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Ersten Genehmiger in den Genehmigungsfluss kopieren***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/first-approver#copy-first-approver-to-the-approval-flow)
 |**Standard-Projektaufgaben-Nr.** 	|Die Standard-Projektaufgaben-Nr. wird auf Zeilen mit Projekt-Nr. hinzugefügt, wenn keine Projektaufgabe ausgewählt ist.
 |**Änderungen genehmigter Dokumente zulassen**	|Gibt an, ob ein ExFlow-Administrator berechtigt ist, einen Einkaufsbelegkopf und/oder Zeilen mit dem Status Genehmigt zu ändern.
 |**Genehmigung erforderlich**	|Wenn dies aktiviert ist, muss der Benutzer das ExFlow-Genehmigungsflag auf der Rechnung/Gutschrift markieren, bevor sie gebucht werden kann. (Wenn es sich um eine Bestellung/Angebot handelt, bevor sie freigegeben werden kann.)  <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Genehmigung erforderlich***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/require-approval)
@@ -336,7 +336,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 |**Entscheidung für automatische Kodierungsvorschläge basierend auf dem Betrag**| 	Gibt an, wie die Vorschlagszeile basierend auf dem Betrag des Dokuments ausgewählt wird.
 |**Automatische Kodierungsvorschläge für importierte Dokumente vorschlagen**| 	Gibt an, wie die automatischen Kodierungsvorschläge verwendet werden.
 |**Automatische Vorschläge ab Datum berechnen**| 	Gibt das Startdatum des Dokuments an, das in den automatischen Kodierungsvorschlägen verwendet werden soll.
-|**Automatische Kodierungsbeträge aus Kodierungsset-ID vorschlagen**|	Gibt an, ob die Beträge automatisch in den erstellten Zeilen aus der Kodierungsset-ID vorgeschlagen werden. <br/><br/> Lesen Sie mehr im Abschnitt [***Automatische Kodierungsvorschläge einrichten***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
+|**Automatische Kodierungsbeträge aus Kodierungsset-ID vorschlagen**|	Gibt an, ob die Beträge automatisch in den erstellten Zeilen aus der Kodierungsset-ID vorgeschlagen werden. <br/><br/> Lesen Sie mehr im Abschnitt [***Automatische Kodierungsvorschläge einrichten***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
 
 <br/>
 

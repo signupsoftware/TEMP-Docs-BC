@@ -1,6 +1,6 @@
 ---
 title: ExFlow User
-sidebar_position: 3
+sidebar_position: 2
 hide_title: true
 custom_edit_url: null
 ---
@@ -21,6 +21,8 @@ Also, some default settings are possible in ExFlow Setup, like adding a default 
  
 One of the settings is “Default User Coding Rule ID”. It makes the setup of a new ExFlow User easier. Set “Default User Coding Rule” in ExFlow Setup, add a new ExFlow User Permission line with a particular Company and previously in ExFlow Setup defined User Coding Rule will be applied.
 
+![ExFlow Setup - Users](@site/static/img/media/exflow-setup-users-001.png)
+
 | ExFlow Setup - Users      |   | 
 |:-|:-|
 | **Language Code:**                            | Add language code for emails sent to ExFlow approvers
@@ -37,10 +39,7 @@ One of the settings is “Default User Coding Rule ID”. It makes the setup of 
 | **Automatically Create ExFlow Reference:**    | Select to automatically create ExFlow References. <br/> Read more under section [***Reference Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
 |**Default Confidential Role ID**| Specifies the default security role that is used when creating new approvers <br/> <br/> Read more about permissions under section [***Permissions on a Business Central user***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/) 
 
-
-
-
-![ExFlow Setup - Users](@site/static/img/media/exflow-setup-users-001.png)
+<br/>
 
 
 ### Import ExFlow Users from Excel
@@ -50,11 +49,13 @@ Besides manually adding new users it is possible for administrators to add ExFlo
 To Import from Excel, use the "Download Template" for Excel spreadsheet.
 
 ![ExFlow Users List](@site/static/img/media/exflow-users-001-export-import.png)
-<br/><br/>
+<br/>
 
 ### Add a New User manually
 
 Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
+
+![ExFlow User Card](@site/static/img/media/exflow-user-004.png)
 
 | ExFlow User |  |
 |:-|:-|
@@ -92,21 +93,23 @@ If the ExFlow User is a System User, notifications can be added in Business Cent
 | **Discussion Panel:**             | Select Yes/No if ExFlow should show notifications for mentions in a Discussion Panel/Chat for the approver (System User) on the Role Center page
 | **Contract Invoice Reminder:**    | Select Yes/No if ExFlow should send notifications if contract invoices is missing
 
-![ExFlow User Card](@site/static/img/media/exflow-user-004.png)
+
 
 Learn more about Notifications under section [***Approval Workflow --> Notifications in Business Central.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#notifications-in-business-central)
 
 
-
+<br/><br/>
 
 ### Add company access and web permission role under Permissions
+
+![ExFlow User Card](@site/static/img/media/exflow-user-permissions-001.png)
 
 | Permissions|  |
 |:-|:-|
 | **Company Name:**             | Add company from list that user should have access to. To be able to tag an approver the user needs to have access to the company document is created in
 | **Web Permission Role:**      | All ExFlow Users need a Web User Right Level for ExFlow Web   <br/> Permission set on the ExFlow user is for web permission only   <br/>ExFlow User that should administrate documents in ExFlow needs to be a System User to be able to open ExFlow Pages.     <br/><br/>Read more below how to [***Create a System User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)    <br/><br/>**Approver:** <br/>Approver can Approve, Reject, or set a document On Hold      <br/>The approver has only access to documents where approver is included in approval flow. No changes are allowed<br/><br/>**Approver (Power):** <br/>Same permission as Approver. Add and Forward to other Approver. Adding or changing in coding is allowed i.e., G/L Account or Dimensions       <br/><br/>**Approver (Super):** <br/>Same permission as Power User. See all approved documents in ExFlow History       <br/><br/> **Admin:** <br/>Admin permission in ExFlow Web. This user can do settings that applies for all Approvers in ExFlow Web.      <br/><br/> Read more about this under section [***Web User Level Permissions***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/web-user-level-permissions)
 | **User Coding Rule ID:**              | If an Approver should be able to do changes in coding on document line in ExFlow Web, ExFlow User Coding Rules can be used to decide/restrict what values he/she can select. All Approvers need a Coding Rule         <br/>Read more about this under section [***Business Functionality --> User Coding Rules***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/user-coding-rules#user-coding-rules)
-| **Related Resource No.:**             | It is possible to connect a Resource with an ExFlow user, to add a specific Approver automatically from "Person Responsible" on Job <br/>Read more under section [***Business Functionality --> Dynamic Approval Flow for Jobs***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-jobs)
+| **Related Resource No.:**             | It is possible to connect a Resource with an ExFlow user, to add a specific Approver automatically from "Person Responsible" on Project <br/>Read more under section [***Business Functionality --> Dynamic Approval Flow for Projects***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects)
 | **Related Purchaser Code:**           | Add Purchaser to send reminder if Purchase Receipts is missing. This also requires ExFlow Email Setup. Or to build the approval rule based on Purchaser
 | **Dimension Filter:**                 | Will extend the Approvers Permission to see history in Search on ExFlow Web <br/>Approver will be able to see all documents with this dimension value included
 | **Replaced by User:**                 | If Approver is blocked. Read more under [***Approver Leaving the Company***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
@@ -115,7 +118,7 @@ Learn more about Notifications under section [***Approval Workflow --> Notificat
 |**Access to Confidential Documents**|  Specifies if the user have access to see Confidential Documents or not. Read more under [***Confidential Documents***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
 
 
-![ExFlow User Card](@site/static/img/media/exflow-user-permissions-001.png)<br/>
+<br/>
 
 ### Create a System User
 
@@ -156,7 +159,7 @@ These are all available permissions set to use on a system user.
 
 ### Add a Replacer During Vacation Time
 
-Go To: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
+Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
 
 When a user is absent or on holiday a replacer can be assigned who can
 handle his/her documents.
@@ -176,7 +179,7 @@ The replaced user can still approve even if there is a replacer in place. Both c
 
 ### Approver Leaving the Company
 
-Go To: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
+Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
 
 Select the user that is leaving.
 
@@ -186,15 +189,21 @@ Choose one company at a time and click on "Block/Unblock User".
 
 ![Block User](@site/static/img/media/block-user-001.png)
 
-When blocking the user, add a replacer in the "New User" field. This updates the documents in the approval workflows.
+When blocking the user, add a replacer in the **"New User"** field. This updates the documents in the approval workflows.
 
-Select the checkbox "Replace History" to give the new user access to the blocked users historical documents.
+Select the checkbox **"Replace History"** to give the new user access to the blocked users historical documents. <br/>
 
-Select the "Replace Approval Rule and Coding Rules" to automatically replace the blocked user in all existing rules. Or create/change in Approvals and rules manually according to the situation.
+If the document is unapproved in Approval Status, then the blocked user will be automatically ''Approved'' under the *''Doc. Line Approvers''*, along with the comment *''Approved because user was blocked.''*. The replacer will be added automatically, as the current user instead of the blocked user.<br/>
+
+For approved, but not yet posted documents, the replacer will be added into the *''Doc. Line Approvers''* along with the comment ''Added because of history replacement''. <br/>
+
+In ExFlow Approval Status History, the replacer will be added into the  *Posted Document Line Approvers*, along with the comment ''AA replaced by BB''. <br/>
+
+Select the **"Replace Approval Rule and Coding Rules"** to automatically replace the blocked user in all existing rules. Or create/change in Approvals and rules manually according to the situation.
 
 When the ExFlow User is blocked in all companies, User Card will automatically be Blocked and hidden from ExFlow User List.
 
-Administrators can view hidden Blocked Users with function "View / Hide Blocked".
+Administrators can view hidden Blocked Users with function "View/Hide Blocked".
 
 To see who is replacing the blocked user open ExFlow User Card.
 
@@ -203,9 +212,9 @@ To see who is replacing the blocked user open ExFlow User Card.
 
 ### Approver Who Left the Company, Returns
 
-Go To: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
+Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
 
-To reinstate an approver who has been blocked, click View/Hide Blocked to show all blocked users. Select User and Click Block/Unblock User.
+To reinstate an approver who has been blocked, click View/Hide Blocked from the ExFLow User list to show all blocked users. Select User and click ''Block/Unblock User''.
 
 ![ExFlow User Card Permissions](@site/static/img/media/exflow-user-permissions-002.png)
 
@@ -218,7 +227,7 @@ The returned user must now manually be added in Approval- and Coding rules again
 
 ### Approver changing Email Address
 
-Go To: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
+Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
 
 Create a new ExFlow User with new email address.
 Open the user with the previous email address and use function Block/Unblock User. And add the new user in field "New User" and tick both "Access History" and "Replace Approval Rule".
