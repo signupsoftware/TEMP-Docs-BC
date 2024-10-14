@@ -8,13 +8,20 @@ custom_edit_url: null
 
 Go to: ***Setup --> ExFlow Auto Coding Suggestion Setup***<br/>
 
-This function in ExFlow is made to be able to get automatic coding suggestions in the import journal based on historically posted documents. This function will work for invoices and credit memos.
+This function in ExFlow is made to be able to get automatic coding suggestions in the Import Journal based on historically posted documents and works for both invoices and credit memos. This can be useful for companies who have posting history in Business Central but just started to use ExFlow.<br/>
 
-To be able to use this function, it needs to be set up in a couple of places first.
+*Auto Coding Suggestion* can give coding suggestion if no other suggestion type has been applied, like an ExFlow Purchase Code or Predefined G/L Account. <br/>
 
-![ExFlow Menu](@site/static/img/media/exflow-meny-auto-coding-001.png)
+ The Auto Coding Suggestion continuously update coding suggestions after posting the documents, to always give an accurate future suggestion.<br/>
 
-Enable the **''Show Advanced Setup''** in the Auto Coding Suggestion Setup page, to get the full page overview. 
+To be able to use this function, go to **ExFlow Auto Coding Suggestion Setup:** <br/>
+
+![ExFlow Menu](@site/static/img/media/exflow-meny-auto-coding-001.png) <br/>
+
+
+### Add a New Auto Coding Suggestion
+
+Enable the **''Show Advanced Setup''** in the Auto Coding Suggestion Setup page, to get the full page overview:
 
 ![ExFlow Coding Suggestion Setup](@site/static/img/media/coding-suggestion-setup-001.png)
 
@@ -32,10 +39,7 @@ Please note that the last two fields in above picture (''Group per Currency'' an
 | **Group Documents By:**   | Opens ExFlow Auto Coding Suggestion Grouping List
 | **Apply Fields:**   | Opens Auto Coding Suggestion Transfer Fields Setup
 
-
 <br/>
-
-### Add a New Auto Coding Suggestion
 
 | Auto Coding Suggestion Setup --> New/Edit List      |	|
 |:-|:-|
