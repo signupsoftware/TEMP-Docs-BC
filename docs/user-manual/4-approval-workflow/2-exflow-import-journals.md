@@ -95,7 +95,8 @@ Click on "ExFlow Data Capture" to get to its website. This only works if the com
 
 
 <br/><br/> 
-## Import Journal header
+
+## Import Journal Menu
 
 
 ### Delete Imported Document
