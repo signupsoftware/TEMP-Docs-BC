@@ -13,7 +13,23 @@ which populate the line with the entered values when invoice is imported to ExFl
 
 It is possible to get a fully coded line with a G/L Account, Dimensions, Project No. etc. just from a setup on "ExFlow OCR Import Mapping" page that can be unique for every vendor.
 
-![ExFlow OCR Import Mapping](@site/static/img/media/ocr-import-mapping-001.png)
+![ExFlow OCR Import Mapping](@site/static/img/media/ocr-import-mapping-list-001.png)
+
+| OCR Import Mapping     |	|
+|:-|:-|
+| **Vendor No.**    | Choose vendor no.
+| **Import No.**    | SPecify the imported value to be mapped
+| **Map To Type**    | Choose the a map -to type option. It can be an G/L account, Item no etc.
+| **No Purchase Order Matching**    | Choose if PO matching should be skipped in this specific mapping combination.
+| **Aggregate Lines**    | Enable this setting to aggregate all imported lines with the specified mapping criteria to one summarized invoice line.
+| **Dimension Code**     | If a Dimension Code exist as an ExFlow Web column, then the dimension code will be visible and can be used in the OCR Import Mapping list.
+| **Job (Project) No.**    | Specify the Project No. 
+| **Job (Project) Task No.**    | Specify the Project Task No. 
+| **First Approver**    | Specify the First Approver
+| **Approval Rule**    | Specify the Approval Rule
+| **Auto. Acc. Group**    | Specify the Automatic Account Groups
+| **Approval**    | The Approval checkbox is ticked per default. Disable if this mapping should not be apart of the approval flow.
+
 
 ### Aggregate Lines
 
@@ -23,11 +39,15 @@ It is possible to map a certain interpreted value to a particular Type, like a G
 
 When importing the document to Import Journal, coding will be generated according to the setup in "ExFlow OCR Import Mapping" page with chosen "Map to Type" (i.e., G/L account) under Import Lines.
 
-![ExFlow OCR Import Mapping - Aggregate Lines](@site/static/img/media/ocr-import-mapping-002.png)
+Dimensions will be added on lines, not header.
+
+![ExFlow OCR Import Mapping](@site/static/img/media/ocr-import-mapping-001.png)
 
 Example, if an invoice has 1000 lines (500 lines with value 1 and 500 lines with value 2), and the lines must be mapped to two different G/L Accounts according to below picture. By ticking "Aggregate Lines" all values with 1 will be aggregated into G/L Account 6420 and all lines with value 2 will be aggregated into G/L Account 5611 when importing the document to ExFlow Import Journal.
 
-Dimensions will be added on lines, not header.
+
+![ExFlow OCR Import Mapping - Aggregate Lines](@site/static/img/media/ocr-import-mapping-002.png)
+
 
 ![ExFlow Import Journal - Aggregate Lines](@site/static/img/media/import-journal-026.png)
 

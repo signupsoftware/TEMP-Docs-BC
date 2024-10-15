@@ -12,7 +12,22 @@ ExFlow OCR-Import-Mapping wird verwendet, um eine Kodierung von einem spezifisch
 
 Es ist möglich, eine vollständig kodierte Zeile mit einem Sachkonto, Dimensionen, Projekt-Nr. usw. nur durch eine Einrichtung auf der Seite "ExFlow OCR-Import-Mapping" zu erhalten, die für jeden Lieferanten einzigartig sein kann.
 
-![ExFlow OCR-Import-Mapping](../../images/ocr-import-mapping-001.png)
+![ExFlow OCR-Import-Mapping](../../images/ocr-import-mapping-list-001.png)
+
+| OCR-Import-Mapping     |	|
+|:-|:-|
+| **Lieferantennummer**    | Wählen Sie die Lieferantennummer.
+| **Importnummer**    | Geben Sie den zuzuordnenden importierten Wert an.
+| **Zuordnungstyp**    | Wählen Sie eine Zuordnungsoption. Es kann sich um ein Sachkonto, eine Artikelnummer usw. handeln.
+| **Keine Bestellabgleichung**    | Wählen Sie, ob die Bestellabgleichung in dieser spezifischen Zuordnungskombination übersprungen werden soll.
+| **Zeilen aggregieren**    | Aktivieren Sie diese Einstellung, um alle importierten Zeilen mit den angegebenen Zuordnungskriterien zu einer zusammengefassten Rechnungszeile zu aggregieren.
+| **Dimensionscode**     | Wenn ein Dimensionscode als ExFlow-Webspalte existiert, wird der Dimensionscode sichtbar und kann in der OCR-Import-Mapping-Liste verwendet werden.
+| **Projekt-Nr.**    | Geben Sie die Projekt-Nr. an.
+| **Projektaufgaben-Nr.**    | Geben Sie die Projektaufgaben-Nr. an.
+| **Erster Genehmiger**    | Geben Sie den ersten Genehmiger an.
+| **Genehmigungsregel**    | Geben Sie die Genehmigungsregel an.
+| **Automatische Kontengruppe**    | Geben Sie die automatische Kontengruppe an.
+| **Genehmigung**    | Das Genehmigungsfeld ist standardmäßig aktiviert. Deaktivieren Sie es, wenn diese Zuordnung nicht Teil des Genehmigungsprozesses sein soll.
 
 ### Zeilen aggregieren
 
@@ -22,11 +37,11 @@ Es ist möglich, einen bestimmten interpretierten Wert einem bestimmten Typ zuzu
 
 Beim Importieren des Dokuments in das Import-Journal wird die Kodierung gemäß der Einrichtung auf der Seite "ExFlow OCR-Import-Mapping" mit dem gewählten "Zuordnungstyp" (d.h. Sachkonto) unter Importzeilen generiert.
 
+Dimensionen werden auf Zeilen, nicht auf Kopfzeilen, hinzugefügt.
+
 ![ExFlow OCR-Import-Mapping - Zeilen aggregieren](../../images/ocr-import-mapping-002.png)
 
 Beispiel: Wenn eine Rechnung 1000 Zeilen hat (500 Zeilen mit Wert 1 und 500 Zeilen mit Wert 2) und die Zeilen gemäß dem untenstehenden Bild auf zwei verschiedene Sachkonten zugeordnet werden müssen. Durch das Ankreuzen von "Zeilen aggregieren" werden alle Werte mit 1 in das Sachkonto 6420 und alle Zeilen mit Wert 2 in das Sachkonto 5611 aggregiert, wenn das Dokument in das ExFlow-Import-Journal importiert wird.
-
-Dimensionen werden auf Zeilen, nicht auf Kopfzeilen, hinzugefügt.
 
 ![ExFlow Import-Journal - Zeilen aggregieren](../../images/import-journal-026.png)
 

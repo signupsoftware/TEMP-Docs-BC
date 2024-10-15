@@ -16,11 +16,11 @@ Hauptversion
 **Veröffentlichungsinformationen:** <br/>
 Erfordert BC 23.0 oder höher <br/>
 
-Finnische Kunden können nun wieder Zeilen importieren und die Berechnung des Zeilenbetrags ist korrekt - gelöst in 24.0.309.20<br/>
+Finnische Kunden können nun wieder Zeilen importieren und die Berechnung des Zeilenbetrags ist korrekt - gelöst in 24.0.310.20<br/>
 
-Neues Ereignis hinzugefügt, um eine bessere Anpassung der erneuten Rechnungsstellung zu ermöglichen - hinzugefügt in 24.0.309.20<br/>
+Neues Ereignis hinzugefügt, um eine bessere Anpassung der erneuten Rechnungsstellung zu ermöglichen - hinzugefügt in 24.0.310.20<br/>
 
-Mehrere Verbesserungen an der Suche in ExFlow Web bei Verwendung von Dimensionsfiltern für den ExFlow-Benutzer - verbessert in 24.0.309.20<br/>
+Mehrere Verbesserungen an der Suche in ExFlow Web bei Verwendung von Dimensionsfiltern für den ExFlow-Benutzer - verbessert in 24.0.310.20<br/>
 
 Negative Positionsrabatte können nun im Importjournal in 24.0.309.15 bearbeitet werden<br/>
 
