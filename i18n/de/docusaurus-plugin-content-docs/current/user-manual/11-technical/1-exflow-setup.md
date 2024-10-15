@@ -146,8 +146,8 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 |**In Bearbeitung**|  	Wird bei vorläufigen Buchungen im Kreditorenposten hinzugefügt. Gibt an, dass der zugehörige Eintrag eine unbezahlte Rechnung darstellt, für die entweder ein Zahlungsvorschlag, eine Mahnung oder eine Zinsrechnung existiert.
 |**Rechnungsrundung**|  	Überprüfen Sie, ob der Bruttobetrag abhängig von der maximalen Bruttoabweichung mit dem Zeilenbetrag übereinstimmt, und fügen Sie eine gerundete Zeile beim Buchen einer Rechnung hinzu.
 |**Buchungsbeschreibung**|  	Gibt die Buchungsbeschreibung für alle vorläufigen Buchungszeilen im Sachkonto an.
-|**Beschreibung der Stornobuchung**|  	Gibt die Buchungsbeschreibung für alle stornierten vorläufigen Buchungszeilen im Sachkonto an. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Vorläufige Buchung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
-| **MwSt.-Produktbuchungsgruppe 0%:**   | Fügen Sie die MwSt.-Produktbuchungsgruppe mit 0% zur vorläufigen Buchung ohne MwSt. hinzu, anstatt die MwSt.-Produktbuchungsgruppe zur Dokumentzeile hinzuzufügen. Diese Buchung wird storniert und die MwSt.-Buchung wird nur bei der endgültigen Buchung mit der zur Rechnung hinzugefügten MwSt.-Produktbuchungsgruppe gebucht.
+|**Beschreibung der Stornobuchung**|  	Gibt die Buchungsbeschreibung für alle stornierten vorläufigen Buchungszeilen im Sachkonto an.
+| **MwSt.-Produktbuchungsgruppe 0%:**   | Fügen Sie die MwSt.-Produktbuchungsgruppe mit 0% zur vorläufigen Buchung ohne MwSt. hinzu, anstatt die MwSt.-Produktbuchungsgruppe zur Dokumentzeile hinzuzufügen. Diese Buchung wird storniert und die MwSt.-Buchung wird nur bei der endgültigen Buchung mit der zur Rechnung hinzugefügten MwSt.-Produktbuchungsgruppe gebucht. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Vorläufige Buchung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
 
 <br/>
 

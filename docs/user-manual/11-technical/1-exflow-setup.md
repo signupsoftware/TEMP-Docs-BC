@@ -147,8 +147,8 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**On Hold**|  	Will be added on Vendor Ledger Entry when Preliminary Postings. Specifies that the related entry represents an unpaid invoice for which either a payment suggestion, a reminder, or a finance charge memo exists.
 |**Invoice Rounding**|  	Check if Gross Amount depending on Max. Diff. Gross Amount difference with Line amount, add a rounded line when posting an invoice
 |**Posting Description**|  	Specifies the posting description for all preliminary posting lines in G/L Entry.
-|**Reverse Posting Description**|  	Specifies the posting description for all reversed preliminary posting lines in G/L Entry. <br/><br/> Read more about this under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
-| **VAT Prod. Posting Group 0%:**   | Add VAT Prod. Posting Group with 0% to preliminary post without VAT instead of VAT Prod. Posting Group added on document line. This posting will be reversed and VAT posting gets posted with VAT Prod. Posting Group added to invoice only on final posting. 
+|**Reverse Posting Description**|  	Specifies the posting description for all reversed preliminary posting lines in G/L Entry.
+| **VAT Prod. Posting Group 0%:**   | Add VAT Prod. Posting Group with 0% to preliminary post without VAT instead of VAT Prod. Posting Group added on document line. This posting will be reversed and VAT posting gets posted with VAT Prod. Posting Group added to invoice only on final posting.  <br/><br/> Read more about this under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
 
 <br/>
 

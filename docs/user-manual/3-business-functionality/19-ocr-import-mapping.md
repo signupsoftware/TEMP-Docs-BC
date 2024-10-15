@@ -18,7 +18,7 @@ It is possible to get a fully coded line with a G/L Account, Dimensions, Project
 | OCR Import Mapping     |	|
 |:-|:-|
 | **Vendor No.**    | Choose vendor no.
-| **Import No.**    | SPecify the imported value to be mapped
+| **Import No.**    | Specify the imported value to be mapped
 | **Map To Type**    | Choose the a map -to type option. It can be an G/L account, Item no etc.
 | **No Purchase Order Matching**    | Choose if PO matching should be skipped in this specific mapping combination.
 | **Aggregate Lines**    | Enable this setting to aggregate all imported lines with the specified mapping criteria to one summarized invoice line.
