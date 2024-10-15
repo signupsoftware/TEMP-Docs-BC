@@ -19,11 +19,11 @@ Aus der ExFlow Import Journals-Liste ist es möglich, nach Journals zu suchen, e
 | **Neu** | Fügen Sie ein neues Importjournal hinzu
 | **Liste bearbeiten** | Bearbeiten Sie die Liste „Importjournal“.
 | **Löschen** | Löschen Sie ein Importjournal
-| **Zuhause** | **Journal bearbeiten:** Öffnet das markierte Importjournal zum Bearbeiten <br/><br/> **Batch-Importdokumente:** Importiert Dokumente für alle Stapel<br/><br/> **ExFlow-Datenerfassung:* * Öffnet die Anmeldung bei [**ExFlow Data Capture**](https://signup.readsoftonline.com).  
+| **Zuhause** | **Journal bearbeiten:** Öffnet das markierte Importjournal zum Bearbeiten <br/><br/> **Batch-Importdokumente:** Importiert Dokumente für alle Stapel<br/><br/> **ExFlow-Datenerfassung:** Öffnet die Anmeldung bei [**ExFlow Data Capture**](https://signup.readsoftonline.com).  
 | **Erstellen** | **Rechnung/Cr erstellen. Notizen:** Dokumente aus dem Importjournal erstellen <br/><br/> **Batch-Erstellung von Rechnung/Cr. Notizen...:** Stapelerstellung von Dokumenten aus dem Importjournal
 | **Aktionen** | **OCR-Importwarteschlange bearbeiten/anzeigen:** Öffnet die ExFlow OCR-Importwarteschlange für noch nicht importierte Dokumente, die in die Warteschlange gestellt werden sollen <br/><br/> **E-Mail-Empfangserinnerungen:** Sendet Bestell-/Empfangserinnerungen <br/> <br/>
-| **Aktionen -> Funktionen** | **Batch-Verifizierung von Journalen:** Verifiziert alle Dokumente für alle Import-Journale <br/><br/> **Verifizierung von Journalen:** Verifiziert Dokumente im ausgewählten Import-Journal <br/><br/> **Über ExFlow:* * Öffnet ein Popup-Fenster mit Informationen zur aktuellen ExFlow- und Business Central-Version. Bietet außerdem Links zur ExFlow-Dokumentationsplattform und den neuesten Versionshinweisen.<br/><br/> 
-| **Aktionen -> Andere** | **Journal bearbeiten:** Öffnet das ausgewählte Importjournal zum Bearbeiten <br/><br/> **Batch-Importdokumente:** Batch-Importdokumente in die Journale <br/><br/> **ExFlow-Datenerfassung: ** Öffnet die Anmeldung bei [**ExFlow Data Capture**](https://signup.readsoftonline.com).  
+| **Aktionen -> Funktionen** | **Batch-Verifizierung von Journalen:** Verifiziert alle Dokumente für alle Import-Journale <br/><br/> **Verifizierung von Journalen:** Verifiziert Dokumente im ausgewählten Import-Journal <br/><br/> **Über ExFlow:** Öffnet ein Popup-Fenster mit Informationen zur aktuellen ExFlow- und Business Central-Version. Bietet außerdem Links zur ExFlow-Dokumentationsplattform und den neuesten Versionshinweisen.<br/><br/> 
+| **Aktionen -> Andere** | **Journal bearbeiten:** Öffnet das ausgewählte Importjournal zum Bearbeiten <br/><br/> **Batch-Importdokumente:** Batch-Importdokumente in die Journale <br/><br/> **ExFlow-Datenerfassung:** Öffnet die Anmeldung bei [**ExFlow Data Capture**](https://signup.readsoftonline.com).  
 
 <br/>
 

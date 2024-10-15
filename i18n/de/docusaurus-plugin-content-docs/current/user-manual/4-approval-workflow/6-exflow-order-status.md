@@ -12,7 +12,7 @@ Wenn eine Bestellung oder ein Angebot zur Genehmigung markiert wird, ist es im E
 
 ### Einrichtung der Bestell- und Angebotsgenehmigung
 
-Gehe zu**: *Setup \--\> ExFlow Setup \--\> Bestell- und Angebotsgenehmigung***<br/>
+Gehe zu: ***Setup \--\> ExFlow Setup \--\> Bestell- und Angebotsgenehmigung***<br/>
 Um die Funktion der Bestell- und Angebotsgenehmigung zu nutzen, sind einige Einstellungen erforderlich.
 
 ![ExFlow Setup - Bestell- und Angebotsgenehmigung](../../images/exflow-setup-order-and-quote-approval-001.png)
