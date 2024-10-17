@@ -220,7 +220,8 @@ const config = {
                 //to: '/docs/user-manual/welcome-to-exflow/introduction',
                 // https://docs.exflow.cloud/business-central/
                 //to: siteURL + 'docs/user-manual/welcome-to-exflow/introduction',
-                to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction'
+                //to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction'
+                to: 'https://docs.exflow.cloud/business-central/docs/user-manual'
                
               },
               {
