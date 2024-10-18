@@ -81,7 +81,7 @@ const config = {
  
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  // localhost:3000
+  // 
   //baseUrl: '/',    // Use this for local dev
   baseUrl: '/business-central/',    // Use this for production  
   

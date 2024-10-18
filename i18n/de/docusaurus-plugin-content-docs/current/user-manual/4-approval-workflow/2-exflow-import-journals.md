@@ -14,6 +14,47 @@ Aus der ExFlow Import Journals-Liste ist es möglich, nach Journals zu suchen, e
 
 ![ExFlow Import Journals](../../images/import-journals-003.png)
 
+| Menü „Journale importieren“ |  |
+|:-|:-|
+| **Neu** | Fügen Sie ein neues Importjournal hinzu
+| **Liste bearbeiten** | Bearbeiten Sie die Liste „Importjournal“.
+| **Löschen** | Löschen Sie ein Importjournal
+| **Zuhause** | **Journal bearbeiten:** Öffnet das markierte Importjournal zum Bearbeiten <br/><br/> **Batch-Importdokumente:** Importiert Dokumente für alle Stapel<br/><br/> **ExFlow-Datenerfassung:** Öffnet die Anmeldung bei [**ExFlow Data Capture**](https://signup.readsoftonline.com).  
+| **Erstellen** | **Rechnung/Cr erstellen. Notizen:** Dokumente aus dem Importjournal erstellen <br/><br/> **Batch-Erstellung von Rechnung/Cr. Notizen...:** Stapelerstellung von Dokumenten aus dem Importjournal
+| **Aktionen** | **OCR-Importwarteschlange bearbeiten/anzeigen:** Öffnet die ExFlow OCR-Importwarteschlange für noch nicht importierte Dokumente, die in die Warteschlange gestellt werden sollen <br/><br/> **E-Mail-Empfangserinnerungen:** Sendet Bestell-/Empfangserinnerungen <br/> <br/>
+| **Aktionen -> Funktionen** | **Batch-Verifizierung von Journalen:** Verifiziert alle Dokumente für alle Import-Journale <br/><br/> **Verifizierung von Journalen:** Verifiziert Dokumente im ausgewählten Import-Journal <br/><br/> **Über ExFlow:** Öffnet ein Popup-Fenster mit Informationen zur aktuellen ExFlow- und Business Central-Version. Bietet außerdem Links zur ExFlow-Dokumentationsplattform und den neuesten Versionshinweisen.<br/><br/> 
+| **Aktionen -> Andere** | **Journal bearbeiten:** Öffnet das ausgewählte Importjournal zum Bearbeiten <br/><br/> **Batch-Importdokumente:** Batch-Importdokumente in die Journale <br/><br/> **ExFlow-Datenerfassung:** Öffnet die Anmeldung bei [**ExFlow Data Capture**](https://signup.readsoftonline.com).  
+
+<br/>
+
+| Journalliste importieren |  |
+|:-|:-|
+| **Name** | Name der Zeitschrift
+| **Beschreibung** | Beschreibung der Zeitschrift
+| **Quellentyp** | Quellentyp der Zeitschrift. Der aktuelle Quelltyp ist: ExFlow-Datenerfassung, Webdienst, manuell und Dateien importieren
+| **Dateicode importieren** | Gibt das zu verwendende ExFlow-Dateiimport-Setup an. Vor der Verwendung ist hierfür eine Konfiguration erforderlich.
+| **Nur mit der Bestellung übereinstimmende Dokumente** | Aktivieren Sie dieses Kontrollkästchen für ein bestimmtes Journal, um ein spezielles Journal nur für mit der Bestellung übereinstimmende Dokumente zu haben
+| **Dokumente beim Import überprüfen** | Wählen Sie aus, ob die Überprüfung der Dokumente beim Import für alle Dokumente im Journal oder nur für die neu importierten Dokumente durchgeführt werden soll. 
+| **NEIN. von Dokumenten** | Geben Sie die Anzahl der Dokumente im Journal an
+| **Fehler beim Batch-Download von ExFlow Data Capture** | Aktivieren Sie diese Option, um alle ExFlow Data Capture-Batch-Download-Fehler im selben Journal festzulegen
+| **Zeilen mit automatischem Vorschlag erstellen** | Aktivieren Sie dieses Kontrollkästchen für ein bestimmtes Journal, um ein eigenes Journal für Auto-Coding-Vorschläge zu haben
+| **Zahlungsvalidierung ignorieren** | Aktivieren Sie dieses Kontrollkästchen für ein bestimmtes Journal, in dem Dokumente den Zahlungsvalidierungsprozess überspringen
+| **Zahlungsvorschlag ignorieren** (verborgenes Feld) | Aktivieren Sie dieses Kontrollkästchen für ein bestimmtes Journal, in dem Dokumente den Zahlungsvorschlagsprozess überspringen. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+| **Dokumente automatisch erstellen** (verborgenes Feld) | Aktivieren Sie dieses Kontrollkästchen, um ein spezielles Journal zu erhalten, das automatisch Dokumente erstellt. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+| **Gutschriftsnummern** (ausgeblendetes Feld) | Fügen Sie dem Journal eine bestimmte Nummernserie für Gutschriften hinzu. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+| **Standarddokumenttyp** (verborgenes Feld) | Fügen Sie für ein bestimmtes Journal einen Standarddokumenttyp hinzu, z. B. Rechnung, Gutschrift oder Vorauszahlungsrechnung. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+| **Diff.Line-Einkauf. Code** (verstecktes Feld) | Fügen Sie einen bestimmten Diff.Line Purch hinzu. Code für eine bestimmte Zeitschrift. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+| **ExFlow-Kaufcode** (verborgenes Feld) | Fügen Sie einen bestimmten ExFlow-Kaufcode für eine bestimmte Zeitschrift hinzu. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+| **Rechnungsnummern** (verborgenes Feld) | Fügen Sie dem Journal eine bestimmte Nummernserie für Rechnungen hinzu. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+| **Gepostete Gutschriftsnummern** (ausgeblendetes Feld) | Fügen Sie dem Journal eine bestimmte Nummernserie für gebuchte Gutschriften hinzu. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+| **Gepostete Rechnungsnummern** (ausgeblendetes Feld) | Fügen Sie dem Journal eine bestimmte Nummernserie für gebuchte Rechnungen hinzu. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+| **Vordefiniertes Konto** (verborgenes Feld) | Fügen Sie dem Journal ein vordefiniertes Konto hinzu. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+| **Selbstfakturierungsrechnungen** (verborgenes Feld) | Aktivieren Sie „Selbstfakturierungsrechnungen“, um anzugeben, ob in diesem Journalstapel Selbstfakturierungsrechnungen erstellt werden sollen. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+| **Benutzer-ID-Filter (OCR)** (verstecktes Feld) | Fügen Sie einer bestimmten OCR-Benutzer-ID ein dediziertes Journal hinzu. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
+
+<br/><br/>
+
+
 ### Dokumente aus der Interpretation im Batch importieren
 Gehe zu: ***Home --> Batch Import Documents***<br/>
 Dokumentbilder und die interpretierten Daten werden importiert.
