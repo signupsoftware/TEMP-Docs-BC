@@ -5,7 +5,7 @@ id: agreementsindex
 custom_edit_url: null
 hide_table_of_contents: true
 ---
-## Terms and Conditions
+### Terms and Conditions
 <br/>
 
 <div class="agreement-table agreement-table-index">
@@ -21,3 +21,14 @@ hide_table_of_contents: true
 | ![Agreement](/img/icon_agreement.png) | 2024-09-16 | [Product Terms ExFlow Web](<./SignUp-Product_Terms_ExFlow_Web_2024-09-25.md>)  |
 </div>
 
+<br/>
+<!--
+### Statement of Work Fixed Price Implementation 
+
+<div class="agreement-table agreement-table-index">
+| &nbsp;&nbsp;Date | &nbsp;&nbsp;Document | 
+| :-------- | :-------- |
+| 2020-04-02 | [Statement of Work ExFlow AP for D365FO Fixed Price Implementation](<./Sow/ExFlow_AP_for_D365FO>) |
+| 2020-02-21 | Statement of Work ExFlow Data Capture for D365FO Fixed Price Implementation |
+</div>
+-->
