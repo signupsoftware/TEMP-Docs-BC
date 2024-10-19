@@ -559,6 +559,36 @@ html[data-theme='light'] {
   background-color: #f8f1ea; 
 }
 
+
+/* ----------------------------------------------------------------------------- */
+/*  SoW Pages        */
+/* ----------------------------------------------------------------------------- */
+
+.agreement-doc-sans .paragraph-indent {
+  font-family: 'DMSans', sans-serif;
+  font-size: 12pt;
+  line-height: 22px;
+  color: black;
+}
+
+
+.agreement-doc-sans .paragraph-medium {
+  font-family: 'DMSans', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  color: black;
+}
+
+.agreement-doc-sans .paragraph-text {
+  font-family: 'DMSans', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  font-decoration: underline;
+  color: black;
+}
+
+
+
 /* END Agreement documents styling */
 
 
