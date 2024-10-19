@@ -248,7 +248,7 @@ Mandatory fields to be able to create sales documents are Re-Invoicing Customer 
 <br/>
 
 #### Batch Create Invoices
-Go to: *** Re-Invoicing Entries --> Actions --> Batch Create Invoices***<br/>
+Go to: ***Re-Invoicing Entries --> Actions --> Batch Create Invoices***<br/>
 The only difference from Create Invoices is that batch will create sales invoices for all entries if no line is selected.
 <br/>
 

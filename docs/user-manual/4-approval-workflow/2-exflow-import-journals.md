@@ -15,6 +15,46 @@ From the ExFlow Import Journals list it is possible to search, create a new jour
 
 ![ExFlow Import Journals](@site/static/img/media/import-journals-003.png)
 
+| Import Journals menu |  |
+|:-|:-|
+| **New**         | Add a new Import Journal
+| **Edit list**         | Edit the Import Journal list
+| **Delete**         | Delete an Import Journal
+| **Home**         | **Edit Journal:**  Opens the marked Import Journal to edit <br/><br/>  **Batch Import Documents:** Imports documents for all batches<br/><br/>  **ExFlow Data Capture:**  Opens [**ExFlow Data Capture**](https://signup.readsoftonline.com) sign-in  
+| **Create**         | **Create Invoice/Cr. Memos:** Create documents from Import Journal <br/><br/>  **Batch Create Invoice/Cr. Memos...:** Batch create documents from Import Journal
+| **Actions**         | **Edit/View OCR Import Queue:** Opens the ExFlow OCR Import Queue for not yet imported documents to be queued <br/><br/> **Email Receipt Reminders:** Sends Order/Receipt Reminders <br/><br/>
+| **Actions --> Functions**         | **Batch Verify Journals:** Verifies all documents for all Import Journals <br/><br/> **Verify Journals:** Verifies documents in chosen Import Journal <br/><br/> **About ExFlow:** Opens a pop up box with information about the current ExFlow and Business Central version. Also provides links to ExFlow Documentation Platform and the latest release notes.<br/><br/> 
+| **Actions --> Other**         | **Edit Journal:** Opens the chosen Import Journal to edit <br/><br/> **Batch Import Documents:** Batch import documents to the journals <br/><br/> **ExFlow Data Capture:**  Opens [**ExFlow Data Capture**](https://signup.readsoftonline.com) sign-in  
+
+<br/> 
+
+| Import Journals list |  |
+|:-|:-|
+| **Name**         | Name of the journal
+| **Description**         | Description of the journal
+| **Source Type**         | Source Type of the journal. Current Source Type is: ExFlow Data Capture, Web Service, Manual and Import Files
+| **Import File Code**         | Specifies the ExFlow File Import Setup to be used. Configuration for this is needed before usage.
+| **Only Purchase Order Matched Documents**         | Enable this checkbox for a specific journal to have a dedicated journal only for purchase order matched documents
+| **Verify documents at import**         | Choose if verification on the documents at import should be proceeded for all documents in the journal, or for the newly imported documents only. 
+| **No. of Documents**         | Specify the amount of documents in the journal
+| **ExFlow Data Capture batch download errors**         | Enable to set all ExFlow Data Capture batch download errors into same journal
+| **Create Lines with Automatic Suggestion**         | Enable this checkbox for a specific journal to have a dedicated journal for Auto Coding Suggestions
+| **Ignore Payment Validation**         | Enable this checkbox for a specific journal where documents will skip the Payment Validation process
+| **Ignore Payment Suggestion** (hidden field)        | Enable this checkbox for a specific journal where documents will skip the Payment Suggestion process. This field can be added via page personalization
+| **Automatically Create Documents**  (hidden field)        | Enable this checkbox to get an dedicated journal that will automatically create documents. This field can be added via page personalization
+| **Credit Memo Nos.** (hidden field)        | Add a specific No. Series for Credit Memos to the journal. This field can be added via page personalization
+| **Default Document Type**  (hidden field)       | Add a default document type, such as Invoice, Credit Memo or Prepayment Invoice, for a specific journal. This field can be added via page personalization
+| **Diff.Line Purch. Code**   (hidden field)      | Add a specific Diff.Line Purch. Code for a specific journal. This field can be added via page personalization
+| **ExFlow Purchase Code**   (hidden field)      | Add a specific ExFlow Purchase Code for a specific journal. This field can be added via page personalization
+| **Invoice Nos.**     (hidden field)    | Add a specific No. Series for Invoices to the journal. This field can be added via page personalization
+| **Posted Credit Memo Nos.**     (hidden field)    | Add a specific No. Series for Posted Credit Memos to the journal. This field can be added via page personalization
+| **Posted Invoice Nos.**   (hidden field)      | Add a specific No. Series for Posted Invoices to the journal. This field can be added via page personalization
+| **Predefined Account**     (hidden field)    | Add a Predefined Account to the journal. This field can be added via page personalization
+| **Self-Billing Invoices**  (hidden field)       | Enable ''Self-Billing Invoices'' to specify if Self-Billing Invoices should be created in this journal batch. This field can be added via page personalization
+| **User ID Filter (OCR)**   (hidden field)      | Add a dedicated journal to a specific OCR User ID. This field can be added via page personalization
+
+<br/><br/> 
+
 ### Batch Import Documents from Interpretation
 Go to: ***Home --> Batch Import Documents***<br/>
 Document images and the interpreted data will be imported.
@@ -52,6 +92,12 @@ Go to: ***Actions --> Import --> ExFlow Data Capture***
 Click on "ExFlow Data Capture" to get to its website. This only works if the company is connected to an ExFlow Data Capture account.
 
 ![ExFlow Import Journals - ExFlow Data Capture](@site/static/img/media/import-journals-006.png)
+
+
+<br/><br/> 
+
+## Import Journal Menu
+
 
 ### Delete Imported Document
 Go to: ***Manage --> Delete***<br/>
@@ -217,10 +263,10 @@ If the Business Central company have more than one ExFlow Import Journal, a docu
 
 ### Batch Update Posting Date
 Go to: ***Action --> Functions --> Batch Update Posting Date***<br/>
-Whith this function it is possible to update Posting Date for documents in selected Journal within the filter.
+With this function it is possible to update Posting Date for documents in selected Journal within the filter.
 
 ### Edit/View OCR Import Queue
-Go to: ***Action --> Functions --> Batch Update Posting Date***<br/>
+Go to: ***Action --> Functions --> Edit/View OCR Import Queue***<br/>
 Use this function to view or edit the OCR Import Queue. Correct documents that contains incorrect information that prevents them from being imported. 
 
 ### Order -- Match OCR Lines
@@ -357,7 +403,9 @@ Read more about show Import Details above
 Go to: ***Show more options --> Show Document Image***<br/>
 To open PDF on full screen for a selected document or use shortcut (Ctrl+I).
 
-### ExFlow Import Journal -- Import Lines
+
+## Import Journal - Import Lines
+
 #### New Line
 Go to: ***Import Lines --> Manage --> New Line***<br/>
 Add new line to create a new entry. 

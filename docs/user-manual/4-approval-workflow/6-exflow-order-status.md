@@ -16,7 +16,7 @@ ExFlow Web.
 
 ### Order and Quote Approval Setup
 
-Go to**: *Setup \--\> ExFlow Setup \--\> Order and Quote Approval***<br/>
+Go to: ***Setup \--\> ExFlow Setup \--\> Order and Quote Approval***<br/>
 To use the Order and Quote Approval function there are some settings that are needed.
 
 ![ExFlow Setup - Order and Quote Approval](@site/static/img/media/exflow-setup-order-and-quote-approval-001.png)

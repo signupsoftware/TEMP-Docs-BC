@@ -22,7 +22,7 @@ Business Central standard.
 
 #### ExFlow Setup
 
-Go to**: *Setup \--\> ExFlow Setup \--\> Escalation tab***
+Go to: ***Setup \--\> ExFlow Setup \--\> Escalation tab***
 
 **Days before Escalation:** Calculated from when the user received the
 document for approval.
@@ -50,8 +50,7 @@ Changes in Approval Status.
 
 #### ExFlow Approval Group
 
-Go to: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Approval
-Groups***
+Go to: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Approval Groups***
 
 Use escalation settings on ExFlow Approval Group if a separate setup is
 needed.
@@ -165,10 +164,10 @@ ExFlow Re-Invoicing Entries.
 
 Read more about this under section [***Re-Invoicing.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing)
 
-### Automatic Coding Suggestion
+### Auto Coding Suggestion
 
-To apply the Automatic Coding Suggestion, it is required to run the
-functions ExFlow Coding Set IDs for Coding Suggestions and ExFlow
-Creating Automatic Coding Suggestions.
+To apply the Auto Coding Suggestion, it is required to run the
+functions ExFlow Coding Set IDs for Auto Coding Suggestions and ExFlow
+Creating Auto Coding Suggestions.
 
-![Periodic Activities - Automatic Coding Suggestions](@site/static/img/media/exflow-menu-005-periodic-activities.png) <br/><br/> Read more about this under section [***Automatic Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
+![Periodic Activities - Automatic Coding Suggestions](@site/static/img/media/exflow-menu-005-periodic-activities.png) <br/><br/> Read more about this under section [***Auto Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
