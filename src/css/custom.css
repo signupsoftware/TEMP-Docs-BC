@@ -319,7 +319,11 @@ html[data-theme='light'] {
   --font-size-table-text: 12pt;
 
   --font-family-document: 'Times New Roman', Times, serif;
+  --font-family-document-sans: 'DMSans', sans-serif;
   --paragraph-line-height: 22px;
+
+  --text-color-dark-mode: #f8f1ea;
+  --text-color-light-mode: #000000;
 }
 
 .agreement-doc {
@@ -539,11 +543,23 @@ html[data-theme='light'] {
   border-bottom: none;
 }
 /* Remove all borders from the table headers */
-.agreement-table-index table th {
+[data-theme='light'] .agreement-table-index table th {
   display: table-cell;
   background-color: #e6d9d1;
   border: none !important;
 }
+[data-theme='dark'] .agreement-table-index table th {
+  display: table-cell;
+  background-color: #3d3836;
+  border: none !important;
+  color: var(--text-color-dark-mode);
+  background-color: #0f1d45;
+}
+
+[data-theme='dark'] .agreement-table-index table td {
+  background-color: #132353;
+}
+
 .agreement-table-index table thead {
   border: none;
   padding: 0px !important;
@@ -554,37 +570,131 @@ html[data-theme='light'] {
   border-collapse: collapse;
   border: none;
 }  
-.agreement-table-index table td:first-child {
+
+[data-theme='light'] .agreement-table-index table td:first-child {
   width: auto;
   background-color: #f8f1ea; 
 }
+[data-theme='dark'] .agreement-table-index table td:first-child {
+  width: auto;
+  background-color: #132353;
+}
+
+
 
 
 /* ----------------------------------------------------------------------------- */
-/*  SoW Pages        */
+/*  SoW Pages                                                                    */
 /* ----------------------------------------------------------------------------- */
 
-.agreement-doc-sans .paragraph-indent {
+[data-theme='light'] .agreement-doc-sans .paragraph-indent {
   font-family: 'DMSans', sans-serif;
   font-size: 12pt;
   line-height: 22px;
-  color: black;
+}
+[data-theme='dark'] .agreement-doc-sans .paragraph-indent {
+  font-family: 'DMSans', sans-serif;
+  font-size: 12pt;
+  line-height: 22px;
+  color: var(--text-color-dark-mode);
 }
 
-
-.agreement-doc-sans .paragraph-medium {
+[data-theme='light'] .agreement-doc-sans .paragraph-medium {
   font-family: 'DMSans', sans-serif;
   font-size: 12pt;
   font-weight: bold;
-  color: black;
 }
-
-.agreement-doc-sans .paragraph-text {
+[data-theme='dark'] .agreement-doc-sans .paragraph-medium {
   font-family: 'DMSans', sans-serif;
   font-size: 12pt;
   font-weight: bold;
-  font-decoration: underline;
+  color: var(--text-color-dark-mode);
+}
+
+
+[data-theme='light'] .agreement-doc-sans .paragraph-text {
+  font-family: 'DMSans', sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  text-decoration: underline;
   color: black;
+}
+[data-theme='dark'] .agreement-doc-sans .paragraph-text {
+  font-family: 'DMSans', sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--text-color-dark-mode);
+}
+
+.agreement-doc-sans .paragraph-text-n {
+  font-weight: normal;
+  font-family: var(--font-family-document-sans);
+  font-size: var(--font-size-normal-text);
+  margin-left: 40px;
+  font-weight: normal;
+  display: inline-block;
+  white-space: break-spaces;
+  vertical-align: top;
+  line-height: var(--paragraph-line-height);
+}
+
+.agreement-doc-sans .paragraph-text-n2 {
+  font-weight: normal;
+  font-family: var(--font-family-document-sans);
+  font-size: var(--font-size-normal-text);
+  margin-left: 40px;
+  font-weight: normal;
+  display: inline-block;
+  white-space: break-spaces;
+  vertical-align: top;
+  line-height: var(--paragraph-line-height);
+}
+
+[data-theme='light'] .agreement-doc-sans .paragraph-indent-l2 {
+  margin-left: 50px;
+}
+[data-theme='dark'] .agreement-doc-sans .paragraph-indent-l2 {
+  margin-left: 50px;
+  color: var(--text-color-dark-mode);
+}
+
+.agreement-doc-sans .paragraph-indent-in {
+  margin-left: -20px;
+}
+
+[data-theme='light'] .agreement-doc-sans .list-roman { 
+  margin-left: 40px;
+}
+[data-theme='dark'] .agreement-doc-sans .list-roman { 
+  margin-left: 40px;
+  color: var(--text-color-dark-mode);
+}
+
+[data-theme='light'] .agreement-doc-sans .list-roman li span { 
+  position: relative;  
+  left: 10px;
+}
+[data-theme='dark'] .agreement-doc-sans .list-roman li span { 
+  position: relative;
+  color: var(--text-color-dark-mode);
+  left: 10px;
+}
+
+
+
+
+
+
+[data-theme='light'] .agreement-doc-sans img {
+  width: 253px;
+  height: 89px;
+  background-image: url("/static/img/logo_SignUp_Dark.png");
+}
+[data-theme='dark'] .agreement-doc img {
+  width: 253px;
+  height: 89px;
+  background-image: url("/static/img/logo_SignUp_Light.png");
 }
 
 
