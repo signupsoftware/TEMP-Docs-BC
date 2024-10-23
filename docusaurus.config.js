@@ -152,8 +152,12 @@ const config = {
       navbar: {
 
         logo: {
-          //alt: 'ExFlow',
-          src: 'img/exflow-logo-v5.png',
+          // Old:
+          //src: 'img/exflow-logo-v5.png',
+          alt: 'SignUp logo',
+          src: 'img/logo_SignUp_Dark.png',
+          srcDark: 'img/logo_SignUp_Light.png',
+          href: 'https://docs.exflow.cloud/',
         },
 
         items: [
@@ -162,20 +166,20 @@ const config = {
             position: 'right',
           },
 
-
           {
             label: 'Home',
             position: 'left',
             href: '/',
           },
 
-
-
           {
             label: 'Documentation',
             position: 'left',
             //href: '/docs/user-manual'
-            to: 'https://docs.exflow.cloud/business-central/docs/user-manual',
+            // Old style, opens in new tab:
+            //to: 'https://docs.exflow.cloud/business-central/docs/user-manual',
+            // New style, taken from DocsFO (minus 'exflow-home-page/introduction')
+            to: 'docs/user-manual'            
           },
 
 
@@ -183,7 +187,10 @@ const config = {
             label: 'Release notes',
             position: 'left',
             //href: '/docs/user-manual/welcome-to-exflow/release-notes'
-            to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/release-notes'
+            // Old style, opens in new tab:            
+            //to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/release-notes'
+            // New style, taken from DocsFO
+            to: 'docs/user-manual/welcome-to-exflow/release-notes'
           },
 
 
