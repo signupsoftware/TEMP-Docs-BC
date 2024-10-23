@@ -22,7 +22,7 @@ hide_table_of_contents: true
 </div>
 
 <br/>
-
+<!--
 ### Statement of Work Fixed Price Implementation
 <br/>
 
@@ -32,5 +32,5 @@ hide_table_of_contents: true
 |  | 2020-02-21 | [ExFlow AP for D365FO](docs/papers/agreements/SoW/ExFlow_AP_for_D365FO.md) |
 |  | 2020-04-02 | [ExFlow Data Capture for D365FO](docs/papers/agreements/SoW/ExFlow_Data_Capture_for_D365FO.md) |
 </div>
-
+-->
 
