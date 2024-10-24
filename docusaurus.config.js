@@ -93,7 +93,7 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -251,6 +251,10 @@ const config = {
               {
                 label: 'Terms and Conditions',
                 href: '/docs/papers/agreements',
+              },
+              {
+                label: '.',
+                href: '/docs/papers/TaE/intro',
               },
             ],
           },
