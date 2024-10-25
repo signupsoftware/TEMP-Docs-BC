@@ -44,7 +44,9 @@ const FeatureList = [
 const FeatureList = [
   {
     title: <Translate>EXFLOW AP</Translate>,
-    url: '/business-central/docs/user-manual',
+    //url: '/business-central/docs/user-manual',
+    // EA 2024-10-25 The above ink stopped working, so I changed it to the below one.
+    url: '/business-central/docs/user-manual/welcome-to-exflow/introduction',
   },
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
