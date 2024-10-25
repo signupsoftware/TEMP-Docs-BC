@@ -228,8 +228,11 @@ const config = {
                 // https://docs.exflow.cloud/business-central/
                 //to: siteURL + 'docs/user-manual/welcome-to-exflow/introduction',
                 //to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction'
-                to: 'https://docs.exflow.cloud/business-central/docs/user-manual'
-               
+                //to: 'https://docs.exflow.cloud/business-central/docs/user-manual'
+                // EA 2024-10-25:
+                //to: "/business-central/docs/user-manual/welcome-to-exflow/introduction"               
+                // EA 2024-10-25b, something weird is going on here, esp. with German link.
+                to: "docs/user-manual/welcome-to-exflow/introduction"               
               },
               {
                 label: 'ExFlow Web',
