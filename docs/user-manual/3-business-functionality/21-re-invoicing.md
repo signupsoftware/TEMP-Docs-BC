@@ -23,7 +23,7 @@ The following Re-Invoicing Columns can be activated on ExFlow Web:
 The Approvers can then add, change, or approve value for Sales Invoice to Customer depending on ExFlow User Permission.
 
 ### ExFlow Re-Invoicing Setup
-Go to: *** Setup --> ExFlow Manual Setup --> ExFlow Re-Invoicing Setup***<br/>
+Go to: ***Setup --> ExFlow Manual Setup --> ExFlow Re-Invoicing Setup***<br/>
 Start by activating Re-Invoicing in ExFlow Re-Invoicing Setup and follow wizard for minimum setup required.
 
 ![Re-Invoicing Setup](@site/static/img/media/re-invoicing-setup-001.png)
