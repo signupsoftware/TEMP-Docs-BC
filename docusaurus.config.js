@@ -259,7 +259,7 @@ const config = {
               },
               {
                 label: '.',
-                href: '/docs/papers/TaE/intro',
+                href: '/docs/agreements',
               },
             ],
           },

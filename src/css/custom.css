@@ -920,18 +920,13 @@ img[alt="large"] {
 }
 
 /* Temp stuff */
-.footer__items a[href="/business-central/docs/papers/TaE/intro"] {
+.footer__items a[href="/business-central/docs/agreements"] {
   color: #feddb8;
 }
-.footer__items a[href="/business-central/de/docs/papers/TaE/intro"] {
+.footer__items a[href="/business-central/de/docs/agreements"] {
   color: #feddb8;
 }
 
-/*
-.footer__link-item:nth-of-type(odd) {
-  background-color: red;
-}
-*/
 
 
 
