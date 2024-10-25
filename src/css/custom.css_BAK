@@ -15,20 +15,6 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-
-  /* EA 2024-10-21 */
-  --ifm-color-primary-base-color: #fdad54;
-  --ifm-code-font-size: 100%;
-  --ifm-font-family-base: 'DMSans';
-  --ifm-font-weight-bold: 800;
-  --ifm-font-weight-semibold: 600;
-  --ifm-font-weight-alittlebold: 500;
-  --ifm-sidebar-menu-font-size: 12pt;
-  --ifm-h3-font-size: 1.5rem;
-  --ifm-menu-color:  #606770;
-    /* EA Units from old site */
-  --aa-base-unit: 16px;
-  --aa-font-size: calc(var(--aa-base-unit)* 1px);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -64,61 +50,16 @@
   height: 1px;
 }
 
-
-/* Links inside md-docs. This overrides more than it should, so other links are added below */
-[data-theme='light'] a {
-  color: var(--ifm-color-primary-base-color);
-  text-decoration: none;
-}
-[data-theme='dark'] a {
-  color: white;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-/* Other link styling */
-.menu a {
-  font-weight: var(--ifm-font-weight-alittlebold);
-  font-size: var(--ifm-sidebar-menu-font-size);
-  color: var(--ifm-menu-color);
-}
-.menu a:hover {
-  color: var(--ifm-color-primary-base-color);
-}
-.menu .menu__link--active {
-  color: var(--ifm-color-primary-base-color);
-}
-
-.table-of-contents a {
-  color: var(--ifm-menu-color);
-}
-.navbar {
-  background-color: #F8F1EA;
-}
-.navbar a {
-  color: var(--ifm-menu-color);
-  font-weight: 500;
-  font-family: 'DmSans', sans-serif;
-  font-size: 100%;
-}
-.navbar a:hover {
-  color: var(--ifm-color-primary-base-color);
-}
-.navbar__link--active {
-  color: var(--ifm-color-primary-base-color);
-}
-
-
 /* Footer overrides */
 
 [data-theme='dark'] .footer {
   background-color: #3a2e25;
 }
 [data-theme='light'] .footer {
-  background-color: #F1E4D5;
-  background-color: #feddb8;
+  background-color: #F1E4D5; 
+  /*background-color: red;*/
 }
+
 [data-theme='dark'] .footer__link-item {
   color: #DDD;
 }
@@ -252,10 +193,8 @@ html[data-theme='light'] {
 }
 
 [data-theme='dark'] a {
-/* EA 2024-10-23 Might need this
   color: white;
   text-decoration: none;
-  */
 }
 
 
@@ -286,27 +225,6 @@ html[data-theme='light'] {
 /*    EA 2024-09-12 New design
 /* ----------------------------------------------------------------------------- */
 
-body h3 {
-  font-family: "Archia";
-  font-weight: 600;
-  font-size: var(--ifm-h3-font-size);
-}
-body h4 {
-  font-family: "Archia";
-  font-weight: 600;
-  font-size: var(--aa-font-size);
-}
-strong {
-  font-family: "DMSans";
-  font-weight: var(--ifm-font-weight-bold);
-  font-size: var(--aa-font-size);
-}
-table strong {
-  font-family: "DMSans";
-  font-weight: normal;
-  font-size: var(--aa-font-size);
-}
-
 .background-image {
   background-image: url("../../static/img/Hero_BC\ 1.png");
   background-size: cover;
@@ -327,40 +245,26 @@ table strong {
 }
 
 .main-title {
-  color: black;
-  font-family: DMSans, sans-serif;
-  font-size: 43px;
-  font-weight: 500;
-  line-height: 49px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-top: 50px;
-  max-width: 1000px;
-  /*
-  font-weight: 200;
-  */
-  /*  padding-top: 60px; 
+  padding-top: 60px; 
   padding-bottom: 50px;
   margin-left: 25px;
   color: #333335;
   font-family: 'DMSans', sans-serif;
   font-size: 32pt;
-  */
 }
 
 .menu-item {
   width: fit-content;
-  height: 55px;
-  background-color: var(--ifm-color-primary-base-color);
-  color: black; 
+  height: 40px;
+  background-color: #FDAD54; 
   border-radius: 10px;
-  margin-top: 22px;
+  margin-top: 15px;
   align-content: center;
   text-align: left;
-  padding-left: 20px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-family: 'DMSans', sans-serif;
-  font-size: 15pt;
+  font-size: 13pt;
 }
 .menu-item:hover {
   background-color: #FFC48C;
@@ -380,119 +284,23 @@ table strong {
   font-size: 12pt;
 */
 
-/* ----------------------------------------------------------------------------- */
 /* Tables in .md files */
-/*  Tables in .md files                                                          */
-/* ----------------------------------------------------------------------------- */
-
 [data-theme='light'] table thead {
-  background-color: var(--ifm-color-primary-base-color);
   background-color: #fdad54;
   border: var(--ifm-table-border-width) solid #fdad54;
 }
 [data-theme='light'] table td, table th {
-  border: var(--ifm-table-border-width) solid var(--ifm-color-primary-base-color);
   border: var(--ifm-table-border-width) solid #fdad54 !important;
   vertical-align: top;
 }
 [data-theme='dark'] table thead {
   background-color: #333335;
-  background-color: #333335;
   border-color: #333335;
-  border-color: #333335;
-}
-[data-theme='light'] table td, table th {
-  border: var(--ifm-table-border-width) solid var(--ifm-color-primary-base-color) !important;
-  border: var(--ifm-table-border-width) solid #333335;
-  vertical-align: top;
 }
 [data-theme='dark'] table td, table th {
   border: var(--ifm-table-border-width) solid #333335;
-}
-table td, table th {
   vertical-align: top;
-  line-height: 19px;
-  padding: 10px;
 }
-
-/* ----------------------------------------------------------------------------- */
-/*  Special case tables, these will emulate "colspan" in order to keep           */
-/*  table headers neat and tidy.                                                 */
-.table-expanded-header table {
-  display: flex;
-  flex-flow: row wrap;
-  max-width: 900px;
-}
-
-.table-expanded-header table thead {
-  line-height: 10px;
-  background-color: var(--ifm-color-primary-base-color);
-  padding: 0px !important;
-  margin: 0px !important;
-  /* border-bottom: 1px solid red;  */
-}
-.table-expanded-header table thead th:first-child {
-  width: 600px;
-}
-.table-expanded-header table thead th:nth-child(2) {
-  flex: 1;
-  align-content: flex-end;
-  width: 300px;  
-}
-.table-expanded-header tr td:first-child {
-  white-space: nowrap;
-  word-break: keep-all;
-}
-.table-expanded-header tr td:nth-child(2) {
-  width: 1200px;
-}
-
-/* Nested table, use only in specail cases */
-.table-invisible {
-  background-color: unset;
-  display: block !important;
-}
-.table-invisible tr {
-  border: 0;
-}
-.table-invisible tr td {
-  border-collapse: collapse;
-  border: none !important;
-}
-
-
-.footer__copyright {
-  margin-top: 15px;
-  color: black;
-  font-size: 9pt;
-  float: right;
-}
-
-
-.pdf-button {
-  background-color: var(--ifm-color-primary-base-color);
-  border-radius: 8px;
-  border: none;
-  float: right;
-  color: white;
-  padding: 10px 22px;
-  text-align: center;
-  font-size: 16px;
-  transition: 0.3s;
-  position: relative;
-  top: -55px;
-  display: flex;
-}
-.pdf-button:hover {
-  background-color: #FFC48C;
-  text-decoration: none;
-  color: #555;
-}
-.btn_higher {
-  top: -120px;
-}
-
-
 
 /* ============================================================================= */
 /*  Agreement documents styling                                                  */                   
@@ -504,13 +312,18 @@ table td, table th {
   --font-size-big-header: 20pt;
   --font-size-main-header: 14pt;
   --font-size-medium-header: 12pt;
-  --font-size-bigger-header: 13pt;
   --font-size-normal-paragraph: 12pt;
   --font-size-small-paragraph: 11pt;
+
   --font-size-table-header: 12pt;
   --font-size-table-text: 12pt;
+
   --font-family-document: 'Times New Roman', Times, serif;
+  --font-family-document-sans: 'DMSans', sans-serif;
   --paragraph-line-height: 22px;
+
+  --text-color-dark-mode: #f8f1ea;
+  --text-color-light-mode: #000000;
 }
 
 .agreement-doc {
@@ -670,9 +483,6 @@ table td, table th {
   /* border: solid 1px black !important; */
   border: none !important;
 }
-.agreement-table table td a {
-  color: black;
-}
 .agreement-table img {
   width: 32px;
   height: 32px;
@@ -733,11 +543,23 @@ table td, table th {
   border-bottom: none;
 }
 /* Remove all borders from the table headers */
-.agreement-table-index table th {
+[data-theme='light'] .agreement-table-index table th {
   display: table-cell;
   background-color: #e6d9d1;
   border: none !important;
 }
+[data-theme='dark'] .agreement-table-index table th {
+  display: table-cell;
+  background-color: #3d3836;
+  border: none !important;
+  color: var(--text-color-dark-mode);
+  background-color: #0f1d45;
+}
+
+[data-theme='dark'] .agreement-table-index table td {
+  background-color: #132353;
+}
+
 .agreement-table-index table thead {
   border: none;
   padding: 0px !important;
@@ -748,28 +570,17 @@ table td, table th {
   border-collapse: collapse;
   border: none;
 }  
-.agreement-table-index table td:first-child {
+
+[data-theme='light'] .agreement-table-index table td:first-child {
   width: auto;
   background-color: #f8f1ea; 
-  height: 45px;
+}
+[data-theme='dark'] .agreement-table-index table td:first-child {
+  width: auto;
+  background-color: #132353;
 }
 
-/* ----------------------------------------------------------------------------- */
-/*  Image sizes in markdown files                                                */
-/* ----------------------------------------------------------------------------- */
 
-img[alt="small"] {
-  max-width: 400px;
-  height: auto;
-}
-img[alt="medium"] {
-  max-width: 600px;
-  height: auto;
-}
-img[alt="large"] {
-  max-width: 800px;
-  height: auto;
-}
 
 
 /* ----------------------------------------------------------------------------- */
@@ -904,34 +715,5 @@ img[alt="large"] {
 
 
 /* END Agreement documents styling */
-
-.miniscule {
-  font-size: 8pt;
-  font-style: italic;
-}
-
-.doc-iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  left: 0px;
-  position: absolute;
-  scrollbar-width: 1px;
-}
-
-/* Temp stuff */
-.footer__items a[href="/business-central/docs/papers/TaE/intro"] {
-  color: #feddb8;
-}
-.footer__items a[href="/business-central/de/docs/papers/TaE/intro"] {
-  color: #feddb8;
-}
-
-/*
-.footer__link-item:nth-of-type(odd) {
-  background-color: red;
-}
-*/
-
 
 
