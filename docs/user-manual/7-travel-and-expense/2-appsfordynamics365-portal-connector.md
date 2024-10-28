@@ -4,6 +4,7 @@ sidebar_position: 2
 hide_title: true
 custom_edit_url: null
 ---
+
 ## AppsForDynamics365 Portal Connector
 
 The AppsForDynamics365 Portal Connector facilitates the integration of the ExFlow Travel & Expense application with your Business Central system. Acting as an intermediary, it ensures that data is transmitted directly to Business Central in easily processed and digestible formats for storage or application.
@@ -11,7 +12,6 @@ The AppsForDynamics365 Portal Connector facilitates the integration of the ExFlo
 The portal offers easy access for users who are not Business Central super users and may be on the road while performing tasks in ExFlow Travel & Expense.
 
 This documentation provides all the necessary information to set up AppsForDynamics365 and connect it with Business Central.
-
 
 ### AppsForDynamics365 integration setup
 This section documents the setup process for the AppsForDynamics365 integration. The integration module is used by ExFlow Travel & Expense to connect Business Central to the AppsForDynamics365 portal.
@@ -27,7 +27,7 @@ Go to: **AppsForDynamics365 Configuration**
 
 #### Verify license
 
-The initial step in the process requires entering the customer ID and license key. These will be provided when an AppsForDynamics365 product is purchased. Alternatively, they can be found on the **My account** page on [www.appsfordynamics365.com](http://www.appsfordynamics365.com).
+The initial step in the process requires entering the customer ID and license key. These will be provided when an AppsForDynamics365 product is purchased. Alternatively, they can be found on the **My account** page on [www.appsfordynamics365.com](http://www.appsfordynamics365.com).
 
 ![Travel and Expense](@site/static/img/media/tem-002.png)
 
@@ -55,11 +55,11 @@ There are three different methods of authentication available for the user to us
 
 Users will have to be created in AppsForDynamics365 in a specific order regardless of authentication method.
 
-**Microsoft login** is recommended for most companies that use Business Central as it allows the use of existing Microsoft logins just like in other applications.
+**Microsoft login** is recommended for most companies that use Business Central as it allows the use of existing Microsoft logins just like in other applications.
 
-**AppsForDynamics365 username and password** is useful for when most employees do not have access to Microsoft logins. Each user will have to have a password and username made.
+**AppsForDynamics365 username and password** is useful for when most employees do not have access to Microsoft logins. Each user will have to have a password and username made.
 
-**Mixed mode** allows the option to use both, which can be useful in some cases where individual employees may not have Microsoft logins.
+**Mixed mode** allows the option to use both, which can be useful in some cases where individual employees may not have Microsoft logins.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-006.png)
 
@@ -168,3 +168,4 @@ Select a specific employee from the list to grant access to **AppsForDynamics365
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-019.png)
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-020.png)
+

@@ -80,7 +80,7 @@ Start the configuration by clicking on ''New'' to create a new OAuth 2.0 Applica
 
 ![ExFlow SharePoint Setup](@site/static/img/media/oauth-application-002.png)<br/>
 
-|General|
+|General||
 |:-|:-|
 |**Code**|Specifies the name of the Code
 |**Description**|Specifies the Code description 
@@ -91,7 +91,7 @@ Start the configuration by clicking on ''New'' to create a new OAuth 2.0 Applica
 |**Scope**| Specifies the scope. Enter the Graph Endpoint and add ‘’.default.’’ Make sure the endpoint looks like the following at the end: ‘’…soft.com/.default’’
 <br/>
 
-|Endpoints|
+|Endpoints||
 |:-|:-|
 |**Authorization URL**| Specifies the authorization URL
 |**Access Token URL**| Specifies the access token URL

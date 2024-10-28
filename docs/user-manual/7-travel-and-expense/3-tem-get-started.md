@@ -299,7 +299,7 @@ Go to: **Excel import definition (TEM)**
 ![Travel and Expense](@site/static/img/media/tem-035.png)
 
 |Excel Import Definition ||
-|:-|:-|	
+|:-|:-| 
 |**Code:** |Define a code for the import definition
 |**Description:**| Enter a description for the import definition
 |**Header line before transactions:**| Enable if there are header lines in the Excel file.
@@ -318,7 +318,7 @@ Example, if the card number is placed in column D in the Excel file type in D in
 ![Travel and Expense](@site/static/img/media/tem-036.png)
 
 |Map fields to Excel columns ||
-|:-|:-|	
+|:-|:-| 
 |**Card number:**| Define the column for Credit card number.
 |**Card holder:** |Define the column for Card holder.
 |**Transaction Date**:| Define the column for transaction date.
@@ -330,3 +330,19 @@ Example, if the card number is placed in column D in the Excel file type in D in
 |**MCC:**| Define the column for MCC, not mandatory.
 |**MCC description:**| Define the column for MCC description, not mandatory.
 |**Unique reference:**| Define the column for unique reference, not mandatory.
+
+## Setup Per Diems
+
+Per Diems are daily allowances provided to employees to cover day-to-day expenses incurred during business travel. They simplify the process of expense tracking by offering a fixed amount. 
+
+### Setup
+Calculation rules are configured in the Per Diem Setup page (only available in the Pro edition)
+Go to: **Setup** --> **Change calculation rule**
+![A black and white logo Description automatically generated](@site/static/img/media/tem-121.png)
+
+Select the calculation rule.
+Go to: **Change Per Diem Calculation rule**
+![A black and white logo Description automatically generated](@site/static/img/media/tem-122.png)
+
+Rules for calculating per diems vary by country, and currently, we support three calculation rule sets: Swedish, Finnish, and a general “flat daily rate” rule. Depending on the selected rule, different settings will be available for configuration.
+
