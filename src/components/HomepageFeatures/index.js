@@ -44,6 +44,10 @@ const FeatureList = [
 const FeatureList = [
   {
     title: <Translate>EXFLOW AP</Translate>,
+    //url: '/business-central/docs/user-manual',
+    // EA 2024-10-25 The above ink stopped working for some reason. Changed:
+    //url: '/business-central/docs/user-manual/welcome-to-exflow/introduction',
+    // EA 2024-10-25b Restored with slug in .md pages
     url: '/business-central/docs/user-manual',
   },
   {

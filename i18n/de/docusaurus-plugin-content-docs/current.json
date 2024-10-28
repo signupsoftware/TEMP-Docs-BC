@@ -38,5 +38,17 @@
   "sidebar.tutorialSidebar.category.Technical": {
     "message": "Technisch",
     "description": "The label for category Technical in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ExFlow Sales Order": {
+    "message": "ExFlow Sales Order",
+    "description": "The label for category ExFlow Sales Order in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ExFlow CO₂ Insights": {
+    "message": "ExFlow CO₂ Insights",
+    "description": "The label for category ExFlow CO₂ Insights in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ExFlow Travel & Expense": {
+    "message": "ExFlow Travel & Expense",
+    "description": "The label for category ExFlow Travel & Expense in sidebar tutorialSidebar"
   }
 }
