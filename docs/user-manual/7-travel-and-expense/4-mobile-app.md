@@ -19,13 +19,13 @@ To start using the app, downloading it is the first step. It is available for do
 
 Go to: **Google Play** or **Apple App Store**
 
-![A black and white logo Description automatically generated](@site/static/img/media/tem-037.png)
+![medium](@site/static/img/media/tem-037.png)
 
 #### Login
 
 Login into ExFlow Travel and Expense app requires two steps on your first login. Here is the customer ID screen below.
 
-![A screenshot of a travel and expense form Description automatically generated](@site/static/img/media/tem-038.png)
+![medium](@site/static/img/media/tem-038.png)
 
 When opening the app for the first time, enter a Customer ID and login credentials in that order. These details were provided by email when your account was set up. Alternatively, contact your Business Central administrator or IT department for assistance. The app will remember your customer ID and login for subsequent uses, but it is essential to keep them accessible in case of switching phones or encountering unforeseen circumstances.
 <br/>
@@ -96,7 +96,7 @@ Go to: **PLUS**
 
 Initiate the process of submitting an expense in four different ways:
 
-Go to: **Expense using camera ** to start creating an expense from scratch. 
+Go to: **Expense using camera** to start creating an expense from scratch. 
 
 Share a photo from the photo gallery and select the ExFlow Travel & Expense app icon. If sharing multiple photos, options include creating one expense with all photos or creating one expense per photo.
 After initiating an expense, such as by taking a photo, the following view will be presented:
@@ -138,7 +138,7 @@ Below is a description of each term in an expense report. In the app, items high
 
 **Description**: The description will be the title for the expense.
 
-**Payment Method**: Choose between **Employee** or**Company card**.
+**Payment Method**: Choose between **Employee** or **Company card**.
 
 **Private** **use:** If the company card was used privately, mark the transaction as personal use.
 
@@ -163,7 +163,7 @@ Credit card transactions are commonly used for various expenses, including those
 
 #### Report an expense report when using company credit card
 
-Go to: **Follow the step in "Submitting Expense"**
+Follow the step in **"Submitting Expense:**
 
 Report your expenses, add the details from your receipt, and submit. The expense report will then wait in the dashboard until the transactions are imported to ExFlow Travel & Expense.
 
@@ -215,8 +215,7 @@ The transaction is now sent for approval to the manager.
 
 Submitting mileage is part of the ExFlow Travel and Expense and is made to be as easy as possible for the user, the use, to do. The user has the option to easily send in their mileage for approval with only a few clicks.
 
-Go to: **PLUS icon**
-![A car with a yellow outline Description automatically generated with medium confidence](@site/static/img/media/tem-056.png)
+Go to: **PLUS**
 
 The map at the top will display the current position. Drag and zoom on the map. Once a route is entered, tapping the **Alternative route** icon will switch between any alternative routes.
 
@@ -270,13 +269,13 @@ Go to: **Account  --> Vehicles --> Add**
 
 **Use by default:** Active it if it the preferred vehicle.
 
-** Save**
+**Save**
 
 ### Submit with an expense report
 
 Expense Reports allow you to organize expenses, Mileages, and per diems to gain a summary of outlays.
 
-Go to: **Plus --> Expense report**
+Go to: **PLUS --> Expense report**
 
 **Description:** Enter er description for the expense report.
 

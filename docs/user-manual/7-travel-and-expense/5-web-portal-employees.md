@@ -4,8 +4,7 @@ sidebar_position: 5
 hide_title: true
 custom_edit_url: null
 ---
-
-### ExFlow Travel & Expense AppsForDynamics365.com portal
+## Employee
 
 Just like the mobile app any user can access the **AppsForDynamics365.com** web portal to create expenses and mileages.
 
@@ -19,11 +18,6 @@ Logging into the AppsForDynamics365 Portal requires login information provided b
 
 Alternatively, contact the Business Central administrator or IT department if logging in is not possible.
 
-After logging in, this page will be displayed.
-
-![A white screen with black border Description automatically generated](@site/static/img/media/tem-063.png)
-
-Go to: **Travel & Expense**
 
 #### Main page
 
