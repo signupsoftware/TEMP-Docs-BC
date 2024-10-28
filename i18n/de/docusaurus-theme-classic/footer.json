@@ -9,26 +9,34 @@
   },
   "link.item.label.ExFlow for FO": {
     "message": "ExFlow für FO",
-    "description": "The label of footer link with label=ExFlow for FO linking to /docs/intro"
+    "description": "The label of footer link with label=ExFlow for FO linking to https://docs.exflow.cloud/finance-operations"
   },
   "link.item.label.ExFlow for BC": {
     "message": "ExFlow für BC",
-    "description": "The label of footer link with label=ExFlow for BC linking to /docs/user-manual/welcome-to-exflow/introduction"
+    "description": "The label of footer link with label=ExFlow for BC linking to https://docs.exflow.cloud/business-central/docs/user-manual"
   },
   "link.item.label.ExFlow Web": {
     "message": "ExFlow Web",
-    "description": "The label of footer link with label=ExFlow Web linking to /docs/intro"
+    "description": "The label of footer link with label=ExFlow Web linking to https://docs.exflow.cloud/web"
   },
   "link.item.label.ExFlow support": {
     "message": "ExFlow-Support",
-    "description": "The label of footer link with label=ExFlow support linking to /docs/intro"
+    "description": "The label of footer link with label=ExFlow support linking to https://support.signupsoftware.com/"
   },
   "link.item.label.Partner portal": {
     "message": "Partnerportal",
-    "description": "The label of footer link with label=Partner portal linking to /docs/intro"
+    "description": "The label of footer link with label=Partner portal linking to https://azuresignup.sharepoint.com/sites/Signupsoftware"
   },
   "copyright": {
     "message": "Copyright © 2024 SignUp Software AB",
     "description": "The footer copyright"
+  },
+  "link.item.label.Terms and Conditions": {
+    "message": "Terms and Conditions",
+    "description": "The label of footer link with label=Terms and Conditions linking to /docs/papers/agreements"
+  },
+  "link.item.label.Potato": {
+    "message": ".",
+    "description": "The label of footer link with label=Potato linking to /docs/papers/TaE/index"
   }
 }
