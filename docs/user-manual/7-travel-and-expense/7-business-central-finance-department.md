@@ -1,18 +1,18 @@
 ---
-title: For bookkeepers
-sidebar_position: 5
+title: Business Central Finance Department
+sidebar_position: 7
 hide_title: true
 custom_edit_url: null
 ---
-## For bookkeepers
+## For Finance Department
 
-Bookkeeping is the final stage in processing expenses or mileage and can be efficiently managed with just a few clicks in ExFlow Travel & Expense Business Central. Please note that Business Central is not designed for submitting expenses or mileage. For these purposes, kindly use the mobile app or the web portal.
+Bookkeeping is the final stage in processing expenses or mileage and can be efficiently managed with just a few clicks in ExFlow Travel & Expense Business Central. Please note that Business Central is not designed for submitting expenses. For these purposes, kindly use the mobile app or the web portal.
 
 <br/>
 
 ### Overview in Business Central
 
-The roles **Travel & Expense, Business Manager** and **Accountant** contains the following tiles in the role center.
+The roles **Travel & Expense, Business Manager** and **Accountant** contains the following card cues in the role center. Please note! BC will only show the card cues that has more than 0 expenses. 
 
 ![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-083.png)
 
@@ -146,7 +146,6 @@ After the mileage has been submitted and approved it will be available to be pro
 
 -   Sending mileage back to either the approver or completely rejecting them.
 
-
 #### Post an expense
 
 Posting an approved expense can be done in a few short steps.
@@ -160,7 +159,6 @@ Post mileage by clicking **F9** or select **Post**.
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-096.png)
 
 It is only possible to post expenses with status **Approved** (green color).
-
 
 <br/>
 
@@ -267,6 +265,51 @@ To mark a transaction as handled, do as follows.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-100.png)
 
+### Per diem
 
+After a per diem has been submitted and approved it will be available to be processed by the finance department in Business Central. 
 
+#### Post a per diem
 
+Posting an approved expense can be done in a few short steps.
+
+Go to: **Ready for posting**
+
+![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-113.png)
+
+Post an expense by clicking **F9** or select **Post**.
+
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-114.png)
+
+The user can only post per diems with status **Approved** (green color).
+
+<br/>
+
+### Reimbursement
+
+Once the expenses have been posted to the employee in Business Central, they will be available for reimbursement. Depending on the reimbursement setup, the process will be completed either through the payment journal in Business Central or via file export.
+
+Go to: **Pending Reimbursement**
+![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-115.png)
+
+Go to: **Suggest Entries**
+![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-116.png)
+
+#### Payment Journal
+Reimbursement vi the payment Journal.
+Go to: **Create Payment Lines**
+![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-117.png)
+
+Users will be redirected to the payment journal in Business Central.
+![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-118.png)
+
+#### File export
+For reimbursement via the file export.
+Go to: **Export**
+![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-119.png)
+
+Post an expense by clicking **Export and Post** .
+
+![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-120.png)
+
+The generated file will be located in the download folder.
