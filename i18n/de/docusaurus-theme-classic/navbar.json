@@ -14,5 +14,9 @@
   "item.label.Home": {
     "message": "Startseite",
     "description": "Navbar item with label Home"
+  },
+  "logo.alt": {
+    "message": "SignUp logo",
+    "description": "The alt text of navbar logo"
   }
 }
