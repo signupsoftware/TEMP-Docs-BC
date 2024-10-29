@@ -13,7 +13,7 @@ Read about the minimum requirements for using Business Central [***here***](http
 ### Technical Specifications
 
 *Integration ExFlow Data Capture (if applicable):*<br/>
-* Web service to export vendor data<br/>
+* Web service to export customer data<br/>
 * Web service to import scanned invoice images and data.<br/>
 
 ### Licensing

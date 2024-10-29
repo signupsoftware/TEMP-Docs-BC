@@ -17,6 +17,14 @@ Major Release
 **Release Information:** <br/>
 Requires BC 23.0 or later <br/>
 
+The admin search not being able to open documents in ExFlow web is resolved in 24.0.310.33 <br/>
+
+Issue related to Auto Acc groups for BC 25 is resolved in 24.0.310.31 <br/>
+
+Entra Groups not being updated correctly with ExFlow resolved in 24.0.310.31 <br/>
+
+Dimension filter search in ExFlow Web improved in version 24.0.310.31 <br/>
+
 Finnish customers can now again import lines and the calculation of Line Amount is correct - solved in 24.0.310.20<br/>
 
 New event added to enable more customization of Re-Invoicing - added in 24.0.310.20<br/>
