@@ -13,7 +13,7 @@ Lesen Sie hier über die Mindestanforderungen für die Nutzung von Business Cent
 ### Technische Spezifikationen
 
 *Integration ExFlow Datenerfassung (falls zutreffend):*<br/>
-* Webdienst zum Exportieren von Lieferantendaten<br/>
+* Webdienst zum Exportieren von Kundendaten<br/>
 * Webdienst zum Importieren gescannter Rechnungsbilder und -daten.<br/>
 
 ### Lizenzierung

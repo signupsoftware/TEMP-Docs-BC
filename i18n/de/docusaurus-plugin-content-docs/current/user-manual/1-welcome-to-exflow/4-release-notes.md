@@ -16,6 +16,14 @@ Hauptversion
 **Veröffentlichungsinformationen:** <br/>
 Erfordert BC 23.0 oder höher <br/>
 
+Die Admin-Suche, die Dokumente in ExFlow Web nicht öffnen kann, wurde in 24.0.310.33 behoben<br/>
+
+Problem im Zusammenhang mit Auto-Acc-Gruppen für BC 25 wurde in Release 24.0.310.31 behoben<br/>
+
+Entra Groups werden nicht korrekt aktualisiert, da ExFlow in 24.0.310.31 behoben wurde <br/>
+
+Dimensionsfiltersuche in ExFlow Web in Version 24.0.310.31 verbessert <br/> 
+
 Finnische Kunden können nun wieder Zeilen importieren und die Berechnung des Zeilenbetrags ist korrekt - gelöst in 24.0.310.20<br/>
 
 Neues Ereignis hinzugefügt, um eine bessere Anpassung der erneuten Rechnungsstellung zu ermöglichen - hinzugefügt in 24.0.310.20<br/>

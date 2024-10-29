@@ -77,7 +77,7 @@ Starten Sie die Konfiguration, indem Sie auf „Neu“ klicken, um eine neue OAu
 
 ![ExFlow SharePoint Setup](../../images/oauth-application-002.png)<br/>
 
-|Allgemein|
+|Allgemein||
 |:-|:-|
 |**Code**|Gibt den Namen des Codes an
 |**Beschreibung**|Gibt die Beschreibung des Codes an
@@ -86,9 +86,10 @@ Starten Sie die Konfiguration, indem Sie auf „Neu“ klicken, um eine neue OAu
 |**Grant-Typ**| Gibt den zu verwendenden Grant-Typ an. Es ist möglich, Autorisierungscode, Passwort-Anmeldeinformationen oder Client-Anmeldeinformationen zu verwenden. Derzeit wird nur „Client-Anmeldeinformationen“ unterstützt.
 |**Umleitungs-URL**| Gibt die Umleitungs-URL an, derzeit nicht in Gebrauch.
 |**Scope**| Gibt den Scope an. Geben Sie den Graph-Endpunkt ein und fügen Sie „.default“ hinzu. Stellen Sie sicher, dass der Endpunkt am Ende wie folgt aussieht: „…soft.com/.default“
+
 <br/>
 
-|Endpunkte|
+|Endpunkte||
 |:-|:-|
 |**Autorisierungs-URL**| Gibt die Autorisierungs-URL an
 |**Zugriffstoken-URL**| Gibt die Zugriffstoken-URL an

@@ -112,9 +112,9 @@ For example, "CC" for Credit card or "EMPLOYEE" for Employee
 
 For example, "Credit card" or "Employee"
 
-**Bal. Account Type:** Select a bal. Account Type this is Business Central standard.
+**Bal. Account Type:** Select a Bal. Account Type this is Business Central standard.
 
-**Bal. Account No.:** Select a Bal. Account No**.** this is Business Central standard.
+**Bal. Account No.:** Select a Bal. Account No. this is Business Central standard.
 
 ![A white rectangular object with a black border Description automatically generated](@site/static/img/media/tem-027.png)
 
@@ -122,7 +122,7 @@ For example, "Credit card" or "Employee"
 
 **Regions** contain collections of countries which is useful if a specific posting setup is needed per country collection. For example, this can be useful to prepare the different tax rates for the different regions.
 
-Go to: **Travel & Expense -- Overview --> Setup --> Regions**
+Go to: **Travel & Expense --> Overview --> Setup --> Regions**
 
 **New**: Create new **Regions**
 
@@ -136,7 +136,7 @@ Go to: **Travel & Expense -- Overview --> Setup --> Regions**
 
 ### Expense Categories
 
-To streamline expense registration for users**, Expense Categories** must be created. With these categories and a few additional variables, non-finance users can record expenses and provide the finance department with information on how the expenses should be posted.
+To streamline expense registration for users, **Expense Categories** must be created. With these categories and a few additional variables, non-finance users can record expenses and provide the finance department with information on how the expenses should be posted.
 
 The created **Expense Categories** will be visible to users on the web portal and mobile app when they are creating an expense. Users are required to select a category that best describes their purchase. Additionally, they can choose to split the expense with colleagues or add a guest, which will indicate how to post the expense.
 
@@ -144,7 +144,7 @@ For each **Expense Category**, multiple posting setups can be established, enabl
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-029.png)
 
-Go to: **Travel & Expense -- Overview --> Posting Setup --> Expense Categories**
+Go to: **Travel & Expense - Overview --> Posting Setup --> Expense Categories**
 
 **New**: Create new **Expense Categories**
 
@@ -174,7 +174,7 @@ In certain countries, different reimbursement rates apply based on the mode of t
 
 ![A screenshot of a car heavy vehicle Description automatically generated](@site/static/img/media/tem-030.png)
 
-Go to: **Travel & Expense -- Overview --> Mileage Setup --> Means of transport**
+Go to: **Travel & Expense - Overview --> Mileage Setup --> Means of transport**
 
 **New**: Create a new **Means of transport**
 
@@ -190,7 +190,7 @@ Individual employees can have different rates. A rate without an employee number
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-031.png)
 
-Go to: **Travel & Expense -- Overview --> Mileage Setup --> Travel rates**
+Go to: **Travel & Expense - Overview --> Mileage Setup --> Travel rates**
 
 **New:** Create new travel rate.
 
@@ -220,7 +220,7 @@ Credit card agreements are useful tools for automatically matching expenses with
 
 ### Agreements
 
-Go to: **Travel & Expense --> Overview --> Company Cards --> Agreements**
+Go to: **Travel & Expense - Overview --> Company Cards --> Agreements**
 
 **New:** Create a new agreement.
 
@@ -299,7 +299,7 @@ Go to: **Excel import definition (TEM)**
 ![Travel and Expense](@site/static/img/media/tem-035.png)
 
 |Excel Import Definition ||
-|:-|:-|	
+|:-|:-| 
 |**Code:** |Define a code for the import definition
 |**Description:**| Enter a description for the import definition
 |**Header line before transactions:**| Enable if there are header lines in the Excel file.
@@ -318,7 +318,7 @@ Example, if the card number is placed in column D in the Excel file type in D in
 ![Travel and Expense](@site/static/img/media/tem-036.png)
 
 |Map fields to Excel columns ||
-|:-|:-|	
+|:-|:-| 
 |**Card number:**| Define the column for Credit card number.
 |**Card holder:** |Define the column for Card holder.
 |**Transaction Date**:| Define the column for transaction date.
@@ -330,3 +330,21 @@ Example, if the card number is placed in column D in the Excel file type in D in
 |**MCC:**| Define the column for MCC, not mandatory.
 |**MCC description:**| Define the column for MCC description, not mandatory.
 |**Unique reference:**| Define the column for unique reference, not mandatory.
+|**Invoice no:**| Define the column for invoice no., not mandatory.
+
+## Setup Per Diems
+
+Per Diems are daily allowances provided to employees to cover day-to-day expenses incurred during business travel. They simplify the process of expense tracking by offering a fixed amount. 
+
+### Setup
+Calculation rules are configured in the Per Diem Setup page (only available in the Pro edition)<br/>
+Go to: **Setup** --> **Change calculation rule**<br/>
+
+![A black and white logo Description automatically generated](@site/static/img/media/tem-121.png)<br/>
+
+Select the calculation rule.<br/>
+Go to: **Change Per Diem Calculation rule**<br/>
+![A black and white logo Description automatically generated](@site/static/img/media/tem-122.png)<br/>
+
+Rules for calculating per diems vary by country, and currently, we support three calculation rule sets: Swedish, Finnish, and a general “flat daily rate” rule. Depending on the selected rule, different settings will be available for configuration.
+
