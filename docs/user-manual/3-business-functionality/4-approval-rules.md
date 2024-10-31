@@ -25,15 +25,13 @@ Click "New" and create the rule.
 | **Code:**                         | Add a code the describes the Approval Rule
 | **Name:**                         | Add a name that describes the Code
 | **Rule For:**                     | It is possible to create separate Approval Rules for all document types: Invoice, Credit Memo, Order and Quote. Open "Rule For" to select the document type: <br/>![Approval Rule General](@site/static/img/media/approval-rule-001-general.png) <br/>Tick "Use" for the selected document type. It is possible to choose more than one document type within the same approval rule <br/>![Rule for Document Type](@site/static/img/media/rule-for-document-type-001.png) <br/> And the new ExFlow Approval Rule will only be applied for the chosen document type. <br/> ![Approval Rule General](@site/static/img/media/approval-rule-002-general.png)
-| **Rule for Invoices:**            | For Invoices it is possible to add one rule for: <br/> Cost account Invoices, Matched against Purchase Order, PO Connected with Difference or PO Connected without Difference
+| **Rule for Invoices:**            | For Invoices it is possible to add one rule for: <br/> Cost account Invoices, Matched against Purchase Order, PO Connected with Difference or PO Connected without Difference <br/> ![Approval Rule General](@site/static/img/media/approval-rule-003-rule-for-invoices.png)
 | **Disabled:**                     | When an Approval Rule is Disabled, it can only be used when applying manually or via Reference
 | **Priority:**                     | If there is several Approval Rules with same numbers of hits, the approval rule with highest number in priority will be added automatically
 | **Use Total Invoice Amount:**     | Activate if the rule should add Approval Groups based on total document amount or amount on current line
 | **Confidential Approval:**     | Activate Confidential Approval to set up an approval flow filtered on users with Confidential Access
 | **Changed By:**                   | Last user to that changed and saved setting for current rule
 | **Changed Date:**                 | Last date and time when current rule was changed
-
-![Approval Rule General](@site/static/img/media/approval-rule-003-rule-for-invoices.png)
 
 
 ### Approval Rule – Filters
