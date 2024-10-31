@@ -81,8 +81,8 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Set Document Date to**	|Specifies if the Document Date on the imported invoice should be set to the posting date if/when the posting date is changed
 |**Set Posting Description to**	|Specifies which posting description BC will use when posting the invoice. Only applies to postings using the accounts payable g/l account(s)
 |**ExFlow Purchase Code**	|Specifies the default ExFlow Purchase Code to use when creating a default invoice line on newly imported (expense) invoices. Can be overridden on a per-vendor basis. <br/><br/> Read more about this under section [***Purchase Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/purchase-codes#purchase-codes)
-|**Min. Line Approval Amt. (LCY)** 	|Specifies the min. approval amount for an invoice line i.e. lines with a smaller amount are not sent on approval by ExFlow. Zero means that all invoice lines are sent on approval
-|**Min. Doc. Approval Amt. (LCY)** 	|Specifies the min. approval amount for an invoice i.e. invoices with a total that is lower than this amount are not sent on approval by ExFlow. Zero means that all invoices are sent on approval
+|**Min. Line Approval Amt. (LCY)** 	|Specifies the min. approval amount incl VAT for an invoice line i.e. lines with a smaller amount are not sent on approval by ExFlow. Zero means that all invoice lines are sent on approval
+|**Min. Doc. Approval Amt. (LCY)** 	|Specifies the min. approval amount incl VAT for a document i.e. invoices with a total that is lower than this amount are not sent on approval by ExFlow. Zero means that all invoices are sent on approval
 |**VAT Prod. Posting Group 0%**	|Specifies the VAT Prod. Posting Group for "No VAT" when the setting "Propose VAT line" is selected
 |**VAT Prod. Posting Group 100%** 	|Specifies the VAT Prod. Posting Group for "Only VAT" when the setting "Propose VAT line" is selected
 |**Block Amt. Change Approved Line** 	|Specifies if amount changes should be blocked in approved invoice lines.

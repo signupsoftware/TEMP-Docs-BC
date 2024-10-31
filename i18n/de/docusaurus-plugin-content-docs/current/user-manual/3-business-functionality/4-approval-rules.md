@@ -25,15 +25,13 @@ Klicken Sie auf "Neu" und erstellen Sie die Regel.
 | **Code:**                         | Fügen Sie einen Code hinzu, der die Genehmigungsregel beschreibt
 | **Name:**                         | Fügen Sie einen Namen hinzu, der den Code beschreibt
 | **Regel für:**                     | Es ist möglich, separate Genehmigungsregeln für alle Dokumenttypen zu erstellen: Rechnung, Gutschrift, Bestellung und Angebot. Öffnen Sie "Regel für", um den Dokumenttyp auszuwählen: <br/>![Genehmigungsregel Allgemein](../../images/approval-rule-001-general.png) <br/>Markieren Sie "Verwenden" für den ausgewählten Dokumenttyp. Es ist möglich, mehr als einen Dokumenttyp innerhalb derselben Genehmigungsregel auszuwählen <br/>![Regel für Dokumenttyp](../../images/rule-for-document-type-001.png) <br/> Und die neue ExFlow-Genehmigungsregel wird nur für den ausgewählten Dokumenttyp angewendet. <br/> ![Genehmigungsregel Allgemein](../../images/approval-rule-002-general.png)
-| **Regel für Rechnungen:**            | Für Rechnungen ist es möglich, eine Regel hinzuzufügen für: <br/> Kostenrechnungen, Abgleich mit Bestellung, Bestellung verbunden mit Differenz oder Bestellung verbunden ohne Differenz
+| **Regel für Rechnungen:**            | Für Rechnungen ist es möglich, eine Regel hinzuzufügen für: <br/> Kostenrechnungen, Abgleich mit Bestellung, Bestellung verbunden mit Differenz oder Bestellung verbunden ohne Differenz <br/> ![Genehmigungsregel Allgemein](../../images/approval-rule-003-rule-for-invoices.png)
 | **Deaktiviert:**                     | Wenn eine Genehmigungsregel deaktiviert ist, kann sie nur manuell oder über Referenz angewendet werden
 | **Priorität:**                     | Wenn es mehrere Genehmigungsregeln mit derselben Anzahl von Treffern gibt, wird die Genehmigungsregel mit der höchsten Prioritätsnummer automatisch hinzugefügt
 | **Gesamtbetrag der Rechnung verwenden:**     | Aktivieren Sie diese Option, wenn die Regel Genehmigungsgruppen basierend auf dem Gesamtdokumentbetrag oder dem Betrag der aktuellen Zeile hinzufügen soll
 | **Vertrauliche Genehmigung:**     | Aktivieren Sie die vertrauliche Genehmigung, um einen Genehmigungsablauf einzurichten, der auf Benutzer mit vertraulichem Zugriff gefiltert ist
 | **Geändert von:**                   | Letzter Benutzer, der die Einstellung für die aktuelle Regel geändert und gespeichert hat
 | **Änderungsdatum:**                 | Letztes Datum und Uhrzeit, an dem die aktuelle Regel geändert wurde
-
-![Genehmigungsregel Allgemein](../../images/approval-rule-003-rule-for-invoices.png)
 
 
 ### Genehmigungsregel – Filter
