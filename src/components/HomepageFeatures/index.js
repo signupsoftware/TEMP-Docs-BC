@@ -4,6 +4,7 @@ import styles from './styles.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
 
 
+
 // This list controls the side menu items of products.
 // To add new products, just copy an existing one and change the title and url.
 //
@@ -49,26 +50,32 @@ const FeatureList = [
     //url: '/business-central/docs/user-manual/welcome-to-exflow/introduction',
     // EA 2024-10-25b Restored with slug in .md pages
     url: '/business-central/docs/user-manual',
+    tag: 'ap'
   },
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
     url: '/business-central/docs/user-manual/sales-order/technical-requirements-sales',
+    tag: 'sales-order'
   },
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
     url: '/business-central/docs/user-manual/CO2-Insights/co2-insights', 
+    tag: 'co2-insights'
   }, 
   {
     title: <Translate>EXFLOW WEB</Translate>,
     url: 'https://docs.exflow.cloud/web',
+    tag: 'web'
   },
   {
     title: <Translate>EXFLOW DATA CAPTURE</Translate>,
     url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
+    tag: 'data-capture'
   },
   {
     title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
     url: '/business-central/docs/user-manual/travel-and-expense/travel-and-expense',
+    tag: 'travel-and-expense'
   }
 ];
 
@@ -130,9 +137,9 @@ const FeatureList = [
 
 // Change this to get a new design of the menu items.
 //
-function Feature({title, url}) {
+function Feature({title, url, tag}) {
   return (
-    <a href={url} className="menu-item-link">
+    <a href={url} className="menu-item-link" tag={tag}>
     <div className="menu-item">
         <Heading as="div">{title}</Heading>
     </div>
