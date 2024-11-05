@@ -6,6 +6,14 @@
 //import Translate, {translate} from '@docusaurus/Translate';
 import {themes as prismThemes} from 'prism-react-renderer';
 
+// EA 2024-10-31 Custom module for running javascript
+// ed: Not needed here since it's imported in the include file?
+//import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
+//const ExecutionEnvironment = require('@docusaurus/core/lib/client/exports/ExecutionEnvironment');
+
+
+
+
 // ========================================================================================================
 // ========================================================================================================
 // IMPORTANT: Ensure DEPLOY_MODE is set to "PROD" before making a pull request.
@@ -65,6 +73,13 @@ const config = {
   title: 'ExFlow Documentation Platform',
   tagline: 'ExFlow Documentation Platform',
   favicon: 'img/favicon.ico',
+
+
+  // EA 2024-10-31 Custom module for running javascript
+  clientModules: [
+    require.resolve('./custom-code.js'),
+  ],
+
 
   // Set the production url of your site here
   // EA 2024-09-26 Or not! This is set in the 'siteURL' variable above.
