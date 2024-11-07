@@ -93,7 +93,7 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -152,8 +152,12 @@ const config = {
       navbar: {
 
         logo: {
-          //alt: 'ExFlow',
-          src: 'img/exflow-logo-v5.png',
+          // Old:
+          //src: 'img/exflow-logo-v5.png',
+          alt: 'SignUp logo',
+          src: 'img/logo_SignUp_Dark.png',
+          srcDark: 'img/logo_SignUp_Light.png',
+          href: 'https://docs.exflow.cloud/',
         },
 
         items: [
@@ -162,20 +166,20 @@ const config = {
             position: 'right',
           },
 
-
           {
             label: 'Home',
             position: 'left',
             href: '/',
           },
 
-
-
           {
             label: 'Documentation',
             position: 'left',
             //href: '/docs/user-manual'
-            to: 'https://docs.exflow.cloud/business-central/docs/user-manual',
+            // Old style, opens in new tab:
+            //to: 'https://docs.exflow.cloud/business-central/docs/user-manual',
+            // New style, taken from DocsFO (minus 'exflow-home-page/introduction')
+            to: 'docs/user-manual'            
           },
 
 
@@ -183,7 +187,10 @@ const config = {
             label: 'Release notes',
             position: 'left',
             //href: '/docs/user-manual/welcome-to-exflow/release-notes'
-            to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/release-notes'
+            // Old style, opens in new tab:            
+            //to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/release-notes'
+            // New style, taken from DocsFO
+            to: 'docs/user-manual/welcome-to-exflow/release-notes'
           },
 
 
@@ -220,8 +227,14 @@ const config = {
                 //to: '/docs/user-manual/welcome-to-exflow/introduction',
                 // https://docs.exflow.cloud/business-central/
                 //to: siteURL + 'docs/user-manual/welcome-to-exflow/introduction',
-                to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction'
-               
+                //to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction'
+                //to: 'https://docs.exflow.cloud/business-central/docs/user-manual'
+                // EA 2024-10-25:
+                //to: "/business-central/docs/user-manual/welcome-to-exflow/introduction"               
+                // EA 2024-10-25b, something weird is going on here, esp. with German link.
+                //to: "docs/user-manual/welcome-to-exflow/introduction"                               
+                // EA 2024-10-25c, Right, we're using id: user-manual now. Setting slug.
+                to: "docs/user-manual"
               },
               {
                 label: 'ExFlow Web',
@@ -241,8 +254,12 @@ const config = {
                 href: 'https://azuresignup.sharepoint.com/sites/Signupsoftware',
               },
               {
-                label: 'Terms and Conditions',
+                label: 'Terms and Conditions', 
                 href: '/docs/papers/agreements',
+              },
+              {
+                label: '.',
+                href: '/docs/agreements',
               },
             ],
           },
