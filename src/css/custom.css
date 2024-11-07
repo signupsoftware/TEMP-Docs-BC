@@ -558,6 +558,17 @@ table td, table th {
 .paragraph {
   white-space: nowrap;
 }
+
+/*
+.paragraph-bold {
+  font-weight: bold;
+} 
+
+.paragraph-text-normal {
+
+}
+*/
+
 .paragraph h4{
   font-family: var(--font-family-document);
   font-size: var(--font-size-normal-paragraph);
@@ -679,6 +690,22 @@ table td, table th {
 }
 
 /* ----------------------------------------------------------------------------- */
+/*  Small adjustments to the standard Agreement Table                            */
+/* ----------------------------------------------------------------------------- */
+
+.agreement-table-bold-first table {
+  width: 800px !important;  
+  margin-left: 40px;
+}
+
+.agreement-table-bold-first table td:first-child {
+  /* background-color: lightblue !important; */
+  font-weight: bold;
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
 /*  Standard tables for agreement pages, with headers                            */
 /* ----------------------------------------------------------------------------- */
 
@@ -776,6 +803,10 @@ img[alt="large"] {
 /*  SoW Pages                                                                    */
 /* ----------------------------------------------------------------------------- */
 
+.agreement-doc-sans .paragraph p {
+  display: flex;
+}
+
 [data-theme='light'] .agreement-doc-sans .paragraph-indent {
   font-family: 'DMSans', sans-serif;
   font-size: 12pt;
@@ -815,6 +846,23 @@ img[alt="large"] {
   text-decoration: underline;
   color: var(--text-color-dark-mode);
 }
+[data-theme='light'] .agreement-doc-sans .paragraph-text-normal {
+  font-family: 'DMSans', sans-serif;
+  font-size: 11pt;
+  color: black;
+  display: inline-block;
+  white-space: break-spaces;
+  margin-left: 50px;
+}
+[data-theme='dark'] .agreement-doc-sans .paragraph-text-normal {
+  font-family: 'DMSans', sans-serif;
+  font-size: 11pt;
+  color: var(--text-color-dark-mode);
+  display: inline-block;
+  white-space: break-spaces;
+  margin-left: 50px;
+}
+
 
 .agreement-doc-sans .paragraph-text-n {
   font-weight: normal;
@@ -902,6 +950,53 @@ img[alt="large"] {
 
 /* END  SoW Pages                                                                    */
 
+/* ----------------------------------------------------------------------------- */
+/*  Agreements Pages                                                             */
+/* ----------------------------------------------------------------------------- */
+
+
+.agreement-doc-serif .paragraph p {
+  white-space: nowrap;
+  display: flex;  
+  font-family: var(--font-family-document);
+}
+
+.agreement-doc-serif .paragraph-text-normal {
+  margin-left: 40px;
+}
+
+.agreement-doc-serif .paragraph-indent {
+
+  font-family: var(--font-family-document);
+}
+.agreement-doc-serif .paragraph-indent-bullet {
+  font-family: var(--font-family-document);
+  margin-left: 60px;
+  white-space: nobreak;
+}
+
+.agreement-doc-serif .paragraph-text-normal {  
+  display: inline-block;
+  white-space: break-spaces;
+  vertical-align: top;
+  line-height: var(--paragraph-line-height);
+}
+
+.agreement-doc-serif .paragraph-bold {  
+  font-family: var(--font-family-document);
+  font-weight: bold;
+}
+
+.agreement-doc-serif h2 {
+  font-family: var(--font-family-document);
+}
+
+.agreement-doc-serif .paragraph-center {
+  width: 100%;
+  text-align: center;
+}
+
+/* END Agreement Pages documents styling */
 
 /* END Agreement documents styling */
 
