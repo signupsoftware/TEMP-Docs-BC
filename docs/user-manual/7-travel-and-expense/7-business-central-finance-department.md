@@ -63,7 +63,6 @@ The fields that can be edited in this view are:
 |**Lines:**| The user can change the particulars of the expense in question, such as posting groups and which employees were relevant. The bookkeeper can also split the expenses between employees.
 |**Balance lines:**| These are the lines that are to be paid out to employees.
 |**Dimensions:**| Accessed through **Document** in the action bar, the dimension view allows the bookkeeper to change dimensions. These are Business Central standard.
-
 <br/>
 
 ### Splitting an expense
