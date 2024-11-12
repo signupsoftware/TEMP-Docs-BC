@@ -47,7 +47,7 @@ Wenn ExFlow bereits in anderen Unternehmen innerhalb desselben Tenents installie
 
 ### Erste Schritte
 
-Erstens, nutzen Sie das umfassende Video-Tutorial, das jeden Schritt des Assistenten visuell und ansprechend erklärt. Klicken Sie einfach auf den [***Video ansehen ***](https://www.signupsoftware.com/get-started-video/) Link, um darauf zuzugreifen und den Anweisungen zu folgen.
+Erstens, nutzen Sie das umfassende Video-Tutorial, das jeden Schritt des Assistenten visuell und ansprechend erklärt. Klicken Sie einfach auf den [***Video ansehen***](https://www.signupsoftware.com/get-started-video/) Link, um darauf zuzugreifen und den Anweisungen zu folgen.
 
 Zweitens haben wir eine detaillierte Schritt-für-Schritt-Anleitung vorbereitet, die schriftliche Anweisungen zur Ausführung des Assistenten bietet. Diese Anleitung bietet klare Erklärungen und hilfreiche Tipps, um eine reibungslose und erfolgreiche Einrichtung zu gewährleisten.
 

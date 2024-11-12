@@ -39,9 +39,11 @@ Once the Expense Report is submitted, the approver receives a summary and can ap
 
 #### Hide or show details
 The approver has the ability to hide or display details in the overview, which can be helpful during the approval process.
+<br/>
 
 **Hide details** showed this way:
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-111.png)
+<br/>
 
 **Show details** showed this way:
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-112.png)

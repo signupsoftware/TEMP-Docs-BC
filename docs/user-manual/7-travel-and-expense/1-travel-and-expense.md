@@ -44,7 +44,7 @@ This manual is a guide to effectively using ExFlow Travel & Expense. Whether you
 
 -   **Approval Workflows**: Managing and customizing approval workflows to fit your organizational needs.
 
--   **Reporting Tools**: Using analytical tools to monitor expenses, identify trends, and generate reports.<br/>
+-   **Reporting Tools**: Using analytical tools to monitor expenses, identify trends, and generate reports. <br/>
 
 <br/>
 We are committed to supporting your journey towards efficient travel and expense management. Should you have any questions or need further assistance, our dedicated support team is here to help.
