@@ -1,5 +1,5 @@
 ---
-title: Get started with Travel & Expense
+title: Setup Travel & Expense
 sidebar_position: 3
 hide_title: true
 custom_edit_url: null
@@ -214,6 +214,77 @@ Go to: **Setup (TEM) --> Mileage**
 
 <br/>
 
+## Setup Users
+
+### Creating a AppsForDynamics365 user
+
+To access the AppsForDynamics365 portal and use the ExFlow Travel & Expense app, each user must have a created user account. This login is shared across companies.
+
+Every user requiring access to the AppsForDynamics365 portal must be set up as an AppsForDynamics365 user. The AppsForDynamics365 user extends the Business Central employee by making sure that settings set on the Employee are also enforced on the AppsForDynamics365 portal.
+
+Go to: **AppsForDynamics365 logins**
+
+There are two options available to create a new user.
+
+1.  **Create logins for users:** Import users from BC users.
+
+2.  **New:** If the user isn't created as a Business Central user, manually inter the user credentials.
+
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-011.png)
+
+#### Create with a Business Central user
+
+**Create logins for users:** Select the user(s) from the list.
+
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-012.png)
+
+#### Create the user manually
+
+Click on **New**
+
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-013.png)
+
+|AppsForDynamics365 Login||
+|:-|:-|
+|**User status**| Indicates whether the user is active or inactive
+|**Authentication method**| Chose the authentication method for the specific user.<br/><br/> **Microsoft login** <br/><br/> **User/password**
+|**Login:**| User ID that user will use to sign in to the portal
+|**Name:**| The full name of the employee
+|**Password:**| The password the user uses to login to the portal. (Only if "user/password" is selected)
+|**Language:**| The intended language for the user to use.
+|**E-mail:**| The user's email address. This is used for notification.
+|**Business Central User:**| Select the Business Central user that this user should be attached to.
+|**Employee number:**| This is the employee number from Business Central associated with the user. It will be automatically filled out when the Configure for TEM is run from the Employee card in Business Central.
+
+### Mapping the employee to AppsForDynamics365
+
+To complete the user setup, it is necessary to map the Business Central Employee to the **AppsForDynamics365 user**.
+
+Go to: **Employee**
+
+Select a specific employee from the list to grant access to **AppsForDynamics365 Portal**.
+
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-015.png)
+
+#### Configure ExFlow Travel & Expense
+Click on:  **ExFlow Travel & Expense** > **Configure for TEM**
+
+Follow the wizard: 
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-016.png)
+
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-017.png)
+
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-018.png)
+
+Click on the three dots and find the employee in **AppsForDynamics365 Login**
+
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-019.png)
+
+Click on the three dots and find the manager in **AppsForDynamics365 Login**
+
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-020.png)
+
+
 ## Setup Credit Card 
 
 Credit card agreements are useful tools for automatically matching expenses with the appropriate credit card statements when they are received. Once set up, this will save the bookkeeping department time and can be further enhanced by using **the Automatic transaction import** feature.
@@ -224,23 +295,19 @@ Go to: **Travel & Expense - Overview --> Company Cards --> Agreements**
 
 **New:** Create a new agreement.
 
-**Code:** Enter a code for the agreement, which should be a shorthand descriptor to allow easy identification.
+![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-123.png)
 
-**Description:** Enter a description of the agreement.
-
-**Card Brand**: Select a **Card Brand** from the list.
-
-**Payment Group:** Select **Payment Group** from those previously created.
-
-**Card transactions:** Select the method for the import of credit card transactions
-
--   **Manual input/file import:** Select this option if the transaction will be typed in manually or import with an excel file.
-
--   **From Bank Statement:** Credit card transactions are imported for the Bank Statement in Business Central.
-
--   **From Bank Reconciliation:** Credit card transactions are imported for the Bank Reconciliation in Business Central.
-
--   **Automatic from SEB card:** Credit card transactions are imported from SEB card integration.
+|Agreements||
+|:-|:-|
+|**Code:**| Enter a code for the agreement, which should be a shorthand descriptor to allow easy identification.
+|**Description:**| Enter a description of the agreement.
+|**Card Brand:**| Select a **Card Brand** from the list.
+|**Payment Group:**| Select **Payment Group** from those previously created.
+|**Card transactions:**| Select the method for the import of credit card transactions
+|**Manual input/file import:**| Select this option if the transaction will be typed in manually or import with an excel file.
+|**From Bank Statement:**| Credit card transactions are imported for the Bank Statement in Business Central.
+|**From Bank Reconciliation:**| Credit card transactions are imported for the Bank Reconciliation in Business Central.
+|**Automatic from SEB card:**| Credit card transactions are imported from SEB card integration.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-033.png)
 
@@ -266,17 +333,16 @@ Go to: **Company Credit Cards (TEM)**
 
 **New**: Create a new card
 
-**Card No.**: Enter the card number.
-
-**Card Holder Name**: Enter the name of the person who uses the card.
-
-**Assigned to Employee No**.: Select the employee from the list.
-
-**Credit Card Agreement**: Select the appropriate agreement for the company card.
+|Company Cards (TEM) |  |
+|:-|:-|
+|**Card No.:**| Enter the card number.
+|**Card Holder Name:**| Enter the name of the person who uses the card.
+|**Assigned to Employee No.:**| Select the employee from the list.
+|**Credit Card Agreement:**| Select the appropriate agreement for the company card.
 
 The Company Credit Card has been registered, but it must be activated before it can be used.
 
-#### *Activate Credit Card*
+#### Activate Credit Card
 
 For a credit card to be granted the status **Active** the card must have been assigned a credit card agreement and an employee.
 
@@ -337,14 +403,17 @@ Example, if the card number is placed in column D in the Excel file type in D in
 Per Diems are daily allowances provided to employees to cover day-to-day expenses incurred during business travel. They simplify the process of expense tracking by offering a fixed amount. 
 
 ### Setup
-Calculation rules are configured in the Per Diem Setup page (only available in the Pro edition)<br/>
+Calculation rules are configured in the Per Diem Setup page (only available in the Pro edition) <br/>
 Go to: **Setup** --> **Change calculation rule**<br/>
 
 ![A black and white logo Description automatically generated](@site/static/img/media/tem-121.png)<br/>
 
-Select the calculation rule.<br/>
+Select the calculation rule. <br/>
+
 Go to: **Change Per Diem Calculation rule**<br/>
-![A black and white logo Description automatically generated](@site/static/img/media/tem-122.png)<br/>
+
+![A black and white logo Description automatically generated](@site/static/img/media/tem-122.png) <br/>
 
 Rules for calculating per diems vary by country, and currently, we support three calculation rule sets: Swedish, Finnish, and a general “flat daily rate” rule. Depending on the selected rule, different settings will be available for configuration.
+
 

@@ -55,9 +55,9 @@ At the top is a refresh icon that indicates if synchronization with the cloud is
 
 Synchronizing the data with the cloud can be done at any time, and can be achieved by:
 
--   Tapping the refresh icon in the top right, or
+-   Tapping the refresh icon in the top right, or<br/>
 
--   Dragging down from the top of the dashboard.
+-   Dragging down from the top of the dashboard.<br/>
 
 The central section of the dashboard displays a list of various states. These states are grouped at the top of the dashboard.
 
@@ -89,7 +89,6 @@ The **Account** which is placed in the right-hand side gives the user the follow
 ![Travel and Expense](@site/static/img/media/tem-043.png)
 
 
-
 ### Submitting an expense
 
 Go to: **PLUS**
@@ -115,12 +114,11 @@ Photos are crucial in ExFlow Travel and Expense, enabling discarding receipts im
 
 ![Travel and Expense](@site/static/img/media/tem-045.png)
 
-**Add more photos**: Add more photo to the expense by clicking on the PLUS icon next to picture. There is two options:
+**Add more photos**: Add more photo to the expense by clicking on the PLUS icon next to picture. There are two options:
 -   **Scan receipt**: Mean it will take a picture of the receipt.
 -   **Select photo**: Add a photo from the photo gallery on the phone.
 
 ![Travel and Expense](@site/static/img/media/tem-046.png)
-
 
 #### Expense details
 
@@ -128,33 +126,22 @@ Below is a description of each term in an expense report. In the app, items high
 
 ![A screenshot of a phone Description automatically generated](@site/static/img/media/tem-048.png)
 
-**Date**: Modify the date of the expense. If a photo is attached, the date defaults to the day the photo was taken. If using the app to take a photo, today's date will be applied.
-
-**Currency**: Select the correct currency from a list. Initial currency is based on the GPS location of the device.
-
-**Amount**: The camera will interpret the amount from the receipt or enter the total amount of the expense manually.
-
-**Country**: Select the country from a list. Initial country is based on the current GPS location of the device.
-
-**Description**: The description will be the title for the expense.
-
-**Payment Method**: Choose between **Employee** or **Company card**.
-
-**Private** **use:** If the company card was used privately, mark the transaction as personal use.
-
-**Category**: Select a category out of the ones provided by your company.
-
-**Employees**: Add or remove employees. Your name is added by default.
-
-**Project/Task**: First, search for the project, then search for the task. Once both the project and task are entered, the **Project description** and **Task description** will be displayed.
-
-**Guest (NOT employees)**: Add customers or guests.
-
-**Additional info**: Enter any additional information.
-
-**Slide to submit**: Use this slider to submit the expense for approval.
-
-**Discussion**: The speech bubble icon in the top right corner displays any comments made by the approver. This is only relevant if the expense has been rejected.
+|Expense details ||
+|:-|:-| 
+|**Date:**| Modify the date of the expense. If a photo is attached, the date defaults to the day the photo was taken. If using the app to take a photo, today's date will be applied.
+|**Currency:**| Select the correct currency from a list. Initial currency is based on the GPS location of the device.
+|**Amount:**| The camera will interpret the amount from the receipt or enter the total amount of the expense manually.
+|**Country:**| Select the country from a list. Initial country is based on the current GPS location of the device.
+|**Description:**| The description will be the title for the expense.
+|**Payment Method:**| Choose between **Employee** or **Company card**.
+|**Private use:**| If the company card was used privately, mark the transaction as personal use.
+|**Category:**| Select a category out of the ones provided by your company.
+|**Employees:**| Add or remove employees. Your name is added by default.
+|**Project/Task:**| First, search for the project, then search for the task. Once both the project and task are entered, the **Project description** and **Task description** will be displayed.
+|**Guest (NOT employees):**| Add customers or guests.
+|**Additional info:**| Enter any additional information.
+|**Slide to submit:**| Use this slider to submit the expense for approval.
+|**Discussion:**| The speech bubble icon in the top right corner displays any comments made by the approver. This is only relevant if the expense has been rejected.
 <br/>
 
 ### Submitting credit card transactions
@@ -185,13 +172,18 @@ At the top of an opened credit card transaction, the button below will show how 
 
 ![A close-up of a paper Description automatically generated](@site/static/img/media/tem-052.png)
 
-The color will indicate how precise the matches are:
+The color will indicate how precise the matches are: <br/>
 
--   Red: No match
 
--   Yellow: Partial match
+-   Red: No match<br/>
 
--   Green: Good match
+
+-   Yellow: Partial match<br/>
+
+
+-   Green: Good match<br/>
+
+<br/>
 
 Tapping the expense button will allow the user to merge the transaction with an expense by pressing the check mark button. Again, the color to the left of an expense will indicate the quality of the match.
 
@@ -223,31 +215,26 @@ The map at the top will display the current position. Drag and zoom on the map. 
 
 Below are the fields that need to be completed for mileage to be sent for approval. A red line indicates that a field is mandatory.
 
-**Date**: Modify the date of the mileage. If using the app today's date will be applied.
+|Mileage details||
+|:-|:-| 
+|**Date:**| Modify the date of the mileage. If using the app today's date will be applied.
+|**Description:**| Enter the description of the trip.
+|**From:**| Enter the address where the trip started.
+|**To:**| Enter the address where the trip ended.
+|**Vehicle:**| Choose the vehicle that has been used.
+|**Distance:**| The distance is calculated automatically. It is possible to change the distance in this field manually.
+|**Project/Task:**| First, search for the project, then search for the task. Once both the project and task are entered, the **Project description** and **Task description** will be displayed.
+|**Additional info:**| Enter any additional information.
 
-**Description:** Enter the description of the trip.
-
-**From**: Enter the address where the trip started.
-
-**To**: Enter the address where the trip ended.
-
-**Vehicle**: Choose the vehicle that has been used.
-
-**Distance**: The distance is calculated automatically. It is possible to change the distance in this field manually.
-
-**Project/Task**: First, search for the project, then search for the task. Once both the project and task are entered, the **Project description** and **Task description** will be displayed.
-
-**Additional info**: Enter any additional information.
-
-**Slide to send**: Use this slider to send the expense for approval. The user will be asked if it is a returned trip. Here is the three options:
-
-**Continue:** If the user is on a trip with more stops on the way, then choose to **continue trip.**
-
-**Back to start:** This will return our trip back to the start, so there\'s no need to register for the trip twice.
-
-**No:** This will end the trip.
+**Slide to submit:** Use this slider to submit the expense for approval. The user will be prompted to indicate if it is a return trip. The three options are as follows:
 
 ![A screenshot of a phone Description automatically generated](@site/static/img/media/tem-058.png)
+
+|Options||
+|:-|:-| 
+|**Continue:**| If the user is on a trip with more stops on the way, then choose to **continue trip.**
+|**Back to start:**| This will return our trip back to the start, so there\'s no need to register for the trip twice.
+|**No:**| This will end the trip.
 
 <br/>
 
@@ -263,13 +250,13 @@ Go to: **Account  --> Vehicles --> Add**
 
 ![A screenshot of a phone Description automatically generated](@site/static/img/media/tem-061.png)
 
-**Name:** Enter a name for the vehicle that describes, good to add the registration number.
+|Vehicle||
+|:-|:-| 
+|**Name:**| Enter a name for the vehicle that describes, good to add the registration number.
+|**Reimburse mileage:**| If using your private vehicle, choose this option.
+|**Use by default:**| Active it if it the preferred vehicle.
 
-**Reimburse mileage**: If using your private vehicle, choose this option.
-
-**Use by default:** Active it if it the preferred vehicle.
-
-**Save**
+Click **Save**
 
 ### Submit with an expense report
 
@@ -277,13 +264,13 @@ Expense Reports allow you to organize expenses, Mileages, and per diems to gain 
 
 Go to: **PLUS --> Expense report**
 
-**Description:** Enter er description for the expense report.
+![A screenshot of a login screen Description automatically generated](@site/static/img/media/tem-105.png
 
-**Additional info**: Enter any additional information.
-
-**Project/Task**: The expense report can be connected to a specific project, this will add the project and task to all transactions that is added to the expense report. 
-
-![A screenshot of a login screen Description automatically generated](@site/static/img/media/tem-105.png)
+|Expense report||
+|:-|:-| 
+|**Description:**| Enter er description for the expense report.
+|**Additional info:**| Enter any additional information.
+|**Project/Task:**| The expense report can be connected to a specific project, this will add the project and task to all transactions that is added to the expense report. 
 
 After creating an expense report, a new field labeled Expense Report will be displayed when submitting an expense, mileage, or per diem. Below is an example from the mileage page.
 
