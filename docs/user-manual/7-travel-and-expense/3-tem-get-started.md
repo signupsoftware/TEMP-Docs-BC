@@ -267,9 +267,11 @@ Select a specific employee from the list to grant access to **AppsForDynamics365
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-015.png)
 
 #### Configure ExFlow Travel & Expense
-Click on:  **ExFlow Travel & Expense** > **Configure for TEM**
 
-Follow the wizard: 
+Click on:  **ExFlow Travel & Expense** --> **Configure for TEM** 
+
+Follow the wizard: <br/>
+
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-016.png)
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-017.png)

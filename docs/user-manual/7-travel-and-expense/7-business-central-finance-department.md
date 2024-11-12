@@ -70,7 +70,7 @@ The fields that can be edited in this view are:
 
 Some expenses that have already been approved will on occasion need to be split between the employees. This can be done manually from the expense edit-view.
 
-Go to: **Edit --> click on the "pin" --> Details -->**
+Go to: **Edit --> click on the "pin" --> Details**
 
 ![Travel and Expense](@site/static/img/media/tem-087.png)
 
