@@ -272,10 +272,12 @@ const config = {
                 label: 'Terms and Conditions', 
                 href: '/docs/papers/agreements',
               },
+              /*
               {
                 label: '.',
                 href: '/docs/agreements',
               },
+              */
             ],
           },
         ],
