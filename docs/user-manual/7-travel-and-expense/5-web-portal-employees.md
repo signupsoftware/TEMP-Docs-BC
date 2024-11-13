@@ -18,7 +18,6 @@ Logging into the AppsForDynamics365 Portal requires login information provided b
 
 Alternatively, contact the Business Central administrator or IT department if logging in is not possible.
 
-
 #### Main page
 
 The main page is the next page in the portal. The page is grouped by Expenses, Mileages, Expense report and Per Diam.
@@ -36,7 +35,7 @@ The **Credit card transactions** are credit card transactions made with your emp
 
 <br/>
 
-#### Submitting expenses
+### Submitting expenses
 
 Though expense submission is suggested to be done via the app, it can be done through the web portal as well, almost the same way.
 
@@ -48,36 +47,27 @@ Start the process of submitting an expense by filling out the following view:
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-069.png)
 
-**File or photo**: Add a file or photo of the receipt or any relevant file by clicking on left hand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
-
-**Date**: Select the date. Today\'s date is set by default.
-
-**Currency**: Change the currency if needed.
-
-**Amount:** Enter the amount.
-
-**Country**: If needed, change the country for the expense. This defaults to your country setting in Business Central.
-
-**Description**: Enter a description. This will be the title for the expense.
-
-**Paid by**: In the field, choose between Employee and Company Card.
-
-**Category**: Choose a category for the expense between the ones provided by your company.
+|Expense details||
+|:-|:-| 
+|**File or photo:**| Add a file or photo of the receipt or any relevant file by clicking on left hand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
+|**Date:**| Select the date. Today\'s date is set by default.
+|**Currency:**| Change the currency if needed.
+|**Amount:**| Enter the amount.
+|**Country:**| If needed, change the country for the expense. This defaults to your country setting in Business Central.
+|**Description:**| Enter a description. This will be the title for the expense.
+|**Paid by:**| In the field, choose between Employee and Company Card.
+|**Category:**| Choose a category for the expense between the ones provided by your company.
 
 **Save** or **Submit:** Save the expense and send later or send immediately.
 
 Below are optional fields when creating an expense, depending on your company policies.
 
-**Employees**: Add or remove employees. Your name is added by default.
-
-**Attendees**: Add or remove attendees. Examples include guests or customers.
-
-**Project/Task**: Type a job and task. This is primarily used for consultancy firms.
-
-![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-107.png)
-
-
-**Additional info**: Enter any additional information that may be relevant.
+|Optional fields||
+|:-|:-| 
+|**Employees:**| Add or remove employees. Your name is added by default.
+|**Attendees:**| Add or remove attendees. Examples include guests or customers.
+|**Project/Task:**| Type a job and task. This is primarily used for consultancy firms.
+|**Additional info:**| Enter any additional information that may be relevant.
 
 <br/>
 
@@ -87,7 +77,7 @@ Credit card transactions are a popular way to pay for several things, and this a
 
 A credit card transaction can be opened from the dashboard, details filled in, and then sent as an expense. If an expense has already been created for the credit card transaction, it can be merged with the credit card transaction.
 
-#### Submitting credit card transactions before transaction is imported
+### Submitting credit card transactions before transaction is imported
 
 Go to: **Travel & Expense --> New expense**
 
@@ -97,35 +87,27 @@ Important! This is the process for reporting an expense before the credit card t
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-070.png)
 
-**File or photo**: Add a file or photo of the receipt or any relevant file by clicking on left hand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
+|Expense details||
+|:-|:-| 
+|**File or photo:**| Add a file or photo of the receipt or any relevant file by clicking on left hand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
+|**Date:**| Select the date. Today\'s date is set by default.
+|**Currency:**| Change the currency if needed.
+|**Amount:**| Enter the amount.
+|**Country:**| If needed, change the country for the expense. This defaults to your country setting in Business Central.
+|**Description:**| Enter a description. This will be the title for the expense.
+|**Paid by:**| In the field, choose between Employee and Company Card.
+|**Category:**| Choose a category for the expense between the ones provided by your company.
 
-**Date**: Select the date. Today's date is set by default.
-
-**Currency**: Change the currency if needed.
-
-**Amount:** Enter the amount.
-
-**Country**: If needed, change the country for the expense. This defaults to your country setting in Business Central.
-
-**Description**: Enter a description. This will be the title for the expense.
-
-**Paid by**: In the field, choose between Employee and Company Card.
-
-**Category**: Choose a category for the expense between the ones provided by your company.
-
-**Save** or **Submit:** Save the expense and send later or send immediately.
+**Save** or **Await transaction:** Save the expense and send later or send immediately.
 
 Below are optional fields when creating an expense, depending on your company policies.
 
-**Employees**: Add or remove employees. Your name is added by default.
-
-**Attendees**: Add or remove attendees. Examples include guests or customers.
-
-**Project/Task**: Type a job and task. This is primarily used for consultancy firms.
-
-**Additional info**: Enter any additional information that may be relevant.
-
-**Await transaction**: Choose this option, if the expense should be matched to a credit card transaction.
+|Optional fields||
+|:-|:-| 
+|**Employees:**| Add or remove employees. Your name is added by default.
+|**Attendees:**| Add or remove attendees. Examples include guests or customers.
+|**Project/Task:**| Type a job and task. This is primarily used for consultancy firms.
+|**Additional info:**| Enter any additional information that may be relevant.
 
 <br/>
 
@@ -139,27 +121,28 @@ Start the process of submitting an expense by filling out the following view.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-072.png)
 
-**File or photo**: Add a file or photo of the receipt or any relevant file by clicking on left hand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
-
-**Description**: Enter a description. This will be the title for the expense.
-
-**Private use**: If the company card was used privately, mark the transaction as personal use**.**
-
-**Category**: Choose a category for the expense between the ones provided by your company.
+|Expense details||
+|:-|:-| 
+|**File or photo:**| Add a file or photo of the receipt or any relevant file by clicking on left hand side area, or just drag them onto the area. Supported file types are PDF and most common image types.
+|**Date:**| Select the date. Today\'s date is set by default.
+|**Currency:**| Change the currency if needed.
+|**Amount:**| Enter the amount.
+|**Country:**| If needed, change the country for the expense. This defaults to your country setting in Business Central.
+|**Description:**| Enter a description. This will be the title for the expense.
+|**Paid by:**| In the field, choose between Employee and Company Card.
+|**Category:**| Choose a category for the expense between the ones provided by your company.
 
 **Save** or **Submit:** Save the expense and send later or send immediately.
 
 Below are optional fields when creating an expense, depending on your company policies.
 
-**Employees**: Add or remove employees. Your name is added by default.
+|Optional fields||
+|:-|:-| 
+|**Employees:**| Add or remove employees. Your name is added by default.
+|**Attendees:**| Add or remove attendees. Examples include guests or customers.
+|**Project/Task:**| Type a job and task. This is primarily used for consultancy firms.
+|**Additional info:**| Enter any additional information that may be relevant.
 
-**Attendees**: Add or remove attendees. Examples include guests or customers.
-
-**Project/Task**: Type a job and task. This is primarily used for consultancy firms.
-
-**Additional info**: Enter any additional information that may be relevant.
-
-**Await transaction**: Choose this option, if the expense should be matched to a credit card transaction.
 
 #### Matching issue between expense report and credit card transaction
 
@@ -185,19 +168,18 @@ Choose **Continue** and **Submit**.
 
 ### Submit with an expense report
 
-Expense Reports allow you to organize expenses, Mileages, and per diems to gain a summary of outlays.
+Expense Reports enable employees to organize expenses and obtain a summary of expenditures.
 
 Go to: **Travel & Expense --> Expense report**
 
-**Description:** Enter er description for the expense report.
-
-**Additional info**: Enter any additional information.
-
-**Project/Task**: The expense report can be connected to a specific project, this will add the project and task to all transactions that is added to the expense report. 
-
 ![A screenshot of a login screen Description automatically generated](@site/static/img/media/tem-108.png)
+
+|Expense report||
+|:-|:-| 
+|**Description:**| Enter er description for the expense report.
+|**Additional info:**| Enter any additional information.
+|**Project/Task:**| The expense report can be connected to a specific project, this will add the project and task to all transactions that is added to the expense report. 
 
 After creating an expense report, a new field labeled Expense Report will be displayed when submitting an expense, mileage, or per diem. Below is an example from the mileage page.
 
 ![A screenshot of a login screen Description automatically generated](@site/static/img/media/tem-109.png)
-

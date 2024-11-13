@@ -342,6 +342,18 @@ This can be useful when, for instance, same item no exist in the standard item l
 
 ![Item No. Matching Priority](@site/static/img/media/exflow-setup-item-no-matching-prio-001.png)
 
+| Item No. Matching Priority |  |
+|:-|:-|
+| **OCR Mapping**         |Match Item No. after what is specified in *OCR Import Mapping*
+| **Default G/L Account/Dummy Item**  |Match Item No. after the *Predefined Account* (ExFlow Setup --> General) or *Dummy Item for OCR Line Mapping* (ExFlow Setup --> OCR Import). This will only be done if the imported Item No. is blank. 
+| **Item**         |Match Item No. after the actual *Item No.* in Business Central
+| **Item with Vendor No.**   |Match Item No. after what is added under Replenishment--> Purchase. If a *Vendor No.* is specified on the Item card, together with a specific *Vendor Item No.*, then this will be prioritized.
+| **Item Vendor**         | Match Item No. after the *Vendor Item No.* set on the Item Card in Business Central
+| **Item Reference**         |Match Item No. after the *Vendor Reference* set on the Item Card in Business Central
+| **Purchase Order**         |Match Item No. after the purchase order lines where Purchase Line Vendor Item No. is equal to imported No.
+| **First Run Original No.**  |Match Item No. after interpreted Item No. 
+| **G/L Account**         |Match Item No. after G/L Account, if OCR Import Mapping is made where ''Map To Type'' is set to ''G/L Account'' together with an chosen account in ''Map To No.'' 
+
 Set up an Item No. Matching Priority to choose in what order to match. These settings allows ExFlow to perform more advanced matching of items and order lines based on priority and matching type.
 
 Use the "Move Up" and "Move Down" buttons to move matching types up or down the list.

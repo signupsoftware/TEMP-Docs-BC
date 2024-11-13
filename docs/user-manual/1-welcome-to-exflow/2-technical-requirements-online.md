@@ -18,7 +18,7 @@ Read about the minimum requirements for using Business Central [***here***](http
 
 ### Technical Specifications
 
-*Integration ExFlow Data Capture (if applicable):*<br/>
+*Integration ExFlow Data Capture (if applicable):* <br/>
 * Web service to export vendor data<br/>
 * Web service to import scanned invoice images and data.<br/>
 
@@ -39,8 +39,7 @@ ExFlow Cloud is a cloud service running on Microsoft Azure.
 ExFlow Cloud requires access to ExFlow Business Central Online web services in order to communicate. This 
 communication must be encrypted. 
 
-*The available communication option between ExFlow Cloud and ExFlow Business Central Online is:*
-* HTTPS to a public end-point <br/><br/>
+*The available communication option between ExFlow Cloud and ExFlow Business Central Online is:* HTTPS to a public end-point <br/><br/>
 
 
 #### ExFlow Cloud Client Software

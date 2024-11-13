@@ -56,15 +56,13 @@ The fields that can be edited in this view are:
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-086.png)
 
-**Posting date**: The day on which the item is to be posted, useful for companies that prefer their expenses to be posted on specific dates of the month.
-
-**Additional information**: The user can write any information or context that can be relevant.
-
-**Lines**: The user can change the particulars of the expense in question, such as posting groups and which employees were relevant. The bookkeeper can also split the expenses between employees.
-
-**Balance lines**: These are the lines that are to be paid out to employees.
-
-**Dimensions**: Accessed through **Document** in the action bar, the dimension view allows the bookkeeper to change dimensions. These are Business Central standard.
+|Expense||
+|:-|:-|
+|**Posting date:**| The day on which the item is to be posted, useful for companies that prefer their expenses to be posted on specific dates of the month.
+|**Additional information:**| The user can write any information or context that can be relevant.
+|**Lines:**| The user can change the particulars of the expense in question, such as posting groups and which employees were relevant. The bookkeeper can also split the expenses between employees.
+|**Balance lines:**| These are the lines that are to be paid out to employees.
+|**Dimensions:**| Accessed through **Document** in the action bar, the dimension view allows the bookkeeper to change dimensions. These are Business Central standard.
 
 <br/>
 
@@ -184,22 +182,17 @@ The bookkeeper can either create the transaction by inputting the correct data i
 Go to: **Manual Credit Card Transactions (TEM)**
 
 **New:** Create a new Credit Card Transaction.
-
-**Employee:** Select who made the expenditure.
-
-**Transaction Date:** Enter the date from which the employee made the expenditure.
-
-**Card No.:** From a list of Employee specific card numbers
-
-**Description:** Enter a description of the expense.
-
-**Transaction Currency:** Select the currency used.
-
-**Transaction Amount**: Enter the amount of the transaction.
-
-**Billing Amount**: Enter the amount of the billing.
-
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-097.png)
+
+|Manual Credit Card Transactions||
+|:-|:-|
+|**Employee:**| Select who made the expenditure.
+|**Transaction Date:**| Enter the date from which the employee made the expenditure.
+|**Card No.:**| From a list of Employee specific card numbers
+|**Description:**| Enter a description of the expense.
+|**Transaction Currency:**| Select the currency used.
+|**Transaction Amount:**| Enter the amount of the transaction.
+|**Billing Amount:**| Enter the amount of the billing.
 
 Click on **Create transactions** to send the transaction out to all card holders, they will get a notification in the app.
 
@@ -231,23 +224,17 @@ Go to: **Company Card Transaction (TEM)**
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-099.png)
 
-**Card No.**: The number for the credit card in question.
-
-**Card holder Name:** The name of the employee who holds the card.
-
-**Transaction Date:** The date upon which the transaction happened.
-
-**Status:** The status of the transaction, which ranges from ''Sent to employee'' to ''Waiting for posting'' and documents each step in between.
-
-**Point of Sales Name:** The name of the place where the purchase was made.
-
-**Transaction Currency:** Currency used for the transaction.
-
-**Transaction Amount:** The amount of money spent.
-
-**Billing Amount:** The amount to be reimbursed to the employee.
-
-**Suggested Category:** The category is suggested based on the Merchant Code Category and previous choices.
+|Company Card Transactions||
+|:-|:-|
+|**Card No.:**| The number for the credit card in question.
+|**Card holder Name:**| The name of the employee who holds the card.
+|**Transaction Date:**| The date upon which the transaction happened.
+|**Status:**| The status of the transaction, which ranges from ''Sent to employee'' to ''Waiting for posting'' and documents each step in between.
+|**Point of Sales Name:**| The name of the place where the purchase was made.
+|**Transaction Currency:**| Currency used for the transaction.
+|**Transaction Amount:**| The amount of money spent.
+|**Billing Amount:**| The amount to be reimbursed to the employee.
+|**Suggested Category:**| The category is suggested based on the Merchant Code Category and previous choices.
 
 <br/>
 
@@ -289,7 +276,7 @@ The user can only post per diems with status **Approved** (green color).
 
 Once the expenses have been posted to the employee in Business Central, they will be available for reimbursement. Depending on the reimbursement setup, the process will be completed either through the payment journal in Business Central or via file export.
 
-Go to: **Pending Reimbursement**
+Go to: **Pending Reimbursement** <br/> 
 ![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-115.png)
 
 Go to: **Suggest Entries**
@@ -305,11 +292,12 @@ Users will be redirected to the payment journal in Business Central.
 
 #### File export
 For reimbursement via the file export.
+
 Go to: **Export**
 ![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-119.png)
 
-Post an expense by clicking **Export and Post** .
+Post an expense by clicking **Export and Post**.
 
-![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-120.png)
+![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-120.png) 
 
 The generated file will be located in the download folder.

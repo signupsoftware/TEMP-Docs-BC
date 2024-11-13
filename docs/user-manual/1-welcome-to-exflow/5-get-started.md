@@ -48,7 +48,7 @@ If ExFlow have been previously installed and configured in other companies withi
 
 ### Get Started
 
-Firstly, utilize the comprehensive video tutorial that walks through each step of the wizard, explaining the process in a visual and engaging manner. Simply click on the [***Watch Video ***](https://www.signupsoftware.com/get-started-video/) link to access it and follow along with the instructions. 
+Firstly, utilize the comprehensive video tutorial that walks through each step of the wizard, explaining the process in a visual and engaging manner. Simply click on the [***Watch Video***](https://www.signupsoftware.com/get-started-video/) link to access it and follow along with the instructions. 
 
 Secondly, we have prepared a detailed step-by-step guide that provides written instructions on executing the wizard. This guide offers clear explanations and helpful tips to ensure a smooth and successful setup experience.
 
