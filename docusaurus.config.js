@@ -173,6 +173,7 @@ const config = {
           src: 'img/logo_SignUp_Dark.png',
           srcDark: 'img/logo_SignUp_Light.png',
           href: 'https://docs.exflow.cloud/',
+          target: '_self',
         },
 
         items: [
@@ -270,7 +271,8 @@ const config = {
               },
               {
                 label: 'Terms and Conditions', 
-                href: '/docs/papers/agreements',
+                //href: '/docs/papers/agreements',
+                href: '/docs/proxy/proxy-terms-and-conditions',
               },
               /*
               {

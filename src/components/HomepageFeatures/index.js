@@ -74,7 +74,8 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
-    url: '/business-central/docs/user-manual/travel-and-expense/travel-and-expense',
+    //url: '/business-central/docs/user-manual/travel-and-expense/travel-and-expense',
+    url: '/business-central/docs/proxy/proxy-travel-and-expense',
     tag: 'travel-and-expense'
   }
 ];
