@@ -38,6 +38,8 @@ Um AppsForDynamics365 mit Business Central zu integrieren, muss eine Zustimmung 
 
 ![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-004.png)
 
+![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-124.png)
+
 Nachdem die Zustimmung erteilt wurde, fahren Sie fort, um die Lokalisierungseinstellungen anzugeben.
 
 #### Lokalisierungseinstellungen angeben
