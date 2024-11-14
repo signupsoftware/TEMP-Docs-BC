@@ -270,14 +270,15 @@ Dies kann nützlich sein, wenn beispielsweise dieselbe Artikelnummer sowohl in d
 | Artikel-Nr. Übereinstimmende Priorität |  |
 |:-|:-|
 | **OCR-Kartierung** |Passend Artikel-Nr. nach dem, was in *OCR Import Mapping* angegeben ist
-| **Standard-Sachkonto/Dummy-Gegenstand** |Passend Artikel-Nr. nach dem Eintrag *Vordefiniertes Konto* (ExFlow-Einrichtung --> Allgemein) oder *Dummy-Element für OCR-Zeilenzuordnung* (ExFlow-Einrichtung --> OCR-Import). Dies geschieht nur, wenn die importierte Artikel-Nr. ist leer. 
+| **Standard-Sachkonto/Dummy-Gegenstand** |Passend Artikel-Nr. nach dem Eintrag *Vordefiniertes Konto* (ExFlow-Einrichtung --> Allgemein) oder *Dummy-Element für OCR-Zeilenzuordnung* (ExFlow-Einrichtung --> OCR-Import). Dies geschieht nur, wenn die importierte Artikel-Nr. ist leer. <br/><br/> Wenn keine importierte Nummer und Bestell-Nr. (importiert) leer ist, wird automatisch das Dummy-Sachkonto übernommen. Wenn es eine Bestell-Nr. (importiert), dann wird es Dummy-Artikel nehmen.
 | **Artikel** |Passend Artikel-Nr. nach der eigentlichen *Artikel-Nr.* in Business Central
 | **Artikel mit Lieferanten-Nr.** |Passend Artikel-Nr. nach dem, was unter Nachschub--> Einkauf hinzugefügt wurde. Wenn auf der Artikelkarte eine *Lieferantennummer* zusammen mit einer bestimmten *Lieferantenartikelnummer* angegeben ist, wird dies priorisiert.
 | **Artikelhändler** | Passend Artikel-Nr. nach dem *Kreditorenartikel-Nr.*, der auf der Artikelkarte in Business Central festgelegt ist
 | **Artikel-Referenz** |Passend Artikel-Nr. nach der *Kreditorenreferenz*, die auf der Artikelkarte in Business Central festgelegt wurde
 | **Bestellung** |Passend Artikel-Nr. nach den Bestellpositionen, wobei Einkaufszeile Lieferant Artikel-Nr. ist gleich der importierten Nr.
-| **Erstauflauf Original-Nr.** |Passend Artikel-Nr. nach der Interpretation Art.-Nr. 
-| **Sachkonto** |Keine Prüfung auf importierte Nummer. ExFlow prüft zunächst, ob die Order-Nr. (importiert) ist leer. Wenn ja, sucht ExFlow nach Sachkonto mit importierter Nr. Wenn ExFlow gefunden wird, übernimmt es dieses Sachkonto, andernfalls wird das Dummy-Sachkonto verwendet. Bei Import Best.-Nr. ist nicht leer. ExFlow fügt die Dummy-Artikel-Nr. <br/><br/> Bei dieser Option (im Gegensatz zur obigen Option ''Standard-Sachkonto/Dummy-Element'') besteht der Unterschied darin, dass ExFlow prüft, ob das Sachkonto vorhanden ist, bevor das Dummy-Sachkonto bereitgestellt wird.
+| **Erstauflauf Original-Nr.** |ExFlow entfernt Junk-Zeichen bei interpretierten Element-Nr. (alle Zeichen, die nicht A... Z und 0..9) und versucht es erneut.
+| **Sachkonto** |Zunächst wird geprüft, ob die interpretierte Order-Nr. hat einen Wert. Wenn es leer ist, sucht ExFlow nach Sachkonto mit importierter Nr. Wenn dies der Fall ist, übernimmt ExFlow dieses Sachkonto, andernfalls übernimmt ExFlow das vordefinierte Sachkonto (falls das Konto unter ExFlow Setup --> General vorhanden ist). Wenn die importierte Bestell-Nr. nicht leer ist, gibt ExFlow die Dummy-Element-Nr. an. (falls welche im ExFow-Setup --> OCR-Import vorhanden sind) <br/><br/>Der Unterschied zwischen dieser Option (und der obigen Option ''Standard-Sachkonto/Dummy-Element'') besteht darin, dass ExFlow prüft, ob das Sachkonto vorhanden ist, bevor das vordefinierte Sachkonto bereitgestellt wird.
+
 
 Richten Sie eine Artikelnummer-Abgleichspriorität ein, um die Reihenfolge des Abgleichs festzulegen. Diese Einstellungen ermöglichen es ExFlow, fortschrittlichere Abgleiche von Artikeln und Bestellzeilen basierend auf Priorität und Abgleichstyp durchzuführen.
 

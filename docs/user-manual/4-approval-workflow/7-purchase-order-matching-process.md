@@ -345,14 +345,14 @@ This can be useful when, for instance, same item no exist in the standard item l
 | Item No. Matching Priority |  |
 |:-|:-|
 | **OCR Mapping**         |Match Item No. after what is specified in *OCR Import Mapping*
-| **Default G/L Account/Dummy Item**  |Match Item No. after the *Predefined Account* (ExFlow Setup --> General) or *Dummy Item for OCR Line Mapping* (ExFlow Setup --> OCR Import). This will only be done if the imported Item No. is blank. 
+| **Default G/L Account/Dummy Item**  |Match Item No. after the *Predefined Account* (ExFlow Setup --> General) or *Dummy Item for OCR Line Mapping* (ExFlow Setup --> OCR Import). This will only be done if the imported Item No. is blank. <br/><br/> If there is no imported number and order no. (imported) is blank then it will automatically take dummy G/L Account. If there is Order No. (imported) then it will take dummy item.
 | **Item**         |Match Item No. after the actual *Item No.* in Business Central
 | **Item with Vendor No.**   |Match Item No. after what is added under Replenishment--> Purchase. If a *Vendor No.* is specified on the Item card, together with a specific *Vendor Item No.*, then this will be prioritized.
 | **Item Vendor**         | Match Item No. after the *Vendor Item No.* set on the Item Card in Business Central
 | **Item Reference**         |Match Item No. after the *Vendor Reference* set on the Item Card in Business Central
 | **Purchase Order**         |Match Item No. after the purchase order lines where Purchase Line Vendor Item No. is equal to imported No.
-| **First Run Original No.**  |Match Item No. after interpreted Item No. 
-| **G/L Account**         |No check for imported number. ExFlow will first check if the order no. (imported) is blank. If yes, then ExFlow will look for G/L Account with imported no. If found, ExFlow will take that G/L account, otherwise the Dummy G/L account will be used. If imported order no. is not blank. ExFlow will put Dummy Item No. <br/><br/> In this option the difference in this option (vs above option ''Default G/L Account/Dummy Item'') is that ExFlow check if G/L Account exists before providing the Dummy G/L Account.
+| **First Run Original No.**  |ExFlow removes junk characters on interpreted Item No. (all characters which are not A...Z and 0..9) and tries again.
+| **G/L Account**         |First check is to see if the interpreted order no. has a value. If it is blank, then ExFlow look for G/L Account with imported no. If that is found ExFlow will take that G/L account, otherwise ExFlow take Predefined G/L Account (if account exist under ExFlow Setup --> General). If the imported Order No. is not blank, ExFlow will provide the Dummy Item No. (if any exist in ExFow setup --> OCR Import) <br/><br/>The difference in this option (vs above option ''Default G/L Account/Dummy Item'') is that ExFlow check if G/L Account exists before providing the Predefined G/L Account.
 
 Set up an Item No. Matching Priority to choose in what order to match. These settings allows ExFlow to perform more advanced matching of items and order lines based on priority and matching type.
 
