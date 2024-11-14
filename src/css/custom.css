@@ -953,8 +953,6 @@ img[alt="large"] {
 /* ----------------------------------------------------------------------------- */
 /*  Agreements Pages                                                             */
 /* ----------------------------------------------------------------------------- */
-
-
 .agreement-doc-serif .paragraph p {
   white-space: nowrap;
   display: flex;  
@@ -1024,4 +1022,15 @@ img[alt="large"] {
 
 
 
-
+/* ----------------------------------------------------------------------------- */
+/*  Proxy Pages                                                             */
+/* ----------------------------------------------------------------------------- */
+.proxy-page body{
+  margin: 0; /* Remove default margin */
+}
+.proxy-page iframe{      
+  display: block;  /* iframes are inline by default */   
+  height: 92vh;  /* Set height to 100% of the viewport height */   
+  width: 100vw;  /* Set width to 100% of the viewport width */     
+  border: none; /* Remove default border */
+}
