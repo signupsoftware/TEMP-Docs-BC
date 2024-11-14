@@ -39,7 +39,7 @@ To integrate AppsForDynamics365 with Business Central, consent must be provided.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-004.png)
 
-![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-121.png)
+![A screenshot of a computer screen Description automatically generated](@site/static/img/media/tem-124.png)
 
 After granting consent continue to specify localization settings.
 
