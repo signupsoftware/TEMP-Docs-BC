@@ -352,7 +352,7 @@ This can be useful when, for instance, same item no exist in the standard item l
 | **Item Reference**         |Match Item No. after the *Vendor Reference* set on the Item Card in Business Central
 | **Purchase Order**         |Match Item No. after the purchase order lines where Purchase Line Vendor Item No. is equal to imported No.
 | **First Run Original No.**  |Match Item No. after interpreted Item No. 
-| **G/L Account**         |Match Item No. after G/L Account, if OCR Import Mapping is made where ''Map To Type'' is set to ''G/L Account'' together with an chosen account in ''Map To No.'' 
+| **G/L Account**         |No check for imported number. ExFlow will first check if the order no. (imported) is blank. If yes, then ExFlow will look for G/L Account with imported no. If found, ExFlow will take that G/L account, otherwise the Dummy G/L account will be used. If imported order no. is not blank. ExFlow will put Dummy Item No. <br/><br/> In this option the difference in this option (vs above option ''Default G/L Account/Dummy Item'') is that ExFlow check if G/L Account exists before providing the Dummy G/L Account.
 
 Set up an Item No. Matching Priority to choose in what order to match. These settings allows ExFlow to perform more advanced matching of items and order lines based on priority and matching type.
 

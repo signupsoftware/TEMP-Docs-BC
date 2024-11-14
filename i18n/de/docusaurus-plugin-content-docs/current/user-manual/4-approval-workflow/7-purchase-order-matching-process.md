@@ -267,6 +267,18 @@ Dies kann nützlich sein, wenn beispielsweise dieselbe Artikelnummer sowohl in d
 
 ![Item No. Matching Priority](../../images/exflow-setup-item-no-matching-prio-001.png)
 
+| Artikel-Nr. Übereinstimmende Priorität |  |
+|:-|:-|
+| **OCR-Kartierung** |Passend Artikel-Nr. nach dem, was in *OCR Import Mapping* angegeben ist
+| **Standard-Sachkonto/Dummy-Gegenstand** |Passend Artikel-Nr. nach dem Eintrag *Vordefiniertes Konto* (ExFlow-Einrichtung --> Allgemein) oder *Dummy-Element für OCR-Zeilenzuordnung* (ExFlow-Einrichtung --> OCR-Import). Dies geschieht nur, wenn die importierte Artikel-Nr. ist leer. 
+| **Artikel** |Passend Artikel-Nr. nach der eigentlichen *Artikel-Nr.* in Business Central
+| **Artikel mit Lieferanten-Nr.** |Passend Artikel-Nr. nach dem, was unter Nachschub--> Einkauf hinzugefügt wurde. Wenn auf der Artikelkarte eine *Lieferantennummer* zusammen mit einer bestimmten *Lieferantenartikelnummer* angegeben ist, wird dies priorisiert.
+| **Artikelhändler** | Passend Artikel-Nr. nach dem *Kreditorenartikel-Nr.*, der auf der Artikelkarte in Business Central festgelegt ist
+| **Artikel-Referenz** |Passend Artikel-Nr. nach der *Kreditorenreferenz*, die auf der Artikelkarte in Business Central festgelegt wurde
+| **Bestellung** |Passend Artikel-Nr. nach den Bestellpositionen, wobei Einkaufszeile Lieferant Artikel-Nr. ist gleich der importierten Nr.
+| **Erstauflauf Original-Nr.** |Passend Artikel-Nr. nach der Interpretation Art.-Nr. 
+| **Sachkonto** |Keine Prüfung auf importierte Nummer. ExFlow prüft zunächst, ob die Order-Nr. (importiert) ist leer. Wenn ja, sucht ExFlow nach Sachkonto mit importierter Nr. Wenn ExFlow gefunden wird, übernimmt es dieses Sachkonto, andernfalls wird das Dummy-Sachkonto verwendet. Bei Import Best.-Nr. ist nicht leer. ExFlow fügt die Dummy-Artikel-Nr. <br/><br/> Bei dieser Option (im Gegensatz zur obigen Option ''Standard-Sachkonto/Dummy-Element'') besteht der Unterschied darin, dass ExFlow prüft, ob das Sachkonto vorhanden ist, bevor das Dummy-Sachkonto bereitgestellt wird.
+
 Richten Sie eine Artikelnummer-Abgleichspriorität ein, um die Reihenfolge des Abgleichs festzulegen. Diese Einstellungen ermöglichen es ExFlow, fortschrittlichere Abgleiche von Artikeln und Bestellzeilen basierend auf Priorität und Abgleichstyp durchzuführen.
 
 Verwenden Sie die Schaltflächen "Nach oben" und "Nach unten", um Abgleichstypen in der Liste nach oben oder unten zu verschieben.
