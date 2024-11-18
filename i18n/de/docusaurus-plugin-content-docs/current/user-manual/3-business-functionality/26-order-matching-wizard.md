@@ -37,11 +37,11 @@ Wählen Sie diese Option, wenn Sie möchten, dass Rechnungen nur mit Bestellunge
 Dies stellt sicher, dass die Artikel empfangen und im Lager erfasst wurden und mit der Rechnung übereinstimmen, bevor die Rechnung zum Genehmigen und endgültigen Buchen weitergeleitet wird.
 
 **Bestellung:**<br/>
-Wählen Sie diese Option, wenn Sie möchten, dass Rechnungen mit Bestellungen abgeglichen werden, unabhängig davon, ob ein zugehöriger Wareneingang vorliegt.
+Wählen Sie diese Option aus, wenn Sie möchten, dass Rechnungen mit Bestellungen abgeglichen werden, unabhängig davon, ob ein zugeordneter Wareneingang vorhanden ist.
 
-Dies ermöglicht den Abgleich von Rechnungen, auch wenn der Wareneingang von Waren oder Dienstleistungen nicht bestätigt wurde, und bietet Flexibilität im Abgleichsprozess.
+Auf diese Weise können Rechnungen auch dann abgeglichen werden, wenn der Erhalt von Waren oder Dienstleistungen nicht bestätigt wurde, was Flexibilität in Ihrem Abgleichsprozess bietet.
 
-Nützlich in Szenarien wie Dropshipping oder wenn Wareneingänge nicht verfügbar oder erforderlich sind, um die Rechnung vollständig abzugleichen und zur Genehmigung und Buchung weiterzuleiten.
+Nützlich in Szenarien wie Streckengeschäft oder wenn Kaufbelege nicht verfügbar sind oder erforderlich sind, um die Rechnung vollständig abzugleichen und zur Genehmigung und Buchung zu senden.
 
 **Bestellung und Wareneingang:**<br/>
 Wenn Sie eine Kombination der beiden vorherigen Optionen bevorzugen, wählen Sie diese Option.

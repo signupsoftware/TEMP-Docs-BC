@@ -43,7 +43,7 @@ Choose this option if you want invoices to be matched to purchase orders regardl
 
 This allows invoices to be matched even if the receipt of goods or services has not been confirmed, providing flexibility in your matching process.
 
-Useful in scenarios such as dropshipment or when purchase receipts are not available, or required to fully match the invoice and have it sent for approval and posting.
+Useful in scenarios such as drop shipment or when purchase receipts are not available, or required to fully match the invoice and have it sent for approval and posting.
 
 **Order and Receipt:**<br/>
 If you prefer a combination of the previous two options, select this option.
