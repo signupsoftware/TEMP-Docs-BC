@@ -27,7 +27,8 @@ Go to: **AppsForDynamics365 Configuration**
 
 #### Verify license
 
-The initial step in the process requires entering the customer ID and license key. These will be provided when an AppsForDynamics365 product is purchased. Alternatively, they can be found on the **My account** page on [www.appsfordynamics365.com](http://www.appsfordynamics365.com).
+The initial step in the process requires entering the customer ID and license key. These will be provided when an AppsForDynamics365 product is purchased. Alternatively, they can be found on the **My account** page on [***AppsForDynamics365***](http://www.appsfordynamics365.com).
+
 
 ![Travel and Expense](@site/static/img/media/tem-002.png)
 
