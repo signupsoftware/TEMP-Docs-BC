@@ -264,7 +264,7 @@ Expense Reports allow you to organize expenses, Mileages, and per diems to gain 
 
 Go to: **PLUS --> Expense report**
 
-![A screenshot of a login screen Description automatically generated](@site/static/img/media/tem-105.png
+![A screenshot of a login screen Description automatically generated](@site/static/img/media/tem-105.png)
 
 |Expense report||
 |:-|:-| 

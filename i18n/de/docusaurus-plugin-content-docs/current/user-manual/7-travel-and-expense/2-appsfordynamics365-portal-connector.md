@@ -1,16 +1,17 @@
 ---
-title: AppsForDynamics365 Portal Connector
+title: Einrichtung des AppsForDynamics365-Portals
 sidebar_position: 2
 hide_title: true
 custom_edit_url: null
 ---
+
 ## AppsForDynamics365 Portal Connector
 
 Der AppsForDynamics365 Portal Connector erleichtert die Integration der ExFlow Travel & Expense-Anwendung in Ihr Business Central-System. Als Vermittler sorgt er dafür, dass Daten direkt an Business Central in leicht verarbeitbaren und verständlichen Formaten zur Speicherung oder Anwendung übertragen werden.
 
 Das Portal bietet einfachen Zugang für Benutzer, die keine Business Central-Superuser sind und möglicherweise unterwegs Aufgaben in ExFlow Travel & Expense ausführen.
 
-Diese Dokumentation enthält alle notwendigen Informationen, um AppsForDynamics365 einzurichten und mit Business Central zu verbinden.
+Diese Dokumentation enthält alle notwendigen Informationen zur Einrichtung von AppsForDynamics365 und zur Verbindung mit Business Central.
 
 ### Einrichtung der AppsForDynamics365-Integration
 Dieser Abschnitt dokumentiert den Einrichtungsprozess für die AppsForDynamics365-Integration. Das Integrationsmodul wird von ExFlow Travel & Expense verwendet, um Business Central mit dem AppsForDynamics365-Portal zu verbinden.
@@ -26,7 +27,7 @@ Gehen Sie zu: **AppsForDynamics365-Konfiguration**
 
 #### Lizenz überprüfen
 
-Der erste Schritt im Prozess erfordert die Eingabe der Kunden-ID und des Lizenzschlüssels. Diese werden beim Kauf eines AppsForDynamics365-Produkts bereitgestellt. Alternativ finden Sie sie auf der **Mein Konto**-Seite auf [www.appsfordynamics365.com](http://www.appsfordynamics365.com).
+Der erste Schritt im Prozess erfordert die Eingabe der Kunden-ID und des Lizenzschlüssels. Diese werden beim Kauf eines AppsForDynamics365-Produkts bereitgestellt. Alternativ finden Sie diese auf der Seite **Mein Konto** auf [***AppsForDynamics365***](http://www.appsfordynamics365.com).
 
 ![Travel and Expense](../../images/tem-002.png)
 
@@ -38,7 +39,7 @@ Um AppsForDynamics365 mit Business Central zu integrieren, muss eine Zustimmung 
 
 ![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-004.png)
 
-![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-124.png)
+![Ein Screenshot eines Computerbildschirms, Beschreibung automatisch generiert](../../images/tem-124.png)
 
 Nachdem die Zustimmung erteilt wurde, fahren Sie fort, um die Lokalisierungseinstellungen anzugeben.
 
@@ -48,11 +49,11 @@ Wählen Sie die verwendete Zeitzone und die bevorzugte Sprache für das Portal a
 
 ![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-005.png)
 
-Nachdem Sie die Zeitzone und die Sprache ausgewählt haben, klicken Sie auf Weiter und fahren Sie fort, um die Authentifizierungsmethode auszuwählen.
+Nachdem Sie die Zeitzone und die Sprache ausgewählt haben, klicken Sie auf "Weiter" und fahren Sie fort, um die Authentifizierungsmethode auszuwählen.
 
 #### Authentifizierungsmethode auswählen
 
-Es stehen drei verschiedene Authentifizierungsmethoden zur Verfügung, die der Benutzer verwenden kann, um sich bei AppsForDynamics365 anzumelden: Microsoft-Login, Benutzername und Passwort, die in AppsForDynamics365 erstellt wurden, oder der gemischte Modus, eine Kombination aus beiden.
+Es stehen drei verschiedene Authentifizierungsmethoden zur Verfügung, die der Benutzer verwenden kann, um sich bei AppsForDynamics365 anzumelden: Microsoft-Login, Benutzername und Passwort, die in AppsForDynamics365 erstellt wurden, oder der gemischte Modus, eine Kombination dieser beiden.
 
 Benutzer müssen in AppsForDynamics365 in einer bestimmten Reihenfolge erstellt werden, unabhängig von der Authentifizierungsmethode.
 
@@ -64,7 +65,7 @@ Benutzer müssen in AppsForDynamics365 in einer bestimmten Reihenfolge erstellt 
 
 ![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-006.png)
 
-Nachdem Sie eine Authentifizierungsmethode ausgewählt haben, klicken Sie auf Weiter und fahren Sie fort, um die Business Central-Instanz zu registrieren.
+Nachdem Sie eine Authentifizierungsmethode ausgewählt haben, klicken Sie auf "Weiter" und fahren Sie fort, um die Business Central-Instanz zu registrieren.
 
 #### Business Central-Instanz registrieren
 
@@ -72,7 +73,7 @@ Der Assistent registriert die Business Central-Instanz automatisch mit dem AppsF
 
 ![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-007.png)
 
-Nachdem Sie diese Informationen bestätigt haben, klicken Sie auf Weiter und fahren Sie fort, um das Unternehmen zu aktivieren.
+Nachdem Sie diese Informationen bestätigt haben, klicken Sie auf "Weiter" und fahren Sie fort, um das Unternehmen zu aktivieren.
 
 #### Unternehmen aktivieren
 
@@ -80,92 +81,18 @@ Dieser Schritt erfordert die Einrichtung einer Webdienstverbindung. Die angezeig
 
 ![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-008.png)
 
-Sobald dies in Ordnung ist, klicken Sie auf Weiter, um zu den Administratorberechtigungen zu gelangen.
+**Verbindung testen** Testen Sie die Verbindung, indem Sie auf die Schaltfläche "Verbindung testen" klicken.
 
-#### Administratoren Berechtigungen erteilen
+![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-122.png)
 
-Für die Wartung und Verwaltung der AppsForDynamics365-Integration müssen einige Benutzer als Administratoren ausgewählt werden.
+Sobald dies in Ordnung ist, klicken Sie auf "Weiter" und fahren Sie fort, um Logins für Business Central-Benutzer hinzuzufügen.
 
-Diese Administratoren sind dafür verantwortlich, bei Bedarf zusätzliche Benutzer zu erstellen. Dies kann sofort über den im Assistenten angezeigten Link oder später über die Berechtigungseinstellungen erfolgen.
+#### Logins für Business Central-Benutzer hinzufügen
+
+In diesem Schritt ist es möglich, Benutzer aus Business Central hinzuzufügen oder sie von Grund auf neu zu erstellen. Dies kann jederzeit unter "AppsForDynamics365-Login" erfolgen.
 
 ![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-009.png)
 
 Der Konfigurationsassistent für die AppsForDynamics365-Verbindung wurde erfolgreich abgeschlossen.
 
 ![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-010.png)
-
-#### Einen AppsForDynamics365-Benutzer erstellen
-
-Um auf das AppsForDynamics365-Portal zuzugreifen und die ExFlow Travel & Expense-App zu verwenden, muss für jeden Benutzer ein Benutzerkonto erstellt werden. Dieses Login wird unternehmensübergreifend verwendet.
-
-Jeder Benutzer, der Zugriff auf das AppsForDynamics365-Portal benötigt, muss als AppsForDynamics365-Benutzer eingerichtet werden. Der AppsForDynamics365-Benutzer erweitert den Business Central-Mitarbeiter, indem er sicherstellt, dass die auf dem Mitarbeiter festgelegten Einstellungen auch auf dem AppsForDynamics365-Portal durchgesetzt werden.
-
-Gehen Sie zu: **AppsForDynamics365-Logins**
-
-Es gibt zwei Möglichkeiten, einen neuen Benutzer zu erstellen.
-
-1.  **Logins für Benutzer erstellen:** Benutzer aus BC-Benutzern importieren.
-
-2.  **Neu:** Wenn der Benutzer nicht als Business Central-Benutzer erstellt wurde, geben Sie die Benutzeranmeldeinformationen manuell ein.
-
-![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-011.png)
-
-##### Mit Business Central erstellen
-
-**Logins für Benutzer erstellen:** Wählen Sie den/die Benutzer aus der Liste aus.
-
-![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-012.png)
-
-#### Benutzer manuell erstellen
-
-Klicken Sie auf **Neu**
-
-**Benutzerstatus**: Gibt an, ob der Benutzer aktiv oder inaktiv ist
-
-**Authentifizierungsmethode:** Wählen Sie die Authentifizierungsmethode für den spezifischen Benutzer.
-
-- Microsoft-Login
-
-- Benutzer/Passwort
-
-**Login:** Benutzer-ID, die der Benutzer zur Anmeldung im Portal verwendet
-
-**Name:** Der vollständige Name des Mitarbeiters
-
-**Passwort:** Das Passwort, das der Benutzer zur Anmeldung im Portal verwendet. (Nur wenn "Benutzer/Passwort" ausgewählt ist)
-
-**Sprache**: Die beabsichtigte Sprache, die der Benutzer verwenden soll.
-
-**E-Mail**: Die E-Mail-Adresse des Benutzers. Diese wird für Benachrichtigungen verwendet.
-
-**Business Central-Benutzer**: Wählen Sie den Business Central-Benutzer aus, dem dieser Benutzer zugeordnet werden soll.
-
-**Mitarbeiternummer:** Dies ist die Mitarbeitermummer aus Business Central, die dem Benutzer zugeordnet ist. Sie wird automatisch ausgefüllt, wenn die Konfiguration für TEM von der Mitarbeiterkarte in Business Central ausgeführt wird.
-
-![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-013.png)
-
-Der Benutzer kann sich anmelden, indem er seinen **Benutzernamen** und **Passwort** eingibt oder **Mit Microsoft anmelden** verwendet.
-
-![Ein Screenshot eines Anmeldebildschirms, Beschreibung automatisch generiert](../../images/tem-014.png)
-
-#### Den Mitarbeiter mit AppsForDynamics365 verknüpfen
-
-Um die Benutzereinrichtung abzuschließen, muss der Business Central-Mitarbeiter dem **AppsForDynamics365-Benutzer** zugeordnet werden.
-
-Gehen Sie zu: **Mitarbeiter**
-
-Wählen Sie einen bestimmten Mitarbeiter aus der Liste aus, um Zugriff auf das **AppsForDynamics365-Portal** zu gewähren.
-
-![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-015.png)
-
-**Travel & Expense konfigurieren:** Folgen Sie dem Assistenten
-
-![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-016.png)
-
-![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-017.png)
-
-![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-018.png)
-
-![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-019.png)
-
-![Ein Screenshot eines Computers, Beschreibung automatisch generiert](../../images/tem-020.png)
