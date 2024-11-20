@@ -7,8 +7,6 @@ custom_edit_url: null
 
 ## ExFlow CO₂ Insights
 
-<br/>
-
 ### How to set up ExFlow CO₂ Insights 
 
 #### Enter the license key
@@ -24,7 +22,6 @@ Next step is to add the permission set called *EXCOADMIN* on selected Business C
 All other users that will utilize the CO₂ Insights Platform, can have the permission set called *EXCOREADER*. 
 
 One of these permission sets must be given to users in order to access the CO₂ Insights Platform when the configuration is completed.<br/><br/>
-
 
 
 #### Onboard in ExFlow CO₂ Insights Setup

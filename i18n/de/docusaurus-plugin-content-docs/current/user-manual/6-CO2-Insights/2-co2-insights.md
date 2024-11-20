@@ -7,8 +7,6 @@ custom_edit_url: null
 
 ## ExFlow CO₂ Einblicke
 
-<br/>
-
 ### So richten Sie ExFlow CO₂ Einblicke ein
 
 #### Lizenzschlüssel eingeben
