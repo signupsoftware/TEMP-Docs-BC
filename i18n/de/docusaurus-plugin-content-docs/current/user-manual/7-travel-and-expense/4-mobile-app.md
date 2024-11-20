@@ -4,19 +4,18 @@ sidebar_position: 4
 hide_title: true
 custom_edit_url: null
 ---
-
 ## ExFlow Travel & Expense Mobile App
 
-Die ExFlow Travel & Expense App, verfügbar auf Android und iOS, ermöglicht eine mühelose und schnelle Einreichung von Ausgaben und Kilometerabrechnungen von einem mobilen Gerät aus. Die erstellten Dokumente stehen den Genehmigern und der Finanzabteilung sofort nach der Einreichung zur Verfügung.
+Die ExFlow Travel & Expense App, verfügbar für Android und iOS, ermöglicht eine mühelose und schnelle Einreichung von Ausgaben und Kilometergeld von einem mobilen Gerät aus. Die erstellten Dokumente stehen den Genehmigern und der Finanzabteilung sofort nach der Einreichung zur Verfügung.
 
-Die App ist die vorgesehene Methode, mit der Mitarbeiter ihre Ausgaben und Kilometerabrechnungen einreichen sollten, da dies mit nur wenigen Klicks und Eingaben unterwegs möglich ist.
+Die App ist die vorgesehene Methode, mit der Mitarbeiter ihre Ausgaben und Kilometer einreichen sollten, da dies mit nur wenigen Klicks und Eingaben unterwegs möglich ist.
 
 Nachfolgend sind Beispiele dafür aufgeführt, wie die App auf verschiedenen Seiten erscheint.
 <br/>
 
 ### Erste Schritte mit der ExFlow Travel & Expense App
 
-Um die App zu nutzen, ist der erste Schritt das Herunterladen. Sie ist sowohl im Google Play Store als auch im Apple App Store verfügbar. Benutzer können sie über die untenstehenden Links finden oder nach "Travel and Expense" im jeweiligen Store suchen.
+Um die App zu nutzen, ist der erste Schritt das Herunterladen. Sie ist sowohl im Google Play Store als auch im Apple App Store verfügbar. Benutzer können sie über die untenstehenden Links finden oder nach ''Travel and Expense'' im jeweiligen Store suchen.
 
 Gehe zu: **Google Play** oder **Apple App Store**
 
@@ -28,7 +27,7 @@ Die Anmeldung in der ExFlow Travel and Expense App erfordert bei der ersten Anme
 
 ![medium](../../images/tem-038.png)
 
-Beim ersten Öffnen der App geben Sie in dieser Reihenfolge eine Kunden-ID und Anmeldedaten ein. Diese Details wurden Ihnen per E-Mail bei der Einrichtung Ihres Kontos zugesandt. Alternativ wenden Sie sich an Ihren Business Central-Administrator oder die IT-Abteilung. Die App merkt sich Ihre Kunden-ID und Anmeldedaten für zukünftige Verwendungen, aber es ist wichtig, diese zugänglich zu halten, falls Sie das Telefon wechseln oder unvorhergesehene Umstände auftreten.
+Beim ersten Öffnen der App geben Sie in dieser Reihenfolge eine Kunden-ID und Anmeldeinformationen ein. Diese Details wurden Ihnen per E-Mail zugesandt, als Ihr Konto eingerichtet wurde. Alternativ können Sie sich an Ihren Business Central Administrator oder die IT-Abteilung wenden. Die App speichert Ihre Kunden-ID und Anmeldedaten für zukünftige Verwendungen, es ist jedoch wichtig, diese zugänglich zu halten, falls Sie das Telefon wechseln oder unvorhergesehene Umstände auftreten.
 <br/>
 
 #### App-Oberfläche
@@ -39,32 +38,32 @@ Dieser Abschnitt dokumentiert die verschiedenen relevanten Elemente in der ExFlo
 
 Nach dem Herunterladen der App erscheint das Travel and Expense-Symbol auf Ihrem Startbildschirm.
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-039.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-039.png)
 
-Wenn das Symbol einen Indikator zeigt, bedeutet dies, dass es ungesendete Ausgaben oder Kilometerabrechnungen gibt.
+Wenn das Symbol einen Indikator anzeigt, bedeutet dies, dass es ungesendete Ausgaben oder Kilometer gibt.
 <br/>
 
 #### Dashboard
 
 Das Dashboard ist die erste Seite der App.
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-040.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-040.png)
 
-Oben befindet sich ein Aktualisierungssymbol, das anzeigt, ob eine Synchronisierung mit der Cloud erforderlich ist. Dies tritt auf, wenn es eine Weile her ist, seit der letzten Synchronisierung oder wenn es ausstehende Einträge gibt.
+Oben befindet sich ein Aktualisierungssymbol, das anzeigt, ob eine Synchronisierung mit der Cloud erforderlich ist. Dies tritt auf, wenn es eine Weile her ist, seit die letzte Synchronisierung durchgeführt wurde oder wenn es ausstehende Einträge gibt.
 
-![Weiße Pfeile in einem Kreis, automatisch generierte Beschreibung](../../images/tem-041.png)
+![A white arrows in a circle Description automatically generated](../../images/tem-041.png)
 
-Die Synchronisierung der Daten mit der Cloud kann jederzeit durchgeführt werden und kann durch:
+Die Synchronisierung der Daten mit der Cloud kann jederzeit durchgeführt werden und kann erreicht werden durch:
 
--   Tippen auf das Aktualisierungssymbol oben rechts oder
+-   Tippen auf das Aktualisierungssymbol oben rechts, oder<br/>
 
--   Herunterziehen vom oberen Rand des Dashboards erreicht werden.
+-   Herunterziehen vom oberen Rand des Dashboards.<br/>
 
-Der zentrale Bereich des Dashboards zeigt eine Liste verschiedener Zustände. Diese Zustände sind oben im Dashboard gruppiert.
+Der zentrale Bereich des Dashboards zeigt eine Liste verschiedener Zustände an. Diese Zustände sind oben im Dashboard gruppiert.
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-042.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-042.png)
 
-Wenn es abgelehnte Ausgaben oder Kilometerabrechnungen gibt, werden diese oben in Rot hervorgehoben.
+Wenn es abgelehnte Ausgaben oder Kilometer gibt, werden diese oben rot hervorgehoben aufgelistet.
 
 Ein kleines Synchronisierungssymbol erscheint bei Transaktionen, die noch nicht mit dem Server synchronisiert wurden.
 
@@ -73,7 +72,7 @@ Ein kleines Synchronisierungssymbol erscheint bei Transaktionen, die noch nicht 
 Am unteren Bildschirmrand können Benutzer eine neue Transaktion erstellen, indem sie auf das PLUS-Symbol klicken. Die verfügbaren Optionen können je nach den Einstellungen des Unternehmens in ExFlow Travel & Expense variieren.
 
 -   **Ausgabe mit Kamera**: Erstellen Sie die Ausgabe, indem Sie ein Foto des Belegs machen.
--   **Kilometerabrechnung**: Für die Meldung von Kilometerabrechnungen.
+-   **Kilometer**: Für die Meldung von Kilometern.
 -   **Spesenabrechnung**: Erstellen Sie eine Spesenabrechnung.
 -   **Ausgabe**: Erstellen Sie die Ausgabe.
 <br/>
@@ -89,6 +88,7 @@ Das **Konto**, das sich auf der rechten Seite befindet, bietet dem Benutzer die 
 
 ![Travel and Expense](../../images/tem-043.png)
 
+
 ### Einreichen einer Ausgabe
 
 Gehe zu: **PLUS**
@@ -98,9 +98,9 @@ Initiieren Sie den Prozess der Einreichung einer Ausgabe auf vier verschiedene A
 Gehe zu: **Ausgabe mit Kamera**, um eine Ausgabe von Grund auf zu erstellen.
 
 Teilen Sie ein Foto aus der Fotogalerie und wählen Sie das ExFlow Travel & Expense App-Symbol. Wenn Sie mehrere Fotos teilen, haben Sie die Möglichkeit, eine Ausgabe mit allen Fotos zu erstellen oder eine Ausgabe pro Foto zu erstellen.
-Nach der Initiierung einer Ausgabe, z. B. durch das Aufnehmen eines Fotos, wird die folgende Ansicht angezeigt:
+Nach dem Initiieren einer Ausgabe, z. B. durch das Aufnehmen eines Fotos, wird die folgende Ansicht angezeigt:
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-044.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-044.png)
 
 Oben können Sie zum Dashboard zurückkehren. Wenn Informationen oder Fotos hinzugefügt werden, wird die Ausgabe als Entwurf gespeichert.
 
@@ -108,7 +108,7 @@ Wenn Sie eine Ausgabe verwerfen möchten, tippen Sie auf das Bild und **Löschen
 
 ##### Fotos
 
-Fotos sind in ExFlow Travel and Expense von entscheidender Bedeutung, da sie das sofortige Entsorgen von Belegen nach dem Erfassen ermöglichen. Nachfolgend sind einige wichtige Details zu Ausgabenfotos aufgeführt.
+Fotos sind in ExFlow Travel and Expense von entscheidender Bedeutung, da sie das sofortige Verwerfen von Belegen nach dem Erfassen ermöglichen. Nachfolgend sind einige wichtige Details zu Ausgabenfotos aufgeführt.
 
 **Foto-Vorschau**: Durch Tippen auf ein Foto wird eine Vorschau geöffnet, in der Optionen zum Löschen oder Drehen des Fotos verfügbar sind. Unten können Sie auswählen, welches Foto in der Vorschau angezeigt werden soll.
 
@@ -122,37 +122,26 @@ Fotos sind in ExFlow Travel and Expense von entscheidender Bedeutung, da sie das
 
 #### Ausgabendetails
 
-Nachfolgend finden Sie eine Beschreibung der einzelnen Begriffe in einem Ausgabenbericht. In der App sind rot hervorgehobene Elemente obligatorisch.
+Nachfolgend ist eine Beschreibung der einzelnen Begriffe in einem Ausgabenbericht aufgeführt. In der App sind Elemente, die rot hervorgehoben sind, obligatorisch.
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-048.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-048.png)
 
-**Datum**: Ändern Sie das Datum der Ausgabe. Wenn ein Foto angehängt ist, wird das Datum auf den Tag gesetzt, an dem das Foto aufgenommen wurde. Wenn Sie die App verwenden, wird das heutige Datum angewendet.
-
-**Währung**: Wählen Sie die richtige Währung aus einer Liste. Die anfängliche Währung basiert auf dem GPS-Standort des Geräts.
-
-**Betrag**: Die Kamera interpretiert den Betrag vom Beleg oder geben Sie den Gesamtbetrag der Ausgabe manuell ein.
-
-**Land**: Wählen Sie das Land aus einer Liste. Das anfängliche Land basiert auf dem aktuellen GPS-Standort des Geräts.
-
-**Beschreibung**: Die Beschreibung wird der Titel für die Ausgabe sein.
-
-**Zahlungsmethode**: Wählen Sie zwischen **Mitarbeiter** oder **Firmenkarte**.
-
-**Private Nutzung**: Wenn die Firmenkarte privat genutzt wurde, markieren Sie die Transaktion als private Nutzung.
-
-**Kategorie**: Wählen Sie eine Kategorie aus den von Ihrem Unternehmen bereitgestellten aus.
-
-**Mitarbeiter**: Fügen Sie Mitarbeiter hinzu oder entfernen Sie sie. Ihr Name wird standardmäßig hinzugefügt.
-
-**Projekt/Aufgabe**: Suchen Sie zuerst nach dem Projekt und dann nach der Aufgabe. Sobald sowohl das Projekt als auch die Aufgabe eingegeben sind, werden die **Projektbeschreibung** und die **Aufgabenbeschreibung** angezeigt.
-
-**Gast (NICHT Mitarbeiter)**: Fügen Sie Kunden oder Gäste hinzu.
-
-**Zusätzliche Informationen**: Geben Sie zusätzliche Informationen ein.
-
-**Zum Einreichen schieben**: Verwenden Sie diesen Schieberegler, um die Ausgabe zur Genehmigung einzureichen.
-
-**Diskussion**: Das Sprechblasensymbol in der oberen rechten Ecke zeigt alle Kommentare des Genehmigers an. Dies ist nur relevant, wenn die Ausgabe abgelehnt wurde.
+|Ausgabendetails ||
+|:-|:-| 
+|**Datum:**| Ändern Sie das Datum der Ausgabe. Wenn ein Foto angehängt ist, wird das Datum standardmäßig auf den Tag gesetzt, an dem das Foto aufgenommen wurde. Wenn Sie die App verwenden, um ein Foto zu machen, wird das heutige Datum angewendet.
+|**Währung:**| Wählen Sie die richtige Währung aus einer Liste aus. Die anfängliche Währung basiert auf dem GPS-Standort des Geräts.
+|**Betrag:**| Die Kamera interpretiert den Betrag vom Beleg oder geben Sie den Gesamtbetrag der Ausgabe manuell ein.
+|**Land:**| Wählen Sie das Land aus einer Liste aus. Das anfängliche Land basiert auf dem aktuellen GPS-Standort des Geräts.
+|**Beschreibung:**| Die Beschreibung wird der Titel für die Ausgabe sein.
+|**Zahlungsmethode:**| Wählen Sie zwischen **Mitarbeiter** oder **Firmenkarte**.
+|**Private Nutzung:**| Wenn die Firmenkarte privat genutzt wurde, markieren Sie die Transaktion als private Nutzung.
+|**Kategorie:**| Wählen Sie eine Kategorie aus den von Ihrem Unternehmen bereitgestellten aus.
+|**Mitarbeiter:**| Fügen Sie Mitarbeiter hinzu oder entfernen Sie sie. Ihr Name wird standardmäßig hinzugefügt.
+|**Projekt/Aufgabe:**| Suchen Sie zuerst nach dem Projekt und dann nach der Aufgabe. Sobald sowohl das Projekt als auch die Aufgabe eingegeben wurden, werden die **Projektbeschreibung** und die **Aufgabenbeschreibung** angezeigt.
+|**Gast (NICHT Mitarbeiter):**| Fügen Sie Kunden oder Gäste hinzu.
+|**Zusätzliche Informationen:**| Geben Sie zusätzliche Informationen ein.
+|**Zum Einreichen schieben:**| Verwenden Sie diesen Schieberegler, um die Ausgabe zur Genehmigung einzureichen.
+|**Diskussion:**| Das Sprechblasen-Symbol in der oberen rechten Ecke zeigt alle Kommentare an, die der Genehmiger gemacht hat. Dies ist nur relevant, wenn die Ausgabe abgelehnt wurde.
 <br/>
 
 ### Einreichen von Kreditkartentransaktionen
@@ -161,128 +150,124 @@ Kreditkartentransaktionen werden häufig für verschiedene Ausgaben verwendet, e
 
 #### Melden eines Ausgabenberichts bei Verwendung der Firmenkreditkarte
 
-Folgen Sie den Schritten in **"Ausgabe einreichen"**:
+Folgen Sie den Schritten in **"Einreichen einer Ausgabe:**
 
 Melden Sie Ihre Ausgaben, fügen Sie die Details von Ihrem Beleg hinzu und reichen Sie sie ein. Der Ausgabenbericht wartet dann im Dashboard, bis die Transaktionen in ExFlow Travel & Expense importiert werden.
 
-![Eine Nahaufnahme eines Bildschirms, automatisch generierte Beschreibung](../../images/tem-049.png)
+![A close-up of a screen Description automatically generated](../../images/tem-049.png)
 
-Wenn der Abgleich erfolgt ist, wird Ihr Ausgabenbericht zur Genehmigung an Ihren Manager gesendet.
+Wenn die Übereinstimmung erfolgt ist, wird Ihr Ausgabenbericht zur Genehmigung an Ihren Manager gesendet.
 
-#### Kein Abgleich zwischen Ausgabenbericht und Kreditkartentransaktion
+#### Keine Übereinstimmung zwischen Ausgabenbericht und Kreditkartentransaktion
 
 Wenn die Transaktion und der Ausgabenbericht nicht automatisch übereinstimmen, wird die Kreditkartentransaktion im Dashboard angezeigt.
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-050.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-050.png)
 
 Gehe zu: **Kreditkartentransaktion**
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-051.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-051.png)
 
 Oben in einer geöffneten Kreditkartentransaktion zeigt die Schaltfläche unten an, wie viele Ausgaben mit dieser Transaktion übereinstimmen. Ob diese Ausgaben als Übereinstimmungen betrachtet werden, hängt von ihrem Datum, ihrer Währung und ihrem Betrag ab.
 
-![Eine Nahaufnahme eines Papiers, automatisch generierte Beschreibung](../../images/tem-052.png)
+![A close-up of a paper Description automatically generated](../../images/tem-052.png)
 
-Die Farbe zeigt an, wie genau die Übereinstimmungen sind:
+Die Farbe zeigt an, wie genau die Übereinstimmungen sind: <br/>
 
--   Rot: Keine Übereinstimmung
+-   Rot: Keine Übereinstimmung<br/>
+-   Gelb: Teilweise Übereinstimmung<br/>
+-   Grün: Gute Übereinstimmung<br/>
 
--   Gelb: Teilweise Übereinstimmung
-
--   Grün: Gute Übereinstimmung
+<br/>
 
 Durch Tippen auf die Ausgabenschaltfläche kann der Benutzer die Transaktion mit einer Ausgabe zusammenführen, indem er die Schaltfläche mit dem Häkchen drückt. Auch hier zeigt die Farbe links von einer Ausgabe die Qualität der Übereinstimmung an.
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-053.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-053.png)
 
-Eine Warnung wird angezeigt, die den Benutzer darauf hinweist, dass dieser Vorgang die Ausgabe in die Kreditkartentransaktion kopiert und die Ausgabe gelöscht wird, und die Transaktion alle Informationen enthält.
+Eine Warnung wird angezeigt, die den Benutzer darauf hinweist, dass diese Operation die Ausgabe in die Kreditkartentransaktion kopiert und die Ausgabe gelöscht wird, und die Transaktion alle Informationen enthält.
 
 **Klicken Sie auf Weiter**
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-054.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-054.png)
 
 **Zum Einreichen schieben.**
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-055.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-055.png)
 
 Die Transaktion wird nun zur Genehmigung an den Manager gesendet.
 
 <br/>
 
-### Einreichen von Kilometerabrechnungen
+### Einreichen von Kilometergeld
 
-Das Einreichen von Kilometerabrechnungen ist Teil von ExFlow Travel and Expense und soll dem Benutzer, Ihnen, das Einreichen so einfach wie möglich machen. Der Benutzer hat die Möglichkeit, seine Kilometerabrechnungen mit nur wenigen Klicks zur Genehmigung einzureichen.
+Das Einreichen von Kilometergeld ist Teil von ExFlow Travel and Expense und soll dem Benutzer, dem Benutzer, das Einreichen so einfach wie möglich machen. Der Benutzer hat die Möglichkeit, sein Kilometergeld mit nur wenigen Klicks zur Genehmigung einzureichen.
 
 Gehe zu: **PLUS**
 
 Die Karte oben zeigt die aktuelle Position an. Ziehen und zoomen Sie auf der Karte. Sobald eine Route eingegeben ist, wechselt das Tippen auf das **Alternative Route**-Symbol zwischen den alternativen Routen.
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-057.png)
+![A screen shot of a phone Description automatically generated](../../images/tem-057.png)
 
-Nachfolgend sind die Felder aufgeführt, die für die Genehmigung der Kilometerabrechnung ausgefüllt werden müssen. Eine rote Linie zeigt an, dass ein Feld obligatorisch ist.
+Nachfolgend sind die Felder aufgeführt, die für die Einreichung des Kilometergeldes zur Genehmigung ausgefüllt werden müssen. Eine rote Linie zeigt an, dass ein Feld obligatorisch ist.
 
-**Datum**: Ändern Sie das Datum der Kilometerabrechnung. Wenn Sie die App verwenden, wird das heutige Datum angewendet.
+|Kilometergeld-Details||
+|:-|:-| 
+|**Datum:**| Ändern Sie das Datum des Kilometergeldes. Wenn Sie die App verwenden, wird das heutige Datum angewendet.
+|**Beschreibung:**| Geben Sie die Beschreibung der Reise ein.
+|**Von:**| Geben Sie die Adresse ein, an der die Reise begonnen hat.
+|**Nach:**| Geben Sie die Adresse ein, an der die Reise endete.
+|**Fahrzeug:**| Wählen Sie das verwendete Fahrzeug aus.
+|**Entfernung:**| Die Entfernung wird automatisch berechnet. Es ist möglich, die Entfernung in diesem Feld manuell zu ändern.
+|**Projekt/Aufgabe:**| Suchen Sie zuerst nach dem Projekt und dann nach der Aufgabe. Sobald sowohl das Projekt als auch die Aufgabe eingegeben wurden, werden die **Projektbeschreibung** und die **Aufgabenbeschreibung** angezeigt.
+|**Zusätzliche Informationen:**| Geben Sie zusätzliche Informationen ein.
 
-**Beschreibung:** Geben Sie die Beschreibung der Reise ein.
+**Zum Einreichen schieben:** Verwenden Sie diesen Schieberegler, um das Kilometergeld zur Genehmigung einzureichen. Der Benutzer wird aufgefordert anzugeben, ob es sich um eine Rückfahrt handelt. Die drei Optionen sind wie folgt:
 
-**Von**: Geben Sie die Adresse ein, von der die Reise gestartet ist.
+![A screenshot of a phone Description automatically generated](../../images/tem-058.png)
 
-**Nach**: Geben Sie die Adresse ein, an der die Reise endete.
-
-**Fahrzeug**: Wählen Sie das verwendete Fahrzeug aus.
-
-**Entfernung**: Die Entfernung wird automatisch berechnet. Es ist möglich, die Entfernung in diesem Feld manuell zu ändern.
-
-**Projekt/Aufgabe**: Suchen Sie zuerst nach dem Projekt und dann nach der Aufgabe. Sobald sowohl das Projekt als auch die Aufgabe eingegeben sind, werden die **Projektbeschreibung** und die **Aufgabenbeschreibung** angezeigt.
-
-**Zusätzliche Informationen**: Geben Sie zusätzliche Informationen ein.
-
-**Zum Senden schieben**: Verwenden Sie diesen Schieberegler, um die Ausgabe zur Genehmigung zu senden. Der Benutzer wird gefragt, ob es sich um eine Rückreise handelt. Hier sind die drei Optionen:
-
-**Weiter:** Wenn der Benutzer auf einer Reise mit weiteren Zwischenstopps ist, wählen Sie **Reise fortsetzen**.
-
-**Zurück zum Start:** Dies wird die Reise zurück zum Start bringen, sodass die Reise nicht zweimal registriert werden muss.
-
-**Nein:** Dies wird die Reise beenden.
-
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-058.png)
+|Optionen||
+|:-|:-| 
+|**Weiter:**| Wenn der Benutzer auf einer Reise mit weiteren Zwischenstopps ist, wählen Sie **Reise fortsetzen**.
+|**Zurück zum Start:**| Dies wird die Reise zurück zum Startpunkt führen, sodass die Reise nicht zweimal registriert werden muss.
+|**Nein:**| Dies wird die Reise beenden.
 
 <br/>
 
 ### Fahrzeuge
 
-Bevor der Benutzer Kilometerabrechnungen in ExFlow Travel & Expense einreichen kann, muss ein Fahrzeug hinzugefügt werden.
+Bevor der Benutzer Kilometergeld in ExFlow Travel & Expense einreichen kann, muss ein Fahrzeug hinzugefügt werden.
 
-Gehe zu: **Konto --> Fahrzeuge --> Hinzufügen**
+Gehe zu: **Konto  --> Fahrzeuge --> Hinzufügen**
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-059.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-059.png)
 
-![Eine Nahaufnahme eines schwarz-weißen Schildes, automatisch generierte Beschreibung](../../images/tem-060.png)
+![A close-up of a black and white sign Description automatically generated](../../images/tem-060.png)
 
-![Ein Screenshot eines Telefons, automatisch generierte Beschreibung](../../images/tem-061.png)
+![A screenshot of a phone Description automatically generated](../../images/tem-061.png)
 
-**Name:** Geben Sie einen Namen für das Fahrzeug ein, der es beschreibt, es ist gut, das Kennzeichen hinzuzufügen.
+|Fahrzeug||
+|:-|:-| 
+|**Name:**| Geben Sie einen Namen für das Fahrzeug ein, der es beschreibt, gut ist es, das Kennzeichen hinzuzufügen.
+|**Kilometergeld erstatten:**| Wenn Sie Ihr privates Fahrzeug verwenden, wählen Sie diese Option.
+|**Standardmäßig verwenden:**| Aktivieren Sie es, wenn es das bevorzugte Fahrzeug ist.
 
-**Kilometerabrechnung erstatten**: Wenn Sie Ihr privates Fahrzeug verwenden, wählen Sie diese Option.
+Klicken Sie auf **Speichern**
 
-**Standardmäßig verwenden:** Aktivieren Sie es, wenn es das bevorzugte Fahrzeug ist.
+### Einreichen mit einem Spesenbericht
 
-**Speichern**
+Spesenberichte ermöglichen es Ihnen, Ausgaben, Kilometer und Tagegelder zu organisieren, um eine Zusammenfassung der Ausgaben zu erhalten.
 
-### Einreichen mit einem Ausgabenbericht
+Gehe zu: **PLUS --> Spesenbericht**
 
-Ausgabenberichte ermöglichen es Ihnen, Ausgaben, Kilometerabrechnungen und Tagegelder zu organisieren, um eine Zusammenfassung der Ausgaben zu erhalten.
+![A screenshot of a login screen Description automatically generated](../../images/tem-105.png)
 
-Gehe zu: **PLUS --> Ausgabenbericht**
+|Spesenbericht||
+|:-|:-| 
+|**Beschreibung:**| Geben Sie eine Beschreibung für den Spesenbericht ein.
+|**Zusätzliche Informationen:**| Geben Sie zusätzliche Informationen ein.
+|**Projekt/Aufgabe:**| Der Spesenbericht kann einem bestimmten Projekt zugeordnet werden, dies fügt das Projekt und die Aufgabe zu allen Transaktionen hinzu, die dem Spesenbericht hinzugefügt werden.
 
-**Beschreibung:** Geben Sie eine Beschreibung für den Ausgabenbericht ein.
+Nach dem Erstellen eines Spesenberichts wird beim Einreichen einer Ausgabe, eines Kilometergeldes oder eines Tagegeldes ein neues Feld mit der Bezeichnung Spesenbericht angezeigt. Nachfolgend ein Beispiel von der Kilometerseite.
 
-**Zusätzliche Informationen**: Geben Sie zusätzliche Informationen ein.
+![A screenshot of a login screen Description automatically generated](../../images/tem-106.png)
 
-**Projekt/Aufgabe**: Der Ausgabenbericht kann einem bestimmten Projekt zugeordnet werden, dies wird das Projekt und die Aufgabe zu allen Transaktionen hinzufügen, die dem Ausgabenbericht hinzugefügt werden.
-
-![Ein Screenshot eines Anmeldebildschirms, automatisch generierte Beschreibung](../../images/tem-105.png)
-
-Nach dem Erstellen eines Ausgabenberichts wird beim Einreichen einer Ausgabe, Kilometerabrechnung oder eines Tagegeldes ein neues Feld mit der Bezeichnung Ausgabenbericht angezeigt. Nachfolgend ein Beispiel von der Kilometerabrechnungsseite.
-
-![Ein Screenshot eines Anmeldebildschirms, automatisch generierte Beschreibung](../../images/tem-106.png)

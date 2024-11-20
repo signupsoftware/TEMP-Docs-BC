@@ -416,6 +416,6 @@ Go to: **Change Per Diem Calculation rule**<br/>
 
 ![A black and white logo Description automatically generated](@site/static/img/media/tem-122.png) <br/>
 
-Rules for calculating per diems vary by country, and currently, we support three calculation rule sets: Swedish, Finnish, and a general “flat daily rate” rule. Depending on the selected rule, different settings will be available for configuration.
+Rules for calculating per diems vary by country, and currently, we support these calculation rule sets: Swedish, Finnish, Denmark, Germany and a general “flat daily rate” rule. Depending on the selected rule, different settings will be available for configuration.
 
 

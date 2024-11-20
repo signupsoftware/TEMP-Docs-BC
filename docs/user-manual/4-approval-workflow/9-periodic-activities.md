@@ -17,36 +17,26 @@ a new approver from setup. General setup is done from "ExFlow Setup"
 and/or per ExFlow User from "ExFlow Approval Group".
 
 The job can run when user click on "Verify Changes" in Approval Status,
-running the report manually or by setting up a Job Queue Entry in
-Business Central standard.
+running the report manually (Report ID 12013629) or by setting up a Job Queue Entry (CU 12057074) in Business Central standard.
+
 
 #### ExFlow Setup
 
-Go to: ***Setup \--\> ExFlow Setup \--\> Escalation tab***
-
-**Days before Escalation:** Calculated from when the user received the
-document for approval.
-
-("Status Change Date" on "Doc. Line Approvers" in "Approval Status).
-Server date sets "Status Change Date".
-
-**Senior Manager:** User that will receive all overdue invoices.
-
-The superior approver needs to have same or higher permission since
-permission is not inherit in ExFlow.
-
-**Base Calendar Code:** If no base calendar is added, Saturday and
-Sunday are not included.
-
-**Escalation Text:** Internal information that will be filled in on
-Comments.
-
-**Run when Verify Changes:** Run the escalation job when using Verify
-Changes in Approval Status.
-
-**System Approver:** Approving user.
+Go to: ***Setup --> ExFlow Setup --> Escalation***
 
 ![ExFlow Setup - Escalation](@site/static/img/media/exflow-setup-escalation-002.png)
+
+|Escalation||
+|:-|:-|	
+|**Days Before Escalation**| 	Calculated from when the user received the document for approval. <br/><br/> ("Status Change Date" on "Doc. Line Approvers" in "Approval Status.<br/> Server date sets "Status Change Date".) <br/><br/> Read more about this under section [***Escalation***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-groups#escalation)
+|**Senior Manager**| 	User that will receive all overdue invoices. The superior approver needs to have same or higher permission since permission is not inherit in ExFlow.
+|**Base Calendar Code**| 	Specifies the base calendar code that should be used for calculating workdays when escalating. If no base calendar is added, Saturday and Sunday are not included.
+|**Escalation Text**| 	Specifies the text that should be used for escalated approver lines. Internal information will be filled in on Comments.
+|**Run when Verify Changes**| 	Run the escalation job when using Verify Changes in Approval Status.
+|**System Approver**| 	Specifies the approver id for the system approver that is used when auto approving escalated invoices. If blank, then the current BC user is used
+|**Highlight Rejected And Overdue Documents**| 	Activate this setting to turn the text of rejected and/or overdue documents in Approval Status to red. Making them easier to spot.
+|**No. of Overdue Days Before Highlight**| 	Set a no. of days when the document should be presented with red text in Approval Status. The no. of days operates in relation with the due date of the document. "0" will highlight the document on the due date.
+
 
 #### ExFlow Approval Group
 
@@ -64,10 +54,9 @@ job will run when user clicks on Verify Changes in Approval Status.
 
 #### ExFlow Start Escalation Job
 
-Go to: ***Periodic Activities \--\> ExFlow Escalation Job***
+Go to: ***Periodic Activities --> ExFlow Escalation Job***
 
-Run ExFlow Escalation Job manually or setup job in "Job Queue Entries"
-in Business Central standard.
+Run ExFlow Escalation Job (Report ID 12013629) manually or setup job (CU 12057074) in "Job Queue Entries" in Business Central standard.
 
 ![Report - ExFlow Start Escalation Job](@site/static/img/media/image325.png)
 

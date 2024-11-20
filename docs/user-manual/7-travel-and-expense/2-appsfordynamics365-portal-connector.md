@@ -78,7 +78,7 @@ After confirming this information, click next and proceed to activate company.
 
 #### Activate company
 
-This step requires establishing a webservice connection. The information displayed will be used by default. While the webservice address cannot be altered, feel free to adjust the description as needed.
+This step requires establishing a web service connection. The information displayed will be used by default. While the web service address cannot be altered, feel free to adjust the description as needed.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/tem-008.png)
 

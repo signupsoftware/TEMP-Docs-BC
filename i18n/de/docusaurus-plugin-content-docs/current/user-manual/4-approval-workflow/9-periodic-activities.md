@@ -4,43 +4,39 @@ sidebar_position: 9
 hide_title: true
 custom_edit_url: null
 ---
-## Periodische Aktivitäten
+### Eskalationsauftrag
 
-### Eskalationsjob
+Gehe zu: ***Periodische Aktivitäten --> ExFlow-Eskalationsjob***
 
-Gehe zu: ***Periodische Aktivitäten \--\> ExFlow Eskalationsjob***
+Um den Eskalationsauftrag auszuführen, muss er aktiviert werden.
 
-Um den Eskalationsjob auszuführen, muss er aktiviert werden.
+Dieser Job genehmigt automatisch die überfälligen Dokumente des Benutzers und fügt
+Eine neue genehmigende Person aus dem Setup. Die allgemeine Einrichtung erfolgt über "ExFlow Setup"
+und/oder pro ExFlow-Benutzer aus der "ExFlow-Genehmigungsgruppe".
 
-Dieser Job wird automatisch die überfälligen Dokumente des Benutzers genehmigen und einen neuen Genehmiger aus der Einrichtung hinzufügen. Die allgemeine Einrichtung erfolgt über "ExFlow Setup" und/oder pro ExFlow-Benutzer über "ExFlow Approval Group".
+Der Job kann ausgeführt werden, wenn der Benutzer im Genehmigungsstatus auf "Änderungen überprüfen" klickt.
+Ausführen des Berichts manuell (Berichts-ID 12013629) oder durch Einrichten eines Projektwarteschlangeneintrags (CU 12057074) in Business Central Standard.
 
-Der Job kann ausgeführt werden, wenn der Benutzer auf "Änderungen überprüfen" im Genehmigungsstatus klickt, den Bericht manuell ausführt oder einen Job Queue Entry in Business Central Standard einrichtet.
+#### ExFlow-Einrichtung
 
-#### ExFlow Setup
+Gehen Sie zu: ***Setup --> ExFlow-Setup --> Eskalation***
 
-Gehe zu: ***Setup \--\> ExFlow Setup \--\> Eskalation Tab***
+! [ExFlow-Einrichtung - Eskalation](../../images/exflow-setup-escalation-002.png)
 
-**Tage vor Eskalation:** Berechnet ab dem Zeitpunkt, an dem der Benutzer das Dokument zur Genehmigung erhalten hat.
+|Eskalation||
+|:-|:-|	
+|**Tage vor der Eskalation**| 	Berechnet ab dem Zeitpunkt, an dem der Benutzer das Dokument zur Genehmigung erhalten hat. <br/><br/> ("Datum der Statusänderung" auf "Genehmiger der Belegposition" in "Genehmigungsstatus.<br/> Das Serverdatum setzt das "Statusänderungsdatum".) <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Eskalation***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-groups#escalation)
+|**Leitender Angestellter**| 	Benutzer, der alle überfälligen Rechnungen erhält. Der vorgesetzte Genehmiger muss über die gleiche oder eine höhere Berechtigung verfügen, da die Berechtigung in ExFlow nicht geerbt wird.
+|**Basis-Kalendercode**| 	Gibt den Basiskalendercode an, der für die Berechnung der Arbeitstage bei einer Eskalation verwendet werden soll. Wenn kein Basiskalender hinzugefügt wird, werden Samstag und Sonntag nicht berücksichtigt.
+|**Eskalationstext**| 	Gibt den Text an, der für eskalierte Genehmigerpositionen verwendet werden soll. Interne Informationen werden in den Kommentaren eingetragen.
+|**Ausführen, wenn Änderungen überprüft werden**| 	Führen Sie den Eskalationsauftrag aus, wenn Sie die Option "Änderungen am Genehmigungsstatus überprüfen" verwenden.
+|**System-Genehmiger**| 	Gibt die Genehmiger-ID für den Systemgenehmiger an, der bei der automatischen Genehmigung von eskalierten Rechnungen verwendet wird. Wenn leer, wird der aktuelle BC-Benutzer verwendet
+|**Abgelehnte und überfällige Dokumente hervorheben**| 	Aktivieren Sie diese Einstellung, um den Text von abgelehnten und/oder überfälligen Dokumenten im Genehmigungsstatus rot zu färben. Damit sind sie leichter zu erkennen.
+|**Nein. der überfälligen Tage vor dem Highlight**| 	Legen Sie eine Nr. Anzahl der Tage, an denen das Dokument mit rotem Text im Genehmigungsstatus angezeigt werden soll. Die Nr. von Tagen wirkt sich auf das Fälligkeitsdatum des Dokuments aus. Mit "0" wird das Dokument am Fälligkeitsdatum markiert.
 
-("Statusänderungsdatum" auf "Dok.-Zeilen-Genehmiger" im "Genehmigungsstatus"). Das Serverdatum setzt das "Statusänderungsdatum".
+#### ExFlow-Genehmigungsgruppe
 
-**Senior Manager:** Benutzer, der alle überfälligen Rechnungen erhält.
-
-Der übergeordnete Genehmiger muss die gleiche oder höhere Berechtigung haben, da Berechtigungen in ExFlow nicht vererbt werden.
-
-**Basis-Kalendercode:** Wenn kein Basis-Kalender hinzugefügt wird, sind Samstag und Sonntag nicht eingeschlossen.
-
-**Eskalationstext:** Interne Informationen, die in den Kommentaren ausgefüllt werden.
-
-**Ausführen bei Änderungen überprüfen:** Führen Sie den Eskalationsjob aus, wenn Sie Änderungen im Genehmigungsstatus überprüfen.
-
-**Systemgenehmiger:** Genehmigender Benutzer.
-
-![ExFlow Setup - Eskalation](../../images/exflow-setup-escalation-002.png)
-
-#### ExFlow Approval Group
-
-Gehe zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Approval Groups***
+Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Approval Groups***
 
 Verwenden Sie Eskalationseinstellungen in der ExFlow Approval Group, wenn eine separate Einrichtung erforderlich ist.
 
