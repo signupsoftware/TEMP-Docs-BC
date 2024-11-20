@@ -26,7 +26,6 @@ All other users that will utilize the CO₂ Insights Platform, can have the perm
 One of these permission sets must be given to users in order to access the CO₂ Insights Platform when the configuration is completed.<br/><br/>
 
 
-
 #### Onboard in ExFlow CO₂ Insights Setup
 Go to **ExFlow CO₂ Insights Setup** 
 
