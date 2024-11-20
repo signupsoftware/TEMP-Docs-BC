@@ -7,8 +7,6 @@ custom_edit_url: null
 
 ## ExFlow CO₂ Insights
 
-<br/>
-
 ### How to set up ExFlow CO₂ Insights 
 
 #### Enter the license key
