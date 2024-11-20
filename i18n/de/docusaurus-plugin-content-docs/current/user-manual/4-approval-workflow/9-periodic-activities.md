@@ -62,7 +62,7 @@ In diesem Beispiel ist CC (Cecilia Cederbaum) der aktuelle Genehmiger und es gib
 
 Der Eskalationsjob wird CC automatisch genehmigen und einen neuen Genehmiger, FM (Finance Manager), aus ExFlow Setup hinzufügen, da die Anzahl der Tage zwischen dem Dokumentdatum und heute mehr als 5 Tage beträgt.
 
-(Einrichtung, siehe Bild oben unter ExFlow Eskalationsjob \--\> ExFlow Setup).
+(Einrichtung, siehe Bild oben unter ExFlow Eskalationsjob --> ExFlow Setup).
 
 ![ExFlow Approval Status](../../images/image327.png)
 
@@ -82,7 +82,7 @@ Der Eskalationsjob genehmigt FF automatisch und fügt einen neuen Genehmiger, CF
 
 ### Batch-E-Mails senden
 
-Gehen Sie zu: ***Periodische Aktivitäten \--\> ExFlow Batch-E-Mails senden***
+Gehen Sie zu: ***Periodische Aktivitäten --> ExFlow Batch-E-Mails senden***
 
 Batch-E-Mails werden normalerweise automatisch über Job Queue Entries im Business Central Standard ausgeführt. Bei Bedarf kann der Job jedoch manuell ausgeführt werden.
 
