@@ -403,7 +403,7 @@ This function can be used without any setup on ExFlow Import Journal, simply cli
 
 ![ExFlow Setup - Background Processing - Automatically Create Documents](@site/static/img/media/background-processing-automatically-create-002.png)
 
-Read more about this under section [***Batch Import Documents from Interpretation. ***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
+Read more about this under section [***Batch Import Documents from Interpretation***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
 
 
 ### Invoice Rounding

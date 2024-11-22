@@ -390,7 +390,7 @@ Diese Funktion kann ohne Einrichtung im ExFlow Import Journal verwendet werden, 
 
 ![ExFlow Setup - Hintergrundverarbeitung - Dokumente automatisch erstellen](../../images/background-processing-automatically-create-002.png)
 
-Lesen Sie mehr darüber im Abschnitt [***Batch-Import von Dokumenten aus der Interpretation. ***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
+Lesen Sie mehr darüber im Abschnitt [***Batch-Import von Dokumenten aus der Interpretation***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
 
 
 ### Rechnungsrundung
