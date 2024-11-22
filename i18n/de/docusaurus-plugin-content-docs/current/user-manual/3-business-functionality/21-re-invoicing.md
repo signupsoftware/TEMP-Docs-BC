@@ -34,7 +34,7 @@ Beginnen Sie mit der Aktivierung von Re-Invoicing in ExFlow Re-Invoicing Setup u
 | **Aktiv:**				                                            | Gibt an, ob Re-Invoicing aktiviert oder deaktiviert ist. Beim Aktivieren oder Ändern der Einrichtung hilft der ExFlow-Assistent bei der erforderlichen Mindesteinrichtung.
 | **Vordefiniertes Verkaufs-G/L-Konto:**		                            | Vordefiniertes G/L-Konto, das auf Verkaufszeilen angewendet wird, wenn kein Re-Invoicing-Code verwendet wird.
 | **Betragsfelder verwenden:**			                                    | Fügen Sie Re-Invoicing Menge & Einheitspreis oder Re-Invoicing-Betrag zu ausgewählten Spalten auf ExFlow Web hinzu. <br/><br/> **Menge & Einheitspreis**<br/>Die gekaufte Menge wird als Re-Invoicing-Menge hinzugefügt und die Berechnung des Zuschlags % erfolgt dann auf den Re-Invoicing-Einheitspreis. <br/><br/> **Linienbetrag**<br/> Die gekaufte Menge wird als 1 hinzugefügt und die Berechnung des Zuschlags % erfolgt auf den Re-Invoicing-Betrag (gesamt).
-| **Artikel für Verkauf:**			                                        | Aktivieren, um Verkaufsrechnungen aus Einkaufsrechnungen mit derselben Artikelnummer zu erstellen. Die Artikelpostennummer aus der Einkaufsrechnung wird, wenn möglich, auf die Verkaufszeile angewendet. Lesen Sie mehr im Abschnitt [***Re-Invoicing für Artikel***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing-for-items).
+| **Artikel für Verkauf:**			                                        | Aktivieren, um Verkaufsrechnungen aus Einkaufsrechnungen mit derselben Artikelnummer zu erstellen. Die Artikelpostennummer aus der Einkaufsrechnung wird, wenn möglich, auf die Verkaufszeile angewendet. Lesen Sie mehr im Abschnitt [***Re-Invoicing für Artikel***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing-item-for-sale).
 | **Immer Verkaufsrechnung erstellen, wenn Artikelpostennummer fehlt:**  | Aktivieren, um immer Verkaufsrechnungen ohne Artikelpostennummer zu erstellen, falls diese fehlt. Kann nur verwendet werden, wenn Artikel für Verkauf aktiviert ist.
 | **Einkaufsrechnungs-PDF als Anhang:**	                            | Aktivieren, um das Einkaufsrechnungs-PDF als Anhang zu allen Verkaufsrechnungen hinzuzufügen.
 | **Angepasste Beschreibung aktivieren:**		                            | Angepasste Beschreibung aktivieren oder deaktivieren. Lesen Sie mehr im Abschnitt [***Angepasste Beschreibung aktivieren***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#enable-customized-description) unten.
@@ -243,7 +243,7 @@ Pflichtfelder, um Verkaufsdokumente erstellen zu können, sind Re-Invoicing Cust
 <br/>
 
 #### Stapelrechnungen erstellen
-Gehen Sie zu: *** Re-Invoicing Entries --> Actions --> Batch Create Invoices***<br/>
+Gehen Sie zu: ***Re-Invoicing Entries --> Actions --> Batch Create Invoices***<br/>
 Der einzige Unterschied zur Erstellung von Rechnungen besteht darin, dass der Stapel Verkaufsrechnungen für alle Einträge erstellt, wenn keine Zeile ausgewählt ist.
 <br/>
 
