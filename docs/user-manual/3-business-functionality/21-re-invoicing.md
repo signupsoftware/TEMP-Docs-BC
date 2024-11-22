@@ -34,7 +34,7 @@ Start by activating Re-Invoicing in ExFlow Re-Invoicing Setup and follow wizard 
 | **Active:**				                                            | Specifies if Re-Invoicing is enabled or disabled. When activating or changing setup, ExFlow Wizard will help assists with minimum of required setup
 | **Pre-defined Sales G/L Account:**		                            | Predefined G/L Account to apply to invoicing Sales Lines if Re-Invoicing Code is not used
 | **Use Amount Fields:**			                                    | Add Re-Invoicing Qty & Unit Price or Re-Invoicing Amount to select columns on ExFlow Web <br/><br/> **Qty & Unit Price**<br/>Purchased quantity will be added as Re-Invoiced quantity and Surcharge % calculation is then den on Re-Invoicing Unit Price <br/><br/> **Line Amount**<br/> Purchased quantity will be added as 1 and Surcharge % calculation is done on Re-Invoicing Amount (total)
-| **Item for Sale:**			                                        | Activate to create Sales Invoices from Purchase Invoices with same Item No. Item Ledger Entry No. from Purchase Invoice will be applied to sales line if possible. Read more under section [***Re-Invoicing for Items***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing-for-items)
+| **Item for Sale:**			                                        | Activate to create Sales Invoices from Purchase Invoices with same Item No. Item Ledger Entry No. from Purchase Invoice will be applied to sales line if possible. Read more under section [***Re-Invoicing for Items***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing-item-for-sale)
 | **Always Create Sales Invoice when Apply-to Item Entry is missing:**  | Activate to always create sales invoices without apply-to item entry, if missing. Can only be used if Item for Sales is activated.
 | **Purchase Invoice PDF as attachment:**	                            | Activate to add purchase invoice PDF as attachment to all Sales invoices
 | **Enable Customized Description:**		                            | Enable or disable customized description. Read more under section [***Enable Customized Description***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#enable-customized-description) below
@@ -193,7 +193,7 @@ Approval Status is now updated but the document needs to be Verified and Posted 
 
 
 ### ExFlow Re-Invoicing Entries
-Go to: *** Periodic Activities --> ExFlow Re-Invoicing Entries***<br/>
+Go to: ***Periodic Activities --> ExFlow Re-Invoicing Entries***<br/>
 Information regarding e-invoicing entries can be found in ExFlow Re-Invoicing Entries. These entries will be visible after a Purchase Invoice has been approved, verified, and posted.
 
 Changes in Re-Invoicing Entries or from sales invoices can be done before posting.
