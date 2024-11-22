@@ -50,7 +50,8 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
-    url: '/business-central/docs/user-manual/sales-order/technical-requirements-sales',
+    //url: '/business-central/docs/user-manual/sales-order/technical-requirements-sales',
+    url: '/business-central/docs/proxy/proxy-sales-order',
     tag: 'sales-order'
   },
   {
@@ -71,8 +72,9 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
-    url: '/business-central/docs/user-manual/travel-and-expense/travel-and-expense',
+    //url: '/business-central/docs/user-manual/travel-and-expense/travel-and-expense',
     //url: '/business-central/docs/proxy/proxy-travel-and-expense',
+    url: '/business-central/docs/proxy/proxy-travel-and-expense',
     tag: 'travel-and-expense'
   }
 ];
