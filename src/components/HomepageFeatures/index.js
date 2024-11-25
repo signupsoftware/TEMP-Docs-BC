@@ -45,21 +45,23 @@ const FeatureList = [
 const FeatureList = [
   {
     title: <Translate>EXFLOW AP</Translate>,
-    //url: '/business-central/docs/user-manual',
-    // EA 2024-10-25 The above ink stopped working for some reason. Changed:
-    //url: '/business-central/docs/user-manual/welcome-to-exflow/introduction',
-    // EA 2024-10-25b Restored with slug in .md pages
     url: '/business-central/docs/user-manual',
     tag: 'ap'
   },
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
-    url: '/business-central/docs/user-manual/sales-order/technical-requirements-sales',
+    //url: '/business-central/docs/user-manual/sales-order/technical-requirements-sales',
+    //url: '/business-central/docs/proxy/proxy-sales-order',
+    //url: 'https://docs.signupsoftware.com/so',    
+    url: '/business-central/docs/so',
     tag: 'sales-order'
   },
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
-    url: '/business-central/docs/user-manual/CO2-Insights/co2-insights', 
+    //url: '/business-central/docs/user-manual/CO2-Insights/co2-insights', 
+    //url: '/business-central/docs/proxy/proxy-co2-insights',
+    //url: 'https://docs.signupsoftware.com/co2',
+    url: '/business-central/docs/co2',
     tag: 'co2-insights'
   }, 
   {
@@ -74,65 +76,12 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
-    url: '/business-central/docs/user-manual/travel-and-expense/travel-and-expense',
+    //url: '/business-central/docs/user-manual/travel-and-expense/travel-and-expense',
+    //url: '/business-central/docs/proxy/proxy-travel-and-expense',
+    url: 'https://docs.signupsoftware.com/tem',
     tag: 'travel-and-expense'
   }
 ];
-
-
-
-
-/* BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP BACKUP */
-/* -- These are the links that should be used for the prod site, when the updated repo is finally deployed. */
-/*
-const FeatureList = [
-  {
-    title: <Translate>EXFLOW AP</Translate>,
-    url: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction',
-  },
-  {
-    title: <Translate>EXFLOW SALES ORDER</Translate>,
-    url: 'https://docs.exflow.cloud/docs/business-central/user-manual/sales-order/sales-order-setup',
-  },
-  {
-    title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
-    url: 'http://docs.exflow.cloud/docs/business-central/user-manual/CO2-Insights/co2-insights',
-  },
-  {
-    title: <Translate>EXFLOW WEB</Translate>,
-    url: 'https://docs.exflow.cloud/web',
-  },
-  {
-    title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-    url: 'https://docs.exflow.cloud/datacapture',
-  },
-];
-*/
-
-/* -- These are the links for the Preview site.
-const FeatureList = [
-  {
-    title: <Translate>EXFLOW AP</Translate>,
-    url: '/docs/user-manual/welcome-to-exflow/introduction',
-  },
-  {
-    title: <Translate>EXFLOW SALES ORDER</Translate>,
-    url: '/docs/user-manual/sales-order/sales-order-setup',
-  },
-  {
-    title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
-    url: '/docs/user-manual/CO2-Insights/co2-insights',
-  },
-  {
-    title: <Translate>EXFLOW WEB</Translate>,
-    url: 'https://docs.exflow.cloud/web',
-  },
-  {
-    title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-    url: 'https://docs.exflow.cloud/datacapture',
-  },
-];
-*/
 
 
 // Change this to get a new design of the menu items.
