@@ -51,16 +51,17 @@ const FeatureList = [
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
     //url: '/business-central/docs/user-manual/sales-order/technical-requirements-sales',
-    url: '/business-central/docs/proxy/proxy-sales-order',
+    //url: '/business-central/docs/proxy/proxy-sales-order',
     //url: 'https://docs.signupsoftware.com/so',    
+    url: '/business-central/docs/so',
     tag: 'sales-order'
   },
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
     //url: '/business-central/docs/user-manual/CO2-Insights/co2-insights', 
-    url: '/business-central/docs/proxy/proxy-co2-insights',
+    //url: '/business-central/docs/proxy/proxy-co2-insights',
     //url: 'https://docs.signupsoftware.com/co2',
-    //url: '/business-central/docs/co2',
+    url: '/business-central/docs/co2',
     tag: 'co2-insights'
   }, 
   {
