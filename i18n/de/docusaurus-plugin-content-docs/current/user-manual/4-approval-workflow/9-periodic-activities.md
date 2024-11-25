@@ -30,7 +30,7 @@ Gehen Sie zu: ***Setup --> ExFlow-Setup --> Eskalation***
 |**Basis-Kalendercode**| 	Gibt den Basiskalendercode an, der für die Berechnung der Arbeitstage bei einer Eskalation verwendet werden soll. Wenn kein Basiskalender hinzugefügt wird, werden Samstag und Sonntag nicht berücksichtigt.
 |**Eskalationstext**| 	Gibt den Text an, der für eskalierte Genehmigerpositionen verwendet werden soll. Interne Informationen werden in den Kommentaren eingetragen.
 |**Ausführen, wenn Änderungen überprüft werden**| 	Führen Sie den Eskalationsauftrag aus, wenn Sie die Option "Änderungen am Genehmigungsstatus überprüfen" verwenden.
-|**System-Genehmiger**| 	Gibt die Genehmiger-ID für den Systemgenehmiger an, der bei der automatischen Genehmigung von eskalierten Rechnungen verwendet wird. Wenn leer, wird der aktuelle BC-Benutzer verwendet
+|**System-Genehmiger**| 	Gibt die Genehmiger-ID für den Systemgenehmiger an, der bei der automatischen Genehmigung von eskalierten Rechnungen verwendet wird. 
 |**Abgelehnte und überfällige Dokumente hervorheben**| 	Aktivieren Sie diese Einstellung, um den Text von abgelehnten und/oder überfälligen Dokumenten im Genehmigungsstatus rot zu färben. Damit sind sie leichter zu erkennen.
 |**Nein. der überfälligen Tage vor dem Highlight**| 	Legen Sie eine Nr. Anzahl der Tage, an denen das Dokument mit rotem Text im Genehmigungsstatus angezeigt werden soll. Die Nr. von Tagen wirkt sich auf das Fälligkeitsdatum des Dokuments aus. Mit "0" wird das Dokument am Fälligkeitsdatum markiert.
 

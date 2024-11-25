@@ -33,7 +33,7 @@ Go to: ***Setup --> ExFlow Setup --> Escalation***
 |**Base Calendar Code**| 	Specifies the base calendar code that should be used for calculating workdays when escalating. If no base calendar is added, Saturday and Sunday are not included.
 |**Escalation Text**| 	Specifies the text that should be used for escalated approver lines. Internal information will be filled in on Comments.
 |**Run when Verify Changes**| 	Run the escalation job when using Verify Changes in Approval Status.
-|**System Approver**| 	Specifies the approver id for the system approver that is used when auto approving escalated invoices. If blank, then the current BC user is used
+|**System Approver**| 	Specifies the approver id for the system approver that is used when auto approving escalated invoices. 
 |**Highlight Rejected And Overdue Documents**| 	Activate this setting to turn the text of rejected and/or overdue documents in Approval Status to red. Making them easier to spot.
 |**No. of Overdue Days Before Highlight**| 	Set a no. of days when the document should be presented with red text in Approval Status. The no. of days operates in relation with the due date of the document. "0" will highlight the document on the due date.
 
