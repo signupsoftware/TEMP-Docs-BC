@@ -17,6 +17,8 @@ Major Release
 **Release Information:** <br/>
 Requires BC 23.0 or later <br/>
 
+Authentication Email and Contact Email can now be edited on the ExFlow users, this is for customers that are not using office - changed in 24.0.310.36 <br/>
+
 The admin search not being able to open documents in ExFlow web is resolved in 24.0.310.33 <br/>
 
 Issue related to Auto Acc groups for BC 25 is resolved in 24.0.310.31 <br/>

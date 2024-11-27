@@ -16,6 +16,8 @@ Hauptversion
 **Veröffentlichungsinformationen:** <br/>
 Erfordert BC 23.0 oder höher <br/>
 
+Authentifizierungs-E-Mail und Kontakt-E-Mail können jetzt für die ExFlow-Benutzer bearbeitet werden, dies ist für Kunden, die Office nicht verwenden - geändert in 24.0.310.36 <br/>
+
 Die Admin-Suche, die Dokumente in ExFlow Web nicht öffnen kann, wurde in 24.0.310.33 behoben<br/>
 
 Problem im Zusammenhang mit Auto-Acc-Gruppen für BC 25 wurde in Release 24.0.310.31 behoben<br/>
