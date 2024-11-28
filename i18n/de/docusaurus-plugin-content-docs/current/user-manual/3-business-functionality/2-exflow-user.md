@@ -58,8 +58,8 @@ Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Benutzer***
 |:-|:-|
 | **Benutzer-ID:**                      | Benutzer-ID ohne Domäne hinzufügen
 | **Benutzername:**                    | Vollständige Namen der Genehmiger hinzufügen
-| **E-Mail:**                        | Microsoft-Authentifizierungs-E-Mail-Adresse (AAD), die ExFlow für die Kommunikation mit Genehmigern verwendet, d. h. Anmeldung bei ExFlow Web, Erinnerungen, wenn der Genehmiger Dokumente zur Genehmigung hat, und ExFlow-Kommentare aus dem Diskussionspanel/Chat
-| **Kontakt-E-Mail:**                | E-Mail-Adresse des verbundenen Systembenutzers in Business Central. Wenn die M365-E-Mail von der Kontakt-E-Mail abweicht, wird die Erinnerungs-E-Mail an die Kontakt-E-Mail-Adresse gesendet. Die Anmeldung bei ExFlow Web erfolgt jedoch weiterhin über die M365/AAD-E-Mail
+| **Authentifizierungs-E-Mail** | Microsoft-Authentifizierungs-E-Mail-Adresse (AAD), die ExFlow für die Anmeldung bei ExFlow Web und für die Kommunikation mit Genehmigen verwendet, d. h. zum Senden von Erinnerungen, wenn der Genehmiger Dokumente zu genehmigen hat, sowie für ExFlow-Kommentare aus dem Diskussionsbereich/Chat. <br/><br/> Diese E-Mail wird während der Erstellung des ExFlow-Benutzers vom Business Central-Systembenutzer übernommen (die Kontakt-E-Mail wird ebenfalls mit derselben E-Mail-Adresse ausgefüllt). <br/><br/> Alle ExFlow-Benutzer müssen über eine Authentifizierungs-E-Mail verfügen.
+| **Kontakt-E-Mail:** | Fügen Sie eine Kontakt-E-Mail-Adresse hinzu, wenn ExFlow-Erinnerungen und -Benachrichtigungen an diese E-Mail anstelle der Authentifizierungs-E-Mail-Adresse gesendet werden sollen. <br/><br/> Kontakt-E-Mail ist ein optionales Feld. 
 | **Sprachcode:**                | In welcher Sprache E-Mails gesendet werden
 | **Bevorzugter Genehmigungsklient:**    | Gibt an, ob der Hyperlink in den E-Mails für Erinnerungen und Nachrichten den Benutzer zu Business Central oder ExFlow Web führt
 | **Vollständiger Dokumentenzugriff:**         | Gibt an, ob der Benutzer Zugriff auf ExFlow-Dokumente in allen Unternehmen haben soll
