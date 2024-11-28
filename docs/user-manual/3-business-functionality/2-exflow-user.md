@@ -61,8 +61,8 @@ Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
 |:-|:-|
 | **User ID:**                      | Add User ID without Domain
 | **User Name:**                    | Add Approvers' full names
-| **Email:**                        | Microsoft Authentication (AAD) email address that ExFlow will use for communication with approvers, i.e., log in to ExFlow Web, reminders if approver have documents to approve and ExFlow Comments from Discussion Panel/Chat
-| **Contact Email:**                | Email address from the connected system user in Business Central. If the M365 email is different to the contact email, then the inbox reminder will be sent to the contact email address instead. However, login to ExFlow Web will still be via M365/AAD email
+| **Authentication Email**          | Microsoft Authentication (AAD) email address that ExFlow will use for login to ExFlow Web and for communication with approvers, i.e., send reminders if approver have documents to approve and ExFlow Comments from Discussion Panel/Chat. <br/><br/> This email is picked up from Business Central system user during creation of ExFlow user (Contact Email will also be populated with same email address). <br/><br/> All ExFlow Users must have an Authentication Email.
+| **Contact Email:**                | Add a Contact Email if ExFlow reminders and notifications should be sent to this email instead of the Authentication Email address. <br/><br/> Contact Email is an optional field. 
 | **Language Code:**                | In which language emails will be sent
 | **Preferred Approval Client:**    | Specifies if the hyperlink in the emails for Reminders and Messages will take the user to Business Central or ExFlow Web
 | **Full Document Access:**         | Specifies if user should have access to ExFlow documents in all companies
