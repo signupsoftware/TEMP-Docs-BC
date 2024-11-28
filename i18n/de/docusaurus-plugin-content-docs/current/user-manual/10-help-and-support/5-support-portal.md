@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Support-Portal
 
-Wenn Unterstützung benötigt wird, wenden Sie sich bitte an unser großartiges Support-Team über das [Support-Portal](https://support.signupsoftware.com/).
+Um Unterstützung zu erhalten, wenden Sie sich bitte an Ihren ExFlow- oder Business Central-Partner. Wenn die SignUp-Software First-Line-Support bietet, wie im Abonnementvertrag festgelegt, bitten wir Sie, unser [Support-Portal](https://support.signupsoftware.com/) zu nutzen.
 
 Jeder Kunde hat standardmäßig zwei dedizierte Superuser, die auf das Support-Portal zugreifen können. Es ist jedoch möglich, bei Bedarf mehr als zwei Superuser hinzuzufügen. Bitte kontaktieren Sie SignUp Software, um eine Vertragsänderung vorzunehmen.
 

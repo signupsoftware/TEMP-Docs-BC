@@ -6,13 +6,9 @@ custom_edit_url: null
 ---
 ## Support Portal
 
-If assistance is needed, please reach out to our amazing support team
-through [Support Portal](https://support.signupsoftware.com/).
+To obtain support, please contact your ExFlow or Business Central partner. If the SignUp Software provides first-line support as stipulated in the Subscription Agreement, we kindly request that you utilize our [Support Portal](https://support.signupsoftware.com/) to submit support tickets.
 
-Every customer, as standard, have two dedicated super users that will
-access Support Portal. It is however possible to add more than two super
-users if needed. Please contact SignUp Software to proceed an agreement
-change.
+Every customer, as standard, have two dedicated super users that will access Support Portal. It is however possible to add more than two super users if needed. Please contact SignUp Software to proceed an agreement change.
 
 Click on *SIGN IN* and choose authentication method to enter.
 
