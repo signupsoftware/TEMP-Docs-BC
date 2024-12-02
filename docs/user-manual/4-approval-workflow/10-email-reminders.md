@@ -140,8 +140,8 @@ To send an email to the purchase order/quote creator when their order/quote is a
 |:-|:-|
 | Email Account                 | Add Email Account Setup in all companies
 | ExFlow Email Setup            | Email Type **Approved Order/Quote** in all companies <br/>Read more under section [***Email Setup --> Approved Order/Quote***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#approved-orderquote)
-| Approval Status               | Document need to have status approved
-| Job Queue Entry               | Code Unit 12057077 and Parameter String **APPROVED ORDER/QUOTE** <br/>In default company
+| Approval Status               | Reminder will be sent when document get status Approved
+| Job Queue Entry               | No job queue
 |ExFlow Setup| The setting ''Send Email For Approved Order/Quote'' must also be enabled in **ExFlow Setup --> Order and Quote Approval --> Send Email For Approved Order/Quote** 
 <br/><br/>
 

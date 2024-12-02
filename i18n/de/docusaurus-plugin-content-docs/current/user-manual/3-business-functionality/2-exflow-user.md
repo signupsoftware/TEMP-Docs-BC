@@ -35,7 +35,7 @@ Eine der Einstellungen ist „Standard-Benutzer-Codierungsregel-ID“. Es erleic
 |**Standard-Webdienst-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird
 |**Standard-Einkäufer-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird
 | **ExFlow-Referenz automatisch erstellen:**    | Wählen Sie diese Option, um ExFlow-Referenzen automatisch zu erstellen. <br/> Lesen Sie mehr im Abschnitt [***Referenzcodes***](reference-codes)
-|**Standard-Vertraulichkeits-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird <br/> <br/> Lesen Sie mehr über Berechtigungen im Abschnitt [***Berechtigungen für einen Business Central Benutzer***](exflow-menu) 
+|**Standard-Vertraulichkeits-Rollen-ID**| Gibt die Standard-Sicherheitsrolle an, die beim Erstellen neuer Genehmiger verwendet wird <br/> <br/> Lesen Sie mehr über Berechtigungen im Abschnitt  [***Permissions on a Business Central user***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#permissions-on-a-business-central-user) 
 
 <br/>
 
@@ -67,7 +67,7 @@ Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Benutzer***
 | **Systembenutzername:**             | Verbundener Systembenutzer.
 | **Vorheriger Systembenutzername:**    | Wenn der verbundene Systembenutzer geändert wird, zeigt dieses Feld den vorherigen Wert an
 | **Zeitzone:**    | Zeigt die Zeitzone des Benutzers an, um den Zeitstempel in der lokalen Zeit anzuzeigen
-| **Gesperrt:**                      | Dies zeigt an, ob der Genehmiger in allen Unternehmen gesperrt ist <br/>Lesen Sie mehr im Abschnitt [***Genehmiger verlässt das Unternehmen***.](exflow-user#genehmiger-verl%C3%A4sst-das-unternehmen)
+| **Gesperrt:**                      | Dies zeigt an, ob der Genehmiger in allen Unternehmen gesperrt ist <br/>Lesen Sie mehr im Abschnitt [***Approver Leaving the Company***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
 
 
 #### E-Mail-Erinnerungen

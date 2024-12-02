@@ -129,8 +129,8 @@ Um eine E-Mail an den Ersteller der Bestellung/des Angebots zu senden, wenn sein
 |:-|:-|
 | E-Mail-Konto                 | E-Mail-Konto-Einrichtung in allen Unternehmen hinzufügen
 | ExFlow-E-Mail-Einrichtung            | E-Mail-Typ **Genehmigte Bestellung/Angebot** in allen Unternehmen <br/>Lesen Sie mehr im Abschnitt [***E-Mail-Einrichtung --> Genehmigte Bestellung/Angebot***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#approved-orderquote)
-| Genehmigungsstatus               | Dokument muss den Status genehmigt haben
-| Jobwarteschlangeneintrag               | Codeunit 12057077 und Parameterzeichenfolge **APPROVED ORDER/QUOTE** <br/>Im Standardunternehmen
-| ExFlow-Einrichtung | Die Einstellung ''E-Mail für genehmigte Bestellung/Angebot senden'' muss ebenfalls in **ExFlow-Einrichtung --> Bestell- und Angebotsgenehmigung --> E-Mail für genehmigte Bestellung/Angebot senden** aktiviert sein 
+| Status der Genehmigung | Die Erinnerung wird gesendet, wenn das Dokument den Status Genehmigt erhält
+| Eintrag in der Job-Warteschlange | Keine Job-Warteschlange
+|ExFlow-Einrichtung| Die Einstellung ''E-Mail für genehmigte Bestellung/Angebot senden'' muss auch in **ExFlow Setup --> Auftrags- und Angebotsgenehmigung --> E-Mail für genehmigte Bestellung/Angebot senden** aktiviert sein. 
 <br/><br/>
 
