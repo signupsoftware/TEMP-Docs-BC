@@ -37,7 +37,7 @@ One of the settings is “Default User Coding Rule ID”. It makes the setup of 
 |**Default Web Service Role ID**| Specifies the default security role that is used when creating new approvers
 |**Default Purchaser Role ID**| Specifies the default security role that is used when creating new approvers
 | **Automatically Create ExFlow Reference:**    | Select to automatically create ExFlow References. <br/> Read more under section [***Reference Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
-|**Default Confidential Role ID**| Specifies the default security role that is used when creating new approvers <br/> <br/> Read more about permissions under section [***Permissions on a Business Central user***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/) 
+|**Default Confidential Role ID**| Specifies the default security role that is used when creating new approvers <br/> <br/> Read more about permissions under section [***Permissions on a Business Central user***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#permissions-on-a-business-central-user) 
 
 <br/>
 
