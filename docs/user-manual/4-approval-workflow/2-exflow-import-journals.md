@@ -37,8 +37,7 @@ From the ExFlow Import Journals list it is possible to search, create a new jour
 | **Only Purchase Order Matched Documents**         | Enable this checkbox for a specific journal to have a dedicated journal only for purchase order matched documents
 | **Verify documents at import**         | Choose if verification on the documents at import should be proceeded for all documents in the journal, or for the newly imported documents only. 
 | **No. of Documents**         | Specify the amount of documents in the journal
-| **ExFlow Data Capture batch download errors**         | Enable to set all ExFlow Data Capture batch download errors into same journal
-| **Create Lines with Automatic Suggestion**         | Enable this checkbox for a specific journal to have a dedicated journal for Auto Coding Suggestions
+| **Create Lines with Auto Coding Suggestion**         | Enable this checkbox for a specific journal to have a dedicated journal for Auto Coding Suggestions
 | **Ignore Payment Validation**         | Enable this checkbox for a specific journal where documents will skip the Payment Validation process
 | **Ignore Payment Suggestion** (hidden field)        | Enable this checkbox for a specific journal where documents will skip the Payment Suggestion process. This field can be added via page personalization
 | **Automatically Create Documents**  (hidden field)        | Enable this checkbox to get an dedicated journal that will automatically create documents. This field can be added via page personalization

@@ -108,7 +108,7 @@ Um diese Erinnerung zu senden, sind folgende Einstellungen erforderlich:
 | Genehmigungsstatus               | Rechnungen müssen den Status genehmigt haben und mit der Bestellung abgeglichen sein, ohne dass der Wareneingang gebucht wurde
 | Jobwarteschlangeneintrag               | Codeunit 12057077 und Parameterzeichenfolge **UNRECEIVEDORDERAPPROVED** <br/>Im Standardunternehmen
 | Manuell aus Genehmigungsstatus | Rechnungen auswählen und ***Verwandt --> Genehmigungsstatus --> Nicht erhaltene Bestellbenachrichtigung senden***
-| ExFlow-Einrichtung | Die Einstellung ''Nicht erhaltene Bestellerinnerung bei Genehmigung senden'' muss ebenfalls in **ExFlow-Einrichtung --> PO-Abgleich --> Nicht erhaltene Bestellerinnerung bei Genehmigung senden** aktiviert sein 
+|ExFlow-Einrichtung| Die Einstellung ''Erinnerung an nicht erhaltene Bestellung für genehmigte Bestellung senden'' muss auch in **ExFlow Setup --> PO Matching --> Send Unreceived Order Reminder For Approved Order Send Not Received Order Ordered aktiviert sein** 
 <br/><br/>
 
 ### Auf Halten-Erinnerung

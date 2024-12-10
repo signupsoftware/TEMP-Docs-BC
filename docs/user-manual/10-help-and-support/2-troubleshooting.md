@@ -72,7 +72,7 @@ Learn more about the order process under section [***Purchase Order Matching Pro
 
 ### Vendor Related Messages
 
-#### **Action Message:** Vendor cannot be identified for Vendor ID 1234567890.
+#### **Action Message:** Vendor cannot be identified for Vendor ID XXX.
 **Solution:** Check the scanned document. Is the Vendor ID correct interpreted? Check Name, IBAN and Bank accounts. If not, modify the Vendor ID number.
 
 Does the Vendor exist in Business Central? If not, create the Vendor in Business Central.

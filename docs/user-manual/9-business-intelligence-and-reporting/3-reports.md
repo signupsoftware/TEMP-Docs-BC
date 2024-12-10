@@ -11,7 +11,7 @@ Go to ExFlow Reports to generate reports. Reports are divided into sections acco
 ![Report - ExFlow Approval Status](@site/static/img/media/reports-homepage-001.png)
 
 
-### Reports --> Documents
+## Reports --> Documents
 
 | Reports --> Documents |  | 
 |:-|:-|
@@ -248,7 +248,7 @@ In below example, reports is generated with filter: ''Aging by: Due Date'' and '
 
 <br/><br/>
 
-### Reports --> ExFlow User
+## Reports --> ExFlow User
 
 | Reports --> User |  | 
 |:-|:-|
@@ -322,7 +322,7 @@ This report shows all the GDPR related data for a specific User.
 ![Report - ExFlow GDPR User Related Data](@site/static/img/media/image399.png)
 <br/><br/>
 
-### Reports --> Approval Rules
+## Reports --> Approval Rules
 
 | Reports --> Approval Rules |  | 
 |:-|:-|

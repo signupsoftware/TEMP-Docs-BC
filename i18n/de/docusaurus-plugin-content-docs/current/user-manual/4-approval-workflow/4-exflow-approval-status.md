@@ -8,152 +8,178 @@ custom_edit_url: null
 
 Gehe zu: ***ExFlow Genehmigungsstatus***
 
-Wie erwähnt, wenn ein Dokument aus dem ExFlow Import Journal erstellt wird, kann das Dokument im Genehmigungsstatus gefunden werden.
+Wenn ein Dokument aus dem ExFlow Import Journal erstellt und zur Genehmigung gesendet wird, kann das Dokument im Genehmigungsstatus gefunden werden.
 
 ![ExFlow Genehmigungsstatus](../../images/menu-001.png)
 
-Der Genehmigungsstatus zeigt alle Rechnungen, die zur Genehmigung ausstehen und/oder genehmigt und bereit zur Buchung sind. Ein Administrator kann Informationen zum Status einsehen. Sowohl für die Rechnung als auch für den nächsten Genehmiger dieser spezifischen Rechnung.
+| ExFlow Genehmigungsstatus||
+|:-|:-| 
+|**Änderungen überprüfen**|    [***Änderungen überprüfen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
+|**Stapel buchen**|    [***Stapel buchen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#post-batch)
+|**Karte**|    Öffnet die Standard-Einkaufsdokumentkarte
+|**Erinnerung senden**|     [***Erinnerung senden***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#send-reminder)
+|**PDF-Viewer in neuem Tab öffnen**|   [***PDF-Viewer in neuem Tab öffnen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
+|**Erzwungene Aktualisierung des Einkaufsdokuments**|  [***Erzwungene Aktualisierung des Einkaufsdokuments***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#force-update-on-purchase-document)
+|**Filter auf Genehmiger setzen**|   [***Filter auf Genehmiger setzen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
+|*Aktionen--> Funktionen*|    
+|**Buchungsdatum stapelweise aktualisieren**|    Buchungsdatum stapelweise aktualisieren
+|**Budgetinformationen auf Dokumenten aktualisieren**| Aktualisiert Budgetinformationen auf Dokumenten. Lesen Sie mehr im Abschnitt [***G/L Budgetkontrolle***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/gl-budget-control#gl-budget-control)
+|**Über ExFlow**|   [***Über ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/help-and-support/about-exflow#about-exflow)
+|**Andere --> Erzwungene Aktualisierung des Einkaufsdokuments**|  [***Erzwungene Aktualisierung des Einkaufsdokuments***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#force-update-on-purchase-document)
+|*Aktionen--> Buchung*|    
+|**Buchen**|    Dokument buchen
+|**Buchungsvorschau**|    Buchungsvorschau 
+|**Vorläufige Buchung**|  [***Vorläufige Buchung***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#preliminary-posting)
+|**Vorläufige Buchung-->Buchen**|    Vorläufige Dokumente buchen 
+|**Vorläufige Buchung-->Buchungsvorschau**|    Buchungsvorschau der vorläufigen Dokumente
+|**Vorläufige Buchung-->Stornieren**|    Vorläufige Buchung stornieren
+|**Vorläufige Buchung-->Einträge finden**|    Einträge der vorläufigen Dokumente finden
+|*Aktionen--> Buchung--> Andere*|   
+|**Änderungen überprüfen**|    [***Änderungen überprüfen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
+|**Stapel buchen**|    [***Stapel buchen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#post-batch)
+|*Verwandt--> Genehmigungsstatus*|    
+|**Vertrag anzeigen**|    Vertrag anzeigen, falls einer mit dem Dokument verbunden ist. Lesen Sie mehr im Abschnitt [***Vertrag***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#contract)
+|**Dokumentänderungen rückgängig machen**|     [***Dokumentänderungen rückgängig machen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#revert-document-changes)
+|**Benachrichtigung über nicht erhaltene Bestellung senden**|  [***Benachrichtigung über nicht erhaltene Bestellung senden***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
+|**Verwandt--> Genehmigungsstatus-->Karte**|    Öffnet die Standard-Einkaufsdokumentkarte
+|**Verwandt--> Genehmigungsstatus-->Erinnerung senden**|  [***Erinnerung senden***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#send-reminder)
+|*Verwandt--> Dateien*|    
+|**Dokumentbild anzeigen**|   [***PDF herunterladen oder öffnen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-document-image)
+|**Importdetails anzeigen (OCR)**|    [***Importdetails anzeigen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-import-details)
+|**Bild importieren oder ersetzen**|  [***Bild importieren oder ersetzen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#import-or-replace-image)  
+|**Verwandt--> Dateien-->Andere--> PDF-Viewer in neuem Tab öffnen**|    [***PDF-Viewer in neuem Tab öffnen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
+|*Verwandt--> Genehmiger*|    
+|**Genehmigungsnachverfolgung**|    Bericht ausführen [***ExFlow Genehmigungsnachverfolgung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-intelligence-and-reporting/reports#exflow-approval-follow-up)
+|**Pro Genehmiger**|    Bericht ausführen: ExFlow Genehmigungsstatus pro Genehmiger
+|**Nächster Genehmiger**|    Bericht ausführen: ExFlow Genehmigungsstatus pro Genehmiger
+|**Genehmigerfilter zurücksetzen**|    Den Filter zurücksetzen, der in [***Filter auf Genehmiger setzen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver) gesetzt wurde
+
+### Aktueller Genehmiger
+
+Der Genehmigungsstatus zeigt alle Rechnungen, die zur Genehmigung ausstehen und/oder genehmigt und bereit zur Buchung sind. Ein Administrator kann Informationen zum Status sowohl der Rechnung als auch des nächsten Genehmigers für diese spezifische Rechnung einsehen.
 
 In diesem Beispiel hat Anders Andersson alle seine Zeilen genehmigt und Bertil Boo ist der aktuelle Genehmiger.
 
+Die Standard-Einkaufsdokumentkarte kann aus dem Genehmigungsstatus-Menü geöffnet werden.
+
 ![ExFlow Genehmigungsstatus](../../images/approval-status-003.png)
 
-### Abgelehnte und überfällige Dokumente hervorheben
-
-Um es einfacher zu machen, abgelehnte oder nahe am Fälligkeitsdatum befindliche Dokumente zu sehen, gibt es die Möglichkeit, eine Einstellung in ExFlow Setup zu aktivieren, um diese Dokumente im Genehmigungsstatus mit roter Schrift hervorzuheben.
-
-![ExFlow Genehmigungsstatus](../../images/approval-status-004.png)
-
-### Abgelehnte und überfällige Dokumente hervorheben einrichten
-Gehe zu: ***ExFlow Setup - Eskalation***
-
-Aktivieren Sie *"Abgelehnte und überfällige Dokumente hervorheben"*, um die Einstellung zu aktivieren.
-
-Geben Sie eine Zahl in *"Anzahl der überfälligen Tage vor Hervorhebung"* ein, um anzugeben, wie viele Tage vor dem Fälligkeitsdatum die Dokumente hervorgehoben werden sollen.
-
-Diese Einstellung funktioniert in Bezug auf das Fälligkeitsdatum des Dokuments und das Arbeitsdatum des Benutzers "0" wird das Dokument am Fälligkeitsdatum hervorheben.
-
-![ExFlow Setup - Eskalation](../../images/exflow-setup-escalation-001.png)
-
-### E-Mail-Erinnerungen für abgelehnte Dokumente senden
-Gehe zu: ***ExFlow E-Mail Setup***
-
-Es ist möglich, E-Mail-Erinnerungen für abgelehnte ExFlow-Genehmigungsdokumente zu senden, wenn ein Angebot, eine Bestellung, eine Rechnung und/oder eine Gutschrift abgelehnt wird. Um Erinnerungen für abgelehnte Genehmigungsdokumente senden zu können, muss der Dokumentstatus im Genehmigungsstatus "Abgelehnt" sein.
-
-Lesen Sie mehr im Abschnitt [***ExFlow E-Mail Setup --> Abgelehnter Auftrag, Abgelehntes Angebot und Abgelehnte Rechnung/Gutschrift***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#rejected-order,-rejected-quote,-and-rejected-invoice/credit)
-
-
 ### Änderungen überprüfen
-Wenn das Dokument genehmigt ist, wird der Status auf "Genehmigt" aktualisiert. Das Dokument muss jedoch noch überprüft werden. Klicken Sie auf "Änderungen überprüfen", um zu sehen, ob ein Genehmiger auf ExFlow Web Änderungen vorgenommen hat.
+Wenn ein Dokument genehmigt wird, wird der Status auf "Genehmigt" aktualisiert. Das Dokument muss jedoch noch überprüft werden. Klicken Sie auf "Änderungen überprüfen", um zu sehen, ob ein Genehmiger auf ExFlow Web Änderungen vorgenommen hat.
 
-Wenn kein Filter in der Ansicht Genehmigungsstatus gesetzt ist, wirkt die Funktion "Änderungen überprüfen" auf alle Dokumente mit dem Status "Genehmigt". Wenn ein aktiver Filter vorhanden ist (z. B. werden nur Dokumente für einen bestimmten Lieferanten angezeigt), wird "Änderungen überprüfen" nur auf die Dokumente in der gefilterten Ansicht angewendet. Alle genehmigten Dokumente außerhalb des Filters behalten den Status Genehmigt.
+Wenn im Genehmigungsstatus keine Filter gesetzt sind, wirkt die Funktion "Änderungen überprüfen" auf alle Dokumente mit dem Status "Genehmigt". Wenn ein aktiver Filter vorhanden ist (z. B. nur Dokumente für einen bestimmten Lieferanten werden angezeigt), wird "Änderungen überprüfen" nur auf die Dokumente in der gefilterten Ansicht angewendet. Alle genehmigten Dokumente außerhalb des Filters behalten den Status "Genehmigt".
 
-Die Verwendung eines Filters für den Dokumenttyp im Genehmigungsstatus, der das Ausschließen von Bestellungen und Angeboten von der Überprüfung ermöglicht, kann von Vorteil sein, wenn ein Systembenutzer nur andere Dokumenttypen wie Rechnungen oder Gutschriften überprüfen möchte.
+Die Verwendung eines Filters für den Dokumenttyp im Genehmigungsstatus, der Bestellung und Angebot von der Überprüfung ausschließt, kann vorteilhaft sein, wenn ein Systembenutzer nur andere Dokumenttypen wie Rechnung oder Gutschrift überprüfen möchte.
 
 ![Genehmigungsstatus - Änderungen überprüfen](../../images/image244.png)
 
-ExFlow Änderungen überprüfen zeigt alle Zeilen, die auf ExFlow Web geändert wurden. Sowohl registrierter Wert in Rot als auch aktualisierter Wert in Schwarz auf den Dokumentzeilen.
+ExFlow Änderungen überprüfen zeigt alle Zeilen, die auf ExFlow Web geändert wurden. Sowohl registrierte Werte in Rot als auch aktualisierte Werte in Schwarz auf den Dokumentzeilen.
 
 Zeilen ohne Änderungen erhalten den Änderungsstatus "Keine Änderung".
 
-Verwenden Sie Dokument aktualisieren, um die Dokumentkarte für ein bestimmtes Dokument zu aktualisieren, oder Alle aktualisieren. Wenn alle Dokumente aktualisiert sind, wird die Seite automatisch geschlossen.
+Verwenden Sie "Dokument aktualisieren", um die Dokumentkarte für ein bestimmtes Dokument zu aktualisieren, oder "Alle aktualisieren". Wenn alle Dokumente aktualisiert sind, wird die Seite automatisch geschlossen.
 
 "Dokumentgenehmigungskarte" öffnet die endgültige genehmigte ExFlow-Karte.
 
-Öffnen Sie die "Karte", um in die ursprüngliche Business Central Standard-Einkaufsdokumentkarte zu gelangen.
+Öffnen Sie die "Karte", um zur ursprünglichen Business Central Standard-Einkaufsdokumentkarte zu gelangen.
 
-Der PDF-Viewer (FactBox) zeigt das Dokumentbild. Es besteht auch die Möglichkeit, Strg+I zu verwenden, um das Dokumentbild herunterzuladen oder über Zugehörige --> Dokumentbild anzeigen zu gehen.
+Der PDF-Viewer (FactBox) zeigt das Dokumentbild. Es besteht auch die Möglichkeit, mit Strg+I das Dokumentbild herunterzuladen oder über Verwandt --> Dokumentbild anzeigen zu gehen.
 
 ![Genehmigungsstatus - Änderungen überprüfen](../../images/image245.png)
 
-Wenn keine Änderungen auf ExFlow Web vorgenommen wurden, wird der Status im Genehmigungsstatus automatisch auf "Bereit zur Buchung" aktualisiert.
+Wenn auf ExFlow Web keine Änderungen vorgenommen wurden, wird der Status im Genehmigungsstatus automatisch auf "Bereit zur Buchung" aktualisiert.
 
-Es besteht die Möglichkeit, den Schritt "Änderungen überprüfen" auf der Genehmigungsstatusseite zu überspringen, wenn keine Änderungen am genehmigten Dokument vorgenommen wurden. In diesem Fall wird die Aktion "Änderungen überprüfen" automatisch ausgeführt und der Dokumentstatus wird in "Bereit zur Buchung" geändert.
+Es besteht die Möglichkeit, den Schritt "Änderungen überprüfen" auf der Genehmigungsstatusseite zu überspringen, wenn keine Änderungen an dem genehmigten Dokument vorgenommen wurden. In diesem Fall wird die Aktion "Änderungen überprüfen" automatisch ausgeführt und der Dokumentstatus auf "Bereit zur Buchung" geändert.
 
-Diese Funktion kann in ExFlow Setup unter **Hintergrundverarbeitung** aktiviert werden, indem **Änderungen automatisch überprüfen** aktiviert wird.
+Diese Funktion kann in den ExFlow-Einstellungen unter **Hintergrundverarbeitung** durch Aktivieren von **Änderungen automatisch überprüfen** aktiviert werden.
 
-![ExFlow Setup - Änderungen automatisch überprüfen](../../images/exflow-setup-background-processing-001.png)
+![ExFlow-Einstellungen - Änderungen automatisch überprüfen](../../images/exflow-setup-background-processing-001.png)
 
-Diese Funktion kann auch (und pro Lieferant eingerichtet) im **ExFlow Lieferanteneinrichtung** gefunden werden.
+Diese Funktion kann auch (und pro Lieferant eingerichtet) in [***ExFlow Lieferanteneinstellungen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup) gefunden werden.
 
-Darüber hinaus kann eine weitere Funktion namens Änderungen überprüfen umgehen vom AP-Personal genutzt werden. Lesen Sie mehr darüber im Abschnitt [***Änderungen überprüfen umgehen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/bypass-verify-changes)
+Darüber hinaus kann eine weitere Funktion namens Änderungen überprüfen umgehen vom AP-Personal genutzt werden. Lesen Sie mehr darüber im Abschnitt [***Änderungen überprüfen umgehen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/bypass-verify-changes).
 
-### Änderungen in Änderungen überprüfen ablehnen
+#### Änderungen ablehnen in Änderungen überprüfen
 Der Genehmigungsprozess kann von einem ausgewählten Genehmiger auf der Seite "ExFlow Änderungen überprüfen" neu gestartet werden. Diese Funktion befindet sich im Genehmiger-FactBox.
 
 ![ExFlow Änderungen überprüfen](../../images/verify-changes-001.png)
 
 Die Funktion Genehmigungsprozess neu starten hat zwei Optionen.
 
-* **Von markiertem Genehmiger neu starten** - startet die markierten “Dokumentzeilen” vom markierten Genehmiger neu.<br/>
-* **Von markiertem Genehmiger für alle Zeilen neu starten** - startet alle “Dokumentzeilen”, die mit dem markierten Genehmiger verbunden sind, neu.
+* **Von markiertem Genehmiger neu starten** - die markierten "Dokumentzeilen" vom markierten Genehmiger neu starten.<br/>
+* **Von markiertem Genehmiger für alle Zeilen neu starten** - alle "Dokumentzeilen", die mit dem markierten Genehmiger verbunden sind, neu starten.
 
 ![Genehmigungsprozess neu starten](../../images/restat-from-marked-approver-001.png)
 
 Nach Auswahl einer der möglichen Optionen wird das Diskussionsfeld-Dialogfeld geöffnet, in dem ein Kommentar für den Genehmiger hinterlassen werden kann.
 
-![Diskussionsfeld-Dialogfeld](../../images/discussion-panel-dialog-001.png)
+![Diskussionsfeld-Dialog](../../images/discussion-panel-dialog-001.png)
 
-Der Kommentar wird im Diskussionsfeld im Genehmigungsstatus gespeichert und der Genehmiger kann den Kommentar im Chat auf ExFlow Web sehen. Außerdem kann der Genehmiger, wenn die Einrichtung erfolgt ist, eine E-Mail erhalten.
+Der Kommentar wird im Diskussionsfeld im Genehmigungsstatus gespeichert und der Genehmiger kann den Kommentar im Chat auf ExFlow Web sehen. Außerdem kann der Genehmiger, falls eingerichtet, eine E-Mail erhalten.
 
 ![Genehmigungsstatus](../../images/approval-status-002.png)
 
-
-
-### Stapelbuchung
-
-Gehe zu: ***Stapelbuchung***
+### Stapel buchen
+Gehe zu: ***Stapel buchen***
 
 Nach Änderungen überprüfen ist das Dokument nun bereit zur Buchung.
 
-Um alle Dokumente, die zur Buchung bereit sind, stapelweise zu buchen, verwenden Sie Stapelbuchung.
+Um alle Dokumente, die bereit zur Buchung sind, stapelweise zu buchen, verwenden Sie Stapel buchen.
 
-![Stapelbuchung von Einkaufsdokumenten](../../images/image247.png)
+![Einkaufsdokumente stapelweise buchen](../../images/image247.png)
 
 Um das Buchungsdatum für alle Dokumente zu aktualisieren, geben Sie ein neues Datum im Feld Buchungsdatum ein und aktivieren Sie Buchungsdatum ersetzen.
 
-![Stapelbuchung von Einkaufsdokumenten](../../images/image248.png)
+![Einkaufsdokumente stapelweise buchen](../../images/image248.png)
 
-Wenn ein oder mehrere Dokumente einen Abgrenzungscode haben, wenn Buchungsdatum ersetzen verwendet wird, erscheint folgende Frage:
+Wenn ein oder mehrere Dokumente einen Abgrenzungscode haben, erscheint beim Ersetzen des Buchungsdatums folgende Frage:
 
-![Meldung bei Stapelbuchung von Einkaufsdokumenten](../../images/batch-create-post-message-001.png)
+![Nachricht beim Stapelbuchen von Einkaufsdokumenten](../../images/batch-create-post-message-001.png)
 
-**Ja:** Um das Abgrenzungsstartdatum gemäß den Einstellungen auf dem Abgrenzungscode für alle Dokumentzeilen zu aktualisieren.
+**Ja:** Um das Abgrenzungsstartdatum gemäß den Einstellungen im Abgrenzungscode für alle Dokumentzeilen zu aktualisieren.
 **Nein:** Um das Abgrenzungsstartdatum wie erstellt auf allen Dokumentzeilen beizubehalten.
 
-### Dokument Posten
 
-Gehe zu: ***Aktion \--\> Posten \--\> Posten (F9)***
+### Dokument buchen
 
-Um ein Dokument nach dem anderen zu posten, verwenden Sie Posten (F9).
+Gehe zu: ***Aktion --> Buchung --> Buchen (F9)***
 
-Es gibt auch eine Option, mehrere Dokumente manuell auszuwählen und Post Batch zu verwenden, um alle markierten Dokumente zu posten. Verwenden Sie "Mehr auswählen", um die zu postenden Dokumente manuell auszuwählen.
+Um ein Dokument nach dem anderen zu buchen, verwenden Sie Buchen (F9).
+
+Es gibt auch die Möglichkeit, mehrere Dokumente manuell auszuwählen und Stapel buchen zu verwenden, um alle markierten Dokumente zu buchen. Verwenden Sie "Mehr auswählen", um die zu buchenden Dokumente manuell auszuwählen.
 
 ![Mehr auswählen](../../images/image249.png)
 
-Klicken Sie dann auf Post Batch, um mit dem Posten fortzufahren.
+Klicken Sie dann auf Stapel buchen, um mit der Buchung fortzufahren.
 
-![Mehrere Dokumente auswählen und posten](../../images/image250.png)
+![Mehrere Dokumente auswählen und buchen](../../images/image250.png)
 
-### Vorschau Posten
+### Buchungsvorschau
 
-Gehe zu: ***Genehmigungsstatus \--\>*** ***Aktionen \--\> Posten \--\> Vorschau Posten***
+Gehe zu: ***Genehmigungsstatus --> Aktionen --> Buchung --> Buchungsvorschau (Strg+Alt+F9)***
 
-Verwenden Sie "Vorschau Posten", um die Einträge zu überprüfen, die aus den aktuellen Daten auf der Karte erstellt werden, bevor das eigentliche Posten erfolgt. Vorschau Posten kann für alle Dokumentstatus verwendet werden, nicht nur für Dokumente mit dem Status "Bereit zum Posten". Um Vorschau Posten während des Genehmigungsflusses zu verwenden, verwenden Sie "Erzwinge Aktualisierung auf Einkaufsdokument", um die Karte zu aktualisieren.
+Verwenden Sie "Buchungsvorschau" (Strg+Alt+F9), um die Einträge zu überprüfen, die aus den aktuellen Daten auf der Karte vor der eigentlichen Buchung erstellt werden.
 
-### Vorläufiges Posten
-Wenn Vorläufiges Posten aktiviert ist, können Posten, Vorschau Posten, Rückgängig machen und Einträge finden vom Genehmigungsstatus aus durchgeführt werden.
-Gehe zu: ***Genehmigungsstatus --> Aktionen --> Posten --> Vorläufiges Posten***
-Lesen Sie mehr im Abschnitt [***Vorläufiges Posten***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting) 
+Die Buchungsvorschau kann für alle Dokumentstatus verwendet werden, nicht nur für Dokumente mit dem Status "Bereit zur Buchung".
+
+Um die Buchungsvorschau während des Genehmigungsprozesses zu verwenden, verwenden Sie "Erzwungene Aktualisierung des Einkaufsdokuments", um die Karte zu aktualisieren.
+
+### Vorläufige Buchung
+
+Wenn die vorläufige Buchung aktiviert ist, können Buchung, Buchungsvorschau, Stornieren und Einträge finden aus dem Genehmigungsstatus durchgeführt werden.
+
+Gehe zu: ***Genehmigungsstatus --> Aktionen --> Buchung --> Vorläufige Buchung***
+
+Lesen Sie mehr im Abschnitt [***Vorläufige Buchung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
 
 ### Erinnerung senden
 
-Senden Sie eine Erinnerung für dieses Dokument an die aktuellen Genehmiger für alle Zeilen eines Einkaufsdokuments.
+Erinnerung für dieses Dokument an die aktuellen Genehmiger für alle Zeilen eines Einkaufsdokuments senden.
 
 ![ExFlow Genehmigungsstatus - Erinnerung senden](../../images/image251.png)
 
-### Erinnerung für mehrere Dokumente senden
-Verwenden Sie "Mehr auswählen", um mehrere Dokumente zu markieren, und klicken Sie auf "Erinnerung senden". Erinnerungen werden dann an alle aktuellen Genehmiger für diese ausgewählten Dokumente gesendet.
+#### Erinnerung für mehrere Dokumente senden
+Verwenden Sie "Mehr auswählen", um mehrere Dokumente zu markieren und klicken Sie auf "Erinnerung senden". Erinnerungen werden dann an alle aktuellen Genehmiger für diese ausgewählten Dokumente gesendet.
 
 ![ExFlow Genehmigungsstatus - Erinnerung senden](../../images/image252.png)
 
@@ -161,119 +187,196 @@ Folgende Nachricht wird dann angezeigt:
 
 ![ExFlow Genehmigungsstatus - Erinnerung senden](../../images/image253.png)
 
+#### E-Mail-Erinnerungen für abgelehnte Dokumente senden
+Gehe zu: ***ExFlow E-Mail-Einrichtung***
+
+Es ist möglich, E-Mail-Erinnerungen für abgelehnte ExFlow-Genehmigungsdokumente zu senden, wenn ein Angebot, eine Bestellung, eine Rechnung und/oder eine Gutschrift abgelehnt wird. Um Erinnerungen für abgelehnte Genehmigungsdokumente senden zu können, muss der Dokumentstatus im Genehmigungsstatus "Abgelehnt" sein.
+
+Lesen Sie mehr im Abschnitt [***ExFlow E-Mail-Einrichtung --> Abgelehnte Bestellung, Abgelehntes Angebot und Abgelehnte Rechnung/Gutschrift***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup)
+
+
 ### PDF-Viewer in neuem Tab öffnen
 
-Es ist möglich, das PDF in einem neuen Tab zu öffnen. Die ExFlow-Web-URL muss in der ExFlow-E-Mail-Einrichtung (E-Mail-Typ "Posteingangserinnerung") im Standardunternehmen festgelegt sein.
-
-Lesen Sie mehr im Abschnitt [***ExFlow E-Mail-Einrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder) 
+Es ist möglich, das PDF in einem neuen separaten Tab zu öffnen, um eine bessere Ansicht des Dokumentenbildes zu erhalten.
 
 ![ExFlow Genehmigungsstatus - PDF-Viewer in neuem Tab öffnen](../../images/image254.png)
 
-### Einkaufsdokument erzwingen
+### Erzwungene Aktualisierung des Einkaufsdokuments
 
-Wenn während des Genehmigungsprozesses Änderungen erforderlich sind, verwenden Sie die Funktion "Einkaufsdokumente erzwingen", um die Karte zu aktualisieren. Jetzt können Änderungen in der Karte vorgenommen werden, ohne dass Änderungen von ExFlow Web gelöscht werden.
+Wenn während des Genehmigungsprozesses Änderungen erforderlich sind, verwenden Sie die Funktion "Erzwungene Aktualisierung des Einkaufsdokuments", um die Karte zu aktualisieren. Jetzt können Änderungen in der Karte vorgenommen werden, ohne dass Änderungen von ExFlow Web gelöscht werden.
 
-Verwenden Sie Dokument aktualisieren, um die Dokumentkarte für das ausgewählte Dokument zu aktualisieren. Wenn das Dokument aktualisiert wird, schließt sich die Seite automatisch.
+Verwenden Sie "Dokument aktualisieren", um die Dokumentkarte für das ausgewählte Dokument zu aktualisieren. Wenn das Dokument aktualisiert ist, wird die Seite automatisch geschlossen.
 
-![ExFlow Genehmigungsstatus - Einkaufsdokument erzwingen](../../images/image255.png)
+![ExFlow Genehmigungsstatus - Erzwungene Aktualisierung des Einkaufsdokuments](../../images/image255.png)
 
-### Nach Genehmiger filtern
+### Filter auf Genehmiger setzen
 
 Filtern Sie nach einem bestimmten Genehmiger (Genehmigungsgruppe) und Status in der Genehmigungsstatusliste.
 
-![ExFlow Genehmigungsstatus - Nach Genehmiger filtern](../../images/image256.png)
+![ExFlow Genehmigungsstatus - Filter auf Genehmiger setzen](../../images/image256.png)
 
 ### Dokumentbild anzeigen
-Um PDF herunterzuladen oder zu öffnen
-Gehe zu: ***Genehmigungsstatus --> Verwandt --> Dateien --> Dokumentbild anzeigen***
 
+Gehe zu: ***Genehmigungsstatus --> Verwandt --> Dateien --> Dokumentbild anzeigen***<br/>
+
+Um das PDF herunterzuladen oder zu öffnen.
 
 ### Importdetails anzeigen
-Um Importdetails anzuzeigen
-Gehe zu: ***Genehmigungsstatus --> Verwandt --> Dateien --> Importdetails anzeigen***
 
+Gehe zu: ***Genehmigungsstatus --> Verwandt --> Dateien --> Importdetails anzeigen***<br/>
+
+Um Importdetails anzuzeigen.
 
 ### Bild importieren oder ersetzen
-Um PDF zu importieren oder zu ersetzen
-Gehe zu: ***Genehmigungsstatus --> Verwandt --> Dateien --> Dokumentbild anzeigen***
+
+Gehe zu: ***Genehmigungsstatus --> Verwandt --> Dateien --> Bild importieren oder ersetzen***<br/>
+
+Um das PDF zu importieren oder zu ersetzen.
+
+### G/L-Konto während der Genehmigung ändern
+
+Gehe zu: ***ExFlow Genehmigungsstatus --> Karte***
+
+Das Ändern der Nummer (entfernt die alte Nummer und fügt die neue hinzu) auf einem G/L-Konto, das einen Genehmigungsfluss hat, wird es entfernen und ein neues einfügen, falls zutreffend.
+
+### Eine Einkaufsrechnung im Genehmigungsstatus löschen
+
+Gehe zu: ***Einkaufsrechnung/Einkaufsgutschrift***
+
+Wenn das Dokument erstellt, aber nicht gebucht wurde, folgt das Löschen dem Standard von Business Central.
+
+Gehe zur Einkaufsrechnung/Einkaufsgutschrift, indem du auf "Karte" klickst und lösche. Die Genehmigungsstatuskarte wird mit der Rechnungsnummer in "ExFlow Gelöschte Dokumente" gespeichert.
+
+Gebuchte Einkaufsrechnungen sollten nicht gelöscht werden. Beginne mit der Erstellung einer Gutschrift, die die Rechnung neutralisiert. Erstelle dann eine neue Einkaufsrechnung, falls erforderlich.
+
+### Dokumentänderungen rückgängig machen
+
+Gehe zu: **''...'' --> Verwandt --> Genehmigungsstatus --> Dokumentänderungen rückgängig machen**<br/>
+
+Verwenden Sie *Dokumentänderungen rückgängig machen*, um das Dokument wieder auf den ursprünglichen Zustand zurückzusetzen und alle Änderungen an den Dokumentzeilen durch Genehmiger zu verwerfen.
+
+#### Für geänderte Dokumentzeilen mit dem Status *Genehmigt, Abgelehnt oder In Bearbeitung*
+
+Um die geänderten Dokumentzeilen zurückzusetzen, können AP-Benutzer diese Funktion verwenden, um alle Änderungen zurückzusetzen, anstatt die Genehmigungsstatuskarte manuell zu bearbeiten.
+
+Wenn AP-Benutzer die Frage mit Ja beantworten: *''Möchten Sie alle Änderungen rückgängig machen und den Genehmigungsfluss neu starten?''*, werden alle Änderungen rückgängig gemacht und der Genehmigungsfluss wird neu gestartet.
+
+Zurückgesetzte Dokumente (genehmigt/abgelehnt/in Bearbeitung) werden ebenfalls auf ''Aktiv'' gesetzt.
+
+![Rückgängig machen](../../images/approval-status-revert-changes-001.png)
+
+#### Nichts zum Rückgängigmachen
+
+Für Dokumente mit dem Status ''Bereit zur Buchung'' wird es nicht möglich sein, Änderungen rückgängig zu machen und den Genehmigungsfluss neu zu starten. Die Nachricht: *''Nichts zum Rückgängigmachen''* wird angezeigt. <br/>
+
+![Rückgängig machen](../../images/approval-status-revert-changes-002.png)
+
+Die gleiche Nachricht wird angezeigt, wenn es keine Änderungen an den Dokumenten gibt. <br/>
+
+Diese Funktion wird nicht auf Dokumente angewendet, die auf Kopfebene auf Genehmigt, In Bearbeitung oder Abgelehnt gesetzt sind (ohne Änderungen an den Zeilen). Wenn der Genehmigungsfluss in diesen Fällen neu gestartet werden muss, kann ''Route neu starten'' wie gewohnt auf den Dokumentzeilen im Genehmigungsstatus verwendet werden.
+
+Das Diskussionsfeld/der Chat wird beim Verwenden dieser Funktion nicht rückgängig gemacht/gelöscht. <br/>
 
 
-### Abgelehnte Rechnung bearbeiten / Genehmigungsfluss neu starten
+## Genehmigungsstatus - Zeilen
 
-Dies ist zu verwenden, wenn der richtige Genehmigungsworkflow ausgewählt wurde, aber aus irgendeinem Grund neu gestartet werden muss (z.B. eine Ablehnung).
+| Dokumentzeilen --> Zeile |  |
+|:-|:-|
+| Genehmigung               | Öffnet die ExFlow Dokumentgenehmigungskarte
+| Abschließen               | Markierte Dokumentzeile(n) genehmigen
+| Route neu starten               | Genehmigungsfluss für Dokument (Zeile(n)) neu starten
+| Auf alle Zeilen kopieren                | Kopiert den aktuellen Genehmigungsfluss der Zeile auf andere Zeilen im Dokument. Alle Genehmiger in der Genehmigungsregel müssen genehmigen
+| Verfügbare Genehmigungsregeln anzeigen                | Öffnet eine Liste der verfügbaren Genehmigungsregeln
+| Dimension                | Zeigt die Dimension auf der spezifischen Dokumentzeile an
+| Abgrenzungsplan                | Öffnet den Abgrenzungsplan, wenn ein Abgrenzungscode gesetzt ist
+| Aktuelle Dimensionseigentümer anzeigen                | Zeigt den Dimensionseigentümer an
+| Budget anzeigen                | Zeigt die Budgetübersicht an
 
-Wenn das Dokument auf ExFlow Web abgelehnt wird, muss der Genehmiger einen Kommentar hinzufügen, der in der Genehmigungslinie gespeichert wird, und das Dokument muss in Business Central bearbeitet werden.
+| Dok.-Zeilen-Genehmiger |  |
+|:-|:-|
+| Markierte Genehmigerzeile genehmigen               | Markierte Zeile abschließen, die Zeile muss den Status "Aktuell" haben
+| Route neu starten               | Genehmigungsfluss neu starten. Lesen Sie mehr darüber im Abschnitt "Abgelehnte Rechnung bearbeiten / Genehmigungsfluss neu starten"
 
-Bei Verwendung automatischer Genehmigungsregeln wird empfohlen, stattdessen die Daten auf der Rechnungskarte zu aktualisieren. Dann weist ExFlow automatisch einen neuen Genehmigungsworkflow basierend auf den neuen Daten zu.
-
-Eine andere Möglichkeit besteht darin, den Genehmigungsfluss in der Zeile neu zu starten, indem Sie auf "Route neu starten" klicken. Oder fügen Sie nach dem Genehmiger, der das Dokument abgelehnt hat, manuell einen neuen Genehmiger hinzu. Der neue Genehmiger erhält den Status Aktuell und kann dann den Kommentar des abgelehnten Genehmigers einsehen.
-
-Diese Funktion befindet sich im Abschnitt "Dokumentzeilen".<br/>
-***Dokumentzeilen \--\> Zeile \--\> Route neu starten***
-
-![ExFlow Genehmigungsstatus - Dokumentzeilen](../../images/image257.png)
-
-Das Neustarten der Route aus den Dokumentzeilen hat zwei Optionen.
-
-**Zeile neu starten** - startet die "Dokumentzeilen" neu, alle verbundenen "Dok. Zeilen Genehmiger" Zeilen.
-
-**Alle Zeilen neu starten** - startet alle "Dokumentzeilen" und alle verbundenen "Dok. Zeilen Genehmiger" Zeilen neu.
-
-![Route neu starten](../../images/image258.png)
-
-Um von markiertem Genehmiger auf einer oder allen Zeilen neu zu starten.<br/>
-Gehe zu: ***Dok. Zeilen Genehmiger \--\> Route neu starten.***
-
-![ExFlow Genehmigungsstatus - Dok. Zeilen Genehmiger](../../images/image259.png)
-
-**Zeile neu starten** - startet die "Dokumentzeilen" neu, alle verbundenen "Dok. Zeilen Genehmiger" Zeilen.
-
-**Alle Zeilen neu starten** - startet alle "Dokumentzeilen" und alle verbundenen "Dok. Zeilen Genehmiger" Zeilen neu.
-
-**Von markiertem Genehmiger neu starten** - startet von markiertem Genehmiger auf markierter Zeile neu.
-
-**Von markiertem Genehmiger für alle Zeilen neu starten** - z.B. zwei "Dokumentzeilen" mit drei Genehmigern, alle Zeilen genehmigt, Neustart stehend auf dem zweiten Genehmiger, diese Option startet alle "Dokumentzeilen" vom selben Benutzer auf Zeilen, die diesen Benutzer enthalten. Wenn dieser Benutzer mehr als einmal vorkommt, startet die Route von der ersten Zeile des Benutzers neu.
-
-![Route neu starten](../../images/image260.png)
+<br/>
 
 ### Genehmigungsfluss ändern
-Zeile auswählen und gehe zu: ***Dokumentzeilen \--\> Zeile \--\> Genehmigung.***
+Zeile auswählen und gehen zu: ***Dokumentzeilen --> Zeile --> Genehmigung***
 
 ![ExFlow Genehmigungsstatus - Dokumentzeilen](../../images/image261.png)
 
-Ein neues Fenster öffnet die Rechnungslinienkarte (Titel; BEARBEITEN - GENEHMIGUNG).
+Ein neues Fenster öffnet die Rechnungszeilenkarte (Titel; BEARBEITEN - GENEHMIGUNG).
 
-Fügen Sie bei Bedarf Genehmiger hinzu und/oder entfernen Sie Genehmiger auf den "Genehmigungslinien", indem Sie auf Verwalten klicken.
+Fügen Sie Genehmiger hinzu und/oder entfernen Sie diese bei Bedarf, indem Sie auf Verwalten klicken.
 
 **Neue Genehmiger vorschlagen**<br/>
-Neue Genehmiger vorschlagen löscht aktuelle und fügt neue Genehmiger aus neuer Genehmigungsregel hinzu.
+Neue Genehmiger vorschlagen löscht aktuelle und fügt neue Genehmiger aus der neuen Genehmigungsregel hinzu.
 
-**In alle Zeilen kopieren**<br/>
-Wenn ein Dokument viele Dokumentzeilen enthält, hilft "In alle Zeilen kopieren" dabei, die Genehmigungsgruppe (von einer Zeile) in alle Zeilen zu kopieren.
+**Auf alle Zeilen kopieren**<br/>
+Wenn ein Dokument viele Dokumentzeilen enthält, hilft "Auf alle Zeilen kopieren" dabei, die Genehmigungsgruppe (von einer Zeile) auf alle Zeilen zu kopieren.
 
-### G/L-Konto während der Genehmigung ändern
-Gehe zu: ***ExFlow Genehmigungsstatus \--\> Karte***
+### Abgelehnte Rechnung bearbeiten / Genehmigungsfluss neu starten
 
-Das Ändern der Nummer (entfernt die alte Nummer und fügt die neue hinzu) auf einem G/L-Konto, das einen Genehmigungsfluss hat, wird es entfernen und, falls zutreffend, ein neues einfügen.
+Dies ist zu verwenden, wenn der korrekte Genehmigungsworkflow ausgewählt wurde, aber aus irgendeinem Grund neu gestartet werden muss (zum Beispiel eine Ablehnung).
 
-### Eine Einkaufsrechnung im Genehmigungsstatus löschen
-Gehe zu: ***Einkaufsrechnung/Einkaufsgutschrift***
+Wenn ein Dokument auf ExFlow Web abgelehnt wird, muss der Genehmiger einen Kommentar hinzufügen, der auf der Genehmigerzeile gespeichert wird, und das Dokument muss in Business Central bearbeitet werden.
 
-Wenn das Dokument erstellt, aber nicht gebucht wurde, erfolgt das Löschen gemäß dem Standard von Business Central.
+Bei Verwendung automatischer Genehmigungsregeln wird empfohlen, die Daten auf der Rechnungskarte zu aktualisieren. Dann weist ExFlow automatisch einen neuen Genehmigungsworkflow basierend auf den neuen Daten zu.
 
-Gehe zu Einkaufsrechnung/Einkaufsgutschrift, indem du auf "Karte" klickst und lösche. Die Genehmigungsstatuskarte wird mit der Rechnungsnummer in "ExFlow Gelöschte Dokumente" gespeichert.
+Eine andere Möglichkeit besteht darin, den Genehmigungsfluss auf der Zeile neu zu starten, indem Sie auf "Route neu starten" klicken. Oder fügen Sie nach dem Genehmiger, der das Dokument abgelehnt hat, manuell einen neuen Genehmiger ein. Der neue Genehmiger erhält den Status "Aktuell" und kann dann den Kommentar des abgelehnten Genehmigers sehen.
 
-Gebuchte Einkaufsrechnungen sollten nicht gelöscht werden. Beginne mit der Erstellung einer Gutschrift, die die Rechnung neutralisiert. Erstelle dann bei Bedarf eine neue Einkaufsrechnung.
+Diese Funktion befindet sich im Abschnitt "Dokumentzeilen". <br/>
+***Dokumentzeilen --> Zeile --> Route neu starten***
 
-### FactBoxes im Genehmigungsstatus
-Rechts im Genehmigungsstatus befindet sich ein nützliches FactBox.
+![ExFlow Genehmigungsstatus - Dokumentzeilen](../../images/image257.png)
 
-**PDF-Vorschau**<br/>
-Größe der PDF-Vorschau ändern Drücke - / +, um die Größe der PDF zu verringern oder zu erhöhen.
+Das Neustarten der Route von Dokumentzeilen hat zwei Optionen.
+
+**Zeile neu starten** - startet die "Dokumentzeilen" neu, alle verbundenen "Dok.-Zeilen-Genehmiger"-Zeilen.
+
+**Alle Zeilen neu starten** - startet alle "Dokumentzeilen" und alle verbundenen "Dok.-Zeilen-Genehmiger"-Zeilen neu.
+
+![Route neu starten](../../images/image258.png)
+
+Um von markiertem Genehmiger auf einer oder allen Zeilen neu zu starten. <br/>
+Gehe zu: ***Dok.-Zeilen-Genehmiger --> Route neu starten***
+
+![ExFlow Genehmigungsstatus - Dok.-Zeilen-Genehmiger](../../images/image259.png)
+
+**Zeile neu starten** - startet die "Dokumentzeilen" neu, alle verbundenen "Dok.-Zeilen-Genehmiger"-Zeilen.
+
+**Alle Zeilen neu starten** - startet alle "Dokumentzeilen" und alle verbundenen "Dok.-Zeilen-Genehmiger"-Zeilen neu.
+
+**Von markiertem Genehmiger neu starten** - startet von markiertem Genehmiger auf markierter Zeile neu.
+
+**Von markiertem Genehmiger für alle Zeilen neu starten** z.B. zwei "Dokumentzeilen" mit drei Genehmigern, alle Zeilen genehmigt, Neustart stehend auf dem zweiten Genehmiger, diese Option startet alle "Dokumentzeilen" vom gleichen Benutzer auf Zeilen, die diesen Benutzer enthalten, neu. Wenn dieser Benutzer mehr als einmal vorkommt, startet die Route von der ersten Zeile des Benutzers neu.
+
+![Route neu starten](../../images/image260.png)
+
+
+### Aktuellen Vertreter auf den Dokumentzeilen anzeigen
+
+In den Dokumentzeilen im Genehmigungsstatus ist es möglich zu sehen, wer der aktuelle Vertreter für den aktuellen Genehmiger ist.
+
+![Aktueller Vertreter](../../images/approval-status-replacer-001.png)
+
+Lesen Sie mehr darüber, wie Sie mit Vertretern arbeiten, im Abschnitt [***Einen Vertreter während der Urlaubszeit hinzufügen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time)
+
+## FactBoxes im Genehmigungsstatus
+Finden Sie nützliche FactBoxes auf der rechten Seite im Genehmigungsstatus.
+
+| FactBox |  |
+|:-|:-|
+| PDF-Vorschau               | [***PDF-Vorschau***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#pdf-preview)
+| Eingehende Dokumentdateien               | [***Eingehende Dokumentdateien***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#incoming-document-files)
+| Diskussionsfeld               | [***Diskussionsfeld***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#discussion-panel)
+| Lieferantenstatistik und Historie des Lieferanten              | [***Lieferantenstatistik und Historie des Lieferanten***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#vendor-statistic-and-buy-from-vendor-history)
+
+### PDF-Vorschau
+Ändern Sie die Größe der PDF-Vorschau. Drücken Sie - / +, um die Größe des PDFs zu verringern oder zu erhöhen.
 
 ![ExFlow Genehmigungsstatus](../../images/image262.png)
 
-Größe des FactBox zurücksetzen Klicke auf "Wiederherstellen".
+Setzen Sie die Größe der FactBox zurück. Klicken Sie auf "Wiederherstellen".
 
 ![PDF-Vorschau](../../images/image263.png)
 
@@ -281,142 +384,174 @@ Größe des FactBox zurücksetzen Klicke auf "Wiederherstellen".
 
 ![PDF-Vorschau](../../images/image264.png)
 
-PDF-Seitennummer ändern Verwende "Aufnahmetasten".
+Ändern Sie die PDF-Seitennummer. Verwenden Sie die "Aufzeichnungstasten".
 
 ![PDF-Vorschau](../../images/image265.png)
 
-PDF-Datei in voller Größe öffnen.<br/>
-Gehe zu: ***Navigieren \--\> Dateien \--\> Dokumentenbild anzeigen (Strg+I)***
+Öffnen Sie die PDF-Datei in voller Größe.<br/>
+Gehe zu: ***Navigieren --> Dateien --> Dokumentbild anzeigen (Strg+I)***<br/>
 
-**Eingehende Dokumentdateien**<br/>
-Datei anzeigen und hinzufügen.
+### Eingehende Dokumentdateien
+Anzeigen und Hinzufügen von Anhängen. Um ein Dokument anzuhängen, ohne den Hauptanhang zu ersetzen.<br/>
 
-Um ein Dokument anzuhängen, ohne den Hauptanhang zu ersetzen.<br/>
-Gehe zu: ***FactBox \--\> Eingehende Dokumentdateien \--\> Datei anhängen***<br/>
+Gehe zu: ***FactBox --> Eingehende Dokumentdateien --> Datei anhängen***
 
-Klicke auf "Auswählen", suche die Datei, die angehängt werden soll, und klicke auf "Öffnen".
+Klicken Sie auf "Auswählen", suchen Sie die Datei, die angehängt werden soll, und klicken Sie auf "Öffnen".
 
 ![ExFlow Genehmigungsstatus - Eingehende Dokumentdateien](../../images/image266.png)
 
-Es kann auch aus dem Eingehenden Dokument im Business Central Standard erfolgen.
+Es kann auch aus dem Eingehenden Dokument in Business Central Standard erfolgen.
 
-**PDF-Dokumentenbild ändern**<br/>
-Wenn das PDF-Bild geändert werden muss, kann dies vor dem Buchen des Dokuments erfolgen.<br/>
-Gehe zu: **Navigieren \--\> Dateien \--\> Bild importieren oder ersetzen***
+#### PDF-Dokumentbild ändern
+Wenn das PDF-Bild geändert werden muss, kann dies vor dem Buchen des Dokuments erfolgen. <br/>
 
-Es kann auch aus dem Eingehenden Dokument im Business Central Standard erfolgen.
+Gehe zu: **Verwandt --> Dateien --> Bild importieren oder ersetzen**
 
-**Diskussionspanel**<br/>
-Wenn ein Kommentar im Diskussionspanel aus dem Genehmigungsstatus hinzugefügt und auf SENDEN geklickt wird, kann der Kommentar im FactBox rechts mit der ID des Erstellers, Datum und Uhrzeit angezeigt werden. Auf ExFlow Web wird es im Chat auf dem Dokument angezeigt.
+Es kann auch aus dem Eingehenden Dokument in Business Central Standard erfolgen.<br/>
 
-Wenn ein Benutzer mit @ erwähnt wird, kann der Benutzer dieses Dokument und den Kommentar auf ExFlow Web sehen, auch wenn der Benutzer **nicht** im Genehmigungsfluss ist.
 
-![ExFlow Genehmigungsstatus - Diskussionspanel](../../images/image267.png)
+#### Datei von Einkaufsrechnung oder Einkaufsgutschrift anhängen
 
-Lies mehr über Einstellungen und wie man das Diskussionspanel verwendet im Abschnitt: [***Benachrichtigungen in Business Central \--\> Diskussionspanel / Chat und Zeilenkommentare***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
+Anhänge, die von der Einkaufsrechnungs- und Einkaufsgutschriftkarte in Business Central Standard erstellt wurden, werden in ExFlow nicht angezeigt. Daher empfehlen wir, stattdessen die Eingehenden Dokumentdateien in der FactBox aus dem Genehmigungsstatus zu verwenden.
 
-### Kommentare von Genehmigern lesen
+### Diskussionsfeld
+Wenn Sie einen Kommentar im Diskussionsfeld aus dem Genehmigungsstatus hinzufügen und auf SENDEN klicken, kann der Kommentar in der FactBox rechts mit der ID des erstellenden Benutzers, Datum und Uhrzeit angezeigt werden. Auf ExFlow Web wird er im Chat auf dem Dokument angezeigt.
 
-Wenn ein Web-Genehmiger einen Kommentar im Chat im Kopfbereich hinzufügt und auf "SENDEN" klickt, kann der Kommentar im FactBox rechts mit der ID des Genehmigers, Datum und Uhrzeit angezeigt werden.
+Wenn ein Benutzer mit @ erwähnt wird, kann dieser Benutzer dieses Dokument und den Kommentar auf ExFlow Web sehen, auch wenn der Benutzer **nicht** im Genehmigungsfluss ist.
 
-Das Dokument wird auch ein Tag im Kopfbereich "Kommentar im Diskussionspanel" haben, wenn Kommentare von ExFlow oder ExFlow Web gemacht wurden.
+![ExFlow Genehmigungsstatus - Diskussionsfeld](../../images/image267.png)
+
+Lesen Sie mehr über Einstellungen und wie Sie das Diskussionsfeld verwenden im Abschnitt: [***Benachrichtigungen in Business Central --> Diskussionsfeld / Chat und Zeilenkommentare***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).<br/>
+
+#### Kommentare von Genehmigern lesen
+
+Wenn ein Web-Genehmiger einen Kommentar im Chat im Kopfbereich hinzufügt und auf "SENDEN" klickt, kann der Kommentar in der FactBox rechts mit der ID des Genehmigers, Datum und Uhrzeit angezeigt werden.
+
+Das Dokument hat auch eine Markierung im Kopfbereich "Kommentar im Diskussionsfeld", wenn Kommentare von ExFlow oder ExFlow Web gemacht wurden.
 
 ![ExFlow Genehmigungsstatus](../../images/image268.png)
 
-Wenn ein Web-Genehmiger einen Kommentar zu einer Zeile hinzufügt, wird der Kommentar im Feld "Kommentar" auf "Dok.-Zeilen-Genehmiger" angezeigt.
+Wenn ein Web-Genehmiger einen Kommentar zu einer Zeile hinzufügt, wird der Kommentar in "Dok.-Zeilen-Genehmiger" im Feld "Kommentar" angezeigt.
 
 ![ExFlow Genehmigungsstatus - Dok.-Zeilen-Genehmiger](../../images/image269.png)
 
-Lies mehr über Einstellungen und wie man das Diskussionspanel verwendet im Abschnitt: [***Benachrichtigungen in Business Central \--\> Diskussionspanel / Chat und Zeilenkommentare***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
+Lesen Sie mehr über Einstellungen und wie Sie das Diskussionsfeld verwenden im Abschnitt: [***Benachrichtigungen in Business Central --> Diskussionsfeld / Chat und Zeilenkommentare***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
 
-### Datei von Einkaufsrechnung oder Einkaufsgutschrift anhängen
+### Lieferantenstatistik und Historie des Lieferanten
 
-Anhänge, die von der Einkaufsrechnung und der Einkaufsgutschriftkarte im Business Central Standard erstellt wurden, werden nicht in ExFlow angezeigt. Daher empfehlen wir, stattdessen die Eingehenden Dokumentdateien im FactBox aus dem Genehmigungsstatus zu verwenden.
+Finden Sie Lieferanteninformationen in den FactBoxes Lieferantenstatistik und Historie des Lieferanten.
 
-### Hintergrundverarbeitung
+Diese FactBoxes können auch in der ExFlow Genehmigungshistorie gefunden werden.
 
-Gehe zu ***ExFlow Setup \--\> Hintergrundverarbeitung***
+![FactBox](../../images/approval-status-factbox-vendor-001.png)
+
+<br/>
+
+## Hintergrundverarbeitung
+
+Finden Sie alle Informationen zur Hintergrundverarbeitung [***hier***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#background-processing)
+
+Gehe zu ***ExFlow Einrichtung --> Hintergrundverarbeitung***
 
 Folgende Einstellungen gelten nur für Dokumente ohne Änderungen.
 
-Wenn Änderungen von ExFlow Web vorgenommen wurden, müssen diese weiterhin manuell im Genehmigungsstatus aktualisiert werden, indem Änderungen überprüft werden.
+Wenn Änderungen von ExFlow Web vorgenommen wurden, müssen diese weiterhin manuell im Genehmigungsstatus durch Ausführen von Änderungen überprüfen aktualisiert werden.
 
-**"Mit Job-Warteschlange überprüfen"** und **"Mit Job-Warteschlange überprüfen und buchen"**.<br/>
-Aktiviere eine dieser Einstellungen, um automatisch eine Job-Warteschlange zu erstellen, die genehmigte Rechnungen ohne Änderungen von ExFlow Web im Genehmigungsstatus "überprüft" oder "überprüft und bucht".
+### Überprüfung mit Job-Warteschlange und Überprüfung & Buchung mit Job-Warteschlange
+Aktivieren Sie eine dieser Einstellungen, um automatisch eine Job-Warteschlange zu erstellen, die genehmigte Rechnungen ohne Änderungen von ExFlow Web im Genehmigungsstatus "Überprüft" oder "Überprüft und gebucht" automatisch überprüft oder überprüft und bucht.
 
 
-**"Änderungen automatisch überprüfen"** Aktualisiert Dokumente mit dem Status "Genehmigt" auf "Bereit für Buchung" ohne Job-Queue-Eintrag.
+### Änderungen automatisch überprüfen
+Aktualisiert Dokumente mit dem Status "Genehmigt" auf "Bereit zur Buchung" ohne Job-Warteschlange.
 
-![ExFlow Setup - Hintergrundverarbeitung](../../images/exflow-setup-background-processing-002.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung](../../images/exflow-setup-background-processing-002.png)
 
-Die Job-Queue "Ex Verify & Post Job Queue" ist standardmäßig so konfiguriert, dass sie jede Stunde an Wochentagen ausgeführt wird, wenn eine der genannten Hintergrundverarbeitungseinstellungen in ExFlow Setup aktiviert ist.
+Die Job-Warteschlange "Ex Verify & Post Job Queue" ist standardmäßig so konfiguriert, dass sie stündlich an Wochentagen ausgeführt wird, wenn eine der genannten Hintergrundverarbeitungseinstellungen in der ExFlow Einrichtung aktiviert ist.
 
-Wenn die Funktion deaktiviert wird, verschwindet die Job-Queue "Ex Verify & Post Job Queue" aus der Liste "Job-Queue-Einträge".
+Wenn die Funktion deaktiviert wird, verschwindet die Job-Warteschlange "Ex Verify & Post Job Queue" aus der Liste der "Job-Warteschlange Einträge".
 
-![Job-Queue-Eintrag-Karte - Überprüfen & Buchen mit Job-Queue](../../images/image271.png)
+![Job-Warteschlange Eintragskarte - Überprüfen & Buchen mit Job-Warteschlange](../../images/image271.png)
 
-**Überprüfen mit Job-Queue**<br/>
+### Überprüfung mit Job-Warteschlange
 Diese Einstellung gibt an, ob die Überprüfung genehmigter Dokumente im Hintergrund geplant werden soll. Dies gilt nur für Dokumente ohne Änderungen auf ExFlow Web.
 
-![ExFlow Setup - Hintergrundverarbeitung - Überprüfen mit Job-Queue](../../images/exflow-setup-background-processing-003.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfung mit Job-Warteschlange](../../images/exflow-setup-background-processing-003.png)
 
-**Überprüfen & Buchen mit Job-Queue**<br/>
-Gibt an, ob Dokumente mit dem Status "Bereit für Buchung" im Genehmigungsstatus im Hintergrund geplant und nach der Überprüfung gebucht werden sollen.
+### Überprüfung & Buchung mit Job-Warteschlange
+Gibt an, ob Dokumente mit dem Status "Bereit zur Buchung" im Genehmigungsstatus im Hintergrund geplant und nach der Überprüfung gebucht werden sollen.
 
-![ExFlow Setup - Hintergrundverarbeitung - Überprüfen & Buchen mit Job-Queue](../../images/exflow-setup-background-processing-004.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfung & Buchung mit Job-Warteschlange](../../images/exflow-setup-background-processing-004.png)
 
-Alle "ExFlow web - geändert" Dokumente, die in ExFlow Verify Changes im Genehmigungsstatus aktualisiert werden müssen, werden von diesem geplanten Job ausgeschlossen. Eine Nachricht im Feld Fehlermeldung im ExFlow Genehmigungsstatus wird auf diesen nicht aktualisierten Dokumenten sichtbar sein.
+Alle "ExFlow web - geänderten" Dokumente, die in ExFlow Änderungen überprüfen im Genehmigungsstatus aktualisiert werden müssen, werden von diesem geplanten Job ausgeschlossen. Eine Nachricht im Feld Fehlermeldung im ExFlow Genehmigungsstatus wird bei diesen nicht aktualisierten Dokumenten sichtbar sein.
 
-**Änderungen automatisch überprüfen**<br/>
-Diese Einstellung ermöglicht es, den Schritt "Änderungen überprüfen" auf der Genehmigungsstatusseite zu überspringen, wenn keine Änderungen am genehmigten Dokument vorgenommen wurden. Der Dokumentstatus wird automatisch auf "Bereit für Buchung" geändert.
+### Änderungen automatisch überprüfen
+Diese Einstellung ermöglicht es, den Schritt "Änderungen überprüfen" auf der Genehmigungsstatusseite zu überspringen, wenn keine Änderungen an dem genehmigten Dokument vorgenommen wurden. Der Dokumentstatus wird automatisch auf "Bereit zur Buchung" geändert.
 
-![ExFlow Setup - Hintergrundverarbeitung - Änderungen automatisch überprüfen](../../images/exflow-setup-background-processing-005.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Änderungen automatisch überprüfen](../../images/exflow-setup-background-processing-005.png)
 
-Die Einstellung "Änderungen automatisch überprüfen" kann auch in ExFlow Vendor Setup gefunden werden. Es ist möglich zu wählen, ob diese Funktion für einen bestimmten Lieferanten aktiviert/deaktiviert werden soll. Oder die Einstellung in ExFlow Setup für alle Lieferanten aktivieren. Lesen Sie mehr über diese Funktionalität im Abschnitt **Änderungen überprüfen**.
+Die Einstellung "Änderungen automatisch überprüfen" kann auch in den ExFlow Lieferanteneinstellungen gefunden werden. Es ist möglich zu wählen, ob diese Funktion für einen bestimmten Lieferanten aktiviert/deaktiviert werden soll. Oder die Einstellung in der ExFlow Einrichtung für alle Lieferanten aktivieren. Lesen Sie mehr über diese Funktionalität im Abschnitt **Änderungen überprüfen**.
 
 ![ExFlow Erweiterte Lieferantenoptionen - Änderungen automatisch überprüfen](../../images/Vendor-setup-card-006.png)
 
-**Dokumente automatisch erstellen**
+### Dokumente automatisch erstellen
 
-Aktivieren Sie dieses Feld, wenn alle interpretierten Dokumente automatisch aus dem ExFlow Import Journal erstellt werden sollen. Diese Funktion kann auch pro Lieferant im Lieferanten-Setup eingerichtet werden, wenn die Dokumente eines bestimmten Lieferanten (zum Beispiel) von dieser Einstellung ausgeschlossen werden sollen.
+Aktivieren Sie dieses Feld, wenn alle interpretierten Dokumente automatisch aus dem ExFlow Import Journal erstellt werden sollen. Diese Funktion kann auch pro Lieferant in den Lieferanteneinstellungen eingerichtet werden, wenn die Dokumente eines bestimmten Lieferanten (zum Beispiel) von dieser Einstellung ausgeschlossen werden sollen.
 
 Wenn die Funktion aktiviert ist, werden alle interpretierten Dokumente ohne Fehler oder Warnmeldungen automatisch erstellt und zur Genehmigung gesendet.
 
-![ExFlow Setup - Hintergrundverarbeitung - Dokumente automatisch erstellen](../../images/background-processing-automatically-create-001.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](../../images/background-processing-automatically-create-001.png)
 
-Es ist möglich, die Liste der ExFlow Import Journals zu personalisieren und die Spalte "Dokumente automatisch erstellen" dort hinzuzufügen und zu aktivieren, um ein dediziertes Journal für die automatische Erstellung von Dokumenten zu haben.
+Es ist möglich, die Liste der ExFlow Import Journale zu personalisieren und die Spalte "Dokumente automatisch erstellen" dort hinzuzufügen und zu aktivieren, um ein dediziertes Journal für die automatische Dokumentenerstellung zu haben.
 
-Diese Funktion kann ohne Einrichtung im ExFlow Import Journal verwendet werden, klicken Sie einfach auf Ja im folgenden Popup:
+Diese Funktion kann ohne jegliche Einrichtung im ExFlow Import Journal verwendet werden, klicken Sie einfach auf Ja im untenstehenden Popup:
 
-![ExFlow Setup - Hintergrundverarbeitung - Dokumente automatisch erstellen](../../images/background-processing-automatically-create-002.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](../../images/background-processing-automatically-create-002.png)
 
-Lesen Sie mehr darüber im Abschnitt [***Batch-Import von Dokumenten aus der Interpretation***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
+Lesen Sie mehr darüber im Abschnitt [***Batch Import Documents from Interpretation***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
 
+
+## Dokumentenbuchungsprüfungen
+
+Finden Sie alle Informationen zu Dokumentenbuchungsprüfungen [***hier***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#doc-posting-checks)
 
 ### Rechnungsrundung
 
-Wenn die Rechnungsrundung in ***Business Central \--\> Einkauf & Verbindlichkeiten Setup\--\> Allgemein*** aktiviert ist, unterstützt ExFlow die automatische Buchung der Rechnungsrundung, um den Bruttobetrag auf dem Dokument abzugleichen.<br/>
+Wenn die Rechnungsrundung in ***Business Central --> Einkaufs- und Kreditoreneinrichtung --> Allgemein*** aktiviert ist, unterstützt ExFlow die automatische Buchung der Rechnungsrundung, um den Bruttobetrag auf dem Dokument abzugleichen. <br/>
 
-Gehen Sie zu: ***ExFlow Setup \--\> Dok.-Buchungsprüfungen***
+Gehe zu: ***ExFlow Einrichtung --> Dokumentenbuchungsprüfungen***
 
 Aktivieren Sie "Rechnungsrundung" und fügen Sie einen Wert in "Maximale Differenz für Bruttobetrag" ein. Stellen Sie außerdem sicher, dass die Einstellung "Bruttobetrag prüfen" ebenfalls aktiviert ist.
 
-ExFlow führt eine Kontrolle zwischen dem Bruttobetrag auf dem Einkaufsdokumentenkopf und dem Dokumentenlinienbetrag durch. Eine Rundungszeile wird erstellt, wenn die Bruttobetragsdifferenz innerhalb der Toleranz "Maximale Differenz für Bruttobetrag" liegt, wenn gebucht wird. Die Buchung erfolgt gemäß den Standard-Einstellungen von Business Central.
+ExFlow führt eine Kontrolle zwischen dem Bruttobetrag im Kopf des Einkaufsdokuments und dem Dokumentzeilenbetrag durch. Eine Rundungszeile wird erstellt, wenn die Bruttobetragsdifferenz innerhalb der Toleranz von "Maximale Differenz für Bruttobetrag" liegt, wenn gebucht wird. Die Buchung erfolgt gemäß den Standard-Einstellungen von Business Central.
 
-![ExFlow Setup - Dok.-Buchungsprüfungen - Rechnungsrundung](../../images/exflow-setup-doc-posting-checks-001.png)
+![ExFlow Einrichtung - Dokumentenbuchungsprüfungen - Rechnungsrundung](../../images/exflow-setup-doc-posting-checks-001.png)
 
 Wenn SweBase (für schwedische Kunden) installiert ist, wird die Rundung von SweBase gehandhabt und ExFlow Rundung kann nur für vorläufige Buchungen durchgeführt werden.
 
 Lesen Sie mehr im Abschnitt [***Vorläufige Buchung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
 
+## Eskalation
+
+Finden Sie alle Informationen zur Eskalation [***hier***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#escalation)
+
+### Abgelehnte und überfällige Dokumente hervorheben
+
+Um es einfacher zu machen, Dokumente zu sehen, die abgelehnt wurden oder kurz vor dem Fälligkeitsdatum stehen, gibt es die Möglichkeit, eine Einstellung in der ExFlow Einrichtung zu aktivieren, um diese Dokumente im Genehmigungsstatus mit roter Schrift hervorzuheben.
+
+![ExFlow Genehmigungsstatus](../../images/approval-status-004.png)
+
+#### Einrichtung Abgelehnte und überfällige Dokumente hervorheben
+Gehe zu: ***ExFlow Einrichtung --> Eskalation***
+
+Aktivieren Sie *"Abgelehnte und überfällige Dokumente hervorheben"*, um die Einstellung zu aktivieren.
+
+Geben Sie eine Zahl in *"Anzahl der überfälligen Tage vor Hervorhebung"* ein, um anzugeben, wie viele Tage vor dem Fälligkeitsdatum die Dokumente hervorgehoben werden sollen.
+
+Diese Einstellung arbeitet in Bezug auf das Fälligkeitsdatum des Dokuments und das Arbeitsdatum des Benutzers. "0" wird das Dokument am Fälligkeitsdatum hervorheben.
+
+![ExFlow Einrichtung - Eskalation](../../images/exflow-setup-escalation-001.png)
 
 
-### Aktuellen Vertreter in den Dokumentzeilen anzeigen
 
-In den Dokumentzeilen im Genehmigungsstatus ist es möglich zu sehen, wer der aktuelle Vertreter für den aktuellen Genehmiger ist.
-
-![Aktueller Vertreter](../../images/approval-status-replacer-001.png)
-
-Lesen Sie mehr darüber, wie Sie mit Vertretern arbeiten, im Abschnitt [***Einen Vertreter während der Urlaubszeit hinzufügen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time)
 
 

@@ -10,7 +10,7 @@ Gehen Sie zu ExFlow Reports, um Berichte zu erstellen. Berichte sind in Abschnit
 
 ![Report - ExFlow Approval Status](../../images/reports-homepage-001.png)
 
-### Berichte --> Dokumente
+## Berichte --> Dokumente
 
 | Berichte --> Dokumente |  | 
 |:-|:-|
@@ -25,7 +25,7 @@ Gehen Sie zu ExFlow Reports, um Berichte zu erstellen. Berichte sind in Abschnit
 
 <br/>
 
-### ExFlow Genehmigungsstatus
+## ExFlow Genehmigungsstatus
 
 Gehen Sie zu: ***ExFlow Reports \--\> Dokumente \--\> ExFlow Genehmigungsstatus***
 
@@ -207,7 +207,7 @@ Im folgenden Beispiel wird der Bericht mit dem Filter: ''Aging nach: Fälligkeit
 
 <br/><br/>
 
-### Berichte --> ExFlow Benutzer
+## Berichte --> ExFlow Benutzer
 
 | Berichte --> Benutzer |  | 
 |:-|:-|
@@ -275,7 +275,7 @@ Dieser Bericht zeigt alle DSGVO-bezogenen Daten für einen bestimmten Benutzer.
 ![Bericht - ExFlow DSGVO Benutzerbezogene Daten](../../images/image399.png)
 <br/><br/>
 
-### Berichte --> Genehmigungsregeln
+## Berichte --> Genehmigungsregeln
 
 | Berichte --> Genehmigungsregeln |  | 
 |:-|:-|

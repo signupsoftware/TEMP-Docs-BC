@@ -23,8 +23,8 @@ It is possible to get a fully coded line with a G/L Account, Dimensions, Project
 | **No Purchase Order Matching**    | Choose if PO matching should be skipped in this specific mapping combination.
 | **Aggregate Lines**    | Enable this setting to aggregate all imported lines with the specified mapping criteria to one summarized invoice line.
 | **Dimension Code**     | If a Dimension Code exist as an ExFlow Web column, then the dimension code will be visible and can be used in the OCR Import Mapping list.
-| **Job (Project) No.**    | Specify the Project No. 
-| **Job (Project) Task No.**    | Specify the Project Task No. 
+| **Project No.**    | Specify the Project No. 
+| **Project Task No.**    | Specify the Project Task No. 
 | **First Approver**    | Specify the First Approver
 | **Approval Rule**    | Specify the Approval Rule
 | **Auto. Acc. Group**    | Specify the Automatic Account Groups
