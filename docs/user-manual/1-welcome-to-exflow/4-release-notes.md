@@ -6,6 +6,47 @@ custom_edit_url: null
 ---
 ## Release Notes
 
+
+### ExFlow 24.1.0.0 – Release Notes <br/> 
+**Type of Release:** <br/>
+Minor Release
+
+**Release Date:** <br/>
+2024-12-10
+
+
+**Release Information:** <br/>
+Requires BC 24.0 or later <br/>
+
+
+**New Features** <br/> 
+
+| ID| Area | Description |
+| :----------- | :-------------- | :-------------- | 
+|30556	|Import Journal|	Enhanced ExFlow to map up to 8 Misc. Charge fields to purchase codes.
+|44644|	Import Journal	|New event added for item charge assignment in the Import Journal
+|42817| Approval Status	|Added shortcut command for Preview Posting in Approval Status
+|44220|	Import Journal	|PDF-viewer in separate browser supported again
+|32864|	Approval Status|FactBoxes of vendor statistics added in Approval Status and Approval Status History
+|40207|	Import Journal	|Better matching against currencies in Payment Validation
+|43588|	Approval Status	|Added function to revert all coding on documents done in the web in Approval Status
+
+<br/>
+
+**Improvements/Enhancements**<br/> 
+
+| ID| Area | Description |
+| :----------- | :-------------- | :-------------- | 
+|43997|	Web|	Resolved issue that sometimes the warning of having a minimum number of approvers did not warn.
+|44100|	Setup|	Updates made to EX BASE where some permissions where missing 
+|44288|	Import Journal	|Fixed issue that in some cases a receipt could not be matched when the same item were used in multiple lines
+|42949|	Import Journal|	Fixed issue that sometimes when contract was matched, the dimensions and approval did not follow the settings.
+|42062|	Web|	Fixed issue when sometimes Item Charges were not possible to approve in the Web
+
+<br/> 
+Minor bug corrections are also handled in the release but not in the release notes.
+<br/>
+
 ### ExFlow 24.0.0.0 – Release Notes <br/> 
 **Type of Release:** <br/>
 Major Release
@@ -70,6 +111,7 @@ ExFlow permission sets not containing enough permissions is solved in 24.0.310.1
 |40465|	Setup|	Fixed an issue in Export/Import ExFlow Setup where the dimensions would be missing in the purchase codes.
 |40419, 40422|	Spanish localization|	Fixed two issues on the technical side where IDs where missing and added ID type in Import Journal
 |37501|	Setup|	Resolved issue where the Project Manager could not be retrieved in dynamic approval flows
+
 
 <br/>
 
@@ -169,6 +211,7 @@ Enhanced existing functionality “Matching Delay” in ExFlow Setup, now a diff
 | 37110  | OMNI              | Resolved the issue when some users could not access the contract to be able to fully approve them
 | 36966  | Setup             | The issue that attachments in some cases would receive the type “Other” has been resolved
 | 37654  | Setup             | Added support to use Job Task No. in the Data exchange for ExFlow
+
 
 <br/> <br/>
 

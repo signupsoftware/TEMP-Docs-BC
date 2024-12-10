@@ -23,16 +23,20 @@ The default settings are displayed in the ExFlow Vendor Setup list. Utilize Pers
 |**Delete**	|Delete a current Vendor Setup 
 |**Edit**	|Edit the current Vendor Setup Card
 |**View**	|Open the current Vendor Setup Card
+|*More options --> Related*	|
 |**Related --> Auto Receiving Line Types**	|Edit or view Line Types that should be automatically received for a specific vendor.<br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
+|**Related --> Item No. Matching Priority**	|Determine the order in which the system attempts to match imported invoices against items and order lines. <br/><br/> Read more about this under section [***Item No. Matching Priority***](hhttps://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
+|**Related --> ExFlow Setup**	|Opens [***ExFlow Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup)
+|**Related --> Audit Log --> Audit Log**	|Opens Audit Log Overview. <br/><br/> Read more about this under section [***Audit Log***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/audit-log#audit-log)
 
 <br/> 
 
 ### Vendor Setup Card Sections
 
-Open the ExFlow Vendor Setup card to view/edit ExFlow related settings per vendor. Click on the section or ''Show more'' to display all settings.  
+Open the ExFlow Vendor Setup card to view/edit ExFlow related settings per vendor. 
 
-The function ''Item No. Matching Priority'' is easily accessed in the Vendor Setup Card. <br/> Read more about this under section [***Item No. Matching Priority***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
-<br/> 
+Click on the section or ''Show more'' to display all settings.  
+
 
 ![ExFlow Vendor Setup](@site/static/img/media/vendor-setup-card-sections-001.png)
 
@@ -56,10 +60,8 @@ The option ''From ExFlow Setup'' is set per default in most settings, meaning th
 |**Allow Duplicate Invoices**|When receiving invoices with the same invoice number from a vendor. E.g., Insurance and tax authority. This checkbox can be used to exempt control of this supplier's invoice number. It is now possible to post more than one invoice for this vendor with the same Vendor Document No.
 |**Propose VAT Line**	|If a specific vendor have VAT lines that should be included in the approval flow, this setting can be set to Yes on a vendor level. Otherwise, general setting from ExFlow Setup is used per default.
 |**Factoring Vendor**	|If the Vendor is only used for factoring, there is a checkbox that prevents creating Invoices/Credit Memos on this Vendor and it can only be used as Pay-to Vendor No. via Buy-from Vendor. <br/><br/>  Mark the checkbox Factoring Vendor on the "Pay-to Vendor No" and add this Vendor No. on the "Buy-From-Vendor" Card. <br/> <br/> If a document is interpreted on a Factoring Vendor, the ExFlow Import Journal will give an action message: "This invoice is flagged as Factoring and is thus not allowed to be created!".
-|**Payment Validation** 	|Specifies if the payment validation process will be applied during the import and data interpretation process. <br/><br/> Read more about this under section [***Payment Validation Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-setup)
-|**Suggest Recipient Bank Account** 	|Specifies if the Suggestion of Recipient Bank Account is activated. <br/><br/> Read more about this under section [***Suggest Recipient Bank Account***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#suggest-recipient-bank-account)
-|**Ignore Payment Validation Warning**| Specifies if Payment Validation Warning should be ignored for this vendor
-|**Ignore Payment Suggestion Warning**| Specifies if Payment Suggestion Warning should be ignored for this vendor
+|**Payment Validation** 	|Specifies if the payment validation process will be applied during the import and data interpretation process. <br/><br/> Read more about this under section [***Payment Validation Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion)
+|**Suggest Recipient Bank Account** 	|Specifies if the Suggestion of Recipient Bank Account is activated. <br/><br/> Read more about this under section [***Suggest Recipient Bank Account***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#setup-payment-validation--suggest-recipient-bank-account)
 |**Move Deferral Forward** 	|When posting date in Deferral Schedule is before allowed posting date for the user, that period will be posted on first allowed posting date in General Ledger Setup or User Setup. ExFlow will only move deferrals forward for closed periods. <br/><br/> Read more about this under section [***Move Deferral Forward***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#move-deferral-forward)
 |**Confidential Documents**|Specifies if documents should be handled as Confidential Documents.
 
@@ -69,7 +71,7 @@ The option ''From ExFlow Setup'' is set per default in most settings, meaning th
 
 |Doc. Creation Checks|  |
 |:-|:-|
-|**Automatically Create Documents**| Enable this box if interpreted documents should be automatically created from the ExFlow Import Journal for a specific vendor. If the box is ticked on the vendor card, all interpreted documents with no errors or warning messages will be automatically created and send for approval. <br/><br/>This function can be used without any setup on ExFlow Import Journal. However, it is possible Personalize the ExFlow Import Journals list page and add the column "Automatically Create Documents" there, to have one dedicated journal for automatically create documents. <br/><br/>Read more about this under section [***Batch Import Documents from Interpretation ***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation) and under section [***Background Processing***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#background-processing)
+|**Automatically Create Documents**| Enable this box if interpreted documents should be automatically created from the ExFlow Import Journal for a specific vendor. If the box is ticked on the vendor card, all interpreted documents with no errors or warning messages will be automatically created and send for approval. <br/><br/>This function can be used without any setup on ExFlow Import Journal. However, it is possible Personalize the ExFlow Import Journals list page and add the column "Automatically Create Documents" there, to have one dedicated journal for automatically create documents. <br/><br/>Read more about this under section [***Batch Import Documents from Interpretation***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation) and under section [***Background Processing***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#background-processing)
 |**Check References** 	|When enabled it is required that the document contains an ExFlow Reference.
 |**Match Vendor's Currency Code**	|Specifies if the currency code on the imported document must match the currency code on the vendor card. <br/><br/> Read more about this under section [***Match Vendor's Currency Code***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#match-vendors-currency)
 |**Block in Import Journal**| 	Specifies if documents should be blocked from creation
@@ -109,7 +111,7 @@ The option ''From ExFlow Setup'' is set per default in most settings, meaning th
 |**Check Split Invoice Lines**|  	If “Multiple Line Matching” is true, ExFlow will give action messages for each line that has been split which gives the user an option to manually confirm the suggested matching before creating the document. Turning this setting to false means that no action message will be displayed for matched split lines.
 |**Use PO Header Values on Invoice**|  	Activate fields to transfer from Purchase Order to Invoice (Or Return Purchase Order to Credit Memo) in Import Journal when using order matching on header level. Selected values can be found and updated under Related --> Advanced --> PO Header values on Invoice Setup. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
 |**Auto Approve Invoices**|  	Specifies if the invoice should be auto approved if the related order is approved. <br/><br/> Read more about this under section [***Auto Approve Invoices***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
-|**Max. Invoice Amount for System Approval (LCY) **| Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
+|**Max. Invoice Amount for System Approval (LCY)**| Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
 |**User for Automatic Approval**|  	Specifies the ExFlow user that should be used for auto approved invoices. If this setting is empty, then the id of the logged in BC user is used
 |**Check Direct Unit Cost**| Specify if ExFlow should check the Unit Cost on the invoice line when matching invoices against purchase orders. The imported invoice needs to be line interpreted for this to work.
 
@@ -119,14 +121,14 @@ The option ''From ExFlow Setup'' is set per default in most settings, meaning th
 
 |OCR Import|  |
 |:-|:-|
-|**Set Due Date to (OCR) **| 	Specifies how the default due date should be set when importing an invoice
+|**Set Due Date to (OCR)**| 	Specifies how the default due date should be set when importing an invoice
 |**Ignore Imported Currency Code**| 	Specifies that ExFlow should always clear the imported currency code i.e. no currency is used when importing invoices
 |**Ignore OCR Lines**| 	Specifies that ExFlow should always ignore imported invoice lines i.e. only invoice header information is ever used
 |**Specific Misc Code Setting**| Enable to utilize misc. purchase code(s).
-|**Misc. 1 Purch. Code**| 	Specifies the default purchase code when using the Misc 1 code mapping in the ExFlow import specification
-|**Misc. 2 Purch. Code**| 	Specifies the default purchase code when using the Misc 2 code mapping in the ExFlow import specification
+|**Misc. Purchase Codes**| 	Specifies the default purchase code when using the Misc code mapping. Click on the three dots to open the Purchase Code Setup List.
 |**Automatic Quantity Assignment**| 	Specifies if quantity should be converted to 1 if imported quantity is 0.
 |**Ignore Master Data Synchronization**| It is possible to disregard Master Data Synchronization on a vendor level. Simply enable the checkbox ''Ignore Master Data Synchronization'' on the chosen Vendor in its Vendor Setup Card to ensure that its master data will not be sent to ExFlow Data Capture.
+|**Item No. Matching Priority**	|Determine the order in which the system attempts to match imported invoices against items and order lines. <br/><br/> Read more about this under section [***Item No. Matching Priority***](hhttps://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
 
 <br/>
 
@@ -142,7 +144,7 @@ The option ''From ExFlow Setup'' is set per default in most settings, meaning th
 
 |Auto Coding Suggestion|  |
 |:-|:-|
-|**Use Automatic Suggestion**|Choose if the vendor should utilize this function.
+|**Suggest Auto Coding for Imported Document**|Specifies how the auto coding suggestion will be used for the vendor.
 |**Calculate Auto Suggestions From Date**| 	Specifies the starting date of the document to be used in the auto coding suggestions for this vendor.
-|**Use Automatic Suggestion of Amount from Coding Set ID**|	Specifies if the amount will be suggested automatically to the document line based on the usage percentage in the Coding Set ID, fo9r this vendor. <br/><br/> Read more about this under section [***Auto Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
+|**Suggest Auto Coding Amount from Coding Set ID**|	Specifies if the amount will be suggested automatically to the document line based on the usage percentage in the Coding Set ID, for this vendor. <br/><br/> Read more about this under section [***Auto Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
 

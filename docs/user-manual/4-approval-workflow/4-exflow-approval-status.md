@@ -8,39 +8,62 @@ custom_edit_url: null
 
 Go to: ***ExFlow Approval Status***
 
-As mentioned, when a document is created from the ExFlow Import Journal, the document can be found in Approval Status.
+When a document is created from the ExFlow Import Journal, and therefore sent for approval, the document can be found in Approval Status.
 
 ![ExFlow Approval Status](@site/static/img/media/menu-001.png)
+
+| ExFlow Approval Status||
+|:-|:-| 
+|**Verify Changes**|    [***Verify Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
+|**Post Batch**|    [***Post Batch***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#post-batch)
+|**Card**|    Opens the standard purchase document card
+|**Send Reminder**|     [***Send Reminder***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#send-reminder)
+|**Open PDF-Viewer in New Tab**|   [***Open PDF-Viewer in New Tab***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
+|**Force Update of Purchase Document**|  [***Force Update of Purchase Document***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#force-update-on-purchase-document)
+|**Filter on approver**|   [***Filter on approver***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
+|*Actions--> Functions*|    
+|**Batch Update Posting Date**|    Batch Update Posting Date
+|**Update Budget Info on Documents**| Updates Budget Information on Documents. Read more under section [***G/L Budget Control***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/gl-budget-control#gl-budget-control)
+|**About ExFlow**|   [***About ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/help-and-support/about-exflow#about-exflow)
+|**Other --> Force Update of Purchase Document**|  [***Force Update of Purchase Document***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#force-update-on-purchase-document)
+|*Actions--> Posting*|    
+|**Post**|    Post Document
+|**Preview Posting**|    Preview Posting 
+|**Preliminary Posting**|  [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#preliminary-posting)
+|**Preliminary Posting-->Post**|    Post Preliminary Documents 
+|**Preliminary Posting-->Preview Posting**|    Preview Posting of Preliminary Documents
+|**Preliminary Posting-->Reverse**|    Reverse Preliminary Posting
+|**Preliminary Posting-->Find Entries**|    Find  Entries of Preliminary Documents
+|*Actions--> Posting--> Other*|   
+|**Verify Changes**|    [***Verify Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
+|**Post Batch**|    [***Post Batch***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#post-batch)
+|*Related--> Approval Status*|    
+|**Show Contract**|    Show Contract, if any is connected to the Document. Read more under section [***Contract***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#contract)
+|**Revert Document Changes**|     [***Revert Document Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#revert-document-changes)
+|**Send Unreceived Order Notification**|  [***Send Unreceived Order Notification***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
+|**Related--> Approval Status-->Card**|    Opens the standard purchase document card
+|**Related--> Approval Status-->Send Reminder**|  [***Send Reminder***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#send-reminder)
+|*Related--> Files*|    
+|**Show Document Image**|   [***Download or open PDF***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-document-image)
+|**Show Import Details (OCR)**|    [***Show import details***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-import-details)
+|**Import or Replace Image**|  [***Import or Replace Image***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#import-or-replace-image)  
+|**Related--> Files-->Other--> Open PDF-Viewer in New Tab**|    [***Open PDF-Viewer in New Tab***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
+|*Related--> Approvers*|    
+|**Approval follow-up**|    Run report [***ExFlow Approval Follow-Up***](https://docs.exflow.cloud/business-central/docs/user-manual/business-intelligence-and-reporting/reports#exflow-approval-follow-up)
+|**Per Approver**|    Run report: ExFlow Approval Status per Approver
+|**Next Approver**|    Run report: ExFlow Approval Status per Approver
+|**Reset Approver filter**|    Reset the filter that was set in [***Filter on approver***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
+
+
+### Current approver
 
 Approval Status show all invoices that are out for approval and/or are approved and ready to be posted. An administrator can see information regarding status. Both for the Invoice as well as the next approver for this specific Invoice.
 
 In this example Anders Andersson has approved all his lines and Bertil Boo is current approver.
 
+The standard purchase document card can be opened from the Approval Status menu.
+
 ![ExFlow Approval Status](@site/static/img/media/approval-status-003.png)
-
-### Highlight rejected and overdue documents
-
-To make it easier to see documents that have been rejected or are close to due date, there is a possibility to activate a setting in ExFlow Setup to highlight these documents in Approval Status with red font.
-
-![ExFlow Approval Status](@site/static/img/media/approval-status-004.png)
-
-### Setup Highlight rejected and overdue documents
-Go to: ***ExFlow Setup - Escalation***
-
-Enable *"Highlight Rejected and overdue documents"* to activate the setting.
-
-Enter a number in *"No. of Overdue Days before highlight"* to specify how many days before the due date the documents should be highlighted.
-
-This setting operates in relation with the due date of the document and the users work date "0" will highlight the document on the due date.
-
-![ExFlow Setup - Escalation](@site/static/img/media/exflow-setup-escalation-001.png)
-
-### Send email reminders for rejected documents
-Go to: ***ExFlow Email Setup***
-
-It is possible to send email reminders for rejected ExFlow approval documents if a quote, order, invoice, and/or credit memo gets rejected. To be able to send reminders for rejected approval documents, the document status needs to be "Rejected" in Approval Status.
-
-Read more under section [***ExFlow Email Setup --> Rejected Order, Rejected Quote, and Rejected Invoice/Credit***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#rejected-order,-rejected-quote,-and-rejected-invoice/credit)
 
 
 ### Verify Changes
@@ -75,11 +98,11 @@ This feature can be enabled in ExFlow Setup under **Background Processing** by a
 
 ![ExFlow Setup - Verify Changes Done Automatically](@site/static/img/media/exflow-setup-background-processing-001.png)
 
-This feature can also be found (and setup per vendor) in **ExFlow Vendor Setup**.
+This feature can also be found (and setup per vendor) in [***ExFlow Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 
 Furthermore, another function called Bypass Verify Changes can be utilized by the AP staff. Read more about this under section [***Bypass Verify Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/bypass-verify-changes) 
 
-### Reject changes in Verify Changes
+#### Reject changes in Verify Changes
 Approval process can be restarted from selected Approver on "ExFlow Verify Changes" page. This function is found on the Approvers FactBox.
 
 ![ExFlow Verify Changes](@site/static/img/media/verify-changes-001.png)
@@ -100,9 +123,7 @@ The comment will be saved in Discussion Panel in Approval Status and approver ca
 ![Approval Status](@site/static/img/media/approval-status-002.png)
 
 
-
 ### Post Batch
-
 Go to: ***Post Batch***
 
 After Verify Changes, the document is now ready for posting.
@@ -124,7 +145,7 @@ If one or several documents have Deferral Code when using Replace Posting Date, 
 
 ### Post Document
 
-Go to: ***Action \--\> Posting \--\> Post (F9)***
+Go to: ***Action --> Posting --> Post (F9)***
 
 To post one document at a time, use Post (F9).
 
@@ -138,15 +159,21 @@ Then click on Post Batch to proceed with posting.
 
 ### Preview Posting
 
-Go to: ***Approval Status \--\>*** ***Actions \--\> Posting \--\>
-Preview Posting***
+Go to: ***Approval Status --> Actions --> Posting --> Preview Posting (Ctrl+Alt+F9)***
 
-Use "Preview Posting" to review entries that will be created from current data on Card before the actual posting. Preview Posting can be used for all document status, not only for documents with status \"Ready for posting\". To Preview Posting during approval flow use "Force Update on Purchase Document" to update Card.
+Use "Preview Posting" (Ctrl+Alt+F9) to review entries that will be created from current data on Card before the actual posting. 
+
+Preview Posting can be used for all document status, not only for documents with status "Ready for posting". 
+
+To Preview Posting during approval flow use "Force Update on Purchase Document" to update Card.
 
 ### Preliminary Posting
 If Preliminary Posting is activated, then Posting, Preview Posting, Reverse and Find Entries can be done from Approval Status.
+
 Go to: ***Approval Status --> Actions --> Posting --> Preliminary Posting***
+
 Read more under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting) 
+
 
 ### Send Reminder
 
@@ -154,7 +181,7 @@ Send Reminder for this document to current approvers for all lines on one Purcha
 
 ![ExFlow Approval Status- Send Reminder](@site/static/img/media/image251.png)
 
-### Send Reminder for multiple documents
+#### Send Reminder for multiple documents
 Use "Select More" to mark several documents and click on "Send Reminder". Reminders will then be sent to all current approvers for these chosen documents.
 
 ![ExFlow Approval Status - Send Reminder](@site/static/img/media/image252.png)
@@ -163,11 +190,16 @@ Following message will then pop up:
 
 ![ExFlow Approval Status- Send Reminder](@site/static/img/media/image253.png)
 
+#### Send email reminders for rejected documents
+Go to: ***ExFlow Email Setup***
+
+It is possible to send email reminders for rejected ExFlow approval documents if a quote, order, invoice, and/or credit memo gets rejected. To be able to send reminders for rejected approval documents, the document status needs to be "Rejected" in Approval Status.
+
+Read more under section [***ExFlow Email Setup --> Rejected Order, Rejected Quote, and Rejected Invoice/Credit***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup)
+
+
 ### Open PDF- Viewer in New Tab
-
-It is possible to open the PDF in a new tab. The ExFlow web URL must be set in the ExFlow Email Setup (Email Type "Inbox Reminder") in the default company.
-
-Read more under section [***ExFlow Email Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder) 
+It is possible to open the PDF in a new separate tab to get a better view of the document image. 
 
 ![ExFlow Approval Status- Open PDF - Viewer in New Tab](@site/static/img/media/image254.png)
 
@@ -186,67 +218,87 @@ Filter on a specific approver (approval group) and Status in the Approval Status
 ![ExFlow Approval Status- Filter on approver](@site/static/img/media/image256.png)
 
 ### Show Document Image
-To download or open PDF
-Go to: ***Approval Status --> Related --> Files --> Show Document Image***
+Go to: ***Approval Status --> Related --> Files --> Show Document Image***<br/>
 
+To download or open PDF.
 
 ### Show Import Details
-To show import details
-Go to: ***Approval Status --> Related --> Files --> Show Import Details***
+Go to: ***Approval Status --> Related --> Files --> Show Import Details***<br/>
 
+To show import details.
 
 ### Import or Replace Image
-To import or replace PDF
-Go to: ***Approval Status --> Related --> Files --> Show Document Image***
+Go to: ***Approval Status --> Related --> Files --> Show Document Image***<br/>
+
+To import or replace PDF.
+
+### Change G/L Account during approval
+Go to: ***ExFlow Approval Status --> Card***
+
+Changing the number (removes the old number and adds the new) on a G/L Account, that has an approval flow, will remove it, and insert a new if applicable.
+
+### Delete a Purchase Invoice in Approval Status
+Go to: ***Purchase Invoice/Purchase Credit Memo***
+
+When the document is created but not posted, deleting follows the Business Central standard.
+
+Go to Purchase Invoice/Purchase Credit Memo by clicking "Card" and delete. Approval status card will be saved with Invoice No. In "ExFlow
+Deleted Documents".
+
+Posted Purchase Invoices should not be deleted. Start by creating a Credit Memo that neutralizes the Invoice. Then, create a new Purchase Invoice if needed.
+
+### Revert Document Changes
+Go to: **''...'' --> Related--> Approval Status --> Revert Document Changes**<br/>
+
+Use *Revert Document Changes* to reset the document back to original again and discard all changes made on the document lines by approvers. 
+
+#### For modified document lines with Status *Approved, Rejected or On hold*
+
+To reset the modified document lines, AP users can use this function to reset all changes, instead of manually editing the Approval Status Card.
+
+If AP users answers yes to the question: *''Do you want to revert all changes and restart the approval flow?''*, then all changes will be reverted and the approval flow will be restarted.
+
+Reverted documents (approved/rejected/on hold) will also be set back to ''Active''.
+
+![Revert](@site/static/img/media/approval-status-revert-changes-001.png)
+
+#### Nothing to revert
+For documents with status ''Ready for posting'', it will not be possible to revert changes and restart the approval flow. The message: *''Nothing to revert''* will be shown. <br/>
+
+![Revert](@site/static/img/media/approval-status-revert-changes-002.png)
+
+The same message will be applied when it comes to documents with no changes. <br/>
+
+This function will not be applied to documents that are set to Approved, On Hold or Rejected on a Header level (without any changes on lines). If the approval flow needs to be restarted in these cases, ''Restart Route'' can be used on the Document Lines in Approval Status as usual.
+
+Discussion panel/chat will not be reverted/deleted when using this function. <br/>
 
 
-### Handle Rejected Invoice / Restart Approval Flow
+<br/>
 
-This is to be used when the correct approval workflow has been selected but for some reason it needs to be restarted (for example a rejection).
+## Approval Status - Lines 
 
-If document is rejected on ExFlow Web the approver must add a comment that will be saved on the Approver Line, and the document needs to be
-handled in Business Central.
+| Document Lines --> Line |  |
+|:-|:-|
+| Approval               | Opens ExFlow Document approval card
+| Complete               | Approve marked document line(s)
+| Restart Route               | Restart approval flow for document (line(s))
+| Copy to all lines                | Copy the current lines approval flow to other lines on the document. All approvers in the approval rule must approve
+| Show Available Approval Rules                | Opens a list of the available approval rules
+| Dimension                | Show the dimension on the specific document line
+| Deferral Schedule                | Opens the Deferral Schedule if a Deferral Code is set
+| Show Current Dimension Owners                | Shows the Dimension Owner
+| Show Budget                | Shows Budget Overview 
 
-When using automatic Approval Rules, the recommended option is instead to update the data on the invoice card. Then ExFlow will automatically
-assign a new approval workflow based on the new data.
+| Doc. Line Approvers |  |
+|:-|:-|
+| Approve marked Approver Line               | Complete the marked line, the line must have status ‘’Current’’
+| Restart route               | Restart approval flow. Read more about this under section ‘’Handle Rejected Invoice / Restart Approval Flow’’ 
 
-Another way is to restart the approval flow on the line by clicking "Restart route". Or insert a new Approver manually after Approver that have rejected the document. The new Approver will receive status Current and can then view the rejected Approver's comment.
-
-This function is found on the section "Document Lines".<br/>
-***Document Lines \--\> Line \--\> Restart route***
-
-![ExFlow Approval Status - Document Lines](@site/static/img/media/image257.png)
-
-Restarting the route from Document Lines has two options.
-
-**Restart line** - restart the "Document Lines", all the connected "Doc.
-Line Approvers" lines.
-
-**Restart all lines** - restart all "Document Lines" and all connected
-"Doc. Line Approvers" lines.
-
-![Restart Route](@site/static/img/media/image258.png)
-
-To restart from marked approver on one or all lines.<br/>
-Go to: ***Doc. Line Approvers \--\> Restart route.***
-
-![ExFlow Approval Status - Doc. Line Approvers](@site/static/img/media/image259.png)
-
-**Restart line** - restart the "Document Lines", all the connected "Doc.
-Line Approvers" lines.
-
-**Restart all lines** - restart all "Document Lines" and all connected
-"Doc. Line Approvers" lines.
-
-**Restart from marked Approver** - restart from marked approver on
-marked line.
-
-**Restart from marked Approver for all lines -** e.g. two "Document lines" with three approvers, all lines approved, restart standing on the second approver this option will restart all "Document Lines" from the same user on lines that contains this user. If this user occurs more than ones the rout will restart from users first line.
-
-![Restart Route](@site/static/img/media/image260.png)
+<br/>
 
 ### Change Approval Flow
-Select line and go to: ***Document Lines \--\> Line \--\> Approval.***
+Select line and go to: ***Document Lines --> Line --> Approval***
 
 ![ExFlow Approval Status - Document Lines](@site/static/img/media/image261.png)
 
@@ -261,25 +313,68 @@ Propose new approvers will delete current and add new approver/approvers from ne
 **Copy to all lines**<br/>
 If a document contains many documents lines, "Copy to all lines" helps copying the Approval Group (from one line) to all lines.
 
-### Change G/L Account during approval
-Go to: ***ExFlow Approval Status \--\> Card***
+### Handle Rejected Invoice / Restart Approval Flow
 
-Changing the number (removes the old number and adds the new) on a G/L Account, that has an approval flow, will remove it, and insert a new if applicable.
+This is to be used when the correct approval workflow has been selected but for some reason it needs to be restarted (for example a rejection).
 
-### Delete a Purchase Invoice in Approval Status
-Go to: ***Purchase Invoice/Purchase Credit Memo***
+If document is rejected on ExFlow Web the approver must add a comment that will be saved on the Approver Line, and the document needs to be handled in Business Central.
 
-When the document is created but not posted, deleting follows the Business Central standard.
+When using automatic Approval Rules, the recommended option is instead to update the data on the invoice card. Then ExFlow will automatically assign a new approval workflow based on the new data.
 
-Go to Purchase Invoice/Purchase Credit Memo by clicking "Card" and delete. Approval status card will be saved with Invoice No. In "ExFlow
-Deleted Documents".
+Another way is to restart the approval flow on the line by clicking "Restart route". Or insert a new Approver manually after Approver that have rejected the document. The new Approver will receive status Current and can then view the rejected Approver's comment.
 
-Posted Purchase Invoices should not be deleted. Start by creating a Credit Memo that neutralizes the Invoice. Then, create a new Purchase Invoice if needed.
+This function is found on the section "Document Lines". <br/>
+***Document Lines --> Line --> Restart route***
 
-### FactBoxes in Approval Status
-To the right in Approval Status there is useful FactBox.
+![ExFlow Approval Status - Document Lines](@site/static/img/media/image257.png)
 
-**PDF Preview**<br/>
+Restarting the route from Document Lines has two options.
+
+**Restart line** - restart the "Document Lines", all the connected "Doc.
+Line Approvers" lines.
+
+**Restart all lines** - restart all "Document Lines" and all connected
+"Doc. Line Approvers" lines.
+
+![Restart Route](@site/static/img/media/image258.png)
+
+To restart from marked approver on one or all lines. <br/>
+Go to: ***Doc. Line Approvers --> Restart route***
+
+![ExFlow Approval Status - Doc. Line Approvers](@site/static/img/media/image259.png)
+
+**Restart line** - restart the "Document Lines", all the connected "Doc.
+Line Approvers" lines.
+
+**Restart all lines** - restart all "Document Lines" and all connected
+"Doc. Line Approvers" lines.
+
+**Restart from marked Approver** - restart from marked approver on
+marked line.
+
+**Restart from marked Approver for all lines** e.g. two "Document lines" with three approvers, all lines approved, restart standing on the second approver this option will restart all "Document Lines" from the same user on lines that contains this user. If this user occurs more than ones the rout will restart from users first line.
+
+![Restart Route](@site/static/img/media/image260.png)
+
+### View Current Replacer on the Document Lines
+
+On the Document Lines in Approval Status, it is possible to see who the current replacer is for the current approver.
+
+![Current Replacer](@site/static/img/media/approval-status-replacer-001.png)
+
+Read more about how to work with replacers under section [***Add a Replacer During Vacation Time***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time)
+
+## FactBoxes in Approval Status
+Find useful FactBoxes on the right side in Approval Status.
+
+| FactBox |  |
+|:-|:-|
+| PDF Preview               | [***PDF Preview***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#pdf-preview)
+| Incoming Document Files               | [***Incoming Document Files***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#incoming-document-files)
+| Discussion Panel               | [***Discussion Panel***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#discussion-panel)
+| Vendor Statistic and Buy-from Vendor History              | [***Vendor Statistic and Buy-from Vendor History***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#vendor-statistic-and-buy-from-vendor-history)
+
+### PDF Preview
 Change size on PDF Preview Press - / + to decrease or increase size of PDF.
 
 ![ExFlow Approval Status](@site/static/img/media/image262.png)
@@ -297,13 +392,12 @@ Change PDF page No. use "Record Buttons".
 ![PDF Preview](@site/static/img/media/image265.png)
 
 Open PDF file in full size.<br/>
-Go to: ***Navigate \--\> files \--\> Show Document Image (Ctrl+I)***
+Go to: ***Navigate --> Files --> Show Document Image (Ctrl+I)***<br/>
 
-**Incoming Document Files**<br/>
-View and add Attach File.
+### Incoming Document Files
+View and add Attach File. To attach a document without replace Main Attachment.<br/>
 
-To attach a document without replace Main Attachment.<br/>
-Go to: ***FactBox \--\> Incoming Document Files \--\> Attach File***<br/>
+Go to: ***FactBox --> Incoming Document Files --> Attach File***
 
 Click "Choose", browse to the file to attach, and click "Open".
 
@@ -311,26 +405,30 @@ Click "Choose", browse to the file to attach, and click "Open".
 
 It can also be done from Incoming Document in Business Central standard.
 
-**Change PDF Document Image**<br/>
+#### Change PDF Document Image
 If PDF Image needs to be change it can be done before posting the
-document.<br/>
-Go to*: **Navigate \--\> Files \--\> Import or Replace Image***
+document. <br/>
 
-It can also be done from Incoming Document in Business Central standard.
+Go to: **Related --> Files --> Import or Replace Image**
 
-**Discussion Panel**<br/>
+It can also be done from Incoming Document in Business Central standard.<br/>
+
+#### Attach File from Purchase Invoice or Purchase Credit Memo
+
+Attachment made from Purchase Invoice and Purchase Credit Memo Card in Business Central Standard will not show in ExFlow. Therefore, we recommend that Incoming Document Files in FactBox from Approval Status is used instead.
+
+### Discussion Panel
 When adding a comment in Discussion Panel from Approval Status and click SEND the comment can be seen in FactBox to the right marked with creating Users ID, Date and Time. On ExFlow Web it will display in Chat on the Document.
 
 If a user is mentioned by using @ the user will be able to see this document and comment on ExFlow Web even if the user is **not** in the approval flow.
 
 ![ExFlow Approval Status - Discussion Panel](@site/static/img/media/image267.png)
 
-Read more about settings and how to use Discussion Panel under section: [***Notifications in Business Central \--\> Discussion Panel / Chat and Line Comments***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
+Read more about settings and how to use Discussion Panel under section: [***Notifications in Business Central --> Discussion Panel / Chat and Line Comments***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).<br/>
 
-### Read Comments from Approvers
+#### Read Comments from Approvers
 
 When a web approver adds a comment on Chat in header and click "SEND" the comment can be seen in FactBox to the right marked with approvers ID, Date and Time. 
-
 
 Document will also have a tag in header "Comment in Discussion Panel" if there are any comments made from ExFlow or ExFlow Web.
 
@@ -340,24 +438,34 @@ When a web approver adds a comment on a line the comment will be seen on "Doc. L
 
 ![ExFlow Approval Status - Doc Line Approvers](@site/static/img/media/image269.png)
 
-Read more about settings and how to use Discussion Panel under section: [***Notifications in Business Central \--\> Discussion Panel / Chat and Line Comments***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
+Read more about settings and how to use Discussion Panel under section: [***Notifications in Business Central --> Discussion Panel / Chat and Line Comments***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
 
-### Attach File from Purchase Invoice or Purchase Credit Memo
+### Vendor Statistic and Buy-from Vendor History 
 
-Attachment made from Purchase Invoice and Purchase Credit Memo Card in Business Central Standard will not show in ExFlow. Therefore, we recommend that Incoming Document Files in FactBox from Approval Status is used instead.
+Find Vendor information in Vendor Statistic and Buy-from Vendor History FactBoxes.
 
-### Background Processing
+These FactBoxes can also be found in ExFlow Approval History.
 
-Go to ***ExFlow Setup \--\> Background Processing***
+![FactBox](@site/static/img/media/approval-status-factbox-vendor-001.png)
+
+
+<br/>
+
+## Background Processing
+
+Find all information about Background Processing [***here***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#background-processing)
+
+Go to ***ExFlow Setup --> Background Processing***
 
 Following settings only applies to documents without changes.
 
 If there are any changes done from ExFlow Web, they still need to be updated manually in Approval Status by running Verify Changes.
 
-**"Verify with Job Queue"** and **"Verify & Post with Job Queue"**.<br/>
+### Verify with Job Queue and Verify & Post with Job Queue
 Tick one of these settings to automatically create a Job Queue that will "Verify" or "Verify and Post"' approved invoices, without Changes from ExFlow Web, in Approval Status.
 
-**"Verify Changes Done Automatically"** Will update documents with status "Approved" to "Ready for Posing" without Job Queue Entry.
+### Verify Changes Done Automatically
+Will update documents with status "Approved" to "Ready for Posing" without Job Queue Entry.
 
 ![ExFlow Setup - Background Processing](@site/static/img/media/exflow-setup-background-processing-002.png)
 
@@ -367,19 +475,19 @@ When the function gets disabled, the Job Queue "Ex Verify & Post Job Queue" will
 
 ![Job Queue Entry Card - Verify & Post with Job Queue](@site/static/img/media/image271.png)
 
-**Verify with Job Queue**<br/>
+### Verify with Job Queue
 This setting specifies if verification of approved documents should be scheduled to run in the background. This will only apply for documents without changes on ExFlow Web.
 
 ![ExFlow Setup - Background Processing - Verify with Job Queue](@site/static/img/media/exflow-setup-background-processing-003.png)
 
-**Verify & Post with Job Queue**<br/>
+### Verify & Post with Job Queue
 Specifies if documents with status "Ready for Posting" in Approval Status should be scheduled to run in the background and post documents after verification.
 
 ![ExFlow Setup - Background Processing - Verify & Post with Job Queue](@site/static/img/media/exflow-setup-background-processing-004.png)
 
 All "ExFlow web - changed" documents, that requires to be updated in ExFlow Verify Changes in Approval Status, will be excluded from this scheduled job. A message in Error Message field in the ExFlow Approval Status will be visible on these non-updated documents.
 
-**Verify Changes Done Automatically**<br/>
+### Verify Changes Done Automatically
 This setting allows to skip the step "Verify Changes" in Approval Status page if no changes were made on the approved document. Document status is automatically changed to "Ready for Posting".
 
 ![ExFlow Setup - Background Processing - Verify Changes Done Automatically](@site/static/img/media/exflow-setup-background-processing-005.png)
@@ -388,12 +496,12 @@ The "Verify Changes Done Automatically" setting can also be found in ExFlow Vend
 
 ![ExFlow Advanced Vendor Options - Verify Changes Done Automatically](@site/static/img/media/Vendor-setup-card-006.png)
 
-**Automatically Create Documents**
+### Automatically Create Documents
 
 Enable this box if all interpreted documents should be automatically created
 from the ExFlow Import Journal. This function can also be setup per vendor in Vendor Setup if a specific vendor's documents (for instance) should be excluded from this setting.
 
-If the function is enabled then all interpreted documents with no errors or warning messages will be automatically created and sent for approval.
+If the function is enabled, then all interpreted documents with no errors or warning messages will be automatically created and sent for approval.
 
 ![ExFlow Setup - Background Processing - Automatically Create Documents](@site/static/img/media/background-processing-automatically-create-001.png)
 
@@ -405,12 +513,15 @@ This function can be used without any setup on ExFlow Import Journal, simply cli
 
 Read more about this under section [***Batch Import Documents from Interpretation***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
 
+## Doc. Posting Checks
+
+Find all information about Doc. Posting Checks [***here***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#doc-posting-checks)
 
 ### Invoice Rounding
 
-If Invoice Rounding is activated in ***Business Central \--\> Purchase & Payables Setup\--\> General***, then ExFlow has support to automatically post invoice rounding to match the Gross Amount on the document.<br/>
+If Invoice Rounding is activated in ***Business Central --> Purchase & Payables Setup--> General***, then ExFlow has support to automatically post invoice rounding to match the Gross Amount on the document. <br/>
 
-Go to: ***ExFlow Setup \--\> Doc. Posting Checks***
+Go to: ***ExFlow Setup --> Doc. Posting Checks***
 
 Activate "Invoice Rounding" and add value in "Max Difference for Gross Amount". Also make sure the "Check Gross Amount" setting is ticked as well.
 
@@ -423,12 +534,26 @@ If SweBase (for Swedish customers) is installed, rounding will be handled by Swe
 Read more under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
 
 
+## Escalation
 
-### View Current Replacer on the Document Lines
-
-On the Document Lines in Approval Status, it is possible to see who the current replacer is for the current approver.
-
-![Current Replacer](@site/static/img/media/approval-status-replacer-001.png)
+Find all information about Escalation [***here***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#escalation)
 
 
-Read more about how to work with replacers under section [***Add a Replacer During Vacation Time***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time)
+### Highlight rejected and overdue documents
+
+To make it easier to see documents that have been rejected or are close to due date, there is a possibility to activate a setting in ExFlow Setup to highlight these documents in Approval Status with red font.
+
+![ExFlow Approval Status](@site/static/img/media/approval-status-004.png)
+
+#### Setup Highlight rejected and overdue documents
+Go to: ***ExFlow Setup --> Escalation***
+
+Enable *"Highlight Rejected and overdue documents"* to activate the setting.
+
+Enter a number in *"No. of Overdue Days before highlight"* to specify how many days before the due date the documents should be highlighted.
+
+This setting operates in relation with the due date of the document and the users work date "0" will highlight the document on the due date.
+
+![ExFlow Setup - Escalation](@site/static/img/media/exflow-setup-escalation-001.png)
+
+

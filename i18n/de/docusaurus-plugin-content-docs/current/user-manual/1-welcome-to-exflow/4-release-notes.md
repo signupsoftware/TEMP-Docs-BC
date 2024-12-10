@@ -6,6 +6,45 @@ custom_edit_url: null
 ---
 ## Versionshinweise
 
+### ExFlow 24.1.0.0 – Versionshinweise <br/> 
+**Art der Veröffentlichung:** <br/>
+Kleinere Veröffentlichung
+
+**Veröffentlichungsdatum:** <br/>
+2024-12-10
+
+**Veröffentlichungsinformationen:** <br/>
+Erfordert BC 24.0 oder höher <br/>
+
+**Neue Funktionen** <br/> 
+
+| ID | Bereich | Beschreibung |
+| :----------- | :-------------- | :-------------- | 
+|30556 | Importjournal | ExFlow wurde erweitert, um bis zu 8 verschiedene Felder für Nebenkosten auf Einkaufscodes abzubilden.
+|44644 | Importjournal | Neues Ereignis für die Zuordnung von Artikelkosten im Importjournal hinzugefügt.
+|42817 | Genehmigungsstatus | Neuer Shortcut-Befehl für die Vorschau der Buchung im Genehmigungsstatus hinzugefügt.
+|44220 | Importjournal | PDF-Viewer in separatem Browser wieder unterstützt.
+|32864 | Genehmigungsstatus | FactBoxes für Lieferantenstatistiken im Genehmigungsstatus und Genehmigungsstatusverlauf hinzugefügt.
+|40207 | Importjournal | Verbesserte Währungsabstimmung in der Zahlungsvalidierung.
+|43588 | Genehmigungsstatus | Funktion zum Zurücksetzen aller Codierungen auf Dokumenten im Web im Genehmigungsstatus hinzugefügt.
+
+<br/>
+
+**Verbesserungen/Erweiterungen**<br/> 
+
+| ID | Bereich | Beschreibung |
+| :----------- | :-------------- | :-------------- | 
+|43997 | Web | Problem behoben, bei dem die Warnung über die Mindestanzahl an Genehmigern manchmal nicht angezeigt wurde.
+|44100 | Einrichtung | Updates an EX BASE vorgenommen, bei denen einige Berechtigungen fehlten.
+|44288 | Importjournal | Problem behoben, bei dem ein Beleg in einigen Fällen nicht abgeglichen werden konnte, wenn derselbe Artikel in mehreren Zeilen verwendet wurde.
+|42949 | Importjournal | Problem behoben, bei dem die Dimensionen und Genehmigungen nicht den Einstellungen folgten, wenn ein Vertrag abgeglichen wurde.
+|42062 | Web | Problem behoben, bei dem Artikelkosten im Web manchmal nicht genehmigt werden konnten.
+
+<br/> 
+Kleinere Fehlerkorrekturen sind ebenfalls in dieser Veröffentlichung enthalten, aber nicht in den Versionshinweisen aufgeführt.
+<br/>
+
+
 ### ExFlow 24.0.0.0 – Versionshinweise <br/> 
 **Art der Veröffentlichung:** <br/>
 Hauptversion

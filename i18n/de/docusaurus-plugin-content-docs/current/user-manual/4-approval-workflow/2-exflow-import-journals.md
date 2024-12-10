@@ -36,8 +36,7 @@ Aus der ExFlow Import Journals-Liste ist es möglich, nach Journals zu suchen, e
 | **Nur mit der Bestellung übereinstimmende Dokumente** | Aktivieren Sie dieses Kontrollkästchen für ein bestimmtes Journal, um ein spezielles Journal nur für mit der Bestellung übereinstimmende Dokumente zu haben
 | **Dokumente beim Import überprüfen** | Wählen Sie aus, ob die Überprüfung der Dokumente beim Import für alle Dokumente im Journal oder nur für die neu importierten Dokumente durchgeführt werden soll. 
 | **NEIN. von Dokumenten** | Geben Sie die Anzahl der Dokumente im Journal an
-| **Fehler beim Batch-Download von ExFlow Data Capture** | Aktivieren Sie diese Option, um alle ExFlow Data Capture-Batch-Download-Fehler im selben Journal festzulegen
-| **Zeilen mit automatischem Vorschlag erstellen** | Aktivieren Sie dieses Kontrollkästchen für ein bestimmtes Journal, um ein eigenes Journal für Auto-Coding-Vorschläge zu haben
+| **Erstellen von Zeilen mit automatischem Codierungsvorschlag** | Aktivieren Sie dieses Kontrollkästchen für ein bestimmtes Journal, um ein eigenes Journal für Auto-Coding-Vorschläge zu haben
 | **Zahlungsvalidierung ignorieren** | Aktivieren Sie dieses Kontrollkästchen für ein bestimmtes Journal, in dem Dokumente den Zahlungsvalidierungsprozess überspringen
 | **Zahlungsvorschlag ignorieren** (verborgenes Feld) | Aktivieren Sie dieses Kontrollkästchen für ein bestimmtes Journal, in dem Dokumente den Zahlungsvorschlagsprozess überspringen. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden
 | **Dokumente automatisch erstellen** (verborgenes Feld) | Aktivieren Sie dieses Kontrollkästchen, um ein spezielles Journal zu erhalten, das automatisch Dokumente erstellt. Dieses Feld kann über die Seitenpersonalisierung hinzugefügt werden

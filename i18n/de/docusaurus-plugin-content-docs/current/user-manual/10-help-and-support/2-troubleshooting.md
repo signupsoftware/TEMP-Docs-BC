@@ -71,7 +71,7 @@ Erfahren Sie mehr über den Bestellprozess im Abschnitt [***Einkaufsbestellabgle
 
 ### Lieferantenbezogene Meldungen
 
-#### **Aktionsmeldung:** Lieferant kann für Lieferanten-ID 1234567890 nicht identifiziert werden.
+#### **Aktionsmeldung:** Lieferant kann für Lieferanten-ID XXX nicht identifiziert werden.
 **Lösung:** Überprüfen Sie das gescannte Dokument. Ist die Lieferanten-ID korrekt interpretiert? Überprüfen Sie Name, IBAN und Bankkonten. Wenn nicht, ändern Sie die Lieferanten-ID-Nummer.
 
 Existiert der Lieferant in Business Central? Wenn nicht, erstellen Sie den Lieferanten in Business Central.
