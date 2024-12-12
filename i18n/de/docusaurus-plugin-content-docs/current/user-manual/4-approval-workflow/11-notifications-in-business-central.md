@@ -57,41 +57,38 @@ Dieser Link zeigt dem Benutzer eine Liste, die der folgenden ähnelt:
 
 Klicken Sie auf die Zahl in der rechten Spalte, um eine neue Seite zu öffnen, auf der der Benutzer Kommentare im ausgewählten Unternehmen lesen kann.
 
+
 ### Chat-Benachrichtigungsverlauf
 
-Gehen Sie zu: ***ExFlow \--\> Verlauf \--\> ExFlow Chat-Benachrichtigungsverlauf***
+Gehen Sie zu: ***ExFlow-Verlauf --> ExFlow-Chat-Benachrichtigungen***
 
-Ein ExFlow-Benutzer kann ExFlow-Chat-Benachrichtigungen anzeigen, in denen der Benutzer in den letzten 90 Tagen markiert wurde.
+Ein ExFlow-Benutzer kann die ExFlow-Chat-Benachrichtigungen einsehen, in denen er in den letzten 90 Tagen markiert wurde.
 
 Doppelklicken Sie auf die Nachricht oder "Dokument anzeigen", um eine neue Nachricht auf demselben Dokument zu schreiben.
 
-In der "Chat-Benachrichtigungsliste" werden alle neuen ungelesenen Nachrichten in Fettschrift angezeigt.
+In der "ExFlow-Chat-Benachrichtigungsliste" werden alle neuen ungelesenen Nachrichten in Fettschrift angezeigt.
 
-![ExFlow Chat-Benachrichtigungsliste](../../images/image343.png)
+![ExFlow Chat Notification List](@site/static/img/media/image343.png)
 
-**Firma:** Die Firma, in der das Dokument erstellt wurde, in der der Benutzer erwähnt wird.
+| Chat-Benachrichtigungsverlaufsliste |  |
+|:-|:-|
+|**Dokument anzeigen:** |Öffnen Sie das Dokument, um die gesamte Nachricht zu lesen und eine Nachricht zu senden.
+|**Ungelesene anzeigen:** |Zeigen Sie nur ungelesene Nachrichten an.
+|**Alle anzeigen:** |Zeigen Sie alle Nachrichten der letzten 90 Tage an.
+|**Liste neu laden:** |Laden Sie die Liste neu, um neue Nachrichten anzuzeigen.
+|**In Excel öffnen:**| Öffnen Sie die Liste in Excel.
 
-**Beschreibung:** Art des Dokuments und Dokumentnummer.
+| Chat-Benachrichtigungsverlauf |  |
+|:-|:-|
+|**Unternehmen:**| Das Unternehmen, in dem das Dokument erstellt wurde und in dem der Benutzer erwähnt wird.
+|**Dokument-Nr.:** |Gibt die Dokumentnummer an.
+|**Journaltyp**| Gibt den Bereich an, auf den sich die Nachricht bezieht.
+|**Lieferantennummer:** |Zahlungsempfänger-Nummer für das Dokument.
+|**Kommentar von**| Gibt den Benutzer an, der den Kommentar geschrieben hat.
+|**Nachrichtenvorschau**| Zeigt eine Vorschau der Nachricht an.
+|**Letztes Benachrichtigungsdatum:** (verstecktes Feld) |Datum, an dem der Benutzer zuletzt auf dem Dokument erwähnt wurde.
 
-**Kommentar von:** Wer den Kommentar geschrieben hat.
-
-**Lieferantennummer:** Pay-To-Lieferantennummer für das Dokument.
-
-**Hinweis:** Vorschau. Dokument öffnen, um die gesamte Nachricht zu lesen.
-
-**Letztes Benachrichtigungsdatum:** Datum, an dem der Benutzer zuletzt im Dokument erwähnt wurde.
-
-**Dokument anzeigen:** Dokument öffnen, um die gesamte Nachricht zu lesen und eine Nachricht zu senden.
-
-**Ungelesene anzeigen:** Zeigt nur ungelesene Nachrichten an.
-
-**Alle anzeigen:** Zeigt alle Nachrichten der letzten 60 Tage an.
-
-**Liste neu laden:** Neu laden, um neue Nachrichten anzuzeigen.
-
-**In Excel öffnen:** Liste nach Excel senden.
-
-Alle Nachrichten aus dem Chat werden im Diskussionsbereich FactBox angezeigt.
+Alle Nachrichten aus dem Chat werden im Diskussionsbereich der FactBox angezeigt.
 
 ![ExFlow Approval Status Card](../../images/image345.png)
 
@@ -110,6 +107,7 @@ Im Dokument ist die Blase rot, wenn es ungelesene Nachrichten gibt.
 ![ExFlow Web - Document Chat](../../images/image348.png)
 
 ![ExFlow Web - Document Chat](../../images/image349.png)
+
 
 ### Import Journal - Diskussionsbereich (Nachricht wird gesendet, wenn das Dokument erstellt wird)
 

@@ -61,7 +61,7 @@ Clicking on the number in the right-hand column will open a new page where the u
 
 ### Chat Notification History
 
-Go to: ***ExFlow \--\> History \--\> ExFlow Chat Notification History***
+Go to: ***ExFlow History --> ExFlow Chat Notifications***
 
 An ExFlow User can view ExFlow Chat Notifications the user has been
 tagged in for the last 90 days.
@@ -69,36 +69,28 @@ tagged in for the last 90 days.
 Double click on the message or "Show Document" to view wright a new
 message on the same document.
 
-In "Chat Notification List" all new unread messages will show in Bold
+In "ExFlow Chat Notification List" all new unread messages will show in Bold
 text.
 
 ![ExFlow Chat Notification List](@site/static/img/media/image343.png)
 
-**Company:** The company the document is created in where user is
-mentions.
+| Chat Notification History List |  |
+|:-|:-|
+|**Show Document:** |Open Document to read whole message and to send a message.
+|**Show Unread:** |Show only messages that is unread.
+|**Show All:** |Show all messaged for the last 90 days.
+|**Reload List:** |Reload to view new messages.
+|**Open in Excel:**| Open list in Excel.
 
-**Description:** Type of document and document No.
-
-**Comment made by:** Who wrote the comment.
-
-**Vendor No:** Pay-To-Vendor No for the document.
-
-**Note:** Preview. Open document to read the whole message.
-
-**Last Notification Date:** Date when user was last mentioned on the
-document.
-
-**Show Document:** Open Document to read whole message and to send a
-message.
-
-**Show Unread:** Show only messages that is unread.
-
-**Show All:** Show all messaged for the last 60 days.
-
-**Reload List:** Reload to view new messages.
-
-**Open in Excel:** Sent list to Excel.
-
+| Chat Notification History |  |
+|:-|:-|
+|**Company:**| The company the document is created in, and where the user is mentioned.
+|**Document No.:** |Specifies the Document Do.
+|**Journal Type**| Specifies the area the message related to
+|**Vendor No:** |Pay-To-Vendor No for the document.
+|**Comment made by**| Specifies the user that wrote the comment.
+|**Preview Message**| Shows a preview of the message.
+|**Last Notification Date:** (hidden field) |Date when user was last mentioned on the document.
 
 
 All messages from Chat will show in Discussion Panel FactBox.

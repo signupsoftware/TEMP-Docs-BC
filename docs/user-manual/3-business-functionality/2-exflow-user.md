@@ -12,7 +12,6 @@ Adding a new user will automatically create an Approval Group with the
 same name.<br/>
 
 
-
 ### Add Default Setup for ExFlow Users
 
 Go to: ***Setup --> ExFlow Setup***
@@ -44,6 +43,8 @@ One of the settings is “Default User Coding Rule ID”. It makes the setup of 
 
 ### Import ExFlow Users from Excel
 
+Go to: ***Setup --> ExFlow Manual Setup --> ExFlow Users***
+
 Besides manually adding new users it is possible for administrators to add ExFlow Users by Importing Users from Excel "Import Users".<br/>
 
 To Import from Excel, use the "Download Template" for Excel spreadsheet.
@@ -53,11 +54,11 @@ To Import from Excel, use the "Download Template" for Excel spreadsheet.
 
 ### Add a New User manually
 
-Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
+Go To: ***Setup --> ExFlow Manual Setup --> ExFlow Users --> New***
 
 ![ExFlow User Card](@site/static/img/media/exflow-user-004.png)
 
-| ExFlow User |  |
+| ExFlow User Card |  |
 |:-|:-|
 | **User ID:**                      | Add User ID without Domain
 | **User Name:**                    | Add Approvers' full names
@@ -117,45 +118,7 @@ Learn more about Notifications under section [***Approval Workflow --> Notificat
 | **Blocked:**                          | If Approver is blocked. Read more under [***Approver Leaving the Company***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
 |**Access to Confidential Documents**|  Specifies if the user have access to see Confidential Documents or not. Read more under [***Confidential Documents***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
 
-
 <br/>
-
-### Create a System User
-
-Go to: ***Business Central Standard User***
-
-ExFlow User can also be created from Business Central User, by using “Create ExFlow User”. Action can be reached from Business Central User card, or “Users” main page.
-
-![Business Central User](@site/static/img/media/business-central-user-001.png)
-
-In Users page select one or multiple Users and click “Create ExFlow User”. This action opens a new page displaying a temporary table with the selected users presenting all the values that will be pulled and copied over to the ExFlow Users once completed.
-
-The “ExFlow User Exists” column in the table shows whether the ExFlow User has already been created or not. All other values of all other remaining fields have been copied from Business Central User card but can be modified if necessary.
-
-![ExFlow User Card - Associated System User](@site/static/img/media/business-central-user-002.png)
-
-User Coding Rule ID will be added automatically on newly created ExFlow User card, depending on the value selected on “Default User Coding Rule ID” in ExFlow Setup.
-
-Business Central User will be associated automatically to ExFlow User as an System User.
-
-User Permission Sets automatically will be updated on User card for the newly created ExFlow Users. Depending on what Role or Web permission Role they’ve specified, the Business Central User will be updated with EX ADMIN or EX APPROVER.
-
-#### **Permissions on a Business Central user**
-These are all available permissions set to use on a system user.
-
-| Permission set |  |
-|:-|:-|
-|**EX BASE**| Permission set that is granted automatically when installing ExFlow, this is needed to be able to access pages and cards that have ExFlow functionality in them (such as Purchase Order, Purchase Quote etc)<br/>
-|**EX ADMIN**| Full access to all tables and pages for ExFlow.<br/>
-|**EX ACCOUNTANT**| Limited access to pages. No access to setup pages (except re-invoicing pages). Can administrate ExFlow Users.<br/>
-|**EX READER**| Same as EX BASE but with only read permission.<br/>
-|**EX APPROVER**| Access to ExFlow Search and ExFlow Approval Documents. Used for approving invoices within Business Central.<br/>
-|**EX PURCHASER**| Access to use functions related to ExFlow on Purchase Orders and Quotes, such as adding approvers, changing approval flow. Also access to ExFlow Order/Quote Status.<br/>
-|**EX WEB SERVICE**| Used for the web and is assigned automatically when creating the Application from ExFlow setup. Needed only for ExFlow Web and Importing documents through web service.
-|**EX CONFIDENTIAL**| Used for handling confidential documents.
-<br/>
-
-
 
 ### Add a Replacer During Vacation Time
 
@@ -231,3 +194,39 @@ Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
 
 Create a new ExFlow User with new email address.
 Open the user with the previous email address and use function Block/Unblock User. And add the new user in field "New User" and tick both "Access History" and "Replace Approval Rule".
+
+
+## Create a System User
+
+Go to: ***Business Central Standard User***
+
+ExFlow User can also be created from Business Central User, by using “Create ExFlow User”. Action can be reached from Business Central User card, or “Users” main page.
+
+![Business Central User](@site/static/img/media/business-central-user-001.png)
+
+In Users page select one or multiple Users and click “Create ExFlow User”. This action opens a new page displaying a temporary table with the selected users presenting all the values that will be pulled and copied over to the ExFlow Users once completed.
+
+The “ExFlow User Exists” column in the table shows whether the ExFlow User has already been created or not. All other values of all other remaining fields have been copied from Business Central User card but can be modified if necessary.
+
+![ExFlow User Card - Associated System User](@site/static/img/media/business-central-user-002.png)
+
+User Coding Rule ID will be added automatically on newly created ExFlow User card, depending on the value selected on “Default User Coding Rule ID” in ExFlow Setup.
+
+Business Central User will be associated automatically to ExFlow User as an System User. If an ExFlow User is created before the system user, then simply use ''Associate the user'' to connect to the system user. Or use ''Associate to ExFlow User'', from the Users list.
+
+User Permission Sets automatically will be updated on User card for the newly created ExFlow Users. Depending on what Role or Web permission Role they’ve specified, the Business Central User will be updated with EX ADMIN or EX APPROVER.
+
+### Permissions on a Business Central user
+These are all available permissions set to use on a system user.
+
+| Permission set |  |
+|:-|:-|
+|**EX BASE**| Permission set that is granted automatically when installing ExFlow, this is needed to be able to access pages and cards that have ExFlow functionality in them (such as Purchase Order, Purchase Quote etc)<br/>
+|**EX ADMIN**| Full access to all tables and pages for ExFlow.<br/>
+|**EX ACCOUNTANT**| Limited access to pages. No access to setup pages (except re-invoicing pages). Can administrate ExFlow Users.<br/>
+|**EX READER**| Same as EX BASE but with only read permission.<br/>
+|**EX APPROVER**| Access to ExFlow Search and ExFlow Approval Documents. Used for approving invoices within Business Central.<br/>
+|**EX PURCHASER**| Access to use functions related to ExFlow on Purchase Orders and Quotes, such as adding approvers, changing approval flow. Also access to ExFlow Order/Quote Status.<br/>
+|**EX WEB SERVICE**| Used for the web and is assigned automatically when creating the Application from ExFlow setup. Needed only for ExFlow Web and Importing documents through web service.
+|**EX CONFIDENTIAL**| Used for handling confidential documents.
+<br/>
