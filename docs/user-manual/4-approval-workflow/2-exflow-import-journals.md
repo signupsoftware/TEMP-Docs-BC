@@ -32,7 +32,7 @@ From the ExFlow Import Journals list it is possible to search, create a new jour
 |:-|:-|
 | **Name**         | Name of the journal
 | **Description**         | Description of the journal
-| **Source Type**         | Source Type of the journal. Current Source Type is: ExFlow Data Capture, Web Service, Manual and Import Files
+| **Source Type**         | Source Type of the journal. Current Source Type is: ExFlow Data Capture, Web Service, Manual,  Import Files and E-Document
 | **Import File Code**         | Specifies the ExFlow File Import Setup to be used. Configuration for this is needed before usage.
 | **Only Purchase Order Matched Documents**         | Enable this checkbox for a specific journal to have a dedicated journal only for purchase order matched documents
 | **Verify documents at import**         | Choose if verification on the documents at import should be proceeded for all documents in the journal, or for the newly imported documents only. 
@@ -415,23 +415,20 @@ Delete the selected row.
 
 ![ExFlow Import Journal -- Import Lines](@site/static/img/media/image201.png)
 
+### Line - Functions
+![ExFlow Import Journal -- Import Lines](@site/static/img/media/import-journal-line-functions.png)
+
 #### Purchase Order Card
 If the document line is matched against a purchase order, click on Purchase Order Card to open the corresponding purchase order card.<br/>
-Go to: ***Import Lines --\ Line --> Purchase Order Card***
-
-![ExFlow Import Journal - Import Lines - Purchase Order Card](@site/static/img/media/image202.png)
+Go to: ***Import Lines --> Line --> Purchase Order Card***
 
 #### Dimensions
 Go to: ***Import Lines --> Line --> Dimensions***<br/>
 Show all dimensions for current line.
 
-![ExFlow Imported Document - Dimensions](@site/static/img/media/image209.png)
-
 #### Show Approval Proposal
 Displays the current approval proposal for the selected document line.<br/>
 Go to: ***Import Lines --> Line --> Show Approval Proposal***
-
-![ExFlow Import Journal - Import Lines - Show Approval Proposal](@site/static/img/media/image203.png)
 
 #### Show Available Approval Rules
 Go to: ***Import Lines --> Line --> Show Available Approval Rules***<br/>
@@ -463,7 +460,6 @@ Go to: ***Import Lines --> Line --> Deferral Schedule***<br/>
 If a deferral template code is specified, click on Deferral Schedule to view/edit the deferral schedule for the selected document line. In ExFlow, Deferral Schedule is used for ExFlow approval document and not
 the purchase invoice.
 
-![ExFlow Imported Document - Deferral Schedule](@site/static/img/media/image211.png)
 
 #### Get Interpreted Lines
 Go to: ***Import Lines --> Line --> Get Interpreted Lines***<br/>
@@ -471,19 +467,18 @@ Use this function to retrieve lost or deleted interpreted lines. ExFlow will pop
 
 If a user accidentally deletes all lines, it is possible to use "Get Interpreted Lines" to reset all changes made after import.
 
-![ExFlow Imported Document - Get interpreted Lines](@site/static/img/media/image208.png)
 
 #### Show Available Approval Rules
 Go to: ***Import Lines --> Line --> Show Available Approval Rules***<br/>
 This function displays all available approval rules for the selected document line.
 
-![ExFlow Imported Document - Available Approval Rules](@site/static/img/media/image210.png)
+
 
 #### Show Current Dimension Owners
 Go to: ***Import Lines --> Line --> Show Current Dimension Owners***<br/>
 View the ExFlow Dimension Owners for the current list of suggested approvers.
 
-![ExFlow Imported Document - Show Current Dimension Owners](@site/static/img/media/image212.png)
+
 
 #### Show Budget
 If G/L Budget Control is activated, it is possible to view calculated.

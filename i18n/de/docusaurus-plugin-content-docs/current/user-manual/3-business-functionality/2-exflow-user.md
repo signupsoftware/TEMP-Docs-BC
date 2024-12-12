@@ -41,6 +41,8 @@ Eine der Einstellungen ist „Standard-Benutzer-Codierungsregel-ID“. Es erleic
 
 ### ExFlow Benutzer aus Excel importieren
 
+Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Users***
+
 Neben dem manuellen Hinzufügen neuer Benutzer können Administratoren auch ExFlow Benutzer durch Importieren von Benutzern aus Excel hinzufügen "Benutzer importieren".<br/>
 
 Um aus Excel zu importieren, verwenden Sie die "Vorlage herunterladen" für die Excel-Tabelle.
@@ -50,11 +52,11 @@ Um aus Excel zu importieren, verwenden Sie die "Vorlage herunterladen" für die 
 
 ### Einen neuen Benutzer manuell hinzufügen
 
-Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Benutzer***
+Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Users --> New***
 
 ![ExFlow Benutzerkarte](../../images/exflow-user-004.png)
 
-| ExFlow Benutzer |  |
+| ExFlow Benutzerkarte |  |
 |:-|:-|
 | **Benutzer-ID:**                      | Benutzer-ID ohne Domäne hinzufügen
 | **Benutzername:**                    | Vollständige Namen der Genehmiger hinzufügen
@@ -108,40 +110,7 @@ Erfahren Sie mehr über Benachrichtigungen im Abschnitt [***Genehmigungsworkflow
 
 ![ExFlow Benutzerkarte](../../images/exflow-user-permissions-001.png)<br/>
 
-### Systembenutzer erstellen
 
-Gehen Sie zu: ***Business Central Standard User***
-
-Ein ExFlow-Benutzer kann auch aus einem Business Central-Benutzer erstellt werden, indem die Aktion „Create ExFlow User“ verwendet wird. Diese Aktion kann von der Business Central-Benutzerkarte oder der Hauptseite „Users“ aus erreicht werden.
-
-![Business Central User](../../images/business-central-user-001.png)
-
-Wählen Sie auf der Seite „Users“ einen oder mehrere Benutzer aus und klicken Sie auf „Create ExFlow User“. Diese Aktion öffnet eine neue Seite, die eine temporäre Tabelle mit den ausgewählten Benutzern anzeigt und alle Werte präsentiert, die nach Abschluss in die ExFlow-Benutzer übernommen werden.
-
-Die Spalte „ExFlow User Exists“ in der Tabelle zeigt an, ob der ExFlow-Benutzer bereits erstellt wurde oder nicht. Alle anderen Werte der verbleibenden Felder wurden von der Business Central-Benutzerkarte kopiert, können jedoch bei Bedarf geändert werden.
-
-![ExFlow User Card - Associated System User](../../images/business-central-user-002.png)
-
-Die Benutzer-Coding-Regel-ID wird automatisch auf der neu erstellten ExFlow-Benutzerkarte hinzugefügt, abhängig vom in der ExFlow-Setup ausgewählten Wert „Default User Coding Rule ID“.
-
-Der Business Central-Benutzer wird automatisch als Systembenutzer mit dem ExFlow-Benutzer verknüpft.
-
-Die Benutzerberechtigungssätze werden automatisch auf der Benutzerkarte für die neu erstellten ExFlow-Benutzer aktualisiert. Abhängig von der angegebenen Rolle oder Webberechtigungsrolle wird der Business Central-Benutzer mit EX ADMIN oder EX APPROVER aktualisiert.
-
-#### **Berechtigungen für einen Business Central-Benutzer**
-Dies sind alle verfügbaren Berechtigungssätze, die für einen Systembenutzer verwendet werden können.
-
-| Berechtigungssatz |  |
-|:-|:-|
-|**EX BASE**| Berechtigungssatz, der automatisch bei der Installation von ExFlow gewährt wird. Dies ist erforderlich, um auf Seiten und Karten zuzugreifen, die ExFlow-Funktionalität enthalten (wie z. B. Bestellanforderung, Angebotsanforderung usw.).<br/>
-|**EX ADMIN**| Vollzugriff auf alle Tabellen und Seiten für ExFlow.<br/>
-|**EX ACCOUNTANT**| Eingeschränkter Zugriff auf Seiten. Kein Zugriff auf Setup-Seiten (außer Seiten zur Rechnungsstellung). Kann ExFlow-Benutzer verwalten.<br/>
-|**EX READER**| Gleich wie EX BASE, jedoch nur mit Leseberechtigung.<br/>
-|**EX APPROVER**| Zugriff auf ExFlow-Suche und ExFlow-Genehmigungsdokumente. Wird zum Genehmigen von Rechnungen innerhalb von Business Central verwendet.<br/>
-|**EX PURCHASER**| Zugriff auf Funktionen im Zusammenhang mit ExFlow bei Bestellungen und Angeboten, wie das Hinzufügen von Genehmigern und das Ändern des Genehmigungsablaufs. Auch Zugriff auf den ExFlow-Bestell-/Angebotsstatus.<br/>
-|**EX WEB SERVICE**| Wird für das Web verwendet und automatisch beim Erstellen der Anwendung aus dem ExFlow-Setup zugewiesen. Nur für ExFlow Web und das Importieren von Dokumenten über den Webdienst erforderlich.
-|**EX CONFIDENTIAL**| Wird für den Umgang mit vertraulichen Dokumenten verwendet.
-<br/>
 
 ### Einen Vertreter während der Urlaubszeit hinzufügen
 
@@ -216,3 +185,39 @@ Gehen Sie zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
 
 Erstellen Sie einen neuen ExFlow-Benutzer mit der neuen E-Mail-Adresse.
 Öffnen Sie den Benutzer mit der vorherigen E-Mail-Adresse und verwenden Sie die Funktion „Block/Unblock User“. Fügen Sie den neuen Benutzer im Feld „New User“ hinzu und aktivieren Sie sowohl „Access History“ als auch „Replace Approval Rule“.
+
+
+## Systembenutzer erstellen
+
+Gehe zu: ***Business Central Standard User***
+
+ExFlow-Benutzer können auch aus dem Business Central-Benutzer erstellt werden, indem die Aktion „Create ExFlow User“ verwendet wird. Diese Aktion kann von der Business Central-Benutzerkarte oder der Hauptseite „Users“ aus erreicht werden.
+
+![Business Central User](@site/static/img/media/business-central-user-001.png)
+
+Wählen Sie auf der Seite „Users“ einen oder mehrere Benutzer aus und klicken Sie auf „Create ExFlow User“. Diese Aktion öffnet eine neue Seite, die eine temporäre Tabelle mit den ausgewählten Benutzern anzeigt und alle Werte darstellt, die nach Abschluss auf die ExFlow-Benutzer übertragen werden.
+
+Die Spalte „ExFlow User Exists“ in der Tabelle zeigt an, ob der ExFlow-Benutzer bereits erstellt wurde oder nicht. Alle anderen Werte der verbleibenden Felder wurden von der Business Central-Benutzerkarte kopiert, können jedoch bei Bedarf geändert werden.
+
+![ExFlow User Card - Associated System User](@site/static/img/media/business-central-user-002.png)
+
+Die Benutzer-Codierungsregel-ID wird automatisch auf der neu erstellten ExFlow-Benutzerkarte hinzugefügt, abhängig vom im ExFlow-Setup ausgewählten Wert „Default User Coding Rule ID“.
+
+Der Business Central-Benutzer wird automatisch als Systembenutzer mit dem ExFlow-Benutzer verknüpft. Wenn ein ExFlow-Benutzer vor dem Systembenutzer erstellt wird, verwenden Sie einfach „Associate the user“, um die Verbindung zum Systembenutzer herzustellen. Oder verwenden Sie „Associate to ExFlow User“ von der Benutzerliste aus.
+
+Die Benutzerberechtigungssätze werden automatisch auf der Benutzerkarte für die neu erstellten ExFlow-Benutzer aktualisiert. Abhängig von der angegebenen Rolle oder Webberechtigungsrolle wird der Business Central-Benutzer mit EX ADMIN oder EX APPROVER aktualisiert.
+
+### Berechtigungen für einen Business Central-Benutzer
+Dies sind alle verfügbaren Berechtigungssätze, die für einen Systembenutzer verwendet werden können.
+
+| Berechtigungssatz |  |
+|:-|:-|
+|**EX BASE**| Berechtigungssatz, der automatisch bei der Installation von ExFlow gewährt wird. Dies ist erforderlich, um auf Seiten und Karten zuzugreifen, die ExFlow-Funktionalität enthalten (wie z. B. Bestellanforderungen, Angebote usw.).<br/>
+|**EX ADMIN**| Vollzugriff auf alle Tabellen und Seiten für ExFlow.<br/>
+|**EX ACCOUNTANT**| Eingeschränkter Zugriff auf Seiten. Kein Zugriff auf Setup-Seiten (außer Seiten zur Weiterverrechnung). Kann ExFlow-Benutzer verwalten.<br/>
+|**EX READER**| Gleiche Berechtigungen wie EX BASE, jedoch nur mit Leseberechtigung.<br/>
+|**EX APPROVER**| Zugriff auf ExFlow-Suche und ExFlow-Genehmigungsdokumente. Wird zum Genehmigen von Rechnungen innerhalb von Business Central verwendet.<br/>
+|**EX PURCHASER**| Zugriff auf Funktionen im Zusammenhang mit ExFlow bei Bestellanforderungen und Angeboten, wie das Hinzufügen von Genehmigern und das Ändern des Genehmigungsflusses. Auch Zugriff auf den ExFlow-Bestell-/Angebotsstatus.<br/>
+|**EX WEB SERVICE**| Wird für das Web verwendet und automatisch beim Erstellen der Anwendung aus dem ExFlow-Setup zugewiesen. Nur für ExFlow Web und das Importieren von Dokumenten über den Webdienst erforderlich.
+|**EX CONFIDENTIAL**| Wird für den Umgang mit vertraulichen Dokumenten verwendet.
+<br/>
