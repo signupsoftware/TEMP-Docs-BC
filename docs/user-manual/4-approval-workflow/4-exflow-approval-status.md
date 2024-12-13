@@ -100,7 +100,9 @@ This feature can be enabled in ExFlow Setup under **Background Processing** by a
 
 This feature can also be found (and setup per vendor) in [***ExFlow Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 
-Furthermore, another function called Bypass Verify Changes can be utilized by the AP staff. Read more about this under section [***Bypass Verify Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/bypass-verify-changes) 
+Furthermore, another function called Bypass Verify Changes can be utilized by the AP staff. 
+Read more about this under section [***Bypass Verify Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/bypass-verify-changes) 
+
 
 #### Reject changes in Verify Changes
 Approval process can be restarted from selected Approver on "ExFlow Verify Changes" page. This function is found on the Approvers FactBox.
