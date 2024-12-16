@@ -50,8 +50,8 @@ Wenn ein Dokument aus dem ExFlow Import Journal erstellt und zur Genehmigung ges
 |**Verwandt--> Dateien-->Andere--> PDF-Viewer in neuem Tab öffnen**|    [***PDF-Viewer in neuem Tab öffnen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
 |*Verwandt--> Genehmiger*|    
 |**Genehmigungsnachverfolgung**|    Bericht ausführen [***ExFlow Genehmigungsnachverfolgung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-intelligence-and-reporting/reports#exflow-approval-follow-up)
-|**Pro Genehmiger**|    Bericht ausführen: ExFlow Genehmigungsstatus pro Genehmiger
-|**Nächster Genehmiger**|    Bericht ausführen: ExFlow Genehmigungsstatus pro Genehmiger
+|**Pro Genehmiger**|    Zeigt eine gefilterte Seite pro Genehmiger an
+|**Nächster Genehmiger**|    Zeigt eine gefilterte Seite bei der nächsten genehmigenden Person an
 |**Genehmigerfilter zurücksetzen**|    Den Filter zurücksetzen, der in [***Filter auf Genehmiger setzen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver) gesetzt wurde
 
 ### Aktueller Genehmiger

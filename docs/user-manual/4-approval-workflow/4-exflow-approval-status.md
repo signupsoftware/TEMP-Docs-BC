@@ -50,8 +50,8 @@ When a document is created from the ExFlow Import Journal, and therefore sent fo
 |**Related--> Files-->Other--> Open PDF-Viewer in New Tab**|    [***Open PDF-Viewer in New Tab***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
 |*Related--> Approvers*|    
 |**Approval follow-up**|    Run report [***ExFlow Approval Follow-Up***](https://docs.exflow.cloud/business-central/docs/user-manual/business-intelligence-and-reporting/reports#exflow-approval-follow-up)
-|**Per Approver**|    Run report: ExFlow Approval Status per Approver
-|**Next Approver**|    Run report: ExFlow Approval Status per Approver
+|**Per Approver**|    Shows a filtered page on per approver
+|**Next Approver**|    Shows a filtered page on next approver
 |**Reset Approver filter**|    Reset the filter that was set in [***Filter on approver***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
 
 
