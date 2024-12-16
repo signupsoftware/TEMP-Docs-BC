@@ -66,7 +66,7 @@ Ein ExFlow-Benutzer kann die ExFlow-Chat-Benachrichtigungen einsehen, in denen e
 
 Doppelklicken Sie auf die Nachricht oder "Dokument anzeigen", um eine neue Nachricht auf demselben Dokument zu schreiben.
 
-In der "ExFlow-Chat-Benachrichtigungsliste" werden alle neuen ungelesenen Nachrichten in Fettschrift angezeigt.
+In der "ExFlow-Chat-Benachrichtigungsliste" werden alle neuen ungelesenen Nachrichten in Fettschrift angezeigt. Im Bild unten ist die Chat-Nachricht bereits gelesen.
 
 ![ExFlow Chat Notification List](@site/static/img/media/image343.png)
 

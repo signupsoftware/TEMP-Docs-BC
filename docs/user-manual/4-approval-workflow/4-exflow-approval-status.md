@@ -50,8 +50,8 @@ When a document is created from the ExFlow Import Journal, and therefore sent fo
 |**Related--> Files-->Other--> Open PDF-Viewer in New Tab**|    [***Open PDF-Viewer in New Tab***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
 |*Related--> Approvers*|    
 |**Approval follow-up**|    Run report [***ExFlow Approval Follow-Up***](https://docs.exflow.cloud/business-central/docs/user-manual/business-intelligence-and-reporting/reports#exflow-approval-follow-up)
-|**Per Approver**|    Run report: ExFlow Approval Status per Approver
-|**Next Approver**|    Run report: ExFlow Approval Status per Approver
+|**Per Approver**|    Shows a filtered page on per approver
+|**Next Approver**|    Shows a filtered page on next approver
 |**Reset Approver filter**|    Reset the filter that was set in [***Filter on approver***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
 
 
@@ -100,7 +100,9 @@ This feature can be enabled in ExFlow Setup under **Background Processing** by a
 
 This feature can also be found (and setup per vendor) in [***ExFlow Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 
-Furthermore, another function called Bypass Verify Changes can be utilized by the AP staff. Read more about this under section [***Bypass Verify Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/bypass-verify-changes) 
+Furthermore, another function called Bypass Verify Changes can be utilized by the AP staff. 
+Read more about this under section [***Bypass Verify Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/bypass-verify-changes) 
+
 
 #### Reject changes in Verify Changes
 Approval process can be restarted from selected Approver on "ExFlow Verify Changes" page. This function is found on the Approvers FactBox.

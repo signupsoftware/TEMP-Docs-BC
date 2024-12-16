@@ -69,8 +69,7 @@ tagged in for the last 90 days.
 Double click on the message or "Show Document" to view wright a new
 message on the same document.
 
-In "ExFlow Chat Notification List" all new unread messages will show in Bold
-text.
+In "ExFlow Chat Notification List" all new unread messages will show in Bold text. In below picture, the chat message is already read. 
 
 ![ExFlow Chat Notification List](@site/static/img/media/image343.png)
 
