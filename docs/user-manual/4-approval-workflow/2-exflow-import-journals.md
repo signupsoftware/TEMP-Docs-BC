@@ -32,7 +32,7 @@ From the ExFlow Import Journals list it is possible to search, create a new jour
 |:-|:-|
 | **Name**         | Name of the journal
 | **Description**         | Description of the journal
-| **Source Type**         | Source Type of the journal. Current Source Type is: ExFlow Data Capture, Web Service, Manual,  Import Files and E-Document
+| **Source Type**         | Source Type of the journal. Current Source Type is: ExFlow Data Capture, Web Service, Manual and  Import Files
 | **Import File Code**         | Specifies the ExFlow File Import Setup to be used. Configuration for this is needed before usage.
 | **Only Purchase Order Matched Documents**         | Enable this checkbox for a specific journal to have a dedicated journal only for purchase order matched documents
 | **Verify documents at import**         | Choose if verification on the documents at import should be proceeded for all documents in the journal, or for the newly imported documents only. 
