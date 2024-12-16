@@ -31,7 +31,7 @@ In der ExFlow Import Journale Liste ist es möglich, zu suchen, ein neues Journa
 |:-|:-|
 | **Name**         | Name des Journals
 | **Beschreibung**         | Beschreibung des Journals
-| **Quelltyp**         | Quelltyp des Journals. Aktuelle Quelltypen sind: ExFlow Datenerfassung, Webdienst, Manuell, Dateien importieren und E-Dokument
+| **Quelltyp**         | Quelltyp des Journals. Aktuelle Quelltypen sind: ExFlow Datenerfassung, Webdienst, Manuell und Dateien importieren
 | **Importdatei-Code**         | Gibt das ExFlow Dateiimport-Setup an, das verwendet werden soll. Eine Konfiguration ist vor der Nutzung erforderlich.
 | **Nur Bestellabgleich-Dokumente**         | Aktivieren Sie dieses Kontrollkästchen für ein bestimmtes Journal, um ein dediziertes Journal nur für Bestellabgleich-Dokumente zu haben
 | **Dokumente bei Import überprüfen**         | Wählen Sie, ob die Überprüfung der Dokumente beim Import für alle Dokumente im Journal oder nur für die neu importierten Dokumente durchgeführt werden soll. 
