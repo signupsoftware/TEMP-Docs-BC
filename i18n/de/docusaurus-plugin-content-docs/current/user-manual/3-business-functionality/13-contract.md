@@ -248,7 +248,7 @@ Gehe zu: ***Setup --> ExFlow Manual Setup --> Contracts (List)--> Related --> Co
 
 ### Importjournal für Selbstabrechnungsrechnungen
 Durch die Personalisierung in Importjournalen ist es möglich, ein spezifisches Journal für erstellte Selbstabrechnungsrechnungen zu aktivieren. Rechnungen können auch automatisch durch die Verwendung von "Dokumente automatisch erstellen" erstellt werden. <br/><br/>
-![ExFlow Import Journals](../../images/import-journals-001-self-billing-invoices.png import-journals-001-self-billing-invoice)
+![ExFlow Import Journals](../../images/import-journals-001-self-billing-invoices.png)
 
 ### Selbstabrechnungsrechnungen erstellen
 Um eine Selbstabrechnungsrechnung erstellen zu können, sind einige Einstellungen im ExFlow-Vertrag erforderlich.

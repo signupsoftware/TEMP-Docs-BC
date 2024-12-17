@@ -250,7 +250,7 @@ Go to: ***Setup --> ExFlow Manual Setup --> Contracts (List)--> Related --> Cont
 
 ### Import Journal for Self-Billing Invoices
 By using personalize in Import Journals it is possible to activate a specific journal for created Self-Billing Invoices. Invoices can also be automatically created by using "Automatically Create Documents". <br/><br/>
-![ExFlow Import Journals](@site/static/img/media/import-journals-001-self-billing-invoices.png import-journals-001-self-billing-invoice)
+![ExFlow Import Journals](@site/static/img/media/import-journals-001-self-billing-invoices.png)
 
 ### Create Self-Billing Invoices
 To be able to create a Self-Billing Invoice there are some settings needed on the ExFlow Contract.
