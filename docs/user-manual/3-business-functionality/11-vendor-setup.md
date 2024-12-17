@@ -25,7 +25,7 @@ The default settings are displayed in the ExFlow Vendor Setup list. Utilize Pers
 |**View**	|Open the current Vendor Setup Card
 |*More options --> Related*	|
 |**Related --> Auto Receiving Line Types**	|Edit or view Line Types that should be automatically received for a specific vendor.<br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
-|**Related --> Item No. Matching Priority**	|Determine the order in which the system attempts to match imported invoices against items and order lines. <br/><br/> Read more about this under section [***Item No. Matching Priority***](hhttps://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
+|**Related --> Item No. Matching Priority**	|Determine the order in which the system attempts to match imported invoices against items and order lines. <br/><br/> Read more about this under section [***Item No. Matching Priority***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
 |**Related --> ExFlow Setup**	|Opens [***ExFlow Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup)
 |**Related --> Audit Log --> Audit Log**	|Opens Audit Log Overview. <br/><br/> Read more about this under section [***Audit Log***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/audit-log#audit-log)
 
@@ -128,7 +128,7 @@ The option ''From ExFlow Setup'' is set per default in most settings, meaning th
 |**Misc. Purchase Codes**| 	Specifies the default purchase code when using the Misc code mapping. Click on the three dots to open the Purchase Code Setup List.
 |**Automatic Quantity Assignment**| 	Specifies if quantity should be converted to 1 if imported quantity is 0.
 |**Ignore Master Data Synchronization**| It is possible to disregard Master Data Synchronization on a vendor level. Simply enable the checkbox ''Ignore Master Data Synchronization'' on the chosen Vendor in its Vendor Setup Card to ensure that its master data will not be sent to ExFlow Data Capture.
-|**Item No. Matching Priority**	|Determine the order in which the system attempts to match imported invoices against items and order lines. <br/><br/> Read more about this under section [***Item No. Matching Priority***](hhttps://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
+|**Item No. Matching Priority**	|Determine the order in which the system attempts to match imported invoices against items and order lines. Current options are: ''From ExFlow Setup'', ''No Matching'' and ''From Vendor Setup''. <br/><br/> Read more about this under section [***Item No. Matching Priority***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
 
 <br/>
 
