@@ -122,20 +122,27 @@ Learn more about Notifications under section [***Approval Workflow --> Notificat
 
 ### Add a Replacer During Vacation Time
 
-Go To: ***Setup --> ExFlow Manual Setup --> ExFlow User***
+Go To: ***Setup --> ExFlow Manual Setup --> ExFlow Users (list)*** or via  ***''ExFlow User (card)''***
 
 When a user is absent or on holiday a replacer can be assigned who can
-handle his/her documents.
+handle his/hers documents.
 
 Click "Add Replacer".
 
-Select the user that is to be replaced in the "Approver" field and then add the replacer. A user can be replaced in a single company or all companies, but only if the replacer have access to the company. Remember to always set a start and end date. Click "Add Replacer" when all information is filled in.
 
 ![ExFlow User Card](@site/static/img/media/replacer-001.png)
 
+A user can be replaced in a single company or all companies, but only if the replacer have access to the company. The field ''All companies'' is enabled per default, but if the approver only should be replaced in one specific company, then select that company in the Company- field. The ''All Companies''- field will then be un ticked. 
+
+Next step is to add the Replacer for the Approver, in the ''Replacer''- field. 
+ 
+Remember to always set a start date and an end date. 
+
+Click on "Add Replacer" when all information is filled in.
+
 ![ExFlow Replacer](@site/static/img/media/replacer-002.png)
 
-The replaced user can still approve even if there is a replacer in place. Both can approve. Both will receive email notifications.
+The replacer is now added into the Approvers Approval Group. The replaced user can still approve even if there is a replacer in place. Both can approve. Both will receive email notifications.
 
 ![ExFlow Approval Group Card](@site/static/img/media/approval-group-008.png)
 <br/><br/>
