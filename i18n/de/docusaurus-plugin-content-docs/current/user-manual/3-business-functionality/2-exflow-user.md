@@ -111,25 +111,31 @@ Erfahren Sie mehr über Benachrichtigungen im Abschnitt [***Genehmigungsworkflow
 ![ExFlow Benutzerkarte](../../images/exflow-user-permissions-001.png)<br/>
 
 
-
 ### Einen Vertreter während der Urlaubszeit hinzufügen
 
-Gehen Sie zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User***
+Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Users (Liste)*** oder über ***''ExFlow User (Karte)''***
 
 Wenn ein Benutzer abwesend oder im Urlaub ist, kann ein Vertreter zugewiesen werden, der seine/ihre Dokumente bearbeitet.
 
-Klicken Sie auf „Add Replacer“.
+Klicken Sie auf "Vertreter hinzufügen".
 
-Wählen Sie den Benutzer, der ersetzt werden soll, im Feld „Approver“ aus und fügen Sie dann den Vertreter hinzu. Ein Benutzer kann in einem einzelnen Unternehmen oder in allen Unternehmen ersetzt werden, jedoch nur, wenn der Vertreter Zugriff auf das Unternehmen hat. Denken Sie daran, immer ein Start- und Enddatum festzulegen. Klicken Sie auf „Add Replacer“, wenn alle Informationen ausgefüllt sind.
+![ExFlow Benutzerkarte](@site/static/img/media/replacer-001.png)
 
-![ExFlow User Card](../../images/replacer-001.png)
+Ein Benutzer kann in einem einzelnen Unternehmen oder in allen Unternehmen ersetzt werden, jedoch nur, wenn der Vertreter Zugriff auf das Unternehmen hat. Das Feld ''Alle Unternehmen'' ist standardmäßig aktiviert, aber wenn der Genehmiger nur in einem bestimmten Unternehmen ersetzt werden soll, wählen Sie dieses Unternehmen im Feld Unternehmen aus. Das Feld ''Alle Unternehmen'' wird dann deaktiviert.
 
-![ExFlow Replacer](../../images/replacer-002.png)
+Der nächste Schritt besteht darin, den Vertreter für den Genehmiger im Feld ''Vertreter'' hinzuzufügen.
 
-Der ersetzte Benutzer kann weiterhin genehmigen, auch wenn ein Vertreter vorhanden ist. Beide können genehmigen. Beide erhalten E-Mail-Benachrichtigungen.
+Denken Sie daran, immer ein Startdatum und ein Enddatum festzulegen.
 
-![ExFlow Approval Group Card](../../images/approval-group-008.png)
+Klicken Sie auf "Vertreter hinzufügen", wenn alle Informationen ausgefüllt sind.
+
+![ExFlow Vertreter](@site/static/img/media/replacer-002.png)
+
+Der Vertreter wird nun in die Genehmigungsgruppe des Genehmigers aufgenommen. Der ersetzte Benutzer kann weiterhin genehmigen, auch wenn ein Vertreter vorhanden ist. Beide können genehmigen. Beide erhalten E-Mail-Benachrichtigungen.
+
+![ExFlow Genehmigungsgruppe Karte](@site/static/img/media/approval-group-008.png)
 <br/><br/>
+
 
 ### Genehmiger verlässt das Unternehmen
 
