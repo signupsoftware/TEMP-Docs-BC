@@ -43,7 +43,7 @@ Clients können Windows 7 oder höher, Apple Mac, iPad, iPhone mit iOS, Android-
 * Microsoft Edge<br/>
 * Safari<br/><br/>
 
-#### Dateigrößenbeschränkungen
+### Dateigrößenbeschränkungen
 
 * ExFlow Data Capture: [***Besuchen Sie die Website von Tungsten***](https://docs.readsoftonline.com/help/eng/partner/reference/c_system_limitations.html)<br/>
 * ExFlow Business Central und ExFlow Web-Kommunikation: Die aktuelle Anhangsgrößenbeschränkung beträgt 10 MB.

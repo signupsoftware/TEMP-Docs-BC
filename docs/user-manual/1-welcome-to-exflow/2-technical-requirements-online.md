@@ -52,8 +52,7 @@ the latest release of the operating systems.<br/>
 * Safari<br/><br/>
 
 
-
-#### File Size Limitations
+### File Size Limitations
 
 * ExFlow Data Capture: [***Visit Tungstens website***](https://docs.readsoftonline.com/help/eng/partner/reference/c_system_limitations.html)<br/>
 * ExFlow Business Central and ExFlow Web Communication: The current attachment size limit is set to 10 MB. 
