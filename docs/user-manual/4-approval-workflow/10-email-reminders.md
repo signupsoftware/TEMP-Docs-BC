@@ -128,7 +128,7 @@ To send an email when a document is set on hold, following setup is needed:
 | Email Account                 | Add Email Account Setup in all companies
 | ExFlow Email Setup            | Email Type **On Hold Reminder** in all companies <br/>Read more under section [***Email Setup --> On Hold***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#on-hold-reminder)
 | Approval Status               | Document need to have status on hold
-| Job Queue Entry               | Code Unit 12057077 and Parameter String **ON HOLD** <br/>In default company
+| Job Queue Entry               | Code Unit 12057077 and Parameter String **ON HOLD REMINDER** <br/>In default company
 <br/><br/>
 
 

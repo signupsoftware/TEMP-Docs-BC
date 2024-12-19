@@ -28,10 +28,7 @@ For Purchase Quote and Orders, First Approver can be added by ExFlow on a line l
 
 The ExFlow User then needs to be allocated to a System User for ExFlow to recognize which user to add as First Approver.<br/>
 
-![ExFlow Setup](@site/static/img/media/first-approver-003.png)
-
-
-<br/>
+![ExFlow Setup](@site/static/img/media/first-approver-003.png)<br/>
 
 
 ### First Approver Filter in an ExFlow Approval Rule

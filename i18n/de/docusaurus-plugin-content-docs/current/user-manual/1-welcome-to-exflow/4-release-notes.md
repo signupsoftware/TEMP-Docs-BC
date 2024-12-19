@@ -16,6 +16,15 @@ Kleinere Veröffentlichung
 **Veröffentlichungsinformationen:** <br/>
 Erfordert BC 24.0 oder höher <br/>
 
+Zwei neue Ereignisse für OCR Import Mapping verfügbar - Hinzugefügt in 24.1.263.9
+
+Die erneute Rechnungsstellung funktionierte nicht mit der schwedischen Sprache im Genehmigungsstatus - Behoben in 24.1.263.9
+
+Problem bei der Verwendung von ExFlow AP und Progressus behoben, bei dem sich das Feld "kostenpflichtig" manchmal nicht richtig verhielt - Behoben in 24.1.263.9
+
+Das Problem, dass die MwSt.-Bus-Buchungsgruppe bei Verwendung der Vorabbuchung kein Rundungskonto hat, funktioniert nun wieder wie vorgesehen - Behoben in 24.1.263.9
+
+
 **Neue Funktionen** <br/> 
 
 | ID | Bereich | Beschreibung |

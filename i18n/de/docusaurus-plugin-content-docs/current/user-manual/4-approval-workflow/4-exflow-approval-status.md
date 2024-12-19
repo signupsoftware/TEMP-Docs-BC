@@ -530,6 +530,15 @@ Wenn SweBase (für schwedische Kunden) installiert ist, wird die Rundung von Swe
 
 Lesen Sie mehr im Abschnitt [***Vorläufige Buchung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
 
+### G/L-Kontenzeilen mit Zeilenbetrag = Null löschen
+Gehe zu: ***ExFlow Setup --> Dokumentbuchungskontrollen --> G/L-Kontenzeilen mit Zeilenbetrag = Null löschen***<br/>
+Wenn Kontenzeilen mit einem Zeilenbetrag von 0 (null) zu einem Dokument hinzugefügt werden müssen, bevor es erstellt wird, aber nicht beim Buchen beibehalten werden sollen, ist es ratsam, "G/L-Kontenzeilen mit Zeilenbetrag = Null löschen" in ExFlow Setup zu aktivieren.
+
+Wenn diese Einstellung aktiviert ist, werden alle Dokumentzeilen mit null Betrag vor dem Buchen des Dokuments gelöscht.
+
+![ExFlow Setup - Dokumentbuchungskontrollen](../../images/exflow-setup-doc-posting-checks-003.png)
+
+
 ## Eskalation
 
 Finden Sie alle Informationen zur Eskalation [***hier***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#escalation)

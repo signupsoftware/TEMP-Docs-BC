@@ -119,7 +119,7 @@ Um eine E-Mail zu senden, wenn ein Dokument auf Halten gesetzt wird, sind folgen
 | E-Mail-Konto                 | E-Mail-Konto-Einrichtung in allen Unternehmen hinzufügen
 | ExFlow-E-Mail-Einrichtung            | E-Mail-Typ **Auf Halten-Erinnerung** in allen Unternehmen <br/>Lesen Sie mehr im Abschnitt [***E-Mail-Einrichtung --> Auf Halten***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup#on-hold-reminder)
 | Genehmigungsstatus               | Dokument muss den Status auf Halten haben
-| Jobwarteschlangeneintrag               | Codeunit 12057077 und Parameterzeichenfolge **ON HOLD** <br/>Im Standardunternehmen
+| Jobwarteschlangeneintrag               | Codeunit 12057077 und Parameterzeichenfolge **ON HOLD REMINDER** <br/>Im Standardunternehmen
 <br/><br/>
 
 ### Genehmigte Bestellung/Angebot

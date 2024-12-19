@@ -18,6 +18,13 @@ Minor Release
 **Release Information:** <br/>
 Requires BC 24.0 or later <br/>
 
+Two new events available for OCR Import Mapping - Added in 24.1.263.9
+
+Re-invoicing did not work with Swedish language in Approval Status - Resolved in 24.1.263.9
+
+Fixed issue when using ExFlow AP and Progressus where sometimes the "chargeable" field did not behave properly - Resolved in 24.1.263.9
+
+The issue with the VAT Bus. Posting Group not having a rounding account when using Preliminary Posting is now working again as intended - Resolved in 24.1.263.9
 
 **New Features** <br/> 
 

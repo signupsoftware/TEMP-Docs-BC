@@ -295,12 +295,12 @@ Send reminders when and approved purchase invoice matched to an unreceived order
 
 
 
-### On hold Reminder
+### On Hold Reminder
 Send reminders if a purchase document is set on hold.
 
 | General |  | 
 |:-|:-|
-| **Email Type:**           | On hold
+| **Email Type:**           | On Hold Reminder
 | **Process Type:**         | Scheduled
 | **Description:**          |Add a description. This will not be added to any email
 | **CC Email:**             | N/A

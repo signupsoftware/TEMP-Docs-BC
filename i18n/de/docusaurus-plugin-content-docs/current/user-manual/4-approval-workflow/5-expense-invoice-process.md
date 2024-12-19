@@ -10,7 +10,7 @@ Dieses Kapitel gibt ein Beispiel für einen Rechnungsfluss in ExFlow von der Imp
 
 Die folgenden Schritte werden vom "ExFlow Import Journal" \--\> "ExFlow Approval Status" durchgeführt, und der letzte Schritt besteht darin, die gebuchte Rechnung im "ExFlow Approval Status History" anzuzeigen.
 
-Schritte im ExFlow Import Journal
+**Schritte im ExFlow Import Journal**
 
 Schritt 1 Dokument importieren
 

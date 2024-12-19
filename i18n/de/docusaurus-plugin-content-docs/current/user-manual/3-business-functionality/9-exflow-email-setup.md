@@ -277,12 +277,12 @@ Senden Sie Erinnerungen, wenn eine genehmigte Einkaufsrechnung mit einer nicht e
 | **Anzahl der Fehler-Einträge:** | Zeigt die Anzahl der Fehler-Einträge
 <br/><br/>
 
-### Erinnerung bei Zurückstellung
+### Erinnerung an die Warteschleife
 Senden Sie Erinnerungen, wenn ein Einkaufsdokument zurückgestellt wird.
 
 | Allgemein |  |
 |:-|:-|
-| **E-Mail-Typ:**           | Zurückstellung
+| **E-Mail-Typ:**           | Erinnerung an die Warteschleife
 | **Prozesstyp:**           | Geplant
 | **Beschreibung:**         | Fügen Sie eine Beschreibung hinzu. Diese wird keiner E-Mail hinzugefügt
 | **CC-E-Mail:**            | N/A
