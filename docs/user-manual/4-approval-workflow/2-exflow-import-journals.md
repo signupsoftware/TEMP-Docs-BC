@@ -95,8 +95,9 @@ Click on "ExFlow Data Capture" to get to its website. This only works if the com
 
 <br/><br/> 
 
-## Import Journal Menu
+## Import Journal - Menu
 
+![ExFlow Import Journal](@site/static/img/media/import-journal-menu-001.png)
 
 ### Delete Imported Document
 Go to: ***Manage --> Delete***<br/>

@@ -92,7 +92,9 @@ Klicken Sie auf "ExFlow Datenerfassung", um zur Website zu gelangen. Dies funkti
 
 <br/><br/> 
 
-## Import Journal Menü
+## Import Journal - Menü
+
+![ExFlow Import Journal](@site/static/img/media/import-journal-menu-001.png)
 
 ### Importiertes Dokument löschen
 Gehe zu: ***Verwalten --> Löschen***<br/>
