@@ -95,47 +95,43 @@ Click on "ExFlow Data Capture" to get to its website. This only works if the com
 
 <br/><br/> 
 
-## Import Journal - Menu
-
-![ExFlow Import Journal](@site/static/img/media/import-journal-menu-001.png)
-
-### Delete Imported Document
-Go to: ***Manage --> Delete***<br/>
-When the document has been imported in to ExFlow Import Journal it can
-be deleted. Then no Purchase Document will be created.
-
-### Display the ExFlow Import Document Card
-Go to: ***Manage --> Card***<br/>
-Open the ExFlow Import Document card for the selected document.
-
-### Document Statistics
-Go to: ***Manage --> Statistics (F7)***<br/>
-View statistical information about the selected document.
+## Import Journal - Header
 
 ![ExFlow Import Journal - Manage](@site/static/img/media/import-journal-011-menu-manage.png)
 
-### Import Documents
-Go to: ***Home --> Import Documents***<br/>
-To import Documents to one selected journal, open the journal and Import Documents.
+| Import Journal --> Manage||
+|:-|:-| 
+| Delete             | When the document has been imported in to ExFlow Import Journal it can be deleted. Then no Purchase Document will be created.
+| Card             | Open the ExFlow Import Document card for the selected document.
+| Statistics          | View statistical information about the selected document (F7)
 
 ![ExFlow Import Journal - Home](@site/static/img/media/import-journal-009-menu-home.png)
 
-### Verify Document
-Go to: ***Home --> Verify Document (Ctrl+R)***<br/>
-Select one (or more) document(s) to verify via Verify Document. This function will verify that the document is ready to be created.
+| Import Journal --> Home||
+|:-|:-| 
+| Import Documents             | To import Documents to one selected journal, open the journal and Import Documents.
+| Verify Document            | Select one (or more) document(s) to verify via Verify Document. This function will verify that the document is ready to be created. (Ctrl+R)
+| Verify All Documents          | After correcting an error this will delete or create a new action message if a document still has an error.
+|Auto Coding Suggestion - Manual Choice| [Auto Coding Suggestion - Manual Choice](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---manual-choice)
+|Auto Coding Suggestion - Automatic| [Auto Coding Suggestion - Automatic](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---automatic)
+|Update VAT Product Posting Group|Due to Swedish Tax Rules regarding IT VAT, it is possible to update all VAT Product Posting Groups on Invoice Lines. This function can only be used together for customers that have SweBase installed. <br/><br/>Read more under section [**SweBase --> Update VAT Product Posting Group**](https://docs.exflow.cloud/business-central/docs/user-manual/localizations-and-isv-extensions/swebase#update-vat-product-posting-group)
+|Open PDF-Viewer in New Tab|Opens PDF in a new tab.
+|Vendor Card|Opens the Vendor card for the specific document.
+|Import or Replace Image|Import or replace current document image.
+|ExFlow Vendor Setup|This button will show/edit the ExFlow Vendor Setup for the current vendor.
 
-### Verify All Documents
-Go to: ***Home--> Verify All Documents***<br/>
-After correcting an error this will delete or create a new action message if a document still has an error.
+<br/><br/>
 
-### Auto Coding Suggestion -- Manual Choice
+### Auto Coding Suggestion
+![ExFlow Import Journal](@site/static/img/media/import-journal-012-menu-home.png)
+
+#### Auto Coding Suggestion - Manual Choice
 Go to: ***Home --> Auto Coding Suggestion - Manual Choice***<br/>
 Opens the Auto Coding Suggestion list related to the selected document.
 
 Manual Choice give the option to navigate through different Coding Set ID and manually choose a coding
 suggestion.
 
-#### ExFlow Coding Suggestion for Import Journal -- Manual Choice
 This page will show the best match for coding for the invoice that was selected before pressing the button to manually choose coding suggestion. In the right-hand corner it's possible to see the coding
 from the selected Coding Suggestion Lines for that specific Setup ID.
 
@@ -149,7 +145,7 @@ from the selected Coding Suggestion Lines for that specific Setup ID.
 
 ![ExFlow Coding Suggestion for Import Journal](@site/static/img/media/auto-coding-suggestion-001.png)
 
-#### ExFlow Coding Suggestion Document
+##### ExFlow Coding Suggestion Document
 
 On this page the coding is shown in more detail. It is also possible to compare the Suggested Lines to the Current lines on the invoice.
 
@@ -163,39 +159,22 @@ On this page the coding is shown in more detail. It is also possible to compare 
 
 ![ExFlow Coding Suggestion Document](@site/static/img/media/auto-coding-suggestion-002.png)
 
-### Auto Coding Suggestion -- Automatic
+#### Auto Coding Suggestion - Automatic
 Go to: ***Home --> Auto Coding Suggestion - Automatic***<br/>
 Applies the line coding chosen by the suggestion algorithm.
 
 This will enter a coding based on the information on the invoice. It will choose the coding based on the
 Automatic Coding Setup.
 
-![ExFlow Import Journal](@site/static/img/media/import-journal-012-menu-home.png)
+Read more under section [***Auto Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
 
-### Update VAT Product Posting Group
-Go to: ***Home --> Update VAT Product Posting Group***<br/>
-This function can only be used together for customers that have SweBase installed.
+<br/><br/>
 
-Due to Swedish Tax Rules regarding IT VAT, it is possible to update all VAT Product Posting Groups on Invoice Lines.
-
-Read more under section **SweBase** and **Update VAT Product Posting Group**.
-
-### Open PDF-Viewer in New Tab
-Go to: ***Home --> Open PDF-Viewer in New Tab***<br/>
-Opens PDF in a new tab.
-
-### Open Vendor Card
-Go to: ***Home --> Vendor Card***<br/>
-Opens the Vendor card for the specific document.
-
-### Import or Replace Image
-Go to: ***Home --> Import or Replace Image***<br/>
-Import or replace current document image.
 
 ### Batch Create Invoices/Cr.Memos
 Go to: ***Create --> Batch Create Invoices/Cr.Memos***<br/>
-This will run both Batch Verify Documents and create Purchase Invoices and Credit Memos for all documents in this journal that do not have any action message.
 
+This will run both Batch Verify Documents and create Purchase Invoices and Credit Memos for all documents in this journal that do not have any action message.
 ![ExFlow Import Journal - Create](@site/static/img/media/import-journal-013-menu-create.png)
 
 ![Batch Create Purchase Documents](@site/static/img/media/batch-create-purchase-documents-001.png)
@@ -226,6 +205,8 @@ And simply click on Create Invoice/Cr.Memo create the chosen documents.
 
 ![ExFlow Import Journal - Select and create multiple documents](@site/static/img/media/import-journal-015.png)
 
+### Import Journal --> Actions --> Import
+
 ### Import Lines from Excel
 Go to: ***Actions --> Import --> Download Import Line Excel Template / Import Line from Excel***<br/>
 Sometimes it is easier to work in Excel when the invoice includes several rows.
@@ -246,6 +227,8 @@ This function will find last posted invoice and copy rows with G/L Account.
 ### ExFlow Data Capture
 Go to: ***Actions --> Import --> ExFlow Data Capture***<br/>
 This function will open "ExFlow Data Capture" webpage (if the company is connected to ExFlow Data Capture).
+
+### Import Journal --> Actions --> Functions
 
 ### Save Coding to Vendor
 Go to: ***Action --> Functions --> Save Coding to Vendor***<br/>
@@ -269,7 +252,9 @@ With this function it is possible to update Posting Date for documents in select
 Go to: ***Action --> Functions --> Edit/View OCR Import Queue***<br/>
 Use this function to view or edit the OCR Import Queue. Correct documents that contains incorrect information that prevents them from being imported. 
 
-### Order -- Match OCR Lines
+### Import Journal --> Actions --> Order
+
+### Order - Match OCR Lines
 Go to: ***Actions --> Order --> Match OCR Lines***<br/>
 Match document lines against purchase order(s).
 
@@ -288,6 +273,9 @@ With this button order/receipt lines are fetched and added to the selected docum
 Read more under section **Order matching on Header-level**.
 
 ![ExFlow Import Journal](@site/static/img/media/import-journal-019-menu-actions-order.png)
+
+
+### Import Journal --> Actions --> Email
 
 ### Batch Send Receipt Reminders
 Go to: ***Actions --> Email --> Batch Send Receipt Reminders***<br/>
@@ -326,10 +314,16 @@ This button shows if there are any error messages related to send receipt remind
 Go to: ***ExFlow Email Logs --> Action --> Show All***<br/>
 With this button all the records of email log are displayed. Records consists of an Email type, Document no, Sent to Address, Sent by, Created At and Error Message.
 
+
+### Import Journal --> Actions --> Preliminary Posting
+
 ### Preview Preliminary Posting
 Go to: ***Actions --> Preliminary Posting --> Preview Posting***<br/>
 This can only be used if Preliminary Posting is activated. <br/>
-Read more under section [***Premininary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
+Read more under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
+
+
+### Import Journal --> Actions --> Contract
 
 ### Create Contract
 Go to: ***Actions --> Contract --> Create Contract***<br/>
@@ -343,6 +337,9 @@ Fields in Invoice Header that will be copied to the new created contract:
 * Purchaser Code
 
 To complete the setup on the contract, read more under section [***Contract***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract)
+
+
+### Import Journal --> Related --> Document
 
 ### Order Card
 Go to: ***Related --> Document --> Order Card***<br/>
@@ -362,6 +359,9 @@ This button will show the preferred Bank Account of the Vendor. If it does not e
 
 ![Import Journal](@site/static/img/media/import-journal-021-menu-related-document.png)
 
+
+### Import Journal --> Document --> Files
+
 ### Show Import Details (OCR)
 Go to: ***Related --> Files --> Show Import Details (OCR)***<br/>
 To be able to see the interpreted data mark the correct document line, go to "Show Import Details (OCR)". The data cannot be modified.
@@ -370,72 +370,122 @@ To be able to see the interpreted data mark the correct document line, go to "Sh
 
 ![ExFlow Imported Document](@site/static/img/media/imported-document-001.png)
 
-### Show Document Image
-Go to: ***Related --> Files --> Show Document Image***<br/>
-To open PDF on full screen for a selected document or use shortcut (Ctrl+I).
 
-### Display the ExFlow Import Document Card
+### Show Document Image (Ctrl + I) / Export pdf
+
+When a document is created for approval the Document Image (PDF) can be viewed by using short commando (Ctrl+I) in following places:
+
+- Purchase Invoice<br/>
+- Purchase Credit Memo<br/>
+- Posted Purchase Invoice<br/>
+- Posted Purchase Credit Memo<br/>
+- Vendor Ledger Entries<br/>
+- Posted G/L Entries<br/>
+- Posted VAT Entries<br/>
+- ExFlow Import Journal<br/>
+- ExFlow Approval Status<br/>
+- ExFlow Approval Status --> Verify Changes <br/>
+- ExFlow Approval Status History<br/>
+
+In Import Journal,Approval Status and Approval Status History, it is possible to select multiple documents before the usage of shortcut Ctrl+I:
+
+![Select multiple documents](@site/static/img/media/image223.png)
+
+If multiple files are selected, then there is an option to save a compressed file containing pdf files for all the selected documents at a specified location. This is a great way to export many pdf if needed.
+
+"Show Document Image" can also be reached from menu under Related.
+
+## Document Header - Show more options 
+
+Click on the ''three vertical dots'' on the Document Header to find fast track options.
+
+![SMALL](@site/static/img/media/header-line-options-001.png)
+
+### Open ExFlow Import Document Card
 Go to: ***Manage --> Card***<br/>
 Open the ExFlow Import Document card for the selected document.
 
 ### View Vendor Card
-Go to: ***Show more options --> Vendor Card***<br/>
+Go to: ***Process--> Vendor Card***<br/>
 This button will show the Vendor Card for the selected document.
 Can also be found under ***Related --> Document --> Other --> Import or Replace Image***
 
 ### Import or Replace Image
-Got to: ***Show more options --> Import or Replace Image***<br/>
+Got to: ***Process --> Import or Replace Image***<br/>
 Import a file or replace an image to the context menu on the invoice header through function \'\'Import or Replace Image\" in Import Journal.<br/>
 Can also be found under ***Related --> Files --> Other --> Import or Replace Image***
 
 ![ExFlow Import Journal](@site/static/img/media/image200.png)
 
+### ExFlow Vendor Setup
+Go to: ***Process --> ExFlow Vendor Setup***<br/>
+This button will show/edit the ExFlow Vendor Setup for the current vendor.
+
 ### Dimensions
-Go to: ***Show more options --> Document --> Dimensions***<br/>
+Go to: ***Process --> Dimensions***<br/>
 View dimensions set on the selected document.
 
 ### Show Import Details (OCR)
-Go to: ***Show more options --> Show Import Details (OCR)***<br/>
+Go to: ***Process --> Show Import Details (OCR)***<br/>
 To be able to see the interpreted data mark the correct document line, go to "Show Import Details (OCR)". The data cannot be modified.
 Read more about show Import Details above
 
-### Show Document Image
-Go to: ***Show more options --> Show Document Image***<br/>
+
+### Show Document Image (Ctrl + I)
+
+Go to: ***Related --> Files --> Show Document Image***<br/>
 To open PDF on full screen for a selected document or use shortcut (Ctrl+I).
+
+"Show Document Image" can also be reached from menu under Related.
+
+
+## Header Fields
+Here will some ''good to know about'' fields be presented. 
+
+### Applies-to-Document
+There is a possibility to apply payments to a document. E.g., to apply an Invoice to a Credit Memo in Vendor Ledger Entries when posting the Credit Memo.<br/>
+To use these fields, they must first be added by using personalize.
+
+**Applies-to-Doc. Type** specifies the type of the posted document that this document or journal line will be applied to when posting, for example to register payment.
+
+**Applies-to-Doc. No.** specifies the number of the posted document that this document or journal line will be applied to when posting, for example to register payment.
+
+![ExFlow Import Journal](@site/static/img/media/image214.png)
 
 
 ## Import Journal - Import Lines
 
-#### New Line
-Go to: ***Import Lines --> Manage --> New Line***<br/>
-Add new line to create a new entry. 
+### New Line / Delete Line
+Go to: **Import Lines --> Manage --> New Line / Delete Line** <br/>
 
-#### Delete Line
-Go to: ***Import Lines --> Manage --> Delete Line***<br/>
-Delete the selected row. 
+**New Line:** Add new line to create a new entry. <br/>
+
+**Delete Line:** Delete the selected row. <br/>
 
 ![ExFlow Import Journal -- Import Lines](@site/static/img/media/image201.png)
 
-### Line - Functions
+### Import Lines - Functions
+Go to: **Import Lines --> Line**
+
 ![ExFlow Import Journal -- Import Lines](@site/static/img/media/import-journal-line-functions.png)
 
-#### Purchase Order Card
+### Purchase Order Card
 If the document line is matched against a purchase order, click on Purchase Order Card to open the corresponding purchase order card.<br/>
 Go to: ***Import Lines --> Line --> Purchase Order Card***
 
-#### Dimensions
+### Dimensions
 Go to: ***Import Lines --> Line --> Dimensions***<br/>
 Show all dimensions for current line.
 
-#### Show Approval Proposal
+### Show Approval Proposal
 Displays the current approval proposal for the selected document line.<br/>
 Go to: ***Import Lines --> Line --> Show Approval Proposal***
 
-#### Show Available Approval Rules
+### Show Available Approval Rules
 Go to: ***Import Lines --> Line --> Show Available Approval Rules***<br/>
 This will display all available approval rules with the highest priority at the top.
 
-#### Item Charge Assignment
+### Item Charge Assignment
 When using Charge (Item), assignment can be done in three ways. From Import Journal, automatically or manually from Invoice Card.
 
 Manually from Import Journal. <br/>
@@ -456,186 +506,15 @@ Automatically Item Charge Assignment can also be set per vendor. Go to ExFlow Ve
 
 ![ExFlow Vendor Setup - Automatic Item Charge Assignment](@site/static/img/media/exflow-vendor-setup-card-automatically-item-charge-001.png)
 
-#### Deferral Schedule
+### Deferral Schedule
 Go to: ***Import Lines --> Line --> Deferral Schedule***<br/>
+
 If a deferral template code is specified, click on Deferral Schedule to view/edit the deferral schedule for the selected document line. In ExFlow, Deferral Schedule is used for ExFlow approval document and not
 the purchase invoice.
 
+#### Move Deferral Forward
+Go to: **ExFlow Setup --> General --> Move Deferral Forward**
 
-#### Get Interpreted Lines
-Go to: ***Import Lines --> Line --> Get Interpreted Lines***<br/>
-Use this function to retrieve lost or deleted interpreted lines. ExFlow will populate the invoice with interpreted lines from the OCR Import details.
-
-If a user accidentally deletes all lines, it is possible to use "Get Interpreted Lines" to reset all changes made after import.
-
-
-#### Show Available Approval Rules
-Go to: ***Import Lines --> Line --> Show Available Approval Rules***<br/>
-This function displays all available approval rules for the selected document line.
-
-
-
-#### Show Current Dimension Owners
-Go to: ***Import Lines --> Line --> Show Current Dimension Owners***<br/>
-View the ExFlow Dimension Owners for the current list of suggested approvers.
-
-
-
-#### Show Budget
-If G/L Budget Control is activated, it is possible to view calculated.
-Read more under section [***G/L Budget Control***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/gl-budget-control)
-
-### FactBoxes in Import Journal
-To the right in Import Journal there is useful FactBoxes.
-
-#### PDF Preview
-Change size on PDF Preview Press - / + to decrease or increase size of PDF.
-
-![ExFlow Import Journal](@site/static/img/media/image215.png)
-
-Reset size of FactBox Click "Restore".
-
-![ExFlow Import Journal - PDF Preview](@site/static/img/media/image216.png)
-
-"Zoom Out", "Zoom In" and Reset Zoom
-
-![ExFlow Import Journal - PDF Preview](@site/static/img/media/image217.png)
-
-Change PDF page No. use "Record Buttons".
-
-![ExFlow Import Journal - PDF Preview](@site/static/img/media/image218.png)
-
-Open PDF file in full size.
-
-Go to: ***Related --> Files --> Show Document Image (Ctrl+I)***
-
-#### Discussion Panel (Message will be sent when document is created)
-When a comment has been added and sent in Discussion Panel from a document in Import Journal, it can only be seen in FactBox to the right marked with creating Users ID, Date and Time.
-
-If a ExFlow User that is a system user is mentioned by using @, notification will show in Business Central when logging in. An email message can also be sent, but not until the document is created due to that ExFlow Web Users cannot see documents or comments in Import Journal.
-
-On ExFlow Web the message will display in Chat on Document after it is created.
-
-Read more about settings and how to use Discussion Panel under section [***Discussion Panel / Chat and Line Comments***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
-
-#### Incoming Document Files
-Go to: ***FactBox --> Incoming Document Files --> Attach File***<br/>
-Add Attach File
-
-Click "Choose", browse to the file to attach, and click "Open".
-
-![ExFlow Import Journal](@site/static/img/media/image219.png)
-
-#### Approval Proposal
-View Approvers for current Document Line.
-From: ***Approval Proposal --> Show Approval Proposal***<br/>
-Approvers can be added manually. This is only to be used in special occasions.
-
-![ExFlow Import Journal, Fac Box, Approval Proposal](@site/static/img/media/image220.png)
-
-![Approval Proposal](@site/static/img/media/image221.png)
-
-#### Document Details
-If the amount in document header and total amount on document lines do not have the same value, then document Details can help to see difference amount and if it is due to Direct Unit Cost excl VAT, Direct Unit Cost incl VAT, VAT amount or Prepayment.
-
-![ExFlow Import Journal, FactBox, Approval Proposal](@site/static/img/media/image222.png)
-
-#### Show Document Image (Ctrl + I) / Export pdf
-
-When a document is created for approval the Document Image (PDF) can be viewed by using short commando (Ctrl+I) in following places:
-
-- Purchase Invoice<br/>
-- Purchase Credit Memo<br/>
-- Posted Purchase Invoice<br/>
-- Posted Purchase Credit Memo<br/>
-- Vendor Ledger Entries<br/>
-- Posted G/L Entries<br/>
-- Posted VAT Entries<br/>
-- ExFlow Import Journal<br/>
-- ExFlow Approval Status<br/>
-- ExFlow Approval Status --> Verify Changes <br/>
-- ExFlow Approval Status History
-
-In Import Journal,Approval Status and Approval Status History, it is possible to select multiple documents before the usage of shortcut Ctrl+I:
-
-![Select multiple documents](@site/static/img/media/image223.png)
-
-If multiple files are selected, then there is an option to save a compressed file containing pdf files for all the selected documents at a specified location. This is a great way to export many pdf if needed.
-
-"Show Document Image" can also be reached from menu under Related.
-
-### Warning Messages
-If Action Message displays "There are warning messages not yet accepted!" the message is viewed in FactBox "Warning messages". Make appropriate changes or "Accept all warnings" as picture below.
-
-![ExFlow Import Journal](@site/static/img/media/image224.png)
-
-![ExFlow Import Journal, FactBox, Warning messages](@site/static/img/media/image225.png)
-
-### Match Vendor's Currency
-If ExFlow is needed to check that the currency code on each imported invoice matches the vendors default currency code, then the setting "Match Vendor's Currency" should be activated. Find the setting under Doc. Creation Checks in ExFlow Setup.
-
-![ExFlow Setup - Doc. Creation Checks](@site/static/img/media/exflow-setup-doc-creation-checks-001.png)
-
-When this setting is active, ExFlow will give a warning for each document in the Import Journal where the document currency differs from the vendors' default currency.
-
-![ExFlow Import Journal](@site/static/img/media/image227.png)
-
-![ExFlow Import Journal - Warning messages](@site/static/img/media/image228.png)
-
-ExFlow compares the contents of the Currency field on the document in the Import Journal with the default currency on the vendor (i.e., the contents of the Currency field on the vendor card).<br/>
-If the vendor has a blank (empty) currency, then ExFlow does not perform any validation.
-
-### Delete G/L Account Lines with Line Amount = Zero
-Go to: ***ExFlow Setup --> Doc. Posting Checks --> Delete G/L Account Lines with Line Amount = Zero***<br/>
-If account lines with 0 (zero) line amount needs to be added to a document before creating it but not keep it when posting, then it is suitable to activate "Delete G/L Account Lines with Line Amount = Zero" in ExFlow Setup.
-
-When this setting is enabled, any document lines with zero amount will be deleted before posting the document.
-
-![ExFlow Setup - Doc. Posting Checks](@site/static/img/media/exflow-setup-doc-posting-checks-003.png)
-
-### Applies-to-Document
-There is a possibility to apply payments to a document. E.g., to apply an Invoice to a Credit Memo in Vendor Ledger Entries when posting the Credit Memo.<br/>
-To use these fields, they must first be added by using personalize.
-
-**Applies-to-Doc. Type** specifies the type of the posted document that this document or journal line will be applied to when posting, for example to register payment.
-
-**Applies-to-Doc. No.** specifies the number of the posted document that this document or journal line will be applied to when posting, for example to register payment.
-
-![ExFlow Import Journal](@site/static/img/media/image214.png)
-
-### Allow VAT Difference
-If Allow VAT Difference is activated in Purchases & Payables Setup, VAT Rounding can be added in Statistics in Import Journal before creating the document.<br/>
-Max VAT Difference will be handled by settings in General Ledger Setup or from current Currency Code.
-
-![ExFlow Import Journal - Purchase Invoice Statistics](@site/static/img/media/image229.png)
-
-Via settings, ExFlow can assign VAT Difference automatically. Then VAT Difference will be proportionately distributed to all lines.
-
-Activate **"Auto. Assign of VAT Diff. for Creation"** in ExFlow Setup under section Doc. Creation Check for Import Journal.
-
-Activate **"Auto. Assign of VAT Diff. for Posting** in ExFlow Setup under section Doc. Posting Checks for Approval Status under Doc. Posting
-Checks.
-
-**Recommended to use both.**
-ExFlow will then add VAT Difference automatically if the VAT difference is within settings in General Ledger Setup or from current Currency Code.
-
-If the amount is changed during the approval flow, Business Central will delete the VAT Difference on updated line. Then ExFlow can automatically reassign when running Verify Changes in Approval Status.
-
-If VAT amount on lines is changed manually on Card after document creation, then ExFlow will ask:
-
-*"Do you want to update VAT Amount in ExFlow Approval Status from the VAT Amount of lines?"*<br/>
-Answer Yes, to update total VAT Amount in Approval Status.
-
-![Purchase Invoice or Credit Memo Card - Update VAT Amount](@site/static/img/media/image230.png)
-
-**Recommended settings:**
-If working with Automatic Assign of VAT Difference and Rounding on Invoices/Credit Memos when posting. Add NO VAT on G/L Account used for rounding.
-
-VAT difference is not allowed on document that include lines with ONLY VAT. Only if VAT is calculated on lines.
-
-Automatically Assign will override manually added VAT Amount in Statistics.
-
-### Move Deferral Forward
 Move Deferral Forward will automatically move Deferrals within closed deferral periods to next open when posting for Purchase Invoices and Purchase Credit Memos even if the document is active for ExFlow Approval or not.
 
 E.g.
@@ -664,9 +543,153 @@ But if instead answer No and let ExFlow Move Deferral Forward, January will be a
 2023-03-01 // 10 000,00<br/>
 2023-04-15 // 5 000,00
 
+### Get Interpreted Lines
+Go to: ***Import Lines --> Line --> Get Interpreted Lines***<br/>
+
+Use this function to retrieve lost or deleted interpreted lines. ExFlow will populate the invoice with interpreted lines from the OCR Import details.
+
+If a user accidentally deletes all lines, it is possible to use "Get Interpreted Lines" to reset all changes made after import.
 
 
-### Utilize the Description 2- field
+### Show Available Approval Rules
+Go to: ***Import Lines --> Line --> Show Available Approval Rules***<br/>
+This function displays all available approval rules for the selected document line.
+
+### Show Current Dimension Owners
+Go to: ***Import Lines --> Line --> Show Current Dimension Owners***<br/>
+View the ExFlow Dimension Owners for the current list of suggested approvers.
+
+
+### Show Budget
+If G/L Budget Control is activated, it is possible to view calculated.
+Read more under section [***G/L Budget Control***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/gl-budget-control)
+
+## Doc. Creation Checks
+
+### Match Vendor's Currency
+Go to: **ExFlow Setup --> Doc. Creation Checks --> Match Vendor's Currency Code**
+
+If ExFlow is needed to check that the currency code on each imported invoice matches the vendors default currency code, then the setting "Match Vendor's Currency" should be activated. Find the setting under Doc. Creation Checks in ExFlow Setup.
+
+![ExFlow Setup - Doc. Creation Checks](@site/static/img/media/exflow-setup-doc-creation-checks-001.png)
+
+When this setting is active, ExFlow will give a warning for each document in the Import Journal where the document currency differs from the vendors' default currency.
+
+![ExFlow Import Journal](@site/static/img/media/image227.png)
+
+![ExFlow Import Journal - Warning messages](@site/static/img/media/image228.png)
+
+ExFlow compares the contents of the Currency field on the document in the Import Journal with the default currency on the vendor (i.e., the contents of the Currency field on the vendor card).<br/>
+If the vendor has a blank (empty) currency, then ExFlow does not perform any validation.
+
+
+### Allow VAT Difference
+Go to: **ExFlow Setup --> Doc. Creation Checks --> Auto. Assign of VAT Diff. for Creation**<br/>
+
+If Allow VAT Difference is activated in Purchases & Payables Setup, VAT Rounding can be added in Statistics in Import Journal before creating the document.<br/>
+Max VAT Difference will be handled by settings in General Ledger Setup or from current Currency Code.
+
+![ExFlow Import Journal - Purchase Invoice Statistics](@site/static/img/media/image229.png)
+
+Via settings, ExFlow can assign VAT Difference automatically. Then VAT Difference will be proportionately distributed to all lines.
+
+Activate **"Auto. Assign of VAT Diff. for Creation"** in ExFlow Setup under section Doc. Creation Check for Import Journal.
+
+Activate **"Auto. Assign of VAT Diff. for Posting** in ExFlow Setup under section Doc. Posting Checks for Approval Status under Doc. Posting
+Checks.
+
+**Recommended to use both.**<br/>
+ExFlow will then add VAT Difference automatically if the VAT difference is within settings in General Ledger Setup or from current Currency Code.
+
+If the amount is changed during the approval flow, Business Central will delete the VAT Difference on updated line. Then ExFlow can automatically reassign when running Verify Changes in Approval Status.
+
+If VAT amount on lines is changed manually on Card after document creation, then ExFlow will ask:
+
+*"Do you want to update VAT Amount in ExFlow Approval Status from the VAT Amount of lines?"*<br/>
+Answer Yes, to update total VAT Amount in Approval Status.
+
+![Purchase Invoice or Credit Memo Card - Update VAT Amount](@site/static/img/media/image230.png)
+
+**Recommended settings:**<br/>
+If working with Automatic Assign of VAT Difference and Rounding on Invoices/Credit Memos when posting. Add NO VAT on G/L Account used for rounding.
+
+VAT difference is not allowed on document that include lines with ONLY VAT. Only if VAT is calculated on lines.
+
+Automatically Assign will override manually added VAT Amount in Statistics.
+
+
+
+## FactBoxes in Import Journal
+To the right in Import Journal there are useful FactBoxes.
+
+### PDF Preview
+Change size on PDF Preview Press - / + to decrease or increase size of PDF.
+
+![ExFlow Import Journal](@site/static/img/media/image215.png)
+
+Reset size of FactBox Click "Restore".
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/image216.png)
+
+"Zoom Out", "Zoom In" and Reset Zoom
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/image217.png)
+
+Change PDF page No. use "Record Buttons".
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/image218.png)
+
+Open PDF file in full size.
+
+Go to: ***Related --> Files --> Show Document Image (Ctrl+I)***
+
+### Discussion Panel (Message will be sent when document is created)
+When a comment has been added and sent in Discussion Panel from a document in Import Journal, it can only be seen in FactBox to the right marked with creating Users ID, Date and Time.
+
+If a ExFlow User that is a system user is mentioned by using @, notification will show in Business Central when logging in. An email message can also be sent, but not until the document is created due to that ExFlow Web Users cannot see documents or comments in Import Journal.
+
+On ExFlow Web the message will display in Chat on Document after it is created.
+
+Read more about settings and how to use Discussion Panel under section [***Discussion Panel / Chat and Line Comments***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
+
+### Incoming Document Files
+Go to: ***FactBox --> Incoming Document Files --> Attach File***<br/>
+Add Attach File
+
+Click "Choose", browse to the file to attach, and click "Open".
+
+![ExFlow Import Journal](@site/static/img/media/image219.png)
+
+### Approval Proposal
+View Approvers for current Document Line.
+From: ***Approval Proposal --> Show Approval Proposal***<br/>
+Approvers can be added manually. This is only to be used in special occasions.
+
+![ExFlow Import Journal, Fac Box, Approval Proposal](@site/static/img/media/image220.png)
+
+![Approval Proposal](@site/static/img/media/image221.png)
+
+### Document Details
+If the amount in document header and total amount on document lines do not have the same value, then document Details can help to see difference amount and if it is due to Direct Unit Cost excl VAT, Direct Unit Cost incl VAT, VAT amount or Prepayment.
+
+![ExFlow Import Journal, FactBox, Approval Proposal](@site/static/img/media/image222.png)
+
+### Warning Messages
+If Action Message displays "There are warning messages not yet accepted!" the message is viewed in FactBox "Warning messages". Make appropriate changes or "Accept all warnings" as picture below.
+
+![ExFlow Import Journal](@site/static/img/media/image224.png)
+
+![ExFlow Import Journal, FactBox, Warning messages](@site/static/img/media/image225.png)
+
+### Vendor Statistics and Buy-from Vendor History
+Find Vendor information in Vendor Statistic and Buy-from Vendor History FactBoxes.
+
+![FactBox](@site/static/img/media/approval-status-factbox-vendor-001.png)
+
+
+## Web columns
+
+### Description 2
 
 It is possible to use personalize and add the Description 2- field to the Import Journal lines. 
 
@@ -683,4 +706,3 @@ To add the Description 2 Web Column, go to **ExFlow Setup --> Edit Web Columns**
 ![Description 2](@site/static/img/media/exflow-web-columns-add-description-2.png)
 
 Read more about Web Columns under section [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
-

@@ -536,6 +536,15 @@ If SweBase (for Swedish customers) is installed, rounding will be handled by Swe
 Read more under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
 
 
+### Delete G/L Account Lines with Line Amount = Zero
+Go to: ***ExFlow Setup --> Doc. Posting Checks --> Delete G/L Account Lines with Line Amount = Zero***<br/>
+If account lines with 0 (zero) line amount needs to be added to a document before creating it but not keep it when posting, then it is suitable to activate "Delete G/L Account Lines with Line Amount = Zero" in ExFlow Setup.
+
+When this setting is enabled, any document lines with zero amount will be deleted before posting the document.
+
+![ExFlow Setup - Doc. Posting Checks](@site/static/img/media/exflow-setup-doc-posting-checks-003.png)
+
+
 ## Escalation
 
 Find all information about Escalation [***here***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#escalation)

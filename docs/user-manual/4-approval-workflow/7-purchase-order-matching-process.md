@@ -312,24 +312,6 @@ An action message will also be shown for the specific document line under the ap
 
 ![PO Matching Delay](@site/static/img/media/po-matching-delay-002.png)
 
-### PO matched lines with unit cost differences in ExFlow Web
-
-If a document is created in Import Journal, with a Unit price variance between the purchase order and the interpreted invoice, users can untick the ''Test Unit Cost'' checkbox on the Import Lines and create the document as usual. 
-
-Later on, in the Approval Status, users can personalize the page and enter the ''Unit Cost Mismatched'' column on the Document Lines to view if the specific invoice has a unit cost difference between the purchase order and the invoice line. 
-
-![Reason Check](@site/static/img/media/approval-status-unit-cost-missmatched-001.png) 
-
-When ExFlow Users receive this PO Matched invoice for approval in ExFlow Web, they can also be informed about difference, on a line level through web column ''Reason Check''. 
-
-To add this column to ExFlow Web, simply head over to ExFlow Setup and click on ''[***Edit Web Columns***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'' to add the web column Reason Check. 
-
-![Reason Check](@site/static/img/media/exflow-web-reason-check-002.png)
-
-This would make it easier for the approver to understand where the variance is and can thereafter handle the document in ExFlow web.
-
-![Reason Check](@site/static/img/media/exflow-web-reason-check-001.png)
-
 
 ### Item No. Matching Priority
 
@@ -360,3 +342,23 @@ Use the "Move Up" and "Move Down" buttons to move matching types up or down the 
 The higher a matching type is placed, the higher priority it has in the matching process.
 
 This function can also be made per vendor under [***Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
+
+## ExFlow Web
+
+### PO matched lines with unit cost differences in ExFlow Web
+
+If a document is created in Import Journal, with a Unit price variance between the purchase order and the interpreted invoice, users can untick the ''Test Unit Cost'' checkbox on the Import Lines and create the document as usual. 
+
+Later on, in the Approval Status, users can personalize the page and enter the ''Unit Cost Mismatched'' column on the Document Lines to view if the specific invoice has a unit cost difference between the purchase order and the invoice line. 
+
+![Reason Check](@site/static/img/media/approval-status-unit-cost-missmatched-001.png) 
+
+When ExFlow Users receive this PO Matched invoice for approval in ExFlow Web, they can also be informed about difference, on a line level through web column ''Reason Check''. 
+
+To add this column to ExFlow Web, simply head over to ExFlow Setup and click on ''[***Edit Web Columns***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'' to add the web column Reason Check. 
+
+![Reason Check](@site/static/img/media/exflow-web-reason-check-002.png)
+
+This would make it easier for the approver to understand where the variance is and can thereafter handle the document in ExFlow web.
+
+![Reason Check](@site/static/img/media/exflow-web-reason-check-001.png)

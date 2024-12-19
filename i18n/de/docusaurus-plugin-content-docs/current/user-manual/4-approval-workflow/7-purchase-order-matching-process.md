@@ -239,23 +239,7 @@ Eine Aktionsnachricht wird auch für die spezifische Dokumentzeile während des 
 
 ![PO Matching Delay](../../images/po-matching-delay-002.png)
 
-### PO-abgeglichene Zeilen mit Stückkostenunterschieden in ExFlow Web
 
-Wenn ein Dokument im Importjournal erstellt wird, mit einer Stückkostenabweichung zwischen der Bestellung und der interpretierten Rechnung, können Benutzer das Kontrollkästchen ''Test Unit Cost'' auf den Importzeilen deaktivieren und das Dokument wie gewohnt erstellen.
-
-Später können Benutzer im Genehmigungsstatus die Seite personalisieren und die Spalte ''Unit Cost Mismatched'' in den Dokumentzeilen einfügen, um zu sehen, ob die spezifische Rechnung eine Stückkostenabweichung zwischen der Bestellung und der Rechnungszeile aufweist.
-
-![Reason Check](../../images/approval-status-unit-cost-missmatched-001.png)
-
-Wenn ExFlow-Benutzer diese PO-abgeglichene Rechnung zur Genehmigung in ExFlow Web erhalten, können sie auch über die Abweichung auf Zeilenebene durch die Webspalte ''Reason Check'' informiert werden.
-
-Um diese Spalte zu ExFlow Web hinzuzufügen, gehen Sie einfach zu ExFlow Setup und klicken Sie auf ''[***Edit Web Columns***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'', um die Webspalte Reason Check hinzuzufügen.
-
-![Reason Check](../../images/exflow-web-reason-check-002.png)
-
-Dies würde es dem Genehmiger erleichtern zu verstehen, wo die Abweichung liegt, und er kann das Dokument anschließend in ExFlow Web bearbeiten.
-
-![Reason Check](../../images/exflow-web-reason-check-001.png)
 
 ### Artikelnummer-Abgleichspriorität
 
@@ -286,3 +270,24 @@ Verwenden Sie die Schaltflächen "Nach oben" und "Nach unten", um Abgleichstypen
 Je höher ein Abgleichstyp platziert ist, desto höher ist seine Priorität im Abgleichsprozess.
 
 Diese Funktion kann auch pro Lieferant unter [***Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup) durchgeführt werden.
+
+
+## ExFlow Web
+
+### PO-abgeglichene Zeilen mit Stückkostenunterschieden in ExFlow Web
+
+Wenn ein Dokument im Importjournal erstellt wird, mit einer Stückkostenabweichung zwischen der Bestellung und der interpretierten Rechnung, können Benutzer das Kontrollkästchen ''Test Unit Cost'' auf den Importzeilen deaktivieren und das Dokument wie gewohnt erstellen.
+
+Später können Benutzer im Genehmigungsstatus die Seite personalisieren und die Spalte ''Unit Cost Mismatched'' in den Dokumentzeilen einfügen, um zu sehen, ob die spezifische Rechnung eine Stückkostenabweichung zwischen der Bestellung und der Rechnungszeile aufweist.
+
+![Reason Check](../../images/approval-status-unit-cost-missmatched-001.png)
+
+Wenn ExFlow-Benutzer diese PO-abgeglichene Rechnung zur Genehmigung in ExFlow Web erhalten, können sie auch über die Abweichung auf Zeilenebene durch die Webspalte ''Reason Check'' informiert werden.
+
+Um diese Spalte zu ExFlow Web hinzuzufügen, gehen Sie einfach zu ExFlow Setup und klicken Sie auf ''[***Edit Web Columns***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'', um die Webspalte Reason Check hinzuzufügen.
+
+![Reason Check](../../images/exflow-web-reason-check-002.png)
+
+Dies würde es dem Genehmiger erleichtern zu verstehen, wo die Abweichung liegt, und er kann das Dokument anschließend in ExFlow Web bearbeiten.
+
+![Reason Check](../../images/exflow-web-reason-check-001.png)
