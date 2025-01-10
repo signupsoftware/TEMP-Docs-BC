@@ -14,7 +14,7 @@ Job Queue Entry setup should only be done in **Default Company**.
 
 
 ### Inbox Reminder
-To send reminders that ExFlow Users have documents to approve, following setup is needed in all companies.
+Send reminders if ExFlow Users have documents to approve.
 
 | Inbox Reminder |  | 
 |:-|:-|
@@ -39,7 +39,7 @@ To send an email when an ExFlow Users is mentioned by using @ and "ExFlow User C
 
 
 ### Unreceived Order
-To send reminder when receipt is missing on order related invoice. Then following setup is needed in all companies.
+To send reminder when receipt is missing on the order related invoice.
 
 | Unreceived Order |  |
 |:-|:-|

@@ -12,7 +12,7 @@ Um E-Mails an ExFlow-Benutzer senden zu können, sind einige Einstellungen erfor
 Die Einrichtung des Jobwarteschlangeneintrags sollte nur im **Standardunternehmen** erfolgen.
 
 ### Posteingangserinnerung
-Um Erinnerungen zu senden, dass ExFlow-Benutzer Dokumente zur Genehmigung haben, sind folgende Einstellungen in allen Unternehmen erforderlich.
+Senden Sie Erinnerungen, wenn ExFlow-Benutzer Dokumente genehmigen müssen.
 
 | Posteingangserinnerung |  | 
 |:-|:-|
@@ -36,7 +36,7 @@ Um eine E-Mail zu senden, wenn ein ExFlow-Benutzer durch Verwendung von @ und "E
 <br/><br/>
 
 ### Nicht erhaltene Bestellung
-Um eine Erinnerung zu senden, wenn der Wareneingang bei einer bestellbezogenen Rechnung fehlt, sind folgende Einstellungen in allen Unternehmen erforderlich.
+Um eine Erinnerung zu senden, wenn der Eingang auf der auftragsbezogenen Rechnung fehlt.
 
 | Nicht erhaltene Bestellung |  |
 |:-|:-|
