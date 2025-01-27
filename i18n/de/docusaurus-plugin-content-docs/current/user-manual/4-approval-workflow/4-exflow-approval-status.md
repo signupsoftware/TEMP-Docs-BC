@@ -449,62 +449,56 @@ Diese FactBoxes können auch in der ExFlow Genehmigungshistorie gefunden werden.
 
 ## Hintergrundverarbeitung
 
-Finden Sie alle Informationen zur Hintergrundverarbeitung [***hier***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#background-processing)
+Finden Sie alle Informationen zur Hintergrundverarbeitung [***hier***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#background-processing)<br/>
 
 Gehe zu ***ExFlow Einrichtung --> Hintergrundverarbeitung***
 
-Die folgenden Einstellungen gelten nur für Dokumente ohne Änderungen.
+Die folgenden Einstellungen gelten nur für Dokumente ohne Änderungen.<br/>
 
 Wenn Änderungen von ExFlow Web vorgenommen wurden, müssen diese weiterhin manuell im Genehmigungsstatus durch Ausführen von Änderungen überprüfen aktualisiert werden.
 
-### Überprüfen mit Job Queue und Überprüfen & Buchen mit Job Queue
-Aktivieren Sie eine dieser Einstellungen, um automatisch eine Job Queue zu erstellen, die genehmigte Rechnungen ohne Änderungen von ExFlow Web im Genehmigungsstatus "Überprüft" oder "Überprüft und Gebucht" verifiziert.
+### Überprüfung mit Job-Warteschlange
+Diese Einstellung gibt an, ob die Überprüfung genehmigter Dokumente im Hintergrund geplant werden soll. Dies gilt nur für Dokumente ohne Änderungen auf ExFlow Web.<br/>
 
-Die Job Queue "Ex Verify & Post Job Queue" ist standardmäßig so konfiguriert, dass sie stündlich an Wochentagen ausgeführt wird, wenn eine der genannten Hintergrundverarbeitungseinstellungen in der ExFlow Einrichtung aktiviert ist.
+![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfung mit Job-Warteschlange](@site/static/img/media/exflow-setup-background-processing-003.png)
 
-Wenn die Funktion deaktiviert wird, verschwindet die Job Queue "Ex Verify & Post Job Queue" aus der Liste der "Job Queue Einträge".
+### Überprüfen & Buchen mit Job-Warteschlange
+Gibt an, ob Dokumente mit dem Status "Bereit zur Buchung" im Genehmigungsstatus im Hintergrund geplant und nach der Überprüfung gebucht werden sollen.<br/>
 
-![Job Queue Eintrag Karte - Überprüfen & Buchen mit Job Queue](@site/static/img/media/image271.png)
+Alle "ExFlow web - geänderten" Dokumente, die in ExFlow Änderungen überprüfen im Genehmigungsstatus aktualisiert werden müssen, werden von diesem geplanten Job ausgeschlossen. Eine Nachricht im Feld Fehlermeldung im ExFlow Genehmigungsstatus wird bei diesen nicht aktualisierten Dokumenten sichtbar sein.
 
+![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfen & Buchen mit Job-Warteschlange](@site/static/img/media/exflow-setup-background-processing-004.png)
 
-### Überprüfen mit Job Queue
-Diese Einstellung gibt an, ob die Überprüfung genehmigter Dokumente im Hintergrund geplant werden soll. Dies gilt nur für Dokumente ohne Änderungen auf ExFlow Web.
+Die Job-Warteschlange "Ex Verify & Post Job Queue" ist standardmäßig so konfiguriert, dass sie jede Stunde an Wochentagen ausgeführt wird, wenn eine der genannten Hintergrundverarbeitungseinstellungen in der ExFlow Einrichtung aktiviert ist.
 
-![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfen mit Job Queue](@site/static/img/media/exflow-setup-background-processing-003.png)
+Wenn die Funktion deaktiviert wird, verschwindet die Job-Warteschlange "Ex Verify & Post Job Queue" aus der Liste der Job-Warteschlangeneinträge.
 
-
-### Überprüfen & Buchen mit Job Queue
-Gibt an, ob Dokumente mit dem Status "Bereit zur Buchung" im Genehmigungsstatus im Hintergrund geplant und nach der Überprüfung gebucht werden sollen.
-
-![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfen & Buchen mit Job Queue](@site/static/img/media/exflow-setup-background-processing-004.png)
-
-Alle "ExFlow web - geänderten" Dokumente, die in ExFlow Änderungen überprüfen im Genehmigungsstatus aktualisiert werden müssen, werden von diesem geplanten Job ausgeschlossen. Eine Nachricht im Feld Fehlermeldung im ExFlow Genehmigungsstatus wird auf diesen nicht aktualisierten Dokumenten sichtbar sein.
+![Job-Warteschlangeneintrag-Karte - Überprüfen & Buchen mit Job-Warteschlange](@site/static/img/media/image271.png)
 
 ### Änderungen automatisch überprüfen
-Diese Einstellung aktualisiert Dokumente mit dem Status "Genehmigt" auf "Bereit zur Buchung" ohne Job Queue Eintrag.
+Diese Einstellung aktualisiert Dokumente mit dem Status "Genehmigt" auf "Bereit zur Buchung" ohne Job-Warteschlangeneintrag.<br/>
 
 Diese Einstellung ermöglicht es, den Schritt "Änderungen überprüfen" auf der Genehmigungsstatusseite zu überspringen, wenn keine Änderungen am genehmigten Dokument vorgenommen wurden. Der Dokumentstatus wird automatisch auf "Bereit zur Buchung" geändert.
 
 ![ExFlow Einrichtung - Hintergrundverarbeitung - Änderungen automatisch überprüfen](@site/static/img/media/exflow-setup-background-processing-005.png)
 
-Die Einstellung "Änderungen automatisch überprüfen" kann auch in der ExFlow Lieferanteneinrichtung gefunden werden. Es ist möglich zu wählen, ob diese Funktion für einen bestimmten Lieferanten aktiviert/deaktiviert werden soll. Oder aktivieren Sie die Einstellung in der ExFlow Einrichtung für alle Lieferanten.
+Die Einstellung "Änderungen automatisch überprüfen" kann auch in den ExFlow Lieferanteneinstellungen gefunden werden. Es ist möglich zu wählen, ob diese Funktion für einen bestimmten Lieferanten aktiviert/deaktiviert werden soll. Oder aktivieren Sie die Einstellung in der ExFlow Einrichtung für alle Lieferanten.<br/>
 
 Lesen Sie mehr über diese Funktionalität im Abschnitt [***Änderungen überprüfen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
 
 ![ExFlow Erweiterte Lieferantenoptionen - Änderungen automatisch überprüfen](@site/static/img/media/Vendor-setup-card-006.png)
 
-
 ### Dokumente automatisch erstellen
 
-Aktivieren Sie dieses Feld, wenn alle interpretierten Dokumente automatisch aus dem ExFlow Import Journal erstellt werden sollen. Diese Funktion kann auch pro Lieferant in der Lieferanteneinrichtung eingerichtet werden, wenn die Dokumente eines bestimmten Lieferanten (zum Beispiel) von dieser Einstellung ausgeschlossen werden sollen.
+Aktivieren Sie dieses Feld, wenn alle interpretierten Dokumente automatisch aus dem ExFlow Import Journal erstellt werden sollen. Diese Funktion kann auch pro Lieferant in den Lieferanteneinstellungen eingerichtet werden, wenn die Dokumente eines bestimmten Lieferanten (zum Beispiel) von dieser Einstellung ausgeschlossen werden sollen.<br/>
 
 Wenn die Funktion aktiviert ist, werden alle interpretierten Dokumente ohne Fehler oder Warnmeldungen automatisch erstellt und zur Genehmigung gesendet.
 
 ![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](@site/static/img/media/background-processing-automatically-create-001.png)
 
-Es ist möglich, die Liste der ExFlow Import Journale zu personalisieren und die Spalte "Dokumente automatisch erstellen" dort hinzuzufügen und zu aktivieren, um ein dediziertes Journal für das automatische Erstellen von Dokumenten zu haben.
+Es ist möglich, die Liste der ExFlow Import Journals zu personalisieren und die Spalte "Dokumente automatisch erstellen" dort hinzuzufügen und zu aktivieren, um ein dediziertes Journal für die automatische Dokumentenerstellung zu haben.
 
-Diese Funktion kann ohne jegliche Einrichtung im ExFlow Import Journal verwendet werden, klicken Sie einfach auf Ja im untenstehenden Pop-up:
+Diese Funktion kann ohne jegliche Einrichtung im ExFlow Import Journal verwendet werden, klicken Sie einfach auf Ja im folgenden Popup:
 
 ![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](@site/static/img/media/background-processing-automatically-create-002.png)
 
@@ -513,7 +507,7 @@ Lesen Sie mehr darüber im Abschnitt [***Batch Import Documents from Interpretat
 
 ## Dokumentenbuchungsprüfungen
 
-Finden Sie alle Informationen zu Dokumentenbuchungsprüfungen [***hier***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#doc-posting-checks)
+Finden Sie alle Informationen zu Dokumentenbuchungsprüfungen [***hier***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#doc-posting-checks)<br/>
 
 ### Rechnungsrundung
 
@@ -560,8 +554,5 @@ Geben Sie eine Zahl in *"Anzahl der überfälligen Tage vor Hervorhebung"* ein, 
 Diese Einstellung arbeitet in Bezug auf das Fälligkeitsdatum des Dokuments und das Arbeitsdatum des Benutzers. "0" wird das Dokument am Fälligkeitsdatum hervorheben.
 
 ![ExFlow Einrichtung - Eskalation](../../images/exflow-setup-escalation-001.png)
-
-
-
 
 
