@@ -16,6 +16,12 @@ Kleinere Veröffentlichung
 **Veröffentlichungsinformationen:** <br/>
 Erfordert BC 24.0 oder höher <br/>
 
+Das Problem, bei dem in einigen Fällen die Mehrwertsteuer auf Verkaufsrechnungen, die aus der Neufakturierung generiert wurden, falsch war, wurde in 24.1.263.18 behoben.
+
+Das Problem, bei dem ExFlow nicht auf die neueste Version aktualisiert werden konnte, wurde in Release 24.1.263.18 behoben
+
+Das Problem beim Ausführen von Progressus und ExFlow, das dazu führte, dass die Rechnung manchmal nicht codiert werden konnte, wurde in 24.1.264.18 behoben.
+
 Zwei neue Ereignisse für OCR Import Mapping verfügbar - Hinzugefügt in 24.1.263.9
 
 Die erneute Rechnungsstellung funktionierte nicht mit der schwedischen Sprache im Genehmigungsstatus - Behoben in 24.1.263.9

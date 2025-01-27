@@ -453,59 +453,60 @@ Finden Sie alle Informationen zur Hintergrundverarbeitung [***hier***](https://d
 
 Gehe zu ***ExFlow Einrichtung --> Hintergrundverarbeitung***
 
-Folgende Einstellungen gelten nur für Dokumente ohne Änderungen.
+Die folgenden Einstellungen gelten nur für Dokumente ohne Änderungen.
 
 Wenn Änderungen von ExFlow Web vorgenommen wurden, müssen diese weiterhin manuell im Genehmigungsstatus durch Ausführen von Änderungen überprüfen aktualisiert werden.
 
-### Überprüfung mit Job-Warteschlange und Überprüfung & Buchung mit Job-Warteschlange
-Aktivieren Sie eine dieser Einstellungen, um automatisch eine Job-Warteschlange zu erstellen, die genehmigte Rechnungen ohne Änderungen von ExFlow Web im Genehmigungsstatus "Überprüft" oder "Überprüft und gebucht" automatisch überprüft oder überprüft und bucht.
+### Überprüfen mit Job Queue und Überprüfen & Buchen mit Job Queue
+Aktivieren Sie eine dieser Einstellungen, um automatisch eine Job Queue zu erstellen, die genehmigte Rechnungen ohne Änderungen von ExFlow Web im Genehmigungsstatus "Überprüft" oder "Überprüft und Gebucht" verifiziert.
+
+Die Job Queue "Ex Verify & Post Job Queue" ist standardmäßig so konfiguriert, dass sie stündlich an Wochentagen ausgeführt wird, wenn eine der genannten Hintergrundverarbeitungseinstellungen in der ExFlow Einrichtung aktiviert ist.
+
+Wenn die Funktion deaktiviert wird, verschwindet die Job Queue "Ex Verify & Post Job Queue" aus der Liste der "Job Queue Einträge".
+
+![Job Queue Eintrag Karte - Überprüfen & Buchen mit Job Queue](@site/static/img/media/image271.png)
 
 
-### Änderungen automatisch überprüfen
-Aktualisiert Dokumente mit dem Status "Genehmigt" auf "Bereit zur Buchung" ohne Job-Warteschlange.
-
-![ExFlow Einrichtung - Hintergrundverarbeitung](../../images/exflow-setup-background-processing-002.png)
-
-Die Job-Warteschlange "Ex Verify & Post Job Queue" ist standardmäßig so konfiguriert, dass sie stündlich an Wochentagen ausgeführt wird, wenn eine der genannten Hintergrundverarbeitungseinstellungen in der ExFlow Einrichtung aktiviert ist.
-
-Wenn die Funktion deaktiviert wird, verschwindet die Job-Warteschlange "Ex Verify & Post Job Queue" aus der Liste der "Job-Warteschlange Einträge".
-
-![Job-Warteschlange Eintragskarte - Überprüfen & Buchen mit Job-Warteschlange](../../images/image271.png)
-
-### Überprüfung mit Job-Warteschlange
+### Überprüfen mit Job Queue
 Diese Einstellung gibt an, ob die Überprüfung genehmigter Dokumente im Hintergrund geplant werden soll. Dies gilt nur für Dokumente ohne Änderungen auf ExFlow Web.
 
-![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfung mit Job-Warteschlange](../../images/exflow-setup-background-processing-003.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfen mit Job Queue](@site/static/img/media/exflow-setup-background-processing-003.png)
 
-### Überprüfung & Buchung mit Job-Warteschlange
+
+### Überprüfen & Buchen mit Job Queue
 Gibt an, ob Dokumente mit dem Status "Bereit zur Buchung" im Genehmigungsstatus im Hintergrund geplant und nach der Überprüfung gebucht werden sollen.
 
-![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfung & Buchung mit Job-Warteschlange](../../images/exflow-setup-background-processing-004.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfen & Buchen mit Job Queue](@site/static/img/media/exflow-setup-background-processing-004.png)
 
-Alle "ExFlow web - geänderten" Dokumente, die in ExFlow Änderungen überprüfen im Genehmigungsstatus aktualisiert werden müssen, werden von diesem geplanten Job ausgeschlossen. Eine Nachricht im Feld Fehlermeldung im ExFlow Genehmigungsstatus wird bei diesen nicht aktualisierten Dokumenten sichtbar sein.
+Alle "ExFlow web - geänderten" Dokumente, die in ExFlow Änderungen überprüfen im Genehmigungsstatus aktualisiert werden müssen, werden von diesem geplanten Job ausgeschlossen. Eine Nachricht im Feld Fehlermeldung im ExFlow Genehmigungsstatus wird auf diesen nicht aktualisierten Dokumenten sichtbar sein.
 
 ### Änderungen automatisch überprüfen
-Diese Einstellung ermöglicht es, den Schritt "Änderungen überprüfen" auf der Genehmigungsstatusseite zu überspringen, wenn keine Änderungen an dem genehmigten Dokument vorgenommen wurden. Der Dokumentstatus wird automatisch auf "Bereit zur Buchung" geändert.
+Diese Einstellung aktualisiert Dokumente mit dem Status "Genehmigt" auf "Bereit zur Buchung" ohne Job Queue Eintrag.
 
-![ExFlow Einrichtung - Hintergrundverarbeitung - Änderungen automatisch überprüfen](../../images/exflow-setup-background-processing-005.png)
+Diese Einstellung ermöglicht es, den Schritt "Änderungen überprüfen" auf der Genehmigungsstatusseite zu überspringen, wenn keine Änderungen am genehmigten Dokument vorgenommen wurden. Der Dokumentstatus wird automatisch auf "Bereit zur Buchung" geändert.
 
-Die Einstellung "Änderungen automatisch überprüfen" kann auch in den ExFlow Lieferanteneinstellungen gefunden werden. Es ist möglich zu wählen, ob diese Funktion für einen bestimmten Lieferanten aktiviert/deaktiviert werden soll. Oder die Einstellung in der ExFlow Einrichtung für alle Lieferanten aktivieren. Lesen Sie mehr über diese Funktionalität im Abschnitt **Änderungen überprüfen**.
+![ExFlow Einrichtung - Hintergrundverarbeitung - Änderungen automatisch überprüfen](@site/static/img/media/exflow-setup-background-processing-005.png)
 
-![ExFlow Erweiterte Lieferantenoptionen - Änderungen automatisch überprüfen](../../images/Vendor-setup-card-006.png)
+Die Einstellung "Änderungen automatisch überprüfen" kann auch in der ExFlow Lieferanteneinrichtung gefunden werden. Es ist möglich zu wählen, ob diese Funktion für einen bestimmten Lieferanten aktiviert/deaktiviert werden soll. Oder aktivieren Sie die Einstellung in der ExFlow Einrichtung für alle Lieferanten.
+
+Lesen Sie mehr über diese Funktionalität im Abschnitt [***Änderungen überprüfen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
+
+![ExFlow Erweiterte Lieferantenoptionen - Änderungen automatisch überprüfen](@site/static/img/media/Vendor-setup-card-006.png)
+
 
 ### Dokumente automatisch erstellen
 
-Aktivieren Sie dieses Feld, wenn alle interpretierten Dokumente automatisch aus dem ExFlow Import Journal erstellt werden sollen. Diese Funktion kann auch pro Lieferant in den Lieferanteneinstellungen eingerichtet werden, wenn die Dokumente eines bestimmten Lieferanten (zum Beispiel) von dieser Einstellung ausgeschlossen werden sollen.
+Aktivieren Sie dieses Feld, wenn alle interpretierten Dokumente automatisch aus dem ExFlow Import Journal erstellt werden sollen. Diese Funktion kann auch pro Lieferant in der Lieferanteneinrichtung eingerichtet werden, wenn die Dokumente eines bestimmten Lieferanten (zum Beispiel) von dieser Einstellung ausgeschlossen werden sollen.
 
 Wenn die Funktion aktiviert ist, werden alle interpretierten Dokumente ohne Fehler oder Warnmeldungen automatisch erstellt und zur Genehmigung gesendet.
 
-![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](../../images/background-processing-automatically-create-001.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](@site/static/img/media/background-processing-automatically-create-001.png)
 
-Es ist möglich, die Liste der ExFlow Import Journale zu personalisieren und die Spalte "Dokumente automatisch erstellen" dort hinzuzufügen und zu aktivieren, um ein dediziertes Journal für die automatische Dokumentenerstellung zu haben.
+Es ist möglich, die Liste der ExFlow Import Journale zu personalisieren und die Spalte "Dokumente automatisch erstellen" dort hinzuzufügen und zu aktivieren, um ein dediziertes Journal für das automatische Erstellen von Dokumenten zu haben.
 
-Diese Funktion kann ohne jegliche Einrichtung im ExFlow Import Journal verwendet werden, klicken Sie einfach auf Ja im untenstehenden Popup:
+Diese Funktion kann ohne jegliche Einrichtung im ExFlow Import Journal verwendet werden, klicken Sie einfach auf Ja im untenstehenden Pop-up:
 
-![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](../../images/background-processing-automatically-create-002.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](@site/static/img/media/background-processing-automatically-create-002.png)
 
 Lesen Sie mehr darüber im Abschnitt [***Batch Import Documents from Interpretation***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
 

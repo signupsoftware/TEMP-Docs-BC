@@ -18,6 +18,12 @@ Minor Release
 **Release Information:** <br/>
 Requires BC 24.0 or later <br/>
 
+The issue where in some cases the VAT was incorrect on Sales Invoices generated from Re-invoicing has been solved in 24.1.263.18
+
+The issue where ExFlow could not be upgraded to the latest version has been solved in 24.1.263.18
+
+The issue when running Progressus and ExFlow resulting in some times not being able to code the invoice has been solved in 24.1.264.18
+
 Two new events available for OCR Import Mapping - Added in 24.1.263.9
 
 Re-invoicing did not work with Swedish language in Approval Status - Resolved in 24.1.263.9
