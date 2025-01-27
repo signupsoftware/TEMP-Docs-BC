@@ -455,21 +455,21 @@ These FactBoxes can also be found in ExFlow Approval History.
 
 ## Background Processing
 
-Find all information about Background Processing [***here***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#background-processing)
+Find all information about Background Processing [***here***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#background-processing)<br/>
 
 Go to ***ExFlow Setup --> Background Processing***
 
-Following settings only applies to documents without changes.
+Following settings only applies to documents without changes.<br/>
 
 If there are any changes done from ExFlow Web, they still need to be updated manually in Approval Status by running Verify Changes.
 
 ### Verify with Job Queue
-This setting specifies if verification of approved documents should be scheduled to run in the background. This will only apply for documents without changes on ExFlow Web.
+This setting specifies if verification of approved documents should be scheduled to run in the background. This will only apply for documents without changes on ExFlow Web.<br/>
 
 ![ExFlow Setup - Background Processing - Verify with Job Queue](@site/static/img/media/exflow-setup-background-processing-003.png)
 
 ### Verify & Post with Job Queue
-Specifies if documents with status "Ready for Posting" in Approval Status should be scheduled to run in the background and post documents after verification.
+Specifies if documents with status "Ready for Posting" in Approval Status should be scheduled to run in the background and post documents after verification.<br/>
 
 All "ExFlow web - changed" documents, that requires to be updated in ExFlow Verify Changes in Approval Status, will be excluded from this scheduled job. A message in Error Message field in the ExFlow Approval Status will be visible on these non-updated documents.
 
@@ -484,7 +484,7 @@ When the function gets disabled, the Job Queue "Ex Verify & Post Job Queue" will
 
 
 ### Verify Changes Done Automatically
-This setting will update documents with status "Approved" to "Ready for Posting" without Job Queue Entry.
+This setting will update documents with status "Approved" to "Ready for Posting" without Job Queue Entry.<br/>
 
 This setting allows to skip the step "Verify Changes" in Approval Status page if no changes were made on the approved document. Document status is automatically changed to "Ready for Posting".
 
@@ -498,8 +498,7 @@ Read more about this functionality under section [***Verify Changes***](https://
 
 ### Automatically Create Documents
 
-Enable this box if all interpreted documents should be automatically created
-from the ExFlow Import Journal. This function can also be setup per vendor in Vendor Setup if a specific vendor's documents (for instance) should be excluded from this setting.
+Enable this box if all interpreted documents should be automatically created from the ExFlow Import Journal. This function can also be setup per vendor in Vendor Setup if a specific vendor's documents (for instance) should be excluded from this setting.
 
 If the function is enabled, then all interpreted documents with no errors or warning messages will be automatically created and sent for approval.
 
@@ -511,7 +510,7 @@ This function can be used without any setup on ExFlow Import Journal, simply cli
 
 ![ExFlow Setup - Background Processing - Automatically Create Documents](@site/static/img/media/background-processing-automatically-create-002.png)
 
-Read more about this under section [***Batch Import Documents from Interpretation***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
+Read more about this under section [***Batch Import Documents from Interpretation***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation) <br/>
 
 ## Doc. Posting Checks
 
