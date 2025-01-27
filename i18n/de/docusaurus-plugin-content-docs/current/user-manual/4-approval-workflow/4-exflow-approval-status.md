@@ -556,6 +556,3 @@ Diese Einstellung arbeitet in Bezug auf das Fälligkeitsdatum des Dokuments und 
 ![ExFlow Einrichtung - Eskalation](../../images/exflow-setup-escalation-001.png)
 
 
-
-
-

@@ -564,4 +564,3 @@ This setting operates in relation with the due date of the document and the user
 
 ![ExFlow Setup - Escalation](@site/static/img/media/exflow-setup-escalation-001.png)
 
-
