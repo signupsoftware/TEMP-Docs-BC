@@ -463,15 +463,6 @@ Following settings only applies to documents without changes.
 
 If there are any changes done from ExFlow Web, they still need to be updated manually in Approval Status by running Verify Changes.
 
-### Verify with Job Queue and Verify & Post with Job Queue
-Tick one of these settings to automatically create a Job Queue that will "Verify" or "Verify and Post"' approved invoices, without Changes from ExFlow Web, in Approval Status.
-
-Job Queue "Ex Verify & Post Job Queue" is configured to run every hour on weekdays by default, when enabling one of the mentioned Background Processing settings in ExFlow Setup.
-
-When the function gets disabled, the Job Queue "Ex Verify & Post Job Queue" will disappear from the "Job Queue Entries" list.
-
-![Job Queue Entry Card - Verify & Post with Job Queue](@site/static/img/media/image271.png)
-
 ### Verify with Job Queue
 This setting specifies if verification of approved documents should be scheduled to run in the background. This will only apply for documents without changes on ExFlow Web.
 
@@ -480,9 +471,17 @@ This setting specifies if verification of approved documents should be scheduled
 ### Verify & Post with Job Queue
 Specifies if documents with status "Ready for Posting" in Approval Status should be scheduled to run in the background and post documents after verification.
 
+All "ExFlow web - changed" documents, that requires to be updated in ExFlow Verify Changes in Approval Status, will be excluded from this scheduled job. A message in Error Message field in the ExFlow Approval Status will be visible on these non-updated documents.
+
 ![ExFlow Setup - Background Processing - Verify & Post with Job Queue](@site/static/img/media/exflow-setup-background-processing-004.png)
 
-All "ExFlow web - changed" documents, that requires to be updated in ExFlow Verify Changes in Approval Status, will be excluded from this scheduled job. A message in Error Message field in the ExFlow Approval Status will be visible on these non-updated documents.
+
+Job Queue "Ex Verify & Post Job Queue" is configured to run every hour on weekdays by default, when enabling one of the mentioned Background Processing settings in ExFlow Setup.
+
+When the function gets disabled, the Job Queue "Ex Verify & Post Job Queue" will disappear from the "Job Queue Entries" list.
+
+![Job Queue Entry Card - Verify & Post with Job Queue](@site/static/img/media/image271.png)
+
 
 ### Verify Changes Done Automatically
 This setting will update documents with status "Approved" to "Ready for Posting" without Job Queue Entry.
