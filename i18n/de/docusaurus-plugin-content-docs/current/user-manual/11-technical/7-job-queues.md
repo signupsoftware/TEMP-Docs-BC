@@ -41,4 +41,5 @@ Eine Liste der häufigsten Jobs wird unten dargestellt:
 |**Speicherverwaltung für eingehende Dokumente** |12026820 |Ex Storage Mgmt. NAS <br/> Externe Blob-Speicherung eingehender Dokumente (Azure Container oder SharePoint in ExFlow Storage Setup). <br/> Dies kann unter ExFlow Setup --> Aktionen --> Funktionen --> Blob Storage Mgmt. eingerichtet werden. |Ja
 |**ExFlow-Verkaufsauftrag importieren** |12013681 |ExSOImportManagement <br/> Dieser Job übernimmt den Import von Verkaufsdokumenten aus ExFlow Data Capture. |Nein
 |**Ausführen eines Eskalationsauftrags** |12057074 |Ex Escalation NAS <br/><br/> Dieser Job verarbeitet die ExFlow-Eskalation. Es ist auch möglich, einen Bericht (12013629) für den Eskalationsjob unter Periodische Aktivitäten --> ExFlow-Eskalationsjob <br/><br/> Einrichten für die Eskalation muss in ExFlow Setup --> Eskalation |Nein
+|**Codierungsvorschlag** |12013594 |Aktualisieren Sie die Codierungssatz-ID in Dokumenten - Projekt<br/><br/>, dann kann Report 12013593 (ExFlow Coding Suggestion Setup - Update - Project) verwendet werden. Einmal täglich nach der Bürozeit empfehlen |Nein
 

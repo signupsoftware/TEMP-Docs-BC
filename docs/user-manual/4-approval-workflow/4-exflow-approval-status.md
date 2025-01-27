@@ -466,11 +466,6 @@ If there are any changes done from ExFlow Web, they still need to be updated man
 ### Verify with Job Queue and Verify & Post with Job Queue
 Tick one of these settings to automatically create a Job Queue that will "Verify" or "Verify and Post"' approved invoices, without Changes from ExFlow Web, in Approval Status.
 
-### Verify Changes Done Automatically
-Will update documents with status "Approved" to "Ready for Posing" without Job Queue Entry.
-
-![ExFlow Setup - Background Processing](@site/static/img/media/exflow-setup-background-processing-002.png)
-
 Job Queue "Ex Verify & Post Job Queue" is configured to run every hour on weekdays by default, when enabling one of the mentioned Background Processing settings in ExFlow Setup.
 
 When the function gets disabled, the Job Queue "Ex Verify & Post Job Queue" will disappear from the "Job Queue Entries" list.
@@ -490,11 +485,15 @@ Specifies if documents with status "Ready for Posting" in Approval Status should
 All "ExFlow web - changed" documents, that requires to be updated in ExFlow Verify Changes in Approval Status, will be excluded from this scheduled job. A message in Error Message field in the ExFlow Approval Status will be visible on these non-updated documents.
 
 ### Verify Changes Done Automatically
+This setting will update documents with status "Approved" to "Ready for Posting" without Job Queue Entry.
+
 This setting allows to skip the step "Verify Changes" in Approval Status page if no changes were made on the approved document. Document status is automatically changed to "Ready for Posting".
 
 ![ExFlow Setup - Background Processing - Verify Changes Done Automatically](@site/static/img/media/exflow-setup-background-processing-005.png)
 
-The "Verify Changes Done Automatically" setting can also be found in ExFlow Vendor Setup. It is possible to choose if this feature should be enabled/disabled for a specific vendor. Or enable the setting in ExFlow Setup for all vendors. Read more about this functionality under section **Verify Changes**.
+The "Verify Changes Done Automatically" setting can also be found in ExFlow Vendor Setup. It is possible to choose if this feature should be enabled/disabled for a specific vendor. Or enable the setting in ExFlow Setup for all vendors. 
+
+Read more about this functionality under section [***Verify Changes***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
 
 ![ExFlow Advanced Vendor Options - Verify Changes Done Automatically](@site/static/img/media/Vendor-setup-card-006.png)
 
