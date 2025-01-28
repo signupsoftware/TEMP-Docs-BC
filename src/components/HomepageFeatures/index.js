@@ -142,8 +142,7 @@ export default function HomepageFeatures() {
     
     <section className={styles.none}>
       <div className="main-title">
-      SOLUTIONS FOR<br/>
-      D365 FINANCE AND OPERATIONS
+      SOLUTIONS FOR D365 BUSINESS CENTRAL
       </div>
 
       <div className="menu-container">
