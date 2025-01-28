@@ -90,7 +90,7 @@ const FeatureList = [
   }, 
   {
     title: <Translate>EXFLOW CONTENT GATE</Translate>,
-    url: 'http://localhost:3000/business-central/docs/cg',
+    url: 'http://docs.signupsoftware.com/business-central/docs/cg',
     tag: 'bc-content-gate',
     index: 6
   },
