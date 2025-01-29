@@ -98,7 +98,7 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   // 
   //baseUrl: '/',    // Use this for local dev
-  baseUrl: '/business-central/',    // Use this for production  
+  baseUrl: '/business-central/',
   
   // EA 2024-09-27 We're fixing this in Github Yaml, it replaces '/' with 'business-central'
   //baseUrl: '/',
