@@ -90,7 +90,7 @@ const FeatureList = [
   }, 
   {
     title: <Translate>EXFLOW CONTENT GATE</Translate>,
-    url: 'http://localhost:3000/business-central/docs/cg',
+    url: 'http://docs.signupsoftware.com/business-central/docs/cg',
     tag: 'bc-content-gate',
     index: 6
   },
@@ -142,8 +142,7 @@ export default function HomepageFeatures() {
     
     <section className={styles.none}>
       <div className="main-title">
-      SOLUTIONS FOR<br/>
-      D365 FINANCE AND OPERATIONS
+      SOLUTIONS FOR D365 BUSINESS CENTRAL
       </div>
 
       <div className="menu-container">
