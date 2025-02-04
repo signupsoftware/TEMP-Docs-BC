@@ -9,7 +9,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 // To add new products, just copy an existing one and change the title and url.
 //
 
-
+/*
 const FeatureList_OLD = [
             {
               title: <Translate>EXFLOW AP</Translate>,
@@ -38,18 +38,19 @@ const FeatureList_OLD = [
         },
           {
             title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
-            url: 'https://docs.signupsoftware.com/tem',
+            url: 'https://docs.exflow.cloud/tem',
             tag: 'travel-and-expense'
           },
 
 
               {
                 title: <Translate>EXFLOW CONTENT GATE</Translate>,
-                url: 'https://docs.signupsoftware.com/tem',
+                url: 'https://docs.exflow.cloud/tem',
                 tag: 'bc-content-gate'
               }
 
 ];
+*/
 
 
 const FeatureList = [
@@ -76,7 +77,7 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
-    url: 'https://docs.signupsoftware.com/tem',
+    url: 'https://docs.exflow.cloud/tem',
     tag: 'travel-and-expense',
     index: 5
   },
@@ -90,7 +91,7 @@ const FeatureList = [
   }, 
   {
     title: <Translate>EXFLOW CONTENT GATE</Translate>,
-    url: 'http://docs.signupsoftware.com/business-central/docs/cg',
+    url: 'http://docs.exflow.cloud/business-central/docs/cg',
     tag: 'bc-content-gate',
     index: 6
   },
