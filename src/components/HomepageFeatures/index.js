@@ -114,10 +114,6 @@ const FeatureList = [
 ];
 
 
-
-
-
-
 // Change this to get a new design of the menu items.
 //
 function Feature({title, url, index}) {
