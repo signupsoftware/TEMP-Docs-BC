@@ -348,6 +348,7 @@ table strong {
   */
 }
 
+/* Old, single column buttons
 .menu-item {
   width: fit-content;
   height: 55px;
@@ -361,6 +362,22 @@ table strong {
   padding-right: 25px;
   font-family: 'DMSans', sans-serif;
   font-size: 15pt;
+}
+*/
+
+.menu-item {
+  align-content: center;
+  border-radius: 10px;
+  color: #000;
+  font-size: 15pt;
+  height: 55px;
+  margin-right: 30px;
+  margin-top: 12px;
+  min-width: 200px;
+  padding-left: 20px;
+  padding-right: 25px;
+  text-align: left;
+  background-color: var(--ifm-color-primary-base-color);
 }
 .menu-item:hover {
   background-color: #FFC48C;
@@ -1020,6 +1037,27 @@ img[alt="large"] {
   color: #feddb8;
 }
 
+
+
+.main-menu-table {
+  border-collapse: collapse;
+  border: none;
+}
+.main-menu-table tr {
+  background-color: unset;
+  border-top: none;
+}
+.main-menu-table tr:nth-child(2n) {
+  background-color: unset;
+}
+.main-menu-table tr td {
+  border-collapse: collapse;
+  border: none !important;  
+}
+
+.small-drop-shadow {
+  box-shadow: 3px 3px 8px 3px #888888b0;
+}
 
 
 /* ----------------------------------------------------------------------------- */
