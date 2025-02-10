@@ -10,6 +10,10 @@ To obtain support, please contact your ExFlow or Business Central partner. If th
 
 Every customer, as standard, have two dedicated super users that will access Support Portal. It is however possible to add more than two super users if needed. Please contact SignUp Software to proceed an agreement change.
 
+### Log in
+
+Watch our [Introduction to the Support Portal ](https://www.youtube.com/playlist?list=PLJAWzooWyJH8qpTlXwSyNoBOJbM697r8C) to learn more about how to create a ticket and how the support portal works. 
+
 Click on *SIGN IN* and choose authentication method to enter.
 
 ![Support Portal](@site/static/img/media/support-portal-sign-in-001.png)

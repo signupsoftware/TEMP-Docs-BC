@@ -10,6 +10,10 @@ Um Unterstützung zu erhalten, wenden Sie sich bitte an Ihren ExFlow- oder Busin
 
 Jeder Kunde hat standardmäßig zwei dedizierte Superuser, die auf das Support-Portal zugreifen können. Es ist jedoch möglich, bei Bedarf mehr als zwei Superuser hinzuzufügen. Bitte kontaktieren Sie SignUp Software, um eine Vertragsänderung vorzunehmen.
 
+### Einloggen
+
+Sehen Sie sich unsere [Einführung in das Support-Portal](https://www.youtube.com/playlist?list=PLJAWzooWyJH8qpTlXwSyNoBOJbM697r8C) an, um mehr darüber zu erfahren, wie Sie ein Ticket erstellen und wie das Support-Portal funktioniert.
+
 Klicken Sie auf *ANMELDEN* und wählen Sie die Authentifizierungsmethode, um sich anzumelden.
 
 ![Support-Portal](../../images/support-portal-sign-in-001.png)
