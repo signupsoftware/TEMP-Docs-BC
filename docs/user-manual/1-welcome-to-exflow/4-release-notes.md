@@ -18,6 +18,12 @@ Minor Release
 **Release Information:** <br/>
 Requires BC 24.0 or later <br/>
 
+The issue with deferral codes in some specific scenarios getting an incorrect posting date when running the function "Batch Update Posting Date" has been solved in 24.1.263.22
+
+The issue related to importing only PDF-files through ExFlow File Import Setup has been solved in 24.1.263.22
+
+The issue that Sales Orders could not be created in some scenarios has been solved in 24.1.263.22
+
 The issue where in some cases the VAT was incorrect on Sales Invoices generated from Re-invoicing has been solved in 24.1.263.18
 
 The issue where ExFlow could not be upgraded to the latest version has been solved in 24.1.263.18
