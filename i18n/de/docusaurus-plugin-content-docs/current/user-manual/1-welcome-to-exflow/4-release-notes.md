@@ -16,6 +16,12 @@ Kleinere Veröffentlichung
 **Veröffentlichungsinformationen:** <br/>
 Erfordert BC 24.0 oder höher <br/>
 
+Das Problem, dass Stundungscodes in einigen bestimmten Szenarien ein falsches Buchungsdatum erhalten, wenn die Funktion "Batch Update Posting Date" ausgeführt wird, wurde in 24.1.263.22 behoben
+
+Das Problem, bei dem nur PDF-Dateien über das ExFlow-Dateiimport-Setup importiert wurden, wurde in Release 24.1.263.22 behoben
+
+Das Problem, dass Kundenaufträge in einigen Szenarien nicht erstellt werden konnten, wurde in 24.1.263.22 behoben.
+
 Das Problem, bei dem in einigen Fällen die Mehrwertsteuer auf Verkaufsrechnungen, die aus der Neufakturierung generiert wurden, falsch war, wurde in 24.1.263.18 behoben.
 
 Das Problem, bei dem ExFlow nicht auf die neueste Version aktualisiert werden konnte, wurde in Release 24.1.263.18 behoben
