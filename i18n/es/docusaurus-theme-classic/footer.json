@@ -1,0 +1,46 @@
+{
+  "link.title.Other documentation": {
+    "message": "Otra documentación",
+    "description": "El título de la columna de enlaces del pie de página con el título=Otra documentación en el pie de página"
+  },
+  "link.title.More": {
+    "message": "Más",
+    "description": "El título de la columna de enlaces del pie de página con el título=Más en el pie de página"
+  },
+  "link.item.label.ExFlow for FO": {
+    "message": "ExFlow para FO",
+    "description": "La etiqueta del enlace del pie de página con la etiqueta=ExFlow para FO que enlaza a https://docs.exflow.cloud/finance-operations"
+  },
+  "link.item.label.ExFlow for BC": {
+    "message": "ExFlow para BC",
+    "description": "La etiqueta del enlace del pie de página con la etiqueta=ExFlow para BC que enlaza a docs/user-manual"
+  },
+  "link.item.label.ExFlow Web": {
+    "message": "ExFlow Web",
+    "description": "La etiqueta del enlace del pie de página con la etiqueta=ExFlow Web que enlaza a https://docs.exflow.cloud/web"
+  },
+  "link.item.label.ExFlow support": {
+    "message": "Soporte de ExFlow",
+    "description": "La etiqueta del enlace del pie de página con la etiqueta=Soporte de ExFlow que enlaza a https://support.signupsoftware.com/"
+  },
+  "link.item.label.Partner portal": {
+    "message": "Portal de socios",
+    "description": "La etiqueta del enlace del pie de página con la etiqueta=Portal de socios que enlaza a https://azuresignup.sharepoint.com/sites/Signupsoftware"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 SignUp Software AB",
+    "description": "El copyright del pie de página"
+  },
+  "link.item.label.Terms and Conditions": {
+    "message": "Términos y Condiciones",
+    "description": "La etiqueta del enlace del pie de página con la etiqueta=Términos y Condiciones que enlaza a /docs/papers/agreements"
+  },
+  "link.item.label.Potato": {
+    "message": ".",
+    "description": "La etiqueta del enlace del pie de página con la etiqueta=Potato que enlaza a /docs/papers/TaE/index"
+  },
+  "link.item.label..": {
+    "message": ".",
+    "description": "La etiqueta del enlace del pie de página con la etiqueta=. que enlaza a /docs/agreements"
+  }
+}

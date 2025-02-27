@@ -1,0 +1,22 @@
+{
+  "item.label.Documentation": {
+    "message": "Documentación",
+    "description": "Elemento de la barra de navegación con la etiqueta Documentación"
+  },
+  "item.label.Release notes": {
+    "message": "Notas de la versión",
+    "description": "Elemento de la barra de navegación con la etiqueta Notas de la versión"
+  },
+  "item.label.Video tutorials": {
+    "message": "Tutoriales en video",
+    "description": "Elemento de la barra de navegación con la etiqueta Tutoriales en video"
+  },
+  "item.label.Home": {
+    "message": "Home",
+    "description": "Elemento de la barra de navegación con la etiqueta Inicio"
+  },
+  "logo.alt": {
+    "message": "Logotipo de SignUp",
+    "description": "El texto alternativo del logotipo de la barra de navegación"
+  }
+}
