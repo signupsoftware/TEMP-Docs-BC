@@ -116,13 +116,16 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'de'],
+    locales: ['en', 'de', 'es'],
     localeConfigs: {
       en: {
         htmlLang: 'en-GB',
       },
       de: {
         htmlLang: 'de-DE',
+      },
+      es: {
+        htmlLang: 'es-ES',
       },
       // You can omit a locale (e.g. fr) if you don't need to override the defaults
       fa: {
