@@ -1,46 +1,46 @@
 {
   "version.label": {
-    "message": "Nächste",
-    "description": "The label for version current"
+    "message": "Próxima",
+    "description": "La etiqueta para la versión actual"
   },
   "sidebar.tutorialSidebar.category.Welcome to ExFlow": {
-    "message": "Willkommen bei ExFlow",
-    "description": "The label for category Welcome to ExFlow in sidebar tutorialSidebar"
+    "message": "Bienvenido a ExFlow",
+    "description": "La etiqueta para la categoría Bienvenido a ExFlow en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Business Functionality": {
-    "message": "Geschäftsfunktionalität",
-    "description": "The label for category Business Functionality in sidebar tutorialSidebar"
+    "message": "Funcionalidad Empresarial",
+    "description": "La etiqueta para la categoría Funcionalidad Empresarial en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Approval Workflow": {
-    "message": "Genehmigungsworkflow",
-    "description": "The label for category Approval Workflow in sidebar tutorialSidebar"
+    "message": "Flujo de Aprobación",
+    "description": "La etiqueta para la categoría Flujo de Aprobación en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Localizations and ISV Extensions": {
-    "message": "Lokalisierungen und ISV-Erweiterungen",
-    "description": "The label for category Localizations and ISV Extensions in sidebar tutorialSidebar"
+    "message": "Localizaciones y Extensiones ISV",
+    "description": "La etiqueta para la categoría Localizaciones y Extensiones ISV en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Business Intelligence and reporting": {
-    "message": "Geschäftsanalytik und Berichterstattung",
-    "description": "The label for category Business Intelligence and reporting in sidebar tutorialSidebar"
+    "message": "Inteligencia Empresarial y Reportes",
+    "description": "La etiqueta para la categoría Inteligencia Empresarial y Reportes en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Help and Support": {
-    "message": "Hilfe und Unterstützung",
-    "description": "The label for category Help and Support in sidebar tutorialSidebar"
+    "message": "Ayuda y Soporte",
+    "description": "La etiqueta para la categoría Ayuda y Soporte en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Technical": {
-    "message": "Technisch",
-    "description": "The label for category Technical in sidebar tutorialSidebar"
+    "message": "Técnico",
+    "description": "La etiqueta para la categoría Técnico en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ExFlow Sales Order": {
-    "message": "ExFlow Verkaufsauftrag",
-    "description": "The label for category ExFlow Sales Order in sidebar tutorialSidebar"
+    "message": "Orden de Venta ExFlow",
+    "description": "La etiqueta para la categoría Orden de Venta ExFlow en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ExFlow Travel & Expense": {
-    "message": "ExFlow Travel & Expense",
-    "description": "The label for category ExFlow Travel & Expense in sidebar tutorialSidebar"
+    "message": "ExFlow Viajes y Gastos",
+    "description": "La etiqueta para la categoría ExFlow Viajes y Gastos en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ExFlow CO₂ Insights": {
-    "message": "ExFlow CO₂-Einblicke",
-    "description": "The label for category ExFlow CO₂ Insights in sidebar tutorialSidebar"
+    "message": "ExFlow Perspectivas de CO₂",
+    "description": "La etiqueta para la categoría ExFlow Perspectivas de CO₂ en la barra lateral tutorialSidebar"
   }
 }
