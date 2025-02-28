@@ -1072,3 +1072,8 @@ img[alt="large"] {
   width: 100vw;  /* Set width to 100% of the viewport width */     
   border: none; /* Remove default border */
 }
+
+.dropdown--hoverable ul li:nth-child(3) {
+  display: none;
+}
+
