@@ -6,5 +6,6 @@ custom_edit_url: null
 slug: /co2
 ---
 <div className="proxy-page">
-<iframe className="doc-iframe" title="SignUpDocs" src="https://thankful-water-06a6c0b03.5.azurestaticapps.net/user-manual/CO2/co2-tech-req"></iframe>
+<iframe className="doc-iframe" title="SignUpDocs" src="https://lively-flower-064383f03.4.azurestaticapps.net/user-manual/CO2/co2-tech-req"></iframe>
+<!--<iframe className="doc-iframe" title="SignUpDocs" src="https://thankfulZZZ-water-06a6c0b03.5.azurestaticapps.net/user-manual/CO2/co2-tech-req"></iframe>-->
 </div>
