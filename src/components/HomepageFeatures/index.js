@@ -63,7 +63,9 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-    url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
+    //url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
+    // EA 2025-02-28 Impl. Language dependent URL
+    url: <Translate>URL-exflow-data-capture</Translate>,
     index: 4,
     tag: 'data-capture'
   },
