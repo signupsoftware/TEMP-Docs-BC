@@ -7,6 +7,20 @@ custom_edit_url: null
 ## Documentos para Descargar  
 
 Versiones anteriores del manual de usuario y otros documentos técnicos están disponibles para descargar:
+
+
+<a target="_blank" href="https://lively-flower-064383f03.4.azurestaticapps.net/Old-Manuals/ExFlow En User Manual EXF542000.pdf">ExFlow User Manual EXF542000</a><br/>
+
+<a target="_blank" href="https://lively-flower-064383f03.4.azurestaticapps.net/Old-Manuals/ExFlow EN Configuration Guide 5.00.pdf">ExFlow Configuration Guide</a><br/>
+
+<a target="_blank" href="https://lively-flower-064383f03.4.azurestaticapps.net/Old-Manuals/ExFlow EN Technical Manual 5.02.pdf">ExFlow Technical Manual</a><br/>
+
+<a target="_blank" href="https://lively-flower-064383f03.4.azurestaticapps.net/Old-Manuals/ExFlow EN Upgrade 5.10.pdf">ExFlow Upgrade</a><br/>
+
+<a target="_blank" href="https://lively-flower-064383f03.4.azurestaticapps.net/Old-Manuals/ExFlow Web EN User Manual 5.0.pdf">ExFlow Web User Manual</a><br/>
+
+
+
 <!--
 <a target="_blank" href={ require("/Old-manuals/ExFlow En User Manual EXF542000.pdf").default } download>Manual de Usuario de ExFlow EXF542000</a><br/>
 
