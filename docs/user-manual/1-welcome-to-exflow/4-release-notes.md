@@ -18,6 +18,18 @@ Minor Release
 **Release Information:** <br/>
 Requires BC 24.0 or later <br/>
 
+New events for 4PS added in 24.1.263.39
+ 
+New events for 4PS added in 24.1.263.32
+
+Issue when using Pebblestone and ExFlow web is resolved in 24.1.263.32
+
+Issue with Global Dimensions behaving incorrectly when selecting in the Import Journal is resolved in 24.1.263.32
+ 
+New events for 4PS and ExFlow Purchase codes added in 24.1.263.28
+
+Issue related to Item Charge Assignment not working before document is verified is resolved in 24.1.263.28
+
 The issue with deferral codes in some specific scenarios getting an incorrect posting date when running the function "Batch Update Posting Date" has been solved in 24.1.263.22
 
 The issue related to importing only PDF-files through ExFlow File Import Setup has been solved in 24.1.263.22
