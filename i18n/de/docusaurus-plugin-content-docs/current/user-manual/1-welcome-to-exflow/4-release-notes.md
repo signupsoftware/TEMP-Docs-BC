@@ -16,6 +16,18 @@ Kleinere Veröffentlichung
 **Veröffentlichungsinformationen:** <br/>
 Erfordert BC 24.0 oder höher <br/>
 
+Neue Events für 4PS in 24.1.263.39 hinzugefügt
+
+Neue Events für 4PS in 24.1.263.32 hinzugefügt
+
+Problem bei der Verwendung von Pebblestone- und ExFlow-Web wurde in 24.1.263.32 behoben
+
+Das Problem, dass sich globale Dimensionen bei der Auswahl im Importjournal falsch verhielten, wurde in Release 24.1.263.32 behoben.
+
+Neue Ereignisse für 4PS- und ExFlow-Kaufcodes in 24.1.263.28 hinzugefügt
+
+Das Problem, bei dem die Artikelzuschlagszuweisung nicht funktioniert, bevor das Dokument überprüft wurde, wurde in Release 24.1.263.28 behoben.
+
 Das Problem, dass Stundungscodes in einigen bestimmten Szenarien ein falsches Buchungsdatum erhalten, wenn die Funktion "Batch Update Posting Date" ausgeführt wird, wurde in 24.1.263.22 behoben
 
 Das Problem, bei dem nur PDF-Dateien über das ExFlow-Dateiimport-Setup importiert wurden, wurde in Release 24.1.263.22 behoben

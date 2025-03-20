@@ -18,6 +18,18 @@ Lanzamiento Menor
 **Información del Lanzamiento:** <br/>
 Requiere BC 24.0 o posterior <br/>
 
+Nuevos eventos para 4PS añadidos en 24.1.263.39
+
+Nuevos eventos para 4PS añadidos en 24.1.263.32
+
+El problema al usar Pebblestone y ExFlow web se resuelve en 24.1.263.32
+
+El problema con las dimensiones globales que se comportan incorrectamente al seleccionar en el diario de importación se resuelve en 24.1.263.32
+
+Nuevos eventos para 4PS y códigos de compra de ExFlow agregados en 24.1.263.28
+
+El problema relacionado con la asignación de cargo de artículo que no funciona antes de que se verifique el documento se resuelve en 24.1.263.28
+
 El problema con los códigos de diferimiento en algunos escenarios específicos que obtenían una fecha de publicación incorrecta al ejecutar la función "Actualización por Lotes de la Fecha de Publicación" se ha resuelto en 24.1.263.22
 
 El problema relacionado con la importación de solo archivos PDF a través de la Configuración de Importación de Archivos de ExFlow se ha resuelto en 24.1.263.22
