@@ -57,15 +57,19 @@ const FeatureList = [
 [
   {
     title: <Translate>EXFLOW AP</Translate>,
-    url: '/business-central/docs/user-manual',
+    //url: '/business-central/docs/user-manual/myfolder',
+    //url: translate("URL-EXFLOW-AP", "defaultpath"),
+    url: 
+    translate({
+      message: 'URL-EXFLOW-AP',
+      description: 'desription of link',
+    }),
     index: 0,
     tag: 'ap'
   },
   {
     title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-    //url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
-    // EA 2025-02-28 Impl. Language dependent URL
-    url: <Translate>URL-exflow-data-capture</Translate>,
+    url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
     index: 4,
     tag: 'data-capture'
   },
@@ -73,13 +77,21 @@ const FeatureList = [
 [
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
-    url: '/business-central/docs/so',
+    //url: '/business-central/docs/so',
+    url: translate({
+      message: 'PROXY-LINK-EXFLOW-SALES-ORDER',
+      description: 'ExFlow Sales Order link',
+    }),
     tag: 'sales-order',
     index: 1
   },
   {
     title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
-    url: 'https://docs.exflow.cloud/tem',
+    //url: 'https://docs.exflow.cloud/tem',
+    url: translate({
+      message: 'PROXY-LINK-EXFLOW-TRAVEL-EXPENSE',
+      description: 'ExFlow Travel & Expense link',
+    }),
     tag: 'travel-and-expense',
     index: 5
   },
@@ -87,13 +99,21 @@ const FeatureList = [
 [
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
-    url: '/business-central/docs/co2',
+    //url: '/business-central/docs/co2', // Original
+    url: translate({
+      message: 'PROXY-LINK-EXFLOW-CO2',
+      description: 'desription of link',
+    }),
     tag: 'co2-insights',
     index: 2
   }, 
   {
     title: <Translate>EXFLOW CONTENT GATE</Translate>,
-    url: 'http://docs.exflow.cloud/business-central/docs/cg',
+    //url: 'http://docs.exflow.cloud/business-central/docs/cg',
+    url: translate({
+      message: 'PROXY-LINK-EXFLOW-CONTENT-GATE',
+      description: 'ExFlow Content Gate link',
+    }),
     tag: 'bc-content-gate',
     index: 6
   },
@@ -120,11 +140,11 @@ const FeatureList = [
 //
 function Feature({title, url, index}) {
   return (
-    // Just add an empty cell id "index" is -1
+    // Just add an empty cell if "index" is -1 (not in use)
     index === -1 ? <td></td> :
     // Otherwise add the menu item
     <td>
-    <a href={url} className="menu-item-link">
+    <a href={url} className="menu-item-link" target="_parent">
     <div className="menu-item small-drop-shadow">
         <Heading as="div">{title}</Heading>
     </div>

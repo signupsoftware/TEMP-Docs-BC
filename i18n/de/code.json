@@ -376,5 +376,45 @@
   "theme.SearchPage.noResultsText": {
     "message": "Es wurden keine Dokumente gefunden",
     "description": "The paragraph for empty search result"
+  },
+  "/business-central/docs/user-manual/": {
+    "message": "/business-central/de/docs/user-manual/"
+  },
+  "URL-exflow-data-capture": {
+    "message": "URL-exflow-data-capture"
+  },
+  "EXFLOW CONTENT GATE": {
+    "message": "EXFLOW CONTENT GATE"
+  },
+  "Nada": {
+    "message": "Nada"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "URL-EXFLOW-AP": {
+    "message": "/business-central/de/docs/user-manual",
+    "description": "desription of link"
+  },
+  "PROXY-LINK-EXFLOW-SALES-ORDER": {
+    "message": "https://docs.exflow.cloud/so/de",
+    "description": "ExFlow Sales Order link"
+  },
+  "PROXY-LINK-EXFLOW-TRAVEL-EXPENSE": {
+    "message": "https://docs.exflow.cloud/tem/de",
+    "description": "ExFlow Travel & Expense link"
+  },
+  "PROXY-LINK-EXFLOW-CO2": {
+    "message": "https://docs.exflow.cloud/co2/de",
+    "description": "desription of link"
+  },
+  "PROXY-LINK-EXFLOW-CONTENT-GATE": {
+    "message": "https://docs.exflow.cloud/cg/de",
+    "description": "ExFlow Content Gate link"
   }
 }
+
+
+
+
