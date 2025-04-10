@@ -44,4 +44,4 @@ Si se necesita hacer algún cambio en los permisos, por ejemplo, para permitir l
 ![permisos de usuario web](@site/static/img/media/exflow-web-user-level-permissions-002.png)
 
 
-Lea más sobre cómo manejar los permisos web y aplicarlos a los usuarios de ExFlow en la sección [***Agregar acceso a la empresa y rol de permiso web bajo Permisos***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-company-access-and-web-permission-role-under-permissions)
+Lea más sobre cómo manejar los permisos web y aplicarlos a los usuarios de ExFlow en la sección [***Agregar acceso a la empresa y rol de permiso web bajo Permisos***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-company-access-and-web-permission-role-under-permissions)

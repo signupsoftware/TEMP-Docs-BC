@@ -56,7 +56,7 @@ Use to add the user who is creating the quote or the order as a First Approver o
 Depending on ExFlow Setup, the First Approver can be used as a filter in Approval Rules to create approval flows for quotes and orders. First Approver can also be an actual Approver.
 
 To use this function, the Business Central User need to be an ExFlow
-System User. Read more under section [***ExFlow User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user).
+System User. Read more under section [***ExFlow User***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user).
 
 **Block invoice in import journal if order is not approved**<br/>
 To add a Warning message when matching document to an unapproved order. In this example the receivable is posted, even if the Purchase Order is not approved.
@@ -90,7 +90,7 @@ In this example, a user who does not have permission as EX ACCOUNTANT or EX ADMI
 **Send Email For Approved Order/Quote** <br/>
 When this settings is enabled it will send Approved Order or Quote Notification when the document is approved. 
 
-Read more about this under section [***Approved Order/Quote***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
+Read more about this under section [***Approved Order/Quote***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
 
 
 ### Create Purchase Quote or Purchase Order for Approval

@@ -40,7 +40,7 @@ Enable the function ''Copy First Approver to the Approval Flow'' if the "First A
 <br/>
 
 ### First Approver in Import Journal
-First Approver can be added to document header in Import Journal via [***ExFlow Contract***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#contract) and [***ExFlow Reference***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) copied down to document lines.
+First Approver can be added to document header in Import Journal via [***ExFlow Contract***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#contract) and [***ExFlow Reference***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) copied down to document lines.
 
 
 #### First Approver in ExFlow Contract

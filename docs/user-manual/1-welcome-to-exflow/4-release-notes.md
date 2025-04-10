@@ -474,7 +474,7 @@ Approval proposal in import journal gives an error message when adding approvers
 |27355|	Users|              	Select and create multiple ExFlow users from the BC user list.
 |29858|	References|         	A new option to automatically create a reference for new ExFlow users has been added to ExFlow setup. From ExFlow user lists, you can also batch create references for all existing ExFlow users.
 |30309|	PO Matching|        	Possibility to specify lines types that can be automatically received and invoiced by ExFlow, in ExFlow setup
-|30666|	General|            	Tooltips from commonly used pages are now linked directly to relevant sections in User manual at docs.exflow.cloud
+|30666|	General|            	Tooltips from commonly used pages are now linked directly to relevant sections in User manual at docs.signupsoftware.com
 |31703|	Contract Matching|     	Reason for manual approval of a contract-matched invoice added to the document in ExFlow web.
 |27693|	Auto Coding|        	Vendor added to grouping for Auto coding Suggestions.
 |29371|	Search|             	It is now possible to search for Vendor name AND Vendor no. by searching for 'Vendor' in ExFlow web.

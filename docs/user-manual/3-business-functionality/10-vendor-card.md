@@ -14,6 +14,6 @@ Go to **Related** and click on **ExFlow Vendor Setup** to add ExFlow specific de
 
 ![Vendor Card](@site/static/img/media/Vendor-card-exflow-vendor-setup-001.png)
 
-  Read more about how to make settings for a specific vendor under [***Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
+  Read more about how to make settings for a specific vendor under [***Vendor Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 
 

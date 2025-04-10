@@ -5,7 +5,7 @@ hide_title: true
 custom_edit_url: null
 ---
 ## Notifications in Business Central
-If the ExFlow User is a System User (associated to User in Business Central) then Notifications in Business Central can be activated. Read more under section [***ExFlow Users***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) for setup.
+If the ExFlow User is a System User (associated to User in Business Central) then Notifications in Business Central can be activated. Read more under section [***ExFlow Users***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) for setup.
 
 There are four kinds of notification messages. Unapproved documents in active company, unapproved documents in other companies, unread comments and missing invoices for contract periods.
 <br/>
@@ -27,7 +27,7 @@ This will present the user with a list, similar to the following:
 
 Click on the number to the right to open a new page where the user will be able to approve the documents in the selected company.
 
-Read more about this under section [***Approval in Business Central.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/approval-in-business-central#approval-in-business-central)<br/><br/>
+Read more about this under section [***Approval in Business Central.***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/approval-in-business-central#approval-in-business-central)<br/><br/>
 
 ### Discussion Panel / Chat and Line Comments
 
@@ -41,7 +41,7 @@ Use @ and "ExFlow User Code" to tag an approver. The Approver will automatically
 
 It is possible to send notification and/or email to the tagged Approver, but then some setup is required.
 
-For an ExFlow User (connected to a "System User") Notifications can be activated in Business Central. Read more under section [***ExFlow Users***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) for setup.
+For an ExFlow User (connected to a "System User") Notifications can be activated in Business Central. Read more under section [***ExFlow Users***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) for setup.
 
 If the user has comments to read in the current company, then click on the link "Read comment"
 
@@ -124,7 +124,7 @@ If a User is mentioned by using @, a message, email or Notification in Business 
 
 For ExFlow Users that is not associated with a Business Central User the email will be sent when the document is created. This is due to that ExFlow Web Users cannot see this documents or comments in Import Journal.
 
-Read more under section [***ExFlow Users.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
+Read more under section [***ExFlow Users.***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
 
 
 ![ExFlow Import Journal - Discussion Panel](@site/static/img/media/image350.png)

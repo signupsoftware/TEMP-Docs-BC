@@ -20,7 +20,7 @@ Another setting need to be set in order for this to work, and that would be an a
 
 ![ExFlow Setup](@site/static/img/media/exflow-setup-bypass-verify-changes-002.png)
 
-If the Web Column Code ''Description'' is not visible in the ''ExFlow Bypass Verify Changes Setup'', then the Description column must be added to ExFlow web. Read more about how to add ExFlow columns under section [ExFlow Web](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
+If the Web Column Code ''Description'' is not visible in the ''ExFlow Bypass Verify Changes Setup'', then the Description column must be added to ExFlow web. Read more about how to add ExFlow columns under section [ExFlow Web](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#exflow-web)
 
 If the web approver makes any code changes within given filter, then the approved document will be bypassed from being manually updated by the AP staff in the Verify Changes Step in Approval Status.
 
@@ -30,5 +30,5 @@ The final approved document will change status from “Approved” to “Ready f
 
 ![ExFlow Setup](@site/static/img/media/exflow-setup-bypass-verify-changes-004.png)
 
-It is possible to automate further by enabling “Automatically Verify Changes” under ExFlow Setup –-> [***Background Processing***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#background-processing)
+It is possible to automate further by enabling “Automatically Verify Changes” under ExFlow Setup –-> [***Background Processing***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#background-processing)
 

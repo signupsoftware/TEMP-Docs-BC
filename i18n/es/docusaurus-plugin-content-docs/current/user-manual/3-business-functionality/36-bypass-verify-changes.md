@@ -20,7 +20,7 @@ Otra configuración que debe establecerse para que esto funcione es un asterisco
 
 ![Configuración de ExFlow](@site/static/img/media/exflow-setup-bypass-verify-changes-002.png)
 
-Si el Código de Columna Web ''Descripción'' no es visible en la ''Configuración de Omitir Verificación de Cambios de ExFlow'', entonces la columna Descripción debe agregarse a la web de ExFlow. Lea más sobre cómo agregar columnas de ExFlow en la sección [ExFlow Web](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
+Si el Código de Columna Web ''Descripción'' no es visible en la ''Configuración de Omitir Verificación de Cambios de ExFlow'', entonces la columna Descripción debe agregarse a la web de ExFlow. Lea más sobre cómo agregar columnas de ExFlow en la sección [ExFlow Web](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#exflow-web)
 
 Si el aprobador web realiza algún cambio de código dentro del filtro dado, entonces el documento aprobado se omitirá de ser actualizado manualmente por el personal de AP en el Paso de Verificar Cambios en el Estado de Aprobación.
 
@@ -30,4 +30,4 @@ El documento final aprobado cambiará de estado de “Aprobado” a “Listo par
 
 ![Configuración de ExFlow](@site/static/img/media/exflow-setup-bypass-verify-changes-004.png)
 
-Es posible automatizar aún más habilitando “Verificar Cambios Automáticamente” en Configuración de ExFlow –-> [***Procesamiento en Segundo Plano***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#background-processing)
+Es posible automatizar aún más habilitando “Verificar Cambios Automáticamente” en Configuración de ExFlow –-> [***Procesamiento en Segundo Plano***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#background-processing)

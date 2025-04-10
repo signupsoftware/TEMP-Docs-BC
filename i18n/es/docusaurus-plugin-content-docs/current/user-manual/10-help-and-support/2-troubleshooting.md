@@ -43,7 +43,7 @@ Si el número se ha utilizado antes y esto es correcto, tal vez una renta / segu
 
 La configuración del Proveedor de Factoring se puede encontrar en la **Tarjeta del Proveedor --> Relacionado --> Configuración del Proveedor de ExFlow.** 
 
-Lea más sobre esto en la sección [***Configuración del Proveedor de ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
+Lea más sobre esto en la sección [***Configuración del Proveedor de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 <br/>
 
 
@@ -67,7 +67,7 @@ Vaya a la Orden de Compra, por ejemplo, a través del "Número de Orden", asegú
 
 Vaya a la Orden de Compra, por ejemplo, a través del Número de Orden, asegúrese de que se haya realizado el recibo y publique el recibo.
 
-Aprenda más sobre el proceso de órdenes en la sección [***Proceso de Coincidencia de Órdenes de Compra***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#purchase-order-matching-process).
+Aprenda más sobre el proceso de órdenes en la sección [***Proceso de Coincidencia de Órdenes de Compra***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#purchase-order-matching-process).
 <br/>
 
 ### Mensajes Relacionados con Proveedores

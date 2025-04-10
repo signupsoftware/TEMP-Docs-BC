@@ -65,7 +65,7 @@ Please note that the last two fields in above picture (''Group per Currency'' an
 
 Activate this function in ExFlow Setup by enabling this function for all Vendors or Selected Vendors.
 
-When activating "Selected Vendors", it is required to also enable "Use Automatic Coding Suggestion" for the vendors, in the [***ExFlow Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup) card that should have this function enabled. 
+When activating "Selected Vendors", it is required to also enable "Use Automatic Coding Suggestion" for the vendors, in the [***ExFlow Vendor Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup) card that should have this function enabled. 
 
 ![ExFlow Setup - Automatic Suggestion](@site/static/img/media/exflow-setup-automatic-suggestion-001.png)
 

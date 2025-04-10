@@ -28,7 +28,7 @@ Go to: ***Setup --> ExFlow Setup --> Escalation***
 
 |Escalation||
 |:-|:-|	
-|**Days Before Escalation**| 	Calculated from when the user received the document for approval. <br/><br/> ("Status Change Date" on "Doc. Line Approvers" in "Approval Status.<br/> Server date sets "Status Change Date".) <br/><br/> Read more about this under section [***Escalation***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-groups#escalation)
+|**Days Before Escalation**| 	Calculated from when the user received the document for approval. <br/><br/> ("Status Change Date" on "Doc. Line Approvers" in "Approval Status.<br/> Server date sets "Status Change Date".) <br/><br/> Read more about this under section [***Escalation***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-groups#escalation)
 |**Senior Manager**| 	User that will receive all overdue invoices. The superior approver needs to have same or higher permission since permission is not inherit in ExFlow.
 |**Base Calendar Code**| 	Specifies the base calendar code that should be used for calculating workdays when escalating. If no base calendar is added, Saturday and Sunday are not included.
 |**Escalation Text**| 	Specifies the text that should be used for escalated approver lines. Internal information will be filled in on Comments.
@@ -151,7 +151,7 @@ This same function can be found under ExFlow User.
 Information regarding invoices to send to Customer can be found in
 ExFlow Re-Invoicing Entries.
 
-Read more about this under section [***Re-Invoicing.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing)
+Read more about this under section [***Re-Invoicing.***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing)
 
 ### Auto Coding Suggestion
 
@@ -159,4 +159,4 @@ To apply the Auto Coding Suggestion, it is required to run the
 functions ExFlow Coding Set IDs for Auto Coding Suggestions and ExFlow
 Creating Auto Coding Suggestions.
 
-![Periodic Activities - Automatic Coding Suggestions](@site/static/img/media/exflow-menu-005-periodic-activities.png) <br/><br/> Read more about this under section [***Auto Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
+![Periodic Activities - Automatic Coding Suggestions](@site/static/img/media/exflow-menu-005-periodic-activities.png) <br/><br/> Read more about this under section [***Auto Coding Suggestion Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)

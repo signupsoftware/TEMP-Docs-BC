@@ -62,4 +62,4 @@ Fügen Sie die gewünschte Codierung für das Kostenkonto hinzu (KEINE MwSt. = O
 
 Bitte beachten Sie, wenn MwSt.-Zeilen immer zur Genehmigung gesendet werden sollen, kann die Funktion ''MwSt.-Zeilen genehmigen'' genutzt werden.
 
-Lesen Sie mehr darüber im Abschnitt [***MwSt.-Zeilen genehmigen.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)
+Lesen Sie mehr darüber im Abschnitt [***MwSt.-Zeilen genehmigen.***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approve-vat-lines)

@@ -34,13 +34,13 @@ Start by activating Re-Invoicing in ExFlow Re-Invoicing Setup and follow wizard 
 | **Active:**				                                            | Specifies if Re-Invoicing is enabled or disabled. When activating or changing setup, ExFlow Wizard will help assists with minimum of required setup
 | **Pre-defined Sales G/L Account:**		                            | Predefined G/L Account to apply to invoicing Sales Lines if Re-Invoicing Code is not used
 | **Use Amount Fields:**			                                    | Add Re-Invoicing Qty & Unit Price or Re-Invoicing Amount to select columns on ExFlow Web <br/><br/> **Qty & Unit Price**<br/>Purchased quantity will be added as Re-Invoiced quantity and Surcharge % calculation is then den on Re-Invoicing Unit Price <br/><br/> **Line Amount**<br/> Purchased quantity will be added as 1 and Surcharge % calculation is done on Re-Invoicing Amount (total)
-| **Item for Sale:**			                                        | Activate to create Sales Invoices from Purchase Invoices with same Item No. Item Ledger Entry No. from Purchase Invoice will be applied to sales line if possible. Read more under section [***Re-Invoicing for Items***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing-item-for-sale)
+| **Item for Sale:**			                                        | Activate to create Sales Invoices from Purchase Invoices with same Item No. Item Ledger Entry No. from Purchase Invoice will be applied to sales line if possible. Read more under section [***Re-Invoicing for Items***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing-item-for-sale)
 | **Always Create Sales Invoice when Apply-to Item Entry is missing:**  | Activate to always create sales invoices without apply-to item entry, if missing. Can only be used if Item for Sales is activated.
 | **Purchase Invoice PDF as attachment:**	                            | Activate to add purchase invoice PDF as attachment to all Sales invoices
-| **Enable Customized Description:**		                            | Enable or disable customized description. Read more under section [***Enable Customized Description***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#enable-customized-description) below
+| **Enable Customized Description:**		                            | Enable or disable customized description. Read more under section [***Enable Customized Description***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/re-invoicing#enable-customized-description) below
 | **Customized Description:**		                                    | Current Re-invoicing sales line customized description
-| **Surcharge %:**			                                            | Specifies if Surcharge % should be added when using Re-invoicing functionality. If Item for Sales is activated, no surcharge % will be added for Item Lines. Enabling this opens additional options for predefining Surcharges. <br/>Read more under section [***Surcharge %***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#surcharge-) below
-| **Copy Dimension Value:**		                                        | Specifies the dimensions to be copied from purchase invoice to the sales invoice line when using Re-invoicing functionality. Read more under section [***Copy Dimension Values***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#copy-dimension-values) below
+| **Surcharge %:**			                                            | Specifies if Surcharge % should be added when using Re-invoicing functionality. If Item for Sales is activated, no surcharge % will be added for Item Lines. Enabling this opens additional options for predefining Surcharges. <br/>Read more under section [***Surcharge %***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/re-invoicing#surcharge-) below
+| **Copy Dimension Value:**		                                        | Specifies the dimensions to be copied from purchase invoice to the sales invoice line when using Re-invoicing functionality. Read more under section [***Copy Dimension Values***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/re-invoicing#copy-dimension-values) below
 | **Prioritize Dimension from Purchase:**	                            | Prioritize the dimension from purchase line if same dimension exists on the sales line
 | **Prioritize when splitting line on the web:**	                    | When splitting the line on ExFlow Web the document needs to be saved to update amounts. If not, this setting will help to prioritize recalculation from the amount or surcharge % when approving
 
@@ -173,7 +173,7 @@ Go to: ***Re-Invoicing Setup --> Actions --> Edit Web Columns / Web Columns***<b
 Columns need to be added on ExFlow Web to approve, reject, or change coding information regarding "Re-Invoicing".
 
 The ExFlow User can add or change values on the line in ExFlow Web with given Web Permission Role.<br/>
-Read more about Web Permission Roles under section [***ExFlow User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-company-access-and-web-permission-role-under-permissions)
+Read more about Web Permission Roles under section [***ExFlow User***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-company-access-and-web-permission-role-under-permissions)
 
 ![ExFlow Web - Re-Invoicing](@site/static/img/media/re-invoicing-web-001.png)
 
@@ -234,7 +234,7 @@ Go to: ***Re-Invoicing Entries --> Actions --> Create Invoices (F9)*** <br/>
 To create Sales Invoices, use the function in the menu under Actions or short cut F9. Sales invoices will be created for all selected entries.
 
 Sales Invoices will be created on G/L Account in field Re-Invoicing No. And if Item for Sale is activated in Re-Invoicing Setup, the same item as purchased. <br/>
-Read more under section [***Re-Invoicing Item for Sale***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing-item-for-sale) 
+Read more under section [***Re-Invoicing Item for Sale***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing-item-for-sale) 
 
 Mandatory fields to be able to create sales documents are Re-Invoicing Customer No., Re-Invoicing No., and re-Invoicing Amount or Unit Price.
 

@@ -30,7 +30,7 @@ The result list will show all documents with the connected Reference, in all pla
 
 ![ExFlow Search Documents](@site/static/img/media/search-documents-004.png)
 
-Read more under section [***Reference Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) to learn more about how to create and use ExFlow References.
+Read more under section [***Reference Codes***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) to learn more about how to create and use ExFlow References.
 
 ### Option "Search Columns"
 
@@ -49,6 +49,6 @@ The result will show all documents with this combination within the chosen compa
 ### See Remaining Amount in ExFlow Search Documents
 
 When the search results are filtered, it is also possible to see if the posted documents are paid or not. This can be done by adding "Remaining Amount" column via "Personalize" to the filtered-out results. <br/>
-Read more about this under section [***ExFlow Approval Status History***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/document-history#approval-status-history)
+Read more about this under section [***ExFlow Approval Status History***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/document-history#approval-status-history)
 
 ![ExFlow Search Documents - Remaining Amount](@site/static/img/media/search-documents-007.png)

@@ -117,7 +117,7 @@ In Site Contents, create a new Document Library, this will contain the folder th
 
 Go to: **ExFlow Setup -- > Actions --> Functions --> Blob Storage Mgmt (ExFlow Storage Management Setup)** 
 
-| Blob Storage Mgmt / ExFlow Storage Management Setup |![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-002.png)
+| Blob Storage Mgmt / ExFlow Storage Management Setup menu |![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-002.png)
 |:-|:-|
 |**Storage Setup**|Configure one or more storage configurations
 |**Enable/ Disable Blob Storage**|Activate or inactivate blob storage

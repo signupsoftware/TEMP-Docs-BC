@@ -28,7 +28,7 @@ Um vorläufige Buchungen durchführen zu können, müssen folgende Journale eing
 | **Allgemeines Journalvorlage:**     | Verwenden Sie eine bestehende oder erstellen Sie eine neue
 | **Allgemeines Journalbatch:**        | Verwenden Sie einen bestehenden oder erstellen Sie einen neuen
 | **In Wartestellung:**                      | 1-3 Buchstaben, die in Kreditorenposten hinzugefügt werden, um Zahlungen auf vorläufig gebuchte Dokumente zu vermeiden, die noch nicht genehmigt sind. Der Standardwert beim Ausführen des ExFlow-Assistenten ist **EXF**, kann jedoch bei Bedarf geändert werden.
-| **Rechnungsrundung:**             | Wenn SweBase (für schwedische Kunden) installiert ist, ist die Rechnungsrundung sichtbar und wird nur für die vorläufige Buchung verwendet. <br/>Wenn SweBase nicht installiert ist, wird es unter Dokumentenbuchungsprüfungen sichtbar und sowohl für die vorläufige Buchung als auch für die Buchung verwendet. Die Rechnungsrundung ist nicht erforderlich.  <br/>Weitere Informationen finden Sie im Abschnitt [***Rechnungsrundung unten***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#invoice-rounding)
+| **Rechnungsrundung:**             | Wenn SweBase (für schwedische Kunden) installiert ist, ist die Rechnungsrundung sichtbar und wird nur für die vorläufige Buchung verwendet. <br/>Wenn SweBase nicht installiert ist, wird es unter Dokumentenbuchungsprüfungen sichtbar und sowohl für die vorläufige Buchung als auch für die Buchung verwendet. Die Rechnungsrundung ist nicht erforderlich.  <br/>Weitere Informationen finden Sie im Abschnitt [***Rechnungsrundung unten***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#invoice-rounding)
 | **Buchungsbeschreibung:**          | Beschreibung bei der Buchung  <br/>Der Standardwert beim Ausführen des ExFlow-Assistenten ist **Vorläufig gebucht**, kann jedoch bei Bedarf geändert werden
 | **Stornobeschreibung:**          | Beschreibung bei der Stornierung.   <br/>Der Standardwert beim Ausführen des ExFlow-Assistenten ist **Vorläufig storniert**, kann jedoch bei Bedarf geändert werden
 | **Mehrwertsteuer-Produktbuchungsgruppe 0%:**   | Fügen Sie eine Mehrwertsteuer-Produktbuchungsgruppe mit 0% hinzu, um ohne Mehrwertsteuer vorläufig zu buchen, anstatt die Mehrwertsteuer-Produktbuchungsgruppe, die in der Dokumentenzeile hinzugefügt wurde. Diese Buchung wird storniert und die Mehrwertsteuerbuchung wird nur bei der endgültigen Buchung mit der zur Rechnung hinzugefügten Mehrwertsteuer-Produktbuchungsgruppe gebucht.
@@ -54,7 +54,7 @@ Nach dem Schließen der Seite Vorläufige Buchung erhalten Sie eine Frage, ob es
 
 Wenn Sie sich entscheiden, alle Dokumente im Genehmigungsstatus vorläufig zu buchen, können Fehlermeldungen auftreten. Gehen Sie zum Genehmigungsstatus und korrigieren Sie den Fehler und buchen Sie das Dokument manuell vorläufig.
 
-Lesen Sie mehr im Abschnitt [***Genehmigungsstatus***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#approval-status)
+Lesen Sie mehr im Abschnitt [***Genehmigungsstatus***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/preliminary-posting#approval-status)
 
 ![Es gibt Dokumente, die noch nicht vorläufig gebucht wurden.](../../images/documents-not-yet-preliminary-posted-001.png)
 

@@ -451,7 +451,7 @@ Genehmigungsvorschlag im Importjournal gibt eine Fehlermeldung beim Hinzufügen 
 |27355|	Benutzer|	Mehrere ExFlow-Benutzer aus der BC-Benutzerliste auswählen und erstellen.
 |29858|	Referenzen|	Eine neue Option zum automatischen Erstellen einer Referenz für neue ExFlow-Benutzer wurde zur ExFlow-Konfiguration hinzugefügt. Aus ExFlow-Benutzerlisten können Sie auch Referenzen für alle bestehenden ExFlow-Benutzer stapelweise erstellen.
 |30309|	PO-Abstimmung|	Möglichkeit zur Angabe von Linientypen, die in der ExFlow-Konfiguration automatisch empfangen und fakturiert werden können.
-|30666|	Allgemein|	Tooltips von häufig verwendeten Seiten sind jetzt direkt mit den relevanten Abschnitten im Benutzerhandbuch unter docs.exflow.cloud verlinkt.
+|30666|	Allgemein|	Tooltips von häufig verwendeten Seiten sind jetzt direkt mit den relevanten Abschnitten im Benutzerhandbuch unter docs.signupsoftware.com verlinkt.
 |31703|	Vertragsabstimmung|	Grund für die manuelle Genehmigung einer vertragsabgestimmten Rechnung in ExFlow Web zum Dokument hinzugefügt.
 |27693|	Automatische Codierung|	Lieferant zur Gruppierung für automatische Codierungsvorschläge hinzugefügt.
 |29371|	Suche|	Es ist jetzt möglich, nach Lieferantennamen UND Lieferantennummer zu suchen, indem Sie in ExFlow Web nach 'Lieferant' suchen.

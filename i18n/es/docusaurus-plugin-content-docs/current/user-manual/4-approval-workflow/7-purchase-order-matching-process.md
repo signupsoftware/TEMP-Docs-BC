@@ -267,7 +267,7 @@ Configure una Prioridad de Emparejamiento de Número de Artículo para elegir en
 Use los botones "Mover Arriba" y "Mover Abajo" para mover los tipos de emparejamiento hacia arriba o hacia abajo en la lista.
 Cuanto más alto se coloque un tipo de emparejamiento, mayor prioridad tendrá en el proceso de emparejamiento.
 
-Esta función también se puede realizar por proveedor en [***Configuración de Proveedor***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
+Esta función también se puede realizar por proveedor en [***Configuración de Proveedor***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 
 ## ExFlow Web
 
@@ -281,7 +281,7 @@ Más adelante, en el Estado de Aprobación, los usuarios pueden personalizar la 
 
 Cuando los Usuarios de ExFlow reciben esta factura emparejada con PO para su aprobación en ExFlow Web, también pueden ser informados sobre la diferencia, a nivel de línea a través de la columna web ''Verificación de Razón''.
 
-Para agregar esta columna a ExFlow Web, simplemente diríjase a la Configuración de ExFlow y haga clic en ''[***Editar Columnas Web***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'' para agregar la columna web Verificación de Razón.
+Para agregar esta columna a ExFlow Web, simplemente diríjase a la Configuración de ExFlow y haga clic en ''[***Editar Columnas Web***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'' para agregar la columna web Verificación de Razón.
 
 ![Verificación de Razón](@site/static/img/media/exflow-web-reason-check-002.png)
 

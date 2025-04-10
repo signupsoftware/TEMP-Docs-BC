@@ -10,7 +10,7 @@ Go to: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Contracts***
 
 ExFlow Contract can be used to keep track of received and missing invoices for Contracts and can also automatically approve matched invoices. Start by creating a new Contract by clicking "New".
 
-To setup and approve for Contracts, read more under section [***OMNI Approval***]( https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/omni-approval).
+To setup and approve for Contracts, read more under section [***OMNI Approval***]( https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/omni-approval).
 
 ### General
 Under this section, add general information for this specific contract, Vendor, Approval Flow and Coding.
@@ -42,7 +42,7 @@ Under General Terms, add totals for this specific contract.
 
 |General Terms|  |
 |:-|:-|
-| **Valid from Date and Valid to Date**:    | Terms on the contract<br/> If Invoice Periods is created, Valid to Date can be used to extend Invoice Periods<br/> Read more below under section [***Invoice Periods***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#extend-contract-with-invoice-periods)
+| **Valid from Date and Valid to Date**:    | Terms on the contract<br/> If Invoice Periods is created, Valid to Date can be used to extend Invoice Periods<br/> Read more below under section [***Invoice Periods***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#extend-contract-with-invoice-periods)
 | **Currency Code**:                        | The Currency Code to be used when invoicing the contract
 | **Total Contract Amount (Net Currency)**: | Specifies the total contract amount including tolerances.
 
@@ -95,7 +95,7 @@ Tolerances and Payment Terms Code will be copied from Periodicity.
 
 ![ExFlow Contract Invoice Periods](@site/static/img/media/contract-invoice-periods-002.png)
 
-For invoiced totals see [***FactBox --> Details --> Purchase Contract Statistic***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#factbox--details--purchase-contract-statistic) below.
+For invoiced totals see [***FactBox --> Details --> Purchase Contract Statistic***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#factbox--details--purchase-contract-statistic) below.
 
 ### Extend Contract with invoice periods
 To extend a contract that contains periods, add a new "Valid to Date" in General Terms and update values that is copied from Periodicity.
@@ -104,11 +104,11 @@ To extend a contract that contains periods, add a new "Valid to Date" in General
 
 ### Invoice Reminder
 There is a function to send reminders for contract that have invoice periods and ExFlow Email Setup.
-Read more under section [***Email Reminders --> Contract Invoice Reminder***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#contract-invoice-reminder)
+Read more under section [***Email Reminders --> Contract Invoice Reminder***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#contract-invoice-reminder)
 
 |Invoice Reminder |  |
 |:-|:-|
-| **Send Reminder**:            | Activate to send Email Reminder or Notifications. To be able to send emails and/or BC Notifications the ExFlow User needs to have access to Email/Notifications for Contract Invoice Reminder.<br/> Read more under section [***ExFlow User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
+| **Send Reminder**:            | Activate to send Email Reminder or Notifications. To be able to send emails and/or BC Notifications the ExFlow User needs to have access to Email/Notifications for Contract Invoice Reminder.<br/> Read more under section [***ExFlow User***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
 | **Approval Groups**:          | Add Approval Groups for this specific contract. If none, reminders is sent to "Approval Groups" on ExFlow Email Setup
 | **Invoice Reminder Period**:  | Use standard date formula calculated on Period Start Date to specify when invoice is late
 | **Fixed Email Addresses**:    | To send reminders to user outside ExFlow for this specific contract. If none, reminders is sent to "Fixed Email addresses" on ExFlow Email Setup
@@ -150,7 +150,7 @@ Use this function to create Self-Billing Invoice for current contract only.
 
 ![ExFlow Contract Create Self-Billing Invoice](@site/static/img/media/contract-menu-actions-001.png)
 
-This can also be done automatically using a job queue. Read more under section [***Self-Billing Contract Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
+This can also be done automatically using a job queue. Read more under section [***Self-Billing Contract Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
 
 ### Function - Copy Contract
 Use this function to copy contents of an existing contract to a new created contract.<br/>
@@ -272,10 +272,10 @@ Add Invoice Periods manually or by using the function Create Invoice Periods.
 ![ExFlow Contract Invoice Periods](@site/static/img/media/contract-invoice-periods-001.png)
 
 #### Create Self-Billing Invoices Automatically
-Read more under section [***Self-Billing Contract Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
+Read more under section [***Self-Billing Contract Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
 
 #### Create Self-Billing Invoices Manually
-Read more under section [***Create Self-Billing Invoice***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#function---actions--create-self-billing-invoice)
+Read more under section [***Create Self-Billing Invoice***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#function---actions--create-self-billing-invoice)
 
 <br/>
 

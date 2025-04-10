@@ -10,7 +10,7 @@ Configure las Colas de Trabajos en Business Central para utilizar completamente 
 
 Lea más sobre [***Colas de trabajos***](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-job-queue) y cómo [***Usar colas de trabajos para programar tareas***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-job-queues-schedule-tasks) en la página de Documentación de Microsoft.<br/>
 
-Además, se recomienda explorar [***Configuración de Correo Electrónico de ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup) y [***Recordatorios por Correo Electrónico***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders) para obtener más información.
+Además, se recomienda explorar [***Configuración de Correo Electrónico de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup) y [***Recordatorios por Correo Electrónico***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders) para obtener más información.
 
 Es opcional asignar el Código de Categoría de Cola de Trabajos *EXFLOW* en la Tarjeta de Entrada de Trabajo.<br/> 
 

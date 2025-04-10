@@ -112,9 +112,9 @@ Click on "ExFlow Data Capture" to get to its website. This only works if the com
 | Import Documents             | To import Documents to one selected journal, open the journal and Import Documents.
 | Verify Document            | Select one (or more) document(s) to verify via Verify Document. This function will verify that the document is ready to be created. (Ctrl+R)
 | Verify All Documents          | After correcting an error this will delete or create a new action message if a document still has an error.
-|Auto Coding Suggestion - Manual Choice| [Auto Coding Suggestion - Manual Choice](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---manual-choice)
-|Auto Coding Suggestion - Automatic| [Auto Coding Suggestion - Automatic](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---automatic)
-|Update VAT Product Posting Group|Due to Swedish Tax Rules regarding IT VAT, it is possible to update all VAT Product Posting Groups on Invoice Lines. This function can only be used together for customers that have SweBase installed. <br/><br/>Read more under section [**SweBase --> Update VAT Product Posting Group**](https://docs.exflow.cloud/business-central/docs/user-manual/localizations-and-isv-extensions/swebase#update-vat-product-posting-group)
+|Auto Coding Suggestion - Manual Choice| [Auto Coding Suggestion - Manual Choice](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---manual-choice)
+|Auto Coding Suggestion - Automatic| [Auto Coding Suggestion - Automatic](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---automatic)
+|Update VAT Product Posting Group|Due to Swedish Tax Rules regarding IT VAT, it is possible to update all VAT Product Posting Groups on Invoice Lines. This function can only be used together for customers that have SweBase installed. <br/><br/>Read more under section [**SweBase --> Update VAT Product Posting Group**](https://docs.signupsoftware.com/business-central/docs/user-manual/localizations-and-isv-extensions/swebase#update-vat-product-posting-group)
 |Open PDF-Viewer in New Tab|Opens PDF in a new tab.
 |Vendor Card|Opens the Vendor card for the specific document.
 |Import or Replace Image|Import or replace current document image.
@@ -166,7 +166,7 @@ Applies the line coding chosen by the suggestion algorithm.
 This will enter a coding based on the information on the invoice. It will choose the coding based on the
 Automatic Coding Setup.
 
-Read more under section [***Auto Coding Suggestion Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
+Read more under section [***Auto Coding Suggestion Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
 
 <br/><br/>
 
@@ -320,7 +320,7 @@ With this button all the records of email log are displayed. Records consists of
 ### Preview Preliminary Posting
 Go to: ***Actions --> Preliminary Posting --> Preview Posting***<br/>
 This can only be used if Preliminary Posting is activated. <br/>
-Read more under section [***Preliminary Posting***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
+Read more under section [***Preliminary Posting***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/preliminary-posting)
 
 
 ### Import Journal --> Actions --> Contract
@@ -336,7 +336,7 @@ Fields in Invoice Header that will be copied to the new created contract:
 * Approval Rule
 * Purchaser Code
 
-To complete the setup on the contract, read more under section [***Contract***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract)
+To complete the setup on the contract, read more under section [***Contract***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract)
 
 
 ### Import Journal --> Related --> Document
@@ -562,7 +562,7 @@ View the ExFlow Dimension Owners for the current list of suggested approvers.
 
 ### Show Budget
 If G/L Budget Control is activated, it is possible to view calculated.
-Read more under section [***G/L Budget Control***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/gl-budget-control)
+Read more under section [***G/L Budget Control***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/gl-budget-control)
 
 ## Doc. Creation Checks
 
@@ -650,7 +650,7 @@ If a ExFlow User that is a system user is mentioned by using @, notification wil
 
 On ExFlow Web the message will display in Chat on Document after it is created.
 
-Read more about settings and how to use Discussion Panel under section [***Discussion Panel / Chat and Line Comments***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
+Read more about settings and how to use Discussion Panel under section [***Discussion Panel / Chat and Line Comments***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
 
 ### Incoming Document Files
 Go to: ***FactBox --> Incoming Document Files --> Attach File***<br/>
@@ -705,4 +705,4 @@ To add the Description 2 Web Column, go to **ExFlow Setup --> Edit Web Columns**
 
 ![Description 2](@site/static/img/media/exflow-web-columns-add-description-2.png)
 
-Read more about Web Columns under section [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
+Read more about Web Columns under section [***ExFlow Web.***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#exflow-web)

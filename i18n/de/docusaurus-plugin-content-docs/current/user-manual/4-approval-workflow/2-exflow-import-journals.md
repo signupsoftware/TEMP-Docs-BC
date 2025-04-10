@@ -110,9 +110,9 @@ Klicken Sie auf "ExFlow Datenerfassung", um zur Website zu gelangen. Dies funkti
 | Dokumente importieren             | Um Dokumente in ein ausgewähltes Journal zu importieren, öffnen Sie das Journal und importieren Sie die Dokumente.
 | Dokument überprüfen            | Wählen Sie ein (oder mehrere) Dokument(e) zur Überprüfung über "Dokument überprüfen". Diese Funktion überprüft, ob das Dokument bereit ist, erstellt zu werden. (Strg+R)
 | Alle Dokumente überprüfen          | Nach der Korrektur eines Fehlers wird diese Funktion die Aktion löschen oder eine neue Aktionsnachricht erstellen, wenn ein Dokument noch einen Fehler aufweist.
-|Auto Coding Suggestion - Manuelle Auswahl| [Auto Coding Suggestion - Manuelle Auswahl](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---manual-choice)
-|Auto Coding Suggestion - Automatisch| [Auto Coding Suggestion - Automatisch](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---automatic)
-|Update VAT Product Posting Group|Aufgrund der schwedischen Steuervorschriften bezüglich IT-MwSt. ist es möglich, alle MwSt.-Produktbuchungsgruppen auf Rechnungszeilen zu aktualisieren. Diese Funktion kann nur zusammen mit Kunden verwendet werden, die SweBase installiert haben. <br/><br/>Lesen Sie mehr im Abschnitt [**SweBase --> Update VAT Product Posting Group**](https://docs.exflow.cloud/business-central/docs/user-manual/localizations-and-isv-extensions/swebase#update-vat-product-posting-group)
+|Auto Coding Suggestion - Manuelle Auswahl| [Auto Coding Suggestion - Manuelle Auswahl](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---manual-choice)
+|Auto Coding Suggestion - Automatisch| [Auto Coding Suggestion - Automatisch](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---automatic)
+|Update VAT Product Posting Group|Aufgrund der schwedischen Steuervorschriften bezüglich IT-MwSt. ist es möglich, alle MwSt.-Produktbuchungsgruppen auf Rechnungszeilen zu aktualisieren. Diese Funktion kann nur zusammen mit Kunden verwendet werden, die SweBase installiert haben. <br/><br/>Lesen Sie mehr im Abschnitt [**SweBase --> Update VAT Product Posting Group**](https://docs.signupsoftware.com/business-central/docs/user-manual/localizations-and-isv-extensions/swebase#update-vat-product-posting-group)
 |PDF-Viewer in neuem Tab öffnen|Öffnet PDF in einem neuen Tab.
 |Lieferantenkarte|Öffnet die Lieferantenkarte für das spezifische Dokument.
 |Bild importieren oder ersetzen|Importieren oder ersetzen Sie das aktuelle Dokumentenbild.
@@ -178,9 +178,9 @@ Klicken Sie auf "ExFlow Datenerfassung", um zur Website zu gelangen. Dies funkti
 | Dokumente importieren             | Um Dokumente in ein ausgewähltes Journal zu importieren, öffnen Sie das Journal und importieren Sie die Dokumente.
 | Dokument überprüfen            | Wählen Sie ein (oder mehrere) Dokument(e) zur Überprüfung über "Dokument überprüfen". Diese Funktion überprüft, ob das Dokument bereit ist, erstellt zu werden. (Strg+R)
 | Alle Dokumente überprüfen          | Nach der Korrektur eines Fehlers wird diese Funktion die Aktion löschen oder eine neue Aktionsnachricht erstellen, wenn ein Dokument noch einen Fehler aufweist.
-|Auto Coding Suggestion - Manuelle Auswahl| [Auto Coding Suggestion - Manuelle Auswahl](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---manual-choice)
-|Auto Coding Suggestion - Automatisch| [Auto Coding Suggestion - Automatisch](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---automatic)
-|Update VAT Product Posting Group|Aufgrund der schwedischen Steuervorschriften bezüglich IT-MwSt. ist es möglich, alle MwSt.-Produktbuchungsgruppen auf Rechnungszeilen zu aktualisieren. Diese Funktion kann nur zusammen mit Kunden verwendet werden, die SweBase installiert haben. <br/><br/>Lesen Sie mehr im Abschnitt [**SweBase --> Update VAT Product Posting Group**](https://docs.exflow.cloud/business-central/docs/user-manual/localizations-and-isv-extensions/swebase#update-vat-product-posting-group)
+|Auto Coding Suggestion - Manuelle Auswahl| [Auto Coding Suggestion - Manuelle Auswahl](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---manual-choice)
+|Auto Coding Suggestion - Automatisch| [Auto Coding Suggestion - Automatisch](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---automatic)
+|Update VAT Product Posting Group|Aufgrund der schwedischen Steuervorschriften bezüglich IT-MwSt. ist es möglich, alle MwSt.-Produktbuchungsgruppen auf Rechnungszeilen zu aktualisieren. Diese Funktion kann nur zusammen mit Kunden verwendet werden, die SweBase installiert haben. <br/><br/>Lesen Sie mehr im Abschnitt [**SweBase --> Update VAT Product Posting Group**](https://docs.signupsoftware.com/business-central/docs/user-manual/localizations-and-isv-extensions/swebase#update-vat-product-posting-group)
 |PDF-Viewer in neuem Tab öffnen|Öffnet PDF in einem neuen Tab.
 |Lieferantenkarte|Öffnet die Lieferantenkarte für das spezifische Dokument.
 |Bild importieren oder ersetzen|Importieren oder ersetzen Sie das aktuelle Dokumentenbild.
@@ -335,7 +335,7 @@ Mit dieser Schaltfläche werden alle Datensätze des E-Mail-Protokolls angezeigt
 ### Vorläufige Buchungsvorschau
 Gehe zu: ***Aktionen --> Vorläufige Buchung --> Buchungsvorschau***<br/>
 Dies kann nur verwendet werden, wenn die vorläufige Buchung aktiviert ist. <br/>
-Lesen Sie mehr im Abschnitt [***Vorläufige Buchung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
+Lesen Sie mehr im Abschnitt [***Vorläufige Buchung***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/preliminary-posting)
 
 ### Import Journal --> Aktionen --> Vertrag
 
@@ -351,7 +351,7 @@ Felder im Rechnungskopf, die in den neu erstellten Vertrag kopiert werden:
 * Genehmigungsregel
 * Einkäufercode
 
-Um die Einrichtung des Vertrags abzuschließen, lesen Sie mehr im Abschnitt [***Vertrag***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract)
+Um die Einrichtung des Vertrags abzuschließen, lesen Sie mehr im Abschnitt [***Vertrag***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract)
 
 ### Import Journal --> Verwandt --> Dokument
 
@@ -571,7 +571,7 @@ Zeigen Sie die ExFlow Dimensionsinhaber für die aktuelle Liste der vorgeschlage
 
 ### Budget anzeigen
 Wenn die G/L-Budgetkontrolle aktiviert ist, ist es möglich, berechnete Werte anzuzeigen.
-Lesen Sie mehr im Abschnitt [***G/L Budget Control***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/gl-budget-control)
+Lesen Sie mehr im Abschnitt [***G/L Budget Control***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/gl-budget-control)
 
 ## Dokumentenerstellungsprüfungen
 
@@ -657,7 +657,7 @@ Wenn ein ExFlow-Benutzer, der ein Systembenutzer ist, mit @ erwähnt wird, wird 
 
 Auf ExFlow Web wird die Nachricht im Chat auf dem Dokument angezeigt, nachdem es erstellt wurde.
 
-Lesen Sie mehr über Einstellungen und wie Sie das Diskussionsfeld verwenden unter [***Diskussionsfeld / Chat und Zeilenkommentare***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
+Lesen Sie mehr über Einstellungen und wie Sie das Diskussionsfeld verwenden unter [***Diskussionsfeld / Chat und Zeilenkommentare***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
 
 
 
@@ -714,5 +714,5 @@ Um die Beschreibung 2 Web-Spalte hinzuzufügen, gehen Sie zu **ExFlow Setup --> 
 
 ![Beschreibung 2](../../images/exflow-web-columns-add-description-2.png)
 
-Lesen Sie mehr über Web-Spalten im Abschnitt [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
+Lesen Sie mehr über Web-Spalten im Abschnitt [***ExFlow Web.***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#exflow-web)
 

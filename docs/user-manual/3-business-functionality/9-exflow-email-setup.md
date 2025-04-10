@@ -8,7 +8,7 @@ custom_edit_url: null
  
 Go to: **ExFlow Email Setup**
 
-To send email reminders, ExFlow Email Setup is needed for each Email Type. Email reminders can be sent manually or by adding a job queue. For setup, read more under section [***Email Reminders.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#email-reminders)
+To send email reminders, ExFlow Email Setup is needed for each Email Type. Email reminders can be sent manually or by adding a job queue. For setup, read more under section [***Email Reminders.***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#email-reminders)
 
 Please note that a Business Central standard Email Account must be set to be able to receive ExFlow emails. More information about this can be found at [***Microsoft Documentation***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email). For assistance regarding this, please contact your trusted Dynamics 365 Business Central implementation partner.
 
@@ -47,7 +47,7 @@ Recipients can be added in all, one, or several fields to send reminders.<br/><b
 
 ### Inbox Reminder
 Send reminders that approvers have document to approve.<br/>
-This setting can also be added automatically when running [***Get Started Wizard***](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started)<br/><br/>
+This setting can also be added automatically when running [***Get Started Wizard***](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started)<br/><br/>
 
 | General |  |
 |:-|:-|

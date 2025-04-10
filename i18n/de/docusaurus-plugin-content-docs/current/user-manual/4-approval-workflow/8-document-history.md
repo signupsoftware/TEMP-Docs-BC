@@ -12,7 +12,7 @@ Gehe zu: ***Historie \--\> ExFlow Dokumente suchen***
 
 ExFlow Dokumente suchen kann verwendet werden, um Dokumente nach verschiedenen Kriterien innerhalb von ExFlow zu durchsuchen.
 
-Lesen Sie mehr darüber, wie Sie diese Funktion verwenden, im Abschnitt [***Dokumente suchen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/search-documents#search-documents)
+Lesen Sie mehr darüber, wie Sie diese Funktion verwenden, im Abschnitt [***Dokumente suchen***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/search-documents#search-documents)
 
 ![ExFlow Dokumente suchen](../../images/image312.png)
 
@@ -24,7 +24,7 @@ Funktion zur Anzeige des ExFlow Genehmigungsstatusverlaufs für gebuchte Dokumen
 
 ![ExFlow Genehmigungsstatusverlauf](../../images/image314.png)
 
-Der ExFlow Genehmigungsstatusverlauf enthält auch abgeschlossene Bestellungen und Angebote. Ein abgeschlossenes Angebot ist ein Angebot, das in eine Bestellung umgewandelt wurde. Eine abgeschlossene Bestellung ist eine Bestellung, die genehmigt, fakturiert und entfernt wurde. Lesen Sie mehr im Abschnitt [***ExFlow Bestellstatus.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-order-status#exflow-order-status-1)
+Der ExFlow Genehmigungsstatusverlauf enthält auch abgeschlossene Bestellungen und Angebote. Ein abgeschlossenes Angebot ist ein Angebot, das in eine Bestellung umgewandelt wurde. Eine abgeschlossene Bestellung ist eine Bestellung, die genehmigt, fakturiert und entfernt wurde. Lesen Sie mehr im Abschnitt [***ExFlow Bestellstatus.***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-order-status#exflow-order-status-1)
 
 Für gebuchte Rechnungen und Gutschriften ist es möglich, den "Restbetrag" aus den Kreditorenposten direkt im ExFlow Genehmigungsstatusverlauf zu sehen. Dies bedeutet, dass es möglich ist zu sehen, ob das Dokument bezahlt ist oder nicht.
 
@@ -82,7 +82,7 @@ Gehe zu: ***ExFlow Historie \--\> ExFlow Chat-Benachrichtigungsverlauf***
 
 Ein ExFlow-Benutzer kann ExFlow-Chat-Benachrichtigungen anzeigen, in denen der Benutzer in den letzten 90 Tagen markiert wurde.
 
-Lesen Sie mehr darüber im Abschnitt [***Diskussionspanel / Chat und Zeilenkommentare.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
+Lesen Sie mehr darüber im Abschnitt [***Diskussionspanel / Chat und Zeilenkommentare.***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
 
 ### Gelöschte Dokumente
 

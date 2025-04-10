@@ -110,9 +110,9 @@ Haga clic en "Captura de Datos de ExFlow" para ir a su sitio web. Esto solo func
 | Importar Documentos             | Para importar documentos a un diario seleccionado, abra el diario e importe documentos.
 | Verificar Documento            | Seleccione uno (o más) documento(s) para verificar a través de Verificar Documento. Esta función verificará que el documento esté listo para ser creado. (Ctrl+R)
 | Verificar Todos los Documentos          | Después de corregir un error, esto eliminará o creará un nuevo mensaje de acción si un documento aún tiene un error.
-|Sugerencia de Codificación Automática - Elección Manual| [Sugerencia de Codificación Automática - Elección Manual](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---manual-choice)
-|Sugerencia de Codificación Automática - Automática| [Sugerencia de Codificación Automática - Automática](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---automatic)
-|Actualizar Grupo de Registro de Producto de IVA|Debido a las reglas fiscales suecas sobre el IVA de TI, es posible actualizar todos los Grupos de Registro de Producto de IVA en las líneas de la factura. Esta función solo se puede usar junto con clientes que tengan SweBase instalado. <br/><br/>Lea más en la sección [**SweBase --> Actualizar Grupo de Registro de Producto de IVA**](https://docs.exflow.cloud/business-central/docs/user-manual/localizations-and-isv-extensions/swebase#update-vat-product-posting-group)
+|Sugerencia de Codificación Automática - Elección Manual| [Sugerencia de Codificación Automática - Elección Manual](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---manual-choice)
+|Sugerencia de Codificación Automática - Automática| [Sugerencia de Codificación Automática - Automática](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---automatic)
+|Actualizar Grupo de Registro de Producto de IVA|Debido a las reglas fiscales suecas sobre el IVA de TI, es posible actualizar todos los Grupos de Registro de Producto de IVA en las líneas de la factura. Esta función solo se puede usar junto con clientes que tengan SweBase instalado. <br/><br/>Lea más en la sección [**SweBase --> Actualizar Grupo de Registro de Producto de IVA**](https://docs.signupsoftware.com/business-central/docs/user-manual/localizations-and-isv-extensions/swebase#update-vat-product-posting-group)
 |Abrir Visor de PDF en Nueva Pestaña|Abre el PDF en una nueva pestaña.
 |Tarjeta del Proveedor|Abre la tarjeta del proveedor para el documento específico.
 |Importar o Reemplazar Imagen|Importar o reemplazar la imagen del documento actual.
@@ -161,7 +161,7 @@ Aplica la codificación de línea elegida por el algoritmo de sugerencia.
 
 Esto ingresará una codificación basada en la información de la factura. Elegirá la codificación basada en la Configuración de Codificación Automática.
 
-Lea más en la sección [***Configuración de Sugerencia de Codificación Automática***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
+Lea más en la sección [***Configuración de Sugerencia de Codificación Automática***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
 
 <br/><br/>
 
@@ -312,7 +312,7 @@ Con este botón se muestran todos los registros del registro de correos electró
 ### Vista Previa del Registro Preliminar
 Ir a: ***Acciones --> Registro Preliminar --> Vista Previa del Registro***<br/>
 Esto solo se puede usar si el Registro Preliminar está activado. <br/>
-Lea más en la sección [***Registro Preliminar***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
+Lea más en la sección [***Registro Preliminar***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/preliminary-posting)
 
 ### Diario de Importación --> Acciones --> Contrato
 
@@ -327,7 +327,7 @@ Campos en el Encabezado de la Factura que se copiarán al nuevo contrato creado:
 * Regla de Aprobación.
 * Código de Comprador.
 
-Para completar la configuración en el contrato, lea más en la sección [***Contrato***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract)
+Para completar la configuración en el contrato, lea más en la sección [***Contrato***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract)
 
 ### Diario de Importación --> Relacionado --> Documento
 
@@ -543,7 +543,7 @@ Ver los Propietarios de Dimensiones de ExFlow para la lista actual de aprobadore
 
 ### Mostrar Presupuesto
 Si el Control de Presupuesto de G/L está activado, es posible ver el cálculo.
-Lea más en la sección [***Control de Presupuesto de G/L***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/gl-budget-control)
+Lea más en la sección [***Control de Presupuesto de G/L***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/gl-budget-control)
 
 ## Verificaciones de Creación de Documentos
 
@@ -627,7 +627,7 @@ Si se menciona a un Usuario de ExFlow que es un usuario del sistema usando @, la
 
 En ExFlow Web el mensaje se mostrará en el Chat del Documento después de que se haya creado.
 
-Lea más sobre configuraciones y cómo usar el Panel de Discusión en la sección [***Panel de Discusión / Chat y Comentarios de Línea***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
+Lea más sobre configuraciones y cómo usar el Panel de Discusión en la sección [***Panel de Discusión / Chat y Comentarios de Línea***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
 
 ### Archivos de Documentos Entrantes
 Ir a: ***FactBox --> Archivos de Documentos Entrantes --> Adjuntar Archivo***<br/>
@@ -681,4 +681,4 @@ Para agregar la Columna Web Descripción 2, vaya a **Configuración de ExFlow --
 
 ![Descripción 2](@site/static/img/media/exflow-web-columns-add-description-2.png)
 
-Lea más sobre Columnas Web en la sección [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
+Lea más sobre Columnas Web en la sección [***ExFlow Web.***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#exflow-web)

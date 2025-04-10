@@ -10,7 +10,7 @@ Gehe zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Contracts***
 
 ExFlow Vertrag kann verwendet werden, um empfangene und fehlende Rechnungen für Verträge zu verfolgen und kann auch automatisch übereinstimmende Rechnungen genehmigen. Beginnen Sie mit der Erstellung eines neuen Vertrags, indem Sie auf "Neu" klicken.
 
-Um die Einrichtung und Genehmigung für Verträge zu konfigurieren, lesen Sie mehr im Abschnitt [***OMNI Approval***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/omni-approval).
+Um die Einrichtung und Genehmigung für Verträge zu konfigurieren, lesen Sie mehr im Abschnitt [***OMNI Approval***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/omni-approval).
 
 ### Allgemein
 Unter diesem Abschnitt fügen Sie allgemeine Informationen für diesen spezifischen Vertrag, Lieferanten, Genehmigungsfluss und Kodierung hinzu.
@@ -41,7 +41,7 @@ Unter Allgemeine Bedingungen fügen Sie die Gesamtsummen für diesen spezifische
 
 |Allgemeine Bedingungen|  |
 |:-|:-|
-| **Gültig ab Datum und Gültig bis Datum**:    | Bedingungen des Vertrags<br/> Wenn Rechnungsperioden erstellt werden, kann das Gültig-bis-Datum verwendet werden, um Rechnungsperioden zu verlängern<br/> Lesen Sie mehr unten im Abschnitt [***Rechnungsperioden***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#extend-contract-with-invoice-periods)
+| **Gültig ab Datum und Gültig bis Datum**:    | Bedingungen des Vertrags<br/> Wenn Rechnungsperioden erstellt werden, kann das Gültig-bis-Datum verwendet werden, um Rechnungsperioden zu verlängern<br/> Lesen Sie mehr unten im Abschnitt [***Rechnungsperioden***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#extend-contract-with-invoice-periods)
 | **Währungscode**:                           | Der Währungscode, der bei der Rechnungsstellung des Vertrags verwendet werden soll
 | **Gesamtvertragsbetrag (Netto-Währung)**:   | Gibt den Gesamtvertragsbetrag einschließlich Toleranzen an.
 
@@ -94,7 +94,7 @@ Toleranzen und Zahlungsbedingungen-Code werden aus der Periodizität kopiert.
 
 ![ExFlow Vertrag Rechnungsperioden](../../images/contract-invoice-periods-002.png)
 
-Für fakturierte Gesamtsummen siehe [***FactBox --> Details --> Einkaufsvertragsstatistik***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#factbox--details--purchase-contract-statistic) unten.
+Für fakturierte Gesamtsummen siehe [***FactBox --> Details --> Einkaufsvertragsstatistik***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#factbox--details--purchase-contract-statistic) unten.
 
 ### Vertrag mit Rechnungsperioden verlängern
 Um einen Vertrag zu verlängern, der Perioden enthält, fügen Sie ein neues "Gültig-bis-Datum" in Allgemeine Bedingungen hinzu und aktualisieren Sie die Werte, die aus der Periodizität kopiert werden.
@@ -103,11 +103,11 @@ Um einen Vertrag zu verlängern, der Perioden enthält, fügen Sie ein neues "G�
 
 ### Rechnungs-Erinnerung
 Es gibt eine Funktion, um Erinnerungen für Verträge zu senden, die Rechnungsperioden und ExFlow-E-Mail-Einrichtung haben.
-Lesen Sie mehr im Abschnitt [***E-Mail-Erinnerungen --> Vertragsrechnungs-Erinnerung***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#contract-invoice-reminder)
+Lesen Sie mehr im Abschnitt [***E-Mail-Erinnerungen --> Vertragsrechnungs-Erinnerung***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#contract-invoice-reminder)
 
 |Rechnungs-Erinnerung |  |
 |:-|:-|
-| **Erinnerung senden**:            | Aktivieren, um E-Mail-Erinnerungen oder Benachrichtigungen zu senden. Um E-Mails und/oder BC-Benachrichtigungen senden zu können, muss der ExFlow-Benutzer Zugriff auf E-Mail/Benachrichtigungen für die Vertragsrechnungs-Erinnerung haben.<br/> Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
+| **Erinnerung senden**:            | Aktivieren, um E-Mail-Erinnerungen oder Benachrichtigungen zu senden. Um E-Mails und/oder BC-Benachrichtigungen senden zu können, muss der ExFlow-Benutzer Zugriff auf E-Mail/Benachrichtigungen für die Vertragsrechnungs-Erinnerung haben.<br/> Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
 | **Genehmigungsgruppen**:          | Fügen Sie Genehmigungsgruppen für diesen spezifischen Vertrag hinzu. Wenn keine vorhanden sind, werden Erinnerungen an "Genehmigungsgruppen" in der ExFlow-E-Mail-Einrichtung gesendet
 | **Rechnungs-Erinnerungsperiode**: | Verwenden Sie die Standard-Datumsformel, die auf dem Periodenstartdatum berechnet wird, um anzugeben, wann die Rechnung überfällig ist
 | **Feste E-Mail-Adressen**:        | Um Erinnerungen an Benutzer außerhalb von ExFlow für diesen spezifischen Vertrag zu senden. Wenn keine vorhanden sind, werden Erinnerungen an "Feste E-Mail-Adressen" in der ExFlow-E-Mail-Einrichtung gesendet
@@ -148,7 +148,7 @@ Verwenden Sie diese Funktion, um eine Selbstabrechnungsrechnung nur für den akt
 
 ![ExFlow Vertragsmenü Aktionen](../../images/contract-menu-actions-001.png)
 
-Dies kann auch automatisch über eine Jobwarteschlange erfolgen. Lesen Sie mehr im Abschnitt [***Selbstabrechnungsvertrag einrichten***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
+Dies kann auch automatisch über eine Jobwarteschlange erfolgen. Lesen Sie mehr im Abschnitt [***Selbstabrechnungsvertrag einrichten***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
 
 ### Funktion - Vertrag kopieren
 Verwenden Sie diese Funktion, um den Inhalt eines bestehenden Vertrags in einen neu erstellten Vertrag zu kopieren.<br/>
@@ -270,10 +270,10 @@ Rechnungsperioden manuell hinzufügen oder die Funktion Rechnungsperioden erstel
 ![ExFlow Contract Invoice Periods](../../images/contract-invoice-periods-001.png)
 
 #### Selbstabrechnungsrechnungen automatisch erstellen
-Lesen Sie mehr im Abschnitt [***Einrichtung des Selbstabrechnungsvertrags***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
+Lesen Sie mehr im Abschnitt [***Einrichtung des Selbstabrechnungsvertrags***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
 
 #### Selbstabrechnungsrechnungen manuell erstellen
-Lesen Sie mehr im Abschnitt [***Selbstabrechnungsrechnung erstellen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#function---actions--create-self-billing-invoice)
+Lesen Sie mehr im Abschnitt [***Selbstabrechnungsrechnung erstellen***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#function---actions--create-self-billing-invoice)
 
 <br/>
 

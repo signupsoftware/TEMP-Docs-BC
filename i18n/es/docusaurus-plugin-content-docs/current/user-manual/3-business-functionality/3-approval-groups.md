@@ -36,7 +36,7 @@ Es posible agregar aprobadores automáticamente dependiendo de diferentes codifi
 
 | Tipo de Aprobación Dinámica   |   |
 |:-|:-|
-| **Tipo de Aprobación Dinámica:**                | Este campo contiene múltiples opciones que pueden ser utilizadas para diferentes Flujos de Aprobación Dinámica. Todas las opciones requieren configuración única y, cuando se seleccionan, no es posible agregar Miembros del Grupo de Aprobación   <br/> Lea más sobre la configuración y las opciones de flujo de aprobación dinámica para dimensiones, proyectos y compradores en la sección [***Reglas de Aprobación --> Flujo de Aprobación Dinámica para Propietarios de Dimensiones,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Proyectos,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects) o [***Compradores***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers)
+| **Tipo de Aprobación Dinámica:**                | Este campo contiene múltiples opciones que pueden ser utilizadas para diferentes Flujos de Aprobación Dinámica. Todas las opciones requieren configuración única y, cuando se seleccionan, no es posible agregar Miembros del Grupo de Aprobación   <br/> Lea más sobre la configuración y las opciones de flujo de aprobación dinámica para dimensiones, proyectos y compradores en la sección [***Reglas de Aprobación --> Flujo de Aprobación Dinámica para Propietarios de Dimensiones,***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Proyectos,***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects) o [***Compradores***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers)
 | **Excluir de la lista de usuarios de la web:**     | Se seleccionará automáticamente ya que este Grupo de Aprobadores no debería poder agregarse manualmente desde ExFlow Web
 | **Miembros del Grupo de Aprobación:**               | No debería haber Usuarios de ExFlow agregados en Miembros del Grupo de Aprobación
 
@@ -49,7 +49,7 @@ Si un aprobador no aprueba documentos a tiempo, existe una función para escalar
 
 El Gerente puede ser agregado para todos los aprobadores en la Configuración de ExFlow o por Grupo de Aprobación y ejecutar el trabajo manualmente o automáticamente con la Cola de Trabajos.
 
-Lea más sobre la configuración y cómo configurar la Cola de Trabajos en la sección [***Flujo de Aprobación --> Actividades Periódicas --> Trabajo de Escalación***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/periodic-activities#escalation-job)
+Lea más sobre la configuración y cómo configurar la Cola de Trabajos en la sección [***Flujo de Aprobación --> Actividades Periódicas --> Trabajo de Escalación***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/periodic-activities#escalation-job)
 
 | Escalación   |   |
 |:-|:-|
@@ -63,7 +63,7 @@ Es posible agregar varios aprobadores en un Grupo de Aprobación. Solo un usuari
 
 | Miembros del Grupo de Aprobación   |   |
 |:-|:-|
-| **Fecha de inicio y fin:**     | se utiliza para el aprobador que está reemplazando temporalmente a otro aprobador. Use la función para agregar reemplazantes desde ExFlow Web, Asignar Reemplazante o desde la Tarjeta de Usuario de ExFlow            <br/> Lea más en la sección [***Funcionalidad Empresarial --> Usuario de ExFlow --> Agregar un Reemplazante Durante el Tiempo de Vacaciones***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time) y [***Flujo de Aprobación --> Actividades Periódicas --> Asignar Reemplazantes***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/periodic-activities#assign-replacers)
+| **Fecha de inicio y fin:**     | se utiliza para el aprobador que está reemplazando temporalmente a otro aprobador. Use la función para agregar reemplazantes desde ExFlow Web, Asignar Reemplazante o desde la Tarjeta de Usuario de ExFlow            <br/> Lea más en la sección [***Funcionalidad Empresarial --> Usuario de ExFlow --> Agregar un Reemplazante Durante el Tiempo de Vacaciones***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time) y [***Flujo de Aprobación --> Actividades Periódicas --> Asignar Reemplazantes***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/periodic-activities#assign-replacers)
 
 ![Miembros del Grupo de Aprobación](@site/static/img/media/approval-group-003-lines.png)
 

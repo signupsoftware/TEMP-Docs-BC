@@ -14,5 +14,5 @@ Ir a **Relacionado** y hacer clic en **Configuración de Proveedores de ExFlow**
 
 ![Tarjeta de Proveedor](@site/static/img/media/Vendor-card-exflow-vendor-setup-001.png)
 
-  Lea más sobre cómo hacer configuraciones para un proveedor específico en [***Configuración de Proveedores***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
+  Lea más sobre cómo hacer configuraciones para un proveedor específico en [***Configuración de Proveedores***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 

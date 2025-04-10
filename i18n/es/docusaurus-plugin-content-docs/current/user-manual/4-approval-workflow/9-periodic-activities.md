@@ -24,7 +24,7 @@ Ir a: ***Configuración --> Configuración de ExFlow --> Escalación***
 
 |Escalación|| 
 |:-|:-| 
-|**Días Antes de Escalación**| Calculado desde cuando el usuario recibió el documento para aprobación. <br/><br/> ("Fecha de Cambio de Estado" en "Aprobadores de Línea de Documento" en "Estado de Aprobación.<br/> La fecha del servidor establece la "Fecha de Cambio de Estado".) <br/><br/> Lea más sobre esto en la sección [***Escalación***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-groups#escalation)
+|**Días Antes de Escalación**| Calculado desde cuando el usuario recibió el documento para aprobación. <br/><br/> ("Fecha de Cambio de Estado" en "Aprobadores de Línea de Documento" en "Estado de Aprobación.<br/> La fecha del servidor establece la "Fecha de Cambio de Estado".) <br/><br/> Lea más sobre esto en la sección [***Escalación***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-groups#escalation)
 |**Gerente Superior**| Usuario que recibirá todas las facturas vencidas. El aprobador superior necesita tener el mismo o mayor permiso ya que el permiso no se hereda en ExFlow.
 |**Código de Calendario Base**| Especifica el código de calendario base que debe usarse para calcular los días laborables al escalar. Si no se agrega un calendario base, no se incluyen los sábados y domingos.
 |**Texto de Escalación**| Especifica el texto que debe usarse para las líneas de aprobadores escalados. La información interna se completará en Comentarios.
@@ -129,10 +129,10 @@ Esta misma función se puede encontrar en Usuario de ExFlow.
 
 La información sobre las facturas a enviar al Cliente se puede encontrar en Entradas de Re-Facturación de ExFlow.
 
-Lea más sobre esto en la sección [***Re-Facturación.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing)
+Lea más sobre esto en la sección [***Re-Facturación.***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing)
 
 ### Sugerencia de Codificación Automática
 
 Para aplicar la Sugerencia de Codificación Automática, es necesario ejecutar las funciones IDs de Conjunto de Codificación de ExFlow para Sugerencias de Codificación Automática y Crear Sugerencias de Codificación Automática de ExFlow.
 
-![Actividades Periódicas - Sugerencias de Codificación Automática](@site/static/img/media/exflow-menu-005-periodic-activities.png) <br/><br/> Lea más sobre esto en la sección [***Configuración de Sugerencia de Codificación Automática***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
+![Actividades Periódicas - Sugerencias de Codificación Automática](@site/static/img/media/exflow-menu-005-periodic-activities.png) <br/><br/> Lea más sobre esto en la sección [***Configuración de Sugerencia de Codificación Automática***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)

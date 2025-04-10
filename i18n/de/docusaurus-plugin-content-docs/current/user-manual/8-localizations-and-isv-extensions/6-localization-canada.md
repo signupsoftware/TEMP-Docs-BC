@@ -77,4 +77,4 @@ Es ist möglich, steuerbezogene Felder in ExFlow Web sichtbar zu machen, indem d
 
 ![ExFlow Web Columns](../../images/tax-web-columns-001.png)
 
-Lesen Sie mehr darüber, wie Sie Webspalten bearbeiten können, im Abschnitt [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
+Lesen Sie mehr darüber, wie Sie Webspalten bearbeiten können, im Abschnitt [***ExFlow Web.***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#exflow-web)

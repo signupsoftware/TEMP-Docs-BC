@@ -30,7 +30,7 @@ Die Ergebnisliste zeigt alle Dokumente mit der verbundenen Referenz an allen Ste
 
 ![ExFlow Dokumente suchen](../../images/search-documents-004.png)
 
-Lesen Sie mehr im Abschnitt [***Referenzcodes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes), um mehr darüber zu erfahren, wie Sie ExFlow-Referenzen erstellen und verwenden.
+Lesen Sie mehr im Abschnitt [***Referenzcodes***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes), um mehr darüber zu erfahren, wie Sie ExFlow-Referenzen erstellen und verwenden.
 
 ### Option "Suchspalten"
 
@@ -49,6 +49,6 @@ Das Ergebnis zeigt alle Dokumente mit dieser Kombination im gewählten Unternehm
 ### Verbleibenden Betrag in ExFlow Search Documents anzeigen
 
 Wenn die Suchergebnisse gefiltert sind, ist es auch möglich zu sehen, ob die gebuchten Dokumente bezahlt sind oder nicht. Dies kann durch Hinzufügen der Spalte "Verbleibender Betrag" über "Personalisieren" zu den herausgefilterten Ergebnissen erfolgen. <br/>
-Lesen Sie mehr darüber im Abschnitt [***ExFlow Genehmigungsstatusverlauf***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/document-history#approval-status-history)
+Lesen Sie mehr darüber im Abschnitt [***ExFlow Genehmigungsstatusverlauf***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/document-history#approval-status-history)
 
 ![ExFlow Dokumente suchen - Verbleibender Betrag](../../images/search-documents-007.png)

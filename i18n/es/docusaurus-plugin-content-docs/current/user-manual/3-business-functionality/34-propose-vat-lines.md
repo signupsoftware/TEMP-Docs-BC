@@ -24,4 +24,4 @@ La línea de cuenta de costo, en este ejemplo, se configurará para excluir el I
 
 ![Proponer Líneas de IVA](@site/static/img/media/exflow-setup-propose-vat-lines-002.png)
 
-Por defecto, las líneas de IVA no están incluidas en el flujo de trabajo de aprobación. Sin embargo, hay una función alternativa disponible para este propósito. Lea más en la sección [***Aprobar Líneas de IVA***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines) para obtener más información.
+Por defecto, las líneas de IVA no están incluidas en el flujo de trabajo de aprobación. Sin embargo, hay una función alternativa disponible para este propósito. Lea más en la sección [***Aprobar Líneas de IVA***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approve-vat-lines) para obtener más información.

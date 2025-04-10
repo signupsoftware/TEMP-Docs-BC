@@ -28,24 +28,24 @@ const FeatureList_OLD = [
             }, 
             {
               title: <Translate>EXFLOW WEB</Translate>,
-              url: 'https://docs.exflow.cloud/web',
+              url: 'https://docs.signupsoftware.com/web',
               tag: 'web'
             },
         {
           title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-          url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
+          url: 'https://docs.signupsoftware.com/datacapture/docs/user-manual/under-dev',
           tag: 'data-capture'
         },
           {
             title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
-            url: 'https://docs.exflow.cloud/tem',
+            url: 'https://docs.signupsoftware.com/tem',
             tag: 'travel-and-expense'
           },
 
 
               {
                 title: <Translate>EXFLOW CONTENT GATE</Translate>,
-                url: 'https://docs.exflow.cloud/tem',
+                url: 'https://docs.signupsoftware.com/tem',
                 tag: 'bc-content-gate'
               }
 
@@ -69,7 +69,7 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-    url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
+    url: 'https://docs.signupsoftware.com/user-manual/under-dev',
     index: 4,
     tag: 'data-capture'
   },
@@ -85,7 +85,7 @@ const FeatureList = [
     tag: 'sales-order',
     index: 1
   },
-  {
+{
     title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
     //url: 'https://docs.exflow.cloud/tem',
     url: translate({
@@ -121,7 +121,7 @@ const FeatureList = [
 [
   {
     title: <Translate>EXFLOW WEB</Translate>,
-    url: 'https://docs.exflow.cloud/web',
+    url: 'https://docs.signupsoftware.com/web',
     tag: 'web',
     index: 3
   },

@@ -48,7 +48,7 @@ Esta configuración es relevante si tanto la aprobación de Orden como la aproba
 Úselo para agregar al usuario que está creando la cotización o la orden como Primer Aprobador del documento.<br/>
 Dependiendo de la Configuración de ExFlow, el Primer Aprobador se puede usar como filtro en las Reglas de Aprobación para crear flujos de aprobación para cotizaciones y órdenes. El Primer Aprobador también puede ser un Aprobador real.
 
-Para usar esta función, el Usuario de Business Central necesita ser un Usuario del Sistema ExFlow. Lea más en la sección [***Usuario de ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user).
+Para usar esta función, el Usuario de Business Central necesita ser un Usuario del Sistema ExFlow. Lea más en la sección [***Usuario de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user).
 
 **Bloquear factura en el diario de importación si la orden no está aprobada**<br/>
 Para agregar un mensaje de advertencia al emparejar el documento con una orden no aprobada. En este ejemplo, el recibo se publica, incluso si la Orden de Compra no está aprobada.
@@ -82,7 +82,7 @@ En este ejemplo, un usuario que no tiene permiso como EX ACCOUNTANT o EX ADMIN, 
 **Enviar Correo Electrónico para Orden/Cotización Aprobada** <br/>
 Cuando esta configuración está habilitada, enviará una notificación de Orden o Cotización Aprobada cuando el documento esté aprobado.
 
-Lea más sobre esto en la sección [***Orden/Cotización Aprobada***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
+Lea más sobre esto en la sección [***Orden/Cotización Aprobada***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
 
 ### Crear Cotización de Compra u Orden de Compra para Aprobación
 

@@ -10,7 +10,7 @@ Ir a: ***Configuración \--\> Configuración Manual de ExFlow \--\> Contratos de
 
 El Contrato de ExFlow se puede usar para llevar un registro de las facturas recibidas y faltantes para los Contratos y también puede aprobar automáticamente las facturas coincidentes. Comience creando un nuevo Contrato haciendo clic en "Nuevo".
 
-Para configurar y aprobar Contratos, lea más en la sección [***Aprobación OMNI***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/omni-approval).
+Para configurar y aprobar Contratos, lea más en la sección [***Aprobación OMNI***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/omni-approval).
 
 ### General
 En esta sección, agregue información general para este contrato específico, Proveedor, Flujo de Aprobación y Codificación.
@@ -42,7 +42,7 @@ Bajo Términos Generales, agregue totales para este contrato específico.
 
 |Términos Generales|  |
 |:-|:-|
-| **Válido desde Fecha y Válido hasta Fecha**: | Términos del contrato<br/> Si se crean Periodos de Facturación, la Fecha de Válido hasta se puede usar para extender los Periodos de Facturación<br/> Lea más abajo en la sección [***Periodos de Facturación***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#extend-contract-with-invoice-periods)
+| **Válido desde Fecha y Válido hasta Fecha**: | Términos del contrato<br/> Si se crean Periodos de Facturación, la Fecha de Válido hasta se puede usar para extender los Periodos de Facturación<br/> Lea más abajo en la sección [***Periodos de Facturación***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#extend-contract-with-invoice-periods)
 | **Código de Moneda**:                        | El Código de Moneda que se utilizará al facturar el contrato
 | **Monto Total del Contrato (Moneda Neta)**:  | Especifica el monto total del contrato incluyendo tolerancias.
 
@@ -95,7 +95,7 @@ Las Tolerancias y el Código de Términos de Pago se copiarán de la Periodicida
 
 ![Periodos de Factura del Contrato de ExFlow](@site/static/img/media/contract-invoice-periods-002.png)
 
-Para ver los totales facturados, consulte [***FactBox --> Detalles --> Estadísticas del Contrato de Compra***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#factbox--details--purchase-contract-statistic) a continuación.
+Para ver los totales facturados, consulte [***FactBox --> Detalles --> Estadísticas del Contrato de Compra***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#factbox--details--purchase-contract-statistic) a continuación.
 
 ### Extender Contrato con periodos de factura
 Para extender un contrato que contiene periodos, agregue una nueva "Fecha Válida Hasta" en Términos Generales y actualice los valores que se copian de la Periodicidad.
@@ -104,11 +104,11 @@ Para extender un contrato que contiene periodos, agregue una nueva "Fecha Válid
 
 ### Recordatorio de Factura
 Hay una función para enviar recordatorios para contratos que tienen periodos de factura y Configuración de Correo Electrónico de ExFlow.
-Lea más en la sección [***Recordatorios por Correo Electrónico --> Recordatorio de Factura de Contrato***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#contract-invoice-reminder)
+Lea más en la sección [***Recordatorios por Correo Electrónico --> Recordatorio de Factura de Contrato***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#contract-invoice-reminder)
 
 |Recordatorio de Factura |  |
 |:-|:-|
-| **Enviar Recordatorio**:            | Active para enviar Recordatorio por Correo Electrónico o Notificaciones. Para poder enviar correos electrónicos y/o Notificaciones de BC, el Usuario de ExFlow necesita tener acceso a Correo Electrónico/Notificaciones para Recordatorio de Factura de Contrato.<br/> Lea más en la sección [***Usuario de ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
+| **Enviar Recordatorio**:            | Active para enviar Recordatorio por Correo Electrónico o Notificaciones. Para poder enviar correos electrónicos y/o Notificaciones de BC, el Usuario de ExFlow necesita tener acceso a Correo Electrónico/Notificaciones para Recordatorio de Factura de Contrato.<br/> Lea más en la sección [***Usuario de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
 | **Grupos de Aprobación**:          | Agregue Grupos de Aprobación para este contrato específico. Si no hay ninguno, los recordatorios se envían a "Grupos de Aprobación" en la Configuración de Correo Electrónico de ExFlow
 | **Periodo de Recordatorio de Factura**:  | Use la fórmula de fecha estándar calculada en la Fecha de Inicio del Periodo para especificar cuándo la factura está atrasada
 | **Direcciones de Correo Electrónico Fijas**:    | Para enviar recordatorios a usuarios fuera de ExFlow para este contrato específico. Si no hay ninguno, los recordatorios se envían a "Direcciones de Correo Electrónico Fijas" en la Configuración de Correo Electrónico de ExFlow
@@ -149,7 +149,7 @@ Use esta función para crear una Factura de Autoliquidación solo para el contra
 
 ![Crear Factura de Autoliquidación del Contrato de ExFlow](@site/static/img/media/contract-menu-actions-001.png)
 
-Esto también se puede hacer automáticamente usando una cola de trabajos. Lea más en la sección [***Configuración de Contrato de Autoliquidación***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
+Esto también se puede hacer automáticamente usando una cola de trabajos. Lea más en la sección [***Configuración de Contrato de Autoliquidación***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
 
 ### Función - Copiar Contrato
 Use esta función para copiar el contenido de un contrato existente a un nuevo contrato creado.<br/>
@@ -271,10 +271,10 @@ Agregue Periodos de Factura manualmente o utilizando la función Crear Periodos 
 ![Periodos de Factura del Contrato de ExFlow](@site/static/img/media/contract-invoice-periods-001.png)
 
 #### Crear Facturas de Autoliquidación Automáticamente
-Lea más en la sección [***Configuración del Contrato de Autoliquidación***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
+Lea más en la sección [***Configuración del Contrato de Autoliquidación***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#self-billing-contract-setup)
 
 #### Crear Facturas de Autoliquidación Manualmente
-Lea más en la sección [***Crear Factura de Autoliquidación***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#function---actions--create-self-billing-invoice)
+Lea más en la sección [***Crear Factura de Autoliquidación***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#function---actions--create-self-billing-invoice)
 
 <br/>
 

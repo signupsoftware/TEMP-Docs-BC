@@ -64,4 +64,4 @@ Add requested coding for the cost account (NO VAT = Without VAT in VAT Prod post
 
 Please be informed, If VAT lines always should be sent out for approval, the function ''Approve VAT lines'' can be utilized.
 
-Read more about this under section [***Approve VAT Lines.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)
+Read more about this under section [***Approve VAT Lines.***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approve-vat-lines)

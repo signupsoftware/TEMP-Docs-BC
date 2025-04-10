@@ -90,4 +90,4 @@ It is possible to make Tax related fields visible in ExFlow Web by adding the co
 
 ![ExFlow Web Columns](@site/static/img/media/tax-web-columns-001.png)
 
-Read more about how to edit web columns under section [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
+Read more about how to edit web columns under section [***ExFlow Web.***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#exflow-web)

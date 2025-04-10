@@ -25,7 +25,7 @@ Gehen Sie zu: ***Setup --> ExFlow-Setup --> Eskalation***
 
 |Eskalation||
 |:-|:-|	
-|**Tage vor der Eskalation**| 	Berechnet ab dem Zeitpunkt, an dem der Benutzer das Dokument zur Genehmigung erhalten hat. <br/><br/> ("Datum der Statusänderung" auf "Genehmiger der Belegposition" in "Genehmigungsstatus.<br/> Das Serverdatum setzt das "Statusänderungsdatum".) <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Eskalation***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-groups#escalation)
+|**Tage vor der Eskalation**| 	Berechnet ab dem Zeitpunkt, an dem der Benutzer das Dokument zur Genehmigung erhalten hat. <br/><br/> ("Datum der Statusänderung" auf "Genehmiger der Belegposition" in "Genehmigungsstatus.<br/> Das Serverdatum setzt das "Statusänderungsdatum".) <br/><br/> Lesen Sie mehr dazu im Abschnitt [***Eskalation***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-groups#escalation)
 |**Leitender Angestellter**| 	Benutzer, der alle überfälligen Rechnungen erhält. Der vorgesetzte Genehmiger muss über die gleiche oder eine höhere Berechtigung verfügen, da die Berechtigung in ExFlow nicht geerbt wird.
 |**Basis-Kalendercode**| 	Gibt den Basiskalendercode an, der für die Berechnung der Arbeitstage bei einer Eskalation verwendet werden soll. Wenn kein Basiskalender hinzugefügt wird, werden Samstag und Sonntag nicht berücksichtigt.
 |**Eskalationstext**| 	Gibt den Text an, der für eskalierte Genehmigerpositionen verwendet werden soll. Interne Informationen werden in den Kommentaren eingetragen.
@@ -130,11 +130,11 @@ Diese Funktion kann auch unter ExFlow Benutzer gefunden werden.
 
 Informationen zu Rechnungen, die an Kunden gesendet werden sollen, finden Sie in ExFlow Re-Invoicing-Einträge.
 
-Lesen Sie mehr darüber im Abschnitt [***Re-Invoicing.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing)
+Lesen Sie mehr darüber im Abschnitt [***Re-Invoicing.***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing)
 
 ### Automatische Kodierungsvorschläge
 
 Um den automatischen Kodierungsvorschlag anzuwenden, ist es erforderlich, die Funktionen ExFlow Kodierungs-IDs für Kodierungsvorschläge und ExFlow Erstellung automatischer Kodierungsvorschläge auszuführen.
 
-![Periodische Aktivitäten - Automatische Kodierungsvorschläge](../../images/exflow-menu-005-periodic-activities.png) <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Automatische Kodierungsvorschlag-Einrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
+![Periodische Aktivitäten - Automatische Kodierungsvorschläge](../../images/exflow-menu-005-periodic-activities.png) <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Automatische Kodierungsvorschlag-Einrichtung***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
 

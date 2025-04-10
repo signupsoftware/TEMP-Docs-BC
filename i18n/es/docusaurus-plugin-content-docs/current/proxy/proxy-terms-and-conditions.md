@@ -8,5 +8,5 @@ custom_edit_url: null
 <iframe className="doc-iframe" title="SignUpDocs" src="https://google.com"></iframe>
 </div>
 <!--
-<iframe className="doc-iframe" title="SignUpDocs" src="https://docs.exflow.cloud/proxy-agreements.html"></iframe>
+<iframe className="doc-iframe" title="SignUpDocs" src="https://docs.signupsoftware.com/proxy-agreements.html"></iframe>
 -->

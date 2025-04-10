@@ -63,6 +63,6 @@ Agregue la codificación solicitada para la cuenta de costos (SIN IVA = Sin IVA 
 
 Tenga en cuenta que, si las líneas de IVA siempre deben enviarse para aprobación, se puede utilizar la función ''Aprobar líneas de IVA''.
 
-Lea más sobre esto en la sección [***Aprobar Líneas de IVA.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines)
+Lea más sobre esto en la sección [***Aprobar Líneas de IVA.***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approve-vat-lines)
 
 
