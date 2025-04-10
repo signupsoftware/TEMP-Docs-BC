@@ -377,19 +377,19 @@
     "description": "desription of link"
   },
   "PROXY-LINK-EXFLOW-SALES-ORDER": {
-    "message": "https://docs.exflow.cloud/so/es",
+    "message": "https://docs.signupsoftware.com/so/es",
     "description": "ExFlow Sales Order link"
   },
   "PROXY-LINK-EXFLOW-TRAVEL-EXPENSE": {
-    "message": "https://docs.exflow.cloud/tem/es",
+    "message": "https://docs.signupsoftware.com/tem/es",
     "description": "ExFlow Travel & Expense link"
   },
   "PROXY-LINK-EXFLOW-CO2": {
-    "message": "https://docs.exflow.cloud/co2/es",
+    "message": "https://docs.signupsoftware.com/co2/es",
     "description": "desription of link"
   },
   "PROXY-LINK-EXFLOW-CONTENT-GATE": {
-    "message": "https://docs.exflow.cloud/cg/es",
+    "message": "https://docs.signupsoftware.com/cg/es",
     "description": "ExFlow Content Gate link"
   }
 }
