@@ -69,7 +69,8 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-    url: 'https://docs.signupsoftware.com/user-manual/under-dev',
+    //url: 'https://docs.signupsoftware.com/user-manual/under-dev',
+    url: "https://docs.signupsoftware.com/datacapture/docs/user-manual/under-dev",
     index: 4,
     tag: 'data-capture'
   },
@@ -177,3 +178,4 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
