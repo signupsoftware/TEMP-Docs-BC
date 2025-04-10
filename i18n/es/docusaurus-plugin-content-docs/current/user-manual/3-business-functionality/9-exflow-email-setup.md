@@ -8,7 +8,7 @@ custom_edit_url: null
  
 Ir a: **Configuración de Correo Electrónico de ExFlow**
 
-Para enviar recordatorios por correo electrónico, se necesita la Configuración de Correo Electrónico de ExFlow para cada Tipo de Correo Electrónico. Los recordatorios por correo electrónico se pueden enviar manualmente o agregando una cola de trabajos. Para la configuración, lea más en la sección [***Recordatorios por Correo Electrónico.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#email-reminders)
+Para enviar recordatorios por correo electrónico, se necesita la Configuración de Correo Electrónico de ExFlow para cada Tipo de Correo Electrónico. Los recordatorios por correo electrónico se pueden enviar manualmente o agregando una cola de trabajos. Para la configuración, lea más en la sección [***Recordatorios por Correo Electrónico.***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#email-reminders)
 
 Tenga en cuenta que se debe configurar una Cuenta de Correo Electrónico estándar de Business Central para poder recibir correos electrónicos de ExFlow. Puede encontrar más información sobre esto en [***Documentación de Microsoft***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email). Para obtener asistencia sobre esto, comuníquese con su socio de implementación de confianza de Dynamics 365 Business Central.
 
@@ -47,7 +47,7 @@ Se pueden agregar destinatarios en todos, uno o varios campos para enviar record
 
 ### Recordatorio de Bandeja de Entrada
 Enviar recordatorios de que los aprobadores tienen documentos para aprobar.<br/>
-Esta configuración también se puede agregar automáticamente al ejecutar el [***Asistente de Inicio***](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started)<br/><br/>
+Esta configuración también se puede agregar automáticamente al ejecutar el [***Asistente de Inicio***](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started)<br/><br/>
 
 | General |  |
 |:-|:-|

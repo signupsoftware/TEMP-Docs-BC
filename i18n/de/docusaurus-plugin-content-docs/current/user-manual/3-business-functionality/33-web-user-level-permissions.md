@@ -38,5 +38,5 @@ Wenn Änderungen an den Berechtigungen vorgenommen werden müssen, z.B. um die K
 
 ![web user permissions](../../images/exflow-web-user-level-permissions-002.png)
 
-Lesen Sie mehr darüber, wie Sie Web-Berechtigungen verwalten und auf ExFlow-Benutzer anwenden, im Abschnitt [***Unternehmenszugriff und Web-Berechtigungsrolle unter Berechtigungen hinzufügen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-company-access-and-web-permission-role-under-permissions)
+Lesen Sie mehr darüber, wie Sie Web-Berechtigungen verwalten und auf ExFlow-Benutzer anwenden, im Abschnitt [***Unternehmenszugriff und Web-Berechtigungsrolle unter Berechtigungen hinzufügen***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-company-access-and-web-permission-role-under-permissions)
 

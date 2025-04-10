@@ -461,7 +461,7 @@ La propuesta de aprobación en el diario de importación da un mensaje de error 
 |27355| Usuarios|                  Seleccionar y crear múltiples usuarios de ExFlow desde la lista de usuarios de BC.
 |29858| Referencias|             Se ha añadido una nueva opción para crear automáticamente una referencia para nuevos usuarios de ExFlow en la configuración de ExFlow. Desde las listas de usuarios de ExFlow, también puede crear referencias por lotes para todos los usuarios existentes de ExFlow.
 |30309| Coincidencia de PO|            Posibilidad de especificar tipos de líneas que pueden ser recibidas e facturadas automáticamente por ExFlow, en la configuración de ExFlow
-|30666| General|                Las descripciones emergentes de las páginas más utilizadas ahora están vinculadas directamente a las secciones relevantes en el manual del usuario en docs.exflow.cloud
+|30666| General|                Las descripciones emergentes de las páginas más utilizadas ahora están vinculadas directamente a las secciones relevantes en el manual del usuario en docs.signupsoftware.com
 |31703| Coincidencia de Contratos|      Razón para la aprobación manual de una factura emparejada con contrato añadida al documento en ExFlow web.
 |27693| Codificación Automática|            El proveedor se añadió a la agrupación para Sugerencias de Codificación Automática.
 |29371| Búsqueda|                 Ahora es posible buscar por nombre del proveedor Y número del proveedor buscando 'Proveedor' en ExFlow web.

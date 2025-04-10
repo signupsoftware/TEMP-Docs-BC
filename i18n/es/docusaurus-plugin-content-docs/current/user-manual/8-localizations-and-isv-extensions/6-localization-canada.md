@@ -78,4 +78,4 @@ Es posible hacer visibles los campos relacionados con impuestos en ExFlow Web ag
 
 ![Columnas de ExFlow Web](@site/static/img/media/tax-web-columns-001.png)
 
-Lea más sobre cómo editar columnas web en la sección [***ExFlow Web.***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#exflow-web)
+Lea más sobre cómo editar columnas web en la sección [***ExFlow Web.***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#exflow-web)

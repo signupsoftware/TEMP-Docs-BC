@@ -30,7 +30,7 @@ La lista de resultados mostrará todos los documentos con la referencia conectad
 
 ![Buscar Documentos de ExFlow](@site/static/img/media/search-documents-004.png)
 
-Lea más en la sección [***Códigos de Referencia***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) para aprender más sobre cómo crear y usar Referencias de ExFlow.
+Lea más en la sección [***Códigos de Referencia***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) para aprender más sobre cómo crear y usar Referencias de ExFlow.
 
 ### Opción "Columnas de Búsqueda"
 
@@ -49,6 +49,6 @@ El resultado mostrará todos los documentos con esta combinación dentro de la e
 ### Ver Monto Restante en Buscar Documentos de ExFlow
 
 Cuando los resultados de la búsqueda están filtrados, también es posible ver si los documentos publicados están pagados o no. Esto se puede hacer agregando la columna "Monto Restante" a los resultados filtrados a través de "Personalizar". <br/>
-Lea más sobre esto en la sección [***Historial de Estado de Aprobación de ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/document-history#approval-status-history)
+Lea más sobre esto en la sección [***Historial de Estado de Aprobación de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/document-history#approval-status-history)
 
 ![Buscar Documentos de ExFlow - Monto Restante](@site/static/img/media/search-documents-007.png)

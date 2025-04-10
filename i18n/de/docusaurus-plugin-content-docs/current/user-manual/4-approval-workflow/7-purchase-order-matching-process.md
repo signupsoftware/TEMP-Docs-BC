@@ -269,7 +269,7 @@ Richten Sie eine Artikelnummer-Abgleichspriorität ein, um die Reihenfolge des A
 Verwenden Sie die Schaltflächen "Nach oben" und "Nach unten", um Abgleichstypen in der Liste nach oben oder unten zu verschieben.
 Je höher ein Abgleichstyp platziert ist, desto höher ist seine Priorität im Abgleichsprozess.
 
-Diese Funktion kann auch pro Lieferant unter [***Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup) durchgeführt werden.
+Diese Funktion kann auch pro Lieferant unter [***Vendor Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup) durchgeführt werden.
 
 
 ## ExFlow Web
@@ -284,7 +284,7 @@ Später können Benutzer im Genehmigungsstatus die Seite personalisieren und die
 
 Wenn ExFlow-Benutzer diese PO-abgeglichene Rechnung zur Genehmigung in ExFlow Web erhalten, können sie auch über die Abweichung auf Zeilenebene durch die Webspalte ''Reason Check'' informiert werden.
 
-Um diese Spalte zu ExFlow Web hinzuzufügen, gehen Sie einfach zu ExFlow Setup und klicken Sie auf ''[***Edit Web Columns***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'', um die Webspalte Reason Check hinzuzufügen.
+Um diese Spalte zu ExFlow Web hinzuzufügen, gehen Sie einfach zu ExFlow Setup und klicken Sie auf ''[***Edit Web Columns***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)'', um die Webspalte Reason Check hinzuzufügen.
 
 ![Reason Check](../../images/exflow-web-reason-check-002.png)
 

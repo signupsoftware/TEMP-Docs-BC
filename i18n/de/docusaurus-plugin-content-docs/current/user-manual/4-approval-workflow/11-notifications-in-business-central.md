@@ -5,7 +5,7 @@ hide_title: true
 custom_edit_url: null
 ---
 ## Benachrichtigungen in Business Central
-Wenn der ExFlow-Benutzer ein Systembenutzer ist (mit einem Benutzer in Business Central verknüpft), können Benachrichtigungen in Business Central aktiviert werden. Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) zur Einrichtung.
+Wenn der ExFlow-Benutzer ein Systembenutzer ist (mit einem Benutzer in Business Central verknüpft), können Benachrichtigungen in Business Central aktiviert werden. Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) zur Einrichtung.
 
 Es gibt vier Arten von Benachrichtigungen: Ungeprüfte Dokumente im aktiven Unternehmen, ungeprüfte Dokumente in anderen Unternehmen, ungelesene Kommentare und fehlende Rechnungen für Vertragszeiträume.
 <br/>
@@ -27,7 +27,7 @@ Dies zeigt dem Benutzer eine Liste, die der folgenden ähnelt:
 
 Klicken Sie auf die Zahl rechts, um eine neue Seite zu öffnen, auf der der Benutzer die Dokumente im ausgewählten Unternehmen genehmigen kann.
 
-Lesen Sie mehr darüber im Abschnitt [***Genehmigung in Business Central.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/approval-in-business-central#approval-in-business-central)<br/><br/>
+Lesen Sie mehr darüber im Abschnitt [***Genehmigung in Business Central.***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/approval-in-business-central#approval-in-business-central)<br/><br/>
 
 ### Diskussionspanel / Chat und Zeilenkommentare
 
@@ -41,7 +41,7 @@ Verwenden Sie @ und "ExFlow-Benutzercode", um einen Genehmiger zu markieren. Der
 
 Es ist möglich, eine Benachrichtigung und/oder E-Mail an den markierten Genehmiger zu senden, aber dafür ist eine Einrichtung erforderlich.
 
-Für einen ExFlow-Benutzer (verbunden mit einem "Systembenutzer") können Benachrichtigungen in Business Central aktiviert werden. Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) zur Einrichtung.
+Für einen ExFlow-Benutzer (verbunden mit einem "Systembenutzer") können Benachrichtigungen in Business Central aktiviert werden. Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually) zur Einrichtung.
 
 Wenn der Benutzer Kommentare im aktuellen Unternehmen lesen muss, klicken Sie auf den Link "Kommentar lesen":
 
@@ -117,7 +117,7 @@ Wenn ein Benutzer mit @ erwähnt wird, kann eine Nachricht, E-Mail oder Benachri
 
 Für ExFlow-Benutzer, die keinem Business Central-Benutzer zugeordnet sind, wird die E-Mail gesendet, wenn das Dokument erstellt wird. Dies liegt daran, dass ExFlow-Webbenutzer diese Dokumente oder Kommentare im Import Journal nicht sehen können.
 
-Lesen Sie mehr im Abschnitt [***ExFlow Users.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
+Lesen Sie mehr im Abschnitt [***ExFlow Users.***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-new-user-manually)
 
 ![ExFlow Import Journal - Discussion Panel](../../images/image350.png)
 

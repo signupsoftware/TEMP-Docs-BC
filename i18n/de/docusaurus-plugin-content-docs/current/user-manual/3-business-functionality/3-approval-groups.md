@@ -33,7 +33,7 @@ Es ist möglich, Genehmiger automatisch abhängig von verschiedenen Codierungen 
 
 | Dynamischer Genehmigungstyp   |   |
 |:-|:-|
-| **Dynamischer Genehmigungstyp:**          | Dieses Feld enthält mehrere Optionen, die für verschiedene dynamische Genehmigungsflüsse verwendet werden können. Alle Optionen erfordern eine einzigartige Einrichtung und wenn ausgewählt, ist es nicht möglich, Genehmigungsgruppenmitglieder hinzuzufügen   <br/> Lesen Sie mehr über die Einrichtung und die Optionen für dynamische Genehmigungsflüsse für Dimensionen, Projekte und Einkäufer im Abschnitt [***Genehmigungsregeln --> Dynamischer Genehmigungsfluss für Dimensionseigentümer,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Projekte,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects) oder [***Einkäufer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers)
+| **Dynamischer Genehmigungstyp:**          | Dieses Feld enthält mehrere Optionen, die für verschiedene dynamische Genehmigungsflüsse verwendet werden können. Alle Optionen erfordern eine einzigartige Einrichtung und wenn ausgewählt, ist es nicht möglich, Genehmigungsgruppenmitglieder hinzuzufügen   <br/> Lesen Sie mehr über die Einrichtung und die Optionen für dynamische Genehmigungsflüsse für Dimensionen, Projekte und Einkäufer im Abschnitt [***Genehmigungsregeln --> Dynamischer Genehmigungsfluss für Dimensionseigentümer,***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Projekte,***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects) oder [***Einkäufer***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers)
 | **Von der Benutzerliste im Web ausschließen:** | Wird automatisch ausgewählt, da diese Genehmigungsgruppe nicht manuell von ExFlow Web hinzugefügt werden sollte
 | **Genehmigungsgruppenmitglieder:**         | Es sollten keine ExFlow-Benutzer zu Genehmigungsgruppenmitgliedern hinzugefügt werden
 
@@ -45,7 +45,7 @@ Wenn ein Genehmiger Dokumente nicht rechtzeitig genehmigt, gibt es eine Funktion
 
 Der Manager kann für alle Genehmiger in der ExFlow-Einrichtung oder pro Genehmigungsgruppe hinzugefügt werden und den Job manuell oder automatisch mit der Job-Warteschlange ausführen.
 
-Lesen Sie mehr über die Einrichtung und wie Sie die Job-Warteschlange einrichten im Abschnitt [***Genehmigungsworkflow --> Periodische Aktivitäten --> Eskalationsjob***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/periodic-activities#escalation-job)
+Lesen Sie mehr über die Einrichtung und wie Sie die Job-Warteschlange einrichten im Abschnitt [***Genehmigungsworkflow --> Periodische Aktivitäten --> Eskalationsjob***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/periodic-activities#escalation-job)
 
 | Eskalation   |   |
 |:-|:-|
@@ -58,7 +58,7 @@ Es ist möglich, mehrere Genehmiger in einer Genehmigungsgruppe hinzuzufügen. N
 
 | Genehmigungsgruppenmitglieder   |   |
 |:-|:-|
-| **Start- und Enddatum:**        | Wird verwendet, wenn ein Genehmiger vorübergehend einen anderen Genehmiger ersetzt. Verwenden Sie die Funktion, um Vertreter von ExFlow Web, Vertreter zuweisen oder von der ExFlow-Benutzerkarte hinzuzufügen            <br/> Lesen Sie mehr im Abschnitt [***Business Functionality --> ExFlow Benutzer --> Einen Vertreter während der Urlaubszeit hinzufügen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time) und [***Genehmigungsworkflow --> Periodische Aktivitäten --> Vertreter zuweisen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/periodic-activities#assign-replacers)
+| **Start- und Enddatum:**        | Wird verwendet, wenn ein Genehmiger vorübergehend einen anderen Genehmiger ersetzt. Verwenden Sie die Funktion, um Vertreter von ExFlow Web, Vertreter zuweisen oder von der ExFlow-Benutzerkarte hinzuzufügen            <br/> Lesen Sie mehr im Abschnitt [***Business Functionality --> ExFlow Benutzer --> Einen Vertreter während der Urlaubszeit hinzufügen***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time) und [***Genehmigungsworkflow --> Periodische Aktivitäten --> Vertreter zuweisen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/periodic-activities#assign-replacers)
 
 ![Genehmigungsgruppenmitglieder](../../images/approval-group-003-lines.png)
 

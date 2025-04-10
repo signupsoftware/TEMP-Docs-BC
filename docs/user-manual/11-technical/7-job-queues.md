@@ -10,7 +10,7 @@ Configure Job Queues in Business Central to fully utilize the capabilities of Ex
 
 Read more about [***Job queues***](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-job-queue) and how to [***Use job queues to schedule tasks***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-job-queues-schedule-tasks) on the Microsoft Documentation page.<br/>
 
-Additionally, it is encouraged to explore [***ExFlow Email Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup) and [***Email Reminders***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders) for further information.
+Additionally, it is encouraged to explore [***ExFlow Email Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup) and [***Email Reminders***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders) for further information.
 
 It is optional to assign the Job Queue Category Code *EXFLOW* on the Job Entry Card.<br/> 
 

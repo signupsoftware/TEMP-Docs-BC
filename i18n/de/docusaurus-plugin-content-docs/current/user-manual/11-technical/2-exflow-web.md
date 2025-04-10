@@ -10,7 +10,7 @@ custom_edit_url: null
 <br/>
 Interessiert daran, alles über ExFlow Web zu lesen und zu lernen? <br/> <br/>  
 
-[***Alle notwendigen Informationen über ExFlow Web finden Sie hier!***](https://docs.exflow.cloud/web) <br/><br/> 
+[***Alle notwendigen Informationen über ExFlow Web finden Sie hier!***](https://docs.signupsoftware.com/web) <br/><br/> 
 
 ### Web-Spalten in Business Central bearbeiten
 Verwenden Sie die Funktion **Web-Spalten bearbeiten**, um ExFlow Web-Spalten zu verwalten. <br/>

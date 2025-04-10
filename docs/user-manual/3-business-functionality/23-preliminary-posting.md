@@ -28,7 +28,7 @@ To be able to do preliminary posting ExFlow need following journals and Inward R
 | **General Journal Template:**     | Use Existing or create a new
 | **General Journal Batch:**        | Use Existing or create a new
 | **On Hold:**                      | 1-3 letters that will be added in Vendor Ledger Entries to avoid payments on Preliminary Posted documents that are not yet approved. Default value when running ExFlow Wizard will be **EXF**, but it can be changed if needed.
-| **Invoice Rounding:**             | If SweBase (for Swedish customers) is installed Invoice Rounding is visible and used only for Preliminary Posting     <br/>If SweBase is not installed, it will be visible under Doc. Posting Checks and used both for Preliminary Posting and Posting. Invoice Rounding is not required.  <br/>For more information go to section [***Invoice Rounding below***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#invoice-rounding)
+| **Invoice Rounding:**             | If SweBase (for Swedish customers) is installed Invoice Rounding is visible and used only for Preliminary Posting     <br/>If SweBase is not installed, it will be visible under Doc. Posting Checks and used both for Preliminary Posting and Posting. Invoice Rounding is not required.  <br/>For more information go to section [***Invoice Rounding below***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#invoice-rounding)
 | **Posting Description:**          | Description when Posting  <br/>Default value when running ExFlow Wizard will be **Preliminary Posted**, but it can be changed if needed
 | **Reverse Description:**          | Description when Reversing.   <br/>Default value when running ExFlow Wizard will be **Preliminary Reversed**, but it can be changed if needed
 | **VAT Prod. Posting Group 0%:**   | Add VAT Prod. Posting Group with 0% to preliminary post without VAT instead of VAT Prod. Posting Group added on document line. This posting will be reversed and VAT posting gets posted with VAT Prod. Posting Group added to invoice only on final posting. 
@@ -56,7 +56,7 @@ After closing Preliminary Posting page, you will receive a question if there are
 
 When choosing to preliminary post all documents in Approval Status, there can be error messages. Go to Approval Status and correct the error and Preliminary Post manually per document.
 
-Read more under section [***Approval Status***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#approval-status)
+Read more under section [***Approval Status***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/preliminary-posting#approval-status)
 
 ![There are documents not yet Preliminary Posted.](@site/static/img/media/documents-not-yet-preliminary-posted-001.png)
 

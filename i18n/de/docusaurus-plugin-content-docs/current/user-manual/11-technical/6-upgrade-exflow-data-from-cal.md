@@ -8,7 +8,7 @@ custom_edit_url: null
 
 <br/> 
 
-Fühlen Sie sich frei, die Dokumente herunterzuladen und zu lesen, bevor Sie beginnen:<br/>  [***Technische Dokumente herunterladen***](https://docs.exflow.cloud/business-central/docs/user-manual/help-and-support/documents-for%20download#documents-for-download) <br/>
+Fühlen Sie sich frei, die Dokumente herunterzuladen und zu lesen, bevor Sie beginnen:<br/>  [***Technische Dokumente herunterladen***](https://docs.signupsoftware.com/business-central/docs/user-manual/help-and-support/documents-for%20download#documents-for-download) <br/>
 
 ### Einführung
 #### Hintergrund

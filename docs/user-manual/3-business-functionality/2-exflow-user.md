@@ -35,8 +35,8 @@ One of the settings is “Default User Coding Rule ID”. It makes the setup of 
 |**Default Reader Role ID**| Specifies the default security role that is used when creating new approvers
 |**Default Web Service Role ID**| Specifies the default security role that is used when creating new approvers
 |**Default Purchaser Role ID**| Specifies the default security role that is used when creating new approvers
-| **Automatically Create ExFlow Reference:**    | Select to automatically create ExFlow References. <br/> Read more under section [***Reference Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
-|**Default Confidential Role ID**| Specifies the default security role that is used when creating new approvers <br/> <br/> Read more about permissions under section [***Permissions on a Business Central user***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#permissions-on-a-business-central-user) 
+| **Automatically Create ExFlow Reference:**    | Select to automatically create ExFlow References. <br/> Read more under section [***Reference Codes***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/reference-codes)
+|**Default Confidential Role ID**| Specifies the default security role that is used when creating new approvers <br/> <br/> Read more about permissions under section [***Permissions on a Business Central user***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#permissions-on-a-business-central-user) 
 
 <br/>
 
@@ -71,7 +71,7 @@ Go To: ***Setup --> ExFlow Manual Setup --> ExFlow Users --> New***
 | **System User Name:**             | Connected System User.
 | **Previous System User Name:**    | If connected System User is changed, this field will show previous value
 | **Time Zone:**    | Shows the time zone of the user to present timestamp in the local time
-| **Blocked:**                      | This will show if Approver is blocked in all companies <br/>Read more under section [***Approver Leaving the Company***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
+| **Blocked:**                      | This will show if Approver is blocked in all companies <br/>Read more under section [***Approver Leaving the Company***.](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
 
 
 
@@ -96,7 +96,7 @@ If the ExFlow User is a System User, notifications can be added in Business Cent
 
 
 
-Learn more about Notifications under section [***Approval Workflow --> Notifications in Business Central.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#notifications-in-business-central)
+Learn more about Notifications under section [***Approval Workflow --> Notifications in Business Central.***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#notifications-in-business-central)
 
 
 <br/><br/>
@@ -108,15 +108,15 @@ Learn more about Notifications under section [***Approval Workflow --> Notificat
 | Permissions|  |
 |:-|:-|
 | **Company Name:**             | Add company from list that user should have access to. To be able to tag an approver the user needs to have access to the company document is created in
-| **Web Permission Role:**      | All ExFlow Users need a Web User Right Level for ExFlow Web   <br/> Permission set on the ExFlow user is for web permission only   <br/>ExFlow User that should administrate documents in ExFlow needs to be a System User to be able to open ExFlow Pages.     <br/><br/>Read more below how to [***Create a System User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)    <br/><br/>**Approver:** <br/>Approver can Approve, Reject, or set a document On Hold      <br/>The approver has only access to documents where approver is included in approval flow. No changes are allowed<br/><br/>**Approver (Power):** <br/>Same permission as Approver. Add and Forward to other Approver. Adding or changing in coding is allowed i.e., G/L Account or Dimensions       <br/><br/>**Approver (Super):** <br/>Same permission as Power User. See all approved documents in ExFlow History       <br/><br/> **Admin:** <br/>Admin permission in ExFlow Web. This user can do settings that applies for all Approvers in ExFlow Web.      <br/><br/> Read more about this under section [***Web User Level Permissions***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/web-user-level-permissions)
-| **User Coding Rule ID:**              | If an Approver should be able to do changes in coding on document line in ExFlow Web, ExFlow User Coding Rules can be used to decide/restrict what values he/she can select. All Approvers need a Coding Rule         <br/>Read more about this under section [***Business Functionality --> User Coding Rules***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/user-coding-rules#user-coding-rules)
-| **Related Resource No.:**             | It is possible to connect a Resource with an ExFlow user, to add a specific Approver automatically from "Person Responsible" on Project <br/>Read more under section [***Business Functionality --> Dynamic Approval Flow for Projects***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects)
+| **Web Permission Role:**      | All ExFlow Users need a Web User Right Level for ExFlow Web   <br/> Permission set on the ExFlow user is for web permission only   <br/>ExFlow User that should administrate documents in ExFlow needs to be a System User to be able to open ExFlow Pages.     <br/><br/>Read more below how to [***Create a System User***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)    <br/><br/>**Approver:** <br/>Approver can Approve, Reject, or set a document On Hold      <br/>The approver has only access to documents where approver is included in approval flow. No changes are allowed<br/><br/>**Approver (Power):** <br/>Same permission as Approver. Add and Forward to other Approver. Adding or changing in coding is allowed i.e., G/L Account or Dimensions       <br/><br/>**Approver (Super):** <br/>Same permission as Power User. See all approved documents in ExFlow History       <br/><br/> **Admin:** <br/>Admin permission in ExFlow Web. This user can do settings that applies for all Approvers in ExFlow Web.      <br/><br/> Read more about this under section [***Web User Level Permissions***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/web-user-level-permissions)
+| **User Coding Rule ID:**              | If an Approver should be able to do changes in coding on document line in ExFlow Web, ExFlow User Coding Rules can be used to decide/restrict what values he/she can select. All Approvers need a Coding Rule         <br/>Read more about this under section [***Business Functionality --> User Coding Rules***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/user-coding-rules#user-coding-rules)
+| **Related Resource No.:**             | It is possible to connect a Resource with an ExFlow user, to add a specific Approver automatically from "Person Responsible" on Project <br/>Read more under section [***Business Functionality --> Dynamic Approval Flow for Projects***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects)
 | **Related Purchaser Code:**           | Add Purchaser to send reminder if Purchase Receipts is missing. This also requires ExFlow Email Setup. Or to build the approval rule based on Purchaser
 | **Dimension Filter:**                 | Will extend the Approvers Permission to see history in Search on ExFlow Web <br/>Approver will be able to see all documents with this dimension value included
-| **Replaced by User:**                 | If Approver is blocked. Read more under [***Approver Leaving the Company***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
+| **Replaced by User:**                 | If Approver is blocked. Read more under [***Approver Leaving the Company***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
 | **Max Amount for Final Approval:**    | Specifies the max approval amount for the selected Approver. Only applicable when the User is the last approver in an approval flow
-| **Blocked:**                          | If Approver is blocked. Read more under [***Approver Leaving the Company***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
-|**Access to Confidential Documents**|  Specifies if the user have access to see Confidential Documents or not. Read more under [***Confidential Documents***.](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
+| **Blocked:**                          | If Approver is blocked. Read more under [***Approver Leaving the Company***.](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
+|**Access to Confidential Documents**|  Specifies if the user have access to see Confidential Documents or not. Read more under [***Confidential Documents***.](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
 
 <br/>
 

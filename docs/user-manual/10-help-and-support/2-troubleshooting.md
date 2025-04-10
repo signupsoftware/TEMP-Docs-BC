@@ -43,7 +43,7 @@ If the number is used before and this is correct, maybe a rent / insurance / sub
 
  Factory Vendor setting can be found on the **Vendor card --> Related--> ExFlow Vendor Setup.** 
  
- Read more about this under section [***ExFlow Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
+ Read more about this under section [***ExFlow Vendor Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 <br/>
 
 
@@ -67,7 +67,7 @@ Go to Purchase Order e.g., via "Order No.", make sure receipt has been done and 
 
 Go to Purchase Order e.g., via Order No., make sure receipt has been done and post the receipt.
 
-Learn more about the order process under section [***Purchase Order Matching Process***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#purchase-order-matching-process).
+Learn more about the order process under section [***Purchase Order Matching Process***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#purchase-order-matching-process).
 <br/>
 
 ### Vendor Related Messages

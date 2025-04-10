@@ -20,5 +20,5 @@ In case of usage of ExFlow Purchase Code on the header, the setting will be igno
 
 ![Approve VAT Lines](@site/static/img/media/exflow-setup-approval-vat-lines-002.png)
 
-The ''Propose VAT Lines'' functionality can be combined with ''Approve VAT Lines'' if separate VAT lines always should be created and included in the approval flow for all purchase documents. Read more about this function under [***Propose VAT Lines.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/propose-vat-lines)
+The ''Propose VAT Lines'' functionality can be combined with ''Approve VAT Lines'' if separate VAT lines always should be created and included in the approval flow for all purchase documents. Read more about this function under [***Propose VAT Lines.***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/propose-vat-lines)
 

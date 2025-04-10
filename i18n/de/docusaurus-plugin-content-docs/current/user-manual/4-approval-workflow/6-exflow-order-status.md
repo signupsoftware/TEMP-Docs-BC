@@ -48,7 +48,7 @@ Diese Einstellung ist relevant, wenn sowohl die Bestellgenehmigung als auch die 
 Verwenden Sie diese Option, um den Benutzer, der das Angebot oder die Bestellung erstellt, als Erstgenehmiger des Dokuments hinzuzufügen.<br/>
 Je nach ExFlow Setup kann der Erstgenehmiger als Filter in Genehmigungsregeln verwendet werden, um Genehmigungsabläufe für Angebote und Bestellungen zu erstellen. Der Erstgenehmiger kann auch ein tatsächlicher Genehmiger sein.
 
-Um diese Funktion zu nutzen, muss der Business Central Benutzer ein ExFlow Systembenutzer sein. Lesen Sie mehr im Abschnitt [***ExFlow Benutzer***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user).
+Um diese Funktion zu nutzen, muss der Business Central Benutzer ein ExFlow Systembenutzer sein. Lesen Sie mehr im Abschnitt [***ExFlow Benutzer***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user).
 
 **Rechnung im Importjournal blockieren, wenn Bestellung nicht genehmigt ist**<br/>
 Um eine Warnmeldung hinzuzufügen, wenn ein Dokument mit einer nicht genehmigten Bestellung abgeglichen wird. In diesem Beispiel wird der Wareneingang gebucht, auch wenn die Bestellung nicht genehmigt ist.
@@ -82,7 +82,7 @@ In diesem Beispiel verwendet ein Benutzer, der keine Berechtigung als EX ACCOUNT
 **E-Mail für genehmigte Bestellung/Angebot senden** <br/>
 Wenn diese Einstellung aktiviert ist, wird eine Benachrichtigung über die genehmigte Bestellung oder das Angebot gesendet, wenn das Dokument genehmigt wird.
 
-Lesen Sie mehr darüber im Abschnitt [***Genehmigte Bestellung/Angebot***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
+Lesen Sie mehr darüber im Abschnitt [***Genehmigte Bestellung/Angebot***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
 
 ### Erstellen Sie ein Angebot oder eine Bestellung zur Genehmigung
 

@@ -9,7 +9,7 @@
   },
   "link.item.label.ExFlow for FO": {
     "message": "ExFlow für FO",
-    "description": "The label of footer link with label=ExFlow for FO linking to https://docs.exflow.cloud/finance-operations"
+    "description": "The label of footer link with label=ExFlow for FO linking to https://docs.signupsoftware.com/finance-operations"
   },
   "link.item.label.ExFlow for BC": {
     "message": "ExFlow für BC",
@@ -17,7 +17,7 @@
   },
   "link.item.label.ExFlow Web": {
     "message": "ExFlow Web",
-    "description": "The label of footer link with label=ExFlow Web linking to https://docs.exflow.cloud/web"
+    "description": "The label of footer link with label=ExFlow Web linking to https://docs.signupsoftware.com/web"
   },
   "link.item.label.ExFlow support": {
     "message": "ExFlow-Support",

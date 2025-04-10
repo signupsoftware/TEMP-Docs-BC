@@ -8,7 +8,7 @@ custom_edit_url: null
 
 Gehe zu: **ExFlow E-Mail-Einrichtung**
 
-Um E-Mail-Erinnerungen zu senden, ist die ExFlow E-Mail-Einrichtung für jeden E-Mail-Typ erforderlich. E-Mail-Erinnerungen können manuell oder durch Hinzufügen einer Job-Warteschlange gesendet werden. Für die Einrichtung lesen Sie mehr im Abschnitt [***E-Mail-Erinnerungen.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#email-reminders)
+Um E-Mail-Erinnerungen zu senden, ist die ExFlow E-Mail-Einrichtung für jeden E-Mail-Typ erforderlich. E-Mail-Erinnerungen können manuell oder durch Hinzufügen einer Job-Warteschlange gesendet werden. Für die Einrichtung lesen Sie mehr im Abschnitt [***E-Mail-Erinnerungen.***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#email-reminders)
 
 Bitte beachten Sie, dass ein Standard-E-Mail-Konto von Business Central eingerichtet sein muss, um ExFlow-E-Mails empfangen zu können. Weitere Informationen hierzu finden Sie in der [***Microsoft-Dokumentation***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email). Für Unterstützung wenden Sie sich bitte an Ihren vertrauenswürdigen Dynamics 365 Business Central Implementierungspartner.
 
@@ -46,7 +46,7 @@ Empfänger können in allen, einem oder mehreren Feldern hinzugefügt werden, um
 
 ### Posteingangserinnerung
 Senden Sie Erinnerungen, dass Genehmiger Dokumente zur Genehmigung haben.<br/>
-Diese Einstellung kann auch automatisch beim Ausführen des [***Get Started Wizard***](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started) hinzugefügt werden.<br/><br/>
+Diese Einstellung kann auch automatisch beim Ausführen des [***Get Started Wizard***](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started) hinzugefügt werden.<br/><br/>
 
 | Allgemein |  |
 |:-|:-|

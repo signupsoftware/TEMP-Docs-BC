@@ -45,7 +45,7 @@ Al seleccionar un valor, la opción se activará automáticamente.
 | **Filtro de Valor de Dimensión 1:**     | Filtro: Elegir un Valor de Dimensión para el Código de Dimensión seleccionado
 | **Código de Dimensión 2:**             | Elegir un segundo Código de Dimensión
 | **Filtro de Valor de Dimensión 2:**     | Filtro: Elegir un Valor de Dimensión para el segundo Código de Dimensión seleccionado
-| **Filtro de Primer Aprobador:**        | Se puede agregar al documento al interpretar una referencia. <br/> Lea más en la sección [***Funcionalidad Empresarial --> Códigos de Referencia***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
+| **Filtro de Primer Aprobador:**        | Se puede agregar al documento al interpretar una referencia. <br/> Lea más en la sección [***Funcionalidad Empresarial --> Códigos de Referencia***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/reference-codes)
 | **Filtro de Proveedor:**                | Seleccionar uno o varios Números de Proveedor
 
 ![Filtros de Regla de Aprobación](@site/static/img/media/approval-rule-004-filters.png)
@@ -115,7 +115,7 @@ Se aplicarán nuevas Reglas de Aprobación si la codificación de la factura se 
 
 **Ejemplo para Regla de Aprobación Dinámica con Tipo de Aprobación Dinámica:**<br/>
 Si las Reglas de Aprobación están impulsadas por el Propietario de la Dimensión para el Departamento.
-Para la configuración, lea más en la sección [***Funcionalidad Empresarial --> Reglas de Aprobación --> Flujo de Aprobación Dinámica para Propietarios de Dimensiones***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) a continuación.
+Para la configuración, lea más en la sección [***Funcionalidad Empresarial --> Reglas de Aprobación --> Flujo de Aprobación Dinámica para Propietarios de Dimensiones***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) a continuación.
 
 La factura se codifica inicialmente con el Departamento "ADM" y se aplica la Regla de Aprobación para el Propietario de la Dimensión.
 
@@ -131,7 +131,7 @@ Las Reglas de Aprobación Dinámica no se aplicarán si la Regla de Aprobación 
 
 Cualquier aprobador adicional que se haya agregado manualmente a un documento no será reemplazado cuando ExFlow Web aplique una nueva Regla de Aprobación. Solo reemplazará a los usuarios que se hayan agregado automáticamente.
 
-Las Reglas de Aprobación también se pueden usar con Grupos de Aprobación basados en "Tipo de Aprobación Dinámica" como Propietarios de Dimensiones, Persona Responsable, etc. Para la configuración, lea más en la sección [***Reglas de Aprobación --> Flujo de Aprobación Dinámica para Propietarios de Dimensiones,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Proyectos,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects) o [***Compradores***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers) a continuación.
+Las Reglas de Aprobación también se pueden usar con Grupos de Aprobación basados en "Tipo de Aprobación Dinámica" como Propietarios de Dimensiones, Persona Responsable, etc. Para la configuración, lea más en la sección [***Reglas de Aprobación --> Flujo de Aprobación Dinámica para Propietarios de Dimensiones,***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Proyectos,***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects) o [***Compradores***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers) a continuación.
 
 La forma en que funciona esta funcionalidad es que ExFlow Web aplicará automáticamente Reglas de Aprobación mejor adaptadas si se identifican. Los aprobadores restantes de la Regla de Aprobación anterior serán eliminados y se agregarán nuevos aprobadores de la nueva Regla de Aprobación.
 
@@ -201,7 +201,7 @@ Ir a: ***Configuración --> Configuración Manual de ExFlow --> Configuración d
 
 Active "Proponer Siempre Nuevos Aprobadores" en la Configuración de ExFlow para crear un flujo de aprobación dinámico si se cambia la codificación en ExFlow Web.
 
-Lea más en la sección [***Funcionalidad Empresarial --> Reglas de Aprobación --> Proponer Siempre Nuevos Aprobadores***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#always-propose-new-approvers) arriba.
+Lea más en la sección [***Funcionalidad Empresarial --> Reglas de Aprobación --> Proponer Siempre Nuevos Aprobadores***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#always-propose-new-approvers) arriba.
 
 ![Configuración de ExFlow - Aprobación](@site/static/img/media/exflow-setup-approval-001.png)
 
@@ -234,7 +234,7 @@ Para trabajar con Persona Responsable agregada al flujo de aprobación, conecte 
 **Conectando Aprobadores a Gerente de Proyecto**<br/>
 Para trabajar con el Gerente de Proyecto agregado al flujo de aprobación, asegúrese de que el Usuario del Sistema de Business Central esté conectado a un Usuario de ExFlow.
 
-Lea más en la sección [***Funcionalidad Empresarial --> Usuario de ExFlow --> Crear un Usuario del Sistema***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)
+Lea más en la sección [***Funcionalidad Empresarial --> Usuario de ExFlow --> Crear un Usuario del Sistema***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)
 
 ![Usuario de ExFlow - Usuario del Sistema](@site/static/img/media/exflow-user-002-system-user.png)
 

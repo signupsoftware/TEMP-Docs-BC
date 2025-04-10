@@ -40,7 +40,7 @@ Habilite la función ''Copiar Primer Aprobador al Flujo de Aprobación'' si el "
 <br/>
 
 ### Primer Aprobador en el Diario de Importación
-El Primer Aprobador puede ser agregado al encabezado del documento en el Diario de Importación a través de [***Contrato de ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#contract) y [***Referencia de ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) copiado a las líneas del documento.
+El Primer Aprobador puede ser agregado al encabezado del documento en el Diario de Importación a través de [***Contrato de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#contract) y [***Referencia de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) copiado a las líneas del documento.
 
 
 #### Primer Aprobador en el Contrato de ExFlow

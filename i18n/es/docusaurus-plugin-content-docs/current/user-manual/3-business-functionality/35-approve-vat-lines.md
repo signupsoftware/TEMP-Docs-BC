@@ -20,4 +20,4 @@ En caso de uso del Código de Compra de ExFlow en el encabezado, la configuraci�
 
 ![Aprobar Líneas de IVA](@site/static/img/media/exflow-setup-approval-vat-lines-002.png)
 
-La funcionalidad ''Proponer Líneas de IVA'' se puede combinar con ''Aprobar Líneas de IVA'' si siempre se deben crear líneas de IVA separadas e incluirse en el flujo de aprobación para todos los documentos de compra. Lea más sobre esta función en la sección [***Proponer Líneas de IVA.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/propose-vat-lines)
+La funcionalidad ''Proponer Líneas de IVA'' se puede combinar con ''Aprobar Líneas de IVA'' si siempre se deben crear líneas de IVA separadas e incluirse en el flujo de aprobación para todos los documentos de compra. Lea más sobre esta función en la sección [***Proponer Líneas de IVA.***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/propose-vat-lines)

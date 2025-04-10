@@ -10,7 +10,7 @@ custom_edit_url: null
 <br/>
 ¿Interesado en leer y aprender todo sobre ExFlow web? <br/> <br/>  
 
- [***¡Toda la información necesaria sobre ExFlow Web se puede encontrar aquí!***](https://docs.exflow.cloud/web) <br/><br/> 
+ [***¡Toda la información necesaria sobre ExFlow Web se puede encontrar aquí!***](https://docs.signupsoftware.com/web) <br/><br/> 
 
 ### Editar Columnas Web en Business Central
 Use la función **Editar Columnas Web** para gestionar las Columnas Web de ExFlow. <br/>

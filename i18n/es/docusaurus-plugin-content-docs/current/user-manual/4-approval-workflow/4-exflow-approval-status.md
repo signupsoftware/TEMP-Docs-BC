@@ -14,45 +14,45 @@ Cuando se crea un documento desde el Diario de Importación de ExFlow y, por lo 
 
 | Estado de Aprobación de ExFlow|| 
 |:-|:-| 
-|**Verificar Cambios**|    [***Verificar Cambios***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
-|**Registrar Lote**|    [***Registrar Lote***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#post-batch)
+|**Verificar Cambios**|    [***Verificar Cambios***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
+|**Registrar Lote**|    [***Registrar Lote***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#post-batch)
 |**Tarjeta**|    Abre la tarjeta estándar del documento de compra
-|**Enviar Recordatorio**|     [***Enviar Recordatorio***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#send-reminder)
-|**Abrir Visor de PDF en Nueva Pestaña**|   [***Abrir Visor de PDF en Nueva Pestaña***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
-|**Forzar Actualización del Documento de Compra**|  [***Forzar Actualización del Documento de Compra***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#force-update-on-purchase-document)
-|**Filtrar por aprobador**|   [***Filtrar por aprobador***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
+|**Enviar Recordatorio**|     [***Enviar Recordatorio***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#send-reminder)
+|**Abrir Visor de PDF en Nueva Pestaña**|   [***Abrir Visor de PDF en Nueva Pestaña***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
+|**Forzar Actualización del Documento de Compra**|  [***Forzar Actualización del Documento de Compra***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#force-update-on-purchase-document)
+|**Filtrar por aprobador**|   [***Filtrar por aprobador***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
 |*Acciones--> Funciones*|    
 |**Actualizar Fecha de Registro por Lote**|    Actualizar Fecha de Registro por Lote
-|**Actualizar Información de Presupuesto en Documentos**| Actualiza la Información de Presupuesto en Documentos. Lea más en la sección [***Control de Presupuesto de G/L***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/gl-budget-control#gl-budget-control)
-|**Acerca de ExFlow**|   [***Acerca de ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/help-and-support/about-exflow#about-exflow)
-|**Otros --> Forzar Actualización del Documento de Compra**|  [***Forzar Actualización del Documento de Compra***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#force-update-on-purchase-document)
+|**Actualizar Información de Presupuesto en Documentos**| Actualiza la Información de Presupuesto en Documentos. Lea más en la sección [***Control de Presupuesto de G/L***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/gl-budget-control#gl-budget-control)
+|**Acerca de ExFlow**|   [***Acerca de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/help-and-support/about-exflow#about-exflow)
+|**Otros --> Forzar Actualización del Documento de Compra**|  [***Forzar Actualización del Documento de Compra***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#force-update-on-purchase-document)
 |*Acciones--> Registro*|    
 |**Registrar**|    Registrar Documento
 |**Vista Previa del Registro**|    Vista Previa del Registro 
-|**Registro Preliminar**|  [***Registro Preliminar***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#preliminary-posting)
+|**Registro Preliminar**|  [***Registro Preliminar***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#preliminary-posting)
 |**Registro Preliminar-->Registrar**|    Registrar Documentos Preliminares 
 |**Registro Preliminar-->Vista Previa del Registro**|    Vista Previa del Registro de Documentos Preliminares
 |**Registro Preliminar-->Revertir**|    Revertir Registro Preliminar
 |**Registro Preliminar-->Buscar Entradas**|    Buscar Entradas de Documentos Preliminares
 |*Acciones--> Registro--> Otros*|   
-|**Verificar Cambios**|    [***Verificar Cambios***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
-|**Registrar Lote**|    [***Registrar Lote***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#post-batch)
+|**Verificar Cambios**|    [***Verificar Cambios***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
+|**Registrar Lote**|    [***Registrar Lote***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#post-batch)
 |*Relacionado--> Estado de Aprobación*|    
-|**Mostrar Contrato**|    Mostrar Contrato, si hay alguno conectado al Documento. Lea más en la sección [***Contrato***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#contract)
-|**Revertir Cambios del Documento**|     [***Revertir Cambios del Documento***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#revert-document-changes)
-|**Enviar Notificación de Orden No Recibida**|  [***Enviar Notificación de Orden No Recibida***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
+|**Mostrar Contrato**|    Mostrar Contrato, si hay alguno conectado al Documento. Lea más en la sección [***Contrato***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#contract)
+|**Revertir Cambios del Documento**|     [***Revertir Cambios del Documento***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#revert-document-changes)
+|**Enviar Notificación de Orden No Recibida**|  [***Enviar Notificación de Orden No Recibida***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
 |**Relacionado--> Estado de Aprobación-->Tarjeta**|    Abre la tarjeta estándar del documento de compra
-|**Relacionado--> Estado de Aprobación-->Enviar Recordatorio**|  [***Enviar Recordatorio***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#send-reminder)
+|**Relacionado--> Estado de Aprobación-->Enviar Recordatorio**|  [***Enviar Recordatorio***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#send-reminder)
 |*Relacionado--> Archivos*|    
-|**Mostrar Imagen del Documento**|   [***Descargar o abrir PDF***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-document-image)
-|**Mostrar Detalles de Importación (OCR)**|    [***Mostrar detalles de importación***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-import-details)
-|**Importar o Reemplazar Imagen**|  [***Importar o Reemplazar Imagen***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#import-or-replace-image)  
-|**Relacionado--> Archivos-->Otros--> Abrir Visor de PDF en Nueva Pestaña**|    [***Abrir Visor de PDF en Nueva Pestaña***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
+|**Mostrar Imagen del Documento**|   [***Descargar o abrir PDF***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-document-image)
+|**Mostrar Detalles de Importación (OCR)**|    [***Mostrar detalles de importación***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-import-details)
+|**Importar o Reemplazar Imagen**|  [***Importar o Reemplazar Imagen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#import-or-replace-image)  
+|**Relacionado--> Archivos-->Otros--> Abrir Visor de PDF en Nueva Pestaña**|    [***Abrir Visor de PDF en Nueva Pestaña***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
 |*Relacionado--> Aprobadores*|    
-|**Seguimiento de Aprobación**|    Ejecutar informe [***Seguimiento de Aprobación de ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/business-intelligence-and-reporting/reports#exflow-approval-follow-up)
+|**Seguimiento de Aprobación**|    Ejecutar informe [***Seguimiento de Aprobación de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-intelligence-and-reporting/reports#exflow-approval-follow-up)
 |**Por Aprobador**|    Muestra una página filtrada por aprobador
 |**Próximo Aprobador**|    Muestra una página filtrada por próximo aprobador
-|**Restablecer filtro de aprobador**|    Restablecer el filtro que se estableció en [***Filtrar por aprobador***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
+|**Restablecer filtro de aprobador**|    Restablecer el filtro que se estableció en [***Filtrar por aprobador***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
 
 
 ### Aprobador actual
@@ -97,10 +97,10 @@ Esta función se puede habilitar en la Configuración de ExFlow bajo **Procesami
 
 ![Configuración de ExFlow - Verificar Cambios Realizados Automáticamente](@site/static/img/media/exflow-setup-background-processing-001.png)
 
-Esta función también se puede encontrar (y configurar por proveedor) en [***Configuración de Proveedor de ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
+Esta función también se puede encontrar (y configurar por proveedor) en [***Configuración de Proveedor de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 
 Además, el personal de AP puede utilizar otra función llamada Omitir Verificar Cambios.
-Lea más sobre esto en la sección [***Omitir Verificar Cambios***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/bypass-verify-changes).
+Lea más sobre esto en la sección [***Omitir Verificar Cambios***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/bypass-verify-changes).
 
 #### Rechazar cambios en Verificar Cambios
 El proceso de aprobación se puede reiniciar desde el Aprobador seleccionado en la página "Verificar Cambios de ExFlow". Esta función se encuentra en el FactBox de Aprobadores.
@@ -171,7 +171,7 @@ Si el Registro Preliminar está activado, entonces Registrar, Vista Previa del R
 
 Ir a: ***Estado de Aprobación --> Acciones --> Registro --> Registro Preliminar***
 
-Lea más en la sección [***Registro Preliminar***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
+Lea más en la sección [***Registro Preliminar***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/preliminary-posting)
 
 ### Enviar Recordatorio
 
@@ -193,7 +193,7 @@ Ir a: ***Configuración de Correo Electrónico de ExFlow***
 
 Es posible enviar recordatorios por correo electrónico para documentos de aprobación de ExFlow rechazados si una cotización, orden, factura y/o nota de crédito es rechazada. Para poder enviar recordatorios para documentos de aprobación rechazados, el estado del documento debe ser "Rechazado" en el Estado de Aprobación.
 
-Lea más en la sección [***Configuración de Correo Electrónico de ExFlow --> Orden Rechazada, Cotización Rechazada y Factura/Nota de Crédito Rechazada***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-email-setup)
+Lea más en la sección [***Configuración de Correo Electrónico de ExFlow --> Orden Rechazada, Cotización Rechazada y Factura/Nota de Crédito Rechazada***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup)
 
 ### Abrir Visor de PDF en Nueva Pestaña
 Es posible abrir el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.
@@ -351,17 +351,17 @@ En las Líneas del Documento en el Estado de Aprobación, es posible ver quién 
 
 ![Reemplazante Actual](@site/static/img/media/approval-status-replacer-001.png)
 
-Lea más sobre cómo trabajar con reemplazantes en la sección [***Agregar un Reemplazante Durante el Tiempo de Vacaciones***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time)
+Lea más sobre cómo trabajar con reemplazantes en la sección [***Agregar un Reemplazante Durante el Tiempo de Vacaciones***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time)
 
 ## FactBoxes en el Estado de Aprobación
 Encuentre útiles FactBoxes en el lado derecho en el Estado de Aprobación.
 
 | FactBox |  |
 |:-|:-|
-| Vista Previa de PDF               | [***Vista Previa de PDF***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#pdf-preview)
-| Archivos de Documentos Entrantes               | [***Archivos de Documentos Entrantes***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#incoming-document-files)
-| Panel de Discusión               | [***Panel de Discusión***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#discussion-panel)
-| Estadísticas del Proveedor e Historial del Proveedor de Compra              | [***Estadísticas del Proveedor e Historial del Proveedor de Compra***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#vendor-statistic-and-buy-from-vendor-history)
+| Vista Previa de PDF               | [***Vista Previa de PDF***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#pdf-preview)
+| Archivos de Documentos Entrantes               | [***Archivos de Documentos Entrantes***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#incoming-document-files)
+| Panel de Discusión               | [***Panel de Discusión***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#discussion-panel)
+| Estadísticas del Proveedor e Historial del Proveedor de Compra              | [***Estadísticas del Proveedor e Historial del Proveedor de Compra***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#vendor-statistic-and-buy-from-vendor-history)
 
 
 ### Vista Previa de PDF
@@ -413,7 +413,7 @@ Si se menciona a un usuario usando @, el usuario podrá ver este documento y com
 
 ![Estado de Aprobación de ExFlow - Panel de Discusión](@site/static/img/media/image267.png)
 
-Lea más sobre configuraciones y cómo usar el Panel de Discusión en la sección: [***Notificaciones en Business Central --> Panel de Discusión / Chat y Comentarios de Línea***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).<br/>
+Lea más sobre configuraciones y cómo usar el Panel de Discusión en la sección: [***Notificaciones en Business Central --> Panel de Discusión / Chat y Comentarios de Línea***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).<br/>
 
 #### Leer Comentarios de Aprobadores
 
@@ -427,7 +427,7 @@ Cuando un aprobador web agrega un comentario en una línea, el comentario se ver
 
 ![Estado de Aprobación de ExFlow - Aprobadores de la Línea del Documento](@site/static/img/media/image269.png)
 
-Lea más sobre configuraciones y cómo usar el Panel de Discusión en la sección: [***Notificaciones en Business Central --> Panel de Discusión / Chat y Comentarios de Línea***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
+Lea más sobre configuraciones y cómo usar el Panel de Discusión en la sección: [***Notificaciones en Business Central --> Panel de Discusión / Chat y Comentarios de Línea***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments).
 
 ### Estadísticas del Proveedor e Historial del Proveedor de Compra
 
@@ -441,7 +441,7 @@ Estos FactBoxes también se pueden encontrar en el Historial de Aprobación de E
 
 ## Procesamiento en Segundo Plano
 
-Encuentre toda la información sobre el Procesamiento en Segundo Plano [***aquí***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#background-processing)<br/>
+Encuentre toda la información sobre el Procesamiento en Segundo Plano [***aquí***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-setup#background-processing)<br/>
 
 Ir a ***Configuración de ExFlow --> Procesamiento en Segundo Plano***
 
@@ -476,7 +476,7 @@ Esta configuración permite omitir el paso "Verificar Cambios" en la página de 
 
 La configuración "Verificar Cambios Realizados Automáticamente" también se puede encontrar en la Configuración de Proveedor de ExFlow. Es posible elegir si esta función debe estar habilitada/deshabilitada para un proveedor específico. O habilitar la configuración en la Configuración de ExFlow para todos los proveedores.
 
-Lea más sobre esta funcionalidad en la sección [***Verificar Cambios***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
+Lea más sobre esta funcionalidad en la sección [***Verificar Cambios***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
 
 ![Opciones Avanzadas de Proveedor de ExFlow - Verificar Cambios Realizados Automáticamente](@site/static/img/media/Vendor-setup-card-006.png)
 
@@ -494,11 +494,11 @@ Esta función se puede usar sin ninguna configuración en el Diario de Importaci
 
 ![Configuración de ExFlow - Procesamiento en Segundo Plano - Crear Documentos Automáticamente](@site/static/img/media/background-processing-automatically-create-002.png)
 
-Lea más sobre esto en la sección [***Importar Documentos por Lote desde la Interpretación***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)<br/>
+Lea más sobre esto en la sección [***Importar Documentos por Lote desde la Interpretación***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)<br/>
 
 ## Verificaciones de Registro de Documentos
 
-Encuentre toda la información sobre Verificaciones de Registro de Documentos [***aquí***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#doc-posting-checks)
+Encuentre toda la información sobre Verificaciones de Registro de Documentos [***aquí***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-setup#doc-posting-checks)
 
 ### Redondeo de Facturas
 
@@ -514,7 +514,7 @@ ExFlow realiza un control entre el monto bruto en el encabezado del documento de
 
 Si SweBase (para clientes suecos) está instalado, el redondeo será manejado por SweBase y el Redondeo de ExFlow solo se puede hacer para el Registro Preliminar.
 
-Lea más en la sección [***Registro Preliminar***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting)
+Lea más en la sección [***Registro Preliminar***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/preliminary-posting)
 
 ### Eliminar Líneas de Cuenta G/L con Monto de Línea = Cero
 Ir a: ***Configuración de ExFlow --> Verificaciones de Registro de Documentos --> Eliminar Líneas de Cuenta G/L con Monto de Línea = Cero***<br/>
@@ -526,7 +526,7 @@ Cuando esta configuración está habilitada, cualquier línea de documento con m
 
 ## Escalación
 
-Encuentre toda la información sobre Escalación [***aquí***](https://docs.exflow.cloud/business-central/docs/user-manual/technical/exflow-setup#escalation)
+Encuentre toda la información sobre Escalación [***aquí***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-setup#escalation)
 
 ### Resaltar documentos rechazados y vencidos
 

@@ -45,4 +45,4 @@ If any changes needs to be done on the permissions, for instance, to allow codin
 ![web user permissions](@site/static/img/media/exflow-web-user-level-permissions-002.png)
 
 
-Read more about how handle web permissions and to apply it on ExFlow users under section [***Add company access and web permission role under Permissions***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#add-company-access-and-web-permission-role-under-permissions)
+Read more about how handle web permissions and to apply it on ExFlow users under section [***Add company access and web permission role under Permissions***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-company-access-and-web-permission-role-under-permissions)

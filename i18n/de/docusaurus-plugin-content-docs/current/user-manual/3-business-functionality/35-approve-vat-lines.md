@@ -20,4 +20,4 @@ Bei Verwendung des ExFlow-Kaufcodes in der Kopfzeile wird die Einstellung ignori
 
 ![MwSt.-Linien genehmigen](./../../images/exflow-setup-approval-vat-lines-002.png)
 
-Die Funktion ''MwSt.-Zeilen vorschlagen'' kann mit ''MwSt.-Zeilen genehmigen'' kombiniert werden, wenn immer separate MwSt.-Zeilen erstellt und in den Genehmigungsablauf für alle Einkaufsbelege aufgenommen werden sollen. Lesen Sie mehr über diese Funktion unter [***MwSt.-Zeilen vorschlagen.***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/propose-vat-lines)
+Die Funktion ''MwSt.-Zeilen vorschlagen'' kann mit ''MwSt.-Zeilen genehmigen'' kombiniert werden, wenn immer separate MwSt.-Zeilen erstellt und in den Genehmigungsablauf für alle Einkaufsbelege aufgenommen werden sollen. Lesen Sie mehr über diese Funktion unter [***MwSt.-Zeilen vorschlagen.***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/propose-vat-lines)

@@ -14,4 +14,4 @@ Gehe zu **Verwandt** und klicke auf **ExFlow Lieferanteneinrichtung**, um ExFlow
 
 ![Lieferantenkarte](../../images/Vendor-card-exflow-vendor-setup-001.png)
 
-Lesen Sie mehr darüber, wie Sie Einstellungen für einen bestimmten Lieferanten vornehmen, unter [***Lieferanteneinrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
+Lesen Sie mehr darüber, wie Sie Einstellungen für einen bestimmten Lieferanten vornehmen, unter [***Lieferanteneinrichtung***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).

@@ -65,7 +65,7 @@ Tenga en cuenta que los dos últimos campos en la imagen anterior (''Agrupar por
 
 Active esta función en la Configuración de ExFlow habilitando esta función para todos los Proveedores o Proveedores Seleccionados.
 
-Al activar "Proveedores Seleccionados", también es necesario habilitar "Usar Sugerencia de Codificación Automática" para los proveedores, en la tarjeta de [***Configuración de Proveedores de ExFlow***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup) que deben tener esta función habilitada.
+Al activar "Proveedores Seleccionados", también es necesario habilitar "Usar Sugerencia de Codificación Automática" para los proveedores, en la tarjeta de [***Configuración de Proveedores de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup) que deben tener esta función habilitada.
 
 ![Configuración de ExFlow - Sugerencia Automática](@site/static/img/media/exflow-setup-automatic-suggestion-001.png)
 

@@ -28,7 +28,7 @@ Para poder realizar la publicación preliminar, ExFlow necesita los siguientes d
 | **Plantilla de Diario General:**     | Use una existente o cree una nueva
 | **Lote de Diario General:**        | Use uno existente o cree uno nuevo
 | **En Espera:**                      | 1-3 letras que se agregarán en las Entradas de Libro Mayor de Proveedores para evitar pagos en documentos publicados preliminarmente que aún no están aprobados. El valor predeterminado al ejecutar el Asistente de ExFlow será **EXF**, pero se puede cambiar si es necesario.
-| **Redondeo de Factura:**             | Si SweBase (para clientes suecos) está instalado, el Redondeo de Factura es visible y se usa solo para la Publicación Preliminar     <br/>Si SweBase no está instalado, será visible bajo Verificaciones de Publicación de Documentos y se usará tanto para la Publicación Preliminar como para la Publicación. El Redondeo de Factura no es obligatorio.  <br/>Para más información, vaya a la sección [***Redondeo de Factura a continuación***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-approval-status#invoice-rounding)
+| **Redondeo de Factura:**             | Si SweBase (para clientes suecos) está instalado, el Redondeo de Factura es visible y se usa solo para la Publicación Preliminar     <br/>Si SweBase no está instalado, será visible bajo Verificaciones de Publicación de Documentos y se usará tanto para la Publicación Preliminar como para la Publicación. El Redondeo de Factura no es obligatorio.  <br/>Para más información, vaya a la sección [***Redondeo de Factura a continuación***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#invoice-rounding)
 | **Descripción de Publicación:**          | Descripción al Publicar  <br/>El valor predeterminado al ejecutar el Asistente de ExFlow será **Publicado Preliminarmente**, pero se puede cambiar si es necesario
 | **Descripción de Reversión:**          | Descripción al Revertir.   <br/>El valor predeterminado al ejecutar el Asistente de ExFlow será **Revertido Preliminarmente**, pero se puede cambiar si es necesario
 | **Grupo de Publicación de Prod. IVA 0%:**   | Agregue un Grupo de Publicación de Prod. IVA con 0% para publicar preliminarmente sin IVA en lugar del Grupo de Publicación de Prod. IVA agregado en la línea del documento. Esta publicación se revertirá y la publicación del IVA se registrará con el Grupo de Publicación de Prod. IVA agregado a la factura solo en la publicación final.
@@ -54,7 +54,7 @@ Después de cerrar la página de Publicación Preliminar, recibirá una pregunta
 
 Al elegir publicar preliminarmente todos los documentos en Estado de Aprobación, pueden aparecer mensajes de error. Vaya al Estado de Aprobación y corrija el error y publique preliminarmente manualmente por documento.
 
-Lea más en la sección [***Estado de Aprobación***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/preliminary-posting#approval-status)
+Lea más en la sección [***Estado de Aprobación***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/preliminary-posting#approval-status)
 
 ![Hay documentos que aún no se han publicado preliminarmente.](@site/static/img/media/documents-not-yet-preliminary-posted-001.png)
 

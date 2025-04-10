@@ -25,4 +25,4 @@ The cost account line, in this example, will be set to exclude VAT (NO VAT), sin
 
 ![Propose VAT Lines](@site/static/img/media/exflow-setup-propose-vat-lines-002.png)
 
-By default, VAT lines are not included in the approval workflow. However, an alternative function is available for this purpose. Read more under section [***Approve VAT Lines***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines) to learn more.
+By default, VAT lines are not included in the approval workflow. However, an alternative function is available for this purpose. Read more under section [***Approve VAT Lines***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approve-vat-lines) to learn more.

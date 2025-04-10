@@ -12,7 +12,7 @@ Ir a: ***Historial \--\> Buscar Documentos de ExFlow***
 
 Buscar Documentos de ExFlow se puede usar para buscar documentos con diferentes criterios dentro de ExFlow.
 
-Lea más sobre cómo usar esta función en la sección [***Buscar Documentos***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/search-documents#search-documents)
+Lea más sobre cómo usar esta función en la sección [***Buscar Documentos***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/search-documents#search-documents)
 
 ![Buscar Documentos de ExFlow](@site/static/img/media/image312.png)
 
@@ -24,7 +24,7 @@ Función para mostrar el Historial de Estado de Aprobación de ExFlow para docum
 
 ![Historial de Estado de Aprobación de ExFlow](@site/static/img/media/image314.png)
 
-El Historial de Estado de Aprobación de ExFlow también contiene Órdenes de Compra y Cotizaciones finalizadas. Una cotización finalizada es una cotización transformada en una orden. Una orden finalizada es una orden aprobada, facturada y eliminada. Lea más en la sección [***Estado de Orden de ExFlow.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/exflow-order-status#exflow-order-status-1)
+El Historial de Estado de Aprobación de ExFlow también contiene Órdenes de Compra y Cotizaciones finalizadas. Una cotización finalizada es una cotización transformada en una orden. Una orden finalizada es una orden aprobada, facturada y eliminada. Lea más en la sección [***Estado de Orden de ExFlow.***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-order-status#exflow-order-status-1)
 
 Para facturas publicadas y notas de crédito, es posible ver el "Monto Restante" de las Entradas del Libro Mayor de Proveedores directamente en el Historial de Estado de Aprobación de ExFlow. Esto significa que es posible ver si el documento está pagado o no.
 
@@ -82,7 +82,7 @@ Ir a: ***Historial de ExFlow \--\> Historial de Notificaciones de Chat de ExFlow
 
 Un Usuario de ExFlow puede ver las Notificaciones de Chat de ExFlow en las que ha sido etiquetado durante los últimos 90 días.
 
-Lea más sobre esto en la sección [***Panel de Discusión / Chat y Comentarios en Línea.***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
+Lea más sobre esto en la sección [***Panel de Discusión / Chat y Comentarios en Línea.***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/notifications-in-business-central#discussion-panel--chat-and-line-comments)
 
 ### Documentos Eliminados
 

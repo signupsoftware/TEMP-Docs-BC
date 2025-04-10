@@ -66,7 +66,7 @@ Bitte beachten Sie, dass die letzten beiden Felder im obigen Bild (''Gruppieren 
 
 Aktivieren Sie diese Funktion in der ExFlow-Einrichtung, indem Sie diese Funktion für alle Vendors oder ausgewählte Vendors aktivieren.
 
-Wenn "Ausgewählte Vendors" aktiviert ist, muss auch "Automatische Kodierungsvorschläge verwenden" für die Vendors in der [***ExFlow Vendor Setup***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup) Karte aktiviert werden, die diese Funktion aktiviert haben sollen.
+Wenn "Ausgewählte Vendors" aktiviert ist, muss auch "Automatische Kodierungsvorschläge verwenden" für die Vendors in der [***ExFlow Vendor Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup) Karte aktiviert werden, die diese Funktion aktiviert haben sollen.
 
 ![ExFlow Einrichtung - Automatischer Vorschlag](../../images/exflow-setup-automatic-suggestion-001.png)
 

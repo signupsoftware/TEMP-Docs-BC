@@ -28,24 +28,24 @@ const FeatureList_OLD = [
             }, 
             {
               title: <Translate>EXFLOW WEB</Translate>,
-              url: 'https://docs.exflow.cloud/web',
+              url: 'https://docs.signupsoftware.com/web',
               tag: 'web'
             },
         {
           title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-          url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
+          url: 'https://docs.signupsoftware.com/datacapture/docs/user-manual/under-dev',
           tag: 'data-capture'
         },
           {
             title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
-            url: 'https://docs.exflow.cloud/tem',
+            url: 'https://docs.signupsoftware.com/tem',
             tag: 'travel-and-expense'
           },
 
 
               {
                 title: <Translate>EXFLOW CONTENT GATE</Translate>,
-                url: 'https://docs.exflow.cloud/tem',
+                url: 'https://docs.signupsoftware.com/tem',
                 tag: 'bc-content-gate'
               }
 
@@ -63,7 +63,7 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-    //url: 'https://docs.exflow.cloud/datacapture/docs/user-manual/under-dev',
+    //url: 'https://docs.signupsoftware.com/datacapture/docs/user-manual/under-dev',
     // EA 2025-02-28 Impl. Language dependent URL
     url: <Translate>URL-exflow-data-capture</Translate>,
     index: 4,
@@ -79,7 +79,7 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
-    url: 'https://docs.exflow.cloud/tem',
+    url: 'https://docs.signupsoftware.com/tem',
     tag: 'travel-and-expense',
     index: 5
   },
@@ -93,7 +93,7 @@ const FeatureList = [
   }, 
   {
     title: <Translate>EXFLOW CONTENT GATE</Translate>,
-    url: 'http://docs.exflow.cloud/business-central/docs/cg',
+    url: 'http://docs.signupsoftware.com/business-central/docs/cg',
     tag: 'bc-content-gate',
     index: 6
   },
@@ -101,7 +101,7 @@ const FeatureList = [
 [
   {
     title: <Translate>EXFLOW WEB</Translate>,
-    url: 'https://docs.exflow.cloud/web',
+    url: 'https://docs.signupsoftware.com/web',
     tag: 'web',
     index: 3
   },

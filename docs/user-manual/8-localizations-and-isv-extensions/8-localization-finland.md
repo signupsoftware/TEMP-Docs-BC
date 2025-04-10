@@ -91,3 +91,11 @@ The standard ''Message Type'' in Import Journal is set to "Reference No." by def
 However, it is possible to go to Vendor Setup Card and set another Message Type for a specific vendor, if needed. 
 
 ![ExFlow Setup - Import Journal - Finish Localization](@site/static/img/media/FI-message-type-001.png)
+
+
+
+### Reference No to ExFlow Contract Self-billing Invoices
+
+
+
+When creating Self Invoices, the Reference number contract where reference no is copied to Import Journal. 

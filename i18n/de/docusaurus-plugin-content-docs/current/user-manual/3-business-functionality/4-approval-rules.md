@@ -45,7 +45,7 @@ Beim Auswählen eines Wertes wird die Option automatisch aktiviert.
 | **Dimensionswertfilter 1:**     | Filter: Wählen Sie einen Dimensionswert für den ausgewählten Dimensionscode
 | **Dimensionscode 2:**             | Wählen Sie einen zweiten Dimensionscode
 | **Dimensionswertfilter 2:**     | Filter: Wählen Sie einen Dimensionswert für den zweiten ausgewählten Dimensionscode
-| **Erster Genehmigungsfilter:**        | Kann dem Dokument hinzugefügt werden, wenn eine Referenz interpretiert wird. <br/> Lesen Sie mehr im Abschnitt [***Business Functionality --> Reference Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
+| **Erster Genehmigungsfilter:**        | Kann dem Dokument hinzugefügt werden, wenn eine Referenz interpretiert wird. <br/> Lesen Sie mehr im Abschnitt [***Business Functionality --> Reference Codes***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/reference-codes)
 | **Lieferantenfilter:**                | Wählen Sie eine oder mehrere Lieferantennummern
 
 ![Genehmigungsregel Filter](../../images/approval-rule-004-filters.png)
@@ -114,7 +114,7 @@ Neue Genehmigungsregeln werden angewendet, wenn die Rechnungsbuchung geändert w
 
 **Beispiel für dynamische Genehmigungsregel mit dynamischem Genehmigungstyp:**<br/>
 Wenn Genehmigungsregeln durch den Dimensionsinhaber für die Abteilung gesteuert werden.
-Für die Einrichtung lesen Sie mehr im Abschnitt [***Business Functionality --> Approval Rules --> Dynamic Approval Flow for Dimension Owners***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) unten.
+Für die Einrichtung lesen Sie mehr im Abschnitt [***Business Functionality --> Approval Rules --> Dynamic Approval Flow for Dimension Owners***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) unten.
 
 Die Rechnung ist zunächst mit der Abteilung "ADM" kodiert und die Genehmigungsregel für den Dimensionsinhaber wird angewendet.
 
@@ -129,7 +129,7 @@ Dynamische Genehmigungsregeln werden nicht angewendet, wenn die Genehmigungsrege
 
 Alle zusätzlichen Genehmigenden, die manuell zu einem Dokument hinzugefügt wurden, werden nicht ersetzt, wenn ExFlow Web eine neue Genehmigungsregel anwendet. Es werden nur die Benutzer ersetzt, die automatisch hinzugefügt wurden.
 
-Genehmigungsregeln können auch mit Genehmigungsgruppen basierend auf "dynamischem Genehmigungstyp" wie Dimensionsinhabern, verantwortlichen Personen usw. verwendet werden. Für die Einrichtung lesen Sie mehr im Abschnitt [***Approval Rules --> Dynamic Approval flow for Dimension Owners,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Projects,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects) oder [***Purchasers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers) unten.
+Genehmigungsregeln können auch mit Genehmigungsgruppen basierend auf "dynamischem Genehmigungstyp" wie Dimensionsinhabern, verantwortlichen Personen usw. verwendet werden. Für die Einrichtung lesen Sie mehr im Abschnitt [***Approval Rules --> Dynamic Approval flow for Dimension Owners,***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Projects,***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects) oder [***Purchasers***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers) unten.
 
 So funktioniert diese Funktionalität: ExFlow Web wird automatisch besser geeignete Genehmigungsregeln anwenden, wenn sie identifiziert werden. Die verbleibenden Genehmigenden aus der vorherigen Genehmigungsregel werden entfernt und neue Genehmigenden aus der neuen Genehmigungsregel hinzugefügt.
 
@@ -196,7 +196,7 @@ Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Setup***
 
 Aktivieren Sie "Immer neue Genehmiger vorschlagen" in ExFlow Setup, um einen dynamischen Genehmigungsfluss zu erstellen, wenn die Codierung auf ExFlow Web geändert wird.
 
-Lesen Sie mehr im Abschnitt [***Business Functionality --> Approval Rules --> Always Propose New Approvers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#always-propose-new-approvers) oben.
+Lesen Sie mehr im Abschnitt [***Business Functionality --> Approval Rules --> Always Propose New Approvers***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#always-propose-new-approvers) oben.
 
 ![ExFlow Setup - Genehmigung](../../images/exflow-setup-approval-001.png)
 
@@ -229,7 +229,7 @@ Um mit der verantwortlichen Person im Genehmigungsfluss zu arbeiten, verbinden S
 **Connecting Approvers to Project Manager**<br/>
 To work with Project Manager added to approval flow, then make sure that the Business Central System User is connected to an ExFlow User.
 
-Read more under section [***Business Functionality --> ExFlow User --> Create a System User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)
+Read more under section [***Business Functionality --> ExFlow User --> Create a System User***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)
 
 ![ExFlow User - System User](../../images/exflow-user-002-system-user.png)
 

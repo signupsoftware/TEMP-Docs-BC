@@ -45,7 +45,7 @@ When selecting a value, the option will be activated automatically.
 | **Dimension Value Filter 1:**     | Filter: Choose a Dimension Value for selected Dimension Code
 | **Dimension Code 2:**             | Choose a second Dimension Code
 | **Dimension Value Filter 2:**     | Filter: Choose a Dimension Value for second selected Dimension Code
-| **First Approver Filter:**        | Can be added to the document when interpret a reference. <br/> Read more under section [***Business Functionality --> Reference Codes***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes)
+| **First Approver Filter:**        | Can be added to the document when interpret a reference. <br/> Read more under section [***Business Functionality --> Reference Codes***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/reference-codes)
 | **Vendor Filter:**                | Select one or several Vendor No´s
 
 ![Approval Rule Filters](@site/static/img/media/approval-rule-004-filters.png)
@@ -115,7 +115,7 @@ New Approval Rules will be applied if the invoice coding has been changed to mat
 
 **Example for Dynamic Approval Rule with Dynamic Approval Type:**<br/>
 If Approval Rules are driven by Dimension Owner for Department.
-For setup, read more under section [***Business Functionality --> Approval Rules --> Dynamic Approval Flow for Dimension Owners***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) below.
+For setup, read more under section [***Business Functionality --> Approval Rules --> Dynamic Approval Flow for Dimension Owners***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) below.
 
 Invoice is initially coded with Department "ADM" and Approval Rule for Dimension Owner is applied.
 
@@ -131,7 +131,7 @@ Dynamic Approval Rules will not be applied if the Approval Rule of the invoice w
 
 Any additional approvers that have been added manually to a document will not be replaced when ExFlow Web applies a new Approval Rule. It will only replace the users that have been added automatically.
 
-Approval Rules can also be used with Approval Groups based on "Dynamic Approval Type" such as Dimension Owners, Person Responsible, etc. For setup, read more under section [***Approval Rules --> Dynamic Approval flow for Dimension Owners,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Projects,***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects) or [***Purchasers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers) below.
+Approval Rules can also be used with Approval Groups based on "Dynamic Approval Type" such as Dimension Owners, Person Responsible, etc. For setup, read more under section [***Approval Rules --> Dynamic Approval flow for Dimension Owners,***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-dimension-owners) [***Projects,***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flow-for-projects) or [***Purchasers***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#dynamic-approval-flows-purchasers) below.
 
 The way this functionality works is that ExFlow Web will automatically apply better suited Approval Rules if identified. The remaining approvers from the previous Approval Rule will be removed and new approvers will be added from the new Approval Rule.
 
@@ -204,7 +204,7 @@ Go to: ***Setup --> ExFlow Manual Setup --> ExFlow Setup***
 
 Activate "Always Propose New Approvers" in ExFlow Setup to create a dynamic approval flow if changing coding on ExFlow Web.
 
-Read more under section [***Business Functionality --> Approval Rules --> Always Propose New Approvers***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approval-rules#always-propose-new-approvers) above.
+Read more under section [***Business Functionality --> Approval Rules --> Always Propose New Approvers***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approval-rules#always-propose-new-approvers) above.
 
 ![ExFlow Setup - Approval](@site/static/img/media/exflow-setup-approval-001.png)
 
@@ -241,7 +241,7 @@ To work with Person Responsible added to approval flow, connect the Resource to 
 **Connecting Approvers to Project Manager**<br/>
 To work with Project Manager added to approval flow, then make sure that the Business Central System User is connected to an ExFlow User.
 
-Read more under section [***Business Functionality --> ExFlow User --> Create a System User***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)
+Read more under section [***Business Functionality --> ExFlow User --> Create a System User***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#create-a-system-user)
 
 ![ExFlow User - System User](@site/static/img/media/exflow-user-002-system-user.png)
 

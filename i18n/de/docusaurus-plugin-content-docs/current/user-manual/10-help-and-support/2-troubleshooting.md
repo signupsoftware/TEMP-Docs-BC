@@ -43,7 +43,7 @@ Wenn die Nummer bereits verwendet wurde und dies korrekt ist, z.B. bei Miete / V
 
 Die Factoring-Lieferanteneinstellung finden Sie auf der **Lieferantenkarte --> Verwandt --> ExFlow-Lieferanteneinrichtung.**
 
-Lesen Sie mehr darüber im Abschnitt [***ExFlow-Lieferanteneinrichtung***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
+Lesen Sie mehr darüber im Abschnitt [***ExFlow-Lieferanteneinrichtung***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup#vendor-setup).
 <br/>
 
 #### **Aktionsmeldung**: Betrag (XX) entspricht nicht der Gesamtsumme der Zeilen (YY).
@@ -66,7 +66,7 @@ Gehen Sie zur Einkaufsbestellung, z.B. über die "Bestellnummer", stellen Sie si
 
 Gehen Sie zur Einkaufsbestellung, z.B. über die Bestellnummer, stellen Sie sicher, dass der Beleg erstellt wurde, und buchen Sie den Beleg.
 
-Erfahren Sie mehr über den Bestellprozess im Abschnitt [***Einkaufsbestellabgleichsprozess***](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#purchase-order-matching-process).
+Erfahren Sie mehr über den Bestellprozess im Abschnitt [***Einkaufsbestellabgleichsprozess***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#purchase-order-matching-process).
 <br/>
 
 ### Lieferantenbezogene Meldungen

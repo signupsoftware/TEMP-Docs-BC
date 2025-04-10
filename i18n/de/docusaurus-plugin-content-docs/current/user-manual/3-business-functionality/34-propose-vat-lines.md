@@ -24,4 +24,4 @@ Die Kostenkontenzeile wird in diesem Beispiel auf "ohne Mehrwertsteuer" (KEINE M
 
 ![Vorschlagen von Mehrwertsteuerzeilen](../../images/exflow-setup-propose-vat-lines-002.png)
 
-Standardmäßig sind Mehrwertsteuerzeilen nicht im Genehmigungsworkflow enthalten. Es steht jedoch eine alternative Funktion für diesen Zweck zur Verfügung. Lesen Sie mehr im Abschnitt [***Mehrwertsteuerzeilen genehmigen***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/approve-vat-lines), um mehr zu erfahren.
+Standardmäßig sind Mehrwertsteuerzeilen nicht im Genehmigungsworkflow enthalten. Es steht jedoch eine alternative Funktion für diesen Zweck zur Verfügung. Lesen Sie mehr im Abschnitt [***Mehrwertsteuerzeilen genehmigen***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/approve-vat-lines), um mehr zu erfahren.

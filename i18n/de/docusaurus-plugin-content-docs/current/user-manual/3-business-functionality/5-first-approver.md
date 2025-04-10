@@ -41,7 +41,7 @@ Aktivieren Sie die Funktion ''Ersten Genehmiger in den Genehmigungsfluss kopiere
 <br/>
 
 ### Erster Genehmiger im Importjournal
-Der erste Genehmiger kann im Importjournal über [***ExFlow-Vertrag***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/contract#contract) und [***ExFlow-Referenz***](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) zum Dokumentkopf hinzugefügt und auf die Dokumentzeilen kopiert werden.
+Der erste Genehmiger kann im Importjournal über [***ExFlow-Vertrag***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/contract#contract) und [***ExFlow-Referenz***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes) zum Dokumentkopf hinzugefügt und auf die Dokumentzeilen kopiert werden.
 
 #### Erster Genehmiger im ExFlow-Vertrag
 Wenn eine Referenz interpretiert wird, die mit einem ExFlow-Vertrag verbunden ist, kann dies verwendet werden, um den ersten Genehmiger zu Rechnungen im Importjournal hinzuzufügen. <br/> 
