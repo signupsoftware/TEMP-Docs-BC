@@ -69,8 +69,7 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-    //url: 'https://docs.signupsoftware.com/user-manual/under-dev',
-    url: "https://docs.signupsoftware.com/datacapture/docs/user-manual/under-dev",
+    url: 'https://docs.signupsoftware.com/user-manual/under-dev',
     index: 4,
     tag: 'data-capture'
   },
@@ -140,13 +139,13 @@ function Feature({title, url, index}) {
     // Just add an empty cell if "index" is -1 (not in use)
     index === -1 ? <td></td> :
     // Otherwise add the menu item
-    <td>
+    <div className="div-cell">
     <a href={url} className="menu-item-link" target="_parent">
     <div className="menu-item small-drop-shadow">
         <Heading as="div">{title}</Heading>
     </div>
     </a>
-    </td>
+    </div>
   );
 }
 
@@ -162,20 +161,19 @@ export default function HomepageFeatures() {
       </div>
 
       <div className="menu-container">
-      <table className="main-menu-table" >
+      <div className="main-menu-table" >
 
       {FeatureList.map(row => (
-        <tr>        
+        <div className="div-row">        
           <Feature {...row[0]} />
           <Feature {...row[1]} />
-        </tr>
+        </div>
       ))}
 
-      </table>
+      </div>
 
       </div>
 
     </section>
   );
 }
-
