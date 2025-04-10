@@ -1080,3 +1080,38 @@ img[alt="large"] {
   display: none;
 }
 */
+
+/* ----------------------------------------------------------------------------- */
+/*  EA 2025-04-10 Adding some support for mobile devices                         */
+/* ----------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 900px) {
+  .main-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+
+
+  }
+  .menu-item {
+    background-color: pink;
+  }
+}
+
+.div-row {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+.div-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}

@@ -69,7 +69,8 @@ const FeatureList = [
   },
   {
     title: <Translate>EXFLOW DATA CAPTURE</Translate>,
-    url: 'https://docs.signupsoftware.com/user-manual/under-dev',
+    //url: 'https://docs.signupsoftware.com/user-manual/under-dev',
+    url: "https://docs.signupsoftware.com/datacapture/docs/user-manual/under-dev",
     index: 4,
     tag: 'data-capture'
   },
@@ -77,7 +78,6 @@ const FeatureList = [
 [
   {
     title: <Translate>EXFLOW SALES ORDER</Translate>,
-    //url: '/business-central/docs/so',
     url: translate({
       message: 'PROXY-LINK-EXFLOW-SALES-ORDER',
       description: 'ExFlow Sales Order link',
@@ -87,7 +87,6 @@ const FeatureList = [
   },
 {
     title: <Translate>EXFLOW TRAVEL & EXPENSE</Translate>,
-    //url: 'https://docs.exflow.cloud/tem',
     url: translate({
       message: 'PROXY-LINK-EXFLOW-TRAVEL-EXPENSE',
       description: 'ExFlow Travel & Expense link',
@@ -99,7 +98,6 @@ const FeatureList = [
 [
   {
     title: <Translate>EXFLOW CO2 INSIGHTS</Translate>,
-    //url: '/business-central/docs/co2', // Original
     url: translate({
       message: 'PROXY-LINK-EXFLOW-CO2',
       description: 'desription of link',
@@ -109,7 +107,6 @@ const FeatureList = [
   }, 
   {
     title: <Translate>EXFLOW CONTENT GATE</Translate>,
-    //url: 'http://docs.exflow.cloud/business-central/docs/cg',
     url: translate({
       message: 'PROXY-LINK-EXFLOW-CONTENT-GATE',
       description: 'ExFlow Content Gate link',
@@ -181,3 +178,4 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
