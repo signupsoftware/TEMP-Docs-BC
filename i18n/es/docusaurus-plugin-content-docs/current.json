@@ -1,35 +1,35 @@
 {
   "version.label": {
     "message": "Próxima",
-    "description": "La etiqueta para la versión actual"
+    "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Welcome to ExFlow": {
     "message": "Bienvenido a ExFlow",
-    "description": "La etiqueta para la categoría Bienvenido a ExFlow en la barra lateral tutorialSidebar"
+    "description": "The label for category Welcome to ExFlow in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Business Functionality": {
     "message": "Funcionalidad Empresarial",
-    "description": "La etiqueta para la categoría Funcionalidad Empresarial en la barra lateral tutorialSidebar"
+    "description": "The label for category Business Functionality in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Approval Workflow": {
     "message": "Flujo de Aprobación",
-    "description": "La etiqueta para la categoría Flujo de Aprobación en la barra lateral tutorialSidebar"
+    "description": "The label for category Approval Workflow in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Localizations and ISV Extensions": {
     "message": "Localizaciones y Extensiones ISV",
-    "description": "La etiqueta para la categoría Localizaciones y Extensiones ISV en la barra lateral tutorialSidebar"
+    "description": "The label for category Localizations and ISV Extensions in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Business Intelligence and reporting": {
     "message": "Inteligencia Empresarial y Reportes",
-    "description": "La etiqueta para la categoría Inteligencia Empresarial y Reportes en la barra lateral tutorialSidebar"
+    "description": "The label for category Business Intelligence and reporting in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Help and Support": {
     "message": "Ayuda y Soporte",
-    "description": "La etiqueta para la categoría Ayuda y Soporte en la barra lateral tutorialSidebar"
+    "description": "The label for category Help and Support in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Technical": {
     "message": "Técnico",
-    "description": "La etiqueta para la categoría Técnico en la barra lateral tutorialSidebar"
+    "description": "The label for category Technical in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ExFlow Sales Order": {
     "message": "Orden de Venta ExFlow",
