@@ -94,8 +94,3 @@ However, it is possible to go to Vendor Setup Card and set another Message Type 
 
 
 
-### Reference No to ExFlow Contract Self-billing Invoices
-
-
-
-When creating Self Invoices, the Reference number contract where reference no is copied to Import Journal. 
