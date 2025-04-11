@@ -1155,6 +1155,11 @@ img[alt="large"] {
     margin-bottom: 0;
     align-self: center;    
   }
+
+  /* Fix of too wide window area */
+  .footer__links > div:nth-child(2) {
+    width: 49%;
+  }
 }
 /* End of Mobile devices support */
 /* ------------------------------------------------------------------------------ */
