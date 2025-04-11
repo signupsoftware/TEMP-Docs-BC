@@ -1108,11 +1108,6 @@ img[alt="large"] {
 /* ------------------------------------------------------------------------------ */
 
 @media only screen and (max-width: 900px) {
-  .main-title {
-    font-size: 16px;
-    font-weight: bold;
-    margin: auto;
-  }
 
   .menu-item {
     background-color: #fdad54;
@@ -1137,6 +1132,30 @@ img[alt="large"] {
     width: 100%;
     height: auto;
   }
+
+  /* Language dropdown element
+  div:has(> .dropdown__menu) {
+    background-color: red !important;
+    position: absolute;
+    left: 0px;
+  } 
+  */
+
+  .footer__links div:nth-child(2) {
+    flex: none;
+    position: absolute;
+    left: 50%;
+  }
   
+  .main-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-self: center;    
+  }
 }
+/* End of Mobile devices support */
+/* ------------------------------------------------------------------------------ */
+
 
