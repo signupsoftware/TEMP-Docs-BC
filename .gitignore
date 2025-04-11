@@ -24,3 +24,4 @@ deploy.ps1
 # Just in case
 docusaurus.config.js
 
+do.bat
