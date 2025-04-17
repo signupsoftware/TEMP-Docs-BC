@@ -70,8 +70,8 @@ const lnk_relnotes = 'docs/user-manual/welcome-to-exflow/release-notes'; //'rele
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ExFlow Documentation Platform',
-  tagline: 'ExFlow Documentation Platform',
+  title: 'SignUp Software Documentation Platform',
+  tagline: 'Documentation for SignUp Software products',
   favicon: 'img/favicon.ico',
 
 
