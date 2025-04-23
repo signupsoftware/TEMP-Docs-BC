@@ -54,3 +54,25 @@ Wenn "Keine Bestellabgleichung" deaktiviert ist und das interpretierte Dokument 
 Wenn "Keine Bestellabgleichung" aktiviert ist und das interpretierte Dokument eine interpretierte Bestellnummer hat, verwendet das System die in der "ExFlow OCR-Import-Mapping"-Einrichtung angegebenen Werte, einschließlich der Dimensionen. Dimensionen werden nur auf Zeilen, nicht auf Kopfzeilen, gesetzt.
 
 ![ExFlow OCR-Import-Mapping - Keine Bestellabgleichung - Aktiviert](../../images/ocr-import-mapping-004.png)
+
+## OCR-Import
+
+Gehe zu: **ExFlow Einrichtung --> OCR-Import**
+
+### MwSt.-Mapping
+
+Lassen Sie ExFlow beim Mapping von importierten MwSt.-Prozentsätzen zu MwSt.-Produktbuchungsgruppen helfen.
+
+Gehe zu: **ExFlow Einrichtung --> Aktionen --> Funktionen --> OCR --> MwSt.-Mapping**
+
+![MwSt. Mapping](../../images/vat-mapping-001.png)
+
+Bearbeiten Sie die Liste und fügen Sie die MwSt.-Mapping-Werte hinzu, die zugeordnet werden sollen. Wählen Sie die MwSt.-Produktbuchungsgruppe aus, der sie unter ''MwSt.-Produktbuchungsgruppe'' zugeordnet werden soll.
+
+![MwSt. Mapping](../../images/vat-mapping-002.png)
+
+#### Warnmeldungen für MwSt.-Mapping deaktivieren
+
+Gehe zu OCR-Import --> Warnmeldungen für MwSt.-Mapping deaktivieren, um die Warnmeldungen für MwSt.-Mapping auszuschalten.
+
+Wenn deaktiviert, werden im Import-Journal keine Warnmeldungen für die importierten Werte bezüglich des MwSt.-Produktbuchungsgruppen-Mappings angezeigt.

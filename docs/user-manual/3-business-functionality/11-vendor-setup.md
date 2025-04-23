@@ -27,7 +27,7 @@ The default settings are displayed in the ExFlow Vendor Setup list. Utilize Pers
 |**Related --> Auto Receiving Line Types**	|Edit or view Line Types that should be automatically received for a specific vendor.<br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
 |**Related --> Item No. Matching Priority**	|Determine the order in which the system attempts to match imported invoices against items and order lines. <br/><br/> Read more about this under section [***Item No. Matching Priority***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
 |**Related --> ExFlow Setup**	|Opens [***ExFlow Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-setup)
-|**Related --> Audit Log --> Audit Log**	|Opens Audit Log Overview. <br/><br/> Read more about this under section [***Audit Log***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/audit-log#audit-log)
+|**Related --> Audit Log --> Audit Log**	|Opens Audit Log Overview, if activated. <br/><br/> Read more about this under section [***Audit Log***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/audit-log#audit-log)
 
 <br/> 
 
@@ -43,11 +43,7 @@ Click on the section or ''Show more'' to display all settings.
 
 ### General
 
-The option ''From ExFlow Setup'' is set per default in most settings, meaning that ExFlow will take the default setup (from [***ExFlow Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-setup#exflow-setup)) if no other setup is selected on the Vendor Setup Card for the specific vendor.
-
-
-
-![ExFlow Vendor Setup](@site/static/img/media/Vendor-setup-card-002.png)
+The option ''From ExFlow Setup'' is set per default in most settings on the ExFlow Vendor Setup Card, meaning that ExFlow will take the default setup (from [***ExFlow Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-setup#exflow-setup)) if no other setup is selected on the Vendor Setup Card for the specific vendor.
 
 |General|  |
 |:-|:-|
@@ -91,12 +87,12 @@ The option ''From ExFlow Setup'' is set per default in most settings, meaning th
 
 <br/>
 
-### PO Matching
+### Order Matching
 
-|PO Matching|  |
+|Order Matching|  |
 |:-|:-|
 |**Match Documents To**|  Specifies if ExFlow should match and retrieve lines from Purchase Orders or from Posted Receipts, or from both Orders and Receipts. <br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
-|**Automatically Receive Purchase Order**|  	Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order" or "Order and Receipt". 
+|**Automatically Receive Order**|  	Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order" or "Order and Receipt". 
 |**Specific Line Diff Unit Cost Setting**| The fields ''In LCY’’ and ‘’Percent %’’ will be visible when enabling this setting.
 |**Specific Max Misc. Setting**| Enable to activate the Max. Misc. function.
 |**Max Misc. Charges (LCY)**| Enter the max misc charges in LCY.
@@ -109,10 +105,10 @@ The option ''From ExFlow Setup'' is set per default in most settings, meaning th
 |**Save Matched Lines to OCR Mapping**|This option can be used to automatically save manually matched invoice lines from "Matching View" based on vendor, interpreted Item No. These lines will be saved in the ExFlow OCR Import Mapping table and can be re-used to suggest matching for future PO-invoices with same criteria
 |**Multiple Line Matching**|  	This setting enables ExFlow to match one invoice line to multiple order lines or receipt lines. If the quantity of the invoice line is greater than the quantity of the order line, ExFlow will split the invoice line and proceed to partially match with other available order lines or receipt lines.
 |**Check Split Invoice Lines**|  	If “Multiple Line Matching” is true, ExFlow will give action messages for each line that has been split which gives the user an option to manually confirm the suggested matching before creating the document. Turning this setting to false means that no action message will be displayed for matched split lines.
-|**Use PO Header Values on Invoice**|  	Activate fields to transfer from Purchase Order to Invoice (Or Return Purchase Order to Credit Memo) in Import Journal when using order matching on header level. Selected values can be found and updated under Related --> Advanced --> PO Header values on Invoice Setup. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
-|**Auto Approve Invoices**|  	Specifies if the invoice should be auto approved if the related order is approved. <br/><br/> Read more about this under section [***Auto Approve Invoices***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
-|**Max. Invoice Amount for System Approval (LCY)**| Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
-|**User for Automatic Approval**|  	Specifies the ExFlow user that should be used for auto approved invoices. If this setting is empty, then the id of the logged in BC user is used
+|**Copy Header Values to Invoice/Credit Memo**|  	Activate fields to transfer from Purchase Order to Invoice (Or Return Purchase Order to Credit Memo) in Import Journal when using order matching on header level. Selected values can be found and updated under Related --> Advanced --> PO Header values on Invoice Setup. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
+|**Auto-Approve Documents**|  	Specifies if the invoice should be auto approved if the related order is approved. <br/><br/> Read more about this under section [***Auto Approve Invoices***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
+|**Max. Amount for Auto-Approval (LCY)**| Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
+|**User for Auto-Approval**|  	Specifies the ExFlow user that should be used for auto approved invoices. If this setting is empty, then the id of the logged in BC user is used
 |**Check Direct Unit Cost**| Specify if ExFlow should check the Unit Cost on the invoice line when matching invoices against purchase orders. The imported invoice needs to be line interpreted for this to work.
 
 <br/>

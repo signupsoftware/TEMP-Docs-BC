@@ -10,7 +10,7 @@ ExFlow OMNI Approval is a way for Business Central users to approve different fu
 
 ### ExFlow OMNI Documents Setup
 
-Go to: ***Setup --> ExFlow OMNI Approval --> ExFlow OMNI Document Setup***
+Go to: ***ExFlow AP Setup - Overview --> ExFlow OMNI Approval --> ExFlow OMNI Document Setup***
 
 In ExFlow OMNI Document Setup there are two different OMNI Types, Contract and Approval Rule.
 
@@ -20,7 +20,7 @@ The OMNI Type is the area that will require approval. It's possible to set the m
 
 Enable "Allow Concurrent Approval" if all Approval Groups should be allowed to approve the document at the same time or go to the first Business Central user in the list.
 
-![ExFlow OMNI Document Setup - Contrac](@site/static/img/media/omni-document-setup-001.png)
+![ExFlow OMNI Document Setup - Contract](@site/static/img/media/omni-document-setup-001.png)
 
 Same kind of setting needs to be done for OMNI Type "Approval Rule" if an approval on an ExFlow Approval Rule is needed before it can be used.
 
@@ -28,7 +28,7 @@ Same kind of setting needs to be done for OMNI Type "Approval Rule" if an approv
 
 ### ExFlow OMNI Approval Rules
 
-Go to: ***Setup --> ExFlow OMNI Approval --> ExFlow OMNI Approval Rule***
+Go to: ***ExFlow AP Setup --> ExFlow OMNI Approval --> ExFlow OMNI Approval Rule***
 
 ExFlow OMNI Approval Rule allows different approval rules for the different OMNI types "Contract" and "Approval Rule".
 
@@ -79,7 +79,7 @@ All ExFlow OMNI Approval Rules can be viewed in the ExFlow OMNI Approval Rule li
 
 ### ExFlow OMNI Approval Status
 
-Go to: ***Setup --> ExFlow OMNI Approval --> ExFlow OMNI Approval Status***
+Go to: ***ExFlow OMNI Approval --> ExFlow OMNI Approval Status***
 
 The Business Central user can see all documents pending for approval in ExFlow OMNI Approval. It is also possible to see approved, forwarded, and rejected OMNI document. When the status on a document is "Approved" the document are then ready to be used in ExFlow.
 
@@ -95,7 +95,7 @@ From this page it is possible to open the original card, change to a different a
 
 ### ExFlow OMNI Approval Documents
 
-Go to: ***Setup --> ExFlow OMNI Approval --> ExFlow OMNI Approval Documents***
+Go to: ***ExFlow OMNI Approval --> ExFlow OMNI Approval Documents***
 
 In ExFlow OMNI Approval Documents the specific Business Central user can see all their documents out for approval in "My Current Approvals". It is also possible to see the Business Central user's future and historical approvals.
 

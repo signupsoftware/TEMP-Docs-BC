@@ -18,7 +18,6 @@ When a document is created from the ExFlow Import Journal, and therefore sent fo
 |**Post Batch**|    [***Post Batch***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#post-batch)
 |**Card**|    Opens the standard purchase document card
 |**Send Reminder**|     [***Send Reminder***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#send-reminder)
-|**Open PDF-Viewer in New Tab**|   [***Open PDF-Viewer in New Tab***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
 |**Force Update of Purchase Document**|  [***Force Update of Purchase Document***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#force-update-on-purchase-document)
 |**Filter on approver**|   [***Filter on approver***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
 |*Actions--> Functions*|    
@@ -47,7 +46,6 @@ When a document is created from the ExFlow Import Journal, and therefore sent fo
 |**Show Document Image**|   [***Download or open PDF***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-document-image)
 |**Show Import Details (OCR)**|    [***Show import details***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-import-details)
 |**Import or Replace Image**|  [***Import or Replace Image***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#import-or-replace-image)  
-|**Related--> Files-->Other--> Open PDF-Viewer in New Tab**|    [***Open PDF-Viewer in New Tab***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
 |*Related--> Approvers*|    
 |**Approval follow-up**|    Run report [***ExFlow Approval Follow-Up***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-intelligence-and-reporting/reports#exflow-approval-follow-up)
 |**Per Approver**|    Shows a filtered page on per approver
@@ -203,7 +201,9 @@ Read more under section [***ExFlow Email Setup --> Rejected Order, Rejected Quot
 ### Open PDF- Viewer in New Tab
 It is possible to open the PDF in a new separate tab to get a better view of the document image. 
 
-![ExFlow Approval Status- Open PDF - Viewer in New Tab](@site/static/img/media/image254.png)
+This function is moved from the Approval Status menu to the PDF FactBox on the right side.
+
+Read more about this under ''FactBoxes In Approval Status''.
 
 ### Force Update on Purchase Document
 
@@ -379,22 +379,28 @@ Find useful FactBoxes on the right side in Approval Status.
 ### PDF Preview
 Change size on PDF Preview Press - / + to decrease or increase size of PDF.
 
-![ExFlow Approval Status](@site/static/img/media/image262.png)
+![ExFlow Import Journal](@site/static/img/media/image215.png)
 
 Reset size of FactBox Click "Restore".
 
-![PDF Preview](@site/static/img/media/image263.png)
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/image216.png)
 
 "Zoom Out", "Zoom In" and Reset Zoom
 
-![PDF Preview](@site/static/img/media/image264.png)
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/image217.png)
+
+Open the PDF in a new separate tab to get a better view of the document image.  
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png) 
 
 Change PDF page No. use "Record Buttons".
 
-![PDF Preview](@site/static/img/media/image265.png)
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/image218.png)
 
-Open PDF file in full size.<br/>
-Go to: ***Navigate --> Files --> Show Document Image (Ctrl+I)***<br/>
+To open PDF file in full size:
+
+Go to: ***Related --> Files --> Show Document Image (Ctrl+I)***
+
 
 ### Incoming Document Files
 View and add Attach File. To attach a document without replace Main Attachment.<br/>

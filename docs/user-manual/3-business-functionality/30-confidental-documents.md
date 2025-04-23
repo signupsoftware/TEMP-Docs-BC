@@ -158,4 +158,10 @@ For instance, if an approver (regardless of confidential access) tries to search
 
 
 
+### Allow Coding Changes on ExFlow Web
+Go to: **ExFlow Setup --> Confidential Documents --> Allow Coding Changes on Web**
+
+Enable ''Allow Coding Changes on Web'' to allow coding changes on ExFlow Web. The web approver will then be permitted to change a current coding for their confidential document. 
+
+If splitting the lines on ExFlow web, then the current confidential approval flow will be copied over to the changed coding. It will however not be possible to add other confidential approval flows or to add non-confidential approvers to approve the adjusted coding. 
 

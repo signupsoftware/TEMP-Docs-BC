@@ -77,3 +77,11 @@ El ''Tipo de Mensaje'' estándar en el Diario de Importación se establece en "N
 Sin embargo, es posible ir a la Tarjeta de Configuración del Proveedor y establecer otro Tipo de Mensaje para un proveedor específico, si es necesario. 
 
 ![Configuración de ExFlow - Diario de Importación - Localización Finlandesa](@site/static/img/media/FI-message-type-001.png)
+
+
+
+### Nº de referencia a las facturas de autofacturación del contrato de ExFlow
+
+Al crear autofacturas, el tipo de mensaje de autofacturación (para el número de referencia) y el mensaje de factura de autofacturación se copiarán en el encabezado del diario de importación.
+
+En los Períodos de Factura de Contratos, también se introducen los campos: ''Tipo de Mensaje de Autofacturación'' y ''Mensaje de Factura de Autofactura'', para que los usuarios realicen ajustes manuales por línea. Esto también seguirá a Importar diario.

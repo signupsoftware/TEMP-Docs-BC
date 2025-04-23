@@ -453,6 +453,18 @@ Um das PDF im Vollbildmodus für ein ausgewähltes Dokument zu öffnen oder verw
 ## Kopfzeilenfelder
 Hier werden einige ''Wissenswerte'' Felder präsentiert.
 
+### Dokument blockieren
+Im Journalkopf importieren kann der Access Point die Erstellung oder Buchung eines Dokuments blockieren.
+
+#### Block für die Erstellung
+Blockieren Sie das Dokument, um es in der Importerfassung zu erstellen, und senden Sie es zur Genehmigung.
+
+#### Sperre für Buchung
+Blockieren Sie die Buchung des Belegs im Genehmigungsstatus.
+
+![ExFlow Import Journal](@site/static/img/media/import-journals-block-document-001.png)
+
+
 ### Gilt-für-Dokument
 Es besteht die Möglichkeit, Zahlungen auf ein Dokument anzuwenden. Z.B. um eine Rechnung auf eine Gutschrift in den Kreditorenposten anzuwenden, wenn die Gutschrift gebucht wird.<br/>
 Um diese Felder zu verwenden, müssen sie zuerst durch Personalisierung hinzugefügt werden.
@@ -641,6 +653,11 @@ Setzen Sie die Größe der FactBox zurück. Klicken Sie auf "Wiederherstellen".
 "Verkleinern", "Vergrößern" und Zoom zurücksetzen
 
 ![ExFlow Importjournal - PDF-Vorschau](../../images/image217.png)
+
+Öffnen Sie die PDF-Datei in einer neuen separaten Registerkarte, um eine bessere Ansicht des Dokumentbildes zu erhalten.
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png) 
+
 
 Ändern Sie die PDF-Seitennummer mit den "Aufnahmetasten".
 
