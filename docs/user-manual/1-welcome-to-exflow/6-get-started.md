@@ -21,7 +21,7 @@ Before running the ExFlow Get Started Wizard, there are a few prerequisites that
 
 Download and Install ExFlow: Visit the Microsoft AppSource marketplace and locate the ExFlow extension as a Free Trial. 
 
-![Get Started Wizard - Microsoft AppSource](@site/static/img/media/get-started-001-appsource.png)
+![Get Started Wizard - Microsoft AppSource](/img/media/get-started-001-appsource.png)
 
 Enter company details and select which tenant to install ExFlow in and what language. Once the installation is completed, obtain the ExFlow license key from your authorized ExFlow Partner.
 
@@ -29,7 +29,7 @@ Enter company details and select which tenant to install ExFlow in and what lang
 
 Search for ExFlow License Activation and enter the license key:
 
-![Get Started Wizard - License Activation](@site/static/img/media/get-started-002-license-activation.png)
+![Get Started Wizard - License Activation](/img/media/get-started-002-license-activation.png)
 
 Once these initial steps are completed, one can proceed to run the Get Started Wizard.
 
@@ -42,22 +42,22 @@ Read more about this under ''Get Started Wizard'' and ''License Provider'' furth
 ### Copy Setup from another company
 If ExFlow have been previously installed and configured in other companies within the same tenant, it is possible to utilize the option to copy the ExFlow setup. This feature is particularly valuable when there is a need to apply the same or similar configuration settings to the new company.
 
-![Get Started Wizard - Copy ExFlow Setup](@site/static/img/media/get-started-004-do-you-want-to-copy.png)
+![Get Started Wizard - Copy ExFlow Setup](/img/media/get-started-004-do-you-want-to-copy.png)
 
-![Get Started Wizard - Copy ExFlow Setup](@site/static/img/media/get-started-005-copy-exflow-setup.png)
+![Get Started Wizard - Copy ExFlow Setup](/img/media/get-started-005-copy-exflow-setup.png)
 
 
 ## Get Started Wizard
 
 Search for *ExFlow Get Started Wizard*:
 
-![Get Started Wizard](@site/static/img/media/get-started-003-search.png)
+![Get Started Wizard](/img/media/get-started-003-search.png)
 
 Firstly, utilize the comprehensive video tutorial that walks through each step of the wizard, explaining the process in a visual and engaging manner. Simply click on the [***Watch Video***](https://www.signupsoftware.com/get-started-video/) link to access it and follow along with the instructions. 
 
 Secondly, we have prepared a detailed step-by-step guide that provides written instructions on executing the wizard. This guide offers clear explanations and helpful tips to ensure a smooth and successful setup experience.
 
-![Get Stared Wizard](@site/static/img/media/get-started-006-exflow-get-started-wizard.png)
+![Get Stared Wizard](/img/media/get-started-006-exflow-get-started-wizard.png)
 
 ### Subscription Activation 
 
@@ -65,19 +65,19 @@ If not having a license activated in ''ExFlow License Activation'', then this pa
 
 Enable ''I have a Subscription'' if Subscription via License Provider are used in another Business Central environment and same license should be applied on this new environment, within same tenant.
 
-![Get Stared Wizard](@site/static/img/media/get-started-sub-activation-001.png)
+![Get Stared Wizard](/img/media/get-started-sub-activation-001.png)
 
 When enabled, information about your Customer ID and Partner Code needs to be entered to activate the license. 
 
 Customer ID is the unique ID of the customer assigned by SignUp Marketplace. Click on next to proceed to add the ''Approval Assignment''.  
 
-![Get Stared Wizard](@site/static/img/media/get-started-sub-activation-002.png)
+![Get Stared Wizard](/img/media/get-started-sub-activation-002.png)
 
 If you do not have a subscription in other environments, then leave the checkbox disabled and click on Next to proceed with new Customer Registration. 
 
 Add the partner information and company information to continue. The Next step will take you to ''Approval Assignment''.  
 
-![Get Stared Wizard](@site/static/img/media/get-started-sub-activation-003.png)
+![Get Stared Wizard](/img/media/get-started-sub-activation-003.png)
 
 
 ### Approval Assignment
@@ -90,7 +90,7 @@ As an illustration, consider the following example that outlines the desired ord
 3.	Dimension owner of the Region dimension
 In this scenario, the approver assignment for a document will follow the specified sequence. First, the purchaser will be assigned as the initial approver. Next, the dimension owner of the Department dimension will review the document. Finally, the dimension owner of the Region dimension will provide their approval.
 
-![Get Started Wizard - Approval Assignment](@site/static/img/media/get-started-007-approval-assignment.png)
+![Get Started Wizard - Approval Assignment](/img/media/get-started-007-approval-assignment.png)
 
 
 ### Create Users
@@ -101,7 +101,7 @@ Updates or modifications on existing ExFlow users should be executed from “ExF
 It’s important to note that the user executing the Get Started Wizard will be created as an ExFlow Admin User. This grants them administrative ExFlow privileges within the current company.
 
 
-![Get Started Wizard - Business Central Users](@site/static/img/media/get-started-008-business-central-users.png)
+![Get Started Wizard - Business Central Users](/img/media/get-started-008-business-central-users.png)
 
 
 ### ExFlow Users
@@ -114,7 +114,7 @@ Complete the setup of ExFlow users by finalizing their attributes, email address
 •	Approver (Super): Can make coding changes, search, and view all invoices within the company.<br/>
 •	Admin: Intended for accountants and administrators of ExFlow in Business Central, providing access to setup.
 
-![Get Started Wizard - Assign Dimensions](@site/static/img/media/get-started-009-assign-dimensions.png)
+![Get Started Wizard - Assign Dimensions](/img/media/get-started-009-assign-dimensions.png)
 
 
 ### Automated Tasks
@@ -125,7 +125,7 @@ Select and schedule the necessary processes and email reminders to automate your
 
 Additionally, configure email reminders to keep users informed and prompt their attention for pending approvals, approaching deadlines, or any other important events within the workflow. Enhance communication and ensure a smooth flow of invoice processing by leveraging email notifications:
 
-![Get Started Wizard – Automated Tasks](@site/static/img/media/get-started-010-automated-tasks.png)
+![Get Started Wizard – Automated Tasks](/img/media/get-started-010-automated-tasks.png)
 
 
 ### ExFlow Data Capture
@@ -136,7 +136,7 @@ Establishing a connection to ExFlow Data Capture is essential to enable a integr
 
 Click Enable to enter OCR Service Setup where necessary information needs to be entered.
 
-![Get Started Wizard – ExFlow Data Capture](@site/static/img/media/get-started-011-exflow-data-capture.png)
+![Get Started Wizard – ExFlow Data Capture](/img/media/get-started-011-exflow-data-capture.png)
 
 To initiate the connection, you will need the following information provided by SignUp Software:
 1.	User Name: The username associated with your ExFlow Data Capture account.
@@ -146,7 +146,7 @@ To initiate the connection, you will need the following information provided by 
 
 Click close to get back to the Get Started Wizard.
 
-![Get Started Wizard – ExFlow Data Capture Account](@site/static/img/media/get-started-012-exflow-data-capture-account-card.png)
+![Get Started Wizard – ExFlow Data Capture Account](/img/media/get-started-012-exflow-data-capture-account-card.png)
 
 Schedule the synchronization of master data  and check the ''Enabled''- box to permit synchronization between ExFlow and ExFlow Data Capture.
 The synchronization of vendors from Business Central to ExFlow Data Capture will be scheduled to run every 10 minutes.<br/>
@@ -167,21 +167,21 @@ Additionally, ExFlow utilizes your Posted Purchase Invoice history in Business C
 
 Once you have made your selections and finalized the additional options, you are ready to complete the ExFlow Get Started Wizard and enjoy the full benefits of ExFlow in your business operations.
 
-![Get Started Wizard – Additional Options](@site/static/img/media/get-started-014-additional-options.png)
+![Get Started Wizard – Additional Options](/img/media/get-started-014-additional-options.png)
 
 
 #### Finish
 
 Congratulations! You have successfully provided all the necessary information to initiate the setup according to your preferences. Click the "Finish" button to finalize the configuration and initiate the ExFlow setup based on your selections.
 
-![Get Started Wizard – Complete](@site/static/img/media/get-started-015-complete.png)
+![Get Started Wizard – Complete](/img/media/get-started-015-complete.png)
 
 
 ##### **Other**
 
 If you exit the wizard at any point, don't worry! The system will prompt you with option: Run Later, to save your entered data, allowing you to continue from where you left off at a later time. This way, you can conveniently pick up the setup process right where you left it without losing any progress or having to start from scratch.
 
-![Get Started Wizard – Keep Data](@site/static/img/media/get-started-016-keep-data.png)
+![Get Started Wizard – Keep Data](/img/media/get-started-016-keep-data.png)
 
 
 
@@ -216,7 +216,7 @@ Unlike the "OCR Service Setup" the ExFlow Data Capture Accounts configuration al
 This is due to the user account having access to all companies in EDC.
 Important: Select the correct Company as Buyer and Master Data-filter during configuration to ensure the connection is established with the intended company.
 
-![ExFlow Data Capture Account](@site/static/img/media/exflow-data-capture-account-card-001.png) 
+![ExFlow Data Capture Account](/img/media/exflow-data-capture-account-card-001.png) 
 
 ### Finalizing Configuration:
 Verify the entered details before finalizing the configuration process.
@@ -239,7 +239,7 @@ License Provider also improves visibility into licensed products and simplifies 
 
 When a license is activated, the licensed product(s) will be displayed:
 
-![small](@site/static/img/media/LP-001.png)<br/>
+![small](/img/media/LP-001.png)<br/>
 
 | License Provider menu    |   | 
 |:-|:-|
@@ -257,7 +257,7 @@ SignUp Feature Management allows users and developers to control when new and bi
 
 SignUp Feature Management works with License Provider and will only allow a feature to be enabled if an appropriate license is available for the app and/or feature.
 
-![FM](@site/static/img/media/FM-001.png)<br/>
+![FM](/img/media/FM-001.png)<br/>
 
 
 ## Order Matching Wizards

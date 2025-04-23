@@ -21,7 +21,7 @@ Bevor Sie den ExFlow Erste-Schritte-Assistenten ausführen, müssen einige Vorau
 
 Herunterladen und Installieren von ExFlow: Besuchen Sie den Microsoft AppSource Marketplace und suchen Sie die ExFlow-Erweiterung als kostenlose Testversion. 
 
-![Erste-Schritte-Assistent - Microsoft AppSource](../../images/get-started-001-appsource.png)
+![Erste-Schritte-Assistent - Microsoft AppSource](/img/media/get-started-001-appsource.png)
 
 Geben Sie die Unternehmensdaten ein und wählen Sie, in welchem Mandanten und in welcher Sprache ExFlow installiert werden soll. Nach Abschluss der Installation erhalten Sie den ExFlow-Lizenzschlüssel von Ihrem autorisierten ExFlow-Partner.
 
@@ -29,7 +29,7 @@ Geben Sie die Unternehmensdaten ein und wählen Sie, in welchem Mandanten und in
 
 Suchen Sie nach ExFlow-Lizenzaktivierung und geben Sie den Lizenzschlüssel ein:
 
-![Erste-Schritte-Assistent - Lizenzaktivierung](../../images/get-started-002-license-activation.png)
+![Erste-Schritte-Assistent - Lizenzaktivierung](/img/media/get-started-002-license-activation.png)
 
 Sobald diese ersten Schritte abgeschlossen sind, können Sie mit der Ausführung des Erste-Schritte-Assistenten fortfahren.
 
@@ -42,22 +42,22 @@ Lesen Sie mehr darüber unter "Erste-Schritte-Assistent" und "Lizenzanbieter" we
 ### Einrichtung von einem anderen Unternehmen kopieren
 Wenn ExFlow bereits in anderen Unternehmen innerhalb desselben Mandanten installiert und konfiguriert wurde, besteht die Möglichkeit, die ExFlow-Einrichtung zu kopieren. Diese Funktion ist besonders wertvoll, wenn die gleichen oder ähnliche Konfigurationseinstellungen auf das neue Unternehmen angewendet werden müssen.
 
-![Erste-Schritte-Assistent - ExFlow-Einrichtung kopieren](../../images/get-started-004-do-you-want-to-copy.png)
+![Erste-Schritte-Assistent - ExFlow-Einrichtung kopieren](/img/media/get-started-004-do-you-want-to-copy.png)
 
-![Erste-Schritte-Assistent - ExFlow-Einrichtung kopieren](../../images/get-started-005-copy-exflow-setup.png)
+![Erste-Schritte-Assistent - ExFlow-Einrichtung kopieren](/img/media/get-started-005-copy-exflow-setup.png)
 
 
 ## Erste-Schritte-Assistent
 
 Suchen Sie nach *ExFlow Erste-Schritte-Assistent*:
 
-![Erste-Schritte-Assistent](../../images/get-started-003-search.png)
+![Erste-Schritte-Assistent](/img/media/get-started-003-search.png)
 
 Nutzen Sie zunächst das umfassende Videotutorial, das jeden Schritt des Assistenten durchgeht und den Prozess visuell und ansprechend erklärt. Klicken Sie einfach auf den Link [***Video ansehen***](https://www.signupsoftware.com/get-started-video/), um darauf zuzugreifen und den Anweisungen zu folgen. 
 
 Zweitens haben wir eine detaillierte Schritt-für-Schritt-Anleitung vorbereitet, die schriftliche Anweisungen zur Ausführung des Assistenten enthält. Diese Anleitung bietet klare Erklärungen und hilfreiche Tipps, um ein reibungsloses und erfolgreiches Einrichtungserlebnis zu gewährleisten.
 
-![Erste-Schritte-Assistent](../../images/get-started-006-exflow-get-started-wizard.png)
+![Erste-Schritte-Assistent](/img/media/get-started-006-exflow-get-started-wizard.png)
 
 ### Abonnement-Aktivierung 
 
@@ -65,19 +65,19 @@ Wenn keine Lizenz in "ExFlow-Lizenzaktivierung" aktiviert ist, wird diese Seite 
 
 Aktivieren Sie "Ich habe ein Abonnement", wenn das Abonnement über den Lizenzanbieter in einer anderen Business Central-Umgebung verwendet wird und dieselbe Lizenz in dieser neuen Umgebung innerhalb desselben Mandanten angewendet werden soll.
 
-![Erste-Schritte-Assistent](../../images/get-started-sub-activation-001.png)
+![Erste-Schritte-Assistent](/img/media/get-started-sub-activation-001.png)
 
 Wenn aktiviert, müssen Informationen über Ihre Kunden-ID und Ihren Partner-Code eingegeben werden, um die Lizenz zu aktivieren. 
 
 Die Kunden-ID ist die eindeutige ID des Kunden, die vom SignUp Marketplace zugewiesen wurde. Klicken Sie auf Weiter, um mit der Hinzufügung der "Genehmigungszuweisung" fortzufahren.  
 
-![Erste-Schritte-Assistent](../../images/get-started-sub-activation-002.png)
+![Erste-Schritte-Assistent](/img/media/get-started-sub-activation-002.png)
 
 Wenn Sie kein Abonnement in anderen Umgebungen haben, lassen Sie das Kontrollkästchen deaktiviert und klicken Sie auf Weiter, um mit der neuen Kundenregistrierung fortzufahren. 
 
 Fügen Sie die Partnerinformationen und Unternehmensinformationen hinzu, um fortzufahren. Der nächste Schritt führt Sie zur "Genehmigungszuweisung".  
 
-![Erste-Schritte-Assistent](../../images/get-started-sub-activation-003.png)
+![Erste-Schritte-Assistent](/img/media/get-started-sub-activation-003.png)
 
 
 ### Genehmigungszuweisung
@@ -90,7 +90,7 @@ Zur Veranschaulichung betrachten Sie das folgende Beispiel, das die gewünschte 
 3.	Dimensionseigentümer der Regionsdimension
 In diesem Szenario folgt die Genehmigerzuweisung für ein Dokument der angegebenen Sequenz. Zuerst wird der Einkäufer als erster Genehmiger zugewiesen. Als Nächstes wird der Dimensionseigentümer der Abteilungsdimension das Dokument prüfen. Schließlich wird der Dimensionseigentümer der Regionsdimension seine Genehmigung erteilen.
 
-![Erste-Schritte-Assistent - Genehmigungszuweisung](../../images/get-started-007-approval-assignment.png)
+![Erste-Schritte-Assistent - Genehmigungszuweisung](/img/media/get-started-007-approval-assignment.png)
 
 
 ### Benutzer erstellen
@@ -101,7 +101,7 @@ Aktualisierungen oder Änderungen an bestehenden ExFlow-Benutzern sollten über 
 Es ist wichtig zu beachten, dass der Benutzer, der den Erste-Schritte-Assistenten ausführt, als ExFlow-Administrator-Benutzer erstellt wird. Dies gewährt ihm administrative ExFlow-Rechte innerhalb des aktuellen Unternehmens.
 
 
-![Erste-Schritte-Assistent - Business Central-Benutzer](../../images/get-started-008-business-central-users.png)
+![Erste-Schritte-Assistent - Business Central-Benutzer](/img/media/get-started-008-business-central-users.png)
 
 
 ### ExFlow-Benutzer
@@ -114,7 +114,7 @@ Vervollständigen Sie die Einrichtung von ExFlow-Benutzern, indem Sie ihre Attri
 •	Genehmiger (Super): Kann Codierungsänderungen vornehmen, alle Rechnungen innerhalb des Unternehmens suchen und anzeigen.<br/>
 •	Admin: Für Buchhalter und Administratoren von ExFlow in Business Central gedacht, bietet Zugang zur Einrichtung.
 
-![Erste-Schritte-Assistent - Dimensionen zuweisen](../../images/get-started-009-assign-dimensions.png)
+![Erste-Schritte-Assistent - Dimensionen zuweisen](/img/media/get-started-009-assign-dimensions.png)
 
 
 ### Automatisierte Aufgaben
@@ -125,7 +125,7 @@ Wählen und planen Sie die notwendigen Prozesse und E-Mail-Erinnerungen, um Ihre
 
 Konfigurieren Sie zusätzlich E-Mail-Erinnerungen, um Benutzer informiert zu halten und ihre Aufmerksamkeit für ausstehende Genehmigungen, nahende Fristen oder andere wichtige Ereignisse innerhalb des Workflows zu wecken. Verbessern Sie die Kommunikation und stellen Sie einen reibungslosen Ablauf der Rechnungsverarbeitung sicher, indem Sie E-Mail-Benachrichtigungen nutzen:
 
-![Erste-Schritte-Assistent – Automatisierte Aufgaben](../../images/get-started-010-automated-tasks.png)
+![Erste-Schritte-Assistent – Automatisierte Aufgaben](/img/media/get-started-010-automated-tasks.png)
 
 
 ### ExFlow Data Capture
@@ -136,7 +136,7 @@ Die Einrichtung einer Verbindung zu ExFlow Data Capture ist wesentlich, um eine 
 
 Klicken Sie auf Aktivieren, um zur OCR-Service-Einrichtung zu gelangen, wo notwendige Informationen eingegeben werden müssen.
 
-![Erste-Schritte-Assistent – ExFlow Data Capture](../../images/get-started-011-exflow-data-capture.png)
+![Erste-Schritte-Assistent – ExFlow Data Capture](/img/media/get-started-011-exflow-data-capture.png)
 
 Um die Verbindung zu initiieren, benötigen Sie die folgenden Informationen, die von SignUp Software bereitgestellt werden:
 1.	Benutzername: Der mit Ihrem ExFlow Data Capture-Konto verknüpfte Benutzername.
@@ -146,7 +146,7 @@ Um die Verbindung zu initiieren, benötigen Sie die folgenden Informationen, die
 
 Klicken Sie auf Schließen, um zum Erste-Schritte-Assistenten zurückzukehren.
 
-![Erste-Schritte-Assistent – ExFlow Data Capture-Konto](../../images/get-started-012-exflow-data-capture-account-card.png)
+![Erste-Schritte-Assistent – ExFlow Data Capture-Konto](/img/media/get-started-012-exflow-data-capture-account-card.png)
 
 Planen Sie die Synchronisierung von Stammdaten und aktivieren Sie das Kontrollkästchen "Aktiviert", um die Synchronisierung zwischen ExFlow und ExFlow Data Capture zu ermöglichen.
 Die Synchronisierung von Lieferanten von Business Central zu ExFlow Data Capture wird so eingerichtet, dass sie alle 10 Minuten ausgeführt wird.<br/>
@@ -167,21 +167,21 @@ Zusätzlich nutzt ExFlow Ihren gebuchten Einkaufsrechnungsverlauf in Business Ce
 
 Sobald Sie Ihre Auswahl getroffen und die zusätzlichen Optionen abgeschlossen haben, sind Sie bereit, den ExFlow Erste-Schritte-Assistenten abzuschließen und die vollen Vorteile von ExFlow in Ihren Geschäftsabläufen zu genießen.
 
-![Erste-Schritte-Assistent – Zusätzliche Optionen](../../images/get-started-014-additional-options.png)
+![Erste-Schritte-Assistent – Zusätzliche Optionen](/img/media/get-started-014-additional-options.png)
 
 
 #### Abschluss
 
 Herzlichen Glückwunsch! Sie haben erfolgreich alle notwendigen Informationen bereitgestellt, um die Einrichtung gemäß Ihren Präferenzen zu initiieren. Klicken Sie auf die Schaltfläche "Fertigstellen", um die Konfiguration zu beenden und die ExFlow-Einrichtung basierend auf Ihren Auswahlen zu starten.
 
-![Erste-Schritte-Assistent – Abgeschlossen](../../images/get-started-015-complete.png)
+![Erste-Schritte-Assistent – Abgeschlossen](/img/media/get-started-015-complete.png)
 
 
 ##### **Weiteres**
 
 Wenn Sie den Assistenten zu irgendeinem Zeitpunkt beenden, keine Sorge! Das System wird Ihnen die Option anbieten: Später ausführen, um Ihre eingegebenen Daten zu speichern, damit Sie zu einem späteren Zeitpunkt dort weitermachen können, wo Sie aufgehört haben. Auf diese Weise können Sie den Einrichtungsprozess bequem genau dort fortsetzen, wo Sie ihn verlassen haben, ohne Fortschritte zu verlieren oder von vorne beginnen zu müssen.
 
-![Erste-Schritte-Assistent – Daten behalten](../../images/get-started-016-keep-data.png)
+![Erste-Schritte-Assistent – Daten behalten](/img/media/get-started-016-keep-data.png)
 
 
 
@@ -216,7 +216,7 @@ Im Gegensatz zur "OCR-Service-Einrichtung" ermöglicht die Konfiguration von ExF
 Dies liegt daran, dass das Benutzerkonto Zugriff auf alle Unternehmen in EDC hat.
 Wichtig: Wählen Sie während der Konfiguration das richtige Unternehmen als Käufer und Stammdaten-Filter, um sicherzustellen, dass die Verbindung mit dem beabsichtigten Unternehmen hergestellt wird.
 
-![ExFlow Data Capture-Konto](../../images/exflow-data-capture-account-card-001.png) 
+![ExFlow Data Capture-Konto](/img/media/exflow-data-capture-account-card-001.png) 
 
 ### Abschluss der Konfiguration:
 Überprüfen Sie die eingegebenen Details, bevor Sie den Konfigurationsprozess abschließen.
@@ -239,7 +239,7 @@ Der Lizenzanbieter verbessert auch die Sichtbarkeit von lizenzierten Produkten u
 
 Wenn eine Lizenz aktiviert ist, werden die lizenzierten Produkte angezeigt:
 
-![klein](../../images/LP-001.png)<br/>
+![klein](/img/media/LP-001.png)<br/>
 
 | Lizenzanbieter-Menü    |   | 
 |:-|:-|
@@ -257,7 +257,7 @@ Die SignUp Funktionsverwaltung ermöglicht Benutzern und Entwicklern zu kontroll
 
 Die SignUp Funktionsverwaltung arbeitet mit dem Lizenzanbieter zusammen und erlaubt die Aktivierung einer Funktion nur, wenn eine entsprechende Lizenz für die App und/oder Funktion verfügbar ist.
 
-![FM](../../images/FM-001.png)<br/>
+![FM](/img/media/FM-001.png)<br/>
 
 
 ## Auftragsabgleich-Assistenten

@@ -12,7 +12,7 @@ To use the new Order Matching Experience with the Order Matching Engine and all 
 
 Go to: **SignUp Feature Management** to enable the New Order Matching Feature.
 
-![ExFlow Import Journal - Order No.](@site/static/img/media/FM-001.png)
+![ExFlow Import Journal - Order No.](/img/media/FM-001.png)
  
 Read more about this under section [**Get started**](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started)
 
@@ -24,14 +24,14 @@ This user manual is your go-to guide for setting up your order matching document
 
 Search for ExFlow Order Matching Wizard.
 
-![Order Matching Wizard - Search](@site/static/img/media/new-om-wizard-001.png)
+![Order Matching Wizard - Search](/img/media/new-om-wizard-001.png)
 
 ### General
 
 ### Header- or Line Matching
 The first step in setting up the Order Matching Wizard is to determine whether the matching of documents to purchase orders/return orders should be performed at a header level or line level.
 
-![OM](@site/static/img/media/new-om-wizard-002.png)
+![OM](/img/media/new-om-wizard-002.png)
 
 **Header Level Matching:**
 If you choose header level matching, the Order Matching will compare the overall invoice total with the available total value of the purchase order.
@@ -98,7 +98,7 @@ Matching documents using the logic *“Order and Receipt”*, allows ExFlow to f
 
 This setting allows ExFlow to Post and Invoice the approved quantity of the matched document lines automatically. It’s executed once the document has the status “Ready for Posting” in Approval Status. With this setting disabled, you’re required to post the purchase receipts/shipments manually.
 
-![Order Matching Wizard - Search](@site/static/img/media/new-om-wizard-003.png)
+![Order Matching Wizard - Search](/img/media/new-om-wizard-003.png)
 
 ### Automatic Difference Handling
 The Automatic Difference Handling functionality allows ExFlow to automatically suggest a difference line if any additional or unexpected costs, such as freight or other charges are identified during the order matching. 
@@ -112,7 +112,7 @@ Is where you can specify an allowed tolerance for the automatically suggested di
 ### Complete the Wizard
 Click "Finish" to close the Wizard and apply the settings.
 
-![Order Matching Wizard – Complete the Wizard](@site/static/img/media/new-om-wizard-004.png)
+![Order Matching Wizard – Complete the Wizard](/img/media/new-om-wizard-004.png)
 
 
 
@@ -137,7 +137,7 @@ Above features can also be used on a vendor level in "ExFlow Vendor Setup".
 
 ### Order Matching Setup Sections
 
-![OM Setup](@site/static/img/media/order-matching-setup-001.png)
+![OM Setup](/img/media/order-matching-setup-001.png)
 
 ### General
 | General|   | 
@@ -205,11 +205,11 @@ Start by activating "Copy Header Values on Invoice/Credit Memo" in Order Matchin
 Choose fields to copy in “Copy Header Values on Invoice/Credit Memo”<br/>
 
 
-![Copy Purchase Order Header – Setup](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
+![Copy Purchase Order Header – Setup](/img/media/po-header-value-on-invoice-setup-001.png)
 
 For US and CA localization Tax Liable and Tax Area can also be copied from the Purchase Order to Purchase Invoice.
 
-![Copy Purchase Order Header – Setup CA - US](@site/static/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
+![Copy Purchase Order Header – Setup CA - US](/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
 
 
 ### Auto Receiving Line Types
@@ -219,7 +219,7 @@ Go to: **ExFlow Order Matching Setup --> Related --> Auto Receiving Line Types**
 By enabling “Auto Receiving Line Types” ExFlow will receive all lines that are matched to a Purchase Order or a Return Order. What ExFlow receives is based on allowed line types from "Auto Receiving Line Types Setup" (Setup automatically opens after setting “Auto Receiving Line Types” set as TRUE).
 
 
-![ExFlow Receiving Line Types](@site/static/img/media/auto-receiving-line-types-001.png)
+![ExFlow Receiving Line Types](/img/media/auto-receiving-line-types-001.png)
 
 Click on ''Item'' to make additional settings if you would like to have Auto Receive on Service Items or Non- Inventory Items as well. 
 
@@ -233,7 +233,7 @@ This feature helps to determine the order in which the system attempts to match 
 This can be useful when, for instance, same item no exist in the standard item list as on the vendor item no. Or if importing invoice lines where most are vendor item references, consider giving higher priority to "Item Reference". Disable matching types that give false positive matches or are not used by unchecking them.
 
 
-![Item No. Matching Priority](@site/static/img/media/exflow-setup-item-no-matching-prio-001.png)
+![Item No. Matching Priority](/img/media/exflow-setup-item-no-matching-prio-001.png)
 
 | Item No. Matching Priority |  |
 |:-|:-|
@@ -265,7 +265,7 @@ Order Matching Priority is applied when the incoming document has a related orde
 
 The matching priorities decide in what order the matching methods are applied to purchase lines.
 
-![Item No. Matching Priority](@site/static/img/media/order-matching-prio-001.png)
+![Item No. Matching Priority](/img/media/order-matching-prio-001.png)
 
 
 |Order Matching Priority menu | |
@@ -296,7 +296,7 @@ Go to: **ExFlow Setup --> Related --> Order Matching Priority Setup --> Show Adv
 
 With Multiple Field matching, ExFlow can configure additional matching methods than listed in ExFlow Order Matching Setup. These settings are available on a Vendor specific level, too.
 
-![Matching Priority](@site/static/img/media/multiple-field-002.png)
+![Matching Priority](/img/media/multiple-field-002.png)
 
 Multiple Field Matching feature can match on one or more specified fields from an incoming purchase invoice/credit line against the order/credit documents in Business Central. 
 
@@ -315,12 +315,12 @@ Multiple field matching should not be used in conjunction with other matching me
 
 Matching Import Invoice Line Description (ExFlow Field No: 12013662) to match the Purchase/Return Order line Description (BC Purchase Line Field No: 11, Related Table 39):
 
-![Matching Priority](@site/static/img/media/matching-ex-001.png)
+![Matching Priority](/img/media/matching-ex-001.png)
 
 Matching Import Invoice Item No. Field (ExFlow field No: 6) and Variant Code field (ExFlow Field No: 12068803) to Purchase Line Item No: (6) and Variant Code: (5402):
 
 
-![Matching Priority](@site/static/img/media/matching-ex-002.png)
+![Matching Priority](/img/media/matching-ex-002.png)
 
 Here, the (5401 Item Variant) is added as a related table as the Purchase Line Variant Field is fetched from this table. 
 
@@ -358,7 +358,7 @@ On the Import Journal header, AP can filter on:
 * Order matched Error Types via ''Error Filter''
 * Document status via ''Document Filter''
 
-![OM](@site/static/img/media/import-journal-filter-options-001.png)  
+![OM](/img/media/import-journal-filter-options-001.png)  
 
 ##### Filter Documents With Order Exception 
 
@@ -374,7 +374,7 @@ Filter on Error Type only, or combined with Document Filter.
 
 Document Filter Option ''All Documents Ready to Create'' cannot be filter together with an Error Type, since the document is completed and ready to be sent for approval.
 
-![OM](@site/static/img/media/import-journal-filter-options-002.png) 
+![OM](/img/media/import-journal-filter-options-002.png) 
 
 |Error Type Filter|   |
 |:-|:-|
@@ -414,11 +414,11 @@ Document Filter Option ''All Documents Ready to Create'' cannot be filter togeth
 ### Multiple Error List
 When imported Order Matched document lines with errors are imported to the Import Journal, AP can view all issues in an gathered error list, called Multiple Error List, instead of handling one error, one by one and verifying the document to get the next error.
 
-![OM](@site/static/img/media/mm-002.png) 
+![OM](/img/media/mm-002.png) 
 
 AP can click to inspect the errors. This line has only one error to be handled:
 
-![OM](@site/static/img/media/multiple-error-list-001.png) 
+![OM](/img/media/multiple-error-list-001.png) 
 
 
 ### Manual Order Matching 
@@ -430,7 +430,7 @@ The page presents the document lines of the left hand side and order lines on th
 
 Matched Order Lines will be bolded for clarity, so the AP can easily see which import line that is connected to which order line and can make the correct adjustments.
 
-![OM](@site/static/img/media/mm-001.png) 
+![OM](/img/media/mm-001.png) 
 
 | Manual Order Matching |   | 
 |:-|:-|
@@ -507,7 +507,7 @@ By activating the toggle ''Use Base Quantity'', Accounts Payable (AP) can view a
 
 In this example, we imported an invoice with 2 KARTONG (1 KARTONG=10 PCS) matched to an order with 20 PCS.
 
-![OM](@site/static/img/media/manual-om-001.png) 
+![OM](/img/media/manual-om-001.png) 
 
 
 
