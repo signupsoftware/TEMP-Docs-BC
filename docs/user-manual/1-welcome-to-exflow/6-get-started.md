@@ -239,7 +239,7 @@ License Provider also improves visibility into licensed products and simplifies 
 
 When a license is activated, the licensed product(s) will be displayed:
 
-![small](/img/media/LP-001.png)<br/>
+![LP](/img/media/LP-001.png)<br/>
 
 | License Provider menu    |   | 
 |:-|:-|
