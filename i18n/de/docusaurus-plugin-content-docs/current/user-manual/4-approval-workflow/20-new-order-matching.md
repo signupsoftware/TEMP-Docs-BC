@@ -1,512 +1,512 @@
 ---
-title: New Order Matching Experience
+title: Neue Auftragsabgleich-Erfahrung
 sidebar_position: 20
 hide_title: true
 custom_edit_url: null
 ---
-## New Order Matching Experience
+## Neue Auftragsabgleich-Erfahrung
 
-To use the new Order Matching Experience with the Order Matching Engine and all of its enhancements, the new Purchase Order Matching feature must be enabled in SignUp Feature Management.
+Um die neue Auftragsabgleich-Erfahrung mit der Auftragsabgleich-Engine und all ihren Verbesserungen zu nutzen, muss die neue Funktion für den Einkaufsauftragsabgleich in der SignUp Funktionsverwaltung aktiviert werden.
 
-### SignUp Feature Management
+### SignUp Funktionsverwaltung
 
-Go to: **SignUp Feature Management** to enable the New Order Matching Feature.
+Gehen Sie zu: **SignUp Funktionsverwaltung**, um die neue Auftragsabgleich-Funktion zu aktivieren.
 
-![ExFlow Import Journal - Order No.](/img/media/FM-001.png)
+![ExFlow Import Journal - Auftragsnr.](/img/media/FM-001.png)
  
-Read more about this under section [**Get started**](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started)
+Lesen Sie mehr darüber im Abschnitt [**Erste Schritte**](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started)
 
 
-## Run the New Order Matching Wizard
+## Ausführen des neuen Auftragsabgleich-Assistenten
 
-This user manual is your go-to guide for setting up your order matching document process to effortlessly match documents to orders. Designed with simplicity in mind, the new Order Matching Wizard makes the process straightforward and user-friendly.
+Dieses Benutzerhandbuch ist Ihr Leitfaden für die Einrichtung Ihres Auftragsabgleichsprozesses, um Dokumente mühelos mit Aufträgen abzugleichen. Mit Blick auf Einfachheit konzipiert, macht der neue Auftragsabgleich-Assistent den Prozess unkompliziert und benutzerfreundlich.
 
-Search for ExFlow Order Matching Wizard.
+Suchen Sie nach ExFlow Auftragsabgleich-Assistent.
 
-![Order Matching Wizard - Search](/img/media/new-om-wizard-001.png)
+![Auftragsabgleich-Assistent - Suche](/img/media/new-om-wizard-001.png)
 
-### General
+### Allgemein
 
-### Header- or Line Matching
-The first step in setting up the Order Matching Wizard is to determine whether the matching of documents to purchase orders/return orders should be performed at a header level or line level.
+### Kopf- oder Zeilenabgleich
+Der erste Schritt bei der Einrichtung des Auftragsabgleich-Assistenten besteht darin, festzulegen, ob der Abgleich von Dokumenten mit Einkaufsaufträgen/Rücksendeaufträgen auf Kopfebene oder Zeilenebene durchgeführt werden soll.
 
 ![OM](/img/media/new-om-wizard-002.png)
 
-**Header Level Matching:**
-If you choose header level matching, the Order Matching will compare the overall invoice total with the available total value of the purchase order.
+**Kopfebene-Abgleich:**
+Wenn Sie den Kopfebene-Abgleich wählen, vergleicht der Auftragsabgleich den Gesamtrechnungsbetrag mit dem verfügbaren Gesamtwert des Einkaufsauftrags.
 
-This method is suitable when the details of individual items or services on the invoice do not need to be matched with specific items on the purchase order, or if the invoice line information is too poor for accurate matching.
-
-
-**Line Level Matching:**
-If you choose line level matching, the Order Matching will compare each interpreted invoice line with corresponding line items on the purchase order.
-
-This approach ensures that each individual item or service on the invoice is matched accurately to the corresponding item on the purchase order.
-
-Line matching utilizes interpreted information such as invoice quantity, unit price, line total, and more – to get an accurate match to the corresponding purchase order line and to be able to identify any discrepancies.
-
-### Match Documents To
-The next step is to determine how invoices should be matched to purchase orders in relation to purchase receipts.
-There are three options to consider:
-
-#### **Receipt:**
-Select this option if you want invoices to be matched only to purchase orders that have associated purchase receipts.
-
-Ensuring that the items are received and recorded in the warehouse and align with the invoice, before matching the invoice and sending it for approval and final posting. 
-
-#### **Order and Receipt:**
-If you prefer a combination of Receipt and Order, select this option.
-
-In this case, invoices can be matched to purchase orders with or without associated purchase receipts, providing maximum flexibility in matching scenarios.
-
-Possible to match invoice lines to purchase orders with and without received item lines. Also makes it possible to match invoice lines to partially received item lines on the order and have them sent for approval and posting.
-
-### Automatically Approve Matched Invoices
-
-#### **Never:**
-Select this option if you want all matched invoices to go through a manual approval process. In this case, no invoices will be automatically approved, regardless of any differences or thresholds.
-
-(If Never is selected --> Next step in the wizard would be: Other and Automatic Difference)
-
-#### **If Difference is within Tolerance:**
-Choose this option if you want matched invoices to be automatically approved only when the difference between the invoice and the purchase order falls within the specified allowed threshold or tolerance for automatic approval.
-
-This option allows for efficient processing of invoices with minor discrepancies, ensuring that only significant differences require manual approval.
-
-(If this option is selected --> Next step in the wizard would be: Auto Approval and Tolerance for Auto-Approval)
-
-#### **If Matched Order is Approved:**
-This option adds an additional layer of approval by requiring that the matched order has been reviewed and approved through ExFlow, ensuring that invoices are automatically approved only when the necessary authorization is in place.
-
-(If this option is selected --> Next step in the wizard would be: Auto Approval and Tolerance for Auto-Approval)
-
-### Max Amount for Automatic Approval
-If you have allowed for automatic approval of matched invoices, this is where you can specify the maximum amount for automatic approval. This parameter defines the threshold above which invoices will require manual approval, regardless of the matching results.
-
-### Tolerance Violation Warning
-Enable this setting if you’d like the accountants to receive a warning during the import of purchase matched invoices when there are discrepancies over your allowed tolerance for automatic approval. 
-Either way if this setting is enabled or not, discrepancies higher than your allowed tolerance will always require the invoice line to be manually approved.
-
-### Deviation Direct Unit Cost (%) and Deviation Direct Unit Cost (Amount LCY)
-Define the deviation thresholds for the direct unit cost of invoice lines compared to the matched order lines. These thresholds determine the allowable differences between the invoice and the purchase order for automatic approval.
-
-### Post Receipts & Shipment Automatically
-The "Post Receipts & Shipment Automatically" feature allows for the automatic posting of purchase receipts in the matching process. However, please note that this feature can only be utilized when matching documents to *“Order and Receipt”*.
-
-Matching documents using the logic *“Order and Receipt”*, allows ExFlow to fully match and send an invoice/credit for approval and posting. However, Business Central always requires that Purchase Receipts/Shipments are posted before the matched invoice/credit can be posted and for the Purchase Order/Return order to be invoiced/credited.
-
-This setting allows ExFlow to Post and Invoice the approved quantity of the matched document lines automatically. It’s executed once the document has the status “Ready for Posting” in Approval Status. With this setting disabled, you’re required to post the purchase receipts/shipments manually.
-
-![Order Matching Wizard - Search](/img/media/new-om-wizard-003.png)
-
-### Automatic Difference Handling
-The Automatic Difference Handling functionality allows ExFlow to automatically suggest a difference line if any additional or unexpected costs, such as freight or other charges are identified during the order matching. 
-You can choose if ExFlow should suggest an invoice line of the line type Item Charge, or G/L Account.
-Then specify which G/L Account, or what Item Charge to use for the suggested line.
-
-### Max. Amount (LCY) and Max. Amount (%) 
-Is where you can specify an allowed tolerance for the automatically suggested difference line for automatic approval.
+Diese Methode eignet sich, wenn die Details einzelner Artikel oder Dienstleistungen auf der Rechnung nicht mit bestimmten Artikeln auf dem Einkaufsauftrag abgeglichen werden müssen, oder wenn die Rechnungszeilenangaben für einen genauen Abgleich zu dürftig sind.
 
 
-### Complete the Wizard
-Click "Finish" to close the Wizard and apply the settings.
+**Zeilenebene-Abgleich:**
+Wenn Sie den Zeilenebene-Abgleich wählen, vergleicht der Auftragsabgleich jede interpretierte Rechnungszeile mit den entsprechenden Zeilenpositionen auf dem Einkaufsauftrag.
 
-![Order Matching Wizard – Complete the Wizard](/img/media/new-om-wizard-004.png)
+Dieser Ansatz stellt sicher, dass jeder einzelne Artikel oder jede Dienstleistung auf der Rechnung genau mit dem entsprechenden Artikel auf dem Einkaufsauftrag abgeglichen wird.
+
+Der Zeilenabgleich verwendet interpretierte Informationen wie Rechnungsmenge, Einzelpreis, Zeilensumme und mehr, um eine genaue Übereinstimmung mit der entsprechenden Einkaufsauftragszeile zu erzielen und mögliche Diskrepanzen identifizieren zu können.
+
+### Dokumente abgleichen mit
+Der nächste Schritt besteht darin, festzulegen, wie Rechnungen mit Einkaufsaufträgen in Bezug auf Wareneingänge abgeglichen werden sollen.
+Es gibt drei Optionen zu berücksichtigen:
+
+#### **Wareneingang:**
+Wählen Sie diese Option, wenn Rechnungen nur mit Einkaufsaufträgen abgeglichen werden sollen, die zugehörige Wareneingänge haben.
+
+Dies stellt sicher, dass die Artikel im Lager eingegangen und erfasst sind und mit der Rechnung übereinstimmen, bevor die Rechnung abgeglichen und zur Genehmigung und endgültigen Buchung gesendet wird. 
+
+#### **Auftrag und Wareneingang:**
+Wenn Sie eine Kombination aus Wareneingang und Auftrag bevorzugen, wählen Sie diese Option.
+
+In diesem Fall können Rechnungen mit Einkaufsaufträgen mit oder ohne zugehörige Wareneingänge abgeglichen werden, was maximale Flexibilität in Abgleichsszenarien bietet.
+
+Möglichkeit, Rechnungszeilen mit Einkaufsaufträgen mit und ohne empfangene Artikelzeilen abzugleichen. Außerdem ist es möglich, Rechnungszeilen mit teilweise empfangenen Artikelzeilen auf dem Auftrag abzugleichen und sie zur Genehmigung und Buchung zu senden.
+
+### Automatische Genehmigung abgeglichener Rechnungen
+
+#### **Nie:**
+Wählen Sie diese Option, wenn alle abgeglichenen Rechnungen manuell genehmigt werden sollen. In diesem Fall werden keine Rechnungen automatisch genehmigt, unabhängig von Unterschieden oder Schwellenwerten.
+
+(Wenn Nie ausgewählt ist --> Nächster Schritt im Assistenten wäre: Andere und automatische Differenz)
+
+#### **Wenn die Differenz innerhalb der Toleranz liegt:**
+Wählen Sie diese Option, wenn abgeglichene Rechnungen nur dann automatisch genehmigt werden sollen, wenn die Differenz zwischen der Rechnung und dem Einkaufsauftrag innerhalb des festgelegten zulässigen Schwellenwerts oder der Toleranz für die automatische Genehmigung liegt.
+
+Diese Option ermöglicht eine effiziente Verarbeitung von Rechnungen mit geringfügigen Abweichungen und stellt sicher, dass nur wesentliche Unterschiede eine manuelle Genehmigung erfordern.
+
+(Wenn diese Option ausgewählt ist --> Nächster Schritt im Assistenten wäre: Automatische Genehmigung und Toleranz für die automatische Genehmigung)
+
+#### **Wenn der abgeglichene Auftrag genehmigt ist:**
+Diese Option fügt eine zusätzliche Genehmigungsebene hinzu, indem sie erfordert, dass der abgeglichene Auftrag durch ExFlow überprüft und genehmigt wurde, um sicherzustellen, dass Rechnungen nur dann automatisch genehmigt werden, wenn die erforderliche Autorisierung vorliegt.
+
+(Wenn diese Option ausgewählt ist --> Nächster Schritt im Assistenten wäre: Automatische Genehmigung und Toleranz für die automatische Genehmigung)
+
+### Maximaler Betrag für die automatische Genehmigung
+Wenn Sie die automatische Genehmigung abgeglichener Rechnungen zugelassen haben, können Sie hier den maximalen Betrag für die automatische Genehmigung festlegen. Dieser Parameter definiert die Schwelle, über die Rechnungen unabhängig von den Abgleichsergebnissen eine manuelle Genehmigung erfordern.
+
+### Warnung bei Toleranzverletzung
+Aktivieren Sie diese Einstellung, wenn Sie möchten, dass die Buchhalter während des Imports von abgeglichenen Einkaufsrechnungen eine Warnung erhalten, wenn es Abweichungen über Ihrer zulässigen Toleranz für die automatische Genehmigung gibt. 
+Unabhängig davon, ob diese Einstellung aktiviert ist oder nicht, erfordern Abweichungen, die höher als Ihre zulässige Toleranz sind, immer eine manuelle Genehmigung der Rechnungszeile.
+
+### Abweichung direkter Einstandspreis (%) und Abweichung direkter Einstandspreis (Betrag LCY)
+Definieren Sie die Abweichungsschwellenwerte für den direkten Einstandspreis von Rechnungszeilen im Vergleich zu den abgeglichenen Auftragszeilen. Diese Schwellenwerte bestimmen die zulässigen Unterschiede zwischen der Rechnung und dem Einkaufsauftrag für die automatische Genehmigung.
+
+### Wareneingänge und -lieferungen automatisch buchen
+Die Funktion "Wareneingänge und -lieferungen automatisch buchen" ermöglicht die automatische Buchung von Wareneingängen im Abgleichsprozess. Bitte beachten Sie jedoch, dass diese Funktion nur genutzt werden kann, wenn Dokumente mit *„Auftrag und Wareneingang“* abgeglichen werden.
+
+Das Abgleichen von Dokumenten mit der Logik *„Auftrag und Wareneingang“* ermöglicht es ExFlow, eine Rechnung/Gutschrift vollständig abzugleichen und zur Genehmigung und Buchung zu senden. Business Central erfordert jedoch immer, dass Wareneingänge/-lieferungen gebucht werden, bevor die abgeglichene Rechnung/Gutschrift gebucht werden kann und der Einkaufsauftrag/Rücksendeauftrag fakturiert/gutgeschrieben werden kann.
+
+Diese Einstellung ermöglicht es ExFlow, die genehmigte Menge der abgeglichenen Dokumentzeilen automatisch zu buchen und zu fakturieren. Sie wird ausgeführt, sobald das Dokument den Status „Bereit zur Buchung“ im Genehmigungsstatus hat. Wenn diese Einstellung deaktiviert ist, müssen Sie die Wareneingänge/-lieferungen manuell buchen.
+
+![Auftragsabgleich-Assistent - Suche](/img/media/new-om-wizard-003.png)
+
+### Automatische Differenzbehandlung
+Die Funktion zur automatischen Differenzbehandlung ermöglicht es ExFlow, automatisch eine Differenzzeile vorzuschlagen, wenn während des Auftragsabgleichs zusätzliche oder unerwartete Kosten wie Fracht oder andere Gebühren identifiziert werden. 
+Sie können wählen, ob ExFlow eine Rechnungszeile des Typs Artikelgebühr oder Sachkonto vorschlagen soll.
+Geben Sie dann an, welches Sachkonto oder welche Artikelgebühr für die vorgeschlagene Zeile verwendet werden soll.
+
+### Max. Betrag (LCY) und Max. Betrag (%)
+Hier können Sie eine zulässige Toleranz für die automatisch vorgeschlagene Differenzzeile für die automatische Genehmigung festlegen.
+
+
+### Assistent abschließen
+Klicken Sie auf "Fertig stellen", um den Assistenten zu schließen und die Einstellungen anzuwenden.
+
+![Auftragsabgleich-Assistent – Assistent abschließen](/img/media/new-om-wizard-004.png)
 
 
 
-## Order Matching Setup
+## Auftragsabgleich-Einrichtung
 
-Go to: **ExFlow Order Matching Setup**
+Gehen Sie zu: **ExFlow Auftragsabgleich-Einrichtung**
 
-For the *New Order Matching Experience*, all order matching settings have been lifted from ExFlow Setup and are now available in an own gathered page.
+Für die *Neue Auftragsabgleich-Erfahrung* wurden alle Auftragsabgleich-Einstellungen aus der ExFlow-Einrichtung herausgehoben und sind nun auf einer eigenen gesammelten Seite verfügbar.
 
-However, a link to this new ''Order Matching Setup'' will be provided in ExFlow Setup--> Order Matching Section.
+Ein Link zu dieser neuen ''Auftragsabgleich-Einrichtung'' wird jedoch in der ExFlow-Einrichtung --> Auftragsabgleich-Abschnitt bereitgestellt.
 
 
-| Order Matching Setup - Related |   | 
+| Auftragsabgleich-Einrichtung - Verwandt |   | 
 |:-|:-|
-|Copy Header Values to Invoice/Credit Memo Setup| Read more about this [***here***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching#copy-header-values-to-invoicecredit-memo-setup)
-|Auto Receiving Line Types| Read more about this [***here***](https://docs.signupsoftware.com//business-central/docs/user-manual/approval-workflow/new-order-matching#auto-receiving-line-types)
-|Item No. Matching Priority| Read more about this [***here***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching#item-no-matching-priority)
-|Order Matching Priority| Set an Order Matching Priority for your company. This is a setting for the new Order Matching feature only. Read more about this [***here***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching#order-matching-priority)
+|Kopfwerte in Rechnung/Gutschrift kopieren| Lesen Sie mehr darüber [***hier***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching#copy-header-values-to-invoicecredit-memo-setup)
+|Automatische Empfangszeilentypen| Lesen Sie mehr darüber [***hier***](https://docs.signupsoftware.com//business-central/docs/user-manual/approval-workflow/new-order-matching#auto-receiving-line-types)
+|Artikel-Nr. Abgleich-Priorität| Lesen Sie mehr darüber [***hier***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching#item-no-matching-priority)
+|Auftragsabgleich-Priorität| Legen Sie eine Auftragsabgleich-Priorität für Ihr Unternehmen fest. Dies ist eine Einstellung nur für die neue Auftragsabgleich-Funktion. Lesen Sie mehr darüber [***hier***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching#order-matching-priority)
 
-Above features can also be used on a vendor level in "ExFlow Vendor Setup".
+Obige Funktionen können auch auf Lieferantenebene in der "ExFlow Lieferanteneinrichtung" verwendet werden.
 
 
-### Order Matching Setup Sections
+### Auftragsabgleich-Einrichtungsabschnitte
 
 ![OM Setup](/img/media/order-matching-setup-001.png)
 
-### General
-| General|   | 
+### Allgemein
+| Allgemein|   | 
 |:-|:-|
-|Enabled| Specifies if Order Matching is enabled for the company. This setting is used to enable or disable the Order Matching functionality for the company, after the feature has been enabled.
-|Match Documents To| 	Specifies if ExFlow should match and retrieve lines from Posted Receipts/Shipments, or from both Orders and Receipts/Shipments.
-|Post Receipt & Shipments Automatically|Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order and Receipt". <br/><br/>When running Verify Changes in Approval Status, the purchase order matched lines receipt will be posted on Invoice Document Date. <br/> VAT Date on purchase order header and Deferral Posting Dates on purchase order lines will automatically be updated if purchase order Posting date is different than Invoice Posting Date. <br/> If both purchase order and Invoice have the same posting date when running Verify Changes, there will be no updates on the purchase order. <br/>Purchase order´s Posting Date will also be updated if blank. (Purchase and Payable Setup - Default Posting Date = No Date)
-|Retrieve Lines Automatically|Automatically retrieve all available lines from the Purchase Order or Posted Purchase Receipt when matching on header level.
-|Copy Header values to Invoice/Credit Memo|Activate fields to transfer from Purchase Order to Invoice (Or Return Purchase Order to Credit Memo) in Import Journal when using order matching on header level. Selected values can be found and updated under Related --> Advanced --> PO Header values on Invoice Setup.
+|Aktiviert| Gibt an, ob der Auftragsabgleich für das Unternehmen aktiviert ist. Diese Einstellung wird verwendet, um die Auftragsabgleich-Funktionalität für das Unternehmen zu aktivieren oder zu deaktivieren, nachdem die Funktion aktiviert wurde.
+|Dokumente abgleichen mit| Gibt an, ob ExFlow Zeilen aus gebuchten Wareneingängen/-lieferungen oder aus sowohl Aufträgen als auch Wareneingängen/-lieferungen abgleichen und abrufen soll.
+|Wareneingänge und -lieferungen automatisch buchen|Gibt an, ob Einkaufsauftragszeilen jedes Zeilentyps automatisch empfangen werden sollen, wenn die abgeglichene Rechnung auf "Bereit zur Buchung" gesetzt ist. Diese Option ist nur anwendbar, wenn die Einstellung "Dokumente abgleichen mit" als "Auftrag und Wareneingang" konfiguriert ist. <br/><br/>Beim Ausführen von Änderungen im Genehmigungsstatus wird der Wareneingang der abgeglichenen Einkaufsauftragszeilen am Rechnungsbelegdatum gebucht. <br/> Das MwSt.-Datum im Einkaufsauftrag-Kopf und die Abgrenzungsbuchungsdaten in den Einkaufsauftragszeilen werden automatisch aktualisiert, wenn das Buchungsdatum des Einkaufsauftrags vom Buchungsdatum der Rechnung abweicht. <br/> Wenn sowohl der Einkaufsauftrag als auch die Rechnung dasselbe Buchungsdatum haben, wenn Änderungen überprüft werden, gibt es keine Aktualisierungen am Einkaufsauftrag. <br/>Das Buchungsdatum des Einkaufsauftrags wird auch aktualisiert, wenn es leer ist. (Einkaufs- und Verbindlichkeits-Einrichtung - Standardbuchungsdatum = Kein Datum)
+|Zeilen automatisch abrufen|Rufen Sie automatisch alle verfügbaren Zeilen aus dem Einkaufsauftrag oder dem gebuchten Wareneingang ab, wenn Sie auf Kopfebene abgleichen.
+|Kopfwerte in Rechnung/Gutschrift kopieren|Aktivieren Sie Felder, um Werte vom Einkaufsauftrag zur Rechnung (oder vom Rücksendekaufauftrag zur Gutschrift) im Importjournal zu übertragen, wenn Sie auf Kopfebene abgleichen. Ausgewählte Werte können unter Verwandt --> Erweitert --> PO-Kopfwerte in Rechnung-Einrichtung gefunden und aktualisiert werden.
 
-### Auto-Approval
-| Auto-Approval|   | 
+### Automatische Genehmigung
+| Automatische Genehmigung|   | 
 |:-|:-|
-|Auto-Approve Documents|   Specifies if the invoice should be auto approved if the related order is approved
-|User for Auto-Approval|Specifies the ExFlow user that should be used for auto approved invoices. If this setting is empty, then the id of the logged in BC user is used
-|Max. Amount for Auto-Approval (LCY) |Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
-|Max. Misc. Charges (LCY) |   Tolerance for field "Auto Approve Invoices". The total amount of invoice lines not matched against PO lines. (For example, freight). When an invoice is generated, lines will not be automatically approved if you did exceed the maximum misc. amount.
-|Maximum Deviation|
-|Direct Unit Cost (LCY) |Specifies the max allowed price difference between the invoice unit cost and the purchase order unit cost (in LCY). 
-|Direct Unit Cost %|Specifies the max allowed price difference between the invoice unit cost and the purchase order unit cost (in %)
-|Send Unreceived Order Reminder For Approved Order|An Unreceived Order Reminder is sent when the document is approved and not all the Order Lines are fully received. For this to work "Match Documents To" should be set to "Receipt". <br/><br/> Read more about this under section [***Unreceived Order - Approved***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
+|Dokumente automatisch genehmigen| Gibt an, ob die Rechnung automatisch genehmigt werden soll, wenn der zugehörige Auftrag genehmigt ist
+|Benutzer für automatische Genehmigung|Gibt den ExFlow-Benutzer an, der für automatisch genehmigte Rechnungen verwendet werden soll. Wenn diese Einstellung leer ist, wird die ID des angemeldeten BC-Benutzers verwendet
+|Max. Betrag für automatische Genehmigung (LCY) |Gibt den maximalen Rechnungsbetrag an, der für automatische Genehmigungen zulässig ist. 0 = deaktiviert
+|Max. Sonstige Kosten (LCY) | Toleranz für das Feld "Rechnungen automatisch genehmigen". Der Gesamtbetrag der Rechnungszeilen, die nicht mit PO-Zeilen abgeglichen sind. (Zum Beispiel Fracht). Wenn eine Rechnung erstellt wird, werden Zeilen nicht automatisch genehmigt, wenn Sie den maximalen sonstigen Betrag überschritten haben.
+|Maximale Abweichung|
+|Direkter Einstandspreis (LCY) |Gibt die maximal zulässige Preisabweichung zwischen dem Rechnungseinstandspreis und dem Einstandspreis des Einkaufsauftrags (in LCY) an. 
+|Direkter Einstandspreis %|Gibt die maximal zulässige Preisabweichung zwischen dem Rechnungseinstandspreis und dem Einstandspreis des Einkaufsauftrags (in %) an
+|Erinnerung an nicht empfangene Aufträge für genehmigte Aufträge senden|Eine Erinnerung an nicht empfangene Aufträge wird gesendet, wenn das Dokument genehmigt ist und nicht alle Auftragszeilen vollständig empfangen wurden. Damit dies funktioniert, sollte "Dokumente abgleichen mit" auf "Wareneingang" gesetzt sein. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Nicht empfangener Auftrag - Genehmigt***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
 
-### Line Matching Logic
-| Line Matching Logic|   | 
+### Zeilenabgleich-Logik
+| Zeilenabgleich-Logik|   | 
 |:-|:-|
-|Matching Tolerance|
-|Unit Cost %|Specifies the matching tolerance (in %) when matching an invoice against a purchase order using the line unit cost. 0 = disabled i.e. exact match is needed
-|Quantity %|Specifies the matching tolerance (in %) when matching an invoice against a purchase order using the line quantity. 0 = disabled i.e. exact match is needed
-|Check Split Invoice Lines|If “Multiple Line Matching” is true, ExFlow will give action messages for each line that has been split which gives the user an option to manually confirm the suggested matching before creating the document. Turning this setting to false means that no action message will be displayed for matched split lines.
-|Check Direct Unit Cost|Specifies that ExFlow should check the Unit Cost on the invoice line when matching invoices against purchase orders. The imported invoice needs to be line interpreted for this to work
-|Check Line Discount %|Specifies that ExFlow should check the Line Discount % on the invoice line when matching invoices against purchase orders. The imported invoice needs to be line interpreted for this to work
+|Abgleichtoleranz|
+|Einstandspreis %|Gibt die Abgleichtoleranz (in %) an, wenn eine Rechnung mit einem Einkaufsauftrag unter Verwendung des Zeileneinstandspreises abgeglichen wird. 0 = deaktiviert, d.h. eine genaue Übereinstimmung ist erforderlich
+|Menge %|Gibt die Abgleichtoleranz (in %) an, wenn eine Rechnung mit einem Einkaufsauftrag unter Verwendung der Zeilenmenge abgeglichen wird. 0 = deaktiviert, d.h. eine genaue Übereinstimmung ist erforderlich
+|Geteilte Rechnungszeilen überprüfen|Wenn "Mehrfachzeilenabgleich" wahr ist, gibt ExFlow Aktionsmeldungen für jede Zeile aus, die geteilt wurde, was dem Benutzer die Möglichkeit gibt, den vorgeschlagenen Abgleich manuell zu bestätigen, bevor das Dokument erstellt wird. Wenn diese Einstellung auf falsch gesetzt ist, werden keine Aktionsmeldungen für abgeglichene geteilte Zeilen angezeigt.
+|Direkten Einstandspreis überprüfen|Gibt an, dass ExFlow den Einstandspreis auf der Rechnungszeile überprüfen soll, wenn Rechnungen mit Einkaufsaufträgen abgeglichen werden. Die importierte Rechnung muss für diese Funktion zeileninterpretiert sein
+|Zeilenrabatt % überprüfen|Gibt an, dass ExFlow den Zeilenrabatt % auf der Rechnungszeile überprüfen soll, wenn Rechnungen mit Einkaufsaufträgen abgeglichen werden. Die importierte Rechnung muss für diese Funktion zeileninterpretiert sein
 
-### Discrepancy Handling & Adjustments
-| Discrepancy Handling & Adjustments |   | 
+### Diskrepanzbehandlung und Anpassungen
+| Diskrepanzbehandlung und Anpassungen |   | 
 |:-|:-|
-|*Automatic Difference Line*|
-|Enable| Specifies that ExFlow should create a new line containing the diff. amount, when there is a price difference between the purchase order total and the invoice total
-|ExFlow Purchase Code|Specifies which purchase code ExFlow should use when creating the diff. line
-|Max. Amount (LCY) |Specifies the max amount when creating the diff. line. If the diff. amount exceeds this setting, then no diff. line is created. 0 = disabled
-|Max. Amount (%)|Specifies the max diff % when creating the diff. line. If the diff. % exceeds this setting, then no diff. line is created. 0 = disabled
-|Automatic Item Charge Assignment|Specifies what type of item charge assignment that should be used when posting invoices. It can be done equally, by amount, by weight or by volume automatically. None = no automatic assignment is done. <br/><br/> Read more about this under section [***Item Charge Assignment***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#item-charge-assignment)
+|*Automatische Differenzzeile*|
+|Aktivieren| Gibt an, dass ExFlow eine neue Zeile mit dem Differenzbetrag erstellt, wenn es eine Preisabweichung zwischen dem Gesamteinkaufsauftrag und der Gesamtrechnung gibt
+|ExFlow Einkaufscode|Gibt an, welchen Einkaufscode ExFlow verwenden soll, wenn die Differenzzeile erstellt wird
+|Max. Betrag (LCY) |Gibt den maximalen Betrag an, wenn die Differenzzeile erstellt wird. Wenn der Differenzbetrag diesen Wert überschreitet, wird keine Differenzzeile erstellt. 0 = deaktiviert
+|Max. Betrag (%)|Gibt den maximalen Differenzprozentsatz an, wenn die Differenzzeile erstellt wird. Wenn der Differenzprozentsatz diesen Wert überschreitet, wird keine Differenzzeile erstellt. 0 = deaktiviert
+|Automatische Artikelgebührenzuweisung|Gibt an, welche Art der Artikelgebührenzuweisung beim Buchen von Rechnungen verwendet werden soll. Dies kann automatisch nach Menge, Gewicht oder Volumen erfolgen. Keine = keine automatische Zuweisung. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Artikelgebührenzuweisung***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#item-charge-assignment)
 
 
-### Additional Controls & Settings
-|Additional Controls & Settings |   | 
+### Zusätzliche Kontrollen und Einstellungen
+|Zusätzliche Kontrollen und Einstellungen |   | 
 |:-|:-|
-|Matching Delay Doc. Date (Days) |Specifies that ExFlow should delay the matching against purchase orders until xx days after the invoice import date
-|Matching Delay Due Date (Days) |Specifies that ExFlow should delay the matching against purchase orders until xx days before the invoice due date. <br/><br/> Read more about this under section [***PO Matching Delay Doc. Date and Due Date***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#po-matching-delay-doc-date-and-due-date)
-|Save Matched Lines to OCR Mapping|This option can be used to automatically save manually matched invoice lines from "Matching View" based on vendor, interpreted Item No. These lines will be saved in the ExFlow OCR Import Mapping table and can be re-used to suggest matching for future PO-invoices with same criteria
-|Use Vendor No. from Matched Purchase Order|Specifies that the vendor number on the matched purchase order should be used instead of the imported invoice vendor information
-|Disable Currency Filter in Get Receipt Lines|This can be set to improve performance when using Get Receipt Lines in Import Journal. No filter will then be set on Currency Code when opening the selection page (A check that correct Currency is selected is instead done on the insert of the Invoice line)
-|Enable Warning Messages|When disabled, no warning messages will be presented in the Import Journal regarding order matching.
+|Abgleichsverzögerung Belegdatum (Tage) |Gibt an, dass ExFlow den Abgleich mit Einkaufsaufträgen bis xx Tage nach dem Rechnungsimportdatum verzögern soll
+|Abgleichsverzögerung Fälligkeitsdatum (Tage) |Gibt an, dass ExFlow den Abgleich mit Einkaufsaufträgen bis xx Tage vor dem Rechnungsfälligkeitsdatum verzögern soll. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***PO Abgleichsverzögerung Belegdatum und Fälligkeitsdatum***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#po-matching-delay-doc-date-and-due-date)
+|Abgeglichene Zeilen in OCR-Zuordnung speichern|Diese Option kann verwendet werden, um manuell abgeglichene Rechnungszeilen aus der "Abgleichsansicht" basierend auf Lieferant, interpretiertem Artikel-Nr. automatisch in der ExFlow OCR-Importzuordnungstabelle zu speichern und für zukünftige PO-Rechnungen mit denselben Kriterien vorzuschlagen
+|Lieferantennummer aus abgeglichenem Einkaufsauftrag verwenden|Gibt an, dass die Lieferantennummer auf dem abgeglichenen Einkaufsauftrag anstelle der importierten Rechnungsinformationen des Lieferanten verwendet werden soll
+|Währungsfilter in Empfangszeilen abrufen deaktivieren|Dies kann zur Leistungsverbesserung verwendet werden, wenn Empfangszeilen im Importjournal abgerufen werden. Es wird dann kein Filter auf den Währungscode gesetzt, wenn die Auswahlseite geöffnet wird (Eine Überprüfung, ob die richtige Währung ausgewählt ist, erfolgt stattdessen beim Einfügen der Rechnungszeile)
+|Warnmeldungen aktivieren|Wenn deaktiviert, werden im Importjournal keine Warnmeldungen zum Auftragsabgleich angezeigt.
 
 
-### Order Matching Setup - Related
+### Auftragsabgleich-Einrichtung - Verwandt
 
-### Copy Header Values to Invoice/Credit Memo Setup
+### Kopfwerte in Rechnung/Gutschrift kopieren
 
-Go to: **ExFlow Order Matching Setup --> Related --> Copy Header Values to Invoice/Credit Memo Setup**
+Gehen Sie zu: **ExFlow Auftragsabgleich-Einrichtung --> Verwandt --> Kopfwerte in Rechnung/Gutschrift kopieren**
 
-For customers that interpret and order match on header level, some values on the order can now be copied from the Order header to the document header.<br/>
+Für Kunden, die auf Kopfebene interpretieren und abgleichen, können einige Werte auf dem Auftrag nun vom Auftragskopf in den Belegkopf kopiert werden.<br/>
 
-Start by activating "Copy Header Values on Invoice/Credit Memo" in Order Matching Setup.<br/>
+Beginnen Sie mit der Aktivierung von "Kopfwerte in Rechnung/Gutschrift kopieren" in der Auftragsabgleich-Einrichtung.<br/>
 
-Choose fields to copy in “Copy Header Values on Invoice/Credit Memo”<br/>
-
-
-![Copy Purchase Order Header – Setup](/img/media/po-header-value-on-invoice-setup-001.png)
-
-For US and CA localization Tax Liable and Tax Area can also be copied from the Purchase Order to Purchase Invoice.
-
-![Copy Purchase Order Header – Setup CA - US](/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
+Wählen Sie Felder zum Kopieren in „Kopfwerte in Rechnung/Gutschrift kopieren“<br/>
 
 
-### Auto Receiving Line Types
+![Kopieren des Einkaufsauftragskopfs – Einrichtung](/img/media/po-header-value-on-invoice-setup-001.png)
 
-Go to: **ExFlow Order Matching Setup --> Related --> Auto Receiving Line Types**
+Für die US- und CA-Lokalisierung können auch Steuerpflichtig und Steuergebiet vom Einkaufsauftrag zur Einkaufsrechnung kopiert werden.
 
-By enabling “Auto Receiving Line Types” ExFlow will receive all lines that are matched to a Purchase Order or a Return Order. What ExFlow receives is based on allowed line types from "Auto Receiving Line Types Setup" (Setup automatically opens after setting “Auto Receiving Line Types” set as TRUE).
-
-
-![ExFlow Receiving Line Types](/img/media/auto-receiving-line-types-001.png)
-
-Click on ''Item'' to make additional settings if you would like to have Auto Receive on Service Items or Non- Inventory Items as well. 
+![Kopieren des Einkaufsauftragskopfs – Einrichtung CA - US](/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
 
 
+### Automatische Empfangszeilentypen
 
-### Item No. Matching Priority
-Go to: **ExFlow Order Matching Setup --> Related --> Item No. Matching Priority** 
+Gehen Sie zu: **ExFlow Auftragsabgleich-Einrichtung --> Verwandt --> Automatische Empfangszeilentypen**
 
-This feature helps to determine the order in which the system attempts to match imported invoices against items and order lines. 
-
-This can be useful when, for instance, same item no exist in the standard item list as on the vendor item no. Or if importing invoice lines where most are vendor item references, consider giving higher priority to "Item Reference". Disable matching types that give false positive matches or are not used by unchecking them.
+Durch Aktivieren von „Automatische Empfangszeilentypen“ wird ExFlow alle Zeilen empfangen, die mit einem Einkaufsauftrag oder einem Rücksendeauftrag abgeglichen sind. Was ExFlow empfängt, basiert auf den zulässigen Zeilentypen aus der "Einrichtung der automatischen Empfangszeilentypen" (Einrichtung wird automatisch geöffnet, nachdem "Automatische Empfangszeilentypen" auf TRUE gesetzt wurde).
 
 
-![Item No. Matching Priority](/img/media/exflow-setup-item-no-matching-prio-001.png)
+![ExFlow Empfangszeilentypen](/img/media/auto-receiving-line-types-001.png)
 
-| Item No. Matching Priority |  |
+Klicken Sie auf ''Artikel'', um zusätzliche Einstellungen vorzunehmen, wenn Sie auch Serviceartikel oder Nicht-Lagerartikel automatisch empfangen möchten. 
+
+
+
+### Artikel-Nr. Abgleich-Priorität
+Gehen Sie zu: **ExFlow Auftragsabgleich-Einrichtung --> Verwandt --> Artikel-Nr. Abgleich-Priorität** 
+
+Diese Funktion hilft dabei, die Reihenfolge zu bestimmen, in der das System versucht, importierte Rechnungen mit Artikeln und Auftragszeilen abzugleichen. 
+
+Dies kann nützlich sein, wenn beispielsweise dieselbe Artikelnummer sowohl in der Standardartikelliste als auch in der Lieferantenartikelnummer vorhanden ist. Oder wenn Rechnungszeilen importiert werden, bei denen die meisten Lieferantenartikelreferenzen sind, sollten Sie in Betracht ziehen, der "Artikelreferenz" eine höhere Priorität zu geben. Deaktivieren Sie Abgleichstypen, die falsche Übereinstimmungen liefern oder nicht verwendet werden, indem Sie sie deaktivieren.
+
+
+![Artikel-Nr. Abgleich-Priorität](/img/media/exflow-setup-item-no-matching-prio-001.png)
+
+| Artikel-Nr. Abgleich-Priorität |  |
 |:-|:-|
-| **OCR Mapping**         |Match Item No. after what is specified in *OCR Import Mapping*
-| **Default G/L Account/Dummy Item**  |Match Item No. after the *Predefined Account* (ExFlow Setup --> General) or *Dummy Item for OCR Line Mapping* (ExFlow Setup --> OCR Import). This will only be done if the imported Item No. is blank. <br/><br/> If there is no imported number and order no. (imported) is blank then it will automatically take dummy G/L Account. If there is Order No. (imported) then it will take dummy item.
-| **Item**         |Match Item No. after the actual *Item No.* in Business Central
-| **Item with Vendor No.**   |Match Item No. after what is added under Replenishment--> Purchase. If a *Vendor No.* is specified on the Item card, together with a specific *Vendor Item No.*, then this will be prioritized.
-| **Item Vendor**         | Match Item No. after the *Vendor Item No.* set on the Item Card in Business Central
-| **Item Reference**         |Match Item No. after the *Vendor Reference* set on the Item Card in Business Central
-| **Purchase Order**         |Match Item No. after the purchase order lines where Purchase Line Vendor Item No. is equal to imported No.
-| **First Run Original No.**  |ExFlow removes junk characters on interpreted Item No. (all characters which are not A...Z and 0..9) and tries again.
-| **G/L Account**         |First check is to see if the interpreted order no. has a value. If it is blank, then ExFlow look for G/L Account with imported no. If that is found ExFlow will take that G/L account, otherwise ExFlow take Predefined G/L Account (if account exist under ExFlow Setup --> General). If the imported Order No. is not blank, ExFlow will provide the Dummy Item No. (if any exist in ExFlow setup --> OCR Import) <br/><br/>The difference in this option (vs above option ''Default G/L Account/Dummy Item'') is that ExFlow check if G/L Account exists before providing the Predefined G/L Account.
+| **OCR-Zuordnung**         |Artikel-Nr. nach dem abgleichen, was in *OCR-Importzuordnung* angegeben ist
+| **Standard-Sachkonto/Dummy-Artikel**  |Artikel-Nr. nach dem *Vordefinierten Konto* (ExFlow-Einrichtung --> Allgemein) oder *Dummy-Artikel für OCR-Zeilenabgleich* (ExFlow-Einrichtung --> OCR-Import) abgleichen. Dies wird nur durchgeführt, wenn die importierte Artikel-Nr. leer ist. <br/><br/> Wenn keine importierte Nummer und keine Auftragsnummer (importiert) vorhanden ist, wird automatisch das Dummy-Sachkonto verwendet. Wenn eine Auftragsnummer (importiert) vorhanden ist, wird der Dummy-Artikel verwendet.
+| **Artikel**         |Artikel-Nr. nach der tatsächlichen *Artikel-Nr.* in Business Central abgleichen
+| **Artikel mit Lieferantennummer**   |Artikel-Nr. nach dem abgleichen, was unter Nachschub --> Einkauf hinzugefügt ist. Wenn auf der Artikelkarte eine *Lieferantennummer* zusammen mit einer spezifischen *Lieferantenartikelnummer* angegeben ist, wird dies priorisiert.
+| **Artikel Lieferant**         | Artikel-Nr. nach der *Lieferantenartikelnummer* auf der Artikelkarte in Business Central abgleichen
+| **Artikelreferenz**         |Artikel-Nr. nach der *Lieferantenreferenz* auf der Artikelkarte in Business Central abgleichen
+| **Einkaufsauftrag**         |Artikel-Nr. nach den Einkaufsauftragszeilen abgleichen, bei denen die Lieferantenartikelnummer der Einkaufszeile mit der importierten Nummer übereinstimmt.
+| **Erster Lauf Original-Nr.**  |ExFlow entfernt Junk-Zeichen auf der interpretierten Artikel-Nr. (alle Zeichen, die nicht A...Z und 0..9 sind) und versucht es erneut.
+| **Sachkonto**         |Erster Check ist zu sehen, ob die interpretierte Auftragsnummer einen Wert hat. Wenn sie leer ist, sucht ExFlow nach einem Sachkonto mit der importierten Nummer. Wenn dies gefunden wird, wird dieses Sachkonto verwendet, andernfalls wird das vordefinierte Sachkonto verwendet (wenn Konto unter ExFlow-Einrichtung --> Allgemein vorhanden ist). Wenn die importierte Auftragsnummer nicht leer ist, wird die Dummy-Artikelnummer bereitgestellt (wenn vorhanden in ExFlow-Einrichtung --> OCR-Import) <br/><br/>Der Unterschied bei dieser Option (im Vergleich zur obigen Option ''Standard-Sachkonto/Dummy-Artikel'') besteht darin, dass ExFlow überprüft, ob ein Sachkonto vorhanden ist, bevor das vordefinierte Sachkonto bereitgestellt wird.
 
-Set up an Item No. Matching Priority to choose in what order to match. These settings allows ExFlow to perform more advanced matching of items and order lines based on priority and matching type.
+Richten Sie eine Artikel-Nr. Abgleich-Priorität ein, um die Reihenfolge des Abgleichs festzulegen. Diese Einstellungen ermöglichen es ExFlow, fortschrittlichere Abgleiche von Artikeln und Auftragszeilen basierend auf Priorität und Abgleichstyp durchzuführen.
 
-Use the "Move Up" and "Move Down" buttons to move matching types up or down the list.
-The higher a matching type is placed, the higher priority it has in the matching process.
-
-
-### Order Matching Priority 
-
-Go to: **ExFlow Order Matching Setup --> Related --> Order Matching Priority**
-
-Specify the order matching priorities to get a better hit on the valid data in Business, depending on the company order matching processes. 
-
-Set an order on the relevant order matching methods. Uncheck the use checkbox on irrelevant matching method.
-
-Order Matching Priority is applied when the incoming document has a related order number and ExFlow has found and matched a related purchase order. 
-
-The matching priorities decide in what order the matching methods are applied to purchase lines.
-
-![Item No. Matching Priority](/img/media/order-matching-prio-001.png)
+Verwenden Sie die Schaltflächen "Nach oben" und "Nach unten", um Abgleichstypen in der Liste nach oben oder unten zu verschieben.
+Je höher ein Abgleichstyp platziert ist, desto höher ist seine Priorität im Abgleichsprozess.
 
 
-|Order Matching Priority menu | |
+### Auftragsabgleich-Priorität 
+
+Gehen Sie zu: **ExFlow Auftragsabgleich-Einrichtung --> Verwandt --> Auftragsabgleich-Priorität**
+
+Legen Sie die Auftragsabgleich-Prioritäten fest, um eine bessere Übereinstimmung mit den gültigen Daten in Business zu erzielen, abhängig von den Auftragsabgleichsprozessen des Unternehmens. 
+
+Legen Sie eine Reihenfolge für die relevanten Auftragsabgleichsmethoden fest. Deaktivieren Sie das Kontrollkästchen für irrelevante Abgleichsmethoden.
+
+Die Auftragsabgleich-Priorität wird angewendet, wenn das eingehende Dokument eine zugehörige Auftragsnummer hat und ExFlow einen zugehörigen Einkaufsauftrag gefunden und abgeglichen hat. 
+
+Die Abgleichsprioritäten bestimmen die Reihenfolge, in der die Abgleichsmethoden auf Einkaufszeilen angewendet werden.
+
+![Artikel-Nr. Abgleich-Priorität](/img/media/order-matching-prio-001.png)
+
+
+|Menü Auftragsabgleich-Priorität | |
 |:-|:-|
-| Move Up|Use Move Up option to set the priority of matching methods. If the highest priority fails to get a match, the next method will try to match on it’s conditions.
-| Move Down|Use Move Down option to set the priority of matching methods. If the highest priority fails to get a match, the next method will try to match on it’s conditions.
-|  Multiple Field Setup |Enable "Show Advanced Setup" to access Multiple Field matching methods. Read more under ''Multiple Field Matching''.
+| Nach oben verschieben|Verwenden Sie die Option "Nach oben verschieben", um die Priorität der Abgleichsmethoden festzulegen. Wenn die höchste Priorität keine Übereinstimmung erzielt, versucht die nächste Methode, basierend auf ihren Bedingungen abzugleichen.
+| Nach unten verschieben|Verwenden Sie die Option "Nach unten verschieben", um die Priorität der Abgleichsmethoden festzulegen. Wenn die höchste Priorität keine Übereinstimmung erzielt, versucht die nächste Methode, basierend auf ihren Bedingungen abzugleichen.
+|  Mehrfachfeld-Einrichtung |Aktivieren Sie "Erweiterte Einrichtung anzeigen", um auf Mehrfachfeld-Abgleichsmethoden zuzugreifen. Lesen Sie mehr unter ''Mehrfachfeld-Abgleich''.
 
 
-| Matching Methods||
+| Abgleichsmethoden||
 |:-|:-|
-| Item |Basic Item No matching.
-| Item With Quantity and Unit Cost |Matches on Item No in combination with quantity and unit cost.
-|  Quantity and Unit Cost |No item no matching, only matches to Quantity & Unit Cost.
-|  Quantity: | Matches based only on quantity.
-|  Line Amount: |Matches based on total Line Amount.
+| Artikel |Grundlegender Artikel-Nr. Abgleich.
+| Artikel mit Menge und Einstandspreis |Abgleiche nach Artikel-Nr. in Kombination mit Menge und Einstandspreis.
+|  Menge und Einstandspreis |Kein Artikel-Nr. Abgleich, nur Abgleich nach Menge und Einstandspreis.
+|  Menge: | Abgleiche nur nach Menge.
+|  Zeilenbetrag: |Abgleiche nach Gesamtzeilenbetrag.
 
-| Fields||
+| Felder||
 |:-|:-| 
-|Use| Specify is the matching method should be used or not. 
-|  Skip Tolerances| Specifies if the method should skip tolerances for unit cost and quantities.
-|  Index Key |Optional to select an appropriate Index-key to increase matching performance. Example: When adding Index Key 8, faster queries on Item No. & Variants lookups. 
+|Verwenden| Gibt an, ob die Abgleichsmethode verwendet werden soll oder nicht. 
+|  Toleranzen überspringen| Gibt an, ob die Methode Toleranzen für Einstandspreis und Mengen überspringen soll.
+|  Indexschlüssel |Optional, um einen geeigneten Indexschlüssel auszuwählen, um die Abgleichsleistung zu erhöhen. Beispiel: Beim Hinzufügen von Indexschlüssel 8 schnellere Abfragen zu Artikel-Nr. & Varianten-Suchen. 
 
 
 
-##### Multiple Field Matching 
-Go to: **ExFlow Setup --> Related --> Order Matching Priority Setup --> Show Advanced Setup**
+##### Mehrfachfeld-Abgleich 
+Gehen Sie zu: **ExFlow-Einrichtung --> Verwandt --> Auftragsabgleich-Priorität-Einrichtung --> Erweiterte Einrichtung anzeigen**
 
-With Multiple Field matching, ExFlow can configure additional matching methods than listed in ExFlow Order Matching Setup. These settings are available on a Vendor specific level, too.
+Mit dem Mehrfachfeld-Abgleich kann ExFlow zusätzliche Abgleichsmethoden konfigurieren, die in der ExFlow Auftragsabgleich-Einrichtung nicht aufgeführt sind. Diese Einstellungen sind auch auf Lieferantenspezifischer Ebene verfügbar.
 
-![Matching Priority](/img/media/multiple-field-002.png)
+![Abgleichspriorität](/img/media/multiple-field-002.png)
 
-Multiple Field Matching feature can match on one or more specified fields from an incoming purchase invoice/credit line against the order/credit documents in Business Central. 
+Die Mehrfachfeld-Abgleichsfunktion kann auf ein oder mehrere angegebene Felder aus einer eingehenden Einkaufsrechnung/Gutschriftzeile gegen die Auftrags-/Gutschriftdokumente in Business Central abgleichen. 
 
-This matching method also lets the user match incoming documents against 3rd party ISV or customized fields on the Purchase Line (39) table.
+Diese Abgleichsmethode ermöglicht es dem Benutzer auch, eingehende Dokumente gegen 3rd-Party-ISV- oder benutzerdefinierte Felder in der Tabelle Einkaufszeile (39) abzugleichen.
 
-Multiple field matching should not be used in conjunction with other matching methods. If you create multiple records for multi-field matching, consider configuring these methods at the vendor level rather than at a general level.
+Der Mehrfachfeld-Abgleich sollte nicht in Verbindung mit anderen Abgleichsmethoden verwendet werden. Wenn Sie mehrere Datensätze für den Mehrfachfeld-Abgleich erstellen, sollten Sie diese Methoden eher auf Lieferantenebene als auf allgemeiner Ebene konfigurieren.
 
-##### Examples of Multiple Field Matching field setup
+##### Beispiele für die Einrichtung von Mehrfachfeld-Abgleichsfeldern
 
-1. Multiple field matching should not be used in combination with other matching methods and if you create multiple records of multi field matching, consider setting up the methods on a vendor level rather than a general level.
-2. Activate “Multiple Field Matching” by enabling the toggle “Show Advanced Setup” 
-3. Select the matching method “Multiple Field” and click “Multiple Field Setup”
-4. Create a new code, give it a description and select “Multiple Field Setup” again.
-5. Select which ExFlow field that you want to match with “Purchase Order Field”
-
-
-Matching Import Invoice Line Description (ExFlow Field No: 12013662) to match the Purchase/Return Order line Description (BC Purchase Line Field No: 11, Related Table 39):
-
-![Matching Priority](/img/media/matching-ex-001.png)
-
-Matching Import Invoice Item No. Field (ExFlow field No: 6) and Variant Code field (ExFlow Field No: 12068803) to Purchase Line Item No: (6) and Variant Code: (5402):
+1. Der Mehrfachfeld-Abgleich sollte nicht in Kombination mit anderen Abgleichsmethoden verwendet werden, und wenn Sie mehrere Datensätze für den Mehrfachfeld-Abgleich erstellen, sollten Sie die Methoden eher auf Lieferantenebene als auf allgemeiner Ebene einrichten.
+2. Aktivieren Sie „Mehrfachfeld-Abgleich“, indem Sie den Schalter „Erweiterte Einrichtung anzeigen“ aktivieren 
+3. Wählen Sie die Abgleichsmethode „Mehrfachfeld“ und klicken Sie auf „Mehrfachfeld-Einrichtung“
+4. Erstellen Sie einen neuen Code, geben Sie ihm eine Beschreibung und wählen Sie erneut „Mehrfachfeld-Einrichtung“
+5. Wählen Sie aus, welches ExFlow-Feld Sie mit dem „Einkaufsauftragsfeld“ abgleichen möchten
 
 
-![Matching Priority](/img/media/matching-ex-002.png)
+Abgleich der Import-Rechnungszeilenbeschreibung (ExFlow-Feld-Nr: 12013662) mit der Beschreibung der Einkaufs-/Rücksendungsauftragszeile (BC Einkaufszeilenfeld-Nr: 11, Verwandte Tabelle 39):
 
-Here, the (5401 Item Variant) is added as a related table as the Purchase Line Variant Field is fetched from this table. 
+![Abgleichspriorität](/img/media/matching-ex-001.png)
 
-The Item Variant table (5401) is intrinsically linked to the Purchase Line table (39). To ensure comprehensive data integration and streamlined operations, it is essential to establish the Item Variant table as a related table. This relationship facilitates accurate tracking and management of item variants within purchase orders, enhancing overall efficiency and data consistency.
-
-
+Abgleich des Import-Rechnungsartikel-Nr. Felds (ExFlow-Feld-Nr: 6) und des Varianten-Codes-Felds (ExFlow-Feld-Nr: 12068803) mit der Einkaufszeilenartikel-Nr: (6) und dem Varianten-Code: (5402):
 
 
-## Order Matching Workflow
+![Abgleichspriorität](/img/media/matching-ex-002.png)
 
-We are pleased to announce the launch of a completely new Order Matching Engine, delivering a significant enhancement to accounts payable operations through improved accuracy, configurability, and process efficiency.
+Hier wurde die (5401 Artikelvariante) als verwandte Tabelle hinzugefügt, da das Variantenfeld der Einkaufszeile aus dieser Tabelle abgerufen wird. 
 
-This update introduces a redesigned Order Matching Setup, an intuitive configuration Wizard, and an enhanced Manual Order Matching interface, all developed to provide a more streamlined and user-friendly experience.
-
-Among the key improvements is the implementation of priority-based Order Matching Settings, allowing organizations to define and manage matching logic based on their specific business priorities. The engine also introduces support for Multi Field Matching, enabling customers to create highly customized matching configurations tailored to their operational needs.
-
-In addition, the new engine supports Base Unit of Measure Conversion, addressing common challenges that arise from unit discrepancies between purchase orders and invoices, and ensuring more accurate and consistent reconciliation.
-
-Together, these enhancements represent a major advancement in the automation and flexibility of the order matching process, empowering finance teams to manage both routine and complex scenarios with greater confidence and control.
+Die Artikelvariantentabelle (5401) ist intrinsisch mit der Einkaufszeilentabelle (39) verknüpft. Um eine umfassende Datenintegration und optimierte Abläufe sicherzustellen, ist es wichtig, die Artikelvariantentabelle als verwandte Tabelle zu etablieren. Diese Beziehung erleichtert die genaue Verfolgung und Verwaltung von Artikelvarianten innerhalb von Einkaufsaufträgen und verbessert die Gesamteffizienz und Datenkonsistenz.
 
 
-### Import Journal
-When AP has imported all documents to Import Journal, there often are a couple of order matched related errors. 
-
-With the new Order Matching feature, AP can get a lot of help to ease their workload from responsible Purchasers to manage and correct their orders or giving other input on how to proceed with the document. 
-
-Read more about this under [**Purchaser View**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view).
 
 
-#### Filter Options 
-With the new Order Matching Feature, the Import Journal User interface has changed in form of new filter options. 
+## Auftragsabgleich-Workflow
 
-On the Import Journal header, AP can filter on: 
-* Documents With Exception Codes added by the Purchaser via ''Filter Documents With Order Exception'' Read more about this under [**Purchaser View**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view)
-* Order matched Error Types via ''Error Filter''
-* Document status via ''Document Filter''
+Wir freuen uns, die Einführung einer völlig neuen Auftragsabgleich-Engine bekannt zu geben, die eine erhebliche Verbesserung der Kreditorenbuchhaltungsprozesse durch verbesserte Genauigkeit, Konfigurierbarkeit und Prozesseffizienz bietet.
+
+Dieses Update führt eine neu gestaltete Auftragsabgleich-Einrichtung, einen intuitiven Konfigurationsassistenten und eine verbesserte manuelle Auftragsabgleich-Oberfläche ein, die alle entwickelt wurden, um eine benutzerfreundlichere und effizientere Erfahrung zu bieten.
+
+Zu den wichtigsten Verbesserungen gehört die Implementierung von prioritätsbasierten Auftragsabgleich-Einstellungen, die es Organisationen ermöglichen, die Abgleichslogik basierend auf ihren spezifischen Geschäftsprioritäten zu definieren und zu verwalten. Die Engine unterstützt auch den Mehrfachfeld-Abgleich, der es Kunden ermöglicht, hochgradig angepasste Abgleichskonfigurationen zu erstellen, die auf ihre betrieblichen Bedürfnisse zugeschnitten sind.
+
+Darüber hinaus unterstützt die neue Engine die Umrechnung der Basiseinheit, um häufige Herausforderungen zu bewältigen, die sich aus Einheitendiskrepanzen zwischen Einkaufsaufträgen und Rechnungen ergeben, und sorgt für eine genauere und konsistentere Abstimmung.
+
+Zusammen stellen diese Verbesserungen einen bedeutenden Fortschritt in der Automatisierung und Flexibilität des Auftragsabgleichsprozesses dar und ermöglichen es Finanzteams, sowohl routinemäßige als auch komplexe Szenarien mit größerem Vertrauen und Kontrolle zu verwalten.
+
+
+### Importjournal
+Wenn die Kreditorenbuchhaltung alle Dokumente in das Importjournal importiert hat, gibt es oft einige auftragsbezogene Fehler. 
+
+Mit der neuen Auftragsabgleich-Funktion kann die Kreditorenbuchhaltung viel Unterstützung erhalten, um ihre Arbeitsbelastung von den verantwortlichen Einkäufern zu erleichtern, um ihre Aufträge zu verwalten und zu korrigieren oder andere Hinweise zu geben, wie mit dem Dokument weiter verfahren werden soll. 
+
+Lesen Sie mehr darüber unter [**Einkäuferansicht**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view).
+
+
+#### Filteroptionen 
+Mit der neuen Auftragsabgleich-Funktion hat sich die Benutzeroberfläche des Importjournals in Form neuer Filteroptionen geändert. 
+
+Im Importjournal-Kopf kann die Kreditorenbuchhaltung filtern nach: 
+* Dokumenten mit Ausnahmecodes, die vom Einkäufer über ''Dokumente mit Auftragsausnahme filtern'' hinzugefügt wurden. Lesen Sie mehr darüber unter [**Einkäuferansicht**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view)
+* Auftragsbezogenen Fehlertypen über ''Fehlerfilter''
+* Dokumentstatus über ''Dokumentenfilter''
 
 ![OM](/img/media/import-journal-filter-options-001.png)  
 
-##### Filter Documents With Order Exception 
+##### Dokumente mit Auftragsausnahme filtern 
 
-AP can enable ‘’Filter Documents with Order Exception’’ to filter the journal on Purchasers added Exception codes, to follow up purchasers added work, and to continue with handling the document. 
+Die Kreditorenbuchhaltung kann ''Dokumente mit Auftragsausnahme filtern'' aktivieren, um das Journal nach den vom Einkäufer hinzugefügten Ausnahmecodes zu filtern, um die hinzugefügte Arbeit des Einkäufers zu verfolgen und mit der Bearbeitung des Dokuments fortzufahren. 
 
-Read more about this under [**Correcting the document as AP in Import Journal**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view#correcting-the-document-as-ap-in-import-journal)
+Lesen Sie mehr darüber unter [**Dokument als Kreditorenbuchhaltung im Importjournal korrigieren**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view#correcting-the-document-as-ap-in-import-journal)
 
 
-##### Error/Document Filter
-AP can also utilize the Error/Document Filter to get a better overview of imported documents with error messages and filter on a Document Filter to get a better sorting of document statuses.
+##### Fehler-/Dokumentenfilter
+Die Kreditorenbuchhaltung kann auch den Fehler-/Dokumentenfilter verwenden, um einen besseren Überblick über importierte Dokumente mit Fehlermeldungen zu erhalten und nach einem Dokumentenfilter zu filtern, um eine bessere Sortierung der Dokumentstatus zu erreichen.
 
-Filter on Error Type only, or combined with Document Filter. 
+Filtern Sie nur nach Fehlertyp oder in Kombination mit dem Dokumentenfilter. 
 
-Document Filter Option ''All Documents Ready to Create'' cannot be filter together with an Error Type, since the document is completed and ready to be sent for approval.
+Die Dokumentenfilteroption ''Alle Dokumente bereit zur Erstellung'' kann nicht zusammen mit einem Fehlertyp gefiltert werden, da das Dokument abgeschlossen und bereit zur Genehmigung ist.
 
 ![OM](/img/media/import-journal-filter-options-002.png) 
 
-|Error Type Filter|   |
+|Fehlertyp-Filter|   |
 |:-|:-|
-|Line not matched to order|Specifies the error /Action Message
-|Order No is missing|Specifies the error /Action Message
-|Line cannot be matched because of due date setting|Specifies the error /Action Message
-|Line cannot be matched to receipt/return shipment|Specifies the error /Action Message
-|Difference line is over maximum tolerance|Specifies the error /Action Message
-|Unit cost difference between document and order|Specifies the error /Action Message
-|Line discount % difference between document and order|Specifies the error /Action Message
-|Check split line|Specifies the error /Action Message
-|Line Type Mismatch|Specifies the error /Action Message
-|Line No mismatch|Specifies the error /Action Message
-|Quantity on line is greater than received/shipped|Specifies the error /Action Message
-|Posted document exist for th line|Specifies the error /Action Message
-|Same line is matched on another document|Specifies the error /Action Message
-|Quantity cannot be higher than matched|Specifies the error /Action Message
-|Multiple matching with same No and Quantity is not allowed|Specifies the error /Action Message
-|Imported Unit of Measure does not exist|Specifies the error /Action Message
-|Available quantity is not sufficient on the order line|Specifies the error /Action Message
-|Order is not released|Specifies the error /Action Message
-|Currency Code Mismatch|Specifies the error /Action Message
-|Line Not matched due to missing No.|Specifies the error /Action Message
+|Zeile nicht mit Auftrag abgeglichen|Gibt den Fehler /Aktionsmeldung an
+|Auftragsnummer fehlt|Gibt den Fehler /Aktionsmeldung an
+|Zeile kann aufgrund der Fälligkeitsdatumseinstellung nicht abgeglichen werden|Gibt den Fehler /Aktionsmeldung an
+|Zeile kann nicht mit Wareneingang/Rücksendung abgeglichen werden|Gibt den Fehler /Aktionsmeldung an
+|Differenzzeile überschreitet maximale Toleranz|Gibt den Fehler /Aktionsmeldung an
+|Einstandspreisdifferenz zwischen Dokument und Auftrag|Gibt den Fehler /Aktionsmeldung an
+|Zeilenrabatt % Unterschied zwischen Dokument und Auftrag|Gibt den Fehler /Aktionsmeldung an
+|Geteilte Zeile überprüfen|Gibt den Fehler /Aktionsmeldung an
+|Zeilentyp stimmt nicht überein|Gibt den Fehler /Aktionsmeldung an
+|Zeilennummer stimmt nicht überein|Gibt den Fehler /Aktionsmeldung an
+|Menge auf der Zeile ist größer als empfangen/versendet|Gibt den Fehler /Aktionsmeldung an
+|Gebuchtes Dokument existiert für die Zeile|Gibt den Fehler /Aktionsmeldung an
+|Gleiche Zeile ist auf einem anderen Dokument abgeglichen|Gibt den Fehler /Aktionsmeldung an
+|Menge kann nicht höher als abgeglichen sein|Gibt den Fehler /Aktionsmeldung an
+|Mehrfachabgleich mit derselben Nummer und Menge ist nicht erlaubt|Gibt den Fehler /Aktionsmeldung an
+|Importierte Maßeinheit existiert nicht|Gibt den Fehler /Aktionsmeldung an
+|Verfügbare Menge ist auf der Auftragszeile nicht ausreichend|Gibt den Fehler /Aktionsmeldung an
+|Auftrag ist nicht freigegeben|Gibt den Fehler /Aktionsmeldung an
+|Währungscode stimmt nicht überein|Gibt den Fehler /Aktionsmeldung an
+|Zeile nicht abgeglichen aufgrund fehlender Nummer|Gibt den Fehler /Aktionsmeldung an
 
 
-| Document Filter|   | 
+| Dokumentenfilter|   | 
 |:-|:-|
-|All Documents|	Shows all documents.
-|All Documents Ready To Create	|Show all documents without error which are ready to be created.
-|All Documents With Error	|Shows all documents which have error. In case of order related documents all error will be included.
-|All Order Related Documents With Error Without Exception	|Shows all order related documents which have error, without exception. No handled errors are included.
-|All Order Related Documents With Error With Exception	|Shows all order related documents which have error, with exception. No handled errors are included.
-|All Order Related Documents With Handled Error|	Shows all order related documents which have handled errors.
+|Alle Dokumente|	Zeigt alle Dokumente an.
+|Alle Dokumente bereit zur Erstellung	|Zeigt alle Dokumente ohne Fehler an, die bereit zur Erstellung sind.
+|Alle Dokumente mit Fehler	|Zeigt alle Dokumente an, die Fehler haben. Bei auftragsbezogenen Dokumenten werden alle Fehler einbezogen.
+|Alle auftragsbezogenen Dokumente mit Fehler ohne Ausnahme	|Zeigt alle auftragsbezogenen Dokumente an, die Fehler haben, ohne Ausnahme. Keine behandelten Fehler sind enthalten.
+|Alle auftragsbezogenen Dokumente mit Fehler mit Ausnahme	|Zeigt alle auftragsbezogenen Dokumente an, die Fehler haben, mit Ausnahme. Keine behandelten Fehler sind enthalten.
+|Alle auftragsbezogenen Dokumente mit behandelten Fehlern|	Zeigt alle auftragsbezogenen Dokumente an, die behandelte Fehler haben.
 
-### Import Journal - Import Lines
+### Importjournal - Importzeilen
 
-### Multiple Error List
-When imported Order Matched document lines with errors are imported to the Import Journal, AP can view all issues in an gathered error list, called Multiple Error List, instead of handling one error, one by one and verifying the document to get the next error.
+### Mehrfachfehlerliste
+Wenn importierte auftragsbezogene Dokumentzeilen mit Fehlern in das Importjournal importiert werden, kann die Kreditorenbuchhaltung alle Probleme in einer gesammelten Fehlerliste, der sogenannten Mehrfachfehlerliste, anzeigen, anstatt einen Fehler nach dem anderen zu bearbeiten und das Dokument zu überprüfen, um den nächsten Fehler zu erhalten.
 
 ![OM](/img/media/mm-002.png) 
 
-AP can click to inspect the errors. This line has only one error to be handled:
+Die Kreditorenbuchhaltung kann auf die Fehler klicken, um sie zu überprüfen. Diese Zeile hat nur einen Fehler zu bearbeiten:
 
 ![OM](/img/media/multiple-error-list-001.png) 
 
 
-### Manual Order Matching 
-Go to: **ExFlow Import Journal -–> Actions -–> Order -–> Manual Order Matching (Alt+M)**
+### Manueller Auftragsabgleich 
+Gehen Sie zu: **ExFlow Importjournal -–> Aktionen -–> Auftrag -–> Manueller Auftragsabgleich (Alt+M)**
 
-The Manual Order Matching page offers a simple process to match order lines to imported invoice/credit lines on a document level. 
+Die Seite Manueller Auftragsabgleich bietet einen einfachen Prozess, um Auftragszeilen auf Dokumentebene mit importierten Rechnungs-/Gutschriftzeilen abzugleichen. 
 
-The page presents the document lines of the left hand side and order lines on the right. With easy-to-read columns that displays the quantity matched and the remaining quantity to match.
+Die Seite zeigt die Dokumentzeilen auf der linken Seite und die Auftragszeilen auf der rechten Seite an. Mit leicht lesbaren Spalten, die die abgeglichene Menge und die verbleibende Menge zum Abgleich anzeigen.
 
-Matched Order Lines will be bolded for clarity, so the AP can easily see which import line that is connected to which order line and can make the correct adjustments.
+Abgeglichene Auftragszeilen werden zur Klarheit fett dargestellt, sodass die Kreditorenbuchhaltung leicht erkennen kann, welche Importzeile mit welcher Auftragszeile verbunden ist und die richtigen Anpassungen vornehmen kann.
 
 ![OM](/img/media/mm-001.png) 
 
-| Manual Order Matching |   | 
+| Manueller Auftragsabgleich |   | 
 |:-|:-|
-|Match Line|Use this function to match selected line.
-|Un-Match Line|Use this function to release matching for selected line to rematched against other order line. Split lines will be reverted.
-|Remove Order No.|Use this function to remove the order no from the selected line.
-|Verify |Use this function to verify the document for selected line.
-|Verify All|Verify all document lines.
-|Auto Assign Receipt/Shipment|Use this functionality to automatically assign the receipt/shipment to the lines. 
-|Order Card|View or edit detailed information about the order or return order on the purchase document line.
-|Document Card|View the document card for the selected document. 
-|*Action*|
-|Order Line Related Documents|Shows where the selected order line is used on the chosen purchase document.
-|Filter/Unfilter Same Import Line|Filter/Unfilter to show other documents or lines with the same Order No. and Order Line No.
-|*Action – Email*|
-|Send Receipt Reminders|Use this function to send receipt reminders for selected lines. (Only applicable if Match Documents = Receipts are set)
-|See Email Log|Use this function to send receipt reminders for selected lines.
-|Send Email to Vendor|Use this function to send email to vendor or other.
-|Sent Emails|View a list of emails that have been sent regarding this document.
-|*Related*|
-|About ExFlow|Get current versions and convenient links
-|*Related - Files*|
-|Show Document Image (Ctrl+I)| Use this function to display the document image for the currently selected document.
-|Show Import Details (OCR)|Use this function to display the OCR import data for the currently selected document.
+|Zeile abgleichen|Verwenden Sie diese Funktion, um die ausgewählte Zeile abzugleichen.
+|Zeile nicht abgleichen|Verwenden Sie diese Funktion, um den Abgleich der ausgewählten Zeile aufzuheben, um sie erneut mit einer anderen Auftragszeile abzugleichen. Geteilte Zeilen werden zurückgesetzt.
+|Auftragsnummer entfernen|Verwenden Sie diese Funktion, um die Auftragsnummer aus der ausgewählten Zeile zu entfernen.
+|Überprüfen |Verwenden Sie diese Funktion, um das Dokument für die ausgewählte Zeile zu überprüfen.
+|Alle überprüfen|Überprüfen Sie alle Dokumentzeilen.
+|Wareneingang/-lieferung automatisch zuweisen|Verwenden Sie diese Funktion, um den Wareneingang/-lieferung automatisch den Zeilen zuzuweisen. 
+|Auftragskarte|Anzeigen oder Bearbeiten detaillierter Informationen zum Auftrag oder Rücksendeauftrag in der Einkaufsdokumentzeile.
+|Dokumentkarte|Anzeigen der Dokumentkarte für das ausgewählte Dokument. 
+|*Aktion*|
+|Auftragszeilenbezogene Dokumente|Zeigt an, wo die ausgewählte Auftragszeile im ausgewählten Einkaufsdokument verwendet wird.
+|Gleiche Importzeile filtern/entfiltern|Filtern/entfiltern, um andere Dokumente oder Zeilen mit derselben Auftragsnummer und Auftragszeilennummer anzuzeigen.
+|*Aktion – E-Mail*|
+|Wareneingangserinnerungen senden|Verwenden Sie diese Funktion, um Wareneingangserinnerungen für ausgewählte Zeilen zu senden. (Nur anwendbar, wenn Dokumente abgleichen = Wareneingänge eingestellt sind)
+|E-Mail-Protokoll anzeigen|Verwenden Sie diese Funktion, um Wareneingangserinnerungen für ausgewählte Zeilen zu senden.
+|E-Mail an Lieferanten senden|Verwenden Sie diese Funktion, um eine E-Mail an den Lieferanten oder andere zu senden.
+|Gesendete E-Mails|Anzeigen einer Liste der E-Mails, die bezüglich dieses Dokuments gesendet wurden.
+|*Verwandt*|
+|Über ExFlow|Aktuelle Versionen und praktische Links erhalten
+|*Verwandt - Dateien*|
+|Dokumentbild anzeigen (Strg+I)| Verwenden Sie diese Funktion, um das Dokumentbild für das aktuell ausgewählte Dokument anzuzeigen.
+|Importdetails anzeigen (OCR)|Verwenden Sie diese Funktion, um die OCR-Importdaten für das aktuell ausgewählte Dokument anzuzeigen.
 
 
-|Related Order Features| |
+|Verwandte Auftragsfunktionen| |
 |:-|:-| 
-| Lookup Possible Use by Words: |Display the number of occurrences words has been used in documents and transactions.
-| Lookup Common Usage by Description: | Display the number of occurrences Description has been used in documents and transactions.
-| Lookup Common usage by Item No: | Display the number of occurrences Item No. has been used in documents and transactions.
+| Mögliche Verwendung nach Wörtern suchen: |Anzeigen der Anzahl der Vorkommen von Wörtern in Dokumenten und Transaktionen.
+| Häufige Verwendung nach Beschreibung suchen: | Anzeigen der Anzahl der Vorkommen der Beschreibung in Dokumenten und Transaktionen.
+| Häufige Verwendung nach Artikel-Nr. suchen: | Anzeigen der Anzahl der Vorkommen der Artikel-Nr. in Dokumenten und Transaktionen.
 
 
-#### Exception Code 
-Exception Code is used by Purchasers to give AP team guidance for handling order matched lines with error, enabling them to proceed with their work efficiently and accelerating the approval-to-posting process.
+#### Ausnahmecode 
+Der Ausnahmecode wird von Einkäufern verwendet, um dem Kreditorenbuchhaltungsteam Anweisungen zur Bearbeitung von auftragsbezogenen Zeilen mit Fehlern zu geben, damit sie ihre Arbeit effizient fortsetzen und den Genehmigungs-zu-Buchungs-Prozess beschleunigen können.
 
 
-|Exceptions |   | 
+|Ausnahmen |   | 
 |:-|:-|
-|Action Message| The error message for the document line
-|Exception Code| Error Code that purchaser can add, to signal to AP team on how to proceed to resolve/handle the line with error. This is the''Multi Error List'', edit the list to make changes. 
-|Exception Description| Description of the Exception Code
-|Exception Created By| Show the User that added the Exception Code
-|Handled Time/Date| Show the User that resolved the error  
+|Aktionsmeldung| Die Fehlermeldung für die Dokumentzeile
+|Ausnahmecode| Fehlercode, den der Einkäufer hinzufügen kann, um dem Kreditorenbuchhaltungsteam ein Signal zu geben, wie die Zeile mit Fehler zu lösen/zu bearbeiten ist. Dies ist die ''Mehrfachfehlerliste'', bearbeiten Sie die Liste, um Änderungen vorzunehmen. 
+|Ausnahmebeschreibung| Beschreibung des Ausnahmecodes
+|Ausnahme erstellt von| Zeigt den Benutzer an, der den Ausnahmecode hinzugefügt hat
+|Bearbeitungszeit/-datum| Zeigt den Benutzer an, der den Fehler behoben hat  
 
 
-##### Transfer Exception Codes between environments
+##### Ausnahmecodes zwischen Umgebungen übertragen
 
-Exception Codes is available for data transfer in functions [Copy Setup](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started#copy-setup-from-another-company) and [Import/Export](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/export-import-setup)
+Ausnahmecodes sind für den Datentransfer in den Funktionen [Einrichtung kopieren](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started#copy-setup-from-another-company) und [Import/Export](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/export-import-setup) verfügbar.
 
 
 ### FactBoxes
-#### PDF Preview
-View the document image.
+#### PDF-Vorschau
+Dokumentbild anzeigen.
 
-#### Discussion Panel
-Use Discussion Panel to communicate, as usual, with colleagues and web approvers.
+#### Diskussionspanel
+Verwenden Sie das Diskussionspanel, um wie gewohnt mit Kollegen und Web-Genehmigern zu kommunizieren.
 
-#### Incoming Document Files
-Download Incoming Document or attach other files. 
+#### Eingehende Dokumentdateien
+Eingehendes Dokument herunterladen oder andere Dateien anhängen. 
 
 
-### Base Unit of Measure Conversion
+### Umrechnung der Basiseinheit
 
-ExFlow supports matching towards different Units of Measure, given that correct relations are set on the Item card --> Item unit of Measure and base UOM is set.
+ExFlow unterstützt den Abgleich mit verschiedenen Maßeinheiten, vorausgesetzt, dass auf der Artikelkarte --> Artikelmaßeinheit und Basiseinheit die richtigen Beziehungen festgelegt sind.
 
-Users can interpret documents with one UoM and match it against another Order line UoM. ExFlow uses and post documents with order UOM in the end.
+Benutzer können Dokumente mit einer Maßeinheit interpretieren und sie gegen eine andere Auftragszeilenmaßeinheit abgleichen. ExFlow verwendet und bucht Dokumente schließlich mit der Auftragsmaßeinheit.
 
-To facilitate precise inventory and order management when performing “Manual Order Matching” by enabling the 'Use Base Quantity' toggle. This functionality allows all quantities to be displayed in their base unit of measure, ensuring consistency and clarity across document and order lines.
+Um eine präzise Bestands- und Auftragsverwaltung beim manuellen Auftragsabgleich zu erleichtern, aktivieren Sie den Schalter 'Basismenge verwenden'. Diese Funktionalität ermöglicht es, alle Mengen in ihrer Basiseinheit anzuzeigen, um Konsistenz und Klarheit über Dokument- und Auftragszeilen hinweg sicherzustellen.
 
-Go to: **Import Journal --> Actions --> Order --> Manual Order Matching (Alt +M) --> Use Base Quantity**
+Gehen Sie zu: **Importjournal --> Aktionen --> Auftrag --> Manueller Auftragsabgleich (Alt +M) --> Basismenge verwenden**
 
-By activating the toggle ''Use Base Quantity'', Accounts Payable (AP) can view all item lines in their base quantity, regardless of the unit of measure (UoM) used during import. For example, if a document is imported with a different UoM, such as 2 Boxes (KARTONG) at 500 SEK each, it can still be accurately matched to an order line specified as 20 PCS at 50 SEK.
+Durch Aktivieren des Schalters ''Basismenge verwenden'' kann die Kreditorenbuchhaltung (AP) alle Artikelzeilen in ihrer Basismenge anzeigen, unabhängig von der Maßeinheit (UoM), die während des Imports verwendet wurde. Wenn beispielsweise ein Dokument mit einer anderen Maßeinheit importiert wird, wie z.B. 2 Kartons (KARTONG) zu je 500 SEK, kann es dennoch genau mit einer Auftragszeile abgeglichen werden, die als 20 Stück zu je 50 SEK angegeben ist.
 
-In this example, we imported an invoice with 2 KARTONG (1 KARTONG=10 PCS) matched to an order with 20 PCS.
+In diesem Beispiel haben wir eine Rechnung mit 2 KARTONG (1 KARTONG=10 Stück) importiert, die mit einem Auftrag mit 20 Stück abgeglichen wurde.
 
-![OM](/img/media/manual-om-001.png) 
+![OM](/img/media/manual-om-001.png)
 
 
 
