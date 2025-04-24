@@ -70,8 +70,8 @@ const lnk_relnotes = 'docs/user-manual/welcome-to-exflow/release-notes'; //'rele
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ExFlow Documentation Platform',
-  tagline: 'ExFlow Documentation Platform',
+  title: 'SignUp Software Documentation Platform',
+  tagline: 'Documentation for SignUp Software products',
   favicon: 'img/favicon.ico',
 
 
@@ -243,16 +243,6 @@ const config = {
               },
               {
                 label: 'ExFlow for BC',
-                //to: '/docs/user-manual/welcome-to-exflow/introduction',
-                // https://docs.exflow.cloud/business-central/
-                //to: siteURL + 'docs/user-manual/welcome-to-exflow/introduction',
-                //to: 'https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/introduction'
-                //to: 'https://docs.exflow.cloud/business-central/docs/user-manual'
-                // EA 2024-10-25:
-                //to: "/business-central/docs/user-manual/welcome-to-exflow/introduction"               
-                // EA 2024-10-25b, something weird is going on here, esp. with German link.
-                //to: "docs/user-manual/welcome-to-exflow/introduction"                               
-                // EA 2024-10-25c, Right, we're using id: user-manual now. Setting slug.
                 to: "docs/user-manual"
               },
               {
@@ -274,8 +264,8 @@ const config = {
               },
               {
                 label: 'Terms and Conditions', 
-                //href: '/docs/papers/agreements',
-                href: '/docs/proxy/proxy-terms-and-conditions',
+                //to: '/docs/proxy/proxy-terms-and-conditions',
+                href: 'https://docs.signupsoftware.com/tem',
               },
               /*
               {
