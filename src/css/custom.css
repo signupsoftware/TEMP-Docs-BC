@@ -321,11 +321,6 @@ table strong {
   align-items: left;
 }
 
-.menu-container {
-  margin-left: 25px;
-  width: fit-content;
-}
-
 .main-title {
   color: black;
   font-family: DMSans, sans-serif;
@@ -390,8 +385,34 @@ table strong {
 
 .hidden {
   display: none !important;
-  }
+}
+
+.menu-container {
+  margin-left: 25px;
+  width: fit-content;
+}
+
+.div-row {
+  display: table;
+  width: auto;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  display: table;
+}
+
+.div-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  width: 360px;
+  height: auto;
+}
   
+
+
 /*
   font-family: 'Archia', sans-serif;
   font-size: 12pt;
@@ -1080,3 +1101,66 @@ img[alt="large"] {
   display: none;
 }
 */
+
+/* ------------------------------------------------------------------------------ */
+/*  EA 2025-04-10 Adding some support for mobile devices                          */
+/*  Android, IOS                                                                  */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 900px) {
+
+  .menu-item {
+    background-color: #fdad54;
+    background: #fdad54;
+  }
+
+  .div-row {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+  }
+  
+  .div-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Language dropdown element
+  div:has(> .dropdown__menu) {
+    background-color: red !important;
+    position: absolute;
+    left: 0px;
+  } 
+  */
+
+  .footer__links div:nth-child(2) {
+    flex: none;
+    position: absolute;
+    left: 50%;
+  }
+
+  
+  .main-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-self: center;    
+  }
+
+  /* Fix of too wide window area */
+  .footer__links > div:nth-child(2) {
+    width: 49%;
+  }
+}
+/* End of Mobile devices support */
+/* ------------------------------------------------------------------------------ */
+
