@@ -12,7 +12,7 @@ To use the new Order Matching Experience with the Order Matching Engine and all 
 
 Go to: **SignUp Feature Management** to enable the New Order Matching Feature.
 
-![ExFlow Import Journal - Order No.](/img/media/fm001.png)
+![ExFlow Import Journal - Order No.](/img/media/FM-001.png)
  
 Read more about this under section [**Get started**](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started)
 
