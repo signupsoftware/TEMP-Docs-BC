@@ -45,13 +45,13 @@ In ExFlow-Einkaufscode-Zeilen können ein oder mehrere Felder verwendet werden. 
  
 Hier ist ein Beispiel für die Aufteilung der Kosten nach Abteilung:
  
-![ExFlow Purchase Code Card](../../images/media/puchase-code-001.png)
+![ExFlow Purchase Code Card](../../images/puchase-code-001.png)
  
 In diesem Beispiel wird die MwSt. auf das Sachkonto mit 50 % gewichtet, aber die Betragsprüfung erfolgt immer für Brutto anstatt die ExFlow-Einrichtung zu berücksichtigen. Dies kann in Schweden nützlich sein, wo 50% der MwSt. abzugsfähig ist. Interpretieren Sie die gesamte MwSt. und nur 50% werden als separate Zeile hinzugefügt.
  
 Dies kann nützlich sein, wenn die volle MwSt. in einem bestimmten Fall nicht abzugsfähig ist, z.B. bei der Kfz-Leasing in Schweden.
  
-![ExFlow Purchase Code Card](../../images/media/puchase-code-002.png)
+![ExFlow Purchase Code Card](../../images/puchase-code-002.png)
  
 Hier ist ein Beispiel, wie ein ExFlow-Einkaufscode eingerichtet wird, wenn eine Genehmigung des MwSt.-Betrags erforderlich ist. Fügen Sie die gewünschte Codierung und eine separate Zeile mit einem MwSt.-Sachkonto hinzu und aktivieren Sie manuell das Genehmigungsfeld.
 
