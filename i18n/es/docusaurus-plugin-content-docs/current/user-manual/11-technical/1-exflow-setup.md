@@ -22,8 +22,6 @@ Ir a: **Configuración de ExFlow**
 
 Ir a: **Configuración de ExFlow --> Acciones --> Funciones** <br/>
 
-![Configuración de ExFlow](@site/static/img/media/exflow-setup-ribbon-002.png)<br/>
-
 | Acciones --> Funciones | |
 |:-|:-|
 |**Aplicar/Actualizar Roles de Seguridad Predeterminados de ExFlow** 	|Crea permisos de nivel de usuario web predeterminados si no existen o han cambiado. <br/><br/> Lea más sobre esto en la sección [***Permisos de Nivel de Usuario Web***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/web-user-level-permissions)
@@ -41,8 +39,6 @@ Ir a: **Configuración de ExFlow --> Acciones --> Funciones** <br/>
 
 Ir a: **Configuración de ExFlow --> Relacionado --> Avanzado**
 
-![Configuración de ExFlow](@site/static/img/media/exflow-setup-ribbon-003.png)<br/>
-
 | Relacionado --> Avanzado | |
 |:-|:-|	
 |**Columnas**	|Abre las Columnas de ExFlow para ver todas las columnas visibles en la web de ExFlow <br/><br/> Lea más sobre esto en la sección [***Editar Columnas Web en Business Central***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)
@@ -51,7 +47,7 @@ Ir a: **Configuración de ExFlow --> Relacionado --> Avanzado**
 |**Tamaños Predeterminados de FactBox**	|Editar/restaurar Tamaños de FactBox para diferentes páginas de ExFlow <br/><br/> Lea más sobre esto en la sección [***Establecer Tamaño Predeterminado de FactBox***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/set-factbox-default-size#set-factbox-default-size)
 |**Configuración de Validación de Pagos**	|Ingrese campos para verificar en la Validación de Pagos durante el proceso de importación e interpretación de datos. <br/><br/> Lea más sobre esto en la sección [***Configuración de Validación de Pagos***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-and-payment-suggestion)
 |**Configuración de Publicación Preliminar**	|Abre la Configuración de Publicación Preliminar. <br/> Nota: Esta configuración debe estar activada en la sección ‘‘Publicación Preliminar’’ para ser vista. <br/><br/>Lea más sobre esto en la sección [***Publicación Preliminar***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
-|**Configuración de Valores de Encabezado de PO en Factura**	|Abre la página de Configuración de Valores de Encabezado de PO en Factura. Nota: Esta configuración debe estar activada en la sección ‘’Emparejamiento de PO’’ para ser vista. <br/><br/> Lea más sobre esto en la sección [***Copiar Valores de Encabezado de Orden de Compra***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
+|**Copiar valores de cabecera en la configuración de factura/nota de crédito** |Copie los valores de cabecera en la configuración de factura/abono. Nota: Esta configuración debe estar activada en la sección ''Coincidencia de pedidos'' para que se vea. <br/><br/> Lea más sobre esto en la sección [***Copiar valores de encabezado de orden de compra***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
 |**Configuración de Tipo de Línea de Recepción Automática**	|Mostrar o editar Tipos de Línea que deben ser recibidos automáticamente.<br/><br/> Lea más sobre esto en la sección [***Emparejar Factura con Líneas de Recepción, Orden o ambas Recepción y Orden***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
 |**Configuración de Re-Facturación**| Abre la página de configuración para Re-Facturación. <br/><br/> Lea más sobre esto en la sección [***Re-Facturación***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing)
 |**Prioridad de Emparejamiento de No. de Artículo**| Esta función dará la oportunidad de configurar una lista de prioridades en el proceso de emparejamiento de No. de Artículo por Tipo de Emparejamiento, como Mapeo OCR o Referencia de Artículo, etc.  <br/><br/> Lea más sobre esto en la sección [***Prioridad de Emparejamiento de No. de Artículo***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
@@ -150,18 +146,18 @@ Encuentre todas las secciones de Configuración de ExFlow descritas a continuaci
 
 <br/>
 
-### Emparejamiento de PO
+### Conciliación de pedidos
 
 ![Configuración de ExFlow](@site/static/img/media/exflow-setup-po-matching-section.png)
 
-|Emparejamiento de PO|| 
+|Conciliación de pedidos|| 
 |:-|:-| 
 |**Emparejar Documentos Con**|    Especifica si ExFlow debe emparejar y recuperar líneas de Órdenes de Compra o de Recepciones Publicadas, o de ambas Órdenes y Recepciones. <br/><br/> Lea más sobre esto en la sección [***Emparejar Factura con Líneas de Recepción, Orden o ambas Recepción y Orden***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
-|**Recibir Líneas de Orden de Compra Automáticamente**|    Especifica si las Líneas de Orden de Compra de cada tipo de línea deben recibirse automáticamente cuando la factura emparejada se establece en "Lista para publicar". Esta opción solo es aplicable si la configuración "Emparejar Documentos Con" está configurada como "Orden" o "Orden y Recepción". <br/><br/>Al ejecutar Verificar Cambios en el Estado de Aprobación, la recepción de las líneas emparejadas de la orden de compra se publicará en la Fecha del Documento de la Factura. <br/> La Fecha de IVA en el encabezado de la orden de compra y las Fechas de Publicación de Diferimiento en las líneas de la orden de compra se actualizarán automáticamente si la Fecha de Publicación de la orden de compra es diferente a la Fecha de Publicación de la Factura. <br/> Si tanto la orden de compra como la Factura tienen la misma fecha de publicación al ejecutar Verificar Cambios, no habrá actualizaciones en la orden de compra. <br/>La Fecha de Publicación de la orden de compra también se actualizará si está en blanco. (Configuración de Compras y Pagos - Fecha de Publicación Predeterminada = Sin Fecha)
+|**Contabilizar recibos y envíos automáticamente**|    Especifica si las Líneas de Orden de Compra de cada tipo de línea deben recibirse automáticamente cuando la factura emparejada se establece en "Lista para publicar". Esta opción solo es aplicable si la configuración "Emparejar Documentos Con" está configurada como "Orden" o "Orden y Recepción". <br/><br/>Al ejecutar Verificar Cambios en el Estado de Aprobación, la recepción de las líneas emparejadas de la orden de compra se publicará en la Fecha del Documento de la Factura. <br/> La Fecha de IVA en el encabezado de la orden de compra y las Fechas de Publicación de Diferimiento en las líneas de la orden de compra se actualizarán automáticamente si la Fecha de Publicación de la orden de compra es diferente a la Fecha de Publicación de la Factura. <br/> Si tanto la orden de compra como la Factura tienen la misma fecha de publicación al ejecutar Verificar Cambios, no habrá actualizaciones en la orden de compra. <br/>La Fecha de Publicación de la orden de compra también se actualizará si está en blanco. (Configuración de Compras y Pagos - Fecha de Publicación Predeterminada = Sin Fecha)
 |**Recuperar Líneas Automáticamente**|      Recuperar automáticamente todas las líneas disponibles de la Orden de Compra o Recepción de Compra Publicada al emparejar a nivel de encabezado.
 |**Aprobar Facturas Automáticamente**|     Especifica si la factura debe aprobarse automáticamente si la orden relacionada está aprobada. <br/><br/> Lea más sobre esto en la sección [***Aprobar Facturas Automáticamente***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
 |**Usuario para Aprobación Automática**|   Especifica el usuario de ExFlow que debe utilizarse para las facturas aprobadas automáticamente. Si esta configuración está vacía, se utiliza el ID del usuario de BC que ha iniciado sesión
-|**Monto Máx. de Factura para Aprobación del Sistema (LCY)**|     Especifica el monto máximo de factura permitido para aprobaciones automáticas. 0 = desactivado
+|**Importe máx. para la aprobación automática (LCY)**|     Especifica el monto máximo de factura permitido para aprobaciones automáticas. 0 = desactivado
 |**Verificar Costo Unitario Directo**|    Especifica que ExFlow debe verificar el Costo Unitario en la línea de la factura al emparejar facturas con órdenes de compra. La factura importada necesita ser interpretada en línea para que esto funcione
 |**Verificar % de Descuento de Línea**|     Especifica que ExFlow debe verificar el % de Descuento de Línea en la línea de la factura al emparejar facturas con órdenes de compra. La factura importada necesita ser interpretada en línea para que esto funcione
 |**Máx. Cargos Misceláneos (LCY)**|      Tolerancia para el campo "Aprobar Facturas Automáticamente". El monto total de las líneas de factura no emparejadas con líneas de PO. (Por ejemplo, flete). Cuando se genera una factura, las líneas no se aprobarán automáticamente si se excede el monto máximo de cargos misceláneos.
@@ -186,8 +182,8 @@ Encuentre todas las secciones de Configuración de ExFlow descritas a continuaci
 |**Verificar Líneas de Factura Divididas**|     Si “Emparejamiento de Múltiples Líneas” es verdadero, ExFlow dará mensajes de acción para cada línea que se haya dividido, lo que le da al usuario la opción de confirmar manualmente el emparejamiento sugerido antes de crear el documento. Configurar esta opción en falso significa que no se mostrarán mensajes de acción para las líneas divididas emparejadas.
 |**Desactivar Filtro de Moneda en Obtener Líneas de Recepción**|      Esto se puede configurar para mejorar el rendimiento al usar Obtener Líneas de Recepción en el Diario de Importación. No se establecerá ningún filtro en el Código de Moneda al abrir la página de selección (en su lugar, se realiza una verificación de que se selecciona la Moneda correcta al insertar la línea de la Factura)
 |**Desactivar Mensajes de Advertencia para Emparejamiento de Orden**|   Cuando está desactivado, no se presentarán mensajes de advertencia en el Diario de Importación con respecto al emparejamiento de órdenes (solo una línea).
-|**Usar Valores de Encabezado de PO en la Factura**|   Activar campos para transferir desde la Orden de Compra a la Factura (o Orden de Compra de Devolución a Nota de Crédito) en el Diario de Importación al usar el emparejamiento de órdenes a nivel de encabezado. Los valores seleccionados se pueden encontrar y actualizar en Relacionado --> Avanzado --> Configuración de Valores de Encabezado de PO en Factura. <br/><br/> Lea más sobre esto en la sección [***Copiar Valores de Encabezado de Orden de Compra***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
-|**Enviar Recordatorio de Orden No Recibida para Orden Aprobada**|     Se envía un Recordatorio de Orden No Recibida cuando se aprueba el documento y no todas las Líneas de la Orden están completamente recibidas. Para que esto funcione, "Emparejar Documentos Con" debe estar configurado en "Recepción". <br/><br/> Lea más sobre esto en la sección [***Orden No Recibida - Aprobada***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
+|**Copiar valores de cabecera a factura/nota de crédito**| Active los campos para transferir de la orden de compra a la factura (o devolver la orden de compra a la nota de crédito) en el diario de importación cuando se utilice la conciliación de pedidos en el nivel de encabezado. Los valores seleccionados se pueden encontrar y actualizar en Relacionado --> Avanzado --> Valores de encabezado de PO en Configuración de factura. <br/><br/> Lea más sobre esto en la sección [***Copiar valores de encabezado de orden de compra***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
+
 
 <br/>
 
@@ -225,6 +221,7 @@ Encuentre todas las secciones de Configuración de ExFlow descritas a continuaci
 |**Tamaño de Página PDF Generado Predeterminado**|    Seleccione el tamaño que debe tener un PDF generado al importar para Peppol, UBL y otros donde se utiliza una hoja de estilo XSL en lugar de un PDF importado.
 |**Orientación Generada Predeterminada**|     Seleccione la orientación que debe tener un PDF generado al importar para Peppol, UBL y otros donde se utiliza una hoja de estilo XSL en lugar de un PDF importado.
 |**Desactivar Automáticamente el Emparejamiento de PO para Cargos Misceláneos**|   Especifica cuándo se realiza el mapeo hacia una cuenta G/L o Cargo (Artículo) el campo "Sin Emparejamiento de Orden de Compra" se habilitará automáticamente o no. <br/><br/> Lea más sobre esto en la sección [***Desactivar Automáticamente el Emparejamiento de PO para Cargos Misceláneos***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#automatically-disable-po-matching-for-misc-charges)
+|**Desactivar mensajes de advertencia para la asignación de IVA**| Cuando se deshabilita, no se presentará ningún mensaje de advertencia en el diario de importación con respecto a la asignación del grupo contable de IVA Prod. <br/><br/> Lea más sobre esto en la sección [***Mapeo de IVA***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/ocr-import-mapping#vat-mapping)
 
 <br/>
 
@@ -265,6 +262,7 @@ Encuentre todas las secciones de Configuración de ExFlow descritas a continuaci
 |**Copiar PDF de Cotización a Orden**|   Agrega un PDF de la Cotización en la Orden cuando se crea.
 |**Bloquear Imprimir/Enviar no aprobado**|   Especifica si se debe bloquear la impresión o el envío desde una Orden o Cotización si la Orden o Cotización se envía para aprobación y no está completamente aprobada.
 |**Enviar Correo Electrónico para Orden/Cotización Aprobada**|   Cuando está habilitado, enviará una notificación de Orden o Cotización Aprobada al creador de la Orden o Cotización cuando el documento esté aprobado.  <br/><br/> Lea más sobre esto en la sección [***Orden/Cotización Aprobada***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
+|**Enviar Recordatorio de Orden No Recibida para Orden Aprobada**|     Se envía un Recordatorio de Orden No Recibida cuando se aprueba el documento y no todas las Líneas de la Orden están completamente recibidas. Para que esto funcione, "Emparejar Documentos Con" debe estar configurado en "Recepción". <br/><br/> Lea más sobre esto en la sección [***Orden No Recibida - Aprobada***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
 
 <br/>
 
@@ -323,6 +321,7 @@ Encuentre todas las secciones de Configuración de ExFlow descritas a continuaci
 |Documentos Confidenciales|| 
 |:-|:-|     
 |**Reemplazar PDF Original con**|     Cargue un PDF que reemplace los documentos marcados como Confidenciales para ocultar la imagen específica del documento a otros usuarios sin acceso a Documentos Confidenciales. <br/><br/> Lea más sobre esto en la sección [***Documentos Confidenciales***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
+|**Permitir cambios de codificación en la web**| Especifica si se permiten cambios de codificación en ExFlow Web para documentos confidenciales. <br/><br/> Lea más sobre esto en la sección [***Permitir cambios de codificación en ExFlow Web***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/confidental-documents#allow-coding-changes-on-exflow-web)
 
 <br/>
 

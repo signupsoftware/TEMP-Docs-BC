@@ -43,8 +43,6 @@ Klicken Sie auf den Abschnitt oder „Mehr anzeigen“, um alle Einstellungen an
 
 Die Option „Von ExFlow Setup“ ist standardmäßig in den meisten Einstellungen gesetzt, was bedeutet, dass ExFlow die Standardkonfiguration (aus [***ExFlow Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-setup#exflow-setup)) übernimmt, wenn keine andere Konfiguration auf der Lieferanteneinrichtungskarte für den spezifischen Lieferanten ausgewählt ist.
 
-![ExFlow Lieferanteneinrichtung](../../images/Vendor-setup-card-002.png)
-
 |Allgemein|  |
 |:-|:-|
 |**Lieferantennummer** |Gibt die Lieferantennummer an
@@ -87,9 +85,9 @@ Die Option „Von ExFlow Setup“ ist standardmäßig in den meisten Einstellung
 
 <br/>
 
-### PO-Abgleich
+### Auftragsabgleich
 
-|PO-Abgleich|  |
+|Auftragsabgleich|  |
 |:-|:-|
 |**Dokumente abgleichen mit**| Gibt an, ob ExFlow Zeilen aus Bestellungen oder aus gebuchten Wareneingängen oder aus beiden Bestellungen und Wareneingängen abgleichen und abrufen soll. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Rechnung mit Empfangs-, Bestell- oder sowohl Empfangs- als auch Bestellzeilen abgleichen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
 |**Bestellung automatisch empfangen**| Gibt an, ob Bestellzeilen jedes Zeilentyps automatisch empfangen werden sollen, wenn die abgeglichene Rechnung auf "Bereit zum Buchen" gesetzt ist. Diese Option ist nur anwendbar, wenn die Einstellung "Dokumente abgleichen mit" als "Bestellung" oder "Bestellung und Wareneingang" konfiguriert ist.

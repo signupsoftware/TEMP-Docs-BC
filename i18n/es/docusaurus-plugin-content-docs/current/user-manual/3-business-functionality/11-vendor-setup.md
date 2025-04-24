@@ -45,8 +45,6 @@ Haga clic en la sección o ''Mostrar más'' para mostrar todas las configuracion
 
 La opción ''Desde Configuración de ExFlow'' está configurada por defecto en la mayoría de las configuraciones, lo que significa que ExFlow tomará la configuración predeterminada (de [***Configuración de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-setup#exflow-setup)) si no se selecciona otra configuración en la Tarjeta de Configuración de Proveedor para el proveedor específico.
 
-![Configuración de Proveedores de ExFlow](@site/static/img/media/Vendor-setup-card-002.png)
-
 |General|  |
 |:-|:-|
 |**Número de Proveedor**	|Especifica el Número de Proveedor

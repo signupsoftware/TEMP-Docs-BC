@@ -34,12 +34,12 @@ From the ExFlow Import Journals list it is possible to search, create a new jour
 | **Description**         | Description of the journal
 | **Source Type**         | Source Type of the journal. Current Source Type is: ExFlow Data Capture, Web Service, Manual and  Import Files
 | **Import File Code**         | Specifies the ExFlow File Import Setup to be used. Configuration for this is needed before usage.
-| **Only Purchase Order Matched Documents**         | Enable this checkbox for a specific journal to have a dedicated journal only for purchase order matched documents
+| **Only Order Matched Documents**         | Enable this checkbox for a specific journal to have a dedicated journal only for purchase order matched documents
 | **Verify documents at import**         | Choose if verification on the documents at import should be proceeded for all documents in the journal, or for the newly imported documents only. 
 | **No. of Documents**         | Specify the amount of documents in the journal
 | **Create Lines with Auto Coding Suggestion**         | Enable this checkbox for a specific journal to have a dedicated journal for Auto Coding Suggestions
-| **Ignore Payment Validation**         | Enable this checkbox for a specific journal where documents will skip the Payment Validation process
-| **Ignore Payment Suggestion** (hidden field)        | Enable this checkbox for a specific journal where documents will skip the Payment Suggestion process. This field can be added via page personalization
+| **Ignore Payment Validation Warning**         | Enable this checkbox for a specific journal where documents will skip the Payment Validation process
+| **Ignore Payment Suggestion Warning** (hidden field)        | Enable this checkbox for a specific journal where documents will skip the Payment Suggestion process. This field can be added via page personalization
 | **Automatically Create Documents**  (hidden field)        | Enable this checkbox to get an dedicated journal that will automatically create documents. This field can be added via page personalization
 | **Credit Memo Nos.** (hidden field)        | Add a specific No. Series for Credit Memos to the journal. This field can be added via page personalization
 | **Default Document Type**  (hidden field)       | Add a default document type, such as Invoice, Credit Memo or Prepayment Invoice, for a specific journal. This field can be added via page personalization
@@ -60,7 +60,7 @@ Document images and the interpreted data will be imported.
 
 Depending on the journal settings the documents will be separated into the different journals.
 
-A journal with the setup checkbox "Only Purchase Order Matched Documents" ticked, will get order matched documents and documents containing Order No. information. There can be other ways to separate the documents but a separation in Expense/Purchase Invoices matched is very common.
+A journal with the setup checkbox "Only Order Matched Documents" ticked, will get order matched documents and documents containing Order No. information. There can be other ways to separate the documents but a separation in Expense/Purchase Invoices matched is very common.
 
 Same setting can be made for "Create Lines with Automatic Suggestion". Tick the "Create Lines with Automatic Suggestion" box if ExFlow Automatic Coding Suggestion should be applied for a specific journal.
 
@@ -115,7 +115,6 @@ Click on "ExFlow Data Capture" to get to its website. This only works if the com
 |Auto Coding Suggestion - Manual Choice| [Auto Coding Suggestion - Manual Choice](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---manual-choice)
 |Auto Coding Suggestion - Automatic| [Auto Coding Suggestion - Automatic](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#auto-coding-suggestion---automatic)
 |Update VAT Product Posting Group|Due to Swedish Tax Rules regarding IT VAT, it is possible to update all VAT Product Posting Groups on Invoice Lines. This function can only be used together for customers that have SweBase installed. <br/><br/>Read more under section [**SweBase --> Update VAT Product Posting Group**](https://docs.signupsoftware.com/business-central/docs/user-manual/localizations-and-isv-extensions/swebase#update-vat-product-posting-group)
-|Open PDF-Viewer in New Tab|Opens PDF in a new tab.
 |Vendor Card|Opens the Vendor card for the specific document.
 |Import or Replace Image|Import or replace current document image.
 |ExFlow Vendor Setup|This button will show/edit the ExFlow Vendor Setup for the current vendor.
@@ -266,7 +265,7 @@ To make manual line matching easier, it is possible to Personalize the "Line Mat
 
 ![Match OCR Lines - Line Matching View](@site/static/img/media/line-matching-view-001.png)
 
-### Order -- Get Receipt/ Return Shpmt./Order Lines
+### Order --> Get Receipt/ Return Shpmt./Order Lines
 Go to: ***Actions --> Order --> Get Receipt/ Return Shpmt./Order Lines***<br/>
 With this button order/receipt lines are fetched and added to the selected document.
 
@@ -442,6 +441,17 @@ To open PDF on full screen for a selected document or use shortcut (Ctrl+I).
 ## Header Fields
 Here will some ''good to know about'' fields be presented. 
 
+### Block Document
+On the Import Journal Header, AP can block a document from creation or posting.
+
+#### Block for Creation
+Block the document for being created in Import Journal and send for approval.
+
+#### Block for Posting
+Block the document from being posted in Approval Status.
+
+![ExFlow Import Journal](@site/static/img/media/import-journals-block-document-001.png)
+
 ### Applies-to-Document
 There is a possibility to apply payments to a document. E.g., to apply an Invoice to a Credit Memo in Vendor Ledger Entries when posting the Credit Memo.<br/>
 To use these fields, they must first be added by using personalize.
@@ -455,7 +465,9 @@ To use these fields, they must first be added by using personalize.
 
 ## Import Journal - Import Lines
 
-### New Line / Delete Line
+### Import Lines - Manage
+
+#### New Line / Delete Line
 Go to: **Import Lines --> Manage --> New Line / Delete Line** <br/>
 
 **New Line:** Add new line to create a new entry. <br/>
@@ -469,10 +481,6 @@ Go to: **Import Lines --> Line**
 
 ![ExFlow Import Journal -- Import Lines](@site/static/img/media/import-journal-line-functions.png)
 
-### Purchase Order Card
-If the document line is matched against a purchase order, click on Purchase Order Card to open the corresponding purchase order card.<br/>
-Go to: ***Import Lines --> Line --> Purchase Order Card***
-
 ### Dimensions
 Go to: ***Import Lines --> Line --> Dimensions***<br/>
 Show all dimensions for current line.
@@ -485,26 +493,7 @@ Go to: ***Import Lines --> Line --> Show Approval Proposal***
 Go to: ***Import Lines --> Line --> Show Available Approval Rules***<br/>
 This will display all available approval rules with the highest priority at the top.
 
-### Item Charge Assignment
-When using Charge (Item), assignment can be done in three ways. From Import Journal, automatically or manually from Invoice Card.
 
-Manually from Import Journal. <br/>
-Go to: ***Import Lines --> Line --> Item Charge Assignment***<br/>
-
-![ExFlow Import journal - Import Lines - Item Charge Assignment](@site/static/img/media/image204.png)
-
-![Item Charge Assign. (ExFlow Purch)](@site/static/img/media/image205.png)
-
-Let ExFlow automatically assign Item Charge. Add an option on how to calculate assignment "Equally, By Amount, By Weight or By Volume" in field "Automatic Item Charge Assignment" under PO Matching in ExFlow
-Setup.
-
-![ExFlow Setup - PO Matching](@site/static/img/media/exflow-setup-po-matching-003.png)
-
-If Automatically Item Charge Assignment is used, Charge (Item) will be assigned when running Verify Changes in Approval Status and it is no longer possible to assign manually from Import Journal.
-
-Automatically Item Charge Assignment can also be set per vendor. Go to ExFlow Vendor Setup to assign a specific item charge option for a specific vendor, or to exclude a specific vendor (if this function is enabled in ExFlow Setup) by choosing option "None".
-
-![ExFlow Vendor Setup - Automatic Item Charge Assignment](@site/static/img/media/exflow-vendor-setup-card-automatically-item-charge-001.png)
 
 ### Deferral Schedule
 Go to: ***Import Lines --> Line --> Deferral Schedule***<br/>
@@ -563,6 +552,47 @@ View the ExFlow Dimension Owners for the current list of suggested approvers.
 ### Show Budget
 If G/L Budget Control is activated, it is possible to view calculated.
 Read more under section [***G/L Budget Control***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/gl-budget-control)
+
+### Import Lines - Order
+
+Go to: **Import Lines --> Order**
+
+![order](@site/static/img/media/import-line-order-001.png)
+
+### Order Card
+Go to: ***Import Lines --> Order --> Order Card***
+
+If the document line is matched against a order, click on Order Card to open the corresponding purchase order/ return order card.<br/>
+
+### Item Charge Assignment
+Go to: ***Import Lines --> Order --> Item Charge Assignment***<br/>
+
+When using Charge (Item), assignment can be done in three ways. From Import Journal, automatically or manually from Invoice Card.
+
+Manually from Import Journal: <br/>
+
+
+![ExFlow Import journal - Import Lines - Item Charge Assignment](@site/static/img/media/image204.png)
+
+![Item Charge Assign. (ExFlow Purch)](@site/static/img/media/image205.png)
+
+Let ExFlow automatically assign Item Charge. Add an option on how to calculate assignment "Equally, By Amount, By Weight or By Volume" in field "Automatic Item Charge Assignment" under Order Matching in ExFlow
+Setup.
+
+If Automatically Item Charge Assignment is used, Charge (Item) will be assigned when running Verify Changes in Approval Status and it is no longer possible to assign manually from Import Journal.
+
+Automatically Item Charge Assignment can also be set per vendor. Go to ExFlow Vendor Setup to assign a specific item charge option for a specific vendor, or to exclude a specific vendor (if this function is enabled in ExFlow Setup) by choosing option "None".
+
+### Filter/Unfilter Same Import Line
+Go to: ***Import Lines --> Order -->Filter/Unfilter Same Import Line***
+
+Filter/Unfilter to show other documents or lines with the same Order No. and Order Line No.
+
+### Order Line Related Documents
+Go to: ***Import Lines --> Order -->Order Line Related Documents***
+
+Shows where the selected order line is used on the chosen purchase document.
+
 
 ## Doc. Creation Checks
 
@@ -635,11 +665,15 @@ Reset size of FactBox Click "Restore".
 
 ![ExFlow Import Journal - PDF Preview](@site/static/img/media/image217.png)
 
+Open the PDF in a new separate tab to get a better view of the document image.  
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png) 
+
 Change PDF page No. use "Record Buttons".
 
 ![ExFlow Import Journal - PDF Preview](@site/static/img/media/image218.png)
 
-Open PDF file in full size.
+To open PDF file in full size:
 
 Go to: ***Related --> Files --> Show Document Image (Ctrl+I)***
 
@@ -654,7 +688,7 @@ Read more about settings and how to use Discussion Panel under section [***Discu
 
 ### Incoming Document Files
 Go to: ***FactBox --> Incoming Document Files --> Attach File***<br/>
-Add Attach File
+Add an Attach File.
 
 Click "Choose", browse to the file to attach, and click "Open".
 

@@ -41,13 +41,13 @@ Handle the support tickets under My Support. A filtered page for "My Open Ticket
 
 
 ### Add or update an ExFlow License key
+Go to: ExFlow **License Activation** 
 
 For customer and partner installations of ExFlow, a specific license is required. 
 
 Before obtaining a license, please ensure that a contract or agreement has been established with the Sales Manager at SignUp Software. Then submit a support ticket with the customer’s name enclosed to acquire the license. Afterwards, add the license key into the environment.
 
 Activating licenses depends on which versions of NAV/BC and ExFlow release are used, see details below.
- 
 
 #### ExFlow for BC Online
 
@@ -55,6 +55,12 @@ Search for ''ExFlow License Activation'' in Business Central and add the provide
 
 ![License key](@site/static/img/media/support-portal-license-key.png)<br/>
 
+**Please note:** 
+Existing customers will continue using their current license via License Activation. 
+For new customers and Business Central Online AP installations, the *SignUp Software License Provider* will be used. 
+
+Read more about this under section: [License Provider](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) 
+ 
 
 #### ExFlow for NAV and BC 13/14
 

@@ -10,7 +10,7 @@ ExFlow OMNI Genehmigung ist eine Möglichkeit für Business Central-Benutzer, ve
 
 ### ExFlow OMNI Dokumenteneinrichtung
 
-Gehen Sie zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Dokumenteneinrichtung***
+Gehen Sie zu: ***ExFlow AP Setup - Übersicht --> ExFlow OMNI Genehmigung --> ExFlow OMNI Dokumenteneinrichtung***
 
 In der ExFlow OMNI Dokumenteneinrichtung gibt es zwei verschiedene OMNI-Typen: Vertrag und Genehmigungsregel.
 
@@ -28,7 +28,7 @@ Die gleiche Art der Einrichtung muss für den OMNI-Typ "Genehmigungsregel" vorge
 
 ### ExFlow OMNI Genehmigungsregeln
 
-Gehen Sie zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsregel***
+Gehen Sie zu: ***ExFlow AP Setup - Übersicht --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsregel***
 
 Die ExFlow OMNI Genehmigungsregel ermöglicht verschiedene Genehmigungsregeln für die verschiedenen OMNI-Typen "Vertrag" und "Genehmigungsregel".
 
@@ -78,7 +78,7 @@ Alle ExFlow OMNI Genehmigungsregeln können in der ExFlow OMNI Genehmigungsregel
 
 ### ExFlow OMNI Genehmigungsstatus
 
-Gehen Sie zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsstatus***
+Gehen Sie zu: ***ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsstatus***
 
 Der Business Central-Benutzer kann alle Dokumente sehen, die in ExFlow OMNI Genehmigung zur Genehmigung ausstehen. Es ist auch möglich, genehmigte, weitergeleitete und abgelehnte OMNI-Dokumente zu sehen. Wenn der Status eines Dokuments "Genehmigt" ist, kann das Dokument in ExFlow verwendet werden.
 
@@ -94,7 +94,7 @@ Von dieser Seite aus ist es möglich, die Originalkarte zu öffnen, zu einer and
 
 ### ExFlow OMNI Genehmigungsdokumente
 
-Gehen Sie zu: ***Setup --> ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsdokumente***
+Gehen Sie zu: ***ExFlow OMNI Genehmigung --> ExFlow OMNI Genehmigungsdokumente***
 
 In ExFlow OMNI Genehmigungsdokumente kann der spezifische Business Central-Benutzer alle seine Dokumente sehen, die zur Genehmigung ausstehen, in "Meine aktuellen Genehmigungen". Es ist auch möglich, die zukünftigen und historischen Genehmigungen des Business Central-Benutzers zu sehen.
 

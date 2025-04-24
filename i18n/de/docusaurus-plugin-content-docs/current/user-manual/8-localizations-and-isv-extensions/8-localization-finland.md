@@ -77,3 +77,10 @@ Der standardmäßige ''Nachrichtentyp'' im Importjournal ist standardmäßig auf
 Es ist jedoch möglich, zur Lieferanteneinrichtungskarte zu gehen und einen anderen Nachrichtentyp für einen bestimmten Lieferanten festzulegen, falls erforderlich.
 
 ![ExFlow Setup - Import Journal - Finish Localization](../../images/FI-message-type-001.png)
+
+
+### Referenz-Nr. zu ExFlow Contract Gutschriftsrechnungen
+
+Beim Erstellen von Selbstrechnungen werden der Gutschriftsnachrichtentyp (für die Referenznummer) und die Gutschriftsbuch-Rechnungsnachricht in den Journalkopf importieren kopiert.
+
+In den Rechnungsperioden der Verträge sind auch die Felder ''Gutschriftsnachrichtentyp'' und ''Selbstfakturierungsrechnungsmeldung'' eingetragen, damit Benutzer manuelle Anpassungen pro Zeile vornehmen können. Dies folgt auch auf Journal importieren.

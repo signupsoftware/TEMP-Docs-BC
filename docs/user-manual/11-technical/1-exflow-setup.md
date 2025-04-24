@@ -22,8 +22,6 @@ Go to: **ExFlow Setup**
 
 Go to: **ExFlow Setup --> Actions --> Functions** <br/>
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-ribbon-002.png)<br/>
-
 | Actions --> Functions | |
 |:-|:-|
 |**Apply/ Update Default ExFlow Security Roles** 	|Creates default Web User Level Permissions if none exist or are changed. <br/><br/> Read more about this under section [***Web User Level Permissions***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/web-user-level-permissions)
@@ -41,8 +39,6 @@ Go to: **ExFlow Setup --> Actions --> Functions** <br/>
 
 Go to: **ExFlow Setup --> Related --> Advanced**
 
-![ExFlow Setup](@site/static/img/media/exflow-setup-ribbon-003.png)<br/>
-
 | Related --> Advanced | |
 |:-|:-|	
 |**Columns**	|Opens ExFlow Columns to view all visible columns in ExFlow web <br/><br/> Read more about this under section [***Edit Web Columns in Business Central***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#edit-web-columns-in-business-central)
@@ -51,7 +47,7 @@ Go to: **ExFlow Setup --> Related --> Advanced**
 |**FactBox Default Sizes**	|Edit/restore FactBox Sizes for different ExFlow pages <br/><br/> Read more about this under section [***Set FactBox Default Size***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/set-factbox-default-size#set-factbox-default-size)
 |**Payment Validation Setup**	|Enter fields to check in Payment Validation during the import and data interpretation process. <br/><br/> Read more about this under section [***Payment Validation Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-and-payment-suggestion)
 |**Preliminary Posting Setup**	|Opens the Preliminary Posting Setup. <br/> Note: This setting must be activated under the ‘‘Preliminary Posting’’ section to be viewed. <br/><br/>Read more about this under section [***Preliminary Posting***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/preliminary-posting#preliminary-posting)
-|**PO Header Values on Invoice Setup**	|Opens the PO Header Values on Invoice Setup page. Note: This setting must be activated under the ‘’PO Matching’’ section to be viewed. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
+|**Copy Header Values on Invoice/Credit Memo Setup**	|Copy Header Values on Invoice/Credit Memo Setup. Note: This setting must be activated under the ‘’Order Matching’’ section to be viewed. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
 |**Auto Receive Line Type Setup**	|Show or edit Line Types that should be automatically received.<br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
 |**Re-Invoicing Setup**| Opens the setup page for Re-Invoicing. <br/><br/> Read more about this under section [***Re-Invoicing***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/re-invoicing#re-invoicing)
 |**Item No. Matching Priority**| This function will give the opportunity to setup priority list in the Item No. matching process by Matching Type such as OCR Mapping or Item Reference etc.  <br/><br/> Read more about this under section [***Item No. Matching Priority***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#item-no-matching-priority)
@@ -152,18 +148,18 @@ Find all ExFlow Setup sections described according to below. <br/>
 
 <br/>
 
-### PO Matching
+### Order Matching
 
 ![ExFlow Setup](@site/static/img/media/exflow-setup-po-matching-section.png)
 
-|PO Matching||
+|Order Matching||
 |:-|:-|	
 |**Match Documents To**|  	Specifies if ExFlow should match and retrieve lines from Purchase Orders or from Posted Receipts, or from both Orders and Receipts. <br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
-|**Automatically Receive Purchase Order Lines**|  	Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order" or "Order and Receipt". <br/><br/>When running Verify Changes in Approval Status, the purchase order matched lines receipt will be posted on Invoice Document Date. <br/> VAT Date on purchase order header and Deferral Posting Dates on purchase order lines will automatically be updated if purchase order Posting date is different than Invoice Posting Date. <br/> If both purchase order and Invoice have the same posting date when running Verify Changes, there will be no updates on the purchase order. <br/>Purchase order´s Posting Date will also be updated if blank. (Purchase and Payable Setup - Default Posting Date = No Date)
-|**Automatically Retrieve Lines**|  	Automatically retrieve all available lines from the Purchase Order or Posted Purchase Receipt when matching on header level.
-|**Auto Approve Invoices**|  	Specifies if the invoice should be auto approved if the related order is approved. <br/><br/> Read more about this under section [***Auto Approve Invoices***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
-|**User for Automatic Approval**|  	Specifies the ExFlow user that should be used for auto approved invoices. If this setting is empty, then the id of the logged in BC user is used
-|**Max. Invoice Amount for System Approval (LCY)**|  	Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
+|**Post Receipt & Shipments Automatically**|  	Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order" or "Order and Receipt". <br/><br/>When running Verify Changes in Approval Status, the purchase order matched lines receipt will be posted on Invoice Document Date. <br/> VAT Date on purchase order header and Deferral Posting Dates on purchase order lines will automatically be updated if purchase order Posting date is different than Invoice Posting Date. <br/> If both purchase order and Invoice have the same posting date when running Verify Changes, there will be no updates on the purchase order. <br/>Purchase order´s Posting Date will also be updated if blank. (Purchase and Payable Setup - Default Posting Date = No Date)
+|**Retrieve Lines Automatically**|  	Automatically retrieve all available lines from the Purchase Order or Posted Purchase Receipt when matching on header level.
+|**Auto-Approve Documents**|  	Specifies if the invoice should be auto approved if the related order is approved. <br/><br/> Read more about this under section [***Auto Approve Documents***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
+|**User for Auto-Approval**|  	Specifies the ExFlow user that should be used for auto approved invoices. If this setting is empty, then the id of the logged in BC user is used
+|**Max. Amount for Auto-Approval (LCY)**|  	Specifies the max invoice amount allowed for automatic approvals. 0 = disabled
 |**Check Direct Unit Cost**|	Specifies that ExFlow should check the Unit Cost on the invoice line when matching invoices against purchase orders. The imported invoice needs to be line interpreted for this to work
 |**Check Line Discount %**|  	Specifies that ExFlow should check the Line Discount % on the invoice line when matching invoices against purchase orders. The imported invoice needs to be line interpreted for this to work
 |**Max. Misc. Charges (LCY)**|  	Tolerance for field "Auto Approve Invoices". The total amount of invoice lines not matched against PO lines. (For example, freight). When an invoice is generated, lines will not be automatically approved if you did exceed the maximum misc. amount.
@@ -188,8 +184,8 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Check Split Invoice Lines**|  	If “Multiple Line Matching” is true, ExFlow will give action messages for each line that has been split which gives the user an option to manually confirm the suggested matching before creating the document. Turning this setting to false means that no action message will be displayed for matched split lines.
 |**Disable Currency Filter in Get Receipt Lines**|  	This can be set to improve performance when using Get Receipt Lines in Import Journal. No filter will then be set on Currency Code when opening the selection page (A check that correct Currency is selected is instead done on the insert of the Invoice line)
 |**Disable Warning Messages for Order Matching**|	When disabled, no warning messages will be presented in the Import Journal regarding order matching (singel line only).
-|**Use PO Header Values on Invoice**|  	Activate fields to transfer from Purchase Order to Invoice (Or Return Purchase Order to Credit Memo) in Import Journal when using order matching on header level. Selected values can be found and updated under Related --> Advanced --> PO Header values on Invoice Setup. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
-|**Send Unreceived Order Reminder For Approved Order**|  	An Unreceived Order Reminder is sent when the document is approved and not all the Order Lines are fully received. For this to work "Match Documents To" should be set to "Receipt". <br/><br/> Read more about this under section [***Unreceived Order - Approved***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
+|**Copy Header Values to Invoice/Credit Memo**|  	Activate fields to transfer from Purchase Order to Invoice (Or Return Purchase Order to Credit Memo) in Import Journal when using order matching on header level. Selected values can be found and updated under Related --> Advanced --> PO Header values on Invoice Setup. <br/><br/> Read more about this under section [***Copy Purchase Order Header Values***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
+
 
 
 <br/>
@@ -228,6 +224,8 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Default Generated PDF PageSize**| 	Select the size a generated PDF should have when importing for Peppol, UBL and others where XSL Stylesheet is used instead of imported PDF.
 |**Default Generated Orientation**| 	Select the orientation a generated Pdf should have when importing for Peppol, UBL and others where Xsl Stylesheet is used instead of imported Pdf.
 |**Automatically Disable PO Matching For Misc. Charges**| 	Specifies when mapping is done towards a G/L account or Charge (Item) the field "No Purchase Order Matching" will automatically be enabled or not. <br/><br/> Read more about this under section [***Automatically Disable PO Matching For Misc. Charges***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#automatically-disable-po-matching-for-misc-charges)
+|**Disable Warning Messages for VAT Mapping**| 	When disabled, no warning messages will be presented in the Import Journal regarding mapping VAT Prod. Posting Group. <br/><br/> Read more about this under section [***VAT Mapping***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/ocr-import-mapping#vat-mapping)
+
 
 <br/>
 
@@ -268,6 +266,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Copy Quote PDF to Order**| 	Adds a PDF of the Quote on the Order when it is created.
 |**Block Print/Send unapproved**| 	Specifies if Printing or Sending from an Order or Quote should be blocked if the Order or Quote is sent out on approval and not fully approved.
 |**Send Email For Approved Order/Quote**|  	When enabled it will send Approved Order or Quote Notification to the Order- or Quote creator when the document is approved.  <br/><br/> Read more about this under section [***Approved Order/Quote***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
+|**Send Unreceived Order Reminder For Approved Order**|  	An Unreceived Order Reminder is sent when the document is approved and not all the Order Lines are fully received. For this to work "Match Documents To" should be set to "Receipt". <br/><br/> Read more about this under section [***Unreceived Order - Approved***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
 
 <br/>
 
@@ -325,6 +324,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |Confidential Documents||
 |:-|:-| 	
 |**Replace Original PDF with**| 	Upload a PDF that replaces Confidential marked documents in order to hide the specific document image for other users with no access to Confidential Documents. <br/><br/> Read more about this under section [***Confidential Documents***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
+|**Allow Coding Changes on Web**| 	Specifies if coding changes are allowed on ExFlow Web for confidential documents. <br/><br/> Read more about this under section [***Allow Coding Changes on ExFlow Web***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/confidental-documents#allow-coding-changes-on-exflow-web)
 
 <br/>
 

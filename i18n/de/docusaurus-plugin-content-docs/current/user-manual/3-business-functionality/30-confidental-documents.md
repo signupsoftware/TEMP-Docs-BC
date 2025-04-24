@@ -154,3 +154,11 @@ Es ist auch nicht erlaubt, nach einem anderen vertraulichen Dokument zu suchen, 
 Wenn ein Genehmiger (unabhängig vom vertraulichen Zugriff) beispielsweise versucht, nach einem vertraulichen Dokument zu suchen, ohne in den Ablauf involviert zu sein, bleibt das Suchergebnis leer.
 
 ![Vertrauliche Dokumente](../../images/confidential-documents-web-003.png)
+
+
+### Codierungsänderungen in ExFlow Web zulassen
+Gehen Sie zu: **ExFlow-Setup --> Vertrauliche Dokumente --> Codierungsänderungen im Web zulassen**
+
+Aktivieren Sie ''Codierungsänderungen im Web zulassen'', um Codierungsänderungen in ExFlow Web zuzulassen. Der Web-Genehmiger darf dann eine aktuelle Codierung für sein vertrauliches Dokument ändern.
+
+Wenn Sie die Zeilen im ExFlow-Web aufteilen, wird der aktuelle vertrauliche Genehmigungsablauf in die geänderte Codierung kopiert. Es ist jedoch nicht möglich, andere vertrauliche Genehmigungsabläufe hinzuzufügen oder nicht vertrauliche Genehmiger hinzuzufügen, um die angepasste Codierung zu genehmigen.

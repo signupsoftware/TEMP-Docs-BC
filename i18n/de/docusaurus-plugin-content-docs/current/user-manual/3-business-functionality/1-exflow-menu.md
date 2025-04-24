@@ -21,6 +21,16 @@ Verwenden Sie die Suchfunktion und geben Sie ExFlow ein, um alle ExFlow-Vorschl�
 
 ![ExFlow-Menü Rolle ExFlow Accountant](../../images/exflow-menu-001.png)
 
+
+
+#### Übersicht über das ExFlow-Setup
+
+Alle ExFlow-AP-Setups finden Sie in der Übersicht über die ExFlow-AP-Einrichtung.
+
+![ExFlow Menu Role ExFlow Accountant](@site/static/img/media/exflow-ap-overview-001.png) 
+
+
+
 ### Menü über Business Central
 
 Klicken Sie auf die drei Linien oben rechts, um das Menü über Business Central anzuzeigen.

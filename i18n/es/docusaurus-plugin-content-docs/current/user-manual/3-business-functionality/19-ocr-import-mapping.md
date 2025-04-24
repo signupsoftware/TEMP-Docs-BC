@@ -57,3 +57,27 @@ Si "Sin Coincidencia de Orden de Compra" está deshabilitado y el documento inte
 Si "Sin Coincidencia de Orden de Compra" está habilitado y el documento interpretado tiene un número de orden interpretado, entonces el sistema usa los valores especificados en la configuración de "Mapeo de Importación OCR de ExFlow", incluidas las dimensiones. Las dimensiones se establecerán solo en las líneas, no en el encabezado.
 
 ![Mapeo de Importación OCR de ExFlow - Sin Coincidencia de Orden de Compra - Habilitado](@site/static/img/media/ocr-import-mapping-004.png)
+
+
+## Importación OCR
+
+Ir a: **Configuración de ExFlow --> Importación OCR**
+
+### Mapeo de IVA
+
+Permita que ExFlow ayude con el mapeo de los porcentajes de IVA importados hacia los Grupos de Registro de Productos de IVA.
+
+Ir a: **Configuración de ExFlow --> Acciones --> Funciones --> OCR --> Mapeo de IVA**
+
+![IVA](@site/static/img/media/vat-mapping-001.png)
+
+Edite la lista y agregue los valores de Mapeo de IVA que se deben mapear, y elija el Grupo de Registro de Productos de IVA al que se deben mapear, en ''Grupo de Registro de Productos de IVA''.
+
+![IVA](@site/static/img/media/vat-mapping-002.png)
+
+#### Deshabilitar Mensajes de Advertencia para el Mapeo de IVA
+
+Vaya a Importación OCR --> Deshabilitar Mensajes de Advertencia para el Mapeo de IVA para desactivar los mensajes de advertencia para el mapeo de IVA.
+
+Cuando está deshabilitado, no se presentarán mensajes de advertencia en el Diario de Importación para los valores importados relacionados con el mapeo del Grupo de Registro de Productos de IVA.
+

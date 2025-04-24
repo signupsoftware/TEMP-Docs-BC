@@ -157,3 +157,11 @@ Tampoco está permitido buscar otro documento confidencial en el que los usuario
 Por ejemplo, si un aprobador (independientemente del acceso confidencial) intenta buscar un documento confidencial sin estar involucrado en el flujo, el resultado de la búsqueda estará en blanco. 
 
 ![Documentos Confidenciales](@site/static/img/media/confidential-documents-web-003.png)
+
+
+### Permitir cambios de codificación en ExFlow Web
+Vaya a: **Configuración de ExFlow --> Documentos Confidenciales --> Permitir cambios de codificación en la Web**
+
+Habilite ''Permitir cambios de codificación en la Web'' para permitir cambios de codificación en ExFlow Web. A continuación, el aprobador web podrá cambiar la codificación actual de su documento confidencial.
+
+Si se dividen las líneas en la web de ExFlow, el flujo de aprobación confidencial actual se copiará en la codificación modificada. Sin embargo, no será posible agregar otros flujos de aprobación confidenciales o agregar aprobadores no confidenciales para aprobar la codificación ajustada.

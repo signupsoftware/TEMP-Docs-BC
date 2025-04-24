@@ -94,3 +94,9 @@ However, it is possible to go to Vendor Setup Card and set another Message Type 
 
 
 
+### Reference No. to ExFlow Contract Self-Billing Invoices
+
+When creating Self Invoices, Self-billing Message Type (for the Reference No.) and Self-billing Invoice Message will be copied to Import Journal Header.
+
+On the Contracts Invoice Periods, the fields: ''Self-billing Message Type'' and ''Self-billing Invoice Message'' are also entered, for users to make manual adjustments per line. This will also follow to Import Journal. 
+

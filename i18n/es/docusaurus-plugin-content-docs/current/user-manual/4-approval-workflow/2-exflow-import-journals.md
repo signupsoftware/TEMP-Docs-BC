@@ -428,6 +428,18 @@ Para abrir el PDF en pantalla completa para un documento seleccionado o use el a
 ## Campos del Encabezado
 Aquí se presentarán algunos campos ''buenos de saber''.
 
+### Documento de bloque
+En el encabezado del diario de importación, AP puede bloquear la creación o el registro de un documento.
+
+#### Bloque para la creación
+Bloquee el documento para que se cree en el diario de importación y envíelo para su aprobación.
+
+#### Bloquear para publicar
+Bloquear el documento para que no se registre en Estado de aprobación.
+
+![ExFlow Import Journal](@site/static/img/media/import-journals-block-document-001.png)
+
+
 ### Aplica a Documento
 Existe la posibilidad de aplicar pagos a un documento. Por ejemplo, para aplicar una Factura a una Nota de Crédito en las Entradas del Libro Mayor del Proveedor al registrar la Nota de Crédito.<br/>
 Para usar estos campos, primero deben agregarse mediante personalización.
@@ -611,6 +623,9 @@ Restablecer tamaño de FactBox Haga clic en "Restaurar".
 "Reducir Zoom", "Aumentar Zoom" y Restablecer Zoom
 
 ![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image217.png)
+
+Abra el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png) 
 
 Cambiar número de página del PDF use "Botones de Registro".
 

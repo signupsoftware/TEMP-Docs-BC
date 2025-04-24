@@ -10,7 +10,7 @@ La Aprobación OMNI de ExFlow es una forma para que los usuarios de Business Cen
 
 ### Configuración de Documentos OMNI de ExFlow
 
-Ir a: ***Configuración --> Aprobación OMNI de ExFlow --> Configuración de Documentos OMNI de ExFlow***
+Ir a: ***Configuración de AP de ExFlow - Descripción general --> Aprobación OMNI de ExFlow --> Configuración de Documentos OMNI de ExFlow***
 
 En la Configuración de Documentos OMNI de ExFlow hay dos tipos diferentes de OMNI, Contrato y Regla de Aprobación.
 
@@ -28,7 +28,7 @@ El mismo tipo de configuración debe hacerse para el Tipo OMNI "Regla de Aprobac
 
 ### Reglas de Aprobación OMNI de ExFlow
 
-Ir a: ***Configuración --> Aprobación OMNI de ExFlow --> Regla de Aprobación OMNI de ExFlow***
+Ir a: ***Configuración de AP de ExFlow - Descripción general --> Aprobación OMNI de ExFlow --> Regla de Aprobación OMNI de ExFlow***
 
 La Regla de Aprobación OMNI de ExFlow permite diferentes reglas de aprobación para los diferentes tipos de OMNI "Contrato" y "Regla de Aprobación".
 
@@ -78,7 +78,7 @@ Todas las Reglas de Aprobación OMNI de ExFlow se pueden ver en la lista de Regl
 
 ### Estado de Aprobación OMNI de ExFlow
 
-Ir a: ***Configuración --> Aprobación OMNI de ExFlow --> Estado de Aprobación OMNI de ExFlow***
+Ir a: ***Aprobación OMNI de ExFlow --> Estado de Aprobación OMNI de ExFlow***
 
 El usuario de Business Central puede ver todos los documentos pendientes de aprobación en la Aprobación OMNI de ExFlow. También es posible ver documentos aprobados, reenviados y rechazados. Cuando el estado de un documento es "Aprobado", el documento está listo para ser utilizado en ExFlow.
 
@@ -94,7 +94,7 @@ Desde esta página es posible abrir la tarjeta original, cambiar a una regla de 
 
 ### Documentos de Aprobación OMNI de ExFlow
 
-Ir a: ***Configuración --> Aprobación OMNI de ExFlow --> Documentos de Aprobación OMNI de ExFlow***
+Ir a: ***Aprobación OMNI de ExFlow --> Documentos de Aprobación OMNI de ExFlow***
 
 En los Documentos de Aprobación OMNI de ExFlow, el usuario específico de Business Central puede ver todos sus documentos pendientes de aprobación en "Mis Aprobaciones Actuales". También es posible ver las aprobaciones futuras e históricas del usuario de Business Central.
 

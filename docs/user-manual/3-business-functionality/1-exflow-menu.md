@@ -21,6 +21,16 @@ ExFlow Menu.
 
 ![ExFlow Menu Role ExFlow Accountant](@site/static/img/media/exflow-menu-001.png)
 
+Users can easily access Import Journals, Approval Status, Reports etc via this Role.
+
+
+#### ExFlow Setup Overview
+
+Find all ExFlow AP Setup gathered in the ExFlow AP Setup Overview.
+
+![ExFlow Menu Role ExFlow Accountant](@site/static/img/media/exflow-ap-overview-001.png) 
+
+
 ### Menu via Business Central
 
 Click on the three lines up in the right corner to view the menu via

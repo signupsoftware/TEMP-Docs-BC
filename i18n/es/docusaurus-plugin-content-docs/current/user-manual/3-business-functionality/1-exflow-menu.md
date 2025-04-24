@@ -20,6 +20,13 @@ Simplemente cambie el rol a "ExFlow Accountant" en "Mis Configuraciones" para ob
 
 ![Menú ExFlow Rol ExFlow Accountant](@site/static/img/media/exflow-menu-001.png)
 
+#### Descripción general de la configuración de ExFlow
+
+Encuentre toda la configuración de ExFlow AP recopilada en la descripción general de la configuración de ExFlow AP.
+
+![ExFlow Menu Role ExFlow Accountant](@site/static/img/media/exflow-ap-overview-001.png) 
+
+
 ### Menú a través de Business Central
 
 Haga clic en las tres líneas en la esquina superior derecha para ver el menú a través de Business Central.

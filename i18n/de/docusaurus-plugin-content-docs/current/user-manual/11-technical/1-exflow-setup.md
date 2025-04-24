@@ -23,8 +23,6 @@ Gehe zu: **ExFlow Einrichtung**
 
 Gehe zu: **ExFlow Einrichtung --> Aktionen --> Funktionen** <br/>
 
-![ExFlow Einrichtung](../../images/exflow-setup-ribbon-002.png)<br/>
-
 | Aktionen --> Funktionen | |
 |:-|:-|
 |**Standard ExFlow Sicherheitsrollen anwenden/aktualisieren** 	|Erstellt Standard-Webbenutzerberechtigungen, wenn keine vorhanden sind oder geändert wurden. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Webbenutzerberechtigungen***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/web-user-level-permissions)
@@ -41,8 +39,6 @@ Gehe zu: **ExFlow Einrichtung --> Aktionen --> Funktionen** <br/>
 <br/>
 
 Gehe zu: **ExFlow Einrichtung --> Verwandt --> Erweitert**
-
-![ExFlow Einrichtung](../../images/exflow-setup-ribbon-003.png)<br/>
 
 | Verwandt --> Erweitert | |
 |:-|:-|	
@@ -151,18 +147,18 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 
 <br/>
 
-### PO-Abgleich
+### Auftragsabgleich
 
 ![ExFlow Setup](../../images/exflow-setup-po-matching-section.png)
 
-|PO-Abgleich||
+|Auftragsabgleich||
 |:-|:-|	
 |**Dokumente abgleichen mit**|  	Gibt an, ob ExFlow Zeilen aus Bestellungen oder aus gebuchten Wareneingängen oder aus beiden Bestellungen und Wareneingängen abgleichen und abrufen soll. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Rechnung mit Wareneingangs-, Bestell- oder sowohl Wareneingangs- als auch Bestellzeilen abgleichen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
 |**Bestellzeilen automatisch empfangen**|  	Gibt an, ob Bestellzeilen jedes Zeilentyps automatisch empfangen werden sollen, wenn die abgeglichene Rechnung auf "Bereit zur Buchung" gesetzt wird. Diese Option ist nur anwendbar, wenn die Einstellung "Dokumente abgleichen mit" als "Bestellung" oder "Bestellung und Wareneingang" konfiguriert ist. <br/><br/>Beim Ausführen von Änderungen im Genehmigungsstatus überprüfen, wird der Wareneingang der abgeglichenen Bestellzeilen am Rechnungsdokumentdatum gebucht. <br/> Das Mehrwertsteuerdatum im Bestellkopf und die Abgrenzungsbuchungsdaten in den Bestellzeilen werden automatisch aktualisiert, wenn das Bestelldatum vom Rechnungsbuchungsdatum abweicht. <br/> Wenn sowohl die Bestellung als auch die Rechnung dasselbe Buchungsdatum haben, wenn Änderungen überprüft werden, gibt es keine Aktualisierungen an der Bestellung. <br/>Das Buchungsdatum der Bestellung wird ebenfalls aktualisiert, wenn es leer ist. (Einkaufs- und Verbindlichkeitssetup - Standardbuchungsdatum = Kein Datum)
 |**Zeilen automatisch abrufen**|  	Automatisch alle verfügbaren Zeilen aus der Bestellung oder dem gebuchten Wareneingang abrufen, wenn auf Kopfebene abgeglichen wird.
 |**Rechnungen automatisch genehmigen**|  	Gibt an, ob die Rechnung automatisch genehmigt werden soll, wenn die zugehörige Bestellung genehmigt ist. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Rechnungen automatisch genehmigen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#auto-approve-purchase-order-matching-invoices)
 |**Benutzer für automatische Genehmigung**|  	Gibt den ExFlow-Benutzer an, der für automatisch genehmigte Rechnungen verwendet werden soll. Wenn diese Einstellung leer ist, wird die ID des angemeldeten BC-Benutzers verwendet.
-|**Max. Rechnungsbetrag für Systemgenehmigung (LCY)**|  	Gibt den maximal zulässigen Rechnungsbetrag für automatische Genehmigungen an. 0 = deaktiviert.
+|**Max. Betrag für die automatische Genehmigung (LCY)**|  	Gibt den maximal zulässigen Rechnungsbetrag für automatische Genehmigungen an. 0 = deaktiviert.
 |**Direkte Stückkosten überprüfen**|	Gibt an, dass ExFlow die Stückkosten in der Rechnungszeile überprüfen soll, wenn Rechnungen mit Bestellungen abgeglichen werden. Die importierte Rechnung muss zeileninterpretiert sein, damit dies funktioniert.
 |**Zeilenrabatt % überprüfen**|  	Gibt an, dass ExFlow den Zeilenrabatt % in der Rechnungszeile überprüfen soll, wenn Rechnungen mit Bestellungen abgeglichen werden. Die importierte Rechnung muss zeileninterpretiert sein, damit dies funktioniert.
 |**Max. Sonstige Kosten (LCY)**|  	Toleranz für das Feld "Rechnungen automatisch genehmigen". Der Gesamtbetrag der Rechnungszeilen, die nicht mit Bestellzeilen abgeglichen wurden. (Zum Beispiel Fracht). Wenn eine Rechnung erstellt wird, werden Zeilen nicht automatisch genehmigt, wenn der maximale sonstige Betrag überschritten wurde.
@@ -187,8 +183,8 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 |**Aufgeteilte Rechnungszeilen überprüfen**|  	Wenn "Mehrfachzeilenabgleich" aktiviert ist, gibt ExFlow Aktionsmeldungen für jede Zeile aus, die aufgeteilt wurde, was dem Benutzer die Möglichkeit gibt, den vorgeschlagenen Abgleich manuell zu bestätigen, bevor das Dokument erstellt wird. Wenn diese Einstellung auf "falsch" gesetzt ist, werden keine Aktionsmeldungen für abgeglichene aufgeteilte Zeilen angezeigt.
 |**Währungsfilter in Wareneingangszeilen abrufen deaktivieren**|  	Dies kann zur Leistungsverbesserung verwendet werden, wenn Wareneingangszeilen im Importjournal abgerufen werden. Es wird dann kein Filter auf den Währungscode gesetzt, wenn die Auswahlseite geöffnet wird (Eine Überprüfung, ob die richtige Währung ausgewählt ist, erfolgt stattdessen beim Einfügen der Rechnungszeile).
 |**Warnmeldungen für Bestellabgleich deaktivieren**|Wenn diese Option deaktiviert ist, werden im Importjournal keine Warnmeldungen bezüglich des Auftragsabgleichs angezeigt (nur einzelne Zeile).
-|**PO-Kopfwerte auf Rechnung verwenden**|  	Felder aktivieren, die von der Bestellung auf die Rechnung (oder Rücksendebestellung auf die Gutschrift) im Importjournal übertragen werden sollen, wenn der Bestellabgleich auf Kopfebene verwendet wird. Ausgewählte Werte können unter "Verwandt --> Erweitert --> PO-Kopfwerte im Rechnung-Setup" gefunden und aktualisiert werden. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Bestellkopfwerte kopieren***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
-|**Erinnerung an nicht empfangene Bestellung bei Genehmigung senden**|  	Eine Erinnerung an nicht empfangene Bestellungen wird gesendet, wenn das Dokument genehmigt wird und nicht alle Bestellzeilen vollständig empfangen wurden. Damit dies funktioniert, sollte "Dokumente abgleichen mit" auf "Wareneingang" gesetzt sein. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Nicht empfangene Bestellung - Genehmigt***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
+|**Kopieren von Kopfwerten bei der Einrichtung von Rechnungen/Gutschriften**|  	Felder aktivieren, die von der Bestellung auf die Rechnung (oder Rücksendebestellung auf die Gutschrift) im Importjournal übertragen werden sollen, wenn der Bestellabgleich auf Kopfebene verwendet wird. Ausgewählte Werte können unter "Verwandt --> Erweitert --> Kopieren von Kopfwerten bei der Einrichtung von Rechnungen/Gutschriften" gefunden und aktualisiert werden. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Bestellkopfwerte kopieren***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/copy-po-header#copy-purchase-order-header-values)
+
 
 <br/>
 
@@ -226,7 +222,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 |**Standardgröße des generierten PDFs**| Wählen Sie die Größe eines generierten PDFs, wenn für Peppol, UBL und andere XSL-Stylesheets anstelle des importierten PDFs verwendet werden. 
 |**Standardausrichtung des generierten PDFs**| Wählen Sie die Ausrichtung eines generierten PDFs, wenn für Peppol, UBL und andere XSL-Stylesheets anstelle des importierten PDFs verwendet werden. 
 |**Automatische Deaktivierung der PO-Abgleichung für sonstige Gebühren**| Gibt an, ob das Feld "Keine Bestellabgleichung" automatisch aktiviert wird, wenn die Zuordnung zu einem Sachkonto oder einer Gebühr (Artikel) erfolgt. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Automatische Deaktivierung der PO-Abgleichung für sonstige Gebühren***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#automatically-disable-po-matching-for-misc-charges)
-
+|**Warnmeldungen für die MwSt.-Zuordnung deaktivieren**| Wenn diese Option deaktiviert ist, werden in der Importerfassung keine Warnmeldungen bezüglich der Zuordnung der MwSt.-Produktionsbuchungsgruppe angezeigt. <br/><br/> Lesen Sie mehr dazu im Abschnitt [***MwSt.-Mapping***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/ocr-import-mapping#vat-mapping)
 <br/>
 
 ### Eskalation
@@ -266,6 +262,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 |**Angebots-PDF auf Bestellung kopieren**| Fügt ein PDF des Angebots zur Bestellung hinzu, wenn diese erstellt wird. 
 |**Drucken/Senden ungenehmigter Bestellungen blockieren**| Gibt an, ob das Drucken oder Senden einer Bestellung oder eines Angebots blockiert werden soll, wenn die Bestellung oder das Angebot zur Genehmigung gesendet und nicht vollständig genehmigt wurde. 
 |**E-Mail für genehmigte Bestellung/Angebot senden**| Wenn aktiviert, wird eine Benachrichtigung über die genehmigte Bestellung oder das genehmigte Angebot an den Ersteller der Bestellung oder des Angebots gesendet, wenn das Dokument genehmigt wird. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Genehmigte Bestellung/Angebot***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
+|**Erinnerung an nicht empfangene Bestellung bei Genehmigung senden**|  	Eine Erinnerung an nicht empfangene Bestellungen wird gesendet, wenn das Dokument genehmigt wird und nicht alle Bestellzeilen vollständig empfangen wurden. Damit dies funktioniert, sollte "Dokumente abgleichen mit" auf "Wareneingang" gesetzt sein. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Nicht empfangene Bestellung - Genehmigt***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
 
 <br/>
 
@@ -323,6 +320,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 |Vertrauliche Dokumente||
 |:-|:-| 	
 |**Original-PDF ersetzen durch**| 	Laden Sie ein PDF hoch, das vertraulich markierte Dokumente ersetzt, um das spezifische Dokumentenbild für andere Benutzer ohne Zugriff auf vertrauliche Dokumente zu verbergen. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Vertrauliche Dokumente***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
+|**Codierungsänderungen im Web zulassen**| Gibt an, ob Codierungsänderungen in ExFlow Web für vertrauliche Dokumente zulässig sind. <br/><br/> Weitere Informationen hierzu finden Sie im Abschnitt [***Codierungsänderungen in ExFlow Web zulassen***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/confidental-documents#allow-coding-changes-on-exflow-web)
 
 <br/>
 
@@ -350,6 +348,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 |**Mit Job-Warteschlange überprüfen und buchen**| 	Gibt an, ob Dokumente mit dem Status Bereit zur Buchung nach der Überprüfung gebucht werden sollen.
 |**Änderungen automatisch überprüfen**| 	Wenn ein Dokument genehmigt wird, werden Änderungen automatisch überprüft. Wenn keine Änderungen am Dokument vorhanden sind, wird der Status Bereit zur Buchung gesetzt.
 |**Dokumente automatisch erstellen**| 	Wenn dies aktiviert ist, wird das Feld Dokumente automatisch erstellen auf allen Importjournalen gesetzt. <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Hintergrundverarbeitung***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#background-processing)
+
 
 <br/>
 
