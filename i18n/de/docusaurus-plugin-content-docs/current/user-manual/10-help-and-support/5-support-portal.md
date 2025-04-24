@@ -46,6 +46,13 @@ Bevor Sie eine Lizenz erhalten, stellen Sie bitte sicher, dass ein Vertrag oder 
 
 Die Aktivierung von Lizenzen hängt davon ab, welche Versionen von NAV/BC und ExFlow verwendet werden. Details siehe unten.
 
+**Bitte beachten Sie:**
+Bestehende Kunden können ihre aktuelle Lizenz über die Lizenzaktivierung weiterhin verwenden.
+Für Neukunden und Business Central Online AP-Installationen wird der *SignUp Software License Provider* verwendet.
+
+Lesen Sie mehr dazu im Abschnitt: [Lizenzgeber](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider)
+
+
 #### ExFlow für BC Online
 
 Suchen Sie in Business Central nach ''ExFlow-Lizenzaktivierung'' und fügen Sie den bereitgestellten Lizenzschlüssel hinzu.

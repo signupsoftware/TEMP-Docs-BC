@@ -5,6 +5,7 @@ hide_title: true
 custom_edit_url: null
 ---
 ## Export/Import ExFlow data
+It is possible to both import and export ExFlow data through this function. This can be convenient when, for instance, its is needed to export data like ExFlow Standard Purchase Codes or perhaps ExFlow Vendor Setup from one database to another. 
 
 Go to: **ExFlow Setup --> Actions --> Functions --> Export/Import Setups** 
 
@@ -21,7 +22,7 @@ Go to: **ExFlow Setup --> Actions --> Functions --> Export/Import Setups**
 <br/>
 
 ### Export data
-It is possible to both import and export ExFlow data through this function. This can be convenient when, for instance, its is needed to export data like ExFlow Standard Purchase Codes or perhaps ExFlow Vendor Setup from one database to another. 
+
 
 Simple enable those settings to be exported and then ExFlow will download a .json file to import in the other database.<br/> <br/>
 ![Export/Import Setup](@site/static/img/media/export-import-exflow-setup-002.png)
@@ -30,7 +31,5 @@ Simple enable those settings to be exported and then ExFlow will download a .jso
 
 ### Import data
 Import the data in the other environment by selecting the relevant tables and click on ''Import'' to upload the .json file.  <br/>
-
-![Export/Import Setup](@site/static/img/media/export-import-exflow-setup-003.png)
 
 If any errors occur during this process, all will be listed under ''List of Import Errors''. Handle the error and import the file again. Use ''Delete Import Errors'' the clear the list, if needed. 

@@ -68,7 +68,7 @@ Go to: **ExFlow Setup --> OCR Import**
 
 ### VAT Mapping
 
-Let ExFlow help out with mapping of imported VAT % towards VAT Product Posting Groups.
+Let ExFlow help out with mapping of imported VAT % towards VAT Product Posting Groups. 
 
 Go to: **ExFlow Setup --> Actions--> Functions--> OCR --> VAT Mapping**
 
@@ -80,6 +80,6 @@ Edit the list and add the VAT Mapping values to be mapped, and choose the VAT Pr
 
 #### Disable Warning Messages for VAT Mapping
 
-Go to OCR Import --> Disable Warning Messages for VAT Mapping to turn off the warning messages for VAT mapping. 
+Go to: **OCR Import --> Disable Warning Messages for VAT Mapping** to turn off the warning messages for VAT mapping. 
 
 When disabled, no warning messages will be presented in the Import Journal for the imported values regarding mapping VAT Prod. Posting Group.
