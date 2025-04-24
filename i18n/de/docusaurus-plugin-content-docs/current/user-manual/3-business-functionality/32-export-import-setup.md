@@ -5,6 +5,7 @@ hide_title: true
 custom_edit_url: null
 ---
 ## Export/Import ExFlow-Daten
+Es ist möglich, sowohl ExFlow-Daten zu importieren als auch zu exportieren. Dies kann praktisch sein, wenn beispielsweise ExFlow-Standard-Einkaufscodes oder ExFlow-Lieferanteneinstellungen von einer Datenbank in eine andere exportiert werden müssen.
 
 Gehe zu: **ExFlow Setup --> Aktionen --> Funktionen --> Export/Import Setups** 
 
@@ -21,8 +22,6 @@ Gehe zu: **ExFlow Setup --> Aktionen --> Funktionen --> Export/Import Setups**
 <br/>
 
 ### Daten exportieren
-Es ist möglich, sowohl ExFlow-Daten zu importieren als auch zu exportieren. Dies kann praktisch sein, wenn beispielsweise ExFlow-Standard-Einkaufscodes oder ExFlow-Lieferanteneinstellungen von einer Datenbank in eine andere exportiert werden müssen.
-
 Aktivieren Sie einfach die Einstellungen, die exportiert werden sollen, und ExFlow lädt eine .json-Datei herunter, die in die andere Datenbank importiert werden kann.<br/> <br/>
 ![Export/Import Setup](../../images/export-import-exflow-setup-002.png)
 
@@ -30,8 +29,6 @@ Aktivieren Sie einfach die Einstellungen, die exportiert werden sollen, und ExFl
 
 ### Daten importieren
 Importieren Sie die Daten in die andere Umgebung, indem Sie die relevanten Tabellen auswählen und auf ''Importieren'' klicken, um die .json-Datei hochzuladen.  <br/>
-
-![Export/Import Setup](../../images/export-import-exflow-setup-003.png)
 
 Wenn während dieses Vorgangs Fehler auftreten, werden alle unter ''Liste der Importfehler'' aufgelistet. Beheben Sie den Fehler und importieren Sie die Datei erneut. Verwenden Sie ''Importfehler löschen'', um die Liste bei Bedarf zu löschen.
 

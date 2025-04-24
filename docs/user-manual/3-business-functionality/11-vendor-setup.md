@@ -92,7 +92,7 @@ The option ''From ExFlow Setup'' is set per default in most settings on the ExFl
 |Order Matching|  |
 |:-|:-|
 |**Match Documents To**|  Specifies if ExFlow should match and retrieve lines from Purchase Orders or from Posted Receipts, or from both Orders and Receipts. <br/><br/> Read more about this under section [***Match Invoice with Receipt-, Order- or both Receipt and Order lines***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchase-order-matching-process#match-invoice-with-receipt--order--or-both-receipt-and-order-lines)
-|**Automatically Receive Order**|  	Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order" or "Order and Receipt". 
+|**Automatically Receive Orders**|  	Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order" or "Order and Receipt". 
 |**Specific Line Diff Unit Cost Setting**| The fields ''In LCY’’ and ‘’Percent %’’ will be visible when enabling this setting.
 |**Specific Max Misc. Setting**| Enable to activate the Max. Misc. function.
 |**Max Misc. Charges (LCY)**| Enter the max misc charges in LCY.
