@@ -68,7 +68,7 @@ Go to: **ExFlow Setup --> OCR Import**
 
 ### VAT Mapping
 
-Let ExFlow help out with mapping of imported VAT % towards VAT Product Posting Groups.
+Let ExFlow help out with mapping of imported VAT % towards VAT Product Posting Groups. 
 
 Go to: **ExFlow Setup --> Actions--> Functions--> OCR --> VAT Mapping**
 

@@ -12,7 +12,7 @@ Ein "ExFlow Import-Journal" wird zum Importieren von Dokumenten, Anwenden von Ko
 
 In der ExFlow Import-Journale-Liste ist es möglich, zu suchen, ein neues Journal zu erstellen, aktuelle Journalzeilen zu bearbeiten und Journale zu löschen. Benutzer können auch Stapel-Dokumente importieren, Rechnungen und Gutschriften stapelweise erstellen, die OCR-Import-Warteschlange bearbeiten/anzeigen, E-Mail-Wareneingangserinnerungen senden und Journale stapelweise verarbeiten/überprüfen.
 
-![ExFlow Import-Journale](../../images/media/import-journals-003.png)
+![ExFlow Import-Journale](../../images/import-journals-003.png)
 
 | Import-Journale Menü |  |
 |:-|:-|
@@ -65,21 +65,21 @@ Gleiche Einstellung kann für "Zeilen mit automatischem Vorschlag erstellen" vor
 
 Lesen Sie mehr darüber im Abschnitt **"ExFlow Auto Coding Suggestion".**
 
-![ExFlow Import-Journale](../../images/media/import-journals-004.png)
+![ExFlow Import-Journale](../../images/import-journals-004.png)
 
 In den Journalen gibt es einen Dokumentkopfdatensatz für jedes importierte OCR-Dokument. "Importzeilen" im unteren Abschnitt sind Zeilendetails für jedes Dokument.
 
-![ExFlow Import-Journal](../../images/media/import-journal-010.png)
+![ExFlow Import-Journal](../../images/import-journal-010.png)
 
 Darüber hinaus ist es möglich, ein spezifisches Journal für das automatische Erstellen von Dokumenten einzurichten. Verwenden Sie die Personalisierung und fügen Sie die Spalte "Dokumente automatisch erstellen" zur ExFlow Import-Journale-Liste hinzu.
 
 Aktivieren Sie dieses Kontrollkästchen, wenn interpretierte Dokumente automatisch aus dem ExFlow Import-Journal erstellt werden sollen. Mit dieser Funktion werden alle interpretierten importierten Dokumente (ohne Fehler oder Warnmeldungen) automatisch erstellt und zur Genehmigung versendet.
 
-![ExFlow Import-Journal](../../images/media/import-journals-005.png)
+![ExFlow Import-Journal](../../images/import-journals-005.png)
 
 Importieren und eine Nachricht zeigt, wie viele empfangene/importierte Dokumente und die Menge der automatisch erstellten Dokumente.
 
-![ExFlow Import-Journal - Importstatus](../../images/media/import-status-001.png)
+![ExFlow Import-Journal - Importstatus](../../images/import-status-001.png)
 
 Diese Einstellung kann auch nur für bestimmte Lieferanten angewendet werden. Lesen Sie mehr darüber im Abschnitt **Lieferanteneinrichtung**.
 
@@ -88,14 +88,14 @@ Gehen Sie zu: ***Aktionen --> Import --> ExFlow Data Capture***
 
 Klicken Sie auf "ExFlow Data Capture", um zur Website zu gelangen. Dies funktioniert nur, wenn das Unternehmen mit einem ExFlow Data Capture-Konto verbunden ist.
 
-![ExFlow Import-Journale - ExFlow Data Capture](../../images/media/import-journals-006.png)
+![ExFlow Import-Journale - ExFlow Data Capture](../../images/import-journals-006.png)
 
 
 <br/><br/> 
 
 ## Import-Journal - Kopf
 
-![ExFlow Import-Journal - Verwalten](../../images/media/import-journal-011-menu-manage.png)
+![ExFlow Import-Journal - Verwalten](../../images/import-journal-011-menu-manage.png)
 
 | Import-Journal --> Verwalten|| 
 |:-|:-| 
@@ -103,7 +103,7 @@ Klicken Sie auf "ExFlow Data Capture", um zur Website zu gelangen. Dies funktion
 | Karte             | Öffnen Sie die ExFlow Import-Dokumentkarte für das ausgewählte Dokument.
 | Statistik          | Statistische Informationen über das ausgewählte Dokument anzeigen (F7)
 
-![ExFlow Import-Journal - Start](../../images/media/import-journal-009-menu-home.png)
+![ExFlow Import-Journal - Start](../../images/import-journal-009-menu-home.png)
 
 | Import-Journal --> Start|| 
 |:-|:-| 
@@ -120,7 +120,7 @@ Klicken Sie auf "ExFlow Data Capture", um zur Website zu gelangen. Dies funktion
 <br/><br/>
 
 ### Auto Coding Suggestion
-![ExFlow Import-Journal](../../images/media/import-journal-012-menu-home.png)
+![ExFlow Import-Journal](../../images/import-journal-012-menu-home.png)
 
 #### Auto Coding Suggestion - Manuelle Auswahl
 Gehen Sie zu: ***Start --> Auto Coding Suggestion - Manuelle Auswahl***<br/>
@@ -138,7 +138,7 @@ Diese Seite zeigt den besten Kontierungsvorschlag für die Rechnung, die vor dem
 
 **Anfänglichen Vorschlag anzeigen:** Dies wird zum anfänglichen Vorschlag zurückkehren, der angezeigt wurde, als die Seite zum ersten Mal geöffnet wurde.
 
-![ExFlow Coding Suggestion für Import-Journal](../../images/media/auto-coding-suggestion-001.png)
+![ExFlow Coding Suggestion für Import-Journal](../../images/auto-coding-suggestion-001.png)
 
 ##### ExFlow Coding Suggestion Document
 
@@ -152,7 +152,7 @@ Auf dieser Seite wird die Kontierung detaillierter angezeigt. Es ist auch mögli
 
 **Automatische Kontierung vorschlagen:** Dies wird die automatische Kontierung basierend auf dem automatischen Vorschlags-Setup vorschlagen.
 
-![ExFlow Coding Suggestion Document](../../images/media/auto-coding-suggestion-002.png)
+![ExFlow Coding Suggestion Document](../../images/auto-coding-suggestion-002.png)
 
 #### Auto Coding Suggestion - Automatisch
 Gehen Sie zu: ***Start --> Auto Coding Suggestion - Automatisch***<br/>
@@ -169,22 +169,22 @@ Lesen Sie mehr im Abschnitt [***Auto Coding Suggestion Setup***](https://docs.si
 Gehen Sie zu: ***Erstellen --> Rechnungen/Gutschriften stapelweise erstellen***<br/>
 
 Dies wird sowohl die Stapelüberprüfung der Dokumente als auch die Erstellung von Einkaufsrechnungen und Gutschriften für alle Dokumente in diesem Journal durchführen, die keine Aktionsmeldung haben.
-![ExFlow Import-Journal - Erstellen](../../images/media/import-journal-013-menu-create.png)
+![ExFlow Import-Journal - Erstellen](../../images/import-journal-013-menu-create.png)
 
-![Stapelweise Einkaufsdokumente erstellen](../../images/media/batch-create-purchase-documents-001.png)
+![Stapelweise Einkaufsdokumente erstellen](../../images/batch-create-purchase-documents-001.png)
 
 Um das Buchungsdatum für alle Dokumente zu aktualisieren, fügen Sie ein neues Datum im Feld Buchungsdatum hinzu und aktivieren Sie Buchungsdatum ersetzen.
 
 Wenn die Verwendung des Mehrwertsteuerdatums aktiviert ist und das Standard-Mehrwertsteuerdatum im Hauptbuch-Setup das Buchungsdatum ist, wird das Mehrwertsteuerdatum automatisch als Vorschlag aktiviert.
 
-![Stapelweise Einkaufsdokumente erstellen](../../images/media/batch-create-purchase-documents-002.png)
+![Stapelweise Einkaufsdokumente erstellen](../../images/batch-create-purchase-documents-002.png)
 
 Wenn ein oder mehrere Dokumente einen Abgrenzungscode haben, wenn das Buchungsdatum ersetzt wird, wird die folgende Frage gestellt.
 
 Wählen Sie **Ja**, um das Startdatum der Abgrenzung gemäß den Einstellungen im Abgrenzungscode für alle Dokumentzeilen zu aktualisieren.<br/>
 Wählen Sie **Nein**, um das Startdatum der Abgrenzung wie auf allen Dokumentzeilen erstellt beizubehalten.
 
-![Nachricht beim Stapelweise Erstellen von Einkaufsdokumenten](../../images/media/batch-create-post-message-001.png)
+![Nachricht beim Stapelweise Erstellen von Einkaufsdokumenten](../../images/batch-create-post-message-001.png)
 
 ### Rechnung/Gutschrift erstellen
 Gehen Sie zu: ***Erstellen --> Rechnung/Gutschrift erstellen (F9)***<br/>
@@ -192,11 +192,11 @@ Stehen Sie auf der ausgewählten Dokumentzeile und klicken Sie auf Rechnung/Guts
 
 Es gibt auch eine Option, mehrere Dokumente zur Erstellung auszuwählen. Verwenden Sie "Mehr auswählen", um die Dokumente auszuwählen.
 
-![ExFlow Import-Journal - Mehr auswählen](../../images/media/import-journal-014.png)
+![ExFlow Import-Journal - Mehr auswählen](../../images/import-journal-014.png)
 
 Und klicken Sie einfach auf Rechnung/Gutschrift erstellen, um die ausgewählten Dokumente zu erstellen.
 
-![ExFlow Import-Journal - Mehrere Dokumente auswählen und erstellen](../../images/media/import-journal-015.png)
+![ExFlow Import-Journal - Mehrere Dokumente auswählen und erstellen](../../images/import-journal-015.png)
 
 ### Import-Journal --> Aktionen --> Import
 
@@ -208,7 +208,7 @@ Beginnen Sie mit "Importzeilen Excel-Vorlage herunterladen".
 
 Ändern, hinzufügen und/oder löschen Sie Zeilen in Excel, speichern Sie und verwenden Sie die Funktion "Importzeilen aus Excel importieren".
 
-![ExFlow Import-Journal](../../images/media/import-journal-016-menu-actions-import.png)
+![ExFlow Import-Journal](../../images/import-journal-016-menu-actions-import.png)
 
 #### Zeilen kopieren/einfügen
 Es ist möglich, Zeilen aus einem anderen Dokument oder aus Excel zu kopieren und in das Import-Journal einzufügen. Diese Funktion funktioniert genauso wie im Business Central-Standard.
@@ -227,7 +227,7 @@ Diese Funktion öffnet die "ExFlow Data Capture"-Webseite (wenn das Unternehmen 
 Gehen Sie zu: ***Aktion --> Funktionen --> Kontierung zum Lieferanten speichern***<br/>
 Verwenden Sie diese Funktion, um die aktuelle Kontierung der Rechnungszeilen in einem ExFlow Purchase Code zu speichern, der auf der Lieferantenkarte gespeichert wird.
 
-![ExFlow Import-Journal - Funktionen](../../images/media/import-journal-017-menu-actions-function.png)
+![ExFlow Import-Journal - Funktionen](../../images/import-journal-017-menu-actions-function.png)
 
 ### Ausgewählte Dokumente in ein anderes Unternehmen übertragen
 Gehen Sie zu: ***Aktion --> Funktionen --> Ausgewählte Dokumente in ein anderes Unternehmen übertragen***<br/>
@@ -251,13 +251,13 @@ Verwenden Sie diese Funktion, um die OCR-Import-Warteschlange anzuzeigen oder zu
 Gehen Sie zu: ***Aktionen --> Bestellung --> OCR-Zeilen abgleichen***<br/>
 Dokumentzeilen mit Bestellungen abgleichen.
 
-![ExFlow Import-Journal - OCR-Zeilen abgleichen](../../images/media/import-journal-018-menu-actions-order.png)
+![ExFlow Import-Journal - OCR-Zeilen abgleichen](../../images/import-journal-018-menu-actions-order.png)
 
 Bei Verwendung dieser Funktion sammelt ExFlow Informationen aus Bestellungen und Wareneingängen usw.
 
 Um das manuelle Zeilenabgleichen zu erleichtern, ist es möglich, die Seite "Zeilenabgleichsansicht" zu personalisieren und Felder wie "Artikelreferenznummer" und "Lieferantenartikelnummer" hinzuzufügen.
 
-![OCR-Zeilen abgleichen - Zeilenabgleichsansicht](../../images/media/line-matching-view-001.png)
+![OCR-Zeilen abgleichen - Zeilenabgleichsansicht](../../images/line-matching-view-001.png)
 
 ### Bestellung --> Wareneingangs-/Rücksendungs-/Bestellzeilen abrufen
 Gehen Sie zu: ***Aktionen --> Bestellung --> Wareneingangs-/Rücksendungs-/Bestellzeilen abrufen***<br/>
@@ -265,7 +265,7 @@ Mit dieser Schaltfläche werden Bestell-/Wareneingangszeilen abgerufen und dem a
 
 Lesen Sie mehr im Abschnitt **Bestellabgleich auf Kopfebene**.
 
-![ExFlow Import-Journal](../../images/media/import-journal-019-menu-actions-order.png)
+![ExFlow Import-Journal](../../images/import-journal-019-menu-actions-order.png)
 
 
 ### Import-Journal --> Aktionen --> E-Mail
@@ -275,7 +275,7 @@ Gehen Sie zu: ***Aktionen --> E-Mail --> Wareneingangserinnerungen stapelweise s
 Mit dieser Funktion werden E-Mails an Benutzer bezüglich Wareneingangserinnerungen für neue Dokumente gesendet. Wenn der Wert des Einkäufercodes im Import-Journal leer ist, wird eine Erinnerung an den Einkaufskoordinator gesendet.
 Wenn ein Einkäufercode vorhanden ist, wird die Erinnerung an den verbundenen ExFlow-Benutzer gesendet.
 
-![ExFlow Wareneingangserinnerungen senden](../../images/media/import-journal-020-menu-actions-email.png)
+![ExFlow Wareneingangserinnerungen senden](../../images/import-journal-020-menu-actions-email.png)
 
 ### Alle Wareneingangserinnerungen stapelweise senden
 Gehen Sie zu: ***Aktionen --> E-Mail --> Alle Wareneingangserinnerungen stapelweise senden***<br/>
@@ -289,7 +289,7 @@ Diese Schaltfläche sendet Wareneingangserinnerungen nur für ausgewählte Dokum
 Gehen Sie zu: ***Aktionen --> E-Mail --> E-Mail-Protokoll anzeigen***<br/>
 Diese Schaltfläche zeigt ein E-Mail-Protokoll der gesendeten Wareneingangserinnerungen an.
 
-![ExFlow E-Mail-Protokolle](../../images/media/email-logs-001.png)
+![ExFlow E-Mail-Protokolle](../../images/email-logs-001.png)
 
 #### Einträge löschen, die älter als 30 Tage sind
 Gehen Sie zu: ***ExFlow E-Mail-Protokolle --> Aktion --> Einträge löschen, die älter als 30 Tage sind***<br/>
@@ -350,7 +350,7 @@ Anzeigen der auf das ausgewählte Dokument gesetzten Dimensionen.
 Gehen Sie zu: ***Verwandt --> Dokument --> Lieferantenbankkonto***<br/>
 Diese Schaltfläche zeigt das bevorzugte Bankkonto des Lieferanten an. Wenn es nicht existiert, wird die Liste der Lieferantenbankkonten für den spezifischen Lieferanten angezeigt.
 
-![Import-Journal](../../images/media/import-journal-021-menu-related-document.png)
+![Import-Journal](../../images/import-journal-021-menu-related-document.png)
 
 
 ### Import-Journal --> Dokument --> Dateien
@@ -359,9 +359,9 @@ Diese Schaltfläche zeigt das bevorzugte Bankkonto des Lieferanten an. Wenn es n
 Gehen Sie zu: ***Verwandt --> Dateien --> Importdetails anzeigen (OCR)***<br/>
 Um die interpretierten Daten anzuzeigen, markieren Sie die richtige Dokumentzeile, gehen Sie zu "Importdetails anzeigen (OCR)". Die Daten können nicht geändert werden.
 
-![ExFlow Import-Journal - Dateien](../../images/media/import-journal-022-menu-related-files.png)
+![ExFlow Import-Journal - Dateien](../../images/import-journal-022-menu-related-files.png)
 
-![ExFlow importiertes Dokument](../../images/media/imported-document-001.png)
+![ExFlow importiertes Dokument](../../images/imported-document-001.png)
 
 
 ### Dokumentbild anzeigen (Strg + I) / PDF exportieren
@@ -382,7 +382,7 @@ Wenn ein Dokument zur Genehmigung erstellt wird, kann das Dokumentbild (PDF) mit
 
 Im Import-Journal, Genehmigungsstatus und Genehmigungsstatusverlauf ist es möglich, mehrere Dokumente auszuwählen, bevor die Verknüpfung Strg+I verwendet wird:
 
-![Mehrere Dokumente auswählen](../../images/media/image223.png)
+![Mehrere Dokumente auswählen](../../images/image223.png)
 
 Wenn mehrere Dateien ausgewählt sind, gibt es die Möglichkeit, eine komprimierte Datei mit PDF-Dateien für alle ausgewählten Dokumente an einem bestimmten Ort zu speichern. Dies ist eine großartige Möglichkeit, viele PDFs bei Bedarf zu exportieren.
 
@@ -392,7 +392,7 @@ Wenn mehrere Dateien ausgewählt sind, gibt es die Möglichkeit, eine komprimier
 
 Klicken Sie auf die ''drei vertikalen Punkte'' im Dokumentkopf, um Schnellzugriffsoptionen zu finden.
 
-![KLEIN](../../images/media/header-line-options-001.png)
+![KLEIN](../../images/header-line-options-001.png)
 
 ### ExFlow Import-Dokumentkarte öffnen
 Gehen Sie zu: ***Verwalten --> Karte***<br/>
@@ -408,7 +408,7 @@ Gehen Sie zu: ***Prozess --> Bild importieren oder ersetzen***<br/>
 Importieren Sie eine Datei oder ersetzen Sie ein Bild im Kontextmenü im Rechnungskopf über die Funktion "Bild importieren oder ersetzen" im Import-Journal.<br/>
 Kann auch unter ***Verwandt --> Dateien --> Andere --> Bild importieren oder ersetzen*** gefunden werden
 
-![ExFlow Import-Journal](../../images/media/image200.png)
+![ExFlow Import-Journal](../../images/image200.png)
 
 ### ExFlow Lieferanteneinrichtung
 Gehen Sie zu: ***Prozess --> ExFlow Lieferanteneinrichtung***<br/>
@@ -444,7 +444,7 @@ Blockieren Sie das Dokument, damit es im Import-Journal erstellt und zur Genehmi
 #### Blockieren für Buchung
 Blockieren Sie das Dokument, damit es im Genehmigungsstatus gebucht wird.
 
-![ExFlow Import-Journal](../../images/media/import-journals-block-document-001.png)
+![ExFlow Import-Journal](../../images/import-journals-block-document-001.png)
 
 ### Gilt für Dokument
 Es besteht die Möglichkeit, Zahlungen auf ein Dokument anzuwenden. Z.B. um eine Rechnung auf eine Gutschrift in den Lieferantenposten anzuwenden, wenn die Gutschrift gebucht wird.<br/>
@@ -454,7 +454,7 @@ Um diese Felder zu verwenden, müssen sie zuerst durch Personalisierung hinzugef
 
 **Gilt für Dok.-Nr.** gibt die Nummer des gebuchten Dokuments an, auf das dieses Dokument oder diese Journalzeile beim Buchen angewendet wird, z.B. um eine Zahlung zu registrieren.
 
-![ExFlow Import-Journal](../../images/media/image214.png)
+![ExFlow Import-Journal](../../images/image214.png)
 
 
 ## Import-Journal - Importzeilen
@@ -468,12 +468,12 @@ Gehen Sie zu: **Importzeilen --> Verwalten --> Neue Zeile / Zeile löschen** <br
 
 **Zeile löschen:** Löschen Sie die ausgewählte Zeile. <br/>
 
-![ExFlow Import-Journal -- Importzeilen](../../images/media/image201.png)
+![ExFlow Import-Journal -- Importzeilen](../../images/image201.png)
 
 ### Importzeilen - Funktionen
 Gehen Sie zu: **Importzeilen --> Zeile**
 
-![ExFlow Import-Journal -- Importzeilen](../../images/media/import-journal-line-functions.png)
+![ExFlow Import-Journal -- Importzeilen](../../images/import-journal-line-functions.png)
 
 ### Dimensionen
 Gehen Sie zu: ***Importzeilen --> Zeile --> Dimensionen***<br/>
@@ -548,7 +548,7 @@ Lesen Sie mehr im Abschnitt [***G/L-Budgetkontrolle***](https://docs.signupsoftw
 
 Gehen Sie zu: **Importzeilen --> Bestellung**
 
-![Bestellung](../../images/media/import-line-order-001.png)
+![Bestellung](../../images/import-line-order-001.png)
 
 ### Bestellkarte
 Gehen Sie zu: ***Importzeilen --> Bestellung --> Bestellkarte***
@@ -562,9 +562,9 @@ Bei Verwendung von Artikelkosten kann die Zuweisung auf drei Arten erfolgen. Vom
 
 Manuell vom Import-Journal: <br/>
 
-![ExFlow Import-Journal - Importzeilen - Artikelkostenverteilung](../../images/media/image204.png)
+![ExFlow Import-Journal - Importzeilen - Artikelkostenverteilung](../../images/image204.png)
 
-![Artikelkostenverteilung (ExFlow Purch)](../../images/media/image205.png)
+![Artikelkostenverteilung (ExFlow Purch)](../../images/image205.png)
 
 Lassen Sie ExFlow die Artikelkosten automatisch zuweisen. Fügen Sie eine Option hinzu, wie die Zuweisung berechnet werden soll "Gleichmäßig, nach Betrag, nach Gewicht oder nach Volumen" im Feld "Automatische Artikelkostenverteilung" unter Bestellabgleich im ExFlow-Setup.
 
@@ -590,13 +590,13 @@ Gehen Sie zu: **ExFlow Setup --> Dokumenterstellungskontrollen --> Währungscode
 
 Wenn ExFlow überprüfen muss, ob der Währungscode auf jeder importierten Rechnung mit der Standardwährung des Lieferanten übereinstimmt, sollte die Einstellung "Währung des Lieferanten abgleichen" aktiviert werden. Finden Sie die Einstellung unter Dokumenterstellungskontrollen im ExFlow-Setup.
 
-![ExFlow Setup - Dokumenterstellungskontrollen](../../images/media/exflow-setup-doc-creation-checks-001.png)
+![ExFlow Setup - Dokumenterstellungskontrollen](../../images/exflow-setup-doc-creation-checks-001.png)
 
 Wenn diese Einstellung aktiv ist, wird ExFlow eine Warnung für jedes Dokument im Import-Journal ausgeben, bei dem die Dokumentwährung von der Standardwährung des Lieferanten abweicht.
 
-![ExFlow Import-Journal](../../images/media/image227.png)
+![ExFlow Import-Journal](../../images/image227.png)
 
-![ExFlow Import-Journal - Warnmeldungen](../../images/media/image228.png)
+![ExFlow Import-Journal - Warnmeldungen](../../images/image228.png)
 
 ExFlow vergleicht den Inhalt des Währungsfelds auf dem Dokument im Import-Journal mit der Standardwährung des Lieferanten (d.h. dem Inhalt des Währungsfelds auf der Lieferantenkarte).<br/>
 Wenn der Lieferant eine leere (leere) Währung hat, führt ExFlow keine Validierung durch.
@@ -608,7 +608,7 @@ Gehen Sie zu: **ExFlow Setup --> Dokumenterstellungskontrollen --> Automatische 
 Wenn die Mehrwertsteuerdifferenz im Einkaufs- und Zahlungseingangs-Setup aktiviert ist, kann die Mehrwertsteuerdifferenz in der Statistik im Import-Journal hinzugefügt werden, bevor das Dokument erstellt wird.<br/>
 Die maximale Mehrwertsteuerdifferenz wird durch die Einstellungen im Hauptbuch-Setup oder aus dem aktuellen Währungscode behandelt.
 
-![ExFlow Import-Journal - Einkaufsrechnungsstatistik](../../images/media/image229.png)
+![ExFlow Import-Journal - Einkaufsrechnungsstatistik](../../images/image229.png)
 
 Über die Einstellungen kann ExFlow die Mehrwertsteuerdifferenz automatisch zuweisen. Dann wird die Mehrwertsteuerdifferenz proportional auf alle Zeilen verteilt.
 
@@ -626,7 +626,7 @@ Wenn der Mehrwertsteuerbetrag auf den Zeilen manuell auf der Karte nach der Doku
 *"Möchten Sie den Mehrwertsteuerbetrag im ExFlow-Genehmigungsstatus aus dem Mehrwertsteuerbetrag der Zeilen aktualisieren?"*<br/>
 Antworten Sie mit Ja, um den gesamten Mehrwertsteuerbetrag im Genehmigungsstatus zu aktualisieren.
 
-![Einkaufsrechnung oder Gutschriftkarte - Mehrwertsteuerbetrag aktualisieren](../../images/media/image230.png)
+![Einkaufsrechnung oder Gutschriftkarte - Mehrwertsteuerbetrag aktualisieren](../../images/image230.png)
 
 **Empfohlene Einstellungen:**<br/>
 Wenn Sie mit der automatischen Zuweisung der Mehrwertsteuerdifferenz und der Rundung auf Rechnungen/Gutschriften bei der Buchung arbeiten. Fügen Sie KEINE Mehrwertsteuer auf das Sachkonto hinzu, das für die Rundung verwendet wird.
@@ -643,23 +643,23 @@ Rechts im Import-Journal gibt es nützliche FactBoxes.
 ### PDF-Vorschau
 Ändern Sie die Größe der PDF-Vorschau Drücken Sie - / +, um die Größe der PDF zu verringern oder zu erhöhen.
 
-![ExFlow Import-Journal](../../images/media/image215.png)
+![ExFlow Import-Journal](../../images/image215.png)
 
 Größe der FactBox zurücksetzen Klicken Sie auf "Wiederherstellen".
 
-![ExFlow Import-Journal - PDF-Vorschau](../../images/media/image216.png)
+![ExFlow Import-Journal - PDF-Vorschau](../../images/image216.png)
 
 "Verkleinern", "Vergrößern" und Zoom zurücksetzen
 
-![ExFlow Import-Journal - PDF-Vorschau](../../images/media/image217.png)
+![ExFlow Import-Journal - PDF-Vorschau](../../images/image217.png)
 
 Öffnen Sie das PDF in einem neuen separaten Tab, um eine bessere Ansicht des Dokumentbilds zu erhalten.  
 
-![ExFlow Import-Journal - PDF-Vorschau](../../images/media/open-new-001.png) 
+![ExFlow Import-Journal - PDF-Vorschau](../../images/open-new-001.png) 
 
 Ändern Sie die PDF-Seitennummer mit den "Datensatzschaltflächen".
 
-![ExFlow Import-Journal - PDF-Vorschau](../../images/media/image218.png)
+![ExFlow Import-Journal - PDF-Vorschau](../../images/image218.png)
 
 Um die PDF-Datei in voller Größe zu öffnen:
 
@@ -680,33 +680,33 @@ Datei anhängen.
 
 Klicken Sie auf "Auswählen", suchen Sie die Datei, die angehängt werden soll, und klicken Sie auf "Öffnen".
 
-![ExFlow Import-Journal](../../images/media/image219.png)
+![ExFlow Import-Journal](../../images/image219.png)
 
 ### Genehmigungsvorschlag
 Genehmiger für die aktuelle Dokumentzeile anzeigen.
 Von: ***Genehmigungsvorschlag --> Genehmigungsvorschlag anzeigen***<br/>
 Genehmiger können manuell hinzugefügt werden. Dies sollte nur in besonderen Fällen verwendet werden.
 
-![ExFlow Import-Journal, FactBox, Genehmigungsvorschlag](../../images/media/image220.png)
+![ExFlow Import-Journal, FactBox, Genehmigungsvorschlag](../../images/image220.png)
 
-![Genehmigungsvorschlag](../../images/media/image221.png)
+![Genehmigungsvorschlag](../../images/image221.png)
 
 ### Dokumentdetails
 Wenn der Betrag im Dokumentkopf und der Gesamtbetrag auf den Dokumentzeilen nicht denselben Wert haben, können Dokumentdetails helfen, den Differenzbetrag zu sehen und ob er auf den direkten Einstandspreis ohne Mehrwertsteuer, den direkten Einstandspreis mit Mehrwertsteuer, den Mehrwertsteuerbetrag oder die Vorauszahlung zurückzuführen ist.
 
-![ExFlow Import-Journal, FactBox, Genehmigungsvorschlag](../../images/media/image222.png)
+![ExFlow Import-Journal, FactBox, Genehmigungsvorschlag](../../images/image222.png)
 
 ### Warnmeldungen
 Wenn die Aktionsmeldung "Es gibt noch nicht akzeptierte Warnmeldungen!" anzeigt, wird die Meldung im FactBox "Warnmeldungen" angezeigt. Nehmen Sie die entsprechenden Änderungen vor oder "Akzeptieren Sie alle Warnungen" wie im Bild unten.
 
-![ExFlow Import-Journal](../../images/media/image224.png)
+![ExFlow Import-Journal](../../images/image224.png)
 
-![ExFlow Import-Journal, FactBox, Warnmeldungen](../../images/media/image225.png)
+![ExFlow Import-Journal, FactBox, Warnmeldungen](../../images/image225.png)
 
 ### Lieferantenstatistik und Lieferantenhistorie
 Finden Sie Lieferanteninformationen in den FactBoxes Lieferantenstatistik und Lieferantenhistorie.
 
-![FactBox](../../images/media/approval-status-factbox-vendor-001.png)
+![FactBox](../../images/approval-status-factbox-vendor-001.png)
 
 
 ## Web-Spalten
@@ -719,12 +719,12 @@ Für auftragsabgeglichene Rechnungen wird der Wert im Feld Beschreibung 2 der Be
 
 Gleiches gilt für Kosten-/Aufwandsrechnungen, das Feld Beschreibung 2 wird im Import-Journal verfügbar sein, damit Benutzer manuell Text eingeben können. 
 
-![Beschreibung 2](../../images/media/import-journal-description-2.png)
+![Beschreibung 2](../../images/import-journal-description-2.png)
 
 Jeder im Feld Beschreibung 2 eingegebene Text wird in ExFlow Web sichtbar sein. 
 
 Um die Web-Spalte Beschreibung 2 hinzuzufügen, gehen Sie zu **ExFlow Setup --> Web-Spalten bearbeiten** und klicken Sie dann auf ''Spalte hinzufügen''.
 
-![Beschreibung 2](../../images/media/exflow-web-columns-add-description-2.png)
+![Beschreibung 2](../../images/exflow-web-columns-add-description-2.png)
 
 Lesen Sie mehr über Web-Spalten im Abschnitt [***ExFlow Web.***](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/exflow-web#exflow-web)
