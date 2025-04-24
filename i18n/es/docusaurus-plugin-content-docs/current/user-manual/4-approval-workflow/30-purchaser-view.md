@@ -1,282 +1,282 @@
 ---
-title: Purchaser View 
+title: Vista del Comprador 
 sidebar_position: 30
 hide_title: true
 custom_edit_url: null
 ---
-## Purchaser View
+## Vista del Comprador
 
-Previously, once all order-matched documents were imported into the journal, the burden for handling any errors fell largely on the AP team. 
+Anteriormente, una vez que todos los documentos con coincidencia de órdenes se importaban al diario, la carga de gestionar cualquier error recaía principalmente en el equipo de Cuentas por Pagar (AP). 
 
-Now, purchasers can step in earlier in the process, providing support to the AP team by managing or offering input on order-matched documents with errors within their own dedicated workspace, the **ExFlow Order Matching View for Purchaser.**<br/>
+Ahora, los compradores pueden intervenir antes en el proceso, brindando apoyo al equipo de AP mediante la gestión o aportación de información sobre documentos con coincidencia de órdenes que tienen errores dentro de su propio espacio de trabajo dedicado, la **Vista de Coincidencia de Órdenes de ExFlow para Compradores.**<br/>
 
-After purchasers address the (potential) issues with their orders, this function guides the AP team in resolving any errors in the order-matched lines within the Import Journal, allowing them to continue their work smoothly and accelerating the approval-to-posting process.
+Después de que los compradores aborden los problemas (potenciales) con sus órdenes, esta función guía al equipo de AP en la resolución de cualquier error en las líneas con coincidencia de órdenes dentro del Diario de Importación, permitiéndoles continuar su trabajo sin problemas y acelerando el proceso de aprobación hasta la contabilización.
 
-## Setup
+## Configuración
 
-### New Order Matching
+### Nueva Coincidencia de Órdenes
 
-The Purchaser view can only be used if the New Order Matching is enabled. 
+La vista del Comprador solo puede utilizarse si está habilitada la Nueva Coincidencia de Órdenes. 
 
-Read more about this under [**Get Started**](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started) and [**New Order Matching Experience**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching)
+Lea más sobre esto en [**Primeros Pasos**](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started) y [**Nueva Experiencia de Coincidencia de Órdenes**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching)
 
-### User Setup
+### Configuración de Usuario
 
-Go to: **User Setup**
-The Business Central User ID need to be entered in User Setup to access the Purchaser View. <br/>
+Vaya a: **Configuración de Usuario**
+El ID de Usuario de Business Central debe ingresarse en la Configuración de Usuario para acceder a la Vista del Comprador. <br/>
 
-Also add the User’s Purchaser Code to get a filtered view on that Purchaser Code, this is not mandatory. However, if no Purchaser Code is set, the purchaser will see all existing order matched document lines with errors.
+También agregue el Código de Comprador del Usuario para obtener una vista filtrada según ese Código de Comprador, esto no es obligatorio. Sin embargo, si no se establece ningún Código de Comprador, el comprador verá todas las líneas de documentos con coincidencia de órdenes existentes que tengan errores.
 
-### Permission on the User
+### Permisos en el Usuario
 
-Go to: **User Card**<br/>
+Vaya a: **Ficha de Usuario**<br/>
 
-Permission Set EX PURCHASER can be used, but not a must.<br/>
+Se puede utilizar el Conjunto de Permisos EX PURCHASER, pero no es obligatorio.<br/>
 
-Users with other ExFlow permission set can also access the view. Observe, combining Ex Admin/Ex Accountant with Ex Purchaser will cause access limitations. (If having one of these permissions sets, then Ex Purchaser is of course not needed.)
+Los usuarios con otro conjunto de permisos de ExFlow también pueden acceder a la vista. Observe que combinar Ex Admin/Ex Accountant con Ex Purchaser causará limitaciones de acceso. (Si tiene uno de estos conjuntos de permisos, entonces Ex Purchaser obviamente no es necesario).
 
-Additional permission for entering a journal can be provided to the Purchaser. Read more about this under 
-[**Import Journal Permission for Purchaser**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view#import-journal-permission-for-purchaser)
+Se pueden proporcionar permisos adicionales para ingresar a un diario al Comprador. Lea más sobre esto en 
+[**Permiso de Diario de Importación para Comprador**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view#import-journal-permission-for-purchaser)
 
 
-## Purchasing Agent Role Center
-From the Business Central Standard *Purchasing Agent* Role Center , the stack *ExFlow Purchaser View* can be found, and Purchaser can click to access their dedicated workspace. 
+## Centro de Rol del Agente de Compras
+Desde el Centro de Rol estándar de Business Central *Agente de Compras*, se puede encontrar la pila *Vista del Comprador de ExFlow*, y el Comprador puede hacer clic para acceder a su espacio de trabajo dedicado. 
 
-![Purchaser View](@site/static/img/media/purchaser-view-021.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-021.png)
 
-## Purchaser view
+## Vista del Comprador
 
-Go to: **ExFlow Order Matching View for Purchaser**
+Vaya a: **Vista de Coincidencia de Órdenes de ExFlow para Comprador**
 
-Purchasers can also search for *ExFlow Order Matching View for Purchaser* in Business Central and enter the view. 
+Los compradores también pueden buscar *Vista de Coincidencia de Órdenes de ExFlow para Comprador* en Business Central y entrar en la vista. 
 
-The Purchaser View display all document lines with error to be handled. From here Purchasers can manage their orders, receipts, shipments and price adjustments etc.
+La Vista del Comprador muestra todas las líneas de documentos con errores que deben gestionarse. Desde aquí, los Compradores pueden gestionar sus órdenes, recepciones, envíos y ajustes de precios, etc.
 
-| Order Matching View for Purchaser |   | 
+| Vista de Coincidencia de Órdenes para Comprador |   | 
 |:-|:-|
-|Match Line|Use this function to match selected line.
-|Un-Match Line|Use this function to release matching for selected line to rematched against other order line. Split lines will be reverted.
-|Remove Order No.|Use this function to remove the order no from the selected line.
-|Verify |Use this function to verify the document for selected line.
-|Verify All|Verify all document lines.
-|Auto Assign Receipt/Shipment|Use this functionality to automatically assign the receipt/shipment to the lines. 
-|Order Card|View or edit detailed information about the order or return order on the purchase document line.
-|Document Card|View the document card for the selected document. 
-|*Action*|
-|Order Line Related Documents|Shows where the selected order line is used on the chosen purchase document.
-|Filter/Unfilter Same Import Line|Filter/Unfilter to show other documents or lines with the same Order No. and Order Line No.
-|*Action – Email*|
-|Send Receipt Reminders|Use this function to send receipt reminders for selected lines. (Only applicable if Match Documents = Receipts are set)
-|See Email Log|Use this function to send receipt reminders for selected lines.
-|Send Email to Vendor|Use this function to send email to vendor or other.
-|Sent Emails|View a list of emails that have been sent regarding this document.
-|*Related*|
-|About ExFlow|Get current versions and convenient links
-|*Related - Files*|
-|Show Document Image (Ctrl+I)| Use this function to display the document image for the currently selected document.
-|Show Import Details (OCR)|Use this function to display the OCR import data for the currently selected document.
+|Coincidir Línea|Utilice esta función para hacer coincidir la línea seleccionada.
+|Deshacer Coincidencia|Utilice esta función para liberar la coincidencia de la línea seleccionada para volver a coincidir con otra línea de orden. Las líneas divididas se revertirán.
+|Eliminar Nº de Orden|Utilice esta función para eliminar el número de orden de la línea seleccionada.
+|Verificar|Utilice esta función para verificar el documento de la línea seleccionada.
+|Verificar Todo|Verificar todas las líneas de documentos.
+|Asignar Automáticamente Recepción/Envío|Utilice esta funcionalidad para asignar automáticamente la recepción/envío a las líneas.
+|Ficha de Orden|Ver o editar información detallada sobre la orden o la orden de devolución en la línea del documento de compra.
+|Ficha de Documento|Ver la ficha del documento para el documento seleccionado.
+|*Acción*|
+|Documentos Relacionados con la Línea de Orden|Muestra dónde se utiliza la línea de orden seleccionada en el documento de compra elegido.
+|Filtrar/Desfiltrar Misma Línea de Importación|Filtrar/Desfiltrar para mostrar otros documentos o líneas con el mismo Número de Orden y Número de Línea de Orden.
+|*Acción – Correo Electrónico*|
+|Enviar Recordatorios de Recepción|Utilice esta función para enviar recordatorios de recepción para las líneas seleccionadas. (Solo aplicable si Coincidir Documentos = Recepciones está configurado)
+|Ver Registro de Correos Electrónicos|Utilice esta función para enviar recordatorios de recepción para las líneas seleccionadas.
+|Enviar Correo Electrónico al Proveedor|Utilice esta función para enviar un correo electrónico al proveedor u otro.
+|Correos Electrónicos Enviados|Ver una lista de correos electrónicos que se han enviado con respecto a este documento.
+|*Relacionado*|
+|Acerca de ExFlow|Obtener versiones actuales y enlaces convenientes
+|*Relacionado - Archivos*|
+|Mostrar Imagen del Documento (Ctrl+I)| Utilice esta función para mostrar la imagen del documento para el documento actualmente seleccionado.
+|Mostrar Detalles de Importación (OCR)|Utilice esta función para mostrar los datos de importación OCR para el documento actualmente seleccionado.
 
-## Import Lines and Order Lines
-The imported document lines are displayed to the left, and corresponding order lines to the right.
+## Líneas de Importación y Líneas de Orden
+Las líneas de documentos importados se muestran a la izquierda, y las líneas de orden correspondientes a la derecha.
 
-Purchase invoices and purchase order lines are displayed in black, and credit memos and corresponding return order lines are displayed in red for clarity.
+Las facturas de compra y las líneas de orden de compra se muestran en negro, y las notas de crédito y las líneas de orden de devolución correspondientes se muestran en rojo para mayor claridad.
 
-### Matched Lines
-Matched Order Lines will be bolded for clarity, so the Purchaser can easily see which import line that is connected to which order line.
+### Líneas Coincidentes
+Las Líneas de Orden Coincidentes estarán en negrita para mayor claridad, para que el Comprador pueda ver fácilmente qué línea de importación está conectada a qué línea de orden.
 
-![Purchaser View](@site/static/img/media/purchaser-view-001.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-001.png)
 
 
-### Exceptions 
-Under the Exception Section, different action messages will be displayed. These are the same action messages as the AP team will see in Import Journals.<br/>
+### Excepciones 
+En la Sección de Excepciones, se mostrarán diferentes mensajes de acción. Estos son los mismos mensajes de acción que el equipo de AP verá en los Diarios de Importación.<br/>
 
-Purchaser can add an Exception Code whenever necessary. Exception Code is used whenever the Purchaser has done everything from their end, to correct an order matched issue. After adding the code, then the AP team will be informed on how to further handle the document. <br/>
+El Comprador puede agregar un Código de Excepción cuando sea necesario. El Código de Excepción se utiliza siempre que el Comprador haya hecho todo lo posible desde su lado para corregir un problema de coincidencia de órdenes. Después de agregar el código, el equipo de AP será informado sobre cómo manejar el documento.<br/>
 
-Exception Code is not mandatory, if the Purchaser corrects, for instance, unit cost on the order, then the error will go away, and no Exception Code is needed since the document will be corrected.<br/>
+El Código de Excepción no es obligatorio, si el Comprador corrige, por ejemplo, el costo unitario en la orden, entonces el error desaparecerá, y no se necesitará ningún Código de Excepción ya que el documento se corregirá.<br/>
 
-|Exceptions |   | 
+|Excepciones |   | 
 |:-|:-|
-|Action Message| The error message for the document line
-|Exception Code| Error Code that purchaser can add, to signal to AP team on how to proceed to resolve/handle the line with error
-|Exception Description| Description of the Exception Code
-|Exception Created By| Show the User that added the Exception Code
-|Handled Time/Date| Show the User that resolved the error  
+|Mensaje de Acción| El mensaje de error para la línea del documento
+|Código de Excepción| Código de Error que el comprador puede agregar, para señalar al equipo de AP cómo proceder para resolver/manejar la línea con error
+|Descripción de la Excepción| Descripción del Código de Excepción
+|Creado por| Mostrar el Usuario que agregó el Código de Excepción
+|Hora/Fecha de Manejo| Mostrar el Usuario que resolvió el error  
 
 
-Read more about this under [**Workflow**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view#workflow)
+Lea más sobre esto en [**Flujo de Trabajo**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view#workflow)
 
 
 
-### Error Type
-The purchaser can filter the view on a specific error type for easier management of their order related error lines.
-Currently, below Error Types are available:
+### Tipo de Error
+El comprador puede filtrar la vista en un tipo de error específico para facilitar la gestión de sus líneas de error relacionadas con la orden.
+Actualmente, los siguientes Tipos de Error están disponibles:
  
-![Purchaser View](@site/static/img/media/purchaser-view-002.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-002.png)
 
-### Use Base Quantity 
-Shows all quantities in the base unit of measure.
+### Usar Cantidad Base 
+Muestra todas las cantidades en la unidad de medida base.
 
-### Show Lines With Exception Code
-Enable this checkbox to view document lines where Exception Codes have been added by the Purchaser.<br/>
+### Mostrar Líneas con Código de Excepción
+Habilite esta casilla de verificación para ver las líneas de documentos donde el Comprador ha agregado Códigos de Excepción.<br/>
 
-The Lines will be in this view as long as the document exist in the Import Journal. When the document gets created and sent for approval, then the lines will not be visible. 
+Las Líneas estarán en esta vista mientras el documento exista en el Diario de Importación. Cuando se cree el documento y se envíe para su aprobación, las líneas no serán visibles. 
 
 ## FactBoxes
-### PDF Preview
-View the document image.
+### Vista Previa de PDF
+Ver la imagen del documento.
 
-### Discussion Panel
-Use Discussion Panel to communicate, as usual, with colleagues and web approvers.
+### Panel de Discusión
+Utilice el Panel de Discusión para comunicarse, como de costumbre, con colegas y aprobadores web.
 
-### Incoming Document Files
-Download Incoming Document or attach other files. 
+### Archivos de Documentos Entrantes
+Descargar Documento Entrante o adjuntar otros archivos. 
 
-## Workflow
-AP will import order matched documents, and all of those have some kind of order matched error, it could for instance be price or quantity differences. <br/>
+## Flujo de Trabajo
+AP importará documentos con coincidencia de órdenes, y todos ellos tendrán algún tipo de error de coincidencia de órdenes, podría ser, por ejemplo, diferencias de precio o cantidad.<br/>
 
-Then these error lines will be shown to the specific Purchaser in the Purchaser View, for them to handle the issue so the AP can make any potential adjustment and send the document for approval. <br/>
+Luego, estas líneas de error se mostrarán al Comprador específico en la Vista del Comprador, para que manejen el problema para que AP pueda hacer cualquier ajuste potencial y enviar el documento para su aprobación.<br/>
 
-To illustrate this in an example, if an order matched invoice gets interpreted and imported to Import Journal with Unit Cost difference between the imported document line and order line, then ExFlow will list all issues in a gathered error list so provide a better overview and quicker handling and resolving process. <br/>
+Para ilustrar esto con un ejemplo, si una factura con coincidencia de órdenes se interpreta e importa al Diario de Importación con una diferencia de Costo Unitario entre la línea del documento importado y la línea de orden, entonces ExFlow enumerará todos los problemas en una lista de errores recopilada para proporcionar una mejor visión general y un proceso de manejo y resolución más rápido.<br/>
 
-### Import Journal, as AP
+### Diario de Importación, como AP
 
-When the document is interpreted on line level and imported with error, AP might need input on how to solve the order related issue. <br/>
+Cuando el documento se interpreta a nivel de línea y se importa con error, AP podría necesitar información sobre cómo resolver el problema relacionado con la orden.<br/>
 
-In this example, AP have an order matched invoice with Action message on the line, indicating that an error exists. Errors will be displayed in the Multiple Error Lines list. <br/>
+En este ejemplo, AP tiene una factura con coincidencia de órdenes con un mensaje de acción en la línea, indicando que existe un error. Los errores se mostrarán en la lista de Múltiples Líneas de Error.<br/>
 
-AP can click on the Action Message to inspect and view all existing errors in the Multiple Error List (instead of getting errors one by one as in the old order matching).<br/>
+AP puede hacer clic en el Mensaje de Acción para inspeccionar y ver todos los errores existentes en la Lista de Múltiples Errores (en lugar de obtener errores uno por uno como en la antigua coincidencia de órdenes).<br/>
 
-If the Purchaser Code is set for a specific vendor, it will follow to Import Journal, and all error lines will be visible for that purchaser, in his/hers Purchaser View to be handled. 
-
- 
-![Purchaser View](@site/static/img/media/purchaser-view-003.png)
+Si se establece un Código de Comprador para un proveedor específico, seguirá al Diario de Importación, y todas las líneas de error serán visibles para ese comprador, en su Vista del Comprador para ser manejadas.
 
  
-![Purchaser View](@site/static/img/media/purchaser-view-004.png)
-
-Documents with header matched order related errors can also be triggered manually on the line, to be sent to the Purchaser for management. 
-
-
-### Purchaser View
-
-#### Correcting an Order
-According to the Action Messages in this example, the order is not released and cannot be matched to the imported document lines.
-
-In this case, the Purchaser can enter the Order Card and receive the order, and of course, make other needed corrections. 
-
-The Purchaser can also access the Document Card in read mode, but will not have the permission to edit the document card. 
-
-![Purchaser View](@site/static/img/media/purchaser-view-005.png)
-
-That order will disappear from the Purchasers View, since receiving it will also mark it as managed, and AP can now proceed to create the document in Import Journal, since it was a perfect match. 
- 
-![Purchaser View](@site/static/img/media/purchaser-view-006.png)
-
-
-
-#### Send Receipt Reminder 
-Go to: **Actions --> Email --> Send Receipt Reminders**
-If the goods are not received, then the Purchaser can send a reminder to warehouse workers, purchase coordinator or other colleagues. <br/>
-
-Read more about this under [***Email Reminders --> Unreceived Order***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders)
-
-![Purchaser View](@site/static/img/media/purchaser-view-007.png)
-
-This only works for documents where setting Match to Documents = Receipts. <br/>
-Email Log can also be found under the ‘’Send Receipt Reminders’’- function.<br/>
-
-#### Send Email to Vendor
-Go to: **Actions --> Email --> Send Email to Vendor**
-
-Purchasers can send emails to vendor from this view. Purchasers can also see all sent emails under the ‘’Send Email to Vendor’’-function. <br/>
-
-In below example, the Purchaser Sammy needs to contact the vendor due to incorrect unit cost on all items and request a credit and new invoice with the correct unit costs, as per their agreement. <br/>
- 
-![Purchaser View](@site/static/img/media/purchaser-view-008.png)
-Information about the sent email will be set as a chat message in Discussion Panel. <br/>The email will also be attached as a pdf under Incoming Documents (Supporting Attachments). 
+![Vista del Comprador](@site/static/img/media/purchaser-view-003.png)
 
  
-![Purchaser View](@site/static/img/media/purchaser-view-009.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-004.png)
 
-The pdf will also follow to ExFlow Web as an attachment for the approvers to see, to keep all involved informed from start to end.<br/>
-Next step for the purchaser is to add an Exception Code: Credit.<br/>
+Los documentos con errores relacionados con la coincidencia de órdenes en el encabezado también pueden ser activados manualmente en la línea, para ser enviados al Comprador para su gestión.
 
-#### Adding an Exception Code 
-To follow up on above scenario, Purchaser Sammy need to add an Exception Code, signaling to AP to proceed with handling and resolving the document issues.
+
+### Vista del Comprador
+
+#### Corregir una Orden
+Según los Mensajes de Acción en este ejemplo, la orden no está liberada y no se puede hacer coincidir con las líneas del documento importado.
+
+En este caso, el Comprador puede ingresar a la Ficha de Orden y recibir la orden, y por supuesto, hacer otras correcciones necesarias.
+
+El Comprador también puede acceder a la Ficha de Documento en modo de lectura, pero no tendrá permiso para editar la ficha del documento.
+
+![Vista del Comprador](@site/static/img/media/purchaser-view-005.png)
+
+Esa orden desaparecerá de la Vista del Comprador, ya que recibirla también la marcará como gestionada, y AP ahora puede proceder a crear el documento en el Diario de Importación, ya que fue una coincidencia perfecta.
+ 
+![Vista del Comprador](@site/static/img/media/purchaser-view-006.png)
+
+
+
+#### Enviar Recordatorio de Recepción 
+Vaya a: **Acciones --> Correo Electrónico --> Enviar Recordatorios de Recepción**
+Si los bienes no se reciben, el Comprador puede enviar un recordatorio a los trabajadores del almacén, coordinador de compras u otros colegas.<br/>
+
+Lea más sobre esto en [***Recordatorios por Correo Electrónico --> Orden No Recibida***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders)
+
+![Vista del Comprador](@site/static/img/media/purchaser-view-007.png)
+
+Esto solo funciona para documentos donde la configuración Coincidir Documentos = Recepciones.<br/>
+El Registro de Correos Electrónicos también se puede encontrar en la función ‘’Enviar Recordatorios de Recepción’’.<br/>
+
+#### Enviar Correo Electrónico al Proveedor
+Vaya a: **Acciones --> Correo Electrónico --> Enviar Correo Electrónico al Proveedor**
+
+Los Compradores pueden enviar correos electrónicos al proveedor desde esta vista. Los Compradores también pueden ver todos los correos electrónicos enviados en la función ‘’Enviar Correo Electrónico al Proveedor’’.<br/>
+
+En el siguiente ejemplo, el Comprador Sammy necesita contactar al proveedor debido a un costo unitario incorrecto en todos los artículos y solicitar un crédito y una nueva factura con los costos unitarios correctos, según su acuerdo.<br/>
+ 
+![Vista del Comprador](@site/static/img/media/purchaser-view-008.png)
+La información sobre el correo electrónico enviado se establecerá como un mensaje de chat en el Panel de Discusión.<br/>El correo electrónico también se adjuntará como un pdf en Documentos Entrantes (Adjuntos de Soporte).
 
  
-![Purchaser View](@site/static/img/media/purchaser-view-010.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-009.png)
 
-When adding an Exception Code, the field ‘’Exception Created By’’ will be automatically inserted with the User id who added the Exception Code. 
+El pdf también seguirá a ExFlow Web como un adjunto para que los aprobadores lo vean, para mantener a todos los involucrados informados de principio a fin.<br/>
+El siguiente paso para el comprador es agregar un Código de Excepción: Crédito.<br/>
+
+#### Agregar un Código de Excepción 
+Para dar seguimiento al escenario anterior, el Comprador Sammy necesita agregar un Código de Excepción, señalando al equipo de AP que proceda con la gestión y resolución de los problemas del documento.
+
  
-![Purchaser View](@site/static/img/media/purchaser-view-011.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-010.png)
 
-Whenever a Purchaser add an Exception Code, then the Import Line and its corresponding order line will be filtered off this page, and accessible in the ‘’Show Lines With Exception Code’’ filtered view when enabled.
+Al agregar un Código de Excepción, el campo ‘’Creado por’’ se insertará automáticamente con el ID de Usuario que agregó el Código de Excepción.
  
-![Purchaser View](@site/static/img/media/purchaser-view-012.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-011.png)
 
-The Purchaser is now done from their side, with email and exception code added, the purchaser has guided the AP to process with handling/ resolving the document in Import Journal.
-
-#### Correcting the document as AP in Import Journal
-AP can enable ‘’Filter Documents with Order Exception’’ to filter the journal on Purchasers added Exception codes (to follow up purchasers added work) and to continue with handling the document.
+Siempre que un Comprador agregue un Código de Excepción, la Línea de Importación y su línea de orden correspondiente se filtrarán de esta página, y serán accesibles en la vista filtrada ‘’Mostrar Líneas con Código de Excepción’’ cuando esté habilitada.
  
-![Purchaser View](@site/static/img/media/purchaser-view-013.png)
-AP can see that Purchaser have added Credit as Exception Code and now knows how to proceed with the document.
- 
-![Purchaser View](@site/static/img/media/purchaser-view-014.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-012.png)
 
-When the AP has handled/ resolved the document, then the order matching error on the line will disappear. The ‘’Multiple Error Line Exist’’ will still be ticked so AP easily can click on the small line (-) to open the Multiple Error List to display the history. <br/>
-AP can also Block Document for Posting, as in the below picture. 
- 
-![Purchaser View](@site/static/img/media/purchaser-view-015.png)
+El Comprador ha terminado de su lado, con el correo electrónico y el código de excepción agregados, el comprador ha guiado al equipo de AP para que continúe con la gestión/resolución del documento en el Diario de Importación.
 
-In the Multiple Error List page, a timestamp will be added to the handled line to give information about when the error was resolved. 
+#### Corregir el documento como AP en el Diario de Importación
+AP puede habilitar ‘’Filtrar Documentos con Excepción de Orden’’ para filtrar el diario en los códigos de excepción agregados por los Compradores (para dar seguimiento al trabajo agregado por los compradores) y continuar con la gestión del documento.
+ 
+![Vista del Comprador](@site/static/img/media/purchaser-view-013.png)
+AP puede ver que el Comprador ha agregado Crédito como Código de Excepción y ahora sabe cómo proceder con el documento.
+ 
+![Vista del Comprador](@site/static/img/media/purchaser-view-014.png)
+
+Cuando el equipo de AP haya gestionado/resuelto el documento, el error de coincidencia de órdenes en la línea desaparecerá. La ‘’Existencia de Múltiples Líneas de Error’’ seguirá marcada para que AP pueda hacer clic fácilmente en la pequeña línea (-) para abrir la Lista de Múltiples Errores y mostrar el historial.<br/>
+AP también puede Bloquear Documento para Publicación, como en la imagen a continuación.
+ 
+![Vista del Comprador](@site/static/img/media/purchaser-view-015.png)
+
+En la página de Lista de Múltiples Errores, se agregará una marca de tiempo a la línea gestionada para dar información sobre cuándo se resolvió el error.
   
-![Purchaser View](@site/static/img/media/purchaser-view-016.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-016.png)
 
-When resolved, the error line will be in italic and non-editable. <br/>
+Cuando se resuelva, la línea de error estará en cursiva y no se podrá editar.<br/>
 
-AP staff can also use short commando ‘’Alt+M’’ to enter the Manual Order Matching page for a better overview.<br/>
+El personal de AP también puede usar el comando corto ‘’Alt+M’’ para ingresar a la página de Coincidencia Manual de Órdenes para una mejor visión general.<br/>
  
-![Purchaser View](@site/static/img/media/purchaser-view-017.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-017.png)
 
-The document can now be created. When created, the document will then be found in Approval Status as usual, but marked as: blocked for posting, until further adjustments are executed.
+El documento ahora se puede crear. Cuando se cree, el documento se encontrará en Estado de Aprobación como de costumbre, pero marcado como: bloqueado para publicación, hasta que se realicen más ajustes.
 
-### Approval Status 
-Go to: Approval Status --> Document Lines --> Multiple Error Lines Exist<br/>
+### Estado de Aprobación 
+Vaya a: Estado de Aprobación --> Líneas de Documentos --> Existencia de Múltiples Líneas de Error<br/>
 
-In Approval Status, AP can see if a document contains Multiple Error Lines under the Document Lines. If the order matched document error lines have been handled and resolved, the Multiple Error Lines will follow to view the history. <br/>
+En Estado de Aprobación, AP puede ver si un documento contiene Múltiples Líneas de Error en las Líneas de Documentos. Si las líneas de error del documento con coincidencia de órdenes se han gestionado y resuelto, las Múltiples Líneas de Error seguirán para ver el historial.<br/>
 
-By clicking on ‘’Multiple Error Lines Exist’’: ‘’Yes’’, then the Multiple Error List will open to display the resolved line(s) in Italic. 
+Al hacer clic en ‘’Existencia de Múltiples Líneas de Error’’: ‘’Sí’’, se abrirá la Lista de Múltiples Errores para mostrar la línea(s) resuelta(s) en cursiva.
  
-![Purchaser View](@site/static/img/media/purchaser-view-018.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-018.png)
 
 
-#### Send Email to Vendor in Approval Status
-Go to: **Related --> Approval Status --> Send Email to Vendor/Sent Email** <br/>
+#### Enviar Correo Electrónico al Proveedor en Estado de Aprobación
+Vaya a: **Relacionado --> Estado de Aprobación --> Enviar Correo Electrónico al Proveedor/Correos Electrónicos Enviados**<br/>
 
-If needed, AP can send email to vendor from Approval Status as well and also see the email log. Every email sent will be a saved attachment, together with a chat message to keep the approver updated.
+Si es necesario, AP puede enviar un correo electrónico al proveedor desde el Estado de Aprobación y también ver el registro de correos electrónicos. Cada correo electrónico enviado será un adjunto guardado, junto con un mensaje de chat para mantener al aprobador actualizado.
 
-Go to *Sent Email* to see the log.
+Vaya a *Correos Electrónicos Enviados* para ver el registro.
 
-### Approval Status History
+### Historial de Estado de Aprobación
 
-The Multiple Error List information will, of course, also follow to the Posted Document Lines in Approval Status History.
+La información de la Lista de Múltiples Errores, por supuesto, también seguirá a las Líneas de Documentos Publicados en el Historial de Estado de Aprobación.
 
-## Import Journal Permission for Purchaser 
+## Permiso de Diario de Importación para Comprador 
 
-Go to: **ExFlow User Card --> Import Journal Permission for Purchaser**
+Vaya a: **Ficha de Usuario de ExFlow --> Permiso de Diario de Importación para Comprador**
 
-Open the Purchasers ExFlow User card and enter ‘’Import Journal Permission for Purchaser’’ and mark which journal(s) that the Purchaser should have access to.<br/>
+Abra la ficha de usuario de ExFlow del Comprador e ingrese ‘’Permiso de Diario de Importación para Comprador’’ y marque qué diario(s) debe tener acceso el Comprador.<br/>
 
-This will only be applicable for Business Central Users with the EX PURCHASER-permission set.<br/>
-With given permission, the purchaser will have READ access the chosen journal, no modifications can be made.
+Esto solo será aplicable para Usuarios de Business Central con el conjunto de permisos EX PURCHASER.<br/>
+Con el permiso otorgado, el comprador tendrá acceso de LECTURA al diario elegido, no se podrán realizar modificaciones.
   
-![Purchaser View](@site/static/img/media/purchaser-view-019.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-019.png)
 
-In this example, the Purchaser Sammy has only access to enter the EDC PO Import Journal, and not other journals. 
+En este ejemplo, el Comprador Sammy solo tiene acceso para ingresar al Diario de Importación de EDC PO, y no a otros diarios.
  
-![Purchaser View](@site/static/img/media/purchaser-view-020.png)
+![Vista del Comprador](@site/static/img/media/purchaser-view-020.png)
 
 
 
