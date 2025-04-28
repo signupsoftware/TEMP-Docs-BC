@@ -12,7 +12,7 @@ Um die neue Auftragsabgleich-Erfahrung mit der Auftragsabgleich-Engine und all i
 
 Gehen Sie zu: **SignUp Funktionsverwaltung**, um die neue Auftragsabgleich-Funktion zu aktivieren.
 
-![ExFlow Import Journal - Auftragsnr.](/img/media/FM-001.png)
+![ExFlow Import Journal - Auftragsnr.](../../images/FM-001.png)
  
 Lesen Sie mehr darüber im Abschnitt [**Erste Schritte**](https://docs.signupsoftware.com/business-central/docs/user-manual/welcome-to-exflow/get-started)
 
@@ -23,14 +23,14 @@ Dieses Benutzerhandbuch ist Ihr Leitfaden für die Einrichtung Ihres Auftragsabg
 
 Suchen Sie nach ExFlow Auftragsabgleich-Assistent.
 
-![Auftragsabgleich-Assistent - Suche](/img/media/new-om-wizard-001.png)
+![Auftragsabgleich-Assistent - Suche](../../images/new-om-wizard-001.png)
 
 ### Allgemein
 
 ### Kopf- oder Zeilenabgleich
 Der erste Schritt bei der Einrichtung des Auftragsabgleich-Assistenten besteht darin, festzulegen, ob der Abgleich von Dokumenten mit Einkaufsaufträgen/Rücksendeaufträgen auf Kopfebene oder Zeilenebene durchgeführt werden soll.
 
-![OM](/img/media/new-om-wizard-002.png)
+![OM](../../images/new-om-wizard-002.png)
 
 **Kopfebene-Abgleich:**
 Wenn Sie den Kopfebene-Abgleich wählen, vergleicht der Auftragsabgleich den Gesamtrechnungsbetrag mit dem verfügbaren Gesamtwert des Einkaufsauftrags.
@@ -97,7 +97,7 @@ Das Abgleichen von Dokumenten mit der Logik *„Auftrag und Wareneingang“* erm
 
 Diese Einstellung ermöglicht es ExFlow, die genehmigte Menge der abgeglichenen Dokumentzeilen automatisch zu buchen und zu fakturieren. Sie wird ausgeführt, sobald das Dokument den Status „Bereit zur Buchung“ im Genehmigungsstatus hat. Wenn diese Einstellung deaktiviert ist, müssen Sie die Wareneingänge/-lieferungen manuell buchen.
 
-![Auftragsabgleich-Assistent - Suche](/img/media/new-om-wizard-003.png)
+![Auftragsabgleich-Assistent - Suche](../../images/new-om-wizard-003.png)
 
 ### Automatische Differenzbehandlung
 Die Funktion zur automatischen Differenzbehandlung ermöglicht es ExFlow, automatisch eine Differenzzeile vorzuschlagen, wenn während des Auftragsabgleichs zusätzliche oder unerwartete Kosten wie Fracht oder andere Gebühren identifiziert werden. 
@@ -111,7 +111,7 @@ Hier können Sie eine zulässige Toleranz für die automatisch vorgeschlagene Di
 ### Assistent abschließen
 Klicken Sie auf "Fertig stellen", um den Assistenten zu schließen und die Einstellungen anzuwenden.
 
-![Auftragsabgleich-Assistent – Assistent abschließen](/img/media/new-om-wizard-004.png)
+![Auftragsabgleich-Assistent – Assistent abschließen](../../images/new-om-wizard-004.png)
 
 
 
@@ -136,7 +136,7 @@ Obige Funktionen können auch auf Lieferantenebene in der "ExFlow Lieferantenein
 
 ### Auftragsabgleich-Einrichtungsabschnitte
 
-![OM Setup](/img/media/order-matching-setup-001.png)
+![OM Setup](../../images/order-matching-setup-001.png)
 
 ### Allgemein
 | Allgemein|   | 
@@ -204,11 +204,11 @@ Beginnen Sie mit der Aktivierung von "Kopfwerte in Rechnung/Gutschrift kopieren"
 Wählen Sie Felder zum Kopieren in „Kopfwerte in Rechnung/Gutschrift kopieren“<br/>
 
 
-![Kopieren des Einkaufsauftragskopfs – Einrichtung](/img/media/po-header-value-on-invoice-setup-001.png)
+![Kopieren des Einkaufsauftragskopfs – Einrichtung](../../images/po-header-value-on-invoice-setup-001.png)
 
 Für die US- und CA-Lokalisierung können auch Steuerpflichtig und Steuergebiet vom Einkaufsauftrag zur Einkaufsrechnung kopiert werden.
 
-![Kopieren des Einkaufsauftragskopfs – Einrichtung CA - US](/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
+![Kopieren des Einkaufsauftragskopfs – Einrichtung CA - US](../../images/po-header-value-on-invoice-setup-002-ca-us.png)
 
 
 ### Automatische Empfangszeilentypen
@@ -218,7 +218,7 @@ Gehen Sie zu: **ExFlow Auftragsabgleich-Einrichtung --> Verwandt --> Automatisch
 Durch Aktivieren von „Automatische Empfangszeilentypen“ wird ExFlow alle Zeilen empfangen, die mit einem Einkaufsauftrag oder einem Rücksendeauftrag abgeglichen sind. Was ExFlow empfängt, basiert auf den zulässigen Zeilentypen aus der "Einrichtung der automatischen Empfangszeilentypen" (Einrichtung wird automatisch geöffnet, nachdem "Automatische Empfangszeilentypen" auf TRUE gesetzt wurde).
 
 
-![ExFlow Empfangszeilentypen](/img/media/auto-receiving-line-types-001.png)
+![ExFlow Empfangszeilentypen](../../images/auto-receiving-line-types-001.png)
 
 Klicken Sie auf ''Artikel'', um zusätzliche Einstellungen vorzunehmen, wenn Sie auch Serviceartikel oder Nicht-Lagerartikel automatisch empfangen möchten. 
 
@@ -232,7 +232,7 @@ Diese Funktion hilft dabei, die Reihenfolge zu bestimmen, in der das System vers
 Dies kann nützlich sein, wenn beispielsweise dieselbe Artikelnummer sowohl in der Standardartikelliste als auch in der Lieferantenartikelnummer vorhanden ist. Oder wenn Rechnungszeilen importiert werden, bei denen die meisten Lieferantenartikelreferenzen sind, sollten Sie in Betracht ziehen, der "Artikelreferenz" eine höhere Priorität zu geben. Deaktivieren Sie Abgleichstypen, die falsche Übereinstimmungen liefern oder nicht verwendet werden, indem Sie sie deaktivieren.
 
 
-![Artikel-Nr. Abgleich-Priorität](/img/media/exflow-setup-item-no-matching-prio-001.png)
+![Artikel-Nr. Abgleich-Priorität](../../images/exflow-setup-item-no-matching-prio-001.png)
 
 | Artikel-Nr. Abgleich-Priorität |  |
 |:-|:-|
@@ -264,7 +264,7 @@ Die Auftragsabgleich-Priorität wird angewendet, wenn das eingehende Dokument ei
 
 Die Abgleichsprioritäten bestimmen die Reihenfolge, in der die Abgleichsmethoden auf Einkaufszeilen angewendet werden.
 
-![Artikel-Nr. Abgleich-Priorität](/img/media/order-matching-prio-001.png)
+![Artikel-Nr. Abgleich-Priorität](../../images/order-matching-prio-001.png)
 
 
 |Menü Auftragsabgleich-Priorität | |
@@ -295,7 +295,7 @@ Gehen Sie zu: **ExFlow-Einrichtung --> Verwandt --> Auftragsabgleich-Priorität-
 
 Mit dem Mehrfachfeld-Abgleich kann ExFlow zusätzliche Abgleichsmethoden konfigurieren, die in der ExFlow Auftragsabgleich-Einrichtung nicht aufgeführt sind. Diese Einstellungen sind auch auf Lieferantenspezifischer Ebene verfügbar.
 
-![Abgleichspriorität](/img/media/multiple-field-002.png)
+![Abgleichspriorität](../../images/multiple-field-002.png)
 
 Die Mehrfachfeld-Abgleichsfunktion kann auf ein oder mehrere angegebene Felder aus einer eingehenden Einkaufsrechnung/Gutschriftzeile gegen die Auftrags-/Gutschriftdokumente in Business Central abgleichen. 
 
@@ -314,12 +314,12 @@ Der Mehrfachfeld-Abgleich sollte nicht in Verbindung mit anderen Abgleichsmethod
 
 Abgleich der Import-Rechnungszeilenbeschreibung (ExFlow-Feld-Nr: 12013662) mit der Beschreibung der Einkaufs-/Rücksendungsauftragszeile (BC Einkaufszeilenfeld-Nr: 11, Verwandte Tabelle 39):
 
-![Abgleichspriorität](/img/media/matching-ex-001.png)
+![Abgleichspriorität](../../images/matching-ex-001.png)
 
 Abgleich des Import-Rechnungsartikel-Nr. Felds (ExFlow-Feld-Nr: 6) und des Varianten-Codes-Felds (ExFlow-Feld-Nr: 12068803) mit der Einkaufszeilenartikel-Nr: (6) und dem Varianten-Code: (5402):
 
 
-![Abgleichspriorität](/img/media/matching-ex-002.png)
+![Abgleichspriorität](../../images/matching-ex-002.png)
 
 Hier wurde die (5401 Artikelvariante) als verwandte Tabelle hinzugefügt, da das Variantenfeld der Einkaufszeile aus dieser Tabelle abgerufen wird. 
 
@@ -357,7 +357,7 @@ Im Importjournal-Kopf kann die Kreditorenbuchhaltung filtern nach:
 * Auftragsbezogenen Fehlertypen über ''Fehlerfilter''
 * Dokumentstatus über ''Dokumentenfilter''
 
-![OM](/img/media/import-journal-filter-options-001.png)  
+![OM](../../images/import-journal-filter-options-001.png)  
 
 ##### Dokumente mit Auftragsausnahme filtern 
 
@@ -373,7 +373,7 @@ Filtern Sie nur nach Fehlertyp oder in Kombination mit dem Dokumentenfilter.
 
 Die Dokumentenfilteroption ''Alle Dokumente bereit zur Erstellung'' kann nicht zusammen mit einem Fehlertyp gefiltert werden, da das Dokument abgeschlossen und bereit zur Genehmigung ist.
 
-![OM](/img/media/import-journal-filter-options-002.png) 
+![OM](../../images/import-journal-filter-options-002.png) 
 
 |Fehlertyp-Filter|   |
 |:-|:-|
@@ -413,11 +413,11 @@ Die Dokumentenfilteroption ''Alle Dokumente bereit zur Erstellung'' kann nicht z
 ### Mehrfachfehlerliste
 Wenn importierte auftragsbezogene Dokumentzeilen mit Fehlern in das Importjournal importiert werden, kann die Kreditorenbuchhaltung alle Probleme in einer gesammelten Fehlerliste, der sogenannten Mehrfachfehlerliste, anzeigen, anstatt einen Fehler nach dem anderen zu bearbeiten und das Dokument zu überprüfen, um den nächsten Fehler zu erhalten.
 
-![OM](/img/media/mm-002.png) 
+![OM](../../images/mm-002.png) 
 
 Die Kreditorenbuchhaltung kann auf die Fehler klicken, um sie zu überprüfen. Diese Zeile hat nur einen Fehler zu bearbeiten:
 
-![OM](/img/media/multiple-error-list-001.png) 
+![OM](../../images/multiple-error-list-001.png) 
 
 
 ### Manueller Auftragsabgleich 
@@ -429,7 +429,7 @@ Die Seite zeigt die Dokumentzeilen auf der linken Seite und die Auftragszeilen a
 
 Abgeglichene Auftragszeilen werden zur Klarheit fett dargestellt, sodass die Kreditorenbuchhaltung leicht erkennen kann, welche Importzeile mit welcher Auftragszeile verbunden ist und die richtigen Anpassungen vornehmen kann.
 
-![OM](/img/media/mm-001.png) 
+![OM](../../images/mm-001.png) 
 
 | Manueller Auftragsabgleich |   | 
 |:-|:-|
@@ -506,7 +506,7 @@ Durch Aktivieren des Schalters ''Basismenge verwenden'' kann die Kreditorenbuchh
 
 In diesem Beispiel haben wir eine Rechnung mit 2 KARTONG (1 KARTONG=10 Stück) importiert, die mit einem Auftrag mit 20 Stück abgeglichen wurde.
 
-![OM](/img/media/manual-om-001.png)
+![OM](../../images/manual-om-001.png)
 
 
 
