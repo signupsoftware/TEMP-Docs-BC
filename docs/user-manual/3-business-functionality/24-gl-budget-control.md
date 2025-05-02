@@ -86,7 +86,7 @@ Click "Finish" to close the ExFlow Budget Control Wizard and apply the settings.
 
 ### ExFlow G/L Budget Control Setup
 For setup manually, to review or update setup, go to ExFlow G/L Budget Control Setup.<br/>
-Go to: ***Setup --> ExFlow Manual Setup --> ExFlow Budget Control Setup***<br/><br/>
+Go to: ***ExFlow Setup - Overview --> ExFlow Budget Control Setup***<br/><br/>
 
 #### General
 

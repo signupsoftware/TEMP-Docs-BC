@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Genehmigungsregeln
 
-Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Approval Rules***
+Gehe zu: ***ExFlow-Setup – Übersicht ExFlow Approval Rules***
 
 Um die Auswahl der Genehmigenden zu automatisieren, können die ExFlow-Genehmigungsregeln verwendet werden.
 
@@ -139,7 +139,7 @@ ExFlow Dimensionsverantwortliche ist ein Tool, um die Anzahl der verwendeten Gen
 ![Dynamischer Genehmigungsfluss - Dimensionsverantwortlicher](../../images/dynamic-approval-flow-for-dimension-owners-001.png)
 
 **Verknüpfung von Genehmigungsgruppen mit Dimensionswerten**<br/>
-Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Dimension Owners***
+Gehen Sie zu: ***ExFlow-Setup – Übersicht ExFlow Dimension Owners***
 
 Richten Sie einen Genehmigungsfluss für einen bestimmten Dimensionswert ein. Öffnen Sie eine neue Karte, indem Sie auf "Neu" klicken.
 
@@ -164,7 +164,7 @@ Der ausgewählte Dimension basiert auf dem ausgewählten Dimensionsverantwortlic
 ![Dimensionsverantwortliche kopieren](../../images/copy-dimension-owners-001.png)
 
 **Dynamische Genehmigungsgruppe – Dimensionsverantwortlicher**<br/>
-Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Approval Groups***
+Gehen Sie zu: ***ExFlow-Setup – Übersicht ExFlow Approval Groups***
 
 Wenn die Dimensionsverantwortlichen erstellt sind, muss eine neue ExFlow-Genehmigungsgruppe erstellt werden. Setzen Sie den "Dynamischen Genehmigungstyp" auf "Dimensionsverantwortlicher" und fügen Sie dann die Dimension im Feld "Dimensionscode" hinzu.
 
@@ -175,7 +175,7 @@ Bei Verwendung des Dynamischen Genehmigungstyps ist es nicht möglich, Genehmigu
 ![Genehmigungsgruppe - Dimensionsverantwortlicher](../../images/approval-group-005-dimension-owner.png)
 
 **Genehmigungsregel – Dimensionsverantwortlicher**<br/>
-Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Approval Rules***
+Gehen Sie zu: ***ExFlow-Setup – Übersicht ExFlow Approval Rules***
 
 Fügen Sie eine Genehmigungsregel hinzu, die für alle Dokumente ohne Filter gilt (aktivieren Sie die Genehmigungsregel) oder für die Dimension mit den gerade erstellten Dimensionsverantwortlichen.
 
@@ -192,7 +192,7 @@ Wenn es mehrere Genehmiger in der Dimensionsverantwortlichen-Karte gibt, wird di
 ![Genehmigungsregellinien - Dimensionsverantwortlicher](../../images/approval-rule-lines-004-dimension-owner.png)
 
 **Aktivieren Sie "Immer neue Genehmiger vorschlagen"**<br/>
-Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Setup***
+Gehen Sie zu: ***ExFlow-Setup – Übersicht ExFlow Setup***
 
 Aktivieren Sie "Immer neue Genehmiger vorschlagen" in ExFlow Setup, um einen dynamischen Genehmigungsfluss zu erstellen, wenn die Codierung auf ExFlow Web geändert wird.
 

@@ -19,7 +19,7 @@ Este manual de usuario proporcionará instrucciones detalladas, consejos útiles
 
 Antes de ejecutar el Asistente de Inicio de ExFlow, hay algunos requisitos previos que deben completarse. Siga estos pasos iniciales para garantizar un proceso de configuración sin problemas:
 
-Descargar e Instalar ExFlow: Visite el marketplace de Microsoft AppSource y localice la extensión ExFlow como Prueba Gratuita. 
+[Descargar e Instalar ExFlow:](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.signup-software-ab%7CAID.31407efc-8e13-4752-b577-5e992428aa29%7CPAPPID.a53707ce-b9e1-4f4e-93be-ea3aae783cae?tab=Overview) Visite el marketplace de Microsoft AppSource y localice la extensión ExFlow como Prueba Gratuita. 
 
 ![Asistente de Inicio - Microsoft AppSource](/img/media/get-started-001-appsource.png)
 
@@ -112,7 +112,7 @@ Complete la configuración de los usuarios de ExFlow finalizando sus atributos, 
 •	Aprobador: Participa en el proceso de aprobación sin capacidades de cambio de codificación.<br/>
 •	Aprobador (Power): Tiene la capacidad de realizar cambios de codificación durante el proceso de aprobación, basado en las Reglas de Codificación definidas.<br/>
 •	Aprobador (Super): Puede realizar cambios de codificación, buscar y ver todas las facturas dentro de la empresa.<br/>
-•	Admin: Destinado a contadores y administradores de ExFlow en Business Central, proporcionando acceso a la configuración.
+•	Admin: Destinado a administradores en ExFlow Web, proporcionando acceso a la configuración.
 
 ![Asistente de Inicio - Asignar Dimensiones](/img/media/get-started-009-assign-dimensions.png)
 

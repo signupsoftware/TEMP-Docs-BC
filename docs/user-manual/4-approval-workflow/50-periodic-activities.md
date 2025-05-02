@@ -22,7 +22,7 @@ running the report manually (Report ID 12013629) or by setting up a Job Queue En
 
 #### ExFlow Setup
 
-Go to: ***Setup --> ExFlow Setup --> Escalation***
+Go to: ***ExFlow Setup --> Escalation***
 
 ![ExFlow Setup - Escalation](@site/static/img/media/exflow-setup-escalation-002.png)
 
@@ -40,7 +40,7 @@ Go to: ***Setup --> ExFlow Setup --> Escalation***
 
 #### ExFlow Approval Group
 
-Go to: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Approval Groups***
+Go to: ***ExFlow Setup - Overview --> ExFlow Approval Groups***
 
 Use escalation settings on ExFlow Approval Group if a separate setup is
 needed.

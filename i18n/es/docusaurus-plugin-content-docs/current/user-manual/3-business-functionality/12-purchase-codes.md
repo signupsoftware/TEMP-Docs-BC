@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Códigos de Compra
  
-Vaya a: ***Configuración \--\> Configuración Manual de ExFlow \--\> Códigos de Compra de ExFlow***
+Vaya a: ***Configuración de ExFlow - Descripción general --> Códigos de Compra de ExFlow***
  
 Un Código de Compra de ExFlow puede utilizarse para añadir codificación en líneas de factura automáticamente desde la Ficha de Configuración de Proveedor, Referencia, Contrato o Configuración de ExFlow. El Código de Compra de ExFlow puede dividir líneas en varios códigos de dimensión, Grupos de Registro de IVA de Producto, etc.
  

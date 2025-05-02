@@ -23,7 +23,7 @@ Die folgenden Re-Invoicing-Spalten können auf ExFlow Web aktiviert werden:
 Die Genehmiger können dann je nach ExFlow-Benutzerberechtigung Werte für die Verkaufsrechnung an den Kunden hinzufügen, ändern oder genehmigen.
 
 ### ExFlow Re-Invoicing Einrichtung
-Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Re-Invoicing Setup***<br/>
+Gehen Sie zu: ***ExFlow-Setup – Übersicht ExFlow Re-Invoicing Setup***<br/>
 Beginnen Sie mit der Aktivierung von Re-Invoicing in ExFlow Re-Invoicing Setup und folgen Sie dem Assistenten für die erforderliche Mindesteinrichtung.
 
 ![Re-Invoicing Setup](../../images/re-invoicing-setup-001.png)
@@ -132,13 +132,13 @@ Wenn ''Artikel für Verkauf'' aktiviert ist, kann das Feld ''Re-Invoicing-Code''
 ![ExFlow Re-Invoicing Codes](../../images/re-invoicing-codes-001.png)
 
 ### ExFlow Purchase Codes
-Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Purchase Codes***<br/>
+Gehe zu: ***ExFlow-Setup – Übersicht ExFlow Purchase Codes***<br/>
 Re-Invoicing-Felder wurden nun zum ExFlow Purchase Code hinzugefügt. Re-Invoicing muss jedoch aktiviert sein, damit die Felder angezeigt werden.
 
 ![ExFlow Purchase Code](../../images/re-invoicing-purchase-code-001.png)
 
 ### ExFlow Denying Coding Rule -- Re-Invoicing
-Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Denying Coding Rules***<br/>
+Gehe zu: ***ExFlow-Setup – Übersicht ExFlow Denying Coding Rules***<br/>
 Wenn eine Re-Invoicing-Kundennummer hinzugefügt wird, ist es möglich, eine ExFlow Denying Coding Rule hinzuzufügen, um Genehmiger zu zwingen, weitere Informationen hinzuzufügen.
 
 In diesem Beispiel muss der Genehmiger den Re-Invoicing-Betrag hinzufügen, wenn eine Re-Invoicing-Kundennummer in der Dokumentzeile mit dem Zeilentyp G/L-Konto in ExFlow Web hinzugefügt wurde.
@@ -303,7 +303,7 @@ Der Standort wird nach Möglichkeit über Apply-to Item Entry hinzugefügt. Der 
 
 
 ### Re-Invoicing-Artikel zum G/L-Konto
-Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> Re-Invoicing Setup***<br/>
+Gehen Sie zu: ***ExFlow-Setup – Übersicht Re-Invoicing Setup***<br/>
 Um Verkaufsrechnungen auf das G/L-Konto aus der Einkaufsrechnungsartikelzeile zu erstellen, stellen Sie sicher, dass der Artikel für den Verkauf in der Re-Invoicing-Einrichtung deaktiviert ist.
 
 Der Zuschlagsprozentsatz wird automatisch hinzugefügt, wenn eine Kundennummer aktiviert ist.

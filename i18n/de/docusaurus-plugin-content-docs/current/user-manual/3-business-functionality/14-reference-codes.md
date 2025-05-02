@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Referenzcodes
 
-Gehe zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Reference Codes***
+Gehe zu: ***ExFlow-Setup – Übersicht ExFlow Reference Codes***
 
 Wenn eine Interpretation der Referenz vor dem Import des Rechnungsdokuments in das ExFlow Import Journal erfolgt, kann die Referenz verwendet werden, um z.B. einen Genehmigungsworkflow auszulösen. Wenn eine Referenz gefunden wird, kann ein Genehmigungsfluss entweder mit dem ersten Genehmiger oder einer Genehmigungsregel angewendet werden.
 

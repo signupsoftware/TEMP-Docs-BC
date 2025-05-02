@@ -6,16 +6,17 @@ custom_edit_url: null
 ---
 ## Approval Groups
 
-Go To: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Approval Groups***
+Go To: ***ExFlow Setup - Overview --> ExFlow Approval Groups***
 
 As mentioned in New User, Approval Groups are created automatically when a new user is created. Personal groups should not be modified (except from adding replacers).
-
 
 ### Create a New Approval Group
 
 In addition, it is possible to set up logical groups, like Purchase Dept or IT Dept Approval Groups with one or more users.
  
 Only one user in this group can approve, but all users will receive and can find the document in folder Recent on ExFlow Web.
+
+![ExFlow Approval Group Card](@site/static/img/media/approval-group-001-header.png)
 
 | General   |   |
 |:-|:-|
@@ -25,9 +26,6 @@ Only one user in this group can approve, but all users will receive and can find
 | **Exclude from the web´s user list:**     | To exclude this approval group in user list when forwarding and adding approvers on ExFlow Web. An Approval Group with Dynamic Approval Type cannot be added manually in the approval flow on ExFlow Web. Exclude from the web´s user list will therefore be activated automatically when selecting a Dynamic Approval Type
 | **Auto Approve:**                         | Add an Auto Approval Group when using Auto Approval in Order Matching or matching against Contract. If Approval Group Members are added, the document will show as approved in folder “Recent” on ExFlow Web
 | **Auto Approve Comment:**                 | Add a comment that will be copied to Comment in Doc. Line Approvers.
-
-![ExFlow Approval Group Card](@site/static/img/media/approval-group-001-header.png)
-
 
 ### Approval Group with Dynamic Approval Type
 
@@ -65,8 +63,4 @@ It is possible to add several approvers in one Approval Group. Only one user in 
 |:-|:-|
 | **Starting and Ending date:**     | is used for approver that is temporary replacing another approver. Use function to add replacers from ExFlow Web, Assign Replacer or from ExFlow User Card            <br/> Read more under section [***Business Functionality --> ExFlow User --> Add a Replacer During Vacation Time***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time) and [***Approval Workflow --> Periodic Activities --> Assign Replacers***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/periodic-activities#assign-replacers)
 
-![Approval Group Members](@site/static/img/media/approval-group-003-lines.png)
-
-An Approval Group require at least one user.
-
-![No Approval Group Members](@site/static/img/media/approval-group-006-no-members.png)
+An Approval Group require at least one user. Otherwise, following message will pop up: <br/> *''Warning! There are no approval group members, is that correct?''* with options Yes/No.

@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Set FactBox Default Size
 
-Go to: ***Setup --> ExFlow Manual Setup --> ExFlow FactBox Default Sizes***
+Go to: ***ExFlow FactBox Default Sizes***
 
 Default size of FactBox for all users can be set or restored here.
 

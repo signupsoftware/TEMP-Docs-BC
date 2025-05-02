@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Contrato
 
-Ir a: ***Configuración \--\> Configuración Manual de ExFlow \--\> Contratos de ExFlow***
+Ir a: ***Configuración de ExFlow - Descripción general --> Contratos de ExFlow***
 
 El Contrato de ExFlow se puede usar para llevar un registro de las facturas recibidas y faltantes para los Contratos y también puede aprobar automáticamente las facturas coincidentes. Comience creando un nuevo Contrato haciendo clic en "Nuevo".
 
@@ -228,7 +228,7 @@ El Contrato de Autoliquidación es útil para pagos regulares a un proveedor esp
 
 ### Configuración del Contrato de Autoliquidación
 Para la Autoliquidación hay algunas configuraciones opcionales que pueden ser útiles.<br/>
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Contratos (Lista)--> Relacionado --> Configuración del Contrato***
+Ir a: ***Configuración de ExFlow - Descripción general --> Contratos (Lista)--> Relacionado --> Configuración del Contrato***
 
 ![Configuración del Contrato de ExFlow](@site/static/img/media/contracts-contract-setup-001.png)
 

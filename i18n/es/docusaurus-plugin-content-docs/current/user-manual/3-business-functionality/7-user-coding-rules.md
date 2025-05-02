@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Reglas de Codificación de Usuario
 
-Ir a: ***Configuración \--\> Configuración Manual de ExFlow \--\> Reglas de Codificación de Usuario de ExFlow***
+Ir a: ***Configuración de ExFlow - Descripción general --> Reglas de Codificación de Usuario de ExFlow***
 
 Si un aprobador debe poder hacer cambios de codificación en la línea de la factura en ExFlow Web, se pueden usar las Reglas de Codificación de Usuario de ExFlow para decidir/restringir qué valores puede seleccionar.
 

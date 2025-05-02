@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Reglas de Aprobación
 
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Reglas de Aprobación de ExFlow***
+Ir a: ***Configuración de ExFlow - Descripción general --> Reglas de Aprobación de ExFlow***
 
 Para automatizar la selección de aprobadores se pueden usar las Reglas de Aprobación de ExFlow.
 
@@ -143,7 +143,7 @@ ExFlow Dimension Owners es una herramienta para limitar la cantidad de Reglas de
 
 
 **Conectando Grupos de Aprobación a Valores de Dimensión**<br/>
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Propietarios de Dimensiones de ExFlow***
+Ir a: ***Configuración de ExFlow - Descripción general --> Propietarios de Dimensiones de ExFlow***
 
 Configurar un flujo de aprobación para un valor de dimensión específico. Abra una nueva tarjeta haciendo clic en "Nuevo".
 
@@ -169,7 +169,7 @@ La Dimensión seleccionada se basa en el Propietario de Dimensión seleccionado.
 ![Copiar Propietarios de Dimensiones](@site/static/img/media/copy-dimension-owners-001.png)
 
 **Grupo de Aprobación Dinámica – Propietario de Dimensión**<br/>
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Grupos de Aprobación de ExFlow***
+Ir a: ***Configuración de ExFlow - Descripción general --> Grupos de Aprobación de ExFlow***
 
 Cuando se crean los Propietarios de Dimensiones, se debe crear un nuevo Grupo de Aprobación de ExFlow. Establezca el "Tipo de Aprobación Dinámica" en "Propietario de Dimensión", luego agregue la Dimensión en el campo "Código de Dimensión".
 
@@ -180,7 +180,7 @@ Al usar el Tipo de Aprobación Dinámica, no es posible agregar Miembros del Gru
 ![Grupo de Aprobación - Propietario de Dimensión](@site/static/img/media/approval-group-005-dimension-owner.png)
 
 **Regla de Aprobación – Propietario de Dimensión**<br/>
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Reglas de Aprobación de ExFlow***
+Ir a: ***Configuración de ExFlow - Descripción general --> Reglas de Aprobación de ExFlow***
 
 Agregue una Regla de Aprobación que se aplique a todos los documentos sin filtros (habilite la Regla de Aprobación), o para la dimensión con Propietarios de Dimensiones recién creados.
 
@@ -197,7 +197,7 @@ Si hay múltiples aprobadores en la Tarjeta de Propietario de Dimensión, entonc
 ![Líneas de Regla de Aprobación - Propietario de Dimensión](@site/static/img/media/approval-rule-lines-004-dimension-owner.png)
 
 **Activar “Proponer Siempre Nuevos Aprobadores”**<br/>
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Configuración de ExFlow***
+Ir a: ***Configuración de ExFlow - Descripción general --> Configuración de ExFlow***
 
 Active "Proponer Siempre Nuevos Aprobadores" en la Configuración de ExFlow para crear un flujo de aprobación dinámico si se cambia la codificación en ExFlow Web.
 

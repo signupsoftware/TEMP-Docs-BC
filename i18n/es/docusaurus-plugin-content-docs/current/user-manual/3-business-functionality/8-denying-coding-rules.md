@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Reglas de Codificación de Denegación
 
-Ir a: ***Configuración \--\> Configuración Manual de ExFlow \--\> Reglas de Codificación de Denegación de ExFlow***
+Ir a: ***Configuración de ExFlow - Descripción general --> Reglas de Codificación de Denegación de ExFlow***
 
 Las "Reglas de Codificación de Denegación" se pueden usar para restringir a los aprobadores de crear codificaciones inválidas en ExFlow Web.
 

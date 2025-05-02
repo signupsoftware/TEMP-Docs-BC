@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Establecer Tamaño Predeterminado de FactBox
 
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Tamaños Predeterminados de FactBox de ExFlow***
+Ir a: ***Tamaños Predeterminados de FactBox de ExFlow***
 
 El tamaño predeterminado de FactBox para todos los usuarios se puede establecer o restaurar aquí.
 

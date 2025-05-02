@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Benutzer-Codierungsregeln
 
-Gehen Sie zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User Coding Rules***
+Gehen Sie zu: ***ExFlow-Setup – Übersicht ExFlow User Coding Rules***
 
 Wenn ein Genehmiger in der Lage sein soll, Codierungsänderungen der Rechnungszeile in ExFlow Web vorzunehmen, können ExFlow Benutzer-Codierungsregeln verwendet werden, um zu entscheiden/einzuschränken, welche Werte er/sie auswählen kann.
 
