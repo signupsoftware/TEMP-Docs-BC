@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Vertrag
 
-Gehe zu: ***ExFlow-Setup – Übersicht ExFlow Contracts***
+Gehe zu: ***ExFlow-Setup – Übersicht --> ExFlow Contracts***
 
 ExFlow Vertrag kann verwendet werden, um empfangene und fehlende Rechnungen für Verträge zu verfolgen und kann auch automatisch übereinstimmende Rechnungen genehmigen. Beginnen Sie mit der Erstellung eines neuen Vertrags, indem Sie auf "Neu" klicken.
 
@@ -227,7 +227,7 @@ Ein Selbstabrechnungsvertrag ist hilfreich für regelmäßige Zahlungen an einen
 
 ### Einrichtung des Selbstabrechnungsvertrags
 Für die Selbstabrechnung gibt es einige optionale Einstellungen, die nützlich sein können.<br/>
-Gehe zu: ***Setup --> ExFlow Manual Setup --> Contracts (List)--> Related --> Contract Setup***
+Gehe zu: ***Übersicht über die ExFlow-Konfiguration --> Verträge (Liste)--> verwandt --> Vertragseinrichtung***
 
 ![ExFlow Contract Setup](../../images/contracts-contract-setup-001.png)
 

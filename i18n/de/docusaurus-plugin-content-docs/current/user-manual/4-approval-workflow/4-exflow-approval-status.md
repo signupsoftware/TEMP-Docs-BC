@@ -18,7 +18,6 @@ Wenn ein Dokument aus dem ExFlow Import Journal erstellt und zur Genehmigung ges
 |**Stapel buchen**|    [***Stapel buchen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#post-batch)
 |**Karte**|    Öffnet die Standard-Einkaufsdokumentkarte
 |**Erinnerung senden**|     [***Erinnerung senden***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#send-reminder)
-|**PDF-Viewer in neuem Tab öffnen**|   [***PDF-Viewer in neuem Tab öffnen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
 |**Erzwungene Aktualisierung des Einkaufsdokuments**|  [***Erzwungene Aktualisierung des Einkaufsdokuments***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#force-update-on-purchase-document)
 |**Filter auf Genehmiger setzen**|   [***Filter auf Genehmiger setzen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
 |*Aktionen--> Funktionen*|    
@@ -47,7 +46,6 @@ Wenn ein Dokument aus dem ExFlow Import Journal erstellt und zur Genehmigung ges
 |**Dokumentbild anzeigen**|   [***PDF herunterladen oder öffnen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-document-image)
 |**Importdetails anzeigen (OCR)**|    [***Importdetails anzeigen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-import-details)
 |**Bild importieren oder ersetzen**|  [***Bild importieren oder ersetzen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#import-or-replace-image)  
-|**Verwandt--> Dateien-->Andere--> PDF-Viewer in neuem Tab öffnen**|    [***PDF-Viewer in neuem Tab öffnen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
 |*Verwandt--> Genehmiger*|    
 |**Genehmigungsnachverfolgung**|    Bericht ausführen [***ExFlow Genehmigungsnachverfolgung***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-intelligence-and-reporting/reports#exflow-approval-follow-up)
 |**Pro Genehmiger**|    Zeigt eine gefilterte Seite pro Genehmiger an
@@ -197,9 +195,12 @@ Lesen Sie mehr im Abschnitt [***ExFlow E-Mail-Einrichtung --> Abgelehnte Bestell
 
 ### PDF-Viewer in neuem Tab öffnen
 
-Es ist möglich, das PDF in einem neuen separaten Tab zu öffnen, um eine bessere Ansicht des Dokumentenbildes zu erhalten.
+Es ist möglich, die PDF-Datei in einem neuen separaten Tab zu öffnen, um eine bessere Ansicht des Dokumentbildes zu erhalten.
 
-![ExFlow Genehmigungsstatus - PDF-Viewer in neuem Tab öffnen](../../images/image254.png)
+Diese Funktion wurde aus dem Menü Freigabestatus in die PDF-Infobox auf der rechten Seite verschoben.
+
+Lesen Sie mehr dazu unter ''FactBoxen im Genehmigungsstatus''.
+
 
 ### Erzwungene Aktualisierung des Einkaufsdokuments
 
@@ -372,25 +373,29 @@ Finden Sie nützliche FactBoxes auf der rechten Seite im Genehmigungsstatus.
 | Lieferantenstatistik und Historie des Lieferanten              | [***Lieferantenstatistik und Historie des Lieferanten***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#vendor-statistic-and-buy-from-vendor-history)
 
 ### PDF-Vorschau
-Ändern Sie die Größe der PDF-Vorschau. Drücken Sie - / +, um die Größe des PDFs zu verringern oder zu erhöhen.
+Größe in der PDF-Vorschau ändern Drücken Sie - / +, um die PDF-Datei zu verkleinern oder zu vergrößern.
 
-![ExFlow Genehmigungsstatus](../../images/image262.png)
+![ExFlow Import Journal](../../images//image215.png)
 
-Setzen Sie die Größe der FactBox zurück. Klicken Sie auf "Wiederherstellen".
+Größe der Infobox zurücksetzen Klicken Sie auf "Wiederherstellen".
 
-![PDF-Vorschau](../../images/image263.png)
+![ExFlow Import Journal - PDF-Vorschau](../../images/image216.png)
 
 "Verkleinern", "Vergrößern" und Zoom zurücksetzen
 
-![PDF-Vorschau](../../images/image264.png)
+![ExFlow Import Journal - PDF-Vorschau](../../images/image217.png)
 
-Ändern Sie die PDF-Seitennummer. Verwenden Sie die "Aufzeichnungstasten".
+Öffnen Sie die PDF-Datei in einer neuen separaten Registerkarte, um eine bessere Ansicht des Dokumentbildes zu erhalten.
 
-![PDF-Vorschau](../../images/image265.png)
+![ExFlow Import Journal - PDF-Vorschau](../../images/open-new-001.png)
 
-Öffnen Sie die PDF-Datei in voller Größe.<br/>
-Gehe zu: ***Navigieren --> Dateien --> Dokumentbild anzeigen (Strg+I)***<br/>
+PDF-Seiten-Nr. ändern Verwenden Sie "Record Buttons".
 
+![ExFlow Import Journal - PDF-Vorschau](../../images/image218.png)
+
+So öffnen Sie eine PDF-Datei in voller Größe:
+
+Gehe zu: ***Verwandte --> Dateien --> Dokumentbild anzeigen (Strg+I)***
 ### Eingehende Dokumentdateien
 Anzeigen und Hinzufügen von Anhängen. Um ein Dokument anzuhängen, ohne den Hauptanhang zu ersetzen.<br/>
 
@@ -460,33 +465,33 @@ Wenn Änderungen von ExFlow Web vorgenommen wurden, müssen diese weiterhin manu
 ### Überprüfung mit Job-Warteschlange
 Diese Einstellung gibt an, ob die Überprüfung genehmigter Dokumente im Hintergrund geplant werden soll. Dies gilt nur für Dokumente ohne Änderungen auf ExFlow Web.<br/>
 
-![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfung mit Job-Warteschlange](@site/static/img/media/exflow-setup-background-processing-003.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfung mit Job-Warteschlange](../../images/exflow-setup-background-processing-003.png)
 
 ### Überprüfen & Buchen mit Job-Warteschlange
 Gibt an, ob Dokumente mit dem Status "Bereit zur Buchung" im Genehmigungsstatus im Hintergrund geplant und nach der Überprüfung gebucht werden sollen.<br/>
 
 Alle "ExFlow web - geänderten" Dokumente, die in ExFlow Änderungen überprüfen im Genehmigungsstatus aktualisiert werden müssen, werden von diesem geplanten Job ausgeschlossen. Eine Nachricht im Feld Fehlermeldung im ExFlow Genehmigungsstatus wird bei diesen nicht aktualisierten Dokumenten sichtbar sein.
 
-![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfen & Buchen mit Job-Warteschlange](@site/static/img/media/exflow-setup-background-processing-004.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Überprüfen & Buchen mit Job-Warteschlange](../../images/exflow-setup-background-processing-004.png)
 
 Die Job-Warteschlange "Ex Verify & Post Job Queue" ist standardmäßig so konfiguriert, dass sie jede Stunde an Wochentagen ausgeführt wird, wenn eine der genannten Hintergrundverarbeitungseinstellungen in der ExFlow Einrichtung aktiviert ist.
 
 Wenn die Funktion deaktiviert wird, verschwindet die Job-Warteschlange "Ex Verify & Post Job Queue" aus der Liste der Job-Warteschlangeneinträge.
 
-![Job-Warteschlangeneintrag-Karte - Überprüfen & Buchen mit Job-Warteschlange](@site/static/img/media/image271.png)
+![Job-Warteschlangeneintrag-Karte - Überprüfen & Buchen mit Job-Warteschlange](../../images/image271.png)
 
 ### Änderungen automatisch überprüfen
 Diese Einstellung aktualisiert Dokumente mit dem Status "Genehmigt" auf "Bereit zur Buchung" ohne Job-Warteschlangeneintrag.<br/>
 
 Diese Einstellung ermöglicht es, den Schritt "Änderungen überprüfen" auf der Genehmigungsstatusseite zu überspringen, wenn keine Änderungen am genehmigten Dokument vorgenommen wurden. Der Dokumentstatus wird automatisch auf "Bereit zur Buchung" geändert.
 
-![ExFlow Einrichtung - Hintergrundverarbeitung - Änderungen automatisch überprüfen](@site/static/img/media/exflow-setup-background-processing-005.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Änderungen automatisch überprüfen](../../images/exflow-setup-background-processing-005.png)
 
 Die Einstellung "Änderungen automatisch überprüfen" kann auch in den ExFlow Lieferanteneinstellungen gefunden werden. Es ist möglich zu wählen, ob diese Funktion für einen bestimmten Lieferanten aktiviert/deaktiviert werden soll. Oder aktivieren Sie die Einstellung in der ExFlow Einrichtung für alle Lieferanten.<br/>
 
 Lesen Sie mehr über diese Funktionalität im Abschnitt [***Änderungen überprüfen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#verify-changes)
 
-![ExFlow Erweiterte Lieferantenoptionen - Änderungen automatisch überprüfen](@site/static/img/media/Vendor-setup-card-006.png)
+![ExFlow Erweiterte Lieferantenoptionen - Änderungen automatisch überprüfen](../../images/Vendor-setup-card-006.png)
 
 ### Dokumente automatisch erstellen
 
@@ -494,13 +499,13 @@ Aktivieren Sie dieses Feld, wenn alle interpretierten Dokumente automatisch aus 
 
 Wenn die Funktion aktiviert ist, werden alle interpretierten Dokumente ohne Fehler oder Warnmeldungen automatisch erstellt und zur Genehmigung gesendet.
 
-![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](@site/static/img/media/background-processing-automatically-create-001.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](../../images/background-processing-automatically-create-001.png)
 
 Es ist möglich, die Liste der ExFlow Import Journals zu personalisieren und die Spalte "Dokumente automatisch erstellen" dort hinzuzufügen und zu aktivieren, um ein dediziertes Journal für die automatische Dokumentenerstellung zu haben.
 
 Diese Funktion kann ohne jegliche Einrichtung im ExFlow Import Journal verwendet werden, klicken Sie einfach auf Ja im folgenden Popup:
 
-![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](@site/static/img/media/background-processing-automatically-create-002.png)
+![ExFlow Einrichtung - Hintergrundverarbeitung - Dokumente automatisch erstellen](../../images/background-processing-automatically-create-002.png)
 
 Lesen Sie mehr darüber im Abschnitt [***Batch Import Documents from Interpretation***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#batch-import-documents-from-interpretation)
 

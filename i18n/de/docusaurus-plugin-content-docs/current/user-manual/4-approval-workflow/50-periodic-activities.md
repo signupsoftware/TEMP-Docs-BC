@@ -19,7 +19,7 @@ Ausführen des Berichts manuell (Berichts-ID 12013629) oder durch Einrichten ein
 
 #### ExFlow-Einrichtung
 
-Gehen Sie zu: ***Setup --> ExFlow-Setup --> Eskalation***
+Gehen Sie zu: ***ExFlow-Setup --> Eskalation***
 
 ![ExFlow-Einrichtung - Eskalation](../../images/exflow-setup-escalation-002.png)
 

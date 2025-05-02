@@ -394,6 +394,13 @@ If multiple files are selected, then there is an option to save a compressed fil
 
 "Show Document Image" can also be reached from menu under Related.
 
+### Open PDF- Viewer in New Tab
+It is possible to open the PDF in a new separate tab to get a better view of the document image. 
+
+This function is moved from the Import Journal menu to the PDF FactBox on the right side.
+
+Read more about this under ''FactBoxes In Import Journal''.
+
 ## Document Header - Show more options 
 
 Click on the ''three vertical dots'' on the Document Header to find fast track options.
@@ -411,7 +418,7 @@ Can also be found under ***Related --> Document --> Other --> Import or Replace 
 
 ### Import or Replace Image
 Got to: ***Process --> Import or Replace Image***<br/>
-Import a file or replace an image to the context menu on the invoice header through function \'\'Import or Replace Image\" in Import Journal.<br/>
+Import a file or replace an image to the context menu on the invoice header through function ''Import or Replace Image" in Import Journal.<br/>
 Can also be found under ***Related --> Files --> Other --> Import or Replace Image***
 
 ![ExFlow Import Journal](@site/static/img/media/image200.png)
