@@ -19,7 +19,7 @@ This user manual will provide detailed instructions, helpful tips, and insights 
 
 Before running the ExFlow Get Started Wizard, there are a few prerequisites that need to be completed. Follow these initial steps to ensure a smooth setup process:
 
-Download and Install ExFlow: Visit the Microsoft AppSource marketplace and locate the ExFlow extension as a Free Trial. 
+[Download and Install ExFlow:](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.signup-software-ab%7CAID.31407efc-8e13-4752-b577-5e992428aa29%7CPAPPID.a53707ce-b9e1-4f4e-93be-ea3aae783cae?tab=Overview) Visit the Microsoft AppSource marketplace and locate the ExFlow extension as a Free Trial. 
 
 ![Get Started Wizard - Microsoft AppSource](/img/media/get-started-001-appsource.png)
 
@@ -112,7 +112,7 @@ Complete the setup of ExFlow users by finalizing their attributes, email address
 •	Approver: Participates in the approval process without coding change capabilities.<br/>
 •	Approver (Power): Has the capability to make coding changes during the approval process, based on defined Coding Rules.<br/>
 •	Approver (Super): Can make coding changes, search, and view all invoices within the company.<br/>
-•	Admin: Intended for accountants and administrators of ExFlow in Business Central, providing access to setup.
+•	Admin: Intended for administrators in ExFlow Web, providing access to setup.
 
 ![Get Started Wizard - Assign Dimensions](/img/media/get-started-009-assign-dimensions.png)
 

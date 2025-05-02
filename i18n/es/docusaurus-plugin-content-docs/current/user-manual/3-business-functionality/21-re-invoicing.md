@@ -23,7 +23,7 @@ Las siguientes Columnas de Re-Facturación se pueden activar en ExFlow Web:
 Los Aprobadores pueden luego agregar, cambiar o aprobar el valor para la Factura de Venta al Cliente dependiendo del Permiso de Usuario de ExFlow.
 
 ### Configuración de Re-Facturación de ExFlow
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Configuración de Re-Facturación de ExFlow***<br/>
+Ir a: ***Configuración de ExFlow - Descripción general --> Configuración de Re-Facturación de ExFlow***<br/>
 Comience activando la Re-Facturación en la Configuración de Re-Facturación de ExFlow y siga el asistente para la configuración mínima requerida.
 
 ![Configuración de Re-Facturación](@site/static/img/media/re-invoicing-setup-001.png)
@@ -132,13 +132,13 @@ Si ''Artículo para Venta'' está activado, entonces el campo ''Código de Re-Fa
 ![Códigos de Re-Facturación de ExFlow](@site/static/img/media/re-invoicing-codes-001.png)
 
 ### Códigos de Compra de ExFlow
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Códigos de Compra de ExFlow***<br/>
+Ir a: ***Configuración de ExFlow - Descripción general --> Códigos de Compra de ExFlow***<br/>
 Los campos de Re-Facturación ahora se agregan al Código de Compra de ExFlow. Pero la Re-Facturación necesita estar activada para que los campos se muestren.
 
 ![Código de Compra de ExFlow](@site/static/img/media/re-invoicing-purchase-code-001.png)
 
 ### Regla de Codificación de Denegación de ExFlow -- Re-Facturación
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Reglas de Codificación de Denegación de ExFlow***<br/>
+Ir a: ***Configuración de ExFlow - Descripción general --> Reglas de Codificación de Denegación de ExFlow***<br/>
 Si se agrega un Número de Cliente de Re-Facturación, entonces es posible agregar una Regla de Codificación de Denegación de ExFlow para obligar a los Aprobadores a agregar más información.
 
 En este ejemplo, el Aprobador necesita agregar el Monto de Re-Facturación si hay un Número de Cliente de Re-Facturación agregado en la Línea del Documento, con tipo de línea Cuenta G/L, en ExFlow Web.
@@ -299,7 +299,7 @@ Aquí se puede usar la configuración “Siempre Crear Factura de Venta cuando F
 La Ubicación se agregará a través de la Entrada de Artículo Aplicada si es posible. El Código de Variante y el Código de Contenedor se copiarán de la línea de compra. Si no es posible agregar la Entrada de Artículo Aplicada, el Código de Ubicación, el Código de Contenedor y el Código de Variante deben manejarse manualmente en la línea de factura de venta.
 
 ### Re-Facturación de Artículo a Cuenta G/L
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Configuración de Re-Facturación***<br/>
+Ir a: ***Configuración de ExFlow - Descripción general --> Configuración de Re-Facturación***<br/>
 Para crear facturas de venta a Cuenta G/L desde la línea de factura de compra de Artículo, asegúrese de que Artículo para Venta esté desactivado en la Configuración de Re-Facturación.
 
 El % de Recargo se agregará automáticamente al agregar un Número de Cliente si está activado.

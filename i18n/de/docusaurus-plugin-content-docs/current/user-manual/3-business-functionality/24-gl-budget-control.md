@@ -85,7 +85,7 @@ Klicken Sie auf „Fertig stellen“, um den ExFlow Budget Control Wizard zu sch
 
 ### ExFlow G/L Budget Control Setup
 Für die manuelle Einrichtung, Überprüfung oder Aktualisierung der Einrichtung, gehen Sie zu ExFlow G/L Budget Control Setup.<br/>
-Gehen Sie zu: ***Setup --> ExFlow Manual Setup --> ExFlow Budget Control Setup***<br/><br/>
+Gehen Sie zu: ***ExFlow-Setup – Übersicht ExFlow Budget Control Setup***<br/><br/>
 
 #### Allgemein
 

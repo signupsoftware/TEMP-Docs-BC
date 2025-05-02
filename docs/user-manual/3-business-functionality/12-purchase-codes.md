@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Purchase Codes
  
-Go to: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Purchase Codes***
+Go to: ***ExFlow Setup - Overview --> ExFlow Purchase Codes***
  
 An ExFlow Purchase Code can be used to add coding on invoice lines automatically from the Vendor Setup Card, Reference, Contract or ExFlow Setup. ExFlow Purchase Code can split lines on several dimension codes, VAT Prod. Posting Groups etc.
  

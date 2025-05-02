@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Approval Rules
 
-Go To: ***Setup --> ExFlow Manual Setup --> ExFlow Approval Rules***
+Go To: ***ExFlow Setup - Overview --> ExFlow Approval Rules***
 
 To automate the selection of approvers the ExFlow Approval Rules can be used.
 
@@ -92,7 +92,7 @@ If first approver is Approval Group 1 and always approves, the second approver d
 
 
 ### Always Propose New Approvers
-Go to: ***Setup --> ExFlow Setup --> Approval***
+Go to: ***ExFlow Setup --> Approval***
 
 Approval Rules and Dynamic Approval Rules allows ExFlow to automatically identify and apply Approval Rules or Dynamic Approval Flow for documents that have been modified by any user in ExFlow Web.
 
@@ -143,7 +143,7 @@ ExFlow Dimension Owners is a tool to limit the amount of used Approval Rules and
 
 
 **Connecting Approval Groups to Dimension Values**<br/>
-Go to: ***Setup --> ExFlow Manual Setup --> ExFlow Dimension Owners***
+Go to: ***ExFlow Setup - Overview --> ExFlow Dimension Owners***
 
 Set up an approval flow for a specific dimension value. Open a new card by clicking on "New".
 
@@ -170,7 +170,7 @@ The selected Dimension based on the selected Dimension Owner. Choose if this sho
 
 
 **Dynamic Approval Group – Dimension Owner**<br/>
-Go to: ***Setup --> ExFlow Manual Setup --> ExFlow Approval Groups***
+Go to: ***ExFlow Setup - Overview --> ExFlow Approval Groups***
 
 When the Dimension Owners are created, a new ExFlow Approval Group need to be created. Set the "Dynamic Approval Type" to "Dimension Owner", then add the Dimension in the "Dimension Code" field.
 
@@ -182,7 +182,7 @@ When using Dynamic Approval Type, it is not possible to add Approval Group Membe
 
 
 **Approval Rule – Dimension Owner**<br/>
-Go to: ***Setup --> ExFlow Manual Setup --> ExFlow Approval Rules***
+Go to: ***ExFlow Setup - Overview --> ExFlow Approval Rules***
 
 Add an Approval Rule that applies for all documents with no filters (enable the Approval Rule), or for the dimension with Dimension Owners just created.
 
@@ -200,7 +200,7 @@ If there are multiple approvers in the Dimension Owner Card, then that order wil
 
 
 **Activate “Always Propose new Approvers”**<br/>
-Go to: ***Setup --> ExFlow Manual Setup --> ExFlow Setup***
+Go to: ***ExFlow Setup - Overview --> ExFlow Setup***
 
 Activate "Always Propose New Approvers" in ExFlow Setup to create a dynamic approval flow if changing coding on ExFlow Web.
 

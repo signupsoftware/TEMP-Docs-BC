@@ -36,7 +36,7 @@ Gehen Sie zu: ***Setup --> ExFlow-Setup --> Eskalation***
 
 #### ExFlow-Genehmigungsgruppe
 
-Gehe zu: ***Setup --> ExFlow Manual Setup --> ExFlow Approval Groups***
+Gehe zu: ***ExFlow-Setup – Übersicht ExFlow Approval Groups***
 
 Verwenden Sie Eskalationseinstellungen in der ExFlow Approval Group, wenn eine separate Einrichtung erforderlich ist.
 

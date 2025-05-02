@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## User Coding Rules
 
-Go to: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow User Coding Rules***
+Go to: ***ExFlow Setup - Overview --> ExFlow User Coding Rules***
 
 If an approver should be able to do coding changes of the invoice line in ExFlow Web, ExFlow User Coding Rules can be used to decide/restrict what values he/she can select.
 

@@ -35,7 +35,7 @@ Ir a: ***Configuración --> Configuración de ExFlow --> Escalación***
 
 #### Grupo de Aprobación de ExFlow
 
-Ir a: ***Configuración \--\> Configuración Manual de ExFlow \--\> Grupos de Aprobación de ExFlow***
+Ir a: ***Configuración de ExFlow - Descripción general --> Grupos de Aprobación de ExFlow***
 
 Use la configuración de escalación en el Grupo de Aprobación de ExFlow si se necesita una configuración separada.
 

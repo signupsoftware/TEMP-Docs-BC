@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Denying Coding Rules
 
-Go to: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Denying Coding Rules***
+Go to: ***ExFlow Setup - Overview --> ExFlow Denying Coding Rules***
 
 "Denying Coding Rules" can be used to restrict approvers from creating invalid coding in ExFlow Web.
 

@@ -67,8 +67,13 @@ If "No Purchase Order Matching" is enabled and the interpreted document has an i
 Go to: **ExFlow Setup --> OCR Import** 
 
 ### VAT Mapping
-
 Let ExFlow help out with mapping of imported VAT % towards VAT Product Posting Groups. 
+
+With EDI it is very common that the percentage of the VAT on the line is carried over. However, this can't be utilized in Standard BC and ExFlow has now created an own mapping for this. 
+
+For customers using other services, like ExFlow Data Capture, a custom field needs to be added in EDC where VAT % can be interpreted. This EDC field also needs to be mapped in a Line value in Data Exchange Defin. Mapping is also needed to 
+
+
 
 Go to: **ExFlow Setup --> Actions--> Functions--> OCR --> VAT Mapping**
 
@@ -78,7 +83,12 @@ Edit the list and add the VAT Mapping values to be mapped, and choose the VAT Pr
 
 ![VAT](@site/static/img/media/vat-mapping-002.png)
 
+
+
+
+
 #### Disable Warning Messages for VAT Mapping
+When VAT is incorrect, ExFlow will present a warning message. If no messages is wanted, then these can be disabled.
 
 Go to: **OCR Import --> Disable Warning Messages for VAT Mapping** to turn off the warning messages for VAT mapping. 
 

@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Contract
 
-Go to: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Contracts***
+Go to: ***ExFlow Setup - Overview --> ExFlow Contracts***
 
 ExFlow Contract can be used to keep track of received and missing invoices for Contracts and can also automatically approve matched invoices. Start by creating a new Contract by clicking "New".
 
@@ -229,7 +229,7 @@ Self-Billing Contract is helpful for regular payments to a specific vendor witho
 
 ### Self-Billing Contract Setup
 For Self-Billing there are some optional setups that can be useful.<br/>
-Go to: ***Setup --> ExFlow Manual Setup --> Contracts (List)--> Related --> Contract Setup***
+Go to: ***ExFlow Setup - Overview --> Contracts (List)--> Related --> Contract Setup***
 
 ![ExFlow Contract Setup](@site/static/img/media/contracts-contract-setup-001.png)
 

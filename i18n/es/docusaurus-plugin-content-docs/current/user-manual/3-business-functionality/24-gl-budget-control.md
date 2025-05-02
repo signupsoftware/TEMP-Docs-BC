@@ -86,7 +86,7 @@ Haga clic en "Finalizar" para cerrar el Asistente de Control Presupuestario de E
 
 ### Configuración del Control Presupuestario G/L de ExFlow
 Para configurar manualmente, revisar o actualizar la configuración, vaya a Configuración del Control Presupuestario G/L de ExFlow.<br/>
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Configuración del Control Presupuestario de ExFlow***<br/><br/>
+Ir a: ***Configuración de ExFlow - Descripción general --> Configuración del Control Presupuestario de ExFlow***<br/><br/>
 
 #### General
 

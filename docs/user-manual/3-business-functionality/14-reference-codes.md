@@ -6,8 +6,7 @@ custom_edit_url: null
 ---
 ## Reference Codes
 
-Go to: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Reference
-Codes***
+Go to: ***ExFlow Setup - Overview --> ExFlow Reference Codes***
 
 If an interpretation of Reference is done before importing the Invoice document into ExFlow Import Journal, then the reference can be used to trigger e.g., an approval workflow. When a reference is found, an approval flow can be applied either with First Approver or an Approval Rule.
 

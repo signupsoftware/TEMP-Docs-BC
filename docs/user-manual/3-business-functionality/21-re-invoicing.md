@@ -23,7 +23,7 @@ The following Re-Invoicing Columns can be activated on ExFlow Web:
 The Approvers can then add, change, or approve value for Sales Invoice to Customer depending on ExFlow User Permission.
 
 ### ExFlow Re-Invoicing Setup
-Go to: ***Setup --> ExFlow Manual Setup --> ExFlow Re-Invoicing Setup***<br/>
+Go to: ***ExFlow Setup - Overview --> ExFlow Re-Invoicing Setup***<br/>
 Start by activating Re-Invoicing in ExFlow Re-Invoicing Setup and follow wizard for minimum setup required.
 
 ![Re-Invoicing Setup](@site/static/img/media/re-invoicing-setup-001.png)
@@ -133,14 +133,14 @@ If ''Item for Sales'' is activated, then the field ''Re-Invoicing Code'' cannot 
 
 
 ### ExFlow Purchase Codes
-Go to: ***Setup --> ExFlow Manual Setup --> ExFlow Purchase Codes***<br/>
+Go to: ***ExFlow Setup - Overview --> ExFlow Purchase Codes***<br/>
 Re-Invoicing fields are now added to ExFlow Purchase Code. But Re-Invoicing needs to be activated for fields to show.
 
 ![ExFlow Purchase Code](@site/static/img/media/re-invoicing-purchase-code-001.png)
 
 
 ### ExFlow Denying Coding Rule -- Re-Invoicing
-Go to: ***Setup --> ExFlow Manual Setup --> ExFlow Denying Coding Rules***<br/>
+Go to: ***ExFlow Setup - Overview --> ExFlow Denying Coding Rules***<br/>
 If a Re-Invoicing Customer No. is added, then it is possible to add an ExFlow Denying Coding Rule to force Approvers to add more information.
 
 In this example the Approver needs to add Re-Invoicing Amount if there is a Re-Invoicing Customer No. added on the Document Line, with line type G/L Account, in ExFlow Web.
@@ -308,7 +308,7 @@ Location will be added via Apply-to Item Entry if possible. Variant Code and Bin
 
 
 ### Re-Invoicing Item to G/L Account
-Go to: ***Setup --> ExFlow Manual Setup --> Re-Invoicing Setup***<br/>
+Go to: ***ExFlow Setup - Overview --> Re-Invoicing Setup***<br/>
 To create sales invoices to G/L Account from purchase invoice Item line, make sure that Item for Sales is disabled in Re-Invoicing Setup.
 
 Surcharge % will be added automatically when adding a Customer No. if activated.

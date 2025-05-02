@@ -19,7 +19,7 @@ Dieses Benutzerhandbuch bietet detaillierte Anweisungen, hilfreiche Tipps und Ei
 
 Bevor Sie den ExFlow Erste-Schritte-Assistenten ausführen, müssen einige Voraussetzungen erfüllt sein. Befolgen Sie diese ersten Schritte, um einen reibungslosen Einrichtungsprozess zu gewährleisten:
 
-Herunterladen und Installieren von ExFlow: Besuchen Sie den Microsoft AppSource Marketplace und suchen Sie die ExFlow-Erweiterung als kostenlose Testversion. 
+[Herunterladen und Installieren von ExFlow:](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.signup-software-ab%7CAID.31407efc-8e13-4752-b577-5e992428aa29%7CPAPPID.a53707ce-b9e1-4f4e-93be-ea3aae783cae?tab=Overview) Besuchen Sie den Microsoft AppSource Marketplace und suchen Sie die ExFlow-Erweiterung als kostenlose Testversion. 
 
 ![Erste-Schritte-Assistent - Microsoft AppSource](/img/media/get-started-001-appsource.png)
 
@@ -112,7 +112,7 @@ Vervollständigen Sie die Einrichtung von ExFlow-Benutzern, indem Sie ihre Attri
 •	Genehmiger: Nimmt am Genehmigungsprozess teil, ohne Möglichkeiten zur Änderung der Codierung.<br/>
 •	Genehmiger (Power): Hat die Möglichkeit, während des Genehmigungsprozesses Codierungsänderungen vorzunehmen, basierend auf definierten Codierungsregeln.<br/>
 •	Genehmiger (Super): Kann Codierungsänderungen vornehmen, alle Rechnungen innerhalb des Unternehmens suchen und anzeigen.<br/>
-•	Admin: Für Buchhalter und Administratoren von ExFlow in Business Central gedacht, bietet Zugang zur Einrichtung.
+•	Admin: Für Administratoren in ExFlow Web, bietet Zugang zur Einrichtung.
 
 ![Erste-Schritte-Assistent - Dimensionen zuweisen](/img/media/get-started-009-assign-dimensions.png)
 

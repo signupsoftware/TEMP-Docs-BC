@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Códigos de Referencia
 
-Ir a: ***Configuración \--\> Configuración Manual de ExFlow \--\> Códigos de Referencia de ExFlow***
+Ir a: ***Configuración de ExFlow - Descripción general --> Códigos de Referencia de ExFlow***
 
 Si se realiza una interpretación de la Referencia antes de importar el documento de la Factura en el Diario de Importación de ExFlow, entonces la referencia se puede usar para activar, por ejemplo, un flujo de aprobación. Cuando se encuentra una referencia, se puede aplicar un flujo de aprobación ya sea con el Primer Aprobador o una Regla de Aprobación.
 

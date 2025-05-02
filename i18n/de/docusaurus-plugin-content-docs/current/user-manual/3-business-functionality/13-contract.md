@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Vertrag
 
-Gehe zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Contracts***
+Gehe zu: ***ExFlow-Setup – Übersicht ExFlow Contracts***
 
 ExFlow Vertrag kann verwendet werden, um empfangene und fehlende Rechnungen für Verträge zu verfolgen und kann auch automatisch übereinstimmende Rechnungen genehmigen. Beginnen Sie mit der Erstellung eines neuen Vertrags, indem Sie auf "Neu" klicken.
 

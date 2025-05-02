@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Ablehnungsregeln für die Kodierung
 
-Gehe zu: ***Setup \--\> ExFlow Manual Setup \--\> ExFlow Denying Coding Rules***
+Gehe zu: ***ExFlow-Setup – Übersicht ExFlow Denying Coding Rules***
 
 "Ablehnungsregeln für die Kodierung" können verwendet werden, um zu verhindern, dass Genehmiger ungültige Kodierungen in ExFlow Web erstellen.
 

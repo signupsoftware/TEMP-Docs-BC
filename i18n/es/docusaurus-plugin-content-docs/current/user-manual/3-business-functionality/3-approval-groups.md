@@ -7,7 +7,7 @@ custom_edit_url: null
 
 ## Grupos de Aprobación
 
-Ir a: ***Configuración --> Configuración Manual de ExFlow --> Grupos de Aprobación de ExFlow***
+Ir a: ***Configuración de ExFlow - Descripción general --> Grupos de Aprobación de ExFlow***
 
 Como se menciona en Nuevo Usuario, los Grupos de Aprobación se crean automáticamente cuando se crea un nuevo usuario. Los grupos personales no deben ser modificados (excepto para agregar reemplazantes).
 
@@ -18,6 +18,8 @@ Además, es posible configurar grupos lógicos, como Grupos de Aprobación del D
 
 Solo un usuario en este grupo puede aprobar, pero todos los usuarios recibirán y podrán encontrar el documento en la carpeta Recientes en ExFlow Web.
 
+![Tarjeta del Grupo de Aprobación de ExFlow](@site/static/img/media/approval-group-001-header.png)
+
 | General   |   |
 |:-|:-|
 |**Código:**                                  | Agregue un Código que describa el Grupo de Aprobación. Si no se excluye, este Código es visible en ExFlow Web al reenviar y agregar aprobadores
@@ -26,9 +28,6 @@ Solo un usuario en este grupo puede aprobar, pero todos los usuarios recibirán 
 | **Excluir de la lista de usuarios de la web:**     | Para excluir este grupo de aprobación en la lista de usuarios al reenviar y agregar aprobadores en ExFlow Web. Un Grupo de Aprobación con Tipo de Aprobación Dinámica no puede ser agregado manualmente en el flujo de aprobación en ExFlow Web. Excluir de la lista de usuarios de la web se activará automáticamente al seleccionar un Tipo de Aprobación Dinámica
 | **Aprobación Automática:**                         | Agregue un Grupo de Aprobación Automática al usar Aprobación Automática en la Conciliación de Pedidos o la conciliación contra Contrato. Si se agregan Miembros del Grupo de Aprobación, el documento aparecerá como aprobado en la carpeta “Recientes” en ExFlow Web
 | **Comentario de Aprobación Automática:**                 | Agregue un comentario que se copiará al Comentario en la Línea del Documento.
-
-![Tarjeta del Grupo de Aprobación de ExFlow](@site/static/img/media/approval-group-001-header.png)
-
 
 ### Grupo de Aprobación con Tipo de Aprobación Dinámica
 
@@ -65,10 +64,5 @@ Es posible agregar varios aprobadores en un Grupo de Aprobación. Solo un usuari
 |:-|:-|
 | **Fecha de inicio y fin:**     | se utiliza para el aprobador que está reemplazando temporalmente a otro aprobador. Use la función para agregar reemplazantes desde ExFlow Web, Asignar Reemplazante o desde la Tarjeta de Usuario de ExFlow            <br/> Lea más en la sección [***Funcionalidad Empresarial --> Usuario de ExFlow --> Agregar un Reemplazante Durante el Tiempo de Vacaciones***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#add-a-replacer-during-vacation-time) y [***Flujo de Aprobación --> Actividades Periódicas --> Asignar Reemplazantes***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/periodic-activities#assign-replacers)
 
-![Miembros del Grupo de Aprobación](@site/static/img/media/approval-group-003-lines.png)
-
-Un Grupo de Aprobación requiere al menos un usuario.
-
-![Sin Miembros del Grupo de Aprobación](@site/static/img/media/approval-group-006-no-members.png)
-
+Un grupo de aprobación requiere al menos un usuario. De lo contrario, aparecerá el siguiente mensaje: <br/> *''¡Advertencia! No hay miembros del grupo de aprobación, ¿es eso correcto?" * con opciones Sí/No.
 
