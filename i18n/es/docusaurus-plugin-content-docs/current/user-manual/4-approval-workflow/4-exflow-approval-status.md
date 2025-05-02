@@ -18,7 +18,6 @@ Cuando se crea un documento desde el Diario de Importación de ExFlow y, por lo 
 |**Registrar Lote**|    [***Registrar Lote***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#post-batch)
 |**Tarjeta**|    Abre la tarjeta estándar del documento de compra
 |**Enviar Recordatorio**|     [***Enviar Recordatorio***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#send-reminder)
-|**Abrir Visor de PDF en Nueva Pestaña**|   [***Abrir Visor de PDF en Nueva Pestaña***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
 |**Forzar Actualización del Documento de Compra**|  [***Forzar Actualización del Documento de Compra***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#force-update-on-purchase-document)
 |**Filtrar por aprobador**|   [***Filtrar por aprobador***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#filter-on-approver)
 |*Acciones--> Funciones*|    
@@ -47,7 +46,6 @@ Cuando se crea un documento desde el Diario de Importación de ExFlow y, por lo 
 |**Mostrar Imagen del Documento**|   [***Descargar o abrir PDF***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-document-image)
 |**Mostrar Detalles de Importación (OCR)**|    [***Mostrar detalles de importación***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#show-import-details)
 |**Importar o Reemplazar Imagen**|  [***Importar o Reemplazar Imagen***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#import-or-replace-image)  
-|**Relacionado--> Archivos-->Otros--> Abrir Visor de PDF en Nueva Pestaña**|    [***Abrir Visor de PDF en Nueva Pestaña***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#open-pdf--viewer-in-new-tab)
 |*Relacionado--> Aprobadores*|    
 |**Seguimiento de Aprobación**|    Ejecutar informe [***Seguimiento de Aprobación de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-intelligence-and-reporting/reports#exflow-approval-follow-up)
 |**Por Aprobador**|    Muestra una página filtrada por aprobador
@@ -196,9 +194,12 @@ Es posible enviar recordatorios por correo electrónico para documentos de aprob
 Lea más en la sección [***Configuración de Correo Electrónico de ExFlow --> Orden Rechazada, Cotización Rechazada y Factura/Nota de Crédito Rechazada***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup)
 
 ### Abrir Visor de PDF en Nueva Pestaña
+### Abrir PDF- Visor en una nueva pestaña
 Es posible abrir el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.
 
-![Estado de Aprobación de ExFlow - Abrir Visor de PDF en Nueva Pestaña](@site/static/img/media/image254.png)
+Esta función se traslada del menú Importar diario al cuadro informativo PDF en el lado derecho.
+
+Lea más sobre esto en ''FactBoxes In Import Journal''.
 
 ### Forzar Actualización del Documento de Compra
 
@@ -367,22 +368,27 @@ Encuentre útiles FactBoxes en el lado derecho en el Estado de Aprobación.
 ### Vista Previa de PDF
 Cambiar tamaño en Vista Previa de PDF Presione - / + para disminuir o aumentar el tamaño del PDF.
 
-![Estado de Aprobación de ExFlow](@site/static/img/media/image262.png)
+![Diario de Importación de ExFlow](@site/static/img/media/image215.png)
 
 Restablecer tamaño de FactBox Haga clic en "Restaurar".
 
-![Vista Previa de PDF](@site/static/img/media/image263.png)
+![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image216.png)
 
-"Reducir Zoom", "Aumentar Zoom" y Restablecer Zoom
+"Reducir", "Ampliar" y Restablecer Zoom
 
-![Vista Previa de PDF](@site/static/img/media/image264.png)
+![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image217.png)
 
-Cambiar número de página del PDF use "Botones de Registro".
+Abrir el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.  
 
-![Vista Previa de PDF](@site/static/img/media/image265.png)
+![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/open-new-001.png) 
 
-Abrir archivo PDF en tamaño completo.<br/>
-Ir a: ***Navegar --> Archivos --> Mostrar Imagen del Documento (Ctrl+I)***<br/>
+Cambiar página Nº de PDF usando "Botones de Registro".
+
+![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image218.png)
+
+Para abrir archivo PDF a tamaño completo:
+
+Vaya a: ***Relacionado --> Archivos --> Mostrar Imagen de Documento (Ctrl+I)***
 
 ### Archivos de Documentos Entrantes
 Ver y agregar Archivo Adjunto. Para adjuntar un documento sin reemplazar el Adjunto Principal.<br/>

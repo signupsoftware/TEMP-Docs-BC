@@ -50,7 +50,7 @@ The ExFlow user will be marked as ''Blocked'', until all star marked fields are 
 |Send Reminder | Send reminder to the specific ExFlow User. Read more about this [here](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup)
 |*Actions*|
 |Create ExFlow Reference | Creates an ExFlow Reference for the specific ExFlow User Name. Read more about [ExFlow Reference](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/reference-codes#reference-codes)
-|Actions --> Other (same buttons as under ExFlow Menu)|
+|Actions --> Other |(same buttons as under ExFlow Menu)
 
 #### General Fields
 

@@ -389,6 +389,14 @@ Si se seleccionan múltiples archivos, entonces hay una opción para guardar un 
 
 "Mostrar Imagen de Documento" también puede accederse desde el menú bajo Relacionado.
 
+### Abrir PDF- Visor en una nueva pestaña
+Es posible abrir el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.
+
+Esta función se traslada del menú Importar diario al cuadro informativo PDF en el lado derecho.
+
+Lea más sobre esto en ''FactBoxes In Import Journal''.
+
+
 ## Encabezado de Documento - Mostrar más opciones 
 
 Haga clic en los ''tres puntos verticales'' en el Encabezado del Documento para encontrar opciones de acceso rápido.

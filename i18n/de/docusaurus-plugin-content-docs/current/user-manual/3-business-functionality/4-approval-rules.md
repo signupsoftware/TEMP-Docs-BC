@@ -91,7 +91,7 @@ Wenn der erste Genehmigende die Genehmigungsgruppe 1 ist und immer genehmigt, de
 
 
 ### Immer neue Genehmigende vorschlagen
-Gehe zu: ***Setup --> ExFlow Setup --> Approval***
+Gehe zu: ***ExFlow-Einrichtung --> Genehmigung***
 
 Genehmigungsregeln und dynamische Genehmigungsregeln ermöglichen es ExFlow, automatisch Genehmigungsregeln oder dynamische Genehmigungsabläufe für Dokumente zu identifizieren und anzuwenden, die von einem Benutzer in ExFlow Web geändert wurden.
 
