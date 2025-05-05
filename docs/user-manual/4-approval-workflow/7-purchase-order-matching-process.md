@@ -460,7 +460,7 @@ Go to: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Cred
 
 Choose fields to copy in “PO Header Value on Invoice Setup”<br/>
 
-Go to: ***ExFlow Setup – Related --> Advanced --> PO Header Values on Invoice Setup***
+Go to: ***ExFlow Setup – Related --> Advanced --> Go to: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Credit Memo***
 
 ![Copy Purchase Order Header – Setup](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 
