@@ -61,23 +61,32 @@ Si "Sin Coincidencia de Orden de Compra" está habilitado y el documento interpr
 
 ## Importación OCR
 
-Ir a: **Configuración de ExFlow --> Importación OCR**
+Vaya a: **Configuración de ExFlow --> Importación OCR** 
 
 ### Mapeo de IVA
+Deje que ExFlow le ayude con el mapeo de porcentajes de IVA importados hacia Grupos de Registro de Producto de IVA. 
 
-Permita que ExFlow ayude con el mapeo de los porcentajes de IVA importados hacia los Grupos de Registro de Productos de IVA.
+Con EDI es muy común que el porcentaje del IVA en la línea se transfiera. Sin embargo, esto no se puede utilizar en Business Central estándar y ExFlow ha creado ahora un mapeo propio para esto. 
 
-Ir a: **Configuración de ExFlow --> Acciones --> Funciones --> OCR --> Mapeo de IVA**
+#### Configurar ExFlow Data Capture
+Para clientes que utilizan otros servicios, como ExFlow Data Capture, se debe añadir un campo personalizado a nivel de línea en EDC donde se pueda interpretar el porcentaje de IVA. 
+
+Este campo también debe mapearse a nivel de línea en la Definición de Intercambio de Datos en Business Central. 
+
+#### Configuración de Mapeo de IVA
+Vaya a: **Configuración de ExFlow --> Acciones --> Funciones --> OCR --> Mapeo de IVA**
 
 ![IVA](@site/static/img/media/vat-mapping-001.png)
 
-Edite la lista y agregue los valores de Mapeo de IVA que se deben mapear, y elija el Grupo de Registro de Productos de IVA al que se deben mapear, en ''Grupo de Registro de Productos de IVA''.
+Edite la lista y agregue los valores de Mapeo de IVA que se mapearán, y elija el Grupo de Registro de Producto de IVA al que debe mapearse, en ''Grupo de Registro de Producto de IVA''.
 
 ![IVA](@site/static/img/media/vat-mapping-002.png)
 
-#### Deshabilitar Mensajes de Advertencia para el Mapeo de IVA
 
-Vaya a Importación OCR --> Deshabilitar Mensajes de Advertencia para el Mapeo de IVA para desactivar los mensajes de advertencia para el mapeo de IVA.
+#### Desactivar Mensajes de Advertencia para Mapeo de IVA
+Cuando el IVA es incorrecto, ExFlow presentará un mensaje de advertencia. Si no se desean mensajes, estos pueden desactivarse.
 
-Cuando está deshabilitado, no se presentarán mensajes de advertencia en el Diario de Importación para los valores importados relacionados con el mapeo del Grupo de Registro de Productos de IVA.
+Vaya a: **Importación OCR --> Desactivar Mensajes de Advertencia para Mapeo de IVA** para desactivar los mensajes de advertencia para el mapeo de IVA. 
+
+Cuando está desactivado, no se presentarán mensajes de advertencia en el Diario de Importación para los valores importados con respecto al mapeo del Grupo de Registro de Producto de IVA.
 

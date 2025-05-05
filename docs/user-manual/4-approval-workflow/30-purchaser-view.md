@@ -23,6 +23,7 @@ Read more about this under [**Get Started**](https://docs.signupsoftware.com/bus
 ### User Setup
 
 Go to: **User Setup**
+
 The Business Central User ID need to be entered in User Setup to access the Purchaser View. <br/>
 
 Also add the User’s Purchaser Code to get a filtered view on that Purchaser Code, this is not mandatory. However, if no Purchaser Code is set, the purchaser will see all existing order matched document lines with errors.
@@ -176,6 +177,7 @@ That order will disappear from the Purchasers View, since receiving it will also
 
 #### Send Receipt Reminder 
 Go to: **Actions --> Email --> Send Receipt Reminders**
+
 If the goods are not received, then the Purchaser can send a reminder to warehouse workers, purchase coordinator or other colleagues. <br/>
 
 Read more about this under [***Email Reminders --> Unreceived Order***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders)
@@ -243,7 +245,7 @@ AP staff can also use short commando ‘’Alt+M’’ to enter the Manual Order
 The document can now be created. When created, the document will then be found in Approval Status as usual, but marked as: blocked for posting, until further adjustments are executed.
 
 ### Approval Status 
-Go to: Approval Status --> Document Lines --> Multiple Error Lines Exist<br/>
+Go to: **Approval Status --> Document Lines --> Multiple Error Lines Exist**<br/>
 
 In Approval Status, AP can see if a document contains Multiple Error Lines under the Document Lines. If the order matched document error lines have been handled and resolved, the Multiple Error Lines will follow to view the history. <br/>
 

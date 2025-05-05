@@ -57,22 +57,30 @@ Wenn "Keine Bestellabgleichung" aktiviert ist und das interpretierte Dokument ei
 
 ## OCR-Import
 
-Gehe zu: **ExFlow Einrichtung --> OCR-Import**
+Gehe zu: **ExFlow Setup --> OCR-Import** 
 
-### MwSt.-Mapping
+### MwSt.-Zuordnung
+Lassen Sie ExFlow bei der Zuordnung von importierten MwSt.-Prozentsätzen zu MwSt.-Produktbuchungsgruppen helfen. 
 
-Lassen Sie ExFlow beim Mapping von importierten MwSt.-Prozentsätzen zu MwSt.-Produktbuchungsgruppen helfen.
+Bei EDI ist es sehr üblich, dass der Prozentsatz der MwSt. auf der Zeile übertragen wird. Dies kann jedoch in Standard Business Central nicht genutzt werden, und ExFlow hat jetzt eine eigene Zuordnung dafür erstellt. 
 
-Gehe zu: **ExFlow Einrichtung --> Aktionen --> Funktionen --> OCR --> MwSt.-Mapping**
+#### ExFlow Data Capture einrichten
+Für Kunden, die andere Dienste wie ExFlow Data Capture nutzen, muss ein benutzerdefiniertes Feld auf Zeilenebene in EDC hinzugefügt werden, wo der MwSt.-Prozentsatz interpretiert werden kann. 
 
-![MwSt. Mapping](../../images/vat-mapping-001.png)
+Dieses Feld muss auch auf Zeilenebene in der Datenaustausch-Definition in Business Central zugeordnet werden. 
 
-Bearbeiten Sie die Liste und fügen Sie die MwSt.-Mapping-Werte hinzu, die zugeordnet werden sollen. Wählen Sie die MwSt.-Produktbuchungsgruppe aus, der sie unter ''MwSt.-Produktbuchungsgruppe'' zugeordnet werden soll.
+#### MwSt.-Zuordnungs-Setup
+Gehe zu: **ExFlow Setup --> Aktionen--> Funktionen--> OCR --> MwSt.-Zuordnung**
 
-![MwSt. Mapping](../../images/vat-mapping-002.png)
+![MwSt.](../../images/vat-mapping-001.png)
 
-#### Warnmeldungen für MwSt.-Mapping deaktivieren
+Bearbeiten Sie die Liste und fügen Sie die zu zuordnenden MwSt.-Zuordnungswerte hinzu, und wählen Sie unter ''MwSt.-Prod. Buchungsgruppe'' die MwSt.-Produktbuchungsgruppe aus, zu der zugeordnet werden soll.
 
-Gehe zu OCR-Import --> Warnmeldungen für MwSt.-Mapping deaktivieren, um die Warnmeldungen für MwSt.-Mapping auszuschalten.
+![MwSt.](../../images/vat-mapping-002.png)
 
-Wenn deaktiviert, werden im Import-Journal keine Warnmeldungen für die importierten Werte bezüglich des MwSt.-Produktbuchungsgruppen-Mappings angezeigt.
+#### Warnmeldungen für MwSt.-Zuordnung deaktivieren
+Wenn die MwSt. falsch ist, zeigt ExFlow eine Warnmeldung an. Wenn keine Meldungen gewünscht sind, können diese deaktiviert werden.
+
+Gehe zu: **OCR-Import --> Warnmeldungen für MwSt.-Zuordnung deaktivieren** um die Warnmeldungen für die MwSt.-Zuordnung zu deaktivieren. 
+
+Wenn deaktiviert, werden im Import-Journal keine Warnmeldungen für die importierten Werte bezüglich der Zuordnung der MwSt.-Produktbuchungsgruppe angezeigt.
