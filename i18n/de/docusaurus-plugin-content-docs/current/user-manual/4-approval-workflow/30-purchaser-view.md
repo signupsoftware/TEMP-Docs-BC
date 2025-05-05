@@ -23,6 +23,7 @@ Lesen Sie mehr darüber unter [**Erste Schritte**](https://docs.signupsoftware.c
 ### Benutzereinrichtung
 
 Gehen Sie zu: **Benutzereinrichtung**
+
 Die Business Central Benutzer-ID muss in der Benutzereinrichtung eingetragen werden, um auf die Einkäuferansicht zugreifen zu können. <br/>
 
 Fügen Sie auch den Einkäufercode des Benutzers hinzu, um eine gefilterte Ansicht für diesen Einkäufercode zu erhalten. Dies ist nicht zwingend erforderlich. Wenn jedoch kein Einkäufercode festgelegt ist, sieht der Einkäufer alle vorhandenen auftragsabgeglichenen Dokumentzeilen mit Fehlern.
@@ -176,6 +177,7 @@ Dieser Auftrag wird aus der Einkäuferansicht verschwinden, da der Empfang ihn a
 
 #### Wareneingangserinnerung senden 
 Gehen Sie zu: **Aktionen --> E-Mail --> Wareneingangserinnerungen senden**
+
 Wenn die Waren nicht eingegangen sind, kann der Einkäufer eine Erinnerung an Lagerarbeiter, Einkaufskoordinatoren oder andere Kollegen senden.<br/>
 
 Lesen Sie mehr darüber unter [***E-Mail-Erinnerungen --> Nicht empfangener Auftrag***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders)
@@ -243,7 +245,7 @@ Das Kreditorenbuchhaltungsteam kann auch den Kurzbefehl "Alt+M" verwenden, um di
 Das Dokument kann nun erstellt werden. Wenn es erstellt wurde, wird das Dokument wie gewohnt im Genehmigungsstatus gefunden, jedoch als "für die Buchung gesperrt" markiert, bis weitere Anpassungen vorgenommen werden.
 
 ### Genehmigungsstatus 
-Gehen Sie zu: Genehmigungsstatus --> Dokumentzeilen --> Mehrere Fehlerzeilen vorhanden<br/>
+Gehen Sie zu: **Genehmigungsstatus --> Dokumentzeilen --> Mehrere Fehlerzeilen vorhanden** <br/>
 
 Im Genehmigungsstatus kann das Kreditorenbuchhaltungsteam sehen, ob ein Dokument mehrere Fehlerzeilen enthält, unter den Dokumentzeilen. Wenn die auftragsabgeglichenen Dokumentfehlerzeilen bearbeitet und gelöst wurden, folgen die Mehrere Fehlerzeilen, um die Historie anzuzeigen.<br/>
 

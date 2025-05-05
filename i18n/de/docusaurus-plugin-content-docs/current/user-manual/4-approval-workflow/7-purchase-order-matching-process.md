@@ -389,13 +389,13 @@ Diese Funktion kann auch pro Lieferant unter [***Vendor Setup***](https://docs.s
 
 Für Kunden, die auf Kopfebene interpretieren und abgleichen, können einige Werte aus dem Auftragskopf jetzt vom Auftragskopf in den Rechnungskopf kopiert werden.<br/>
 
-Beginnen Sie mit der Aktivierung von "Use PO Header Values on Invoice" im ExFlow Setup.<br/>
+Beginnen Sie mit der Aktivierung von "Kopieren von Kopfwerten in Rechnung/Gutschrift" im ExFlow Setup.<br/>
 
-Gehen Sie zu: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Credit Memo***
+Gehen Sie zu: ***ExFlow-Einrichtung – Auftragsabgleich --> Kopieren von Kopfwerten in Rechnung/Gutschrift***
 
 Wählen Sie Felder zum Kopieren in “PO Header Value on Invoice Setup”<br/>
 
-Gehen Sie zu: ***ExFlow Setup – Related --> Advanced --> PO Header Values on Invoice Setup***
+Gehen Sie zu: ***ExFlow-Einrichtung – Verwandt --> Erweitert --> Kopieren von Kopfwerten in Rechnung/Gutschrift***
 
 ![Copy Purchase Order Header – Setup](../../images/po-header-value-on-invoice-setup-001.png)
 
@@ -405,7 +405,7 @@ Für die US- und CA-Lokalisierung können auch Steuerpflichtig und Steuergebiet 
 
 Use PO Head Values on Invoice kann pro Lieferant aus dem ExFlow Vendor Setup ausgewählt werden.<br/>
 
-Gehen Sie zu: ***ExFlow Vendor Setup --> ExFlow Vendor Setup Card*** --> Drücken Sie “Show more” auf dem Order Matching-Schnelltab.
+Gehen Sie zu: ***ExFlow-Kreditoreneinrichtung --> ExFlow-Kreditoreneinrichtungskarte*** --> Drücken Sie “Show more” auf dem Order Matching-Schnelltab.
 
 Die zu kopierenden Felder verwenden immer die Einstellungen aus dem ExFlow Setup.
 

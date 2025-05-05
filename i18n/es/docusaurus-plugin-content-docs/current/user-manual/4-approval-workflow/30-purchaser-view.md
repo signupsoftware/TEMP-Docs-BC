@@ -23,6 +23,7 @@ Lea más sobre esto en [**Primeros Pasos**](https://docs.signupsoftware.com/busi
 ### Configuración de Usuario
 
 Vaya a: **Configuración de Usuario**
+
 El ID de Usuario de Business Central debe ingresarse en la Configuración de Usuario para acceder a la Vista del Comprador. <br/>
 
 También agregue el Código de Comprador del Usuario para obtener una vista filtrada según ese Código de Comprador, esto no es obligatorio. Sin embargo, si no se establece ningún Código de Comprador, el comprador verá todas las líneas de documentos con coincidencia de órdenes existentes que tengan errores.
@@ -176,6 +177,7 @@ Esa orden desaparecerá de la Vista del Comprador, ya que recibirla también la 
 
 #### Enviar Recordatorio de Recepción 
 Vaya a: **Acciones --> Correo Electrónico --> Enviar Recordatorios de Recepción**
+
 Si los bienes no se reciben, el Comprador puede enviar un recordatorio a los trabajadores del almacén, coordinador de compras u otros colegas.<br/>
 
 Lea más sobre esto en [***Recordatorios por Correo Electrónico --> Orden No Recibida***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders)
@@ -243,7 +245,7 @@ El personal de AP también puede usar el comando corto ‘’Alt+M’’ para in
 El documento ahora se puede crear. Cuando se cree, el documento se encontrará en Estado de Aprobación como de costumbre, pero marcado como: bloqueado para publicación, hasta que se realicen más ajustes.
 
 ### Estado de Aprobación 
-Vaya a: Estado de Aprobación --> Líneas de Documentos --> Existencia de Múltiples Líneas de Error<br/>
+Vaya a: **Estado de Aprobación --> Líneas de Documentos --> Existencia de Múltiples Líneas de Error** <br/>
 
 En Estado de Aprobación, AP puede ver si un documento contiene Múltiples Líneas de Error en las Líneas de Documentos. Si las líneas de error del documento con coincidencia de órdenes se han gestionado y resuelto, las Múltiples Líneas de Error seguirán para ver el historial.<br/>
 

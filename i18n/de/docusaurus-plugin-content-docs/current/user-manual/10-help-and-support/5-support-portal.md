@@ -14,7 +14,7 @@ Jeder Kunde hat standardmäßig zwei dedizierte Superuser, die auf das Support-P
 
 Sehen Sie sich unsere [Einführung in das Support-Portal](https://www.youtube.com/playlist?list=PLJAWzooWyJH8qpTlXwSyNoBOJbM697r8C) an, um mehr darüber zu erfahren, wie Sie ein Ticket erstellen und wie das Support-Portal funktioniert.
 
-Klicken Sie auf *ANMELDEN* und wählen Sie die Authentifizierungsmethode, um sich anzumelden.
+Klicken Sie auf **ANMELDEN** und wählen Sie die Authentifizierungsmethode, um sich anzumelden.
 
 ![Support-Portal](../../images/support-portal-sign-in-001.png)
 

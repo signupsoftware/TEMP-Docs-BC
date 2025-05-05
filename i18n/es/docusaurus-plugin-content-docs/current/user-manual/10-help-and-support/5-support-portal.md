@@ -14,7 +14,7 @@ Cada cliente, como estándar, tiene dos superusuarios dedicados que accederán a
 
 Vea nuestra [Introducción al Portal de Soporte](https://www.youtube.com/playlist?list=PLJAWzooWyJH8qpTlXwSyNoBOJbM697r8C) para aprender más sobre cómo crear un ticket y cómo funciona el portal de soporte.
 
-Haga clic en *INICIAR SESIÓN* y elija el método de autenticación para ingresar.
+Haga clic en **INICIAR SESIÓN** y elija el método de autenticación para ingresar.
 
 ![Portal de Soporte](@site/static/img/media/support-portal-sign-in-001.png)
 

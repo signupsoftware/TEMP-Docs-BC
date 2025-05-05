@@ -387,13 +387,13 @@ Esta función también se puede realizar por proveedor en [***Configuración de 
 
 Para los clientes que interpretan y coinciden órdenes a nivel de cabecera, algunos valores en la orden ahora se pueden copiar desde la cabecera de la Orden a la cabecera de la Factura.<br/>
 
-Comience activando "Usar Valores de Cabecera de Orden en Factura" en la Configuración de ExFlow.<br/>
+Comience activando "Copiar Valores de Cabecera a Factura/Nota de Crédito" en la Configuración de ExFlow.<br/>
 
 Vaya a: ***Configuración de ExFlow – Coincidencia de Órdenes --> Copiar Valores de Cabecera a Factura/Nota de Crédito***
 
 Elija los campos a copiar en “Configuración de Valores de Cabecera de Orden en Factura”<br/>
 
-Vaya a: ***Configuración de ExFlow – Relacionado --> Avanzado --> Configuración de Valores de Cabecera de Orden en Factura***
+Vaya a: ***Configuración de ExFlow – Relacionado --> Avanzado --> Copiar Valores de Cabecera a Factura/Nota de Crédito***
 
 ![Copiar Valores de Cabecera de Orden – Configuración](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 
