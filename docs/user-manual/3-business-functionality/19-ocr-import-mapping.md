@@ -67,7 +67,7 @@ If "No Purchase Order Matching" is enabled and the interpreted document has an i
 Go to: **ExFlow Setup --> OCR Import** 
 
 ### VAT Mapping
-Let ExFlow help out with mapping of imported VAT % towards VAT Product Posting Groups. 
+Let ExFlow help out with mapping of imported VAT % towards VAT Product Posting Groups.      
 
 With EDI it is very common that the percentage of the VAT on the line is carried over. However, this can't be utilized in Standard Business Central and ExFlow has now created an own mapping for this. 
 
