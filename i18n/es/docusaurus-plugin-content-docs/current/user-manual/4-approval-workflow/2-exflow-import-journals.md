@@ -473,9 +473,9 @@ Para usar estos campos, primero deben añadirse usando personalización.
 #### Nueva Línea / Eliminar Línea
 Vaya a: **Líneas de Importación --> Administrar --> Nueva Línea / Eliminar Línea** <br/>
 
-**Nueva Línea:** Añade nueva línea para crear una nueva entrada. <br/>
+**Nueva Línea:** Añada una nueva línea para crear una nueva entrada. <br/>
 
-**Eliminar Línea:** Elimina la fila seleccionada. <br/>
+**Eliminar Línea:** Elimine la fila seleccionada. <br/>
 
 ![Diario de Importación de ExFlow -- Líneas de Importación](@site/static/img/media/image201.png)
 
@@ -494,7 +494,7 @@ Vaya a: ***Líneas de Importación --> Línea --> Mostrar Propuesta de Aprobaci�
 
 ### Mostrar Reglas de Aprobación Disponibles
 Vaya a: ***Líneas de Importación --> Línea --> Mostrar Reglas de Aprobación Disponibles***<br/>
-Esto mostrará todas las reglas de aprobación disponibles con la prioridad más alta en la parte superior.
+Esto mostrará todas las reglas de aprobación disponibles con la mayor prioridad en la parte superior.
 
 
 
@@ -502,38 +502,38 @@ Esto mostrará todas las reglas de aprobación disponibles con la prioridad más
 Vaya a: ***Líneas de Importación --> Línea --> Programación de Diferimiento***<br/>
 
 Si se especifica un código de plantilla de diferimiento, haga clic en Programación de Diferimiento para ver/editar la programación de diferimiento para la línea de documento seleccionada. En ExFlow, la Programación de Diferimiento se usa para el documento de aprobación de ExFlow y no
-para la factura de compra.
+la factura de compra.
 
 #### Mover Diferimiento Adelante
 Vaya a: **Configuración de ExFlow --> General --> Mover Diferimiento Adelante**
 
-Mover Diferimiento Adelante moverá automáticamente los Diferimientos dentro de períodos de diferimiento cerrados al siguiente abierto al registrar para Facturas de Compra y Notas de Crédito de Compra incluso si el documento está activo para Aprobación de ExFlow o no.
+Mover Diferimiento Adelante moverá automáticamente los Diferimientos dentro de los períodos de diferimiento cerrados al siguiente abierto al registrar Facturas de Compra y Notas de Crédito de Compra, incluso si el documento está activo para la Aprobación de ExFlow o no.
 
-Por ejemplo:
+Ej.
 Permitir Registro de Diferimiento desde 2023-01-15.
 
-Crear una Factura con Programación de Diferimiento para tres meses y Fecha de Inicio en la Fecha de Registro.
+Crear una Factura con Programación de Diferimiento para tres meses y Fecha de Inicio en Fecha de Registro.
 
-2023-01-15 // 5 000,00<br/>
-2023-02-01 // 10 000,00<br/>
-2023-03-01 // 10 000,00<br/>
-2023-04-15 // 5 000,00
+2023-01-15 // 5 000,00<br/>
+2023-02-01 // 10 000,00<br/>
+2023-03-01 // 10 000,00<br/>
+2023-04-15 // 5 000,00
 
-Después del cierre mensual, actualice Permitir Programación de Diferimiento a 2023-02-01
+Después del cierre mensual, actualice Permitir Registro de Diferimiento a 2023-02-01
 
 Al registrar, Business Central preguntará si desea actualizar la Fecha de Inicio del Diferimiento y actualizar la Fecha de Registro a 2023-02-01.
 
-Si es sí, entonces Business Central moverá todos los períodos hacia adelante.
+Si responde sí, entonces Business Central moverá todos los períodos adelante.
 
-2023-02-01 // 10 000,00<br/>
-2023-03-01 // 10 000,00<br/>
-2023-04-01 // 10 000,00
+2023-02-01 // 10 000,00<br/>
+2023-03-01 // 10 000,00<br/>
+2023-04-01 // 10 000,00
 
-Pero si en su lugar responde No y deja que ExFlow Mueva Diferimiento Adelante, enero se añadirá a febrero ya que este es el primer período de registro permitido para Diferimientos.
+Pero si en su lugar responde No y deja que ExFlow Mueva el Diferimiento Adelante, enero se añadirá a febrero ya que este es el primer período de registro permitido para Diferimientos.
 
-2023-02-01 // 15 000,00<br/>
-2023-03-01 // 10 000,00<br/>
-2023-04-15 // 5 000,00
+2023-02-01 // 15 000,00<br/>
+2023-03-01 // 10 000,00<br/>
+2023-04-15 // 5 000,00
 
 ### Obtener Líneas Interpretadas
 Vaya a: ***Líneas de Importación --> Línea --> Obtener Líneas Interpretadas***<br/>
@@ -547,14 +547,14 @@ Si un usuario elimina accidentalmente todas las líneas, es posible usar "Obtene
 Vaya a: ***Líneas de Importación --> Línea --> Mostrar Reglas de Aprobación Disponibles***<br/>
 Esta función muestra todas las reglas de aprobación disponibles para la línea de documento seleccionada.
 
-### Mostrar Propietarios de Dimensión Actuales
-Vaya a: ***Líneas de Importación --> Línea --> Mostrar Propietarios de Dimensión Actuales***<br/>
-Ver los Propietarios de Dimensión de ExFlow para la lista actual de aprobadores sugeridos.
+### Mostrar Propietarios de Dimensiones Actuales
+Vaya a: ***Líneas de Importación --> Línea --> Mostrar Propietarios de Dimensiones Actuales***<br/>
+Ver los Propietarios de Dimensiones de ExFlow para la lista actual de aprobadores sugeridos.
 
 
 ### Mostrar Presupuesto
-Si el Control de Presupuesto del Libro Mayor está activado, es posible ver el cálculo.
-Lea más en la sección [***Control de Presupuesto del Libro Mayor***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/gl-budget-control)
+Si el Control de Presupuesto de G/L está activado, es posible ver el cálculo.
+Lea más en la sección [***Control de Presupuesto de G/L***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/gl-budget-control)
 
 ### Líneas de Importación - Pedido
 
@@ -565,33 +565,33 @@ Vaya a: **Líneas de Importación --> Pedido**
 ### Ficha de Pedido
 Vaya a: ***Líneas de Importación --> Pedido --> Ficha de Pedido***
 
-Si la línea de documento coincide con un pedido, haga clic en Ficha de Pedido para abrir la correspondiente ficha de pedido de compra/pedido de devolución.<br/>
+Si la línea de documento está coincidente con un pedido, haga clic en Ficha de Pedido para abrir la correspondiente ficha de pedido de compra/devolución de pedido.<br/>
 
-### Asignación de Cargo de Artículo
-Vaya a: ***Líneas de Importación --> Pedido --> Asignación de Cargo de Artículo***<br/>
+### Asignación de Cargos de Artículo
+Vaya a: ***Líneas de Importación --> Pedido --> Asignación de Cargos de Artículo***<br/>
 
 Al usar Cargo (Artículo), la asignación puede hacerse de tres maneras. Desde el Diario de Importación, automáticamente o manualmente desde la Ficha de Factura.
 
 Manualmente desde el Diario de Importación: <br/>
 
 
-![Diario de Importación de ExFlow - Líneas de Importación - Asignación de Cargo de Artículo](@site/static/img/media/image204.png)
+![Diario de Importación de ExFlow - Líneas de Importación - Asignación de Cargos de Artículo](@site/static/img/media/image204.png)
 
-![Asignación de Cargo de Artículo (Compra ExFlow)](@site/static/img/media/image205.png)
+![Asignación de Cargos de Artículo (ExFlow Compras)](@site/static/img/media/image205.png)
 
-Deje que ExFlow asigne automáticamente el Cargo de Artículo. Añada una opción sobre cómo calcular la asignación "Por igual, Por importe, Por peso o Por volumen" en el campo "Asignación automática de cargo de artículo" bajo Coincidencia de Pedido en la Configuración de ExFlow.
+Deje que ExFlow asigne automáticamente el Cargo de Artículo. Añada una opción sobre cómo calcular la asignación "Igualmente, Por Importe, Por Peso o Por Volumen" en el campo "Asignación Automática de Cargos de Artículo" bajo Coincidencia de Pedido en Configuración de ExFlow.
 
-Si se usa la Asignación automática de cargo de artículo, Cargo (Artículo) será asignado al ejecutar Verificar Cambios en Estado de Aprobación y ya no será posible asignar manualmente desde el Diario de Importación.
+Si se usa Asignación Automática de Cargos de Artículo, el Cargo (Artículo) se asignará al ejecutar Verificar Cambios en Estado de Aprobación y ya no será posible asignar manualmente desde el Diario de Importación.
 
-La Asignación automática de cargo de artículo también puede establecerse por proveedor. Vaya a la Configuración de Proveedor de ExFlow para asignar una opción específica de cargo de artículo para un proveedor específico, o para excluir a un proveedor específico (si esta función está habilitada en la Configuración de ExFlow) eligiendo la opción "Ninguno".
+La Asignación Automática de Cargos de Artículo también puede configurarse por proveedor. Vaya a Configuración de Proveedor de ExFlow para asignar una opción específica de cargo de artículo para un proveedor específico, o para excluir un proveedor específico (si esta función está habilitada en Configuración de ExFlow) eligiendo la opción "Ninguno".
 
 ### Filtrar/Desfiltrar Misma Línea de Importación
 Vaya a: ***Líneas de Importación --> Pedido -->Filtrar/Desfiltrar Misma Línea de Importación***
 
 Filtrar/Desfiltrar para mostrar otros documentos o líneas con el mismo Nº de Pedido y Nº de Línea de Pedido.
 
-### Documentos Relacionados con Línea de Pedido
-Vaya a: ***Líneas de Importación --> Pedido -->Documentos Relacionados con Línea de Pedido***
+### Documentos Relacionados con la Línea de Pedido
+Vaya a: ***Líneas de Importación --> Pedido -->Documentos Relacionados con la Línea de Pedido***
 
 Muestra dónde se usa la línea de pedido seleccionada en el documento de compra elegido.
 

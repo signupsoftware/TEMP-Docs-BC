@@ -194,7 +194,6 @@ Es posible enviar recordatorios por correo electrónico para documentos de aprob
 Lea más en la sección [***Configuración de Correo Electrónico de ExFlow --> Orden Rechazada, Cotización Rechazada y Factura/Nota de Crédito Rechazada***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup)
 
 ### Abrir Visor de PDF en Nueva Pestaña
-### Abrir PDF- Visor en una nueva pestaña
 Es posible abrir el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.
 
 Esta función se traslada del menú Importar diario al cuadro informativo PDF en el lado derecho.

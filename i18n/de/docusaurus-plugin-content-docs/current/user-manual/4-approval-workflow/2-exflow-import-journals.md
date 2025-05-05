@@ -464,7 +464,6 @@ Um diese Felder zu verwenden, müssen sie zuerst durch Personalisierung hinzugef
 
 ![ExFlow Import-Journal](../../images/image214.png)
 
-
 ## Import-Journal - Importzeilen
 
 ### Importzeilen - Verwalten
@@ -485,7 +484,7 @@ Gehen Sie zu: **Importzeilen --> Zeile**
 
 ### Dimensionen
 Gehen Sie zu: ***Importzeilen --> Zeile --> Dimensionen***<br/>
-Alle Dimensionen für die aktuelle Zeile anzeigen.
+Zeigt alle Dimensionen für die aktuelle Zeile an.
 
 ### Genehmigungsvorschlag anzeigen
 Zeigt den aktuellen Genehmigungsvorschlag für die ausgewählte Dokumentzeile an.<br/>
@@ -498,38 +497,39 @@ Dies zeigt alle verfügbaren Genehmigungsregeln mit der höchsten Priorität obe
 ### Abgrenzungsplan
 Gehen Sie zu: ***Importzeilen --> Zeile --> Abgrenzungsplan***<br/>
 
-Wenn ein Abgrenzungsvorlagen-Code angegeben ist, klicken Sie auf Abgrenzungsplan, um den Abgrenzungsplan für die ausgewählte Dokumentzeile anzuzeigen/zu bearbeiten. In ExFlow wird der Abgrenzungsplan für das ExFlow-Genehmigungsdokument und nicht für die Einkaufsrechnung verwendet.
+Wenn ein Abgrenzungsvorlagen-Code angegeben ist, klicken Sie auf Abgrenzungsplan, um den Abgrenzungsplan für die ausgewählte Dokumentzeile anzuzeigen/zu bearbeiten. In ExFlow wird der Abgrenzungsplan für das ExFlow-Genehmigungsdokument und nicht
+die Einkaufsrechnung verwendet.
 
 #### Abgrenzung vorwärts verschieben
 Gehen Sie zu: **ExFlow Setup --> Allgemein --> Abgrenzung vorwärts verschieben**
 
-Abgrenzung vorwärts verschieben wird automatisch Abgrenzungen innerhalb geschlossener Abgrenzungszeiträume auf den nächsten offenen verschieben, wenn für Einkaufsrechnungen und Einkaufsgutschriften gebucht wird, unabhängig davon, ob das Dokument für die ExFlow-Genehmigung aktiv ist oder nicht.
+Abgrenzung vorwärts verschieben wird automatisch Abgrenzungen innerhalb geschlossener Abgrenzungszeiträume in den nächsten offenen verschieben, wenn für Einkaufsrechnungen und Einkaufsgutschriften gebucht wird, unabhängig davon, ob das Dokument für die ExFlow-Genehmigung aktiv ist oder nicht.
 
 Z.B.
 Abgrenzungsbuchung ab 2023-01-15 zulassen.
 
 Erstellen Sie eine Rechnung mit Abgrenzungsplan für drei Monate und Startdatum am Buchungsdatum.
 
-2023-01-15 // 5.000,00<br/>
-2023-02-01 // 10.000,00<br/>
-2023-03-01 // 10.000,00<br/>
-2023-04-15 // 5.000,00
+2023-01-15 // 5 000,00<br/>
+2023-02-01 // 10 000,00<br/>
+2023-03-01 // 10 000,00<br/>
+2023-04-15 // 5 000,00
 
-Nach monatlichem Abschluss aktualisieren Sie die Abgrenzungsbuchung auf 2023-02-01
+Nach dem monatlichen Abschluss aktualisieren Sie das Abgrenzungsbuchungsdatum auf 2023-02-01
 
-Beim Buchen wird Business Central fragen, ob Sie das Startdatum der Abgrenzung aktualisieren und das Buchungsdatum auf 2023-02-01 aktualisieren möchten.
+Beim Buchen wird Business Central fragen, ob Sie das Abgrenzungsstartdatum aktualisieren und das Buchungsdatum auf 2023-02-01 aktualisieren möchten.
 
-Wenn ja, wird Business Central alle Zeiträume vorwärts verschieben.
+Wenn ja, wird Business Central alle Perioden vorwärts verschieben.
 
-2023-02-01 // 10.000,00<br/>
-2023-03-01 // 10.000,00<br/>
-2023-04-01 // 10.000,00
+2023-02-01 // 10 000,00<br/>
+2023-03-01 // 10 000,00<br/>
+2023-04-01 // 10 000,00
 
-Wenn stattdessen Nein geantwortet wird und ExFlow die Abgrenzung vorwärts verschiebt, wird der Januar zum Februar hinzugefügt, da dies der erste zulässige Buchungszeitraum für Abgrenzungen ist.
+Wenn stattdessen mit Nein geantwortet wird und ExFlow die Abgrenzung vorwärts verschieben lässt, wird der Januar zu Februar hinzugefügt, da dies der erste zulässige Buchungszeitraum für Abgrenzungen ist.
 
-2023-02-01 // 15.000,00<br/>
-2023-03-01 // 10.000,00<br/>
-2023-04-15 // 5.000,00
+2023-02-01 // 15 000,00<br/>
+2023-03-01 // 10 000,00<br/>
+2023-04-15 // 5 000,00
 
 ### Interpretierte Zeilen abrufen
 Gehen Sie zu: ***Importzeilen --> Zeile --> Interpretierte Zeilen abrufen***<br/>
@@ -545,7 +545,7 @@ Diese Funktion zeigt alle verfügbaren Genehmigungsregeln für die ausgewählte 
 
 ### Aktuelle Dimensionseigentümer anzeigen
 Gehen Sie zu: ***Importzeilen --> Zeile --> Aktuelle Dimensionseigentümer anzeigen***<br/>
-Anzeigen der ExFlow-Dimensionseigentümer für die aktuelle Liste der vorgeschlagenen Genehmiger.
+Zeigen Sie die ExFlow-Dimensionseigentümer für die aktuelle Liste der vorgeschlagenen Genehmiger an.
 
 
 ### Budget anzeigen
@@ -556,39 +556,38 @@ Lesen Sie mehr im Abschnitt [***G/L-Budgetkontrolle***](https://docs.signupsoftw
 
 Gehen Sie zu: **Importzeilen --> Bestellung**
 
-![Bestellung](../../images/import-line-order-001.png)
+![order](../../images/import-line-order-001.png)
 
 ### Bestellkarte
 Gehen Sie zu: ***Importzeilen --> Bestellung --> Bestellkarte***
 
-Wenn die Dokumentzeile mit einer Bestellung abgeglichen ist, klicken Sie auf Bestellkarte, um die entsprechende Einkaufs-/Rücksendebestellkarte zu öffnen.<br/>
+Wenn die Dokumentzeile mit einer Bestellung abgeglichen ist, klicken Sie auf Bestellkarte, um die entsprechende Einkaufs-/Rücksendebestellung zu öffnen.<br/>
 
 ### Artikelkostenverteilung
 Gehen Sie zu: ***Importzeilen --> Bestellung --> Artikelkostenverteilung***<br/>
 
-Bei Verwendung von Artikelkosten kann die Zuweisung auf drei Arten erfolgen. Vom Import-Journal, automatisch oder manuell von der Rechnungskarte.
+Bei Verwendung von Charge (Artikel) kann die Zuweisung auf drei Arten erfolgen. Vom Import-Journal, automatisch oder manuell von der Rechnungskarte.
 
-Manuell vom Import-Journal: <br/>
+Manuell vom Import-Journal (Bestellung --> Artikel Zu-/Abschlags Zuweisung): <br/>
 
-![ExFlow Import-Journal - Importzeilen - Artikelkostenverteilung](../../images/image204.png)
 
-![Artikelkostenverteilung (ExFlow Purch)](../../images/image205.png)
+![Item Charge Assign. (ExFlow Purch)](../../images/image205.png)
 
-Lassen Sie ExFlow die Artikelkosten automatisch zuweisen. Fügen Sie eine Option hinzu, wie die Zuweisung berechnet werden soll "Gleichmäßig, nach Betrag, nach Gewicht oder nach Volumen" im Feld "Automatische Artikelkostenverteilung" unter Bestellabgleich im ExFlow-Setup.
+Lassen Sie ExFlow die Artikelkosten automatisch zuweisen. Fügen Sie eine Option hinzu, wie die Zuweisung "Gleichmäßig, nach Betrag, nach Gewicht oder nach Volumen" im Feld "Automatische Artikelkostenverteilung" unter Bestellabgleich im ExFlow-Setup berechnet werden soll.
 
-Wenn die automatische Artikelkostenverteilung verwendet wird, werden die Artikelkosten zugewiesen, wenn Änderungen im Genehmigungsstatus überprüft werden, und es ist nicht mehr möglich, manuell vom Import-Journal aus zuzuweisen.
+Wenn die automatische Artikelkostenverteilung verwendet wird, wird Charge (Artikel) zugewiesen, wenn Änderungen im Genehmigungsstatus überprüft werden, und es ist nicht mehr möglich, manuell vom Import-Journal aus zuzuweisen.
 
-Die automatische Artikelkostenverteilung kann auch pro Lieferant festgelegt werden. Gehen Sie zur ExFlow Lieferanteneinrichtung, um eine spezifische Artikelkostenoption für einen bestimmten Lieferanten zuzuweisen oder einen bestimmten Lieferanten auszuschließen (wenn diese Funktion im ExFlow-Setup aktiviert ist), indem Sie die Option "Keine" wählen.
+Die automatische Artikelkostenverteilung kann auch pro Lieferant festgelegt werden. Gehen Sie zur ExFlow-Lieferanteneinrichtung, um eine spezifische Artikelkostenoption für einen bestimmten Lieferanten zuzuweisen oder einen bestimmten Lieferanten auszuschließen (wenn diese Funktion im ExFlow-Setup aktiviert ist), indem Sie die Option "Keine" wählen.
 
 ### Gleiche Importzeile filtern/entfiltern
 Gehen Sie zu: ***Importzeilen --> Bestellung -->Gleiche Importzeile filtern/entfiltern***
 
 Filtern/entfiltern, um andere Dokumente oder Zeilen mit derselben Bestellnummer und Bestellzeilennummer anzuzeigen.
 
-### Bestellzeilenbezogene Dokumente
-Gehen Sie zu: ***Importzeilen --> Bestellung -->Bestellzeilenbezogene Dokumente***
+### Bestellzeile verwandte Dokumente
+Gehen Sie zu: ***Importzeilen --> Bestellung -->Bestellzeile verwandte Dokumente***
 
-Zeigt an, wo die ausgewählte Bestellzeile auf dem ausgewählten Einkaufsdokument verwendet wird.
+Zeigt an, wo die ausgewählte Bestellzeile auf dem gewählten Einkaufsdokument verwendet wird.
 
 
 ## Dokumenterstellungskontrollen
