@@ -18,6 +18,16 @@ Versión mayor
 **Información de la versión:** <br/>
 Requiere BC 25.0 o posterior <br/>
 
+El usuario SYSTEM (trabajo del sistema) se cambia al usuario actual en 25.0.246.7
+
+Se han añadido mejoras del proveedor de licencias v3 en la versión 25.0.246.7
+
+El cambio de nombre del proveedor de licencias v3 de SignUp a ExFlow se ha corregido en 25.0.246.7
+
+Se ha agregado el enlace a la página del proveedor de licencias a la descripción general de la configuración de AP de ExFlow en 25.0.246.7
+
+4PS - Diario de importación - La creación de líneas de diferencias se ha resuelto en 25.0.246.7
+
 **Nuevas funcionalidades** <br/>
 
 | ID | Área | Descripción |
@@ -68,6 +78,16 @@ Lanzamiento Menor
 
 **Información del Lanzamiento:** <br/>
 Requiere BC 24.0 o posterior <br/>
+
+Cambiar el procedimiento interno CreateInvoicePeriod a un procedimiento externo se agregó en 24.1.263.48
+
+4PS - ExFlow Approval Group - Opciones faltantes en el tipo de aprobación dinámica se resolvió en 24.1.263.48
+
+4PS - Factura de compra - El importe no actualizado se resolvió en 24.1.263.48
+
+4PS - El error al crear un nuevo usuario de ExFlow se resolvió en 24.1.263.44
+
+La instrucción incorrecta Siempre se estableció en la sugerencia de codificación automática, cuando el registro de configuración del proveedor de ExFlow no existía se resolvió en 24.1.263.44
 
 Nuevos eventos para 4PS añadidos en 24.1.263.39
 

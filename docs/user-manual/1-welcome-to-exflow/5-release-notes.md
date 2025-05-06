@@ -17,6 +17,15 @@ Major Release
 **Release Information:** <br/>
 Requires BC 25.0 or later <br/>
 
+SYSTEM user (system job) is changed to current user in 25.0.246.7
+
+License Provider v3 improvements have been added in 25.0.246.7
+
+License Provider v3 name change of SignUp to ExFlow has been fixed in 25.0.246.7
+
+Link to License Provider page has been added to ExFlow AP Setup overview in 25.0.246.7
+
+4PS - Import Journal - Diff Line creation has been resolved in 25.0.246.7
 
 **New Features** <br/> 
 
@@ -71,6 +80,16 @@ Minor Release
 
 **Release Information:** <br/>
 Requires BC 24.0 or later <br/>
+
+Change internal procedure CreateInvoicePeriod to external procedure was added in 24.1.263.48
+
+4PS - ExFlow Approval Group - Options missing in Dynamic Approval Type was resolved in 24.1.263.48
+
+4PS - Purchase Invoice - Amount not updated was resolved in 24.1.263.48
+
+4PS - Error when creating a new ExFlow User was resolved in 24.1.263.44 
+
+Wrong statement Always was set in Auto coding suggestion, when ExFlow vendor setup record didn't exist was resolved in 24.1.263.44
 
 New events for 4PS added in 24.1.263.39
  
