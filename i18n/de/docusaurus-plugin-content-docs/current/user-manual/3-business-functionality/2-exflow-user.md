@@ -216,11 +216,11 @@ Um zu sehen, wer den gesperrten Benutzer ersetzt, öffnen Sie die ExFlow-Benutze
 ![ExFlow-Benutzerkarte](../../images/exflow-user-007.png)
 <br/><br/>
 
-### Ändern der ExFlow-Benutzer-ID oder des Benutzernamens
- 
-Wenn ein (aktiver) Genehmiger seine ExFlow-Benutzer-ID oder seinen Benutzernamen ändern möchte, muss sein aktueller ExFlow-Benutzer gesperrt und durch einen neuen ExFlow-Benutzer mit der neuen Benutzer-ID/dem neuen Benutzernamen ersetzt werden.
+### Ändern der ExFlow-Benutzer-ID
 
-In diesen Fällen lesen Sie mehr und folgen Sie den Schritten unter [Genehmiger verlässt das Unternehmen](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-who-left-the-company-returns) 
+Wenn ein (aktiver) Genehmiger seine ExFlow-Benutzer-ID ändern möchte, muss sein aktueller ExFlow-Benutzer gesperrt und durch einen neuen ExFlow-Benutzer mit der neuen Benutzer-ID ersetzt werden.
+
+Lesen Sie in diesen Fällen mehr und befolgen Sie die Schritte unter [Genehmiger verlässt das Unternehmen](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-who-left-the-company-returns)
 
 
 ### Genehmiger, der das Unternehmen verlassen hat, kehrt zurück
