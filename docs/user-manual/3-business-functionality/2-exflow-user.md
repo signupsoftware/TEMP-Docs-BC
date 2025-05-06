@@ -217,9 +217,9 @@ To see who is replacing the blocked user open ExFlow User Card.
 ![ExFlow User Card](@site/static/img/media/exflow-user-007.png)
 <br/><br/>
 
-### Changing ExFlow User ID or User Name
+### Changing ExFlow User ID
  
-If an (active) approver would like to change their ExFlow User ID or User Name, then their current ExFlow User needs to be blocked and replaced with a new ExFlow User with the new User ID/Name. 
+If an (active) approver would like to change their ExFlow User ID, then their current ExFlow User needs to be blocked and replaced with a new ExFlow User with the new User ID. 
 
 In these cases, read more and follow the steps under [Approver Leaving the Company](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-who-left-the-company-returns) 
 

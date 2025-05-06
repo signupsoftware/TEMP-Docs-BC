@@ -216,11 +216,11 @@ Para ver quién está reemplazando al usuario bloqueado, abra la Ficha de Usuari
 ![Ficha de Usuario de ExFlow](@site/static/img/media/exflow-user-007.png)
 <br/><br/>
 
-### Cambiar ID de Usuario o Nombre de Usuario de ExFlow
- 
-Si un aprobador (activo) desea cambiar su ID de Usuario o Nombre de Usuario de ExFlow, entonces su actual Usuario de ExFlow debe ser bloqueado y reemplazado con un nuevo Usuario de ExFlow con el nuevo ID/Nombre de Usuario. 
+### Cambiar el ID de usuario de ExFlow
 
-En estos casos, lea más y siga los pasos en [Aprobador que Deja la Empresa](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-who-left-the-company-returns) 
+Si un aprobador (activo) desea cambiar su ID de usuario de ExFlow, su usuario de ExFlow actual debe ser bloqueado y reemplazado por un nuevo usuario de ExFlow con el nuevo ID de usuario.
+
+En estos casos, lea más y siga los pasos que se indican en [El aprobador abandona la empresa](https://docs.exflow.cloud/business-central/docs/user-manual/business-functionality/exflow-user#approver-who-left-the-company-returns)
 
 
 ### Aprobador que Dejó la Empresa, Regresa
