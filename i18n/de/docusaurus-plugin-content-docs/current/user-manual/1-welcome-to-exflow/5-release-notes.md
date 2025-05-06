@@ -16,6 +16,17 @@ Hauptversion
 **Versionsinformationen:** <br/>
 Erfordert BC 25.0 oder höher <br/>
 
+SYSTEM-Benutzer (Systemjob) wurde in 25.0.246.7 in den aktuellen Benutzer geändert.
+
+Verbesserungen bei License Provider v3 wurden in Release 25.0.246.7 hinzugefügt
+
+Die Namensänderung des Lizenzanbieters v3 von SignUp in ExFlow wurde in Release 25.0.246.7 behoben
+
+Der Link zur Seite "Lizenzanbieter" wurde der Übersicht über die ExFlow-AP-Einrichtung in Release 25.0.246.7 hinzugefügt.
+
+4PS - Import Journal - Erstellung der Diff-Linie wurde in Release 25.0.246.7 behoben
+
+
 **Neue Funktionen** <br/>
 
 | ID | Bereich | Beschreibung |
@@ -65,6 +76,16 @@ Kleinere Veröffentlichung
 
 **Veröffentlichungsinformationen:** <br/>
 Erfordert BC 24.0 oder höher <br/>
+
+Interne Prozedur CreateInvoicePeriod in externe Prozedur geändert wurde in 24.1.263.48 hinzugefügt
+
+4PS - ExFlow Approval Group - Fehlende Optionen im dynamischen Genehmigungstyp wurden in Release 24.1.263.48 behoben.
+
+4PS - Eingangsrechnung - Betrag nicht aktualisiert wurde in 24.1.263.48 behoben
+
+4PS - Fehler beim Erstellen eines neuen ExFlow-Benutzers wurde in 24.1.263.44 behoben
+
+Falsche Anweisung Wurde immer im Vorschlag für die automatische Codierung festgelegt, wenn der Einrichtungsdatensatz des ExFlow-Anbieters nicht vorhanden war, wurde in 24.1.263.44 behoben.
 
 Neue Events für 4PS in 24.1.263.39 hinzugefügt
 
