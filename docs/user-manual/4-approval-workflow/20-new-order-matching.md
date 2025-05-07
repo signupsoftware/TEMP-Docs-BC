@@ -196,20 +196,27 @@ Above features can also be used on a vendor level in "ExFlow Vendor Setup".
 
 ### Copy Header Values to Invoice/Credit Memo Setup
 
-Go to: **ExFlow Order Matching Setup --> Related --> Copy Header Values to Invoice/Credit Memo Setup**
+For customers that interpret and order match on header level, some values on the order can now be copied from the order header to the document header.<br/>
 
-For customers that interpret and order match on header level, some values on the order can now be copied from the Order header to the document header.<br/>
+Start by activating "Copy Header Values to Invoice/Credit Memo" in ExFlow Setup.<br/>
 
-Start by activating "Copy Header Values on Invoice/Credit Memo" in Order Matching Setup.<br/>
+Go to: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Credit Memo***
 
-Choose fields to copy in “Copy Header Values on Invoice/Credit Memo”<br/>
+Choose fields to copy in “Copy Header Values to Invoice/Credit Memo”<br/>
 
+Go to: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Credit Memo***
 
-![Copy Purchase Order Header – Setup](/img/media/po-header-value-on-invoice-setup-001.png)
+![Copy Purchase Order Header – Setup](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 
-For US and CA localization Tax Liable and Tax Area can also be copied from the Purchase Order to Purchase Invoice.
+For US and CA localization Tax Liable and Tax Area can also be copied from the Purchase Order /Return Order to Purchase Invoice/ Credit.
 
-![Copy Purchase Order Header – Setup CA - US](/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
+![Copy Purchase Order Header – Setup CA - US](@site/static/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
+
+This function can be used on a vendor level via ExFlow Vendor Setup.<br/>
+
+Go to: ***ExFlow Vendor Setup --> ExFlow Vendor Setup Card*** --> Press “Show more” on Order Matching fast tab.
+
+The fields to be copied will always use settings from ExFlow Setup.
 
 
 ### Auto Receiving Line Types

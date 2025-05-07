@@ -452,23 +452,23 @@ This function can also be made per vendor under [***Vendor Setup***](https://doc
 
 ### Copy Purchase Order Header Values
 
-For customers that interpret and order match on header level, some values on the order can now be copied from the Order header to Invoice header.<br/>
+For customers that interpret and order match on header level, some values on the order can now be copied from the order header to the document header.<br/>
 
-Start by activating "Use PO Header Values on Invoice" in ExFlow Setup.<br/>
+Start by activating "Copy Header Values to Invoice/Credit Memo" in ExFlow Setup.<br/>
 
 Go to: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Credit Memo***
 
-Choose fields to copy in “PO Header Value on Invoice Setup”<br/>
+Choose fields to copy in “Copy Header Values to Invoice/Credit Memo”<br/>
 
-Go to: ***ExFlow Setup – Related --> Advanced --> Go to: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Credit Memo***
+Go to: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Credit Memo***
 
 ![Copy Purchase Order Header – Setup](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 
-For US and CA localization Tax Liable and Tax Area can also be copied from the Purchase Order to Purchase Invoice.
+For US and CA localization Tax Liable and Tax Area can also be copied from the Purchase Order /Return Order to Purchase Invoice/ Credit.
 
 ![Copy Purchase Order Header – Setup CA - US](@site/static/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
 
-Use PO Head Values on Invoice can be selected per Vendor from ExFlow Vendor Setup.<br/>
+This function can be used on a vendor level via ExFlow Vendor Setup.<br/>
 
 Go to: ***ExFlow Vendor Setup --> ExFlow Vendor Setup Card*** --> Press “Show more” on Order Matching fast tab.
 
