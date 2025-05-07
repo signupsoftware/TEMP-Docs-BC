@@ -194,23 +194,29 @@ Las características anteriores también se pueden utilizar a nivel de proveedor
 
 ### Configuración de Coincidencia de Órdenes - Relacionado
 
-### Copiar Valores de Cabecera a la Configuración de Factura/Nota de Crédito
+### Copiar Valores de Cabecera en Factura/Nota de Crédito
 
-Vaya a: **Configuración de Coincidencia de Órdenes de ExFlow --> Relacionado --> Copiar Valores de Cabecera a la Configuración de Factura/Nota de Crédito**
+Para los clientes que interpretan y coinciden el pedido en el nivel de encabezado, algunos valores del pedido ahora se pueden copiar del encabezado del pedido al encabezado del documento.<br/>
 
-Para los clientes que interpretan y coinciden órdenes a nivel de cabecera, algunos valores en la orden ahora se pueden copiar desde la cabecera de la Orden a la cabecera del documento.<br/>
+Comience activando "Copiar valores de encabezado a factura/nota de crédito" en la configuración de ExFlow.<br/>
 
-Comience activando "Copiar Valores de Cabecera en Factura/Nota de Crédito" en la Configuración de Coincidencia de Órdenes.<br/>
+Vaya a: ***Configuración de ExFlow - Conciliación de pedidos --> Copiar valores de encabezado a factura/nota de crédito***
 
-Elija campos para copiar en “Copiar Valores de Cabecera en Factura/Nota de Crédito”<br/>
+Elija los campos que desea copiar en "Copiar valores de cabecera en factura/abono"<br/>
 
+Vaya a: ***Configuración de ExFlow - Conciliación de pedidos --> Copiar valores de encabezado a factura/nota de crédito***
 
-![Copiar Cabecera de Orden de Compra – Configuración](/img/media/po-header-value-on-invoice-setup-001.png)
+! [Copiar encabezado de orden de compra - Configuración](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 
-Para la localización de EE. UU. y CA, también se pueden copiar los campos de Responsabilidad Fiscal y Área Fiscal desde la Orden de Compra a la Factura de Compra.
+Para la localización de EE. UU. y CA, la obligación fiscal y el área fiscal también se pueden copiar de la orden de compra / orden de devolución a la factura de compra / crédito.
 
-![Copiar Cabecera de Orden de Compra – Configuración CA - EE. UU.](/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
+! [Copiar encabezado de orden de compra - Configuración CA - EE. UU.](@site/static/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
 
+Esta función se puede utilizar a nivel de proveedor a través de ExFlow Vendor Setup.<br/>
+
+Vaya a: ***Configuración de Proveedor de ExFlow --> Tarjeta de Configuración de Proveedor de ExFlow*** --> Presione “Mostrar más” en la pestaña rápida de Coincidencia de Órdenes.
+
+Los campos a copiar siempre usarán la configuración de la Configuración de ExFlow.
 
 ### Tipos de Línea de Recepción Automática
 

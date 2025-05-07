@@ -387,28 +387,27 @@ Diese Funktion kann auch pro Lieferant unter [***Vendor Setup***](https://docs.s
 
 ### Kopieren von Einkaufsauftragskopfwerten
 
-Für Kunden, die auf Kopfebene interpretieren und abgleichen, können einige Werte aus dem Auftragskopf jetzt vom Auftragskopf in den Rechnungskopf kopiert werden.<br/>
+Für Kunden, die interpretieren und bestellen auf Kopfebene übereinstimmen, können nun einige Werte des Auftrags aus dem Auftragskopf in den Belegkopf kopiert werden.
 
-Beginnen Sie mit der Aktivierung von "Kopieren von Kopfwerten in Rechnung/Gutschrift" im ExFlow Setup.<br/>
+Beginnen Sie mit der Aktivierung von "Kopfwerte in Rechnung/Gutschrift kopieren" in ExFlow Setup.
 
-Gehen Sie zu: ***ExFlow-Einrichtung – Auftragsabgleich --> Kopieren von Kopfwerten in Rechnung/Gutschrift***
+Gehen Sie zu: ***ExFlow-Einrichtung – Auftragsabgleich --> Kopieren von Kopfwerten in Rechnung/Gutschrift*** 
 
-Wählen Sie Felder zum Kopieren in “PO Header Value on Invoice Setup”<br/>
+Wählen Sie die zu kopierenden Felder in "Kopfwerte in Rechnung kopieren/Gutschrift" aus.
 
-Gehen Sie zu: ***ExFlow-Einrichtung – Verwandt --> Erweitert --> Kopieren von Kopfwerten in Rechnung/Gutschrift***
+Gehen Sie zu: ***ExFlow einrichten – Auftragsabgleich --> Kopfwerte in Rechnung/Gutschrift kopieren*** 
 
-![Copy Purchase Order Header – Setup](../../images/po-header-value-on-invoice-setup-001.png)
+![Bestellkopf kopieren – Einrichtung](../../images/po-header-value-on-invoice-setup-001.png) 
 
-Für die US- und CA-Lokalisierung können auch Steuerpflichtig und Steuergebiet vom Einkaufsauftrag in die Einkaufsrechnung kopiert werden.
+Für die Lokalisierung in den USA und Kalifornien können die Steuerpflicht und der Steuerbereich auch aus der Bestellung/Rücklieferung in die Einkaufsrechnung/Gutschrift kopiert werden. 
 
-![Copy Purchase Order Header – Setup CA - US](../../images/po-header-value-on-invoice-setup-002-ca-us.png)
+![Bestellkopf kopieren – Setup-Zertifizierungsstelle - US](../../images/po-header-value-on-invoice-setup-002-ca-us.png) 
 
-Use PO Head Values on Invoice kann pro Lieferant aus dem ExFlow Vendor Setup ausgewählt werden.<br/>
+Diese Funktion kann auf Lieferantenebene über ExFlow Kreditor einrichten verwendet werden.
 
 Gehen Sie zu: ***ExFlow-Kreditoreneinrichtung --> ExFlow-Kreditoreneinrichtungskarte*** --> Drücken Sie “Show more” auf dem Order Matching-Schnelltab.
 
 Die zu kopierenden Felder verwenden immer die Einstellungen aus dem ExFlow Setup.
-
 
 
 ## ExFlow Web

@@ -385,28 +385,27 @@ Esta función también se puede realizar por proveedor en [***Configuración de 
 
 ### Copiar Valores de Cabecera de Orden de Compra
 
-Para los clientes que interpretan y coinciden órdenes a nivel de cabecera, algunos valores en la orden ahora se pueden copiar desde la cabecera de la Orden a la cabecera de la Factura.<br/>
+Para los clientes que interpretan y coinciden el pedido en el nivel de encabezado, algunos valores del pedido ahora se pueden copiar del encabezado del pedido al encabezado del documento.<br/>
 
-Comience activando "Copiar Valores de Cabecera a Factura/Nota de Crédito" en la Configuración de ExFlow.<br/>
+Comience activando "Copiar valores de encabezado a factura/nota de crédito" en la configuración de ExFlow.<br/>
 
-Vaya a: ***Configuración de ExFlow – Coincidencia de Órdenes --> Copiar Valores de Cabecera a Factura/Nota de Crédito***
+Vaya a: ***Configuración de ExFlow - Conciliación de pedidos --> Copiar valores de encabezado a factura/nota de crédito***
 
-Elija los campos a copiar en “Configuración de Valores de Cabecera de Orden en Factura”<br/>
+Elija los campos que desea copiar en "Copiar valores de cabecera en factura/abono"<br/>
 
-Vaya a: ***Configuración de ExFlow – Relacionado --> Avanzado --> Copiar Valores de Cabecera a Factura/Nota de Crédito***
+Vaya a: ***Configuración de ExFlow - Conciliación de pedidos --> Copiar valores de encabezado a factura/nota de crédito***
 
-![Copiar Valores de Cabecera de Orden – Configuración](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
+![Copiar encabezado de orden de compra - Configuración](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 
-Para la localización de EE. UU. y CA, también se pueden copiar el Responsable de Impuestos y el Área de Impuestos desde la Orden de Compra a la Factura de Compra.
+Para la localización de EE. UU. y CA, la obligación fiscal y el área fiscal también se pueden copiar de la orden de compra / orden de devolución a la factura de compra / crédito.
 
-![Copiar Valores de Cabecera de Orden – Configuración EE. UU. - CA](@site/static/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
+![Copiar encabezado de orden de compra - Configuración CA - EE. UU.](@site/static/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
 
-Usar Valores de Cabecera de Orden en Factura se puede seleccionar por Proveedor desde la Configuración de Proveedor de ExFlow.<br/>
+Esta función se puede utilizar a nivel de proveedor a través de ExFlow Vendor Setup.<br/>
 
 Vaya a: ***Configuración de Proveedor de ExFlow --> Tarjeta de Configuración de Proveedor de ExFlow*** --> Presione “Mostrar más” en la pestaña rápida de Coincidencia de Órdenes.
 
 Los campos a copiar siempre usarán la configuración de la Configuración de ExFlow.
-
 
 
 ## ExFlow Web

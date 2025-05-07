@@ -195,21 +195,27 @@ Obige Funktionen können auch auf Lieferantenebene in der "ExFlow Lieferantenein
 
 ### Kopfwerte in Rechnung/Gutschrift kopieren
 
-Gehen Sie zu: **ExFlow Auftragsabgleich-Einrichtung --> Verwandt --> Kopfwerte in Rechnung/Gutschrift kopieren**
+Für Kunden, die interpretieren und bestellen auf Kopfebene übereinstimmen, können nun einige Werte des Auftrags aus dem Auftragskopf in den Belegkopf kopiert werden.
 
-Für Kunden, die auf Kopfebene interpretieren und abgleichen, können einige Werte auf dem Auftrag nun vom Auftragskopf in den Belegkopf kopiert werden.<br/>
+Beginnen Sie mit der Aktivierung von "Kopfwerte in Rechnung/Gutschrift kopieren" in ExFlow Setup.
 
-Beginnen Sie mit der Aktivierung von "Kopfwerte in Rechnung/Gutschrift kopieren" in der Auftragsabgleich-Einrichtung.<br/>
+Gehen Sie zu: ***ExFlow-Einrichtung – Auftragsabgleich --> Kopieren von Kopfwerten in Rechnung/Gutschrift*** 
 
-Wählen Sie Felder zum Kopieren in „Kopfwerte in Rechnung/Gutschrift kopieren“<br/>
+Wählen Sie die zu kopierenden Felder in "Kopfwerte in Rechnung kopieren/Gutschrift" aus.
 
+Gehen Sie zu: ***ExFlow einrichten – Auftragsabgleich --> Kopfwerte in Rechnung/Gutschrift kopieren*** 
 
-![Kopieren des Einkaufsauftragskopfs – Einrichtung](../../images/po-header-value-on-invoice-setup-001.png)
+![Bestellkopf kopieren – Einrichtung](../../images/po-header-value-on-invoice-setup-001.png) 
 
-Für die US- und CA-Lokalisierung können auch Steuerpflichtig und Steuergebiet vom Einkaufsauftrag zur Einkaufsrechnung kopiert werden.
+Für die Lokalisierung in den USA und Kalifornien können die Steuerpflicht und der Steuerbereich auch aus der Bestellung/Rücklieferung in die Einkaufsrechnung/Gutschrift kopiert werden. 
 
-![Kopieren des Einkaufsauftragskopfs – Einrichtung CA - US](../../images/po-header-value-on-invoice-setup-002-ca-us.png)
+![Bestellkopf kopieren – Setup-Zertifizierungsstelle - US](../../images/po-header-value-on-invoice-setup-002-ca-us.png) 
 
+Diese Funktion kann auf Lieferantenebene über ExFlow Kreditor einrichten verwendet werden.
+
+Gehen Sie zu: ***ExFlow-Kreditoreneinrichtung --> ExFlow-Kreditoreneinrichtungskarte*** --> Drücken Sie “Show more” auf dem Order Matching-Schnelltab.
+
+Die zu kopierenden Felder verwenden immer die Einstellungen aus dem ExFlow Setup.
 
 ### Automatische Empfangszeilentypen
 
