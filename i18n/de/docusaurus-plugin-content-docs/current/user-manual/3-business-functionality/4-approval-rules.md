@@ -89,6 +89,7 @@ Wenn der erste Genehmigende die Genehmigungsgruppe 1 ist und immer genehmigt, de
 
 ![Genehmigungsregellinien](../../images/approval-rule-lines-003.png)
 
+## Arbeitsablauf
 
 ### Immer neue Genehmigende vorschlagen
 Gehe zu: ***ExFlow-Einrichtung --> Genehmigung***

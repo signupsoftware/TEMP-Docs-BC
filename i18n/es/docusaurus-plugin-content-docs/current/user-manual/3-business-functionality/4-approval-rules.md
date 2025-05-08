@@ -90,6 +90,7 @@ Si el primer aprobador es el Grupo de Aprobación 1 y siempre aprueba, el segund
 
 ![Líneas de Regla de Aprobación](@site/static/img/media/approval-rule-lines-003.png)
 
+## Flujo de trabajo
 
 ### Proponer Siempre Nuevos Aprobadores
 Ir a: ***Configuración --> Configuración de ExFlow --> Aprobación***

@@ -90,6 +90,7 @@ If first approver is Approval Group 1 and always approves, the second approver d
 
 ![Approval Rule Lines](@site/static/img/media/approval-rule-lines-003.png)
 
+## Workflow
 
 ### Always Propose New Approvers
 Go to: ***ExFlow Setup --> Approval***
@@ -97,7 +98,6 @@ Go to: ***ExFlow Setup --> Approval***
 Approval Rules and Dynamic Approval Rules allows ExFlow to automatically identify and apply Approval Rules or Dynamic Approval Flow for documents that have been modified by any user in ExFlow Web.
 
 ![ExFlow Setup Approval - Always Propose New Approvers](@site/static/img/media/exflow-setup-approval-001.png)
-
 
 
 **Example for Approval Rule without Dynamic Approval Type:**<br/>
@@ -209,7 +209,7 @@ Read more under section [***Business Functionality --> Approval Rules --> Always
 ![ExFlow Setup - Approval](@site/static/img/media/exflow-setup-approval-001.png)
 
 
-### Workflow for Dimension Owners
+#### Workflow for Dimension Owners
 **Show Current Dimension Owners**<br/>
 Go to: ***Import Journal --> Import Lines --> Line --> Show Current Dimension Owners***
 

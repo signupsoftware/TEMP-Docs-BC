@@ -6,39 +6,47 @@ custom_edit_url: null
 ---
 ## Menú ExFlow
 
-Utilice el Menú ExFlow para descubrir ExFlow en Business Central.
+Utilice el Menú ExFlow para descubrir páginas, tareas, informes, etc. de ExFlow en Business Central.
 
-### Búsqueda en Business Central
+Utilice la función de búsqueda de Business Central e introduzca ExFlow para ver todas las sugerencias de ExFlow.
 
-Utilice la función de búsqueda e ingrese ExFlow para ver todas las sugerencias de ExFlow.
+![medium](@site/static/img/media/business-central-search-001.png)
 
-![Búsqueda en Business Central](@site/static/img/media/business-central-search-001.png)
+## Centro de Roles de ExFlow 
 
-### Menú a través del Centro de Roles ExFlow Accountant
+ExFlow actualmente cuenta con dos roles llamados Contable de ExFlow y Aprobador de ExFlow.
 
-Simplemente cambie el rol a "ExFlow Accountant" en "Mis Configuraciones" para obtener este Menú ExFlow.
+### Centro de Roles - Contable de ExFlow
 
-![Menú ExFlow Rol ExFlow Accountant](@site/static/img/media/exflow-menu-001.png)
+Simplemente cambie el rol a "Contable de ExFlow" en "Mi configuración" para obtener este Menú ExFlow.
 
-#### Descripción general de la configuración de ExFlow
+![Menú ExFlow Rol Contable de ExFlow](@site/static/img/media/exflow-menu-001.png)
 
-Encuentre toda la configuración de ExFlow AP recopilada en la descripción general de la configuración de ExFlow AP.
-
-![ExFlow Menu Role ExFlow Accountant](@site/static/img/media/exflow-ap-overview-001.png) 
-
-
-### Menú a través de Business Central
+Los usuarios pueden acceder fácilmente a Diarios de Importación, Estado de Aprobación, Informes, etc. a través de este Rol.
 
 Haga clic en las tres líneas en la esquina superior derecha para ver el menú a través de Business Central.
 
 ![Menú ExFlow](@site/static/img/media/exflow-menu-002-extended.png)
 
-Dependiendo del rol seleccionado en "Mis Configuraciones", se seleccionará un menú de inicio.
+Dependiendo del Rol seleccionado en "Mi configuración", se seleccionará un menú de inicio.
 
-Haga clic en "Explorar más roles" y luego en ExFlow Menu- Explore para expandir el menú.
+Haga clic en "Explorar más roles" y luego en Menú ExFlow - Explorar para expandir el menú.
 
 ![Menú ExFlow](@site/static/img/media/exflow-menu-003-extended.png)
 
-Ahora el Menú ExFlow es visible independientemente del rol en "Mis Configuraciones".
+Ahora el Menú ExFlow es visible independientemente del Rol en "Mi configuración".
 
 ![Menú ExFlow](@site/static/img/media/exflow-menu-004-extended.png)
+
+### Descripción General de la Configuración de ExFlow
+Vaya a: **Configuración de ExFlow - Descripción General** o acceda a esta Descripción General a través del Centro de Roles del Contable de ExFlow
+
+Encuentre toda la Configuración de AP de ExFlow reunida en la Descripción General de la Configuración de AP de ExFlow.
+
+![medium](@site/static/img/media/exflow-ap-overview-001.png) 
+
+### Centro de Roles - Aprobador de ExFlow
+
+Los usuarios también pueden utilizar el Centro de Roles del Aprobador de ExFlow, para acceder fácilmente a las Actividades de Aprobación de ExFlow y su historial de documentos aprobados.
+
+![medium](@site/static/img/media/exflow-approver-rc-001.png)
