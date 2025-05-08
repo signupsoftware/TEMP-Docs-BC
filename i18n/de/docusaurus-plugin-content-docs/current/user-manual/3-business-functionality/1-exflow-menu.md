@@ -4,36 +4,27 @@ sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
-
 ## ExFlow-Menü
 
-Verwenden Sie das ExFlow-Menü, um ExFlow in Business Central zu entdecken.
+Verwenden Sie das ExFlow-Menü, um ExFlow-Seiten, Aufgaben, Berichte usw. in Business Central zu entdecken.
 
-### Business Central-Suche
+Nutzen Sie die Business Central-Suchfunktion und geben Sie ExFlow ein, um alle ExFlow-Vorschläge zu sehen.
 
-Verwenden Sie die Suchfunktion und geben Sie ExFlow ein, um alle ExFlow-Vorschläge anzuzeigen.
+![medium](../../images/business-central-search-001.png)
 
-![Business Central-Suche](../../images/business-central-search-001.png)
+## ExFlow Rollencenter 
 
-### Menü über Role Center ExFlow Accountant
+ExFlow hat derzeit zwei Rollen: ExFlow Accountant und ExFlow Approver.
 
-Ändern Sie einfach die Rolle in "ExFlow Accountant" in "Meine Einstellungen", um dieses ExFlow-Menü zu erhalten.
+### Rollencenter - ExFlow Accountant
+
+Wechseln Sie einfach die Rolle zu "ExFlow Accountant" in "Meine Einstellungen", um dieses ExFlow-Menü zu erhalten.
 
 ![ExFlow-Menü Rolle ExFlow Accountant](../../images/exflow-menu-001.png)
 
+Benutzer können über diese Rolle einfach auf Import-Journale, Genehmigungsstatus, Berichte usw. zugreifen.
 
-
-#### Übersicht über das ExFlow-Setup
-
-Alle ExFlow-AP-Setups finden Sie in der Übersicht über die ExFlow-AP-Einrichtung.
-
-![ExFlow Menu Role ExFlow Accountant](@site/static/img/media/exflow-ap-overview-001.png) 
-
-
-
-### Menü über Business Central
-
-Klicken Sie auf die drei Linien oben rechts, um das Menü über Business Central anzuzeigen.
+Klicken Sie auf die drei Linien oben in der rechten Ecke, um das Menü über Business Central anzuzeigen.
 
 ![ExFlow-Menü](../../images/exflow-menu-002-extended.png)
 
@@ -46,3 +37,16 @@ Klicken Sie auf "Weitere Rollen erkunden" und dann auf ExFlow-Menü - Erkunden, 
 Jetzt ist das ExFlow-Menü unabhängig von der Rolle in "Meine Einstellungen" sichtbar.
 
 ![ExFlow-Menü](../../images/exflow-menu-004-extended.png)
+
+### ExFlow Setup Übersicht
+Gehen Sie zu: **ExFlow Setup - Übersicht** oder greifen Sie über das ExFlow Accountant Rollencenter auf diese Übersicht zu.
+
+Finden Sie alle ExFlow AP-Einstellungen in der ExFlow AP Setup - Übersicht.
+
+![medium](../../images/exflow-ap-overview-001.png) 
+
+### Rollencenter - ExFlow Approver
+
+Benutzer können auch das ExFlow Approver Rollencenter nutzen, um einfach auf ExFlow Genehmigungsaktivitäten und ihre genehmigte Dokumenthistorie zuzugreifen.
+
+![medium](../../images/exflow-approver-rc-001.png)

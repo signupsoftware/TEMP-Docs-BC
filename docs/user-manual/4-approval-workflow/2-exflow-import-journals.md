@@ -399,7 +399,7 @@ It is possible to open the PDF in a new separate tab to get a better view of the
 
 This function is moved from the Import Journal menu to the PDF FactBox on the right side.
 
-Read more about this under ''FactBoxes In Import Journal''.
+Read more about this under [FactBoxes In Import Journal](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#factboxes-in-import-journal).
 
 ## Document Header - Show more options 
 

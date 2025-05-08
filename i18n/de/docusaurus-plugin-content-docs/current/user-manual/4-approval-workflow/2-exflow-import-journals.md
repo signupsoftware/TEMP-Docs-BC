@@ -393,7 +393,7 @@ Es ist möglich, die PDF-Datei in einem neuen separaten Tab zu öffnen, um eine 
 
 Diese Funktion wurde aus dem Menü Journal importieren in die PDF-Infobox auf der rechten Seite verschoben.
 
-Lesen Sie mehr dazu unter ''FactBoxes In Import Journal''.
+Lesen Sie mehr dazu unter [FactBoxes In Import Journal](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#factboxes-in-import-journal).
 
 
 ## Dokumentkopf - Weitere Optionen anzeigen 

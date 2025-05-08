@@ -394,7 +394,7 @@ Es posible abrir el PDF en una nueva pestaña separada para obtener una mejor vi
 
 Esta función se traslada del menú Importar diario al cuadro informativo PDF en el lado derecho.
 
-Lea más sobre esto en ''FactBoxes In Import Journal''.
+Lea más sobre esto en [FactBoxes In Import Journal](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#factboxes-in-import-journal).
 
 
 ## Encabezado de Documento - Mostrar más opciones 
