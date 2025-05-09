@@ -19,7 +19,7 @@ A continuación se presenta una guía sencilla con un ejemplo de flujo de trabaj
 4.	Configurar la Definición de Intercambio de Datos de ExFlow en Business Central.<br/> 
 
 ### Crear un campo personalizado en EDC
-Se recomienda leer la [documentación de Tungsten](https://docs.readsoftonline.com/help/eng/partner/overview/c_welcome.html) y sobre la [Edición de configuraciones de extracción](https://docs.readsoftonline.com/help/eng/partner/services/t_adding_custom_fields_to_a_document_type.html) y [Añadir campos personalizados a un tipo de documento](https://docs.readsoftonline.com/help/eng/partner/admin-center/t_editing_extraction_settings.html) antes de comenzar.
+Se recomienda leer [Documentación de Tungsten](https://docs.readsoftonline.com/help/eng/partner/overview/c_welcome.html) sobre [Edición de la configuración de extracción](https://docs.readsoftonline.com/help/eng/partner/services/t_adding_custom_fields_to_a_document_type.html) y [Agregar campos personalizados a un tipo de documento](https://docs.readsoftonline.com/help/eng/partner/admin-center/t_editing_extraction_settings.html) antes de comenzar.
 
 [Inicie sesión en EDC](https://signup.readsoftonline.com) con la cuenta de administrador EDC proporcionada y navegue hasta la empresa compradora. Una vez identificada, haga clic en [*Extracción*](https://docs.readsoftonline.com/help/eng/partner/admin-center/c_the_extraction_view.html?h=extraction) y luego en *Editar* y haga clic en la plantilla que desea personalizar.
  

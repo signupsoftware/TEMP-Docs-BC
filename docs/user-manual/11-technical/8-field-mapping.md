@@ -19,7 +19,7 @@ Here comes an easy guide of a workflow example of how create a custom field in E
 4.	Configure the ExFlow Data Exchange Definition in Business Central.<br/> 
 
 ### Create a custom field in EDC
-It is recommended to read [Tungsten's documentation](https://docs.readsoftonline.com/help/eng/partner/overview/c_welcome.html) and about [Editing extraction settings](https://docs.readsoftonline.com/help/eng/partner/services/t_adding_custom_fields_to_a_document_type.html) and [Add custom fields to a document type](https://docs.readsoftonline.com/help/eng/partner/admin-center/t_editing_extraction_settings.html) before start.
+It is recommended to read [Tungsten's documentation](https://docs.readsoftonline.com/help/eng/partner/overview/c_welcome.html) about [Editing extraction settings](https://docs.readsoftonline.com/help/eng/partner/services/t_adding_custom_fields_to_a_document_type.html) and [Add custom fields to a document type](https://docs.readsoftonline.com/help/eng/partner/admin-center/t_editing_extraction_settings.html) before start.
 
 [Login to EDC](https://signup.readsoftonline.com) with provided EDC-admin account and navigate to the buying company. When identified, click on [*Extraction*](https://docs.readsoftonline.com/help/eng/partner/admin-center/c_the_extraction_view.html?h=extraction) and then *Edit* and click on the template to be customized.
  
