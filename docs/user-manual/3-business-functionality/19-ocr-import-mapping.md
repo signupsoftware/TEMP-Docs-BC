@@ -74,7 +74,8 @@ With EDI it is very common that the percentage of the VAT on the line is carried
 #### Setup ExFlow Data Capture
 For customers using other services, like ExFlow Data Capture, a custom field on line level needs to be added in EDC where VAT % can be interpreted. 
 
-This field also needs to be mapped on line level in Data Exchange Definition in Business Central. 
+This field also needs to be mapped on line level in Data Exchange Definition in Business Central. Read more about this under [Field Mapping](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/field-mapping)
+
 
 #### VAT Mapping Setup
 Go to: **ExFlow Setup --> Actions--> Functions--> OCR --> VAT Mapping**

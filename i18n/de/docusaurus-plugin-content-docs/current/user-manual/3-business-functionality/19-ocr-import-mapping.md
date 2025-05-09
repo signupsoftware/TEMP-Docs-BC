@@ -67,7 +67,7 @@ Bei EDI ist es sehr üblich, dass der Prozentsatz der MwSt. auf der Zeile übert
 #### ExFlow Data Capture einrichten
 Für Kunden, die andere Dienste wie ExFlow Data Capture nutzen, muss ein benutzerdefiniertes Feld auf Zeilenebene in EDC hinzugefügt werden, wo der MwSt.-Prozentsatz interpretiert werden kann. 
 
-Dieses Feld muss auch auf Zeilenebene in der Datenaustausch-Definition in Business Central zugeordnet werden. 
+Dieses Feld muss auch auf Zeilenebene in der Datenaustausch-Definition in Business Central zugeordnet werden. Lesen Sie mehr dazu unter [Field Mapping](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/field-mapping)
 
 #### MwSt.-Zuordnungs-Setup
 Gehe zu: **ExFlow Setup --> Aktionen--> Funktionen--> OCR --> MwSt.-Zuordnung**

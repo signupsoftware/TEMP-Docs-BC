@@ -71,7 +71,7 @@ Con EDI es muy común que el porcentaje del IVA en la línea se transfiera. Sin 
 #### Configurar ExFlow Data Capture
 Para clientes que utilizan otros servicios, como ExFlow Data Capture, se debe añadir un campo personalizado a nivel de línea en EDC donde se pueda interpretar el porcentaje de IVA. 
 
-Este campo también debe mapearse a nivel de línea en la Definición de Intercambio de Datos en Business Central. 
+Este campo también debe mapearse a nivel de línea en la Definición de Intercambio de Datos en Business Central. Lea más sobre esto en [Mapeo de campo](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/field-mapping)
 
 #### Configuración de Mapeo de IVA
 Vaya a: **Configuración de ExFlow --> Acciones --> Funciones --> OCR --> Mapeo de IVA**
