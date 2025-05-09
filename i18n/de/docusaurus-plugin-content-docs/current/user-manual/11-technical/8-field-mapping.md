@@ -19,7 +19,7 @@ Hier folgt eine einfache Anleitung mit einem Workflow-Beispiel, wie man ein benu
 4.	Konfiguration der ExFlow-Datenaustausch-Definition in Business Central.<br/> 
 
 ### Benutzerdefiniertes Feld in EDC erstellen
-Es wird empfohlen, [Tungstens Dokumentation](https://docs.readsoftonline.com/help/eng/partner/overview/c_welcome.html) sowie die Informationen über [Bearbeitung von Extraktionseinstellungen](https://docs.readsoftonline.com/help/eng/partner/services/t_adding_custom_fields_to_a_document_type.html) und [Hinzufügen benutzerdefinierter Felder zu einem Dokumenttyp](https://docs.readsoftonline.com/help/eng/partner/admin-center/t_editing_extraction_settings.html) vor dem Start zu lesen.
+Es wird empfohlen, die [Tungsten-Dokumentation](https://docs.readsoftonline.com/help/eng/partner/overview/c_welcome.html) über [Bearbeiten der Extraktionseinstellungen](https://docs.readsoftonline.com/help/eng/partner/services/t_adding_custom_fields_to_a_document_type.html) und [Benutzerdefinierte Felder zu einem Dokumenttyp hinzufügen](https://docs.readsoftonline.com/help/eng/partner/admin-center/t_editing_extraction_settings.html) zu lesen, bevor Sie beginnen.
 
 [Melden Sie sich bei EDC an](https://signup.readsoftonline.com) mit dem bereitgestellten EDC-Admin-Konto und navigieren Sie zum kaufenden Unternehmen. Nach der Identifizierung klicken Sie auf [*Extraktion*](https://docs.readsoftonline.com/help/eng/partner/admin-center/c_the_extraction_view.html?h=extraction) und dann auf *Bearbeiten* und klicken Sie auf die Vorlage, die angepasst werden soll.
  
