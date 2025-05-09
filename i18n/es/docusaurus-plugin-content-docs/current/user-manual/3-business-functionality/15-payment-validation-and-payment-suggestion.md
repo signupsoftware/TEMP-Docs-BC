@@ -17,7 +17,7 @@ La validación de pagos y la sugerencia de cuenta bancaria del destinatario se p
 
 #### Configurar ExFlow Data Capture
 
-El campo *“Pay-to-Account”* en ExFlow Data Capture debe agregarse en la sección del encabezado del documento.
+El campo *“Pay-to-Account”* en ExFlow Data Capture debe agregarse en la sección del encabezado del documento. Lea más sobre esto en [Mapeo de campo](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/field-mapping)
 
 #### Validación de Pago en Configuración de ExFlow
 

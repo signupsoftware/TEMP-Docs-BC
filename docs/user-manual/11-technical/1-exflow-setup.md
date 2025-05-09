@@ -209,8 +209,7 @@ Find all ExFlow Setup sections described according to below. <br/>
 |**Auto Create OCR Line Mapping**| 	Specifies if OCR mapping links should be created automatically by ExFlow
 |**Ignore OCR Lines**| 	Specifies that ExFlow should always ignore imported invoice lines i.e. only invoice header information is ever used
 |**Dummy Item for OCR Line Matching**| 	Specifies a "dummy" item no that will be used when ExFlow cannot find the imported item no. Only applies to line interpreted invoices
-|**Misc. 1 Purchase Code**| 	Specifies the default purchase code when using the Misc 1 code mapping in the ExFlow import specification
-|**Misc. 2 Purchase Code**| 	Specifies the default purchase code when using the Misc 2 code mapping in the ExFlow import specification
+|**Misc. Purchase Codes**| 	Specifies the default purchase code when using the Misc code mapping in the ExFlow import specification. Read more about this under [Additional Misc. Purchase Codes mapping](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/field-mapping#additional-misc-purchase-codes-mapping)
 |**OCR Dimension Code 1**| 	Specifies the default dimension code when using the Dim 1 code mapping in the ExFlow import specification
 |**OCR Dimension Code 2**| 	Specifies the default dimension code when using the Dim 2 code mapping in the ExFlow import specification
 |**EDC Def. Data Exchange Type**| 	Specifies the ExFlow Data Capture default data exchange type
