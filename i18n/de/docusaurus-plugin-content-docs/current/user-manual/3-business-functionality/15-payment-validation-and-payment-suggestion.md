@@ -17,7 +17,7 @@ Die Zahlungsvalidierung und der Vorschlag des Empfängerbankkontos können für 
 
 #### Einrichtung von ExFlow Data Capture
 
-Das Feld *„Pay-to-Account“* in ExFlow Data Capture muss im Dokumentenkopfbereich hinzugefügt werden.
+Das Feld *„Pay-to-Account“* in ExFlow Data Capture muss im Dokumentenkopfbereich hinzugefügt werden. Lesen Sie mehr dazu unter [Field Mapping](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/field-mapping)
 
 #### Zahlungsvalidierung in ExFlow Setup
 

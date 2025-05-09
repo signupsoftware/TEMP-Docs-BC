@@ -17,7 +17,7 @@ Payment validation and Suggest Recipient Bank Account can be enabled for all ven
 
 #### Setup ExFlow Data Capture
 
-The field *“Pay-to-Account”* in ExFlow Data Capture needs to be added in document header section.
+The field *“Pay-to-Account”* in ExFlow Data Capture needs to be added in document header section. Read more about this under [Field Mapping](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/field-mapping)
 
 #### Payment Validation in ExFlow Setup
 

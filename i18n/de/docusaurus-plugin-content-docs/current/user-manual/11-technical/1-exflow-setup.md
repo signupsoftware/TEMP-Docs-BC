@@ -207,8 +207,7 @@ Finden Sie alle ExFlow Einrichtungsabschnitte wie unten beschrieben.<br/>
 |**Automatische Erstellung der OCR-Zeilen-Mapping**| Gibt an, ob OCR-Mapping-Verknüpfungen automatisch von ExFlow erstellt werden sollen. 
 |**OCR-Zeilen ignorieren**| Gibt an, dass ExFlow importierte Rechnungszeilen immer ignorieren soll, d. h. nur Rechnungsheader-Informationen werden verwendet. 
 |**Dummy-Artikel für OCR-Zeilenabgleich**| Gibt eine "Dummy"-Artikelnummer an, die verwendet wird, wenn ExFlow die importierte Artikelnummer nicht finden kann. Gilt nur für zeileninterpretierte Rechnungen. 
-|**Misc. 1 Einkaufscode**| Gibt den Standard-Einkaufscode an, wenn der Misc 1-Code im ExFlow-Importspezifikation verwendet wird. 
-|**Misc. 2 Einkaufscode**| Gibt den Standard-Einkaufscode an, wenn der Misc 2-Code im ExFlow-Importspezifikation verwendet wird. 
+|**Sonstige Einkaufscodes**| Gibt den Standard-Kaufcode an, wenn die Codezuordnung "Misc" in der ExFlow-Importspezifikation verwendet wird. Lesen Sie mehr darüber unter [Zuordnung zusätzlicher verschiedener Einkaufscodes](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/field-mapping#additional-misc-purchase-codes-mapping)
 |**OCR-Dimension Code 1**| Gibt den Standard-Dimension-Code an, wenn der Dim 1-Code im ExFlow-Importspezifikation verwendet wird. 
 |**OCR-Dimension Code 2**| Gibt den Standard-Dimension-Code an, wenn der Dim 2-Code im ExFlow-Importspezifikation verwendet wird. 
 |**EDC Def. Datenaustauschtyp**| Gibt den Standard-Datenaustauschtyp für ExFlow Data Capture an. 

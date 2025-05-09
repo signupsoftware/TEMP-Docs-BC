@@ -206,8 +206,7 @@ Encuentre todas las secciones de Configuración de ExFlow descritas a continuaci
 |**Crear Mapeo de Línea OCR Automáticamente**|  Especifica si los enlaces de mapeo OCR deben crearse automáticamente por ExFlow
 |**Ignorar Líneas OCR**|  Especifica que ExFlow siempre debe ignorar las líneas de factura importadas, es decir, solo se utiliza la información del encabezado de la factura
 |**Artículo Ficticio para Emparejamiento de Línea OCR**|  Especifica un número de artículo "ficticio" que se utilizará cuando ExFlow no pueda encontrar el número de artículo importado. Solo se aplica a facturas interpretadas en línea
-|**Código de Compra Misceláneo 1**|     Especifica el código de compra predeterminado al utilizar el mapeo de código Misceláneo 1 en la especificación de importación de ExFlow
-|**Código de Compra Misceláneo 2**|     Especifica el código de compra predeterminado al utilizar el mapeo de código Misceláneo 2 en la especificación de importación de ExFlow
+|**Códigos de compra varios**| Especifica el código de compra predeterminado cuando se utiliza la asignación de código Miscelánea en la especificación de importación de ExFlow. Lea más sobre esto en [Mapeo de Códigos de Compra Misceláneos Adicionales](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/field-mapping#additional-misc-purchase-codes-mapping)
 |**Código de Dimensión OCR 1**|  Especifica el código de dimensión predeterminado al utilizar el mapeo de código Dim 1 en la especificación de importación de ExFlow
 |**Código de Dimensión OCR 2**|  Especifica el código de dimensión predeterminado al utilizar el mapeo de código Dim 2 en la especificación de importación de ExFlow
 |**Tipo de Intercambio de Datos Def. EDC**|   Especifica el tipo de intercambio de datos predeterminado de Captura de Datos de ExFlow
