@@ -117,6 +117,10 @@ Actualmente, los siguientes Tipos de Error están disponibles:
 ### Usar Cantidad Base 
 Muestra todas las cantidades en la unidad de medida base.
 
+Si el comprador activa la casilla "Usar cantidad base", podrá ver todas las líneas de artículo en su cantidad base, independientemente de la unidad de medida (UM) utilizada durante la importación. Por ejemplo, si se importa un documento con una UM diferente, como 2 cajas a 500 SEK cada una, se podrá asociar con precisión a una línea de pedido especificada como 20 unidades a 50 SEK.
+
+Más información en [Conversión de la unidad de medida base](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/new-order-matching#base-unit-of-measure-conversion)
+
 ### Mostrar Líneas con Código de Excepción
 Habilite esta casilla de verificación para ver las líneas de documentos donde el Comprador ha agregado Códigos de Excepción.<br/>
 

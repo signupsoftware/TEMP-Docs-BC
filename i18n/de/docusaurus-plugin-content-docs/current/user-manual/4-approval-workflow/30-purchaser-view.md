@@ -117,6 +117,11 @@ Derzeit sind folgende Fehlertypen verfügbar:
 ### Basismenge verwenden 
 Zeigt alle Mengen in der Basiseinheit an.
 
+Wenn der Einkäufer das Kontrollkästchen „Basismengeneinheit verwenden“ aktiviert, kann er alle Artikelpositionen in seiner Basismengeneinheit anzeigen, unabhängig von der beim Import verwendeten Mengeneinheit. Wird beispielsweise ein Dokument mit einer anderen Mengeneinheit importiert, z. B. 2 Kartons à 500 SEK, kann es dennoch präzise einer Bestellposition zugeordnet werden, die als 20 Stück à 50 SEK angegeben ist.
+
+Weitere Informationen hierzu finden Sie unter [Konvertierung der Basismengeneinheit](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/new-order-matching#base-unit-of-measure-conversion)
+
+
 ### Zeilen mit Ausnahme-Code anzeigen
 Aktivieren Sie dieses Kontrollkästchen, um Dokumentzeilen anzuzeigen, bei denen Ausnahme-Codes vom Einkäufer hinzugefügt wurden.<br/>
 
