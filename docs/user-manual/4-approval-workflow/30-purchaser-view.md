@@ -26,9 +26,9 @@ Go to: **User Setup**
 
 The Business Central User ID need to be entered in User Setup to access the Purchaser View. <br/>
 
-Also add the User’s Purchaser Code to get a filtered view on that Purchaser Code, this is not mandatory. However, if no Purchaser Code is set, the purchaser will see all existing order matched document lines with errors.
+Also add the User’s Purchaser Code (Salespers./Purch. Code) to get a filtered view on that Purchaser Code, this is not mandatory. However, if no Purchaser Code is set, the purchaser will see all existing order matched document lines with errors.
 
-Adding the Purchaser Code to the Business Central User ID will populate the Purchaser Code to the order header, when the purchaser creates orders. This can be beneficial when working with the Purchaser View, if no default Purchaser Code is assigned to a specific vendor.
+By adding the Purchaser Code here on the associated user, it will also populate the Purchaser Code to the order header, when the purchaser creates orders. This can be beneficial when working with the Purchaser View, if no default Purchaser Code is assigned to a specific vendor.
 
 ### Permission on the User
 

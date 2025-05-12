@@ -26,7 +26,9 @@ Vaya a: **Configuración de Usuario**
 
 El ID de Usuario de Business Central debe ingresarse en la Configuración de Usuario para acceder a la Vista del Comprador. <br/>
 
-También agregue el Código de Comprador del Usuario para obtener una vista filtrada según ese Código de Comprador, esto no es obligatorio. Sin embargo, si no se establece ningún Código de Comprador, el comprador verá todas las líneas de documentos con coincidencia de órdenes existentes que tengan errores.
+También agregue el Código de Comprador del Usuario (código de vendedor / comprador) para obtener una vista filtrada según ese Código de Comprador, esto no es obligatorio. Sin embargo, si no se establece ningún Código de Comprador, el comprador verá todas las líneas de documentos con coincidencia de órdenes existentes que tengan errores.
+
+Al agregar el Código de Comprador aquí en el usuario asociado, también se llenará el Código de Comprador en el encabezado del pedido, cuando el comprador cree pedidos. Esto puede ser beneficioso al trabajar con la Vista de Comprador, si no se asigna un Código de Comprador predeterminado a un vendedor específico.
 
 ### Permisos en el Usuario
 
