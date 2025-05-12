@@ -195,16 +195,13 @@ Above features can also be used on a vendor level in "ExFlow Vendor Setup".
 ### Order Matching Setup - Related
 
 ### Copy Header Values to Invoice/Credit Memo Setup
+Go to: **ExFlow Order Matching Setup --> Related --> Copy Header Values to Invoice/Credit Memo Setup**
 
 For customers that interpret and order match on header level, some values on the order can now be copied from the order header to the document header.<br/>
 
-Start by activating "Copy Header Values to Invoice/Credit Memo" in ExFlow Setup.<br/>
-
-Go to: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Credit Memo***
+Start by activating "Copy Header Values to Invoice/Credit Memo".<br/>
 
 Choose fields to copy in “Copy Header Values to Invoice/Credit Memo”<br/>
-
-Go to: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Credit Memo***
 
 ![Copy Purchase Order Header – Setup](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 

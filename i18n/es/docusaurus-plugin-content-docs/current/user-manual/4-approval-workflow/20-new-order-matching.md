@@ -195,22 +195,19 @@ Las características anteriores también se pueden utilizar a nivel de proveedor
 ### Configuración de Coincidencia de Órdenes - Relacionado
 
 ### Copiar Valores de Cabecera en Factura/Nota de Crédito
+Ir a: **Configuración de Coincidencia de Pedidos de ExFlow --> Relacionado --> Copiar Valores de Encabezado a la Configuración de Factura/Nota de Crédito**
 
-Para los clientes que interpretan y coinciden el pedido en el nivel de encabezado, algunos valores del pedido ahora se pueden copiar del encabezado del pedido al encabezado del documento.<br/>
+Para los clientes que interpretan y coinciden pedidos a nivel de encabezado, ahora algunos valores del pedido se pueden copiar del encabezado del pedido al encabezado del documento.<br/>
 
-Comience activando "Copiar valores de encabezado a factura/nota de crédito" en la configuración de ExFlow.<br/>
+Comience activando "Copiar Valores de Encabezado a la Factura/Nota de Crédito".<br/>
 
-Vaya a: ***Configuración de ExFlow - Conciliación de pedidos --> Copiar valores de encabezado a factura/nota de crédito***
+Elija los campos a copiar en “Copiar Valores de Encabezado a la Factura/Nota de Crédito”<br/>
 
-Elija los campos que desea copiar en "Copiar valores de cabecera en factura/abono"<br/>
-
-Vaya a: ***Configuración de ExFlow - Conciliación de pedidos --> Copiar valores de encabezado a factura/nota de crédito***
-
-! [Copiar encabezado de orden de compra - Configuración](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
+![Copiar encabezado de orden de compra - Configuración](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 
 Para la localización de EE. UU. y CA, la obligación fiscal y el área fiscal también se pueden copiar de la orden de compra / orden de devolución a la factura de compra / crédito.
 
-! [Copiar encabezado de orden de compra - Configuración CA - EE. UU.](@site/static/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
+![Copiar encabezado de orden de compra - Configuración CA - EE. UU.](@site/static/img/media/po-header-value-on-invoice-setup-002-ca-us.png)
 
 Esta función se puede utilizar a nivel de proveedor a través de ExFlow Vendor Setup.<br/>
 

@@ -194,16 +194,13 @@ Obige Funktionen können auch auf Lieferantenebene in der "ExFlow Lieferantenein
 ### Auftragsabgleich-Einrichtung - Verwandt
 
 ### Kopfwerte in Rechnung/Gutschrift kopieren
+Gehe zu: **ExFlow Bestellabgleich Einrichtung --> Verwandt --> Header-Werte in Rechnung/Gutschrift-Setup kopieren**
 
-Für Kunden, die interpretieren und bestellen auf Kopfebene übereinstimmen, können nun einige Werte des Auftrags aus dem Auftragskopf in den Belegkopf kopiert werden.
+Für Kunden, die auf der Header-Ebene abgleichen und bestellen, können einige Werte aus der Bestellung jetzt vom Bestellheader in den Dokumentenheader kopiert werden.<br/>
 
-Beginnen Sie mit der Aktivierung von "Kopfwerte in Rechnung/Gutschrift kopieren" in ExFlow Setup.
+Beginne damit, „Header-Werte in Rechnung/Gutschrift kopieren“ zu aktivieren.<br/>
 
-Gehen Sie zu: ***ExFlow-Einrichtung – Auftragsabgleich --> Kopieren von Kopfwerten in Rechnung/Gutschrift*** 
-
-Wählen Sie die zu kopierenden Felder in "Kopfwerte in Rechnung kopieren/Gutschrift" aus.
-
-Gehen Sie zu: ***ExFlow einrichten – Auftragsabgleich --> Kopfwerte in Rechnung/Gutschrift kopieren*** 
+Wähle die Felder aus, die in „Header-Werte in Rechnung/Gutschrift kopieren“ übertragen werden sollen.<br/>
 
 ![Bestellkopf kopieren – Einrichtung](../../images/po-header-value-on-invoice-setup-001.png) 
 

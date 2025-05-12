@@ -162,7 +162,9 @@ Wenn der Einkäufercode für einen bestimmten Lieferanten festgelegt ist, wird e
  
 ![Einkäuferansicht](../../images/purchaser-view-004.png)
 
-Dokumente mit auftragsbezogenen Fehlern im Kopfbereich können auch manuell in der Zeile ausgelöst werden, um sie zur Verwaltung an den Einkäufer zu senden.
+Interpretierten Dokumente mit kopfbezogenen Reihenfehlern (Mehrfachfehlerliste) können auch manuell (durch AP) auf Zeilenebene ausgelöst und dem Einkäufer zur Verwaltung gesendet werden.
+
+Nutzen Sie die Funktionalität [Kopfwerte in Rechnung/Gutschriftüberweisung kopieren](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/new-order-matching#copy-header-values-to-invoicecredit-memo-setup), um den Einkäufercode von der Bestellung auf das Dokument zu kopieren und um die Zeile(n) für den spezifischen Einkäufer in dessen Einkäuferansicht sichtbar zu machen.
 
 
 ### Einkäuferansicht

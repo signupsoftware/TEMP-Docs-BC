@@ -161,7 +161,9 @@ If the Purchaser Code is set for a specific vendor, it will follow to Import Jou
  
 ![Purchaser View](@site/static/img/media/purchaser-view-004.png)
 
-Documents with header matched order related errors can also be triggered manually on the line, to be sent to the Purchaser for management. 
+Interpreted documents with header matched order related errors (Multi error list) can also be triggered manually (by AP) on line level, and sent to the Purchaser for management.
+
+Utilize the [Copy Header Values to Invoice/Credit Memo](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/new-order-matching#copy-header-values-to-invoicecredit-memo-setup) functionality, to copy the Purchaser Code from the order to the document, and to make the line(s) visible for the specific purchaser in their Purchaser View. 
 
 
 ### Purchaser View
