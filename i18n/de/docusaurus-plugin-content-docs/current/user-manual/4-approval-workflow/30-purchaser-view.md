@@ -26,7 +26,9 @@ Gehen Sie zu: **Benutzereinrichtung**
 
 Die Business Central Benutzer-ID muss in der Benutzereinrichtung eingetragen werden, um auf die Einkäuferansicht zugreifen zu können. <br/>
 
-Fügen Sie auch den Einkäufercode des Benutzers hinzu, um eine gefilterte Ansicht für diesen Einkäufercode zu erhalten. Dies ist nicht zwingend erforderlich. Wenn jedoch kein Einkäufercode festgelegt ist, sieht der Einkäufer alle vorhandenen auftragsabgeglichenen Dokumentzeilen mit Fehlern.
+Fügen Sie auch den Einkäufercode des Benutzers (Verkäufer-/Käufercode) hinzu, um eine gefilterte Ansicht für diesen Einkäufercode zu erhalten. Dies ist nicht zwingend erforderlich. Wenn jedoch kein Einkäufercode festgelegt ist, sieht der Einkäufer alle vorhandenen auftragsabgeglichenen Dokumentzeilen mit Fehlern.
+
+Durch das Hinzufügen des Käufercodes hier beim zugehörigen Benutzer wird der Käufercode auch im Auftragskopf ausgefüllt, wenn der Käufer Bestellungen erstellt. Dies kann von Vorteil sein, wenn man mit der Käuferansicht arbeitet, wenn kein standardmäßiger Käufercode einem bestimmten Anbieter zugewiesen ist.
 
 ### Berechtigung für den Benutzer
 
