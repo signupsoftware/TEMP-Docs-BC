@@ -161,7 +161,9 @@ Si se establece un Código de Comprador para un proveedor específico, seguirá 
  
 ![Vista del Comprador](@site/static/img/media/purchaser-view-004.png)
 
-Los documentos con errores relacionados con la coincidencia de órdenes en el encabezado también pueden ser activados manualmente en la línea, para ser enviados al Comprador para su gestión.
+Los documentos interpretados con errores relacionados con el encabezado que coinciden con el orden (lista de múltiples errores) también pueden ser activados manualmente (por AP) a nivel de línea, y enviados al Comprador para su gestión. 
+
+Utilice la funcionalidad [Copiar Valores del Encabezado a la Factura/Nota de Crédito](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/new-order-matching#copy-header-values-to-invoicecredit-memo-setup) para copiar el Código del Comprador del pedido al documento, y hacer que las líneas sean visibles para el comprador específico en su Vista de Comprador.
 
 
 ### Vista del Comprador
