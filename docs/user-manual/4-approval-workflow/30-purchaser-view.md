@@ -28,6 +28,8 @@ The Business Central User ID need to be entered in User Setup to access the Purc
 
 Also add the User’s Purchaser Code to get a filtered view on that Purchaser Code, this is not mandatory. However, if no Purchaser Code is set, the purchaser will see all existing order matched document lines with errors.
 
+Adding the Purchaser Code to the Business Central User ID will populate the Purchaser Code to the order header, when the purchaser creates orders. This can be beneficial when working with the Purchaser View, if no default Purchaser Code is assigned to a specific vendor.
+
 ### Permission on the User
 
 Go to: **User Card**<br/>
@@ -115,7 +117,11 @@ Currently, below Error Types are available:
 ![Purchaser View](@site/static/img/media/purchaser-view-002.png)
 
 ### Use Base Quantity 
-Shows all quantities in the base unit of measure.
+Shows all quantities in the base unit of measure. 
+
+If the purchaser toggle the checkbox ''Use Base Quantity'', the purchaser can view all item lines in their base quantity, regardless of the unit of measure (UoM) used during import. For example, if a document is imported with a different UoM, such as 2 Boxes at 500 SEK each, it can still be accurately matched to an order line specified as 20 PCS at 50 SEK.
+
+Read more about this under [Base Unit of Measure Conversion](https://docs.exflow.cloud/business-central/docs/user-manual/approval-workflow/new-order-matching#base-unit-of-measure-conversion)
 
 ### Show Lines With Exception Code
 Enable this checkbox to view document lines where Exception Codes have been added by the Purchaser.<br/>
@@ -238,7 +244,7 @@ In the Multiple Error List page, a timestamp will be added to the handled line t
 
 When resolved, the error line will be in italic and non-editable. <br/>
 
-AP staff can also use short commando ‘’Alt+M’’ to enter the Manual Order Matching page for a better overview.<br/>
+AP staff can also use shortcut commando ‘’Alt+M’’ to enter the Manual Order Matching page for a better overview.<br/>
  
 ![Purchaser View](@site/static/img/media/purchaser-view-017.png)
 
