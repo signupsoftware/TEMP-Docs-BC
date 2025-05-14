@@ -201,9 +201,12 @@ Read more under section [***ExFlow Email Setup --> Rejected Order, Rejected Quot
 ### Open PDF- Viewer in New Tab
 It is possible to open the PDF in a new separate tab to get a better view of the document image. 
 
-This function is moved from the Approval Status menu to the PDF FactBox on the right side.
+This function is moved from the Approval Status menu to the [PDF FactBox](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#pdf-preview) on the right side.
 
-Read more about this under ''FactBoxes In Approval Status''.
+Click on this button to open the PDF in a new separate tab:
+
+![PDF Preview](@site/static/img/media/open-new-001.png) 
+
 
 ### Force Update on Purchase Document
 
@@ -220,7 +223,7 @@ Filter on a specific approver (approval group) and Status in the Approval Status
 ![ExFlow Approval Status- Filter on approver](@site/static/img/media/image256.png)
 
 ### Show Document Image
-Go to: ***Approval Status --> Related --> Files --> Show Document Image***<br/>
+Go to: ***Approval Status --> Related --> Files --> Show Document Image (Ctrl+I)***<br/>
 
 To download or open PDF.
 
@@ -377,29 +380,27 @@ Find useful FactBoxes on the right side in Approval Status.
 | Vendor Statistic and Buy-from Vendor History              | [***Vendor Statistic and Buy-from Vendor History***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#vendor-statistic-and-buy-from-vendor-history)
 
 ### PDF Preview
-Change size on PDF Preview Press - / + to decrease or increase size of PDF.
-
-![ExFlow Import Journal](@site/static/img/media/image215.png)
-
-Reset size of FactBox Click "Restore".
-
-![ExFlow Import Journal - PDF Preview](@site/static/img/media/image216.png)
-
-"Zoom Out", "Zoom In" and Reset Zoom
-
-![ExFlow Import Journal - PDF Preview](@site/static/img/media/image217.png)
-
-Open the PDF in a new separate tab to get a better view of the document image.  
+Open the PDF in a new separate tab to get a better view of the document image:  
 
 ![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png) 
 
-Change PDF page No. use "Record Buttons".
+"Zoom Out", "Zoom In" and Reset Zoom:
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/image217.png)
+
+Change size on PDF Preview: click on ''- / +'' to decrease or increase size of PDF.
+
+![ExFlow Import Journal](@site/static/img/media/image215.png)
+
+Refresh button is found to the left. Click on "Restore" to reset size of the FactBox. 
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/image216.png)
+
+Change the PDF page number here:
 
 ![ExFlow Import Journal - PDF Preview](@site/static/img/media/image218.png)
 
-To open PDF file in full size:
-
-Go to: ***Related --> Files --> Show Document Image (Ctrl+I)***
+Lastly, a reminder that it's possible to open PDF file in full size via shortcut commando ''Ctrl+I'' or to go via ***Related --> Files --> Show Document Image***
 
 
 ### Incoming Document Files

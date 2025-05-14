@@ -195,11 +195,13 @@ Lesen Sie mehr im Abschnitt [***ExFlow E-Mail-Einrichtung --> Abgelehnte Bestell
 
 ### PDF-Viewer in neuem Tab öffnen
 
-Es ist möglich, die PDF-Datei in einem neuen separaten Tab zu öffnen, um eine bessere Ansicht des Dokumentbildes zu erhalten.
+Es ist möglich, die PDF in einem neuen separaten Tab zu öffnen, um eine bessere Ansicht des Dokumentenbildes zu erhalten.
 
-Diese Funktion wurde aus dem Menü Freigabestatus in die PDF-Infobox auf der rechten Seite verschoben.
+Diese Funktion wurde vom Menü zur Genehmigungsstatus in das [PDF-FactBox](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#pdf-preview) auf der rechten Seite verschoben.
 
-Lesen Sie mehr dazu unter ''FactBoxen im Genehmigungsstatus''.
+Klicken Sie auf diese Schaltfläche, um die PDF in einem neuen separaten Tab zu öffnen:
+
+![ExFlow Import Journal - PDF-Vorschau](@site/static/img/media/open-new-001.png)
 
 
 ### Erzwungene Aktualisierung des Einkaufsdokuments
@@ -373,29 +375,26 @@ Finden Sie nützliche FactBoxes auf der rechten Seite im Genehmigungsstatus.
 | Lieferantenstatistik und Historie des Lieferanten              | [***Lieferantenstatistik und Historie des Lieferanten***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#vendor-statistic-and-buy-from-vendor-history)
 
 ### PDF-Vorschau
-Größe in der PDF-Vorschau ändern Drücken Sie - / +, um die PDF-Datei zu verkleinern oder zu vergrößern.
+Öffnen Sie die PDF in einem neuen separaten Tab, um eine bessere Ansicht des Dokumentbildes zu erhalten:  
 
-![ExFlow Import Journal](../../images//image215.png)
+![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/open-new-001.png) 
 
-Größe der Infobox zurücksetzen Klicken Sie auf "Wiederherstellen".
+"Verkleinern", "Vergrößern" und Zoom zurücksetzen:
 
-![ExFlow Import Journal - PDF-Vorschau](../../images/image216.png)
+![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/image217.png)
 
-"Verkleinern", "Vergrößern" und Zoom zurücksetzen
+Größe der PDF-Vorschau ändern: Klicken Sie auf ''- / +'', um die Größe der PDF zu verringern oder zu erhöhen.
 
-![ExFlow Import Journal - PDF-Vorschau](../../images/image217.png)
+![ExFlow Import Journal](@site/static/img/media/image215.png)
 
-Öffnen Sie die PDF-Datei in einer neuen separaten Registerkarte, um eine bessere Ansicht des Dokumentbildes zu erhalten.
+Die Aktualisierungsschaltfläche befindet sich links. Klicken Sie auf "Wiederherstellen", um die Größe der FactBox zurückzusetzen. 
 
-![ExFlow Import Journal - PDF-Vorschau](../../images/open-new-001.png)
+![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/image216.png)
 
-PDF-Seiten-Nr. ändern Verwenden Sie "Record Buttons".
+Ändern Sie die PDF-Seitennummer hier:
 
-![ExFlow Import Journal - PDF-Vorschau](../../images/image218.png)
+![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/image218.png)
 
-So öffnen Sie eine PDF-Datei in voller Größe:
-
-Gehe zu: ***Verwandte --> Dateien --> Dokumentbild anzeigen (Strg+I)***
 ### Eingehende Dokumentdateien
 Anzeigen und Hinzufügen von Anhängen. Um ein Dokument anzuhängen, ohne den Hauptanhang zu ersetzen.<br/>
 

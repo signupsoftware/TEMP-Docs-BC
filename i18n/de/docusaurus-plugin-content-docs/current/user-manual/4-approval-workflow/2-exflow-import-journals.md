@@ -389,11 +389,13 @@ Wenn mehrere Dateien ausgewählt sind, gibt es die Möglichkeit, eine komprimier
 "Dokumentbild anzeigen" kann auch über das Menü unter Verwandt erreicht werden.
 
 ### PDF-Viewer in neuem Tab öffnen
-Es ist möglich, die PDF-Datei in einem neuen separaten Tab zu öffnen, um eine bessere Ansicht des Dokumentbildes zu erhalten.
+Es ist möglich, die PDF in einem neuen separaten Tab zu öffnen, um eine bessere Ansicht des Dokumentenbildes zu erhalten.
 
-Diese Funktion wurde aus dem Menü Journal importieren in die PDF-Infobox auf der rechten Seite verschoben.
+Diese Funktion wurde vom Menü "Importjournal" in die [PDF-Infobox](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#pdf-preview) auf der rechten Seite verschoben.
 
-Lesen Sie mehr dazu unter [FactBoxes In Import Journal](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#factboxes-in-import-journal).
+Klicke auf diesen Button, um die PDF in einem neuen separaten Tab zu öffnen:
+
+![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/open-new-001.png)
 
 
 ## Dokumentkopf - Weitere Optionen anzeigen 
@@ -648,29 +650,25 @@ Die automatische Zuweisung überschreibt manuell hinzugefügte Mehrwertsteuerbet
 Rechts im Import-Journal gibt es nützliche FactBoxes.
 
 ### PDF-Vorschau
-Ändern Sie die Größe der PDF-Vorschau Drücken Sie - / +, um die Größe der PDF zu verringern oder zu erhöhen.
+Öffnen Sie die PDF in einem neuen separaten Tab, um eine bessere Ansicht des Dokumentbildes zu erhalten:  
 
-![ExFlow Import-Journal](../../images/image215.png)
+![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/open-new-001.png) 
 
-Größe der FactBox zurücksetzen Klicken Sie auf "Wiederherstellen".
+"Verkleinern", "Vergrößern" und Zoom zurücksetzen:
 
-![ExFlow Import-Journal - PDF-Vorschau](../../images/image216.png)
+![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/image217.png)
 
-"Verkleinern", "Vergrößern" und Zoom zurücksetzen
+Größe der PDF-Vorschau ändern: Klicken Sie auf ''- / +'', um die Größe der PDF zu verringern oder zu erhöhen.
 
-![ExFlow Import-Journal - PDF-Vorschau](../../images/image217.png)
+![ExFlow Import Journal](@site/static/img/media/image215.png)
 
-Öffnen Sie das PDF in einem neuen separaten Tab, um eine bessere Ansicht des Dokumentbilds zu erhalten.  
+Die Aktualisierungsschaltfläche befindet sich links. Klicken Sie auf "Wiederherstellen", um die Größe der FactBox zurückzusetzen. 
 
-![ExFlow Import-Journal - PDF-Vorschau](../../images/open-new-001.png) 
+![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/image216.png)
 
-Ändern Sie die PDF-Seitennummer mit den "Datensatzschaltflächen".
+Ändern Sie die PDF-Seitennummer hier:
 
-![ExFlow Import-Journal - PDF-Vorschau](../../images/image218.png)
-
-Um die PDF-Datei in voller Größe zu öffnen:
-
-Gehen Sie zu: ***Verwandt --> Dateien --> Dokumentbild anzeigen (Strg+I)***
+![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/image218.png)
 
 ### Diskussionspanel (Nachricht wird gesendet, wenn das Dokument erstellt wird)
 Wenn ein Kommentar im Diskussionspanel von einem Dokument im Import-Journal hinzugefügt und gesendet wurde, kann er nur im FactBox rechts angezeigt werden, markiert mit der Benutzer-ID, dem Datum und der Uhrzeit des Erstellers.

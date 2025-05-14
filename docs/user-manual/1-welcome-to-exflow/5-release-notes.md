@@ -7,27 +7,29 @@ custom_edit_url: null
 ## Release Notes
 
 ### ExFlow 25.0.0.0 – Release Notes <br/> 
-**Type of Release:** <br/>
+
+#### Type of Release:
 Major Release
 
-**Release Date:** <br/>
+#### Release Date:
 2025-04-17
 
 
-**Release Information:** <br/>
+#### Release Information:
 Requires BC 25.0 or later <br/>
 
-SYSTEM user (system job) is changed to current user in 25.0.246.7
 
-License Provider v3 improvements have been added in 25.0.246.7
+#### Corrections
 
-License Provider v3 name change of SignUp to ExFlow has been fixed in 25.0.246.7
+| Version | Area | Description | 
+| :----------- | :-------------- | :-------------- | 
+| 25.0.246.7	| General		| SYSTEM user (system job) is changed to current user 
+| 25.0.246.7	| License Provider v3	| Improvements have been added 
+| 25.0.246.7	| License Provider v3	| Name change of SignUp to ExFlow 
+| 25.0.246.7	| License Provider 	| Link to page has been added to ExFlow AP Setup overview 
+| 25.0.246.7	| 4PS		| Import Journal - Diff Line creation has been resolved 
 
-Link to License Provider page has been added to ExFlow AP Setup overview in 25.0.246.7
-
-4PS - Import Journal - Diff Line creation has been resolved in 25.0.246.7
-
-**New Features** <br/> 
+#### New Features
 
 | ID| Area | Description |
 | :----------- | :-------------- | :-------------- | 
@@ -46,7 +48,7 @@ Link to License Provider page has been added to ExFlow AP Setup overview in 25.0
 
 <br/>
 
-**Improvements/Enhancements**<br/> 
+#### Improvements/Enhancements
 
 | ID| Area | Description |
 | :----------- | :-------------- | :-------------- | 
@@ -70,86 +72,77 @@ Minor bug corrections are also handled in the release but not in the release not
 <br/>
 
 
-### ExFlow 24.1.0.0 – Release Notes <br/> 
-**Type of Release:** <br/>
-Minor Release
+### ExFlow 24.1.0.0 – Release Notes <br/>  
 
-**Release Date:** <br/>
-2024-12-10
+#### Type of Release
+Minor Release 
 
-
-**Release Information:** <br/>
-Requires BC 24.0 or later <br/>
-
-Change internal procedure CreateInvoicePeriod to external procedure was added in 24.1.263.48
-
-4PS - ExFlow Approval Group - Options missing in Dynamic Approval Type was resolved in 24.1.263.48
-
-4PS - Purchase Invoice - Amount not updated was resolved in 24.1.263.48
-
-4PS - Error when creating a new ExFlow User was resolved in 24.1.263.44 
-
-Wrong statement Always was set in Auto coding suggestion, when ExFlow vendor setup record didn't exist was resolved in 24.1.263.44
-
-New events for 4PS added in 24.1.263.39
  
-New events for 4PS added in 24.1.263.32
+#### Release Date
+2024-12-10 
 
-Issue when using Pebblestone and ExFlow web is resolved in 24.1.263.32
+**Release Information:** <br/> 
+Requires BC 24.0 or later <br/> 
 
-Issue with Global Dimensions behaving incorrectly when selecting in the Import Journal is resolved in 24.1.263.32
+**Corrections** <br/> 
+
+| Version | Area | Description | 
+| :----------- | :-------------- | :-------------- | 
+| 24.1.263.48	| General		| Change internal procedure CreateInvoicePeriod to external procedure 
+| 24.1.263.48	| 4PS		| ExFlow Approval Group - Options missing in Dynamic Approval Type 
+| 24.1.263.48	| 4PS		| Purchase Invoice - Amount not updated 
+| 24.1.263.44	| 4PS		| Error when creating a new ExFlow User 
+| 24.1.263.44	| Vendor Setup	| Wrong statement Always was set in Auto coding suggestion, when ExFlow vendor setup record didn't exist 
+| 24.1.263.39	| 4PS		| New events for 4PS added 
+| 24.1.263.32	| 4PS		| New events for 4PS added 
+| 24.1.263.32| Pebblestone			| Issue when using Pebblestone and ExFlow web 
+| 24.1.263.32| Import Journal		| Issue with Global Dimensions behaving incorrectly when selecting in the Import Journal 
+| 24.1.263.28	| 4PS		| New events for 4PS and ExFlow Purchase codes added 
+| 24.1.263.28	| Item Charge Assignment	| Issue related to Item Charge Assignment not working before document is verified 
+| 24.1.263.22	| Approval Status	| The issue with deferral codes in some specific scenarios getting an incorrect posting date when running the function "Batch Update Posting Date" 
+| 24.1.263.22	| Import Journal	| The issue related to importing only PDF-files through ExFlow File Import Setup 
+| 24.1.263.22	| Sales Order		| The issue that Sales Orders could not be created in some scenarios 
+| 24.1.263.18	| Re-Invoicing		| Issue where in some cases the VAT was incorrect on Sales Invoices generated from Re-invoicing 
+| 24.1.263.18	| Upgrade		| Issue where ExFlow could not be upgraded to the latest version 
+| 24.1.263.18	| Progressus		| Issue when running Progressus and ExFlow resulting in some times not being able to code the invoice  
+| 24.1.263.9	| Events		| Two new events available for OCR Import Mapping - Added 
+| 24.1.263.9	| Approval Status	| Re-Invoicing did not work with Swedish language  
+| 24.1.263.9	| Progressus		| Issue when using ExFlow AP and Progressus where sometimes the "chargeable" field did not behave properly 
+| 24.1.263.9	| Preliminary Posting	| Issue with the VAT Bus. Posting Group not having a rounding account when using Preliminary Posting is now working again as intended 
+
+**24.1.0.0 - New Features** <br/>  
+
+| ID| Area | Description | 
+| :----------- | :-------------- | :-------------- |  
+| 30556	| Import Journal	| Enhanced ExFlow to map up to 8 Misc. Charge fields to purchase codes 
+| 44644	| Import Journal 	| New event added for item charge assignment in the Import Journal 
+| 42817	| Approval Status 	| Added shortcut command for Preview Posting in Approval Status 
+| 44220	| Import Journal 	| PDF-viewer in separate browser supported again 
+| 32864	| Approval Status|FactBoxes of vendor statistics added in Approval Status and Approval Status History 
+| 40207	| Import Journal 	| Better matching against currencies in Payment Validation 
+| 43588	| Approval Status 	| Added function to revert all coding on documents done in the web in Approval Status 
+
  
-New events for 4PS and ExFlow Purchase codes added in 24.1.263.28
-
-Issue related to Item Charge Assignment not working before document is verified is resolved in 24.1.263.28
-
-The issue with deferral codes in some specific scenarios getting an incorrect posting date when running the function "Batch Update Posting Date" has been solved in 24.1.263.22
-
-The issue related to importing only PDF-files through ExFlow File Import Setup has been solved in 24.1.263.22
-
-The issue that Sales Orders could not be created in some scenarios has been solved in 24.1.263.22
-
-The issue where in some cases the VAT was incorrect on Sales Invoices generated from Re-invoicing has been solved in 24.1.263.18
-
-The issue where ExFlow could not be upgraded to the latest version has been solved in 24.1.263.18
-
-The issue when running Progressus and ExFlow resulting in some times not being able to code the invoice has been solved in 24.1.264.18
-
-Two new events available for OCR Import Mapping - Added in 24.1.263.9
-
-Re-invoicing did not work with Swedish language in Approval Status - Resolved in 24.1.263.9
-
-Fixed issue when using ExFlow AP and Progressus where sometimes the "chargeable" field did not behave properly - Resolved in 24.1.263.9
-
-The issue with the VAT Bus. Posting Group not having a rounding account when using Preliminary Posting is now working again as intended - Resolved in 24.1.263.9
-
-**New Features** <br/> 
-
-| ID| Area | Description |
-| :----------- | :-------------- | :-------------- | 
-|30556	|Import Journal|	Enhanced ExFlow to map up to 8 Misc. Charge fields to purchase codes.
-|44644|	Import Journal	|New event added for item charge assignment in the Import Journal
-|42817| Approval Status	|Added shortcut command for Preview Posting in Approval Status
-|44220|	Import Journal	|PDF-viewer in separate browser supported again
-|32864|	Approval Status|FactBoxes of vendor statistics added in Approval Status and Approval Status History
-|40207|	Import Journal	|Better matching against currencies in Payment Validation
-|43588|	Approval Status	|Added function to revert all coding on documents done in the web in Approval Status
-
-<br/>
-
-**Improvements/Enhancements**<br/> 
-
-| ID| Area | Description |
-| :----------- | :-------------- | :-------------- | 
-|43997|	Web|	Resolved issue that sometimes the warning of having a minimum number of approvers did not warn.
-|44100|	Setup|	Updates made to EX BASE where some permissions where missing 
-|44288|	Import Journal	|Fixed issue that in some cases a receipt could not be matched when the same item were used in multiple lines
-|42949|	Import Journal|	Fixed issue that sometimes when contract was matched, the dimensions and approval did not follow the settings.
-|42062|	Web|	Fixed issue when sometimes Item Charges were not possible to approve in the Web
 
 <br/> 
-Minor bug corrections are also handled in the release but not in the release notes.
-<br/>
+
+ 
+
+**24.1.0 0 - Improvements/Enhancements**<br/>  
+
+| ID| Area | Description | 
+| :----------- | :-------------- | :-------------- |  
+| 43997	| Web		| Resolved issue that sometimes the warning of having a minimum number of approvers did not warn 
+| 44100	| Setup		| Updates made to EX BASE where some permissions where missing 
+| 44288	| Import Journal	| Fixed issue that in some cases a receipt could not be matched when the same item was used in multiple lines 
+| 42949	| Import Journal	| Fixed issue that sometimes when contract was matched, the dimensions and approval did not follow the settings 
+| 42062	| Web		| Fixed issue when sometimes Item Charges were not possible to approve in the Web 
+
+<br/>  
+
+Minor bug corrections are also handled in the release but not in the release notes. 
+
+<br/> 
 
 ### ExFlow 24.0.0.0 – Release Notes <br/> 
 **Type of Release:** <br/>
