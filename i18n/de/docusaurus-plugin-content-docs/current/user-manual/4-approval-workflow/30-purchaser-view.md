@@ -187,30 +187,33 @@ Dieser Auftrag wird aus der Einkäuferansicht verschwinden, da der Empfang ihn a
 #### Wareneingangserinnerung senden 
 Gehen Sie zu: **Aktionen --> E-Mail --> Wareneingangserinnerungen senden**
 
-Wenn die Waren nicht eingegangen sind, kann der Einkäufer eine Erinnerung an Lagerarbeiter, Einkaufskoordinatoren oder andere Kollegen senden.<br/>
+Wenn die Waren nicht eingegangen sind, kann der Einkäufer eine Erinnerung an Lagerarbeiter, Einkaufskoordinator oder andere Kollegen senden. <br/>
 
-Lesen Sie mehr darüber unter [***E-Mail-Erinnerungen --> Nicht empfangener Auftrag***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders)
+Lesen Sie mehr darüber unter [***E-Mail-Erinnerungen --> Nicht eingegangener Auftrag***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order)
 
 ![Einkäuferansicht](../../images/purchaser-view-007.png)
 
-Dies funktioniert nur für Dokumente, bei denen die Einstellung Dokumente abgleichen = Wareneingänge ist.<br/>
-Das E-Mail-Protokoll kann auch unter der Funktion "Wareneingangserinnerungen senden" gefunden werden.<br/>
+Dies funktioniert nur für Dokumente, bei denen die Einstellung Abgleich mit Dokumenten = Wareneingänge ist. <br/>
+Das E-Mail-Protokoll kann auch unter der Funktion ''Wareneingangserinnerungen senden'' gefunden werden.<br/>
 
 #### E-Mail an Lieferanten senden
 Gehen Sie zu: **Aktionen --> E-Mail --> E-Mail an Lieferanten senden**
 
-Einkäufer können E-Mails an Lieferanten aus dieser Ansicht senden. Einkäufer können auch alle gesendeten E-Mails unter der Funktion "E-Mail an Lieferanten senden" anzeigen.<br/>
+Einkäufer können aus dieser Ansicht E-Mails an Lieferanten senden. Einkäufer können auch alle gesendeten E-Mails unter der Funktion ''E-Mail an Lieferanten senden'' einsehen. <br/> 
 
-Im folgenden Beispiel muss der Einkäufer Sammy den Lieferanten aufgrund falscher Stückkosten für alle Artikel kontaktieren und eine Gutschrift und eine neue Rechnung mit den korrekten Stückkosten gemäß ihrer Vereinbarung anfordern.<br/>
+Bitte beachten Sie: Ein Standard Business Central E-Mail-Konto muss zuerst eingerichtet werden, um E-Mails senden zu können. Lesen Sie mehr darüber [hier](https://learn.microsoft.com/de-de/dynamics365/business-central/admin-how-setup-email)
+
+Im folgenden Beispiel muss der Einkäufer Sammy den Lieferanten wegen falscher Stückkosten für alle Artikel kontaktieren und eine Gutschrift sowie eine neue Rechnung mit den korrekten Stückkosten gemäß ihrer Vereinbarung anfordern. <br/>
  
 ![Einkäuferansicht](../../images/purchaser-view-008.png)
-Informationen über die gesendete E-Mail werden als Chat-Nachricht im Diskussionsfeld angezeigt.<br/>Die E-Mail wird auch als PDF unter Eingehende Dokumente (Unterstützende Anhänge) angehängt.
+
+Informationen über die gesendete E-Mail werden als Chat-Nachricht im Diskussionsfeld angezeigt. <br/> Die E-Mail wird auch als PDF unter Eingehende Dokumente (Unterstützende Anlagen) angehängt. 
 
  
 ![Einkäuferansicht](../../images/purchaser-view-009.png)
 
-Das PDF wird auch als Anhang zu ExFlow Web für die Genehmiger folgen, um alle Beteiligten von Anfang bis Ende informiert zu halten.<br/>
-Der nächste Schritt für den Einkäufer besteht darin, einen Ausnahme-Code hinzuzufügen: Gutschrift.<br/>
+Die PDF-Datei wird auch an ExFlow Web als Anhang für die Genehmiger weitergeleitet, damit alle Beteiligten von Anfang bis Ende informiert bleiben.<br/>
+Der nächste Schritt für den Einkäufer ist das Hinzufügen eines Ausnahme-Codes: Gutschrift.<br/>
 
 #### Einen Ausnahme-Code hinzufügen 
 Um das obige Szenario fortzusetzen, muss der Einkäufer Sammy einen Ausnahme-Code hinzufügen, um dem Kreditorenbuchhaltungsteam zu signalisieren, mit der Bearbeitung und Lösung der Dokumentprobleme fortzufahren.

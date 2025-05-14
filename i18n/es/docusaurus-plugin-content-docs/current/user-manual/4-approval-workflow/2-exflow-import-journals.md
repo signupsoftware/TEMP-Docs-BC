@@ -392,9 +392,11 @@ Si se seleccionan múltiples archivos, entonces hay una opción para guardar un 
 ### Abrir PDF- Visor en una nueva pestaña
 Es posible abrir el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.
 
-Esta función se traslada del menú Importar diario al cuadro informativo PDF en el lado derecho.
+Esta función se ha movido del menú Importar Diario al [PDF FactBox](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#pdf-preview) en el lado derecho.
 
-Lea más sobre esto en [FactBoxes In Import Journal](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#factboxes-in-import-journal).
+Haz clic en este botón para abrir el PDF en una nueva pestaña separada:
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png)
 
 
 ## Encabezado de Documento - Mostrar más opciones 
@@ -654,29 +656,28 @@ La Asignación Automática sobrescribirá el Importe de IVA añadido manualmente
 A la derecha en el Diario de Importación hay útiles FactBoxes.
 
 ### Vista Previa de PDF
-Cambiar tamaño en Vista Previa de PDF Presione - / + para disminuir o aumentar el tamaño del PDF.
-
-![Diario de Importación de ExFlow](@site/static/img/media/image215.png)
-
-Restablecer tamaño de FactBox Haga clic en "Restaurar".
-
-![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image216.png)
-
-"Reducir", "Ampliar" y Restablecer Zoom
-
-![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image217.png)
-
-Abrir el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.  
+Abra el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento:  
 
 ![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/open-new-001.png) 
 
-Cambiar página Nº de PDF usando "Botones de Registro".
+"Reducir", "Ampliar" y Restablecer Zoom:
+
+![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image217.png)
+
+Cambiar tamaño en Vista Previa de PDF: haga clic en ''- / +'' para disminuir o aumentar el tamaño del PDF.
+
+![Diario de Importación de ExFlow](@site/static/img/media/image215.png)
+
+El botón de actualización se encuentra a la izquierda. Haga clic en "Restaurar" para restablecer el tamaño del FactBox. 
+
+![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image216.png)
+
+Cambie el número de página del PDF aquí:
 
 ![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image218.png)
 
-Para abrir archivo PDF a tamaño completo:
+Por último, un recordatorio de que es posible abrir el archivo PDF a tamaño completo mediante el comando de atajo ''Ctrl+I'' o ir a través de ***Relacionado --> Archivos --> Mostrar Imagen de Documento***
 
-Vaya a: ***Relacionado --> Archivos --> Mostrar Imagen de Documento (Ctrl+I)***
 
 ### Panel de Discusión (El mensaje se enviará cuando se cree el documento)
 Cuando se ha añadido y enviado un comentario en el Panel de Discusión desde un documento en el Diario de Importación, solo puede verse en el FactBox a la derecha marcado con el ID de Usuario de creación, Fecha y Hora.

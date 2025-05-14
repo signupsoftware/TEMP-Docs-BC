@@ -196,9 +196,11 @@ Lea más en la sección [***Configuración de Correo Electrónico de ExFlow --> 
 ### Abrir Visor de PDF en Nueva Pestaña
 Es posible abrir el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.
 
-Esta función se traslada del menú Importar diario al cuadro informativo PDF en el lado derecho.
+Esta función se ha trasladado del menú Estado de Aprobación al [Cuadro Informativo PDF](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#pdf-preview) en el lado derecho.
 
-Lea más sobre esto en ''FactBoxes In Import Journal''.
+Haga clic en este botón para abrir el PDF en una nueva pestaña separada:
+
+![Vista Previa de PDF](@site/static/img/media/open-new-001.png) 
 
 ### Forzar Actualización del Documento de Compra
 
@@ -365,29 +367,27 @@ Encuentre útiles FactBoxes en el lado derecho en el Estado de Aprobación.
 
 
 ### Vista Previa de PDF
-Cambiar tamaño en Vista Previa de PDF Presione - / + para disminuir o aumentar el tamaño del PDF.
-
-![Diario de Importación de ExFlow](@site/static/img/media/image215.png)
-
-Restablecer tamaño de FactBox Haga clic en "Restaurar".
-
-![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image216.png)
-
-"Reducir", "Ampliar" y Restablecer Zoom
-
-![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image217.png)
-
-Abrir el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.  
+Abra el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento:  
 
 ![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/open-new-001.png) 
 
-Cambiar página Nº de PDF usando "Botones de Registro".
+"Reducir", "Ampliar" y Restablecer Zoom:
+
+![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image217.png)
+
+Cambiar tamaño en Vista Previa de PDF: haga clic en ''- / +'' para disminuir o aumentar el tamaño del PDF.
+
+![Diario de Importación de ExFlow](@site/static/img/media/image215.png)
+
+El botón de actualización se encuentra a la izquierda. Haga clic en "Restaurar" para restablecer el tamaño del FactBox. 
+
+![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image216.png)
+
+Cambie el número de página del PDF aquí:
 
 ![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/image218.png)
 
-Para abrir archivo PDF a tamaño completo:
-
-Vaya a: ***Relacionado --> Archivos --> Mostrar Imagen de Documento (Ctrl+I)***
+Por último, un recordatorio de que es posible abrir el archivo PDF a tamaño completo mediante el comando de atajo ''Ctrl+I'' o ir a través de ***Relacionado --> Archivos --> Mostrar Imagen de Documento***
 
 ### Archivos de Documentos Entrantes
 Ver y agregar Archivo Adjunto. Para adjuntar un documento sin reemplazar el Adjunto Principal.<br/>

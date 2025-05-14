@@ -397,9 +397,12 @@ If multiple files are selected, then there is an option to save a compressed fil
 ### Open PDF- Viewer in New Tab
 It is possible to open the PDF in a new separate tab to get a better view of the document image. 
 
-This function is moved from the Import Journal menu to the PDF FactBox on the right side.
+This function is moved from the Import Journal menu to the [PDF FactBox](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#pdf-preview) on the right side.
 
-Read more about this under [FactBoxes In Import Journal](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#factboxes-in-import-journal).
+Click on this button to open the PDF in a new separate tab:
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png) 
+
 
 ## Document Header - Show more options 
 
@@ -655,34 +658,31 @@ VAT difference is not allowed on document that include lines with ONLY VAT. Only
 Automatically Assign will override manually added VAT Amount in Statistics.
 
 
-
 ## FactBoxes in Import Journal
 To the right in Import Journal there are useful FactBoxes.
 
 ### PDF Preview
-Change size on PDF Preview Press - / + to decrease or increase size of PDF.
-
-![ExFlow Import Journal](@site/static/img/media/image215.png)
-
-Reset size of FactBox Click "Restore".
-
-![ExFlow Import Journal - PDF Preview](@site/static/img/media/image216.png)
-
-"Zoom Out", "Zoom In" and Reset Zoom
-
-![ExFlow Import Journal - PDF Preview](@site/static/img/media/image217.png)
-
-Open the PDF in a new separate tab to get a better view of the document image.  
+Open the PDF in a new separate tab to get a better view of the document image:  
 
 ![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png) 
 
-Change PDF page No. use "Record Buttons".
+"Zoom Out", "Zoom In" and Reset Zoom:
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/image217.png)
+
+Change size on PDF Preview: click on ''- / +'' to decrease or increase size of PDF.
+
+![ExFlow Import Journal](@site/static/img/media/image215.png)
+
+Refresh button is found to the left. Click on "Restore" to reset size of the FactBox. 
+
+![ExFlow Import Journal - PDF Preview](@site/static/img/media/image216.png)
+
+Change the PDF page number here:
 
 ![ExFlow Import Journal - PDF Preview](@site/static/img/media/image218.png)
 
-To open PDF file in full size:
-
-Go to: ***Related --> Files --> Show Document Image (Ctrl+I)***
+Lastly, a reminder that it's possible to open PDF file in full size via shortcut commando ''Ctrl+I'' or to go via ***Related --> Files --> Show Document Image***
 
 ### Discussion Panel (Message will be sent when document is created)
 When a comment has been added and sent in Discussion Panel from a document in Import Journal, it can only be seen in FactBox to the right marked with creating Users ID, Date and Time.

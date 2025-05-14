@@ -188,7 +188,7 @@ Go to: **Actions --> Email --> Send Receipt Reminders**
 
 If the goods are not received, then the Purchaser can send a reminder to warehouse workers, purchase coordinator or other colleagues. <br/>
 
-Read more about this under [***Email Reminders --> Unreceived Order***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders)
+Read more about this under [***Email Reminders --> Unreceived Order***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order)
 
 ![Purchaser View](@site/static/img/media/purchaser-view-007.png)
 
@@ -198,12 +198,15 @@ Email Log can also be found under the ‘’Send Receipt Reminders’’- functi
 #### Send Email to Vendor
 Go to: **Actions --> Email --> Send Email to Vendor**
 
-Purchasers can send emails to vendor from this view. Purchasers can also see all sent emails under the ‘’Send Email to Vendor’’-function. <br/>
+Purchasers can send emails to vendor from this view. Purchasers can also see all sent emails under the ‘’Send Email to Vendor’’-function. <br/> 
+
+Please note: Standard Business Central Email Account must be setup first, in order to send emails. Read more about this [here](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email)
 
 In below example, the Purchaser Sammy needs to contact the vendor due to incorrect unit cost on all items and request a credit and new invoice with the correct unit costs, as per their agreement. <br/>
  
 ![Purchaser View](@site/static/img/media/purchaser-view-008.png)
-Information about the sent email will be set as a chat message in Discussion Panel. <br/>The email will also be attached as a pdf under Incoming Documents (Supporting Attachments). 
+
+Information about the sent email will be set as a chat message in Discussion Panel. <br/> The email will also be attached as a pdf under Incoming Documents (Supporting Attachments). 
 
  
 ![Purchaser View](@site/static/img/media/purchaser-view-009.png)
