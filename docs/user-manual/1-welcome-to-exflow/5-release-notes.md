@@ -7,28 +7,29 @@ custom_edit_url: null
 ## Release Notes
 
 ### ExFlow 25.0.0.0 – Release Notes <br/> 
-**Type of Release:** <br/>
+
+#### Type of Release:
 Major Release
 
-**Release Date:** <br/>
+#### Release Date:
 2025-04-17
 
 
-**Release Information:** <br/>
+#### Release Information:
 Requires BC 25.0 or later <br/>
 
 
-**Corrections in 25.0.246.7**
+#### Corrections
 
-| Area | Description |
-| :----------- | :-------------- | 
-|General| SYSTEM user (system job) is changed to current user
-|License Provider v3| Improvements have been added 
-|License Provider v3| Name change of SignUp to ExFlow has been fixed 
-|License Provider |Link to page has been added to ExFlow AP Setup overview 
-|4PS| Import Journal - Diff Line creation has been resolved 
+| Version | Area | Description | 
+| :----------- | :-------------- | :-------------- | 
+| 25.0.246.7	| General		| SYSTEM user (system job) is changed to current user 
+| 25.0.246.7	| License Provider v3	| Improvements have been added 
+| 25.0.246.7	| License Provider v3	| Name change of SignUp to ExFlow 
+| 25.0.246.7	| License Provider 	| Link to page has been added to ExFlow AP Setup overview 
+| 25.0.246.7	| 4PS		| Import Journal - Diff Line creation has been resolved 
 
-**New Features** <br/> 
+#### New Features
 
 | ID| Area | Description |
 | :----------- | :-------------- | :-------------- | 
@@ -47,7 +48,7 @@ Requires BC 25.0 or later <br/>
 
 <br/>
 
-**Improvements/Enhancements**<br/> 
+#### Improvements/Enhancements
 
 | ID| Area | Description |
 | :----------- | :-------------- | :-------------- | 
