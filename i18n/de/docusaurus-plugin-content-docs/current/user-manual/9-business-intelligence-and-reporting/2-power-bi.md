@@ -11,11 +11,11 @@ Es gibt vorbereitete Einstellungen und Vorlagen zur Analyse von ExFlow-Daten mit
 
 Aus einer Setup-Perspektive kann man alle benötigten Webdienste in einem Unternehmen veröffentlichen, indem man "Power BI Web Services erstellen" auswählt.
 
-***Setup \--\> ExFlow Setup \--\> Aktionen \--\> Funktionen \--\> Power BI \--\> Power BI Web Services erstellen***
+Gehen Sie zu: **ExFlow Setup --> Aktionen --> Funktionen --> Power BI --> Power BI Web Services erstellen**
 
 Um vorhandene Power BI Web Services zu löschen, wählen Sie "Power BI Web Services löschen".
 
-***Setup \--\> ExFlow Setup \--\> Aktionen \--\> Funktionen \--\> Power BI \--\> Power BI Web Services löschen***
+Gehen Sie zu: **ExFlow Setup --> Aktionen --> Funktionen --> Power BI --> Power BI Web Services löschen**
 
 Unter Power BI Setups ist es auch möglich, die Power BI-Vorlagendatei herunterzuladen. Während dieses Setups gibt es jetzt eine einfachere Möglichkeit, die URL-Zeichenfolge (BC-Datenquelle) abzurufen, die während des Power BI-Setups in Power BI Desktop verwendet wird. Diese Setups werden im Knowledge Base Artikel behandelt.
 

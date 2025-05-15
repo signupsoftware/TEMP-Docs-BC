@@ -10,11 +10,11 @@ Hay configuraciones y plantillas preparadas para analizar datos de ExFlow con Po
 
 Desde una perspectiva de configuración, se pueden publicar todos los Servicios Web necesarios en una empresa eligiendo "Crear Servicios Web de Power BI".
 
-***Configuración \--\> Configuración de ExFlow \--\> Acciones \--\> Funciones \--\> Power BI \--\> Crear Servicios Web de Power BI***
+Vaya a: **Configuración de ExFlow --> Acciones --> Funciones --> Power BI --> Crear Servicios Web de Power BI**
 
 Para eliminar los Servicios Web de Power BI existentes, seleccione "Eliminar Servicios Web de Power BI".
 
-***Configuración \--\> Configuración de ExFlow \--\> Acciones \--\> Funciones \--\> Power BI \--\> Eliminar Servicios Web de Power BI***
+Vaya a: **Configuración de ExFlow --> Acciones --> Funciones --> Power BI --> Eliminar Servicios Web de Power BI**
 
 En las Configuraciones de Power BI también es posible descargar el archivo de plantilla de Power BI y durante esa configuración ahora hay una manera más fácil de recuperar la cadena de URL (Fuente de Datos BC) que se utilizará durante la configuración de Power BI en Power BI Desktop. Estas configuraciones están cubiertas en el Artículo de la Base de Conocimientos.
 

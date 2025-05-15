@@ -16,15 +16,15 @@ Hauptversion
 **Versionsinformationen:** <br/>
 Erfordert BC 25.0 oder höher <br/>
 
-SYSTEM-Benutzer (Systemjob) wurde in 25.0.246.7 in den aktuellen Benutzer geändert.
+#### Korrekturen
 
-Verbesserungen bei License Provider v3 wurden in Release 25.0.246.7 hinzugefügt
-
-Die Namensänderung des Lizenzanbieters v3 von SignUp in ExFlow wurde in Release 25.0.246.7 behoben
-
-Der Link zur Seite "Lizenzanbieter" wurde der Übersicht über die ExFlow-AP-Einrichtung in Release 25.0.246.7 hinzugefügt.
-
-4PS - Import Journal - Erstellung der Diff-Linie wurde in Release 25.0.246.7 behoben
+| Version | Bereich | Beschreibung | 
+| :----------- | :-------------- | :-------------- | 
+| 25.0.246.7	| Allgemein		| SYSTEM-Benutzer (Systemjob) wird zum aktuellen Benutzer geändert 
+| 25.0.246.7	| Lizenzanbieter v3	| Verbesserungen wurden hinzugefügt 
+| 25.0.246.7	| Lizenzanbieter v3	| Namensänderung von SignUp zu ExFlow 
+| 25.0.246.7	| Lizenzanbieter 	| Link zur Seite wurde zur ExFlow AP Setup-Übersicht hinzugefügt 
+| 25.0.246.7	| 4PS		| Importjournal - Erstellung der Differenzzeile wurde behoben 
 
 
 **Neue Funktionen** <br/>
