@@ -28,6 +28,12 @@ Requires BC 25.0 or later <br/>
 | 25.0.246.7	| License Provider v3	| Name change of SignUp to ExFlow 
 | 25.0.246.7	| License Provider 	| Link to page has been added to ExFlow AP Setup overview 
 | 25.0.246.7	| 4PS		| Import Journal - Diff Line creation has been resolved 
+|25.0.246.14|4PS		|WIP Accounts were not visible in drop down list in ExFlow Web
+|25.0.246.14|General		|Auto Receipt Events added 
+|25.0.246.14|Upgrade Script		| Fixed language validation issue in the upgrade script 
+|25.0.246.14|Feature Management | Data Update Status added and issue with Import Journal filter options was resolved 
+|25.0.246.14|Setup |  Broken ''Read More'' links were fixed in both order matching wizards
+
 
 #### New Features
 

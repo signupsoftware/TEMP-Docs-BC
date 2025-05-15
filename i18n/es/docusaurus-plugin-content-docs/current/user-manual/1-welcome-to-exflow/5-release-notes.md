@@ -7,7 +7,6 @@ custom_edit_url: null
 ## Notas de la Versión
 
 
-
 ### ExFlow 25.0.0.0 – Notas de la Versión <br/>
 **Tipo de versión:** <br/>
 Versión mayor
@@ -27,6 +26,12 @@ Requiere BC 25.0 o posterior <br/>
 | 25.0.246.7 | Proveedor de licencias v3 | Cambio de nombre de SignUp a ExFlow.
 | 25.0.246.7 | Proveedor de licencias | Se ha añadido un enlace a la página de configuración de ExFlow AP.
 | 25.0.246.7 | 4PS | Se ha solucionado el problema de la creación de líneas de diferencia en el diario de importación.
+|25.0.246.14|4PS |Las cuentas WIP no eran visibles en la lista desplegable de ExFlow Web
+|25.0.246.14|General |Se añadieron eventos de recepción automática
+|25.0.246.14|Script de actualización | Se solucionó un problema de validación de idioma en el script de actualización
+|25.0.246.14|Gestión de funciones | Se añadió el estado de actualización de datos y se solucionó el problema con las opciones de filtro del diario de importación
+|25.0.246.14|Configuración | Se solucionaron los enlaces "Leer más" que no funcionaban en ambos asistentes de coincidencia de pedidos
+
 
 **Nuevas funcionalidades** <br/>
 
