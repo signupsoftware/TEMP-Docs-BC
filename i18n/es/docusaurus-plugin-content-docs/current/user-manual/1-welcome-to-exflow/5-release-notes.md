@@ -18,15 +18,15 @@ Versión mayor
 **Información de la versión:** <br/>
 Requiere BC 25.0 o posterior <br/>
 
-El usuario SYSTEM (trabajo del sistema) se cambia al usuario actual en 25.0.246.7
+#### Correcciones
 
-Se han añadido mejoras del proveedor de licencias v3 en la versión 25.0.246.7
-
-El cambio de nombre del proveedor de licencias v3 de SignUp a ExFlow se ha corregido en 25.0.246.7
-
-Se ha agregado el enlace a la página del proveedor de licencias a la descripción general de la configuración de AP de ExFlow en 25.0.246.7
-
-4PS - Diario de importación - La creación de líneas de diferencias se ha resuelto en 25.0.246.7
+| Versión | Área | Descripción |
+| :----------- | :-------------- | :-------------- |
+| 25.0.246.7 | General | El usuario SYSTEM (trabajo del sistema) se ha cambiado al usuario actual.
+| 25.0.246.7 | Proveedor de licencias v3 | Se han añadido mejoras.
+| 25.0.246.7 | Proveedor de licencias v3 | Cambio de nombre de SignUp a ExFlow.
+| 25.0.246.7 | Proveedor de licencias | Se ha añadido un enlace a la página de configuración de ExFlow AP.
+| 25.0.246.7 | 4PS | Se ha solucionado el problema de la creación de líneas de diferencia en el diario de importación.
 
 **Nuevas funcionalidades** <br/>
 
