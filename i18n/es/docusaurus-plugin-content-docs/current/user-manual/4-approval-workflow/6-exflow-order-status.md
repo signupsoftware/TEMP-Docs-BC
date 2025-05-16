@@ -1,133 +1,112 @@
 ---
-title: Estado de Orden de ExFlow
+title: Estado de Pedido de ExFlow
 sidebar_position: 6
 hide_title: true
 custom_edit_url: null
 ---
-## Estado de Orden de ExFlow
+## Estado de Pedido de ExFlow
 
-Ir a: ***Estado de Orden de ExFlow***
+Vaya a: ***Estado de Pedido de ExFlow***
 
-Cuando una Orden o Cotización se marca para aprobación, se encuentra en el Estado de Orden de ExFlow y en el Estado de Aprobación de ExFlow. Cuando una Orden o Cotización se Libera, el estado cambiará de Inactivo a Activo. Las Órdenes o Cotizaciones no liberadas tienen el estado Inactivo y no se pueden ver en ExFlow Web.
+Cuando un Pedido o Cotización se marca para aprobación, se puede encontrar en
+Estado de Pedido de ExFlow y en Estado de Aprobación de ExFlow. Cuando un Pedido o
+Cotización se Libera, el estado cambiará de Inactivo a Activo.
+Los Pedidos o Cotizaciones no liberados tienen estado Inactivo y no pueden verse en
+ExFlow Web.
 
-### Configuración de Aprobación de Orden y Cotización
+### Configuración de Aprobación de Pedidos y Cotizaciones
 
-Ir a: ***Configuración de ExFlow \--\> Aprobación de Orden y Cotización***<br/>
-Para usar la función de Aprobación de Orden y Cotización, se necesitan algunas configuraciones.
+Vaya a: ***Configuración de ExFlow --> Aprobación de Pedidos y Cotizaciones***
 
-![Configuración de ExFlow - Aprobación de Orden y Cotización](@site/static/img/media/exflow-setup-order-and-quote-approval-001.png)
+![Configuración de ExFlow - Aprobación de Pedidos y Cotizaciones](@site/static/img/media/exflow-setup-order-and-quote-approval-001.png)
 
-**Aprobación de Orden de Compra**<br/>
-Para agregar automáticamente la bandera de aprobación en todos los documentos de orden, la "Aprobación de Orden de Compra" debe estar activa. Además, para enviar una orden para aprobación en ExFlow Web se necesita un PDF.
+|Aprobación de Pedidos y Cotizaciones||
+|:-|:-|	
+|**Aprobación de Pedido de Compra**| 	Especifica si se debe utilizar la aprobación de pedidos de compra. <br/> Para agregar automáticamente la marca de aprobación en todos los documentos de pedido, "Aprobación de Pedido de Compra" debe estar activa. Además, para enviar un pedido para su aprobación en ExFlow Web, se necesita un PDF.
+|**Informe de Pedido**| 	Especifica el ID del informe que se utiliza al crear documentos de pedido
+|**Nombre del Informe de Pedido**| 	Especifica el nombre del informe que se utiliza al crear documentos de pedido. <br/> Para enviar un pedido para su aprobación en ExFlow Web, se necesita un PDF. Elija un informe en la lista para poder ver el PDF del pedido.
+|**Solo Recibir Pedido Aprobado**| Habilite la configuración ''Solo Recibir Pedido Aprobado'' para evitar la contabilización de recepciones si el pedido aún no está aprobado.<br/><br/> El siguiente mensaje de error aparecerá si esta configuración está habilitada y un usuario intenta contabilizar recepciones en un pedido no aprobado. <br/><br/> ![Configuración de ExFlow - Aprobación de Pedidos y Cotizaciones](@site/static/img/media/unapproved-order-card-only-receive-approved-order-error-message-001.png)
+|**Aprobación de Cotización de Compra**| Para agregar automáticamente la marca de aprobación en todas las Cotizaciones, "Aprobación de Cotización de Compra" debe estar activa.<br/> Para enviar una cotización para su aprobación en ExFlow Web, se necesita un PDF.
+|**Informe de Cotización**| 	Especifica el ID del informe que se utiliza al crear documentos de cotización. Para enviar una cotización para su aprobación en ExFlow Web, se necesita un PDF.<br/> Elija un informe en la lista para poder ver el PDF de la cotización.
+|**Nombre del Informe de Cotización**| 	Especifica el nombre del informe que se utiliza al crear documentos de cotización
+|**Aprobación Automática de Pedido creado a partir de Cotización**| Esta configuración es relevante si tanto la aprobación de pedidos como la aprobación de cotizaciones están activas. Con esta función, es posible activar la Aprobación Automática de Pedido creado a partir de Cotización. Si se utiliza esta configuración, todos los aprobadores de la cotización se copiarán al pedido y el pedido se aprobará de inmediato.
+|**Establecer Usuario Actual como Primer Aprobador Predeterminado para Pedido/Cotización**| Use para agregar al usuario que está creando la cotización o el pedido como Primer Aprobador del documento.<br/><br/> Dependiendo de la Configuración de ExFlow, el Primer Aprobador puede usarse como filtro en las Reglas de Aprobación para crear flujos de aprobación para cotizaciones y pedidos. El Primer Aprobador también puede ser un Aprobador real.<br/><br/> Para usar esta función, el Usuario de Business Central debe ser un Usuario del Sistema ExFlow. Lea más en la sección [***Usuario de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user).
+|**Bloquear Factura en Diario de Importación si el Pedido no está Aprobado**| 	Especifica si se debe bloquear la factura si el pedido relacionado no está aprobado. Esta configuración agregará un mensaje de advertencia al hacer coincidir el documento con un pedido no aprobado. <br/><br/> En este ejemplo, la cuenta por cobrar se contabiliza, incluso si el Pedido de Compra no está aprobado.<br/><br/> Luego, al hacer coincidir la factura en el diario de importación, un mensaje de advertencia informará que las líneas de pedido recibidas no están aprobadas.<br/><br/> ![Diario de Importación de ExFlow - Mensajes de advertencia](@site/static/img/media/image286.png)<br/><br/> Al igual que con otros mensajes de advertencia en el diario de importación, se puede resolver aceptándolo:<br/><br/> ![Diario de Importación de ExFlow - Mensajes de advertencia](@site/static/img/media/image287.png)<br/><br/> 
+|**Verificar Número Mínimo de Aprobadores para Cotizaciones y Pedidos**| 	Especifica si la configuración de "Número Mínimo de Aprobadores" que se encuentra en la pestaña Verificaciones de Publicación de Documentos también se aplica a cotizaciones y pedidos.
+|**Copiar PDF de Cotización a Pedido**| 	Se agregará una copia de un archivo PDF de Cotización al Pedido de Compra cuando se cree el pedido.<br/><br/> Después de que se crea el Pedido de Compra a partir de una Cotización de Compra, la copia del archivo PDF de la Cotización se puede encontrar como un archivo de documento entrante en Estado de Pedido de ExFlow y Estado de Aprobación de ExFlow, y también como un archivo adjunto en ExFlow Web.
+|**Bloquear Impresión/Envío no aprobado**| La configuración especifica si se debe bloquear la impresión o el envío desde un Pedido de Compra, Cotización de Compra o ambos si el Pedido o la Cotización se envía para aprobación y no está completamente aprobado.<br/><br/>Esta configuración es relevante solo para aquellos usuarios que no tienen permisos como EX ACCOUNTANT o EX ADMIN.<br/><br/>Los usuarios con el conjunto de permisos EX ACCOUNTANT o EX ADMIN siempre podrán usar esta función, incluso si el documento no está completamente aprobado. <br/><br/> En este ejemplo, un usuario que no tiene permiso como EX ACCOUNTANT o EX ADMIN, está utilizando la acción Imprimir/Enviar para un documento no completamente aprobado y recibe un mensaje de error. <br/><br/> ![Pedido de Compra - Bloquear Impresión y Envío](@site/static/img/media/purchase-order-001.png)
+|**Enviar Correo Electrónico para Pedido/Cotización Aprobado**|  	Cuando está habilitado, enviará una notificación de Pedido o Cotización Aprobado al creador del Pedido o la Cotización cuando el documento esté aprobado.  <br/><br/> Lea más sobre esto en la sección [***Pedido/Cotización Aprobado***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
+|**Enviar Recordatorio de Pedido No Recibido para Pedido Aprobado**|  	Se envía un Recordatorio de Pedido No Recibido cuando el documento está aprobado y no todas las líneas del Pedido están completamente recibidas. Para que esto funcione, "Documentos de Coincidencia Con" debe estar configurado en "Recepción". <br/><br/> Lea más sobre esto en la sección [***Pedido No Recibido - Aprobado***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#unreceived-order---approved)
 
-**Informe de Orden**<br/>
-Para enviar una orden para aprobación en ExFlow Web se necesita un PDF.<br/>
-Elija un informe en la lista para poder ver el PDF de la orden.
 
-**Solo Recibir Orden Aprobada** <br/>
-Habilite esta configuración para evitar publicar recibos si la orden aún no está aprobada.
+### Crear Cotización de Compra o Pedido de Compra para Aprobación
 
-![Configuración de ExFlow - Aprobación de Orden y Cotización](@site/static/img/media/exflow-setup-order-and-quote-approval-003.png)
+Al crear una Cotización de Compra o un Pedido de Compra, debido a la configuración, el
+indicador de Aprobación se activará y el Estado de ExFlow será Inactivo.
 
-El siguiente mensaje de error aparecerá si esta configuración está habilitada y un usuario intenta publicar recibos en una orden no aprobada.
+Para enviar la Cotización/Pedido para aprobación, necesita Aprobadores y debe ser
+Liberado. La Cotización/Pedido ahora es visible tanto en Estado de Pedido de ExFlow como en
+Estado de Aprobación de ExFlow, pero aún no en ExFlow Web.
 
-![Configuración de ExFlow - Aprobación de Orden y Cotización](@site/static/img/media/unapproved-order-card-only-receive-approved-order-error-message-001.png)
-
-**Aprobación de Cotización de Compra**<br/>
-Para agregar automáticamente la bandera de aprobación en todas las Cotizaciones, la "Aprobación de Cotización de Compra" debe estar activa.<br/>
-Para enviar una cotización para aprobación en ExFlow Web se necesita un PDF.
-
-**Informe de Cotización**<br/>
-Para enviar una cotización para aprobación en ExFlow Web se necesita un PDF.<br/>
-Elija un informe en la lista para poder ver el PDF de la cotización.
-
-**Aprobar Automáticamente Orden creada a partir de Cotización**<br/>
-Esta configuración es relevante si tanto la aprobación de Orden como la aprobación de Cotización están activas. Con esta función, es posible activar la Aprobación Automática de Orden creada a partir de Cotización. Si se usa esta configuración, todos los aprobadores de la cotización se copiarán a la orden y la orden se aprobará inmediatamente.
-
-**Establecer usuario actual como Primer Aprobador predeterminado**<br/>
-Úselo para agregar al usuario que está creando la cotización o la orden como Primer Aprobador del documento.<br/>
-Dependiendo de la Configuración de ExFlow, el Primer Aprobador se puede usar como filtro en las Reglas de Aprobación para crear flujos de aprobación para cotizaciones y órdenes. El Primer Aprobador también puede ser un Aprobador real.
-
-Para usar esta función, el Usuario de Business Central necesita ser un Usuario del Sistema ExFlow. Lea más en la sección [***Usuario de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user).
-
-**Bloquear factura en el diario de importación si la orden no está aprobada**<br/>
-Para agregar un mensaje de advertencia al emparejar el documento con una orden no aprobada. En este ejemplo, el recibo se publica, incluso si la Orden de Compra no está aprobada.
-
-Luego, al emparejar la factura en el diario de importación, un mensaje de advertencia informará que las líneas de orden recibidas no están aprobadas.
-
-![Diario de Importación de ExFlow - Mensajes de advertencia](@site/static/img/media/image286.png)
-
-Como con otros mensajes de advertencia en el diario de importación, se puede resolver aceptándolo:
-
-![Diario de Importación de ExFlow - Mensajes de advertencia](@site/static/img/media/image287.png)
-
-**Verificar número mínimo de aprobadores para cotizaciones y órdenes**<br/>
-Especifica si la configuración para "Número Mínimo de Aprobadores" encontrada en la pestaña de Verificaciones de Publicación de Documentos también se aplica a cotizaciones y órdenes.
-
-**Copiar PDF de Cotización a Orden**<br/>
-Se agregará una copia del archivo adjunto PDF de la Cotización en la Orden de Compra cuando se cree la orden.<br/>
-Después de que la Orden de Compra se cree a partir de una Cotización de Compra, la copia del archivo adjunto PDF de la Cotización se puede encontrar como un archivo de documento entrante en el Estado de Orden de ExFlow y el Estado de Aprobación de ExFlow, y también como un archivo adjunto en ExFlow Web.
-
-**Bloquear Imprimir/Enviar no aprobado**<br/>
-La configuración especifica si la impresión o el envío desde una Orden de Compra, Cotización de Compra o ambos deben bloquearse si la Orden o Cotización se envía para aprobación y no está completamente aprobada.
-Esta configuración es relevante solo para aquellos usuarios que no tienen permisos como EX ACCOUNTANT o EX ADMIN.<br/>
-Los usuarios con el conjunto de permisos EX ACCOUNTANT o EX ADMIN siempre podrán usar esta función, incluso si el documento no está completamente aprobado.
-
-![Bloquear Imprimir/Enviar no aprobado](@site/static/img/media/exflow-setup-order-and-quote-approval-002.png)
-
-En este ejemplo, un usuario que no tiene permiso como EX ACCOUNTANT o EX ADMIN, está usando la acción Imprimir/Enviar para un documento no completamente aprobado y recibe un mensaje de error.
-
-![Orden de Compra - Bloquear Imprimir y Enviar](@site/static/img/media/purchase-order-001.png)
-
-**Enviar Correo Electrónico para Orden/Cotización Aprobada** <br/>
-Cuando esta configuración está habilitada, enviará una notificación de Orden o Cotización Aprobada cuando el documento esté aprobado.
-
-Lea más sobre esto en la sección [***Orden/Cotización Aprobada***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/email-reminders#approved-orderquote)
-
-### Crear Cotización de Compra u Orden de Compra para Aprobación
-
-Al crear una Cotización de Compra u Orden de Compra, debido a la configuración, la bandera de Aprobación se activará y el Estado de ExFlow será Inactivo.
-
-Para enviar la Cotización/Orden para aprobación, necesita Aprobadores y ser Liberada. La Cotización/Orden ahora es visible tanto en el Estado de Orden de ExFlow como en el Estado de Aprobación de ExFlow, pero aún no en ExFlow Web.
-
-Si el Usuario de Business Central que crea la Orden/Cotización está conectado a un Usuario de ExFlow, entonces el Primer Aprobador se agregará automáticamente en todas las líneas y, por lo tanto, se puede usar como filtro en las Reglas de Aprobación.
+Si el Usuario de Business Central que crea el Pedido/Cotización está conectado
+a un Usuario de ExFlow, entonces el Primer Aprobador se agregará automáticamente en
+todas las líneas y, por lo tanto, se puede usar como filtro en las Reglas de Aprobación.
 
 ### Estado de Aprobación de ExFlow
 
-Las Órdenes de Compra y Cotizaciones que aún necesitan alguna acción se pueden encontrar en el Estado de Aprobación de ExFlow. Después de la Aprobación, ejecute Verificar Cambios para actualizar las Órdenes de Compra o Cotizaciones con cualquier cambio.
+Los Pedidos de Compra y las Cotizaciones que aún necesitan alguna acción se pueden encontrar en
+Estado de Aprobación de ExFlow. Después de la Aprobación, ejecute Verificar Cambios para actualizar los
+Pedidos de Compra o Cotizaciones con cualquier cambio.
 
-Cuando una Cotización de Compra está Aprobada y Verificada, desaparecerá del Estado de Aprobación.
+Cuando una Cotización de Compra está Aprobada y Verificada, desaparecerá del
+Estado de Aprobación.
 
-ExFlow creará automáticamente una Orden de Compra. La Cotización se eliminará, como estándar de Business Central, mientras que el Flujo de Aprobación, Comentarios, Archivos Adjuntos, etc., se almacenarán en el Historial de Estado de Aprobación de ExFlow.
+ExFlow creará automáticamente un Pedido de Compra. La Cotización será
+eliminada, como estándar de Business Central, mientras que el Flujo de Aprobación, Comentarios,
+Adjuntos, etc., se almacenarán en el Historial de Estado de Aprobación de ExFlow.
 
-Debido a la configuración en la Configuración de ExFlow, el flujo de Aprobación de Cotización también se puede copiar a la Orden de Compra y marcar la Orden como Aprobada. Si no, y la Aprobación de Orden de Compra está activada, la Orden necesita ser Liberada.
+Debido a la configuración en la Configuración de ExFlow, el flujo de Aprobación de Cotización también se puede
+copiar al Pedido de Compra y marcar el Pedido como Aprobado. Si no, y
+la Aprobación de Pedido de Compra está activada, el Pedido necesita ser Liberado.
 
-La Cotización no se puede convertir en una orden si está activada para aprobación pero aún no está aprobada. La función se llama "Hacer Orden".
+La Cotización no se puede convertir en un pedido si está activada para
+aprobación pero aún no está aprobada. La función se llama "Hacer Pedido".
 
-Cuando una Orden de Compra está Aprobada y Verificada, desaparecerá del Estado de Aprobación y ahora se puede encontrar en el Estado de Orden de ExFlow.
+Cuando un Pedido de Compra está Aprobado y Verificado, desaparecerá del
+Estado de Aprobación y ahora se puede encontrar en Estado de Pedido de ExFlow.
 
 ![Estado de Aprobación de ExFlow](@site/static/img/media/image288.png)
 
-### Estado de Orden de ExFlow
+### Estado de Pedido de ExFlow
 
-Esta vista se utiliza principalmente para hacer un seguimiento de las Aprobaciones de Órdenes de Compra y Cotizaciones de Compra.
+Esta vista se utiliza principalmente para hacer un seguimiento de las Aprobaciones de Pedidos de Compra y Cotizaciones de Compra.
 
-En el Estado de Orden de ExFlow, las Órdenes de Compra o Cotizaciones permanecerán mientras existan como una tarjeta.
+En Estado de Pedido de ExFlow, los Pedidos de Compra o Cotizaciones permanecerán mientras
+existan como una tarjeta.
 
-La Orden o Cotización aún necesita ser aprobada en ExFlow Web y luego verificada desde el Estado de Aprobación de ExFlow.
+El Pedido o la Cotización aún necesita ser aprobado en ExFlow Web y luego
+verificado desde el Estado de Aprobación de ExFlow.
 
-Después de verificar la Orden, el campo "Orden Aprobada y Verificada" estará marcado. En este sentido, las Órdenes y Cotizaciones se comportan de manera diferente, ya que las Cotizaciones se eliminan directamente cuando se crea la Orden, mientras que las órdenes se mostrarán como facturadas hasta que se eliminen por trabajo en el Estándar de Business Central.
+Después de verificar el Pedido, el campo "Pedido Aprobado y Verificado" será marcado. En este sentido, los Pedidos y las Cotizaciones se comportan de manera diferente, ya que las Cotizaciones se eliminan directamente cuando se crea el Pedido, mientras que los pedidos se mostrarán como facturados hasta que se eliminen mediante una tarea en el estándar de Business Central.
 
-![Estado de Orden de ExFlow](@site/static/img/media/image289.png)
+![Estado de Pedido de ExFlow](@site/static/img/media/image289.png)
 
-Siga el estado actual en la columna "Estado" del Estado de Orden de ExFlow.
+Siga el estado actual en la columna "Estado" de Estado de Pedido de ExFlow.
 
-![Estado de Orden de ExFlow](@site/static/img/media/image290.png)
+![Estado de Pedido de ExFlow](@site/static/img/media/image290.png)
 
-También es posible ver si la orden se creó a partir de una cotización y si la aprobación se copió de la cotización a la orden.
+También es posible ver si el pedido se creó a partir de una cotización y si
+la aprobación se copió de la cotización al pedido.
 
-![Estado de Orden de ExFlow](@site/static/img/media/image291.png)
+![Estado de Pedido de ExFlow](@site/static/img/media/image291.png)
 
-Para eliminar una Orden de Compra, la Orden necesita ser completamente recibida y completamente facturada. Eliminar una orden se hará a través de la tarea ***Eliminar Orden de Compra Facturada***. La orden también se eliminará si se factura directamente desde la Tarjeta de Orden de Compra en el Estándar de Business Central fuera de ExFlow.
+#### Eliminar un Pedido de Compra
+Para eliminar un Pedido de Compra, el Pedido debe estar completamente recibido y
+completamente facturado. La eliminación de un pedido se realizará a través de la tarea ***Eliminar
+Pedido de Compra Facturado***. El pedido también se eliminará si se
+factura directamente desde la Tarjeta de Pedido de Compra en el estándar de Business
+Central fuera de ExFlow.
 
-Al eliminar una orden que está aprobada y completamente facturada, el Flujo de Aprobación, Comentarios y Archivos Adjuntos, etc., se almacenarán en el Historial de Estado de Aprobación de ExFlow.
+Al eliminar un pedido que está aprobado y completamente facturado, el
+Flujo de Aprobación, Comentarios y Adjuntos, etc., se almacenarán en el Historial de
+Estado de Aprobación de ExFlow.

@@ -33,7 +33,9 @@ Requires BC 25.0 or later <br/>
 |25.0.246.14|Upgrade Script		| Fixed language validation issue in the upgrade script 
 |25.0.246.14|Feature Management | Data Update Status added and issue with Import Journal filter options was resolved 
 |25.0.246.14|Setup |  Broken ''Read More'' links were fixed in both order matching wizards
-
+|25.0.246.19| Vendor Setup |Resolved issue where Match Documents to: Order does not convert to Order and Receipt on current Vendor Setup Cards
+|25.0.246.19| Setup |Posting PO with Item Charge Assignment - "No Item Ledger Entry Found" 
+|25.0.246.19| Setup |Fixed issue for when Purchase Return Order Shipment are picked up but are missing quantities
 
 #### New Features
 

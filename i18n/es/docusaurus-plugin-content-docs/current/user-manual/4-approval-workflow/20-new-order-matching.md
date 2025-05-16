@@ -199,7 +199,7 @@ Ir a: **Configuración de Coincidencia de Pedidos de ExFlow --> Relacionado --> 
 
 Para los clientes que interpretan y coinciden pedidos a nivel de encabezado, ahora algunos valores del pedido se pueden copiar del encabezado del pedido al encabezado del documento.<br/>
 
-Comience activando la opción "Copiar valores de encabezado a factura/nota de crédito" en la configuración de ExFlow y seleccione los campos que desea copiar en "Copiar valores de encabezado a factura/nota de crédito".<br/>
+Comience activando "Copiar valores de encabezado a factura/nota de crédito" y luego seleccione los campos que desea copiar.<br/>
 
 ![Copiar encabezado de orden de compra - Configuración](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 
