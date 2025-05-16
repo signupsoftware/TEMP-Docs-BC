@@ -13,7 +13,7 @@ ExFlow unterstützt die Sprache Französisch (Kanada) in Business Central.
 
 ### Kanadische Umsatzsteuer
 
-Gehe zu: ***Setup \--\> ExFlow Setup \--\> Doc. Creation Checks Tab***
+Gehe zu: ***ExFlow Setup \--\> Doc. Creation Checks Tab***
 
 Aktiviere "Allow Sales Tax" in den ExFlow-Einstellungen.
 

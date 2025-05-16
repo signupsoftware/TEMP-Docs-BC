@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ### US Sales Tax
 
-Go to: ***Setup \--\> ExFlow Setup \--\> Doc. Creation Checks tab***
+Go to: ***ExFlow Setup \--\> Doc. Creation Checks tab***
 
 Enable "Allow Sales Tax" in ExFlow Setup.
 

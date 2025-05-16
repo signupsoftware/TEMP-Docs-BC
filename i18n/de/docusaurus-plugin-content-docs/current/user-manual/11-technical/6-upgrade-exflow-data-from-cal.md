@@ -35,7 +35,7 @@ ExFlow-Schritte:
 
 
 ### Schritt 1
-### Überprüfen Sie die aktuelle ExFlow-Version und die NAV/BC-Version <br/>
+### Überprüfen Sie die aktuelle ExFlow-Version und die NAV/BC-Version
 
 Gehen Sie zu: **Abteilungen--> ExFlow Setup--> Über ExFlow**, um Ihre ExFlow-Version zu finden:
 

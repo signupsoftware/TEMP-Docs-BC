@@ -48,7 +48,7 @@ If the number is used before and this is correct, maybe a rent / insurance / sub
 
 
 #### **Action Message**: Amount (XX) is not equal to total of on lines (YY).
-**Solution**: Look in the setting in **ExFlow Setup -->** **PO Matching --> Automatic Difference Line**, settings can be involved. The difference does not correspond to the "Max Diff. Amount (LCY)" or "Max Diff. %" setting (or both). Modify the amount on the header or on the lines.
+**Solution**: Look in the setting in **ExFlow Setup -->** **Order Matching --> Automatic Difference Line**, settings can be involved. The difference does not correspond to the "Max Diff. Amount (LCY)" or "Max Diff. %" setting (or both). Modify the amount on the header or on the lines.
 <br/>
 
 ### Order Related Messages

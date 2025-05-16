@@ -11,7 +11,7 @@ to approving and posting in ExFlow / Business Central.
 
 The following steps are made from the "ExFlow Import Journal" \--\>
 "ExFlow Approval Status" and the final step will be to view the posted
-invoice "ExFlow Approval Status History".
+invoice in "ExFlow Approval Status History".
 
 **Steps in ExFlow Import Journal**
 

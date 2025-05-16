@@ -35,7 +35,7 @@ ExFlow steps to do:
 
 
 ### Step 1
-### Check the current ExFlow version and NAV/BC version <br/>
+### Check the current ExFlow version and NAV/BC version
 
 Go to: **Departments--> ExFlow Setup--> About ExFlow** to find your ExFlow version:
 

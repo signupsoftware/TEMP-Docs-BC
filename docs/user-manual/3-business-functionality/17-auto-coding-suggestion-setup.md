@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Auto Coding Suggestion Setup
 
-Go to: ***Setup --> ExFlow Auto Coding Suggestion Setup***<br/>
+Go to: ***ExFlow AP Setup - Overview --> Auto Coding Suggestion Setup***<br/>
 
 This function in ExFlow is made to be able to get automatic coding suggestions in the Import Journal based on historically posted documents and works for both invoices and credit memos. This can be useful for companies who have posting history in Business Central but just started to use ExFlow.<br/>
 

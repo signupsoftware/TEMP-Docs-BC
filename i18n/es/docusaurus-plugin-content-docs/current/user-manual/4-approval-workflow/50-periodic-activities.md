@@ -135,4 +135,4 @@ Lea más sobre esto en la sección [***Re-Facturación.***](https://docs.signups
 
 Para aplicar la Sugerencia de Codificación Automática, es necesario ejecutar las funciones IDs de Conjunto de Codificación de ExFlow para Sugerencias de Codificación Automática y Crear Sugerencias de Codificación Automática de ExFlow.
 
-![Actividades Periódicas - Sugerencias de Codificación Automática](@site/static/img/media/exflow-menu-005-periodic-activities.png) <br/><br/> Lea más sobre esto en la sección [***Configuración de Sugerencia de Codificación Automática***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
+Lea más sobre esto en la sección [***Configuración de Sugerencia de Codificación Automática***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)

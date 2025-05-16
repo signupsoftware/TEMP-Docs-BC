@@ -154,7 +154,7 @@ Im Bild unten sind die abgeglichenen Zeilen ausgeblendet. Klicken Sie auf "Show 
 
 ![ExFlow Import Journal - Get Receipt Lines - Receipt list after Exclude Fully Matched](../../images/image296.png)
 
-Es ist möglich, die Einstellung "Disable Currency Filter in Get Receipt Lines" im Abschnitt PO Matching im ExFlow Setup zu aktivieren, um die Leistung beim Verwenden von Get Receipt Lines im Import Journal zu verbessern. Es wird dann kein Filter auf den Währungscode gesetzt, wenn die Auswahlseite geöffnet wird.
+Es ist möglich, die Einstellung "Disable Currency Filter in Get Receipt Lines" im Abschnitt Order Matching im ExFlow Setup zu aktivieren, um die Leistung beim Verwenden von Get Receipt Lines im Import Journal zu verbessern. Es wird dann kein Filter auf den Währungscode gesetzt, wenn die Auswahlseite geöffnet wird.
 
 #### Zwei-Wege-Abgleich
 
@@ -258,11 +258,9 @@ Gehen Sie zurück zum Verkaufsauftrag, um den Verkaufsauftrag zu fakturieren. We
 Wenn der Verkaufsauftrag fakturiert ist, kann die Rechnung im Genehmigungsstatus wie gewohnt gebucht werden.
 
 ### Rechnung mit Wareneingangs-, Auftrags- oder sowohl Wareneingangs- als auch Auftragszeilen abgleichen
-Gehen Sie zu: ***Setup \--\> ExFlow Setup \--\> PO Matching \--\> Dokumente abgleichen mit***
+Gehen Sie zu: ***ExFlow Setup \--\> Order Matching \--\> Dokumente abgleichen mit***
 
 Die Einstellung "**Dokumente abgleichen mit**" gibt an, ob ExFlow importierte Einkaufsrechnungen mit Einkaufsaufträgen, Wareneingängen oder sowohl Wareneingangs- als auch Auftragszeilen abgleichen soll.
-
-![ExFlow Setup - PO Matching - Dokumente abgleichen mit](../../images/exflow-setup-po-matching-005.png)
 
 **Wareneingang:** ExFlow findet automatisch den Einkaufsauftrag basierend auf der importierten Auftragsnummer. ExFlow ruft automatisch die verfügbaren gebuchten Wareneingänge ab, die mit dem Einkaufsauftrag verbunden sind, wenn die Einstellung "**Zeilen automatisch abrufen**" aktiviert ist.
 
@@ -278,14 +276,12 @@ Wenn Änderungen erforderlich sind, gehen Sie zu: ***ExFlow Setup --> Related --
 
 Die gleiche Funktion kann auch auf der Seite "ExFlow Vendor Setup" gefunden werden.
 
-![ExFlow Vendor Setup Card](../../images/advanced-vendor-options-002.png)
-
 
 ### Automatische Genehmigung von Einkaufsauftragsabgeglichene Rechnungen
 
-#### ExFlow Setup - PO Matching
+#### ExFlow Setup - Order Matching
 
-***Setup \--\> ExFlow Setup \--\> PO Matching \--\> Auto Approve
+***Setup \--\> ExFlow Setup \--\> Order Matching \--\> Auto Approve
 Invoices***
 
 Um automatisch genehmigte auftragsabgeglichene Rechnungen zu erhalten, gibt es drei Optionen.
@@ -298,7 +294,6 @@ Um automatisch genehmigte auftragsabgeglichene Rechnungen zu erhalten, gibt es d
 
 **Benutzer für die automatische Genehmigung:** Geben Sie einen ExFlow-Benutzer an, der als Stempel in der Transaktion und Historie für Rechnungen verwendet wird, die automatisch mit einem Einkaufsauftrag abgeglichen und genehmigt wurden. Wenn dieses Feld leer bleibt, wird der Benutzer verwendet, der die Einkaufsrechnung aus dem ExFlow Import Journal erstellt hat.
 
-![ExFlow Setup - PO Matching - Auto Approve Invoices](../../images/exflow-setup-po-matching-006.png)
 
 ### Batch Import Documents from Interpretation
 
@@ -310,7 +305,7 @@ Um auftragsabgeglichene Dokumente in einem separaten Import Journal zu importier
 
 Im ExFlow Import Journal beim Abgleich von Einkaufsaufträgen ist es möglich, automatisch eine Differenzzeile zu einem Sachkonto, Artikel oder einer Gebühr (Artikel) zu erkennen und zu erstellen.
 
-Fügen Sie "ExFlow Purchase Code" im Feld "Diff.Line Purch. Code" unter PO Matching im ExFlow Setup hinzu.
+Fügen Sie "ExFlow Purchase Code" im Feld "Diff.Line Purch. Code" unter Order Matching im ExFlow Setup hinzu.
 
 ![ExFlow Setup - PO Matching](../../images/exflow-setup-po-matching-007.png)
 
@@ -336,7 +331,7 @@ Diese Einstellung kann nur aktiviert werden, wenn ''Auto Create OCR Line Mapping
 
 
 ### PO-Abgleich Verzögerung des Belegdatums und Fälligkeitsdatums
-Gehen Sie zu ***ExFlow Setup --> PO Matching --> Matching Delay Doc. Date (Days) / Matching Delay Due. Date (Days)***
+Gehen Sie zu ***ExFlow Setup --> Order Matching --> Matching Delay Doc. Date (Days) / Matching Delay Due. Date (Days)***
 
 Es ist möglich, dass ExFlow den Einkaufsauftragsabgleichsprozess sowohl mit dem importierten Rechnungsdatum als auch/oder dem Fälligkeitsdatum verzögert. 
 
@@ -386,16 +381,10 @@ Diese Funktion kann auch pro Lieferant unter [***Vendor Setup***](https://docs.s
 
 
 ### Kopieren von Einkaufsauftragskopfwerten
-
+Gehen Sie zu: ***ExFlow-Einrichtung – Auftragsabgleich --> Kopieren von Kopfwerten in Rechnung/Gutschrift*** 
 Für Kunden, die interpretieren und bestellen auf Kopfebene übereinstimmen, können nun einige Werte des Auftrags aus dem Auftragskopf in den Belegkopf kopiert werden.
 
-Beginnen Sie mit der Aktivierung von "Kopfwerte in Rechnung/Gutschrift kopieren" in ExFlow Setup.
-
-Gehen Sie zu: ***ExFlow-Einrichtung – Auftragsabgleich --> Kopieren von Kopfwerten in Rechnung/Gutschrift*** 
-
-Wählen Sie die zu kopierenden Felder in "Kopfwerte in Rechnung kopieren/Gutschrift" aus.
-
-Gehen Sie zu: ***ExFlow einrichten – Auftragsabgleich --> Kopfwerte in Rechnung/Gutschrift kopieren*** 
+Beginnen Sie, indem Sie „Kopfwerte in Rechnung/Gutschrift kopieren“ im ExFlow-Setup aktivieren und unter „Kopfwerte in Rechnung/Gutschrift kopieren“ die zu kopierenden Felder auswählen.<br/>
 
 ![Bestellkopf kopieren – Einrichtung](../../images/po-header-value-on-invoice-setup-001.png) 
 

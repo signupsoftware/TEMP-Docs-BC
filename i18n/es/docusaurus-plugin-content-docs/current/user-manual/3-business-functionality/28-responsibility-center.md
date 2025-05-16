@@ -28,11 +28,11 @@ Las líneas del documento heredarán dimensiones del encabezado con la siguiente
 
 #### Configuración
 
-Cuando se habilita la siguiente configuración, las facturas coincidentes con órdenes de compra heredarán el Centro de Responsabilidad de la orden de compra coincidente:
+Al habilitar la siguiente configuración, las facturas con órdenes de compra coincidentes heredarán el Centro de responsabilidad de la orden de compra coincidente:
 
-En la Configuración de ExFlow, vaya a la pestaña rápida “Coincidencia de Órdenes” y active la opción “Usar Valores del Encabezado de la Orden en la Factura”. La página “Configuración de Valores del Encabezado de la Orden en la Factura” se abrirá.
+En la configuración de ExFlow, vaya a la pestaña "Configuración de órdenes de compra" y active la opción "Copiar valores de encabezado a la configuración de factura/nota de crédito" para abrir la página de configuración.
 
-Active el Centro de Responsabilidad marcando la casilla en el campo “Activar” y haga clic en OK para completar la activación y cerrar la página.
+Active el Centro de responsabilidad marcando la casilla en el campo "Activar" y haga clic en Aceptar para completar la activación y cerrar la página.
 
 ![Estado de Aprobación de ExFlow](@site/static/img/media/po-header-value-on-invoice-setup-003.png)
 

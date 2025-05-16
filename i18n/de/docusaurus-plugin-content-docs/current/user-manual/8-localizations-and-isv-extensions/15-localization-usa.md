@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ### US-Verkaufssteuer
 
-Gehen Sie zu: ***Setup \--\> ExFlow Setup \--\> Doc. Creation Checks Tab***
+Gehen Sie zu: ***ExFlow Setup \--\> Doc. Creation Checks Tab***
 
 Aktivieren Sie "Allow Sales Tax" in ExFlow Setup.
 

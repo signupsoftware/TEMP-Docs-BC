@@ -12,7 +12,7 @@ ExFlow soporta el idioma francés (Canadá) en Business Central.
 
 ### Impuesto sobre las Ventas en Canadá
 
-Ir a: ***Configuración \--\> Configuración de ExFlow \--\> Pestaña de Verificaciones de Creación de Documentos***
+Ir a: ***Configuración de ExFlow \--\> Pestaña de Verificaciones de Creación de Documentos***
 
 Habilitar "Permitir Impuesto sobre las Ventas" en las Configuraciones de ExFlow.
 

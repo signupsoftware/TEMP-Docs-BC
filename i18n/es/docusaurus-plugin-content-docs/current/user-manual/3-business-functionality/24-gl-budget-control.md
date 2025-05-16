@@ -13,7 +13,7 @@ Con el Control Presupuestario G/L de ExFlow, los usuarios pueden realizar un seg
 ### Asistente de Control Presupuestario de ExFlow
 Cómo comenzar con el Control Presupuestario G/L de ExFlow paso a paso.<br/>
 
-Ir a: ***Configuración --> Asistentes de ExFlow --> Asistente de Control Presupuestario de ExFlow***<br/><br/>
+Vaya a: ***Configuración de AP de ExFlow - Descripción general --> Asistente de control de presupuesto de ExFlow***<br/><br/>
 
 
 #### Calcular Control Presupuestario G/L

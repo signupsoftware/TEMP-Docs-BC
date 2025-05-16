@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 ## Configuración de Sugerencia de Codificación Automática
 
-Ir a: ***Configuración --> Configuración de Sugerencia de Codificación Automática de ExFlow***<br/>
+Ir a: ***Configuración de AP de ExFlow - Descripción general --> Configuración de Sugerencia de Codificación Automática de ExFlow***<br/>
 
 Esta función en ExFlow está diseñada para poder obtener sugerencias de codificación automáticas en el Diario de Importación basadas en documentos publicados históricamente y funciona tanto para facturas como para notas de crédito. Esto puede ser útil para empresas que tienen historial de publicaciones en Business Central pero que acaban de comenzar a usar ExFlow.<br/>
 

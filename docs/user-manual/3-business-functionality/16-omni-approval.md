@@ -28,7 +28,7 @@ Same kind of setting needs to be done for OMNI Type "Approval Rule" if an approv
 
 ### ExFlow OMNI Approval Rules
 
-Go to: ***ExFlow AP Setup --> ExFlow OMNI Approval --> ExFlow OMNI Approval Rule***
+Go to: ***ExFlow AP Setup - Overview --> ExFlow OMNI Approval --> ExFlow OMNI Approval Rule***
 
 ExFlow OMNI Approval Rule allows different approval rules for the different OMNI types "Contract" and "Approval Rule".
 

@@ -116,7 +116,7 @@ To send this reminder setup is needed:
 | Approval Status               | Invoices need to have status approved and matched to order without posted receipt
 | Job Queue Entry               | Code Unit 12057077 and Parameter String **UNRECEIVEDORDERAPPROVED** <br/>In default company
 | Manually from Approval Status | Select invoices and ***Related --> Approval Status --> Send Unreceived Order Notification***
-|ExFlow Setup| The setting ''Send Unreceived Order Reminder For Approved Order'' must also be enabled in **ExFlow Setup --> PO Matching --> Send Unreceived Order Reminder For Approved Order** 
+|ExFlow Setup| The setting ''Send Unreceived Order Reminder For Approved Order'' must also be enabled in **ExFlow Setup --> Order Matching --> Send Unreceived Order Reminder For Approved Order** 
 <br/><br/>
 
 
