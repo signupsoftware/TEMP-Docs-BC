@@ -92,12 +92,9 @@ Wenn der erste Genehmigende die Genehmigungsgruppe 1 ist und immer genehmigt, de
 ## Arbeitsablauf
 
 ### Immer neue Genehmigende vorschlagen
-Gehe zu: ***ExFlow-Einrichtung --> Genehmigung***
+Gehe zu: ***ExFlow-Einrichtung --> Genehmigung --> Immer neue Genehmigende vorschlagen***
 
 Genehmigungsregeln und dynamische Genehmigungsregeln ermöglichen es ExFlow, automatisch Genehmigungsregeln oder dynamische Genehmigungsabläufe für Dokumente zu identifizieren und anzuwenden, die von einem Benutzer in ExFlow Web geändert wurden.
-
-![ExFlow Setup Genehmigung - Immer neue Genehmigende vorschlagen](../../images/exflow-setup-approval-001.png)
-
 
 
 **Beispiel für Genehmigungsregel ohne dynamischen Genehmigungstyp:**<br/>
@@ -207,7 +204,6 @@ Gehen Sie zu: ***Import Journal --> Import Lines --> Line --> Show Current Dimen
 
 Die Funktion "Aktuelle Dimensionsverantwortliche anzeigen" kann im ExFlow Import Journal und ExFlow Genehmigungsstatus verwendet werden.
 
-![Import Journal Lines Menü](../../images/import-journal-lines-001-menu.png)
 
 Gehen Sie zu: ***Approval Status --> Document Lines --> Line --> Show Current Dimension Owners***
 

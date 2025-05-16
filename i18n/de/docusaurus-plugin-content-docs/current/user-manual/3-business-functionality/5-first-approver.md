@@ -28,9 +28,6 @@ Für Kaufangebote und Bestellungen kann der erste Genehmiger von ExFlow auf Zeil
 
 Der ExFlow-Benutzer muss dann einem Systembenutzer zugewiesen werden, damit ExFlow erkennt, welcher Benutzer als erster Genehmiger hinzugefügt werden soll.<br/>
 
-![ExFlow Setup](../../images/first-approver-003.png)
-
-<br/>
 
 ### Erster Genehmiger-Filter in einer ExFlow-Genehmigungsregel
 
