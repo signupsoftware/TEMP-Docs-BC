@@ -18,12 +18,16 @@ Click on **SIGN IN** and choose authentication method to enter.
 
 ![Support Portal](@site/static/img/media/support-portal-sign-in-001.png)
 
-Are you the new super user? Use *REQUEST LOGIN* to access the Support Portal. Fill in the Application Form with all needed information. A Support Portal Invitation link will then be sent to the requester within 24 hours.
+Are you the new super user? Use *REQUEST LOGIN* to access the Support Portal. 
+
+Fill in the Application Form with all needed information. A Support Portal Invitation link will then be sent to the requester within 24 hours.
 
 
 ### Replace a current Super user
 
-If needed, it is possible to fill in the "Request Login"-form to replace a current Super user. This could be useful if another user should have access to the Support Portal during a certain period. When the ordinary super user is back, he/she can fill the form again to retake the super user access.
+If needed, it is possible to fill in the "Request Login"-form to replace a current Super user. This could be useful if another user should have access to the Support Portal during a certain period. 
+
+When the ordinary super user is back, he/she can fill the form again to retake the super user access.
 
 ![Replace a current Super user](@site/static/img/media/support-portal-replace-a-super-user-002.png)
 
@@ -35,7 +39,9 @@ Need help to find the installed ExFlow version? Read more under section [About E
 
 ![Register a ticket](@site/static/img/media/support-portal-register-a-ticket-003.png)
 
-Handle the support tickets under My Support. A filtered page for "My Open Tickets" will be displayed for the super user per default. To get a better overview of all company cases and its statuses (regardless of super user), it's possible to set filter on " All Company Tickets". All tickets will then be displayed in the list.
+Handle the support tickets under My Support. A filtered page for "My Open Tickets" will be displayed for the super user per default. 
+
+To get a better overview of all company cases and its statuses (regardless of super user), it's possible to set filter on " All Company Tickets". All tickets will then be displayed in the list.
 
 ![My Support - All Company Tickets](@site/static/img/media/support-portal-all-company-tickets-004.png)
 
@@ -51,15 +57,13 @@ Activating licenses depends on which versions of NAV/BC and ExFlow release are u
 
 #### ExFlow for BC Online
 
-Search for ''ExFlow License Activation'' in Business Central and add the provided license key.
+Search for *ExFlow License Activation* in Business Central and add the provided license key.
 
 ![License key](@site/static/img/media/support-portal-license-key.png)<br/>
 
-**Please note:** 
+##### Please note
 Existing customers will continue using their current license via License Activation. 
-For new customers and Business Central Online AP installations, the *SignUp Software License Provider* will be used. 
-
-Read more about this under section: [License Provider](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) 
+For new customers and Business Central Online AP installations, [License Provider](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) will be used.
  
 
 #### ExFlow for NAV and BC 13/14

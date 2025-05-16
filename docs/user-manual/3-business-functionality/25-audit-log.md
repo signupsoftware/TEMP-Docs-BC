@@ -8,7 +8,7 @@ custom_edit_url: null
 The ExFlow Audit Log is built on top of the standard Business Central Change Log to provide an enhanced, user friendly log of changes made to documents in ExFlow. When activated, the Audit Log tracks all changes made to a document from import to posting. View document changes in either a summary format based on invoice states and actions, or view changes in a detailed format that tracks changes at the field level.
 
 ### Activate Audit Log
-To Activate the Audit Log, search on and go to **ExFlow Audit Log Setup**.
+To Activate the Audit Log, search and go to **ExFlow Audit Log Setup**.
 
 In the ExFlow Audit Log Setup page:
 
@@ -57,7 +57,7 @@ Select the desired table, making sure the “Log All Fields” option is uncheck
 
 ### View the Audit Log for an ExFlow Document 
 
-Go to: ** ExFlow Approval Status History --> Related --> Audit Log** 
+Go to: **ExFlow Approval Status History --> Related --> Audit Log** 
 
 After a document has been posted, the audit log is accessible from the Approval Status History. At this point in the process, all actions from import through posting will be visible in the Summary View and all field level changes can be viewed from the Detailed View.
 

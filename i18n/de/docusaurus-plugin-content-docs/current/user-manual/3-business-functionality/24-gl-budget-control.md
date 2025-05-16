@@ -13,7 +13,7 @@ Mit ExFlow G/L Budget Control können Benutzer das Budget für Einkaufsrechnunge
 ### ExFlow Budget Control Wizard
 So starten Sie Schritt für Schritt mit ExFlow G/L Budget Control.<br/>
 
-Gehen Sie zu: ***Setup --> ExFlow Wizards --> ExFlow Budget Control Wizard***<br/><br/>
+Gehen Sie zu: ***ExFlow AP-Setup – Übersicht --> ExFlow-Budgetkontrollassistent***<br/><br/>
 
 #### Berechnung der G/L Budget Control
 

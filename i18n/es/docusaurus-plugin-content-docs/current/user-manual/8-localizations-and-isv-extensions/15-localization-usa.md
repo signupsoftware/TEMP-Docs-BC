@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ### Impuesto sobre las Ventas en EE.UU.
 
-Ir a: ***Configuración \--\> Configuración de ExFlow \--\> Pestaña de Verificaciones de Creación de Documentos***
+Ir a: ***Configuración de ExFlow \--\> Pestaña de Verificaciones de Creación de Documentos***
 
 Habilitar "Permitir Impuesto sobre las Ventas" en la Configuración de ExFlow.
 

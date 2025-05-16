@@ -7,7 +7,7 @@ custom_edit_url: null
 
 ## Einrichtung der automatischen Kodierungsvorschläge
 
-Gehe zu: ***Setup --> ExFlow Auto Coding Suggestion Setup***<br/>
+Gehe zu: ***ExFlow AP Setup - Übersicht --> ExFlow Auto Coding Suggestion Setup***<br/>
 
 
 Diese Funktion in ExFlow dient dazu, automatische Codierungsvorschläge im Importjournal auf der Grundlage historisch gebuchter Belege zu erhalten und funktioniert sowohl für Rechnungen als auch für Gutschriften. Dies kann für Unternehmen nützlich sein, die eine Buchungshistorie in Business Central haben, aber gerade erst mit der Verwendung von ExFlow begonnen haben.<br/>

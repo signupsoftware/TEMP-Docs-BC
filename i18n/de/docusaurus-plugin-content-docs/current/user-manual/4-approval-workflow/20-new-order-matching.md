@@ -198,9 +198,7 @@ Gehe zu: **ExFlow Bestellabgleich Einrichtung --> Verwandt --> Header-Werte in R
 
 Für Kunden, die auf der Header-Ebene abgleichen und bestellen, können einige Werte aus der Bestellung jetzt vom Bestellheader in den Dokumentenheader kopiert werden.<br/>
 
-Beginne damit, „Header-Werte in Rechnung/Gutschrift kopieren“ zu aktivieren.<br/>
-
-Wähle die Felder aus, die in „Header-Werte in Rechnung/Gutschrift kopieren“ übertragen werden sollen.<br/>
+Beginnen Sie, indem Sie „Kopfwerte in Rechnung/Gutschrift kopieren“ im ExFlow-Setup aktivieren und unter „Kopfwerte in Rechnung/Gutschrift kopieren“ die zu kopierenden Felder auswählen.<br/>
 
 ![Bestellkopf kopieren – Einrichtung](../../images/po-header-value-on-invoice-setup-001.png) 
 

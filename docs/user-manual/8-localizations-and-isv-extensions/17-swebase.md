@@ -11,9 +11,9 @@ extension, SweBase.
 
 For SweBase related questions contact your Business Central Partner.
 
-### Payment Reference -- OCR No
+### Payment Reference - OCR No
 
-Field OCR No. can be interpretated and imported or added manually in Import Journal field "Vendor Document No. 2".
+Field OCR No. can be interpreted and imported or added manually in Import Journal field "Vendor Document No. 2".
 
 When creating a document this will be added in field OCR No. on document
 header. After Posting OCR No. can be found in Vendor Ledger Entries.

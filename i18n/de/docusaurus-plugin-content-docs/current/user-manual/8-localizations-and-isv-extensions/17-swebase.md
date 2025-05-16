@@ -10,7 +10,7 @@ ExFlow unterstützt auch einige Funktionen, die in der Erweiterung SweBase zu fi
 
 Für Fragen zu SweBase wenden Sie sich an Ihren Business Central Partner.
 
-### Zahlungsreferenz -- OCR-Nr.
+### Zahlungsreferenz - OCR-Nr.
 
 Das Feld OCR-Nr. kann interpretiert und importiert oder manuell im Feld "Belegnr. 2" des Importjournals hinzugefügt werden.
 

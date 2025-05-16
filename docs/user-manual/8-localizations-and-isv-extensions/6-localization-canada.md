@@ -12,7 +12,7 @@ ExFlow supports the French (Canada) language in Business Central.
 
 ### Canadian Sales Tax
 
-Go to: ***Setup \--\> ExFlow Setup \--\> Doc. Creation Checks tab***
+Go to: ***ExFlow Setup \--\> Doc. Creation Checks tab***
 
 Enable "Allow Sales Tax" in ExFlow Setups.
 

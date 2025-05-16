@@ -10,7 +10,7 @@ ExFlow también tiene soporte para algunas funcionalidades que se encuentran en 
 
 Para preguntas relacionadas con SweBase, contacte a su socio de Business Central.
 
-### Referencia de Pago -- No. OCR
+### Referencia de Pago - No. OCR
 
 El campo No. OCR puede ser interpretado e importado o agregado manualmente en el campo "No. de Documento del Proveedor 2" del Diario de Importación.
 

@@ -8,12 +8,11 @@ custom_edit_url: null
 
 Utilize **About ExFlow** to see installed ExFlow version, Business Central version and also link to this user manual and our latest release notes. <br/>
 
-Go to: **ExFlow Import Journals--> Actions--> Functions--> About ExFlow**
+Go to: **ExFlow Import Journals --> Action --> Functions --> About ExFlow**
 
 *About ExFlow* can be found in most pages, for example in ExFlow Import Journals. 
 
 ![About ExFlow](@site/static/img/media/import-journal-list-about-exflow-001.png) <br/>
-
 
 ![About ExFlow](@site/static/img/media/import-journal-list-about-exflow-002.png)<br/>
 

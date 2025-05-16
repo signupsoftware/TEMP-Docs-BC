@@ -30,7 +30,7 @@ Document lines will inherit dimensions from the header with the following except
 
 When the following setup is enabled, PO matched invoices will inherit the Responsibility center from the matching PO:
 
-In ExFlow Setup, go to the “PO Matching” fast tab and toggle on the option “Use PO Header Values on Invoice''. The “PO Header Value on Invoice Setup” page will then open. 
+In ExFlow Setup, go to the “Order Matching” fast tab and toggle on the option “Copy Header Values to Invoice/Credit Memo Setup''to open the setup page. 
 
 Activate Responsibility Center by checking the box in the “Activate” field and click OK to complete the activation and close the page.
 

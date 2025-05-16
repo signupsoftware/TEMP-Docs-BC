@@ -13,7 +13,7 @@ With ExFlow G/L Budget Control, users can keep track of the budget for Purchase 
 ### ExFlow Budget Control Wizard
 How to start get started with ExFlow G/L Budget Control step by step.<br/>
 
-Go to: ***Setup --> ExFlow Wizards --> ExFlow Budget Control Wizard***<br/><br/>
+Go to: ***ExFlow AP Setup - Overview --> ExFlow Budget Control Wizard***<br/><br/>
 
 
 #### Calculate G/L Budget Control

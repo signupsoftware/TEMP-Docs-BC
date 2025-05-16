@@ -28,11 +28,11 @@ Dokumentzeilen übernehmen Dimensionen vom Header mit folgender Ausnahme:
 
 #### Einrichtung
 
-Wenn die folgende Einrichtung aktiviert ist, übernehmen PO-abgestimmte Rechnungen das Verantwortungszentrum von der übereinstimmenden PO:
+Wenn die folgende Einstellung aktiviert ist, übernehmen Rechnungen mit Bestellabgleich die Verantwortungseinheit von der entsprechenden Bestellung:
 
-In ExFlow Setup gehen Sie zum „PO Matching“-Schnelltab und schalten Sie die Option „Use PO Header Values on Invoice“ ein. Die Seite „PO Header Value on Invoice Setup“ wird dann geöffnet.
+Öffnen Sie im ExFlow-Setup den Schnellreiter „Bestellabgleich“ und aktivieren Sie die Option „Kopfwerte in Rechnungs-/Gutschriftseinstellungen kopieren“, um die Einrichtungsseite zu öffnen.
 
-Aktivieren Sie das Verantwortungszentrum, indem Sie das Kontrollkästchen im Feld „Aktivieren“ aktivieren und klicken Sie auf OK, um die Aktivierung abzuschließen und die Seite zu schließen.
+Aktivieren Sie die Verantwortungseinheit, indem Sie das Kontrollkästchen im Feld „Aktivieren“ aktivieren. Klicken Sie auf „OK“, um die Aktivierung abzuschließen und die Seite zu schließen.
 
 ![ExFlow Approval Status](../../images/po-header-value-on-invoice-setup-003.png)
 

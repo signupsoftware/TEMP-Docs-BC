@@ -159,4 +159,4 @@ To apply the Auto Coding Suggestion, it is required to run the
 functions ExFlow Coding Set IDs for Auto Coding Suggestions and ExFlow
 Creating Auto Coding Suggestions.
 
-![Periodic Activities - Automatic Coding Suggestions](@site/static/img/media/exflow-menu-005-periodic-activities.png) <br/><br/> Read more about this under section [***Auto Coding Suggestion Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)
+ Read more about this under section [***Auto Coding Suggestion Setup***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#auto-coding-suggestion-setup)

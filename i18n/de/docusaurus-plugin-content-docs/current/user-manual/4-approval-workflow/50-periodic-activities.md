@@ -136,5 +136,5 @@ Lesen Sie mehr darüber im Abschnitt [***Re-Invoicing.***](https://docs.signupso
 
 Um den automatischen Kodierungsvorschlag anzuwenden, ist es erforderlich, die Funktionen ExFlow Kodierungs-IDs für Kodierungsvorschläge und ExFlow Erstellung automatischer Kodierungsvorschläge auszuführen.
 
-![Periodische Aktivitäten - Automatische Kodierungsvorschläge](../../images/exflow-menu-005-periodic-activities.png) <br/><br/> Lesen Sie mehr darüber im Abschnitt [***Automatische Kodierungsvorschlag-Einrichtung***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
+Lesen Sie mehr darüber im Abschnitt [***Automatische Kodierungsvorschlag-Einrichtung***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/automatic-coding-suggestion-setup#automatic-coding-suggestion-setup)
 

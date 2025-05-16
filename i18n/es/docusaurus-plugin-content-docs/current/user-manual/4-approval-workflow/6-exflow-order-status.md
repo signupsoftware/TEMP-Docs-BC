@@ -12,7 +12,7 @@ Cuando una Orden o Cotización se marca para aprobación, se encuentra en el Est
 
 ### Configuración de Aprobación de Orden y Cotización
 
-Ir a: ***Configuración \--\> Configuración de ExFlow \--\> Aprobación de Orden y Cotización***<br/>
+Ir a: ***Configuración de ExFlow \--\> Aprobación de Orden y Cotización***<br/>
 Para usar la función de Aprobación de Orden y Cotización, se necesitan algunas configuraciones.
 
 ![Configuración de ExFlow - Aprobación de Orden y Cotización](@site/static/img/media/exflow-setup-order-and-quote-approval-001.png)

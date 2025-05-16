@@ -174,7 +174,7 @@ well.
 
 ![ExFlow Import Journal - Get Receipt Lines - Receipt list after Exclude Fully Matched](@site/static/img/media/image296.png)
 
-It is possible to tick the setting "Disable Currency Filter in Get Receipt Lines" under the PO Matching-section in ExFlow Setup to improve performance when using Get Receipt Lines in Import Journal. No filter will then be set on Currency Code when opening the selection page.
+It is possible to tick the setting "Disable Currency Filter in Get Receipt Lines" under the Order Matching-section in ExFlow Setup to improve performance when using Get Receipt Lines in Import Journal. No filter will then be set on Currency Code when opening the selection page.
 
 #### Two-way-matching
 
@@ -245,7 +245,6 @@ Common action messages and solutions:
     Run verify after receiving delivery and ExFlow will match invoice against posted delivery.<br/>
     ***Home \--\> Verify Document***
     (**B** in picture below)
-    ![ExFlow Import Journal](@site/static/img/media/image300.png)
 
 - **Amount (XX,XX) is not equal to total of on lines (XX,XX)**<br/>
     Change the prices and lines so it matches the invoice. Use "Line Details" in FactBox for totals and differences. (**E** in picture below).
@@ -309,11 +308,9 @@ When the Sales Order is invoiced, it will be possible to post the
 invoice in Approval Status as usual.
 
 ### Match Invoice with Receipt-, Order- or both Receipt and Order lines
-Go to: ***Setup \--\> ExFlow Setup \--\> PO Matching \--\> Match Documents To***
+Go to: ***ExFlow Setup \--\> Order Matching \--\> Match Documents To***
 
 The setting "**Match Documents To**" specifies if ExFlow should match imported Purchase Invoices with Purchase Orders, Purchase Receipts or both Receipt and Order lines.
-
-![ExFlow Setup - PO Matching - Match Documents To](@site/static/img/media/exflow-setup-po-matching-005.png)
 
 **Receipt:** ExFlow will automatically find the Purchase Order based on the imported Order no. ExFlow will automatically retrieve the available Posted Receipts associated with the Purchase Order if the setting "**Automatically Retrieve Lines**" is enabled.
 
@@ -329,15 +326,12 @@ If changes is needed go to: ***ExFlow Setup --> Related --> Advanced --> Auto Re
 
 The same feature can also be found in "ExFlow Vendor Setup" page.
 
-![ExFlow Vendor Setup Card](@site/static/img/media/advanced-vendor-options-002.png)
-
 
 ### Auto Approve Purchase Order Matching Invoices
 
-#### ExFlow Setup - PO Matching
+#### ExFlow Setup - Order Matching
 
-***Setup \--\> ExFlow Setup \--\> PO Matching \--\> Auto Approve
-Invoices***
+***ExFlow Setup \--\> Order Matching \--\> Auto Approve Invoices***
 
 To Auto Approve order matched invoices there are three options.
 
@@ -359,7 +353,6 @@ been automatically matched with a Purchase Order and approved. By
 leaving this setting blank, the user that created the Purchase Invoice
 from ExFlow Import Journal will be used.
 
-![ExFlow Setup - PO Matching - Auto Approve Invoices](@site/static/img/media/exflow-setup-po-matching-006.png)
 
 ### Batch Import Documents from Interpretation
 
@@ -374,8 +367,7 @@ In ExFlow Import Journal when matching Purchase Order, it is possible to
 detect and create Diff. Line to G/L Account, Item or Charge (Item)
 automatically.
 
-Add "ExFlow Purchase Code" in field "Diff.Line Purch. Code" under PO
-Matching in ExFlow Setup.
+Add "ExFlow Purchase Code" in field ''Diff.Line Purch. Code" under Order Matching in ExFlow Setup.
 
 ![ExFlow Setup - PO Matching](@site/static/img/media/exflow-setup-po-matching-007.png)
 
@@ -401,7 +393,7 @@ This setting can only be enabled if ''Auto Create OCR Line Mapping'' is set to '
 
 
 ### PO Matching Delay Doc. Date and Due Date
-Go to ***ExFlow Setup --> PO Matching --> Matching Delay Doc. Date (Days) / Matching Delay Due. Date (Days)***
+Go to ***ExFlow Setup --> Order Matching --> Matching Delay Doc. Date (Days) / Matching Delay Due. Date (Days)***
 
 It is possible to let ExFlow delay the purchase order matching process, with both imported invoice date and/or due date. 
 
@@ -451,16 +443,11 @@ This function can also be made per vendor under [***Vendor Setup***](https://doc
 
 
 ### Copy Purchase Order Header Values
+Go to: ***ExFlow Setup –-> Order Matching --> Copy Header Values to Invoice/Credit Memo***
 
 For customers that interpret and order match on header level, some values on the order can now be copied from the order header to the document header.<br/>
 
-Start by activating "Copy Header Values to Invoice/Credit Memo" in ExFlow Setup.<br/>
-
-Go to: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Credit Memo***
-
-Choose fields to copy in “Copy Header Values to Invoice/Credit Memo”<br/>
-
-Go to: ***ExFlow Setup – Order Matching --> Copy Header Values to Invoice/Credit Memo***
+Start by activating "Copy Header Values to Invoice/Credit Memo" in ExFlow Setup and choose fields to copy in “Copy Header Values to Invoice/Credit Memo”.<br/>
 
 ![Copy Purchase Order Header – Setup](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 

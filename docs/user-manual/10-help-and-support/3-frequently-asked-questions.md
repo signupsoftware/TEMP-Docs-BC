@@ -30,7 +30,7 @@ Utilize personalize to add the field to the lines.
 If the "Task Scheduler" is turned on, Microsoft will always put current user as the user who is running the job queue entry. 
 
 ### Where do I find more FAQ? 
-Use our search function in Documentation platform (up in the right corner) to find your answer, or contact our amazing support team.
+Use the search function in Documentation platform (up in the right corner) to find your answer, or contact our amazing support team.
 
 It is possible to log in to our Support Portal and head over to ''Documentation'' to browse among older Knowledge Base Articles.
 

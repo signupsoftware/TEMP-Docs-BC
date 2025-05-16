@@ -55,7 +55,7 @@ Wählen Sie die gewünschte Tabelle aus, stellen Sie sicher, dass die Option „
 
 ### Audit-Log für ein ExFlow-Dokument anzeigen
 
-Gehen Sie zu: ** ExFlow Approval Status History --> Verwandt --> Audit-Log** 
+Gehen Sie zu: **ExFlow Approval Status History --> Verwandt --> Audit-Log** 
 
 Nachdem ein Dokument gebucht wurde, ist das Audit-Log aus der Approval Status History zugänglich. Zu diesem Zeitpunkt im Prozess sind alle Aktionen vom Import bis zur Buchung in der Zusammenfassungsansicht sichtbar, und alle Änderungen auf Feldebene können in der Detailansicht angezeigt werden.
 

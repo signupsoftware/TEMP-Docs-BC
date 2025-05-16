@@ -203,7 +203,6 @@ Mensajes de acción comunes y soluciones:
     Ejecute verificar después de recibir la entrega y ExFlow coincidirá la factura con la entrega registrada.<br/>
     ***Inicio \--\> Verificar Documento***
     (**B** en la imagen a continuación)
-    ![Diario de Importación de ExFlow](@site/static/img/media/image300.png)
 
 - **El monto (XX,XX) no es igual al total de las líneas (XX,XX)**<br/>
     Cambie los precios y las líneas para que coincidan con la factura. Utilice "Detalles de Línea" en FactBox para totales y diferencias. (**E** en la imagen a continuación).
@@ -257,11 +256,9 @@ Vuelva a la Orden de Venta para facturar la orden de venta. Si esto no se realiz
 Cuando se facture la Orden de Venta, será posible registrar la factura en el Estado de Aprobación como de costumbre.
 
 ### Coincidir Factura con Líneas de Recibo, Orden o ambas Líneas de Recibo y Orden
-Vaya a: ***Configuración \--\> Configuración de ExFlow \--\> Coincidencia de Órdenes \--\> Coincidir Documentos Con***
+Vaya a: ***Configuración de ExFlow \--\> Coincidencia de Órdenes \--\> Coincidir Documentos Con***
 
 La configuración "**Coincidir Documentos Con**" especifica si ExFlow debe coincidir las Facturas de Compra importadas con Órdenes de Compra, Recibos de Compra o ambas líneas de Recibo y Orden.
-
-![Configuración de ExFlow - Coincidencia de Órdenes - Coincidir Documentos Con](@site/static/img/media/exflow-setup-po-matching-005.png)
 
 **Recibo:** ExFlow encontrará automáticamente la Orden de Compra en función del número de Orden importado. ExFlow recuperará automáticamente los Recibos Publicados disponibles asociados con la Orden de Compra si la configuración "**Recuperar Líneas Automáticamente**" está habilitada.
 
@@ -276,9 +273,6 @@ Si se necesitan cambios, vaya a: ***Configuración de ExFlow --> Relacionado -->
 ![Tipos de Línea de Recepción de ExFlow](@site/static/img/media/auto-receiving-line-types-001.png)
 
 La misma función también se puede encontrar en la página "Configuración de Proveedor de ExFlow".
-
-![Tarjeta de Configuración de Proveedor de ExFlow](@site/static/img/media/advanced-vendor-options-002.png)
-
 
 ### Aprobar Automáticamente Facturas de Coincidencia de Órdenes de Compra
 
@@ -295,8 +289,6 @@ Para aprobar automáticamente las facturas coincidentes con órdenes, hay tres o
 **Si la orden coincidente está aprobada:** Los mismos requisitos que la opción anterior, con la adición de que la Orden de Compra coincidente debe haber sido aprobada a través de ExFlow.
 
 **Usuario para aprobación automática:** Especifique un Usuario de ExFlow que se utilizará como sello en la transacción e historial para las Facturas que hayan sido coincidentes automáticamente con una Orden de Compra y aprobadas. Al dejar esta configuración en blanco, se utilizará el usuario que creó la Factura de Compra desde el Diario de Importación de ExFlow.
-
-![Configuración de ExFlow - Coincidencia de Órdenes - Aprobar Automáticamente Facturas](@site/static/img/media/exflow-setup-po-matching-006.png)
 
 ### Importar Documentos por Lote desde la Interpretación
 
@@ -384,16 +376,11 @@ Esta función también se puede realizar por proveedor en [***Configuración de 
 
 
 ### Copiar Valores de Cabecera de Orden de Compra
+Vaya a: ***Configuración de ExFlow - Conciliación de pedidos --> Copiar valores de encabezado a factura/nota de crédito***
 
 Para los clientes que interpretan y coinciden el pedido en el nivel de encabezado, algunos valores del pedido ahora se pueden copiar del encabezado del pedido al encabezado del documento.<br/>
 
-Comience activando "Copiar valores de encabezado a factura/nota de crédito" en la configuración de ExFlow.<br/>
-
-Vaya a: ***Configuración de ExFlow - Conciliación de pedidos --> Copiar valores de encabezado a factura/nota de crédito***
-
-Elija los campos que desea copiar en "Copiar valores de cabecera en factura/abono"<br/>
-
-Vaya a: ***Configuración de ExFlow - Conciliación de pedidos --> Copiar valores de encabezado a factura/nota de crédito***
+Comience activando la opción "Copiar valores de encabezado a factura/nota de crédito" en la configuración de ExFlow y seleccione los campos que desea copiar en "Copiar valores de encabezado a factura/nota de crédito".<br/>
 
 ![Copiar encabezado de orden de compra - Configuración](@site/static/img/media/po-header-value-on-invoice-setup-001.png)
 
