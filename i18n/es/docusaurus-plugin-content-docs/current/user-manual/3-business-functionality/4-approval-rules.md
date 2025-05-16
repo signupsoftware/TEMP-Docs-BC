@@ -93,12 +93,9 @@ Si el primer aprobador es el Grupo de Aprobación 1 y siempre aprueba, el segund
 ## Flujo de trabajo
 
 ### Proponer Siempre Nuevos Aprobadores
-Ir a: ***Configuración --> Configuración de ExFlow --> Aprobación***
+Ir a: ***Configuración --> Configuración de ExFlow --> Aprobación --> Proponer Siempre Nuevos Aprobadores***
 
 Las Reglas de Aprobación y las Reglas de Aprobación Dinámica permiten que ExFlow identifique y aplique automáticamente Reglas de Aprobación o Flujo de Aprobación Dinámica para documentos que han sido modificados por cualquier usuario en ExFlow Web.
-
-![Configuración de Aprobación de ExFlow - Proponer Siempre Nuevos Aprobadores](@site/static/img/media/exflow-setup-approval-001.png)
-
 
 
 **Ejemplo para Regla de Aprobación sin Tipo de Aprobación Dinámica:**<br/>
@@ -212,7 +209,6 @@ Ir a: ***Diario de Importación --> Líneas de Importación --> Línea --> Mostr
 
 La función "Mostrar Propietarios de Dimensiones Actuales" se puede usar en el Diario de Importación de ExFlow y en el Estado de Aprobación de ExFlow.
 
-![Menú de Líneas del Diario de Importación](@site/static/img/media/import-journal-lines-001-menu.png)
 
 Ir a: ***Estado de Aprobación --> Líneas del Documento --> Línea --> Mostrar Propietarios de Dimensiones Actuales***
 

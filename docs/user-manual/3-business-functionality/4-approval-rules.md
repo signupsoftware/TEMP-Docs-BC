@@ -93,11 +93,9 @@ If first approver is Approval Group 1 and always approves, the second approver d
 ## Workflow
 
 ### Always Propose New Approvers
-Go to: ***ExFlow Setup --> Approval***
+Go to: ***ExFlow Setup --> Approval --> Always Propose New Approvers***
 
 Approval Rules and Dynamic Approval Rules allows ExFlow to automatically identify and apply Approval Rules or Dynamic Approval Flow for documents that have been modified by any user in ExFlow Web.
-
-![ExFlow Setup Approval - Always Propose New Approvers](@site/static/img/media/exflow-setup-approval-001.png)
 
 
 **Example for Approval Rule without Dynamic Approval Type:**<br/>
@@ -215,7 +213,6 @@ Go to: ***Import Journal --> Import Lines --> Line --> Show Current Dimension Ow
 
 The function "Show Current Dimension Owners" can be used in the ExFlow Import Journal and ExFlow Approval Status.
 
-![Import Journal Lines Menu](@site/static/img/media/import-journal-lines-001-menu.png)
 
 Go to: ***Approval Status --> Document Lines --> Line --> Show Current Dimension Owners***
 

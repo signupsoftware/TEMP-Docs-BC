@@ -103,7 +103,6 @@ Wenn die Menge geändert wird, erfolgt keine Aktualisierung des Zuschlags % oder
 Einkaufsmenge 2, Direkteinstandspreis **1 000,00**, insgesamt 2 000,00<br/>
 Re-Invoicing-Menge 4, Einheitspreis **1 500,00** insgesamt 6 000,00<br/>
 **Der Zuschlag % wird dann als 50% angezeigt**<br/>
-![ExFlow Import Journal Lines](../../images/import-journal-lines-003-re-invoicing.png)
 
 Das Aktivieren des Zuschlags % öffnet zusätzliche Optionen zum Vordefinieren von Zuschlägen.
 

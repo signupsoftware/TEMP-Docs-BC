@@ -30,7 +30,7 @@ Erfordert BC 25.0 oder höher <br/>
 |25.0.246.14|Upgrade-Skript | Sprachvalidierungsproblem im Upgrade-Skript behoben.
 |25.0.246.14|Funktionsverwaltung | Datenaktualisierungsstatus hinzugefügt und Problem mit den Filteroptionen für den Journalimport behoben.
 |25.0.246.14|Setup | Defekte „Weiterlesen“-Links in beiden Auftragsabgleichsassistenten behoben.
-|25.0.246.19| Lieferanteneinrichtung | Problem behoben, bei dem die Funktion „Belege abgleichen mit: Bestellung“ auf aktuellen Lieferanteneinrichtungskarten nicht in Bestellung und Beleg konvertiert wird.
+|25.0.246.19| Neue Auftragsabgleichung | Problem behoben, bei dem die Funktion „Belege abgleichen mit: Bestellung“ auf aktuellen Lieferanteneinrichtungskarten nicht in Bestellung und Beleg konvertiert wird.
 |25.0.246.19| Einrichtung | Buchung einer Bestellung mit Artikelzuschlagszuordnung – „Kein Artikelposten gefunden“
 |25.0.246.19| Einrichtung | Problem behoben, bei dem Retourensendungen abgeholt wurden, aber Mengen fehlten.
 

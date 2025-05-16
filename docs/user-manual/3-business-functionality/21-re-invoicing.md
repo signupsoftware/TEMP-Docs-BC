@@ -103,7 +103,6 @@ If Qty is changed, there will be no update in surcharge % or unit price. <br/>
 Purchase Qty 2, Direct Unit Cost **1 000,00**, total of 2 000,00<br/>
 Re-Invoicing Qty 4, Unit Price **1 500,00** total of 6 000,00<br/>
 **Surcharge % will then show as 50%**<br/>
-![ExFlow Import Journal Lines](@site/static/img/media/import-journal-lines-003-re-invoicing.png)
 
 Enable Surcharge % will open additional options for predefining Surcharges.
 

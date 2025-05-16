@@ -103,7 +103,6 @@ Si la Cantidad se cambia, no habrá actualización en el % de recargo o el preci
 Cantidad de Compra 2, Costo Unitario Directo **1 000,00**, total de 2 000,00<br/>
 Cantidad de Re-Facturación 4, Precio Unitario **1 500,00** total de 6 000,00<br/>
 **El % de Recargo entonces mostrará como 50%**<br/>
-![Líneas del Diario de Importación de ExFlow](@site/static/img/media/import-journal-lines-003-re-invoicing.png)
 
 Habilitar % de Recargo abrirá opciones adicionales para predefinir Recargos.
 

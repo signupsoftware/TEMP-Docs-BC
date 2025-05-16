@@ -28,8 +28,6 @@ Para Cotización de Compra y Órdenes, el Primer Aprobador puede ser agregado po
 
 El Usuario de ExFlow luego necesita ser asignado a un Usuario del Sistema para que ExFlow reconozca qué usuario agregar como Primer Aprobador.<br/>
 
-![Configuración de ExFlow](@site/static/img/media/first-approver-003.png)<br/>
-
 
 ### Filtro de Primer Aprobador en una Regla de Aprobación de ExFlow
 
