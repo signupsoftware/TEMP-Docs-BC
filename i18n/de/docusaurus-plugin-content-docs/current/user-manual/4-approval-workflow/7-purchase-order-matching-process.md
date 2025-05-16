@@ -384,11 +384,11 @@ Diese Funktion kann auch pro Lieferant unter [***Vendor Setup***](https://docs.s
 Gehen Sie zu: ***ExFlow-Einrichtung – Auftragsabgleich --> Kopieren von Kopfwerten in Rechnung/Gutschrift*** 
 Für Kunden, die interpretieren und bestellen auf Kopfebene übereinstimmen, können nun einige Werte des Auftrags aus dem Auftragskopf in den Belegkopf kopiert werden.
 
-Beginnen Sie, indem Sie „Kopfwerte in Rechnung/Gutschrift kopieren“ im ExFlow-Setup aktivieren und unter „Kopfwerte in Rechnung/Gutschrift kopieren“ die zu kopierenden Felder auswählen.<br/>
+Aktivieren Sie zunächst „Kopfwerte in Rechnung/Gutschrift kopieren“ und wählen Sie anschließend die zu kopierenden Felder aus.<br/>
 
 ![Bestellkopf kopieren – Einrichtung](../../images/po-header-value-on-invoice-setup-001.png) 
 
-Für die Lokalisierung in den USA und Kalifornien können die Steuerpflicht und der Steuerbereich auch aus der Bestellung/Rücklieferung in die Einkaufsrechnung/Gutschrift kopiert werden. 
+Für die Lokalisierung in den USA und CA können die Steuerpflicht und der Steuerbereich auch aus der Bestellung/Rücklieferung in die Einkaufsrechnung/Gutschrift kopiert werden. 
 
 ![Bestellkopf kopieren – Setup-Zertifizierungsstelle - US](../../images/po-header-value-on-invoice-setup-002-ca-us.png) 
 

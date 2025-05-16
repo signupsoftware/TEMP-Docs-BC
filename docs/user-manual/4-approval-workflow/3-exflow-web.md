@@ -46,7 +46,6 @@ By using the function "Verify Changes" the administrator updates the
 The next step is to post the Invoice by using function "Post" or "Post
 Batch". There is also a function for Preview Posting.
 
-Go to: ***Actions \--\> Posting \--\> Post / Preview Posting / Post
-Batch\...***
+Go to: ***Actions --> Posting --> Post / Preview Posting / Post Batch...***
 
 ![ExFlow Approval Status](@site/static/img/media/image237.png)
