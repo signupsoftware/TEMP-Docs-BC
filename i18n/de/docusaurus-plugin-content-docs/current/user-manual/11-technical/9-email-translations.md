@@ -17,7 +17,7 @@ Bearbeiten Sie die Liste, um die Übersetzung für den/die E-Mail-Erinnerungstyp
 
 Es wird empfohlen, die Änderungen in einer Testumgebung zu testen, bevor sie in der Produktionsumgebung eingesetzt werden, um sicherzustellen, dass die neue E-Mail wie beabsichtigt aussieht und funktioniert. 
 
-![E-Mail-Übersetzungen](@../../images/email-translations-001.png)
+![E-Mail-Übersetzungen](../../images/email-translations-001.png)
 
 |E-Mail-Übersetzungen||
 |:-|:-|	
