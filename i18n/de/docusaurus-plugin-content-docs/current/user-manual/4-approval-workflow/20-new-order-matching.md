@@ -6,11 +6,11 @@ custom_edit_url: null
 ---
 ## Neue Auftragsabgleich-Erfahrung
 
-Um die neue Auftragsabgleich-Erfahrung mit der Auftragsabgleich-Engine und all ihren Verbesserungen zu nutzen, muss die neue Funktion für den Einkaufsauftragsabgleich in der SignUp Funktionsverwaltung aktiviert werden.
+Um die neue Auftragsabgleich-Erfahrung mit der Auftragsabgleich-Engine und all ihren Verbesserungen zu nutzen, muss die neue Funktion für den Einkaufsauftragsabgleich in der ExFlow Funktionsverwaltung aktiviert werden.
 
-### SignUp Funktionsverwaltung
+### ExFlow Funktionsverwaltung
 
-Gehen Sie zu: **SignUp Funktionsverwaltung**, um die neue Auftragsabgleich-Funktion zu aktivieren.
+Gehen Sie zu: **ExFlow Funktionsverwaltung**, um die neue Auftragsabgleich-Funktion zu aktivieren.
 
 ![ExFlow Import Journal - Auftragsnr.](../../images/FM-001.png)
  

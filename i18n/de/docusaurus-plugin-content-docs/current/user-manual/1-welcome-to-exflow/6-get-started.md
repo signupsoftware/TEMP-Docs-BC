@@ -250,12 +250,12 @@ Wenn eine Lizenz aktiviert ist, werden die lizenzierten Produkte angezeigt:
 |Lizenz löschen| Lizenz entfernen
 
 
-## SignUp Funktionsverwaltung
-Gehen Sie zu: **SignUp Funktionsverwaltung**
+## ExFlow Funktionsverwaltung
+Gehen Sie zu: **ExFlow Funktionsverwaltung**
 
-Die SignUp Funktionsverwaltung ermöglicht Benutzern und Entwicklern zu kontrollieren, wann neue und größere Funktionen aktiviert werden. 
+Die ExFlow Funktionsverwaltung ermöglicht Benutzern und Entwicklern zu kontrollieren, wann neue und größere Funktionen aktiviert werden. 
 
-Die SignUp Funktionsverwaltung arbeitet mit dem Lizenzanbieter zusammen und erlaubt die Aktivierung einer Funktion nur, wenn eine entsprechende Lizenz für die App und/oder Funktion verfügbar ist.
+Die ExFlow Funktionsverwaltung arbeitet mit dem Lizenzanbieter zusammen und erlaubt die Aktivierung einer Funktion nur, wenn eine entsprechende Lizenz für die App und/oder Funktion verfügbar ist.
 
 ![FM](/img/media/FM-001.png)<br/>
 
@@ -275,6 +275,6 @@ Lesen Sie mehr darüber im Abschnitt [Einkaufsauftragsabgleichprozess](https://d
 
 
 ### Neuer Auftragsabgleich-Assistent
-Der Neue Auftragsabgleich-Assistent wird sichtbar sein, wenn der SignUp Lizenzanbieter verwendet wird und die Neue Auftragsabgleichfunktionalität über die SignUp Funktionsverwaltung aktiviert ist. 
+Der Neue Auftragsabgleich-Assistent wird sichtbar sein, wenn der SignUp Lizenzanbieter verwendet wird und die Neue Auftragsabgleichfunktionalität über die ExFlow Funktionsverwaltung aktiviert ist. 
 
 Lesen Sie mehr darüber im Abschnitt [Neue Auftragsabgleich-Erfahrung](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching)
