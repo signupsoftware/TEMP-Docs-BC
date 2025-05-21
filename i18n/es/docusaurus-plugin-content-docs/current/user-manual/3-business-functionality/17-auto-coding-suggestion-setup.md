@@ -6,91 +6,155 @@ custom_edit_url: null
 ---
 ## Configuración de Sugerencia de Codificación Automática
 
-Ir a: ***Configuración de AP de ExFlow - Descripción general --> Configuración de Sugerencia de Codificación Automática de ExFlow***<br/>
+Vaya a: ***Configuración de ExFlow - Resumen --> Configuración de Sugerencia de Codificación Automática*** o busque ***Configuración de Sugerencia de Codificación Automática de ExFlow***
 
-Esta función en ExFlow está diseñada para poder obtener sugerencias de codificación automáticas en el Diario de Importación basadas en documentos publicados históricamente y funciona tanto para facturas como para notas de crédito. Esto puede ser útil para empresas que tienen historial de publicaciones en Business Central pero que acaban de comenzar a usar ExFlow.<br/>
+Esta función en ExFlow está diseñada para obtener sugerencias de codificación automáticas en el Diario de Importación basadas en documentos históricamente contabilizados y funciona tanto para facturas como para notas de crédito. Esto puede ser útil para empresas que tienen un historial de contabilización en Business Central pero recién comienzan a usar ExFlow.<br/>
 
-Esta función solo admite Cuentas G/L, no otros tipos de líneas.
+*Sugerencia de Codificación Automática* puede proporcionar sugerencias de codificación si no se ha aplicado ningún otro tipo de sugerencia, como un Código de Compra de ExFlow o una Cuenta mayor predefinida. La Sugerencia de Codificación Automática actualiza continuamente las sugerencias de codificación después de contabilizar los documentos, para ofrecer siempre una sugerencia futura precisa.<br/>
 
-*Auto Coding Suggestion* puede dar sugerencias de codificación si no se ha aplicado otro tipo de sugerencia, como un Código de Compra de ExFlow o una Cuenta G/L Predefinida. <br/>
+**Nota importante:** Esta función solo admite Cuentas mayor, no otros tipos de línea. 
 
-La Sugerencia de Codificación Automática actualiza continuamente las sugerencias de codificación después de publicar los documentos, para siempre dar una sugerencia futura precisa.<br/>
+Los pasos para tener una correcta Sugerencia de Codificación Automática serían: <br/>
+1. Tener un historial de documentos contabilizados <br/>
+2. Crear IDs de conjunto de codificación<br/> 
+3. Crear sugerencias<br/>
+<br/>
 
-Para poder usar esta función, vaya a **Configuración de Sugerencia de Codificación Automática de ExFlow:** <br/>
+O bien, dejar que ExFlow gestione la Sugerencia de Codificación Automática a través de [Actividades Periódicas](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/auto-coding-suggestion-setup#periodic-activities), donde los pasos consistirían en ejecutar los informes para:
+* Crear IDs de conjunto de codificación <br/>
+* Crear sugerencias de codificación automáticas<br/>
 
-![Menú de ExFlow](@site/static/img/media/exflow-meny-auto-coding-001.png) <br/>
+## Configuración 
+### Añadir una nueva Sugerencia de Codificación Automática
+
+Para comenzar con las Sugerencias de Codificación Automática, se deben añadir Tipo(s) de Origen. Puede ser un Proveedor, un Grupo de registro comercial general, un Grupo de registro de proveedor o elegir todos ellos como última opción.
+
+![Configuración de Sugerencia de Codificación de ExFlow](@site/static/img/media/auto-coding-suggestion-003.png)
+
+Añadir un tipo de origen también creará un ID de Configuración. El siguiente paso, después de añadir un Tipo de Origen, es hacer clic en ''Crear Sugerencia''. 
+
+Ingrese ''Sugerencias'' para ver las sugerencias recién creadas. 
+
+![Configuración de Sugerencia de Codificación de ExFlow](@site/static/img/media/auto-coding-suggestion-004.png)
 
 
-### Agregar una Nueva Sugerencia de Codificación Automática
-
-Habilite la **''Mostrar Configuración Avanzada''** en la página de Configuración de Sugerencia de Codificación Automática, para obtener la vista completa de la página:
-
-![Configuración de Sugerencia de Codificación de ExFlow](@site/static/img/media/coding-suggestion-setup-001.png)
-
-Tenga en cuenta que los dos últimos campos en la imagen anterior (''Agrupar por Moneda'' y ''Agrupar por Referencia'') están ocultos por defecto y se pueden agregar mediante la personalización de la página.
-
-| Cinta de Configuración de Sugerencia de Codificación Automática     |	|
+| Cinta de opciones de Configuración de Sugerencia de Codificación Automática     |	|
 |:-|:-|
-| **Nuevo**:    | Agregar una nueva Sugerencia de Codificación
+| **Nuevo**:    | Añadir una nueva Sugerencia de Codificación
 | **Editar Lista**:    | Editar la lista de Configuración de Sugerencia de Codificación
 | **Eliminar**:    | Eliminar una Sugerencia de Codificación
-| **Crear Sugerencia**:    | Este botón recorre la configuración y agrega Sugerencias al ID de Sugerencia
-| **Sugerencias:**          | Esto muestra el ID de Sugerencia creado para la Configuración seleccionada
-| **Eliminar Sugerencias:**   | Esto elimina los ID de Sugerencia
+| **Crear Sugerencia**:    | Este botón recorre la configuración y añade Sugerencias al ID de Sugerencia
+| **Sugerencias:**          | Muestra el ID de Sugerencia creado para la Configuración seleccionada
+| **Eliminar Sugerencias:**   | Elimina los IDs de Sugerencia
 | **Historial de Documentos de Codificación:**   | Abre la página de Historial de Documentos de Sugerencia de Codificación Automática de ExFlow
-| **Agrupar Documentos Por:**   | Abre la Lista de Agrupación de Sugerencias de Codificación Automática de ExFlow
-| **Aplicar Campos:**   | Abre la Configuración de Campos de Transferencia de Sugerencia de Codificación Automática
+| **Agrupar Documentos Por:**   | Abre la Lista de Agrupación de Sugerencia de Codificación Automática de ExFlow
+| **Aplicar Campos:**   | Abre la Configuración de Transferencia de Campos de Sugerencia de Codificación Automática
+
+
+
+#### Configuración Avanzada
+Active la opción **''Mostrar Configuración Avanzada''** en la página de Configuración de Sugerencia de Codificación Automática para obtener una vista completa de la página, si es necesario añadir una configuración más avanzada.
+
+![Configuración de Sugerencia de Codificación de ExFlow](@site/static/img/media/coding-suggestion-setup-001.png)
 
 <br/>
 
 | Configuración de Sugerencia de Codificación Automática --> Nuevo/Editar Lista      |	|
 |:-|:-|
 | **ID de Configuración:**                                          |Especifica el ID de la configuración de sugerencia de codificación.
-| **Tipo de Fuente:**                                          |Grupo de Publicación General de Negocios, Grupo de Publicación de Proveedores, Proveedor o Todos. Esto definirá la agrupación de Sugerencias creadas por ExFlow
-| **No. de Fuente:**                                            | Esto definirá qué No. del "Tipo de Fuente" específico en el que se debe usar esta configuración. <br/>Si el No. de Fuente se deja vacío para el Tipo de Fuente Proveedor, la agrupación se hace por Proveedor para todos los Proveedores.   <br/>Al crear un ID de configuración como "Tipo de Fuente" Proveedor y "No. de Fuente" en blanco, se crearán sugerencias de codificación de cada proveedor, donde las sugerencias siempre se filtrarán por proveedor
-| **Descripción:**                                          | Texto descriptivo. (100 caracteres máx.)
-| **Multiplicador de Días:**                                      | Esto define cuán severamente el número de días desde la última factura para esa configuración afectará la prioridad para la codificación sugerida a utilizar. Cuanto mayor sea el número, mayor será el multiplicador. El multiplicador debe ser un valor negativo. Por ejemplo, -10 tiene una mayor influencia que -1
-| **Multiplicador de Ocurrencia:**                                | Esto define cuán severamente el número de facturas en el ID de Sugerencia dentro de esta configuración afectará la prioridad para la codificación sugerida a utilizar. Cuanto mayor sea el número, mayor será el multiplicador. El multiplicador debe ser un valor negativo. Por ejemplo, -10 tiene una mayor influencia que -1
-| **Rango de Monto %:**                                       |Esto define el porcentaje (más/menos) del monto a aplicar para el ID de Sugerencia en el que se guardará una codificación específica para un documento
-| **Número Mínimo de Documentos para la Validez de la Sugerencia:**  | El número mínimo de documentos que deben agregarse al ID de Configuración de Sugerencia para que una sugerencia de ese ID de Sugerencia se elija automáticamente
-| **Agrupar por Moneda:**                                   | Esto define si la agrupación debe hacerse con moneda. <br/><br/> Este campo está oculto por defecto, agregue este campo a través de la personalización de la página, si es necesario.
-| **Agrupar por Referencia**:                                  | Esto define si la agrupación debe hacerse especificada con Códigos de Referencia de ExFlow. <br/><br/> Este campo está oculto por defecto, agregue este campo a través de la personalización de la página, si es necesario.
+| **Tipo de Origen:**                                          |Grupo de registro comercial general, Grupo de registro de proveedor, Proveedor o Todos. Esto definirá la agrupación de Sugerencias creadas por ExFlow
+| **Nº de Origen:**                                            | Esto definirá qué Nº del "Tipo de Origen" específico en el que se debe utilizar esta configuración. <br/>Si el Nº de Origen se deja vacío para el Tipo de Origen Proveedor, la agrupación se realiza por Proveedor para todos los Proveedores. <br/>Al crear un ID de configuración con "Tipo de Origen" Proveedor y "Nº de Origen" en blanco, se crearán sugerencias de codificación de todos los proveedores, donde las sugerencias siempre se filtrarán por proveedor
 
 
 <br/>
 
-### Habilitar Sugerencia de Codificación Automática
+### Activación de Sugerencia de Codificación Automática
+Vaya a: **Configuración de ExFlow --> Sugerencia de Codificación Automática**
 
-#### Configuración de ExFlow
+Active esta función en la Configuración de ExFlow habilitándola para todos los Proveedores o Proveedores Seleccionados.
 
-Active esta función en la Configuración de ExFlow habilitando esta función para todos los Proveedores o Proveedores Seleccionados.
-
-Al activar "Proveedores Seleccionados", también es necesario habilitar "Usar Sugerencia de Codificación Automática" para los proveedores, en la tarjeta de [***Configuración de Proveedores de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup) que deben tener esta función habilitada.
+Al activar "Proveedores Seleccionados", es necesario habilitar también "Sugerir Codificación Automática para Documento Importado" para los proveedores, en la tarjeta [***Configuración de Proveedor de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/vendor-setup) que debe tener esta función habilitada. 
 
 ![Configuración de ExFlow - Sugerencia Automática](@site/static/img/media/exflow-setup-automatic-suggestion-001.png)
 
-| Configuración de ExFlow --> Sección de Sugerencia de Codificación Automática     |	|
+| Sugerencia de Codificación Automática     |	|
 |:-|:-|
-| **Agrupación de Documentos en Líneas de Sugerencia con Monto:**    | Especifica cómo se agruparán los documentos según el monto del documento.
-| **Decisión de Sugerencia de Codificación Automática Basada en el Monto:**           |Especifica cómo se elegirá la línea de sugerencia según el monto del documento
-| **Sugerir Codificación Automática para Documento Importado:**           | Especifica cómo se utilizará la sugerencia de codificación automática
-| **Calcular Sugerencias Automáticas Desde la Fecha:**                          | Especifica la fecha de inicio del documento que se utilizará en las sugerencias de codificación automática.
-| **Sugerir Monto de Codificación Automática desde el ID de Conjunto de Codificación:**       | Especifica si los montos se sugerirán automáticamente en las líneas creadas desde el ID de Conjunto de Codificación
+| **Agrupación de Documentos en Líneas de Sugerencia con Importe:**    | Especifica cómo se agruparán los documentos basándose en el importe del documento. Se pueden establecer las siguientes opciones: ''Más Cercano al Valor Promedio, Más Cercano al Valor Inferior y Más Cercano al Valor Superior''. 
+| **Decisión de Sugerencia de Codificación Automática Basada en el Importe:**           | Especifica cómo se elegirá la línea de sugerencia basándose en el importe del documento. Se pueden establecer las siguientes opciones: ''Más Cercano al Valor Promedio, Más Cercano al Valor Inferior y Más Cercano al Valor Superior''.
+| **Sugerir Codificación Automática para Documento Importado:**           | Especifica cómo se utilizará la sugerencia de codificación automática. Se pueden establecer las siguientes opciones: ''Nunca, Siempre y Proveedores Seleccionados''.
+| **Calcular Sugerencias Automáticas Desde Fecha:**                          | Especifica la fecha de inicio del documento que se utilizará en las sugerencias de codificación automática.
+| **Sugerir Importe de Codificación Automática desde ID de Conjunto de Codificación:**       | Especifica si los importes se sugerirán automáticamente en las líneas creadas desde el ID de Conjunto de Codificación. Se pueden establecer las siguientes opciones: ''Nunca, Siempre y Proveedores Seleccionados''.
 
 <br/>
 
-#### Diario de Importación
 
-Habilite **Crear Líneas con Sugerencia Automática** para activar esta función para un Diario de Importación específico.
+## Actividades Periódicas
+Vaya a: **Actividades Periódicas de ExFlow**
+
+Para aplicar la Sugerencia de Codificación Automática, es necesario ejecutar las funciones **IDs de Conjunto de Codificación de ExFlow para Sugerencias de Codificación Automática** y **Creación de Sugerencias de Codificación Automática de ExFlow**. <br/>
+
+![medio](@site/static/img/media/exflow-meny-auto-coding-001.png) 
+
+El primer uso de la Sugerencia de Codificación Automática requerirá que ambos trabajos (Informe 12013594 y 12013593) se ejecuten al menos una vez. Después de esto, la recurrencia puede ajustarse en las entradas correspondientes de la Cola de Trabajos.
+
+El Informe 12013594 actualizará la agrupación del ID de Conjunto de Codificación en las Líneas de Sugerencia de Codificación Automática de ExFlow. Luego, el Informe 12013593 (Configuración de Sugerencia de Codificación de ExFlow - Actualizar – Proyecto) puede utilizarse para actualizar la ''Configuración de Sugerencia de Codificación Automática de ExFlow''. Se recomienda utilizar ambos informes una vez al día, después del horario de oficina.
+
+
+## Flujo de trabajo
+
+
+### Diario de Importación
+
+#### Crear Líneas con Sugerencia Automática
+
+Vaya a: **Diarios de Importación de ExFlow** 
+
+Edite la lista del diario y habilite **Crear Líneas con Sugerencia Automática** para activar esta función para un Diario de Importación específico y tener un diario dedicado para Sugerencias de Codificación Automática.
 
 ![Diarios de Importación de ExFlow](@site/static/img/media/import-journals-008.png)
 
 <br/>
 
-#### Actividades Periódicas
+#### Sugerir Codificación Automática para Documento Importado
 
-Para aplicar la Sugerencia de Codificación Automática, es necesario ejecutar las funciones **ID de Conjunto de Codificación de ExFlow para Sugerencias de Codificación** y **Creación de Sugerencias de Codificación Automática de ExFlow**. <br/>
 
-El primer uso de la sugerencia de codificación automática necesitará que ambos trabajos se ejecuten al menos una vez. Después de eso, la recurrencia se puede ajustar en las Entradas de la Cola de Trabajos correspondientes.
+#### Manualmente desde el Diario de Importación
 
-![Actividades Periódicas](@site/static/img/media/exflow-menu-005-periodic-activities.png)
+##### Sugerencia de Codificación Automática - Elección Manual
+Vaya a: ***Diario de Importación --> Inicio --> Sugerencia de Codificación Automática - Elección Manual***
+
+Abre la lista de Sugerencia de Codificación Automática relacionada con el documento seleccionado.
+
+La Elección Manual da la opción de navegar a través de diferentes IDs de Conjunto de Codificación y elegir manualmente una sugerencia de codificación.
+
+Esta página mostrará la mejor coincidencia para la codificación de la factura que se seleccionó antes de presionar el botón para elegir manualmente la sugerencia de codificación. En la esquina derecha es posible ver la codificación de las Líneas de Sugerencia de Codificación seleccionadas para ese ID de Configuración específico.
+
+![Sugerencia de Codificación de ExFlow para Diario de Importación](@site/static/img/media/auto-coding-suggestion-001.png)
+
+|Sugerencia de Codificación Automática - Elección Manual     | |
+|:-|:-|
+|Aplicar ID de Conjunto de Codificación| Esto aplicará la codificación vista en la esquina derecha a la factura.
+|Mostrar Líneas de Documento| Abrirá la página de Documento de Sugerencia de Codificación de ExFlow. 
+|Mostrar Todo|Esto mostrará todos los IDs de Configuración para la posibilidad de elegir manualmente una codificación sugerida para, por ejemplo, otro proveedor.
+|Mostrar Sugerencia Inicial| Esto volverá a la sugerencia inicial mostrada cuando la página se abrió por primera vez.
+
+
+###### Documento de Sugerencia de Codificación de ExFlow
+
+En esta página, la codificación se muestra con más detalle. También es posible comparar las Líneas Sugeridas con las líneas Actuales en la factura.
+
+|Sugerencia de Codificación Automática - Automática    | |
+|:-|:-|
+|Aplicar Codificación Sugerida| Esto aplica la codificación sugerida a la factura.
+|Sugerir Última Codificación|Esto aplica la codificación del último documento contabilizado de ese proveedor.
+|Sugerir Codificación Preseleccionada| Esto sugiere la codificación que se originó como la selección en la ventana anterior.
+|Sugerir Codificación Automática| Esto sugerirá la codificación automática basada en la Configuración de Sugerencia Automática.
+
+![Documento de Sugerencia de Codificación de ExFlow](@site/static/img/media/auto-coding-suggestion-002.png)
+
+#### Sugerencia de Codificación Automática - Automática
+Vaya a: ***Diario de Importación --> Inicio --> Sugerencia de Codificación Automática - Automática***
+
+Aplica la codificación de línea elegida por el algoritmo de sugerencia.
+
+Esto introducirá una codificación basada en la información de la factura. Elegirá la codificación basada en la Configuración de Codificación Automática.

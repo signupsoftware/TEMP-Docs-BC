@@ -31,7 +31,6 @@ Requires BC 25.0 or later <br/>
 |25.0.246.14|4PS		|WIP Accounts were not visible in drop down list in ExFlow Web
 |25.0.246.14|General		|Auto Receipt Events added 
 |25.0.246.14|Upgrade Script		| Fixed language validation issue in the upgrade script 
-|25.0.246.14|Feature Management | Data Update Status added and issue with Import Journal filter options was resolved 
 |25.0.246.14|Setup |  Broken ''Read More'' links were fixed in both order matching wizards
 |25.0.246.19| New Order Matching |Resolved issue where Match Documents to: Order does not convert to Order and Receipt on current Vendor Setup Cards
 |25.0.246.19| Setup |Posting PO with Item Charge Assignment - "No Item Ledger Entry Found" 
