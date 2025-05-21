@@ -29,7 +29,6 @@ Requiere BC 25.0 o posterior <br/>
 |25.0.246.14|4PS |Las cuentas WIP no eran visibles en la lista desplegable de ExFlow Web
 |25.0.246.14|General |Se añadieron eventos de recepción automática
 |25.0.246.14|Script de actualización | Se solucionó un problema de validación de idioma en el script de actualización
-|25.0.246.14|Gestión de funciones | Se añadió el estado de actualización de datos y se solucionó el problema con las opciones de filtro del diario de importación
 |25.0.246.14|Configuración | Se solucionaron los enlaces "Leer más" que no funcionaban en ambos asistentes de coincidencia de pedidos
 |25.0.246.19| Coincidencia de nuevos pedidos |Se solucionó el problema por el cual la función "Asociar documentos con: Pedido" no se convertía en Pedido y Recibo en las tarjetas de configuración de proveedores actuales.
 |25.0.246.19| Configuración |Contabilización de órdenes de compra con asignación de cargo por artículo: "No se encontró ninguna entrada en el libro mayor de artículos".

@@ -4,6 +4,14 @@ sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
+## ExFlow Setup Overview
+Go to: **ExFlow Setup - Overview** 
+
+Find all ExFlow AP Setup gathered in the ExFlow Setup - Overview.
+
+![medium](@site/static/img/media/exflow-ap-overview-001.png) 
+
+
 ## ExFlow Menu
 
 Use the ExFlow Menu to discover ExFlow pages, tasks and reports etcetera in Business Central.
@@ -42,12 +50,6 @@ Now ExFlow Menu is visible regardless of Role in "My Settings".
 
 ![ExFlow Menu](@site/static/img/media/exflow-menu-004-extended.png)
 
-### ExFlow Setup Overview
-Go to: **ExFlow Setup - Overview** or access this Overview via the ExFlow Accountant Role Center
-
-Find all ExFlow AP Setup gathered in the ExFlow AP Setup - Overview.
-
-![medium](@site/static/img/media/exflow-ap-overview-001.png) 
 
 ### Role Center - ExFlow Approver
 

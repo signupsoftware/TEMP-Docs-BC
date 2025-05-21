@@ -7,9 +7,12 @@ custom_edit_url: null
 ## Recordatorios por Correo Electrónico
 Tenga en cuenta que se debe configurar una Cuenta de Correo Electrónico estándar de Business Central para poder recibir correos electrónicos de ExFlow. Puede encontrar más información sobre esto en la [***Documentación de Microsoft***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email). Para obtener asistencia sobre esto, comuníquese con su socio de implementación de confianza de Dynamics 365 Business Central.
 
-Para poder enviar correos electrónicos a los Usuarios de ExFlow, se necesitan algunas configuraciones.<br/>
+Para enviar correos electrónicos a los usuarios de ExFlow, se requieren algunas configuraciones. <br/>
 
-La configuración de la Entrada de Cola de Trabajos solo debe realizarse en la **Empresa Predeterminada**.
+Se requiere la [Configuración del correo electrónico de ExFlow](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup).
+
+La [Cola de trabajos](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/job-queues) solo debe configurarse en la **Empresa predeterminada**.
+
 
 ### Recordatorio de Bandeja de Entrada
 Enviar recordatorios si los Usuarios de ExFlow tienen documentos para aprobar.
@@ -17,7 +20,7 @@ Enviar recordatorios si los Usuarios de ExFlow tienen documentos para aprobar.
 | Recordatorio de Bandeja de Entrada |  | 
 |:-|:-|
 | Cuenta de Correo Electrónico         | Agregar Configuración de Cuenta de Correo Electrónico en todas las empresas              
-| Configuración de Correo Electrónico de ExFlow    | Tipo de Correo Electrónico **Recordatorio de Bandeja de Entrada** en todas las empresas<br/>Lea más en la sección [***Configuración de Correo Electrónico de ExFlow - Recordatorio de Bandeja de Entrada***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder)
+| Configuración de Correo Electrónico de ExFlow    | Tipo de Correo Electrónico **Recordatorio de Bandeja de Entrada** en todas las empresas <br/> Lea más en la sección [***Configuración de Correo Electrónico de ExFlow - Recordatorio de Bandeja de Entrada***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder)
 | Usuarios de ExFlow          | Activar para **Recordatorio por Correo Electrónico --> Documentos No Aprobados**. <br/>Lea más en la sección [***Usuarios de ExFlow***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#email-reminders) para la configuración.
 | Entrada de Cola de Trabajos       | Unidad de Código 12057077 y Cadena de Parámetros **INBOX REMINDER** en la empresa predeterminada
 | Documentos Seleccionados    | Estado de Aprobación, seleccione uno o varios documentos y use la función ***Enviar Recordatorio***

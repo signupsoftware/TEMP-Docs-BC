@@ -5,12 +5,15 @@ hide_title: true
 custom_edit_url: null
 ---
 ## Email Reminders
+
 Please note that a Business Central standard Email Account must be set to be able to receive ExFlow emails. More information about this can be found at [***Microsoft Documentation***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email). For assistance regarding this, please contact your trusted Dynamics 365 Business Central implementation partner.
 
 
-To be able to send emails to ExFlow Users there are some settings needed.<br/>
+To be able to send emails to ExFlow Users there are some settings needed. <br/>
 
-Job Queue Entry setup should only be done in **Default Company**.
+[ExFlow Email Setup](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup) is needed. 
+
+[Job Queue](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/job-queues) Entry setup should only be done in **Default Company**. 
 
 
 ### Inbox Reminder
@@ -19,7 +22,7 @@ Send reminders if ExFlow Users have documents to approve.
 | Inbox Reminder |  | 
 |:-|:-|
 | Email Account         | Add Email Account Setup in all companies              
-| ExFlow Email Setup    | Email Type **Inbox Reminder**. in all companies<br/>Read more under section [***ExFlow Email Setup - Inbox Reminder***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder)
+| ExFlow Email Setup    | Email Type **Inbox Reminder** in all companies<br/>Read more under section [***ExFlow Email Setup - Inbox Reminder***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder)
 | ExFlow Users          | Activate for **Email Reminder --> Unapproved Documents**. <br/>Read more under section [***ExFlow Users***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#email-reminders) for setup.
 | Job Queue Entry       | Code Unit 12057077 and Parameter String **INBOX REMINDER** in default company
 | Selected Documents    | Approval Status, select one or several documents and use function ***Send Reminder***

@@ -10,7 +10,7 @@ ExFlow OMNI Approval is a way for Business Central users to approve different fu
 
 ### ExFlow OMNI Documents Setup
 
-Go to: ***ExFlow AP Setup - Overview --> ExFlow OMNI Approval --> ExFlow OMNI Document Setup***
+Go to: ***ExFlow Setup - Overview --> ExFlow OMNI Approval --> ExFlow OMNI Document Setup***
 
 In ExFlow OMNI Document Setup there are two different OMNI Types, Contract and Approval Rule.
 
@@ -28,7 +28,7 @@ Same kind of setting needs to be done for OMNI Type "Approval Rule" if an approv
 
 ### ExFlow OMNI Approval Rules
 
-Go to: ***ExFlow AP Setup - Overview --> ExFlow OMNI Approval --> ExFlow OMNI Approval Rule***
+Go to: ***ExFlow Setup - Overview --> ExFlow OMNI Approval --> ExFlow OMNI Approval Rule***
 
 ExFlow OMNI Approval Rule allows different approval rules for the different OMNI types "Contract" and "Approval Rule".
 

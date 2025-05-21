@@ -7,9 +7,12 @@ custom_edit_url: null
 ## E-Mail-Erinnerungen
 Bitte beachten Sie, dass ein Standard-E-Mail-Konto von Business Central eingerichtet sein muss, um ExFlow-E-Mails empfangen zu können. Weitere Informationen finden Sie in der [***Microsoft-Dokumentation***](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-setup-email). Für Unterstützung wenden Sie sich bitte an Ihren vertrauenswürdigen Dynamics 365 Business Central Implementierungspartner.
 
-Um E-Mails an ExFlow-Benutzer senden zu können, sind einige Einstellungen erforderlich.<br/>
+Um E-Mails an ExFlow-Nutzer senden zu können, sind einige Einstellungen erforderlich. <br/>
 
-Die Einrichtung des Jobwarteschlangeneintrags sollte nur im **Standardunternehmen** erfolgen.
+[ExFlow-E-Mail-Einrichtung](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup) ist erforderlich.
+
+[Job-Warteschlange](https://docs.signupsoftware.com/business-central/docs/user-manual/technical/job-queues) Die Einrichtung von Einträgen sollte nur in der **Standardfirma** erfolgen.
+
 
 ### Posteingangserinnerung
 Senden Sie Erinnerungen, wenn ExFlow-Benutzer Dokumente genehmigen müssen.
@@ -17,7 +20,7 @@ Senden Sie Erinnerungen, wenn ExFlow-Benutzer Dokumente genehmigen müssen.
 | Posteingangserinnerung |  | 
 |:-|:-|
 | E-Mail-Konto         | E-Mail-Konto-Einrichtung in allen Unternehmen hinzufügen              
-| ExFlow-E-Mail-Einrichtung    | E-Mail-Typ **Posteingangserinnerung** in allen Unternehmen<br/>Lesen Sie mehr im Abschnitt [***ExFlow-E-Mail-Einrichtung - Posteingangserinnerung***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder)
+| ExFlow-E-Mail-Einrichtung    | E-Mail-Typ **Posteingangserinnerung** in allen Unternehmen <br/>Lesen Sie mehr im Abschnitt [***ExFlow-E-Mail-Einrichtung - Posteingangserinnerung***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup#inbox-reminder)
 | ExFlow-Benutzer          | Aktivieren für **E-Mail-Erinnerung --> Nicht genehmigte Dokumente**. <br/>Lesen Sie mehr im Abschnitt [***ExFlow-Benutzer***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#email-reminders) für die Einrichtung.
 | Jobwarteschlangeneintrag       | Codeunit 12057077 und Parameterzeichenfolge **INBOX REMINDER** im Standardunternehmen
 | Ausgewählte Dokumente    | Genehmigungsstatus, wählen Sie ein oder mehrere Dokumente aus und verwenden Sie die Funktion ***Erinnerung senden***

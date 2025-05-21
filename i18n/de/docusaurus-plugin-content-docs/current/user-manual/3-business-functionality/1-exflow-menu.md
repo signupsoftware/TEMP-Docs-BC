@@ -4,6 +4,13 @@ sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
+## ExFlow Setup Übersicht
+Gehen Sie zu: **ExFlow Setup - Übersicht** 
+
+Finden Sie alle ExFlow AP-Einstellungen in der ExFlow AP Setup - Übersicht.
+
+![medium](../../images/exflow-ap-overview-001.png) 
+
 ## ExFlow-Menü
 
 Verwenden Sie das ExFlow-Menü, um ExFlow-Seiten, Aufgaben, Berichte usw. in Business Central zu entdecken.
@@ -38,12 +45,6 @@ Jetzt ist das ExFlow-Menü unabhängig von der Rolle in "Meine Einstellungen" si
 
 ![ExFlow-Menü](../../images/exflow-menu-004-extended.png)
 
-### ExFlow Setup Übersicht
-Gehen Sie zu: **ExFlow Setup - Übersicht** oder greifen Sie über das ExFlow Accountant Rollencenter auf diese Übersicht zu.
-
-Finden Sie alle ExFlow AP-Einstellungen in der ExFlow AP Setup - Übersicht.
-
-![medium](../../images/exflow-ap-overview-001.png) 
 
 ### Rollencenter - ExFlow Approver
 
