@@ -250,12 +250,12 @@ Cuando se activa una licencia, se mostrará el/los producto(s) con licencia:
 |Eliminar Licencia| Eliminar licencia
 
 
-## Gestión de Características de SignUp
-Vaya a: **Gestión de Características de SignUp**
+## Gestión de Características de ExFlow
+Vaya a: **Gestión de Características de ExFlow**
 
-La Gestión de Características de SignUp permite a los usuarios y desarrolladores controlar cuándo se habilitan características nuevas y más grandes. 
+La Gestión de Características de ExFlow permite a los usuarios y desarrolladores controlar cuándo se habilitan características nuevas y más grandes. 
 
-La Gestión de Características de SignUp funciona con el Proveedor de Licencias y solo permitirá que se habilite una característica si hay una licencia apropiada disponible para la aplicación y/o característica.
+La Gestión de Características de ExFlow funciona con el Proveedor de Licencias y solo permitirá que se habilite una característica si hay una licencia apropiada disponible para la aplicación y/o característica.
 
 ![FM](/img/media/FM-001.png)<br/>
 
@@ -275,6 +275,6 @@ Lea más sobre esto en la sección [Proceso de Coincidencia de Pedidos de Compra
 
 
 ### Nuevo Asistente de Coincidencia de Pedidos
-El Nuevo Asistente de Coincidencia de Pedidos será visible si se utiliza el Proveedor de Licencias de SignUp y la nueva funcionalidad de Coincidencia de Pedidos está habilitada a través de la Gestión de Características de SignUp. 
+El Nuevo Asistente de Coincidencia de Pedidos será visible si se utiliza el Proveedor de Licencias de SignUp y la nueva funcionalidad de Coincidencia de Pedidos está habilitada a través de la Gestión de Características de ExFlow. 
 
 Lea más sobre esto en la sección [Nueva Experiencia de Coincidencia de Pedidos](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching)

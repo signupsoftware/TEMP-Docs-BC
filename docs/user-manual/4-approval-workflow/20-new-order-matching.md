@@ -6,11 +6,11 @@ custom_edit_url: null
 ---
 ## New Order Matching Experience
 
-To use the new Order Matching Experience with the Order Matching Engine and all of its enhancements, the new Purchase Order Matching feature must be enabled in SignUp Feature Management.
+To use the new Order Matching Experience with the Order Matching Engine and all of its enhancements, the new Purchase Order Matching feature must be enabled in ExFlow Feature Management.
 
-### SignUp Feature Management
+### ExFlow Feature Management
 
-Go to: **SignUp Feature Management** to enable the New Order Matching Feature.
+Go to: **ExFlow Feature Management** to enable the New Order Matching Feature.
 
 ![ExFlow Import Journal - Order No.](/img/media/FM-001.png)
  

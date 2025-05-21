@@ -6,11 +6,11 @@ custom_edit_url: null
 ---
 ## Nueva Experiencia de Coincidencia de Órdenes
 
-Para utilizar la nueva Experiencia de Coincidencia de Órdenes con el Motor de Coincidencia de Órdenes y todas sus mejoras, la nueva función de Coincidencia de Órdenes de Compra debe estar habilitada en la Gestión de Funciones de SignUp.
+Para utilizar la nueva Experiencia de Coincidencia de Órdenes con el Motor de Coincidencia de Órdenes y todas sus mejoras, la nueva función de Coincidencia de Órdenes de Compra debe estar habilitada en la Gestión de Funciones de ExFlow.
 
-### Gestión de Funciones de SignUp
+### Gestión de Funciones de ExFlow
 
-Vaya a: **Gestión de Funciones de SignUp** para habilitar la Nueva Función de Coincidencia de Órdenes.
+Vaya a: **Gestión de Funciones de ExFlow** para habilitar la Nueva Función de Coincidencia de Órdenes.
 
 ![ExFlow Import Journal - Nº de Orden](/img/media/FM-001.png)
  

@@ -250,12 +250,12 @@ When a license is activated, the licensed product(s) will be displayed:
 |Delete License| Remove license
 
 
-## SignUp Feature Management
-Go to: **SignUp Feature Management**
+## ExFlow Feature Management
+Go to: **ExFlow Feature Management**
 
-SignUp Feature Management allows users and developers to control when new and bigger features are enabled. 
+ExFlow Feature Management allows users and developers to control when new and bigger features are enabled. 
 
-SignUp Feature Management works with License Provider and will only allow a feature to be enabled if an appropriate license is available for the app and/or feature.
+ExFlow Feature Management works with License Provider and will only allow a feature to be enabled if an appropriate license is available for the app and/or feature.
 
 ![FM](/img/media/FM-001.png)<br/>
 
@@ -275,6 +275,6 @@ Read more about this under section [Purchase Order Matching Process](https://doc
 
 
 ### New Order Matching Wizard
-The New Order Matching Wizard will be visible if SignUp License Provider is used and the New Order Matching functionality is enabled via SignUp Feature Management. 
+The New Order Matching Wizard will be visible if SignUp License Provider is used and the New Order Matching functionality is enabled via ExFlow Feature Management. 
 
 Read more about this under section [New Order Matching Experience](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching)
