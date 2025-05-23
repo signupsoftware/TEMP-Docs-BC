@@ -229,9 +229,9 @@ Test the connection to ensure successful integration between Business Central an
 
 
 ## License Provider
-Go to: **SignUp Software License Provider**
+Go to: **ExFlow License Provider**
 
-New customers and installations will use SignUp Software License Provider.
+New customers and installations will use ExFlow License Provider.
 
 The new License Provider tool has been updated to offer more granular control over SignUp Software Applications and their individual features. 
 
@@ -265,7 +265,7 @@ What to get started with your order matched documents as well? Great!
 
 Find and utilize our Order Matching Wizards for an easy and seamless setup for handling your order matched documents. 
 
-The wizards are visible depending if customers are have the license activated through ExFlow License Activation or [SignUp License Provider](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) 
+The wizards are visible depending if customers are have the license activated through ExFlow License Activation or [License Provider](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) 
 
 
 ### Purchase Order Matching Wizard
@@ -275,6 +275,6 @@ Read more about this under section [Purchase Order Matching Process](https://doc
 
 
 ### New Order Matching Wizard
-The New Order Matching Wizard will be visible if SignUp License Provider is used and the New Order Matching functionality is enabled via ExFlow Feature Management. 
+The New Order Matching Wizard will be visible if License Provider is used and the New Order Matching functionality is enabled via ExFlow Feature Management. 
 
 Read more about this under section [New Order Matching Experience](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching)

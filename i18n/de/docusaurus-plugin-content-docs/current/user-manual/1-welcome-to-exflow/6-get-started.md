@@ -229,9 +229,9 @@ Testen Sie die Verbindung, um eine erfolgreiche Integration zwischen Business Ce
 
 
 ## Lizenzanbieter
-Gehen Sie zu: **SignUp Software Lizenzanbieter**
+Gehen Sie zu: **ExFlow Lizenzanbieter**
 
-Neue Kunden und Installationen werden den SignUp Software Lizenzanbieter verwenden.
+Neue Kunden und Installationen werden den ExFlow Lizenzanbieter verwenden.
 
 Das neue Lizenzanbieter-Tool wurde aktualisiert, um eine feinere Kontrolle über SignUp Software-Anwendungen und ihre individuellen Funktionen zu bieten. 
 
@@ -265,7 +265,7 @@ Möchten Sie auch mit Ihren auftragsabgeglichenen Dokumenten beginnen? Großarti
 
 Finden und nutzen Sie unsere Auftragsabgleich-Assistenten für eine einfache und nahtlose Einrichtung zur Handhabung Ihrer auftragsabgeglichenen Dokumente. 
 
-Die Assistenten sind sichtbar, abhängig davon, ob Kunden die Lizenz über die ExFlow-Lizenzaktivierung oder den [SignUp Lizenzanbieter](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) aktiviert haben. 
+Die Assistenten sind sichtbar, abhängig davon, ob Kunden die Lizenz über die ExFlow-Lizenzaktivierung oder den [Lizenzanbieter](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) aktiviert haben. 
 
 
 ### Einkaufsauftragsabgleich-Assistent
@@ -275,6 +275,6 @@ Lesen Sie mehr darüber im Abschnitt [Einkaufsauftragsabgleichprozess](https://d
 
 
 ### Neuer Auftragsabgleich-Assistent
-Der Neue Auftragsabgleich-Assistent wird sichtbar sein, wenn der SignUp Lizenzanbieter verwendet wird und die Neue Auftragsabgleichfunktionalität über die ExFlow Funktionsverwaltung aktiviert ist. 
+Der Neue Auftragsabgleich-Assistent wird sichtbar sein, wenn der Lizenzanbieter verwendet wird und die Neue Auftragsabgleichfunktionalität über die ExFlow Funktionsverwaltung aktiviert ist. 
 
 Lesen Sie mehr darüber im Abschnitt [Neue Auftragsabgleich-Erfahrung](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching)
