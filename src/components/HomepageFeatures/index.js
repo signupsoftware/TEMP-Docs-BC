@@ -121,23 +121,27 @@ const FeatureList = [
     tag: 'web',
     index: 3
   },
-  {
-    title: <Translate>EXFLOW E-INVOICING</Translate>,
-    url: 'https://docs.signupsoftware.com/fo-e-invoices',
-    tag: 'fo-e-invoices',
-    index: 7
-  }
-    
-  ]
-];
 
-/*
   {
     title: <Translate>Nada</Translate>,
     url: 'https://null.none',
     tag: 'nil',
     index: -1
   }
+  
+  ]
+];
+
+/*
+  {
+    title: <Translate>EXFLOW E-INVOICING</Translate>,
+    url: 'https://docs.signupsoftware.com/bc-e-invoices',
+    tag: 'fo-e-invoices',
+    index: 7
+  }
+
+
+
 
 */
 
