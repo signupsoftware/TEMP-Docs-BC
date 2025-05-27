@@ -53,7 +53,7 @@ Wenn Sie keinen Zugriff auf die Partnerseite haben, wenden Sie sich an den SignU
 Importieren Sie die vorbereitete Power BI-Vorlage von ExFlow, indem Sie *Datei --> Importieren --> Power BI-Vorlage* wählen. 
 
 
-![Power BI Desktop](../../images/power-bi-001.png)
+![small](../../images/power-bi-001.png)
 
 Wählen Sie die Vorlage aus, die Sie gerade heruntergeladen haben. Sie werden nun nach der zu verwendenden BCDataSource gefragt. 
 
@@ -133,7 +133,7 @@ Für Business Central On-Premises müssen einige Dinge eingerichtet werden:
 Siehe [Microsofts Anleitung zur Registrierung von Business Central in Azure AD](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/register-app-azure) <br/>
 4.	In Business Central gehen Sie zu „Assisted Setup“ und starten „Richten Sie Ihre Azure Active Directory-Konten ein“ und gehen Sie die Schritte durch. <br/>
 
-![small](../../images/power-bi-006.png)
+![Power BI Desktop](../../images/power-bi-006.png)
 
 a.	Es wird ein Informationstext angezeigt <br/>
 b.	Füllen Sie „Antwort-URL“, „Anwendungs-ID“ und „Schlüssel“ aus der Anwendungsregistrierung in Azure AD aus (siehe Link in Schritt 3 oben) <br/>
@@ -157,7 +157,7 @@ Wenn der Bericht nicht aktiviert ist, klicken Sie auf *Weitere Optionen anzeigen
 
 Nachdem Sie auf OK geklickt haben, sollte der Power BI-Bericht für Sie unter *Insights* in BC sichtbar sein. 
 
-![small](../../images/power-bi-007.png)
+![Power BI Desktop](../../images/power-bi-007.png)
 
 
 ## Auf veröffentlichte Dokumente in Business Central von Power BI Desktop aus zugreifen

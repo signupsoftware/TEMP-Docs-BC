@@ -53,7 +53,7 @@ If you don’t have access to the partner site, contact SignUp support to get it
 Import the ExFlow prepared Power BI template by choosing *File --> Import --> Power BI template. 
 
 
-![Power BI Desktop](@site/static/img/media/power-bi-001.png)
+![small](@site/static/img/media/power-bi-001.png)
 
 Choose the template you just downloaded. You will now be prompted for the BCDataSource to use. 
 
@@ -133,7 +133,7 @@ For Business Central on-premises a couple of things must be setup:
 See [Microsoft’s guide on how to register Business Central in Azure AD](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/register-app-azure) <br/>
 4.	In Business Central go to “Assisted Setup” and start “Set up your Azure Active Directory accounts” and go through the steps. <br/>
 
-![small](@site/static/img/media/power-bi-006.png)
+![Power Bi](@site/static/img/media/power-bi-006.png)
 
 a.	Information text is provided <br/>
 b.	Fill in “Reply URL”, “Application ID” and “Key” from the application registration in Azure AD (see link in step 3 above) <br/>
@@ -157,7 +157,7 @@ If the report is not enabled, click on *Show more options --> Enable*
 
 After clicking OK the Power BI report shall be visible for you under *Insights* in BC. 
 
-![small](@site/static/img/media/power-bi-007.png)
+![Power Bi](@site/static/img/media/power-bi-007.png)
 
 
 ## Access Posted Documents in Business Central from Power BI Desktop
