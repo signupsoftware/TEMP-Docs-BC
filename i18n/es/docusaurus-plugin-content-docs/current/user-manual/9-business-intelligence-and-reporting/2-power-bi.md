@@ -53,7 +53,7 @@ Si no tiene acceso al sitio de Partners, contacte al soporte de SignUp para obte
 Importe la plantilla de Power BI preparada para ExFlow eligiendo *Archivo --> Importar --> Plantilla de Power BI. 
 
 
-![Power BI Desktop](@site/static/img/media/power-bi-001.png)
+![small](@site/static/img/media/power-bi-001.png)
 
 Elija la plantilla que acaba de descargar. Ahora se le pedirá el origen de datos de BC que desea utilizar. 
 
@@ -133,7 +133,7 @@ Para Business Central en las instalaciones, se deben configurar un par de cosas:
 Vea la [guía de Microsoft sobre cómo registrar Business Central en Azure AD](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/register-app-azure) <br/>
 4.	En Business Central, vaya a “Configuración asistida” e inicie “Configurar sus cuentas de Azure Active Directory” y siga los pasos. <br/>
 
-![small](@site/static/img/media/power-bi-006.png)
+![Power BI Deskto](@site/static/img/media/power-bi-006.png)
 
 a.	Se proporciona un texto informativo <br/>
 b.	Rellene “URL de respuesta”, “ID de aplicación” y “Clave” del registro de la aplicación en Azure AD (vea el enlace en el paso 3 arriba) <br/>
@@ -157,7 +157,7 @@ Si el informe no está habilitado, haga clic en *Mostrar más opciones --> Habil
 
 Después de hacer clic en Aceptar, el informe de Power BI debería ser visible para usted en *Insights* en BC. 
 
-![small](@site/static/img/media/power-bi-007.png)
+![Power BI Deskto](@site/static/img/media/power-bi-007.png)
 
 
 ## Acceder a documentos publicados en Business Central desde Power BI Desktop

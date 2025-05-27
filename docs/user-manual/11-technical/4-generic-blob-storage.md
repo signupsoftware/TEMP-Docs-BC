@@ -93,7 +93,7 @@ All fields in Blob Storage Setup are irrelevant to ExFlow or Blob Storage Manage
 
 In this case, Storage Management is physical storage agnostic, it does not know how to get the file or blob, it will leave that to the implementation.
 
-A Storage Management call to Get(Name, …) will behave the same and return the blob no matter if the implementation is Azure Container, Database, Azure Share, Local Filesystem, Amazon WS, Drobox or any other way to technically handle blobs.
+A Storage Management call to Get(Name, …) will behave the same and return the blob no matter if the implementation is Azure Container, Database, Azure Share, Local Filesystem, Amazon WS, Dropbox or any other way to technically handle blobs.
 
 ### Storage Management
 Storage Management (SM) will expose general functionality for the application to use to get, set, list or delete blobs based on a key/name combination. SM will restore the blob to its original location when a request is made for it.
