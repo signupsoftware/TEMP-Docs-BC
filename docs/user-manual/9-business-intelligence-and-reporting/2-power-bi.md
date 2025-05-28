@@ -13,7 +13,6 @@ Power BI Templates (BCO/BC OnPrem) can be found by Partners on the [***Partner P
 Read more about [Enabling Power BI Integration](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-powerbi-setup#setup) and [Working with Power BI Reports in Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/across-working-with-powerbi) before starting with the installation.
 
 
-
 ### Prerequisites
 Dynamics 365 Business Central account with a Power BI license. 
 
@@ -42,16 +41,13 @@ Confirmation message will be given that: ''ExFlow Power BI Web Services have bee
 ### Import the Power BI template in Power BI desktop
 Open Power BI desktop and sign in with your account. Power BI desktop is a free Microsoft application you install on your local computer.  
 
-Download the latest ExFlow prepared Power BI template. Please keep in mind that the template is either for BC-Online or BC-OnPrem.  
+Download the latest ExFlow prepared Power BI template. 
 
-Partners with access to the SignUp partner site can download it from [here](https://azuresignup.sharepoint.com/sites/Signupsoftware/SitePages/BC-POWER-BI.aspx)
+Partners with access to the SignUp partner site can download it from [here](https://azuresignup.sharepoint.com/sites/Signupsoftware/SitePages/BC-POWER-BI.aspx). If you don’t have access to the partner portal, contact SignUp support to get the information. The file shall have a ''.pbit'' -file type.  
 
 You can also download from ExFlow setups by pressing: *Actions --> Functions --> Power BI --> Get Power BI template*
 
-If you don’t have access to the partner site, contact SignUp support to get it. The file shall have a ''.pbit'' -file type.  
-
-Import the ExFlow prepared Power BI template by choosing *File --> Import --> Power BI template. 
-
+Import the ExFlow prepared Power BI template by choosing *File --> Import --> Power BI Template*. 
 
 ![small](@site/static/img/media/power-bi-001.png)
 
@@ -59,9 +55,11 @@ Choose the template you just downloaded. You will now be prompted for the BCData
 
 For BC OnPrem you retrieve the link from ExFlow setups by pressing *Actions --> Functions --> Power BI --> Get BC Datasource*  
 
-For BC Online the datasource in this case is the BC Database you want to connect to in capital letters.  
+For Business Central Online, the data source refers to the specific BC environment (database) you intend to connect to. 
 
-![Power BI Desktop](@site/static/img/media/power-bi-002.png)
+Choose the BC database from the drop-down list:
+
+![Power BI Desktop](@site/static/img/media/power-bi-010.png)
 
 In a multi environment you can see the database in the end of the connection string to your environment. 
 
@@ -106,7 +104,7 @@ This connection is further described below.
 
 ### Embed Power BI in Business Central 
 
-#### Embed  in Power BC Online 
+#### Embed in Power BC Online 
 
 In the ExFlow Accountant role center there is a Power BI Reports part: 
 
@@ -158,6 +156,25 @@ If the report is not enabled, click on *Show more options --> Enable*
 After clicking OK the Power BI report shall be visible for you under *Insights* in BC. 
 
 ![Power Bi](@site/static/img/media/power-bi-007.png)
+
+
+### Error Handling – Queries
+
+If you encounter a privacy level-related error when refreshing queries in Power BI, follow these steps to resolve it:
+
+Navigate to: *File --> Options and settings --> Options** 
+
+Under the Current File section, select Privacy.
+
+Enable the checkbox: *"Ignore the Privacy Levels and potentially improve performance"* 
+
+Click OK, return to your report, and select Refresh.
+
+![Power Bi](@site/static/img/media/power-bi-008.png)
+
+This adjustment bypasses data isolation enforcement between sources and can resolve query execution issues related to privacy level mismatches.
+
+![Power Bi](@site/static/img/media/power-bi-009.png)
 
 
 ## Access Posted Documents in Business Central from Power BI Desktop
