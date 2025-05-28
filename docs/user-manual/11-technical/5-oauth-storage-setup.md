@@ -117,12 +117,32 @@ In Site Contents, create a new Document Library, this will contain the folder th
 
 Go to: **ExFlow Setup -- > Actions --> Functions --> Blob Storage Mgmt (ExFlow Storage Management Setup)** 
 
-| Blob Storage Mgmt / ExFlow Storage Management Setup menu |![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-002.png)
+![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-002.png)
+
+| Blob Storage Mgmt / ExFlow Storage Management Setup menu ||
 |:-|:-|
 |**Storage Setup**|Configure one or more storage configurations
 |**Enable/ Disable Blob Storage**|Activate or inactivate blob storage
 
+|Blob Storage Mgmt / ExFlow Storage Management Setup --> General ||
+|:-|:-|
+|Cache in Days|Specifies how many days cached content will remain in BC. After the specified number of days, the content will be removed from local storage.
+|Batch Size| Set to 0 and all is transferred in one batch during sync. Set to > 0 and only that many documents will be transferred during sync. Applies to scheduled job and manually triggering complete sync.
+|Blob Name Structure | Specifies the kind of naming convention used for path to blobs. Recommended is to split to a path like ab/cd/ef/abcdefgh
+|Active | Enable Blob Storage for records by activating this switch.
 <br/>
+
+|Blob Storage Mgmt / ExFlow Storage Management Setup --> Storage Codes||
+|:-|:-|
+|General Blob Storage Code| Specifies what Storage Code to use for general Blob Storage. This is used when the developer/partner would like to develop something for the customer that uses blob storage but they would like to control structure, names and all themselves. Exposed as an API named BSApi.
+|Incoming Doc. Storage Code| Specifies what Storage Code to use for storing blobs from records. This setup is used for blob storage used as storage for incoming document attachment where filenames and the structure is controlled by Blob Storage. Also fetching is controlled by events through blob storage.
+
+If General Blob Storage code field is set to a storage setup code, can be the same as for Incoming, you can use the file API that Blob Storage in ExFlow exposes. Works like a filesystem. Files can be written or read from. The API is located in the codeunit BSApi (Blob Storage API)
+ 
+The functionality Blob Storage for Incoming Document Attachment is essentially using the BSApi to handle the files internally.
+
+
+### Storage Setup
 
 From the ExFlow Storage Management Setup page, click on **Storage Setup** and then on ‘’New’’ to start with the configuration. 
 
@@ -133,9 +153,6 @@ Enter a Code and Description. For Blob Source, select SharePoint.<br/>
 Then click **Setup Storage** to continue the configuration. 
 
 ![ExFlow SharePoint Setup](@site/static/img/media/storage-setup-003.png)<br/>
-
-
-
 
 
 Copy the URL from SharePoint and paste that into the field ''SharePoint URL''. Once exit the field, values will be extracted and populated into Host, Site, Document Library and Folder. If any of the fields are missing, most likely Folder, it’s possible to enter those manually. <br/>
