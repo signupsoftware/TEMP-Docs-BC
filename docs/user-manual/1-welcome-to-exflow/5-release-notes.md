@@ -35,6 +35,10 @@ Requires BC 25.0 or later <br/>
 |25.0.246.19| New Order Matching |Resolved issue where Match Documents to: Order does not convert to Order and Receipt on current Vendor Setup Cards
 |25.0.246.19| Setup |Posting PO with Item Charge Assignment - "No Item Ledger Entry Found" 
 |25.0.246.19| Setup |Fixed issue for when Purchase Return Order Shipment are picked up but are missing quantities
+|25.0.246.31|4PS	|Import Journal - Copy Header Values to Invoice/Credit Memo
+|25.0.246.31|Confidential Documents	|Prevent a scenario where a confidential document could be downloaded
+|25.0.246.31|Upgrade Script	|Converts empty Test Amount field to 'From ExFlow Setup' in ExFlow Vendor Setup
+|25.0.246.31|Import Journal	|If setup "Ignore OCR Lines" is always - Import document comes to wrong journal
 
 #### New Features
 
@@ -52,6 +56,7 @@ Requires BC 25.0 or later <br/>
 |45879 |New Order Matching |Create Wizard for new PO (order) matching. 
 |45901 |Setup |Get Started Wizard - Add option to cancel or run later. 
 |46121 |Import Journal |Mapping of imported VAT % towards VAT product posting groups.
+|47980	|Setup	|Added a utility for batch updating Vendor Records regarding the Test Amount settings. This utility is hidden by default so users needs to personalize the Setup page in order to access it. 
 
 <br/>
 
@@ -72,6 +77,7 @@ Requires BC 25.0 or later <br/>
 |46025 |Import Journal |Open PDF-Viewer in new Tab - picture must be resize every time it opens and PDF moved to FactBox PDF Viewer 
 |43262 |PGS |PGS Chargeable - PGS Chargeable stays unticked when G/L No. is changed 
 |45437 |Web |ExFlow web - change line type - No. will be blank
+|47095	|Role Centers	|Performance improvements by checking access against a new setting, Check Email Setup, on ExFlow Users instead of using Entra Security Groups.
 
 
 <br/> 
