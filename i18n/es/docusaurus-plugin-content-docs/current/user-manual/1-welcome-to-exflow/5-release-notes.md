@@ -33,6 +33,10 @@ Requiere BC 25.0 o posterior <br/>
 |25.0.246.19| Coincidencia de nuevos pedidos |Se solucionó el problema por el cual la función "Asociar documentos con: Pedido" no se convertía en Pedido y Recibo en las tarjetas de configuración de proveedores actuales.
 |25.0.246.19| Configuración |Contabilización de órdenes de compra con asignación de cargo por artículo: "No se encontró ninguna entrada en el libro mayor de artículos".
 |25.0.246.19| Configuración |Se solucionó el problema que sucedía cuando se recolectaban envíos de órdenes de devolución de compra, pero faltaban cantidades.
+|25.0.246.31|4PS |Importar diario - Copiar valores de encabezado a factura/nota de crédito
+|25.0.246.31|Documentos confidenciales |Evitar la descarga de un documento confidencial
+|25.0.246.31|Script de actualización |Convierte el campo de importe de prueba vacío a "Desde la configuración de ExFlow" en la configuración de proveedor de ExFlow
+|25.0.246.31|Importar diario |Si la configuración "Ignorar líneas de OCR" está siempre activa, el documento importado se envía al diario incorrecto
 
 
 **Nuevas funcionalidades** <br/>

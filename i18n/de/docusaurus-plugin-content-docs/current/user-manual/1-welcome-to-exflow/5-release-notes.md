@@ -32,6 +32,10 @@ Erfordert BC 25.0 oder höher <br/>
 |25.0.246.19| Neue Auftragsabgleichung | Problem behoben, bei dem die Funktion „Belege abgleichen mit: Bestellung“ auf aktuellen Lieferanteneinrichtungskarten nicht in Bestellung und Beleg konvertiert wird.
 |25.0.246.19| Einrichtung | Buchung einer Bestellung mit Artikelzuschlagszuordnung – „Kein Artikelposten gefunden“
 |25.0.246.19| Einrichtung | Problem behoben, bei dem Retourensendungen abgeholt wurden, aber Mengen fehlten.
+|25.0.246.31|4PS |Importjournal – Kopfwerte in Rechnung/Gutschrift kopieren
+|25.0.246.31|Vertrauliche Dokumente | Verhindert das Herunterladen vertraulicher Dokumente.
+|25.0.246.31|Upgrade-Skript | Konvertiert das leere Feld „Testbetrag“ in der ExFlow-Lieferanteneinrichtung in „Aus ExFlow-Einrichtung“
+|25.0.246.31|Importjournal | Wenn die Einstellung „OCR-Zeilen ignorieren“ immer aktiviert ist, wird das Importdokument im falschen Journal angezeigt.
 
 
 **Neue Funktionen** <br/>
