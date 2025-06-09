@@ -77,7 +77,7 @@ Requires BC 25.0 or later <br/>
 |46025 |Import Journal |Open PDF-Viewer in new Tab - picture must be resize every time it opens and PDF moved to FactBox PDF Viewer 
 |43262 |PGS |PGS Chargeable - PGS Chargeable stays unticked when G/L No. is changed 
 |45437 |Web |ExFlow web - change line type - No. will be blank
-|47095	|Role Centers	|Performance improvements by checking access against a new setting, Check Email Setup, on ExFlow Users instead of using Entra Security Groups.
+|47095	|Role Centers	|Performance improvements by checking access against a new setting, Check Email Setup, on ExFlow Users instead of using Entra Security Groups.|
 
 
 <br/> 
@@ -594,3 +594,11 @@ Approval proposal in import journal gives an error message when adding approvers
 |31990|	PO Matching|	    Receipt no. not added if getting receipts manually from actions in Import journal.
 |31997|	PO Matching|	    Receipt lines added from PO no. in header are removed if getting receipts manually from actions in Import journal.
 |31622|	PO Matching|	    Matching against multiple purchase receipts not working if 'Multi Line matching' is activated.
+
+
+
+
+### Historical Release Notes
+
+Can be found [here](https://azuresignup.sharepoint.com/sites/Signupsoftware/SitePages/BC-RELEASE-NOTES-HISTORY.aspx?xsdata=MDV8MDJ8fDMxNTZlOWNjZmFjMjQxNmVhNTZkMDhkZGE3MzExM2EyfDg3NzkxMTdkNzcyZTRlYTU5NGVjNDRhMWExZDA0MjdifDB8MHw2Mzg4NTA1NTEzODExNDA4NDV8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPak0wT1RFNE1UYzVMVFl5T1RZdE5EWTFaaTFpTnprNUxXRTFaRFF3WVRaa01qVXdaRjg1TXpZelpXUTBOeTAwTUdRMUxUUm1aamN0WWpKbU9DMWhPRGxpWWpWbFpXWmhaVGxBZFc1eExtZGliQzV6Y0dGalpYTXZiV1Z6YzJGblpYTXZNVGMwT1RRMU9ETXpOelUyTXc9PXwyZjk5ZDkwOThkNTI0NDEwYTU2ZDA4ZGRhNzMxMTNhMnw2Yjc1M2JhODEzMGQ0NTk0YjJmN2VkNzk0OWQ5OWM2ZA%3D%3D&sdata=ZGtpMGt0K1V5Y0FpQ0FpRXo5UkNOSmNaSGxWU05GbmlOSVlKc1RlTjE3WT0%3D&ovuser=8779117d-772e-4ea5-94ec-44a1a1d0427b%2Csofia.nikolic%40signupsoftware.com&OR=Teams-HL&CT=1749458350202&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA1MTgwMDIxNCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D)
+

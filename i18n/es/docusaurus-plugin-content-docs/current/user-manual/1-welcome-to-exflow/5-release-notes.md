@@ -55,6 +55,7 @@ Requiere BC 25.0 o posterior <br/>
 |45879 |Nueva conciliación de pedidos |Crear asistente para la nueva conciliación de órdenes de compra (PO).|
 |45901 |Configuración |Asistente de inicio: añadir opción para cancelar o ejecutar más tarde.|
 |46121 |Diario de importación |Mapeo del % de IVA importado hacia los grupos de contabilización de productos de IVA.|
+|47980 |Configuración |Se agregó una utilidad para actualizar por lotes los registros de proveedores en relación con la configuración del importe de prueba. Esta utilidad está oculta por defecto, por lo que los usuarios deben personalizar la página de configuración para acceder a ella.
 
 **Mejoras/Ampliaciones** <br/>
 
@@ -73,6 +74,7 @@ Requiere BC 25.0 o posterior <br/>
 |46025 |Diario de importación |Abrir visor de PDF en nueva pestaña – la imagen debe redimensionarse cada vez que se abre y el PDF se mueve al visor de PDF en el FactBox.|
 |43262 |PGS |PGS cobrable – permanece sin marcar cuando se cambia la cuenta G/L.|
 |45437 |Web |ExFlow Web – cambiar tipo de línea – el número queda en blanco.|
+|47095 |Centros de roles |Mejoras de rendimiento al verificar el acceso con una nueva configuración, Verificar configuración de correo electrónico, en usuarios de ExFlow en lugar de usar grupos de seguridad de Entra.|
 
 <br/>
 También se han corregido errores menores que no se detallan en estas notas de versión.
@@ -583,3 +585,8 @@ La propuesta de aprobación en el diario de importación da un mensaje de error 
 |31990| Coincidencia de PO|        El número de recibo no se añade si se obtienen recibos manualmente desde acciones en el diario de importación.
 |31997| Coincidencia de PO|        Las líneas de recibo añadidas desde el número de PO en el encabezado se eliminan si se obtienen recibos manualmente desde acciones en el diario de importación.
 |31622| Coincidencia de PO|        La coincidencia contra múltiples recibos de compra no funciona si se activa la 'Coincidencia de Múltiples Líneas'.
+
+
+### Notas de la versión histórica
+
+Disponibles en nuestro antiguo [aquí](https://azuresignup.sharepoint.com/sites/Signupsoftware/SitePages/BC-RELEASE-NOTES-HISTORY.aspx?xsdata=MDV8MDJ8fDMxNTZlOWNjZmFjMjQxNmVhNTZkMDhkZGE3MzExM2EyfDg3NzkxMTdkNzcyZTRlYTU5NGVjNDRhMWExZDA0MjdifDB8MHw2Mzg4NTA1NTEzODExNDA4NDV8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPak0wT1RFNE1UYzVMVFl5T1RZdE5EWTFaaTFpTnprNUxXRTFaRFF3WVRaa01qVXdaRjg1TXpZelpXUTBOeTAwTUdRMUxUUm1aamN0WWpKbU9DMWhPRGxpWWpWbFpXWmhaVGxBZFc1eExtZGliQzV6Y0dGalpYTXZiV1Z6YzJGblpYTXZNVGMwT1RRMU9ETXpOelUyTXc9PXwyZjk5ZDkwOThkNTI0NDEwYTU2ZDA4ZGRhNzMxMTNhMnw2Yjc1M2JhODEzMGQ0NTk0YjJmN2VkNzk0OWQ5OWM2ZA%3D%3D&sdata=ZGtpMGt0K1V5Y0FpQ0FpRXo5UkNOSmNaSGxWU05GbmlOSVlKc1RlTjE3WT0%3D&ovuser=8779117d-772e-4ea5-94ec-44a1a1d0427b%2Csofia.nikolic%40signupsoftware.com&OR=Teams-HL&CT=1749458350202&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA1MTgwMDIxNCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D)
