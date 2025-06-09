@@ -54,6 +54,7 @@ Erfordert BC 25.0 oder höher <br/>
 |45879 |Neue Bestellabstimmung |Assistent für neue PO-Abstimmung erstellen.|
 |45901 |Einrichtung |Einrichtungsassistent – Option zum Abbrechen oder später Ausführen hinzufügen.|
 |46121 |Importjournal |Zuordnung des importierten MwSt.-Satzes zu den MwSt.-Produktbuchungsgruppen.|
+|47980 |Setup | Ein Dienstprogramm zur Stapelaktualisierung von Lieferantendatensätzen hinsichtlich der Testbetragseinstellungen wurde hinzugefügt. Dieses Dienstprogramm ist standardmäßig ausgeblendet, daher müssen Benutzer die Setup-Seite anpassen, um darauf zugreifen zu können.
 
 **Verbesserungen/Erweiterungen** <br/>
 
@@ -72,6 +73,7 @@ Erfordert BC 25.0 oder höher <br/>
 |46025 |Importjournal |PDF-Viewer in neuem Tab öffnen – Bild muss jedes Mal angepasst werden und PDF wird in den FactBox PDF-Viewer verschoben.|
 |43262 |PGS |PGS kostenpflichtig – bleibt deaktiviert, wenn G/L-Nr. geändert wird.|
 |45437 |Web |ExFlow Web – Zeilentyp ändern – Nr. bleibt leer.|
+|47095 |Rollencenter |Leistungsverbesserungen durch Überprüfung des Zugriffs anhand einer neuen Einstellung (E-Mail-Setup prüfen) für ExFlow-Benutzer anstelle der Verwendung von Entra-Sicherheitsgruppen.|
 
 <br/>
 Kleinere Fehlerbehebungen wurden ebenfalls durchgeführt, sind aber nicht in den Versionshinweisen aufgeführt.
@@ -573,3 +575,8 @@ Genehmigungsvorschlag im Importjournal gibt eine Fehlermeldung beim Hinzufügen 
 |31990|	PO-Abstimmung|	Empfangsnummer wird nicht hinzugefügt, wenn Belege manuell aus Aktionen im Importjournal abgerufen werden.
 |31997|	PO-Abstimmung|	Empfangszeilen, die aus der PO-Nummer im Kopf abgerufen werden, werden entfernt, wenn Belege manuell aus Aktionen im Importjournal abgerufen werden.
 |31622|	PO-Abstimmung|	Abgleich mit mehreren Einkaufsbelegen funktioniert nicht, wenn 'Multi-Line-Abgleich' aktiviert ist.
+
+
+### Historische Versionshinweise
+
+Zu finden in unserem alten [hier](https://azuresignup.sharepoint.com/sites/Signupsoftware/SitePages/BC-RELEASE-NOTES-HISTORY.aspx?xsdata=MDV8MDJ8fDMxNTZlOWNjZmFjMjQxNmVhNTZkMDhkZGE3MzExM2EyfDg3NzkxMTdkNzcyZTRlYTU5NGVjNDRhMWExZDA0MjdifDB8MHw2Mzg4NTA1NTEzODExNDA4NDV8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPak0wT1RFNE1UYzVMVFl5T1RZdE5EWTFaaTFpTnprNUxXRTFaRFF3WVRaa01qVXdaRjg1TXpZelpXUTBOeTAwTUdRMUxUUm1aamN0WWpKbU9DMWhPRGxpWWpWbFpXWmhaVGxBZFc1eExtZGliQzV6Y0dGalpYTXZiV1Z6YzJGblpYTXZNVGMwT1RRMU9ETXpOelUyTXc9PXwyZjk5ZDkwOThkNTI0NDEwYTU2ZDA4ZGRhNzMxMTNhMnw2Yjc1M2JhODEzMGQ0NTk0YjJmN2VkNzk0OWQ5OWM2ZA%3D%3D&sdata=ZGtpMGt0K1V5Y0FpQ0FpRXo5UkNOSmNaSGxWU05GbmlOSVlKc1RlTjE3WT0%3D&ovuser=8779117d-772e-4ea5-94ec-44a1a1d0427b%2Csofia.nikolic%40signupsoftware.com&OR=Teams-HL&CT=1749458350202&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA1MTgwMDIxNCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D)
