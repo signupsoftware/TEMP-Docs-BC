@@ -8,6 +8,7 @@ custom_edit_url: null
 
 ### ¿Cómo actualizo la versión de ExFlow?
 Vaya a: **Configuración (icono de engranaje) --> Centro de Administración**
+
 En Centro de Administración --> Entornos, abra el entorno en el que desea actualizar una aplicación.
 
 Vaya a ''Aplicaciones'' en el menú superior y busque ''ExFlow – Automatización de Cuentas por Pagar''. 

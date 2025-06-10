@@ -123,6 +123,7 @@ Specify the ExFlow User Permission under ''Permissions''.
 | **Max Amount for Final Approval:**    | Specifies the max approval amount for the selected Approver. Only applicable when the User is the last approver in an approval flow
 | **Blocked:**                          | If Approver is blocked. Read more under [***Approver Leaving the Company***.](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
 |**Access to Confidential Documents**|  Specifies if the user have access to see Confidential Documents or not. Read more under [***Confidential Documents***.](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
+|**Check Email Setup**|  Specifies if notification should be shown in the Role Center, for the associated System User if Email Setup/Account is missing. 
 
 
 ### Add Default Setup for ExFlow Users

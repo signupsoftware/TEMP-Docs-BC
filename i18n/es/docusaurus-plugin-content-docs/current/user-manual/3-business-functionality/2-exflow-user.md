@@ -123,6 +123,7 @@ Especifique el Permiso de Usuario de ExFlow bajo ''Permisos''.
 | **Monto Máximo para Aprobación Final:**    | Especifica el monto máximo de aprobación para el Aprobador seleccionado. Solo aplicable cuando el Usuario es el último aprobador en un flujo de aprobación
 | **Bloqueado:**                          | Si el Aprobador está bloqueado. Lea más en [***Aprobador que Deja la Empresa***.](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
 |**Acceso a Documentos Confidenciales**|  Especifica si el usuario tiene acceso para ver Documentos Confidenciales o no. Lea más en [***Documentos Confidenciales***.](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
+|**Verificar configuración de correo electrónico**| Especifica si se debe mostrar una notificación en el Centro de funciones para el Usuario del sistema asociado si falta la Configuración/Cuenta de correo electrónico.
 
 
 ### Añadir Configuración Predeterminada para Usuarios de ExFlow
