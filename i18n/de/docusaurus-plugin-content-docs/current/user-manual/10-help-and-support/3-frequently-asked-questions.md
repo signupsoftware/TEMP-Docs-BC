@@ -9,6 +9,7 @@ custom_edit_url: null
 
 ### Wie aktualisiere ich die ExFlow-Version?
 Gehen Sie zu: **Einstellungen (Zahnradsymbol) --> Admin Center**
+
 Im Admin Center --> Umgebungen, öffnen Sie die Umgebung, in der Sie eine App aktualisieren möchten.
 
 Gehen Sie zu ''Apps'' oben im Menü und suchen Sie ''ExFlow – Accounts Payable Automation''. 

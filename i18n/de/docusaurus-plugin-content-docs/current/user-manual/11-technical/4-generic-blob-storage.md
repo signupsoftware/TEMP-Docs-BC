@@ -16,7 +16,7 @@ Blobs sind Dateien im eher traditionellen Sinne des Denkens. Ein Blob ist jedoch
 
 Um Blobs effizienter zu handhaben, müssen sie von der Anwendung abstrahiert werden. Wenn ExFlow also nach einem Blob fragt, erhält es Metadaten und den binären Inhalt. Die tatsächliche Quelle ist der Anwendung unbekannt.
 
-Die vorgeschlagene Lösung verwendet mehrere Schichten, um Funktionalität zu abstrahieren und zu isolieren.<br/><br/>
+Diese Lösung verwendet mehrere Ebenen, um die Funktionalität zu abstrahieren und zu isolieren.
 
 #### ExFlow-Anwendung
 Die Anwendung, die die Blobs durch Lesen, Schreiben, Löschen und Auflisten von Blobs oder Dateien verwenden wird.<br/><br/>
@@ -72,8 +72,6 @@ Die Schnittstelle definiert eine oder mehrere überladene Funktionen im Zusammen
 Gehen Sie zu: ***ExFlow Setup --> Aktionen --> Funktionen --> Blob Storage Verwaltung*** (--> Storage Setup)
 
 Die Einrichtung für Blob Storage basiert auf der Schnittstelle, die zur Speicherimplementierung definiert ist. Die Blob Storage Einrichtung ist generisch und allgemein. Sie enthält einige generische Textfelder wie Code, Beschreibung und Blob-Quelle.
-
-Die Einrichtung für Blob Storage basiert auf der Schnittstelle, die zur Speicherimplementierung definiert ist. Die Blob Storage Einrichtung ist generisch und allgemein. Sie enthält keine generischen implementierungsspezifischen Felder außer Beschreibung und Speichertyp.
 
 Die Implementierung wird ihre eigene Einrichtung gegen ihre eigenen Tabellen nach Bedarf ausführen. Da die Implementierung möglicherweise OAuth oder eine andere Art der Authentifizierung erfordert, liegt es an der Implementierung, dies zu implementieren. Eine Implementierung der Schnittstelle kann wählen, alle Konfigurationsparameter innerhalb des isolierten Speichers zu speichern.
 

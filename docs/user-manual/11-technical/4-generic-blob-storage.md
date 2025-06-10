@@ -7,7 +7,8 @@ custom_edit_url: null
 ## Generic Blob Storage
 
 ### Introduction
-ExFlow currently uses the Business Central database to store imported documents. Documents is mainly XML and PDF. It could potentially be other formats also, such as DOCX or PNG.<br/>
+ExFlow currently uses the Business Central database to store imported documents. Documents is mainly XML and PDF. It could potentially be other formats also, such as DOCX or PNG.
+
 When using Business Central for storage, the allocated space tends to radically expand based on the number of invoices the customer is receiving. As imported documents may contain images, the space allocated in BC Online will expand radically.
 There is a need to be able to store imported documents in alternative locations for cheaper or more efficient storage.
 
@@ -16,7 +17,7 @@ Blobs are files in a more vintage sense of thinking. However, a blob is the cont
 
 To handle blobs more efficiently, they must be abstracted from the application. So, when ExFlow asks for a blob, it will get metadata and the binary content. The actual source is unknown to the application.
 
-The proposed solution uses multiple layers to abstract and isolate functionality.<br/><br/>
+This solution uses multiple layers to abstract and isolate functionality.
 
 #### ExFlow Application
 The application that will make use of the blobs by reading, writing, deleting and listing blobs, or files if you wish.<br/><br/>
@@ -72,8 +73,6 @@ The Interface defines one or more overloaded functions related to Get, Put, Exis
 Go to: ***ExFlow Setup --> Actions --> Functions --> Blob Storage Mgmt*** (--> Storage Setup)
 
 Setup for Blob Storage is based on the Interface defined towards the Storage Implementation. The Blob Storage Setup is generic and general. It contains a few generic text fields such as Code, Description and Blob Source.
-
-Setup for Blob Storage is based on the Interface defined towards the Storage Implementation. The Blob Storage Setup is generic and general. It does not contain any generic implementation specific field other than Description and Storage Type.
 
 The implementation will run its own setup against its own tables as needed. As the implementation may require OAuth or some other type of authentication, it is up to the implementation to implement that. An implementation of the interface may choose to save all configuration parameters within Isolated Storage.
 

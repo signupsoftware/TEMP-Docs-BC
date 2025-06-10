@@ -16,7 +16,7 @@ Los blobs son archivos en un sentido más tradicional de pensar. Sin embargo, un
 
 Para manejar los blobs de manera más eficiente, deben abstraerse de la aplicación. Entonces, cuando ExFlow solicita un blob, obtendrá metadatos y el contenido binario. La fuente real es desconocida para la aplicación.
 
-La solución propuesta utiliza múltiples capas para abstraer y aislar la funcionalidad.<br/><br/>
+Esta solución utiliza múltiples capas para abstraer y aislar la funcionalidad.
 
 #### Aplicación ExFlow
 La aplicación que hará uso de los blobs leyendo, escribiendo, eliminando y listando blobs, o archivos si lo desea.<br/><br/>
@@ -72,8 +72,6 @@ La Interfaz define una o más funciones sobrecargadas relacionadas con Obtener, 
 Ir a: ***Configuración de ExFlow --> Acciones --> Funciones --> Gestión de Almacenamiento de Blobs*** (--> Configuración de Almacenamiento)
 
 La configuración para el Almacenamiento de Blobs se basa en la Interfaz definida hacia la Implementación de Almacenamiento. La Configuración de Almacenamiento de Blobs es genérica y general. Contiene algunos campos de texto genéricos como Código, Descripción y Fuente de Blob.
-
-La configuración para el Almacenamiento de Blobs se basa en la Interfaz definida hacia la Implementación de Almacenamiento. La Configuración de Almacenamiento de Blobs es genérica y general. No contiene ningún campo específico de implementación genérico aparte de Descripción y Tipo de Almacenamiento.
 
 La implementación ejecutará su propia configuración contra sus propias tablas según sea necesario. Dado que la implementación puede requerir OAuth u otro tipo de autenticación, depende de la implementación implementar eso. Una implementación de la interfaz puede optar por guardar todos los parámetros de configuración dentro del Almacenamiento Aislado.
 
