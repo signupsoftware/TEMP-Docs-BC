@@ -10,7 +10,9 @@ To use the new Order Matching Experience with the Order Matching Engine and all 
 
 ### ExFlow Feature Management
 
-Go to: **ExFlow Feature Management** to enable the New Order Matching Feature.
+Go to: **ExFlow Feature Management** to enable the New Order Matching Feature. 
+
+This feature will be enabled for all companies.
 
 ![ExFlow Import Journal - Order No.](/img/media/FM-001.png)
  

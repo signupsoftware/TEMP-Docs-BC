@@ -265,7 +265,7 @@ La Gestión de Características de ExFlow funciona con el Proveedor de Licencias
 
 Encuentre y utilice nuestros Asistentes de Coincidencia de Pedidos para una configuración fácil y sin problemas para manejar sus documentos coincidentes con pedidos. 
 
-Los asistentes son visibles dependiendo de si los clientes tienen la licencia activada a través de la Activación de Licencia ExFlow o [Proveedor de Licencias](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) 
+Los asistentes son visibles dependiendo de si los clientes tienen la licencia activada a través de ExFlow [Activación de licencia](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license) o [Proveedor de licencias](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider)
 
 
 ### Asistente de Coincidencia de Pedidos de Compra
@@ -276,5 +276,7 @@ Lea más sobre esto en la sección [Proceso de Coincidencia de Pedidos de Compra
 
 ### Nuevo Asistente de Coincidencia de Pedidos
 El Nuevo Asistente de Coincidencia de Pedidos será visible si se utiliza el Proveedor de Licencias y la nueva funcionalidad de Coincidencia de Pedidos está habilitada a través de la Gestión de Características de ExFlow. 
+
+Nota: Esta función estará habilitada para todas las empresas. Si está deshabilitada, también lo estará para todas.
 
 Lea más sobre esto en la sección [Nueva Experiencia de Coincidencia de Pedidos](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching)
