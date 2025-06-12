@@ -10,7 +10,9 @@ Para utilizar la nueva Experiencia de Coincidencia de Órdenes con el Motor de C
 
 ### Gestión de Funciones de ExFlow
 
-Vaya a: **Gestión de Funciones de ExFlow** para habilitar la Nueva Función de Coincidencia de Órdenes.
+Vaya a: **Gestión de Funciones de ExFlow** para habilitar la Nueva Función de Coincidencia de Órdenes. 
+
+Esta función estará habilitada para todas las empresas.
 
 ![ExFlow Import Journal - Nº de Orden](/img/media/FM-001.png)
  

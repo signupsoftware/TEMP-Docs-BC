@@ -265,7 +265,7 @@ What to get started with your order matched documents as well? Great!
 
 Find and utilize our Order Matching Wizards for an easy and seamless setup for handling your order matched documents. 
 
-The wizards are visible depending if customers are have the license activated through ExFlow License Activation or [License Provider](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) 
+The wizards are visible depending if customers are have the license activated through ExFlow [License Activation](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license) or [License Provider](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) 
 
 
 ### Purchase Order Matching Wizard
@@ -276,5 +276,7 @@ Read more about this under section [Purchase Order Matching Process](https://doc
 
 ### New Order Matching Wizard
 The New Order Matching Wizard will be visible if License Provider is used and the New Order Matching functionality is enabled via ExFlow Feature Management. 
+
+Please note: This feature will be enabled for all companies. When disabled, it will be disabled for all companies as well.
 
 Read more about this under section [New Order Matching Experience](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching)

@@ -265,7 +265,7 @@ Möchten Sie auch mit Ihren auftragsabgeglichenen Dokumenten beginnen? Großarti
 
 Finden und nutzen Sie unsere Auftragsabgleich-Assistenten für eine einfache und nahtlose Einrichtung zur Handhabung Ihrer auftragsabgeglichenen Dokumente. 
 
-Die Assistenten sind sichtbar, abhängig davon, ob Kunden die Lizenz über die ExFlow-Lizenzaktivierung oder den [Lizenzanbieter](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) aktiviert haben. 
+Die Assistenten sind sichtbar, je nachdem, ob Kunden die Lizenz über ExFlow [Lizenzaktivierung](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license) oder [Lizenzanbieter](https://docs.exflow.cloud/business-central/docs/user-manual/welcome-to-exflow/get-started#license-provider) aktiviert haben.
 
 
 ### Einkaufsauftragsabgleich-Assistent
@@ -276,5 +276,7 @@ Lesen Sie mehr darüber im Abschnitt [Einkaufsauftragsabgleichprozess](https://d
 
 ### Neuer Auftragsabgleich-Assistent
 Der Neue Auftragsabgleich-Assistent wird sichtbar sein, wenn der Lizenzanbieter verwendet wird und die Neue Auftragsabgleichfunktionalität über die ExFlow Funktionsverwaltung aktiviert ist. 
+
+Bitte beachten Sie: Diese Funktion ist für alle Unternehmen aktiviert. Wenn sie deaktiviert ist, ist sie auch für alle Unternehmen deaktiviert.
 
 Lesen Sie mehr darüber im Abschnitt [Neue Auftragsabgleich-Erfahrung](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/new-order-matching)

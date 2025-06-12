@@ -10,7 +10,9 @@ Um die neue Auftragsabgleich-Erfahrung mit der Auftragsabgleich-Engine und all i
 
 ### ExFlow Funktionsverwaltung
 
-Gehen Sie zu: **ExFlow Funktionsverwaltung**, um die neue Auftragsabgleich-Funktion zu aktivieren.
+Gehen Sie zu: **ExFlow Funktionsverwaltung**, um die neue Auftragsabgleich-Funktion zu aktivieren. 
+
+Diese Funktion wird für alle Unternehmen aktiviert.
 
 ![ExFlow Import Journal - Auftragsnr.](../../images/FM-001.png)
  
