@@ -8,7 +8,7 @@ custom_edit_url: null
 
 Es gibt vorbereitete Einstellungen und Vorlagen zur Analyse von ExFlow-Daten mit Power BI. 
 
-Power BI-Vorlagen (BCO/BC OnPrem) können von Partnern im [***Partner-Portal***](https://azuresignup.sharepoint.com/sites/Signupsoftware/SitePages/BC-POWER-BI.aspx?xsdata=MDV8MDJ8fDU2YzBmOTZlYjUxZjRmMjg0MzNmMDhkYzg0NmE3MmIwfDg3NzkxMTdkNzcyZTRlYTU5NGVjNDRhMWExZDA0MjdifDB8MHw2Mzg1MzA4Mzk5MDUzMjE3OTF8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPbUZpTVRJNU1EWXlNVEExWlRSaFkyTTVaR05pWVRBNE1EUTFNR1JpTkRSbVFIUm9jbVZoWkM1Mk1pOXRaWE56WVdkbGN5OHhOekUzTkRnM01UZzVPRFExfDY3MTk3NmJkNzFmZTQ4YmQ0MzNmMDhkYzg0NmE3MmIwfDIyZmJkZjM2ZjZhNTRjNjE5MzIxYWNkOTY5YTFmYThl&sdata=UkdFQTF4T2Vra3R2Vk5sMUYxTXpWbkdZcXE4OEUxZ3h1WEZhcUhlN0NpMD0%3D&ovuser=8779117d-772e-4ea5-94ec-44a1a1d0427b%2Csofia.nikolic%40signupsoftware.com&OR=Teams-HL&CT=1717489911732&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDA1MDMwNzYxNCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D) gefunden werden.
+Power BI-Vorlagen (BCO/BC OnPrem) können von Partnern im [***Partner-Portal***](https://partners.signupsoftware.com/px/digital-asset-management/admin/media-library?collectionId=110867&renderMode=Collection) gefunden werden.
 
 Lesen Sie mehr über [Power BI-Integration aktivieren](https://learn.microsoft.com/de-de/dynamics365/business-central/admin-powerbi-setup#setup) und [Arbeiten mit Power BI-Berichten in Business Central](https://learn.microsoft.com/de-de/dynamics365/business-central/across-working-with-powerbi), bevor Sie mit der Installation beginnen.
 
