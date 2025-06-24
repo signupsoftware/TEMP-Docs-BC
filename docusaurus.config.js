@@ -266,7 +266,7 @@ const config = {
               {
                 label: 'Terms and Conditions', 
                 //to: '/docs/proxy/proxy-terms-and-conditions',
-                href: 'https://docs.signupsoftware.com/tem',
+                href: 'https://docs.signupsoftware.com/tac',
               },
               /*
               {
