@@ -260,7 +260,8 @@ const config = {
               },
               {
                 label: 'Partner portal',
-                href: 'https://azuresignup.sharepoint.com/sites/Signupsoftware',
+                //href: 'https://azuresignup.sharepoint.com/sites/Signupsoftware',
+                href: 'https://partners.signupsoftware.com/',                
               },
               {
                 label: 'Terms and Conditions', 
