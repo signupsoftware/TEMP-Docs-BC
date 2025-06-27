@@ -391,5 +391,10 @@
   "PROXY-LINK-EXFLOW-CONTENT-GATE": {
     "message": "https://docs.signupsoftware.com/cg/es",
     "description": "ExFlow Content Gate link"
+  },
+  "PROXY-LINK-DATA-CAPTURE": {
+    "message": "https://docs.signupsoftware.com/edc/es",
+    "description": "Data Capture link"
   }
+
 }
