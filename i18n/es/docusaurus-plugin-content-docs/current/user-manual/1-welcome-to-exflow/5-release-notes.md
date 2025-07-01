@@ -21,6 +21,14 @@ Requiere BC 25.0 o posterior
 
 | Versión | Área | Descripción |
 | :----------- | :-------------- | :-------------- |
+| 25.0.246.47 | General | Se añadieron eventos que permiten a desarrolladores externos añadir campos adicionales al filtro de columnas para la exportación/importación de Excel del diario de importación.
+| 25.0.246.47 | Importar diario | Se solucionó el problema por el cual las dimensiones del encabezado del diario de importación no se actualizaban correctamente para el código de referencia.
+| 25.0.246.47 | ExFlow Web | Se solucionó el problema por el cual el aprobador omitía la nueva línea al usar la función "Proponer siempre nuevos aprobadores" y dividir la línea en ExFlow Web.
+| 25.0.246.47 | Proveedor de licencias | Correcciones al optar por la suscripción a la licencia LP v3. Se mejoró el flujo del proceso para permitir que los usuarios se registren para una prueba de la nueva licencia v3.
+| 25.0.246.47 | Pedido de venta | Se solucionó el problema por el cual las fechas de entrega de línea no se validaban en la configuración de mapeo de campos y, por lo tanto, no se actualizaban correctamente en la importación de órdenes de venta.
+| 25.0.246.47 | Pedido de venta | Se solucionó el problema de funcionamiento incorrecto de los campos de dirección personalizados.
+| 25.0.246.47 | Pedido de venta | Se añadieron nuevos campos Misc a la plantilla EDC de pedido de venta ExFlow (DED personalizado para NA). También se añadió una nueva configuración para restablecer la configuración de asignación de campos.
+| 25.0.246.47 | Gestión de funciones | Se solucionó el problema de que la actualización de datos solo se programaba en la empresa actual en la nueva activación de Coincidencia de nuevos pedidos. También se añadieron mensajes mejorados para la activación/desactivación de funciones.
 |25.0.246.31|4PS	|Diario de Importación - Copiar Valores de Cabecera a Factura/Nota de Crédito
 |25.0.246.31|Documentos Confidenciales	|Prevención de escenario donde un documento confidencial podría ser descargado
 |25.0.246.31|Script de Actualización	|Convierte campo Importe de Prueba vacío a 'De Configuración ExFlow' en Configuración de Proveedor de ExFlow

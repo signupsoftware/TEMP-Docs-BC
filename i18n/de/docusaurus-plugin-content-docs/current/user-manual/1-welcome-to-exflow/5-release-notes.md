@@ -21,6 +21,14 @@ Erfordert BC 25.0 oder höher
 
 | Version | Bereich | Beschreibung |
 | :----------- | :-------------- | :-------------- |
+| 25.0.246.47 | Allgemein | Ereignisse hinzugefügt, sodass Drittanbieter zusätzliche Felder zum Spaltenfilter für den Excel-Export/-Import des Importjournals hinzufügen können.
+| 25.0.246.47 | Importjournal | Problem behoben, bei dem die Kopfdimensionen des Importjournals für den Referenzcode nicht korrekt aktualisiert wurden.
+| 25.0.246.47 | ExFlow Web | Problem behoben, bei dem der Genehmiger bei Verwendung der Funktion „Immer neue Genehmiger vorschlagen“ und beim Aufteilen von Zeilen in ExFlow Web eine neue Zeile auslässt.
+| 25.0.246.47 | Lizenzanbieter | Korrekturen beim Opt-in für v3 LP-Abonnement. Verbesserter Prozessablauf, damit Benutzer sich für eine Testversion der neuen v3-Lizenz anmelden können.
+| 25.0.246.47 | Kundenauftrag | Problem behoben, bei dem Liefertermine für Zeilen im Feldzuordnungs-Setup nicht validiert wurden und daher im SO-Import nicht korrekt aktualisiert wurden.
+| 25.0.246.47 | Kundenauftrag | Problem behoben, bei dem benutzerdefinierte Adressfelder nicht korrekt funktionierten.
+| 25.0.246.47 | Kundenauftrag | Neue sonstige Felder wurden der ExFlow-Kundenauftrags-EDC-Vorlage (benutzerdefiniertes DED für Nordamerika) hinzugefügt. Außerdem wurde eine neue Einstellung zum Zurücksetzen der Feldzuordnung hinzugefügt.
+| 25.0.246.47 | Funktionsverwaltung | Problem behoben, bei dem die Datenaktualisierung nur in der aktuellen Firma in der neuen Aktivierung des Auftragsabgleichs geplant ist. Außerdem wurden verbesserte Meldungen zur Aktivierung/Deaktivierung der Funktion hinzugefügt.
 |25.0.246.31|4PS	|Importjournal - Kopieren von Kopfwerten in Rechnung/Gutschrift
 |25.0.246.31|Vertrauliche Dokumente	|Verhinderung eines Szenarios, bei dem ein vertrauliches Dokument heruntergeladen werden könnte
 |25.0.246.31|Upgrade-Skript	|Konvertiert leeres Testbetragfeld zu 'Von ExFlow-Einrichtung' in ExFlow-Kreditoreneinrichtung
