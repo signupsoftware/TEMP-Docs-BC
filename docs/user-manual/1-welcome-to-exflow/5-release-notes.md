@@ -21,6 +21,15 @@ Requires BC 25.0 or later
 
 | Version | Area | Description |
 | :----------- | :-------------- | :-------------- |
+| 25.0.246.47 | General | Events added, allowing 3rd party developers to add additional fields to the column filter for the Import Journal Excel Export/Import
+| 25.0.246.47 | Import Journal | Fixed issue when Import Journal Header Dimensions where not updating properly for Reference Code
+| 25.0.246.47 | ExFlow Web | Issue when approver omits for new line, when using function ''Always propose new approvers'' and splitting  line on ExFlow web, is now resolved
+| 25.0.246.47 | License Provider | Opting in to v3 LP subscription corrections. Improved process flow to allow users to sign up for a trial of the new v3 license
+| 25.0.246.47 | Sales Order | Resolved issue when Line Delivery Dates were not validated in the Field Mapping Setup, and therefore not updating correctly in the SO Import
+| 25.0.246.47 | Sales Order | Resolved issue when Custom Address fields were not working correctly 
+| 25.0.246.47 | Sales Order | New Misc fields were added to ExFlow Sales Order EDC Template (Custom DED for NA). Also added a new setting to Reset Fields Mapping Setup
+| 25.0.246.47 | Feature Management | Resolved issue when data upgrade is only scheduled in the current company in the new New Order Matching activation. Also added improved messages for activation/deactivation of feature
+|  25.0.246.32  | General | Error handling around RoleIDFilter when upgrading 
 |25.0.246.31|4PS	|Import Journal - Copy Header Values to Invoice/Credit Memo
 |25.0.246.31|Confidential Documents	|Prevent a scenario where a confidential document could be downloaded
 |25.0.246.31|Upgrade Script	|Converts empty Test Amount field to 'From ExFlow Setup' in ExFlow Vendor Setup

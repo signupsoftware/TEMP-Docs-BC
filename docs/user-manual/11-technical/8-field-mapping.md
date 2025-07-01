@@ -43,6 +43,7 @@ Click OK, close the page and then click “SAVE” in the extraction page so sav
 
 For some fields, like ''PayToAccount'' used for [Payment Validation](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/payment-validation-and-payment-suggestion#payment-validation-and-payment-suggestion), it would be enough to just create the custom header field in EDC, since the ''PayToAccount'' field already has a default mapping set in the Data Exchange Definition (in Column No 118 --> Target Field ID 12068798).
 
+
 ### Mapping the custom field in Business Central 
 Go to: **Data Exchange Definitions**
 
@@ -89,4 +90,3 @@ When the mapping is done, navigate back to ExFlow Setup and set a related purcha
 Click on the three dots (‘’…’’) and add the ExFlow Purchase Code and the related Number (7) in the “Misc. Amount No.” field.
  
 ![edc](@site/static/img/media/edc-field-mapping-007.png)
-
