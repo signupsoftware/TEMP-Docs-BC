@@ -19,7 +19,7 @@ This user manual will provide detailed instructions, helpful tips, and insights 
 
 Before running the ExFlow Get Started Wizard, there are a few prerequisites that need to be completed. Follow these initial steps to ensure a smooth setup process:
 
-[Download and Install ExFlow:](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.signup-software-ab%7CAID.31407efc-8e13-4752-b577-5e992428aa29%7CPAPPID.a53707ce-b9e1-4f4e-93be-ea3aae783cae?tab=Overview) Visit the Microsoft AppSource marketplace and locate the ExFlow extension as a Free Trial. 
+[Visit the Microsoft AppSource marketplace and locate the ExFlow extension as a Free Trial](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.signup-software-ab%7CAID.31407efc-8e13-4752-b577-5e992428aa29%7CPAPPID.a53707ce-b9e1-4f4e-93be-ea3aae783cae?tab=Overview) 
 
 ![Get Started Wizard - Microsoft AppSource](/img/media/get-started-001-appsource.png)
 
@@ -57,8 +57,7 @@ Secondly, we have prepared a detailed step-by-step guide that provides written i
 
 ![Get Stared Wizard](/img/media/get-started-006-exflow-get-started-wizard.png)
 
-### Subscription Activation 
-#### ExFlow License Activation
+### License Activation
 
 This step will provide information about the License Model and it's activation.
 
