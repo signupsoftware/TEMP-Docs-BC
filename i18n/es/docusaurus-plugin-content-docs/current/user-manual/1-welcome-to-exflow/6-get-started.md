@@ -19,7 +19,7 @@ Este manual de usuario proporcionará instrucciones detalladas, consejos útiles
 
 Antes de ejecutar el Asistente de Primeros Pasos de ExFlow, hay algunos requisitos previos que deben completarse. Siga estos pasos iniciales para asegurar un proceso de configuración sin problemas:
 
-[Descargar e Instalar ExFlow:](https://appsource.microsoft.com/es-es/product/dynamics-365-business-central/PUBID.signup-software-ab%7CAID.31407efc-8e13-4752-b577-5e992428aa29%7CPAPPID.a53707ce-b9e1-4f4e-93be-ea3aae783cae?tab=Overview) Visite el marketplace de Microsoft AppSource y localice la extensión ExFlow como Prueba Gratuita. 
+[Visite el marketplace de Microsoft AppSource y localice la extensión ExFlow como Prueba Gratuita](https://appsource.microsoft.com/es-es/product/dynamics-365-business-central/PUBID.signup-software-ab%7CAID.31407efc-8e13-4752-b577-5e992428aa29%7CPAPPID.a53707ce-b9e1-4f4e-93be-ea3aae783cae?tab=Overview) 
 
 ![Asistente de Primeros Pasos - Microsoft AppSource](/img/media/get-started-001-appsource.png)
 
@@ -57,8 +57,7 @@ En segundo lugar, hemos preparado una detallada guía paso a paso que proporcion
 
 ![Asistente de Primeros Pasos](/img/media/get-started-006-exflow-get-started-wizard.png)
 
-### Activación de Suscripción 
-#### Activación de Licencia de ExFlow
+### Activación de Licencia de ExFlow
 
 Este paso proporcionará información sobre el Modelo de Licencia y su activación.
 
