@@ -21,6 +21,9 @@ Requires BC 25.0 or later
 
 | Version | Area | Description |
 | :----------- | :-------------- | :-------------- |
+| 25.0.246.51 | Upgrade | Upgrading from C/AL fails if Vendor Advanced Options contains data
+| 25.0.246.51 | Import Journal | Fixed an issue when Import/Get interpreted lines created additional comment lines
+| 25.0.246.51 | Approval Status | Fixed an issue regarding "Quantity To Receive" when running Verify Changes
 | 25.0.246.47 | General | Events added, allowing 3rd party developers to add additional fields to the column filter for the Import Journal Excel Export/Import
 | 25.0.246.47 | Import Journal | Fixed issue when Import Journal Header Dimensions where not updating properly for Reference Code
 | 25.0.246.47 | ExFlow Web | Issue when approver got omitted on the new splitted line, when using function ''Always propose new approvers'' in ExFlow web, is now resolved
