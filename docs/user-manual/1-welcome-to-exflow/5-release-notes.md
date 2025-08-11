@@ -26,7 +26,7 @@ Requires BC 25.0 or later
 | 25.0.246.51 | Approval Status | Fixed an issue regarding "Quantity To Receive" when running Verify Changes
 | 25.0.246.47 | General | Events added, allowing 3rd party developers to add additional fields to the column filter for the Import Journal Excel Export/Import
 | 25.0.246.47 | Import Journal | Fixed issue when Import Journal Header Dimensions where not updating properly for Reference Code
-| 25.0.246.47 | ExFlow Web | Issue when approver got omitted on the new splitted line, when using function ''Always propose new approvers'' in ExFlow web, is now resolved
+| 25.0.246.47 | ExFlow Web | Issue when approver got omitted on the new split line, when using function ''Always propose new approvers'' in ExFlow web, is now resolved
 | 25.0.246.47 | License Provider | Opting in to v3 LP subscription corrections. Improved get started process flow to allow users to sign up for a trial of the new v3 license
 | 25.0.246.47 | Sales Order | Resolved issue when Line Delivery Dates were not validated in the Field Mapping Setup, and therefore not updating correctly in the SO Import
 | 25.0.246.47 | Sales Order | Resolved issue when Custom Address fields were not working correctly 
