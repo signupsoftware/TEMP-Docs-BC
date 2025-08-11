@@ -21,6 +21,9 @@ Erfordert BC 25.0 oder höher
 
 | Version | Bereich | Beschreibung |
 | :----------- | :-------------- | :-------------- |
+| 25.0.246.51 | Upgrade | Das Upgrade von C/AL schlägt fehl, wenn die erweiterten Optionen des Anbieters Daten enthalten.
+| 25.0.246.51 | Journal importieren | Ein Problem wurde behoben, bei dem beim Importieren/Abrufen interpretierte Zeilen zusätzliche Kommentarzeilen erzeugten.
+| 25.0.246.51 | Genehmigungsstatus | Ein Problem mit der „Zu empfangenden Menge“ bei der Ausführung der Änderungsüberprüfung wurde behoben.
 | 25.0.246.47 | Allgemein | Ereignisse hinzugefügt, sodass Drittanbieter zusätzliche Felder zum Spaltenfilter für den Excel-Export/-Import des Importjournals hinzufügen können.
 | 25.0.246.47 | Importjournal | Problem behoben, bei dem die Importjournal-Kopfzeilendimensionen für den Referenzcode nicht korrekt aktualisiert wurden.
 | 25.0.246.47 | ExFlow Web | Problem behoben, bei dem der Genehmiger in der neuen geteilten Zeile fehlte, wenn die Funktion „Immer neue Genehmiger vorschlagen“ in ExFlow Web verwendet wurde.

@@ -21,6 +21,9 @@ Requiere BC 25.0 o posterior
 
 | Versión | Área | Descripción |
 | :----------- | :-------------- | :-------------- |
+| 25.0.246.51 | Actualización | La actualización desde C/AL falla si las Opciones Avanzadas del Proveedor contienen datos
+| 25.0.246.51 | Importar Diario | Se solucionó un problema que causaba que las líneas interpretadas de Importar/Obtener crearan líneas de comentario adicionales
+| 25.0.246.51 | Estado de Aprobación | Se solucionó un problema relacionado con la "Cantidad a Recibir" al ejecutar Verificar Cambios
 | 25.0.246.47 | General | Se agregaron eventos que permiten a los desarrolladores externos agregar campos adicionales al filtro de columnas para la exportación/importación de Excel del diario de importación.
 | 25.0.246.47 | Importar diario | Se solucionó el problema por el cual las dimensiones del encabezado del diario de importación no se actualizaban correctamente para el código de referencia.
 | 25.0.246.47 | ExFlow Web | Se solucionó el problema por el cual se omitía el aprobador en la nueva línea dividida al usar la función "Proponer siempre nuevos aprobadores" en ExFlow Web.
