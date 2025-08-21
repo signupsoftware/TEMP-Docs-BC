@@ -198,12 +198,10 @@ It is possible to send email reminders for rejected ExFlow approval documents if
 Read more under section [***ExFlow Email Setup --> Rejected Order, Rejected Quote, and Rejected Invoice/Credit***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup)
 
 
-### Open PDF- Viewer in New Tab
-It is possible to open the PDF in a new separate tab to get a better view of the document image. 
+### Open PDF- Viewer in New Window
+It is possible to open the PDF in a new separate window to get a better view of the document image. 
 
 This function is moved from the Approval Status menu to the [PDF FactBox](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#pdf-preview) on the right side.
-
-Click on this button to open the PDF in a new separate tab:
 
 ![PDF Preview](@site/static/img/media/open-new-001.png) 
 
@@ -380,7 +378,7 @@ Find useful FactBoxes on the right side in Approval Status.
 | Vendor Statistic and Buy-from Vendor History              | [***Vendor Statistic and Buy-from Vendor History***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#vendor-statistic-and-buy-from-vendor-history)
 
 ### PDF Preview
-Open the PDF in a new separate tab to get a better view of the document image:  
+Open the PDF in a new separate window to get a better view of the document image:  
 
 ![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png) 
 

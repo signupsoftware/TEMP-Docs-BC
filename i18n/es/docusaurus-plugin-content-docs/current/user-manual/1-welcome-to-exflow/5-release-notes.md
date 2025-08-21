@@ -6,6 +6,46 @@ custom_edit_url: null
 ---
 ## Notas de la Versión
 
+Los socios pueden acceder a nuestras notas previas al lanzamiento en [PRM](https://partners.signupsoftware.com/px/-/BC-exflow-ap) para revisar detalles clave antes del lanzamiento oficial.
+
+### ExFlow 25.1.0.0 – Notas de la versión <br/>
+
+#### Tipo de versión
+Versión secundaria
+
+#### Fecha de lanzamiento
+21/08/2025
+
+#### Información de la versión
+Requiere BC 25.0 o posterior
+
+#### Nuevas funciones
+| ID | Área | Descripción |
+| :----------- | :-------------- | :-------------- |
+| 43184 | Documentos eliminados | El usuario que hace clic en la notificación de comentarios recibe un error que indica que no tiene acceso a los documentos eliminados.
+
+#### Mejoras
+| ID | Área | Descripción |
+| :----------- | :-------------- | :-------------- |
+| 44824 | Estado de aprobación | Se solucionó un problema al reenviar una cotización de compra y convertirla en una orden de compra: la orden de compra se rechazaba después de la conversión.
+| 44843 | Documentos de aprobación | Se eliminó la columna "Aprobador actual" de la página Documentos de aprobación. El aprobador actual se muestra en el cuadro informativo por línea de documento, no en el encabezado.
+| 46130 | Diario de importación | Se solucionó el problema al trabajar con la asignación de artículos: se sobrepasaba el importe disponible.
+| 46838, 46841 | Almacenamiento de blobs | Se solucionó el problema del historial de estado de aprobación de ExFlow y las entradas de refacturación: Código de retorno: 404. El blob especificado no existe.
+| 46892 | Pedido de venta | Se solucionó el problema del funcionamiento incorrecto de la importación de pedidos de venta: usar dirección personalizada.
+| 46896 | Pedido de venta | Se solucionó el problema de la actualización incorrecta de las fechas de entrega de línea en la importación de pedidos de venta.
+| 47033 | Estado de aprobación | No se realiza la contabilización al usar el atajo F9.
+| 47290 | Pedido de venta | Se solucionó el problema de la unidad de medida (importación) no rellenada en el documento de importación de pedidos de venta de ExFlow.
+| 47343 | Conciliación de pedidos | Recepción de órdenes de compra - Contabilización de órdenes de compra con asignación de cargo por artículo - "No se encontró ninguna entrada de artículo"
+| 47792 | Pedido de venta | Asignación dinámica de OCR: las asignaciones de unidades de medida se aplican a todos los clientes. Se ha solucionado.
+| 48154 | Permiso | Se produce un error de permiso si el usuario no es SUPER o no tiene rol de seguridad al agregar o modificar usuarios de ExFlow.
+| 48550 | Localización AU | Se solucionó el problema cuando una factura tiene una línea con GST-100 (Grupo de contabilización de producto GST). El importe de la línea no se tiene en cuenta al enviar la factura para su aprobación.
+| 48638 | Conciliación de pedidos | Se corrigió el problema cuando Verificar documento no actualiza la información del pedido en las líneas de importación.
+
+<br/>
+En esta versión también se han corregido errores menores, pero no se incluyen en las notas de la versión.
+<br/>
+
+
 ### ExFlow 25.0.0.0 – Notas de la Versión <br/> 
 
 #### Tipo de Versión

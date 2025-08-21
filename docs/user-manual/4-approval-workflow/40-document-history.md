@@ -119,4 +119,8 @@ And if a Purchase Invoice or Purchase Credit Memo is unticked for
 Approval, the ExFlow Document will be removed, and information will be
 saved in ExFlow Deleted Documents.
 
+Click on the ''Document Type'' to open the Deleted Document Card to review details.
+ 
 ![ExFlow Deleted Documents](@site/static/img/media/image322.png)
+
+

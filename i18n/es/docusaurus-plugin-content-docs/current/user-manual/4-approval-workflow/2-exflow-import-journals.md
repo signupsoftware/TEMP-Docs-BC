@@ -389,12 +389,10 @@ Si se seleccionan múltiples archivos, entonces hay una opción para guardar un 
 
 "Mostrar Imagen de Documento" también puede accederse desde el menú bajo Relacionado.
 
-### Abrir PDF- Visor en una nueva pestaña
-Es posible abrir el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.
+### Abrir PDF- Visor en una nueva ventana
+Es posible abrir el PDF en una nueva ventana para ver mejor la imagen del documento.
 
 Esta función se ha movido del menú Importar Diario al [PDF FactBox](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#pdf-preview) en el lado derecho.
-
-Haz clic en este botón para abrir el PDF en una nueva pestaña separada:
 
 ![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png)
 
@@ -656,7 +654,7 @@ La Asignación Automática sobrescribirá el Importe de IVA añadido manualmente
 A la derecha en el Diario de Importación hay útiles FactBoxes.
 
 ### Vista Previa de PDF
-Abra el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento:  
+Abra el PDF en una nueva ventana separada para obtener una mejor vista de la imagen del documento:  
 
 ![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/open-new-001.png) 
 

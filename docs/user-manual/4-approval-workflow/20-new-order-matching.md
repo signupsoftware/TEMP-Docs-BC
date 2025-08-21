@@ -148,7 +148,7 @@ Above features can also be used on a vendor level in "ExFlow Vendor Setup".
 |Match Documents To| 	Specifies if ExFlow should match and retrieve lines from Posted Receipts/Shipments, or from both Orders and Receipts/Shipments.
 |Post Receipt & Shipments Automatically|Specifies if Purchase Order Lines of each line type should be automatically received when the matched invoice is set to "Ready for posting". This option is only applicable if "Match Documents To" setting is configured as "Order and Receipt". <br/><br/>When running Verify Changes in Approval Status, the purchase order matched lines receipt will be posted on Invoice Document Date. <br/> VAT Date on purchase order header and Deferral Posting Dates on purchase order lines will automatically be updated if purchase order Posting date is different than Invoice Posting Date. <br/> If both purchase order and Invoice have the same posting date when running Verify Changes, there will be no updates on the purchase order. <br/>Purchase order´s Posting Date will also be updated if blank. (Purchase and Payable Setup - Default Posting Date = No Date)
 |Retrieve Lines Automatically|Automatically retrieve all available lines from the Purchase Order or Posted Purchase Receipt when matching on header level.
-|Copy Header values to Invoice/Credit Memo|Activate fields to transfer from Purchase Order to Invoice (Or Return Purchase Order to Credit Memo) in Import Journal when using order matching on header level. Selected values can be found and updated under Related --> Advanced --> PO Header values on Invoice Setup.
+|Copy Header values to Invoice/Credit Memo|Activate fields to transfer from Purchase Order to Invoice (Or Return Purchase Order to Credit Memo) in Import Journal when using order matching on header level. Selected values can be found and updated under Related --> Advanced --> Copy Header Values to Invoice/Credit Memo Setup.
 
 ### Auto-Approval
 | Auto-Approval|   | 
@@ -358,7 +358,7 @@ Read more about this under [**Purchaser View**](https://docs.signupsoftware.com/
 With the new Order Matching Feature, the Import Journal User interface has changed in form of new filter options. 
 
 On the Import Journal header, AP can filter on: 
-* Documents With Exception Codes added by the Purchaser via ''Filter Documents With Order Exception'' Read more about this under [**Purchaser View**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view)
+* Documents With Exception Codes added by the Purchaser via ''Filter Documents With Order Exception''. Read more about this under [**Purchaser View**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view)
 * Order matched Error Types via ''Error Filter''
 * Document status via ''Document Filter''
 

@@ -388,12 +388,10 @@ Wenn mehrere Dateien ausgewählt sind, gibt es die Möglichkeit, eine komprimier
 
 "Dokumentbild anzeigen" kann auch über das Menü unter Verwandt erreicht werden.
 
-### PDF-Viewer in neuem Tab öffnen
-Es ist möglich, die PDF in einem neuen separaten Tab zu öffnen, um eine bessere Ansicht des Dokumentenbildes zu erhalten.
+### PDF-Viewer in neuem Fenster öffnen
+Es ist möglich, die PDF in einem neuen separaten Fenster zu öffnen, um eine bessere Ansicht des Dokumentenbildes zu erhalten.
 
 Diese Funktion wurde vom Menü "Importjournal" in die [PDF-Infobox](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#pdf-preview) auf der rechten Seite verschoben.
-
-Klicke auf diesen Button, um die PDF in einem neuen separaten Tab zu öffnen:
 
 ![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/open-new-001.png)
 
@@ -650,7 +648,7 @@ Die automatische Zuweisung überschreibt manuell hinzugefügte Mehrwertsteuerbet
 Rechts im Import-Journal gibt es nützliche FactBoxes.
 
 ### PDF-Vorschau
-Öffnen Sie die PDF in einem neuen separaten Tab, um eine bessere Ansicht des Dokumentbildes zu erhalten:  
+Öffnen Sie die PDF in einem neuen separaten Fenster, um eine bessere Ansicht des Dokumentbildes zu erhalten:  
 
 ![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/open-new-001.png) 
 

@@ -193,13 +193,11 @@ Es ist möglich, E-Mail-Erinnerungen für abgelehnte ExFlow-Genehmigungsdokument
 Lesen Sie mehr im Abschnitt [***ExFlow E-Mail-Einrichtung --> Abgelehnte Bestellung, Abgelehntes Angebot und Abgelehnte Rechnung/Gutschrift***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup)
 
 
-### PDF-Viewer in neuem Tab öffnen
+### PDF-Viewer in neuem Fenster öffnen
 
-Es ist möglich, die PDF in einem neuen separaten Tab zu öffnen, um eine bessere Ansicht des Dokumentenbildes zu erhalten.
+Es ist möglich, die PDF in einem neuen separaten Fenster zu öffnen, um eine bessere Ansicht des Dokumentenbildes zu erhalten.
 
 Diese Funktion wurde vom Menü zur Genehmigungsstatus in das [PDF-FactBox](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#pdf-preview) auf der rechten Seite verschoben.
-
-Klicken Sie auf diese Schaltfläche, um die PDF in einem neuen separaten Tab zu öffnen:
 
 ![ExFlow Import Journal - PDF-Vorschau](@site/static/img/media/open-new-001.png)
 
@@ -375,7 +373,7 @@ Finden Sie nützliche FactBoxes auf der rechten Seite im Genehmigungsstatus.
 | Lieferantenstatistik und Historie des Lieferanten              | [***Lieferantenstatistik und Historie des Lieferanten***](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#vendor-statistic-and-buy-from-vendor-history)
 
 ### PDF-Vorschau
-Öffnen Sie die PDF in einem neuen separaten Tab, um eine bessere Ansicht des Dokumentbildes zu erhalten:  
+Öffnen Sie die PDF in einem neuen separaten Fenster, um eine bessere Ansicht des Dokumentbildes zu erhalten:  
 
 ![ExFlow Import Journal - PDF Vorschau](@site/static/img/media/open-new-001.png) 
 

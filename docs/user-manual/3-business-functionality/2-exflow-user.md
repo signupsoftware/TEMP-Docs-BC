@@ -62,7 +62,7 @@ The ExFlow user will be marked as ''Blocked'', until all star marked fields are 
 | **Contact Email:**                | Add a Contact Email if ExFlow reminders and notifications should be sent to this email instead of the Authentication Email address. <br/><br/> Contact Email is an optional field. 
 | **Language Code:**                | In which language emails will be sent
 | **Preferred Approval Client:**    | Specifies if the hyperlink in the emails for Reminders and Messages will take the user to Business Central or ExFlow Web
-| **Full Document Access:**         | Specifies if user should have access to ExFlow documents in all companies
+| **Full Document Access:**         | Specifies if the user should have access to ExFlow documents in all companies, when running ExFlow report Approval Follow-Up
 | **System User:**                  | Specifies if the ExFlow user also is a valid system user.
 | **System User Name:**             | Connected System User.
 | **Previous System User Name:**    | If connected System User is changed, this field will show previous value

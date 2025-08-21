@@ -62,7 +62,7 @@ El usuario de ExFlow aparecerá como ''Bloqueado'' hasta que se añadan todos lo
 | **Correo Electrónico de Contacto:**                | Añadir un Correo Electrónico de Contacto si los recordatorios y notificaciones de ExFlow deben enviarse a este correo electrónico en lugar de a la dirección de Correo Electrónico de Autenticación. <br/><br/> El Correo Electrónico de Contacto es un campo opcional. 
 | **Código de Idioma:**                | En qué idioma se enviarán los correos electrónicos
 | **Cliente de Aprobación Preferido:**    | Especifica si el hipervínculo en los correos electrónicos para Recordatorios y Mensajes llevará al usuario a Business Central o a ExFlow Web
-| **Acceso Completo a Documentos:**         | Especifica si el usuario debe tener acceso a los documentos de ExFlow en todas las empresas
+| **Acceso Completo a Documentos:**         | Especifica si el usuario debe tener acceso a los documentos de ExFlow en todas las empresas, al ejecutar el seguimiento de aprobación del informe de ExFlow
 | **Usuario del Sistema:**                  | Especifica si el usuario de ExFlow también es un usuario del sistema válido.
 | **Nombre del Usuario del Sistema:**             | Usuario del Sistema Conectado.
 | **Nombre del Usuario del Sistema Anterior:**    | Si el Usuario del Sistema conectado se cambia, este campo mostrará el valor anterior

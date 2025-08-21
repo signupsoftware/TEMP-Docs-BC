@@ -147,7 +147,7 @@ Obige Funktionen können auch auf Lieferantenebene in der "ExFlow Lieferantenein
 |Dokumente abgleichen mit| Gibt an, ob ExFlow Zeilen aus gebuchten Wareneingängen/-lieferungen oder aus sowohl Aufträgen als auch Wareneingängen/-lieferungen abgleichen und abrufen soll.
 |Wareneingänge und -lieferungen automatisch buchen|Gibt an, ob Einkaufsauftragszeilen jedes Zeilentyps automatisch empfangen werden sollen, wenn die abgeglichene Rechnung auf "Bereit zur Buchung" gesetzt ist. Diese Option ist nur anwendbar, wenn die Einstellung "Dokumente abgleichen mit" als "Auftrag und Wareneingang" konfiguriert ist. <br/><br/>Beim Ausführen von Änderungen im Genehmigungsstatus wird der Wareneingang der abgeglichenen Einkaufsauftragszeilen am Rechnungsbelegdatum gebucht. <br/> Das MwSt.-Datum im Einkaufsauftrag-Kopf und die Abgrenzungsbuchungsdaten in den Einkaufsauftragszeilen werden automatisch aktualisiert, wenn das Buchungsdatum des Einkaufsauftrags vom Buchungsdatum der Rechnung abweicht. <br/> Wenn sowohl der Einkaufsauftrag als auch die Rechnung dasselbe Buchungsdatum haben, wenn Änderungen überprüft werden, gibt es keine Aktualisierungen am Einkaufsauftrag. <br/>Das Buchungsdatum des Einkaufsauftrags wird auch aktualisiert, wenn es leer ist. (Einkaufs- und Verbindlichkeits-Einrichtung - Standardbuchungsdatum = Kein Datum)
 |Zeilen automatisch abrufen|Rufen Sie automatisch alle verfügbaren Zeilen aus dem Einkaufsauftrag oder dem gebuchten Wareneingang ab, wenn Sie auf Kopfebene abgleichen.
-|Kopfwerte in Rechnung/Gutschrift kopieren|Aktivieren Sie Felder, um Werte vom Einkaufsauftrag zur Rechnung (oder vom Rücksendekaufauftrag zur Gutschrift) im Importjournal zu übertragen, wenn Sie auf Kopfebene abgleichen. Ausgewählte Werte können unter Verwandt --> Erweitert --> PO-Kopfwerte in Rechnung-Einrichtung gefunden und aktualisiert werden.
+|Kopfwerte in Rechnung/Gutschrift kopieren|Aktivieren Sie Felder, um Werte vom Einkaufsauftrag zur Rechnung (oder vom Rücksendekaufauftrag zur Gutschrift) im Importjournal zu übertragen, wenn Sie auf Kopfebene abgleichen. Ausgewählte Werte können unter Verwandt --> Erweitert --> Kopfwerte in die Rechnungs-/Gutschriftseinrichtung kopieren.
 
 ### Automatische Genehmigung
 | Automatische Genehmigung|   | 
@@ -356,7 +356,7 @@ Lesen Sie mehr darüber unter [**Einkäuferansicht**](https://docs.signupsoftwar
 Mit der neuen Auftragsabgleich-Funktion hat sich die Benutzeroberfläche des Importjournals in Form neuer Filteroptionen geändert. 
 
 Im Importjournal-Kopf kann die Kreditorenbuchhaltung filtern nach: 
-* Dokumenten mit Ausnahmecodes, die vom Einkäufer über ''Dokumente mit Auftragsausnahme filtern'' hinzugefügt wurden. Lesen Sie mehr darüber unter [**Einkäuferansicht**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view)
+* Dokumenten mit Ausnahmecodes, die vom Einkäufer über ''Dokumente mit Auftragsausnahme filtern''. hinzugefügt wurden. Lesen Sie mehr darüber unter [**Einkäuferansicht**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view)
 * Auftragsbezogenen Fehlertypen über ''Fehlerfilter''
 * Dokumentstatus über ''Dokumentenfilter''
 

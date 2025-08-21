@@ -92,4 +92,6 @@ Wenn ein Dokument in ExFlow erstellt, aber noch nicht gebucht wurde, ist es mög
 
 Und wenn eine Einkaufsrechnung oder ein Einkaufsgutschrift für die Genehmigung abgehakt wird, wird das ExFlow-Dokument entfernt und die Informationen werden in ExFlow Gelöschte Dokumente gespeichert.
 
+Klicken Sie auf „Dokumenttyp“, um die Karte „Gelöschte Dokumente“ zu öffnen und die Details zu überprüfen.
+
 ![ExFlow Gelöschte Dokumente](../../images/image322.png)

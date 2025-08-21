@@ -394,12 +394,10 @@ If multiple files are selected, then there is an option to save a compressed fil
 
 "Show Document Image" can also be reached from menu under Related.
 
-### Open PDF- Viewer in New Tab
-It is possible to open the PDF in a new separate tab to get a better view of the document image. 
+### Open PDF- Viewer in New Window
+It is possible to open the PDF in a new separate window to get a better view of the document image. 
 
 This function is moved from the Import Journal menu to the [PDF FactBox](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-import-journals#pdf-preview) on the right side.
-
-Click on this button to open the PDF in a new separate tab:
 
 ![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png) 
 
@@ -662,7 +660,7 @@ Automatically Assign will override manually added VAT Amount in Statistics.
 To the right in Import Journal there are useful FactBoxes.
 
 ### PDF Preview
-Open the PDF in a new separate tab to get a better view of the document image:  
+Open the PDF in a new separate window to get a better view of the document image:  
 
 ![ExFlow Import Journal - PDF Preview](@site/static/img/media/open-new-001.png) 
 

@@ -193,12 +193,10 @@ Es posible enviar recordatorios por correo electrónico para documentos de aprob
 
 Lea más en la sección [***Configuración de Correo Electrónico de ExFlow --> Orden Rechazada, Cotización Rechazada y Factura/Nota de Crédito Rechazada***](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-email-setup)
 
-### Abrir Visor de PDF en Nueva Pestaña
-Es posible abrir el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento.
+### Abrir Visor de PDF en Nueva ventana 
+Es posible abrir el PDF en una nueva ventana separada para obtener una mejor vista de la imagen del documento.
 
 Esta función se ha trasladado del menú Estado de Aprobación al [Cuadro Informativo PDF](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/exflow-approval-status#pdf-preview) en el lado derecho.
-
-Haga clic en este botón para abrir el PDF en una nueva pestaña separada:
 
 ![Vista Previa de PDF](@site/static/img/media/open-new-001.png) 
 
@@ -367,7 +365,7 @@ Encuentre útiles FactBoxes en el lado derecho en el Estado de Aprobación.
 
 
 ### Vista Previa de PDF
-Abra el PDF en una nueva pestaña separada para obtener una mejor vista de la imagen del documento:  
+Abra el PDF en una nueva ventana separada para obtener una mejor vista de la imagen del documento:  
 
 ![Diario de Importación de ExFlow - Vista Previa de PDF](@site/static/img/media/open-new-001.png) 
 
