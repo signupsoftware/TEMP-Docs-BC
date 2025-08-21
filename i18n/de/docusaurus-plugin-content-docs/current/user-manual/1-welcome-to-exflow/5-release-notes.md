@@ -6,6 +6,46 @@ custom_edit_url: null
 ---
 ## Versionshinweise
 
+Partner können auf unsere Pre-Release-Notes in [PRM](https://partners.signupsoftware.com/px/-/BC-exflow-ap) zugreifen, um wichtige Details vor der offiziellen Veröffentlichung zu überprüfen.
+
+### ExFlow 25.1.0.0 – Versionshinweise <br/>
+
+#### Versionstyp
+Nebenversion
+
+#### Veröffentlichungsdatum
+21.08.2025
+
+#### Versionsinformationen
+Erfordert BC 25.0 oder höher
+
+#### Neue Funktionen
+| ID | Bereich | Beschreibung |
+| :----------- | :-------------- | :-------------- |
+| 43184 | Gelöschte Dokumente | Benutzer, die auf die Kommentarbenachrichtigung klicken, erhalten die Fehlermeldung, dass kein Zugriff auf gelöschte Dokumente möglich ist.
+
+#### Verbesserungen
+| ID | Bereich | Beschreibung |
+| :----------- | :--------------- | :--------------- |
+| 44824 | Genehmigungsstatus | Problem behoben: Beim Weiterleiten eines Einkaufsangebots und der Umwandlung in eine Bestellung erhält die Bestellung nach der Umwandlung den Status „Abgelehnt“.
+| 44843 | Genehmigungsdokumente | Die Spalte „Aktueller Genehmiger“ wurde von der Seite „Genehmigungsdokumente“ entfernt. Der aktuelle Genehmiger wird in der Infobox pro Dokumentzeile angezeigt, nicht im Dokumentkopf.
+| 46130 | Importjournal | Problem bei der Artikelzuweisung – Zuweisung über den verfügbaren Betrag hinaus – behoben.
+| 46838, 46841 | Blob-Speicher | Problem mit dem ExFlow-Genehmigungsstatusverlauf und den Nachrechnungseinträgen behoben: Rückgabecode: 404. Der angegebene Blob existiert nicht.
+| 46892 | Kundenauftrag | Kundenauftragsimport – Problem „Benutzerdefinierte Adresse verwenden“ funktioniert nicht korrekt.
+| 46896 | Kundenauftrag | Kundenauftragsimport – Liefertermine werden nicht korrekt aktualisiert.
+| 47033 | Genehmigungsstatus | Keine Buchung bei Verwendung der Tastenkombination F9.
+| 47290 | Kundenauftrag | Nicht ausgefüllte Maßeinheit (Import) im ExFlow-Kundenauftragsimportdokument.
+| 47343 | Auftragsabgleich | Bestelleingang – Buchung einer Bestellung mit Artikelzuschlagszuordnung – „Kein Artikelposten gefunden“
+| 47792 | Kundenauftrag | Dynamische OCR-Zuordnung – ME-Zuordnungen gelten für alle Kunden. Problem behoben.
+| 48154 | Berechtigung | Berechtigungsfehler tritt auf, wenn der Benutzer nicht SUPER ist oder die Sicherheitsrolle beim Hinzufügen oder Ändern von ExFlow-Benutzern hat.
+| 48550 | AU-Lokalisierung | Problem behoben: Wenn eine Rechnung eine Zeile mit GST-100 (GST-Produktbuchungsgruppe) enthält, wird der Betrag in der Zeile beim Senden der Rechnung zur Genehmigung nicht berücksichtigt.
+| 48638 | Auftragsabgleich | Problem behoben, bei dem „Dokument überprüfen“ Bestellinformationen in Importzeilen nicht aktualisiert.
+
+<br/>
+Kleinere Fehlerbehebungen sind ebenfalls in dieser Version enthalten, werden aber nicht in den Versionshinweisen aufgeführt.
+<br/>
+
+
 ### ExFlow 25.0.0.0 – Versionshinweise <br/> 
 
 #### Art der Version

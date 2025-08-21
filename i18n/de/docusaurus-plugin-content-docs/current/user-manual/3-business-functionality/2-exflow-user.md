@@ -62,7 +62,7 @@ Der ExFlow-Benutzer wird als ''Gesperrt'' markiert, bis alle mit Stern gekennzei
 | **Kontakt-E-Mail:**                | Fügen Sie eine Kontakt-E-Mail hinzu, wenn ExFlow-Erinnerungen und -Benachrichtigungen an diese E-Mail anstelle der Authentifizierungs-E-Mail-Adresse gesendet werden sollen. <br/><br/> Kontakt-E-Mail ist ein optionales Feld.
 | **Sprachcode:**                | In welcher Sprache E-Mails gesendet werden
 | **Bevorzugter Genehmigungsclient:**    | Gibt an, ob der Hyperlink in den E-Mails für Erinnerungen und Nachrichten den Benutzer zu Business Central oder ExFlow Web führt
-| **Vollständiger Dokumentenzugriff:**         | Gibt an, ob der Benutzer Zugriff auf ExFlow-Dokumente in allen Unternehmen haben soll
+| **Vollständiger Dokumentenzugriff:**         | Gibt an, ob der Benutzer beim Ausführen des ExFlow-Berichts „Approval Follow-Up“ Zugriff auf ExFlow-Dokumente in allen Unternehmen haben soll.
 | **Systembenutzer:**                  | Gibt an, ob der ExFlow-Benutzer auch ein gültiger Systembenutzer ist.
 | **Systembenutzername:**             | Verbundener Systembenutzer.
 | **Vorheriger Systembenutzername:**    | Wenn der verbundene Systembenutzer geändert wird, zeigt dieses Feld den vorherigen Wert an

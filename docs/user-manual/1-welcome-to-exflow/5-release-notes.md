@@ -6,6 +6,47 @@ custom_edit_url: null
 ---
 ## Release Notes
 
+Partners can always access our Pre-Release Notes in [PRM](https://partners.signupsoftware.com/px/-/BC-exflow-ap) to review key details prior to the official release.
+
+### ExFlow 25.1.0.0 – Release Notes <br/> 
+
+#### Type of Release
+Minor Release
+
+#### Release Date
+2025-08-21
+
+#### Release Information
+Requires BC 25.0 or later 
+
+#### New Features
+| ID | Area | Description |
+| :----------- | :-------------- | :-------------- | 
+| 43184 | Deleted Documents | User that clicks on comment notification gets error regarding no access to deleted documents
+
+
+#### Enhancements
+| ID | Area | Description |
+| :----------- | :-------------- | :-------------- | 
+| 44824 | Approval Status | Fixed issue when forwarding purchase quote and convert to purchase order - Purchase order gets status rejected after conversion
+| 44843 | Approval Documents | Column Current Approver is removed from Approval Documents page. Current Approver is shown in FactBox per document line, not on document header.
+| 46130 | Import Journal | Issue when working with Item Assignment - Assigning over the available amount, is resolved
+| 46838, 46841 | Blob Storage | Resolved issue for ExFlow Approval Status History and Re-Invoicing Entries: Returncode: 404 The specified blob does not exist.
+| 46892 | Sales Order | Sales Order Import - Use Custom Address not working correctly is now resolved
+| 46896 | Sales Order | Sales Order Import - Line Delivery Dates not updating correctly is now resolved
+| 47033 | Approval Status | No posting is done when using shortcut commando F9 is now resolved
+| 47290 | Sales Order | Unit of measure (import) not populated in ExFlow Sales order import document is now fixed
+| 47343 | Order Matching | Purchase Order Receiving - Posting PO with Item Charge Assignment - "No Item Ledger Entry Found"
+| 47792 | Sales Order | Dynamic OCR Mapping - UoM Mappings applies to all customers is now resolved
+| 48154 | Permission | Permission Error occurs if user is not SUPER or having Security role when adding or modifying ExFlow users
+| 48550 | AU localization | Resolved issue when an invoice has a line with GST-100 (GST Prod. Posting Group) the amount in the line is not considered when sending the invoice for approval
+| 48638 | Order Matching | Corrected issue when Verify Document doesn't update order information on import lines
+
+<br/> 
+Minor bug corrections are also handled in this release but not listed in the release notes.
+<br/>
+
+
 ### ExFlow 25.0.0.0 – Release Notes <br/> 
 
 #### Type of Release

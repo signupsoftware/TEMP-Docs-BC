@@ -205,7 +205,7 @@ Send email if a quote is rejected.
 
 
 ### Rejected Invoice/Credit
-Send email if invoice or credit memo is rejected.
+Send email to selected system user, if invoice or credit memo is rejected, so it can be handled.
 
 | General |  | 
 |:-|:-|

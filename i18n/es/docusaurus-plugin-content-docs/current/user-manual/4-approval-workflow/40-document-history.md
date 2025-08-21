@@ -92,4 +92,6 @@ Si se crea un documento en ExFlow pero aún no se ha publicado, es posible elimi
 
 Y si una Factura de Compra o Nota de Crédito de Compra se desmarca para Aprobación, el Documento de ExFlow se eliminará y la información se guardará en Documentos Eliminados de ExFlow.
 
+Haga clic en "Tipo de documento" para abrir la tarjeta de documento eliminado y revisar los detalles.
+
 ![Documentos Eliminados de ExFlow](@site/static/img/media/image322.png)

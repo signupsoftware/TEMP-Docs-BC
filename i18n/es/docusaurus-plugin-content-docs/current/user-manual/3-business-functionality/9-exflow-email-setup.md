@@ -198,8 +198,8 @@ Enviar un correo electrónico si una cotización es rechazada.
 <br/><br/>
 
 
-### Factura/Crédito Rechazada
-Enviar un correo electrónico si una factura o nota de crédito es rechazada.
+### Factura/Crédito Rechazado
+Envía un correo electrónico al usuario del sistema seleccionado si se rechaza la factura o la nota de crédito para que pueda gestionarse.
 
 | General |  | 
 |:-|:-|

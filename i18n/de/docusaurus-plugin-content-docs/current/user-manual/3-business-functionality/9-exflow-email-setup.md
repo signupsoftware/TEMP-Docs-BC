@@ -192,7 +192,7 @@ Senden Sie eine E-Mail, wenn ein Angebot abgelehnt wird.
 <br/><br/>
 
 ### Abgelehnte Rechnung/Gutschrift
-Senden Sie eine E-Mail, wenn eine Rechnung oder Gutschrift abgelehnt wird.
+Bei Ablehnung einer Rechnung oder Gutschrift wird eine E-Mail an den ausgewählten Systembenutzer gesendet, damit dieser die Angelegenheit bearbeiten kann.
 
 | Allgemein |  | 
 |:-|:-|

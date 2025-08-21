@@ -148,7 +148,7 @@ Las características anteriores también se pueden utilizar a nivel de proveedor
 |Coincidir Documentos Con| 	Especifica si ExFlow debe coincidir y recuperar líneas de Recibos/Envíos Publicados, o de Órdenes y Recibos/Envíos.
 |Publicar Recibos y Envíos Automáticamente|Especifica si las líneas de la Orden de Compra de cada tipo de línea deben recibirse automáticamente cuando la factura coincidente esté lista para "Publicar". Esta opción solo es aplicable si la configuración "Coincidir Documentos Con" está configurada como "Orden y Recibo". <br/><br/>Al ejecutar Verificar Cambios en el Estado de Aprobación, el recibo de las líneas coincidentes de la orden de compra se publicará en la Fecha del Documento de la Factura. <br/> La Fecha de IVA en la cabecera de la orden de compra y las Fechas de Publicación de Diferimiento en las líneas de la orden de compra se actualizarán automáticamente si la fecha de publicación de la orden de compra es diferente a la Fecha de Publicación de la Factura. <br/> Si tanto la orden de compra como la Factura tienen la misma fecha de publicación al ejecutar Verificar Cambios, no habrá actualizaciones en la orden de compra. <br/>La Fecha de Publicación de la orden de compra también se actualizará si está en blanco. (Configuración de Compras y Pagos - Fecha de Publicación Predeterminada = Sin Fecha)
 |Recuperar Líneas Automáticamente|Recuperar automáticamente todas las líneas disponibles de la Orden de Compra o del Recibo de Compra Publicado al coincidir a nivel de cabecera.
-|Copiar valores de cabecera a Factura/Nota de Crédito|Activar campos para transferir de la Orden de Compra a la Factura (O de la Orden de Devolución de Compra a la Nota de Crédito) en el Diario de Importación al usar la coincidencia de órdenes a nivel de cabecera. Los valores seleccionados se pueden encontrar y actualizar en Relacionado --> Avanzado --> Configuración de valores de cabecera de la OC en la Factura.
+|Copiar valores de cabecera a Factura/Nota de Crédito|Activar campos para transferir de la Orden de Compra a la Factura (O de la Orden de Devolución de Compra a la Nota de Crédito) en el Diario de Importación al usar la coincidencia de órdenes a nivel de cabecera. Los valores seleccionados se pueden encontrar y actualizar en Relacionado --> Avanzado --> Copiar valores de encabezado a la configuración de factura/nota de crédito.
 
 ### Aprobación Automática
 | Aprobación Automática|   | 
@@ -357,7 +357,7 @@ Lea más sobre esto en [**Vista del Comprador**](https://docs.signupsoftware.com
 Con la nueva Función de Coincidencia de Órdenes, la interfaz de usuario del Diario de Importación ha cambiado en forma de nuevas opciones de filtro. 
 
 En el encabezado del Diario de Importación, AP puede filtrar en: 
-* Documentos con Códigos de Excepción agregados por el Comprador a través de ''Filtrar Documentos con Excepción de Orden'' Lea más sobre esto en [**Vista del Comprador**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view)
+* Documentos con Códigos de Excepción agregados por el Comprador a través de ''Filtrar Documentos con Excepción de Orden''. Lea más sobre esto en [**Vista del Comprador**](https://docs.signupsoftware.com/business-central/docs/user-manual/approval-workflow/purchaser-view)
 * Tipos de Error de Coincidencia de Órdenes a través de ''Filtro de Error''
 * Estado del documento a través de ''Filtro de Documento''
 
