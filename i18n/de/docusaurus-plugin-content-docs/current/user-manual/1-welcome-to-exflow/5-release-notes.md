@@ -40,6 +40,7 @@ Erfordert BC 25.0 oder höher
 | 48154 | Berechtigung | Berechtigungsfehler tritt auf, wenn der Benutzer nicht SUPER ist oder die Sicherheitsrolle beim Hinzufügen oder Ändern von ExFlow-Benutzern hat.
 | 48550 | AU-Lokalisierung | Problem behoben: Wenn eine Rechnung eine Zeile mit GST-100 (GST-Produktbuchungsgruppe) enthält, wird der Betrag in der Zeile beim Senden der Rechnung zur Genehmigung nicht berücksichtigt.
 | 48638 | Auftragsabgleich | Problem behoben, bei dem „Dokument überprüfen“ Bestellinformationen in Importzeilen nicht aktualisiert.
+| 48263 | Importjournal | Problem behoben: Wenn der Lieferant Preise inklusive Mehrwertsteuer festgelegt hat und die Kodierung mit einer separaten Mehrwertsteuerzeile erfolgte, wurde der Betrag inklusive Mehrwertsteuer in der Zeile auf Null gesetzt.
 
 <br/>
 Kleinere Fehlerbehebungen sind ebenfalls in dieser Version enthalten, werden aber nicht in den Versionshinweisen aufgeführt.
