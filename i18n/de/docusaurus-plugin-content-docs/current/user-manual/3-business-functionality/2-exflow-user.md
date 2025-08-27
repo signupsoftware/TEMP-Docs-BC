@@ -123,7 +123,7 @@ Geben Sie die ExFlow-Benutzerberechtigung unter ''Berechtigungen'' an.
 | **Maximaler Betrag für endgültige Genehmigung:**    | Gibt den maximalen Genehmigungsbetrag für den ausgewählten Genehmiger an. Gilt nur, wenn der Benutzer der letzte Genehmiger in einem Genehmigungsfluss ist
 | **Gesperrt:**                          | Wenn der Genehmiger gesperrt ist. Lesen Sie mehr unter [***Genehmiger verlässt das Unternehmen***.](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/exflow-user#approver-leaving-the-company)
 |**Zugriff auf vertrauliche Dokumente**|  Gibt an, ob der Benutzer Zugriff auf vertrauliche Dokumente hat oder nicht. Lesen Sie mehr unter [***Vertrauliche Dokumente***.](https://docs.signupsoftware.com/business-central/docs/user-manual/business-functionality/confidental-documents#confidential-documents)
-|**E-Mail-Setup prüfen**| Gibt an, ob im Rollencenter eine Benachrichtigung für den zugehörigen Systembenutzer angezeigt werden soll, wenn das E-Mail-Setup/Konto fehlt.
+|**E-Mail-Einrichtung prüfen**| Aktivieren Sie die Prüfung der E-Mail-Einrichtung. Wenn diese Option aktiviert ist, wird dem zugehörigen Systembenutzer im Rollencenter (im Standardunternehmen) eine Benachrichtigung angezeigt, wenn die E-Mail-Einrichtung/das Konto fehlt. Dies gilt für Kunden mit Sicherheitsgruppen. Diese Funktion verbessert die Leistung für Kunden mit Sicherheitsgruppen.
 
 
 ### Standard-Setup für ExFlow-Benutzer hinzufügen
