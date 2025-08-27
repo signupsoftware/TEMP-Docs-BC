@@ -40,6 +40,7 @@ Requiere BC 25.0 o posterior
 | 48154 | Permiso | Se produce un error de permiso si el usuario no es SUPER o no tiene rol de seguridad al agregar o modificar usuarios de ExFlow.
 | 48550 | Localización AU | Se solucionó el problema cuando una factura tiene una línea con GST-100 (Grupo de contabilización de producto GST). El importe de la línea no se tiene en cuenta al enviar la factura para su aprobación.
 | 48638 | Conciliación de pedidos | Se corrigió el problema cuando Verificar documento no actualiza la información del pedido en las líneas de importación.
+| 48263 | Diario de importación | Se resolvió el problema cuando el proveedor configuraba precios con IVA incluido y la codificación se realizaba con una línea de IVA separada, el monto con IVA incluido en la línea se establecía en cero.
 
 <br/>
 En esta versión también se han corregido errores menores, pero no se incluyen en las notas de la versión.

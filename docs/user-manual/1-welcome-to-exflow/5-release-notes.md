@@ -41,6 +41,8 @@ Requires BC 25.0 or later
 | 48154 | Permission | Permission Error occurs if user is not SUPER or having Security role when adding or modifying ExFlow users
 | 48550 | AU localization | Resolved issue when an invoice has a line with GST-100 (GST Prod. Posting Group) the amount in the line is not considered when sending the invoice for approval
 | 48638 | Order Matching | Corrected issue when Verify Document doesn't update order information on import lines
+| 48263 | Import Journal | Resolved issue when the Vendor have setting Prices including VAT, and coding was done with a separate VAT line, the amount including vat on line was set to zero.
+ 
 
 <br/> 
 Minor bug corrections are also handled in this release but not listed in the release notes.
