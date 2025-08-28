@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   # EA 2024-01-29 REmoving this
   #  branches:
-  #    - main
+  #    - main 
 
 jobs:
   build_and_deploy_job:
